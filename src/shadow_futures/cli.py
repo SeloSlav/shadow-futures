@@ -157,8 +157,8 @@ def cmd_plot_mi(args: argparse.Namespace) -> int:
     
     # Print summary statistics with std
     print("\n=== Mutual Information Summary ===")
-    print(f"R = 'ever rewarded by time T' (binary). MI in bits (log2).")
-    print(f"Note: When lambda=0, MI should be ~0; positive values reflect estimator bias.")
+    print(f"R = 'received >= 2 rewards by time T' (binary). MI in bits (log2).")
+    print(f"Note: When lambda=0, MI should be ~0; positive values reflect sampling variation.")
     print(f"\nLargest T = {result.T_values[-1]} (n_runs={result.n_runs_per_point}):")
     for i, alpha in enumerate(result.alphas):
         for j, lam in enumerate(result.lambdas):

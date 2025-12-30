@@ -45,9 +45,9 @@ The model isolates a single mechanism: path-dependent reinforcement. The results
 
 ## Technical Notes
 
-**Mutual information definition.** R is defined as "ever rewarded by time T" (binary indicator). MI is measured in bits (log base 2).
+**Mutual information definition.** R is defined as "received >= 2 rewards by time T" (binary indicator). Using threshold >= 2 instead of "ever rewarded" provides a more stable outcome variable that reduces early-entry artifacts. MI is measured in bits (log base 2).
 
-**Estimator bias.** When lambda=0, transcripts are independent of allocation state, so I(V;R) should theoretically be zero. Small positive values in the output (typically 0.001-0.02 bits) reflect finite-sample bias in the plug-in estimator. This is not a bug. The CLI reports mean and standard deviation across runs to make this variance visible.
+**Estimator bias.** MI is estimated with a plug-in estimator on finite samples. When lambda=0, transcripts are independent of allocation state, so I(V;R) should theoretically be zero. Small positive values reflect sampling variation and should shrink as the number of runs or agents increases. The CLI reports mean and standard deviation across runs to make this variance visible.
 
 ## Installation
 

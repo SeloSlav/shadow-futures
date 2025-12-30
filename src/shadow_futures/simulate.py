@@ -59,7 +59,6 @@ def run_shadow_futures_experiment(
     n_simulations: int = 100,
     base_seed: int = 42,
     lambda_effect: float = 0.0,
-    p_high: float = 0.5,
 ) -> ShadowFuturesResult:
     """
     Demonstrate shadow futures for a focal agent.
@@ -71,6 +70,11 @@ def run_shadow_futures_experiment(
     the focal agent sometimes succeeds and sometimes fails, purely due to
     different realizations of the path-dependent process.
     
+    Note:
+        All agents are assigned transcript=0 (p_high=0.0) to ensure the
+        statement "identical transcript across simulations" is literally true.
+        Transcript heterogeneity is only used in the MI experiment.
+    
     Args:
         T: Number of time steps
         alpha: Path dependence exponent
@@ -78,8 +82,7 @@ def run_shadow_futures_experiment(
         focal_agent_index: Which agent to track (0 = first entrant)
         n_simulations: Number of simulations to run
         base_seed: Base random seed (each sim uses base_seed + i)
-        lambda_effect: Local work effect weight
-        p_high: Probability of high transcript
+        lambda_effect: Local work effect weight (typically 0 for this demo)
     
     Returns:
         ShadowFuturesResult with divergent outcome statistics
@@ -87,12 +90,13 @@ def run_shadow_futures_experiment(
     reward_counts = []
     
     for i in range(n_simulations):
+        # Force p_high=0.0 so all agents have transcript=0 (identical work)
         result = simulate_single_run(
             T=T,
             alpha=alpha,
             A0=A0,
             lambda_effect=lambda_effect,
-            p_high=p_high,
+            p_high=0.0,  # All transcripts = 0
             seed=base_seed + i,
         )
         
@@ -105,9 +109,8 @@ def run_shadow_futures_experiment(
     n_rewarded = np.sum(reward_counts > 0)
     n_unrewarded = n_simulations - n_rewarded
     
-    # Get transcript from any simulation (identical across seeds for same index)
-    sample_result = simulate_single_run(T=T, alpha=alpha, A0=A0, seed=base_seed)
-    transcript = sample_result.agents[focal_agent_index].transcript if focal_agent_index < len(sample_result.agents) else 0
+    # Transcript is explicitly 0 for all agents in all runs
+    transcript = 0
     
     return ShadowFuturesResult(
         focal_agent_index=focal_agent_index,
@@ -121,7 +124,6 @@ def run_shadow_futures_experiment(
             "alpha": alpha,
             "A0": A0,
             "lambda_effect": lambda_effect,
-            "p_high": p_high,
             "base_seed": base_seed,
         },
     )
@@ -145,10 +147,11 @@ class MIExperimentResult:
         n_runs_per_point: Number of runs averaged per data point
     
     Note:
-        R is defined as "ever rewarded by time T" (binary indicator).
+        R is defined as "received >= 2 rewards by time T" (binary indicator).
+        Using threshold >= 2 reduces early-entry artifacts.
         MI is measured in bits (log base 2).
         When lambda=0, MI should be approximately zero; small positive
-        values reflect finite-sample estimator bias.
+        values reflect finite-sample sampling variation.
     """
     T_values: np.ndarray
     alphas: np.ndarray
@@ -180,8 +183,9 @@ def run_mi_experiment(
     and lambda (local work effect). For each combination, runs multiple
     simulations and computes average MI between transcripts and rewards.
     
-    Key prediction: For alpha >= 1 and lambda < 1, MI decreases with T.
-    Even when work has a local effect, path dependence dominates as T grows.
+    Key qualitative behavior: For alpha >= 1 and lambda < 1, MI tends to
+    shrink as T increases, while concentration increases. Finite-sample
+    fluctuations may cause non-monotonicity in small experiments.
     
     Args:
         T_values: List of T values to test
@@ -219,8 +223,6 @@ def run_mi_experiment(
     gini_matrix = np.zeros((n_T, n_alpha, n_lambda))
     gini_std_matrix = np.zeros((n_T, n_alpha, n_lambda))
     
-    seed_counter = base_seed
-    
     for i_T, T in enumerate(T_values):
         for i_a, alpha in enumerate(alphas):
             for i_l, lam in enumerate(lambdas):
@@ -229,6 +231,9 @@ def run_mi_experiment(
                 gini_vals = []
                 
                 for run in range(n_runs):
+                    # Use same run seeds across parameter cells for fair comparison
+                    # Each run uses base_seed + run, independent of parameter indices
+                    seed = base_seed + run
                     result = simulate_single_run(
                         T=T,
                         alpha=alpha,
@@ -237,9 +242,8 @@ def run_mi_experiment(
                         p_high=p_high,
                         v_low=v_low,
                         v_high=v_high,
-                        seed=seed_counter,
+                        seed=seed,
                     )
-                    seed_counter += 1
                     
                     mi_vals.append(compute_mi_from_result(result))
                     conc_vals.append(compute_concentration(result.agents, k=1))

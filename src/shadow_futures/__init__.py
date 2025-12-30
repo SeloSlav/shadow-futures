@@ -23,6 +23,7 @@ from shadow_futures.metrics import (
     estimate_mutual_information,
     compute_concentration,
     compute_gini,
+    compute_reward_thresholded,
 )
 
 __all__ = [
@@ -34,5 +35,6 @@ __all__ = [
     "estimate_mutual_information",
     "compute_concentration",
     "compute_gini",
+    "compute_reward_thresholded",
 ]
 

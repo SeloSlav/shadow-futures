@@ -54,11 +54,12 @@ class TestPreferentialAttachmentProcess:
         result = process.run()
         
         # Check that each agent's attachment only increases over time
-        # attachment_history is a 2D array: [time, agent_id], padded with 0 for not-yet-entered
+        # attachment_history is a 2D array: [time_step, agent_id]
+        # Agent i enters at entry_time=i (0-indexed), history[i] is first snapshot
         for agent_id in range(min(20, len(result.agents))):
             entry_time = result.agents[agent_id].entry_time
             prev_attachment = result.A0
-            for t in range(entry_time, result.T):
+            for t in range(entry_time, len(result.attachment_history)):
                 current = result.attachment_history[t, agent_id]
                 assert current >= prev_attachment, \
                     f"Agent {agent_id} attachment decreased at t={t}"

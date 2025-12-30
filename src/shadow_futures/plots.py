@@ -361,16 +361,17 @@ def plot_single_run_dynamics(
     
     # Left: Attachment trajectories over time
     ax1 = axes[0]
-    history = result.attachment_history  # 2D array: [time, agent_id]
+    history = result.attachment_history  # 2D array: [time_step, agent_id]
     
     # Plot trajectories for first 20 agents
     n_show = min(20, len(result.agents))
     for i in range(n_show):
-        # Extract attachment for agent i over time (agent enters at t=i)
+        # Agent i enters at entry_time, history[entry_time] is first snapshot
         entry_time = result.agents[i].entry_time
         traj = history[entry_time:, i]
         if len(traj) > 0:
-            times = list(range(entry_time + 1, entry_time + 1 + len(traj)))
+            # Time axis: entry_time is step 0 for this agent, +1 for display
+            times = list(range(entry_time, entry_time + len(traj)))
             alpha_val = 0.3 + 0.7 * (result.agents[i].total_rewards / max(1, result.T))
             ax1.plot(times, traj, alpha=alpha_val, linewidth=1.5)
     

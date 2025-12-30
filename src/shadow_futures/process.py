@@ -151,6 +151,11 @@ class PreferentialAttachmentProcess:
         If lambda_effect > 0, combines local work effect with PA:
             p_i = lambda * h(V_i) + (1-lambda) * f(state)
         where h maps transcript to its value and f is the PA probability.
+        
+        Implementation note: The paper defines the mixture pointwise for a
+        single agent. In code, we implement the corresponding mixture of
+        normalized choice distributions across agents, then renormalize.
+        This ensures a valid probability distribution over the agent set.
         """
         n = len(self.agents)
         if n == 0:
@@ -196,16 +201,15 @@ class PreferentialAttachmentProcess:
     def step(self) -> int:
         """
         Execute one time step:
-        1. Add new agent(s)
+        1. Add new agent(s) at current_time
         2. Allocate reward
-        3. Update state
+        3. Track history
+        4. Advance time
         
         Returns:
             Winner's agent_id
         """
-        self.current_time += 1
-        
-        # Add new agents
+        # Add new agents at current time (entry_time = current_time)
         for _ in range(self.entry_rate):
             self._add_agent()
         
@@ -213,10 +217,13 @@ class PreferentialAttachmentProcess:
         winner_id = self._allocate_reward()
         self.reward_history.append(winner_id)
         
-        # Track history if requested
+        # Track history (index aligns with current_time)
         if self.track_history:
             attachments = np.array([a.attachment for a in self.agents])
             self.attachment_history.append(attachments.copy())
+        
+        # Advance time after all operations
+        self.current_time += 1
         
         return winner_id
     

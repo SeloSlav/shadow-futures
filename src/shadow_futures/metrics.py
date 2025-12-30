@@ -18,7 +18,6 @@ from shadow_futures.process import AgentState, SimulationResult
 def estimate_mutual_information(
     transcripts: np.ndarray,
     rewards: np.ndarray,
-    epsilon: float = 1e-10,
 ) -> float:
     """
     Estimate mutual information I(V;R) using plug-in estimator.
@@ -26,21 +25,19 @@ def estimate_mutual_information(
     Uses the standard formula:
         I(V;R) = sum_{v,r} p(v,r) * log2(p(v,r) / (p(v) * p(r)))
     
-    Both V and R are assumed discrete. For rewards, we typically use
-    a binary indicator (received any reward vs. none).
+    Both V and R are assumed discrete.
     
     Args:
         transcripts: Array of discrete transcript values (e.g., 0 or 1)
         rewards: Array of discrete reward outcomes (e.g., 0 or 1)
-        epsilon: Small constant to avoid log(0)
     
     Returns:
-        Estimated mutual information in bits
+        Estimated mutual information in bits (log base 2)
     
     Note:
-        This is a plug-in estimator which can be biased for small samples.
-        The bias is O(1/N) where N is sample size. For demonstration
-        purposes with large N, this is acceptable.
+        This is a plug-in estimator with positive bias O(1/N) for small
+        samples. When V and R are independent, small positive MI values
+        reflect sampling variation and should shrink as N increases.
     """
     n = len(transcripts)
     if n == 0:
@@ -49,28 +46,19 @@ def estimate_mutual_information(
     if len(rewards) != n:
         raise ValueError("transcripts and rewards must have same length")
     
-    # Get unique values
     v_vals = np.unique(transcripts)
     r_vals = np.unique(rewards)
     
-    # Compute marginal probabilities
-    p_v = {}
-    for v in v_vals:
-        p_v[v] = np.mean(transcripts == v)
-    
-    p_r = {}
-    for r in r_vals:
-        p_r[r] = np.mean(rewards == r)
-    
-    # Compute joint probabilities and MI
     mi = 0.0
     for v in v_vals:
+        p_v = np.mean(transcripts == v)
         for r in r_vals:
+            p_r = np.mean(rewards == r)
             p_vr = np.mean((transcripts == v) & (rewards == r))
-            if p_vr > epsilon:
-                mi += p_vr * np.log2((p_vr + epsilon) / (p_v[v] * p_r[r] + epsilon))
+            if p_vr > 0:
+                mi += p_vr * np.log2(p_vr / (p_v * p_r))
     
-    return max(0.0, mi)  # MI is non-negative; clamp numerical errors
+    return float(max(0.0, mi))  # MI is non-negative; clamp numerical errors
 
 
 def compute_concentration(
@@ -157,29 +145,59 @@ def compute_ever_rewarded(agents: Sequence[AgentState]) -> np.ndarray:
     return np.array([1 if a.total_rewards > 0 else 0 for a in agents])
 
 
-def compute_mi_from_result(result: SimulationResult) -> float:
+def compute_reward_thresholded(
+    agents: Sequence[AgentState],
+    threshold: int = 2,
+) -> np.ndarray:
+    """
+    Compute binary indicator of whether each agent received >= threshold rewards.
+    
+    Using threshold >= 2 (instead of > 0) provides a more stable outcome
+    variable for MI estimation, because it reduces "everyone gets at least
+    one hit early" artifacts in reinforcement processes.
+    
+    Args:
+        agents: Sequence of AgentState objects
+        threshold: Minimum reward count to be considered "rewarded"
+    
+    Returns:
+        Binary array where 1 = received at least threshold rewards
+    """
+    return np.array([1 if a.total_rewards >= threshold else 0 for a in agents])
+
+
+def compute_mi_from_result(
+    result: SimulationResult,
+    reward_threshold: int = 2,
+) -> float:
     """
     Compute mutual information I(V;R) between transcripts and reward status.
     
-    R is defined as "ever rewarded by time T" (binary: 0 or 1).
+    R is defined as "received >= reward_threshold rewards by time T" (binary).
     V is the discrete work transcript (typically 0=low or 1=high).
     
-    This is the key metric: I(V;R) should collapse toward 0 as T grows
-    when alpha >= 1 and lambda < 1.
+    Using threshold >= 2 (default) provides a more stable outcome variable
+    than "ever rewarded" (threshold=1), because it reduces artifacts from
+    early-entry agents who get lucky once but never again.
+    
+    Key qualitative behavior: I(V;R) tends to shrink as T grows when
+    alpha >= 1 and lambda < 1. Finite-sample fluctuations may cause
+    non-monotonicity in small experiments.
     
     Note:
         When lambda=0, V is independent of allocation state, so I(V;R)
-        should theoretically be zero. Small positive values (0.001-0.02 bits)
-        reflect finite-sample bias in the plug-in estimator.
+        should theoretically be zero. Small positive values reflect
+        finite-sample bias in the plug-in estimator.
     
     Args:
         result: SimulationResult from a simulation run
+        reward_threshold: Minimum rewards to count as "rewarded" (default: 2)
     
     Returns:
         Mutual information in bits (log base 2)
     """
     transcripts = np.array([a.transcript for a in result.agents])
-    rewards = compute_ever_rewarded(result.agents)
+    rewards = compute_reward_thresholded(result.agents, threshold=reward_threshold)
     return estimate_mutual_information(transcripts, rewards)
 
 
