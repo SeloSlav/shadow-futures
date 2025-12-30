@@ -5,7 +5,7 @@ lambda_effect,0.0
 seed,42
 n_agents,100
 total_rewards,100
-mi_v_r,0.006023024046423492
+mi_v_r,0.000910413037916542
 top_1_share,0.23
 top_10_share,0.9
 gini,0.9261999999999999
