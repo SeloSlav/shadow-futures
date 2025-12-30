@@ -1,0 +1,2 @@
+[console_scripts]
+shadow-futures = shadow_futures.cli:main

@@ -1,0 +1,282 @@
+Metadata-Version: 2.4
+Name: shadow-futures
+Version: 0.1.0
+Summary: Demonstration of shadow futures: why verifiable work cannot signal value in path-dependent economies
+Author: Martin Erlic
+License: MIT
+Keywords: path-dependence,preferential-attachment,economics,simulation
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.24.0
+Requires-Dist: matplotlib>=3.7.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Dynamic: license-file
+
+# Shadow Futures
+
+**Demonstrating why verifiable work cannot signal value in path-dependent economies.**
+
+This repository provides a minimal, reproducible Python implementation of the theoretical framework from the paper *"Shadow Futures: Why Verifiable Work Cannot Signal Value in Path-Dependent Economies"* by Martin Erlic.
+
+## Key Concepts
+
+### The Problem
+In economies with preferential attachment (increasing returns to scale), work verification fails as a signal of value—not because of measurement error, but because of structural properties of path dependence.
+
+### Shadow Futures
+For every realized success, there exist many unrealized but **observationally indistinguishable** effort trajectories that failed due solely to unfavorable timing or network position. These "shadow futures" demonstrate that:
+
+- **Identical verified work can produce divergent outcomes**
+- **Success cannot be causally attributed to work**
+- **Mutual information between work and reward collapses as systems grow**
+
+### The Model
+```
+Pr(R_i = 1 | A(t)) = A_i(t)^α / Σ_j A_j(t)^α
+```
+
+Where:
+- `A_i(t)` = cumulative attachment (rewards received + initial `A0`)
+- `α` = path dependence exponent (α ≥ 1 implies increasing returns)
+- Work is perfectly verifiable but informationally non-identifying
+
+## Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/shadow-futures.git
+cd shadow-futures
+
+# Create virtual environment (recommended)
+python -m venv venv
+source venv/bin/activate  # Linux/macOS
+# or: venv\Scripts\activate  # Windows
+
+# Install in development mode
+pip install -e ".[dev]"
+```
+
+### Requirements
+- Python 3.11+ (tested with 3.13)
+- numpy >= 1.24.0
+- matplotlib >= 3.7.0
+- pytest >= 7.0.0 (for development)
+
+## USAGE
+
+### Quick Start
+
+```bash
+# Run shadow futures demonstration (creates figures/shadow_futures.png)
+python -m shadow_futures shadow-futures
+
+# Run with custom parameters
+python -m shadow_futures shadow-futures --T 200 --alpha 2.0 --n-simulations 1000
+
+# Generate mutual information collapse plots
+python -m shadow_futures plot-mi
+
+# Run a single simulation and output JSON
+python -m shadow_futures simulate --T 100 --alpha 1.5 --output figures/summary.json
+```
+
+### Command Reference
+
+#### `shadow-futures` — Demonstrate divergent outcomes from identical work
+
+```bash
+python -m shadow_futures shadow-futures [OPTIONS]
+
+Options:
+  --T INT              Time steps (default: 100)
+  --alpha FLOAT        Path dependence exponent (default: 1.5)
+  --focal-agent INT    Agent to track (default: 0)
+  --n-simulations INT  Number of runs (default: 500)
+  --seed INT           Base random seed (default: 42)
+  --output-dir PATH    Output directory (default: figures)
+```
+
+**Expected output:**
+```
+==================================================
+SHADOW FUTURES DEMONSTRATION
+==================================================
+
+Focal Agent 0:
+  Work transcript V = 0 (identical across all simulations)
+
+Outcomes across 500 simulations:
+  Rewarded:    156 (31.2%)
+  Unrewarded:  344 (68.8%)
+
+Reward count statistics:
+  Mean:   1.42
+  Std:    3.87
+  Min:    0
+  Max:    31
+  Median: 0
+```
+
+#### `plot-mi` — Generate mutual information collapse plots
+
+```bash
+python -m shadow_futures plot-mi [OPTIONS]
+
+Options:
+  --T-values LIST      Comma-separated T values (default: 50,100,200,500)
+  --alphas LIST        Comma-separated alphas (default: 0.0,0.5,1.0,1.5,2.0)
+  --lambdas LIST       Comma-separated lambdas (default: 0.0,0.1,0.3)
+  --n-runs INT         Runs per data point (default: 50)
+  --seed INT           Base random seed (default: 42)
+  --output-dir PATH    Output directory (default: figures)
+```
+
+**Expected output:**
+- `figures/mi_collapse_lambda_0.00.png` — MI vs T for λ=0
+- `figures/mi_collapse_lambda_0.10.png` — MI vs T for λ=0.1
+- `figures/mi_heatmap.png` — MI heatmap across α and λ
+
+#### `simulate` — Run single simulation with JSON output
+
+```bash
+python -m shadow_futures simulate [OPTIONS]
+
+Options:
+  --T INT              Time steps (default: 100)
+  --alpha FLOAT        Path dependence exponent (default: 1.0)
+  --lambda-effect FLOAT  Local work effect weight (default: 0.0)
+  --seed INT           Random seed (default: 42)
+  --output PATH        Output JSON file (default: stdout)
+```
+
+**Example output:**
+```json
+{
+  "T": 100,
+  "alpha": 1.5,
+  "lambda_effect": 0.0,
+  "seed": 42,
+  "n_agents": 100,
+  "total_rewards": 100,
+  "mi_v_r": 0.0023,
+  "top_1_share": 0.42,
+  "top_10_share": 0.87,
+  "gini": 0.71,
+  "fraction_ever_rewarded": 0.23
+}
+```
+
+### Running Tests
+
+```bash
+# Run all tests
+pytest
+
+# Run with verbose output
+pytest -v
+
+# Run specific test file
+pytest tests/test_process.py
+```
+
+### Python API
+
+```python
+from shadow_futures import (
+    simulate_single_run,
+    run_shadow_futures_experiment,
+    run_mi_experiment,
+    compute_metrics_summary,
+)
+
+# Run a single simulation
+result = simulate_single_run(T=100, alpha=1.5, seed=42)
+print(f"Top agent got {max(a.total_rewards for a in result.agents)} rewards")
+
+# Run shadow futures experiment
+sf_result = run_shadow_futures_experiment(
+    T=100,
+    alpha=1.5,
+    focal_agent_index=0,
+    n_simulations=500,
+    base_seed=42,
+)
+print(f"Rewarded: {sf_result.n_rewarded}/{sf_result.n_simulations}")
+
+# Run MI experiment
+mi_result = run_mi_experiment(
+    T_values=[50, 100, 200],
+    alphas=[0.0, 1.0, 2.0],
+    lambdas=[0.0, 0.1],
+    n_runs=20,
+)
+print(f"MI matrix shape: {mi_result.mi_matrix.shape}")
+```
+
+## Key Results
+
+### 1. Shadow Futures Exist
+For any focal agent with a fixed work transcript, running the same simulation with different random seeds produces a distribution of outcomes where:
+- Some runs result in high rewards
+- Most runs result in zero or few rewards
+- The variation is due **solely** to path dependence, not effort
+
+### 2. Mutual Information Collapses
+For `α ≥ 1` (preferential attachment with increasing returns):
+- `I(V; R) → 0` as `T → ∞`
+- Even with local work effects (`λ > 0`), path dependence dominates
+- Work verification confirms cost but not causation
+
+### 3. Winner-Take-All Dynamics
+- Top-1 share increases with `α`
+- Gini coefficient increases with `T`
+- Early advantages compound; late entry is penalized
+
+## Project Structure
+
+```
+shadow-futures/
+├── src/shadow_futures/
+│   ├── __init__.py      # Package exports
+│   ├── __main__.py      # Module entry point
+│   ├── process.py       # Core preferential attachment dynamics
+│   ├── simulate.py      # Simulation runners
+│   ├── metrics.py       # MI estimation, concentration metrics
+│   ├── plots.py         # Matplotlib visualization
+│   ├── cli.py           # Command-line interface
+│   └── run.py           # CLI entry point
+├── tests/
+│   ├── test_process.py  # Process invariant tests
+│   └── test_metrics.py  # Metrics correctness tests
+├── figures/             # Generated plots (created on first run)
+├── pyproject.toml       # Project configuration
+├── README.md            # This file
+└── LICENSE              # MIT License
+```
+
+## Citation
+
+If you use this code in your research, please cite:
+
+```bibtex
+@article{erlic2025shadow,
+  title={Shadow Futures: Why Verifiable Work Cannot Signal Value in Path-Dependent Economies},
+  author={Erlic, Martin},
+  year={2025}
+}
+```
+
+## License
+
+MIT License. See [LICENSE](LICENSE) for details.
+
