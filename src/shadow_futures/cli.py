@@ -2,21 +2,26 @@
 Command-line interface for shadow futures experiments.
 
 Provides three main commands:
-1. simulate: Run simulations and output summary JSON
-2. plot-mi: Generate mutual information collapse plots
-3. shadow-futures: Demonstrate shadow futures concept
+1. simulate: Run simulations and output summary JSON or CSV
+2. plot-mi: Generate mutual information collapse plots and CSV
+3. shadow-futures: Demonstrate shadow futures concept with CSV export
 """
 
 import argparse
+import csv
 import json
 import sys
 from pathlib import Path
+
+import numpy as np
 
 from shadow_futures.simulate import (
     run_single_simulation_summary,
     run_shadow_futures_experiment,
     run_mi_experiment,
+    simulate_single_run,
 )
+from shadow_futures.metrics import compute_metrics_summary
 from shadow_futures.plots import (
     plot_shadow_futures,
     plot_mi_collapse,
@@ -37,13 +42,59 @@ def cmd_simulate(args: argparse.Namespace) -> int:
         seed=args.seed,
     )
     
-    # Output to file or stdout
+    # Also get per-agent data if CSV requested
+    if args.csv:
+        result = simulate_single_run(
+            T=args.T,
+            alpha=args.alpha,
+            A0=args.A0,
+            lambda_effect=args.lambda_effect,
+            p_high=args.p_high,
+            seed=args.seed,
+        )
+        
+        fig_dir = ensure_figures_dir(args.output_dir)
+        
+        # Save summary CSV
+        summary_path = fig_dir / "simulation_summary.csv"
+        with open(summary_path, "w", newline="") as f:
+            writer = csv.writer(f)
+            writer.writerow(["metric", "value"])
+            for key, value in summary.items():
+                writer.writerow([key, value])
+        print(f"Summary CSV saved to: {summary_path}")
+        
+        # Save per-agent CSV
+        agents_path = fig_dir / "simulation_agents.csv"
+        with open(agents_path, "w", newline="") as f:
+            writer = csv.writer(f)
+            writer.writerow(["agent_id", "entry_time", "transcript", "total_rewards", "attachment"])
+            for agent in result.agents:
+                writer.writerow([
+                    agent.agent_id,
+                    agent.entry_time,
+                    agent.transcript,
+                    agent.total_rewards,
+                    agent.attachment,
+                ])
+        print(f"Per-agent CSV saved to: {agents_path}")
+        
+        # Save reward history CSV
+        history_path = fig_dir / "simulation_reward_history.csv"
+        with open(history_path, "w", newline="") as f:
+            writer = csv.writer(f)
+            writer.writerow(["time_step", "winner_agent_id"])
+            for t, winner in enumerate(result.reward_history):
+                writer.writerow([t + 1, winner])
+        print(f"Reward history CSV saved to: {history_path}")
+    
+    # Output JSON to file or stdout
     if args.output:
         ensure_figures_dir(str(Path(args.output).parent) or ".")
         with open(args.output, "w") as f:
             json.dump(summary, f, indent=2)
-        print(f"Summary written to {args.output}")
-    else:
+        print(f"Summary JSON written to {args.output}")
+    elif not args.csv:
         print(json.dumps(summary, indent=2))
     
     return 0
@@ -80,6 +131,26 @@ def cmd_plot_mi(args: argparse.Namespace) -> int:
     plot_mi_heatmap(result, T_idx=-1, output_path=str(heatmap_path))
     print(f"  Saved: {heatmap_path}")
     
+    # Save CSV if requested
+    if args.save_csv:
+        # Save MI results as CSV (long format for easy analysis)
+        mi_csv_path = fig_dir / "mi_experiment_results.csv"
+        with open(mi_csv_path, "w", newline="") as f:
+            writer = csv.writer(f)
+            writer.writerow(["T", "alpha", "lambda", "mutual_information", "top_1_concentration", "gini"])
+            for i_T, T in enumerate(result.T_values):
+                for i_a, alpha in enumerate(result.alphas):
+                    for i_l, lam in enumerate(result.lambdas):
+                        writer.writerow([
+                            T,
+                            alpha,
+                            lam,
+                            result.mi_matrix[i_T, i_a, i_l],
+                            result.concentration_matrix[i_T, i_a, i_l],
+                            result.gini_matrix[i_T, i_a, i_l],
+                        ])
+        print(f"  CSV saved: {mi_csv_path}")
+    
     # Print summary statistics
     print("\n=== Mutual Information Summary ===")
     print(f"Largest T = {result.T_values[-1]}:")
@@ -113,6 +184,45 @@ def cmd_shadow_futures(args: argparse.Namespace) -> int:
     output_path = fig_dir / "shadow_futures.png"
     plot_shadow_futures(result, output_path=str(output_path))
     
+    # Save CSV if requested
+    if args.save_csv:
+        # Save per-simulation results
+        sim_csv_path = fig_dir / "shadow_futures_simulations.csv"
+        with open(sim_csv_path, "w", newline="") as f:
+            writer = csv.writer(f)
+            writer.writerow(["simulation_id", "seed", "focal_agent_rewards", "focal_agent_rewarded"])
+            base_seed = result.parameters["base_seed"]
+            for i, reward_count in enumerate(result.reward_counts):
+                writer.writerow([
+                    i,
+                    base_seed + i,
+                    reward_count,
+                    1 if reward_count > 0 else 0,
+                ])
+        print(f"  Per-simulation CSV saved: {sim_csv_path}")
+        
+        # Save summary statistics
+        summary_csv_path = fig_dir / "shadow_futures_summary.csv"
+        with open(summary_csv_path, "w", newline="") as f:
+            writer = csv.writer(f)
+            writer.writerow(["metric", "value"])
+            writer.writerow(["focal_agent_index", result.focal_agent_index])
+            writer.writerow(["transcript", result.transcript])
+            writer.writerow(["n_simulations", result.n_simulations])
+            writer.writerow(["n_rewarded", result.n_rewarded])
+            writer.writerow(["n_unrewarded", result.n_unrewarded])
+            writer.writerow(["pct_rewarded", 100 * result.n_rewarded / result.n_simulations])
+            writer.writerow(["reward_mean", result.reward_counts.mean()])
+            writer.writerow(["reward_std", result.reward_counts.std()])
+            writer.writerow(["reward_min", result.reward_counts.min()])
+            writer.writerow(["reward_max", result.reward_counts.max()])
+            writer.writerow(["reward_median", np.median(result.reward_counts)])
+            writer.writerow(["T", result.parameters["T"]])
+            writer.writerow(["alpha", result.parameters["alpha"]])
+            writer.writerow(["A0", result.parameters["A0"]])
+            writer.writerow(["lambda_effect", result.parameters["lambda_effect"]])
+        print(f"  Summary CSV saved: {summary_csv_path}")
+    
     # Print textual summary
     print("\n" + "=" * 50)
     print("SHADOW FUTURES DEMONSTRATION")
@@ -127,7 +237,7 @@ def cmd_shadow_futures(args: argparse.Namespace) -> int:
     print(f"  Std:    {result.reward_counts.std():.2f}")
     print(f"  Min:    {result.reward_counts.min()}")
     print(f"  Max:    {result.reward_counts.max()}")
-    print(f"  Median: {int(result.reward_counts[len(result.reward_counts)//2])}")
+    print(f"  Median: {np.median(result.reward_counts):.0f}")
     
     print("\n" + "-" * 50)
     print("INTERPRETATION")
@@ -186,6 +296,8 @@ def main(argv: list[str] | None = None) -> int:
     sim_parser.add_argument("--p-high", type=float, default=0.5, help="Prob of high transcript (default: 0.5)")
     sim_parser.add_argument("--seed", type=int, default=42, help="Random seed (default: 42)")
     sim_parser.add_argument("--output", "-o", type=str, default=None, help="Output JSON file")
+    sim_parser.add_argument("--csv", action="store_true", help="Save detailed CSV files to output-dir")
+    sim_parser.add_argument("--output-dir", type=str, default="figures", help="Output directory for CSV (default: figures)")
     sim_parser.set_defaults(func=cmd_simulate)
     
     # === plot-mi command ===
@@ -216,6 +328,7 @@ def main(argv: list[str] | None = None) -> int:
     mi_parser.add_argument("--p-high", type=float, default=0.5, help="Prob of high transcript (default: 0.5)")
     mi_parser.add_argument("--seed", type=int, default=42, help="Base random seed (default: 42)")
     mi_parser.add_argument("--output-dir", type=str, default="figures", help="Output directory (default: figures)")
+    mi_parser.add_argument("--save-csv", action="store_true", help="Save results to CSV file")
     mi_parser.set_defaults(func=cmd_plot_mi)
     
     # === shadow-futures command ===
@@ -231,6 +344,7 @@ def main(argv: list[str] | None = None) -> int:
     sf_parser.add_argument("--lambda-effect", type=float, default=0.0, help="Local work effect (default: 0.0)")
     sf_parser.add_argument("--seed", type=int, default=42, help="Base random seed (default: 42)")
     sf_parser.add_argument("--output-dir", type=str, default="figures", help="Output directory (default: figures)")
+    sf_parser.add_argument("--save-csv", action="store_true", help="Save results to CSV files")
     sf_parser.set_defaults(func=cmd_shadow_futures)
     
     args = parser.parse_args(argv)
@@ -244,4 +358,3 @@ def main(argv: list[str] | None = None) -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
-

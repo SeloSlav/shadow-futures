@@ -1,0 +1,12 @@
+metric,value
+T,100
+alpha,1.5
+lambda_effect,0.0
+seed,42
+n_agents,100
+total_rewards,100
+mi_v_r,0.006023024046423492
+top_1_share,0.23
+top_10_share,0.9
+gini,0.9261999999999999
+fraction_ever_rewarded,0.2
