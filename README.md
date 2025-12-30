@@ -1,258 +1,123 @@
 # Shadow Futures
 
-**Demonstrating why verifiable work cannot signal value in path-dependent economies.**
+A minimal Python implementation demonstrating that verifiable work cannot reliably signal value in path-dependent economies.
 
-This repository provides a minimal, reproducible Python implementation of the theoretical framework from the paper *"Shadow Futures: Why Verifiable Work Cannot Signal Value in Path-Dependent Economies"* by Martin Erlic.
+## What Are Shadow Futures?
 
-## Key Concepts
+A **shadow future** is an unrealized outcome trajectory in which an agent performs identical verified work to a successful agent but fails to receive reward due solely to unfavorable timing or network position.
 
-### The Problem
-In economies with preferential attachment (increasing returns to scale), work verification fails as a signal of value — not because of measurement error, but because of structural properties of path dependence.
+In systems with preferential attachment, reward probability depends on accumulated position rather than marginal effort:
 
-### Shadow Futures
-For every realized success, there exist many unrealized but **observationally indistinguishable** effort trajectories that failed due solely to unfavorable timing or network position. These "shadow futures" demonstrate that:
-
-- **Identical verified work can produce divergent outcomes**
-- **Success cannot be causally attributed to work**
-- **Mutual information between work and reward collapses as systems grow**
-
-### The Model
 ```
-Pr(R_i = 1 | A(t)) = A_i(t)^α / Σ_j A_j(t)^α
+P(reward_i) = A_i(t)^alpha / sum_j A_j(t)^alpha
 ```
 
-Where:
-- `A_i(t)` = cumulative attachment (rewards received + initial `A0`)
-- `α` = path dependence exponent (α ≥ 1 implies increasing returns)
-- Work is perfectly verifiable but informationally non-identifying
+where `A_i(t)` is agent i's cumulative attachment at time t and `alpha >= 1` implies increasing returns.
+
+The existence of shadow futures means that observing a successful outcome does not identify the causal role of work. Identical work histories are compatible with both success and failure.
+
+## What This Code Demonstrates
+
+This repository provides empirical demonstrations of three claims from the paper:
+
+1. **Divergent outcomes from identical work.** Running simulations with identical parameters but different random seeds shows that a focal agent with the same verified work transcript sometimes succeeds and sometimes fails.
+
+2. **Mutual information collapse.** The mutual information between work transcripts and realized rewards decreases as system size grows and path dependence strengthens.
+
+3. **Concentration dynamics.** Rewards concentrate among early entrants as the preferential attachment exponent increases.
+
+![Shadow Futures Demonstration](figures/shadow_futures.png)
+
+*Left: Distribution of reward counts for a focal agent across 500 simulations with identical work. Right: Fraction of simulations where the agent received any reward vs none.*
+
+![Mutual Information Collapse](figures/mi_collapse_lambda_0.00.png)
+
+*Mutual information between work transcripts and rewards as a function of system size T, for different values of alpha. Higher alpha leads to faster concentration and lower MI.*
+
+## What This Code Does Not Claim
+
+- It does not claim that work has no local effect on outcomes.
+- It does not claim that early effort is irrelevant.
+- It does not make normative claims about fairness or desert.
+- It does not model strategic behavior, heterogeneous skills, or external shocks.
+
+The model isolates a single mechanism: path-dependent reinforcement. The results show that even under ideal conditions (perfect verification, identical effort), work cannot be identified as the cause of success once allocation is dominated by network position.
 
 ## Installation
 
 ```bash
-# Clone the repository
-git clone https://github.com/your-username/shadow-futures.git
+git clone https://github.com/merlic/shadow-futures.git
 cd shadow-futures
 
-# Create virtual environment (recommended)
 python -m venv venv
-source venv/bin/activate  # Linux/macOS
-# or: venv\Scripts\activate  # Windows
+venv\Scripts\activate      # Windows
+# source venv/bin/activate # Linux/macOS
 
-# Install in development mode
 pip install -e ".[dev]"
 ```
 
-### Requirements
-- Python 3.11+ (tested with 3.13)
-- numpy >= 1.24.0
-- matplotlib >= 3.7.0
-- pytest >= 7.0.0 (for development)
+Requires Python 3.11 or later. Dependencies: numpy, matplotlib, pytest.
 
-## USAGE
+## Usage
 
-### Quick Start
+All outputs are saved to the `figures/` directory.
+
+### Run a single simulation
 
 ```bash
-# Run shadow futures demonstration (creates figures/shadow_futures.png)
-python -m shadow_futures shadow-futures
-
-# Run with custom parameters
-python -m shadow_futures shadow-futures --T 200 --alpha 2.0 --n-simulations 1000
-
-# Generate mutual information collapse plots
-python -m shadow_futures plot-mi
-
-# Run a single simulation and output JSON
-python -m shadow_futures simulate --T 100 --alpha 1.5 --output figures/summary.json
+python -m shadow_futures simulate --T 100 --alpha 1.5 --seed 42
 ```
 
-### Command Reference
+Outputs JSON with summary statistics including mutual information, Gini coefficient, and top-k concentration.
 
-#### `shadow-futures` — Demonstrate divergent outcomes from identical work
+### Generate mutual information plots
 
 ```bash
-python -m shadow_futures shadow-futures [OPTIONS]
-
-Options:
-  --T INT              Time steps (default: 100)
-  --alpha FLOAT        Path dependence exponent (default: 1.5)
-  --focal-agent INT    Agent to track (default: 0)
-  --n-simulations INT  Number of runs (default: 500)
-  --seed INT           Base random seed (default: 42)
-  --output-dir PATH    Output directory (default: figures)
+python -m shadow_futures plot-mi --T-values 50,100,200,500 --alphas 0.0,1.0,2.0 --n-runs 30
 ```
 
-**Expected output:**
-```
-==================================================
-SHADOW FUTURES DEMONSTRATION
-==================================================
+Produces plots showing MI collapse across system sizes and alpha values.
 
-Focal Agent 0:
-  Work transcript V = 0 (identical across all simulations)
-
-Outcomes across 500 simulations:
-  Rewarded:    156 (31.2%)
-  Unrewarded:  344 (68.8%)
-
-Reward count statistics:
-  Mean:   1.42
-  Std:    3.87
-  Min:    0
-  Max:    31
-  Median: 0
-```
-
-#### `plot-mi` — Generate mutual information collapse plots
+### Demonstrate shadow futures
 
 ```bash
-python -m shadow_futures plot-mi [OPTIONS]
-
-Options:
-  --T-values LIST      Comma-separated T values (default: 50,100,200,500)
-  --alphas LIST        Comma-separated alphas (default: 0.0,0.5,1.0,1.5,2.0)
-  --lambdas LIST       Comma-separated lambdas (default: 0.0,0.1,0.3)
-  --n-runs INT         Runs per data point (default: 50)
-  --seed INT           Base random seed (default: 42)
-  --output-dir PATH    Output directory (default: figures)
+python -m shadow_futures shadow-futures --T 100 --alpha 1.5 --n-simulations 500
 ```
 
-**Expected output:**
-- `figures/mi_collapse_lambda_0.00.png` — MI vs T for λ=0
-- `figures/mi_collapse_lambda_0.10.png` — MI vs T for λ=0.1
-- `figures/mi_heatmap.png` — MI heatmap across α and λ
+Runs repeated simulations and shows the distribution of outcomes for a focal agent with identical work across all runs.
 
-#### `simulate` — Run single simulation with JSON output
+## Running Tests
 
 ```bash
-python -m shadow_futures simulate [OPTIONS]
-
-Options:
-  --T INT              Time steps (default: 100)
-  --alpha FLOAT        Path dependence exponent (default: 1.0)
-  --lambda-effect FLOAT  Local work effect weight (default: 0.0)
-  --seed INT           Random seed (default: 42)
-  --output PATH        Output JSON file (default: stdout)
-```
-
-**Example output:**
-```json
-{
-  "T": 100,
-  "alpha": 1.5,
-  "lambda_effect": 0.0,
-  "seed": 42,
-  "n_agents": 100,
-  "total_rewards": 100,
-  "mi_v_r": 0.0023,
-  "top_1_share": 0.42,
-  "top_10_share": 0.87,
-  "gini": 0.71,
-  "fraction_ever_rewarded": 0.23
-}
-```
-
-### Running Tests
-
-```bash
-# Run all tests
 pytest
-
-# Run with verbose output
-pytest -v
-
-# Run specific test file
-pytest tests/test_process.py
 ```
 
-### Python API
-
-```python
-from shadow_futures import (
-    simulate_single_run,
-    run_shadow_futures_experiment,
-    run_mi_experiment,
-    compute_metrics_summary,
-)
-
-# Run a single simulation
-result = simulate_single_run(T=100, alpha=1.5, seed=42)
-print(f"Top agent got {max(a.total_rewards for a in result.agents)} rewards")
-
-# Run shadow futures experiment
-sf_result = run_shadow_futures_experiment(
-    T=100,
-    alpha=1.5,
-    focal_agent_index=0,
-    n_simulations=500,
-    base_seed=42,
-)
-print(f"Rewarded: {sf_result.n_rewarded}/{sf_result.n_simulations}")
-
-# Run MI experiment
-mi_result = run_mi_experiment(
-    T_values=[50, 100, 200],
-    alphas=[0.0, 1.0, 2.0],
-    lambdas=[0.0, 0.1],
-    n_runs=20,
-)
-print(f"MI matrix shape: {mi_result.mi_matrix.shape}")
-```
-
-## Key Results
-
-### 1. Shadow Futures Exist
-For any focal agent with a fixed work transcript, running the same simulation with different random seeds produces a distribution of outcomes where:
-- Some runs result in high rewards
-- Most runs result in zero or few rewards
-- The variation is due **solely** to path dependence, not effort
-
-### 2. Mutual Information Collapses
-For `α ≥ 1` (preferential attachment with increasing returns):
-- `I(V; R) → 0` as `T → ∞`
-- Even with local work effects (`λ > 0`), path dependence dominates
-- Work verification confirms cost but not causation
-
-### 3. Winner-Take-All Dynamics
-- Top-1 share increases with `α`
-- Gini coefficient increases with `T`
-- Early advantages compound; late entry is penalized
+37 tests cover core invariants: determinism, reward conservation, attachment monotonicity, and metric correctness.
 
 ## Project Structure
 
 ```
 shadow-futures/
 ├── src/shadow_futures/
-│   ├── __init__.py      # Package exports
-│   ├── __main__.py      # Module entry point
-│   ├── process.py       # Core preferential attachment dynamics
-│   ├── simulate.py      # Simulation runners
-│   ├── metrics.py       # MI estimation, concentration metrics
-│   ├── plots.py         # Matplotlib visualization
-│   ├── cli.py           # Command-line interface
-│   └── run.py           # CLI entry point
+│   ├── process.py     # Preferential attachment dynamics
+│   ├── simulate.py    # Experiment runners
+│   ├── metrics.py     # MI estimation, Gini, concentration
+│   ├── plots.py       # Visualization
+│   └── cli.py         # Command-line interface
 ├── tests/
-│   ├── test_process.py  # Process invariant tests
-│   └── test_metrics.py  # Metrics correctness tests
-├── figures/             # Generated plots (created on first run)
-├── pyproject.toml       # Project configuration
-├── README.md            # This file
-└── LICENSE              # MIT License
+│   ├── test_process.py
+│   └── test_metrics.py
+├── figures/           # Generated outputs
+└── pyproject.toml
 ```
 
 ## Citation
 
-If you use this code in your research, please cite:
-
-```bibtex
-@article{erlic2025shadow,
-  title={Shadow Futures: Why Verifiable Work Cannot Signal Value in Path-Dependent Economies},
-  author={Erlic, Martin},
-  year={2025}
-}
+```
+Erlic, M. (2025). Shadow Futures: Why Verifiable Work Cannot Signal Value
+in Path-Dependent Economies.
 ```
 
 ## License
 
-MIT License. See [LICENSE](LICENSE) for details.
-
+MIT
