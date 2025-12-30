@@ -136,17 +136,29 @@ class MIExperimentResult:
         T_values: Array of T values tested
         alphas: Array of alpha values tested
         lambdas: Array of lambda values tested
-        mi_matrix: 3D array of MI values [T_idx, alpha_idx, lambda_idx]
-        concentration_matrix: 3D array of top-1 concentration
-        gini_matrix: 3D array of Gini coefficients
+        mi_matrix: 3D array of mean MI values [T_idx, alpha_idx, lambda_idx]
+        mi_std_matrix: 3D array of MI std dev [T_idx, alpha_idx, lambda_idx]
+        concentration_matrix: 3D array of mean top-1 concentration
+        concentration_std_matrix: 3D array of top-1 concentration std dev
+        gini_matrix: 3D array of mean Gini coefficients
+        gini_std_matrix: 3D array of Gini std dev
         n_runs_per_point: Number of runs averaged per data point
+    
+    Note:
+        R is defined as "ever rewarded by time T" (binary indicator).
+        MI is measured in bits (log base 2).
+        When lambda=0, MI should be approximately zero; small positive
+        values reflect finite-sample estimator bias.
     """
     T_values: np.ndarray
     alphas: np.ndarray
     lambdas: np.ndarray
     mi_matrix: np.ndarray
+    mi_std_matrix: np.ndarray
     concentration_matrix: np.ndarray
+    concentration_std_matrix: np.ndarray
     gini_matrix: np.ndarray
+    gini_std_matrix: np.ndarray
     n_runs_per_point: int
 
 
@@ -201,8 +213,11 @@ def run_mi_experiment(
     n_lambda = len(lambdas)
     
     mi_matrix = np.zeros((n_T, n_alpha, n_lambda))
+    mi_std_matrix = np.zeros((n_T, n_alpha, n_lambda))
     concentration_matrix = np.zeros((n_T, n_alpha, n_lambda))
+    concentration_std_matrix = np.zeros((n_T, n_alpha, n_lambda))
     gini_matrix = np.zeros((n_T, n_alpha, n_lambda))
+    gini_std_matrix = np.zeros((n_T, n_alpha, n_lambda))
     
     seed_counter = base_seed
     
@@ -231,16 +246,22 @@ def run_mi_experiment(
                     gini_vals.append(compute_gini(result.agents))
                 
                 mi_matrix[i_T, i_a, i_l] = np.mean(mi_vals)
+                mi_std_matrix[i_T, i_a, i_l] = np.std(mi_vals)
                 concentration_matrix[i_T, i_a, i_l] = np.mean(conc_vals)
+                concentration_std_matrix[i_T, i_a, i_l] = np.std(conc_vals)
                 gini_matrix[i_T, i_a, i_l] = np.mean(gini_vals)
+                gini_std_matrix[i_T, i_a, i_l] = np.std(gini_vals)
     
     return MIExperimentResult(
         T_values=T_arr,
         alphas=alpha_arr,
         lambdas=lambda_arr,
         mi_matrix=mi_matrix,
+        mi_std_matrix=mi_std_matrix,
         concentration_matrix=concentration_matrix,
+        concentration_std_matrix=concentration_std_matrix,
         gini_matrix=gini_matrix,
+        gini_std_matrix=gini_std_matrix,
         n_runs_per_point=n_runs,
     )
 

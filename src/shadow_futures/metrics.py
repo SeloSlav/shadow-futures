@@ -159,16 +159,24 @@ def compute_ever_rewarded(agents: Sequence[AgentState]) -> np.ndarray:
 
 def compute_mi_from_result(result: SimulationResult) -> float:
     """
-    Compute mutual information between transcripts and ever-rewarded status.
+    Compute mutual information I(V;R) between transcripts and reward status.
+    
+    R is defined as "ever rewarded by time T" (binary: 0 or 1).
+    V is the discrete work transcript (typically 0=low or 1=high).
     
     This is the key metric: I(V;R) should collapse toward 0 as T grows
     when alpha >= 1 and lambda < 1.
+    
+    Note:
+        When lambda=0, V is independent of allocation state, so I(V;R)
+        should theoretically be zero. Small positive values (0.001-0.02 bits)
+        reflect finite-sample bias in the plug-in estimator.
     
     Args:
         result: SimulationResult from a simulation run
     
     Returns:
-        Mutual information in bits
+        Mutual information in bits (log base 2)
     """
     transcripts = np.array([a.transcript for a in result.agents])
     rewards = compute_ever_rewarded(result.agents)

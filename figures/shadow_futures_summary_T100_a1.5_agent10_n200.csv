@@ -1,0 +1,16 @@
+metric,value
+focal_agent_index,10
+transcript,0
+n_simulations,200
+n_rewarded,96
+n_unrewarded,104
+pct_rewarded,48.0
+reward_mean,1.255
+reward_std,2.6981428798342018
+reward_min,0
+reward_max,21
+reward_median,0.0
+T,100
+alpha,1.5
+A0,1.0
+lambda_effect,0.0

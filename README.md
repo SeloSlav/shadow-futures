@@ -43,6 +43,12 @@ This repository provides empirical demonstrations of three claims from the paper
 
 The model isolates a single mechanism: path-dependent reinforcement. The results show that even under ideal conditions (perfect verification, identical effort), work cannot be identified as the cause of success once allocation is dominated by network position.
 
+## Technical Notes
+
+**Mutual information definition.** R is defined as "ever rewarded by time T" (binary indicator). MI is measured in bits (log base 2).
+
+**Estimator bias.** When lambda=0, transcripts are independent of allocation state, so I(V;R) should theoretically be zero. Small positive values in the output (typically 0.001-0.02 bits) reflect finite-sample bias in the plug-in estimator. This is not a bug. The CLI reports mean and standard deviation across runs to make this variance visible.
+
 ## Installation
 
 ```bash

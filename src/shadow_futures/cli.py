@@ -137,7 +137,7 @@ def cmd_plot_mi(args: argparse.Namespace) -> int:
         mi_csv_path = fig_dir / "mi_experiment_results.csv"
         with open(mi_csv_path, "w", newline="") as f:
             writer = csv.writer(f)
-            writer.writerow(["T", "alpha", "lambda", "mutual_information", "top_1_concentration", "gini"])
+            writer.writerow(["T", "alpha", "lambda", "mi_mean", "mi_std", "top1_mean", "top1_std", "gini_mean", "gini_std", "n_runs"])
             for i_T, T in enumerate(result.T_values):
                 for i_a, alpha in enumerate(result.alphas):
                     for i_l, lam in enumerate(result.lambdas):
@@ -146,19 +146,27 @@ def cmd_plot_mi(args: argparse.Namespace) -> int:
                             alpha,
                             lam,
                             result.mi_matrix[i_T, i_a, i_l],
+                            result.mi_std_matrix[i_T, i_a, i_l],
                             result.concentration_matrix[i_T, i_a, i_l],
+                            result.concentration_std_matrix[i_T, i_a, i_l],
                             result.gini_matrix[i_T, i_a, i_l],
+                            result.gini_std_matrix[i_T, i_a, i_l],
+                            result.n_runs_per_point,
                         ])
         print(f"  CSV saved: {mi_csv_path}")
     
-    # Print summary statistics
+    # Print summary statistics with std
     print("\n=== Mutual Information Summary ===")
-    print(f"Largest T = {result.T_values[-1]}:")
+    print(f"R = 'ever rewarded by time T' (binary). MI in bits (log2).")
+    print(f"Note: When lambda=0, MI should be ~0; positive values reflect estimator bias.")
+    print(f"\nLargest T = {result.T_values[-1]} (n_runs={result.n_runs_per_point}):")
     for i, alpha in enumerate(result.alphas):
         for j, lam in enumerate(result.lambdas):
             mi = result.mi_matrix[-1, i, j]
+            mi_std = result.mi_std_matrix[-1, i, j]
             conc = result.concentration_matrix[-1, i, j]
-            print(f"  alpha={alpha:.1f}, lambda={lam:.2f}: I(V;R)={mi:.4f} bits, Top-1={conc:.3f}")
+            conc_std = result.concentration_std_matrix[-1, i, j]
+            print(f"  alpha={alpha:.1f}, lambda={lam:.2f}: I(V;R)={mi:.4f}+/-{mi_std:.4f} bits, Top-1={conc:.3f}+/-{conc_std:.3f}")
     
     return 0
 
@@ -184,10 +192,12 @@ def cmd_shadow_futures(args: argparse.Namespace) -> int:
     output_path = fig_dir / "shadow_futures.png"
     plot_shadow_futures(result, output_path=str(output_path))
     
-    # Save CSV if requested
+    # Save CSV if requested (with parameter-based filenames to prevent overwriting)
     if args.save_csv:
+        param_suffix = f"_T{args.T}_a{args.alpha}_agent{args.focal_agent}_n{args.n_simulations}"
+        
         # Save per-simulation results
-        sim_csv_path = fig_dir / "shadow_futures_simulations.csv"
+        sim_csv_path = fig_dir / f"shadow_futures_simulations{param_suffix}.csv"
         with open(sim_csv_path, "w", newline="") as f:
             writer = csv.writer(f)
             writer.writerow(["simulation_id", "seed", "focal_agent_rewards", "focal_agent_rewarded"])
@@ -202,7 +212,7 @@ def cmd_shadow_futures(args: argparse.Namespace) -> int:
         print(f"  Per-simulation CSV saved: {sim_csv_path}")
         
         # Save summary statistics
-        summary_csv_path = fig_dir / "shadow_futures_summary.csv"
+        summary_csv_path = fig_dir / f"shadow_futures_summary{param_suffix}.csv"
         with open(summary_csv_path, "w", newline="") as f:
             writer = csv.writer(f)
             writer.writerow(["metric", "value"])
@@ -249,11 +259,13 @@ experiences radically different outcomes across simulation runs.
 This demonstrates SHADOW FUTURES: unrealized trajectories with identical
 work that fail due solely to unfavorable timing or network position.
 
-The variation in outcomes cannot be attributed to differences in effort
-or work quality - it is purely a consequence of path-dependent allocation.
+What varies across seeds is the realized reward history, hence the
+allocation state S(t). The focal agent's work is constant; only the
+path-dependent state differs. Divergent outcomes are structural, not
+a matter of 'luck' in any moral sense.
 
 Key insight: Verification confirms work occurred, but cannot establish
-that work caused the outcome. Success is evidence of position, not merit.
+that work caused the outcome. Observed success reflects realized position.
 """)
     
     print(f"\nFigure saved to: {output_path}")
