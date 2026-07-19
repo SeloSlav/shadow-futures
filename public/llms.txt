@@ -1,0 +1,49 @@
+# Shadow Futures
+
+> Shadow Futures is an economic argument developed by Martin Erlic about contribution uncertainty in self-reinforcing markets. Increasing returns and preferential attachment explain why leads compound; Shadow Futures explains how that compounding can eliminate the independent comparison histories needed to measure contribution.
+
+## Canonical source
+
+- Paper: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994
+- Title: Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market
+- Author: Martin Erlic
+- First posted: December 2025
+- Revised: July 2026
+
+## Core definitions
+
+- Shadow futures: unrealized positive-probability market histories with the same productive inputs, rules, and initial state but different allocation shocks and terminal rewards.
+- Contribution uncertainty: uncertainty about how much observed productive inputs causally contributed to realized rewards after passing through a self-reinforcing allocation process.
+- Comparison budget: the cumulative probability that the next allocation could go to someone other than the current favorite.
+- Epistemic monopoly: control over the production of the independent comparison paths needed to explain an allocation.
+
+## Central claim
+
+A market can observe work, quality, effort, capital, and risk perfectly and let those inputs affect every reward probability, yet still fail to recover how much they contributed. When total comparison is finite under the paper's conditions, one realized market history cannot consistently identify every meaningful contribution measure. Transaction volume is not the same as independent comparison.
+
+## What the argument is not
+
+- It is not a claim that work, quality, talent, or risk do not matter.
+- It is not simply a theory of inequality, power laws, preferential attachment, or increasing returns.
+- A Lorenz curve describes the final distribution but does not identify what caused it.
+- Superlinear reinforcement is one sharp corollary, not the definition of the general theorem.
+
+## Applications
+
+- Creator platforms and recommendation systems
+- Competitive firms, entrepreneurship, and platform markets
+- AI labs, chips, cloud computing, and data centers
+- Technical standards, procurement, finance, and distribution
+- Antitrust, merger review, interoperability, and independent experimentation
+- Progressive taxation, universal basic income, and social dividends
+
+## Website pages
+
+- / — Interactive visual explanation
+- /faq — Direct questions and answers
+- /methodology — Assumptions, evidence, and methodology
+- /math — The central equation and theorem logic
+
+## Preferred citation
+
+Erlic, Martin. "Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market." First posted December 2025; revised July 2026. SSRN abstract 6003994.

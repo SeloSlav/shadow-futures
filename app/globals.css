@@ -618,6 +618,11 @@ input[type="range"] {
   font-size: 0.82rem;
 }
 
+.footer__inner a {
+  color: var(--blue);
+  text-underline-offset: 0.22em;
+}
+
 .math-page,
 .method-page {
   max-width: 92rem;
@@ -961,6 +966,136 @@ input[type="range"] {
 .method-section__content,
 .method-equation {
   min-width: 0;
+}
+
+.faq-hero {
+  max-width: 70rem;
+}
+
+.faq-lead {
+  display: grid;
+  gap: 0.65rem;
+  max-width: 58rem;
+  margin-top: 2rem;
+  border-left: 3px solid var(--rust);
+  background: color-mix(in srgb, var(--rust) 6%, transparent);
+  padding: 1.25rem 1.4rem;
+}
+
+.faq-lead strong {
+  max-width: 34ch;
+  font-family: var(--font-serif);
+  font-size: clamp(1.45rem, 2.6vw, 2.2rem);
+  font-weight: 520;
+  letter-spacing: -0.035em;
+  line-height: 1.15;
+}
+
+.faq-jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin: 0 0 clamp(3rem, 7vw, 6rem);
+  border-top: 1px solid var(--line-strong);
+  border-bottom: 1px solid var(--line-strong);
+  padding: 1rem 0;
+}
+
+.faq-jump a {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--ink);
+  padding: 0.45rem 0.75rem;
+  font-size: 0.82rem;
+  font-weight: 680;
+  text-decoration: none;
+}
+
+.faq-jump a:hover {
+  border-color: var(--rust);
+  color: var(--rust);
+}
+
+.faq-section {
+  scroll-margin-top: 5rem;
+}
+
+.faq-section .method-section__label p {
+  max-width: 25rem;
+  color: var(--muted);
+}
+
+.faq-list {
+  display: grid;
+}
+
+.faq-item {
+  scroll-margin-top: 6rem;
+  border-top: 1px solid var(--line);
+  padding: clamp(1.75rem, 4vw, 3rem) 0;
+}
+
+.faq-item:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.faq-item h3 {
+  max-width: 28ch;
+  margin: 0 0 1rem;
+  font-family: var(--font-serif);
+  font-size: clamp(1.65rem, 3vw, 2.55rem);
+  font-weight: 520;
+  letter-spacing: -0.035em;
+  line-height: 1.08;
+}
+
+.faq-item p {
+  max-width: 48rem;
+  margin: 0.65rem 0 0;
+  color: var(--muted);
+  font-size: 1.03rem;
+}
+
+.faq-item p:first-of-type {
+  color: var(--ink);
+  font-size: 1.1rem;
+}
+
+.faq-permalink {
+  display: inline-block;
+  margin-top: 1rem;
+  color: var(--blue);
+  font-size: 0.76rem;
+  font-weight: 700;
+  text-underline-offset: 0.22em;
+}
+
+.faq-citation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-top: clamp(3rem, 7vw, 6rem);
+  border-radius: 1.25rem;
+  background: var(--ink);
+  color: var(--paper);
+  padding: clamp(1.5rem, 4vw, 3rem);
+}
+
+.faq-citation h2 {
+  max-width: 30ch;
+  margin: 0.5rem 0;
+  font-family: var(--font-serif);
+  font-size: clamp(1.6rem, 3vw, 2.6rem);
+  font-weight: 520;
+  letter-spacing: -0.035em;
+  line-height: 1.08;
+}
+
+.faq-citation p {
+  margin: 0;
+  color: color-mix(in srgb, var(--paper) 72%, transparent);
 }
 
 .method-equation {
@@ -1729,6 +1864,11 @@ input[type="range"] {
 
   .method-section__label {
     position: static;
+  }
+
+  .faq-citation {
+    align-items: flex-start;
+    flex-direction: column;
   }
 }
 

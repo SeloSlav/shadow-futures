@@ -521,6 +521,9 @@ export function CreatorStoryPage() {
               <Link className="button" href="/math">
                 Open the mathematics
               </Link>
+              <Link className="button" href="/faq">
+                Questions and answers
+              </Link>
               <button
                 className="button"
                 type="button"
@@ -539,10 +542,7 @@ export function CreatorStoryPage() {
       <footer className="footer">
         <div className="footer__inner">
           <span>Shadow Futures · Martin Erlic · Revised July 2026</span>
-          <span>
-            More views can repeat the same early result without telling us what would have
-            happened to everyone else.
-          </span>
+          <Link href="/faq">Read the Shadow Futures FAQ</Link>
         </div>
       </footer>
     </>

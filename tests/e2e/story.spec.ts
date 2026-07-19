@@ -100,4 +100,26 @@ test.describe("interactive essay", () => {
     await page.goto("/methodology");
     await expect(page.getByRole("heading", { name: "How the argument works" })).toBeVisible();
   });
+
+  test("FAQ exposes visible and machine-readable answers", async ({ page, isMobile }) => {
+    test.skip(isMobile, "covered by desktop semantic rendering");
+    await page.goto("/faq");
+    await expect(
+      page.getByRole("heading", { name: "Shadow Futures, explained" }),
+    ).toBeVisible();
+    await expect(
+      page.getByRole("heading", { name: "What are shadow futures?" }),
+    ).toBeVisible();
+    await expect(
+      page.getByRole("heading", {
+        name: "How is Shadow Futures different from preferential attachment, increasing returns, or network effects?",
+      }),
+    ).toBeVisible();
+
+    const faqSchema = page.locator('script[type="application/ld+json"]');
+    await expect(faqSchema).toHaveCount(1);
+    const schemaText = await faqSchema.textContent();
+    expect(schemaText).toContain('"@type":"FAQPage"');
+    expect(schemaText).toContain('"@type":"Question"');
+  });
 });

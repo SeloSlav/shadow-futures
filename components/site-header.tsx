@@ -16,6 +16,7 @@ export function SiteHeader() {
           <Link href="/#breakout">Start the story</Link>
           <Link href="/methodology">Methodology</Link>
           <Link href="/math">Mathematics</Link>
+          <Link href="/faq">FAQ</Link>
           <a
             className="header-nav__paper"
             href={PAPER.url}

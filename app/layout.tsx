@@ -4,9 +4,10 @@ import type { ReactNode } from "react";
 import "@/app/globals.css";
 import { SiteHeader } from "@/components/site-header";
 import { PAPER } from "@/lib/paper/citation";
+import { SITE_ORIGIN } from "@/lib/site";
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3010"),
+  metadataBase: new URL(SITE_ORIGIN),
   title: {
     default: "Shadow Futures — Contribution Uncertainty and the Self-Reinforcing Market",
     template: "%s — Shadow Futures",
