@@ -3,15 +3,23 @@
 A production-ready interactive economics story based on Martin Erlic's paper,
 *Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market*.
 
-The main experience follows equally talented creators competing inside a
-self-reinforcing recommendation feed. Four animated graphs show:
+The familiar mechanism is self-reinforcement: early success can make later
+success more likely. The paper's distinct contribution is an information
+problem. A market can reward real productive inputs while consuming the
+independent comparison paths needed to measure what those inputs contributed.
+The unrealized repetitions that could have separated contribution from
+accumulated position are the shadow futures.
+
+The main experience begins with equally talented creators competing inside a
+self-reinforcing recommendation feed, then extends the same information problem
+to firms. Four animated graphs show:
 
 1. How a small early burst of attention can become a lasting lead.
 2. How identical replays can produce completely different viral winners.
 3. Why repeatedly boosting an early leader teaches us less than regularly
    giving everyone another equal start.
-4. Why a Lorenz curve can measure creator-income inequality without revealing
-   how much came from contribution versus inherited position.
+4. Why a Lorenz curve is a final scoreboard rather than evidence of what caused
+   the result.
 
 The story connects this mechanism to creator careers across OnlyFans, Fanvue,
 YouTube, TikTok, Twitch, Instagram, Patreon, Substack, and online marketplaces,

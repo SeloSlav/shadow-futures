@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+import { PAPER } from "@/lib/paper/citation";
+
 export function SiteHeader() {
   return (
     <header className="site-header">
@@ -14,6 +16,14 @@ export function SiteHeader() {
           <Link href="/#breakout">Start the story</Link>
           <Link href="/methodology">Methodology</Link>
           <Link href="/math">Mathematics</Link>
+          <a
+            className="header-nav__paper"
+            href={PAPER.url}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Read the paper <span aria-hidden="true">↗</span>
+          </a>
         </nav>
       </div>
     </header>

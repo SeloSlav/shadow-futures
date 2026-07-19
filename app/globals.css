@@ -152,6 +152,21 @@ a {
   color: var(--ink);
 }
 
+.header-nav a.header-nav__paper {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.28rem;
+  margin-left: 0.35rem;
+  background: var(--rust);
+  color: var(--paper);
+  font-weight: 760;
+}
+
+.header-nav a.header-nav__paper:hover {
+  background: color-mix(in srgb, var(--rust) 82%, var(--ink));
+  color: #fff;
+}
+
 .hero {
   position: relative;
   display: grid;
@@ -1351,6 +1366,42 @@ input[type="range"] {
   color: color-mix(in srgb, var(--paper) 72%, transparent);
 }
 
+.idea-distinction {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  max-width: 82rem;
+  margin: clamp(2rem, 5vw, 4rem) 0;
+}
+
+.idea-distinction article {
+  border: 1px solid color-mix(in srgb, var(--paper) 18%, transparent);
+  border-radius: 1.25rem;
+  background: color-mix(in srgb, var(--paper) 5%, transparent);
+  padding: clamp(1.5rem, 3vw, 2.4rem);
+}
+
+.idea-distinction article:last-child {
+  border-color: color-mix(in srgb, var(--rust) 82%, var(--paper));
+  background: color-mix(in srgb, var(--rust) 18%, var(--ink));
+}
+
+.idea-distinction h3 {
+  max-width: 18ch;
+  margin: 0.55rem 0 0.75rem;
+  font-family: var(--font-serif);
+  font-size: clamp(1.7rem, 3vw, 2.8rem);
+  font-weight: 520;
+  letter-spacing: -0.035em;
+  line-height: 1.05;
+}
+
+.idea-distinction p {
+  max-width: 48ch;
+  margin: 0;
+  color: color-mix(in srgb, var(--paper) 76%, transparent);
+}
+
 .global-history-callout {
   max-width: 58rem;
   margin-bottom: 2rem;
@@ -1529,6 +1580,32 @@ input[type="range"] {
   color: var(--muted);
 }
 
+.lorenz-takeaway {
+  display: grid;
+  grid-template-columns: minmax(0, 0.75fr) minmax(0, 1.25fr);
+  gap: clamp(1rem, 4vw, 4rem);
+  max-width: 82rem;
+  margin: clamp(2rem, 5vw, 4rem) 0 0;
+  border-radius: 1.25rem;
+  background: var(--ink);
+  color: var(--paper);
+  padding: clamp(1.5rem, 4vw, 3rem);
+}
+
+.lorenz-takeaway strong {
+  font-family: var(--font-serif);
+  font-size: clamp(1.65rem, 3vw, 2.7rem);
+  font-weight: 520;
+  letter-spacing: -0.035em;
+  line-height: 1.05;
+}
+
+.lorenz-takeaway span {
+  align-self: center;
+  color: color-mix(in srgb, var(--paper) 76%, transparent);
+  font-size: clamp(1rem, 1.5vw, 1.2rem);
+}
+
 .data-note {
   max-width: 60rem;
   margin: 2rem 0 0;
@@ -1610,7 +1687,9 @@ input[type="range"] {
   .scope-grid,
   .policy-grid,
   .experiment-grid,
-  .equation-card {
+  .equation-card,
+  .idea-distinction,
+  .lorenz-takeaway {
     grid-template-columns: 1fr;
   }
 
@@ -1673,6 +1752,12 @@ input[type="range"] {
 
   .header-nav a {
     display: none !important;
+  }
+
+  .header-nav a.header-nav__paper {
+    display: inline-flex !important;
+    margin-left: 0;
+    padding: 0.48rem 0.72rem;
   }
 
   .math-page,

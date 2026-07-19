@@ -17,9 +17,10 @@ export default function MethodologyPage() {
         <p className="eyebrow">Methodology and scope</p>
         <h1>How the argument works</h1>
         <p>
-          The animation is an example. The impossibility result is a theorem. This page keeps
-          those two jobs separate and shows the shortest path from the platform rule to the
-          paper’s conclusion.
+          The animation uses familiar self-reinforcement to show the setup. The theorem asks a
+          different question: when that process closes off other paths, does one realized
+          market still contain enough comparison to recover contribution? This page shows the
+          shortest route from the familiar mechanism to the paper’s distinct result.
         </p>
         <div className="button-row method-page__actions">
           <a className="button button--primary" href={PAPER.url} target="_blank" rel="noreferrer">

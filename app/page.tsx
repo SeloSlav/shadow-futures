@@ -13,7 +13,7 @@ export default function HomePage() {
     datePublished: "2025-12",
     dateModified: "2026-07",
     description:
-      "An interactive creator-platform explanation of how self-reinforcing visibility can reward real work while destroying the comparisons needed to identify its contribution.",
+      "An interactive explanation of Shadow Futures: how self-reinforcing markets can reward real inputs while destroying the comparison paths needed to identify their contribution.",
   };
 
   return (

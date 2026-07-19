@@ -43,9 +43,10 @@ export default function MathPage() {
         <p className="eyebrow">The mathematics</p>
         <h1>One equation carries the whole argument.</h1>
         <p>
-          It connects three ideas: how a platform or market awards the next opportunity, how
-          the contest closes, and why one observed history may never reveal the exact
-          contribution of a person or firm.
+          The first two lines describe familiar feedback: contribution and accumulated
+          advantage shape the next opportunity. The final two carry the Shadow Futures idea:
+          as the contest closes, the market can consume the comparisons needed to recover
+          contribution from its one observed history.
         </p>
       </header>
 

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     template: "%s — Shadow Futures",
   },
   description:
-    "An interactive explanation of how early advantages compound for creators and firms, why winners change across replays, and how markets can lose the comparisons needed to measure contribution.",
+    "An interactive explanation of Shadow Futures: how self-reinforcing markets can reward real inputs while destroying the comparison paths needed to measure contribution.",
   authors: [{ name: PAPER.author }],
   creator: PAPER.author,
   alternates: { canonical: "/" },
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     type: "article",
     title: PAPER.title,
     description:
-      "An early audience or customer can become a lasting market lead. Explore the careers, firms, and technologies hidden by self-reinforcing competition.",
+      "Increasing returns explain why leads compound. Shadow Futures explains how that process can erase the evidence needed to measure contribution.",
     authors: [PAPER.author],
     siteName: "Shadow Futures",
   },

@@ -4,8 +4,14 @@ test.describe("interactive essay", () => {
   test("plays the creator graphs and reaches every chapter", async ({ page, isMobile }) => {
     test.skip(isMobile, "covered by the desktop narrative journey");
     await page.goto("/");
-    await expect(page.getByRole("heading", { name: "Shadow Futures" })).toBeVisible();
-    await page.getByRole("link", { name: "Watch what the feed does" }).click();
+    await expect(
+      page.getByRole("heading", { name: "Shadow Futures", exact: true }),
+    ).toBeVisible();
+    await expect(page.locator(".site-header .header-nav__paper")).toHaveAttribute(
+      "href",
+      "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994",
+    );
+    await page.getByRole("link", { name: "See how the evidence disappears" }).click();
     await expect(page.getByTestId("breakout-graph")).toBeVisible();
 
     await page.getByRole("button", { name: "Play the feed" }).click();

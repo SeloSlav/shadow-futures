@@ -60,17 +60,17 @@ function CreatorHero() {
           Contribution Uncertainty and the Self-Reinforcing Market
         </p>
         <p className="hero__line">
-          One early winner can become the only winner everyone sees.
+          A market can reward real contribution—and erase the evidence needed to measure it.
         </p>
         <p className="hero__dek">
-          One creator gets ahead, so the app shows them to even more people. A firm can do the
-          same: early customers fund the capacity, data and credibility needed to win again.
-          Soon there is a mountain of data about the winner—and little evidence about what
-          would have happened if someone else had received the first break.
+          A creator’s early audience or a firm’s first customer can make the next win easier.
+          As that advantage compounds, the market records one path in extraordinary detail
+          while failing to produce the comparison paths that could explain it. Those missing
+          experiments are shadow futures.
         </p>
         <div className="button-row">
           <a className="button button--primary" href="#breakout">
-            Watch what the feed does
+            See how the evidence disappears
           </a>
           <a className="button" href={PAPER.url} target="_blank" rel="noreferrer">
             Read the paper
@@ -91,8 +91,8 @@ export function CreatorStoryPage() {
         <StorySection
           id="breakout"
           number={1}
-          eyebrow="The breakout"
-          title="The feed turns an early break into a lasting lead"
+          eyebrow="The familiar feedback loop"
+          title="The feed can turn an early break into a lasting lead"
           intro="Imagine 24 equally good creators. One gets slightly more attention in the first few minutes. The platform treats that attention as a reason to show the same creator again."
         >
           <BreakoutGraph />
@@ -126,9 +126,9 @@ export function CreatorStoryPage() {
         <StorySection
           id="shadow-futures"
           number={2}
-          eyebrow="Press rewind"
+          eyebrow="The missing histories"
           title="Press replay. A different creator wins."
-          intro="The 24 creators, their work, and the feed are unchanged. Replay only the first few random views. The winner changes."
+          intro="The 24 creators, their work, and the feed are unchanged. Replay only the first few random views and the winner changes. Each replay is evidence the original market never produced."
         >
           <ShadowFuturesGraph />
           <div className="shadow-definition">
@@ -150,9 +150,9 @@ export function CreatorStoryPage() {
         <StorySection
           id="experiment-monopoly"
           number={3}
-          eyebrow="When popularity feeds itself"
-          title="Millions of views can still follow the same early winner"
-          intro="The more people someone already reaches, the more likely the platform is to show them again. A platform can make millions of choices while still following the same early winner instead of finding out who else could succeed."
+          eyebrow="The familiar story—and the missing question"
+          title="The problem is not simply that success compounds. It is what compounding erases."
+          intro="Increasing returns and preferential attachment explain why an early lead can grow. Shadow Futures asks what happens to the evidence: after that lead shapes thousands of later decisions, can the one history we observed still tell us how much the winner contributed?"
           dark
         >
           <div className="platform-families">
@@ -180,10 +180,31 @@ export function CreatorStoryPage() {
               </article>
             ))}
           </div>
+          <div
+            className="idea-distinction"
+            aria-label="How Shadow Futures differs from familiar theories"
+          >
+            <article>
+              <span className="panel__meta">The familiar question</span>
+              <h3>Why does the winner keep winning?</h3>
+              <p>
+                Increasing returns, scaling laws, network effects and preferential attachment
+                explain how early success can compound into concentration.
+              </p>
+            </article>
+            <article>
+              <span className="panel__meta">What Shadow Futures adds</span>
+              <h3>What did the market stop letting us learn?</h3>
+              <p>
+                When one path absorbs the chances to try other paths, the market loses the
+                experimental comparisons needed to measure contribution from its final score.
+              </p>
+            </article>
+          </div>
           <div className="global-history-callout">
-            The decisive question is whether other people keep receiving a fair shot. Once the
-            ranking nearly closes, more views mostly repeat the old result instead of testing
-            it—and the market loses the evidence needed to justify its hierarchy.
+            A market can be extremely busy while producing almost no new evidence. Ten million
+            views, sales or contracts can keep extending one inherited path instead of testing
+            what the same inputs would have done along another.
           </div>
           <ExperimentMonopolyGraph />
           <div className="monopoly-definition">
@@ -195,25 +216,26 @@ export function CreatorStoryPage() {
               </p>
             </article>
             <article>
-              <span className="panel__meta">The problem in this story</span>
-              <h3>The old winner shapes what the market can learn</h3>
+              <span className="panel__meta">The paper’s epistemic monopoly</span>
+              <h3>One history controls the evidence</h3>
               <p>
-                Millions of creators can remain online while the ranking keeps showing the
-                same few people. Everyone else gets too few real chances to be judged.
+                Thousands of creators or firms can remain in the market while one ranking,
+                standard or route to customers decides which paths get recorded. The monopoly
+                is over the comparisons society would need to explain the outcome.
               </p>
             </article>
           </div>
           <div className="theorem creator-theorem">
-            <div className="theorem__label">What this means</div>
+            <div className="theorem__label">The Shadow Futures result</div>
             <blockquote>
-              If people eventually stop getting real chances to compete, the final ranking
-              cannot tell us exactly how much of the winner’s reward came from better work
-              and how much came from getting ahead early.
+              Transactions are not the sample size. Real chances for the market to go another
+              way are.
             </blockquote>
             <p>
-              That is enough to reject the claim that the final ranking measures exact
-              contribution. It records a mixture of work and accumulated advantage that the
-              market itself cannot disentangle.
+              The paper calls the total of those chances the comparison budget. If that budget
+              is finite, no method using the one market history can consistently recover a
+              meaningful contribution measure—one that changes when contribution changes.
+              More activity can lengthen the same path without adding the missing experiments.
             </p>
           </div>
         </StorySection>
@@ -221,9 +243,9 @@ export function CreatorStoryPage() {
         <StorySection
           id="firm-markets"
           number={4}
-          eyebrow="Firms in a market economy"
-          title="An early business lead can make the next sale easier to win"
-          intro="The same loop can operate between firms. An early customer brings revenue, data, credibility and scale. Those advantages can improve the business—and also make it harder to discover whether another firm could have done as well."
+          eyebrow="From scale to evidence"
+          title="A growing firm can improve—and make its own contribution harder to measure"
+          intro="An early customer brings revenue, data, credibility and scale. Those are real productive gains. But as one firm captures customers, standards and distribution, the market can run out of independent paths for learning how much came from the firm’s inputs and how much came from the position built by earlier wins."
         >
           <div
             className="firm-flywheel"
@@ -341,11 +363,18 @@ export function CreatorStoryPage() {
         <StorySection
           id="lorenz-curve"
           number={5}
-          eyebrow="Inequality and its cause"
-          title="A Lorenz curve shows the inequality. It cannot tell us why it happened."
-          intro="A Lorenz curve lines creators up from lowest to highest income and shows how much of all income they receive together. A deep bend means rewards are concentrated near the top. It does not separate contribution from the history that multiplied it."
+          eyebrow="What inequality cannot answer"
+          title="The Lorenz curve is the symptom. Shadow futures are the missing evidence."
+          intro="A Lorenz curve shows how unequal the final rewards became. It cannot tell us how much of that ranking came from contribution rather than a history that reinforced itself. Shadow Futures is not another description of the bend; it explains why the observed distribution may be unable to reveal its own cause."
         >
           <LorenzHistoryGraph />
+          <div className="lorenz-takeaway">
+            <strong>The Lorenz curve is the final scoreboard.</strong>
+            <span>
+              Shadow Futures asks whether the market kept enough alternate plays alive to
+              explain that score.
+            </span>
+          </div>
           <div className="platform-lorenz-copy">
             <article>
               <h3>OnlyFans and Fanvue</h3>
@@ -467,18 +496,20 @@ export function CreatorStoryPage() {
         <StorySection
           id="conclusion"
           number={7}
-          eyebrow="Evidence and power"
-          title="Markets choose winners—and decide what we get to learn"
-          intro="Markets allocate attention, contracts, capital, income and entire industries. Their rules also decide whether other people and firms get enough real chances for us to understand why the winner won."
+          eyebrow="The distinct contribution"
+          title="The market does not just choose a winner. It chooses what can still be known."
+          intro="Increasing returns explain compounding. Scaling laws relate size to performance. Preferential attachment explains why success attracts more success. Lorenz curves describe inequality. Shadow Futures identifies the missing step: self-reinforcing allocation can destroy the comparison paths needed to measure contribution from the one history we observe."
         >
           <div className="creator-closing">
             <p className="hero__line">
-              A market can keep paying the winner long after it has stopped finding out who
-              else could win.
+              A market can keep paying the winner long after it has stopped producing evidence
+              about why they won.
             </p>
             <p className="hero__dek">
-              Shadow futures are the careers, firms and technologies we never got to observe:
-              similar promise meeting a different first audience, customer or contract.
+              Shadow futures are not simply stories in which someone else got lucky. They are
+              the missing experimental repetitions—the same inputs meeting different early
+              audiences, customers, rankings or shocks—that would have let us estimate
+              contribution.
             </p>
             <div className="button-row">
               <a className="button button--primary" href={PAPER.url} target="_blank" rel="noreferrer">
