@@ -158,30 +158,30 @@ export const FAQ_GROUPS: FaqGroup[] = [
     label: "04 / Tax and redistribution",
     title: "What market income cannot certify",
     intro:
-      "If the market cannot recover a precise earned-versus-positional split, tax policy cannot simply inherit one from the income record.",
+      "The paper does not describe how taxes are currently calculated. It studies a theoretical benchmark used in debates about desert: separating earned contribution from positional rent.",
     entries: [
       {
         id: "tax-policy",
         question: "What does Shadow Futures imply for tax policy?",
         answer: [
-          "It implies that realized income, profit, or market share is not a precise certificate of causal contribution. A tax system cannot recover the exact unearned portion of every reward from the reward record alone.",
-          "Policy should therefore tax observable things—such as income, wealth, land values, company profits, and platform fees—without pretending that the market has already produced a perfect personal merit score.",
+          "Shadow Futures does not claim that current tax systems calculate each person’s causal contribution. They already rely on observable bases such as income, profits, property, consumption, and wealth.",
+          "The paper’s narrower implication is that realized income, profit, or market share cannot identify an exact contribution-versus-position split. Tax choices should be defended through observable effects and public purposes rather than presented as a forensic measurement of that split.",
         ],
       },
       {
         id: "progressive-taxation",
         question: "Does the argument support progressive taxation?",
         answer: [
-          "The result undercuts the claim that progressive taxation must first prove exactly which dollars were unearned. Higher incomes and wealth also bring greater ability to pay, security, and bargaining power, while private success depends on shared institutions, infrastructure, knowledge, and demand.",
-          "The theorem does not mechanically select a tax rate. It shows why market rewards should not be treated as neutral measurements of desert.",
+          "Progressive taxation can be defended on familiar grounds such as ability to pay, public revenue, social insurance, economic power, and the shared institutions and infrastructure behind private success.",
+          "Shadow Futures contributes a narrower point: pretax market income does not settle the separate moral question of exact desert. The theorem does not mechanically select a tax rate.",
         ],
       },
       {
         id: "ubi-social-dividend",
         question: "Why are UBI and social dividends relevant to Shadow Futures?",
         answer: [
-          "A universal basic income or social dividend does not require the state to reconstruct an impossible ranking of who deserved each dollar. It provides a floor or shares common gains without repeating the market’s attribution problem on the transfer side.",
-          "A social dividend also recognizes that technology, public research, infrastructure, institutions, and accumulated knowledge are collective inheritances that contribute to private returns.",
+          "A universal basic income or social dividend is attribution-invariant: eligibility and payment do not depend on estimating each recipient’s exact causal contribution to market rewards.",
+          "That makes these policies conceptually compatible with contribution uncertainty. They can provide a floor or share common gains without requiring the missing earned-versus-positional calculation.",
         ],
       },
     ],

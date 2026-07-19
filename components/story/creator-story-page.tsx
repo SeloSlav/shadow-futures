@@ -443,17 +443,18 @@ export function CreatorStoryPage() {
           id="tax-and-ubi"
           number={6}
           eyebrow="Tax, UBI and social insurance"
-          title="The market cannot tell tax policy who “deserved” each dollar"
-          intro="A tax system can see personal income, company profits and wealth. It cannot look at one career or one firm’s market share and calculate the exact amount created by contribution rather than accumulated advantage."
+          title="The income record cannot isolate contribution from position"
+          intro="Existing tax systems use observable bases such as income, profits and wealth; they generally do not calculate the causal contribution behind each dollar. The paper asks a narrower theoretical question: could a tax isolate only the positional part from one market history? Under the theorem’s conditions, it cannot."
         >
           <div className="tax-policy-split">
             <article>
-              <span className="panel__meta">A false promise</span>
-              <h3>“Tax only the part that was not earned.”</h3>
+              <span className="panel__meta">A theoretical benchmark</span>
+              <h3>Could a tax isolate only positional rent?</h3>
               <p>
-                That rule would require us to know exactly how much success came from the
-                person’s work and how much came from getting ahead early. Their earnings alone
-                cannot answer that, so tax policy should not pretend that they can.
+                The paper tests this demanding ideal to establish what the market record can
+                identify. Current tax systems generally do not attempt this calculation. The
+                result limits claims about exact desert; it is not a description of ordinary
+                tax administration.
               </p>
             </article>
             <article>
@@ -473,8 +474,8 @@ export function CreatorStoryPage() {
                 "Higher incomes and wealth confer greater security, bargaining power and ability to pay. Progressive taxation shares the cost of the institutions and infrastructure that make private success possible.",
               ],
               [
-                "Tax the gains we can actually measure",
-                "Income, wealth, land values, company profits and platform fees are observable. Policy can tax them directly instead of inventing a false personal merit score.",
+                "Target observable compounding mechanisms",
+                "Policy can examine monopoly profits, land appreciation, platform fees, network control and other mechanisms that amplify position. That is different from claiming to know the exact contribution behind every dollar.",
               ],
               [
                 "UBI takes survival out of the merit contest",

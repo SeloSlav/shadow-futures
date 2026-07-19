@@ -224,8 +224,8 @@ export default function MethodologyPage() {
             <div>
               <span>The economic conclusion</span>
               <p>
-                Market rankings cannot carry the moral and political weight placed on them.
-                They do not reveal a clean earned-versus-unearned split.
+                Market rankings cannot by themselves settle moral or political questions about
+                desert. They do not reveal a clean earned-versus-unearned split.
               </p>
             </div>
             <div>
