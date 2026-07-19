@@ -122,9 +122,29 @@ export default function FaqPage() {
               {group.entries.map((entry) => (
                 <article className="faq-item" id={entry.id} key={entry.id}>
                   <h3>{entry.question}</h3>
-                  {entry.answer.map((paragraph) => (
-                    <p key={paragraph}>{paragraph}</p>
-                  ))}
+                  {entry.answer.map((paragraph, paragraphIndex) => {
+                    const inlineLink =
+                      entry.inlineLink?.paragraphIndex === paragraphIndex
+                        ? entry.inlineLink
+                        : undefined;
+                    const linkStart = inlineLink
+                      ? paragraph.indexOf(inlineLink.text)
+                      : -1;
+
+                    if (!inlineLink || linkStart < 0) {
+                      return <p key={`${entry.id}-${paragraphIndex}`}>{paragraph}</p>;
+                    }
+
+                    return (
+                      <p key={`${entry.id}-${paragraphIndex}`}>
+                        {paragraph.slice(0, linkStart)}
+                        <a href={inlineLink.href} target="_blank" rel="noreferrer">
+                          {inlineLink.text}
+                        </a>
+                        {paragraph.slice(linkStart + inlineLink.text.length)}
+                      </p>
+                    );
+                  })}
                   <a className="faq-permalink" href={`#${entry.id}`} aria-label={`Link to: ${entry.question}`}>
                     Direct link
                   </a>

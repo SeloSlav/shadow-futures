@@ -1,7 +1,14 @@
+import { PAPER } from "@/lib/paper/citation";
+
 export type FaqEntry = {
   id: string;
   question: string;
   answer: string[];
+  inlineLink?: {
+    paragraphIndex: number;
+    text: string;
+    href: string;
+  };
 };
 
 export type FaqGroup = {
@@ -139,8 +146,8 @@ export const FAQ_GROUPS: FaqGroup[] = [
         id: "mergers-and-antitrust",
         question: "What does Shadow Futures imply for mergers and antitrust?",
         answer: [
-          "Merger review should ask how many genuinely independent routes to customers, capital, distribution, and experimentation will remain—not only how many company names survive.",
-          "Two channels that look duplicative in a static cost calculation may be informational complements. Combining them can save fixed costs while eliminating a comparison path that society would otherwise learn from.",
+          "Shadow Futures supports strong antitrust because concentrated control does more than raise prices or reduce choice. It can eliminate the independent market paths society needs to discover which firms, products, and technologies could succeed.",
+          "Merger review should ask how many genuinely independent routes to customers, capital, distribution, and experimentation will remain—not only how many company names survive. Where one platform, standard, or buyer controls the experiment, interoperability, structural separation, public options, and merger enforcement can keep alternate futures open.",
         ],
       },
       {
@@ -172,16 +179,24 @@ export const FAQ_GROUPS: FaqGroup[] = [
         id: "progressive-taxation",
         question: "Does the argument support progressive taxation?",
         answer: [
-          "Progressive taxation can be defended on familiar grounds such as ability to pay, public revenue, social insurance, economic power, and the shared institutions and infrastructure behind private success.",
-          "Shadow Futures contributes a narrower point: pretax market income does not settle the separate moral question of exact desert. The theorem does not mechanically select a tax rate.",
+          "Yes. Shadow Futures strengthens the case for progressive taxation because very high market incomes are not clean measurements of individual contribution. At the top, real work can be combined with early visibility, inherited position, global scale, and feedback that turns one break into years of additional opportunity.",
+          "The case for taxing those rewards at higher rates rests on ability to pay, concentrated economic power, social insurance, and the shared institutions and infrastructure behind private success. The theorem does not choose an exact rate or prove that every dollar is unearned; it shows why pretax income should not be treated as a precise certificate of desert.",
+        ],
+      },
+      {
+        id: "tax-successful-creators",
+        question: "Should highly successful platform creators be taxed more?",
+        answer: [
+          "Yes, the project supports applying strongly progressive income and wealth taxation to the largest creator fortunes and platform windfalls. A top creator may be talented and hardworking, while the size of the final reward also reflects a global ranking system that repeatedly amplified an early lead.",
+          "That makes the outcome partly lottery-like without making the work fake: many similarly capable creators cannot rerun the same market with a different first audience. We cannot assign an exact luck percentage to one person, but that uncertainty is not a reason to treat an extreme payout as pure merit or exempt it from progressive taxation.",
         ],
       },
       {
         id: "ubi-social-dividend",
         question: "Why are UBI and social dividends relevant to Shadow Futures?",
         answer: [
-          "A universal basic income or social dividend is attribution-invariant: eligibility and payment do not depend on estimating each recipient’s exact causal contribution to market rewards.",
-          "That makes these policies conceptually compatible with contribution uncertainty. They can provide a floor or share common gains without requiring the missing earned-versus-positional calculation.",
+          "UBI and social dividends provide security without asking a market ranking to decide who deserves the basics of life. That matters when global platforms and automated markets can direct enormous rewards toward a few winners while equally capable people lose visibility, customers, or bargaining power.",
+          "These policies should complement rather than replace progressive taxation and antitrust. UBI provides a floor, a social dividend shares gains built on public knowledge and infrastructure, and antitrust keeps independent economic paths open.",
         ],
       },
     ],
@@ -198,15 +213,15 @@ export const FAQ_GROUPS: FaqGroup[] = [
         question: "Does Shadow Futures claim that work, talent, quality, or risk do not matter?",
         answer: [
           "No. Productive inputs can be real, perfectly observed, and directly affect every reward probability. A better product or greater effort can genuinely improve the chance of winning.",
-          "The claim is about recoverability: one reinforced history may not contain enough independent comparison to estimate how large those causal effects were.",
+          "The problem is that one winning history may not contain enough genuine comparison to tell us how much those strengths mattered. Policy does not have to choose between “all merit” and “all luck”: society can reward creation while taxing extreme incomes progressively and using antitrust to preserve rival paths.",
         ],
       },
       {
         id: "theorem-result",
         question: "What does the Shadow Futures theorem prove?",
         answer: [
-          "Under a common predictable design, local equivalence, comparison-dominated separation, and finite total comparison, distinct contribution parameters generate mutually absolutely continuous complete-history laws.",
-          "In plain language, no estimator based on one realized history can consistently recover every nonconstant contribution quantity, and no test can perfectly separate two contribution parameters as the history grows.",
+          "Imagine two worlds. In one, better work has a very large effect on who wins. In the other, it has a smaller effect. If an early winner eventually receives almost every new customer, view, or contract, both worlds can leave behind records that look compatible with the same winning story.",
+          "The theorem proves that, under its conditions, no statistical method can always look at that one history and work out which world produced it—even if the market continues forever. Once genuine chances to compare different people or firms run out, more activity keeps extending the story but cannot recreate the missing experiment.",
         ],
       },
       {
@@ -232,6 +247,11 @@ export const FAQ_GROUPS: FaqGroup[] = [
           "Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market is by Martin Erlic. The paper was first posted in December 2025 and revised in July 2026.",
           "The complete paper and technical appendix are available on SSRN at abstract ID 6003994.",
         ],
+        inlineLink: {
+          paragraphIndex: 1,
+          text: "complete paper and technical appendix",
+          href: PAPER.ssrnUrl,
+        },
       },
     ],
   },

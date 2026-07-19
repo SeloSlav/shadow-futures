@@ -115,6 +115,19 @@ test.describe("interactive essay", () => {
         name: "How is Shadow Futures different from preferential attachment, increasing returns, or network effects?",
       }),
     ).toBeVisible();
+    await expect(
+      page.getByRole("heading", {
+        name: "Should highly successful platform creators be taxed more?",
+      }),
+    ).toBeVisible();
+    await expect(
+      page.getByRole("link", {
+        name: "complete paper and technical appendix",
+      }),
+    ).toHaveAttribute(
+      "href",
+      "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994",
+    );
 
     const faqSchema = page.locator('script[type="application/ld+json"]');
     await expect(faqSchema).toHaveCount(1);

@@ -1062,6 +1062,12 @@ input[type="range"] {
   font-size: 1.1rem;
 }
 
+.faq-item p a {
+  color: var(--blue);
+  font-weight: 700;
+  text-underline-offset: 0.22em;
+}
+
 .faq-permalink {
   display: inline-block;
   margin-top: 1rem;

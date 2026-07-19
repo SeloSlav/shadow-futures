@@ -444,7 +444,7 @@ export function CreatorStoryPage() {
           number={6}
           eyebrow="Tax, UBI and social insurance"
           title="The income record cannot isolate contribution from position"
-          intro="Existing tax systems use observable bases such as income, profits and wealth; they generally do not calculate the causal contribution behind each dollar. The paper asks a narrower theoretical question: could a tax isolate only the positional part from one market history? Under the theorem’s conditions, it cannot."
+          intro="Existing tax systems use observable bases such as income, profits and wealth; they generally do not calculate the causal contribution behind each dollar. The paper asks whether one market history could ever isolate the positional part. Because it cannot under the theorem’s conditions, extreme rewards should not be treated as self-justifying: progressive taxation, antitrust, UBI and social dividends each address a different part of the problem."
         >
           <div className="tax-policy-split">
             <article>
@@ -470,12 +470,12 @@ export function CreatorStoryPage() {
           <div className="policy-grid">
             {[
               [
-                "Progressive taxes are justified by power and capacity",
-                "Higher incomes and wealth confer greater security, bargaining power and ability to pay. Progressive taxation shares the cost of the institutions and infrastructure that make private success possible.",
+                "Tax extreme rewards progressively",
+                "The largest creator incomes, founder gains and monopoly profits combine real contribution with advantages multiplied by scale and history. Higher rates are justified by ability to pay, concentrated power and the public systems that made those gains possible.",
               ],
               [
-                "Target observable compounding mechanisms",
-                "Policy can examine monopoly profits, land appreciation, platform fees, network control and other mechanisms that amplify position. That is different from claiming to know the exact contribution behind every dollar.",
+                "Use antitrust to keep alternate paths open",
+                "Merger enforcement, interoperability, structural separation and public options can prevent one platform, standard or distribution channel from becoming the only experiment society gets to observe.",
               ],
               [
                 "UBI takes survival out of the merit contest",
