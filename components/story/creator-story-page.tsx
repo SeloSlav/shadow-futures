@@ -53,7 +53,7 @@ function CreatorHero() {
       <HeroNetwork />
       <div className="hero__content">
         <p className="eyebrow">
-          Attention builds on itself · other possible careers disappear
+          Early advantage compounds · other possible futures disappear
         </p>
         <h1 id="hero-title">Shadow Futures</h1>
         <p className="hero__subtitle">
