@@ -33,6 +33,7 @@ A market can observe work, quality, effort, capital, and risk perfectly and let 
 - Creator platforms and recommendation systems
 - Competitive firms, entrepreneurship, and platform markets
 - AI labs, chips, cloud computing, and data centers
+- AI agents, x402, machine-to-machine payments, and the agentic economy
 - Technical standards, procurement, finance, and distribution
 - Antitrust, merger review, interoperability, and independent experimentation
 - Progressive taxation, universal basic income, and social dividends
@@ -43,6 +44,7 @@ A market can observe work, quality, effort, capital, and risk perfectly and let 
 - The theorem does not assign an exact luck or rent percentage to an individual. It shows why extreme market rewards are not precise certificates of individual contribution.
 - The project supports strong antitrust, merger enforcement, interoperability, structural separation, public options, and independent procurement to preserve genuinely independent economic paths.
 - Universal basic income and social dividends can provide security and share collectively produced gains without relying on an exact earned-versus-positional calculation.
+- In an agentic economy, a high volume of automated payments may still extend one reinforced purchasing path rather than create independent tests of competing agents or firms. UBI and social dividends can share automation gains, while antitrust and open standards preserve alternative paths.
 
 ## Website pages
 

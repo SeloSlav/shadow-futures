@@ -121,6 +121,16 @@ test.describe("interactive essay", () => {
       }),
     ).toBeVisible();
     await expect(
+      page.getByRole("heading", {
+        name: "How do AI agents, x402, and the agentic economy relate to Shadow Futures and UBI?",
+      }),
+    ).toBeVisible();
+    await expect(
+      page.getByRole("link", {
+        name: "x402 is an open internet payment standard",
+      }),
+    ).toHaveAttribute("href", "https://docs.x402.org/introduction");
+    await expect(
       page.getByRole("link", {
         name: "complete paper and technical appendix",
       }),

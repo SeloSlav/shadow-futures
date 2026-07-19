@@ -110,6 +110,21 @@ export const FAQ_GROUPS: FaqGroup[] = [
         ],
       },
       {
+        id: "ai-agents-x402-agentic-economy",
+        question:
+          "How do AI agents, x402, and the agentic economy relate to Shadow Futures and UBI?",
+        answer: [
+          "AI agents are software systems that can choose and act with less human input. x402 is an open internet payment standard built on HTTP 402 that lets software pay programmatically for APIs, data, compute, and other digital services. In an agentic economy, agents could buy inputs, hire services, sell outputs, and make payments around the clock.",
+          "x402 does not itself cause monopoly. The Shadow Futures problem appears if early agent purchases improve a seller’s ranking, reputation, data, revenue, or compatibility, which then makes later agents more likely to choose the same seller. Millions of machine payments may look like millions of tests while mostly extending one inherited path. Competing agents and firms may never receive enough business to show what they could have contributed.",
+          "That prospect strengthens the case for UBI or a social dividend. If automation shifts income toward the owners of models, compute, data, platforms, and agent networks, everyone should share in the productivity gains without having to prove an exact personal contribution to each machine transaction. Progressive taxes on the largest incomes, fortunes, profits, and economic rents can fund that floor; antitrust, interoperability, open standards, and public options are still needed to keep alternative economic paths open.",
+        ],
+        inlineLink: {
+          paragraphIndex: 0,
+          text: "x402 is an open internet payment standard",
+          href: "https://docs.x402.org/introduction",
+        },
+      },
+      {
         id: "lorenz-curve",
         question: "What can a Lorenz curve tell us—and what can it not tell us?",
         answer: [
@@ -165,14 +180,15 @@ export const FAQ_GROUPS: FaqGroup[] = [
     label: "04 / Tax and redistribution",
     title: "What market income cannot certify",
     intro:
-      "The paper does not describe how taxes are currently calculated. It studies a theoretical benchmark used in debates about desert: separating earned contribution from positional rent.",
+      "The paper does not say success is fake. It shows why a self-reinforcing market may be unable to certify that an outsized reward was created by the winner alone.",
     entries: [
       {
         id: "tax-policy",
         question: "What does Shadow Futures imply for tax policy?",
         answer: [
-          "Shadow Futures does not claim that current tax systems calculate each person’s causal contribution. They already rely on observable bases such as income, profits, property, consumption, and wealth.",
-          "The paper’s narrower implication is that realized income, profit, or market share cannot identify an exact contribution-versus-position split. Tax choices should be defended through observable effects and public purposes rather than presented as a forensic measurement of that split.",
+          "Shadow Futures strengthens the case for taxing extreme incomes, wealth, founder gains, creator fortunes, and monopoly profits at higher rates. A person or firm can do genuinely valuable work and still receive a reward far larger than the realized market history can attribute to that work.",
+          "Once an early win brings the next customer, recommendation, dataset, contract, investor, or technical advantage, the winning path grows while other people and firms lose chances to build a record, improve, attract capital, or even enter. Some excluded rivals may have been less capable and some may have been equally capable; the point is that the market closes the comparisons that could have told us. Under the paper’s conditions, the exact split between contribution and accumulated position cannot be recovered from the winner’s history.",
+          "Policy should not resolve that missing evidence by awarding the entire surplus to the winner and calling it merit. Progressive taxation can return part of outsized rewards through UBI, social dividends, public services, and shared investment. Antitrust, interoperability, open standards, and public options should lower barriers to entry and keep rival paths alive. The theorem does not select an exact tax rate, but it rejects the idea that the market payout itself proves exact personal desert.",
         ],
       },
       {

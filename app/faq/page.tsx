@@ -8,13 +8,13 @@ import { SITE_ORIGIN } from "@/lib/site";
 export const metadata: Metadata = {
   title: "FAQ: Shadow Futures, Contribution Uncertainty, AI, Tax and Competition",
   description:
-    "Direct answers about Shadow Futures, contribution uncertainty, preferential attachment, increasing returns, AI and data centers, epistemic monopoly, antitrust, progressive taxation, UBI, and social dividends.",
+    "Direct answers about Shadow Futures, contribution uncertainty, AI agents, x402, the agentic economy, antitrust, progressive taxation, UBI, and social dividends.",
   alternates: { canonical: "/faq" },
   openGraph: {
     type: "article",
     title: "Shadow Futures FAQ",
     description:
-      "What self-reinforcing markets erase, why transaction volume is not comparison, and what the result means for AI, competition, tax, and redistribution.",
+      "What self-reinforcing markets erase and what the result means for AI agents, x402, competition, progressive taxation, UBI, and redistribution.",
     url: "/faq",
   },
   twitter: {
@@ -76,8 +76,8 @@ export default function FaqPage() {
           <h1>Shadow Futures, explained</h1>
           <p>
             What self-reinforcing markets erase, why a million transactions may still be one
-            experiment, and what the result means for creators, firms, AI, competition, tax,
-            UBI, and social dividends.
+            experiment, and what the result means for creators, firms, AI agents, x402,
+            competition, progressive taxation, UBI, and social dividends.
           </p>
           <div className="faq-lead">
             <span className="panel__meta">The shortest answer</span>
