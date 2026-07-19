@@ -1,0 +1,97 @@
+import { expect, test } from "@playwright/test";
+
+test.describe("interactive essay", () => {
+  test("plays the creator graphs and reaches every chapter", async ({ page, isMobile }) => {
+    test.skip(isMobile, "covered by the desktop narrative journey");
+    await page.goto("/");
+    await expect(page.getByRole("heading", { name: "Shadow Futures" })).toBeVisible();
+    await page.getByRole("link", { name: "Watch what the feed does" }).click();
+    await expect(page.getByTestId("breakout-graph")).toBeVisible();
+
+    await page.getByRole("button", { name: "Play the feed" }).click();
+    await expect(page.getByTestId("breakout-graph")).toHaveAttribute(
+      "data-animation-state",
+      "complete",
+    );
+
+    await page.getByTestId("shadow-futures-graph").scrollIntoViewIfNeeded();
+    await page.getByRole("button", { name: "Watch ten replays" }).click();
+    await expect(page.getByTestId("shadow-futures-graph")).toHaveAttribute(
+      "data-animation-state",
+      "complete",
+    );
+
+    await page.getByTestId("experiment-monopoly-graph").scrollIntoViewIfNeeded();
+    await page.getByRole("button", { name: "See both versions" }).click();
+    await expect(page.getByTestId("experiment-monopoly-graph")).toHaveAttribute(
+      "data-animation-state",
+      "complete",
+    );
+
+    await page.getByTestId("lorenz-history-graph").scrollIntoViewIfNeeded();
+    await page.getByRole("button", { name: "Draw the income curve" }).click();
+    await expect(page.getByTestId("lorenz-history-graph")).toHaveAttribute(
+      "data-animation-state",
+      "complete",
+    );
+
+    const chapterIds = [
+      "breakout",
+      "shadow-futures",
+      "experiment-monopoly",
+      "firm-markets",
+      "lorenz-curve",
+      "tax-and-ubi",
+      "conclusion",
+    ];
+    for (const id of chapterIds) {
+      await page.locator(`#${id}`).scrollIntoViewIfNeeded();
+      await expect(page.locator(`#${id}`)).toBeVisible();
+    }
+  });
+
+  test("reruns the same creator feed with a different early history", async ({ page, isMobile }) => {
+    test.skip(isMobile, "covered by the desktop interaction journey");
+    await page.goto("/#breakout");
+    const graph = page.getByTestId("breakout-graph");
+    const result = graph.locator(".creator-graph__result");
+    await page.getByRole("button", { name: "Play the feed" }).click();
+    await expect(graph).toHaveAttribute("data-animation-state", "complete");
+    const firstWorld = await result.textContent();
+    await page.getByRole("button", { name: "Run it again" }).click();
+    await expect(graph).toHaveAttribute("data-animation-state", "complete");
+    await expect(result).not.toHaveText(firstWorld ?? "");
+  });
+
+  test("explains the central equation", async ({ page, isMobile }) => {
+    test.skip(isMobile, "covered by the desktop mathematics journey");
+    await page.goto("/math");
+    await expect(
+      page.getByRole("heading", { name: "One equation carries the whole argument." }),
+    ).toBeVisible();
+    await expect(page.getByText("Choose who receives the next opportunity")).toBeVisible();
+    await expect(page.getByText("What one history cannot tell us")).toBeVisible();
+  });
+
+  test("the operating system reduced-motion setting is respected", async ({ page, isMobile }) => {
+    test.skip(isMobile, "covered by the desktop accessibility journey");
+    await page.emulateMedia({ reducedMotion: "reduce" });
+    await page.goto("/");
+    await page.getByRole("button", { name: "Play the feed" }).click();
+    await expect(page.getByTestId("breakout-graph")).toHaveAttribute(
+      "data-animation-state",
+      "complete",
+    );
+    await expect(page.getByRole("button", { name: /reduced motion/i })).toHaveCount(0);
+    await expect(page.getByRole("button", { name: /mode/i })).toHaveCount(0);
+  });
+
+  test("mobile navigation reaches the methodology", async ({ page, isMobile }) => {
+    test.skip(!isMobile, "mobile-only coverage");
+    await page.goto("/");
+    await expect(page.locator("body")).not.toHaveCSS("overflow-x", "scroll");
+    await page.getByLabel("Shadow Futures home").click();
+    await page.goto("/methodology");
+    await expect(page.getByRole("heading", { name: "How the argument works" })).toBeVisible();
+  });
+});
