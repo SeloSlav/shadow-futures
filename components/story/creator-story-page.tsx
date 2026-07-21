@@ -64,9 +64,9 @@ function CreatorHero() {
         </p>
         <p className="hero__dek">
           A creator’s early audience or a firm’s first customer can make the next win easier.
-          As that advantage compounds, the market records one path in extraordinary detail
-          while failing to produce the comparison paths that could explain it. Those missing
-          experiments are shadow futures.
+          As that advantage compounds, the market records one path in extraordinary detail but
+          doesn’t produce the alternatives that could explain it. Those missing experiments are
+          shadow futures.
         </p>
         <div className="button-row">
           <a className="button button--primary" href="#breakout">
@@ -85,12 +85,12 @@ function NoveltyBridge() {
   return (
     <section className="novelty-bridge" id="novelty" aria-labelledby="novelty-title">
       <div className="novelty-bridge__intro">
-        <p className="eyebrow">Why this is new</p>
-        <h2 id="novelty-title">A million transactions can still be only one experiment.</h2>
+        <p className="eyebrow">What’s new here</p>
+        <h2 id="novelty-title">A million transactions can still add up to only one experiment.</h2>
         <p>
           Economists already know that early success can compound. This paper asks a different
           question: when each win changes who gets the next chance, can one long market history
-          still tell us how much the winner&apos;s work caused the final gap?
+          still tell us how much of the final gap came from the winner&apos;s work?
         </p>
       </div>
 
@@ -104,15 +104,15 @@ function NoveltyBridge() {
             receipts but only one shelf history.
           </p>
           <p className="novelty-analogy__answer">
-            <strong>More receipts are not more experiments.</strong> To separate product quality
-            from placement, we would need to rerun the shop with a different product in front.
+            <strong>More receipts don’t mean more experiments.</strong> To separate product quality
+            from placement, we’d need to rerun the shop with a different product in front.
             Those missing reruns are shadow futures.
           </p>
         </article>
 
         <div className="novelty-literature">
           <article>
-            <span className="panel__meta">What is already familiar</span>
+            <span className="panel__meta">What’s already familiar</span>
             <h3>Why an early winner keeps winning</h3>
             <p>
               Increasing returns, lock-in, cumulative advantage and preferential attachment
@@ -123,11 +123,11 @@ function NoveltyBridge() {
             <span className="panel__meta">What this paper adds</span>
             <h3>When that process destroys the evidence needed to explain the winner</h3>
             <p>
-              At every step, Shadow Futures counts the chance that someone other than the current
-              leader gets the next reward. It adds those chances into the comparison budget. If
-              that total is finite, the paper proves that no method using only the one market
-              history can consistently recover how much reward was caused by contribution, even
-              when work and quality are observed and new transactions keep arriving.
+              At every step, Shadow Futures measures the chance that someone other than the current
+              leader gets the next reward. It adds those chances to the comparison budget. If that
+              total is finite, the paper proves that no method using only one market history can
+              consistently recover how much of the reward came from contribution, even when work
+              and quality are observed and new transactions keep arriving.
             </p>
           </article>
         </div>
@@ -137,7 +137,7 @@ function NoveltyBridge() {
         <span className="panel__meta">The literature gap, stated carefully</span>
         <div className="novelty-boundary__copy">
           <p>
-            The paper does not claim that lock-in or cumulative advantage is new. Arthur&apos;s
+            The paper doesn’t claim that lock-in or cumulative advantage is new. Arthur&apos;s
             {" "}
             <cite>Competing Technologies, Increasing Returns, and Lock-In by Historical Events</cite>
             {" "}
@@ -204,34 +204,34 @@ export function CreatorStoryPage() {
           number={1}
           eyebrow="The familiar feedback loop"
           title="Your social media feed can turn one early break into a lasting lead"
-          intro="Imagine 24 creators whose skill and work are similar enough that any of them could plausibly break through. One gets slightly more attention in the first few minutes. The platform’s recommendation system treats those early views as a reason to show that creator to even more people."
+          intro="Imagine 24 creators whose skill and work are similar enough that any of them could plausibly break through. One creator gets a little more attention in the first few minutes. Social media’s recommendation systems treat those early views as a reason to show that creator to even more people."
         >
           <aside className="skill-objection">
             <div>
-              <span className="panel__meta">But people are not equally talented</span>
+              <span className="panel__meta">But people aren’t equally talented</span>
               <h3>
-                The model keeps skill differences small on purpose. It does not pretend people
-                are identical.
+                The model keeps skill differences small on purpose. It doesn’t pretend everyone
+                is identical.
               </h3>
             </div>
             <div className="skill-objection__answer">
               <p>
                 Real differences in talent, effort and judgment matter. But a large field can
                 contain thousands of people close enough in ability to be credible winners.
-                Those modest differences do not automatically explain a winner-take-most
-                outcome in which one person remains obscure while another gains millions of
+                Those modest differences don’t automatically explain a winner-take-most
+                outcome where one person remains obscure while another gains millions of
                 followers and captures most of the income.
               </p>
               <p>
-                A global platform places more qualified people into the same contest without
-                proportionally expanding how many receive sustained attention. The outcome
-                curve can therefore grow steeper, with more attention and income flowing to
-                fewer winners, even when the differences in skill are much narrower.
+                Global platforms bring more qualified people into the same contest without
+                creating proportionally more room for sustained attention. That can make the
+                outcome curve steeper, sending more attention and income to fewer winners even
+                when the differences in skill are much smaller.
               </p>
               <p>
-                The question is not whether the winner is talented. It is whether the system
-                surfaced the very best, or removed other qualified alternatives before their
-                potential could materialize.
+                The question isn’t whether the winner is talented. It’s whether the system found
+                the very best or screened out other qualified creators before they had a chance
+                to realize their potential.
               </p>
             </div>
           </aside>
@@ -242,23 +242,23 @@ export function CreatorStoryPage() {
           >
             <span>one creator gets an early break</span>
             <span aria-hidden="true">→</span>
-            <span>the platform shows them to more people</span>
+            <span>social media shows them to more people</span>
             <span aria-hidden="true">→</span>
             <span>they gain more followers</span>
             <span aria-hidden="true">→</span>
-            <span>the platform recommends them even more</span>
+            <span>recommendation systems show them even more</span>
           </div>
           <div className="scope-grid">
             <article className="scope-card">
-              <h3>Skill matters. The ranking still overclaims.</h3>
+              <h3>Skill matters, but the ranking still overclaims</h3>
               <p>
                 Better work can improve someone’s chances. But when many creators are already
-                good enough to succeed, the final follower count still cannot tell us exactly
+                good enough to succeed, the final follower count still can’t tell us exactly
                 how much came from better work and how much came from being shown more often.
               </p>
             </article>
             <article className="scope-card">
-              <h3>Follower count is not a merit score</h3>
+              <h3>Follower count isn’t a merit score</h3>
               <p>
                 A million followers can reflect both the creator’s work and all the extra
                 chances that came from already having followers.
@@ -272,7 +272,7 @@ export function CreatorStoryPage() {
           number={2}
           eyebrow="The missing histories"
           title="Press replay. A different creator wins."
-          intro="Treat the 24 portraits as visual placeholders in a hypothetical contest, not as a comparison of the real people. The contestants, posts and recommendation rules stay fixed. Change only which posts receive the first few random views and the eventual winner can change."
+          intro="The 24 portraits are visual stand-ins in a hypothetical contest; they aren’t comparisons of the real people. Keep the contestants, posts and recommendation rules fixed. Change only which posts receive the first few random views and the eventual winner can change."
         >
           <ShadowFuturesGraph />
           <div className="shadow-definition">
@@ -281,14 +281,14 @@ export function CreatorStoryPage() {
               views, sponsorships, and income.
             </p>
             <p>
-              <strong>The shadow futures:</strong> all the equally possible histories in which
-              another creator received the first early views and the recommendation system
-              kept showing them to more people.
+              <strong>The shadow futures:</strong> the other possible histories in which another
+              creator received the first few views and the recommendation system kept showing
+              them to more people.
             </p>
           </div>
           <p className="hero__line creator-story-line">
-            The social media platform does not merely discover a winner. Its recommendation
-            system helps create the history that later looks like proof.
+            Social media doesn’t just help us discover winners. Recommendation systems also shape
+            the histories that later seem to prove those winners deserved to win.
           </p>
         </StorySection>
 
@@ -296,8 +296,8 @@ export function CreatorStoryPage() {
           id="experiment-monopoly"
           number={3}
           eyebrow="The familiar story and the missing question"
-          title="The problem is not simply that success compounds. It is what compounding erases."
-          intro="Increasing returns and preferential attachment explain why an early lead can grow. Shadow Futures asks what happens to the evidence: after that lead shapes thousands of later decisions, can the one history we observed still tell us how much the winner contributed?"
+          title="The problem isn’t simply that success compounds. It’s what compounding erases."
+          intro="Increasing returns and preferential attachment explain why an early lead can grow. Shadow Futures asks what happens to the evidence: once that lead has shaped thousands of later decisions, can the one history we observe still tell us how much the winner contributed?"
           dark
         >
           <div className="platform-families">
@@ -312,7 +312,7 @@ export function CreatorStoryPage() {
               ],
               [
                 "Work and sales",
-                "Upwork, Fiverr, Etsy, Amazon and app stores carry reviews and ranking into the next sale.",
+                "Upwork, Fiverr, Etsy, Amazon and app stores carry reviews and rankings into each new sale.",
               ],
               [
                 "Knowledge",
@@ -334,22 +334,22 @@ export function CreatorStoryPage() {
               <h3>Why does the winner keep winning?</h3>
               <p>
                 Increasing returns, scaling laws, network effects and preferential attachment
-                explain how early success can compound into concentration.
+                explain how early success can grow into market concentration.
               </p>
             </article>
             <article>
               <span className="panel__meta">What Shadow Futures adds</span>
-              <h3>What did the market stop letting us learn?</h3>
+              <h3>What can the market no longer teach us?</h3>
               <p>
-                When one path absorbs the chances to try other paths, the market loses the
-                experimental comparisons needed to measure contribution from its final score.
+                When one path crowds out the chance to test others, the market loses the
+                comparisons needed to separate contribution from position in the final score.
               </p>
             </article>
           </div>
           <div className="global-history-callout">
             A market can be extremely busy while producing almost no new evidence. Ten million
             views, sales or contracts can keep extending one inherited path instead of testing
-            what the same inputs would have done along another.
+            how the same inputs would’ve performed on another.
           </div>
           <ExperimentMonopolyGraph />
           <div className="monopoly-definition">
@@ -365,21 +365,21 @@ export function CreatorStoryPage() {
               <h3>One history controls the evidence</h3>
               <p>
                 Thousands of creators or firms can remain in the market while one ranking,
-                standard or route to customers decides which paths get recorded. The monopoly
-                is over the comparisons society would need to explain the outcome.
+                standard or route to customers determines which paths get recorded. What it
+                monopolizes is the evidence society needs to explain the outcome.
               </p>
             </article>
           </div>
           <div className="theorem creator-theorem">
             <div className="theorem__label">The Shadow Futures result</div>
             <blockquote>
-              Transactions are not the sample size. Real chances for the market to go another
-              way are.
+              Transactions aren’t the sample size. Real chances for the market to go another way
+              are.
             </blockquote>
             <p>
               The paper calls the total of those chances the comparison budget. If that budget
-              is finite, no method using the one market history can consistently recover a
-              meaningful contribution measure, one that changes when contribution changes.
+              is finite, no method using a single market history can consistently recover a
+              meaningful measure of contribution that rises or falls when contribution does.
               More activity can lengthen the same path without adding the missing experiments.
             </p>
           </div>
@@ -390,7 +390,7 @@ export function CreatorStoryPage() {
           number={4}
           eyebrow="From scale to evidence"
           title="A growing firm can improve while making its own contribution harder to measure"
-          intro="An early customer brings revenue, data, credibility and scale. Those are real productive gains. But as one firm captures customers, standards and distribution, the market can run out of independent paths for learning how much came from the firm’s inputs and how much came from the position built by earlier wins."
+          intro="An early customer brings revenue, data, credibility and scale. Those can produce real gains. But as one firm comes to dominate customers, standards and distribution, the market can run out of independent paths that would reveal how much success came from the firm’s inputs and how much from the position created by earlier wins."
         >
           <div
             className="firm-flywheel"
@@ -401,12 +401,12 @@ export function CreatorStoryPage() {
               [
                 "01",
                 "Win early customers",
-                "A first contract, retailer, standard or major buyer creates the opening lead.",
+                "An early contract, retail placement, technical standard or major buyer creates an early lead.",
               ],
               [
                 "02",
                 "Gain money and information",
-                "Sales provide cash, usage data, a track record and easier access to finance.",
+                "Sales bring cash, usage data, a track record and easier access to finance.",
               ],
               [
                 "03",
@@ -439,11 +439,11 @@ export function CreatorStoryPage() {
             {[
               [
                 "AI and cloud computing",
-                "Models, chips and data centers require enormous up-front investment. More customers can fund more capacity, lower average costs and, in some settings, provide data that improves the service.",
+                "Models, chips and data centers require enormous up-front investment. More customers can fund more capacity, lower average costs and sometimes provide data that improves the service.",
               ],
               [
                 "Manufacturing and logistics",
-                "A larger order book can pay for better machinery, cheaper purchasing and wider distribution. Those real efficiencies can make the largest supplier still cheaper.",
+                "A larger order book can pay for better machinery, cheaper purchasing and wider distribution. Those real efficiencies can make the largest supplier cheaper still.",
               ],
               [
                 "Software and technical standards",
@@ -464,32 +464,32 @@ export function CreatorStoryPage() {
           <div className="firm-market-effects">
             <article>
               <span className="panel__meta">The public claim on scale</span>
-              <h3>Scale should serve the public, not become proof of desert</h3>
+              <h3>Scale should serve the public, not prove what a firm deserves</h3>
               <p>
                 Lower costs, better reliability, larger research budgets and useful standards
-                are collective economic gains. They do not turn market power or profit into a
+                are collective economic gains. They don’t turn market power or profit into a
                 precise measure of contribution.
               </p>
             </article>
             <article>
               <span className="panel__meta">A measurement problem</span>
-              <h3>Market share is not an exact contribution score</h3>
+              <h3>Market share isn’t an exact contribution score</h3>
               <p>
                 Today’s profit can reflect better products and the advantages created by
-                yesterday’s sales. One observed market path cannot always separate the two.
+                yesterday’s sales. One observed market path can’t always separate the two.
               </p>
             </article>
             <article>
               <span className="panel__meta">A competition problem</span>
-              <h3>Many firms can still produce only one useful test</h3>
+              <h3>Many firms can still offer only one useful test</h3>
               <p>
-                A market can contain many legal competitors while buyers, standards, finance
-                and distribution all follow the same early leader.
+                A market can contain many legal competitors while buyers, standards, financing
+                and distribution all converge on the same early leader.
               </p>
             </article>
             <article>
               <span className="panel__meta">A policy problem</span>
-              <h3>Mergers can remove paths we would have learned from</h3>
+              <h3>Mergers can erase valuable comparisons</h3>
               <p>
                 Merger review should ask whether independent products, experiments and routes
                 to customers will disappear, not only whether several company names remain.
@@ -498,19 +498,19 @@ export function CreatorStoryPage() {
           </div>
 
           <div className="global-history-callout firm-boundary">
-            The goal is not to freeze every firm at equal size. It is to prevent today’s leader
-            from closing tomorrow’s contest. Where feedback can exhaust real comparison, open
-            standards, interoperability, independent procurement trials, new entry and
-            structural separation are democratic infrastructure.
+            The goal isn’t to freeze every firm at equal size. It’s to prevent today’s leader
+            from closing tomorrow’s contest. When feedback loops can eliminate real comparisons,
+            open standards, interoperability, independent procurement trials, support for new
+            entrants and structural separation can serve as democratic infrastructure.
           </div>
         </StorySection>
 
         <StorySection
           id="lorenz-curve"
           number={5}
-          eyebrow="What inequality cannot answer"
+          eyebrow="What inequality can’t answer"
           title="The Lorenz curve is the symptom. Shadow futures are the missing evidence."
-          intro="Most debates about extreme inequality choose between two stories. One treats the reward as roughly proportional to talent, work or risk. The other treats it as an early accident amplified by cumulative advantage. Shadow Futures reframes the dispute: the same visible curve can be consistent with many mixtures of contribution and reinforced position, while one market history may not contain the comparisons needed to separate them."
+          intro="Debates about extreme inequality often split between two stories. One says the reward broadly reflects talent, work or risk. The other says a small early accident was amplified by cumulative advantage. Shadow Futures reframes the argument: the same visible curve can reflect many different mixes of contribution and reinforced position, and a single market history may not contain the comparisons needed to tell them apart."
         >
           <div
             className="inequality-frames"
@@ -520,7 +520,7 @@ export function CreatorStoryPage() {
               <span className="panel__meta">Common interpretation 1</span>
               <h3>The winner contributed proportionally more</h3>
               <p>
-                A very large reward is read as evidence of much greater talent, effort, judgment
+                A huge reward is taken as evidence of much greater talent, effort, judgment
                 or risk-bearing. The final gap looks like a contribution score.
               </p>
             </article>
@@ -534,7 +534,7 @@ export function CreatorStoryPage() {
             </article>
             <article className="inequality-frames__shadow">
               <span className="panel__meta">What Shadow Futures changes</span>
-              <h3>The curve cannot tell us how much of either story is true</h3>
+              <h3>The curve can’t tell us how much of either story is true</h3>
               <p>
                 Talent, effort and risk can matter while early position compounds. Because the
                 market records only one path, the same final inequality can fit very different
@@ -543,14 +543,14 @@ export function CreatorStoryPage() {
             </article>
           </div>
           <p className="inequality-question">
-            The question is not whether talent or luck exists. It is whether the market kept
-            enough independent comparison paths to measure how much each one caused.
+            The question isn’t whether talent and luck matter. It’s whether the market kept
+            enough independent comparison paths to measure how much each one mattered.
           </p>
           <LorenzHistoryGraph />
           <div className="lorenz-takeaway">
             <strong>The Lorenz curve is the final scoreboard.</strong>
             <span>
-              Shadow Futures asks whether the market kept enough alternate plays alive to
+              Shadow Futures asks whether the market kept enough alternative paths alive to
               explain that score.
             </span>
           </div>
@@ -558,10 +558,10 @@ export function CreatorStoryPage() {
             <article>
               <h3>OnlyFans and Fanvue</h3>
               <p>
-                A verified payout curve would show how subscription income is divided among
-                creators. Even a perfect curve could not tell whether its bend came from
-                better work, outside fame, early discovery, referrals, money, or simply being
-                shown first and then shown again.
+                A curve built from verified payouts would show how subscription income is divided
+                among creators. Even a perfect curve couldn’t reveal whether the inequality came
+                from better work, an existing following, early discovery, referrals, investment
+                or simply being shown first and then shown again.
               </p>
             </article>
             <article>
@@ -576,15 +576,15 @@ export function CreatorStoryPage() {
               <h3>Patreon, Substack, Spotify and marketplaces</h3>
               <p>
                 Subscriptions, playlists, reviews and rankings can carry yesterday’s position
-                into tomorrow’s income. Some rules give newcomers more real chances than
-                others.
+                into tomorrow’s income. Some platform rules leave newcomers more room to break
+                through than others.
               </p>
             </article>
           </div>
           <p className="data-note">
-            The curve above is an example, not OnlyFans or Fanvue payout data. To draw a real
-            curve, we would need to know what individual creators earned. Company totals are
-            not enough.
+            The curve above is illustrative; it doesn’t use OnlyFans or Fanvue payout data.
+            Drawing a real one would require individual creator earnings. Company totals aren’t
+            enough.
           </p>
           <div className="source-links" aria-label="Creator-platform sources">
             <a
@@ -622,18 +622,18 @@ export function CreatorStoryPage() {
           id="tax-and-ubi"
           number={6}
           eyebrow="Tax, UBI and social insurance"
-          title="The income record cannot isolate contribution from position"
-          intro="Existing tax systems use observable bases such as income, profits and wealth; they generally do not calculate the causal contribution behind each dollar. The paper asks whether one market history could ever isolate the positional part. Because it cannot under the theorem’s conditions, extreme rewards should not be treated as self-justifying: progressive taxation, antitrust, UBI and social dividends each address a different part of the problem."
+          title="The income record can’t isolate contribution from position"
+          intro="Existing tax systems use observable measures such as income, profits and wealth; they don’t try to calculate how much of each dollar came from the recipient’s contribution. The paper asks whether one market history could ever isolate the share created by position. Under the theorem’s conditions, it can’t. That means extreme rewards shouldn’t be treated as proof that recipients deserve every dollar. Progressive taxation, antitrust, UBI and social dividends each address a different part of the problem."
         >
           <div className="tax-policy-split">
             <article>
               <span className="panel__meta">A theoretical benchmark</span>
               <h3>Could a tax isolate only positional rent?</h3>
               <p>
-                The paper tests this demanding ideal to establish what the market record can
-                identify. Current tax systems generally do not attempt this calculation. The
-                result limits claims about exact desert; it is not a description of ordinary
-                tax administration.
+                The paper tests this demanding ideal to find the limits of what a market record
+                can reveal. Current tax systems generally don’t attempt this calculation. The
+                result limits claims about exactly what someone deserves; it isn’t a description
+                of ordinary tax administration.
               </p>
             </article>
             <article>
@@ -650,15 +650,15 @@ export function CreatorStoryPage() {
             {[
               [
                 "Tax extreme rewards progressively",
-                "The largest creator incomes, founder gains and monopoly profits combine real contribution with advantages multiplied by scale and history. Higher rates are justified by ability to pay, concentrated power and the public systems that made those gains possible.",
+                "The largest creator incomes, founder gains and monopoly profits combine real contribution with advantages that scale and history magnify. Higher rates are justified by ability to pay, concentrated power and the public systems that made those gains possible.",
               ],
               [
-                "Use antitrust to keep alternate paths open",
+                "Use antitrust to keep alternative paths open",
                 "Merger enforcement, interoperability, structural separation and public options can prevent one platform, standard or distribution channel from becoming the only experiment society gets to observe.",
               ],
               [
                 "UBI takes survival out of the merit contest",
-                "A universal floor follows people through unstable work, automation and algorithmic exclusion. Nobody should lose the basics of life because a market stopped choosing them.",
+                "A universal floor follows people through unstable work, automation and algorithmic exclusion. Nobody should lose the basics of life because a market stops choosing them.",
               ],
               [
                 "A social dividend recognizes shared production",
@@ -677,19 +677,19 @@ export function CreatorStoryPage() {
           id="conclusion"
           number={7}
           eyebrow="The distinct contribution"
-          title="The market does not just choose a winner. It chooses what can still be known."
-          intro="Increasing returns explain compounding. Scaling laws relate size to performance. Preferential attachment explains why success attracts more success. Lorenz curves describe inequality. Shadow Futures identifies the missing step: self-reinforcing allocation can destroy the comparison paths needed to measure contribution from the one history we observe."
+          title="The market doesn’t just choose a winner. It chooses what can still be known."
+          intro="Increasing returns explain compounding. Scaling laws relate size to performance. Preferential attachment explains why success attracts more success. Lorenz curves describe inequality. Shadow Futures identifies the missing step: self-reinforcing markets can destroy the comparison paths needed to measure contribution from the one history we observe."
         >
           <div className="creator-closing">
             <p className="hero__line">
-              A market can keep paying the winner long after it has stopped producing evidence
+              A market can keep paying the winner long after it’s stopped producing evidence
               about why they won.
             </p>
             <p className="hero__dek">
-              Shadow futures are not simply stories in which someone else got lucky. They are
-              the missing experimental repetitions: the same inputs meeting different early
-              audiences, customers, rankings or shocks. Those repetitions would have let us
-              estimate contribution.
+              Shadow futures aren’t simply stories in which someone else got lucky. They’re
+              the missing experimental reruns in which the same inputs meet different early
+              audiences, customers, rankings or shocks. Those reruns would’ve let us estimate
+              contribution.
             </p>
             <div className="button-row">
               <a className="button button--primary" href={PAPER.url} target="_blank" rel="noreferrer">

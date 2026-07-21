@@ -214,7 +214,7 @@ export function BreakoutGraph() {
     >
       <div className="creator-graph__head">
         <div>
-          <div className="panel__meta">One social media recommendation system</div>
+          <div className="panel__meta">One recommendation system in action</div>
           <strong>The model compares creators with deliberately similar skill.</strong>
         </div>
         <button className="button button--small" type="button" onClick={play}>
@@ -236,8 +236,8 @@ export function BreakoutGraph() {
           <title>One similarly skilled creator breaks away</title>
           <desc>
             Twenty-four creators with similar skill start with equal visibility. Small early
-            differences are reinforced by the social media platform’s recommendation system
-            until one creator receives much more exposure.
+            differences are amplified by recommendation systems until one creator receives much
+            more exposure.
           </desc>
           {[0, 0.25, 0.5, 0.75, 1].map((tick) => {
             const tickY = 24 + (1 - tick) * 344;
@@ -341,12 +341,12 @@ export function BreakoutGraph() {
           <>
             Creator {world.winner + 1} received{" "}
             <strong>{Math.round(world.finalShare * 100)}% of all recommendations</strong>.
-            Second and third place received {Math.round(topThree[1].share * 100)}% and{" "}
+            The runners-up received {Math.round(topThree[1].share * 100)}% and{" "}
             {Math.round(topThree[2].share * 100)}%, even though all 24 began with comparable
             skill and equal visibility.
           </>
         ) : (
-          <>A tiny early lead changes which creator the platform recommends next.</>
+          <>A tiny early lead changes which creator the recommendation system promotes next.</>
         )}
       </p>
     </div>
@@ -425,8 +425,8 @@ export function ShadowFuturesGraph() {
             ))}
           </div>
           <p className="shadow-replay__cast-note">
-            These portraits are visual stand-ins only. The simulation makes no claim about
-            these people’s real skills, work or merit.{" "}
+            These portraits are only visual stand-ins. The simulation doesn’t make any claim
+            about these people’s real skills, work or merit.{" "}
             <a href="/creator-portraits/credits.json" target="_blank" rel="noreferrer">
               Portrait credits
             </a>
@@ -531,8 +531,8 @@ export function ExperimentMonopolyGraph() {
     >
       <div className="creator-graph__head">
         <div>
-          <div className="panel__meta">The social media platform makes 1,600 recommendations</div>
-          <strong>How much chance remains for someone other than the current leader?</strong>
+          <div className="panel__meta">Social media makes 1,600 recommendations</div>
+          <strong>How much opportunity remains for anyone besides the current leader?</strong>
         </div>
         <button className="button button--small" type="button" onClick={animation.play}>
           {animation.running ? "Comparing…" : "Compare both rules"}
@@ -549,8 +549,8 @@ export function ExperimentMonopolyGraph() {
         </div>
         <p>
           If the leader has a 70% chance of receiving the next recommendation, the other 23
-          creators together have 30%. A higher line means the platform keeps more alternative
-          paths open.
+          creators together have 30%. A higher line means the recommendation system keeps more
+          alternative paths open.
         </p>
       </div>
 
@@ -559,16 +559,16 @@ export function ExperimentMonopolyGraph() {
           className="creator-line-chart"
           viewBox={`0 0 ${chartWidth} ${chartHeight}`}
           role="img"
-          aria-label={`The vertical axis measures the average chance that the next recommendation goes to anyone except the current leader. When the platform keeps boosting the early leader, that chance averages ${keptOpenPercent} percent. Resetting everyone to equal visibility ten times raises it to ${clearedOpenPercent} percent.`}
+          aria-label={`The vertical axis measures the average chance that the next recommendation goes to anyone except the current leader. When the recommendation system keeps boosting the early leader, that chance averages ${keptOpenPercent} percent. Resetting everyone to equal visibility ten times raises it to ${clearedOpenPercent} percent.`}
         >
-          <title>Average recommendation chance left for anyone except the current leader</title>
+          <title>Average chance that anyone except the current leader is recommended next</title>
           <desc>
             One rule keeps boosting the current leader. The other resets every creator to
-            equal visibility ten times. A higher line means more chance remains for someone
-            else to be recommended.
+            equal visibility ten times. A higher line means someone else is more likely to be
+            recommended.
           </desc>
           <text x="54" y="15" className="creator-chart-label comparison-axis-title">
-            average chance left for anyone else
+            average chance anyone else is recommended
           </text>
           {[0, 0.25, 0.5, 0.75, 1].map((tick) => {
             const tickY = 24 + (1 - tick) * 314;
@@ -657,10 +657,10 @@ export function ExperimentMonopolyGraph() {
       <p className="creator-graph__result" aria-live="polite">
         {animation.state === "complete" ? (
           <>
-            Across 1,600 recommendations, resetting visibility ten times kept{" "}
-            <strong>{clearedOpenPercent}% of the next-recommendation chance</strong> open to
-            someone other than the current leader. Continuous boosting left only{" "}
-            <strong>{keptOpenPercent}%</strong>. The reset rule therefore preserved{" "}
+            Across 1,600 recommendations, resetting visibility ten times gave someone other than
+            the current leader a <strong>{clearedOpenPercent}% average chance</strong> of receiving
+            the next recommendation. Continuous boosting cut that chance to{" "}
+            <strong>{keptOpenPercent}%</strong>. The reset rule preserved{" "}
             <strong>
               about {Math.round(clearedScoreTotal / keptScoreTotal)} times as much opportunity
             </strong>
@@ -668,8 +668,8 @@ export function ExperimentMonopolyGraph() {
           </>
         ) : (
           <>
-            If the social media platform keeps boosting the early leader, everyone else gets
-            fewer real chances to be seen.
+            If social media keeps boosting the early leader, everyone else gets fewer real
+            chances to be seen.
           </>
         )}
       </p>
@@ -719,7 +719,7 @@ export function LorenzHistoryGraph() {
       <div className="creator-graph__head">
         <div>
           <div className="panel__meta">The visible income distribution</div>
-          <strong>The bend shows inequality. It does not show what caused it.</strong>
+          <strong>The bend shows inequality. It doesn’t show what caused it.</strong>
         </div>
         <button className="button button--small" type="button" onClick={animation.play}>
           {animation.running ? "Income is concentrating…" : "Draw the income curve"}
@@ -832,12 +832,12 @@ export function LorenzHistoryGraph() {
       <div className="lorenz-histories">
         <article>
           <span className="panel__meta">History A</span>
-          <strong>Differences in the work carry more of the outcome.</strong>
+          <strong>Differences in creators’ work explain more of the outcome.</strong>
           <p>Inherited visibility still matters, but less.</p>
         </article>
         <article>
           <span className="panel__meta">History B</span>
-          <strong>Early visibility carries more of the outcome.</strong>
+          <strong>Early visibility explains more of the outcome.</strong>
           <p>Direct contribution still matters, but less.</p>
         </article>
       </div>
@@ -846,7 +846,7 @@ export function LorenzHistoryGraph() {
         {animation.state === "complete" ? (
           <>
             The top three receive <strong>{Math.round(topThreeShare * 100)}% of income</strong>.
-            The curve measures that inequality. The income record alone cannot tell us which
+            The curve measures that inequality. The income record alone can’t tell us which
             history produced it.
           </>
         ) : (
