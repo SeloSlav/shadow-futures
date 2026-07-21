@@ -1,11 +1,39 @@
 "use client";
 
 import { motion, useReducedMotion } from "framer-motion";
+import Image from "next/image";
 import { useCallback, useEffect, useMemo, useState } from "react";
 
 import { deriveSeed, mulberry32 } from "@/lib/model/prng";
 
-const CREATOR_COUNT = 24;
+const CREATOR_CAST = [
+  { name: "MrBeast", image: "/creator-portraits/mrbeast.webp" },
+  { name: "Taylor Swift", image: "/creator-portraits/taylor-swift.webp" },
+  { name: "Rihanna", image: "/creator-portraits/rihanna.webp" },
+  { name: "Beyoncé", image: "/creator-portraits/beyonce.webp" },
+  { name: "Selena Gomez", image: "/creator-portraits/selena-gomez.webp" },
+  { name: "Dwayne Johnson", image: "/creator-portraits/dwayne-johnson.webp" },
+  { name: "Cristiano Ronaldo", image: "/creator-portraits/cristiano-ronaldo.webp" },
+  { name: "Lionel Messi", image: "/creator-portraits/lionel-messi.webp" },
+  { name: "Kylie Jenner", image: "/creator-portraits/kylie-jenner.webp" },
+  { name: "Kim Kardashian", image: "/creator-portraits/kim-kardashian.webp" },
+  { name: "Oprah Winfrey", image: "/creator-portraits/oprah-winfrey.webp" },
+  { name: "Elon Musk", image: "/creator-portraits/elon-musk.webp" },
+  { name: "Jeff Bezos", image: "/creator-portraits/jeff-bezos.webp" },
+  { name: "Mark Zuckerberg", image: "/creator-portraits/mark-zuckerberg.webp" },
+  { name: "Bill Gates", image: "/creator-portraits/bill-gates.webp" },
+  { name: "Warren Buffett", image: "/creator-portraits/warren-buffett.webp" },
+  { name: "Richard Branson", image: "/creator-portraits/richard-branson.webp" },
+  { name: "Jensen Huang", image: "/creator-portraits/jensen-huang.webp" },
+  { name: "Satya Nadella", image: "/creator-portraits/satya-nadella.webp" },
+  { name: "Sundar Pichai", image: "/creator-portraits/sundar-pichai.webp" },
+  { name: "Sara Blakely", image: "/creator-portraits/sara-blakely.webp" },
+  { name: "Charli D'Amelio", image: "/creator-portraits/charli-damelio.webp" },
+  { name: "Khaby Lame", image: "/creator-portraits/khaby-lame.webp" },
+  { name: "Emma Chamberlain", image: "/creator-portraits/emma-chamberlain.webp" },
+] as const;
+
+const CREATOR_COUNT = CREATOR_CAST.length;
 const RECOMMENDATIONS = 1_600;
 const SAMPLE_EVERY = 40;
 const FEEDBACK_STRENGTH = 1.55;
@@ -329,11 +357,6 @@ export function ShadowFuturesGraph() {
     [],
   );
   const uniqueWinners = new Set(worlds.map((world) => world.winner)).size;
-  const creatorNumbers = Array.from(
-    { length: CREATOR_COUNT },
-    (_, index) => index + 1,
-  );
-
   return (
     <div
       className="creator-graph"
@@ -355,14 +378,31 @@ export function ShadowFuturesGraph() {
           <span className="shadow-replay__label">The same 24 equally good creators</span>
           <div
             className="shadow-replay__cast"
-            aria-label="Creators 1 through 24 begin together on the same starting line."
+            aria-label="An illustrative cast of 24 prominent creators and public figures begins together on the same starting line."
           >
-            {creatorNumbers.map((creator) => (
-              <span className="shadow-replay__person" key={creator}>
-                {creator}
+            {CREATOR_CAST.map((creator) => (
+              <span
+                className="shadow-replay__person"
+                key={creator.name}
+                title={creator.name}
+                aria-label={creator.name}
+              >
+                <Image
+                  src={creator.image}
+                  alt=""
+                  width={480}
+                  height={480}
+                  sizes="(max-width: 720px) 12vw, 7vw"
+                />
               </span>
             ))}
           </div>
+          <p className="shadow-replay__cast-note">
+            Illustrative public-figure cast; no endorsement implied.{" "}
+            <a href="/creator-portraits/credits.json" target="_blank" rel="noreferrer">
+              Portrait credits
+            </a>
+          </p>
         </div>
 
         <div className="shadow-replay__turn" aria-hidden="true">
@@ -376,6 +416,7 @@ export function ShadowFuturesGraph() {
           aria-label={`Ten replays of the same creator market produce ${uniqueWinners} different winners.`}
         >
           {worlds.map((world, index) => {
+            const winner = CREATOR_CAST[world.winner];
             const reveal = Math.max(
               0,
               Math.min(1, animation.progress * worlds.length - index),
@@ -395,11 +436,21 @@ export function ShadowFuturesGraph() {
               >
                 <span className="shadow-replay__take">Replay {index + 1}</span>
                 <span className="shadow-replay__spotlight" aria-hidden="true">
-                  <span>{revealed ? world.winner + 1 : "?"}</span>
+                  <span>
+                    {revealed ? (
+                      <Image
+                        src={winner.image}
+                        alt=""
+                        width={480}
+                        height={480}
+                        sizes="80px"
+                      />
+                    ) : (
+                      "?"
+                    )}
+                  </span>
                 </span>
-                <strong>
-                  {revealed ? `Creator ${world.winner + 1}` : "Who wins?"}
-                </strong>
+                <strong>{revealed ? winner.name : "Who wins?"}</strong>
                 <span>{revealed ? "wins this replay" : "Same starting line"}</span>
               </motion.div>
             );

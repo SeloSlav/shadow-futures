@@ -1295,6 +1295,7 @@ input[type="range"] {
 .shadow-replay__spotlight > span {
   display: grid;
   aspect-ratio: 1;
+  overflow: hidden;
   place-items: center;
   border: 1px solid var(--line-strong);
   border-radius: 50%;
@@ -1303,6 +1304,35 @@ input[type="range"] {
   font-size: clamp(0.62rem, 1vw, 0.78rem);
   font-variant-numeric: tabular-nums;
   font-weight: 750;
+}
+
+.shadow-replay__person img,
+.shadow-replay__spotlight img {
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  object-fit: cover;
+}
+
+.shadow-replay__person img {
+  filter: saturate(0.82) contrast(1.03);
+  transition: filter 180ms ease, transform 180ms ease;
+}
+
+.shadow-replay__person:hover img {
+  filter: saturate(1) contrast(1.02);
+  transform: scale(1.06);
+}
+
+.shadow-replay__cast-note {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.72rem;
+}
+
+.shadow-replay__cast-note a {
+  color: var(--ink);
+  text-underline-offset: 0.18em;
 }
 
 .shadow-replay__turn {
@@ -1373,8 +1403,9 @@ input[type="range"] {
 
 .shadow-replay__world.is-revealed .shadow-replay__spotlight > span {
   border-color: var(--rust);
-  background: color-mix(in srgb, var(--rust) 16%, var(--surface-solid));
+  background: var(--surface-solid);
   color: var(--rust);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--rust) 14%, transparent);
 }
 
 .shadow-replay__world strong {
