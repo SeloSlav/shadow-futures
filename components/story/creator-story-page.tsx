@@ -60,7 +60,7 @@ function CreatorHero() {
           Contribution Uncertainty and the Self-Reinforcing Market
         </p>
         <p className="hero__line">
-          A market can reward real contribution—and erase the evidence needed to measure it.
+          A market can reward real contribution while erasing the evidence needed to measure it.
         </p>
         <p className="hero__dek">
           A creator’s early audience or a firm’s first customer can make the next win easier.
@@ -93,8 +93,37 @@ export function CreatorStoryPage() {
           number={1}
           eyebrow="The familiar feedback loop"
           title="Your social media feed can turn one early break into a lasting lead"
-          intro="Imagine 24 equally good creators posting to the same social media platform. One gets slightly more attention in the first few minutes. The platform’s recommendation system treats those early views as a reason to show that creator to even more people."
+          intro="Imagine 24 creators whose skill and work are similar enough that any of them could plausibly break through. One gets slightly more attention in the first few minutes. The platform’s recommendation system treats those early views as a reason to show that creator to even more people."
         >
+          <aside className="skill-objection">
+            <div>
+              <span className="panel__meta">But people are not equally talented</span>
+              <h3>
+                The model keeps skill differences small on purpose. It does not pretend people
+                are identical.
+              </h3>
+            </div>
+            <div className="skill-objection__answer">
+              <p>
+                Real differences in talent, effort and judgment matter. But a large field can
+                contain thousands of people close enough in ability to be credible winners.
+                Those modest differences do not automatically explain a winner-take-most
+                outcome in which one person remains obscure while another gains millions of
+                followers and captures most of the income.
+              </p>
+              <p>
+                A global platform places more qualified people into the same contest without
+                proportionally expanding how many receive sustained attention. The outcome
+                curve can therefore grow steeper, with more attention and income flowing to
+                fewer winners, even when the differences in skill are much narrower.
+              </p>
+              <p>
+                The question is not whether the winner is talented. It is whether the system
+                surfaced the very best, or removed other qualified alternatives before their
+                potential could materialize.
+              </p>
+            </div>
+          </aside>
           <BreakoutGraph />
           <div
             className="concept-equation"
@@ -112,8 +141,9 @@ export function CreatorStoryPage() {
             <article className="scope-card">
               <h3>Skill matters. The ranking still overclaims.</h3>
               <p>
-                Excellent work can help someone win. It does not turn the final follower count
-                into a precise measure of what they contributed.
+                Better work can improve someone’s chances. But when many creators are already
+                good enough to succeed, the final follower count still cannot tell us exactly
+                how much came from better work and how much came from being shown more often.
               </p>
             </article>
             <article className="scope-card">
@@ -154,7 +184,7 @@ export function CreatorStoryPage() {
         <StorySection
           id="experiment-monopoly"
           number={3}
-          eyebrow="The familiar story—and the missing question"
+          eyebrow="The familiar story and the missing question"
           title="The problem is not simply that success compounds. It is what compounding erases."
           intro="Increasing returns and preferential attachment explain why an early lead can grow. Shadow Futures asks what happens to the evidence: after that lead shapes thousands of later decisions, can the one history we observed still tell us how much the winner contributed?"
           dark
@@ -238,7 +268,7 @@ export function CreatorStoryPage() {
             <p>
               The paper calls the total of those chances the comparison budget. If that budget
               is finite, no method using the one market history can consistently recover a
-              meaningful contribution measure—one that changes when contribution changes.
+              meaningful contribution measure, one that changes when contribution changes.
               More activity can lengthen the same path without adding the missing experiments.
             </p>
           </div>
@@ -248,7 +278,7 @@ export function CreatorStoryPage() {
           id="firm-markets"
           number={4}
           eyebrow="From scale to evidence"
-          title="A growing firm can improve—and make its own contribution harder to measure"
+          title="A growing firm can improve while making its own contribution harder to measure"
           intro="An early customer brings revenue, data, credibility and scale. Those are real productive gains. But as one firm captures customers, standards and distribution, the market can run out of independent paths for learning how much came from the firm’s inputs and how much came from the position built by earlier wins."
         >
           <div
@@ -298,7 +328,7 @@ export function CreatorStoryPage() {
             {[
               [
                 "AI and cloud computing",
-                "Models, chips and data centers require enormous up-front investment. More customers can fund more capacity, lower average costs and—in some settings—provide data that improves the service.",
+                "Models, chips and data centers require enormous up-front investment. More customers can fund more capacity, lower average costs and, in some settings, provide data that improves the service.",
               ],
               [
                 "Manufacturing and logistics",
@@ -323,7 +353,7 @@ export function CreatorStoryPage() {
           <div className="firm-market-effects">
             <article>
               <span className="panel__meta">The public claim on scale</span>
-              <h3>Scale should serve the public—not become proof of desert</h3>
+              <h3>Scale should serve the public, not become proof of desert</h3>
               <p>
                 Lower costs, better reliability, larger research budgets and useful standards
                 are collective economic gains. They do not turn market power or profit into a
@@ -351,7 +381,7 @@ export function CreatorStoryPage() {
               <h3>Mergers can remove paths we would have learned from</h3>
               <p>
                 Merger review should ask whether independent products, experiments and routes
-                to customers will disappear—not only whether several company names remain.
+                to customers will disappear, not only whether several company names remain.
               </p>
             </article>
           </div>
@@ -512,9 +542,9 @@ export function CreatorStoryPage() {
             </p>
             <p className="hero__dek">
               Shadow futures are not simply stories in which someone else got lucky. They are
-              the missing experimental repetitions—the same inputs meeting different early
-              audiences, customers, rankings or shocks—that would have let us estimate
-              contribution.
+              the missing experimental repetitions: the same inputs meeting different early
+              audiences, customers, rankings or shocks. Those repetitions would have let us
+              estimate contribution.
             </p>
             <div className="button-row">
               <a className="button button--primary" href={PAPER.url} target="_blank" rel="noreferrer">

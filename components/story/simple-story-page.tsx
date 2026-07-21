@@ -73,7 +73,7 @@ function SimpleHero() {
         <p className="hero__dek">
           One runner may truly be better. But once the track starts helping the leader, the
           final gap no longer tells us how much better. That is the basic problem behind
-          self-reinforcing markets—and it may matter enormously in the age of AI.
+          self-reinforcing markets, and it may matter enormously in the age of AI.
         </p>
         <div className="button-row">
           <a className="button button--primary" href="#run-market">
@@ -108,7 +108,7 @@ export function SimpleStoryPage() {
           id="run-market"
           number={1}
           eyebrow="The moving-track race"
-          title="A fair race—until someone gets ahead"
+          title="A fair race until someone gets ahead"
           intro="Runner A is slightly faster. Runner B can still get the first break. After that break, the track begins moving under the leader."
         >
           <MovingTrackRace />
@@ -188,7 +188,7 @@ export function SimpleStoryPage() {
           number={5}
           eyebrow="Room for surprise"
           title="A thousand sales are not a thousand fair tests"
-          intro="When the leader has a 99% chance of winning the next customer, another sale is a transaction—but barely a new comparison."
+          intro="When the leader has a 99% chance of winning the next customer, another sale is a transaction, but barely a new comparison."
         >
           <BudgetChart />
           <div style={{ maxWidth: "36rem", marginTop: "1.5rem" }}>
@@ -288,7 +288,7 @@ export function SimpleStoryPage() {
           id="replication"
           number={8}
           eyebrow="A real laboratory"
-          title="One long movie—or one hundred fresh starts?"
+          title="One long movie or one hundred fresh starts?"
           intro="Five thousand customers in one inherited timeline are not the same evidence as one hundred independent markets with fifty customers each."
         >
           <ReplicationExperiment />
@@ -345,7 +345,7 @@ export function SimpleStoryPage() {
           id="attribution-gauge"
           number={10}
           eyebrow="Skill versus position"
-          title="Was the winner better—or simply earlier?"
+          title="Was the winner better or simply earlier?"
           intro="Sometimes the same visible winning odds can be explained by more direct contribution and less inherited position, or the other way around."
         >
           <ContributionSplit />
@@ -415,7 +415,7 @@ export function SimpleStoryPage() {
           id="closing"
           number={12}
           eyebrow="The idea to remember"
-          title="Markets choose winners—and which evidence survives"
+          title="Markets choose winners and determine which evidence survives"
           intro="A market does not only distribute money, attention, compute, and power. Its rules also decide whether society gets enough alternate histories to understand those rewards."
         >
           <ClosingBranches />
@@ -425,7 +425,7 @@ export function SimpleStoryPage() {
             </p>
             <p className="hero__dek">
               Shadow futures are the replays we never saw: the same people, the same work, and
-              the same technology—meeting different early breaks.
+              the same technology, meeting different early breaks.
             </p>
             <div className="button-row">
               <a className="button button--primary" href={PAPER.url} target="_blank" rel="noreferrer">

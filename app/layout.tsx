@@ -9,8 +9,8 @@ import { SITE_ORIGIN } from "@/lib/site";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_ORIGIN),
   title: {
-    default: "Shadow Futures — Contribution Uncertainty and the Self-Reinforcing Market",
-    template: "%s — Shadow Futures",
+    default: "Shadow Futures | Contribution Uncertainty and the Self-Reinforcing Market",
+    template: "%s | Shadow Futures",
   },
   description:
     "An interactive explanation of Shadow Futures: how self-reinforcing markets can reward real inputs while destroying the comparison paths needed to measure contribution.",

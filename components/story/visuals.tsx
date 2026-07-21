@@ -449,7 +449,7 @@ export function EvidenceFadeChart() {
         </svg>
         <div className="callout">
           If the leader has a <strong>{((last?.probabilities[winner] ?? 0) * 100).toFixed(0)}%</strong>{" "}
-          chance of getting the next customer, another win is impressive—but it is not a fresh
+          chance of getting the next customer, another win is impressive, but it is not a fresh
           head-to-head test.
         </div>
       </div>
@@ -886,7 +886,7 @@ export function ShadowMap() {
                         Math.max(...distribution.winnerCounts),
                       ),
                   )
-                : "—"}
+                : "Not available"}
             </strong>
           </div>
         </div>

@@ -77,7 +77,7 @@ export default function MathPage() {
               <h3>Build each competitor’s score</h3>
               <p>
                 The score combines a contribution-related input with advantage the person or
-                firm already has—such as attention, customers or past sales. When{" "}
+                firm already has, such as attention, customers or past sales. When{" "}
                 <EquationMath latex="\rho>1" block={false} />, that advantage can feed on
                 itself strongly.
               </p>
@@ -141,7 +141,7 @@ export default function MathPage() {
         <h2>The winner’s contribution does not make the market score a proof.</h2>
         <p>
           The score records contribution together with accumulated advantage. When the
-          theorem’s formal conditions hold, the one history cannot recover the exact split—so
+          theorem’s formal conditions hold, the one history cannot recover the exact split, so
           the ranking cannot serve as a neutral certificate of desert.
         </p>
       </aside>

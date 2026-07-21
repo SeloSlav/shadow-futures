@@ -215,7 +215,7 @@ export function BreakoutGraph() {
       <div className="creator-graph__head">
         <div>
           <div className="panel__meta">One social media recommendation system</div>
-          <strong>Every creator starts equally good.</strong>
+          <strong>The model compares creators with deliberately similar skill.</strong>
         </div>
         <button className="button button--small" type="button" onClick={play}>
           {animation.running
@@ -231,13 +231,13 @@ export function BreakoutGraph() {
           className="creator-line-chart"
           viewBox={`0 0 ${chartWidth} ${chartHeight}`}
           role="img"
-          aria-label={`Twenty-four equally good creators compete for 1,600 recommendations. The top three eventually receive ${topThree.map((entry) => Math.round(entry.share * 100)).join(", ")} percent of them.`}
+          aria-label={`Twenty-four similarly skilled creators compete for 1,600 recommendations. The top three eventually receive ${topThree.map((entry) => Math.round(entry.share * 100)).join(", ")} percent of them.`}
         >
-          <title>One equally good creator breaks away</title>
+          <title>One similarly skilled creator breaks away</title>
           <desc>
-            Twenty-four creators start equally. Small early differences are reinforced by
-            the social media platform’s recommendation system until one creator receives
-            much more exposure.
+            Twenty-four creators with similar skill start with equal visibility. Small early
+            differences are reinforced by the social media platform’s recommendation system
+            until one creator receives much more exposure.
           </desc>
           {[0, 0.25, 0.5, 0.75, 1].map((tick) => {
             const tickY = 24 + (1 - tick) * 344;
@@ -342,7 +342,8 @@ export function BreakoutGraph() {
             Creator {world.winner + 1} received{" "}
             <strong>{Math.round(world.finalShare * 100)}% of all recommendations</strong>.
             Second and third place received {Math.round(topThree[1].share * 100)}% and{" "}
-            {Math.round(topThree[2].share * 100)}%, even though all 24 started equal.
+            {Math.round(topThree[2].share * 100)}%, even though all 24 began with comparable
+            skill and equal visibility.
           </>
         ) : (
           <>A tiny early lead changes which creator the platform recommends next.</>
@@ -380,7 +381,7 @@ export function ShadowFuturesGraph() {
 
       <div className="shadow-replay">
         <div className="shadow-replay__start">
-          <span className="shadow-replay__label">The same 24 equally good creators</span>
+          <span className="shadow-replay__label">The same 24 similarly skilled creators</span>
           <div
             className="shadow-replay__cast"
             aria-label="An illustrative cast of 24 prominent creators and public figures begins together on the same starting line."
@@ -484,15 +485,21 @@ export function ExperimentMonopolyGraph() {
   const clearedScores = useMemo(() => simulateCreatorWorld(31, 160), []);
   const keptScoreTotal = keptScores.comparison.at(-1) ?? 0;
   const clearedScoreTotal = clearedScores.comparison.at(-1) ?? 0;
-  const keptOpenPercent = Math.round(
-    (keptScoreTotal / RECOMMENDATIONS) * 100,
-  );
-  const clearedOpenPercent = Math.round(
-    (clearedScoreTotal / RECOMMENDATIONS) * 100,
-  );
-  const maxValue = clearedScoreTotal * 1.08;
+  const startingOpenShare = (CREATOR_COUNT - 1) / CREATOR_COUNT;
+  const averageOpenShare = (comparison: number[]) =>
+    comparison.map((total, index) =>
+      index === 0 ? startingOpenShare : total / (index * SAMPLE_EVERY),
+    );
+  const keptOpenShares = averageOpenShare(keptScores.comparison);
+  const clearedOpenShares = averageOpenShare(clearedScores.comparison);
+  const keptOpenShare = keptOpenShares.at(-1) ?? 0;
+  const clearedOpenShare = clearedOpenShares.at(-1) ?? 0;
+  const keptOpenPercent = Math.round(keptOpenShare * 100);
+  const clearedOpenPercent = Math.round(clearedOpenShare * 100);
   const chartWidth = 860;
   const chartHeight = 390;
+  const keptLabelY = Math.max(48, 24 + (1 - keptOpenShare) * 314 - 12);
+  const clearedLabelY = Math.max(48, 24 + (1 - clearedOpenShare) * 314 - 12);
 
   return (
     <div
@@ -503,14 +510,26 @@ export function ExperimentMonopolyGraph() {
       <div className="creator-graph__head">
         <div>
           <div className="panel__meta">The social media platform makes 1,600 recommendations</div>
-          <strong>
-            Does its recommendation system keep giving everyone a chance—or keep boosting
-            the early leader?
-          </strong>
+          <strong>How much chance remains for someone other than the current leader?</strong>
         </div>
         <button className="button button--small" type="button" onClick={animation.play}>
-          {animation.running ? "Comparing…" : "See both versions"}
+          {animation.running ? "Comparing…" : "Compare both rules"}
         </button>
+      </div>
+
+      <div className="experiment-metric">
+        <div>
+          <span className="panel__meta">What the vertical axis measures</span>
+          <strong>
+            The average chance that the next recommendation goes to anyone except the current
+            leader.
+          </strong>
+        </div>
+        <p>
+          If the leader has a 70% chance of receiving the next recommendation, the other 23
+          creators together have 30%. A higher line means the platform keeps more alternative
+          paths open.
+        </p>
       </div>
 
       <div className="creator-graph__plot">
@@ -518,28 +537,41 @@ export function ExperimentMonopolyGraph() {
           className="creator-line-chart"
           viewBox={`0 0 ${chartWidth} ${chartHeight}`}
           role="img"
-          aria-label={`Both versions make 1,600 social media recommendations. When the platform keeps boosting the early leader, everyone else shares ${keptOpenPercent} percent of the chance to be shown, on average. Starting everyone equally ten times raises that share to ${clearedOpenPercent} percent.`}
+          aria-label={`The vertical axis measures the average chance that the next recommendation goes to anyone except the current leader. When the platform keeps boosting the early leader, that chance averages ${keptOpenPercent} percent. Resetting everyone to equal visibility ten times raises it to ${clearedOpenPercent} percent.`}
         >
-          <title>Boosting the early leader compared with starting everyone equally ten times</title>
+          <title>Average recommendation chance left for anyone except the current leader</title>
           <desc>
-            One version focuses more and more on the early leader. The other regularly
-            starts everyone equally again.
+            One rule keeps boosting the current leader. The other resets every creator to
+            equal visibility ten times. A higher line means more chance remains for someone
+            else to be recommended.
           </desc>
-          {[0, 0.5, 1].map((tick) => {
+          <text x="54" y="15" className="creator-chart-label comparison-axis-title">
+            average chance left for anyone else
+          </text>
+          {[0, 0.25, 0.5, 0.75, 1].map((tick) => {
             const tickY = 24 + (1 - tick) * 314;
             return (
-              <line
-                key={tick}
-                x1="54"
-                x2="832"
-                y1={tickY}
-                y2={tickY}
-                className="creator-chart-grid"
-              />
+              <g key={tick}>
+                <line
+                  x1="54"
+                  x2="832"
+                  y1={tickY}
+                  y2={tickY}
+                  className="creator-chart-grid"
+                />
+                <text
+                  x="42"
+                  y={tickY + 5}
+                  textAnchor="end"
+                  className="creator-chart-label comparison-y-tick"
+                >
+                  {Math.round(tick * 100)}%
+                </text>
+              </g>
             );
           })}
           <motion.path
-            d={linePath(keptScores.comparison, chartWidth, chartHeight, maxValue)}
+            d={linePath(keptOpenShares, chartWidth, chartHeight, 1)}
             fill="none"
             stroke="var(--rust)"
             strokeWidth="5"
@@ -549,7 +581,7 @@ export function ExperimentMonopolyGraph() {
             transition={{ duration: 0.08, ease: "linear" }}
           />
           <motion.path
-            d={linePath(clearedScores.comparison, chartWidth, chartHeight, maxValue)}
+            d={linePath(clearedOpenShares, chartWidth, chartHeight, 1)}
             fill="none"
             stroke="var(--blue)"
             strokeWidth="5"
@@ -560,19 +592,29 @@ export function ExperimentMonopolyGraph() {
           />
           {animation.progress > 0.92 ? (
             <>
-              <text x="820" y="45" textAnchor="end" className="creator-chart-label">
-                start everyone equally 10 times
+              <text
+                x="820"
+                y={clearedLabelY}
+                textAnchor="end"
+                className="creator-chart-label"
+              >
+                reset to equal visibility: {clearedOpenPercent}%
               </text>
-              <text x="820" y="253" textAnchor="end" className="creator-chart-label">
-                keep boosting the early leader
+              <text
+                x="820"
+                y={keptLabelY}
+                textAnchor="end"
+                className="creator-chart-label"
+              >
+                keep boosting the leader: {keptOpenPercent}%
               </text>
             </>
           ) : null}
           <text x="54" y="370" className="creator-chart-label">
-            first choice
+            recommendation 1
           </text>
           <text x="832" y="370" textAnchor="end" className="creator-chart-label">
-            choice 1,600
+            recommendation 1,600
           </text>
         </svg>
       </div>
@@ -581,25 +623,26 @@ export function ExperimentMonopolyGraph() {
         <div>
           <span className="experiment-labels__line experiment-labels__line--rust" />
           <strong>Keep boosting the early leader</strong>
-          <span>Together, everyone else shares {keptOpenPercent}% of the chance to be shown</span>
+          <span>Anyone else: {keptOpenPercent}% average chance of the next recommendation</span>
         </div>
         <div>
           <span className="experiment-labels__line experiment-labels__line--blue" />
-          <strong>Start everyone equally 10 times</strong>
-          <span>Together, everyone else shares {clearedOpenPercent}% of the chance to be shown</span>
+          <strong>Reset everyone to equal visibility 10 times</strong>
+          <span>Anyone else: {clearedOpenPercent}% average chance of the next recommendation</span>
         </div>
       </div>
 
       <p className="creator-graph__result" aria-live="polite">
         {animation.state === "complete" ? (
           <>
-            Both versions chose who to show 1,600 times. Starting over ten times gave other
-            people{" "}
+            Across 1,600 recommendations, resetting visibility ten times kept{" "}
+            <strong>{clearedOpenPercent}% of the next-recommendation chance</strong> open to
+            someone other than the current leader. Continuous boosting left only{" "}
+            <strong>{keptOpenPercent}%</strong>. The reset rule therefore preserved{" "}
             <strong>
-              almost {Math.round(clearedScoreTotal / keptScoreTotal)} times as much chance to
-              break through
+              about {Math.round(clearedScoreTotal / keptScoreTotal)} times as much opportunity
             </strong>
-            .
+            {" "}for an alternative to break through.
           </>
         ) : (
           <>

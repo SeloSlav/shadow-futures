@@ -25,7 +25,7 @@ export const FAQ_GROUPS: FaqGroup[] = [
     label: "01 / Core idea",
     title: "What Shadow Futures means",
     intro:
-      "The central claim is about missing evidence—not merely unequal rewards or the fact that success compounds.",
+      "The central claim is about missing evidence, not merely unequal rewards or the fact that success compounds.",
     entries: [
       {
         id: "what-are-shadow-futures",
@@ -126,7 +126,7 @@ export const FAQ_GROUPS: FaqGroup[] = [
       },
       {
         id: "lorenz-curve",
-        question: "What can a Lorenz curve tell us—and what can it not tell us?",
+        question: "What can a Lorenz curve tell us, and what can it not tell us?",
         answer: [
           "A Lorenz curve shows how concentrated income or rewards are. It can accurately describe the final distribution.",
           "It cannot reveal how much of that distribution came from contribution, early visibility, inherited position, or feedback. The Lorenz curve is the scoreboard; shadow futures are the missing repetitions needed to explain the score.",
@@ -162,7 +162,7 @@ export const FAQ_GROUPS: FaqGroup[] = [
         question: "What does Shadow Futures imply for mergers and antitrust?",
         answer: [
           "Shadow Futures supports strong antitrust because concentrated control does more than raise prices or reduce choice. It can eliminate the independent market paths society needs to discover which firms, products, and technologies could succeed.",
-          "Merger review should ask how many genuinely independent routes to customers, capital, distribution, and experimentation will remain—not only how many company names survive. Where one platform, standard, or buyer controls the experiment, interoperability, structural separation, public options, and merger enforcement can keep alternate futures open.",
+          "Merger review should ask how many genuinely independent routes to customers, capital, distribution, and experimentation will remain, not only how many company names survive. Where one platform, standard, or buyer controls the experiment, interoperability, structural separation, public options, and merger enforcement can keep alternate futures open.",
         ],
       },
       {
@@ -237,7 +237,7 @@ export const FAQ_GROUPS: FaqGroup[] = [
         question: "What does the Shadow Futures theorem prove?",
         answer: [
           "Imagine two worlds. In one, better work has a very large effect on who wins. In the other, it has a smaller effect. If an early winner eventually receives almost every new customer, view, or contract, both worlds can leave behind records that look compatible with the same winning story.",
-          "The theorem proves that, under its conditions, no statistical method can always look at that one history and work out which world produced it—even if the market continues forever. Once genuine chances to compare different people or firms run out, more activity keeps extending the story but cannot recreate the missing experiment.",
+          "The theorem proves that, under its conditions, no statistical method can always look at that one history and work out which world produced it, even if the market continues forever. Once genuine chances to compare different people or firms run out, more activity keeps extending the story but cannot recreate the missing experiment.",
         ],
       },
       {

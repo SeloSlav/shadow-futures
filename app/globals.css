@@ -1234,6 +1234,43 @@ input[type="range"] {
   color: var(--rust);
 }
 
+.skill-objection {
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.4fr);
+  gap: clamp(1.5rem, 5vw, 5rem);
+  max-width: 82rem;
+  margin: 0 0 1.5rem;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  padding: clamp(1.25rem, 3vw, 2rem) 0;
+}
+
+.skill-objection h3 {
+  max-width: 23ch;
+  margin: 0.5rem 0 0;
+  font-family: var(--font-serif);
+  font-size: clamp(1.55rem, 2.6vw, 2.35rem);
+  font-weight: 520;
+  letter-spacing: -0.025em;
+  line-height: 1.08;
+}
+
+.skill-objection__answer {
+  display: grid;
+  gap: 1rem;
+}
+
+.skill-objection__answer p {
+  max-width: 62ch;
+  margin: 0;
+  color: var(--muted);
+}
+
+.skill-objection__answer p:last-child {
+  color: var(--ink);
+  font-weight: 650;
+}
+
 .chapter--dark .creator-graph {
   border-color: color-mix(in srgb, var(--paper) 18%, transparent);
   background: color-mix(in srgb, var(--paper) 7%, transparent);
@@ -1449,6 +1486,40 @@ input[type="range"] {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
   padding: 0 clamp(1rem, 4vw, 2rem) 1.5rem;
+}
+
+.experiment-metric {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: clamp(1rem, 4vw, 3rem);
+  border-bottom: 1px solid var(--line);
+  background: color-mix(in srgb, var(--blue) 6%, transparent);
+  padding: clamp(1rem, 3vw, 1.5rem) clamp(1rem, 4vw, 2rem);
+}
+
+.experiment-metric strong {
+  display: block;
+  max-width: 34ch;
+  margin-top: 0.35rem;
+  font-family: var(--font-serif);
+  font-size: clamp(1.15rem, 2vw, 1.55rem);
+  font-weight: 560;
+  line-height: 1.15;
+}
+
+.experiment-metric p {
+  max-width: 54ch;
+  margin: 0;
+  color: var(--muted);
+}
+
+.chapter--dark .experiment-metric {
+  border-color: color-mix(in srgb, var(--paper) 18%, transparent);
+  background: color-mix(in srgb, var(--blue) 12%, transparent);
+}
+
+.chapter--dark .experiment-metric p {
+  color: color-mix(in srgb, var(--paper) 74%, transparent);
 }
 
 .experiment-labels > div {
@@ -2036,12 +2107,17 @@ input[type="range"] {
     grid-template-columns: repeat(8, minmax(0, 1fr));
   }
 
+  .skill-objection {
+    grid-template-columns: 1fr;
+  }
+
   .shadow-replay__worlds {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .shadow-definition,
   .experiment-labels,
+  .experiment-metric,
   .monopoly-definition,
   .platform-families,
   .platform-lorenz-copy,

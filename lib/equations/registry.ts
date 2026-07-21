@@ -460,7 +460,7 @@ export const EQUATIONS: EquationDefinition[] = [
     latex:
       "D_{\\mathrm{KL}}\\!\\left(p_t(\\beta)\\,\\|\\,p_t(\\beta')\\right)=\\int_0^1(1-r)\\,\\delta^\\top\\operatorname{Var}_{p_t(\\beta+r\\delta)}(x_{J,t})\\delta\\,dr",
     plainLanguage:
-      "KL divergence integrates curvature—the conditional covariance—along the parameter segment.",
+      "KL divergence integrates curvature, the conditional covariance, along the parameter segment.",
     variables: [
       v("r", "path coordinate", "Position from β to β′."),
       v("\\operatorname{Var}", "log-partition Hessian", "Conditional covariance at the intermediate parameter."),

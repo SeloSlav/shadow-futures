@@ -646,7 +646,7 @@ export function StoryPage() {
         <section className="chapter" id="strong-reinforcement" aria-labelledby="chapter-7">
           <ChapterIntro number="07 / A sharp case" title="Strong reinforcement can exhaust comparison">
             For polynomial feedback, the summability condition holds when ρ &gt; 1. Strong
-            reinforcement is a sharp corollary—not the definition of contribution
+            reinforcement is a sharp corollary, not the definition of contribution
             uncertainty.
           </ChapterIntro>
           <StrongReinforcementChart />
@@ -725,7 +725,7 @@ export function StoryPage() {
         </section>
 
         <section className="chapter" id="scope" aria-labelledby="scope-title">
-          <ChapterIntro number="Scope and limits" title="What the argument does—and does not—establish">
+          <ChapterIntro number="Scope and limits" title="What the argument does and does not establish">
             Simulations expose the mechanism. They do not prove the theorem, measure moral
             desert, or turn every concentration event into a policy conclusion.
           </ChapterIntro>

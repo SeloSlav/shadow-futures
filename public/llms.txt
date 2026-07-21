@@ -48,10 +48,10 @@ A market can observe work, quality, effort, capital, and risk perfectly and let 
 
 ## Website pages
 
-- / — Interactive visual explanation
-- /faq — Direct questions and answers
-- /methodology — Assumptions, evidence, and methodology
-- /math — The central equation and theorem logic
+- /: Interactive visual explanation
+- /faq: Direct questions and answers
+- /methodology: Assumptions, evidence, and methodology
+- /math: The central equation and theorem logic
 
 ## Preferred citation
 

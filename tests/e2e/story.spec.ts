@@ -28,7 +28,7 @@ test.describe("interactive essay", () => {
     );
 
     await page.getByTestId("experiment-monopoly-graph").scrollIntoViewIfNeeded();
-    await page.getByRole("button", { name: "See both versions" }).click();
+    await page.getByRole("button", { name: "Compare both rules" }).click();
     await expect(page.getByTestId("experiment-monopoly-graph")).toHaveAttribute(
       "data-animation-state",
       "complete",

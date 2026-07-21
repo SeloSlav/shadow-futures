@@ -168,7 +168,7 @@ export default function MethodologyPage() {
                 included.
               </li>
               <li>
-                The conclusion is mutual absolute continuity of complete-history laws—not
+                The conclusion is mutual absolute continuity of complete-history laws, not
                 equality of distributions.
               </li>
             </ul>
@@ -233,7 +233,7 @@ export default function MethodologyPage() {
               <p>
                 Tax rates, public ownership, UBI and social dividends remain collective
                 choices. They should be decided openly around power, security, freedom and
-                shared prosperity—not outsourced to a market score.
+                shared prosperity, not outsourced to a market score.
               </p>
             </div>
           </div>
