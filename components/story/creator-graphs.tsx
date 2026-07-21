@@ -355,14 +355,26 @@ export function BreakoutGraph() {
 
 export function ShadowFuturesGraph() {
   const animation = useGraphAnimation(2_400);
+  const [replayBatch, setReplayBatch] = useState(0);
+  const [hasReplayed, setHasReplayed] = useState(false);
   const worlds = useMemo(
     () =>
       Array.from({ length: 10 }, (_, index) =>
-        simulateCreatorWorld(deriveSeed(31, index)),
+        simulateCreatorWorld(deriveSeed(31, replayBatch * 10 + index)),
       ),
-    [],
+    [replayBatch],
   );
   const uniqueWinners = new Set(worlds.map((world) => world.winner)).size;
+
+  const playReplays = () => {
+    if (hasReplayed) {
+      setReplayBatch((current) => current + 1);
+    } else {
+      setHasReplayed(true);
+    }
+    animation.play();
+  };
+
   return (
     <div
       className="creator-graph"
@@ -372,19 +384,28 @@ export function ShadowFuturesGraph() {
       <div className="creator-graph__head">
         <div>
           <div className="panel__meta">Same people · same posts · same recommendation system</div>
-          <strong>Only the first few views will change.</strong>
+          <strong>Only the opening views change from one replay to the next.</strong>
         </div>
-        <button className="button button--small" type="button" onClick={animation.play}>
-          {animation.running ? "Replaying…" : "Watch ten replays"}
+        <button
+          className="button button--small"
+          type="button"
+          onClick={playReplays}
+          disabled={animation.running}
+        >
+          {animation.running
+            ? "Running ten replays…"
+            : hasReplayed
+              ? "Run ten new replays"
+              : "Watch ten replays"}
         </button>
       </div>
 
       <div className="shadow-replay">
         <div className="shadow-replay__start">
-          <span className="shadow-replay__label">The same 24 similarly skilled creators</span>
+          <span className="shadow-replay__label">24 visual stand-ins for possible winners</span>
           <div
             className="shadow-replay__cast"
-            aria-label="An illustrative cast of 24 prominent creators and public figures begins together on the same starting line."
+            aria-label="Twenty-four public-figure portraits act only as visual stand-ins for the possible winners in this hypothetical simulation."
           >
             {CREATOR_CAST.map((creator) => (
               <span
@@ -404,7 +425,8 @@ export function ShadowFuturesGraph() {
             ))}
           </div>
           <p className="shadow-replay__cast-note">
-            Illustrative public-figure cast; no endorsement implied.{" "}
+            These portraits are visual stand-ins only. The simulation makes no claim about
+            these people’s real skills, work or merit.{" "}
             <a href="/creator-portraits/credits.json" target="_blank" rel="noreferrer">
               Portrait credits
             </a>
@@ -467,9 +489,9 @@ export function ShadowFuturesGraph() {
       <p className="creator-graph__result" aria-live="polite">
         {animation.state === "complete" ? (
           <>
-            Nothing about the creators changed. Changing only the opening produced{" "}
-            <strong>{uniqueWinners} different winners</strong>. Real life shows us just one of
-            these replays.
+            This batch produced <strong>{uniqueWinners} different winners</strong> without
+            changing the hypothetical contestants, posts or recommendation rules. Run ten new
+            replays and a fresh set of opening views will produce a new sequence.
           </>
         ) : (
           <>Same people. Same posts. Same recommendation system. Change only the first few views.</>

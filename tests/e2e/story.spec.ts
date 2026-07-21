@@ -21,11 +21,21 @@ test.describe("interactive essay", () => {
     );
 
     await page.getByTestId("shadow-futures-graph").scrollIntoViewIfNeeded();
+    const replayGraph = page.getByTestId("shadow-futures-graph");
     await page.getByRole("button", { name: "Watch ten replays" }).click();
-    await expect(page.getByTestId("shadow-futures-graph")).toHaveAttribute(
+    await expect(replayGraph).toHaveAttribute(
       "data-animation-state",
       "complete",
     );
+    const replayWinners = replayGraph.locator(".shadow-replay__world strong");
+    await expect(replayWinners).toHaveCount(10);
+    const firstReplayWinners = await replayWinners.allTextContents();
+
+    await page.getByRole("button", { name: "Run ten new replays" }).click();
+    await expect(replayGraph).toHaveAttribute("data-animation-state", "running");
+    await expect(replayGraph).toHaveAttribute("data-animation-state", "complete");
+    const secondReplayWinners = await replayWinners.allTextContents();
+    expect(secondReplayWinners).not.toEqual(firstReplayWinners);
 
     await page.getByTestId("experiment-monopoly-graph").scrollIntoViewIfNeeded();
     await page.getByRole("button", { name: "Compare both rules" }).click();

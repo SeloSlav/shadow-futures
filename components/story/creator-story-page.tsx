@@ -161,7 +161,7 @@ export function CreatorStoryPage() {
           number={2}
           eyebrow="The missing histories"
           title="Press replay. A different creator wins."
-          intro="The same 24 creators post the same work to the same social media platform. Change only which posts receive the first few random views and the eventual winner changes. Each replay creates comparison evidence that the real platform history never produced."
+          intro="Treat the 24 portraits as visual placeholders in a hypothetical contest, not as a comparison of the real people. The contestants, posts and recommendation rules stay fixed. Change only which posts receive the first few random views and the eventual winner can change."
         >
           <ShadowFuturesGraph />
           <div className="shadow-definition">
