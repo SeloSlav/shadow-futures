@@ -1303,6 +1303,15 @@ input[type="range"] {
   font-size: clamp(1rem, 1.45vw, 1.15rem);
 }
 
+.novelty-boundary__copy {
+  display: grid;
+  gap: 1rem;
+}
+
+.novelty-boundary__copy cite {
+  color: var(--paper);
+}
+
 .creator-graph {
   max-width: 82rem;
   overflow: hidden;

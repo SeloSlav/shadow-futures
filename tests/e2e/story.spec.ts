@@ -18,6 +18,7 @@ test.describe("interactive essay", () => {
         name: "A million transactions can still be only one experiment.",
       }),
     ).toBeVisible();
+    await expect(firstSectionAfterHero.getByText("Le Goff and Soulier's")).toBeVisible();
     await page.getByRole("link", { name: "See how the evidence disappears" }).click();
     await expect(page.getByTestId("breakout-graph")).toBeVisible();
 

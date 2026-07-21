@@ -135,14 +135,57 @@ function NoveltyBridge() {
 
       <div className="novelty-boundary">
         <span className="panel__meta">The literature gap, stated carefully</span>
-        <p>
-          The paper does not claim that feedback, lock-in or counterfactual reasoning is new.
-          Those ideas already exist separately. The closest statistical precedent proves an
-          estimation failure in a narrower reinforced-urn model. The paper&apos;s distinct
-          contribution is a market-level comparison budget tied to a single-history impossibility
-          theorem for contribution attribution. It also gives competition an additional role:
-          independent market paths are the replications needed to learn why outcomes diverged.
-        </p>
+        <div className="novelty-boundary__copy">
+          <p>
+            The paper does not claim that lock-in or cumulative advantage is new. Arthur&apos;s
+            {" "}
+            <cite>Competing Technologies, Increasing Returns, and Lock-In by Historical Events</cite>
+            {" "}
+            (1989), David&apos;s <cite>Clio and the Economics of QWERTY</cite>
+            {" "}
+            (1985), and Merton&apos;s <cite>The Matthew Effect in Science</cite>
+            {" "}
+            (1968) establish those foundations.
+          </p>
+          <p>
+            Pemantle&apos;s <cite>A Survey of Random Processes with Reinforcement</cite>
+            {" "}
+            (2007)
+            {" "}
+            maps the reinforced-process literature, Oliveira&apos;s
+            {" "}
+            <cite>The Onset of Dominance in Balls-in-Bins Processes with Feedback</cite>
+            {" "}
+            (2009)
+            {" "}
+            proves a dominance result, and Bar-Yam&apos;s
+            {" "}
+            <cite>From Big Data to Important Information</cite>
+            {" "}
+            (2016)
+            {" "}
+            distinguishes abundant records from the information needed to evaluate interventions.
+            Hayek&apos;s
+            {" "}
+            <cite>Competition as a Discovery Procedure</cite>
+            {" "}
+            (2002)
+            {" "}
+            gives competition its familiar discovery role.
+          </p>
+          <p>
+            The closest statistical precedent is Le Goff and Soulier&apos;s
+            {" "}
+            <cite>Parameter Estimation of a Two-Colored Urn Model Class</cite>
+            {" "}
+            (2017),
+            {" "}
+            which proves an estimation failure in that narrower urn setting. Shadow Futures adds
+            a market-level comparison budget tied to a single-history impossibility theorem for
+            contribution attribution. It also gives competition an additional role: independent
+            market paths are the replications needed to learn why outcomes diverged.
+          </p>
+        </div>
       </div>
     </section>
   );
