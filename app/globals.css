@@ -1602,6 +1602,32 @@ input[type="range"] {
   padding: 1.5rem 0;
 }
 
+.musiclab-evidence {
+  display: grid;
+  gap: 0.7rem;
+  max-width: 58rem;
+  margin: 2.5rem 0 0;
+  border-left: 3px solid var(--rust);
+  background: color-mix(in srgb, var(--rust) 6%, transparent);
+  padding: clamp(1.15rem, 3vw, 1.6rem) clamp(1.2rem, 3vw, 1.8rem);
+}
+
+.musiclab-evidence p {
+  max-width: 72ch;
+  margin: 0;
+}
+
+.musiclab-evidence__citation {
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.musiclab-evidence__citation a {
+  color: var(--ink);
+  font-weight: 650;
+  text-underline-offset: 0.2em;
+}
+
 .shadow-definition p {
   margin: 0;
   color: var(--muted);

@@ -1,16 +1,7 @@
 {
-  "generatedAt": "2026-07-21T09:20:25.038Z",
+  "generatedAt": "2026-07-21T23:42:11.747Z",
   "note": "Portraits were center-cropped, resized, and converted to WebP for this illustrative cast. No endorsement is implied.",
   "credits": [
-    {
-      "name": "MrBeast",
-      "articleUrl": "https://en.wikipedia.org/wiki/MrBeast",
-      "filePageUrl": "https://commons.wikimedia.org/wiki/File:MrBeast_in_2026_(cropped_4).png",
-      "artist": "Tyren Redd",
-      "license": "CC BY 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-      "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/MrBeast_in_2026_%28cropped_4%29.png/960px-MrBeast_in_2026_%28cropped_4%29.png"
-    },
     {
       "name": "Taylor Swift",
       "articleUrl": "https://en.wikipedia.org/wiki/Taylor_Swift",
@@ -48,175 +39,184 @@
       "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Selena_Gomez_at_the_2024_Toronto_International_Film_Festival_10_%28cropped%29.jpg/960px-Selena_Gomez_at_the_2024_Toronto_International_Film_Festival_10_%28cropped%29.jpg"
     },
     {
-      "name": "Dwayne Johnson",
-      "articleUrl": "https://en.wikipedia.org/wiki/Dwayne_Johnson",
-      "filePageUrl": "https://commons.wikimedia.org/wiki/File:Dwayne_Johnson-1764_(4x5_cropped_with_moderate_headroom).jpg",
+      "name": "Lady Gaga",
+      "articleUrl": "https://en.wikipedia.org/wiki/Lady_Gaga",
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:Lady_Gaga_at_Joe_Biden%27s_inauguration_(cropped_5).jpg",
+      "artist": "Carlos M. Vazquez II",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Lady_Gaga_at_Joe_Biden%27s_inauguration_%28cropped_5%29.jpg/960px-Lady_Gaga_at_Joe_Biden%27s_inauguration_%28cropped_5%29.jpg"
+    },
+    {
+      "name": "Adele",
+      "articleUrl": "https://en.wikipedia.org/wiki/Adele",
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:Adele_2016.jpg",
+      "artist": "Marc E.",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Adele_2016.jpg/960px-Adele_2016.jpg"
+    },
+    {
+      "name": "Billie Eilish",
+      "articleUrl": "https://en.wikipedia.org/wiki/Billie_Eilish",
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:BillieEilishO2140725-39_-_54665577407_(cropped).jpg",
+      "artist": "Raph_PH",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/c/c7/BillieEilishO2140725-39_-_54665577407_%28cropped%29.jpg"
+    },
+    {
+      "name": "Ariana Grande",
+      "articleUrl": "https://en.wikipedia.org/wiki/Ariana_Grande",
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:Ariana_Grande_promoting_Wicked_(2024).jpg",
+      "artist": "Barbie Simons",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Ariana_Grande_promoting_Wicked_%282024%29.jpg"
+    },
+    {
+      "name": "Dua Lipa",
+      "articleUrl": "https://en.wikipedia.org/wiki/Dua_Lipa",
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:Dua_Lipa-69798_(cropped).jpg",
       "artist": "Harald Krichel",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Dwayne_Johnson-1764_%284x5_cropped_with_moderate_headroom%29.jpg/960px-Dwayne_Johnson-1764_%284x5_cropped_with_moderate_headroom%29.jpg"
+      "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Dua_Lipa-69798_%28cropped%29.jpg/960px-Dua_Lipa-69798_%28cropped%29.jpg"
     },
     {
-      "name": "Cristiano Ronaldo",
-      "articleUrl": "https://en.wikipedia.org/wiki/Cristiano_Ronaldo",
-      "filePageUrl": "https://commons.wikimedia.org/wiki/File:Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_(cropped).jpg",
-      "artist": "Bryan Berlin",
+      "name": "Ed Sheeran",
+      "articleUrl": "https://en.wikipedia.org/wiki/Ed_Sheeran",
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:Ed_Sheeran-6886_(cropped_2).jpg",
+      "artist": "Harald Krichel",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Ed_Sheeran-6886_%28cropped_2%29.jpg/960px-Ed_Sheeran-6886_%28cropped_2%29.jpg"
+    },
+    {
+      "name": "Bruno Mars",
+      "articleUrl": "https://en.wikipedia.org/wiki/Bruno_Mars",
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:BrunoMars24KMagicWorldTourLive_(cropped).jpg",
+      "artist": "slgckgc",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/BrunoMars24KMagicWorldTourLive_%28cropped%29.jpg/960px-BrunoMars24KMagicWorldTourLive_%28cropped%29.jpg"
+    },
+    {
+      "name": "Justin Bieber",
+      "articleUrl": "https://en.wikipedia.org/wiki/Justin_Bieber",
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:Justin_Bieber_in_2015.jpg",
+      "artist": "Lou Stejskal",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Justin_Bieber_in_2015.jpg/960px-Justin_Bieber_in_2015.jpg"
+    },
+    {
+      "name": "The Weeknd",
+      "articleUrl": "https://en.wikipedia.org/wiki/The_Weeknd",
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:The_Weeknd_Portrait_by_Brian_Ziff.jpg",
+      "artist": "Brian Ziff",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_%28cropped%29.jpg/960px-Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_%28cropped%29.jpg"
+      "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/The_Weeknd_Portrait_by_Brian_Ziff.jpg/960px-The_Weeknd_Portrait_by_Brian_Ziff.jpg"
     },
     {
-      "name": "Lionel Messi",
-      "articleUrl": "https://en.wikipedia.org/wiki/Lionel_Messi",
-      "filePageUrl": "https://commons.wikimedia.org/wiki/File:Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg",
-      "artist": "Bryan Berlin",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg/960px-Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg"
-    },
-    {
-      "name": "Kylie Jenner",
-      "articleUrl": "https://en.wikipedia.org/wiki/Kylie_Jenner",
-      "filePageUrl": "https://commons.wikimedia.org/wiki/File:Kylie_Jenner1_(cropped).png",
-      "artist": "Hayu",
-      "license": "CC BY 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-      "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Kylie_Jenner1_%28cropped%29.png"
-    },
-    {
-      "name": "Kim Kardashian",
-      "articleUrl": "https://en.wikipedia.org/wiki/Kim_Kardashian",
-      "filePageUrl": "https://commons.wikimedia.org/wiki/File:Kim_Kardashian_West_2014.jpg",
-      "artist": "Eva Rinaldi",
+      "name": "Drake",
+      "articleUrl": "https://en.wikipedia.org/wiki/Drake_(musician)",
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:Drake_at_The_Carter_Effect_2017_(36818935200)_(cropped).jpg",
+      "artist": "GabboT",
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-      "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Kim_Kardashian_West_2014.jpg/960px-Kim_Kardashian_West_2014.jpg"
+      "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/1/15/Drake_at_The_Carter_Effect_2017_%2836818935200%29_%28cropped%29.jpg"
     },
     {
-      "name": "Oprah Winfrey",
-      "articleUrl": "https://en.wikipedia.org/wiki/Oprah_Winfrey",
-      "filePageUrl": "https://commons.wikimedia.org/wiki/File:Oprah_Winfrey_2016.jpg",
-      "artist": "US Embassy South Africa",
-      "license": "Public domain",
-      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Oprah_Winfrey_2016.jpg",
-      "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Oprah_Winfrey_2016.jpg/960px-Oprah_Winfrey_2016.jpg"
-    },
-    {
-      "name": "Elon Musk",
-      "articleUrl": "https://en.wikipedia.org/wiki/Elon_Musk",
-      "filePageUrl": "https://commons.wikimedia.org/wiki/File:Elon_Musk_-_54820081119_(cropped).jpg",
-      "artist": "Gage Skidmore",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Elon_Musk_-_54820081119_%28cropped%29.jpg/960px-Elon_Musk_-_54820081119_%28cropped%29.jpg"
-    },
-    {
-      "name": "Jeff Bezos",
-      "articleUrl": "https://en.wikipedia.org/wiki/Jeff_Bezos",
-      "filePageUrl": "https://commons.wikimedia.org/wiki/File:260202-D-PM193-2205_SECWAR_Arsenal_of_Freedom_Tour_-_Florida_(3x4_cropped_on_Bezos_and_rotated).jpg",
-      "artist": "SECWAR",
-      "license": "Public domain",
-      "licenseUrl": "https://commons.wikimedia.org/wiki/File:260202-D-PM193-2205_SECWAR_Arsenal_of_Freedom_Tour_-_Florida_(3x4_cropped_on_Bezos_and_rotated).jpg",
-      "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/260202-D-PM193-2205_SECWAR_Arsenal_of_Freedom_Tour_-_Florida_%283x4_cropped_on_Bezos_and_rotated%29.jpg/960px-260202-D-PM193-2205_SECWAR_Arsenal_of_Freedom_Tour_-_Florida_%283x4_cropped_on_Bezos_and_rotated%29.jpg"
-    },
-    {
-      "name": "Mark Zuckerberg",
-      "articleUrl": "https://en.wikipedia.org/wiki/Mark_Zuckerberg",
-      "filePageUrl": "https://commons.wikimedia.org/wiki/File:F20250904AH-2824_(54778373111)_(3x4_cropped_on_Zuckerberg_following_the_rule_of_thirds).jpg",
-      "artist": "The White House",
-      "license": "Public domain",
-      "licenseUrl": "https://commons.wikimedia.org/wiki/File:F20250904AH-2824_(54778373111)_(3x4_cropped_on_Zuckerberg_following_the_rule_of_thirds).jpg",
-      "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/0/0e/F20250904AH-2824_%2854778373111%29_%283x4_cropped_on_Zuckerberg_following_the_rule_of_thirds%29.jpg"
-    },
-    {
-      "name": "Bill Gates",
-      "articleUrl": "https://en.wikipedia.org/wiki/Bill_Gates",
-      "filePageUrl": "https://commons.wikimedia.org/wiki/File:Bill_Gates_at_the_European_Commission_-_P067383-987995_(cropped)_5.jpg",
-      "artist": "Bogdan Hoyaux / European Union",
+      "name": "Kendrick Lamar",
+      "articleUrl": "https://en.wikipedia.org/wiki/Kendrick_Lamar",
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:KendrickSZASPurs230725-144_(cropped)_desaturated.jpg",
+      "artist": "Raph_PH",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-      "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Bill_Gates_at_the_European_Commission_-_P067383-987995_%28cropped%29_5.jpg/960px-Bill_Gates_at_the_European_Commission_-_P067383-987995_%28cropped%29_5.jpg"
+      "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/KendrickSZASPurs230725-144_%28cropped%29_desaturated.jpg/960px-KendrickSZASPurs230725-144_%28cropped%29_desaturated.jpg"
     },
     {
-      "name": "Warren Buffett",
-      "articleUrl": "https://en.wikipedia.org/wiki/Warren_Buffett",
-      "filePageUrl": "https://commons.wikimedia.org/wiki/File:Warren_Buffett_at_the_2015_SelectUSA_Investment_Summit_(cropped).jpg",
-      "artist": "USA International Trade Administration",
-      "license": "Public domain",
-      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Warren_Buffett_at_the_2015_SelectUSA_Investment_Summit_(cropped).jpg",
-      "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Warren_Buffett_at_the_2015_SelectUSA_Investment_Summit_%28cropped%29.jpg"
+      "name": "Harry Styles",
+      "articleUrl": "https://en.wikipedia.org/wiki/Harry_Styles",
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:HarryStylesWembley170623_(65_of_93)_(52982678051)_(cropped_2).jpg",
+      "artist": "Raph_PH",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/HarryStylesWembley170623_%2865_of_93%29_%2852982678051%29_%28cropped_2%29.jpg/960px-HarryStylesWembley170623_%2865_of_93%29_%2852982678051%29_%28cropped_2%29.jpg"
     },
     {
-      "name": "Richard Branson",
-      "articleUrl": "https://en.wikipedia.org/wiki/Richard_Branson",
-      "filePageUrl": "https://commons.wikimedia.org/wiki/File:Richard_Branson_Addresses_the_Our_Ocean_Conference_2015_in_Valpara%C3%ADso_(21783214958)_(cropped).jpg",
-      "artist": "U.S. Department of State from United States",
-      "license": "Public domain",
-      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Richard_Branson_Addresses_the_Our_Ocean_Conference_2015_in_Valpara%C3%ADso_(21783214958)_(cropped).jpg",
-      "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/0/08/Richard_Branson_Addresses_the_Our_Ocean_Conference_2015_in_Valpara%C3%ADso_%2821783214958%29_%28cropped%29.jpg"
+      "name": "Miley Cyrus",
+      "articleUrl": "https://en.wikipedia.org/wiki/Miley_Cyrus",
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:Miley_Cyrus_Primavera19_-226_(48986293772)_(cropped).jpg",
+      "artist": "Raphael Pour-Hashemi",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Miley_Cyrus_Primavera19_-226_%2848986293772%29_%28cropped%29.jpg/960px-Miley_Cyrus_Primavera19_-226_%2848986293772%29_%28cropped%29.jpg"
     },
     {
-      "name": "Jensen Huang",
-      "articleUrl": "https://en.wikipedia.org/wiki/Jensen_Huang",
-      "filePageUrl": "https://commons.wikimedia.org/wiki/File:Jen-Hsun_Huang_2025.jpg",
-      "artist": "The White House",
-      "license": "Public domain",
-      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Jen-Hsun_Huang_2025.jpg",
-      "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Jen-Hsun_Huang_2025.jpg"
+      "name": "Katy Perry",
+      "articleUrl": "https://en.wikipedia.org/wiki/Katy_Perry",
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:KatyPerryWestminst111224_(81_of_95)_(54206733094)_(cropped_2).jpg",
+      "artist": "Raph_PH",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/KatyPerryWestminst111224_%2881_of_95%29_%2854206733094%29_%28cropped_2%29.jpg/960px-KatyPerryWestminst111224_%2881_of_95%29_%2854206733094%29_%28cropped_2%29.jpg"
     },
     {
-      "name": "Satya Nadella",
-      "articleUrl": "https://en.wikipedia.org/wiki/Satya_Nadella",
-      "filePageUrl": "https://commons.wikimedia.org/wiki/File:MS-Exec-Nadella-Satya-2017-08-31-22_(cropped).jpg",
-      "artist": "Brian Smale and Microsoft",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/MS-Exec-Nadella-Satya-2017-08-31-22_%28cropped%29.jpg/960px-MS-Exec-Nadella-Satya-2017-08-31-22_%28cropped%29.jpg"
+      "name": "Shakira",
+      "articleUrl": "https://en.wikipedia.org/wiki/Shakira",
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:2023-11-16_Gala_de_los_Latin_Grammy,_03_(cropped)02.jpg",
+      "artist": "Junta de Andalucía",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2023-11-16_Gala_de_los_Latin_Grammy%2C_03_%28cropped%2902.jpg/960px-2023-11-16_Gala_de_los_Latin_Grammy%2C_03_%28cropped%2902.jpg"
     },
     {
-      "name": "Sundar Pichai",
-      "articleUrl": "https://en.wikipedia.org/wiki/Sundar_Pichai",
-      "filePageUrl": "https://commons.wikimedia.org/wiki/File:Sundar_Pichai_-_2023_(cropped).jpg",
-      "artist": "Photographer: Lukasz Kobus (European Commission)",
+      "name": "Jennifer Lopez",
+      "articleUrl": "https://en.wikipedia.org/wiki/Jennifer_Lopez",
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:Jennifer_Lopez_at_the_2025_Sundance_Film_Festival_(cropped_3).jpg",
+      "artist": "Everwest",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-      "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Sundar_Pichai_-_2023_%28cropped%29.jpg"
+      "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Jennifer_Lopez_at_the_2025_Sundance_Film_Festival_%28cropped_3%29.jpg/960px-Jennifer_Lopez_at_the_2025_Sundance_Film_Festival_%28cropped_3%29.jpg"
     },
     {
-      "name": "Sara Blakely",
-      "articleUrl": "https://en.wikipedia.org/wiki/Sara_Blakely",
-      "filePageUrl": "https://commons.wikimedia.org/wiki/File:Sara_Blakely.jpg",
-      "artist": "Gillian Zoe Segal",
+      "name": "Bad Bunny",
+      "articleUrl": "https://en.wikipedia.org/wiki/Bad_Bunny",
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:Bad_Bunny_2019_by_Glenn_Francis_(cropped).jpg",
+      "artist": "Toglenn",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Sara_Blakely.jpg"
+      "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Bad_Bunny_2019_by_Glenn_Francis_%28cropped%29.jpg/960px-Bad_Bunny_2019_by_Glenn_Francis_%28cropped%29.jpg"
     },
     {
-      "name": "Charli D'Amelio",
-      "articleUrl": "https://en.wikipedia.org/wiki/Charli_D'Amelio",
-      "filePageUrl": "https://commons.wikimedia.org/wiki/File:Charli_D%27Amelio_at_KCA_2022.jpg",
-      "artist": "NickRewind",
-      "license": "CC BY 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-      "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Charli_D%27Amelio_at_KCA_2022.jpg"
-    },
-    {
-      "name": "Khaby Lame",
-      "articleUrl": "https://en.wikipedia.org/wiki/Khaby_Lame",
-      "filePageUrl": "https://commons.wikimedia.org/wiki/File:Khaby_Lame,_Nov_2025_(cropped1).jpg",
-      "artist": "Web Summit",
+      "name": "SZA",
+      "articleUrl": "https://en.wikipedia.org/wiki/SZA",
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:KendrickSZASPurs230725-19_-_54683179509_(cropped)_(cropped).jpg",
+      "artist": "Raph_PH",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-      "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Khaby_Lame%2C_Nov_2025_%28cropped1%29.jpg/960px-Khaby_Lame%2C_Nov_2025_%28cropped1%29.jpg"
+      "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/KendrickSZASPurs230725-19_-_54683179509_%28cropped%29_%28cropped%29.jpg/960px-KendrickSZASPurs230725-19_-_54683179509_%28cropped%29_%28cropped%29.jpg"
     },
     {
-      "name": "Emma Chamberlain",
-      "articleUrl": "https://en.wikipedia.org/wiki/Emma_Chamberlain",
-      "filePageUrl": "https://commons.wikimedia.org/wiki/File:Emma_Chamberlain_for_Chamberlain_Coffee,_2020_(1).png",
-      "artist": "John Park",
-      "license": "CC BY 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-      "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Emma_Chamberlain_for_Chamberlain_Coffee%2C_2020_%281%29.png/960px-Emma_Chamberlain_for_Chamberlain_Coffee%2C_2020_%281%29.png"
+      "name": "Post Malone",
+      "articleUrl": "https://en.wikipedia.org/wiki/Post_Malone",
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:Post_Malone_July_2021_(cropped).jpg",
+      "artist": "Chrisallmeid",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Post_Malone_July_2021_%28cropped%29.jpg/960px-Post_Malone_July_2021_%28cropped%29.jpg"
+    },
+    {
+      "name": "Doja Cat",
+      "articleUrl": "https://en.wikipedia.org/wiki/Doja_Cat",
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:Doja_Cat_x_Amazon1.1_(cropped).jpg",
+      "artist": "Nate the Director",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Doja_Cat_x_Amazon1.1_%28cropped%29.jpg/960px-Doja_Cat_x_Amazon1.1_%28cropped%29.jpg"
     }
   ]
 }

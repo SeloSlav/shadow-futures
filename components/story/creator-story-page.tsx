@@ -275,6 +275,29 @@ export function CreatorStoryPage() {
           intro="The 24 portraits are visual stand-ins in a hypothetical contest; they aren’t comparisons of the real people. Keep the contestants, posts and recommendation rules fixed. Change only which posts receive the first few random views and the eventual winner can change."
         >
           <ShadowFuturesGraph />
+          <aside className="musiclab-evidence" aria-label="Experimental evidence">
+            <span className="panel__meta">Shown experimentally</span>
+            <p>
+              <strong>This pattern is more than a thought experiment.</strong> In 2006, Matthew
+              J. Salganik, Peter Sheridan Dodds and Duncan J. Watts built an artificial music
+              market with 14,341 participants. When listeners could see earlier download counts,
+              success became more unequal and less predictable. Quality moved the odds, but it
+              did not determine the ranking.
+            </p>
+            <p className="musiclab-evidence__citation">
+              <a
+                href="https://doi.org/10.1126/science.1121066"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <cite>
+                  Experimental Study of Inequality and Unpredictability in an Artificial Cultural
+                  Market
+                </cite>
+              </a>
+              , <span>Science 311 (2006), 854–856</span>
+            </p>
+          </aside>
           <div className="shadow-definition">
             <p>
               <strong>The history we saw:</strong> one creator’s rise, recorded in followers,

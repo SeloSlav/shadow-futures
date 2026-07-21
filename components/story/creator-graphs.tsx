@@ -7,30 +7,30 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import { deriveSeed, mulberry32 } from "@/lib/model/prng";
 
 const CREATOR_CAST = [
-  { name: "MrBeast", image: "/creator-portraits/mrbeast.webp" },
   { name: "Taylor Swift", image: "/creator-portraits/taylor-swift.webp" },
   { name: "Rihanna", image: "/creator-portraits/rihanna.webp" },
   { name: "Beyoncé", image: "/creator-portraits/beyonce.webp" },
   { name: "Selena Gomez", image: "/creator-portraits/selena-gomez.webp" },
-  { name: "Dwayne Johnson", image: "/creator-portraits/dwayne-johnson.webp" },
-  { name: "Cristiano Ronaldo", image: "/creator-portraits/cristiano-ronaldo.webp" },
-  { name: "Lionel Messi", image: "/creator-portraits/lionel-messi.webp" },
-  { name: "Kylie Jenner", image: "/creator-portraits/kylie-jenner.webp" },
-  { name: "Kim Kardashian", image: "/creator-portraits/kim-kardashian.webp" },
-  { name: "Oprah Winfrey", image: "/creator-portraits/oprah-winfrey.webp" },
-  { name: "Elon Musk", image: "/creator-portraits/elon-musk.webp" },
-  { name: "Jeff Bezos", image: "/creator-portraits/jeff-bezos.webp" },
-  { name: "Mark Zuckerberg", image: "/creator-portraits/mark-zuckerberg.webp" },
-  { name: "Bill Gates", image: "/creator-portraits/bill-gates.webp" },
-  { name: "Warren Buffett", image: "/creator-portraits/warren-buffett.webp" },
-  { name: "Richard Branson", image: "/creator-portraits/richard-branson.webp" },
-  { name: "Jensen Huang", image: "/creator-portraits/jensen-huang.webp" },
-  { name: "Satya Nadella", image: "/creator-portraits/satya-nadella.webp" },
-  { name: "Sundar Pichai", image: "/creator-portraits/sundar-pichai.webp" },
-  { name: "Sara Blakely", image: "/creator-portraits/sara-blakely.webp" },
-  { name: "Charli D'Amelio", image: "/creator-portraits/charli-damelio.webp" },
-  { name: "Khaby Lame", image: "/creator-portraits/khaby-lame.webp" },
-  { name: "Emma Chamberlain", image: "/creator-portraits/emma-chamberlain.webp" },
+  { name: "Lady Gaga", image: "/creator-portraits/lady-gaga.webp" },
+  { name: "Adele", image: "/creator-portraits/adele.webp" },
+  { name: "Billie Eilish", image: "/creator-portraits/billie-eilish.webp" },
+  { name: "Ariana Grande", image: "/creator-portraits/ariana-grande.webp" },
+  { name: "Dua Lipa", image: "/creator-portraits/dua-lipa.webp" },
+  { name: "Ed Sheeran", image: "/creator-portraits/ed-sheeran.webp" },
+  { name: "Bruno Mars", image: "/creator-portraits/bruno-mars.webp" },
+  { name: "Justin Bieber", image: "/creator-portraits/justin-bieber.webp" },
+  { name: "The Weeknd", image: "/creator-portraits/the-weeknd.webp" },
+  { name: "Drake", image: "/creator-portraits/drake.webp" },
+  { name: "Kendrick Lamar", image: "/creator-portraits/kendrick-lamar.webp" },
+  { name: "Harry Styles", image: "/creator-portraits/harry-styles.webp" },
+  { name: "Miley Cyrus", image: "/creator-portraits/miley-cyrus.webp" },
+  { name: "Katy Perry", image: "/creator-portraits/katy-perry.webp" },
+  { name: "Shakira", image: "/creator-portraits/shakira.webp" },
+  { name: "Jennifer Lopez", image: "/creator-portraits/jennifer-lopez.webp" },
+  { name: "Bad Bunny", image: "/creator-portraits/bad-bunny.webp" },
+  { name: "SZA", image: "/creator-portraits/sza.webp" },
+  { name: "Post Malone", image: "/creator-portraits/post-malone.webp" },
+  { name: "Doja Cat", image: "/creator-portraits/doja-cat.webp" },
 ] as const;
 
 const CREATOR_COUNT = CREATOR_CAST.length;
@@ -402,10 +402,10 @@ export function ShadowFuturesGraph() {
 
       <div className="shadow-replay">
         <div className="shadow-replay__start">
-          <span className="shadow-replay__label">24 visual stand-ins for possible winners</span>
+          <span className="shadow-replay__label">24 music artists as visual stand-ins</span>
           <div
             className="shadow-replay__cast"
-            aria-label="Twenty-four public-figure portraits act only as visual stand-ins for the possible winners in this hypothetical simulation."
+            aria-label="Twenty-four music-artist portraits act only as visual stand-ins for the possible winners in this hypothetical simulation."
           >
             {CREATOR_CAST.map((creator) => (
               <span
@@ -426,7 +426,7 @@ export function ShadowFuturesGraph() {
           </div>
           <p className="shadow-replay__cast-note">
             These portraits are only visual stand-ins. The simulation doesn’t make any claim
-            about these people’s real skills, work or merit.{" "}
+            about these artists’ real talent, work or merit.{" "}
             <a href="/creator-portraits/credits.json" target="_blank" rel="noreferrer">
               Portrait credits
             </a>

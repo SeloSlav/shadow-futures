@@ -3,30 +3,30 @@ import { existsSync, mkdirSync, rmSync, writeFileSync } from "node:fs";
 import { basename, join } from "node:path";
 
 const people = [
-  ["MrBeast", "mrbeast"],
   ["Taylor Swift", "taylor-swift"],
   ["Rihanna", "rihanna"],
   ["Beyoncé", "beyonce"],
   ["Selena Gomez", "selena-gomez"],
-  ["Dwayne Johnson", "dwayne-johnson"],
-  ["Cristiano Ronaldo", "cristiano-ronaldo"],
-  ["Lionel Messi", "lionel-messi"],
-  ["Kylie Jenner", "kylie-jenner"],
-  ["Kim Kardashian", "kim-kardashian"],
-  ["Oprah Winfrey", "oprah-winfrey"],
-  ["Elon Musk", "elon-musk"],
-  ["Jeff Bezos", "jeff-bezos"],
-  ["Mark Zuckerberg", "mark-zuckerberg"],
-  ["Bill Gates", "bill-gates"],
-  ["Warren Buffett", "warren-buffett"],
-  ["Richard Branson", "richard-branson"],
-  ["Jensen Huang", "jensen-huang"],
-  ["Satya Nadella", "satya-nadella"],
-  ["Sundar Pichai", "sundar-pichai"],
-  ["Sara Blakely", "sara-blakely"],
-  ["Charli D'Amelio", "charli-damelio"],
-  ["Khaby Lame", "khaby-lame"],
-  ["Emma Chamberlain", "emma-chamberlain"],
+  ["Lady Gaga", "lady-gaga"],
+  ["Adele", "adele"],
+  ["Billie Eilish", "billie-eilish"],
+  ["Ariana Grande", "ariana-grande"],
+  ["Dua Lipa", "dua-lipa"],
+  ["Ed Sheeran", "ed-sheeran"],
+  ["Bruno Mars", "bruno-mars"],
+  ["Justin Bieber", "justin-bieber"],
+  ["The Weeknd", "the-weeknd"],
+  ["Drake", "drake", "Drake (musician)"],
+  ["Kendrick Lamar", "kendrick-lamar"],
+  ["Harry Styles", "harry-styles"],
+  ["Miley Cyrus", "miley-cyrus"],
+  ["Katy Perry", "katy-perry"],
+  ["Shakira", "shakira"],
+  ["Jennifer Lopez", "jennifer-lopez"],
+  ["Bad Bunny", "bad-bunny"],
+  ["SZA", "sza"],
+  ["Post Malone", "post-malone"],
+  ["Doja Cat", "doja-cat"],
 ];
 
 const outputDirectory = join(process.cwd(), "public", "creator-portraits");
@@ -87,7 +87,7 @@ async function fetchPortrait(url, name, attempt = 1) {
 const credits = [];
 
 const pageData = await wikipediaQuery({
-  titles: people.map(([name]) => name).join("|"),
+  titles: people.map(([name, , articleTitle = name]) => articleTitle).join("|"),
   prop: "pageimages",
   piprop: "thumbnail|name|original",
   pithumbsize: "900",
@@ -106,8 +106,8 @@ const imageInfoByName = new Map(
   ]),
 );
 
-for (const [name, slug] of people) {
-  const page = pagesByTitle.get(name);
+for (const [name, slug, articleTitle = name] of people) {
+  const page = pagesByTitle.get(articleTitle);
   if (!page?.thumbnail?.source || !page?.pageimage) {
     throw new Error(`No portrait found for ${name}`);
   }

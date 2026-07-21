@@ -30,6 +30,11 @@ test.describe("interactive essay", () => {
 
     await page.getByTestId("shadow-futures-graph").scrollIntoViewIfNeeded();
     const replayGraph = page.getByTestId("shadow-futures-graph");
+    await expect(replayGraph.locator(".shadow-replay__person")).toHaveCount(24);
+    await expect(page.getByRole("link", { name: /Experimental Study of Inequality/ })).toHaveAttribute(
+      "href",
+      "https://doi.org/10.1126/science.1121066",
+    );
     await page.getByRole("button", { name: "Watch ten replays" }).click();
     await expect(replayGraph).toHaveAttribute(
       "data-animation-state",
