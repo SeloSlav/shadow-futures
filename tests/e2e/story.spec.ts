@@ -14,7 +14,7 @@ test.describe("interactive essay", () => {
     await page.getByRole("link", { name: "See how the evidence disappears" }).click();
     await expect(page.getByTestId("breakout-graph")).toBeVisible();
 
-    await page.getByRole("button", { name: "Play the feed" }).click();
+    await page.getByRole("button", { name: "Run the recommendations" }).click();
     await expect(page.getByTestId("breakout-graph")).toHaveAttribute(
       "data-animation-state",
       "complete",
@@ -61,10 +61,10 @@ test.describe("interactive essay", () => {
     await page.goto("/#breakout");
     const graph = page.getByTestId("breakout-graph");
     const result = graph.locator(".creator-graph__result");
-    await page.getByRole("button", { name: "Play the feed" }).click();
+    await page.getByRole("button", { name: "Run the recommendations" }).click();
     await expect(graph).toHaveAttribute("data-animation-state", "complete");
     const firstWorld = await result.textContent();
-    await page.getByRole("button", { name: "Run it again" }).click();
+    await page.getByRole("button", { name: "Run new recommendations" }).click();
     await expect(graph).toHaveAttribute("data-animation-state", "complete");
     await expect(result).not.toHaveText(firstWorld ?? "");
   });
@@ -83,7 +83,7 @@ test.describe("interactive essay", () => {
     test.skip(isMobile, "covered by the desktop accessibility journey");
     await page.emulateMedia({ reducedMotion: "reduce" });
     await page.goto("/");
-    await page.getByRole("button", { name: "Play the feed" }).click();
+    await page.getByRole("button", { name: "Run the recommendations" }).click();
     await expect(page.getByTestId("breakout-graph")).toHaveAttribute(
       "data-animation-state",
       "complete",

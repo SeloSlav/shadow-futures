@@ -214,11 +214,15 @@ export function BreakoutGraph() {
     >
       <div className="creator-graph__head">
         <div>
-          <div className="panel__meta">One recommendation feed</div>
+          <div className="panel__meta">One social media recommendation system</div>
           <strong>Every creator starts equally good.</strong>
         </div>
         <button className="button button--small" type="button" onClick={play}>
-          {animation.running ? "Feed is running…" : hasPlayed ? "Run it again" : "Play the feed"}
+          {animation.running
+            ? "Recommendations are running…"
+            : hasPlayed
+              ? "Run new recommendations"
+              : "Run the recommendations"}
         </button>
       </div>
 
@@ -232,7 +236,8 @@ export function BreakoutGraph() {
           <title>One equally good creator breaks away</title>
           <desc>
             Twenty-four creators start equally. Small early differences are reinforced by
-            the recommendation feed until one creator receives much more exposure.
+            the social media platform’s recommendation system until one creator receives
+            much more exposure.
           </desc>
           {[0, 0.25, 0.5, 0.75, 1].map((tick) => {
             const tickY = 24 + (1 - tick) * 344;
@@ -340,7 +345,7 @@ export function BreakoutGraph() {
             {Math.round(topThree[2].share * 100)}%, even though all 24 started equal.
           </>
         ) : (
-          <>A tiny early lead changes who the app recommends next.</>
+          <>A tiny early lead changes which creator the platform recommends next.</>
         )}
       </p>
     </div>
@@ -365,7 +370,7 @@ export function ShadowFuturesGraph() {
     >
       <div className="creator-graph__head">
         <div>
-          <div className="panel__meta">Same people · same work · same feed</div>
+          <div className="panel__meta">Same people · same posts · same recommendation system</div>
           <strong>Only the first few views will change.</strong>
         </div>
         <button className="button button--small" type="button" onClick={animation.play}>
@@ -413,7 +418,7 @@ export function ShadowFuturesGraph() {
         <div
           className="shadow-replay__worlds"
           role="img"
-          aria-label={`Ten replays of the same creator market produce ${uniqueWinners} different winners.`}
+          aria-label={`Ten replays of the same social media recommendation system produce ${uniqueWinners} different winners.`}
         >
           {worlds.map((world, index) => {
             const winner = CREATOR_CAST[world.winner];
@@ -466,7 +471,7 @@ export function ShadowFuturesGraph() {
             these replays.
           </>
         ) : (
-          <>Same people. Same work. Same feed. Replay only the first few lucky views.</>
+          <>Same people. Same posts. Same recommendation system. Change only the first few views.</>
         )}
       </p>
     </div>
@@ -497,8 +502,11 @@ export function ExperimentMonopolyGraph() {
     >
       <div className="creator-graph__head">
         <div>
-          <div className="panel__meta">The app chooses who to show 1,600 times</div>
-          <strong>Does it keep giving everyone a chance—or keep boosting the early leader?</strong>
+          <div className="panel__meta">The social media platform makes 1,600 recommendations</div>
+          <strong>
+            Does its recommendation system keep giving everyone a chance—or keep boosting
+            the early leader?
+          </strong>
         </div>
         <button className="button button--small" type="button" onClick={animation.play}>
           {animation.running ? "Comparing…" : "See both versions"}
@@ -510,7 +518,7 @@ export function ExperimentMonopolyGraph() {
           className="creator-line-chart"
           viewBox={`0 0 ${chartWidth} ${chartHeight}`}
           role="img"
-          aria-label={`Both versions choose who to show 1,600 times. When the app keeps boosting the early leader, everyone else shares ${keptOpenPercent} percent of the chance to be shown, on average. Starting everyone equally ten times raises that share to ${clearedOpenPercent} percent.`}
+          aria-label={`Both versions make 1,600 social media recommendations. When the platform keeps boosting the early leader, everyone else shares ${keptOpenPercent} percent of the chance to be shown, on average. Starting everyone equally ten times raises that share to ${clearedOpenPercent} percent.`}
         >
           <title>Boosting the early leader compared with starting everyone equally ten times</title>
           <desc>
@@ -595,8 +603,8 @@ export function ExperimentMonopolyGraph() {
           </>
         ) : (
           <>
-            If the app keeps boosting the early leader, everyone else gets fewer real chances
-            to be seen.
+            If the social media platform keeps boosting the early leader, everyone else gets
+            fewer real chances to be seen.
           </>
         )}
       </p>

@@ -92,18 +92,21 @@ export function CreatorStoryPage() {
           id="breakout"
           number={1}
           eyebrow="The familiar feedback loop"
-          title="The feed can turn an early break into a lasting lead"
-          intro="Imagine 24 equally good creators. One gets slightly more attention in the first few minutes. The platform treats that attention as a reason to show the same creator again."
+          title="Your social media feed can turn one early break into a lasting lead"
+          intro="Imagine 24 equally good creators posting to the same social media platform. One gets slightly more attention in the first few minutes. The platform’s recommendation system treats those early views as a reason to show that creator to even more people."
         >
           <BreakoutGraph />
-          <div className="concept-equation" aria-label="The creator-platform feedback loop">
-            <span>an early break</span>
+          <div
+            className="concept-equation"
+            aria-label="How a social media recommendation system reinforces an early lead"
+          >
+            <span>one creator gets an early break</span>
             <span aria-hidden="true">→</span>
-            <span>shown to more people</span>
+            <span>the platform shows them to more people</span>
             <span aria-hidden="true">→</span>
-            <span>more followers</span>
+            <span>they gain more followers</span>
             <span aria-hidden="true">→</span>
-            <span>shown even more</span>
+            <span>the platform recommends them even more</span>
           </div>
           <div className="scope-grid">
             <article className="scope-card">
@@ -128,7 +131,7 @@ export function CreatorStoryPage() {
           number={2}
           eyebrow="The missing histories"
           title="Press replay. A different creator wins."
-          intro="The 24 creators, their work, and the feed are unchanged. Replay only the first few random views and the winner changes. Each replay is evidence the original market never produced."
+          intro="The same 24 creators post the same work to the same social media platform. Change only which posts receive the first few random views and the eventual winner changes. Each replay creates comparison evidence that the real platform history never produced."
         >
           <ShadowFuturesGraph />
           <div className="shadow-definition">
@@ -138,12 +141,13 @@ export function CreatorStoryPage() {
             </p>
             <p>
               <strong>The shadow futures:</strong> all the equally possible histories in which
-              another creator received the first break and kept getting shown more.
+              another creator received the first early views and the recommendation system
+              kept showing them to more people.
             </p>
           </div>
           <p className="hero__line creator-story-line">
-            The platform does not merely discover a winner. It helps create the history that
-            later looks like proof.
+            The social media platform does not merely discover a winner. Its recommendation
+            system helps create the history that later looks like proof.
           </p>
         </StorySection>
 
