@@ -81,6 +81,73 @@ function CreatorHero() {
   );
 }
 
+function NoveltyBridge() {
+  return (
+    <section className="novelty-bridge" id="novelty" aria-labelledby="novelty-title">
+      <div className="novelty-bridge__intro">
+        <p className="eyebrow">Why this is new</p>
+        <h2 id="novelty-title">A million transactions can still be only one experiment.</h2>
+        <p>
+          Economists already know that early success can compound. This paper asks a different
+          question: when each win changes who gets the next chance, can one long market history
+          still tell us how much the winner&apos;s work caused the final gap?
+        </p>
+      </div>
+
+      <div className="novelty-bridge__body">
+        <article className="novelty-analogy">
+          <span className="panel__meta">A simple analogy</span>
+          <h3>One product gets moved to the front shelf.</h3>
+          <p>
+            A shop moves one product to the front after its first sale. Front placement brings
+            more sales, and each sale keeps it in front. After a year, the shop has thousands of
+            receipts but only one shelf history.
+          </p>
+          <p className="novelty-analogy__answer">
+            <strong>More receipts are not more experiments.</strong> To separate product quality
+            from placement, we would need to rerun the shop with a different product in front.
+            Those missing reruns are shadow futures.
+          </p>
+        </article>
+
+        <div className="novelty-literature">
+          <article>
+            <span className="panel__meta">What is already familiar</span>
+            <h3>Why an early winner keeps winning</h3>
+            <p>
+              Increasing returns, lock-in, cumulative advantage and preferential attachment
+              already explain how an early lead can grow.
+            </p>
+          </article>
+          <article>
+            <span className="panel__meta">What this paper adds</span>
+            <h3>When that process destroys the evidence needed to explain the winner</h3>
+            <p>
+              At every step, Shadow Futures counts the chance that someone other than the current
+              leader gets the next reward. It adds those chances into the comparison budget. If
+              that total is finite, the paper proves that no method using only the one market
+              history can consistently recover how much reward was caused by contribution, even
+              when work and quality are observed and new transactions keep arriving.
+            </p>
+          </article>
+        </div>
+      </div>
+
+      <div className="novelty-boundary">
+        <span className="panel__meta">The literature gap, stated carefully</span>
+        <p>
+          The paper does not claim that feedback, lock-in or counterfactual reasoning is new.
+          Those ideas already exist separately. The closest statistical precedent proves an
+          estimation failure in a narrower reinforced-urn model. The paper&apos;s distinct
+          contribution is a market-level comparison budget tied to a single-history impossibility
+          theorem for contribution attribution. It also gives competition an additional role:
+          independent market paths are the replications needed to learn why outcomes diverged.
+        </p>
+      </div>
+    </section>
+  );
+}
+
 export function CreatorStoryPage() {
   const [citationCopied, setCitationCopied] = useState(false);
 
@@ -88,6 +155,7 @@ export function CreatorStoryPage() {
     <>
       <CreatorHero />
       <main id="main-content">
+        <NoveltyBridge />
         <StorySection
           id="breakout"
           number={1}
@@ -399,8 +467,42 @@ export function CreatorStoryPage() {
           number={5}
           eyebrow="What inequality cannot answer"
           title="The Lorenz curve is the symptom. Shadow futures are the missing evidence."
-          intro="A Lorenz curve shows how unequal the final rewards became. It cannot tell us how much of that ranking came from contribution rather than a history that reinforced itself. Shadow Futures is not another description of the bend; it explains why the observed distribution may be unable to reveal its own cause."
+          intro="Most debates about extreme inequality choose between two stories. One treats the reward as roughly proportional to talent, work or risk. The other treats it as an early accident amplified by cumulative advantage. Shadow Futures reframes the dispute: the same visible curve can be consistent with many mixtures of contribution and reinforced position, while one market history may not contain the comparisons needed to separate them."
         >
+          <div
+            className="inequality-frames"
+            aria-label="Three ways to interpret extreme inequality"
+          >
+            <article>
+              <span className="panel__meta">Common interpretation 1</span>
+              <h3>The winner contributed proportionally more</h3>
+              <p>
+                A very large reward is read as evidence of much greater talent, effort, judgment
+                or risk-bearing. The final gap looks like a contribution score.
+              </p>
+            </article>
+            <article>
+              <span className="panel__meta">Common interpretation 2</span>
+              <h3>A small early accident became a giant lead</h3>
+              <p>
+                Cumulative advantage and preferential attachment show how an early break can
+                attract more attention, customers and rewards until inequality becomes extreme.
+              </p>
+            </article>
+            <article className="inequality-frames__shadow">
+              <span className="panel__meta">What Shadow Futures changes</span>
+              <h3>The curve cannot tell us how much of either story is true</h3>
+              <p>
+                Talent, effort and risk can matter while early position compounds. Because the
+                market records only one path, the same final inequality can fit very different
+                mixtures of contribution and reinforced advantage.
+              </p>
+            </article>
+          </div>
+          <p className="inequality-question">
+            The question is not whether talent or luck exists. It is whether the market kept
+            enough independent comparison paths to measure how much each one caused.
+          </p>
           <LorenzHistoryGraph />
           <div className="lorenz-takeaway">
             <strong>The Lorenz curve is the final scoreboard.</strong>

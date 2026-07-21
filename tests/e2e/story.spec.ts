@@ -11,6 +11,13 @@ test.describe("interactive essay", () => {
       "href",
       "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994",
     );
+    const firstSectionAfterHero = page.locator("#main-content > section").first();
+    await expect(firstSectionAfterHero).toHaveAttribute("id", "novelty");
+    await expect(
+      firstSectionAfterHero.getByRole("heading", {
+        name: "A million transactions can still be only one experiment.",
+      }),
+    ).toBeVisible();
     await page.getByRole("link", { name: "See how the evidence disappears" }).click();
     await expect(page.getByTestId("breakout-graph")).toBeVisible();
 
@@ -45,6 +52,11 @@ test.describe("interactive essay", () => {
     );
 
     await page.getByTestId("lorenz-history-graph").scrollIntoViewIfNeeded();
+    await expect(
+      page.getByRole("heading", {
+        name: "The curve cannot tell us how much of either story is true",
+      }),
+    ).toBeVisible();
     await page.getByRole("button", { name: "Draw the income curve" }).click();
     await expect(page.getByTestId("lorenz-history-graph")).toHaveAttribute(
       "data-animation-state",
@@ -52,6 +64,7 @@ test.describe("interactive essay", () => {
     );
 
     const chapterIds = [
+      "novelty",
       "breakout",
       "shadow-futures",
       "experiment-monopoly",
