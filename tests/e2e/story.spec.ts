@@ -68,6 +68,9 @@ test.describe("interactive essay", () => {
       "data-animation-state",
       "complete",
     );
+    await expect(
+      page.getByText("Same curve. Different causes.", { exact: true }),
+    ).toBeVisible();
 
     const chapterIds = [
       "novelty",

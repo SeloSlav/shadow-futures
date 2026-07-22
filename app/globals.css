@@ -2101,24 +2101,142 @@ input[type="range"] {
 
 .lorenz-histories {
   display: grid;
+  margin-top: 0.5rem;
+}
+
+.lorenz-histories__shared {
+  display: grid;
+  width: min(100%, 28rem);
+  justify-self: center;
+  gap: 0.25rem;
+  border: 1px solid var(--rust);
+  border-radius: 1rem;
+  background: color-mix(in srgb, var(--rust) 7%, var(--surface-solid));
+  padding: 1rem 1.25rem;
+  text-align: center;
+}
+
+.lorenz-histories__shared strong {
+  font-family: var(--font-serif);
+  font-size: clamp(1.4rem, 2.4vw, 2rem);
+  font-weight: 560;
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+}
+
+.lorenz-histories__fork {
+  position: relative;
+  width: 50%;
+  height: 2.75rem;
+  justify-self: center;
+}
+
+.lorenz-histories__fork::before {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 50%;
+  border-left: 1px solid var(--line-strong);
+  content: "";
+}
+
+.lorenz-histories__fork::after {
+  position: absolute;
+  inset: 50% 0 0;
+  border-top: 1px solid var(--line-strong);
+  border-right: 1px solid var(--line-strong);
+  border-left: 1px solid var(--line-strong);
+  content: "";
+}
+
+.lorenz-histories__cards {
+  display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1px;
+  gap: 1rem;
+}
+
+.lorenz-histories__cards article {
+  display: grid;
+  align-content: start;
+  border: 1px solid var(--line);
   border-top: 1px solid var(--line);
-  background: var(--line);
-}
-
-.lorenz-histories article {
   background: var(--surface-solid);
-  padding: 1.25rem;
+  padding: clamp(1.25rem, 3vw, 2rem);
 }
 
-.lorenz-histories strong {
-  display: block;
-  margin-top: 0.25rem;
+.lorenz-histories__cards article:first-child {
+  border-top: 3px solid var(--blue);
 }
 
-.lorenz-histories p {
-  margin: 0.35rem 0 0;
+.lorenz-histories__cards article:last-child {
+  border-top: 3px solid var(--rust);
+}
+
+.lorenz-histories__cards h3 {
+  max-width: 22ch;
+  margin: 0.45rem 0 1.1rem;
+  font-family: var(--font-serif);
+  font-size: clamp(1.4rem, 2.4vw, 2.15rem);
+  font-weight: 540;
+  letter-spacing: -0.035em;
+  line-height: 1.05;
+}
+
+.lorenz-cause-mix {
+  display: grid;
+  min-height: 4.5rem;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 0.75rem;
+}
+
+.lorenz-cause-mix--work {
+  grid-template-columns: 3fr 1.25fr;
+}
+
+.lorenz-cause-mix--visibility {
+  grid-template-columns: 1.25fr 3fr;
+}
+
+.lorenz-cause-mix span {
+  display: flex;
+  align-items: flex-end;
+  padding: 0.65rem;
+  font-size: clamp(0.66rem, 1vw, 0.78rem);
+  font-weight: 760;
+  line-height: 1.15;
+}
+
+.lorenz-cause-mix span:first-child {
+  background: var(--blue);
+  color: var(--paper);
+}
+
+.lorenz-cause-mix span:last-child {
+  background: var(--rust);
+  color: var(--paper);
+}
+
+.lorenz-histories__cards p {
+  margin: 0.9rem 0 0;
+  color: var(--muted);
+}
+
+.lorenz-histories__conclusion {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 0.55rem;
+  border-bottom: 1px solid var(--line);
+  padding: 1.2rem;
+  text-align: center;
+}
+
+.lorenz-histories__conclusion strong {
+  color: var(--rust);
+}
+
+.lorenz-histories__conclusion span {
   color: var(--muted);
 }
 
@@ -2461,13 +2579,32 @@ input[type="range"] {
     max-width: calc(50% - 0.5rem);
   }
 
+  .lorenz-histories__fork {
+    width: 1px;
+    height: 2rem;
+    background: var(--line-strong);
+  }
+
+  .lorenz-histories__fork::before,
+  .lorenz-histories__fork::after {
+    display: none;
+  }
+
+  .lorenz-histories__cards {
+    grid-template-columns: 1fr;
+  }
+
+  .lorenz-histories__conclusion {
+    align-items: center;
+    flex-direction: column;
+  }
+
   .shadow-definition,
   .experiment-labels,
   .experiment-metric,
   .monopoly-definition,
   .platform-families,
   .platform-lorenz-copy,
-  .lorenz-histories,
   .tax-policy-split,
   .firm-market-examples,
   .firm-market-effects {

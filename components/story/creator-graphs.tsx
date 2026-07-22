@@ -878,28 +878,58 @@ export function LorenzHistoryGraph() {
         </svg>
       </div>
 
-      <div className="lorenz-histories">
-        <article>
-          <span className="panel__meta">History A</span>
-          <strong>Differences in creators’ work explain more of the outcome.</strong>
-          <p>Inherited visibility still matters, but less.</p>
-        </article>
-        <article>
-          <span className="panel__meta">History B</span>
-          <strong>Early visibility explains more of the outcome.</strong>
-          <p>Direct contribution still matters, but less.</p>
-        </article>
+      <div
+        className="lorenz-histories"
+        aria-label="Two possible causal histories behind the same Lorenz curve"
+      >
+        <div className="lorenz-histories__shared">
+          <span className="panel__meta">The same Lorenz curve above</span>
+          <strong>One visible income gap</strong>
+        </div>
+        <div className="lorenz-histories__fork" aria-hidden="true" />
+        <div className="lorenz-histories__cards">
+          <article>
+            <span className="panel__meta">Possible history A</span>
+            <h3>Creators’ work explains more of the gap</h3>
+            <div
+              className="lorenz-cause-mix lorenz-cause-mix--work"
+              role="img"
+              aria-label="An illustrative mix in which work and contribution matter more than compounding visibility"
+            >
+              <span>Work and contribution</span>
+              <span>Compounding visibility</span>
+            </div>
+            <p>Early visibility still amplifies the result, but it plays the smaller role.</p>
+          </article>
+          <article>
+            <span className="panel__meta">Possible history B</span>
+            <h3>Compounding visibility explains more of the gap</h3>
+            <div
+              className="lorenz-cause-mix lorenz-cause-mix--visibility"
+              role="img"
+              aria-label="An illustrative mix in which compounding visibility matters more than work and contribution"
+            >
+              <span>Work and contribution</span>
+              <span>Compounding visibility</span>
+            </div>
+            <p>Differences in creators’ work still matter, but they play the smaller role.</p>
+          </article>
+        </div>
+        <div className="lorenz-histories__conclusion">
+          <strong>Same curve. Different causes.</strong>
+          <span>The curve shows the income gap, not which causal mix produced it.</span>
+        </div>
       </div>
 
       <p className="creator-graph__result" aria-live="polite">
         {animation.state === "complete" ? (
           <>
             The top three receive <strong>{Math.round(topThreeShare * 100)}% of income</strong>.
-            The curve measures that inequality. The income record alone can’t tell us which
-            history produced it.
+            The curve measures that gap, but not how much came from creators’ work versus
+            compounding visibility.
           </>
         ) : (
-          <>One income curve can hide very different contribution histories.</>
+          <>Draw the income curve, then compare two different histories that could produce it.</>
         )}
       </p>
     </div>
