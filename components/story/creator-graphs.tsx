@@ -38,6 +38,7 @@ const RECOMMENDATIONS = 1_600;
 const SAMPLE_EVERY = 40;
 const FEEDBACK_STRENGTH = 1.55;
 const WORLD_SEEDS = [31, 17, 42, 91, 2_026];
+const WORLD_LABELS = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"] as const;
 
 type CreatorWorld = {
   comparison: number[];
@@ -365,6 +366,22 @@ export function ShadowFuturesGraph() {
     [replayBatch],
   );
   const uniqueWinners = new Set(worlds.map((world) => world.winner)).size;
+  const winnerGroups = useMemo(() => {
+    const groups = new Map<number, number[]>();
+    worlds.forEach((world, worldIndex) => {
+      groups.set(world.winner, [...(groups.get(world.winner) ?? []), worldIndex]);
+    });
+    return Array.from(groups, ([winner, worldIndexes]) => ({ winner, worldIndexes }));
+  }, [worlds]);
+  const worldReveals = worlds.map((_, index) =>
+    Math.max(0, Math.min(1, animation.progress * worlds.length - index)),
+  );
+  const visibleWinnerGroups = winnerGroups
+    .map((group) => ({
+      ...group,
+      visibleWorldIndexes: group.worldIndexes.filter((index) => worldReveals[index] > 0.08),
+    }))
+    .filter((group) => group.visibleWorldIndexes.length > 0);
 
   const playReplays = () => {
     if (hasReplayed) {
@@ -383,8 +400,8 @@ export function ShadowFuturesGraph() {
     >
       <div className="creator-graph__head">
         <div>
-          <div className="panel__meta">Same people · same posts · same recommendation system</div>
-          <strong>Only the opening views change from one replay to the next.</strong>
+          <div className="panel__meta">Same artists · same posts · same recommendation system</div>
+          <strong>Only the opening views change from one world to the next.</strong>
         </div>
         <button
           className="button button--small"
@@ -393,10 +410,10 @@ export function ShadowFuturesGraph() {
           disabled={animation.running}
         >
           {animation.running
-            ? "Running ten replays…"
+            ? "Running ten worlds…"
             : hasReplayed
-              ? "Run ten new replays"
-              : "Watch ten replays"}
+              ? "Run ten new worlds"
+              : "Run ten worlds"}
         </button>
       </div>
 
@@ -434,67 +451,99 @@ export function ShadowFuturesGraph() {
         </div>
 
         <div className="shadow-replay__turn" aria-hidden="true">
-          <span>A few early views land differently</span>
-          <span>↓</span>
+          <span>↻</span>
         </div>
 
-        <div
-          className="shadow-replay__worlds"
-          role="img"
-          aria-label={`Ten replays of the same social media recommendation system produce ${uniqueWinners} different winners.`}
-        >
-          {worlds.map((world, index) => {
-            const winner = CREATOR_CAST[world.winner];
-            const reveal = Math.max(
-              0,
-              Math.min(1, animation.progress * worlds.length - index),
-            );
-            const revealed = reveal > 0.08;
+        <div className="shadow-replay__world-map">
+          <span className="shadow-replay__map-label">Ten separate starts</span>
+          <div className="shadow-replay__seeds" aria-hidden="true">
+            {worlds.map((_, index) => {
+              const assigned = worldReveals[index] > 0.08;
+              return (
+                <motion.span
+                  className={`shadow-replay__seed${assigned ? " is-assigned" : ""}`}
+                  key={WORLD_LABELS[index]}
+                  initial={false}
+                  animate={{ opacity: assigned ? 0.22 : 1, scale: assigned ? 0.82 : 1 }}
+                >
+                  {WORLD_LABELS[index]}
+                </motion.span>
+              );
+            })}
+          </div>
 
-            return (
-              <motion.div
-                className={`shadow-replay__world${revealed ? " is-revealed" : ""}`}
-                key={index}
-                initial={false}
-                animate={{
-                  opacity: 0.42 + reveal * 0.58,
-                  y: (1 - reveal) * 8,
-                }}
-                transition={{ duration: 0.1, ease: "linear" }}
-              >
-                <span className="shadow-replay__take">Replay {index + 1}</span>
-                <span className="shadow-replay__spotlight" aria-hidden="true">
-                  <span>
-                    {revealed ? (
+          <div className="shadow-replay__branch" aria-hidden="true" />
+          <span className="shadow-replay__map-label">Where each world lands</span>
+
+          <div
+            className={`shadow-replay__outcomes${
+              visibleWinnerGroups.length === 0 ? " is-empty" : ""
+            }`}
+            role="list"
+            aria-label={`Ten independent worlds produced ${uniqueWinners} different winners.`}
+            aria-live="polite"
+          >
+            {visibleWinnerGroups.length === 0 ? (
+              <span className="shadow-replay__pending" aria-hidden="true">
+                ?
+              </span>
+            ) : (
+              visibleWinnerGroups.map((group) => {
+                const winner = CREATOR_CAST[group.winner];
+                const worldNames = group.visibleWorldIndexes.map(
+                  (index) => WORLD_LABELS[index],
+                );
+                return (
+                  <motion.div
+                    className="shadow-replay__winner"
+                    key={winner.name}
+                    role="listitem"
+                    aria-label={`${winner.name} won ${
+                      worldNames.length === 1
+                        ? `world ${worldNames[0]}`
+                        : `worlds ${worldNames.join(", ")}`
+                    }.`}
+                    initial={{ opacity: 0, y: 10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.18 }}
+                  >
+                    <span className="shadow-replay__winner-portrait" aria-hidden="true">
                       <Image
                         src={winner.image}
                         alt=""
                         width={480}
                         height={480}
-                        sizes="80px"
+                        sizes="84px"
                       />
-                    ) : (
-                      "?"
-                    )}
-                  </span>
-                </span>
-                <strong>{revealed ? winner.name : "Who wins?"}</strong>
-                <span>{revealed ? "wins this replay" : "Same starting line"}</span>
-              </motion.div>
-            );
-          })}
+                    </span>
+                    <strong>{winner.name}</strong>
+                    <span className="shadow-replay__won-worlds" aria-hidden="true">
+                      {group.visibleWorldIndexes.map((index) => (
+                        <motion.span
+                          className="shadow-replay__won-world"
+                          key={WORLD_LABELS[index]}
+                          initial={{ opacity: 0, scale: 0.6 }}
+                          animate={{ opacity: 1, scale: 1 }}
+                        >
+                          {WORLD_LABELS[index]}
+                        </motion.span>
+                      ))}
+                    </span>
+                  </motion.div>
+                );
+              })
+            )}
+          </div>
         </div>
       </div>
 
       <p className="creator-graph__result" aria-live="polite">
         {animation.state === "complete" ? (
           <>
-            This batch produced <strong>{uniqueWinners} different winners</strong> without
-            changing the hypothetical contestants, posts or recommendation rules. Run ten new
-            replays and a fresh set of opening views will produce a new sequence.
+            <strong>{uniqueWinners} different musicians</strong> won across the ten worlds.
           </>
         ) : (
-          <>Same people. Same posts. Same recommendation system. Change only the first few views.</>
+          <>The same 24 artists begin every world.</>
         )}
       </p>
     </div>

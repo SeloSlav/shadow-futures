@@ -35,16 +35,16 @@ test.describe("interactive essay", () => {
       "href",
       "https://doi.org/10.1126/science.1121066",
     );
-    await page.getByRole("button", { name: "Watch ten replays" }).click();
+    await page.getByRole("button", { name: "Run ten worlds" }).click();
     await expect(replayGraph).toHaveAttribute(
       "data-animation-state",
       "complete",
     );
-    const replayWinners = replayGraph.locator(".shadow-replay__world strong");
-    await expect(replayWinners).toHaveCount(10);
+    const replayWinners = replayGraph.locator(".shadow-replay__winner");
+    await expect(replayGraph.locator(".shadow-replay__won-world")).toHaveCount(10);
     const firstReplayWinners = await replayWinners.allTextContents();
 
-    await page.getByRole("button", { name: "Run ten new replays" }).click();
+    await page.getByRole("button", { name: "Run ten new worlds" }).click();
     await expect(replayGraph).toHaveAttribute("data-animation-state", "running");
     await expect(replayGraph).toHaveAttribute("data-animation-state", "complete");
     const secondReplayWinners = await replayWinners.allTextContents();

@@ -24,7 +24,7 @@ function StorySection({
   id: string;
   number: number;
   eyebrow: string;
-  title: string;
+  title: React.ReactNode;
   intro: string;
   children: React.ReactNode;
   dark?: boolean;
@@ -319,7 +319,14 @@ export function CreatorStoryPage() {
           id="experiment-monopoly"
           number={3}
           eyebrow="The familiar story and the missing question"
-          title="The problem isn’t simply that success compounds. It’s what compounding erases."
+          title={
+            <>
+              <span className="chapter__title-lead">
+                The problem isn’t simply that success compounds.
+              </span>{" "}
+              <span className="chapter__title-payoff">It’s what compounding erases.</span>
+            </>
+          }
           intro="Increasing returns and preferential attachment explain why an early lead can grow. Shadow Futures asks what happens to the evidence: once that lead has shaped thousands of later decisions, can the one history we observe still tell us how much the winner contributed?"
           dark
         >
