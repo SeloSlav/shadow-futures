@@ -28,30 +28,16 @@ test.describe("interactive essay", () => {
       "complete",
     );
 
-    await page.getByTestId("shadow-futures-graph").scrollIntoViewIfNeeded();
-    const replayGraph = page.getByTestId("shadow-futures-graph");
-    await expect(replayGraph.locator(".shadow-replay__person")).toHaveCount(24);
+    await expect(
+      page.getByTestId("breakout-graph").locator(".creator-chart-key__item"),
+    ).toHaveCount(10);
+    await expect(
+      page.getByTestId("breakout-graph").locator("path[stroke-dasharray]"),
+    ).toHaveCount(2);
     await expect(page.getByRole("link", { name: /Experimental Study of Inequality/ })).toHaveAttribute(
       "href",
       "https://doi.org/10.1126/science.1121066",
     );
-    await expect(
-      replayGraph.getByText("Platform Top 10", { exact: true }).first(),
-    ).toBeVisible();
-    await page.getByRole("button", { name: "Replay ten launches" }).click();
-    await expect(replayGraph).toHaveAttribute(
-      "data-animation-state",
-      "complete",
-    );
-    const replayWinners = replayGraph.locator(".shadow-replay__winner");
-    await expect(replayGraph.locator(".shadow-replay__won-world")).toHaveCount(10);
-    const firstReplayWinners = await replayWinners.allTextContents();
-
-    await page.getByRole("button", { name: "Replay ten new launches" }).click();
-    await expect(replayGraph).toHaveAttribute("data-animation-state", "running");
-    await expect(replayGraph).toHaveAttribute("data-animation-state", "complete");
-    const secondReplayWinners = await replayWinners.allTextContents();
-    expect(secondReplayWinners).not.toEqual(firstReplayWinners);
 
     await page.getByTestId("experiment-monopoly-graph").scrollIntoViewIfNeeded();
     await page.getByRole("button", { name: "Compare both rules" }).click();
@@ -78,7 +64,6 @@ test.describe("interactive essay", () => {
     const chapterIds = [
       "novelty",
       "breakout",
-      "shadow-futures",
       "experiment-monopoly",
       "firm-markets",
       "lorenz-curve",

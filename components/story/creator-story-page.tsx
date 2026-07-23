@@ -7,7 +7,6 @@ import {
   BreakoutGraph,
   ExperimentMonopolyGraph,
   LorenzHistoryGraph,
-  ShadowFuturesGraph,
 } from "@/components/story/creator-graphs";
 import { HeroNetwork } from "@/components/story/visuals";
 import { PAPER } from "@/lib/paper/citation";
@@ -261,43 +260,11 @@ export function CreatorStoryPage() {
               </p>
             </article>
           </div>
-        </StorySection>
-
-        <StorySection
-          id="shadow-futures"
-          number={2}
-          eyebrow="The missing histories"
-          title="Press replay. A different creator tops the chart."
-          intro="This is not a contest of identical talent. The synthetic releases have different modeled audience appeal, and those differences stay fixed in every launch. Change only who receives the first random recommendations and the final Top 10 can still be transformed."
-        >
-          <ShadowFuturesGraph />
-          <div className="scope-grid platform-translation">
-            <article className="scope-card">
-              <span className="panel__meta">Feeds and streaming</span>
-              <h3>Views buy the next recommendation</h3>
-              <p>
-                Work that is not shown cannot collect the engagement signals a feed demands
-                before showing it again.
-              </p>
-            </article>
-            <article className="scope-card">
-              <span className="panel__meta">Marketplaces and app stores</span>
-              <h3>Sales and reviews buy the next ranking</h3>
-              <p>
-                Earlier products accumulate proof and placement while promising new work begins
-                below the fold.
-              </p>
-            </article>
-            <article className="scope-card">
-              <span className="panel__meta">Funding, clients and creator tools</span>
-              <h3>Past wins buy the capacity to build again</h3>
-              <p>
-                Attention brings money, data and collaborators, so the platform amplifies both
-                the creator’s work and the advantages created by its own earlier choices.
-              </p>
-            </article>
-          </div>
-          <aside className="musiclab-evidence" aria-label="Experimental evidence">
+          <aside
+            className="musiclab-evidence"
+            id="shadow-futures"
+            aria-label="Experimental evidence"
+          >
             <span className="panel__meta">Shown experimentally</span>
             <p>
               <strong>This pattern is more than a thought experiment.</strong> In 2006, Matthew
@@ -330,15 +297,11 @@ export function CreatorStoryPage() {
               launch that actually happened.
             </p>
           </div>
-          <p className="hero__line creator-story-line">
-            Platform economies do not merely discover talent. They decide whose talent receives
-            the audience, evidence and resources required to become visible at all.
-          </p>
         </StorySection>
 
         <StorySection
           id="experiment-monopoly"
-          number={3}
+          number={2}
           eyebrow="The familiar story and the missing question"
           title={
             <>
@@ -438,7 +401,7 @@ export function CreatorStoryPage() {
 
         <StorySection
           id="firm-markets"
-          number={4}
+          number={3}
           eyebrow="From scale to evidence"
           title="A growing firm can improve while making its own contribution harder to measure"
           intro="An early customer brings revenue, data, credibility and scale. Those can produce real gains. But as one firm comes to dominate customers, standards and distribution, the market can run out of independent paths that would reveal how much success came from the firm’s inputs and how much from the position created by earlier wins."
@@ -558,7 +521,7 @@ export function CreatorStoryPage() {
 
         <StorySection
           id="lorenz-curve"
-          number={5}
+          number={4}
           eyebrow="What inequality can’t answer"
           title="The Lorenz curve is the symptom. Shadow futures are the missing evidence."
           intro="Debates about extreme inequality often split between two stories. One says the reward broadly reflects talent, work or risk. The other says a small early accident was amplified by cumulative advantage. Shadow Futures reframes the argument: the same visible curve can reflect many different mixes of contribution and reinforced position, and a single market history may not contain the comparisons needed to tell them apart."
@@ -671,7 +634,7 @@ export function CreatorStoryPage() {
 
         <StorySection
           id="tax-and-ubi"
-          number={6}
+          number={5}
           eyebrow="Tax, UBI and social insurance"
           title="The income record can’t isolate contribution from position"
           intro="Existing tax systems use observable measures such as income, profits and wealth; they don’t try to calculate how much of each dollar came from the recipient’s contribution. The paper asks whether one market history could ever isolate the share created by position. Under the theorem’s conditions, it can’t. That means extreme rewards shouldn’t be treated as proof that recipients deserve every dollar. Progressive taxation, antitrust, UBI and social dividends each address a different part of the problem."
@@ -726,7 +689,7 @@ export function CreatorStoryPage() {
 
         <StorySection
           id="conclusion"
-          number={7}
+          number={6}
           eyebrow="The distinct contribution"
           title="The market doesn’t just choose a winner. It chooses what can still be known."
           intro="Increasing returns explain compounding. Scaling laws relate size to performance. Preferential attachment explains why success attracts more success. Lorenz curves describe inequality. Shadow Futures identifies the missing step: self-reinforcing markets can destroy the comparison paths needed to measure contribution from the one history we observe."

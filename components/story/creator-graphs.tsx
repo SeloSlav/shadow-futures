@@ -1,51 +1,32 @@
 "use client";
 
 import { motion, useReducedMotion } from "framer-motion";
-import Image from "next/image";
 import { useCallback, useEffect, useMemo, useState } from "react";
 
-import { deriveSeed, mulberry32 } from "@/lib/model/prng";
+import { mulberry32 } from "@/lib/model/prng";
 
-const CREATOR_CAST = [
-  { name: "Taylor Swift", image: "/creator-portraits/taylor-swift.webp" },
-  { name: "Rihanna", image: "/creator-portraits/rihanna.webp" },
-  { name: "Beyoncé", image: "/creator-portraits/beyonce.webp" },
-  { name: "Selena Gomez", image: "/creator-portraits/selena-gomez.webp" },
-  { name: "Lady Gaga", image: "/creator-portraits/lady-gaga.webp" },
-  { name: "Adele", image: "/creator-portraits/adele.webp" },
-  { name: "Billie Eilish", image: "/creator-portraits/billie-eilish.webp" },
-  { name: "Ariana Grande", image: "/creator-portraits/ariana-grande.webp" },
-  { name: "Dua Lipa", image: "/creator-portraits/dua-lipa.webp" },
-  { name: "Ed Sheeran", image: "/creator-portraits/ed-sheeran.webp" },
-  { name: "Bruno Mars", image: "/creator-portraits/bruno-mars.webp" },
-  { name: "Justin Bieber", image: "/creator-portraits/justin-bieber.webp" },
-  { name: "The Weeknd", image: "/creator-portraits/the-weeknd.webp" },
-  { name: "Drake", image: "/creator-portraits/drake.webp" },
-  { name: "Kendrick Lamar", image: "/creator-portraits/kendrick-lamar.webp" },
-  { name: "Harry Styles", image: "/creator-portraits/harry-styles.webp" },
-  { name: "Miley Cyrus", image: "/creator-portraits/miley-cyrus.webp" },
-  { name: "Katy Perry", image: "/creator-portraits/katy-perry.webp" },
-  { name: "Shakira", image: "/creator-portraits/shakira.webp" },
-  { name: "Jennifer Lopez", image: "/creator-portraits/jennifer-lopez.webp" },
-  { name: "Bad Bunny", image: "/creator-portraits/bad-bunny.webp" },
-  { name: "SZA", image: "/creator-portraits/sza.webp" },
-  { name: "Post Malone", image: "/creator-portraits/post-malone.webp" },
-  { name: "Doja Cat", image: "/creator-portraits/doja-cat.webp" },
-] as const;
-
-const CREATOR_COUNT = CREATOR_CAST.length;
+const CREATOR_COUNT = 24;
 const RECOMMENDATIONS = 1_600;
 const SAMPLE_EVERY = 40;
 const FEEDBACK_STRENGTH = 1.55;
-const WORLD_SEEDS = [31, 17, 42, 91, 2_026];
-const WORLD_LABELS = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"] as const;
+const RESET_INTERVAL = 400;
+const WORLD_SEEDS = [31, 97, 160, 174, 214];
+const TOP_TEN_COLORS = [
+  "var(--rust)",
+  "var(--blue)",
+  "var(--shadow)",
+  "#6f7f54",
+  "#936d8b",
+  "#b47d32",
+  "#4e8582",
+  "#786b57",
+  "#70787a",
+  "#465f70",
+] as const;
 const MODELED_AUDIENCE_FIT: readonly number[] = [
   0.92, 1.08, 0.98, 1.15, 0.88, 1.04, 0.95, 1.12, 0.86, 1.01, 1.18, 0.9,
   1.06, 0.96, 1.1, 0.84, 1.03, 0.94, 1.14, 0.89, 1.07, 0.97, 1.16, 1,
 ];
-const STRONGEST_MODELED_RELEASE = MODELED_AUDIENCE_FIT.indexOf(
-  Math.max(...MODELED_AUDIENCE_FIT),
-);
 
 type CreatorWorld = {
   comparison: number[];
@@ -56,7 +37,8 @@ type CreatorWorld = {
 
 function simulateCreatorWorld(seed: number, clearScoresEvery = 0): CreatorWorld {
   const random = mulberry32(seed);
-  const counts = Array.from({ length: CREATOR_COUNT }, () => 0);
+  const scoreCounts = Array.from({ length: CREATOR_COUNT }, () => 0);
+  const exposureCounts = Array.from({ length: CREATOR_COUNT }, () => 0);
   const series = Array.from({ length: CREATOR_COUNT }, () => [0]);
   const comparison = [0];
   let comparisonTotal = 0;
@@ -71,10 +53,10 @@ function simulateCreatorWorld(seed: number, clearScoresEvery = 0): CreatorWorld 
       recommendation > 0 &&
       recommendation % clearScoresEvery === 0
     ) {
-      counts.fill(0);
+      scoreCounts.fill(0);
     }
 
-    const weights = counts.map(
+    const weights = scoreCounts.map(
       (count, index) =>
         MODELED_AUDIENCE_FIT[index] * (2 + count) ** FEEDBACK_STRENGTH,
     );
@@ -87,20 +69,21 @@ function simulateCreatorWorld(seed: number, clearScoresEvery = 0): CreatorWorld 
     while (recipient < CREATOR_COUNT - 1 && (draw -= weights[recipient]) > 0) {
       recipient += 1;
     }
-    counts[recipient] += 1;
+    scoreCounts[recipient] += 1;
+    exposureCounts[recipient] += 1;
 
     if ((recommendation + 1) % SAMPLE_EVERY === 0) {
-      const total = counts.reduce((sum, count) => sum + count, 0) || 1;
-      counts.forEach((count, index) => series[index].push(count / total));
+      const total = exposureCounts.reduce((sum, count) => sum + count, 0) || 1;
+      exposureCounts.forEach((count, index) => series[index].push(count / total));
       comparison.push(comparisonTotal);
     }
   }
 
-  const total = counts.reduce((sum, count) => sum + count, 0) || 1;
-  const winner = counts.indexOf(Math.max(...counts));
+  const total = exposureCounts.reduce((sum, count) => sum + count, 0) || 1;
+  const winner = exposureCounts.indexOf(Math.max(...exposureCounts));
   return {
     comparison,
-    finalShare: counts[winner] / total,
+    finalShare: exposureCounts[winner] / total,
     series,
     winner,
   };
@@ -179,7 +162,11 @@ export function BreakoutGraph() {
     () => simulateCreatorWorld(WORLD_SEEDS[seedIndex]),
     [seedIndex],
   );
-  const topThree = useMemo(
+  const resetWorld = useMemo(
+    () => simulateCreatorWorld(WORLD_SEEDS[seedIndex], RESET_INTERVAL),
+    [seedIndex],
+  );
+  const topTen = useMemo(
     () =>
       world.series
         .map((values, creator) => ({
@@ -187,12 +174,15 @@ export function BreakoutGraph() {
           share: values.at(-1) ?? 0,
         }))
         .sort((left, right) => right.share - left.share)
-        .slice(0, 3),
+        .slice(0, 10),
     [world],
   );
-  const topThreeRank = new Map(
-    topThree.map((entry, index) => [entry.creator, index]),
-  );
+  const runnerUpCounterfactuals = topTen.slice(1, 3).map((entry, index) => ({
+    ...entry,
+    color: TOP_TEN_COLORS[index + 1],
+    resetSeries: resetWorld.series[entry.creator],
+    resetShare: resetWorld.series[entry.creator].at(-1) ?? 0,
+  }));
   const sampleIndex = Math.min(
     world.series[0].length - 1,
     Math.floor(animation.progress * (world.series[0].length - 1)),
@@ -202,12 +192,10 @@ export function BreakoutGraph() {
   const chartHeight = 420;
   const x = 54 + (sampleIndex / Math.max(1, world.series[0].length - 1)) * 778;
   const y = 24 + (1 - leaderShare) * 344;
-  const topThreeLabelY = topThree.map((entry, index) => {
-    const desired = 24 + (1 - entry.share) * 344 - 12;
-    if (index === 0) return Math.max(38, desired);
-    const previous = 24 + (1 - topThree[index - 1].share) * 344 - 12;
-    return Math.min(350, Math.max(desired, previous + 24));
-  });
+  const interventionSamples = Array.from(
+    { length: RECOMMENDATIONS / RESET_INTERVAL - 1 },
+    (_, index) => ((index + 1) * RESET_INTERVAL) / SAMPLE_EVERY,
+  );
 
   const play = () => {
     setSeedIndex((current) =>
@@ -244,13 +232,14 @@ export function BreakoutGraph() {
           className="creator-line-chart"
           viewBox={`0 0 ${chartWidth} ${chartHeight}`}
           role="img"
-          aria-label={`Twenty-four creators with different modeled audience response compete for 1,600 recommendations. The top three eventually receive ${topThree.map((entry) => Math.round(entry.share * 100)).join(", ")} percent of them.`}
+          aria-label={`Twenty-four creators with different modeled audience response compete for 1,600 recommendations. The ten leading paths are shown. Dashed lines show how the original second- and third-place creators fare when accumulated ranking scores reset every 400 recommendations.`}
         >
           <title>One creator’s early exposure becomes a runaway platform lead</title>
           <desc>
             Twenty-four creators have different levels of modeled audience response. Small early
             differences in exposure are amplified until one creator receives much more of the
-            platform’s attention.
+            platform’s attention. Ten observed paths are shown, alongside reset counterfactuals
+            for the second- and third-place creators.
           </desc>
           {[0, 0.25, 0.5, 0.75, 1].map((tick) => {
             const tickY = 24 + (1 - tick) * 344;
@@ -269,34 +258,59 @@ export function BreakoutGraph() {
               </g>
             );
           })}
-          {world.series.map((values, creator) => (
+          {interventionSamples.map((interventionSample, index) => {
+            const interventionX =
+              54 +
+              (interventionSample / Math.max(1, world.series[0].length - 1)) *
+                778;
+            return (
+              <g key={interventionSample}>
+                <line
+                  x1={interventionX}
+                  x2={interventionX}
+                  y1="24"
+                  y2="368"
+                  className="creator-chart-reset"
+                />
+                {index === 0 ? (
+                  <text
+                    x={interventionX + 7}
+                    y="42"
+                    className="creator-chart-label creator-chart-reset-label"
+                  >
+                    ranking reset
+                  </text>
+                ) : null}
+              </g>
+            );
+          })}
+          {topTen.map((entry, rank) => (
             <motion.path
-              key={creator}
-              d={linePath(values, chartWidth, chartHeight, 1)}
+              key={entry.creator}
+              d={linePath(world.series[entry.creator], chartWidth, chartHeight, 1)}
               fill="none"
-              stroke={
-                topThreeRank.get(creator) === 0
-                  ? "var(--rust)"
-                  : topThreeRank.get(creator) === 1
-                    ? "var(--blue)"
-                    : topThreeRank.get(creator) === 2
-                      ? "var(--shadow)"
-                      : "var(--line-strong)"
-              }
-              strokeWidth={
-                topThreeRank.get(creator) === 0
-                  ? 5
-                  : topThreeRank.get(creator) === 1
-                    ? 3.25
-                    : topThreeRank.get(creator) === 2
-                      ? 2.4
-                      : 1.2
-              }
+              stroke={TOP_TEN_COLORS[rank]}
+              strokeWidth={rank === 0 ? 5 : rank < 3 ? 3 : 1.7}
               strokeLinecap="round"
               initial={false}
               animate={{ pathLength: animation.progress }}
               transition={{ duration: 0.08, ease: "linear" }}
-              opacity={topThreeRank.has(creator) ? 1 : 0.52}
+              opacity={rank < 3 ? 1 : 0.78}
+            />
+          ))}
+          {runnerUpCounterfactuals.map((entry) => (
+            <motion.path
+              key={`reset-${entry.creator}`}
+              d={linePath(entry.resetSeries, chartWidth, chartHeight, 1)}
+              fill="none"
+              stroke={entry.color}
+              strokeWidth="3"
+              strokeDasharray="9 8"
+              strokeLinecap="round"
+              initial={false}
+              animate={{ pathLength: animation.progress }}
+              transition={{ duration: 0.08, ease: "linear" }}
+              opacity="0.95"
             />
           ))}
           {animation.progress > 0 ? (
@@ -310,36 +324,6 @@ export function BreakoutGraph() {
               transition={{ duration: 0.08, ease: "linear" }}
             />
           ) : null}
-          {animation.progress > 0.92 ? (
-            <>
-              {topThree.map((entry, index) => {
-                const endpointY = 24 + (1 - entry.share) * 344;
-                const fill =
-                  index === 0
-                    ? "var(--rust)"
-                    : index === 1
-                      ? "var(--blue)"
-                      : "var(--shadow)";
-                return (
-                  <g key={entry.creator}>
-                    {index > 0 ? (
-                      <circle cx="832" cy={endpointY} r="5" fill={fill} />
-                    ) : null}
-                    <text
-                      x="820"
-                      y={topThreeLabelY[index]}
-                      textAnchor="end"
-                      className="creator-chart-label"
-                    >
-                      {index + 1}
-                      {index === 0 ? "st" : index === 1 ? "nd" : "rd"}:{" "}
-                      {Math.round(entry.share * 100)}%
-                    </text>
-                  </g>
-                );
-              })}
-            </>
-          ) : null}
           <text x="54" y="402" className="creator-chart-label">
             first recommendation
           </text>
@@ -347,6 +331,48 @@ export function BreakoutGraph() {
             recommendation 1,600
           </text>
         </svg>
+
+        <div className="creator-chart-key" role="list" aria-label="Top ten creator paths">
+          {topTen.map((entry, rank) => {
+            const counterfactual = runnerUpCounterfactuals.find(
+              (candidate) => candidate.creator === entry.creator,
+            );
+            return (
+              <div className="creator-chart-key__item" key={entry.creator} role="listitem">
+                <span
+                  className="creator-chart-key__swatch"
+                  style={{ backgroundColor: TOP_TEN_COLORS[rank] }}
+                  aria-hidden="true"
+                />
+                <strong>#{rank + 1}</strong>
+                <span>Creator {entry.creator + 1}</span>
+                <span>{Math.round(entry.share * 100)}%</span>
+                {counterfactual ? (
+                  <small>reset: {Math.round(counterfactual.resetShare * 100)}%</small>
+                ) : null}
+              </div>
+            );
+          })}
+        </div>
+
+        <div className="creator-reset-note">
+          <div>
+            <span className="creator-reset-note__line" aria-hidden="true" />
+            <strong>Observed path</strong>
+          </div>
+          <div>
+            <span
+              className="creator-reset-note__line creator-reset-note__line--dashed"
+              aria-hidden="true"
+            />
+            <strong>Shadow path with ranking resets</strong>
+          </div>
+          <p>
+            Every 400 recommendations, the intervention clears accumulated visibility scores—not
+            anyone’s audience response or prior views. The dashed paths show how the original #2
+            and #3 can develop when the platform periodically reopens discovery.
+          </p>
+        </div>
       </div>
 
       <p className="creator-graph__result" aria-live="polite">
@@ -354,291 +380,16 @@ export function BreakoutGraph() {
           <>
             Creator {world.winner + 1} received{" "}
             <strong>{Math.round(world.finalShare * 100)}% of all recommendations</strong>.
-            The runners-up received {Math.round(topThree[1].share * 100)}% and{" "}
-            {Math.round(topThree[2].share * 100)}%. The model gives the 24 releases different
-            audience appeal, but most never receive enough exposure for that difference to be
-            tested.
+            Without intervention, #2 and #3 received{" "}
+            {Math.round(runnerUpCounterfactuals[0].share * 100)}% and{" "}
+            {Math.round(runnerUpCounterfactuals[1].share * 100)}%. With ranking resets, their
+            shadow paths reach {Math.round(runnerUpCounterfactuals[0].resetShare * 100)}% and{" "}
+            {Math.round(runnerUpCounterfactuals[1].resetShare * 100)}%.
           </>
         ) : (
           <>
             Talent can improve the odds. It cannot be amplified if the platform stops showing the
             work.
-          </>
-        )}
-      </p>
-    </div>
-  );
-}
-
-export function ShadowFuturesGraph() {
-  const animation = useGraphAnimation(2_400);
-  const [replayBatch, setReplayBatch] = useState(0);
-  const [hasReplayed, setHasReplayed] = useState(false);
-  const worlds = useMemo(
-    () =>
-      Array.from({ length: 10 }, (_, index) =>
-        simulateCreatorWorld(deriveSeed(31, replayBatch * 10 + index)),
-      ),
-    [replayBatch],
-  );
-  const uniqueWinners = new Set(worlds.map((world) => world.winner)).size;
-  const strongestModeledWins = worlds.filter(
-    (world) => world.winner === STRONGEST_MODELED_RELEASE,
-  ).length;
-  const worldReveals = worlds.map((_, index) =>
-    Math.max(0, Math.min(1, animation.progress * worlds.length - index)),
-  );
-  const revealedWorldCount = worldReveals.filter((reveal) => reveal > 0.08).length;
-  const activeWorldIndex = Math.max(0, revealedWorldCount - 1);
-  const activeWorld = worlds[activeWorldIndex];
-  const activeTopTen = activeWorld.series
-    .map((values, creator) => ({
-      creator,
-      share: values.at(-1) ?? 0,
-    }))
-    .sort((left, right) => right.share - left.share)
-    .slice(0, 10);
-
-  const playReplays = () => {
-    if (hasReplayed) {
-      setReplayBatch((current) => current + 1);
-    } else {
-      setHasReplayed(true);
-    }
-    animation.play();
-  };
-
-  return (
-    <div
-      className="creator-graph"
-      data-animation-state={animation.state}
-      data-testid="shadow-futures-graph"
-    >
-      <div className="creator-graph__head">
-        <div>
-          <div className="panel__meta">Shadow Charts · Platform Top 10</div>
-          <strong>The chart ranks amplified exposure—not talent.</strong>
-        </div>
-        <button
-          className="button button--small"
-          type="button"
-          onClick={playReplays}
-          disabled={animation.running}
-        >
-          {animation.running
-            ? "Replaying ten launches…"
-            : hasReplayed
-              ? "Replay ten new launches"
-              : "Replay ten launches"}
-        </button>
-      </div>
-
-      <div className="shadow-chart">
-        <div className="shadow-chart__catalog">
-          <div className="shadow-chart__catalog-copy">
-            <span className="shadow-replay__label">The catalog stays locked</span>
-            <strong>24 creators · different modeled appeal · one ranking system</strong>
-          </div>
-          <div
-            className="shadow-replay__cast"
-            aria-label="Twenty-four music-artist portraits act only as visual stand-ins for creators in the hypothetical platform chart."
-          >
-            {CREATOR_CAST.map((creator) => (
-              <span
-                className="shadow-replay__person"
-                key={creator.name}
-                title={creator.name}
-                aria-label={creator.name}
-              >
-                <Image
-                  src={creator.image}
-                  alt=""
-                  width={480}
-                  height={480}
-                  sizes="(max-width: 720px) 12vw, 7vw"
-                />
-              </span>
-            ))}
-          </div>
-          <p className="shadow-replay__cast-note">
-            The portraits are visual stand-ins. The synthetic audience-response scores do not
-            describe these artists’ real talent, work, popularity or merit.{" "}
-            <a href="/creator-portraits/credits.json" target="_blank" rel="noreferrer">
-              Portrait credits
-            </a>
-          </p>
-        </div>
-
-        <div className="shadow-chart__board">
-          <div className="shadow-chart__ranking">
-            <div className="shadow-chart__masthead">
-              <div>
-                <span>Platform Top 10</span>
-                <strong>
-                  {revealedWorldCount > 0
-                    ? `Launch ${WORLD_LABELS[activeWorldIndex]}`
-                    : "Ready to replay"}
-                </strong>
-              </div>
-              <span>1,600 recommendations</span>
-            </div>
-
-            <div
-              className={`shadow-chart__rows${
-                revealedWorldCount === 0 ? " is-waiting" : ""
-              }`}
-              role="list"
-              aria-label={
-                revealedWorldCount > 0
-                  ? `Top ten most-recommended creators in launch ${WORLD_LABELS[activeWorldIndex]}.`
-                  : "The platform chart is waiting to run."
-              }
-              aria-live="polite"
-            >
-              {revealedWorldCount === 0 ? (
-                <div className="shadow-chart__waiting">
-                  <span aria-hidden="true">01</span>
-                  <strong>Press replay to publish the chart</strong>
-                  <p>
-                    Every launch keeps the catalog and modeled audience appeal fixed. Only the
-                    first random recommendations change.
-                  </p>
-                </div>
-              ) : (
-                activeTopTen.map((entry, index) => {
-                  const creator = CREATOR_CAST[entry.creator];
-                  return (
-                    <motion.div
-                      className="shadow-chart__row"
-                      key={`${WORLD_LABELS[activeWorldIndex]}-${creator.name}`}
-                      role="listitem"
-                      initial={{ opacity: 0, x: -8 }}
-                      animate={{ opacity: 1, x: 0 }}
-                      transition={{ duration: 0.16, delay: index * 0.015 }}
-                    >
-                      <span className="shadow-chart__rank">{index + 1}</span>
-                      <span className="shadow-chart__portrait" aria-hidden="true">
-                        <Image
-                          src={creator.image}
-                          alt=""
-                          width={480}
-                          height={480}
-                          sizes="48px"
-                        />
-                      </span>
-                      <span className="shadow-chart__artist">
-                        <strong>{creator.name}</strong>
-                        <small>
-                          modeled response {MODELED_AUDIENCE_FIT[entry.creator].toFixed(2)}×
-                        </small>
-                      </span>
-                      <span className="shadow-chart__bar" aria-hidden="true">
-                        <motion.span
-                          initial={{ width: 0 }}
-                          animate={{ width: `${Math.max(3, entry.share * 100)}%` }}
-                          transition={{ duration: 0.35 }}
-                        />
-                      </span>
-                      <strong className="shadow-chart__share">
-                        {Math.round(entry.share * 100)}%
-                      </strong>
-                    </motion.div>
-                  );
-                })
-              )}
-            </div>
-          </div>
-
-          <div
-            className="shadow-chart__number-ones"
-            role="list"
-            aria-label={`Number one creator in each of ten independent platform launches. The launches produced ${uniqueWinners} different winners.`}
-            aria-live="polite"
-          >
-            <div className="shadow-chart__number-ones-head">
-              <span>Number ones</span>
-              <strong>Same catalog. Ten launches.</strong>
-            </div>
-            {worlds.map((world, index) => {
-              const winner = CREATOR_CAST[world.winner];
-              const revealed = worldReveals[index] > 0.08;
-              return (
-                <div
-                  className={`shadow-replay__winner${
-                    revealed ? " is-revealed" : ""
-                  }`}
-                  key={WORLD_LABELS[index]}
-                  role="listitem"
-                  aria-label={
-                    revealed
-                      ? `${winner.name} reached number one in launch ${WORLD_LABELS[index]}.`
-                      : `Launch ${WORLD_LABELS[index]} has not run yet.`
-                  }
-                >
-                  <span className="shadow-replay__won-world" aria-hidden="true">
-                    {WORLD_LABELS[index]}
-                  </span>
-                  {revealed ? (
-                    <>
-                      <motion.span
-                        className="shadow-replay__winner-portrait"
-                        aria-hidden="true"
-                        initial={{ opacity: 0, scale: 0.7 }}
-                        animate={{ opacity: 1, scale: 1 }}
-                      >
-                        <Image
-                          src={winner.image}
-                          alt=""
-                          width={480}
-                          height={480}
-                          sizes="36px"
-                        />
-                      </motion.span>
-                      <motion.strong
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                      >
-                        {winner.name}
-                      </motion.strong>
-                    </>
-                  ) : (
-                    <span className="shadow-chart__pending">—</span>
-                  )}
-                  <span className="shadow-chart__number-one">#1</span>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-
-        <div className="shadow-chart__key">
-          <div>
-            <span>Kept fixed</span>
-            <strong>Creators, modeled appeal and platform rules</strong>
-          </div>
-          <div>
-            <span>Changed</span>
-            <strong>Who receives the first random recommendations</strong>
-          </div>
-          <div>
-            <span>What the chart records</span>
-            <strong>Exposure after exposure has already shaped the race</strong>
-          </div>
-        </div>
-      </div>
-
-      <p className="creator-graph__result" aria-live="polite">
-        {animation.state === "complete" ? (
-          <>
-            <strong>{uniqueWinners} different creators reached #1</strong> across ten launches.
-            The release with the strongest modeled audience response reached #1 in only{" "}
-            {strongestModeledWins} of them. Promise matters, but it cannot compound when the
-            platform stops supplying chances to be seen.
-          </>
-        ) : (
-          <>
-            Same catalog. Same differences in audience response. Different first listeners can
-            still produce a different chart.
           </>
         )}
       </p>

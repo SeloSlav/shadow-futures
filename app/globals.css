@@ -1380,6 +1380,98 @@ input[type="range"] {
   font-size: 13px;
 }
 
+.creator-chart-reset {
+  stroke: color-mix(in srgb, var(--rust) 42%, transparent);
+  stroke-width: 1;
+  stroke-dasharray: 4 7;
+}
+
+.creator-chart-reset-label {
+  fill: var(--rust);
+  font-size: 11px;
+  font-weight: 750;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.creator-chart-key {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 0.45rem;
+  margin-top: 1rem;
+}
+
+.creator-chart-key__item {
+  display: grid;
+  grid-template-columns: 0.5rem auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 0.38rem;
+  min-width: 0;
+  border: 1px solid var(--line);
+  background: color-mix(in srgb, var(--surface-solid) 76%, transparent);
+  padding: 0.48rem 0.55rem;
+  font-size: 0.7rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.creator-chart-key__item > span:nth-of-type(2) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.creator-chart-key__item small {
+  grid-column: 2 / -1;
+  color: var(--rust);
+  font-size: 0.62rem;
+  font-weight: 750;
+}
+
+.creator-chart-key__swatch {
+  width: 0.5rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+
+.creator-reset-note {
+  display: grid;
+  grid-template-columns: auto auto minmax(16rem, 1fr);
+  align-items: center;
+  gap: 0.8rem 1.2rem;
+  margin-top: 1rem;
+  border-top: 1px solid var(--line);
+  padding-top: 1rem;
+  color: var(--muted);
+  font-size: 0.72rem;
+}
+
+.creator-reset-note > div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  white-space: nowrap;
+}
+
+.creator-reset-note p {
+  margin: 0;
+}
+
+.creator-reset-note__line {
+  display: block;
+  width: 2rem;
+  height: 3px;
+  background: var(--blue);
+}
+
+.creator-reset-note__line--dashed {
+  height: 2px;
+  background: repeating-linear-gradient(
+    to right,
+    var(--blue) 0 7px,
+    transparent 7px 12px
+  );
+}
+
 .creator-graph__result {
   min-height: 4rem;
   margin: 0;
@@ -2531,6 +2623,14 @@ input[type="range"] {
     grid-column: 1 / -1;
   }
 
+  .creator-chart-key {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .creator-reset-note {
+    grid-template-columns: 1fr;
+  }
+
   .inequality-frames .inequality-frames__shadow {
     grid-column: auto;
   }
@@ -2694,6 +2794,14 @@ input[type="range"] {
 
   .creator-chart-label {
     font-size: 26px;
+  }
+
+  .creator-chart-reset-label {
+    display: none;
+  }
+
+  .creator-chart-key {
+    grid-template-columns: 1fr;
   }
 
   .lorenz-y-tick:not([data-extreme="true"]),

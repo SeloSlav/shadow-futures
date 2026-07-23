@@ -12,14 +12,13 @@ accumulated position are the shadow futures.
 
 The main experience begins with creators whose work has different modeled
 audience appeal competing inside a self-reinforcing recommendation feed, then
-extends the same information problem to firms. Four animated graphs show:
+extends the same information problem to firms. Three animated graphs show:
 
-1. How a small early burst of attention can become a lasting lead.
-2. How the same catalog can produce different platform charts when only the
-   opening recommendations change.
-3. Why repeatedly boosting an early leader teaches us less than regularly
+1. How ten creator paths diverge after a small early burst of attention, and
+   how the second- and third-place paths change under periodic ranking resets.
+2. Why repeatedly boosting an early leader teaches us less than regularly
    giving everyone another equal start.
-4. Why a Lorenz curve is a final scoreboard rather than evidence of what caused
+3. Why a Lorenz curve is a final scoreboard rather than evidence of what caused
    the result.
 
 The story connects this mechanism to creator careers across OnlyFans, Fanvue,
