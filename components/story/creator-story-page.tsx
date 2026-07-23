@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -102,6 +103,19 @@ function NoveltyBridge() {
             more sales, and each sale keeps it in front. After a year, the shop has thousands of
             receipts but only one shelf history.
           </p>
+          <figure className="novelty-analogy__visual" id="shelf-analogy-visual">
+            <Image
+              src="/illustrations/shelf-shadow-future.webp"
+              width={1400}
+              height={684}
+              sizes="(max-width: 900px) calc(100vw - 5rem), 40vw"
+              alt="One product is repeatedly promoted by sales on the observed shelf, while a faint second shelf shows the unrealized rerun with a different product in front."
+            />
+            <figcaption>
+              <span>Observed shelf history</span>
+              <span>Missing rerun</span>
+            </figcaption>
+          </figure>
           <p className="novelty-analogy__answer">
             <strong>More receipts don’t mean more experiments.</strong> To separate product quality
             from placement, we’d need to rerun the shop with a different product in front.

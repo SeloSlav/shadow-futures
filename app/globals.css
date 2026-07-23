@@ -1277,6 +1277,40 @@ input[type="range"] {
   color: color-mix(in srgb, var(--paper) 75%, transparent);
 }
 
+.novelty-analogy__visual {
+  overflow: hidden;
+  margin: clamp(1.5rem, 3vw, 2.25rem) 0 0;
+  border: 1px solid color-mix(in srgb, var(--paper) 13%, transparent);
+  border-radius: 1rem;
+  background: #1c2427;
+}
+
+.novelty-analogy__visual img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.novelty-analogy__visual figcaption {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  border-top: 1px solid color-mix(in srgb, var(--paper) 13%, transparent);
+  color: color-mix(in srgb, var(--paper) 68%, transparent);
+  font-size: 0.64rem;
+  font-weight: 740;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.novelty-analogy__visual figcaption span {
+  padding: 0.65rem 0.8rem;
+}
+
+.novelty-analogy__visual figcaption span:last-child {
+  border-left: 1px solid color-mix(in srgb, var(--paper) 13%, transparent);
+  color: var(--blue-soft);
+}
+
 .novelty-analogy__answer {
   margin-top: clamp(1.5rem, 4vw, 3rem) !important;
   border-left: 3px solid var(--rust);
