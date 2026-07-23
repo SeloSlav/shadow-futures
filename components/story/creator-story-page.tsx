@@ -78,12 +78,12 @@ function CreatorHero() {
           A market can reward real contribution while erasing the evidence needed to measure it.
         </p>
         <p className="hero__dek">
-          In a self-reinforcing market, each win changes who gets the next chance. The leader
-          gains more attention, customers, capital, data or distribution, while alternatives lose
-          the opportunities needed to show what they could have contributed. The market records
-          the surviving path in extraordinary detail but stops producing the comparisons needed
-          to separate contribution from accumulated advantage. Those missing experiments are
-          shadow futures.
+          In some markets, each win makes the next win easier. Success brings more attention,
+          customers, capital, data or distribution to the leader, while others lose the chances
+          they need to show what they could have contributed. Over time, the market records the
+          winner’s path in extraordinary detail but stops producing the comparisons needed to tell
+          how much success came from contribution and how much came from already being ahead.
+          Those missing experiments are shadow futures.
         </p>
         <div className="button-row">
           <a className="button button--primary" href="#breakout">
