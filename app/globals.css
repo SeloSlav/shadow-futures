@@ -680,79 +680,6 @@ input[type="range"] {
   text-underline-offset: 0.22em;
 }
 
-.footer--branded {
-  position: relative;
-  overflow: hidden;
-  border-top: 0.4rem solid var(--rust);
-  background:
-    radial-gradient(circle at 83% 18%, color-mix(in srgb, var(--blue) 28%, transparent), transparent 25rem),
-    var(--ink);
-  color: var(--paper);
-  padding-top: clamp(4.5rem, 9vw, 8rem);
-  padding-bottom: clamp(2rem, 4vw, 3.5rem);
-}
-
-.footer__brand {
-  max-width: 90rem;
-  margin: 0 auto;
-}
-
-.footer__eyebrow {
-  display: flex;
-  align-items: center;
-  gap: 0.9rem;
-  margin: 0 0 1.25rem;
-  color: var(--rust-soft);
-  font-size: 0.74rem;
-  font-weight: 760;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-}
-
-.footer__eyebrow::before {
-  width: 3.25rem;
-  height: 2px;
-  flex: 0 0 auto;
-  background: var(--rust);
-  content: "";
-}
-
-.footer__title {
-  display: block;
-  width: fit-content;
-  color: var(--paper);
-  font-family: var(--font-serif);
-  font-size: clamp(3.8rem, 9vw, 8rem);
-  font-weight: 520;
-  letter-spacing: -0.065em;
-  line-height: 0.88;
-  text-decoration: none;
-}
-
-.footer__title:hover {
-  color: var(--rust-soft);
-}
-
-.footer__subtitle {
-  max-width: 38rem;
-  margin: 1.5rem 0 0;
-  color: color-mix(in srgb, var(--paper) 70%, transparent);
-  font-family: var(--font-serif);
-  font-size: clamp(1.05rem, 2vw, 1.45rem);
-}
-
-.footer__inner--branded {
-  align-items: center;
-  margin-top: clamp(3.5rem, 8vw, 6rem);
-  border-top: 1px solid color-mix(in srgb, var(--paper) 18%, transparent);
-  padding-top: 1.5rem;
-  color: color-mix(in srgb, var(--paper) 58%, transparent);
-}
-
-.footer__inner--branded a {
-  color: var(--rust-soft);
-}
-
 .math-page,
 .method-page {
   max-width: 92rem;
@@ -2306,9 +2233,74 @@ input[type="range"] {
   text-align: center;
 }
 
+.creator-closing__brand {
+  margin-bottom: clamp(4rem, 8vw, 7rem);
+  border-bottom: 1px solid color-mix(in srgb, var(--paper) 18%, transparent);
+  padding-bottom: clamp(3.5rem, 7vw, 6rem);
+}
+
+.creator-closing__eyebrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.9rem;
+  margin: 0 0 1.4rem;
+  color: var(--rust-soft);
+  font-size: 0.74rem;
+  font-weight: 760;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.creator-closing__eyebrow::before,
+.creator-closing__eyebrow::after {
+  width: 3rem;
+  height: 2px;
+  flex: 0 0 auto;
+  background: var(--rust);
+  content: "";
+}
+
+.creator-closing__title {
+  margin: 0;
+  color: var(--paper);
+  font-family: var(--font-serif);
+  font-size: clamp(4.5rem, 11vw, 10rem);
+  font-weight: 520;
+  letter-spacing: -0.075em;
+  line-height: 0.84;
+}
+
+.creator-closing__subtitle {
+  margin: 1.5rem 0 0;
+  color: color-mix(in srgb, var(--paper) 68%, transparent);
+  font-family: var(--font-serif);
+  font-size: clamp(1.05rem, 2vw, 1.45rem);
+}
+
 .creator-closing .hero__line {
   max-width: 21ch;
   margin-top: 0;
+}
+
+.chapter--dark .creator-closing .hero__dek {
+  color: color-mix(in srgb, var(--paper) 72%, transparent);
+}
+
+.chapter--dark .creator-closing .button {
+  border-color: color-mix(in srgb, var(--paper) 26%, transparent);
+  background: color-mix(in srgb, var(--paper) 7%, transparent);
+  color: var(--paper);
+}
+
+.chapter--dark .creator-closing .button:hover {
+  border-color: color-mix(in srgb, var(--paper) 65%, transparent);
+}
+
+.chapter--dark .creator-closing .button--primary {
+  border-color: var(--rust);
+  background: var(--rust);
+  color: #fff9f0;
 }
 
 .platform-families {

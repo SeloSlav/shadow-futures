@@ -757,8 +757,16 @@ export function CreatorStoryPage() {
             src: "/illustrations/chapters/recorded-path.png",
             alt: "Several possible paths approach a selector, but only one continues into the market record.",
           }}
+          dark
         >
           <div className="creator-closing">
+            <div className="creator-closing__brand">
+              <p className="creator-closing__eyebrow">One observed market. Many missing experiments.</p>
+              <p className="creator-closing__title">Shadow Futures</p>
+              <p className="creator-closing__subtitle">
+                Contribution Uncertainty and the Self-Reinforcing Market
+              </p>
+            </div>
             <p className="hero__line">
               A market can keep paying the winner long after it’s stopped producing evidence
               about why they won.
@@ -797,18 +805,9 @@ export function CreatorStoryPage() {
           </div>
         </StorySection>
       </main>
-      <footer className="footer footer--branded">
-        <div className="footer__brand">
-          <p className="footer__eyebrow">One observed market. Many missing experiments.</p>
-          <Link className="footer__title" href="/" aria-label="Shadow Futures home">
-            Shadow Futures
-          </Link>
-          <p className="footer__subtitle">
-            Contribution Uncertainty and the Self-Reinforcing Market
-          </p>
-        </div>
-        <div className="footer__inner footer__inner--branded">
-          <span>Martin Erlic · Revised July 2026</span>
+      <footer className="footer">
+        <div className="footer__inner">
+          <span>Shadow Futures · Martin Erlic · Revised July 2026</span>
           <Link href="/faq">Read the Shadow Futures FAQ</Link>
         </div>
       </footer>
