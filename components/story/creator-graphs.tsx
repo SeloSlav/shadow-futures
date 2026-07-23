@@ -192,6 +192,9 @@ export function BreakoutGraph() {
   const chartHeight = 420;
   const x = 54 + (sampleIndex / Math.max(1, world.series[0].length - 1)) * 778;
   const y = 24 + (1 - leaderShare) * 344;
+  const miniChartWidth = 300;
+  const miniChartHeight = 132;
+  const miniChartInset = { top: 12, right: 12, bottom: 18, left: 12 };
   const interventionSamples = Array.from(
     { length: RECOMMENDATIONS / RESET_INTERVAL - 1 },
     (_, index) => ((index + 1) * RESET_INTERVAL) / SAMPLE_EVERY,
@@ -232,14 +235,13 @@ export function BreakoutGraph() {
           className="creator-line-chart"
           viewBox={`0 0 ${chartWidth} ${chartHeight}`}
           role="img"
-          aria-label={`Twenty-four creators with different modeled audience response compete for 1,600 recommendations. The ten leading paths are shown. Dashed lines show how the original second- and third-place creators fare when accumulated ranking scores reset every 400 recommendations.`}
+          aria-label="Twenty-four creators with different modeled audience response compete for 1,600 recommendations. The ten leading observed paths are shown."
         >
           <title>One creator’s early exposure becomes a runaway platform lead</title>
           <desc>
             Twenty-four creators have different levels of modeled audience response. Small early
             differences in exposure are amplified until one creator receives much more of the
-            platform’s attention. Ten observed paths are shown, alongside reset counterfactuals
-            for the second- and third-place creators.
+            platform’s attention. The ten leading observed paths are shown.
           </desc>
           {[0, 0.25, 0.5, 0.75, 1].map((tick) => {
             const tickY = 24 + (1 - tick) * 344;
@@ -258,32 +260,6 @@ export function BreakoutGraph() {
               </g>
             );
           })}
-          {interventionSamples.map((interventionSample, index) => {
-            const interventionX =
-              54 +
-              (interventionSample / Math.max(1, world.series[0].length - 1)) *
-                778;
-            return (
-              <g key={interventionSample}>
-                <line
-                  x1={interventionX}
-                  x2={interventionX}
-                  y1="24"
-                  y2="368"
-                  className="creator-chart-reset"
-                />
-                {index === 0 ? (
-                  <text
-                    x={interventionX + 7}
-                    y="42"
-                    className="creator-chart-label creator-chart-reset-label"
-                  >
-                    ranking reset
-                  </text>
-                ) : null}
-              </g>
-            );
-          })}
           {topTen.map((entry, rank) => (
             <motion.path
               key={entry.creator}
@@ -296,21 +272,6 @@ export function BreakoutGraph() {
               animate={{ pathLength: animation.progress }}
               transition={{ duration: 0.08, ease: "linear" }}
               opacity={rank < 3 ? 1 : 0.78}
-            />
-          ))}
-          {runnerUpCounterfactuals.map((entry) => (
-            <motion.path
-              key={`reset-${entry.creator}`}
-              d={linePath(entry.resetSeries, chartWidth, chartHeight, 1)}
-              fill="none"
-              stroke={entry.color}
-              strokeWidth="3"
-              strokeDasharray="9 8"
-              strokeLinecap="round"
-              initial={false}
-              animate={{ pathLength: animation.progress }}
-              transition={{ duration: 0.08, ease: "linear" }}
-              opacity="0.95"
             />
           ))}
           {animation.progress > 0 ? (
@@ -347,32 +308,148 @@ export function BreakoutGraph() {
                 <strong>#{rank + 1}</strong>
                 <span>Creator {entry.creator + 1}</span>
                 <span>{Math.round(entry.share * 100)}%</span>
-                {counterfactual ? (
-                  <small>reset: {Math.round(counterfactual.resetShare * 100)}%</small>
-                ) : null}
+                {counterfactual ? <small>compared below</small> : null}
               </div>
             );
           })}
         </div>
 
-        <div className="creator-reset-note">
-          <div>
-            <span className="creator-reset-note__line" aria-hidden="true" />
-            <strong>Observed path</strong>
+        <section className="creator-shadow-comparison" aria-labelledby="shadow-paths-title">
+          <div className="creator-shadow-comparison__intro">
+            <div>
+              <span className="panel__meta">Two shadow paths, separated from the crowd</span>
+              <h3 id="shadow-paths-title">What changes when the platform reopens discovery?</h3>
+            </div>
+            <p>
+              Same creator, same modeled audience response and same random sequence. Only the
+              accumulated ranking score resets after recommendations 400, 800 and 1,200.
+            </p>
           </div>
-          <div>
-            <span
-              className="creator-reset-note__line creator-reset-note__line--dashed"
-              aria-hidden="true"
-            />
-            <strong>Shadow path with ranking resets</strong>
+
+          <div className="creator-shadow-comparison__grid">
+            {runnerUpCounterfactuals.map((entry, index) => {
+              const comparisonMax = Math.max(
+                0.12,
+                Math.max(...world.series[entry.creator], ...entry.resetSeries) * 1.08,
+              );
+              const delta =
+                Math.round(entry.resetShare * 100) - Math.round(entry.share * 100);
+              return (
+                <article className="creator-shadow-card" key={entry.creator}>
+                  <header>
+                    <div>
+                      <span>Original #{index + 2}</span>
+                      <strong>Creator {entry.creator + 1}</strong>
+                    </div>
+                    <span className="creator-shadow-card__delta">
+                      {delta >= 0 ? "+" : ""}
+                      {delta} points
+                    </span>
+                  </header>
+
+                  <div className="creator-shadow-card__panels">
+                    <div className="creator-shadow-card__panel">
+                      <div className="creator-shadow-card__panel-head">
+                        <span>Observed ranking</span>
+                        <strong>{Math.round(entry.share * 100)}%</strong>
+                      </div>
+                      <svg
+                        viewBox={`0 0 ${miniChartWidth} ${miniChartHeight}`}
+                        role="img"
+                        aria-label={`Creator ${entry.creator + 1} receives ${Math.round(entry.share * 100)} percent of recommendations under the observed ranking.`}
+                      >
+                        <line
+                          x1={miniChartInset.left}
+                          x2={miniChartWidth - miniChartInset.right}
+                          y1={miniChartHeight - miniChartInset.bottom}
+                          y2={miniChartHeight - miniChartInset.bottom}
+                          className="creator-shadow-card__axis"
+                        />
+                        <motion.path
+                          d={linePath(
+                            world.series[entry.creator],
+                            miniChartWidth,
+                            miniChartHeight,
+                            comparisonMax,
+                            miniChartInset,
+                          )}
+                          fill="none"
+                          stroke={entry.color}
+                          strokeWidth="5"
+                          strokeLinecap="round"
+                          initial={false}
+                          animate={{ pathLength: animation.progress }}
+                          transition={{ duration: 0.08, ease: "linear" }}
+                        />
+                      </svg>
+                    </div>
+
+                    <div className="creator-shadow-card__panel creator-shadow-card__panel--reset">
+                      <div className="creator-shadow-card__panel-head">
+                        <span>Ranking reset</span>
+                        <strong>{Math.round(entry.resetShare * 100)}%</strong>
+                      </div>
+                      <svg
+                        viewBox={`0 0 ${miniChartWidth} ${miniChartHeight}`}
+                        role="img"
+                        aria-label={`Creator ${entry.creator + 1} receives ${Math.round(entry.resetShare * 100)} percent of recommendations when ranking scores reset every 400 recommendations.`}
+                      >
+                        <line
+                          x1={miniChartInset.left}
+                          x2={miniChartWidth - miniChartInset.right}
+                          y1={miniChartHeight - miniChartInset.bottom}
+                          y2={miniChartHeight - miniChartInset.bottom}
+                          className="creator-shadow-card__axis"
+                        />
+                        {interventionSamples.map((interventionSample) => {
+                          const interventionX =
+                            miniChartInset.left +
+                            (interventionSample /
+                              Math.max(1, entry.resetSeries.length - 1)) *
+                              (miniChartWidth -
+                                miniChartInset.left -
+                                miniChartInset.right);
+                          return (
+                            <line
+                              key={interventionSample}
+                              x1={interventionX}
+                              x2={interventionX}
+                              y1={miniChartInset.top}
+                              y2={miniChartHeight - miniChartInset.bottom}
+                              className="creator-shadow-card__reset-marker"
+                            />
+                          );
+                        })}
+                        <motion.path
+                          d={linePath(
+                            entry.resetSeries,
+                            miniChartWidth,
+                            miniChartHeight,
+                            comparisonMax,
+                            miniChartInset,
+                          )}
+                          fill="none"
+                          stroke={entry.color}
+                          strokeWidth="5"
+                          strokeLinecap="round"
+                          initial={false}
+                          animate={{ pathLength: animation.progress }}
+                          transition={{ duration: 0.08, ease: "linear" }}
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </article>
+              );
+            })}
           </div>
-          <p>
-            Every 400 recommendations, the intervention clears accumulated visibility scores—not
-            anyone’s audience response or prior views. The dashed paths show how the original #2
-            and #3 can develop when the platform periodically reopens discovery.
+
+          <p className="creator-shadow-comparison__note">
+            The intervention clears accumulated visibility scores, not prior views or modeled
+            audience response. These are policy counterfactuals—not claims about a creator’s
+            guaranteed potential.
           </p>
-        </div>
+        </section>
       </div>
 
       <p className="creator-graph__result" aria-live="polite">

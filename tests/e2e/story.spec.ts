@@ -32,8 +32,11 @@ test.describe("interactive essay", () => {
       page.getByTestId("breakout-graph").locator(".creator-chart-key__item"),
     ).toHaveCount(10);
     await expect(
-      page.getByTestId("breakout-graph").locator("path[stroke-dasharray]"),
+      page.getByTestId("breakout-graph").locator(".creator-shadow-card"),
     ).toHaveCount(2);
+    await expect(
+      page.getByTestId("breakout-graph").locator(".creator-shadow-card svg"),
+    ).toHaveCount(4);
     await expect(page.getByRole("link", { name: /Experimental Study of Inequality/ })).toHaveAttribute(
       "href",
       "https://doi.org/10.1126/science.1121066",
