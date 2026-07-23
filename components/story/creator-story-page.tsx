@@ -78,10 +78,12 @@ function CreatorHero() {
           A market can reward real contribution while erasing the evidence needed to measure it.
         </p>
         <p className="hero__dek">
-          A creator’s early audience or a firm’s first customer can make the next win easier.
-          As that advantage compounds, the market records one path in extraordinary detail but
-          doesn’t produce the comparison paths needed to separate contribution from accumulated
-          advantage in the winner’s reward. Those missing experiments are shadow futures.
+          In a self-reinforcing market, each win changes who gets the next chance. The leader
+          gains more attention, customers, capital, data or distribution, while alternatives lose
+          the opportunities needed to show what they could have contributed. The market records
+          the surviving path in extraordinary detail but stops producing the comparisons needed
+          to separate contribution from accumulated advantage. Those missing experiments are
+          shadow futures.
         </p>
         <div className="button-row">
           <a className="button button--primary" href="#breakout">
