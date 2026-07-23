@@ -82,7 +82,7 @@ export default function FaqPage() {
           <div className="faq-lead">
             <span className="panel__meta">The shortest answer</span>
             <strong>
-              Markets do not only distribute rewards. Their rules decide whether society gets
+              Markets don’t just distribute rewards. Their rules decide whether society gets
               enough independent histories to explain those rewards.
             </strong>
           </div>

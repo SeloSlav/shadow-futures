@@ -72,7 +72,7 @@ function SimpleHero() {
         </p>
         <p className="hero__dek">
           One runner may truly be better. But once the track starts helping the leader, the
-          final gap no longer tells us how much better. That is the basic problem behind
+          final gap no longer tells us how much better. That’s the basic problem behind
           self-reinforcing markets, and it may matter enormously in the age of AI.
         </p>
         <div className="button-row">
@@ -147,7 +147,7 @@ export function SimpleStoryPage() {
           number={3}
           eyebrow="Press rewind"
           title="Same labs. Same talent. Different future."
-          intro="Run the same market twice. Change only the early random breaks. The stronger lab has better odds, but a better chance is not the same thing as a guaranteed history."
+          intro="Run the same market twice. Change only the early random breaks. The stronger lab has better odds, but a better chance isn’t the same thing as a guaranteed history."
         >
           <SideBySideMarkets />
           <div className="callout" style={{ marginTop: "1rem" }}>
@@ -160,7 +160,7 @@ export function SimpleStoryPage() {
           id="comparison-budget"
           number={4}
           eyebrow="Shadow futures"
-          title="The races history did not record"
+          title="The races history didn’t record"
           intro="Now replay the market hundreds of times. Every pale branch is a future that could have happened with the same people, technology, and rules."
         >
           <ShadowMap />
@@ -178,7 +178,7 @@ export function SimpleStoryPage() {
           </div>
           <div className="callout" style={{ marginTop: "1rem" }}>
             In real life, only one branch becomes history. The rest are <strong>shadow
-            futures</strong>: the missing replays we would need to measure how much skill,
+            futures</strong>: the missing replays we’d need to measure how much skill,
             effort, luck, and position each caused.
           </div>
         </Chapter>
@@ -187,7 +187,7 @@ export function SimpleStoryPage() {
           id="information"
           number={5}
           eyebrow="Room for surprise"
-          title="A thousand sales are not a thousand fair tests"
+          title="A thousand sales aren’t a thousand fair tests"
           intro="When the leader has a 99% chance of winning the next customer, another sale is a transaction, but barely a new comparison."
         >
           <BudgetChart />
@@ -204,7 +204,7 @@ export function SimpleStoryPage() {
             />
           </div>
           <p className="hero__line" style={{ maxWidth: "16ch", marginTop: "3rem" }}>
-            Volume is not replication.
+            Volume isn’t replication.
           </p>
         </Chapter>
 
@@ -220,25 +220,25 @@ export function SimpleStoryPage() {
           <div className="theorem" style={{ marginTop: "1.5rem" }}>
             <div className="theorem__label">The paper’s theorem, in ordinary language</div>
             <blockquote>
-              If genuine chances to compare eventually run out, one market history cannot tell
+              If genuine chances to compare eventually run out, one market history can’t tell
               us exactly how much of the outcome came from contribution.
             </blockquote>
             <div className="scope-grid">
               <article className="scope-card">
                 <h3>The runner may really be faster</h3>
-                <p>The theorem does not erase work, quality, judgment, or risk.</p>
+                <p>The theorem doesn’t erase work, quality, judgment, or risk.</p>
               </article>
               <article className="scope-card">
                 <h3>The moving track may also matter</h3>
                 <p>The final distance mixes ability with help created by being ahead.</p>
               </article>
               <article className="scope-card">
-                <h3>One race cannot untangle them perfectly</h3>
-                <p>Watching the leader ride the moving track for longer is not a fresh test.</p>
+                <h3>One race can’t untangle them perfectly</h3>
+                <p>Watching the leader ride the moving track for longer isn’t a fresh test.</p>
               </article>
               <article className="scope-card">
-                <h3>This is not “nothing can be known”</h3>
-                <p>It is a precise limit on exact learning from one self-reinforcing history.</p>
+                <h3>This isn’t “nothing can be known”</h3>
+                <p>It’s a precise limit on exact learning from one self-reinforcing history.</p>
               </article>
             </div>
             <div className="button-row" style={{ justifyContent: "flex-start" }}>
@@ -278,7 +278,7 @@ export function SimpleStoryPage() {
             />
           </div>
           <div className="callout" style={{ marginTop: "1rem" }}>
-            A normal feedback loop is not automatically the impossibility theorem. The sharp
+            A normal feedback loop isn’t automatically the impossibility theorem. The sharp
             case occurs when the remaining chances to compare shrink fast enough that their
             total is finite.
           </div>
@@ -289,7 +289,7 @@ export function SimpleStoryPage() {
           number={8}
           eyebrow="A real laboratory"
           title="One long movie or one hundred fresh starts?"
-          intro="Five thousand customers in one inherited timeline are not the same evidence as one hundred independent markets with fifty customers each."
+          intro="Five thousand customers in one inherited timeline aren’t the same evidence as one hundred independent markets with fifty customers each."
         >
           <ReplicationExperiment />
           <p className="hero__line" style={{ maxWidth: "20ch", marginTop: "3rem" }}>
@@ -360,7 +360,7 @@ export function SimpleStoryPage() {
           id="taxation"
           number={11}
           eyebrow="What policy can honestly know"
-          title="Do not confuse a moral judgment with a measurement"
+          title="Don’t confuse a moral judgment with a measurement"
           intro="A society may still tax, regulate, invest, or redistribute. But an exact split between “earned contribution” and “position” may not be recoverable from the reward record alone."
         >
           <HonestPolicyDemo />
@@ -384,7 +384,7 @@ export function SimpleStoryPage() {
               ],
               [
                 "Redistribute without reranking everyone",
-                "A broad social dividend does not require the state to reconstruct an impossible merit table.",
+                "A broad social dividend doesn’t require the state to reconstruct an impossible merit table.",
               ],
             ].map(([title, copy]) => (
               <article className="policy-card" key={title}>
@@ -395,7 +395,7 @@ export function SimpleStoryPage() {
           </div>
           <div className="scope-grid" style={{ marginTop: "1.5rem" }}>
             <article className="scope-card">
-              <h3>This does not mean</h3>
+              <h3>This doesn’t mean</h3>
               <p>
                 all high income is rent, all mergers are harmful, risk is fake, or skill does
                 not matter.
@@ -416,7 +416,7 @@ export function SimpleStoryPage() {
           number={12}
           eyebrow="The idea to remember"
           title="Markets choose winners and determine which evidence survives"
-          intro="A market does not only distribute money, attention, compute, and power. Its rules also decide whether society gets enough alternate histories to understand those rewards."
+          intro="A market doesn’t just distribute money, attention, compute, and power. Its rules also decide whether society gets enough alternate histories to understand those rewards."
         >
           <ClosingBranches />
           <div style={{ maxWidth: "68rem", margin: "3rem auto 0", textAlign: "center" }}>
@@ -459,7 +459,7 @@ export function SimpleStoryPage() {
         <div className="footer__inner">
           <span>Shadow Futures · Martin Erlic · Revised July 2026</span>
           <span>
-            The simulations explain a mechanism. They are not evidence about every AI market.
+            The simulations explain a mechanism. They aren’t evidence about every AI market.
           </span>
         </div>
       </footer>

@@ -484,7 +484,7 @@ export function StoryPage() {
       <main id="main-content">
         <section className="chapter" id="run-market" aria-labelledby="chapter-1">
           <ChapterIntro number="01 / Realized histories" title="One market, many possible histories">
-            The better input changes the odds. It does not determine the realized history.
+            The better input changes the odds. It doesn’t determine the realized history.
             These worlds share structural parameters and verified profiles; only their seeded
             allocation shocks differ.
           </ChapterIntro>
@@ -504,7 +504,7 @@ export function StoryPage() {
                 <h3>Productive inputs enter directly</h3>
                 <p>
                   Verified work and quality change the allocation odds through β. The model
-                  does not assume they are irrelevant.
+                  doesn’t assume they’re irrelevant.
                 </p>
               </div>
               <div className="scrolly__step">
@@ -515,7 +515,7 @@ export function StoryPage() {
                 </p>
               </div>
               <div className="scrolly__step">
-                <h3>Path dependence is not the theorem</h3>
+                <h3>Path dependence isn’t the theorem</h3>
                 <p>
                   Exact single-history impossibility requires finite total comparison under
                   the theorem’s assumptions.
@@ -598,7 +598,7 @@ export function StoryPage() {
         <section className="chapter chapter--dark" id="theorem" aria-labelledby="chapter-6">
           <ChapterIntro number="06 / The theorem" title="Finite comparison makes one history insufficient">
             The formal result is about complete-history laws and universal learning from one
-            endogenous path. It does not say that different parameters generate identical
+            endogenous path. It doesn’t say that different parameters generate identical
             distributions.
           </ChapterIntro>
           <div className="theorem">
@@ -630,7 +630,7 @@ export function StoryPage() {
             </div>
             <p>
               A history possible under one finite contribution parameter remains possible
-              under the other. One path does not accumulate decisive separating evidence.
+              under the other. One path doesn’t accumulate decisive separating evidence.
             </p>
             <div className="callout">
               <strong>Boundary.</strong> This is a failure of universal learning from one
@@ -669,7 +669,7 @@ export function StoryPage() {
         </section>
 
         <section className="chapter" id="replication" aria-labelledby="chapter-8">
-          <ChapterIntro number="08 / Independent markets" title="One long market is not many markets">
+          <ChapterIntro number="08 / Independent markets" title="One long market isn’t many markets">
             Statistical separation can accumulate across independent histories even when one
             path absorbs its comparison. The relevant distinction is independence, not nominal
             firm count.
@@ -702,10 +702,10 @@ export function StoryPage() {
         </section>
 
         <section className="chapter" id="taxation" aria-labelledby="chapter-11">
-          <ChapterIntro number="11 / Merit-sensitive taxation" title="One number cannot equal both residuals">
+          <ChapterIntro number="11 / Merit-sensitive taxation" title="One number can’t equal both residuals">
             The same observable reward can imply different positional rents in observationally
             equivalent structural economies. The theorem constrains an exact decomposition; it
-            does not supply a tax rate.
+            doesn’t supply a tax rate.
           </ChapterIntro>
           <TaxDemo />
           <div className="policy-grid" style={{ marginTop: "1.5rem" }}>
@@ -713,7 +713,7 @@ export function StoryPage() {
               ["Identified sets", "Report the range of decompositions consistent with the information set."],
               ["Mechanism-based taxation", "Target observable compounding rules rather than an unrecoverable moral decomposition."],
               ["Reinforcement-neutral policy", "Reduce superlinear compounding without asserting that every high reward is rent."],
-              ["Attribution-invariant transfers", "Use transfers that do not reconstruct the same unavailable merit ranking."],
+              ["Attribution-invariant transfers", "Use transfers that don’t reconstruct the same unavailable merit ranking."],
               ["Unconditional social dividend", "Distribute without requiring an exact contribution-versus-position split."],
             ].map(([title, copy]) => (
               <article className="policy-card" key={title}>
@@ -725,17 +725,17 @@ export function StoryPage() {
         </section>
 
         <section className="chapter" id="scope" aria-labelledby="scope-title">
-          <ChapterIntro number="Scope and limits" title="What the argument does and does not establish">
-            Simulations expose the mechanism. They do not prove the theorem, measure moral
+          <ChapterIntro number="Scope and limits" title="What the argument does and doesn’t establish">
+            Simulations expose the mechanism. They don’t prove the theorem, measure moral
             desert, or turn every concentration event into a policy conclusion.
           </ChapterIntro>
           <div className="scope-grid">
             {[
               ["Work and risk can matter", "A real causal effect can remain unrecoverable from the reinforced path that rewarded it."],
-              ["Path dependence is not enough", "Finite comparison is sufficient for the exact theorem under its assumptions; it is not necessary for every identification failure."],
+              ["Path dependence isn’t enough", "Finite comparison is sufficient for the exact theorem under its assumptions; it isn’t necessary for every identification failure."],
               ["Observe the full experiment", "Any additional parameter-dependent observations can carry information and must be included."],
               ["Contribution is narrowly defined", "The theorem concerns direct reward contribution inside the allocation mechanism, not total social value or moral desert."],
-              ["Firm count is not replication", "Competition creates identifying variation only when routes produce genuinely independent histories."],
+              ["Firm count isn’t replication", "Competition creates identifying variation only when routes produce genuinely independent histories."],
               ["Policy needs welfare assumptions", "Merger and tax implications are conditional. Decision errors and the cost of preserving alternate paths matter."],
             ].map(([title, copy]) => (
               <article className="scope-card" key={title}>

@@ -446,7 +446,7 @@ export function BreakoutGraph() {
 
           <p className="creator-shadow-comparison__note">
             The intervention clears accumulated visibility scores, not prior views or modeled
-            audience response. These are policy counterfactuals—not claims about a creator’s
+            audience response. These are policy counterfactuals, not claims about a creator’s
             guaranteed potential.
           </p>
         </section>
@@ -465,7 +465,7 @@ export function BreakoutGraph() {
           </>
         ) : (
           <>
-            Talent can improve the odds. It cannot be amplified if the platform stops showing the
+            Talent can improve the odds. It can’t be amplified if the platform stops showing the
             work.
           </>
         )}

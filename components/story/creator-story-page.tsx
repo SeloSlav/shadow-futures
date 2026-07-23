@@ -102,11 +102,22 @@ function NoveltyBridge() {
       <div className="novelty-bridge__intro">
         <p className="eyebrow">What’s new here</p>
         <h2 id="novelty-title">A million transactions can still add up to only one experiment.</h2>
-        <p>
-          Economists already know that early success can compound. This paper asks a different
-          question: when each win changes who gets the next chance, can one long market history
-          still tell us how much of the final gap came from the winner&apos;s work?
-        </p>
+        <div className="novelty-bridge__aside">
+          <figure className="novelty-bridge__illustration">
+            <Image
+              src="/illustrations/chapters/one-experiment.png"
+              width={1200}
+              height={507}
+              sizes="(max-width: 900px) calc(100vw - 2rem), 36vw"
+              alt="Many transaction tiles circulate around one track and pass through a single observation window, while dashed alternative tracks remain unrealized."
+            />
+          </figure>
+          <p>
+            Economists already know that early success can compound. This paper asks a different
+            question: when each win changes who gets the next chance, can one long market history
+            still tell us how much of the final gap came from the winner&apos;s work?
+          </p>
+        </div>
       </div>
 
       <div className="novelty-bridge__body">
@@ -232,7 +243,7 @@ export function CreatorStoryPage() {
           number={1}
           eyebrow="How a platform manufactures the chart"
           title="A platform can bury talent before it has a chance to become visible"
-          intro="Imagine 24 creators with a realistic spread of promise: some work will connect more strongly than others. But promise only becomes visible when people get to encounter the work. An early entrant who receives the first audience also gains followers, feedback, income and time to improve—advantages the platform then reads as reasons to keep promoting them."
+          intro="Imagine 24 creators with a realistic spread of promise: some work will connect more strongly than others. But promise only becomes visible when people get to encounter the work. An early entrant who receives the first audience also gains followers, feedback, income and time to improve. The platform then reads those advantages as reasons to keep promoting them."
           illustration={{
             src: "/illustrations/chapters/platform-visibility.png",
             alt: "Creator cards remain screened at the bottom while one card rides a feedback staircase upward.",
@@ -240,16 +251,16 @@ export function CreatorStoryPage() {
         >
           <aside className="skill-objection">
             <div>
-              <span className="panel__meta">Talent matters—so why model the platform?</span>
+              <span className="panel__meta">Talent matters. So why model the platform?</span>
               <h3>
-                Because talent cannot be discovered, rewarded or developed without opportunities
+                Because talent can’t be discovered, rewarded or developed without opportunities
                 to be seen.
               </h3>
             </div>
             <div className="skill-objection__answer">
               <p>
                 The simulation gives creators different modeled audience appeal. Better work
-                improves the odds of connecting with each person who sees it. It does not
+                improves the odds of connecting with each person who sees it. It doesn’t
                 guarantee that the ranking system will keep supplying those chances.
               </p>
               <p>
@@ -259,7 +270,7 @@ export function CreatorStoryPage() {
                 talented and still be drowned out before enough people encounter the work.
               </p>
               <p>
-                The question is not “Did the winner have talent?” It is “Did the platform keep
+                The question isn’t “Did the winner have talent?” It’s “Did the platform keep
                 testing enough alternatives to know how much unrealized talent it buried?”
               </p>
             </div>
@@ -304,7 +315,7 @@ export function CreatorStoryPage() {
               J. Salganik, Peter Sheridan Dodds and Duncan J. Watts built an artificial music
               market with 14,341 participants. When listeners could see earlier download counts,
               success became more unequal and less predictable. Quality moved the odds, but it
-              did not determine the ranking.
+              didn’t determine the ranking.
             </p>
             <p className="musiclab-evidence__citation">
               <a
@@ -786,9 +797,18 @@ export function CreatorStoryPage() {
           </div>
         </StorySection>
       </main>
-      <footer className="footer">
-        <div className="footer__inner">
-          <span>Shadow Futures · Martin Erlic · Revised July 2026</span>
+      <footer className="footer footer--branded">
+        <div className="footer__brand">
+          <p className="footer__eyebrow">One observed market. Many missing experiments.</p>
+          <Link className="footer__title" href="/" aria-label="Shadow Futures home">
+            Shadow Futures
+          </Link>
+          <p className="footer__subtitle">
+            Contribution Uncertainty and the Self-Reinforcing Market
+          </p>
+        </div>
+        <div className="footer__inner footer__inner--branded">
+          <span>Martin Erlic · Revised July 2026</span>
           <Link href="/faq">Read the Shadow Futures FAQ</Link>
         </div>
       </footer>

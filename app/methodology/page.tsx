@@ -90,7 +90,7 @@ export default function MethodologyPage() {
           </div>
           <p className="method-note">
             Fixed random seeds make every replay reproducible. The numbers illustrate the
-            mechanism; they are not forecasts for a real platform or industry.
+            mechanism; they aren’t forecasts for a real platform or industry.
           </p>
         </div>
       </section>
@@ -140,7 +140,7 @@ export default function MethodologyPage() {
         <div className="method-section__content">
           <p className="method-section__lead">
             Under the formal conditions below, finite total comparison means that one complete
-            history cannot support a method that consistently learns every nonconstant measure
+            history can’t support a method that consistently learns every nonconstant measure
             of contribution.
           </p>
           <div className="method-equation method-equation--theorem">
@@ -150,7 +150,7 @@ export default function MethodologyPage() {
               label="Finite comparison implies equivalent history laws and no universal consistent recovery"
             />
             <p>
-              The histories are not identical. They overlap too much for one realized history
+              The histories aren’t identical. They overlap too much for one realized history
               to identify every contribution measure consistently.
             </p>
           </div>
@@ -184,7 +184,7 @@ export default function MethodologyPage() {
         </div>
         <div className="method-section__content">
           <p className="method-section__lead">
-            The result is not a law of nature. Market and platform design can preserve new
+            The result isn’t a law of nature. Market and platform design can preserve new
             opportunities to compare people and firms.
           </p>
           <div className="method-options">
@@ -194,7 +194,7 @@ export default function MethodologyPage() {
             </div>
             <div>
               <strong>Create independent starts</strong>
-              <p>Resets and separate channels produce evidence that one continuous ranking cannot.</p>
+              <p>Resets and separate channels produce evidence that one continuous ranking can’t.</p>
             </div>
             <div>
               <strong>Let people and firms reach buyers elsewhere</strong>
@@ -225,8 +225,8 @@ export default function MethodologyPage() {
             <div>
               <span>The economic conclusion</span>
               <p>
-                Market rankings cannot by themselves settle moral or political questions about
-                desert. They do not reveal a clean earned-versus-unearned split.
+                Market rankings can’t by themselves settle moral or political questions about
+                desert. They don’t reveal a clean earned-versus-unearned split.
               </p>
             </div>
             <div>

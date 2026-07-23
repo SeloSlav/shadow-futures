@@ -449,7 +449,7 @@ export function EvidenceFadeChart() {
         </svg>
         <div className="callout">
           If the leader has a <strong>{((last?.probabilities[winner] ?? 0) * 100).toFixed(0)}%</strong>{" "}
-          chance of getting the next customer, another win is impressive, but it is not a fresh
+          chance of getting the next customer, another win is impressive, but it isn’t a fresh
           head-to-head test.
         </div>
       </div>
@@ -579,7 +579,7 @@ export function HonestPolicyDemo() {
           </div>
         </div>
         <div className="callout" style={{ marginTop: "1rem" }}>
-          The same visible $100 cannot tell a tax rule which hidden story is true. This does
+          The same visible $100 can’t tell a tax rule which hidden story is true. This doesn’t
           <strong> not</strong> mean all high income is rent, risk is fake, or one tax rate is
           automatically correct.
         </div>
@@ -924,7 +924,7 @@ export function BudgetChart() {
       <div className="panel__header">
         <div>
           <div className="panel__meta">The conceptual center</div>
-          <strong>Volume is not replication.</strong>
+          <strong>Volume isn’t replication.</strong>
         </div>
       </div>
       <div className="panel__body">
@@ -1123,7 +1123,7 @@ export function LikelihoodIllustration() {
         >
           <title>Likelihood illustration</title>
           <desc>
-            This is not a calculation of the theorem. It illustrates early updating followed
+            This isn’t a calculation of the theorem. It illustrates early updating followed
             by flattening as residual comparison disappears.
           </desc>
           <line className="chart-grid" x1="0" x2={width} y1={height / 2} y2={height / 2} />
@@ -1330,7 +1330,7 @@ export function ReplicationExperiment() {
         </div>
         <div className="callout" style={{ marginTop: "1rem" }}>
           Fresh starts create new head-to-head moments. Watching the same inherited lead for
-          longer does not.
+          longer doesn’t.
         </div>
       </div>
     </div>
@@ -1471,7 +1471,7 @@ export function EpistemicMonopoly() {
         </div>
         <div className="callout">
           Randomized exposure deliberately gives alternatives another chance to be seen. That
-          changes the market rule; it is a policy choice, not a neutral measurement trick.
+          changes the market rule; it’s a policy choice, not a neutral measurement trick.
         </div>
         <div className="stats-grid">
           <div className="stat">
@@ -1625,7 +1625,7 @@ export function TaxDemo() {
           </div>
         </div>
         <div className="callout" style={{ marginTop: "1rem" }}>
-          <strong>One number cannot equal both residuals.</strong> The result does not imply
+          <strong>One number can’t equal both residuals.</strong> The result doesn’t imply
           that all high income is rent, that risk-bearing is fictitious, or that an optimal
           tax rate follows from the theorem.
         </div>
@@ -1644,7 +1644,7 @@ export function ClosingBranches() {
     >
       <title>Realized history and shadow futures</title>
       <desc>
-        A bright realized branch is surrounded by muted possible branches that were not
+        A bright realized branch is surrounded by muted possible branches that weren’t
         observed but would have provided comparison.
       </desc>
       {Array.from({ length: 13 }, (_, index) => {

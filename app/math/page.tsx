@@ -107,10 +107,10 @@ export default function MathPage() {
           <li>
             <span>04</span>
             <div>
-              <h3>See what one history cannot tell us</h3>
+              <h3>See what one history can’t tell us</h3>
               <p>
                 If those remaining chances add up to only a finite amount, watching forever
-                does not create endless new comparisons. Under the theorem’s other conditions,
+                doesn’t create endless new comparisons. Under the theorem’s other conditions,
                 no method can consistently recover every nonconstant contribution measure from
                 that one history.
               </p>
@@ -138,11 +138,11 @@ export default function MathPage() {
 
       <aside className="math-boundary">
         <span className="panel__meta">The economic meaning</span>
-        <h2>The winner’s contribution does not make the market score a proof.</h2>
+        <h2>The winner’s contribution doesn’t make the market score a proof.</h2>
         <p>
           The score records contribution together with accumulated advantage. When the
-          theorem’s formal conditions hold, the one history cannot recover the exact split, so
-          the ranking cannot serve as a neutral certificate of desert.
+          theorem’s formal conditions hold, the one history can’t recover the exact split, so
+          the ranking can’t serve as a neutral certificate of desert.
         </p>
       </aside>
 
