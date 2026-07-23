@@ -18,6 +18,7 @@ function StorySection({
   eyebrow,
   title,
   intro,
+  illustration,
   children,
   dark = false,
 }: {
@@ -26,6 +27,10 @@ function StorySection({
   eyebrow: string;
   title: React.ReactNode;
   intro: string;
+  illustration?: {
+    src: string;
+    alt: string;
+  };
   children: React.ReactNode;
   dark?: boolean;
 }) {
@@ -35,12 +40,22 @@ function StorySection({
       id={id}
       aria-labelledby={`${id}-title`}
     >
-      <div className="chapter__intro">
+      <div className={`chapter__intro${illustration ? " chapter__intro--illustrated" : ""}`}>
         <span className="chapter__number">
           {String(number).padStart(2, "0")} / {eyebrow}
         </span>
         <h2 id={`${id}-title`}>{title}</h2>
-        <p>{intro}</p>
+        <p className="chapter__intro-copy">{intro}</p>
+        {illustration ? (
+          <figure className="chapter__illustration">
+            <Image
+              src={illustration.src}
+              fill
+              sizes="(max-width: 900px) 68vw, 26vw"
+              alt={illustration.alt}
+            />
+          </figure>
+        ) : null}
       </div>
       {children}
     </section>
@@ -218,6 +233,10 @@ export function CreatorStoryPage() {
           eyebrow="How a platform manufactures the chart"
           title="A platform can bury talent before it has a chance to become visible"
           intro="Imagine 24 creators with a realistic spread of promise: some work will connect more strongly than others. But promise only becomes visible when people get to encounter the work. An early entrant who receives the first audience also gains followers, feedback, income and time to improve—advantages the platform then reads as reasons to keep promoting them."
+          illustration={{
+            src: "/illustrations/chapters/platform-visibility.png",
+            alt: "Creator cards remain screened at the bottom while one card rides a feedback staircase upward.",
+          }}
         >
           <aside className="skill-objection">
             <div>
@@ -326,6 +345,10 @@ export function CreatorStoryPage() {
             </>
           }
           intro="Increasing returns and preferential attachment explain why an early lead can grow. Shadow Futures asks what happens to the evidence: once that lead has shaped thousands of later decisions, can the one history we observe still tell us how much the winner contributed?"
+          illustration={{
+            src: "/illustrations/chapters/erased-comparisons.png",
+            alt: "Alternative branches are cut off as feedback loops feed one recorded path.",
+          }}
           dark
         >
           <div className="platform-families">
@@ -419,6 +442,10 @@ export function CreatorStoryPage() {
           eyebrow="From scale to evidence"
           title="A growing firm can improve while making its own contribution harder to measure"
           intro="An early customer brings revenue, data, credibility and scale. Those can produce real gains. But as one firm comes to dominate customers, standards and distribution, the market can run out of independent paths that would reveal how much success came from the firm’s inputs and how much from the position created by earlier wins."
+          illustration={{
+            src: "/illustrations/chapters/firm-flywheel.png",
+            alt: "A contract, performance data, a factory and the next customer form a reinforcing loop.",
+          }}
         >
           <div
             className="firm-flywheel"
@@ -539,6 +566,10 @@ export function CreatorStoryPage() {
           eyebrow="What inequality can’t answer"
           title="The Lorenz curve is the symptom. Shadow futures are the missing evidence."
           intro="Debates about extreme inequality often split between two stories. One says the reward broadly reflects talent, work or risk. The other says a small early accident was amplified by cumulative advantage. Shadow Futures reframes the argument: the same visible curve can reflect many different mixes of contribution and reinforced position, and a single market history may not contain the comparisons needed to tell them apart."
+          illustration={{
+            src: "/illustrations/chapters/lorenz-causes.png",
+            alt: "Contribution and reinforced position intertwine beneath the same visible Lorenz curve while other mixtures remain unobserved.",
+          }}
         >
           <div
             className="inequality-frames"
@@ -652,6 +683,10 @@ export function CreatorStoryPage() {
           eyebrow="Tax, UBI and social insurance"
           title="The income record can’t isolate contribution from position"
           intro="Existing tax systems use observable measures such as income, profits and wealth; they don’t try to calculate how much of each dollar came from the recipient’s contribution. The paper asks whether one market history could ever isolate the share created by position. Under the theorem’s conditions, it can’t. That means extreme rewards shouldn’t be treated as proof that recipients deserve every dollar. Progressive taxation, antitrust, UBI and social dividends each address a different part of the problem."
+          illustration={{
+            src: "/illustrations/chapters/social-floor.png",
+            alt: "A narrow tower of rewards is partly distributed through channels into a broad floor supporting many people.",
+          }}
         >
           <div className="tax-policy-split">
             <article>
@@ -707,6 +742,10 @@ export function CreatorStoryPage() {
           eyebrow="The distinct contribution"
           title="The market doesn’t just choose a winner. It chooses what can still be known."
           intro="Increasing returns explain compounding. Scaling laws relate size to performance. Preferential attachment explains why success attracts more success. Lorenz curves describe inequality. Shadow Futures identifies the missing step: self-reinforcing markets can destroy the comparison paths needed to measure contribution from the one history we observe."
+          illustration={{
+            src: "/illustrations/chapters/recorded-path.png",
+            alt: "Several possible paths approach a selector, but only one continues into the market record.",
+          }}
         >
           <div className="creator-closing">
             <p className="hero__line">

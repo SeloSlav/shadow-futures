@@ -315,6 +315,40 @@ a {
   margin-bottom: clamp(3rem, 7vw, 6rem);
 }
 
+.chapter__intro--illustrated {
+  display: grid;
+  min-width: 0;
+  max-width: 86rem;
+  grid-template-columns: minmax(0, 1.4fr) minmax(15rem, 0.6fr);
+  column-gap: clamp(2rem, 7vw, 7rem);
+  align-items: center;
+}
+
+.chapter__intro--illustrated > .chapter__number,
+.chapter__intro--illustrated > h2,
+.chapter__intro--illustrated > .chapter__intro-copy {
+  grid-column: 1;
+}
+
+.chapter__illustration {
+  position: relative;
+  z-index: 0;
+  display: grid;
+  min-height: 0;
+  grid-row: 1 / span 3;
+  grid-column: 2;
+  width: min(100%, 25rem);
+  height: min(42vw, 38rem);
+  margin: 0;
+  justify-self: center;
+  place-items: center;
+}
+
+.chapter__illustration img {
+  display: block;
+  object-fit: contain;
+}
+
 .chapter__number {
   display: inline-block;
   margin-bottom: 1.5rem;
@@ -358,14 +392,14 @@ a {
   line-height: 1.03;
 }
 
-.chapter__intro > p:last-child {
+.chapter__intro > .chapter__intro-copy {
   max-width: 44rem;
   margin: 1.5rem 0 0;
   color: var(--muted);
   font-size: clamp(1.05rem, 1.6vw, 1.28rem);
 }
 
-.chapter--dark .chapter__intro > p:last-child {
+.chapter--dark .chapter__intro > .chapter__intro-copy {
   color: color-mix(in srgb, var(--paper) 72%, transparent);
 }
 
@@ -2687,6 +2721,24 @@ input[type="range"] {
 }
 
 @media (max-width: 900px) {
+  .chapter__intro--illustrated {
+    grid-template-columns: 1fr;
+  }
+
+  .chapter__intro--illustrated > .chapter__number,
+  .chapter__intro--illustrated > h2,
+  .chapter__intro--illustrated > .chapter__intro-copy,
+  .chapter__illustration {
+    grid-column: 1;
+  }
+
+  .chapter__illustration {
+    grid-row: auto;
+    width: min(68vw, 18rem);
+    height: min(88vw, 24rem);
+    margin-top: 1.75rem;
+  }
+
   .novelty-bridge__intro,
   .novelty-bridge__body,
   .novelty-boundary {
