@@ -1399,15 +1399,28 @@ input[type="range"] {
 
 .novelty-boundary {
   display: grid;
-  grid-template-columns: minmax(12rem, 0.35fr) minmax(0, 1fr);
-  gap: clamp(1.5rem, 5vw, 5rem);
-  margin-top: clamp(2rem, 5vw, 4rem);
-  border-top: 1px solid color-mix(in srgb, var(--paper) 22%, transparent);
-  padding-top: clamp(1.5rem, 3vw, 2.5rem);
+  grid-template-columns: minmax(0, 1fr);
+  gap: clamp(1.25rem, 3vw, 1.75rem);
+  max-width: 72rem;
+  margin-top: clamp(2.5rem, 6vw, 5rem);
+  border: 1px solid color-mix(in srgb, var(--paper) 22%, transparent);
+  border-radius: 1.25rem;
+  background: color-mix(in srgb, var(--ink) 18%, transparent);
+  padding: clamp(1.5rem, 4vw, 3rem);
+}
+
+.novelty-boundary > .panel__meta {
+  width: fit-content;
+  border: 1px solid color-mix(in srgb, var(--rust-soft) 60%, transparent);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--rust) 72%, var(--ink));
+  color: var(--paper);
+  padding: 0.5rem 0.8rem;
+  line-height: 1.2;
 }
 
 .novelty-boundary p {
-  max-width: 65rem;
+  max-width: 64rem;
   color: color-mix(in srgb, var(--paper) 82%, transparent);
   font-size: clamp(1rem, 1.45vw, 1.15rem);
 }
