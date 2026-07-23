@@ -1236,7 +1236,7 @@ input[type="range"] {
 .novelty-bridge {
   max-width: none;
   scroll-margin-top: 4rem;
-  background: var(--ink);
+  background: #4c595f;
   color: var(--paper);
   padding: clamp(5rem, 9vw, 9rem) clamp(1rem, 5vw, 5rem);
 }
@@ -1258,6 +1258,7 @@ input[type="range"] {
 .novelty-bridge__intro .eyebrow {
   grid-column: 1 / -1;
   margin-bottom: -0.5rem;
+  color: color-mix(in srgb, var(--rust-soft) 72%, var(--paper));
 }
 
 .novelty-bridge__intro h2 {
