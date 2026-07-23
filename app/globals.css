@@ -2234,7 +2234,6 @@ input[type="range"] {
 }
 
 .creator-closing__brand {
-  margin-bottom: clamp(4rem, 8vw, 7rem);
   border-bottom: 1px solid color-mix(in srgb, var(--paper) 18%, transparent);
   padding-bottom: clamp(3.5rem, 7vw, 6rem);
 }
@@ -2276,15 +2275,6 @@ input[type="range"] {
   color: color-mix(in srgb, var(--paper) 68%, transparent);
   font-family: var(--font-serif);
   font-size: clamp(1.05rem, 2vw, 1.45rem);
-}
-
-.creator-closing .hero__line {
-  max-width: 21ch;
-  margin-top: 0;
-}
-
-.chapter--dark .creator-closing .hero__dek {
-  color: color-mix(in srgb, var(--paper) 72%, transparent);
 }
 
 .chapter--dark .creator-closing .button {

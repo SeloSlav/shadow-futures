@@ -767,16 +767,6 @@ export function CreatorStoryPage() {
                 Contribution Uncertainty and the Self-Reinforcing Market
               </p>
             </div>
-            <p className="hero__line">
-              A market can keep paying the winner long after it’s stopped producing evidence
-              about why they won.
-            </p>
-            <p className="hero__dek">
-              Shadow futures aren’t simply stories in which someone else got lucky. They’re
-              the missing experimental reruns in which the same inputs meet different early
-              audiences, customers, rankings or shocks. Those reruns would’ve let us estimate
-              contribution.
-            </p>
             <div className="button-row">
               <a className="button button--primary" href={PAPER.url} target="_blank" rel="noreferrer">
                 Read the paper
