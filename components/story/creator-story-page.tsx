@@ -80,8 +80,8 @@ function CreatorHero() {
         <p className="hero__dek">
           A creator’s early audience or a firm’s first customer can make the next win easier.
           As that advantage compounds, the market records one path in extraordinary detail but
-          doesn’t produce the alternatives that could explain it. Those missing experiments are
-          shadow futures.
+          doesn’t produce the comparison paths needed to separate contribution from accumulated
+          advantage in the winner’s reward. Those missing experiments are shadow futures.
         </p>
         <div className="button-row">
           <a className="button button--primary" href="#breakout">
