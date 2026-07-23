@@ -35,7 +35,10 @@ test.describe("interactive essay", () => {
       "href",
       "https://doi.org/10.1126/science.1121066",
     );
-    await page.getByRole("button", { name: "Run ten worlds" }).click();
+    await expect(
+      replayGraph.getByText("Platform Top 10", { exact: true }).first(),
+    ).toBeVisible();
+    await page.getByRole("button", { name: "Replay ten launches" }).click();
     await expect(replayGraph).toHaveAttribute(
       "data-animation-state",
       "complete",
@@ -44,7 +47,7 @@ test.describe("interactive essay", () => {
     await expect(replayGraph.locator(".shadow-replay__won-world")).toHaveCount(10);
     const firstReplayWinners = await replayWinners.allTextContents();
 
-    await page.getByRole("button", { name: "Run ten new worlds" }).click();
+    await page.getByRole("button", { name: "Replay ten new launches" }).click();
     await expect(replayGraph).toHaveAttribute("data-animation-state", "running");
     await expect(replayGraph).toHaveAttribute("data-animation-state", "complete");
     const secondReplayWinners = await replayWinners.allTextContents();

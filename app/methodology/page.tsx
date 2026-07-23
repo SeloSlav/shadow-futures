@@ -75,8 +75,9 @@ export default function MethodologyPage() {
             <div>
               <strong>The story example</strong>
               <p>
-                Twenty-four equally good creators compete for 1,600 recommendations. The
-                feedback strength is fixed at 1.55.
+                Twenty-four creators with modeled audience-response multipliers from 0.84 to
+                1.18 compete for 1,600 recommendations. The feedback strength is fixed at 1.55,
+                so both creator differences and accumulated exposure affect the next ranking.
               </p>
             </div>
             <div>

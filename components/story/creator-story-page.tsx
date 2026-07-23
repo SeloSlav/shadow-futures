@@ -202,36 +202,33 @@ export function CreatorStoryPage() {
         <StorySection
           id="breakout"
           number={1}
-          eyebrow="The familiar feedback loop"
-          title="Your social media feed can turn one early break into a lasting lead"
-          intro="Imagine 24 creators whose skill and work are similar enough that any of them could plausibly break through. One creator gets a little more attention in the first few minutes. Social media’s recommendation systems treat those early views as a reason to show that creator to even more people."
+          eyebrow="How a platform manufactures the chart"
+          title="A platform can bury talent before it has a chance to become visible"
+          intro="Imagine 24 creators with a realistic spread of promise: some work will connect more strongly than others. But promise only becomes visible when people get to encounter the work. An early entrant who receives the first audience also gains followers, feedback, income and time to improve—advantages the platform then reads as reasons to keep promoting them."
         >
           <aside className="skill-objection">
             <div>
-              <span className="panel__meta">But people aren’t equally talented</span>
+              <span className="panel__meta">Talent matters—so why model the platform?</span>
               <h3>
-                The model keeps skill differences small on purpose. It doesn’t pretend everyone
-                is identical.
+                Because talent cannot be discovered, rewarded or developed without opportunities
+                to be seen.
               </h3>
             </div>
             <div className="skill-objection__answer">
               <p>
-                Real differences in talent, effort and judgment matter. But a large field can
-                contain thousands of people close enough in ability to be credible winners.
-                Those modest differences don’t automatically explain a winner-take-most
-                outcome where one person remains obscure while another gains millions of
-                followers and captures most of the income.
+                The simulation gives creators different modeled audience appeal. Better work
+                improves the odds of connecting with each person who sees it. It does not
+                guarantee that the ranking system will keep supplying those chances.
               </p>
               <p>
-                Global platforms bring more qualified people into the same contest without
-                creating proportionally more room for sustained attention. That can make the
-                outcome curve steeper, sending more attention and income to fewer winners even
-                when the differences in skill are much smaller.
+                Earlier entrants can build followers, reviews, data, capital and production
+                capacity before a promising newcomer arrives. When platforms rank using those
+                accumulated signals, past exposure buys future exposure. A creator can be
+                talented and still be drowned out before enough people encounter the work.
               </p>
               <p>
-                The question isn’t whether the winner is talented. It’s whether the system found
-                the very best or screened out other qualified creators before they had a chance
-                to realize their potential.
+                The question is not “Did the winner have talent?” It is “Did the platform keep
+                testing enough alternatives to know how much unrealized talent it buried?”
               </p>
             </div>
           </aside>
@@ -250,18 +247,17 @@ export function CreatorStoryPage() {
           </div>
           <div className="scope-grid">
             <article className="scope-card">
-              <h3>Skill matters, but the ranking still overclaims</h3>
+              <h3>The ranking measures a shaped history</h3>
               <p>
-                Better work can improve someone’s chances. But when many creators are already
-                good enough to succeed, the final follower count still can’t tell us exactly
-                how much came from better work and how much came from being shown more often.
+                Better work can improve someone’s chances. But the final follower count combines
+                audience response with every extra opportunity created by earlier visibility.
               </p>
             </article>
             <article className="scope-card">
-              <h3>Follower count isn’t a merit score</h3>
+              <h3>Unseen talent leaves almost no evidence</h3>
               <p>
-                A million followers can reflect both the creator’s work and all the extra
-                chances that came from already having followers.
+                If the feed stops testing a creator, the absence of followers may tell us more
+                about missing exposure than about the quality of what they could have built.
               </p>
             </article>
           </div>
@@ -271,10 +267,36 @@ export function CreatorStoryPage() {
           id="shadow-futures"
           number={2}
           eyebrow="The missing histories"
-          title="Press replay. A different creator wins."
-          intro="The 24 portraits are visual stand-ins in a hypothetical contest; they aren’t comparisons of the real people. Keep the contestants, posts and recommendation rules fixed. Change only which posts receive the first few random views and the eventual winner can change."
+          title="Press replay. A different creator tops the chart."
+          intro="This is not a contest of identical talent. The synthetic releases have different modeled audience appeal, and those differences stay fixed in every launch. Change only who receives the first random recommendations and the final Top 10 can still be transformed."
         >
           <ShadowFuturesGraph />
+          <div className="scope-grid platform-translation">
+            <article className="scope-card">
+              <span className="panel__meta">Feeds and streaming</span>
+              <h3>Views buy the next recommendation</h3>
+              <p>
+                Work that is not shown cannot collect the engagement signals a feed demands
+                before showing it again.
+              </p>
+            </article>
+            <article className="scope-card">
+              <span className="panel__meta">Marketplaces and app stores</span>
+              <h3>Sales and reviews buy the next ranking</h3>
+              <p>
+                Earlier products accumulate proof and placement while promising new work begins
+                below the fold.
+              </p>
+            </article>
+            <article className="scope-card">
+              <span className="panel__meta">Funding, clients and creator tools</span>
+              <h3>Past wins buy the capacity to build again</h3>
+              <p>
+                Attention brings money, data and collaborators, so the platform amplifies both
+                the creator’s work and the advantages created by its own earlier choices.
+              </p>
+            </article>
+          </div>
           <aside className="musiclab-evidence" aria-label="Experimental evidence">
             <span className="panel__meta">Shown experimentally</span>
             <p>
@@ -300,18 +322,17 @@ export function CreatorStoryPage() {
           </aside>
           <div className="shadow-definition">
             <p>
-              <strong>The history we saw:</strong> one creator’s rise, recorded in followers,
-              views, sponsorships, and income.
+              <strong>The chart we saw:</strong> one ranking after earlier rankings had already
+              decided who received the chances to grow.
             </p>
             <p>
-              <strong>The shadow futures:</strong> the other possible histories in which another
-              creator received the first few views and the recommendation system kept showing
-              them to more people.
+              <strong>The shadow charts:</strong> the other plausible rankings hidden by the one
+              launch that actually happened.
             </p>
           </div>
           <p className="hero__line creator-story-line">
-            Social media doesn’t just help us discover winners. Recommendation systems also shape
-            the histories that later seem to prove those winners deserved to win.
+            Platform economies do not merely discover talent. They decide whose talent receives
+            the audience, evidence and resources required to become visible at all.
           </p>
         </StorySection>
 

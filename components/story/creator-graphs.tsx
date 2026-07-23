@@ -39,6 +39,13 @@ const SAMPLE_EVERY = 40;
 const FEEDBACK_STRENGTH = 1.55;
 const WORLD_SEEDS = [31, 17, 42, 91, 2_026];
 const WORLD_LABELS = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"] as const;
+const MODELED_AUDIENCE_FIT: readonly number[] = [
+  0.92, 1.08, 0.98, 1.15, 0.88, 1.04, 0.95, 1.12, 0.86, 1.01, 1.18, 0.9,
+  1.06, 0.96, 1.1, 0.84, 1.03, 0.94, 1.14, 0.89, 1.07, 0.97, 1.16, 1,
+];
+const STRONGEST_MODELED_RELEASE = MODELED_AUDIENCE_FIT.indexOf(
+  Math.max(...MODELED_AUDIENCE_FIT),
+);
 
 type CreatorWorld = {
   comparison: number[];
@@ -67,7 +74,10 @@ function simulateCreatorWorld(seed: number, clearScoresEvery = 0): CreatorWorld 
       counts.fill(0);
     }
 
-    const weights = counts.map((count) => (2 + count) ** FEEDBACK_STRENGTH);
+    const weights = counts.map(
+      (count, index) =>
+        MODELED_AUDIENCE_FIT[index] * (2 + count) ** FEEDBACK_STRENGTH,
+    );
     const weightTotal = weights.reduce((sum, weight) => sum + weight, 0);
     const probabilities = weights.map((weight) => weight / weightTotal);
     comparisonTotal += 1 - Math.max(...probabilities);
@@ -215,8 +225,10 @@ export function BreakoutGraph() {
     >
       <div className="creator-graph__head">
         <div>
-          <div className="panel__meta">One recommendation system in action</div>
-          <strong>The model compares creators with deliberately similar skill.</strong>
+          <div className="panel__meta">One platform chart in motion</div>
+          <strong>
+            Creators differ. The feed decides whose promise gets enough chances to grow.
+          </strong>
         </div>
         <button className="button button--small" type="button" onClick={play}>
           {animation.running
@@ -232,13 +244,13 @@ export function BreakoutGraph() {
           className="creator-line-chart"
           viewBox={`0 0 ${chartWidth} ${chartHeight}`}
           role="img"
-          aria-label={`Twenty-four similarly skilled creators compete for 1,600 recommendations. The top three eventually receive ${topThree.map((entry) => Math.round(entry.share * 100)).join(", ")} percent of them.`}
+          aria-label={`Twenty-four creators with different modeled audience response compete for 1,600 recommendations. The top three eventually receive ${topThree.map((entry) => Math.round(entry.share * 100)).join(", ")} percent of them.`}
         >
-          <title>One similarly skilled creator breaks away</title>
+          <title>One creator’s early exposure becomes a runaway platform lead</title>
           <desc>
-            Twenty-four creators with similar skill start with equal visibility. Small early
-            differences are amplified by recommendation systems until one creator receives much
-            more exposure.
+            Twenty-four creators have different levels of modeled audience response. Small early
+            differences in exposure are amplified until one creator receives much more of the
+            platform’s attention.
           </desc>
           {[0, 0.25, 0.5, 0.75, 1].map((tick) => {
             const tickY = 24 + (1 - tick) * 344;
@@ -343,11 +355,15 @@ export function BreakoutGraph() {
             Creator {world.winner + 1} received{" "}
             <strong>{Math.round(world.finalShare * 100)}% of all recommendations</strong>.
             The runners-up received {Math.round(topThree[1].share * 100)}% and{" "}
-            {Math.round(topThree[2].share * 100)}%, even though all 24 began with comparable
-            skill and equal visibility.
+            {Math.round(topThree[2].share * 100)}%. The model gives the 24 releases different
+            audience appeal, but most never receive enough exposure for that difference to be
+            tested.
           </>
         ) : (
-          <>A tiny early lead changes which creator the recommendation system promotes next.</>
+          <>
+            Talent can improve the odds. It cannot be amplified if the platform stops showing the
+            work.
+          </>
         )}
       </p>
     </div>
@@ -366,22 +382,22 @@ export function ShadowFuturesGraph() {
     [replayBatch],
   );
   const uniqueWinners = new Set(worlds.map((world) => world.winner)).size;
-  const winnerGroups = useMemo(() => {
-    const groups = new Map<number, number[]>();
-    worlds.forEach((world, worldIndex) => {
-      groups.set(world.winner, [...(groups.get(world.winner) ?? []), worldIndex]);
-    });
-    return Array.from(groups, ([winner, worldIndexes]) => ({ winner, worldIndexes }));
-  }, [worlds]);
+  const strongestModeledWins = worlds.filter(
+    (world) => world.winner === STRONGEST_MODELED_RELEASE,
+  ).length;
   const worldReveals = worlds.map((_, index) =>
     Math.max(0, Math.min(1, animation.progress * worlds.length - index)),
   );
-  const visibleWinnerGroups = winnerGroups
-    .map((group) => ({
-      ...group,
-      visibleWorldIndexes: group.worldIndexes.filter((index) => worldReveals[index] > 0.08),
+  const revealedWorldCount = worldReveals.filter((reveal) => reveal > 0.08).length;
+  const activeWorldIndex = Math.max(0, revealedWorldCount - 1);
+  const activeWorld = worlds[activeWorldIndex];
+  const activeTopTen = activeWorld.series
+    .map((values, creator) => ({
+      creator,
+      share: values.at(-1) ?? 0,
     }))
-    .filter((group) => group.visibleWorldIndexes.length > 0);
+    .sort((left, right) => right.share - left.share)
+    .slice(0, 10);
 
   const playReplays = () => {
     if (hasReplayed) {
@@ -400,8 +416,8 @@ export function ShadowFuturesGraph() {
     >
       <div className="creator-graph__head">
         <div>
-          <div className="panel__meta">Same artists · same posts · same recommendation system</div>
-          <strong>Only the opening views change from one world to the next.</strong>
+          <div className="panel__meta">Shadow Charts · Platform Top 10</div>
+          <strong>The chart ranks amplified exposure—not talent.</strong>
         </div>
         <button
           className="button button--small"
@@ -410,19 +426,22 @@ export function ShadowFuturesGraph() {
           disabled={animation.running}
         >
           {animation.running
-            ? "Running ten worlds…"
+            ? "Replaying ten launches…"
             : hasReplayed
-              ? "Run ten new worlds"
-              : "Run ten worlds"}
+              ? "Replay ten new launches"
+              : "Replay ten launches"}
         </button>
       </div>
 
-      <div className="shadow-replay">
-        <div className="shadow-replay__start">
-          <span className="shadow-replay__label">24 music artists as visual stand-ins</span>
+      <div className="shadow-chart">
+        <div className="shadow-chart__catalog">
+          <div className="shadow-chart__catalog-copy">
+            <span className="shadow-replay__label">The catalog stays locked</span>
+            <strong>24 creators · different modeled appeal · one ranking system</strong>
+          </div>
           <div
             className="shadow-replay__cast"
-            aria-label="Twenty-four music-artist portraits act only as visual stand-ins for the possible winners in this hypothetical simulation."
+            aria-label="Twenty-four music-artist portraits act only as visual stand-ins for creators in the hypothetical platform chart."
           >
             {CREATOR_CAST.map((creator) => (
               <span
@@ -442,97 +461,168 @@ export function ShadowFuturesGraph() {
             ))}
           </div>
           <p className="shadow-replay__cast-note">
-            These portraits are only visual stand-ins. The simulation doesn’t make any claim
-            about these artists’ real talent, work or merit.{" "}
+            The portraits are visual stand-ins. The synthetic audience-response scores do not
+            describe these artists’ real talent, work, popularity or merit.{" "}
             <a href="/creator-portraits/credits.json" target="_blank" rel="noreferrer">
               Portrait credits
             </a>
           </p>
         </div>
 
-        <div className="shadow-replay__turn" aria-hidden="true">
-          <span>↻</span>
-        </div>
+        <div className="shadow-chart__board">
+          <div className="shadow-chart__ranking">
+            <div className="shadow-chart__masthead">
+              <div>
+                <span>Platform Top 10</span>
+                <strong>
+                  {revealedWorldCount > 0
+                    ? `Launch ${WORLD_LABELS[activeWorldIndex]}`
+                    : "Ready to replay"}
+                </strong>
+              </div>
+              <span>1,600 recommendations</span>
+            </div>
 
-        <div className="shadow-replay__world-map">
-          <span className="shadow-replay__map-label">Ten separate starts</span>
-          <div className="shadow-replay__seeds" aria-hidden="true">
-            {worlds.map((_, index) => {
-              const assigned = worldReveals[index] > 0.08;
+            <div
+              className={`shadow-chart__rows${
+                revealedWorldCount === 0 ? " is-waiting" : ""
+              }`}
+              role="list"
+              aria-label={
+                revealedWorldCount > 0
+                  ? `Top ten most-recommended creators in launch ${WORLD_LABELS[activeWorldIndex]}.`
+                  : "The platform chart is waiting to run."
+              }
+              aria-live="polite"
+            >
+              {revealedWorldCount === 0 ? (
+                <div className="shadow-chart__waiting">
+                  <span aria-hidden="true">01</span>
+                  <strong>Press replay to publish the chart</strong>
+                  <p>
+                    Every launch keeps the catalog and modeled audience appeal fixed. Only the
+                    first random recommendations change.
+                  </p>
+                </div>
+              ) : (
+                activeTopTen.map((entry, index) => {
+                  const creator = CREATOR_CAST[entry.creator];
+                  return (
+                    <motion.div
+                      className="shadow-chart__row"
+                      key={`${WORLD_LABELS[activeWorldIndex]}-${creator.name}`}
+                      role="listitem"
+                      initial={{ opacity: 0, x: -8 }}
+                      animate={{ opacity: 1, x: 0 }}
+                      transition={{ duration: 0.16, delay: index * 0.015 }}
+                    >
+                      <span className="shadow-chart__rank">{index + 1}</span>
+                      <span className="shadow-chart__portrait" aria-hidden="true">
+                        <Image
+                          src={creator.image}
+                          alt=""
+                          width={480}
+                          height={480}
+                          sizes="48px"
+                        />
+                      </span>
+                      <span className="shadow-chart__artist">
+                        <strong>{creator.name}</strong>
+                        <small>
+                          modeled response {MODELED_AUDIENCE_FIT[entry.creator].toFixed(2)}×
+                        </small>
+                      </span>
+                      <span className="shadow-chart__bar" aria-hidden="true">
+                        <motion.span
+                          initial={{ width: 0 }}
+                          animate={{ width: `${Math.max(3, entry.share * 100)}%` }}
+                          transition={{ duration: 0.35 }}
+                        />
+                      </span>
+                      <strong className="shadow-chart__share">
+                        {Math.round(entry.share * 100)}%
+                      </strong>
+                    </motion.div>
+                  );
+                })
+              )}
+            </div>
+          </div>
+
+          <div
+            className="shadow-chart__number-ones"
+            role="list"
+            aria-label={`Number one creator in each of ten independent platform launches. The launches produced ${uniqueWinners} different winners.`}
+            aria-live="polite"
+          >
+            <div className="shadow-chart__number-ones-head">
+              <span>Number ones</span>
+              <strong>Same catalog. Ten launches.</strong>
+            </div>
+            {worlds.map((world, index) => {
+              const winner = CREATOR_CAST[world.winner];
+              const revealed = worldReveals[index] > 0.08;
               return (
-                <motion.span
-                  className={`shadow-replay__seed${assigned ? " is-assigned" : ""}`}
+                <div
+                  className={`shadow-replay__winner${
+                    revealed ? " is-revealed" : ""
+                  }`}
                   key={WORLD_LABELS[index]}
-                  initial={false}
-                  animate={{ opacity: assigned ? 0.22 : 1, scale: assigned ? 0.82 : 1 }}
+                  role="listitem"
+                  aria-label={
+                    revealed
+                      ? `${winner.name} reached number one in launch ${WORLD_LABELS[index]}.`
+                      : `Launch ${WORLD_LABELS[index]} has not run yet.`
+                  }
                 >
-                  {WORLD_LABELS[index]}
-                </motion.span>
+                  <span className="shadow-replay__won-world" aria-hidden="true">
+                    {WORLD_LABELS[index]}
+                  </span>
+                  {revealed ? (
+                    <>
+                      <motion.span
+                        className="shadow-replay__winner-portrait"
+                        aria-hidden="true"
+                        initial={{ opacity: 0, scale: 0.7 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                      >
+                        <Image
+                          src={winner.image}
+                          alt=""
+                          width={480}
+                          height={480}
+                          sizes="36px"
+                        />
+                      </motion.span>
+                      <motion.strong
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                      >
+                        {winner.name}
+                      </motion.strong>
+                    </>
+                  ) : (
+                    <span className="shadow-chart__pending">—</span>
+                  )}
+                  <span className="shadow-chart__number-one">#1</span>
+                </div>
               );
             })}
           </div>
+        </div>
 
-          <div className="shadow-replay__branch" aria-hidden="true" />
-          <span className="shadow-replay__map-label">Where each world lands</span>
-
-          <div
-            className={`shadow-replay__outcomes${
-              visibleWinnerGroups.length === 0 ? " is-empty" : ""
-            }`}
-            role="list"
-            aria-label={`Ten independent worlds produced ${uniqueWinners} different winners.`}
-            aria-live="polite"
-          >
-            {visibleWinnerGroups.length === 0 ? (
-              <span className="shadow-replay__pending" aria-hidden="true">
-                ?
-              </span>
-            ) : (
-              visibleWinnerGroups.map((group) => {
-                const winner = CREATOR_CAST[group.winner];
-                const worldNames = group.visibleWorldIndexes.map(
-                  (index) => WORLD_LABELS[index],
-                );
-                return (
-                  <motion.div
-                    className="shadow-replay__winner"
-                    key={winner.name}
-                    role="listitem"
-                    aria-label={`${winner.name} won ${
-                      worldNames.length === 1
-                        ? `world ${worldNames[0]}`
-                        : `worlds ${worldNames.join(", ")}`
-                    }.`}
-                    initial={{ opacity: 0, y: 10 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.18 }}
-                  >
-                    <span className="shadow-replay__winner-portrait" aria-hidden="true">
-                      <Image
-                        src={winner.image}
-                        alt=""
-                        width={480}
-                        height={480}
-                        sizes="84px"
-                      />
-                    </span>
-                    <strong>{winner.name}</strong>
-                    <span className="shadow-replay__won-worlds" aria-hidden="true">
-                      {group.visibleWorldIndexes.map((index) => (
-                        <motion.span
-                          className="shadow-replay__won-world"
-                          key={WORLD_LABELS[index]}
-                          initial={{ opacity: 0, scale: 0.6 }}
-                          animate={{ opacity: 1, scale: 1 }}
-                        >
-                          {WORLD_LABELS[index]}
-                        </motion.span>
-                      ))}
-                    </span>
-                  </motion.div>
-                );
-              })
-            )}
+        <div className="shadow-chart__key">
+          <div>
+            <span>Kept fixed</span>
+            <strong>Creators, modeled appeal and platform rules</strong>
+          </div>
+          <div>
+            <span>Changed</span>
+            <strong>Who receives the first random recommendations</strong>
+          </div>
+          <div>
+            <span>What the chart records</span>
+            <strong>Exposure after exposure has already shaped the race</strong>
           </div>
         </div>
       </div>
@@ -540,10 +630,16 @@ export function ShadowFuturesGraph() {
       <p className="creator-graph__result" aria-live="polite">
         {animation.state === "complete" ? (
           <>
-            <strong>{uniqueWinners} different musicians</strong> won across the ten worlds.
+            <strong>{uniqueWinners} different creators reached #1</strong> across ten launches.
+            The release with the strongest modeled audience response reached #1 in only{" "}
+            {strongestModeledWins} of them. Promise matters, but it cannot compound when the
+            platform stops supplying chances to be seen.
           </>
         ) : (
-          <>The same 24 artists begin every world.</>
+          <>
+            Same catalog. Same differences in audience response. Different first listeners can
+            still produce a different chart.
+          </>
         )}
       </p>
     </div>

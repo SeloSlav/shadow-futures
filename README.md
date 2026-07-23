@@ -10,12 +10,13 @@ independent comparison paths needed to measure what those inputs contributed.
 The unrealized repetitions that could have separated contribution from
 accumulated position are the shadow futures.
 
-The main experience begins with equally talented creators competing inside a
-self-reinforcing recommendation feed, then extends the same information problem
-to firms. Four animated graphs show:
+The main experience begins with creators whose work has different modeled
+audience appeal competing inside a self-reinforcing recommendation feed, then
+extends the same information problem to firms. Four animated graphs show:
 
 1. How a small early burst of attention can become a lasting lead.
-2. How identical replays can produce completely different viral winners.
+2. How the same catalog can produce different platform charts when only the
+   opening recommendations change.
 3. Why repeatedly boosting an early leader teaches us less than regularly
    giving everyone another equal start.
 4. Why a Lorenz curve is a final scoreboard rather than evidence of what caused
