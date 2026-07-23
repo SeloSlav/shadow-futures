@@ -52,17 +52,18 @@ test.describe("interactive essay", () => {
     await page.getByTestId("lorenz-history-graph").scrollIntoViewIfNeeded();
     await expect(
       page.getByRole("heading", {
-        name: "The curve cannot tell us how much of either story is true",
+        name: "The curve can’t tell us how much of either story is true",
       }),
     ).toBeVisible();
-    await page.getByRole("button", { name: "Draw the income curve" }).click();
+    await page.getByRole("button", { name: "Protect the comparison budget" }).click();
     await expect(page.getByTestId("lorenz-history-graph")).toHaveAttribute(
       "data-animation-state",
       "complete",
     );
     await expect(
-      page.getByText("Same curve. Different causes.", { exact: true }),
+      page.getByRole("heading", { name: "Reserve discovery for alternatives" }),
     ).toBeVisible();
+    await expect(page.getByText(/3\.0 times as much comparison/)).toBeVisible();
 
     const chapterIds = [
       "novelty",

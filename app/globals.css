@@ -2557,145 +2557,144 @@ input[type="range"] {
   line-height: 1.12;
 }
 
-.lorenz-histories {
+.lorenz-comparison {
   display: grid;
-  margin-top: 0.5rem;
+  border-top: 1px solid var(--line);
+  background: color-mix(in srgb, var(--blue) 4%, var(--surface-solid));
 }
 
-.lorenz-histories__shared {
-  display: grid;
-  width: min(100%, 28rem);
-  justify-self: center;
-  gap: 0.25rem;
-  border: 1px solid var(--rust);
-  border-radius: 1rem;
-  background: color-mix(in srgb, var(--rust) 7%, var(--surface-solid));
-  padding: 1rem 1.25rem;
-  text-align: center;
-}
-
-.lorenz-histories__shared strong {
-  font-family: var(--font-serif);
-  font-size: clamp(1.4rem, 2.4vw, 2rem);
-  font-weight: 560;
-  letter-spacing: -0.03em;
-  line-height: 1.05;
-}
-
-.lorenz-histories__fork {
-  position: relative;
-  width: 50%;
-  height: 2.75rem;
-  justify-self: center;
-}
-
-.lorenz-histories__fork::before {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  height: 50%;
-  border-left: 1px solid var(--line-strong);
-  content: "";
-}
-
-.lorenz-histories__fork::after {
-  position: absolute;
-  inset: 50% 0 0;
-  border-top: 1px solid var(--line-strong);
-  border-right: 1px solid var(--line-strong);
-  border-left: 1px solid var(--line-strong);
-  content: "";
-}
-
-.lorenz-histories__cards {
+.lorenz-comparison__legend {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem;
+  gap: 1px;
+  background: var(--line);
 }
 
-.lorenz-histories__cards article {
+.lorenz-comparison__legend > div {
+  display: grid;
+  grid-template-columns: 1rem minmax(0, 1fr);
+  gap: 0.75rem;
+  background: var(--surface-solid);
+  padding: 1rem clamp(1rem, 3vw, 1.75rem);
+}
+
+.lorenz-comparison__legend span:last-child {
+  display: grid;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.lorenz-comparison__legend strong {
+  color: var(--ink);
+  font-size: 0.9rem;
+}
+
+.lorenz-comparison__swatch {
+  width: 1rem;
+  height: 0.35rem;
+  margin-top: 0.42rem;
+  border-radius: 999px;
+}
+
+.lorenz-comparison__swatch--rust {
+  background: var(--rust);
+}
+
+.lorenz-comparison__swatch--blue {
+  background: var(--blue);
+}
+
+.lorenz-comparison__metrics {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  background: var(--line);
+}
+
+.lorenz-comparison__metrics article {
   display: grid;
   align-content: start;
-  border: 1px solid var(--line);
-  border-top: 1px solid var(--line);
+  gap: 0.35rem;
   background: var(--surface-solid);
-  padding: clamp(1.25rem, 3vw, 2rem);
+  padding: clamp(1rem, 3vw, 1.6rem);
 }
 
-.lorenz-histories__cards article:first-child {
-  border-top: 3px solid var(--blue);
+.lorenz-comparison__metrics article > span {
+  color: var(--muted);
+  font-size: 0.7rem;
+  font-weight: 760;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
-.lorenz-histories__cards article:last-child {
-  border-top: 3px solid var(--rust);
-}
-
-.lorenz-histories__cards h3 {
-  max-width: 22ch;
-  margin: 0.45rem 0 1.1rem;
+.lorenz-comparison__metrics strong {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  align-items: baseline;
+  color: var(--blue);
   font-family: var(--font-serif);
-  font-size: clamp(1.4rem, 2.4vw, 2.15rem);
+  font-size: clamp(1.65rem, 3.5vw, 2.8rem);
+  font-weight: 560;
+  letter-spacing: -0.04em;
+  line-height: 1;
+}
+
+.lorenz-comparison__metrics strong > span {
+  color: var(--muted);
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.lorenz-comparison__metrics small {
+  max-width: 34ch;
+  color: var(--muted);
+  font-size: 0.74rem;
+  line-height: 1.4;
+}
+
+.lorenz-interventions {
+  display: grid;
+  grid-template-columns: minmax(16rem, 0.7fr) minmax(0, 1.3fr);
+  gap: clamp(1.5rem, 4vw, 3rem);
+  border-top: 1px solid var(--line);
+  padding: clamp(1.25rem, 4vw, 2.5rem);
+}
+
+.lorenz-interventions__intro h3 {
+  max-width: 24ch;
+  margin: 0.45rem 0 0;
+  font-family: var(--font-serif);
+  font-size: clamp(1.45rem, 2.5vw, 2.15rem);
   font-weight: 540;
   letter-spacing: -0.035em;
   line-height: 1.05;
 }
 
-.lorenz-cause-mix {
+.lorenz-interventions__grid {
   display: grid;
-  min-height: 4.5rem;
-  overflow: hidden;
-  border: 1px solid var(--line);
-  border-radius: 0.75rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
 }
 
-.lorenz-cause-mix--work {
-  grid-template-columns: 3fr 1.25fr;
+.lorenz-interventions__grid article {
+  border-top: 2px solid var(--blue);
+  background: color-mix(in srgb, var(--paper) 54%, transparent);
+  padding: 1rem;
 }
 
-.lorenz-cause-mix--visibility {
-  grid-template-columns: 1.25fr 3fr;
+.lorenz-interventions__grid h4 {
+  margin: 0.45rem 0 0;
+  font-size: 0.92rem;
+  line-height: 1.2;
 }
 
-.lorenz-cause-mix span {
-  display: flex;
-  align-items: flex-end;
-  padding: 0.65rem;
-  font-size: clamp(0.66rem, 1vw, 0.78rem);
-  font-weight: 760;
-  line-height: 1.15;
-}
-
-.lorenz-cause-mix span:first-child {
-  background: var(--blue);
-  color: var(--paper);
-}
-
-.lorenz-cause-mix span:last-child {
-  background: var(--rust);
-  color: var(--paper);
-}
-
-.lorenz-histories__cards p {
-  margin: 0.9rem 0 0;
+.lorenz-interventions__grid p {
+  margin: 0.55rem 0 0;
   color: var(--muted);
-}
-
-.lorenz-histories__conclusion {
-  display: flex;
-  align-items: baseline;
-  justify-content: center;
-  gap: 0.55rem;
-  border-bottom: 1px solid var(--line);
-  padding: 1.2rem;
-  text-align: center;
-}
-
-.lorenz-histories__conclusion strong {
-  color: var(--rust);
-}
-
-.lorenz-histories__conclusion span {
-  color: var(--muted);
+  font-size: 0.78rem;
+  line-height: 1.45;
 }
 
 .platform-lorenz-copy {
@@ -2863,6 +2862,7 @@ input[type="range"] {
   .inequality-frames,
   .inequality-frames .inequality-frames__shadow,
   .idea-distinction,
+  .lorenz-interventions,
   .lorenz-takeaway {
     grid-template-columns: 1fr;
   }
@@ -3128,24 +3128,10 @@ input[type="range"] {
     border-bottom: 0;
   }
 
-  .lorenz-histories__fork {
-    width: 1px;
-    height: 2rem;
-    background: var(--line-strong);
-  }
-
-  .lorenz-histories__fork::before,
-  .lorenz-histories__fork::after {
-    display: none;
-  }
-
-  .lorenz-histories__cards {
+  .lorenz-comparison__legend,
+  .lorenz-comparison__metrics,
+  .lorenz-interventions__grid {
     grid-template-columns: 1fr;
-  }
-
-  .lorenz-histories__conclusion {
-    align-items: center;
-    flex-direction: column;
   }
 
   .shadow-definition,

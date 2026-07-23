@@ -615,15 +615,16 @@ export function CreatorStoryPage() {
             </article>
           </div>
           <p className="inequality-question">
-            The question isn’t whether talent and luck matter. It’s whether the market kept
-            enough independent comparison paths to measure how much each one mattered.
+            Once comparison becomes a design target, the question becomes practical: can a
+            platform keep more alternatives testable while reducing the concentration created
+            by an inherited lead?
           </p>
           <LorenzHistoryGraph />
           <div className="lorenz-takeaway">
-            <strong>The Lorenz curve is the final scoreboard.</strong>
+            <strong>The comparison budget is also a design target.</strong>
             <span>
-              Shadow Futures asks whether the market kept enough alternative paths alive to
-              explain that score.
+              Platforms and policymakers can preserve independent chances to learn, compete and
+              grow before one path becomes the only path the market records.
             </span>
           </div>
           <div className="platform-lorenz-copy">
@@ -654,9 +655,12 @@ export function CreatorStoryPage() {
             </article>
           </div>
           <p className="data-note">
-            The curve above is illustrative; it doesn’t use OnlyFans or Fanvue payout data.
-            Drawing a real one would require individual creator earnings. Company totals aren’t
-            enough.
+            Both curves are model illustrations, not forecasts or OnlyFans or Fanvue payout data.
+            The blue curve models one narrow rule: once alternatives’ combined chance would fall
+            below 50%, the ranking reserves enough discovery to preserve that comparison floor.
+            Portability and independent trials are related institutional examples, not additional
+            inputs to the plotted simulation. A real Lorenz curve would require individual creator
+            earnings; company totals aren’t enough.
           </p>
           <div className="source-links" aria-label="Creator-platform sources">
             <a

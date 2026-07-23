@@ -35,7 +35,11 @@ type CreatorWorld = {
   winner: number;
 };
 
-function simulateCreatorWorld(seed: number, clearScoresEvery = 0): CreatorWorld {
+function simulateCreatorWorld(
+  seed: number,
+  clearScoresEvery = 0,
+  comparisonFloor = 0,
+): CreatorWorld {
   const random = mulberry32(seed);
   const scoreCounts = Array.from({ length: CREATOR_COUNT }, () => 0);
   const exposureCounts = Array.from({ length: CREATOR_COUNT }, () => 0);
@@ -61,12 +65,28 @@ function simulateCreatorWorld(seed: number, clearScoresEvery = 0): CreatorWorld 
         MODELED_AUDIENCE_FIT[index] * (2 + count) ** FEEDBACK_STRENGTH,
     );
     const weightTotal = weights.reduce((sum, weight) => sum + weight, 0);
-    const probabilities = weights.map((weight) => weight / weightTotal);
+    let probabilities = weights.map((weight) => weight / weightTotal);
+    const residualContestability = 1 - Math.max(...probabilities);
+    if (comparisonFloor > residualContestability) {
+      const uniformResidualContestability = 1 - 1 / CREATOR_COUNT;
+      const uniformMix = Math.min(
+        1,
+        (comparisonFloor - residualContestability) /
+          (uniformResidualContestability - residualContestability),
+      );
+      probabilities = probabilities.map(
+        (probability) =>
+          (1 - uniformMix) * probability + uniformMix / CREATOR_COUNT,
+      );
+    }
     comparisonTotal += 1 - Math.max(...probabilities);
 
-    let draw = random() * weightTotal;
+    let draw = random();
     let recipient = 0;
-    while (recipient < CREATOR_COUNT - 1 && (draw -= weights[recipient]) > 0) {
+    while (
+      recipient < CREATOR_COUNT - 1 &&
+      (draw -= probabilities[recipient]) > 0
+    ) {
       recipient += 1;
     }
     scoreCounts[recipient] += 1;
@@ -652,36 +672,82 @@ export function ExperimentMonopolyGraph() {
 
 export function LorenzHistoryGraph() {
   const animation = useGraphAnimation(2_600);
-  const world = useMemo(() => simulateCreatorWorld(31), []);
-  const sortedShares = useMemo(
+  const baselineWorld = useMemo(() => simulateCreatorWorld(31), []);
+  const interventionWorld = useMemo(
+    () => simulateCreatorWorld(31, 0, 0.5),
+    [],
+  );
+  const baselineShares = useMemo(
     () =>
-      world.series
+      baselineWorld.series
         .map((values) => values.at(-1) ?? 0)
         .sort((left, right) => left - right),
-    [world],
+    [baselineWorld],
   );
-  const cumulativeShares = useMemo(
+  const interventionShares = useMemo(
+    () =>
+      interventionWorld.series
+        .map((values) => values.at(-1) ?? 0)
+        .sort((left, right) => left - right),
+    [interventionWorld],
+  );
+  const baselineCumulativeShares = useMemo(
     () => [
       0,
-      ...sortedShares.map((_, index) =>
-        sortedShares
+      ...baselineShares.map((_, index) =>
+        baselineShares
           .slice(0, index + 1)
           .reduce((sum, share) => sum + share, 0),
       ),
     ],
-    [sortedShares],
+    [baselineShares],
+  );
+  const interventionCumulativeShares = useMemo(
+    () => [
+      0,
+      ...interventionShares.map((_, index) =>
+        interventionShares
+          .slice(0, index + 1)
+          .reduce((sum, share) => sum + share, 0),
+      ),
+    ],
+    [interventionShares],
   );
   const bottomThreeQuartersIndex = Math.floor(CREATOR_COUNT * 0.75);
-  const bottomThreeQuartersShare =
-    cumulativeShares[bottomThreeQuartersIndex] ?? 0;
-  const topThreeShare = sortedShares
+  const baselineBottomShare =
+    baselineCumulativeShares[bottomThreeQuartersIndex] ?? 0;
+  const interventionBottomShare =
+    interventionCumulativeShares[bottomThreeQuartersIndex] ?? 0;
+  const baselineTopThreeShare = baselineShares
     .slice(-3)
     .reduce((sum, share) => sum + share, 0);
+  const interventionTopThreeShare = interventionShares
+    .slice(-3)
+    .reduce((sum, share) => sum + share, 0);
+  const baselineBudget = baselineWorld.comparison.at(-1) ?? 0;
+  const interventionBudget = interventionWorld.comparison.at(-1) ?? 0;
+  const baselineActiveCreators = baselineShares.filter(
+    (share) => share >= 0.02,
+  ).length;
+  const interventionActiveCreators = interventionShares.filter(
+    (share) => share >= 0.02,
+  ).length;
+  const displayedBudget =
+    baselineBudget +
+    (interventionBudget - baselineBudget) * animation.progress;
+  const displayedTopThreeShare =
+    baselineTopThreeShare +
+    (interventionTopThreeShare - baselineTopThreeShare) * animation.progress;
+  const displayedActiveCreators = Math.round(
+    baselineActiveCreators +
+      (interventionActiveCreators - baselineActiveCreators) * animation.progress,
+  );
   const chartWidth = 860;
   const chartHeight = 420;
   const annotationX = 54 + 0.75 * 778;
-  const annotationY =
-    24 + (1 - bottomThreeQuartersShare) * 344;
+  const baselineAnnotationY = 24 + (1 - baselineBottomShare) * 344;
+  const interventionAnnotationY =
+    24 + (1 - interventionBottomShare) * 344;
 
   return (
     <div
@@ -691,11 +757,15 @@ export function LorenzHistoryGraph() {
     >
       <div className="creator-graph__head">
         <div>
-          <div className="panel__meta">The visible income distribution</div>
-          <strong>The bend shows inequality. It doesn’t show what caused it.</strong>
+          <div className="panel__meta">A comparison-preserving intervention</div>
+          <strong>Keep alternatives testable, then watch concentration fall.</strong>
         </div>
         <button className="button button--small" type="button" onClick={animation.play}>
-          {animation.running ? "Income is concentrating…" : "Draw the income curve"}
+          {animation.running
+            ? "Protecting the comparison budget…"
+            : animation.state === "complete"
+              ? "Replay the intervention"
+              : "Protect the comparison budget"}
         </button>
       </div>
 
@@ -704,12 +774,13 @@ export function LorenzHistoryGraph() {
           className="creator-line-chart"
           viewBox={`0 0 ${chartWidth} ${chartHeight}`}
           role="img"
-          aria-label={`A stylized Lorenz curve. The bottom 75 percent of creators receive ${Math.round(bottomThreeQuartersShare * 100)} percent of income, while the top three creators receive ${Math.round(topThreeShare * 100)} percent.`}
+          aria-label={`Two stylized Lorenz curves. Under the reinforcing rule, the top three creators receive ${Math.round(baselineTopThreeShare * 100)} percent of income. With a comparison-preserving rule, they receive ${Math.round(interventionTopThreeShare * 100)} percent.`}
         >
-          <title>A bowed creator-income Lorenz curve</title>
+          <title>Income concentration before and after preserving comparison</title>
           <desc>
-            The curve reveals a highly unequal distribution. The same curve can be
-            consistent with different mixtures of contribution and inherited position.
+            A rust curve shows the reinforcing baseline. A blue curve appears when a rule
+            preserves at least half of each next-recommendation chance for creators other
+            than the current favorite.
           </desc>
           {[0, 0.25, 0.5, 0.75, 1].map((tick) => {
             const tickX = 54 + tick * 778;
@@ -752,33 +823,55 @@ export function LorenzHistoryGraph() {
             strokeDasharray="7 8"
           />
           <text x="610" y="112" className="creator-chart-label">
-            equal income
+            equal distribution
           </text>
-          <motion.path
-            d={linePath(cumulativeShares, chartWidth, chartHeight, 1)}
+          <path
+            d={linePath(baselineCumulativeShares, chartWidth, chartHeight, 1)}
             fill="none"
             stroke="var(--rust)"
+            strokeWidth="6"
+            strokeLinecap="round"
+          />
+          <motion.path
+            d={linePath(interventionCumulativeShares, chartWidth, chartHeight, 1)}
+            fill="none"
+            stroke="var(--blue)"
             strokeWidth="6"
             strokeLinecap="round"
             initial={false}
             animate={{ pathLength: animation.progress }}
             transition={{ duration: 0.08, ease: "linear" }}
           />
+          <circle
+            cx={annotationX}
+            cy={baselineAnnotationY}
+            r="6"
+            fill="var(--rust)"
+          />
+          <text
+            x={annotationX - 12}
+            y={Math.max(338, baselineAnnotationY - 18)}
+            textAnchor="end"
+            className="creator-chart-label"
+          >
+            baseline: bottom 75% receive {Math.round(baselineBottomShare * 100)}%
+          </text>
           {animation.progress > 0.92 ? (
             <>
               <circle
                 cx={annotationX}
-                cy={annotationY}
+                cy={interventionAnnotationY}
                 r="6"
-                fill="var(--rust)"
+                fill="var(--blue)"
               />
               <text
                 x={annotationX - 12}
-                y={Math.max(292, annotationY - 18)}
+                y={interventionAnnotationY - 18}
                 textAnchor="end"
                 className="creator-chart-label"
               >
-                bottom 75% receive {Math.round(bottomThreeQuartersShare * 100)}%
+                comparison rule: bottom 75% receive{" "}
+                {Math.round(interventionBottomShare * 100)}%
               </text>
             </>
           ) : null}
@@ -803,57 +896,123 @@ export function LorenzHistoryGraph() {
       </div>
 
       <div
-        className="lorenz-histories"
-        aria-label="Two possible causal histories behind the same Lorenz curve"
+        className="lorenz-comparison"
+        aria-label="Comparison budget and income concentration before and after intervention"
       >
-        <div className="lorenz-histories__shared">
-          <span className="panel__meta">The same Lorenz curve above</span>
-          <strong>One visible income gap</strong>
+        <div className="lorenz-comparison__legend" aria-label="Chart key">
+          <div>
+            <span
+              className="lorenz-comparison__swatch lorenz-comparison__swatch--rust"
+              aria-hidden="true"
+            />
+            <span>
+              <strong>Reinforcing baseline</strong>
+              The ranking can keep spending attention on its current favorite.
+            </span>
+          </div>
+          <div>
+            <span
+              className="lorenz-comparison__swatch lorenz-comparison__swatch--blue"
+              aria-hidden="true"
+            />
+            <span>
+              <strong>Comparison-preserving rule</strong>
+              At least half of the next-recommendation chance stays outside the favorite.
+            </span>
+          </div>
         </div>
-        <div className="lorenz-histories__fork" aria-hidden="true" />
-        <div className="lorenz-histories__cards">
+
+        <div className="lorenz-comparison__metrics" aria-live="polite">
           <article>
-            <span className="panel__meta">Possible history A</span>
-            <h3>Creators’ work explains more of the gap</h3>
-            <div
-              className="lorenz-cause-mix lorenz-cause-mix--work"
-              role="img"
-              aria-label="An illustrative mix in which work and contribution matter more than compounding visibility"
-            >
-              <span>Work and contribution</span>
-              <span>Compounding visibility</span>
-            </div>
-            <p>Early visibility still amplifies the result, but it plays the smaller role.</p>
+            <span>Comparison budget</span>
+            <strong>
+              {Math.round(baselineBudget)}
+              <span aria-hidden="true">→</span>
+              {animation.state === "idle" ? "?" : Math.round(displayedBudget)}
+            </strong>
+            <small>Cumulative chance for someone else to receive the next recommendation</small>
           </article>
           <article>
-            <span className="panel__meta">Possible history B</span>
-            <h3>Compounding visibility explains more of the gap</h3>
-            <div
-              className="lorenz-cause-mix lorenz-cause-mix--visibility"
-              role="img"
-              aria-label="An illustrative mix in which compounding visibility matters more than work and contribution"
-            >
-              <span>Work and contribution</span>
-              <span>Compounding visibility</span>
-            </div>
-            <p>Differences in creators’ work still matter, but they play the smaller role.</p>
+            <span>Top three income share</span>
+            <strong>
+              {Math.round(baselineTopThreeShare * 100)}%
+              <span aria-hidden="true">→</span>
+              {animation.state === "idle"
+                ? "?"
+                : `${Math.round(displayedTopThreeShare * 100)}%`}
+            </strong>
+            <small>Lower means income is less concentrated at the top</small>
+          </article>
+          <article>
+            <span>Creators with meaningful reach</span>
+            <strong>
+              {baselineActiveCreators}
+              <span aria-hidden="true">→</span>
+              {animation.state === "idle" ? "?" : displayedActiveCreators}
+            </strong>
+            <small>Creators receiving at least 2% of modeled exposure</small>
           </article>
         </div>
-        <div className="lorenz-histories__conclusion">
-          <strong>Same curve. Different causes.</strong>
-          <span>The curve shows the income gap, not which causal mix produced it.</span>
-        </div>
+
+        <section className="lorenz-interventions" aria-labelledby="lorenz-interventions-title">
+          <div className="lorenz-interventions__intro">
+            <span className="panel__meta">How shadow futures guide policy</span>
+            <h3 id="lorenz-interventions-title">
+              Treat the comparison budget as something institutions should protect.
+            </h3>
+          </div>
+          <div className="lorenz-interventions__grid">
+            <article>
+              <span className="panel__meta">Modeled in the blue curve</span>
+              <h4>Reserve discovery for alternatives</h4>
+              <p>
+                When the favorite’s lead starts closing the contest, redirect enough exposure
+                to keep challengers genuinely testable.
+              </p>
+            </article>
+            <article>
+              <span className="panel__meta">Real-market counterpart</span>
+              <h4>Make audiences and data portable</h4>
+              <p>
+                Interoperability and portability stop one platform from owning every route to
+                reputation, customers and distribution.
+              </p>
+            </article>
+            <article>
+              <span className="panel__meta">Real-market counterpart</span>
+              <h4>Keep trials independent</h4>
+              <p>
+                Separate rankings, procurement trials and public options create new paths
+                instead of extending the winner’s inherited history.
+              </p>
+            </article>
+          </div>
+        </section>
       </div>
 
       <p className="creator-graph__result" aria-live="polite">
         {animation.state === "complete" ? (
           <>
-            The top three receive <strong>{Math.round(topThreeShare * 100)}% of income</strong>.
-            The curve measures that gap, but not how much came from creators’ work versus
-            compounding visibility.
+            In this stylized run, the intervention preserved{" "}
+            <strong>
+              {(interventionBudget / baselineBudget).toFixed(1)} times as much comparison
+            </strong>
+            , expanded the number of creators with meaningful reach from{" "}
+            <strong>
+              {baselineActiveCreators} to {interventionActiveCreators}
+            </strong>
+            , and reduced the top three’s income share from{" "}
+            <strong>
+              {Math.round(baselineTopThreeShare * 100)}% to{" "}
+              {Math.round(interventionTopThreeShare * 100)}%
+            </strong>
+            .
           </>
         ) : (
-          <>Draw the income curve, then compare two different histories that could produce it.</>
+          <>
+            The rust curve is the reinforcing baseline. Apply the blue rule to keep alternatives
+            in the experiment and compare the resulting competition and concentration.
+          </>
         )}
       </p>
     </div>
