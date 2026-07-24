@@ -17,6 +17,9 @@ export const metadata: Metadata = {
   authors: [{ name: PAPER.author }],
   creator: PAPER.author,
   alternates: { canonical: "/" },
+  verification: {
+    google: "mDWlpJpnFhzdXa9kacEFsEEvw52h2BBhZud3XVHo24g",
+  },
   openGraph: {
     type: "article",
     title: PAPER.title,
