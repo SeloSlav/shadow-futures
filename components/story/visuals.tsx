@@ -1645,7 +1645,7 @@ export function ClosingBranches() {
       <title>Realized history and shadow futures</title>
       <desc>
         A bright realized branch is surrounded by muted possible branches that weren’t
-        observed but would have provided comparison.
+        observed but would’ve provided comparison.
       </desc>
       {Array.from({ length: 13 }, (_, index) => {
         const offset = (index - 6) * 26;

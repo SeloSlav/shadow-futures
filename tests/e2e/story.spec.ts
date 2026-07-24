@@ -100,7 +100,7 @@ test.describe("interactive essay", () => {
       page.getByRole("heading", { name: "One equation carries the whole argument." }),
     ).toBeVisible();
     await expect(page.getByText("Choose who receives the next opportunity")).toBeVisible();
-    await expect(page.getByText("What one history cannot tell us")).toBeVisible();
+    await expect(page.getByText("What one history can’t tell us")).toBeVisible();
   });
 
   test("runs the central equation in the comparison playground", async ({ page, isMobile }) => {
@@ -201,7 +201,7 @@ test.describe("interactive essay", () => {
     ).toBeVisible();
     await expect(
       page.getByRole("heading", {
-        name: "How is Shadow Futures different from preferential attachment, increasing returns, or network effects?",
+        name: "How’s Shadow Futures different from preferential attachment, increasing returns, or network effects?",
       }),
     ).toBeVisible();
     await expect(

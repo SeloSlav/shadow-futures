@@ -25,6 +25,9 @@ const COMPETITORS = [
 const INPUTS = [[0.78], [0.7], [0.62], [0.56], [0.5]];
 const PERIODS = 360;
 const MAX_RESIDUAL = 1 - 1 / COMPETITORS.length;
+const TERRAIN_HALF_WIDTH = 2.7;
+const TERRAIN_HALF_DEPTH = 3.25;
+const PAN_SCREEN_RATIO = 0.8;
 
 const PRESETS = [
   {
@@ -54,8 +57,8 @@ type ViewState = {
   yaw: number;
   tilt: number;
   zoom: number;
-  panX: number;
-  panY: number;
+  targetX: number;
+  targetZ: number;
 };
 
 type ProjectedPoint = {
@@ -118,8 +121,8 @@ function ShadowSurface({
     yaw: -0.08,
     tilt: 0.52,
     zoom: 1,
-    panX: 0,
-    panY: 0,
+    targetX: 0,
+    targetZ: 0,
   });
   const renderStateRef = useRef({ result, cursor, showShadows, view });
 
@@ -178,14 +181,16 @@ function ShadowSurface({
       }
 
       const baseScale = Math.min(width / 7.9, height / 6.7) * view.zoom;
-      const centerX = width * (width < 700 ? 0.5 : 0.54) + view.panX;
-      const centerY = height * 0.72 + view.panY;
+      const centerX = width * (width < 700 ? 0.5 : 0.54);
+      const centerY = height * 0.72;
       const cosine = Math.cos(view.yaw);
       const sine = Math.sin(view.yaw);
 
       const project = (worldX: number, worldY: number, worldZ: number): ProjectedPoint => {
-        const rotatedX = worldX * cosine - worldZ * sine;
-        const rotatedZ = worldX * sine + worldZ * cosine;
+        const relativeX = worldX - view.targetX;
+        const relativeZ = worldZ - view.targetZ;
+        const rotatedX = relativeX * cosine - relativeZ * sine;
+        const rotatedZ = relativeX * sine + relativeZ * cosine;
         const perspective = clamp(1 - rotatedZ * 0.055, 0.68, 1.34);
         return {
           x: centerX + rotatedX * baseScale * perspective,
@@ -441,11 +446,29 @@ function ShadowSurface({
     dragRef.current = { ...drag, x: event.clientX, y: event.clientY };
 
     if (drag.mode === "pan") {
-      setView((current) => ({
-        ...current,
-        panX: current.panX + deltaX,
-        panY: current.panY + deltaY,
-      }));
+      const bounds = event.currentTarget.getBoundingClientRect();
+      const viewportScale = Math.max(1, Math.min(bounds.width / 7.9, bounds.height / 6.7));
+      setView((current) => {
+        const panScale = PAN_SCREEN_RATIO / (viewportScale * current.zoom);
+        const panRight = deltaX * panScale;
+        const panForward = deltaY * panScale;
+        const cosine = Math.cos(current.yaw);
+        const sine = Math.sin(current.yaw);
+
+        return {
+          ...current,
+          targetX: clamp(
+            current.targetX + cosine * panRight + sine * panForward,
+            -TERRAIN_HALF_WIDTH,
+            TERRAIN_HALF_WIDTH,
+          ),
+          targetZ: clamp(
+            current.targetZ - sine * panRight + cosine * panForward,
+            -TERRAIN_HALF_DEPTH,
+            TERRAIN_HALF_DEPTH,
+          ),
+        };
+      });
       return;
     }
 
@@ -467,7 +490,7 @@ function ShadowSurface({
       ref={canvasRef}
       className="playground-surface"
       data-testid="playground-surface"
-      data-view={`${view.yaw.toFixed(2)}:${view.tilt.toFixed(2)}:${view.zoom.toFixed(2)}:${view.panX.toFixed(0)}:${view.panY.toFixed(0)}`}
+      data-view={`${view.yaw.toFixed(2)}:${view.tilt.toFixed(2)}:${view.zoom.toFixed(2)}:${view.targetX.toFixed(2)}:${view.targetZ.toFixed(2)}`}
       aria-label="Interactive three-dimensional probability terrain. Left-drag to orbit fully around it, right-drag to pan, and use the wheel to zoom. The bright line is the one realized allocation history. Purple branches are unrealized shadow futures and fade as nonleader probability disappears. The amber edge tracks the comparison budget."
       onPointerDown={handlePointerDown}
       onPointerMove={handlePointerMove}
@@ -581,7 +604,7 @@ export function ShadowPlayground() {
           <h1>The Comparison Playground</h1>
           <p className="playground-intro__dek">
             Watch one success path harden into the market’s only history—and the other
-            futures that could have taught us why disappear.
+            futures that could’ve taught us why disappear.
           </p>
         </div>
         <div className="playground-equation" aria-label="The equation driving the playground">
@@ -712,7 +735,7 @@ export function ShadowPlayground() {
               />
               <span>
                 Show shadow futures
-                <small>Unrealized paths that could have supplied comparison</small>
+                <small>Unrealized paths that could’ve supplied comparison</small>
               </span>
             </label>
           </div>

@@ -135,7 +135,7 @@ export const EQUATIONS: EquationDefinition[] = [
     derivationSteps: [
       "Compute the leader probability at each date.",
       "Subtract it from one to obtain εₜ.",
-      "Add εₜ over dates; transaction count and comparison budget need not grow together.",
+      "Add εₜ over dates; transaction count and comparison budget needn’t grow together.",
     ],
   }),
   eq({
@@ -146,7 +146,7 @@ export const EQUATIONS: EquationDefinition[] = [
     kind: "bound",
     latex: "\\operatorname{tr} I_t(\\beta)\\le D_X^2\\varepsilon_t(\\beta)",
     plainLanguage:
-      "One-period contribution information cannot exceed squared design diameter times probability mass outside the leader.",
+      "One-period contribution information can’t exceed squared design diameter times probability mass outside the leader.",
     variables: [
       v("I_t", "conditional Fisher information", "Covariance matrix of the chosen input profile."),
       v("D_X", "design diameter", "Uniform bound on distance between any two input profiles."),
@@ -214,7 +214,7 @@ export const EQUATIONS: EquationDefinition[] = [
     ],
     assumptions: [
       "The common predictable design, local equivalence, and comparison-dominated separation hold.",
-      "The condition is sufficient for the theorem; it is not asserted to be necessary for every identification failure.",
+      "The condition is sufficient for the theorem; it isn’t asserted to be necessary for every identification failure.",
     ],
     visualization: "A cumulative comparison line approaches a finite plateau in the sharp case.",
   }),
@@ -338,7 +338,7 @@ export const EQUATIONS: EquationDefinition[] = [
     ],
     assumptions: [
       "Two structural economies can generate the same observable law yet assign different contribution.",
-      "The result does not determine an optimal tax rate or imply that all high income is rent.",
+      "The result doesn’t determine an optimal tax rate or imply that all high income is rent.",
     ],
     visualization: "One observable tax marker is compared with two incompatible residuals.",
   }),
@@ -476,7 +476,7 @@ export const EQUATIONS: EquationDefinition[] = [
     latex:
       "\\frac{1-p_{w_t t}(\\beta+r\\delta)}{p_{w_t t}(\\beta+r\\delta)}\\le e^{D_X\\|\\delta\\|}\\frac{\\varepsilon_t(\\beta)}{1-\\varepsilon_t(\\beta)}",
     plainLanguage:
-      "Moving along the parameter segment cannot inflate the leader’s outside odds by more than a bounded exponential factor.",
+      "Moving along the parameter segment can’t inflate the leader’s outside odds by more than a bounded exponential factor.",
     variables: [
       v("r", "tilt amount", "Intermediate point in [0,1]."),
       v("D_X\\|\\delta\\|", "maximum log-odds shift", "Bound from profile diameter and parameter displacement."),
@@ -638,7 +638,7 @@ export const EQUATIONS: EquationDefinition[] = [
     kind: "theorem",
     latex: "P_\\beta\\sim P_{\\beta'}\\quad\\text{on }\\mathcal F_\\infty",
     plainLanguage:
-      "The complete single-history laws are mutually absolutely continuous; they are not claimed to be identical.",
+      "The complete single-history laws are mutually absolutely continuous; they aren’t claimed to be identical.",
     variables: [
       v("\\sim", "mutual absolute continuity", "Each complete-history law is absolutely continuous with respect to the other."),
       v("\\mathcal F_\\infty", "terminal sigma-field", "Events observable from the entire infinite history."),
@@ -692,7 +692,7 @@ export const EQUATIONS: EquationDefinition[] = [
       v("\\operatorname{diam}_d", "set diameter", "Largest distance between two members of Cₜ."),
       v("\\Delta/2", "shrinkage threshold", "Less than half the two-target separation."),
     ],
-    visualization: "A shrinking interval covers one separated target and cannot cover the other.",
+    visualization: "A shrinking interval covers one separated target and can’t cover the other.",
   }),
   eq({
     id: "kl-chain-rule",

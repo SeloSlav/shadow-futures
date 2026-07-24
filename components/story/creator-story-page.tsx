@@ -80,7 +80,7 @@ function CreatorHero() {
         <p className="hero__dek">
           In some markets, each win makes the next win easier. Success brings more attention,
           customers, capital, data or distribution to the leader, while others lose the chances
-          they need to show what they could have contributed. Over time, the market records the
+          they need to show what they could’ve contributed. Over time, the market records the
           winner’s path in extraordinary detail but stops producing the comparisons needed to tell
           how much success came from contribution and how much came from already being ahead.
           Those missing experiments are shadow futures.
@@ -302,7 +302,7 @@ export function CreatorStoryPage() {
               <h3>Unseen talent leaves almost no evidence</h3>
               <p>
                 If the feed stops testing a creator, the absence of followers may tell us more
-                about missing exposure than about the quality of what they could have built.
+                about missing exposure than about the quality of what they could’ve built.
               </p>
             </article>
           </div>

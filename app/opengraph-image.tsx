@@ -54,8 +54,9 @@ export default function OpenGraphImage() {
           <div style={{ display: "flex", marginTop: 26, fontSize: 104, letterSpacing: "-0.065em" }}>
             Shadow Futures
           </div>
-          <div style={{ display: "flex", maxWidth: 760, marginTop: 24, fontSize: 38, lineHeight: 1.08 }}>
-            A market can keep paying after it has stopped learning.
+          <div style={{ display: "flex", maxWidth: 840, marginTop: 24, fontSize: 36, lineHeight: 1.08 }}>
+            Compounding success can make a winner&apos;s contribution impossible to identify from
+            one market history.
           </div>
         </div>
       </div>

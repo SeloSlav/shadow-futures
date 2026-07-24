@@ -161,7 +161,7 @@ export function SimpleStoryPage() {
           number={4}
           eyebrow="Shadow futures"
           title="The races history didn’t record"
-          intro="Now replay the market hundreds of times. Every pale branch is a future that could have happened with the same people, technology, and rules."
+          intro="Now replay the market hundreds of times. Every pale branch is a future that could’ve happened with the same people, technology, and rules."
         >
           <ShadowMap />
           <div style={{ maxWidth: "34rem", marginTop: "1.25rem" }}>

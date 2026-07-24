@@ -31,22 +31,22 @@ export const FAQ_GROUPS: FaqGroup[] = [
         id: "what-are-shadow-futures",
         question: "What are shadow futures?",
         answer: [
-          "Shadow futures are the unrealized market histories that could have happened with the same people, firms, productive inputs, and rules, but different early customers, rankings, audiences, or random shocks.",
+          "Shadow futures are the unrealized market histories that could’ve happened with the same people, firms, productive inputs, and rules, but different early customers, rankings, audiences, or random shocks.",
           "They matter because those alternate histories are the missing experimental repetitions needed to estimate how much work, quality, effort, judgment, capital, or risk contributed to the reward we actually observed.",
         ],
       },
       {
         id: "what-is-contribution-uncertainty",
-        question: "What is contribution uncertainty?",
+        question: "What’s contribution uncertainty?",
         answer: [
           "Contribution uncertainty is uncertainty about how much an observed productive input caused the final reward inside a self-reinforcing market.",
-          "It is not uncertainty about whether the work happened. Hours, code, investment, quality, and risk can be perfectly verified while the market still lacks the comparison histories needed to measure their causal contribution.",
+          "It isn’t uncertainty about whether the work happened. Hours, code, investment, quality, and risk can be perfectly verified while the market still lacks the comparison histories needed to measure their causal contribution.",
         ],
       },
       {
         id: "different-from-preferential-attachment",
         question:
-          "How is Shadow Futures different from preferential attachment, increasing returns, or network effects?",
+          "How’s Shadow Futures different from preferential attachment, increasing returns, or network effects?",
         answer: [
           "Preferential attachment, increasing returns, network effects, and scaling laws explain why an early lead can grow. Shadow Futures asks a different question: what happens to our ability to measure contribution while that lead grows?",
           "The distinctive claim is that self-reinforcing allocation can destroy the independent comparisons needed to explain its own rewards. The familiar theories explain concentration; Shadow Futures identifies the resulting attribution limit.",
@@ -65,12 +65,12 @@ export const FAQ_GROUPS: FaqGroup[] = [
         question: "Why are more transactions not necessarily more evidence?",
         answer: [
           "A transaction adds useful attribution evidence only when the allocation still has a meaningful chance to go another way. If the leader has a 99.9 percent chance of receiving the next customer, another thousand sales mostly extend the inherited path.",
-          "The market can therefore be commercially busy while its experiment is nearly exhausted. Volume is not the same thing as independent comparison.",
+          "The market can therefore be commercially busy while its experiment is nearly exhausted. Volume isn’t the same thing as independent comparison.",
         ],
       },
       {
         id: "what-is-comparison-budget",
-        question: "What is the comparison budget?",
+        question: "What’s the comparison budget?",
         answer: [
           "The comparison budget is the total probability, accumulated over time, that the next reward could go to someone other than the current favorite.",
           "It measures how much real comparison the market still produces. When total comparison is finite under the paper’s assumptions, no method using that single history can consistently recover every meaningful measure of contribution.",
@@ -90,7 +90,7 @@ export const FAQ_GROUPS: FaqGroup[] = [
         question: "How does Shadow Futures apply to social media and creator platforms?",
         answer: [
           "On TikTok, YouTube, Instagram, Twitch, OnlyFans, Fanvue, Patreon, and similar platforms, an early audience can raise the chance of receiving the next recommendation, subscriber, sponsor, or sale.",
-          "The final follower or income ranking then records both the creator’s work and the extra opportunities created by earlier visibility. Without alternate exposure histories, the platform cannot recover the exact split from the winning path alone.",
+          "The final follower or income ranking then records both the creator’s work and the extra opportunities created by earlier visibility. Without alternate exposure histories, the platform can’t recover the exact split from the winning path alone.",
         ],
       },
       {
@@ -106,7 +106,7 @@ export const FAQ_GROUPS: FaqGroup[] = [
         question: "Why does Shadow Futures matter for AI, chips, cloud computing, and data centers?",
         answer: [
           "AI and cloud markets combine enormous fixed costs with feedback through customers, compute, data, engineering talent, financing, and ecosystem compatibility. An early lead can fund more capacity and better service, which attracts the next customer and finances the next expansion.",
-          "The concern is not merely that scale creates concentration. It is that a small number of reinforced development paths may become the only histories society gets to observe, making it harder to know which firms, models, or technical choices would have succeeded under different early allocations of compute, capital, and demand.",
+          "The concern isn’t merely that scale creates concentration. It’s that a small number of reinforced development paths may become the only histories society gets to observe, making it harder to know which firms, models, or technical choices would’ve succeeded under different early allocations of compute, capital, and demand.",
         ],
       },
       {
@@ -115,7 +115,7 @@ export const FAQ_GROUPS: FaqGroup[] = [
           "How do AI agents, x402, and the agentic economy relate to Shadow Futures and UBI?",
         answer: [
           "AI agents are software systems that can choose and act with less human input. x402 is an open internet payment standard built on HTTP 402 that lets software pay programmatically for APIs, data, compute, and other digital services. In an agentic economy, agents could buy inputs, hire services, sell outputs, and make payments around the clock.",
-          "x402 does not itself cause monopoly. The Shadow Futures problem appears if early agent purchases improve a seller’s ranking, reputation, data, revenue, or compatibility, which then makes later agents more likely to choose the same seller. Millions of machine payments may look like millions of tests while mostly extending one inherited path. Competing agents and firms may never receive enough business to show what they could have contributed.",
+          "x402 doesn’t itself cause monopoly. The Shadow Futures problem appears if early agent purchases improve a seller’s ranking, reputation, data, revenue, or compatibility, which then makes later agents more likely to choose the same seller. Millions of machine payments may look like millions of tests while mostly extending one inherited path. Competing agents and firms may never receive enough business to show what they could’ve contributed.",
           "That prospect strengthens the case for UBI or a social dividend. If automation shifts income toward the owners of models, compute, data, platforms, and agent networks, everyone should share in the productivity gains without having to prove an exact personal contribution to each machine transaction. Progressive taxes on the largest incomes, fortunes, profits, and economic rents can fund that floor; antitrust, interoperability, open standards, and public options are still needed to keep alternative economic paths open.",
         ],
         inlineLink: {
@@ -129,7 +129,7 @@ export const FAQ_GROUPS: FaqGroup[] = [
         question: "What can a Lorenz curve tell us, and what can it not tell us?",
         answer: [
           "A Lorenz curve shows how concentrated income or rewards are. It can accurately describe the final distribution.",
-          "It cannot reveal how much of that distribution came from contribution, early visibility, inherited position, or feedback. The Lorenz curve is the scoreboard; shadow futures are the missing repetitions needed to explain the score.",
+          "It can’t reveal how much of that distribution came from contribution, early visibility, inherited position, or feedback. The Lorenz curve is the scoreboard; shadow futures are the missing repetitions needed to explain the score.",
         ],
       },
     ],
@@ -143,10 +143,10 @@ export const FAQ_GROUPS: FaqGroup[] = [
     entries: [
       {
         id: "epistemic-monopoly",
-        question: "What is an epistemic monopoly?",
+        question: "What’s an epistemic monopoly?",
         answer: [
           "An epistemic monopoly exists when one market history controls the production of the comparisons needed to explain an outcome.",
-          "It does not require one legal seller. Thousands of creators or firms can remain active while one ranking system, technical standard, procurement channel, or distribution route determines which paths receive enough opportunities to generate evidence.",
+          "It doesn’t require one legal seller. Thousands of creators or firms can remain active while one ranking system, technical standard, procurement channel, or distribution route determines which paths receive enough opportunities to generate evidence.",
         ],
       },
       {
@@ -178,25 +178,25 @@ export const FAQ_GROUPS: FaqGroup[] = [
   {
     id: "tax-redistribution",
     label: "04 / Tax and redistribution",
-    title: "What market income cannot certify",
+    title: "What market income can’t certify",
     intro:
-      "The paper does not say success is fake. It shows why a self-reinforcing market may be unable to certify that an outsized reward was created by the winner alone.",
+      "The paper doesn’t say success is fake. It shows why a self-reinforcing market may be unable to certify that an outsized reward was created by the winner alone.",
     entries: [
       {
         id: "tax-policy",
         question: "What does Shadow Futures imply for tax policy?",
         answer: [
           "Shadow Futures strengthens the case for taxing extreme incomes, wealth, founder gains, creator fortunes, and monopoly profits at higher rates. A person or firm can do genuinely valuable work and still receive a reward far larger than the realized market history can attribute to that work.",
-          "Once an early win brings the next customer, recommendation, dataset, contract, investor, or technical advantage, the winning path grows while other people and firms lose chances to build a record, improve, attract capital, or even enter. Some excluded rivals may have been less capable and some may have been equally capable; the point is that the market closes the comparisons that could have told us. Under the paper’s conditions, the exact split between contribution and accumulated position cannot be recovered from the winner’s history.",
-          "Policy should not resolve that missing evidence by awarding the entire surplus to the winner and calling it merit. Progressive taxation can return part of outsized rewards through UBI, social dividends, public services, and shared investment. Antitrust, interoperability, open standards, and public options should lower barriers to entry and keep rival paths alive. The theorem does not select an exact tax rate, but it rejects the idea that the market payout itself proves exact personal desert.",
+          "Once an early win brings the next customer, recommendation, dataset, contract, investor, or technical advantage, the winning path grows while other people and firms lose chances to build a record, improve, attract capital, or even enter. Some excluded rivals may have been less capable and some may have been equally capable; the point is that the market closes the comparisons that could’ve told us. Under the paper’s conditions, the exact split between contribution and accumulated position can’t be recovered from the winner’s history.",
+          "Policy shouldn’t resolve that missing evidence by awarding the entire surplus to the winner and calling it merit. Progressive taxation can return part of outsized rewards through UBI, social dividends, public services, and shared investment. Antitrust, interoperability, open standards, and public options should lower barriers to entry and keep rival paths alive. The theorem doesn’t select an exact tax rate, but it rejects the idea that the market payout itself proves exact personal desert.",
         ],
       },
       {
         id: "progressive-taxation",
         question: "Does the argument support progressive taxation?",
         answer: [
-          "Yes. Shadow Futures strengthens the case for progressive taxation because very high market incomes are not clean measurements of individual contribution. At the top, real work can be combined with early visibility, inherited position, global scale, and feedback that turns one break into years of additional opportunity.",
-          "The case for taxing those rewards at higher rates rests on ability to pay, concentrated economic power, social insurance, and the shared institutions and infrastructure behind private success. The theorem does not choose an exact rate or prove that every dollar is unearned; it shows why pretax income should not be treated as a precise certificate of desert.",
+          "Yes. Shadow Futures strengthens the case for progressive taxation because very high market incomes aren’t clean measurements of individual contribution. At the top, real work can be combined with early visibility, inherited position, global scale, and feedback that turns one break into years of additional opportunity.",
+          "The case for taxing those rewards at higher rates rests on ability to pay, concentrated economic power, social insurance, and the shared institutions and infrastructure behind private success. The theorem doesn’t choose an exact rate or prove that every dollar is unearned; it shows why pretax income shouldn’t be treated as a precise certificate of desert.",
         ],
       },
       {
@@ -204,7 +204,7 @@ export const FAQ_GROUPS: FaqGroup[] = [
         question: "Should highly successful platform creators be taxed more?",
         answer: [
           "Yes, the project supports applying strongly progressive income and wealth taxation to the largest creator fortunes and platform windfalls. A top creator may be talented and hardworking, while the size of the final reward also reflects a global ranking system that repeatedly amplified an early lead.",
-          "That makes the outcome partly lottery-like without making the work fake: many similarly capable creators cannot rerun the same market with a different first audience. We cannot assign an exact luck percentage to one person, but that uncertainty is not a reason to treat an extreme payout as pure merit or exempt it from progressive taxation.",
+          "That makes the outcome partly lottery-like without making the work fake: many similarly capable creators can’t rerun the same market with a different first audience. We can’t assign an exact luck percentage to one person, but that uncertainty isn’t a reason to treat an extreme payout as pure merit or exempt it from progressive taxation.",
         ],
       },
       {
@@ -226,10 +226,10 @@ export const FAQ_GROUPS: FaqGroup[] = [
     entries: [
       {
         id: "does-work-matter",
-        question: "Does Shadow Futures claim that work, talent, quality, or risk do not matter?",
+        question: "Does Shadow Futures claim that work, talent, quality, or risk don’t matter?",
         answer: [
           "No. Productive inputs can be real, perfectly observed, and directly affect every reward probability. A better product or greater effort can genuinely improve the chance of winning.",
-          "The problem is that one winning history may not contain enough genuine comparison to tell us how much those strengths mattered. Policy does not have to choose between “all merit” and “all luck”: society can reward creation while taxing extreme incomes progressively and using antitrust to preserve rival paths.",
+          "The problem is that one winning history may not contain enough genuine comparison to tell us how much those strengths mattered. Policy doesn’t have to choose between “all merit” and “all luck”: society can reward creation while taxing extreme incomes progressively and using antitrust to preserve rival paths.",
         ],
       },
       {
@@ -237,7 +237,7 @@ export const FAQ_GROUPS: FaqGroup[] = [
         question: "What does the Shadow Futures theorem prove?",
         answer: [
           "Imagine two worlds. In one, better work has a very large effect on who wins. In the other, it has a smaller effect. If an early winner eventually receives almost every new customer, view, or contract, both worlds can leave behind records that look compatible with the same winning story.",
-          "The theorem proves that, under its conditions, no statistical method can always look at that one history and work out which world produced it, even if the market continues forever. Once genuine chances to compare different people or firms run out, more activity keeps extending the story but cannot recreate the missing experiment.",
+          "The theorem proves that, under its conditions, no statistical method can always look at that one history and work out which world produced it, even if the market continues forever. Once genuine chances to compare different people or firms run out, more activity keeps extending the story but can’t recreate the missing experiment.",
         ],
       },
       {
@@ -245,12 +245,12 @@ export const FAQ_GROUPS: FaqGroup[] = [
         question: "Does the result require superlinear preferential attachment?",
         answer: [
           "No. The general theorem is organized around finite comparison, not a particular urn model or power law. Strong or superlinear reinforcement is one sharp case because it can exhaust the comparison budget and produce eventual allocation monopoly.",
-          "Linear preferential attachment can generate heavy tails or power laws without satisfying the paper’s exact impossibility condition. Concentration alone is not the theorem.",
+          "Linear preferential attachment can generate heavy tails or power laws without satisfying the paper’s exact impossibility condition. Concentration alone isn’t the theorem.",
         ],
       },
       {
         id: "hidden-quality",
-        question: "How is this different from hidden quality or Akerlof’s market for lemons?",
+        question: "How’s this different from hidden quality or Akerlof’s market for lemons?",
         answer: [
           "A lemons problem begins with relevant quality hidden from one side of a trade. The Shadow Futures problem can remain even when productive inputs are public, measured without error, and explicitly used by the allocation rule.",
           "The missing information is historical rather than private: the market never generated the alternate allocation paths needed to estimate what those inputs caused.",
