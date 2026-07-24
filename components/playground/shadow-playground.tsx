@@ -41,7 +41,7 @@ const PRESETS = [
     name: "Big Tech",
     description: "Scale and an early lead compound into dominance.",
     beta: 1,
-    rho: 1.65,
+    rho: 1.25,
     exploration: 0,
   },
   {
@@ -518,7 +518,7 @@ function ShadowSurface({
 
 export function ShadowPlayground() {
   const [beta, setBeta] = useState(1);
-  const [rho, setRho] = useState(1.65);
+  const [rho, setRho] = useState(1.25);
   const [exploration, setExploration] = useState(0);
   const [seed, setSeed] = useState(42);
   const [speed, setSpeed] = useState(2);

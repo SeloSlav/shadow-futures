@@ -116,7 +116,7 @@ test.describe("interactive essay", () => {
       "href",
       "/playground",
     );
-    await expect(page.getByLabel("Feedback strength ρ")).toHaveValue("1.65");
+    await expect(page.getByLabel("Feedback strength ρ")).toHaveValue("1.25");
     await expect(page.getByRole("button", { name: /Competitive Market/ })).toBeVisible();
     await expect(
       page.getByRole("button", {
