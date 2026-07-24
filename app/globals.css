@@ -3334,6 +3334,10 @@ input[type="range"] {
 
 /* Comparison playground */
 
+body:has(> .playground-page) > .site-header {
+  display: none;
+}
+
 .header-nav a.header-nav__playground {
   display: inline-flex;
   align-items: center;
@@ -3372,7 +3376,7 @@ input[type="range"] {
     radial-gradient(circle at 14% 42%, rgba(107, 77, 148, 0.11), transparent 30rem),
     var(--playground-bg);
   color: var(--playground-ink);
-  padding: 4.5rem clamp(1rem, 2.8vw, 3.25rem) 4rem;
+  padding: 1rem clamp(1rem, 2.8vw, 3.25rem) 4rem;
 }
 
 .playground-intro {
@@ -3382,6 +3386,44 @@ input[type="range"] {
   align-items: center;
   gap: clamp(1.5rem, 4vw, 4rem);
   margin: 0 auto 0.75rem;
+}
+
+.playground-intro__aside {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.playground-back {
+  display: inline-flex;
+  align-items: center;
+  justify-self: end;
+  gap: 0.4rem;
+  border: 1px solid rgba(114, 234, 219, 0.24);
+  border-radius: 999px;
+  background: rgba(114, 234, 219, 0.07);
+  padding: 0.42rem 0.7rem;
+  color: #c8f8f0;
+  font-size: 0.66rem;
+  font-weight: 720;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  transition:
+    border-color 160ms ease,
+    background 160ms ease,
+    color 160ms ease,
+    transform 160ms ease;
+}
+
+.playground-back:hover {
+  border-color: rgba(114, 234, 219, 0.52);
+  background: rgba(114, 234, 219, 0.13);
+  color: #f1fffc;
+  transform: translateX(-0.12rem);
+}
+
+.playground-back:focus-visible {
+  outline: 2px solid var(--playground-cyan);
+  outline-offset: 3px;
 }
 
 .playground-intro__eyebrow {
@@ -3474,7 +3516,7 @@ input[type="range"] {
   background: rgba(7, 12, 22, 0.72);
   box-shadow: 0 34px 110px rgba(0, 0, 0, 0.42);
   margin: 0 auto;
-  height: calc(100svh - 12.6rem);
+  height: calc(100svh - 10.9rem);
   min-height: 30rem;
   max-height: 48rem;
 }
@@ -4053,7 +4095,7 @@ input[type="range"] {
 
 @media (max-width: 820px) {
   .playground-page {
-    padding-top: 6.5rem;
+    padding-top: 1rem;
   }
 
   .playground-intro {
@@ -4063,6 +4105,10 @@ input[type="range"] {
 
   .playground-intro h1 {
     white-space: normal;
+  }
+
+  .playground-back {
+    justify-self: start;
   }
 
   .playground-lab {
@@ -4129,7 +4175,7 @@ input[type="range"] {
   }
 
   .playground-page {
-    padding: 6.25rem 0.65rem 3.5rem;
+    padding: 1rem 0.65rem 3.5rem;
   }
 
   .playground-intro {

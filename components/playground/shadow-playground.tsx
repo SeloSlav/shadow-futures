@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import {
   type CSSProperties,
   type PointerEvent as ReactPointerEvent,
@@ -623,15 +624,20 @@ export function ShadowPlayground() {
             disappears.
           </p>
         </div>
-        <div className="playground-equation" aria-label="The equation driving the playground">
-          <EquationMath
-            latex="s_{it}=e^{\beta x_i}(a+N_i(t))^\rho \;\to\; p_{it}=\frac{s_{it}}{\sum_j s_{jt}}"
-            label="Allocation score becomes allocation probability"
-          />
-          <EquationMath
-            latex="\varepsilon_t=1-\max_i p_{it} \;\to\; B_T=\sum_{t<T}\varepsilon_t"
-            label="Residual contestability accumulates into the comparison budget"
-          />
+        <div className="playground-intro__aside">
+          <Link className="playground-back" href="/">
+            <span aria-hidden="true">←</span> Back to story
+          </Link>
+          <div className="playground-equation" aria-label="The equation driving the playground">
+            <EquationMath
+              latex="s_{it}=e^{\beta x_i}(a+N_i(t))^\rho \;\to\; p_{it}=\frac{s_{it}}{\sum_j s_{jt}}"
+              label="Allocation score becomes allocation probability"
+            />
+            <EquationMath
+              latex="\varepsilon_t=1-\max_i p_{it} \;\to\; B_T=\sum_{t<T}\varepsilon_t"
+              label="Residual contestability accumulates into the comparison budget"
+            />
+          </div>
         </div>
       </header>
 

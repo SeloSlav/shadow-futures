@@ -112,10 +112,8 @@ test.describe("interactive essay", () => {
     ).toBeVisible();
     const surface = page.getByTestId("playground-surface");
     await expect(surface).toBeVisible();
-    await expect(page.getByRole("link", { name: "Playground" })).toHaveAttribute(
-      "href",
-      "/playground",
-    );
+    await expect(page.getByRole("banner")).toHaveCount(0);
+    await expect(page.getByRole("link", { name: "Back to story" })).toHaveAttribute("href", "/");
     await expect(page.getByLabel("Feedback strength ρ")).toHaveValue("1.25");
     await expect(page.getByRole("button", { name: /Competitive Market/ })).toBeVisible();
     await expect(
