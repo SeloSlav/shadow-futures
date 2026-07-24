@@ -464,11 +464,9 @@ function ShadowSurface({
       const viewportScale = Math.max(1, Math.min(bounds.width / 7.9, bounds.height / 6.7));
       setView((current) => {
         const panScale = PAN_SCREEN_RATIO / (viewportScale * current.zoom);
-        // Move the terrain with the pointer. The camera target must travel opposite
-        // a horizontal screen drag, while a downward drag advances it into the scene.
-        const panRight = -deltaX * panScale;
+        const panRight = deltaX * panScale;
         const panForward =
-          (deltaY * panScale) / Math.max(0.2, Math.sin(current.tilt) * 0.82);
+          (-deltaY * panScale) / Math.max(0.2, Math.sin(current.tilt) * 0.82);
         const cosine = Math.cos(current.yaw);
         const sine = Math.sin(current.yaw);
 
@@ -491,8 +489,8 @@ function ShadowSurface({
 
     setView((current) => ({
       ...current,
-      yaw: wrapAngle(current.yaw - deltaX * 0.006),
-      tilt: clamp(current.tilt + deltaY * 0.0045, 0.12, 1.36),
+      yaw: wrapAngle(current.yaw + deltaX * 0.006),
+      tilt: clamp(current.tilt - deltaY * 0.0045, 0.12, 1.36),
     }));
   };
 

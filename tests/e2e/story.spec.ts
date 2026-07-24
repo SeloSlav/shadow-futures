@@ -154,8 +154,8 @@ test.describe("interactive essay", () => {
     const viewAfterOrbit = (await surface.getAttribute("data-view"))
       ?.split(":")
       .map(Number);
-    expect(viewAfterOrbit?.[0]).toBeLessThan(viewBeforeOrbit?.[0] ?? 0);
-    expect(viewAfterOrbit?.[1]).toBeGreaterThan(viewBeforeOrbit?.[1] ?? 0);
+    expect(viewAfterOrbit?.[0]).toBeGreaterThan(viewBeforeOrbit?.[0] ?? 0);
+    expect(viewAfterOrbit?.[1]).toBeLessThan(viewBeforeOrbit?.[1] ?? 0);
 
     const viewBeforePan = (await surface.getAttribute("data-view"))
       ?.split(":")
@@ -169,7 +169,7 @@ test.describe("interactive essay", () => {
       .map(Number);
     expect(viewAfterHorizontalPan?.[0]).toBe(viewBeforePan?.[0]);
     expect(viewAfterHorizontalPan?.[1]).toBe(viewBeforePan?.[1]);
-    expect(viewAfterHorizontalPan?.[3]).toBeLessThan(viewBeforePan?.[3] ?? 0);
+    expect(viewAfterHorizontalPan?.[3]).toBeGreaterThan(viewBeforePan?.[3] ?? 0);
 
     await page.mouse.move(panStartX, panStartY);
     await page.mouse.down({ button: "right" });
@@ -178,7 +178,7 @@ test.describe("interactive essay", () => {
     const viewAfterVerticalPan = (await surface.getAttribute("data-view"))
       ?.split(":")
       .map(Number);
-    expect(viewAfterVerticalPan?.[4]).toBeGreaterThan(viewAfterHorizontalPan?.[4] ?? 0);
+    expect(viewAfterVerticalPan?.[4]).toBeLessThan(viewAfterHorizontalPan?.[4] ?? 0);
 
     const canvasWidth = await surface.getAttribute("width");
     const canvasHeight = await surface.getAttribute("height");
