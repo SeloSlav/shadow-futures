@@ -2,12 +2,19 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 import { Math as EquationMath } from "@/components/ui/math";
-import { PAPER } from "@/lib/paper/citation";
 
 export const metadata: Metadata = {
   title: "Methodology",
   description:
     "A concise guide to how self-reinforcing markets close competition, erase useful comparisons, and weaken claims that rewards measure contribution.",
+  alternates: { canonical: "/methodology" },
+  openGraph: {
+    type: "article",
+    title: "Shadow Futures methodology",
+    description:
+      "The assumptions, evidence, theorem, and policy boundaries behind Shadow Futures.",
+    url: "/methodology",
+  },
 };
 
 export default function MethodologyPage() {
@@ -23,9 +30,9 @@ export default function MethodologyPage() {
           shortest route from the familiar mechanism to the paper’s distinct result.
         </p>
         <div className="button-row method-page__actions">
-          <a className="button button--primary" href={PAPER.url} target="_blank" rel="noreferrer">
+          <Link className="button button--primary" href="/paper">
             Read the source paper
-          </a>
+          </Link>
           <Link className="button" href="/math">
             See the central equation
           </Link>

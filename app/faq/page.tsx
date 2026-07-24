@@ -47,7 +47,8 @@ export default function FaqPage() {
         "@type": "Person",
         name: PAPER.author,
       },
-      url: PAPER.url,
+      url: `${SITE_ORIGIN}${PAPER.landingPath}`,
+      sameAs: PAPER.ssrnUrl,
     },
     mainEntity: FAQ_GROUPS.flatMap((group) =>
       group.entries.map((entry) => ({
@@ -90,9 +91,9 @@ export default function FaqPage() {
             <Link className="button button--primary" href="/#shadow-futures">
               See the visual explanation
             </Link>
-            <a className="button button--rust" href={PAPER.url} target="_blank" rel="noreferrer">
+            <Link className="button button--rust" href="/paper">
               Read the paper
-            </a>
+            </Link>
           </div>
         </header>
 

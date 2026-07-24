@@ -2,12 +2,19 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 import { Math as EquationMath } from "@/components/ui/math";
-import { PAPER } from "@/lib/paper/citation";
 
 export const metadata: Metadata = {
   title: "The central equation",
   description:
     "One combined equation explains how contribution, accumulated attention, and disappearing competition limit what can be learned from one market history.",
+  alternates: { canonical: "/math" },
+  openGraph: {
+    type: "article",
+    title: "The central Shadow Futures equation",
+    description:
+      "How contribution, accumulated attention, and disappearing competition limit learning from one market history.",
+    url: "/math",
+  },
 };
 
 const CENTRAL_EQUATION = String.raw`
@@ -150,9 +157,9 @@ export default function MathPage() {
         <Link className="button button--primary" href="/methodology">
           See the assumptions
         </Link>
-        <a className="button" href={PAPER.url} target="_blank" rel="noreferrer">
+        <Link className="button" href="/paper">
           Read the proof
-        </a>
+        </Link>
       </div>
     </main>
   );

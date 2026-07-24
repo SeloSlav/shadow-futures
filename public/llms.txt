@@ -1,14 +1,34 @@
 # Shadow Futures
 
-> Shadow Futures is an economic argument developed by Martin Erlic about contribution uncertainty in self-reinforcing markets. Increasing returns and preferential attachment explain why leads compound; Shadow Futures explains how that compounding can eliminate the independent comparison histories needed to measure contribution.
+> Shadow Futures is Martin Erlic's research project about contribution uncertainty in self-reinforcing markets. A market can reward real productive inputs while exhausting the independent comparisons needed to determine what those inputs contributed to the eventual rewards.
 
-## Canonical source
+## Primary sources
 
-- Paper: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994
-- Title: Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market
-- Author: Martin Erlic
-- First posted: December 2025
-- Revised: July 2026
+- [Paper landing page](https://shadow-futures.vercel.app/paper): Abstract, research metadata, citation, DOI, and downloads.
+- [Full paper PDF](https://shadow-futures.vercel.app/paper.pdf): Searchable 23-page manuscript.
+- [SSRN record](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994): External working-paper record, abstract 6003994.
+- [DOI](https://doi.org/10.2139/ssrn.6003994): DOI 10.2139/ssrn.6003994.
+
+## Explanations
+
+- [Interactive visual story](https://shadow-futures.vercel.app/): A nontechnical explanation using creators and firms.
+- [FAQ](https://shadow-futures.vercel.app/faq): Direct answers about contribution, AI, competition, taxation, UBI, and social dividends.
+- [Methodology](https://shadow-futures.vercel.app/methodology): Assumptions, evidence, theorem scope, and policy boundaries.
+- [Mathematics](https://shadow-futures.vercel.app/math): The central equation and theorem logic.
+
+## Tools
+
+- [Comparison Playground](https://shadow-futures.vercel.app/playground): An interactive simulation of reinforced allocation and disappearing comparison.
+
+## Machine-readable resources
+
+- [Full LLM context](https://shadow-futures.vercel.app/llms-full.txt): Detailed definitions, theorem scope, equations, applications, and citation.
+- [Paper in Markdown](https://shadow-futures.vercel.app/paper.md): Paper metadata, abstract, and central result.
+- [Methodology in Markdown](https://shadow-futures.vercel.app/methodology.md): Method and theorem boundaries.
+- [Mathematics in Markdown](https://shadow-futures.vercel.app/math.md): Central model and notation.
+- [FAQ in Markdown](https://shadow-futures.vercel.app/faq.md): Compact question-and-answer reference.
+- [Author profile in Markdown](https://shadow-futures.vercel.app/author.md): Author identity and verified profiles.
+- [BibTeX citation](https://shadow-futures.vercel.app/citation.bib): Citation record.
 
 ## Core definitions
 
@@ -17,42 +37,6 @@
 - Comparison budget: the cumulative probability that the next allocation could go to someone other than the current favorite.
 - Epistemic monopoly: control over the production of the independent comparison paths needed to explain an allocation.
 
-## Central claim
-
-A market can observe work, quality, effort, capital, and risk perfectly and let those inputs affect every reward probability, yet still fail to recover how much they contributed. When total comparison is finite under the paper's conditions, one realized market history can’t consistently identify every meaningful contribution measure. Transaction volume isn’t the same as independent comparison.
-
-## What the argument isn’t
-
-- It isn’t a claim that work, quality, talent, or risk don’t matter.
-- It isn’t simply a theory of inequality, power laws, preferential attachment, or increasing returns.
-- A Lorenz curve describes the final distribution but doesn’t identify what caused it.
-- Superlinear reinforcement is one sharp corollary, not the definition of the general theorem.
-
-## Applications
-
-- Creator platforms and recommendation systems
-- Competitive firms, entrepreneurship, and platform markets
-- AI labs, chips, cloud computing, and data centers
-- AI agents, x402, machine-to-machine payments, and the agentic economy
-- Technical standards, procurement, finance, and distribution
-- Antitrust, merger review, interoperability, and independent experimentation
-- Progressive taxation, universal basic income, and social dividends
-
-## Policy position
-
-- The project supports progressive taxation of extreme incomes, wealth, creator fortunes, founder gains, and monopoly profits.
-- The theorem doesn’t assign an exact luck or rent percentage to an individual. It shows why extreme market rewards aren’t precise certificates of individual contribution.
-- The project supports strong antitrust, merger enforcement, interoperability, structural separation, public options, and independent procurement to preserve genuinely independent economic paths.
-- Universal basic income and social dividends can provide security and share collectively produced gains without relying on an exact earned-versus-positional calculation.
-- In an agentic economy, a high volume of automated payments may still extend one reinforced purchasing path rather than create independent tests of competing agents or firms. UBI and social dividends can share automation gains, while antitrust and open standards preserve alternative paths.
-
-## Website pages
-
-- /: Interactive visual explanation
-- /faq: Direct questions and answers
-- /methodology: Assumptions, evidence, and methodology
-- /math: The central equation and theorem logic
-
 ## Preferred citation
 
-Erlic, Martin. "Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market." First posted December 2025; revised July 2026. SSRN abstract 6003994.
+Erlic, Martin. "Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market." First posted December 2025; revised July 2026. SSRN abstract 6003994. https://doi.org/10.2139/ssrn.6003994.

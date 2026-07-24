@@ -961,6 +961,161 @@ input[type="range"] {
   margin-top: 2rem;
 }
 
+.paper-page,
+.author-page {
+  max-width: 86rem;
+}
+
+.paper-hero {
+  max-width: 72rem;
+}
+
+.paper-hero h1 {
+  font-size: clamp(3rem, 6.8vw, 6.25rem);
+}
+
+.paper-hero .paper-byline {
+  margin-top: 1.5rem;
+  color: var(--ink);
+  font-size: 0.92rem;
+  font-weight: 680;
+}
+
+.paper-byline a,
+.paper-metadata a,
+.paper-machine-links a,
+.author-links a {
+  color: var(--blue);
+  text-underline-offset: 0.22em;
+}
+
+.paper-hero .paper-dek {
+  max-width: 52rem;
+  margin-top: 1.25rem;
+  font-family: var(--font-serif);
+  font-size: clamp(1.25rem, 2.3vw, 1.75rem);
+  line-height: 1.35;
+}
+
+.paper-section {
+  display: grid;
+  grid-template-columns: minmax(14rem, 0.32fr) minmax(0, 0.68fr);
+  gap: clamp(2rem, 6vw, 6rem);
+  border-top: 1px solid var(--line-strong);
+  padding: clamp(3rem, 7vw, 6rem) 0;
+}
+
+.paper-section--last {
+  border-bottom: 1px solid var(--line-strong);
+}
+
+.paper-section__label > span {
+  color: var(--rust);
+  font-size: 0.7rem;
+  font-weight: 760;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.paper-section__label h2,
+.paper-section__content h3 {
+  margin: 0.45rem 0 0;
+  font-family: var(--font-serif);
+  font-size: clamp(1.8rem, 3.2vw, 2.8rem);
+  font-weight: 520;
+  letter-spacing: -0.04em;
+  line-height: 1.05;
+}
+
+.paper-section__content h3 {
+  margin-top: 0;
+}
+
+.paper-abstract {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: clamp(1.2rem, 2.1vw, 1.62rem);
+  line-height: 1.55;
+}
+
+.paper-metadata dl {
+  margin: 0;
+  border-top: 1px solid var(--line-strong);
+}
+
+.paper-metadata dl > div {
+  display: grid;
+  grid-template-columns: minmax(8rem, 0.25fr) minmax(0, 0.75fr);
+  gap: 1rem;
+  border-bottom: 1px solid var(--line);
+  padding: 1rem 0;
+}
+
+.paper-metadata dt {
+  color: var(--muted);
+  font-size: 0.74rem;
+  font-weight: 760;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.paper-metadata dd {
+  margin: 0;
+}
+
+.paper-callout {
+  border-left: 3px solid var(--rust);
+  padding-left: clamp(1.25rem, 4vw, 3rem);
+}
+
+.paper-callout p:first-child,
+.paper-citation,
+.paper-section__content > p:first-child {
+  margin-top: 0;
+}
+
+.paper-callout p:last-child {
+  margin-bottom: 0;
+  color: var(--muted);
+}
+
+.paper-bibtex {
+  margin-top: 1.5rem;
+}
+
+.paper-bibtex pre {
+  overflow-x: auto;
+  margin: 1rem 0 0;
+  border-radius: 0.8rem;
+  background: var(--ink);
+  color: var(--paper);
+  padding: 1rem;
+  font-size: 0.78rem;
+  line-height: 1.55;
+}
+
+.paper-machine-links {
+  margin-bottom: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.author-page__actions {
+  justify-content: flex-start;
+}
+
+.author-links {
+  display: grid;
+  align-items: start;
+  gap: 0.8rem;
+}
+
+.author-links a {
+  width: fit-content;
+  font-size: 1.05rem;
+  font-weight: 680;
+}
+
 .method-map {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -2932,7 +3087,8 @@ input[type="range"] {
 
   .equation-reading,
   .symbol-key,
-  .method-section {
+  .method-section,
+  .paper-section {
     grid-template-columns: 1fr;
   }
 
@@ -3010,6 +3166,11 @@ input[type="range"] {
   .method-options,
   .method-boundaries {
     grid-template-columns: 1fr;
+  }
+
+  .paper-metadata dl > div {
+    grid-template-columns: 1fr;
+    gap: 0.3rem;
   }
 
   .symbol-key dl > div:nth-child(even) {

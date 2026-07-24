@@ -3,7 +3,7 @@ import type { ReactNode } from "react";
 
 import "@/app/globals.css";
 import { SiteHeader } from "@/components/site-header";
-import { PAPER } from "@/lib/paper/citation";
+import { AUTHOR, PAPER } from "@/lib/paper/citation";
 import { SITE_ORIGIN } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -14,9 +14,16 @@ export const metadata: Metadata = {
   },
   description:
     "An interactive explanation of Shadow Futures: how self-reinforcing markets can reward real inputs while destroying the comparison paths needed to measure contribution.",
-  authors: [{ name: PAPER.author }],
+  authors: [{ name: PAPER.author, url: AUTHOR.path }],
   creator: PAPER.author,
   alternates: { canonical: "/" },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon-48.png", type: "image/png", sizes: "48x48" },
+    ],
+    apple: [{ url: "/apple-touch-icon.png", type: "image/png", sizes: "180x180" }],
+  },
   verification: {
     google: "mDWlpJpnFhzdXa9kacEFsEEvw52h2BBhZud3XVHo24g",
   },
@@ -27,6 +34,7 @@ export const metadata: Metadata = {
       "Increasing returns explain why leads compound. Shadow Futures explains how that process can erase the evidence needed to measure contribution.",
     authors: [PAPER.author],
     siteName: "Shadow Futures",
+    url: "/",
   },
   twitter: {
     card: "summary_large_image",
