@@ -3,7 +3,6 @@
 import {
   type CSSProperties,
   type PointerEvent as ReactPointerEvent,
-  type WheelEvent as ReactWheelEvent,
   useEffect,
   useMemo,
   useRef,
@@ -104,6 +103,11 @@ function ShadowSurface({
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const dragRef = useRef<{ pointerId: number; x: number; y: number } | null>(null);
   const [view, setView] = useState<ViewState>({ yaw: -0.08, tilt: 0.52, zoom: 1 });
+  const renderStateRef = useRef({ result, cursor, showShadows, view });
+
+  useEffect(() => {
+    renderStateRef.current = { result, cursor, showShadows, view };
+  }, [cursor, result, showShadows, view]);
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -130,6 +134,7 @@ function ShadowSurface({
     resize();
 
     const draw = (now: number) => {
+      const { result, cursor, showShadows, view } = renderStateRef.current;
       context.clearRect(0, 0, width, height);
 
       const background = context.createRadialGradient(
@@ -380,7 +385,23 @@ function ShadowSurface({
       observer.disconnect();
       window.cancelAnimationFrame(frame);
     };
-  }, [cursor, result, showShadows, view]);
+  }, []);
+
+  useEffect(() => {
+    const canvas = canvasRef.current;
+    if (!canvas) return;
+
+    const handleWheel = (event: WheelEvent) => {
+      event.preventDefault();
+      setView((current) => ({
+        ...current,
+        zoom: clamp(current.zoom - event.deltaY * 0.0007, 0.72, 1.35),
+      }));
+    };
+
+    canvas.addEventListener("wheel", handleWheel, { passive: false });
+    return () => canvas.removeEventListener("wheel", handleWheel);
+  }, []);
 
   const handlePointerDown = (event: ReactPointerEvent<HTMLCanvasElement>) => {
     event.currentTarget.setPointerCapture(event.pointerId);
@@ -406,25 +427,17 @@ function ShadowSurface({
     }
   };
 
-  const handleWheel = (event: ReactWheelEvent<HTMLCanvasElement>) => {
-    event.preventDefault();
-    setView((current) => ({
-      ...current,
-      zoom: clamp(current.zoom - event.deltaY * 0.0007, 0.72, 1.35),
-    }));
-  };
-
   return (
     <canvas
       ref={canvasRef}
       className="playground-surface"
       data-testid="playground-surface"
+      data-view={`${view.yaw.toFixed(2)}:${view.tilt.toFixed(2)}:${view.zoom.toFixed(2)}`}
       aria-label="Three-dimensional probability terrain. The bright line is the one realized allocation history. Purple branches are unrealized shadow futures and fade as nonleader probability disappears. The amber edge tracks the comparison budget."
       onPointerDown={handlePointerDown}
       onPointerMove={handlePointerMove}
       onPointerUp={releasePointer}
       onPointerCancel={releasePointer}
-      onWheel={handleWheel}
     />
   );
 }

@@ -110,19 +110,39 @@ test.describe("interactive essay", () => {
     await expect(
       page.getByRole("heading", { name: "The Comparison Playground" }),
     ).toBeVisible();
-    await expect(page.getByTestId("playground-surface")).toBeVisible();
+    const surface = page.getByTestId("playground-surface");
+    await expect(surface).toBeVisible();
     await expect(page.getByRole("link", { name: "Playground" })).toHaveAttribute(
       "href",
       "/playground",
     );
     await expect(page.getByLabel("Feedback strength ρ")).toHaveValue("1.65");
 
+    const viewport = page.viewportSize();
+    const labBounds = await page.locator(".playground-lab").boundingBox();
+    expect(viewport).not.toBeNull();
+    expect(labBounds).not.toBeNull();
+    expect((labBounds?.y ?? 0) + (labBounds?.height ?? 0)).toBeLessThanOrEqual(
+      (viewport?.height ?? 0) + 1,
+    );
+
+    await surface.hover();
+    const scrollBeforeZoom = await page.evaluate(() => window.scrollY);
+    const viewBeforeZoom = await surface.getAttribute("data-view");
+    await page.mouse.wheel(0, 240);
+    await expect(surface).not.toHaveAttribute("data-view", viewBeforeZoom ?? "");
+    expect(await page.evaluate(() => window.scrollY)).toBe(scrollBeforeZoom);
+
+    const canvasWidth = await surface.getAttribute("width");
+    const canvasHeight = await surface.getAttribute("height");
     await page
       .getByRole("button", {
         name: "Protected discovery Reserve some exposure for alternatives.",
       })
       .click();
     await expect(page.getByLabel("Reserved discovery η")).toHaveValue("0.16");
+    await expect(surface).toHaveAttribute("width", canvasWidth ?? "");
+    await expect(surface).toHaveAttribute("height", canvasHeight ?? "");
 
     await page.locator("#playground-round").press("End");
     await expect(page.getByText("comparison units")).toBeVisible();
