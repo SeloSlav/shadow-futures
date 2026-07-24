@@ -13,10 +13,17 @@ export function SiteHeader() {
           Shadow Futures
         </Link>
         <nav className="header-nav" aria-label="Primary navigation">
-          <Link href="/#breakout">Start the story</Link>
+          <Link className="header-nav__story" href="/#breakout">
+            Start the story
+          </Link>
+          <Link className="header-nav__playground" href="/playground">
+            <span aria-hidden="true">✦</span> Playground
+          </Link>
           <Link href="/methodology">Methodology</Link>
           <Link href="/math">Mathematics</Link>
-          <Link href="/faq">FAQ</Link>
+          <Link className="header-nav__faq" href="/faq">
+            FAQ
+          </Link>
           <a
             className="header-nav__paper"
             href={PAPER.url}

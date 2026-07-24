@@ -103,6 +103,32 @@ test.describe("interactive essay", () => {
     await expect(page.getByText("What one history cannot tell us")).toBeVisible();
   });
 
+  test("runs the central equation in the comparison playground", async ({ page, isMobile }) => {
+    test.skip(isMobile, "covered by the desktop playground journey");
+    await page.goto("/playground");
+
+    await expect(
+      page.getByRole("heading", { name: "The Comparison Playground" }),
+    ).toBeVisible();
+    await expect(page.getByTestId("playground-surface")).toBeVisible();
+    await expect(page.getByRole("link", { name: "Playground" })).toHaveAttribute(
+      "href",
+      "/playground",
+    );
+    await expect(page.getByLabel("Feedback strength ρ")).toHaveValue("1.65");
+
+    await page
+      .getByRole("button", {
+        name: "Protected discovery Reserve some exposure for alternatives.",
+      })
+      .click();
+    await expect(page.getByLabel("Reserved discovery η")).toHaveValue("0.16");
+
+    await page.locator("#playground-round").press("End");
+    await expect(page.getByText("comparison units")).toBeVisible();
+    await expect(page.getByText(/shadow routes have closed at this round/)).toBeVisible();
+  });
+
   test("the operating system reduced-motion setting is respected", async ({ page, isMobile }) => {
     test.skip(isMobile, "covered by the desktop accessibility journey");
     await page.emulateMedia({ reducedMotion: "reduce" });
