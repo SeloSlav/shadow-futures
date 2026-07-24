@@ -62,7 +62,7 @@ export const FAQ_GROUPS: FaqGroup[] = [
       },
       {
         id: "transaction-count-versus-evidence",
-        question: "Why are more transactions not necessarily more evidence?",
+        question: "Why aren’t more transactions necessarily more evidence?",
         answer: [
           "A transaction adds useful attribution evidence only when the allocation still has a meaningful chance to go another way. If the leader has a 99.9 percent chance of receiving the next customer, another thousand sales mostly extend the inherited path.",
           "The market can therefore be commercially busy while its experiment is nearly exhausted. Volume isn’t the same thing as independent comparison.",
@@ -126,7 +126,7 @@ export const FAQ_GROUPS: FaqGroup[] = [
       },
       {
         id: "lorenz-curve",
-        question: "What can a Lorenz curve tell us, and what can it not tell us?",
+        question: "What can a Lorenz curve tell us, and what can’t it tell us?",
         answer: [
           "A Lorenz curve shows how concentrated income or rewards are. It can accurately describe the final distribution.",
           "It can’t reveal how much of that distribution came from contribution, early visibility, inherited position, or feedback. The Lorenz curve is the scoreboard; shadow futures are the missing repetitions needed to explain the score.",
@@ -211,7 +211,7 @@ export const FAQ_GROUPS: FaqGroup[] = [
         id: "ubi-social-dividend",
         question: "Why are UBI and social dividends relevant to Shadow Futures?",
         answer: [
-          "UBI and social dividends provide security without asking a market ranking to decide who deserves the basics of life. That matters when global platforms and automated markets can direct enormous rewards toward a few winners while equally capable people lose visibility, customers, or bargaining power.",
+          "UBI and social dividends provide security without asking a market ranking to decide who deserves the basics of life. That matters when global platforms and automated markets can direct enormous rewards toward a few winners while other people—some already equally capable, others capable of becoming more so through the opportunities, feedback, and comparisons they’re denied—lose visibility, customers, or bargaining power.",
           "These policies should complement rather than replace progressive taxation and antitrust. UBI provides a floor, a social dividend shares gains built on public knowledge and infrastructure, and antitrust keeps independent economic paths open.",
         ],
       },

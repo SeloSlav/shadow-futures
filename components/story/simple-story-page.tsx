@@ -151,7 +151,7 @@ export function SimpleStoryPage() {
         >
           <SideBySideMarkets />
           <div className="callout" style={{ marginTop: "1rem" }}>
-            If the “better” lab loses one replay, that does <strong>not</strong> prove quality
+            If the “better” lab loses one replay, that <strong>doesn’t prove</strong> quality
             was irrelevant. It proves that quality and history both affected the result.
           </div>
         </Chapter>
@@ -397,8 +397,8 @@ export function SimpleStoryPage() {
             <article className="scope-card">
               <h3>This doesn’t mean</h3>
               <p>
-                all high income is rent, all mergers are harmful, risk is fake, or skill does
-                not matter.
+                all high income is rent, all mergers are harmful, risk is fake, or skill doesn’t
+                matter.
               </p>
             </article>
             <article className="scope-card">

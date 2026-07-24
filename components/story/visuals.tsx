@@ -579,8 +579,8 @@ export function HonestPolicyDemo() {
           </div>
         </div>
         <div className="callout" style={{ marginTop: "1rem" }}>
-          The same visible $100 can’t tell a tax rule which hidden story is true. This doesn’t
-          <strong> not</strong> mean all high income is rent, risk is fake, or one tax rate is
+          The same visible $100 can’t tell a tax rule which hidden story is true. This
+          <strong> doesn’t mean</strong> all high income is rent, risk is fake, or one tax rate is
           automatically correct.
         </div>
       </div>
