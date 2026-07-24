@@ -590,13 +590,6 @@ export function ShadowPlayground() {
   const currentStep = result.steps[Math.min(cursor, result.steps.length - 1)];
   const comparisonYield =
     currentStep.comparisonBudget / Math.max(1, currentStep.t * MAX_RESIDUAL);
-  const visibleSteps = result.steps.slice(0, Math.min(cursor + 1, result.steps.length));
-  const bestContribution = Math.max(...INPUTS.map((input) => input[0] ?? 0));
-  const productiveWealth =
-    visibleSteps.reduce(
-      (sum, step) => sum + (INPUTS[step.recipient]?.[0] ?? 0),
-      0,
-    ) / Math.max(Number.EPSILON, currentStep.t * bestContribution);
   const rewardInequality = giniCoefficient(currentStep.counts);
 
   const restartPlayback = () => {
@@ -626,7 +619,8 @@ export function ShadowPlayground() {
           <h1>The Comparison Playground</h1>
           <p className="playground-intro__dek">
             Compare a competitive-market benchmark with platform scale—and see when competition
-            rules can raise productive wealth while reducing inequality.
+            rules can curb lock-in and reduce reward inequality without pretending scale
+            disappears.
           </p>
         </div>
         <div className="playground-equation" aria-label="The equation driving the playground">
@@ -814,18 +808,6 @@ export function ShadowPlayground() {
           </div>
 
           <div className="playground-readout">
-            <article className="playground-readout__outcome playground-readout__wealth">
-              <span className="playground-readout__label">Productive wealth (proxy)</span>
-              <div className="playground-readout__metric">
-                <strong>{Math.round(productiveWealth * 100)}%</strong>
-                <span>of best feasible output</span>
-              </div>
-              <div className="playground-outcome-bar" aria-hidden="true">
-                <span style={{ width: `${clamp(productiveWealth * 100, 0, 100)}%` }} />
-              </div>
-              <p>Contribution-weighted value of the opportunities allocated so far.</p>
-            </article>
-
             <article className="playground-readout__shadows">
               <span className="playground-readout__label">Competition preserved</span>
               <div className="playground-orbit-meter">
@@ -859,7 +841,7 @@ export function ShadowPlayground() {
       <section className="playground-explainer" aria-labelledby="playground-explainer-title">
         <div>
           <span>How to read the world</span>
-          <h2 id="playground-explainer-title">Less inequality need not mean less wealth.</h2>
+          <h2 id="playground-explainer-title">Regulation can reopen the contest.</h2>
         </div>
         <ol>
           <li>
@@ -887,9 +869,9 @@ export function ShadowPlayground() {
           <li>
             <span>04</span>
             <p>
-              <strong>Competition policy is not only redistribution.</strong> When it keeps a
-              merely early incumbent from blocking stronger alternatives, productive wealth can
-              rise while reward inequality falls. Regulation approaches the open benchmark, but
+              <strong>Competition policy changes the market process.</strong> When it keeps a
+              merely early incumbent from blocking alternatives, it preserves discovery and
+              reduces reward concentration. Regulation approaches the competitive benchmark, but
               natural scale means it never fully recreates it.
             </p>
           </li>

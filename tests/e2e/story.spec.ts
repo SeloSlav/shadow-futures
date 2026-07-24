@@ -203,7 +203,6 @@ test.describe("interactive essay", () => {
     await expect(surface).toHaveAttribute("height", canvasHeight ?? "");
 
     await page.locator("#playground-round").press("End");
-    await expect(page.getByText("Productive wealth (proxy)", { exact: true })).toBeVisible();
     await expect(page.getByText("Competition preserved", { exact: true })).toBeVisible();
     await expect(page.getByText("Reward inequality", { exact: true })).toBeVisible();
   });
