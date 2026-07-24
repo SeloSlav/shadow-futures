@@ -2244,6 +2244,7 @@ input[type="range"] {
 .creator-closing {
   max-width: 72rem;
   margin: 0 auto;
+  padding-top: clamp(2rem, 4vw, 5rem);
   text-align: center;
 }
 
