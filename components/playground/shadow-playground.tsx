@@ -31,25 +31,25 @@ const PAN_SCREEN_RATIO = 0.8;
 
 const PRESETS = [
   {
-    name: "Open contest",
-    description: "Alternatives keep receiving real chances.",
+    name: "Free Market",
+    description: "Open entry; contribution decides the contest.",
     beta: 1,
-    rho: 0.55,
-    exploration: 0.08,
+    rho: 0,
+    exploration: 0,
   },
   {
-    name: "Reinforcing race",
-    description: "An early lead compounds and comparisons fade.",
+    name: "Big Tech",
+    description: "Scale and an early lead compound into dominance.",
     beta: 1,
     rho: 1.65,
     exploration: 0,
   },
   {
-    name: "Protected discovery",
-    description: "Reserve some exposure for alternatives.",
+    name: "Big Tech with Regulation",
+    description: "Rules curb lock-in without erasing scale.",
     beta: 1,
-    rho: 1.65,
-    exploration: 0.16,
+    rho: 0.9,
+    exploration: 0.08,
   },
 ] as const;
 
@@ -99,6 +99,20 @@ function contestStatus(residual: number) {
   if (residual > 0.34) return "The field is narrowing";
   if (residual > 0.14) return "Shadow futures are fading";
   return "The market is nearly locked";
+}
+
+function giniCoefficient(values: number[]) {
+  const total = values.reduce((sum, value) => sum + value, 0);
+  if (total === 0) return 0;
+
+  const pairwiseDifference = values.reduce(
+    (outerSum, left) =>
+      outerSum +
+      values.reduce((innerSum, right) => innerSum + Math.abs(left - right), 0),
+    0,
+  );
+
+  return pairwiseDifference / (2 * values.length * total);
 }
 
 function ShadowSurface({
@@ -450,8 +464,11 @@ function ShadowSurface({
       const viewportScale = Math.max(1, Math.min(bounds.width / 7.9, bounds.height / 6.7));
       setView((current) => {
         const panScale = PAN_SCREEN_RATIO / (viewportScale * current.zoom);
-        const panRight = deltaX * panScale;
-        const panForward = deltaY * panScale;
+        // Move the terrain with the pointer. The camera target must travel opposite
+        // a horizontal screen drag, while a downward drag advances it into the scene.
+        const panRight = -deltaX * panScale;
+        const panForward =
+          (deltaY * panScale) / Math.max(0.2, Math.sin(current.tilt) * 0.82);
         const cosine = Math.cos(current.yaw);
         const sine = Math.sin(current.yaw);
 
@@ -474,8 +491,8 @@ function ShadowSurface({
 
     setView((current) => ({
       ...current,
-      yaw: wrapAngle(current.yaw + deltaX * 0.006),
-      tilt: clamp(current.tilt - deltaY * 0.0045, 0.12, 1.36),
+      yaw: wrapAngle(current.yaw - deltaX * 0.006),
+      tilt: clamp(current.tilt + deltaY * 0.0045, 0.12, 1.36),
     }));
   };
 
@@ -519,7 +536,10 @@ export function ShadowPlayground() {
         name: "Comparison playground",
         n: COMPETITORS.length,
         inputs: INPUTS,
-        initialPositions: [1, 0, 0, 0, 0],
+        // Cinder starts with an installed-base advantage despite being only the
+        // third-highest contributor. This lets the lab distinguish productive
+        // scale from incumbent lock-in.
+        initialPositions: [0, 0, 1, 0, 0],
         beta: [beta],
         rho,
         exploration,
@@ -570,12 +590,16 @@ export function ShadowPlayground() {
   }, [playing, reducedMotion, speed]);
 
   const currentStep = result.steps[Math.min(cursor, result.steps.length - 1)];
-  const leaderIndex = currentStep.leader;
-  const leaderProbability = currentStep.probabilities[leaderIndex];
   const comparisonYield =
     currentStep.comparisonBudget / Math.max(1, currentStep.t * MAX_RESIDUAL);
-  const currentResidualShare = currentStep.residualContestability / MAX_RESIDUAL;
-  const leaderCount = currentStep.counts[leaderIndex];
+  const visibleSteps = result.steps.slice(0, Math.min(cursor + 1, result.steps.length));
+  const bestContribution = Math.max(...INPUTS.map((input) => input[0] ?? 0));
+  const productiveWealth =
+    visibleSteps.reduce(
+      (sum, step) => sum + (INPUTS[step.recipient]?.[0] ?? 0),
+      0,
+    ) / Math.max(Number.EPSILON, currentStep.t * bestContribution);
+  const rewardInequality = giniCoefficient(currentStep.counts);
 
   const restartPlayback = () => {
     setCursor(reducedMotion ? PERIODS - 1 : 0);
@@ -603,8 +627,8 @@ export function ShadowPlayground() {
           </p>
           <h1>The Comparison Playground</h1>
           <p className="playground-intro__dek">
-            Watch one success path harden into the market’s only history—and the other
-            futures that could’ve taught us why disappear.
+            Compare a free-market benchmark with platform scale—and see when competition
+            rules can raise productive wealth while reducing inequality.
           </p>
         </div>
         <div className="playground-equation" aria-label="The equation driving the playground">
@@ -792,46 +816,43 @@ export function ShadowPlayground() {
           </div>
 
           <div className="playground-readout">
-            <article className="playground-readout__leader">
-              <span className="playground-readout__label">Current favorite</span>
-              <div>
-                <i style={{ background: COMPETITORS[leaderIndex].color }}>
-                  {COMPETITORS[leaderIndex].short}
-                </i>
-                <p>
-                  <strong>{COMPETITORS[leaderIndex].name}</strong>
-                  <span>{leaderCount} realized wins</span>
-                </p>
-                <b>{Math.round(leaderProbability * 100)}%</b>
+            <article className="playground-readout__outcome playground-readout__wealth">
+              <span className="playground-readout__label">Productive wealth (proxy)</span>
+              <div className="playground-readout__metric">
+                <strong>{Math.round(productiveWealth * 100)}%</strong>
+                <span>of best feasible output</span>
               </div>
+              <div className="playground-outcome-bar" aria-hidden="true">
+                <span style={{ width: `${clamp(productiveWealth * 100, 0, 100)}%` }} />
+              </div>
+              <p>Contribution-weighted value of the opportunities allocated so far.</p>
             </article>
 
             <article className="playground-readout__shadows">
-              <span className="playground-readout__label">
-                Alternative chance left <EquationMath latex="\varepsilon_t" block={false} />
-              </span>
+              <span className="playground-readout__label">Competition preserved</span>
               <div className="playground-orbit-meter">
-                <span style={{ "--meter": currentResidualShare } as CSSProperties} />
-                <strong>{Math.round(currentStep.residualContestability * 100)}%</strong>
+                <span style={{ "--meter": comparisonYield } as CSSProperties} />
+                <strong>{Math.round(comparisonYield * 100)}%</strong>
               </div>
               <p>
-                {Math.round((1 - currentResidualShare) * 100)} of 100 possible shadow
-                routes have closed at this round.
+                Of an ideal open benchmark’s cumulative comparison opportunities.
               </p>
             </article>
 
-            <article className="playground-readout__budget">
-              <span className="playground-readout__label">
-                Comparison budget <EquationMath latex="B_t" block={false} />
-              </span>
-              <div>
-                <strong>{currentStep.comparisonBudget.toFixed(1)}</strong>
-                <span>comparison units</span>
+            <article className="playground-readout__outcome playground-readout__inequality">
+              <span className="playground-readout__label">Reward inequality</span>
+              <div className="playground-readout__metric">
+                <strong>{rewardInequality.toFixed(2)}</strong>
+                <span>Gini coefficient</span>
               </div>
-              <div className="playground-budget-bar" aria-hidden="true">
-                <span style={{ width: `${clamp(comparisonYield * 100, 0, 100)}%` }} />
+              <div className="playground-outcome-bar" aria-hidden="true">
+                <span
+                  style={{
+                    width: `${clamp((rewardInequality / MAX_RESIDUAL) * 100, 0, 100)}%`,
+                  }}
+                />
               </div>
-              <p>{Math.round(comparisonYield * 100)}% of what a fully open contest could produce.</p>
+              <p>0 is equal; 0.80 means one firm receives every reward.</p>
             </article>
           </div>
         </section>
@@ -840,7 +861,7 @@ export function ShadowPlayground() {
       <section className="playground-explainer" aria-labelledby="playground-explainer-title">
         <div>
           <span>How to read the world</span>
-          <h2 id="playground-explainer-title">Transactions continue. Evidence can stop.</h2>
+          <h2 id="playground-explainer-title">Less inequality need not mean less wealth.</h2>
         </div>
         <ol>
           <li>
@@ -868,9 +889,10 @@ export function ShadowPlayground() {
           <li>
             <span>04</span>
             <p>
-              <strong>The amber line accumulates comparison, not activity.</strong> A nearly
-              certain repeat win adds one transaction but almost nothing to{" "}
-              <EquationMath latex="B_T" block={false} />.
+              <strong>Competition policy is not only redistribution.</strong> When it keeps a
+              merely early incumbent from blocking stronger alternatives, productive wealth can
+              rise while reward inequality falls. Regulation approaches the open benchmark, but
+              natural scale means it never fully recreates it.
             </p>
           </li>
         </ol>

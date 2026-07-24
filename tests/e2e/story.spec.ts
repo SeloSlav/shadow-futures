@@ -117,6 +117,13 @@ test.describe("interactive essay", () => {
       "/playground",
     );
     await expect(page.getByLabel("Feedback strength ρ")).toHaveValue("1.65");
+    await expect(page.getByRole("button", { name: /Free Market/ })).toBeVisible();
+    await expect(
+      page.getByRole("button", {
+        name: "Big Tech Scale and an early lead compound into dominance.",
+      }),
+    ).toBeVisible();
+    await expect(page.getByRole("button", { name: /Big Tech with Regulation/ })).toBeVisible();
 
     const viewport = page.viewportSize();
     const labBounds = await page.locator(".playground-lab").boundingBox();
@@ -137,35 +144,58 @@ test.describe("interactive essay", () => {
     expect(surfaceBounds).not.toBeNull();
     const panStartX = (surfaceBounds?.x ?? 0) + (surfaceBounds?.width ?? 0) * 0.55;
     const panStartY = (surfaceBounds?.y ?? 0) + (surfaceBounds?.height ?? 0) * 0.55;
+    const viewBeforeOrbit = (await surface.getAttribute("data-view"))
+      ?.split(":")
+      .map(Number);
+    await page.mouse.move(panStartX, panStartY);
+    await page.mouse.down({ button: "left" });
+    await page.mouse.move(panStartX + 52, panStartY + 34, { steps: 4 });
+    await page.mouse.up({ button: "left" });
+    const viewAfterOrbit = (await surface.getAttribute("data-view"))
+      ?.split(":")
+      .map(Number);
+    expect(viewAfterOrbit?.[0]).toBeLessThan(viewBeforeOrbit?.[0] ?? 0);
+    expect(viewAfterOrbit?.[1]).toBeGreaterThan(viewBeforeOrbit?.[1] ?? 0);
+
     const viewBeforePan = (await surface.getAttribute("data-view"))
       ?.split(":")
       .map(Number);
     await page.mouse.move(panStartX, panStartY);
     await page.mouse.down({ button: "right" });
-    await page.mouse.move(panStartX + 52, panStartY + 34, { steps: 4 });
+    await page.mouse.move(panStartX + 52, panStartY, { steps: 4 });
     await page.mouse.up({ button: "right" });
-    const viewAfterPan = (await surface.getAttribute("data-view"))
+    const viewAfterHorizontalPan = (await surface.getAttribute("data-view"))
       ?.split(":")
       .map(Number);
-    expect(viewAfterPan?.[0]).toBe(viewBeforePan?.[0]);
-    expect(viewAfterPan?.[1]).toBe(viewBeforePan?.[1]);
-    expect(viewAfterPan?.[3]).not.toBe(viewBeforePan?.[3]);
-    expect(viewAfterPan?.[4]).not.toBe(viewBeforePan?.[4]);
+    expect(viewAfterHorizontalPan?.[0]).toBe(viewBeforePan?.[0]);
+    expect(viewAfterHorizontalPan?.[1]).toBe(viewBeforePan?.[1]);
+    expect(viewAfterHorizontalPan?.[3]).toBeLessThan(viewBeforePan?.[3] ?? 0);
+
+    await page.mouse.move(panStartX, panStartY);
+    await page.mouse.down({ button: "right" });
+    await page.mouse.move(panStartX, panStartY + 34, { steps: 4 });
+    await page.mouse.up({ button: "right" });
+    const viewAfterVerticalPan = (await surface.getAttribute("data-view"))
+      ?.split(":")
+      .map(Number);
+    expect(viewAfterVerticalPan?.[4]).toBeGreaterThan(viewAfterHorizontalPan?.[4] ?? 0);
 
     const canvasWidth = await surface.getAttribute("width");
     const canvasHeight = await surface.getAttribute("height");
     await page
       .getByRole("button", {
-        name: "Protected discovery Reserve some exposure for alternatives.",
+        name: "Big Tech with Regulation Rules curb lock-in without erasing scale.",
       })
       .click();
-    await expect(page.getByLabel("Reserved discovery η")).toHaveValue("0.16");
+    await expect(page.getByLabel("Feedback strength ρ")).toHaveValue("0.9");
+    await expect(page.getByLabel("Reserved discovery η")).toHaveValue("0.08");
     await expect(surface).toHaveAttribute("width", canvasWidth ?? "");
     await expect(surface).toHaveAttribute("height", canvasHeight ?? "");
 
     await page.locator("#playground-round").press("End");
-    await expect(page.getByText("comparison units")).toBeVisible();
-    await expect(page.getByText(/shadow routes have closed at this round/)).toBeVisible();
+    await expect(page.getByText("Productive wealth (proxy)", { exact: true })).toBeVisible();
+    await expect(page.getByText("Competition preserved", { exact: true })).toBeVisible();
+    await expect(page.getByText("Reward inequality", { exact: true })).toBeVisible();
   });
 
   test("the operating system reduced-motion setting is respected", async ({ page, isMobile }) => {
