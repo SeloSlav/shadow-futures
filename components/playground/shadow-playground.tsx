@@ -31,7 +31,7 @@ const PAN_SCREEN_RATIO = 0.8;
 
 const PRESETS = [
   {
-    name: "Free Market",
+    name: "Competitive Market",
     description: "Open entry; contribution decides the contest.",
     beta: 1,
     rho: 0,
@@ -625,7 +625,7 @@ export function ShadowPlayground() {
           </p>
           <h1>The Comparison Playground</h1>
           <p className="playground-intro__dek">
-            Compare a free-market benchmark with platform scale—and see when competition
+            Compare a competitive-market benchmark with platform scale—and see when competition
             rules can raise productive wealth while reducing inequality.
           </p>
         </div>

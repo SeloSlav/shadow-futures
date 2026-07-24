@@ -117,7 +117,7 @@ test.describe("interactive essay", () => {
       "/playground",
     );
     await expect(page.getByLabel("Feedback strength ρ")).toHaveValue("1.65");
-    await expect(page.getByRole("button", { name: /Free Market/ })).toBeVisible();
+    await expect(page.getByRole("button", { name: /Competitive Market/ })).toBeVisible();
     await expect(
       page.getByRole("button", {
         name: "Big Tech Scale and an early lead compound into dominance.",
