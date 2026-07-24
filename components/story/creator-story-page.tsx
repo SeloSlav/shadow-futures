@@ -453,7 +453,7 @@ export function CreatorStoryPage() {
           id="firm-markets"
           number={3}
           eyebrow="From scale to evidence"
-          title="A growing firm can improve while making its own contribution harder to measure"
+          title="A growing firm can look like a winner even as its true contribution becomes harder to measure"
           intro="An early customer brings revenue, data, credibility and scale. Those can produce real gains. But as one firm comes to dominate customers, standards and distribution, the market can run out of independent paths that would reveal how much success came from the firm’s inputs and how much from the position created by earlier wins."
           illustration={{
             src: "/illustrations/chapters/firm-flywheel.png",

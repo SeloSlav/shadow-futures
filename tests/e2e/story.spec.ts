@@ -133,6 +133,25 @@ test.describe("interactive essay", () => {
     await expect(surface).not.toHaveAttribute("data-view", viewBeforeZoom ?? "");
     expect(await page.evaluate(() => window.scrollY)).toBe(scrollBeforeZoom);
 
+    const surfaceBounds = await surface.boundingBox();
+    expect(surfaceBounds).not.toBeNull();
+    const panStartX = (surfaceBounds?.x ?? 0) + (surfaceBounds?.width ?? 0) * 0.55;
+    const panStartY = (surfaceBounds?.y ?? 0) + (surfaceBounds?.height ?? 0) * 0.55;
+    const viewBeforePan = (await surface.getAttribute("data-view"))
+      ?.split(":")
+      .map(Number);
+    await page.mouse.move(panStartX, panStartY);
+    await page.mouse.down({ button: "right" });
+    await page.mouse.move(panStartX + 52, panStartY + 34, { steps: 4 });
+    await page.mouse.up({ button: "right" });
+    const viewAfterPan = (await surface.getAttribute("data-view"))
+      ?.split(":")
+      .map(Number);
+    expect(viewAfterPan?.[0]).toBe(viewBeforePan?.[0]);
+    expect(viewAfterPan?.[1]).toBe(viewBeforePan?.[1]);
+    expect(viewAfterPan?.[3]).not.toBe(viewBeforePan?.[3]);
+    expect(viewAfterPan?.[4]).not.toBe(viewBeforePan?.[4]);
+
     const canvasWidth = await surface.getAttribute("width");
     const canvasHeight = await surface.getAttribute("height");
     await page

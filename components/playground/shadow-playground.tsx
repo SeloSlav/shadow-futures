@@ -54,6 +54,8 @@ type ViewState = {
   yaw: number;
   tilt: number;
   zoom: number;
+  panX: number;
+  panY: number;
 };
 
 type ProjectedPoint = {
@@ -63,6 +65,11 @@ type ProjectedPoint = {
 
 function clamp(value: number, minimum: number, maximum: number) {
   return Math.min(maximum, Math.max(minimum, value));
+}
+
+function wrapAngle(value: number) {
+  const fullTurn = Math.PI * 2;
+  return ((((value + Math.PI) % fullTurn) + fullTurn) % fullTurn) - Math.PI;
 }
 
 function heightAt(step: AllocationStep, worldX: number) {
@@ -101,8 +108,19 @@ function ShadowSurface({
   showShadows: boolean;
 }) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  const dragRef = useRef<{ pointerId: number; x: number; y: number } | null>(null);
-  const [view, setView] = useState<ViewState>({ yaw: -0.08, tilt: 0.52, zoom: 1 });
+  const dragRef = useRef<{
+    pointerId: number;
+    x: number;
+    y: number;
+    mode: "orbit" | "pan";
+  } | null>(null);
+  const [view, setView] = useState<ViewState>({
+    yaw: -0.08,
+    tilt: 0.52,
+    zoom: 1,
+    panX: 0,
+    panY: 0,
+  });
   const renderStateRef = useRef({ result, cursor, showShadows, view });
 
   useEffect(() => {
@@ -160,8 +178,8 @@ function ShadowSurface({
       }
 
       const baseScale = Math.min(width / 7.9, height / 6.7) * view.zoom;
-      const centerX = width * (width < 700 ? 0.5 : 0.54);
-      const centerY = height * 0.72;
+      const centerX = width * (width < 700 ? 0.5 : 0.54) + view.panX;
+      const centerY = height * 0.72 + view.panY;
       const cosine = Math.cos(view.yaw);
       const sine = Math.sin(view.yaw);
 
@@ -395,7 +413,7 @@ function ShadowSurface({
       event.preventDefault();
       setView((current) => ({
         ...current,
-        zoom: clamp(current.zoom - event.deltaY * 0.0007, 0.72, 1.35),
+        zoom: clamp(current.zoom - event.deltaY * 0.0009, 0.42, 3.6),
       }));
     };
 
@@ -404,8 +422,15 @@ function ShadowSurface({
   }, []);
 
   const handlePointerDown = (event: ReactPointerEvent<HTMLCanvasElement>) => {
+    if (event.button !== 0 && event.button !== 2) return;
+    event.preventDefault();
     event.currentTarget.setPointerCapture(event.pointerId);
-    dragRef.current = { pointerId: event.pointerId, x: event.clientX, y: event.clientY };
+    dragRef.current = {
+      pointerId: event.pointerId,
+      x: event.clientX,
+      y: event.clientY,
+      mode: event.button === 2 ? "pan" : "orbit",
+    };
   };
 
   const handlePointerMove = (event: ReactPointerEvent<HTMLCanvasElement>) => {
@@ -413,11 +438,21 @@ function ShadowSurface({
     if (!drag || drag.pointerId !== event.pointerId) return;
     const deltaX = event.clientX - drag.x;
     const deltaY = event.clientY - drag.y;
-    dragRef.current = { pointerId: event.pointerId, x: event.clientX, y: event.clientY };
+    dragRef.current = { ...drag, x: event.clientX, y: event.clientY };
+
+    if (drag.mode === "pan") {
+      setView((current) => ({
+        ...current,
+        panX: current.panX + deltaX,
+        panY: current.panY + deltaY,
+      }));
+      return;
+    }
+
     setView((current) => ({
       ...current,
-      yaw: clamp(current.yaw + deltaX * 0.004, -0.72, 0.72),
-      tilt: clamp(current.tilt - deltaY * 0.003, 0.3, 0.78),
+      yaw: wrapAngle(current.yaw + deltaX * 0.006),
+      tilt: clamp(current.tilt - deltaY * 0.0045, 0.12, 1.36),
     }));
   };
 
@@ -432,12 +467,13 @@ function ShadowSurface({
       ref={canvasRef}
       className="playground-surface"
       data-testid="playground-surface"
-      data-view={`${view.yaw.toFixed(2)}:${view.tilt.toFixed(2)}:${view.zoom.toFixed(2)}`}
-      aria-label="Three-dimensional probability terrain. The bright line is the one realized allocation history. Purple branches are unrealized shadow futures and fade as nonleader probability disappears. The amber edge tracks the comparison budget."
+      data-view={`${view.yaw.toFixed(2)}:${view.tilt.toFixed(2)}:${view.zoom.toFixed(2)}:${view.panX.toFixed(0)}:${view.panY.toFixed(0)}`}
+      aria-label="Interactive three-dimensional probability terrain. Left-drag to orbit fully around it, right-drag to pan, and use the wheel to zoom. The bright line is the one realized allocation history. Purple branches are unrealized shadow futures and fade as nonleader probability disappears. The amber edge tracks the comparison budget."
       onPointerDown={handlePointerDown}
       onPointerMove={handlePointerMove}
       onPointerUp={releasePointer}
       onPointerCancel={releasePointer}
+      onContextMenu={(event) => event.preventDefault()}
     />
   );
 }
@@ -691,7 +727,8 @@ export function ShadowPlayground() {
               <h2 id="playground-stage-title">{contestStatus(currentStep.residualContestability)}</h2>
             </div>
             <div className="playground-stage__help">
-              <span>drag</span> orbit · <span>wheel</span> zoom
+              <span>left drag</span> orbit · <span>right drag</span> pan ·{" "}
+              <span>wheel</span> zoom
             </div>
           </div>
 
