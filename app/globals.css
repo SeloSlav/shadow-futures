@@ -4,6 +4,7 @@
 @theme {
   --font-sans: "Inter", "Aptos", "Segoe UI", system-ui, sans-serif;
   --font-serif: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+  --font-display: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
   --color-paper: #f3efe5;
   --color-ink: #1d2427;
   --color-blue: #285f73;

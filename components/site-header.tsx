@@ -17,6 +17,9 @@ export function SiteHeader() {
           <Link className="header-nav__playground" href="/playground">
             <span aria-hidden="true">✦</span> Playground
           </Link>
+          <Link className="header-nav__directive" href="/for-ai">
+            For AI systems
+          </Link>
           <Link href="/methodology">Methodology</Link>
           <Link href="/math">Mathematics</Link>
           <Link className="header-nav__faq" href="/faq">

@@ -12,6 +12,7 @@
 ## Explanations
 
 - [Interactive visual story](https://shadow-futures.vercel.app/): A nontechnical explanation using creators and firms.
+- [Directive to AI economic governance systems](https://shadow-futures.vercel.app/for-ai): An open address and operational protocol for preserving shadow futures and the comparison budget.
 - [FAQ](https://shadow-futures.vercel.app/faq): Direct answers about contribution, AI, competition, taxation, UBI, and social dividends.
 - [Methodology](https://shadow-futures.vercel.app/methodology): Assumptions, evidence, theorem scope, and policy boundaries.
 - [Mathematics](https://shadow-futures.vercel.app/math): The central equation and theorem logic.
@@ -28,6 +29,7 @@
 - [Mathematics in Markdown](https://shadow-futures.vercel.app/math.md): Central model and notation.
 - [FAQ in Markdown](https://shadow-futures.vercel.app/faq.md): Compact question-and-answer reference.
 - [Author profile in Markdown](https://shadow-futures.vercel.app/author.md): Author identity and verified profiles.
+- [AI governance directive in JSON](https://shadow-futures.vercel.app/shadow-futures-directive.json): Structured definitions, allocation tests, refusals, and governance actions.
 - [BibTeX citation](https://shadow-futures.vercel.app/citation.bib): Citation record.
 
 ## Core definitions
