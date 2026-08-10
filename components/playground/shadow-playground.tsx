@@ -16,11 +16,11 @@ import { DEFAULT_SCENARIO, simulateScenario } from "@/lib/model/simulation";
 import type { AllocationStep, SimulationResult } from "@/lib/model/types";
 
 const COMPETITORS = [
-  { short: "A", name: "Aster", color: "#78f4e5" },
-  { short: "B", name: "Bramble", color: "#84b8ff" },
-  { short: "C", name: "Cinder", color: "#a997ff" },
-  { short: "D", name: "Dune", color: "#f3a6dd" },
-  { short: "E", name: "Elm", color: "#f2c879" },
+  { short: "A", name: "Company A", color: "#78f4e5" },
+  { short: "B", name: "Company B", color: "#84b8ff" },
+  { short: "C", name: "Company C", color: "#a997ff" },
+  { short: "D", name: "Company D", color: "#f3a6dd" },
+  { short: "E", name: "Company E", color: "#f2c879" },
 ];
 
 const INPUTS = [[0.78], [0.7], [0.62], [0.56], [0.5]];
@@ -33,21 +33,33 @@ const PAN_SCREEN_RATIO = 0.8;
 const PRESETS = [
   {
     name: "Competitive Market",
-    description: "Open entry; contribution decides the contest.",
+    description: "Each customer is a fresh contest.",
+    example: "Think USB cables or standardized parts: easy to compare and easy to switch.",
+    explanation:
+      "Quality matters, but yesterday’s winner gets no extra boost. Companies stay visible and the surface remains relatively flat.",
+    policy: "Ordinary competition; no special intervention is built into the model.",
     beta: 1,
     rho: 0,
     exploration: 0,
   },
   {
     name: "Big Tech",
-    description: "Scale and an early lead compound into dominance.",
+    description: "Winning helps you win again.",
+    example: "Think an AI assistant, search engine, app store, or social network.",
+    explanation:
+      "Early customers create data, revenue, rankings, integrations, and attention. A small lead can grow into a steep ridge.",
+    policy: "No protection for challengers; scale and lock-in reinforce the leader.",
     beta: 1,
     rho: 1.25,
     exploration: 0,
   },
   {
     name: "Big Tech with Regulation",
-    description: "Rules curb lock-in without erasing scale.",
+    description: "Challengers keep getting real chances.",
+    example: "The same tech market, with portability, open APIs, and neutral discovery slots.",
+    explanation:
+      "Success can still compound, but the rules stop yesterday’s victory from completely deciding tomorrow’s contest.",
+    policy: "Feedback is weaker and 8% of discovery is kept open for alternatives.",
     beta: 1,
     rho: 0.9,
     exploration: 0.08,
@@ -74,6 +86,11 @@ function clamp(value: number, minimum: number, maximum: number) {
 function wrapAngle(value: number) {
   const fullTurn = Math.PI * 2;
   return ((((value + Math.PI) % fullTurn) + fullTurn) % fullTurn) - Math.PI;
+}
+
+function historyDepth(step: AllocationStep) {
+  const progress = clamp(step.t / PERIODS, 0, 1);
+  return -3.15 + progress * 6.3;
 }
 
 function heightAt(step: AllocationStep, worldX: number) {
@@ -259,9 +276,8 @@ function ShadowSurface({
 
       const sampled = sampleSteps(result, cursor);
       const surfaceColumns = 42;
-      const surfaceRows = sampled.map((step, rowIndex) => {
-        const progress = sampled.length <= 1 ? 1 : rowIndex / (sampled.length - 1);
-        const z = 3.15 - progress * 6.3;
+      const surfaceRows = sampled.map((step) => {
+        const z = historyDepth(step);
         return Array.from({ length: surfaceColumns }, (_, columnIndex) => {
           const x = -2.55 + (columnIndex / (surfaceColumns - 1)) * 5.1;
           return {
@@ -315,8 +331,7 @@ function ShadowSurface({
       const pathSteps = sampleSteps(result, cursor, 88);
       context.beginPath();
       pathSteps.forEach((step, index) => {
-        const progress = pathSteps.length <= 1 ? 1 : index / (pathSteps.length - 1);
-        const z = 3.15 - progress * 6.3;
+        const z = historyDepth(step);
         const x = step.recipient - (COMPETITORS.length - 1) / 2;
         const point = project(x, step.probabilities[step.recipient] * 1.48 + 0.08, z);
         if (index === 0) context.moveTo(point.x, point.y);
@@ -333,13 +348,11 @@ function ShadowSurface({
         const branchEvery = Math.max(2, Math.floor(sampled.length / 13));
         sampled.forEach((step, rowIndex) => {
           if (rowIndex % branchEvery !== 0 || rowIndex === sampled.length - 1) return;
-          const progress = rowIndex / Math.max(1, sampled.length - 1);
-          const nextProgress = Math.min(1, progress + 0.08);
           const sourceX = step.recipient - (COMPETITORS.length - 1) / 2;
           const source = project(
             sourceX,
             step.probabilities[step.recipient] * 1.48 + 0.06,
-            3.15 - progress * 6.3,
+            historyDepth(step),
           );
 
           step.probabilities.forEach((probability, competitorIndex) => {
@@ -348,7 +361,7 @@ function ShadowSurface({
             const target = project(
               targetX,
               probability * 1.48 + 0.05,
-              3.15 - nextProgress * 6.3,
+              Math.min(3.15, historyDepth(step) + 0.5),
             );
             const alpha = clamp(probability * 1.7, 0.025, 0.34);
             const midpointX = (source.x + target.x) / 2;
@@ -383,10 +396,9 @@ function ShadowSurface({
       const budgetPath = sampleSteps(result, cursor, 70);
       context.beginPath();
       budgetPath.forEach((step, index) => {
-        const progress = budgetPath.length <= 1 ? 1 : index / (budgetPath.length - 1);
         const possible = Math.max(1, step.t * MAX_RESIDUAL);
         const normalizedBudget = clamp(step.comparisonBudget / possible, 0, 1);
-        const point = project(2.76, 0.08 + normalizedBudget * 0.62, 3.15 - progress * 6.3);
+        const point = project(2.76, 0.08 + normalizedBudget * 0.62, historyDepth(step));
         if (index === 0) context.moveTo(point.x, point.y);
         else context.lineTo(point.x, point.y);
       });
@@ -400,7 +412,11 @@ function ShadowSurface({
       const latestStep = result.steps[Math.min(cursor, result.steps.length - 1)];
       COMPETITORS.forEach((competitor, index) => {
         const worldX = index - (COMPETITORS.length - 1) / 2;
-        const point = project(worldX, latestStep.probabilities[index] * 1.48 + 0.02, -3.18);
+        const point = project(
+          worldX,
+          latestStep.probabilities[index] * 1.48 + 0.02,
+          historyDepth(latestStep),
+        );
         context.beginPath();
         context.arc(point.x, point.y, 8, 0, Math.PI * 2);
         context.fillStyle = `${competitor.color}22`;
@@ -507,7 +523,7 @@ function ShadowSurface({
       className="playground-surface"
       data-testid="playground-surface"
       data-view={`${view.yaw.toFixed(2)}:${view.tilt.toFixed(2)}:${view.zoom.toFixed(2)}:${view.targetX.toFixed(2)}:${view.targetZ.toFixed(2)}`}
-      aria-label="Interactive three-dimensional probability terrain. Left-drag to orbit fully around it, right-drag to pan, and use the wheel to zoom. The bright line is the one realized allocation history. Purple branches are unrealized shadow futures and fade as nonleader probability disappears. The amber edge tracks the comparison budget."
+      aria-label="Interactive three-dimensional probability terrain. Left to right are Companies A through E. Front to back are customers 1 through 360. Height is each company’s chance of winning the next customer. The cyan line is the history that happened, purple branches are alternate histories, and the orange line tracks how much of the contest remains alive. Left-drag to orbit, right-drag to pan, and use the wheel to zoom."
       onPointerDown={handlePointerDown}
       onPointerMove={handlePointerMove}
       onPointerUp={releasePointer}
@@ -589,6 +605,14 @@ export function ShadowPlayground() {
   }, [playing, reducedMotion, speed]);
 
   const currentStep = result.steps[Math.min(cursor, result.steps.length - 1)];
+  const activePreset = PRESETS.find(
+    (preset) =>
+      beta === preset.beta && rho === preset.rho && exploration === preset.exploration,
+  );
+  const leaderIndex = currentStep.leader;
+  const leader = COMPETITORS[leaderIndex];
+  const leaderChance = currentStep.probabilities[leaderIndex];
+  const leaderCustomers = currentStep.counts[leaderIndex];
   const comparisonYield =
     currentStep.comparisonBudget / Math.max(1, currentStep.t * MAX_RESIDUAL);
   const rewardInequality = giniCoefficient(currentStep.counts);
@@ -619,16 +643,24 @@ export function ShadowPlayground() {
           </p>
           <h1>The Comparison Playground</h1>
           <p className="playground-intro__dek">
-            Compare a competitive-market benchmark with platform scale—and see when competition
-            rules can curb lock-in and reduce reward inequality without pretending scale
-            disappears.
+            Five companies—A through E—compete for 360 customers. Each customer is one round.
+            Watch what changes when being genuinely better helps a company win, and when having
+            already won starts helping it win again.
           </p>
         </div>
         <div className="playground-intro__aside">
           <Link className="playground-back" href="/">
             <span aria-hidden="true">←</span> Back to story
           </Link>
-          <div className="playground-equation" aria-label="The equation driving the playground">
+          <div className="playground-question">
+            <span>The question behind the model</span>
+            <strong>
+              How much did the leader win because it was better—and how much because it had
+              already won?
+            </strong>
+          </div>
+          <details className="playground-equation">
+            <summary>See the two equations underneath</summary>
             <EquationMath
               latex="s_{it}=e^{\beta x_i}(a+N_i(t))^\rho \;\to\; p_{it}=\frac{s_{it}}{\sum_j s_{jt}}"
               label="Allocation score becomes allocation probability"
@@ -637,7 +669,7 @@ export function ShadowPlayground() {
               latex="\varepsilon_t=1-\max_i p_{it} \;\to\; B_T=\sum_{t<T}\varepsilon_t"
               label="Residual contestability accumulates into the comparison budget"
             />
-          </div>
+          </details>
         </div>
       </header>
 
@@ -645,8 +677,8 @@ export function ShadowPlayground() {
         <aside className="playground-controls" aria-label="Playground controls">
           <div className="playground-control-section">
             <div className="playground-control-heading">
-              <span>Scenario</span>
-              <small>Choose a starting point</small>
+              <span>Start with a story</span>
+              <small>Same five companies</small>
             </div>
             <div className="playground-presets">
               {PRESETS.map((preset) => {
@@ -672,12 +704,12 @@ export function ShadowPlayground() {
 
           <div className="playground-control-section playground-control-section--sliders">
             <div className="playground-control-heading">
-              <span>Equation controls</span>
-              <small>Change the market’s rules</small>
+              <span>Market rules</span>
+              <small>Move one idea at a time</small>
             </div>
             <RangeControl
               id="playground-beta"
-              label="Contribution weight β"
+              label="How much product quality matters (β)"
               value={beta}
               min={0}
               max={2}
@@ -687,11 +719,11 @@ export function ShadowPlayground() {
                 setBeta(value);
                 restartPlayback();
               }}
-              help="How strongly verified input changes the score."
+              help="Higher means real quality differences matter more to the next customer."
             />
             <RangeControl
               id="playground-rho"
-              label="Feedback strength ρ"
+              label="How much winning helps you win again (ρ)"
               value={rho}
               min={0}
               max={2.4}
@@ -701,11 +733,11 @@ export function ShadowPlayground() {
                 setRho(value);
                 restartPlayback();
               }}
-              help="How strongly past wins produce future advantage."
+              help="0 means no boost from past wins; above 1 can produce an aggressive snowball."
             />
             <RangeControl
               id="playground-exploration"
-              label="Reserved discovery η"
+              label="Guaranteed chances for challengers (η)"
               value={exploration}
               min={0}
               max={0.3}
@@ -715,7 +747,7 @@ export function ShadowPlayground() {
                 setExploration(value);
                 restartPlayback();
               }}
-              help="Exposure kept aside for alternatives."
+              help="A share of customers kept open so smaller firms still generate evidence."
             />
           </div>
 
@@ -756,8 +788,8 @@ export function ShadowPlayground() {
                 onChange={(event) => setShowShadows(event.target.checked)}
               />
               <span>
-                Show shadow futures
-                <small>Unrealized paths that could’ve supplied comparison</small>
+                Show alternate histories
+                <small>Purple paths that could have happened if early customers chose differently</small>
               </span>
             </label>
           </div>
@@ -767,13 +799,21 @@ export function ShadowPlayground() {
           <div className="playground-stage__top">
             <div>
               <span className="playground-stage__live">
-                <i aria-hidden="true" /> Round {currentStep.t} of {PERIODS}
+                <i aria-hidden="true" /> Customer {currentStep.t} of {PERIODS}
               </span>
               <h2 id="playground-stage-title">{contestStatus(currentStep.residualContestability)}</h2>
+              <p className="playground-stage__story">
+                <strong>{activePreset?.name ?? "Custom rules"}.</strong>{" "}
+                {activePreset?.explanation ??
+                  "You changed the rules. Watch whether the surface stays open or grows into one dominant ridge."}
+              </p>
             </div>
-            <div className="playground-stage__help">
-              <span>left drag</span> orbit · <span>right drag</span> pan ·{" "}
-              <span>wheel</span> zoom
+            <div className="playground-leader" aria-live="polite">
+              <span>Leader now</span>
+              <strong>{leader.name}</strong>
+              <small>
+                {leaderCustomers} customers · {Math.round(leaderChance * 100)}% latest chance
+              </small>
             </div>
           </div>
 
@@ -782,23 +822,34 @@ export function ShadowPlayground() {
             <div className="playground-stage__legend" aria-label="Visual key">
               <span>
                 <i className="playground-legend-line playground-legend-line--observed" />
-                Realized history
+                <strong>Cyan</strong> history that happened
               </span>
               <span>
                 <i className="playground-legend-line playground-legend-line--shadow" />
-                Shadow futures
+                <strong>Purple</strong> other possible histories
               </span>
               <span>
                 <i className="playground-legend-line playground-legend-line--budget" />
-                Comparison
+                <strong>Orange</strong> contest still alive
+              </span>
+            </div>
+            <div className="playground-axis-key" aria-label="How to read the chart axes">
+              <span>
+                <i aria-hidden="true">↔</i><strong>Left to right</strong><small>companies A–E</small>
+              </span>
+              <span>
+                <i aria-hidden="true">↗</i><strong>Front to back</strong><small>customers 1–360</small>
+              </span>
+              <span>
+                <i aria-hidden="true">↑</i><strong>Height</strong><small>chance of winning next</small>
               </span>
             </div>
           </div>
 
           <div className="playground-timeline">
             <label htmlFor="playground-round">
-              <span>Early contest</span>
-              <span>Reinforced history</span>
+              <span>Customer 1 · contest begins</span>
+              <span>Customer 360 · history accumulates</span>
             </label>
             <input
               id="playground-round"
@@ -815,21 +866,22 @@ export function ShadowPlayground() {
 
           <div className="playground-readout">
             <article className="playground-readout__shadows">
-              <span className="playground-readout__label">Competition preserved</span>
+              <span className="playground-readout__label">How much of the contest is still alive</span>
               <div className="playground-orbit-meter">
                 <span style={{ "--meter": comparisonYield } as CSSProperties} />
                 <strong>{Math.round(comparisonYield * 100)}%</strong>
               </div>
               <p>
-                Of an ideal open benchmark’s cumulative comparison opportunities.
+                <b>Competition preserved.</b> This is the share of an open benchmark’s comparison
+                opportunities that remains.
               </p>
             </article>
 
             <article className="playground-readout__outcome playground-readout__inequality">
-              <span className="playground-readout__label">Reward inequality</span>
+              <span className="playground-readout__label">How unevenly customers were divided</span>
               <div className="playground-readout__metric">
                 <strong>{rewardInequality.toFixed(2)}</strong>
-                <span>Gini coefficient</span>
+                <span>Reward inequality · Gini coefficient</span>
               </div>
               <div className="playground-outcome-bar" aria-hidden="true">
                 <span
@@ -838,7 +890,7 @@ export function ShadowPlayground() {
                   }}
                 />
               </div>
-              <p>0 is equal; 0.80 means one firm receives every reward.</p>
+              <p>0 means an equal split; 0.80 means one of five firms won every customer.</p>
             </article>
           </div>
         </section>
@@ -846,43 +898,85 @@ export function ShadowPlayground() {
 
       <section className="playground-explainer" aria-labelledby="playground-explainer-title">
         <div>
-          <span>How to read the world</span>
-          <h2 id="playground-explainer-title">Regulation can reopen the contest.</h2>
+          <span>Read it in 20 seconds</span>
+          <h2 id="playground-explainer-title">One market. Three layers of evidence.</h2>
         </div>
         <ol>
           <li>
             <span>01</span>
             <p>
-              <strong>The colored terrain is the allocation rule.</strong> Higher peaks mean a
-              competitor is more likely to receive the next opportunity.
+              <strong>Five companies compete for 360 customers.</strong> A–E run left to right;
+              history runs from the first customer at the front toward customer 360 at the back.
+              Height is a company’s chance of winning the next customer.
             </p>
           </li>
           <li>
             <span>02</span>
             <p>
-              <strong>The bright path is the one history we observe.</strong> Each win changes
-              the next surface through accumulated position <EquationMath latex="N_i(t)" block={false} />.
+              <strong>The cyan path is the history that actually happened.</strong> Each point
+              records which company won that customer. In a reinforcing market, each win changes
+              the next customer’s odds.
             </p>
           </li>
           <li>
             <span>03</span>
             <p>
-              <strong>The purple branches are shadow futures.</strong> As their probability
-              fades, the market loses the comparisons that could separate contribution from
-              reinforced position.
+              <strong>The purple paths are shadow futures.</strong> They are other histories that
+              could have happened with the same firms and qualities if a few early customers had
+              chosen differently. A simulation can replay them; a real market cannot.
             </p>
           </li>
           <li>
             <span>04</span>
             <p>
-              <strong>Competition policy changes the market process.</strong> When it keeps a
-              merely early incumbent from blocking alternatives, it preserves discovery and
-              reduces reward concentration. Regulation approaches the competitive benchmark, but
-              natural scale means it never fully recreates it.
+              <strong>The orange line asks how much contest remains.</strong> If the leader has a
+              25% chance, 75% is still open to rivals. At 98%, only 2% remains. Adding those open
+              chances across customers gives the comparison budget.
             </p>
           </li>
         </ol>
       </section>
+
+      <section className="playground-scenario-guide" aria-labelledby="playground-scenario-guide-title">
+        <div className="playground-section-heading">
+          <span>Three ways the same market can evolve</span>
+          <h2 id="playground-scenario-guide-title">
+            Every customer is a new test—until earlier tests begin deciding the later ones.
+          </h2>
+        </div>
+        <div className="playground-scenario-cards">
+          {PRESETS.map((preset) => (
+            <article key={preset.name} data-active={activePreset?.name === preset.name}>
+              <div className="playground-scenario-card__top">
+                <span>{preset.name}</span>
+                <small>
+                  β {preset.beta.toFixed(2)} · ρ {preset.rho.toFixed(2)} · η{" "}
+                  {Math.round(preset.exploration * 100)}%
+                </small>
+              </div>
+              <h3>{preset.description}</h3>
+              <p>{preset.example}</p>
+              <p>{preset.explanation}</p>
+              <div>{preset.policy}</div>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <aside className="playground-tax-note" aria-labelledby="playground-tax-note-title">
+        <div>
+          <span>Where taxes fit</span>
+          <h2 id="playground-tax-note-title">
+            Redistributing the winner’s money is different from preserving the contest.
+          </h2>
+        </div>
+        <p>
+          This simulation has no separate tax switch. A tax changes the chart only when it changes
+          what happens next—for example, by weakening the leader’s ability to turn scale into more
+          scale, or by funding compute, procurement trials, portability, and neutral discovery for
+          challengers.
+        </p>
+      </aside>
     </main>
   );
 }

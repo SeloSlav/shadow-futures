@@ -114,11 +114,16 @@ test.describe("interactive essay", () => {
     await expect(surface).toBeVisible();
     await expect(page.getByRole("banner")).toHaveCount(0);
     await expect(page.getByRole("link", { name: "Back to story" })).toHaveAttribute("href", "/");
-    await expect(page.getByLabel("Feedback strength ρ")).toHaveValue("1.25");
+    await expect(page.getByLabel("How much winning helps you win again (ρ)")).toHaveValue(
+      "1.25",
+    );
+    await expect(page.locator(".playground-intro__dek")).toContainText(
+      "Five companies—A through E—compete for 360 customers.",
+    );
     await expect(page.getByRole("button", { name: /Competitive Market/ })).toBeVisible();
     await expect(
       page.getByRole("button", {
-        name: "Big Tech Scale and an early lead compound into dominance.",
+        name: "Big Tech Winning helps you win again.",
       }),
     ).toBeVisible();
     await expect(page.getByRole("button", { name: /Big Tech with Regulation/ })).toBeVisible();
@@ -192,17 +197,21 @@ test.describe("interactive essay", () => {
     const canvasHeight = await surface.getAttribute("height");
     await page
       .getByRole("button", {
-        name: "Big Tech with Regulation Rules curb lock-in without erasing scale.",
+        name: "Big Tech with Regulation Challengers keep getting real chances.",
       })
       .click();
-    await expect(page.getByLabel("Feedback strength ρ")).toHaveValue("0.9");
-    await expect(page.getByLabel("Reserved discovery η")).toHaveValue("0.08");
+    await expect(page.getByLabel("How much winning helps you win again (ρ)")).toHaveValue("0.9");
+    await expect(page.getByLabel("Guaranteed chances for challengers (η)")).toHaveValue("0.08");
     await expect(surface).toHaveAttribute("width", canvasWidth ?? "");
     await expect(surface).toHaveAttribute("height", canvasHeight ?? "");
 
     await page.locator("#playground-round").press("End");
-    await expect(page.getByText("Competition preserved", { exact: true })).toBeVisible();
-    await expect(page.getByText("Reward inequality", { exact: true })).toBeVisible();
+    await expect(
+      page.getByText("How much of the contest is still alive", { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("How unevenly customers were divided", { exact: true }),
+    ).toBeVisible();
   });
 
   test("the operating system reduced-motion setting is respected", async ({ page, isMobile }) => {
