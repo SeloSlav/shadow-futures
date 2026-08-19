@@ -1,42 +1,136 @@
 # Shadow Futures
 
-A production-ready interactive economics story based on Martin Erlic's paper,
-*Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market*.
+**Contribution Uncertainty and the Self-Reinforcing Market**
 
-The familiar mechanism is self-reinforcement: early success can make later
-success more likely. The paper's distinct contribution is an information
-problem. A market can reward real productive inputs while consuming the
-independent comparison paths needed to measure what those inputs contributed.
-The unrealized repetitions that could have separated contribution from
-accumulated position are the shadow futures.
+An interactive economics story based on Martin Erlic's paper about a subtle
+failure of self-reinforcing markets: they can keep recording activity while
+losing the comparisons needed to explain what caused success.
 
-The main experience begins with creators whose work has different modeled
-audience appeal competing inside a self-reinforcing recommendation feed, then
-extends the same information problem to firms. Three animated graphs show:
+[Explore the interactive essay](https://shadow-futures.vercel.app/) ·
+[Read the paper on SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994) ·
+[Download the PDF](https://shadow-futures.vercel.app/paper.pdf) ·
+[Open the FAQ](https://shadow-futures.vercel.app/faq)
 
-1. How ten creator paths diverge after a small early burst of attention, and
-   how the second- and third-place paths change under periodic ranking resets.
-2. Why repeatedly boosting an early leader teaches us less than regularly
-   giving everyone another equal start.
-3. Why a Lorenz curve is a final scoreboard rather than evidence of what caused
-   the result.
+## A market can observe everything and still fail to learn
 
-The story connects this mechanism to creator careers across OnlyFans, Fanvue,
-YouTube, TikTok, Twitch, Instagram, Patreon, Substack, and online marketplaces,
-then extends it to competition among firms in AI, cloud computing,
-manufacturing, logistics, software, technical standards, finance, and public
-procurement. It carries the argument into merger policy, open standards,
-progressive taxation, UBI, social dividends, antitrust, and portability. The
-mathematics route presents one combined equation that connects the allocation
-rule, the closing contest, and the one-history learning limit.
+Imagine a market that perfectly observes work, quality, effort, judgment,
+capital, or risk. Those inputs genuinely affect who gets rewarded. But every
+reward also changes who is most likely to be seen and rewarded next.
 
-## Quick start
+Early success becomes position. Position becomes exposure. Exposure becomes
+more success.
 
-Requirements:
+As that loop strengthens, alternatives receive fewer meaningful chances to
+compete. The market may process thousands of new transactions without creating
+thousands of useful comparisons. Eventually, one realized history is rich in
+events but poor in evidence about contribution.
 
-- Node.js 20.9 or newer
-- npm 10 or newer
-- Google Chrome for the configured Playwright projects
+The missing comparison paths are **shadow futures**: unrealized repetitions in
+which the same productive inputs meet different accumulated positions. They are
+the paths we would need to separate what an input contributed from what the
+market had already reinforced.
+
+The paper formalizes this as a one-history learning limit. Under its stated
+conditions, if the market has only a finite total amount of remaining
+comparison, no estimator can consistently recover every nonconstant
+contribution functional from the realized path, and no test can separate two
+contribution parameters with vanishing total error.
+
+That is a claim about knowledge, not a claim that work does not matter. A real
+causal effect can exist and still be unrecoverable from the history that
+rewarded it.
+
+## What the experience shows
+
+The site turns the argument into a visual story about creators, platforms, and
+firms. Its simulations let you:
+
+- watch nearly identical creator paths diverge after small early differences;
+- compare uninterrupted rankings with periodic resets that restore competition;
+- run parallel worlds with the same structure and different seeded histories;
+- see why repeatedly rewarding a leader adds activity without necessarily
+  adding much identifying information;
+- contrast causal questions with Lorenz curves, which describe the final
+  distribution but not what produced it; and
+- carry the same logic into market concentration, interoperability, antitrust,
+  taxation, UBI, social dividends, and portability.
+
+For the formal route, see the
+[methodology](https://shadow-futures.vercel.app/methodology),
+[mathematics](https://shadow-futures.vercel.app/math), and
+[comparison playground](https://shadow-futures.vercel.app/playground).
+
+## The comparison budget
+
+The default simulation gives agent `i` a score based on a verified input and
+its accumulated position:
+
+```text
+s_it(β) = exp(β x_i) (a + N_i(t))^ρ
+p_it(β) = s_it(β) / Σ_j s_jt(β)
+```
+
+Here, `β` is the contribution coefficient, `x_i` is the verified input, `a` is
+baseline attachment, `N_i(t)` is accumulated reward, and `ρ` controls
+reinforcement.
+
+At each date, the probability mass outside the current leader is:
+
+```text
+ε_t = 1 - max_i p_it
+```
+
+The cumulative sum of `ε_t` is the market's **comparison budget**. When that
+budget remains finite, time can continue while effective comparison runs out.
+The relevant resource for learning is therefore not transaction count alone,
+but how much contestability those transactions preserve.
+
+## Why it matters
+
+The idea applies wherever rewards reshape future opportunity: recommendation
+feeds, creator markets, hiring, procurement, finance, technical standards,
+cloud platforms, AI, logistics, and other increasing-returns industries.
+
+It changes the question we should ask of concentrated outcomes. Instead of only
+asking whether success involved skill, effort, or investment, we must also ask
+whether the market preserved enough independent comparison to measure their
+contribution.
+
+That distinction matters for competition and distribution policy. It does not
+automatically select a merger rule, tax rate, or welfare program; it changes
+what the observed market history can legitimately be used to infer.
+
+## What the simulations establish—and what they do not
+
+- The simulations illustrate reinforced allocation and disappearing
+  comparison; they do not prove the theorem or estimate any real platform.
+- Work, quality, effort, judgment, capital, and risk can genuinely affect
+  reward even when their contribution cannot be recovered from one history.
+- Path dependence alone is not the impossibility result. The theorem depends on
+  common-design, local-equivalence, Hellinger-control, and finite-comparison
+  conditions stated in the paper.
+- Complete-history laws are mutually absolutely continuous under those
+  conditions; they are not claimed to be identical.
+- Finite comparison is sufficient for the theorem, not necessary for every
+  identification failure.
+- Policy implications remain conditional on their economic and normative
+  assumptions.
+
+## Reproducible by construction
+
+The simulator supports 2–10 agents, 10–10,000 periods, one- or two-dimensional
+inputs, initial-position differences, ranking resets, exploration, independent
+channels, and up to 1,000 parallel worlds. Scenario state can be shared by URL
+or exported as JSON; histories can be exported as CSV.
+
+Every run uses a seeded Mulberry32 generator. Simulation results never rely on
+unseeded `Math.random()`, and large parallel-world batches run in a Web Worker.
+The equation registry maps the article and appendix equations to their source
+locations, assumptions, variables, explanations, and derivations.
+
+## Run locally
+
+You need Node.js 20.9+ and npm 10+.
 
 ```bash
 npm install
@@ -45,214 +139,61 @@ npm run dev
 
 Open [http://localhost:3010](http://localhost:3010).
 
-## Commands
+Useful checks:
 
 ```bash
-npm run dev
 npm run lint
-npm run test
+npm test
+npm run build
 npm run test:e2e
-npm run build
-npm run start
 ```
 
-`npm run test` runs deterministic model, equation-registry, and URL-state tests with Vitest. `npm run test:e2e` starts the app and runs the desktop and mobile journeys in installed Google Chrome.
+The end-to-end suite uses Google Chrome. The app has no backend or database and
+can be deployed as a standard Next.js project. On Vercel, import the repository
+and keep the default framework settings.
 
-## Production build and deployment
-
-```bash
-npm install
-npm run lint
-npm run test
-npm run build
-npm run start
-```
-
-The application has no backend, database, or server-side state. It deploys directly to Vercel:
-
-1. Import this repository in Vercel.
-2. Keep the default Next.js framework preset.
-3. Set `NEXT_PUBLIC_SITE_URL` to the production origin.
-4. Optionally set `NEXT_PUBLIC_PAPER_URL` to an SSRN page, hosted PDF, or other canonical paper URL.
-5. Deploy.
-
-All simulation work is client-side. Large parallel-world batches are moved to a Web Worker.
-
-## Paper URL
-
-The repository includes the supplied source document at `public/paper.docx`. No lossy PDF conversion is performed.
+These environment variables are optional:
 
 ```env
-NEXT_PUBLIC_PAPER_URL=/paper.docx
 NEXT_PUBLIC_SITE_URL=https://your-domain.example
+NEXT_PUBLIC_PAPER_URL=https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994
 ```
 
-If a final PDF becomes available, place it in `public/paper.pdf` and use:
+`NEXT_PUBLIC_PAPER_URL` may instead point to the included `/paper.pdf` or
+`/paper.docx`.
 
-```env
-NEXT_PUBLIC_PAPER_URL=/paper.pdf
-```
-
-An SSRN or publisher URL can be used instead.
-
-## Simulation model
-
-The default model has:
-
-- 5 agents
-- scalar verified inputs `x_i`
-- contribution coefficient `β = 1`
-- baseline attachment `a = 1`
-- reinforcement exponent `ρ = 1.35`
-- 500 transactions
-- seed 42
-
-At each date:
-
-1. Compute
-
-   ```text
-   p_it(β) =
-     exp(β x_i) (a + N_i(t))^ρ
-     / Σ_j exp(β x_j) (a + N_j(t))^ρ
-   ```
-
-2. Compute residual contestability `ε_t = 1 - max_i p_it`.
-3. Add `ε_t` to the comparison budget.
-4. Compute the conditional Fisher-information trace and its `D_X² ε_t` upper bound.
-5. Draw one recipient from Mulberry32.
-6. Increment the recipient count.
-7. Store the probability vector, counts, recipient, comparison, and information metrics.
-
-The model supports:
-
-- 2–10 agents
-- 10–10,000 periods
-- scalar or two-dimensional verified inputs
-- initial position by agent
-- contribution, baseline, reinforcement, exploration, and reset controls
-- 2–1,000 structurally identical worlds with distinct derived seeds
-- 1–100 independent channels
-- reproducible URL state
-- CSV history and JSON scenario exports
-
-Simulation code lives in `lib/model`. No simulation result uses unseeded `Math.random()`.
-
-## Equation mapping
-
-`lib/equations/registry.ts` retains all 49 displayed equations from the main
-article and technical appendix, in document order, plus three key inline
-structural equations. The registry supports source verification and tests; it
-is not rendered as a public catalog.
-
-- Main article equations (1)–(11)
-- Appendix A information and KL identities, including (A1)
-- Appendix B likelihood-ratio and Hellinger steps, including (B1)–(B5)
-- Appendix C finite-horizon Le Cam construction
-- Appendix D reinforced allocation, clock construction, and common-support proof, including (D1)–(D3)
-
-Every registry entry records:
-
-- a stable ID and title
-- paper section and equation number, where numbered
-- LaTeX
-- plain-language explanation
-- assumptions
-- variable definitions
-- equation role (definition, identity, bound, condition, theorem, or policy implication)
-- derivation steps
-
-The `/math` route instead renders one central, paper-faithful chain with a
-plain-language breakdown. The `/methodology` route presents the essential
-supporting equations and theorem conditions.
-
-## Theorem versus simulation
-
-The simulations illustrate the allocation and information mechanisms. They do not prove the impossibility theorem.
-
-The application preserves these boundaries from the paper:
-
-- Work, quality, effort, judgment, capital, and risk can genuinely affect reward.
-- Different realized outcomes under identical inputs do not imply zero causal effect.
-- Path dependence alone does not imply the exact impossibility.
-- Finite comparison is sufficient under the theorem’s assumptions, not necessary for every identification failure.
-- Strong reinforcement is a sharp primitive corollary, not the definition of the phenomenon.
-- Complete-history laws are mutually absolutely continuous; they are not claimed to be identical.
-- One-history learning impossibility is distinct from exact point non-identification with latent position.
-- Any additional parameter-dependent observation must be included in the experiment.
-- Independent competition can create identifying variation; nominal firm count need not.
-- Merger and tax implications require their stated assumptions and do not automatically determine welfare or tax rates.
-- The contribution estimand concerns direct reward contribution inside the allocation mechanism, not total social value or moral desert.
-
-## Accessibility
-
-- Semantic landmark and heading structure
-- Skip link
-- Keyboard-operable buttons, range controls, chart paths, and details
-- Visible focus treatment
-- Text alternatives for SVG charts
-- Current values exposed by labeled native range inputs
-- `prefers-reduced-motion` support that follows the operating-system setting
-- Layouts tested from 375px upward without intentional horizontal overflow
-
-## Add a scenario
-
-1. Open `lib/scenarios/presets.ts`.
-2. Add a scenario through the `withDefaults` helper.
-3. Provide a unique `name`.
-4. Ensure `n`, `inputs`, and `initialPositions` agree.
-5. Run:
-
-   ```bash
-   npm run test
-   npm run build
-   ```
-
-Scenario state is normalized before simulation and validated with Zod before URL serialization.
-
-## Add an equation card
-
-1. Open `lib/equations/registry.ts`.
-2. Add an `eq({ ... })` entry with a stable `id`.
-3. Supply its paper location, LaTeX, equation role, explanation, variables, and assumptions.
-4. Add meaningful controls only when the statement has an adjustable numerical interpretation.
-5. For measure-theoretic results, prefer a finite example or candidate-parameter toggle.
-6. Update the expected registry count in `tests/unit/equations.test.ts`.
-7. Run the tests and inspect `/math`.
-
-## Architecture
+## Project map
 
 ```text
-app/
-  page.tsx
-  math/page.tsx
-  methodology/page.tsx
-  opengraph-image.tsx
-components/
-  equations/
-  story/
-  ui/
-lib/
-  equations/
-  model/
-  paper/
-  scenarios/
-  store/
-tests/
-  unit/
-  e2e/
+app/                 Routes, metadata, and page shells
+components/story/    Interactive narrative and visualizations
+components/equations Equation explanations and controls
+lib/model/           Seeded allocation and information simulations
+lib/equations/       Paper-to-interface equation registry
+lib/scenarios/       Shareable scenario presets
+tests/unit/          Deterministic model and state tests
+tests/e2e/           Desktop and mobile journeys
+public/              Paper, citation, and machine-readable sources
 ```
 
-React Server Components provide route shells and metadata. Client components are limited to simulations, controls, motion, chart state, and KaTeX rendering. Custom SVG charts use D3 scales/shapes. Zustand holds the shared market state. Zod validates shareable scenarios.
+The interface is built with Next.js, React, TypeScript, D3, Framer Motion,
+KaTeX, Zustand, and Zod.
 
 ## Citation
 
+Erlic, Martin. “Shadow Futures: Contribution Uncertainty and the
+Self-Reinforcing Market.” First posted December 2025; revised July 2026.
+[SSRN abstract 6003994](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994).
+[https://doi.org/10.2139/ssrn.6003994](https://doi.org/10.2139/ssrn.6003994).
+
 ```bibtex
-@article{erlic2026shadow,
+@article{erlic2025shadow,
   title={Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market},
   author={Erlic, Martin},
-  year={2026},
-  month={July},
-  note={First posted December 2025; revised July 2026}
+  year={2025},
+  month={December},
+  doi={10.2139/ssrn.6003994},
+  url={https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994},
+  note={Revised July 2026}
 }
 ```
