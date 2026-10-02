@@ -9,16 +9,16 @@ test.describe("interactive essay", () => {
     ).toBeVisible();
     await expect(page.locator(".site-header .header-nav__paper")).toHaveAttribute(
       "href",
-      "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994",
+      "/paper",
     );
     const firstSectionAfterHero = page.locator("#main-content > section").first();
     await expect(firstSectionAfterHero).toHaveAttribute("id", "novelty");
     await expect(
       firstSectionAfterHero.getByRole("heading", {
-        name: "A million transactions can still be only one experiment.",
+        name: "A million transactions can still add up to only one experiment.",
       }),
     ).toBeVisible();
-    await expect(firstSectionAfterHero.getByText("Le Goff and Soulier's")).toBeVisible();
+    await expect(firstSectionAfterHero.getByText(/The closest statistical precedent/)).toBeVisible();
     await page.getByRole("link", { name: "See how the evidence disappears" }).click();
     await expect(page.getByTestId("breakout-graph")).toBeVisible();
 
@@ -63,7 +63,9 @@ test.describe("interactive essay", () => {
     await expect(
       page.getByRole("heading", { name: "Reserve discovery for alternatives" }),
     ).toBeVisible();
-    await expect(page.getByText(/3\.0 times as much comparison/)).toBeVisible();
+    await expect(
+      page.getByTestId("lorenz-history-graph").getByText(/3\.0 times as much comparison/),
+    ).toBeVisible();
 
     const chapterIds = [
       "novelty",
@@ -97,10 +99,10 @@ test.describe("interactive essay", () => {
     test.skip(isMobile, "covered by the desktop mathematics journey");
     await page.goto("/math");
     await expect(
-      page.getByRole("heading", { name: "One equation carries the whole argument." }),
+      page.getByRole("heading", { name: "From winning odds to the learning limit." }),
     ).toBeVisible();
     await expect(page.getByText("Choose who receives the next opportunity")).toBeVisible();
-    await expect(page.getByText("What one history can’t tell us")).toBeVisible();
+    await expect(page.getByText("Apply the finite-budget condition")).toBeVisible();
   });
 
   test("runs the central equation in the comparison playground", async ({ page, isMobile }) => {

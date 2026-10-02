@@ -10,6 +10,7 @@ import {
   LorenzHistoryGraph,
 } from "@/components/story/creator-graphs";
 import { HeroNetwork } from "@/components/story/visuals";
+import { ComparisonBudgetGuide } from "@/components/story/comparison-budget-guide";
 import { PAPER } from "@/lib/paper/citation";
 
 function StorySection({
@@ -127,9 +128,10 @@ function NoveltyBridge() {
           <span className="panel__meta">A simple analogy</span>
           <h3>One product gets moved to the front shelf.</h3>
           <p>
-            A shop moves one product to the front after its first sale. Front placement brings
-            more sales, and each sale keeps it in front. After a year, the shop has thousands of
-            receipts but only one shelf history.
+            Imagine two products whose quality is measured perfectly. Both start with the
+            same shelf space. A chance early sale gives one a more prominent position; more
+            sales make its position more prominent still. Quality affects what shoppers buy,
+            but so does the placement created by earlier sales.
           </p>
           <figure className="novelty-analogy__visual" id="shelf-analogy-visual">
             <Image
@@ -145,9 +147,11 @@ function NoveltyBridge() {
             </figcaption>
           </figure>
           <p className="novelty-analogy__answer">
-            <strong>More receipts don’t mean more experiments.</strong> To separate product quality
-            from placement, we’d need to rerun the shop with a different product in front.
-            Those missing reruns are shadow futures.
+            <strong>The receipts record sales, not what would have happened otherwise.</strong>{" "}
+            Rerun the same shop from the same starting shelves, with the same products and
+            rule, but a different sequence of early purchases. The other product may end up
+            in front. That unrealized history is a shadow future. Deliberately rotating the
+            shelves is a different exercise: an intervention that creates fresh comparisons.
           </p>
         </article>
 
@@ -166,13 +170,16 @@ function NoveltyBridge() {
             <p>
               At every step, Shadow Futures measures the chance that someone other than the current
               leader gets the next reward. It adds those chances to the comparison budget. If that
-              total is finite, the paper proves that no method using only one market history can
-              consistently recover how much of the reward came from contribution, even when work
-              and quality are observed and new transactions keep arriving.
+              total stays finite over the entire future, and the theorem’s other conditions
+              hold, no method using only one market history can consistently recover a
+              contribution measure across all possible contribution values. This can happen
+              even when work and quality are observed and transactions keep arriving.
             </p>
           </article>
         </div>
       </div>
+
+      <ComparisonBudgetGuide />
 
       <div className="novelty-boundary">
         <span className="panel__meta">The literature gap, stated carefully</span>
@@ -245,7 +252,7 @@ export function CreatorStoryPage() {
           number={1}
           eyebrow="How a platform manufactures the chart"
           title="A platform can bury talent before it has a chance to become visible"
-          intro="Imagine 24 creators with a realistic spread of promise: some work will connect more strongly than others. But promise only becomes visible when people get to encounter the work. An early entrant who receives the first audience also gains followers, feedback, income and time to improve. The platform then reads those advantages as reasons to keep promoting them."
+          intro="Imagine 24 creators starting together with no recommendations. Each has a fixed, modeled audience-appeal score. Higher appeal raises the chance of being recommended, and every past recommendation also raises that chance. Run the same rules again with different random draws: the same creators can end up with different shares of attention."
           illustration={{
             src: "/illustrations/chapters/platform-visibility.png",
             alt: "Creator cards remain screened at the bottom while one card rides a feedback staircase upward.",
@@ -261,19 +268,21 @@ export function CreatorStoryPage() {
             </div>
             <div className="skill-objection__answer">
               <p>
-                The simulation gives creators different modeled audience appeal. Better work
-                improves the odds of connecting with each person who sees it. It doesn’t
-                guarantee that the ranking system will keep supplying those chances.
+                The simulation gives creators different audience-appeal scores. A higher
+                score directly improves the odds of receiving the next recommendation.
+                Past recommendations also affect those odds, so appeal alone doesn’t
+                determine the final ranking.
               </p>
               <p>
-                Earlier entrants can build followers, reviews, data, capital and production
-                capacity before a promising newcomer arrives. When platforms rank using those
-                accumulated signals, past exposure buys future exposure. A creator can be
-                talented and still be drowned out before enough people encounter the work.
+                In a real market, exposure can bring followers, income and resources to
+                improve. This small model tracks only recommendations. It does not simulate
+                new entrants, changing talent, followers or earnings, and its scores are
+                illustrative rather than estimates of real creators.
               </p>
               <p>
-                The question isn’t “Did the winner have talent?” It’s “Did the platform keep
-                testing enough alternatives to know how much unrealized talent it buried?”
+                The question is how much the measured input changed the odds of success.
+                A long record of recommendations may still lack the comparisons needed
+                to estimate that effect.
               </p>
             </div>
           </aside>
@@ -311,13 +320,15 @@ export function CreatorStoryPage() {
             id="shadow-futures"
             aria-label="Experimental evidence"
           >
-            <span className="panel__meta">Shown experimentally</span>
+            <span className="panel__meta">A related experiment: Music Lab</span>
             <p>
               <strong>This pattern is more than a thought experiment.</strong> In 2006, Matthew
               J. Salganik, Peter Sheridan Dodds and Duncan J. Watts built an artificial music
               market with 14,341 participants. When listeners could see earlier download counts,
-              success became more unequal and less predictable. Quality moved the odds, but it
-              didn’t determine the ranking.
+              success became more unequal and less predictable across parallel markets
+              containing the same songs. Songs’ appeal, measured by choices without popularity
+              information, still mattered. This illustrates why parallel histories are useful;
+              it does not establish the paper’s theorem for real creator platforms.
             </p>
             <p className="musiclab-evidence__citation">
               <a
@@ -360,7 +371,7 @@ export function CreatorStoryPage() {
           intro="Increasing returns and preferential attachment explain why an early lead can grow. Shadow Futures asks what happens to the evidence: once that lead has shaped thousands of later decisions, can the one history we observe still tell us how much the winner contributed?"
           illustration={{
             src: "/illustrations/chapters/erased-comparisons.png",
-            alt: "Alternative branches are cut off as feedback loops feed one recorded path.",
+            alt: "Fading alternative branches surround feedback loops feeding one recorded path.",
           }}
           dark
         >
@@ -437,15 +448,21 @@ export function CreatorStoryPage() {
           <div className="theorem creator-theorem">
             <div className="theorem__label">The Shadow Futures result</div>
             <blockquote>
-              Transactions aren’t the sample size. Real chances for the market to go another way
-              are.
+              Transaction count alone doesn’t tell us how much a market can teach us.
             </blockquote>
             <p>
-              The paper calls the total of those chances the comparison budget. If that budget
-              is finite, no method using a single market history can consistently recover a
-              meaningful measure of contribution that rises or falls when contribution does.
-              More activity can lengthen the same path without adding the missing experiments.
+              Under the paper’s assumptions, a finite total comparison budget means no method
+              based on one history can consistently learn a contribution quantity across all
+              possible contribution values. The record can still favor some explanations;
+              it cannot guarantee that uncertainty disappears as time passes. Different
+              contribution values need not produce identical distributions.
             </p>
+            <p>
+              The fading branches are a metaphor for comparisons the market did not generate.
+              Alternatives can keep a positive chance even when those chances add up to a
+              finite total.
+            </p>
+            <Link href="/methodology">Read the theorem’s assumptions and boundaries →</Link>
           </div>
         </StorySection>
 
@@ -577,7 +594,7 @@ export function CreatorStoryPage() {
           id="lorenz-curve"
           number={4}
           eyebrow="What inequality can’t answer"
-          title="The Lorenz curve is the symptom. Shadow futures are the missing evidence."
+          title="A Lorenz curve shows the gap. It cannot explain the cause."
           intro="Debates about extreme inequality often split between two stories. One says the reward broadly reflects talent, work or risk. The other says a small early accident was amplified by cumulative advantage. Shadow Futures reframes the argument: the same visible curve can reflect many different mixes of contribution and reinforced position, and a single market history may not contain the comparisons needed to tell them apart."
           illustration={{
             src: "/illustrations/chapters/lorenz-causes.png",
@@ -655,12 +672,12 @@ export function CreatorStoryPage() {
             </article>
           </div>
           <p className="data-note">
-            Both curves are model illustrations, not forecasts or OnlyFans or Fanvue payout data.
+            Both curves show simulated recommendations, not creator earnings or platform data.
             The blue curve models one narrow rule: once alternatives’ combined chance would fall
             below 50%, the ranking reserves enough discovery to preserve that comparison floor.
             Portability and independent trials are related institutional examples, not additional
-            inputs to the plotted simulation. A real Lorenz curve would require individual creator
-            earnings; company totals aren’t enough.
+            inputs to the plotted simulation. An income Lorenz curve would require individual
+            earnings data and might differ substantially from this exposure curve.
           </p>
           <div className="source-links" aria-label="Creator-platform sources">
             <a
@@ -699,7 +716,7 @@ export function CreatorStoryPage() {
           number={5}
           eyebrow="Tax, UBI and social insurance"
           title="The income record can’t isolate contribution from position"
-          intro="Existing tax systems use observable measures such as income, profits and wealth; they don’t try to calculate how much of each dollar came from the recipient’s contribution. The paper asks whether one market history could ever isolate the share created by position. Under the theorem’s conditions, it can’t. That means extreme rewards shouldn’t be treated as proof that recipients deserve every dollar. Progressive taxation, antitrust, UBI and social dividends each address a different part of the problem."
+          intro="The paper asks whether a tax could identify and collect exactly the part of a reward attributed to position. Its separate tax theorem says this is impossible when two economies give observable records the same probability law but assign different contributions to the same reward. Income alone cannot settle that attribution. How society should tax or share rewards remains a further policy choice."
           illustration={{
             src: "/illustrations/chapters/social-floor.png",
             alt: "A narrow tower of rewards is partly distributed through channels into a broad floor supporting many people.",
@@ -710,10 +727,11 @@ export function CreatorStoryPage() {
               <span className="panel__meta">A theoretical benchmark</span>
               <h3>Could a tax isolate only positional rent?</h3>
               <p>
-                The paper tests this demanding ideal to find the limits of what a market record
-                can reveal. Current tax systems generally don’t attempt this calculation. The
-                result limits claims about exactly what someone deserves; it isn’t a description
-                of ordinary tax administration.
+                Suppose two economies predict exactly the same probabilities for every
+                observable record, but assign different contribution to the same payout.
+                A tax based only on those records must charge
+                the same amount in both. It cannot equal two different positional-rent amounts.
+                This is Theorem 2, a separate result from the finite-comparison theorem.
               </p>
             </article>
             <article>
@@ -726,11 +744,18 @@ export function CreatorStoryPage() {
               </p>
             </article>
           </div>
+          <p className="data-note">
+            The choices below combine the paper’s measurement argument with judgments about
+            security, power and shared production. The paper does not choose a tax rate,
+            show that all high income is rent, or show that every merger is harmful. Its
+            social-dividend argument is narrower: an unconditional payment does not need
+            to reconstruct an individual merit ranking.
+          </p>
           <div className="policy-grid">
             {[
               [
                 "Tax extreme rewards progressively",
-                "The largest creator incomes, founder gains and monopoly profits combine real contribution with advantages that scale and history magnify. Higher rates are justified by ability to pay, concentrated power and the public systems that made those gains possible.",
+                "Extreme rewards may combine real contribution with advantages that scale and history magnify. Arguments for higher rates also rely on ability to pay, concentrated power and shared infrastructure; these are additional policy grounds, not a rate derived by the theorem.",
               ],
               [
                 "Use antitrust to keep alternative paths open",

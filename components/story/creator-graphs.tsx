@@ -10,6 +10,8 @@ const RECOMMENDATIONS = 1_600;
 const SAMPLE_EVERY = 40;
 const FEEDBACK_STRENGTH = 1.55;
 const RESET_INTERVAL = 400;
+const COMPARISON_RESET_INTERVAL = 160;
+const COMPARISON_RESET_COUNT = Math.floor((RECOMMENDATIONS - 1) / COMPARISON_RESET_INTERVAL);
 const WORLD_SEEDS = [31, 97, 160, 174, 214];
 const TOP_TEN_COLORS = [
   "var(--rust)",
@@ -34,6 +36,10 @@ type CreatorWorld = {
   series: number[][];
   winner: number;
 };
+
+function sharePercent(share: number) {
+  return (share * 100).toFixed(1);
+}
 
 function simulateCreatorWorld(
   seed: number,
@@ -238,7 +244,7 @@ export function BreakoutGraph() {
         <div>
           <div className="panel__meta">One platform chart in motion</div>
           <strong>
-            Creators differ. The feed decides whose promise gets enough chances to grow.
+            Fixed audience appeal and past exposure both shape the next recommendation.
           </strong>
         </div>
         <button className="button button--small" type="button" onClick={play}>
@@ -255,7 +261,7 @@ export function BreakoutGraph() {
           className="creator-line-chart"
           viewBox={`0 0 ${chartWidth} ${chartHeight}`}
           role="img"
-          aria-label="Twenty-four creators with different modeled audience response compete for 1,600 recommendations. The ten leading observed paths are shown."
+          aria-label="Cumulative recommendation shares for the ten highest-ranked creators out of 24. All start together with fixed modeled appeal. Each past recommendation increases future recommendation odds."
         >
           <title>One creator’s early exposure becomes a runaway platform lead</title>
           <desc>
@@ -263,6 +269,9 @@ export function BreakoutGraph() {
             differences in exposure are amplified until one creator receives much more of the
             platform’s attention. The ten leading observed paths are shown.
           </desc>
+          <text x="54" y="15" className="creator-chart-label comparison-axis-title">
+            share of recommendations received so far
+          </text>
           {[0, 0.25, 0.5, 0.75, 1].map((tick) => {
             const tickY = 24 + (1 - tick) * 344;
             return (
@@ -327,8 +336,11 @@ export function BreakoutGraph() {
                 />
                 <strong>#{rank + 1}</strong>
                 <span>Creator {entry.creator + 1}</span>
-                <span>{Math.round(entry.share * 100)}%</span>
-                {counterfactual ? <small>compared below</small> : null}
+                <span>{sharePercent(entry.share)}%</span>
+                <small>
+                  Appeal {MODELED_AUDIENCE_FIT[entry.creator].toFixed(2)}×
+                  {counterfactual ? " · compared below" : ""}
+                </small>
               </div>
             );
           })}
@@ -337,23 +349,22 @@ export function BreakoutGraph() {
         <section className="creator-shadow-comparison" aria-labelledby="shadow-paths-title">
           <div className="creator-shadow-comparison__intro">
             <div>
-              <span className="panel__meta">Two shadow paths, separated from the crowd</span>
+              <span className="panel__meta">A policy experiment with two of the same creators</span>
               <h3 id="shadow-paths-title">What changes when the platform reopens discovery?</h3>
             </div>
             <p>
-              Same creator, same modeled audience response and same random sequence. Only the
+              Same creator, same modeled audience appeal and same random sequence. Only the
               accumulated ranking score resets after recommendations 400, 800 and 1,200.
             </p>
           </div>
 
           <div className="creator-shadow-comparison__grid">
             {runnerUpCounterfactuals.map((entry, index) => {
-              const comparisonMax = Math.max(
+              const comparisonMax = Math.ceil(100 * Math.max(
                 0.12,
                 Math.max(...world.series[entry.creator], ...entry.resetSeries) * 1.08,
-              );
-              const delta =
-                Math.round(entry.resetShare * 100) - Math.round(entry.share * 100);
+              )) / 100;
+              const delta = (entry.resetShare - entry.share) * 100;
               return (
                 <article className="creator-shadow-card" key={entry.creator}>
                   <header>
@@ -363,7 +374,7 @@ export function BreakoutGraph() {
                     </div>
                     <span className="creator-shadow-card__delta">
                       {delta >= 0 ? "+" : ""}
-                      {delta} points
+                      {delta.toFixed(1)} points
                     </span>
                   </header>
 
@@ -371,12 +382,12 @@ export function BreakoutGraph() {
                     <div className="creator-shadow-card__panel">
                       <div className="creator-shadow-card__panel-head">
                         <span>Observed ranking</span>
-                        <strong>{Math.round(entry.share * 100)}%</strong>
+                        <strong>{sharePercent(entry.share)}%</strong>
                       </div>
                       <svg
                         viewBox={`0 0 ${miniChartWidth} ${miniChartHeight}`}
                         role="img"
-                        aria-label={`Creator ${entry.creator + 1} receives ${Math.round(entry.share * 100)} percent of recommendations under the observed ranking.`}
+                        aria-label={`Creator ${entry.creator + 1} receives ${sharePercent(entry.share)} percent of recommendations under the observed ranking.`}
                       >
                         <line
                           x1={miniChartInset.left}
@@ -402,17 +413,20 @@ export function BreakoutGraph() {
                           transition={{ duration: 0.08, ease: "linear" }}
                         />
                       </svg>
+                      <small className="creator-mini-scale">
+                        0–{Math.ceil(comparisonMax * 100)}% share · 0–1,600 recommendations
+                      </small>
                     </div>
 
                     <div className="creator-shadow-card__panel creator-shadow-card__panel--reset">
                       <div className="creator-shadow-card__panel-head">
                         <span>Ranking reset</span>
-                        <strong>{Math.round(entry.resetShare * 100)}%</strong>
+                        <strong>{sharePercent(entry.resetShare)}%</strong>
                       </div>
                       <svg
                         viewBox={`0 0 ${miniChartWidth} ${miniChartHeight}`}
                         role="img"
-                        aria-label={`Creator ${entry.creator + 1} receives ${Math.round(entry.resetShare * 100)} percent of recommendations when ranking scores reset every 400 recommendations.`}
+                        aria-label={`Creator ${entry.creator + 1} receives ${sharePercent(entry.resetShare)} percent of recommendations when ranking scores reset every 400 recommendations.`}
                       >
                         <line
                           x1={miniChartInset.left}
@@ -457,6 +471,9 @@ export function BreakoutGraph() {
                           transition={{ duration: 0.08, ease: "linear" }}
                         />
                       </svg>
+                      <small className="creator-mini-scale">
+                        0–{Math.ceil(comparisonMax * 100)}% share · dashed lines mark resets
+                      </small>
                     </div>
                   </div>
                 </article>
@@ -466,8 +483,9 @@ export function BreakoutGraph() {
 
           <p className="creator-shadow-comparison__note">
             The intervention clears accumulated visibility scores, not prior views or modeled
-            audience response. These are policy counterfactuals, not claims about a creator’s
-            guaranteed potential.
+            audience appeal. Each pair shares a vertical scale; scales differ between creators.
+            These are policy counterfactuals. A shadow future keeps the rule unchanged and
+            changes only the random draws: use “Run new recommendations” to see one.
           </p>
         </section>
       </div>
@@ -476,17 +494,17 @@ export function BreakoutGraph() {
         {animation.state === "complete" ? (
           <>
             Creator {world.winner + 1} received{" "}
-            <strong>{Math.round(world.finalShare * 100)}% of all recommendations</strong>.
+            <strong>{sharePercent(world.finalShare)}% of all recommendations</strong>.
             Without intervention, #2 and #3 received{" "}
-            {Math.round(runnerUpCounterfactuals[0].share * 100)}% and{" "}
-            {Math.round(runnerUpCounterfactuals[1].share * 100)}%. With ranking resets, their
-            shadow paths reach {Math.round(runnerUpCounterfactuals[0].resetShare * 100)}% and{" "}
-            {Math.round(runnerUpCounterfactuals[1].resetShare * 100)}%.
+            {sharePercent(runnerUpCounterfactuals[0].share)}% and{" "}
+            {sharePercent(runnerUpCounterfactuals[1].share)}%. With ranking resets, their
+            policy reruns reach {sharePercent(runnerUpCounterfactuals[0].resetShare)}% and{" "}
+            {sharePercent(runnerUpCounterfactuals[1].resetShare)}%.
           </>
         ) : (
           <>
-            Talent can improve the odds. It can’t be amplified if the platform stops showing the
-            work.
+            Run the recommendations, then rerun them. Inputs and rules stay the same;
+            only the random draws change. The model tracks exposure, not earnings or talent growth.
           </>
         )}
       </p>
@@ -497,24 +515,11 @@ export function BreakoutGraph() {
 export function ExperimentMonopolyGraph() {
   const animation = useGraphAnimation(2_700);
   const keptScores = useMemo(() => simulateCreatorWorld(31), []);
-  const clearedScores = useMemo(() => simulateCreatorWorld(31, 160), []);
+  const clearedScores = useMemo(() => simulateCreatorWorld(31, COMPARISON_RESET_INTERVAL), []);
   const keptScoreTotal = keptScores.comparison.at(-1) ?? 0;
   const clearedScoreTotal = clearedScores.comparison.at(-1) ?? 0;
-  const startingOpenShare = (CREATOR_COUNT - 1) / CREATOR_COUNT;
-  const averageOpenShare = (comparison: number[]) =>
-    comparison.map((total, index) =>
-      index === 0 ? startingOpenShare : total / (index * SAMPLE_EVERY),
-    );
-  const keptOpenShares = averageOpenShare(keptScores.comparison);
-  const clearedOpenShares = averageOpenShare(clearedScores.comparison);
-  const keptOpenShare = keptOpenShares.at(-1) ?? 0;
-  const clearedOpenShare = clearedOpenShares.at(-1) ?? 0;
-  const keptOpenPercent = Math.round(keptOpenShare * 100);
-  const clearedOpenPercent = Math.round(clearedOpenShare * 100);
   const chartWidth = 860;
   const chartHeight = 390;
-  const keptLabelY = Math.max(48, 24 + (1 - keptOpenShare) * 314 - 12);
-  const clearedLabelY = Math.max(48, 24 + (1 - clearedOpenShare) * 314 - 12);
 
   return (
     <div
@@ -525,7 +530,7 @@ export function ExperimentMonopolyGraph() {
       <div className="creator-graph__head">
         <div>
           <div className="panel__meta">Social media makes 1,600 recommendations</div>
-          <strong>How much opportunity remains for anyone besides the current leader?</strong>
+          <strong>Transactions keep arriving. Does comparison keep growing?</strong>
         </div>
         <button className="button button--small" type="button" onClick={animation.play}>
           {animation.running ? "Comparing…" : "Compare both rules"}
@@ -536,14 +541,13 @@ export function ExperimentMonopolyGraph() {
         <div>
           <span className="panel__meta">What the vertical axis measures</span>
           <strong>
-            The average chance that the next recommendation goes to anyone except the current
-            leader.
+            The comparison budget accumulated so far, rather than the number of transactions.
           </strong>
         </div>
         <p>
-          If the leader has a 70% chance of receiving the next recommendation, the other 23
-          creators together have 30%. A higher line means the recommendation system keeps more
-          alternative paths open.
+          A 70% chance for the current favorite adds 0.30 to the budget: everyone else has
+          a combined 30% chance. A 99.9% chance adds only 0.001. Both rules make 1,600
+          recommendations, but they accumulate different amounts of comparison.
         </p>
       </div>
 
@@ -552,16 +556,16 @@ export function ExperimentMonopolyGraph() {
           className="creator-line-chart"
           viewBox={`0 0 ${chartWidth} ${chartHeight}`}
           role="img"
-          aria-label={`The vertical axis measures the average chance that the next recommendation goes to anyone except the current leader. When the recommendation system keeps boosting the early leader, that chance averages ${keptOpenPercent} percent. Resetting everyone to equal visibility ten times raises it to ${clearedOpenPercent} percent.`}
+          aria-label={`Cumulative comparison budget versus recommendation count. Continuous reinforcement accumulates ${Math.round(keptScoreTotal)} budget units. Clearing ranking scores ${COMPARISON_RESET_COUNT} times accumulates ${Math.round(clearedScoreTotal)}. Both allocate 1,600 recommendations.`}
         >
-          <title>Average chance that anyone except the current leader is recommended next</title>
+          <title>Activity and comparison need not grow together</title>
           <desc>
-            One rule keeps boosting the current leader. The other resets every creator to
-            equal visibility ten times. A higher line means someone else is more likely to be
-            recommended.
+            A dashed line counts recommendations. The rust line adds the chance outside
+            the favorite under continuous reinforcement. The blue line clears accumulated
+            ranking scores nine times, retaining the same appeal scores and random draws.
           </desc>
           <text x="54" y="15" className="creator-chart-label comparison-axis-title">
-            average chance anyone else is recommended
+            cumulative comparison budget
           </text>
           {[0, 0.25, 0.5, 0.75, 1].map((tick) => {
             const tickY = 24 + (1 - tick) * 314;
@@ -580,13 +584,13 @@ export function ExperimentMonopolyGraph() {
                   textAnchor="end"
                   className="creator-chart-label comparison-y-tick"
                 >
-                  {Math.round(tick * 100)}%
+                  {(tick * RECOMMENDATIONS).toLocaleString("en-US")}
                 </text>
               </g>
             );
           })}
           <motion.path
-            d={linePath(keptOpenShares, chartWidth, chartHeight, 1)}
+            d={linePath(keptScores.comparison, chartWidth, chartHeight, RECOMMENDATIONS)}
             fill="none"
             stroke="var(--rust)"
             strokeWidth="5"
@@ -596,7 +600,7 @@ export function ExperimentMonopolyGraph() {
             transition={{ duration: 0.08, ease: "linear" }}
           />
           <motion.path
-            d={linePath(clearedOpenShares, chartWidth, chartHeight, 1)}
+            d={linePath(clearedScores.comparison, chartWidth, chartHeight, RECOMMENDATIONS)}
             fill="none"
             stroke="var(--blue)"
             strokeWidth="5"
@@ -605,28 +609,16 @@ export function ExperimentMonopolyGraph() {
             animate={{ pathLength: animation.progress }}
             transition={{ duration: 0.08, ease: "linear" }}
           />
-          {animation.progress > 0.92 ? (
-            <>
-              <text
-                x="820"
-                y={clearedLabelY}
-                textAnchor="end"
-                className="creator-chart-label"
-              >
-                reset to equal visibility: {clearedOpenPercent}%
-              </text>
-              <text
-                x="820"
-                y={keptLabelY}
-                textAnchor="end"
-                className="creator-chart-label"
-              >
-                keep boosting the leader: {keptOpenPercent}%
-              </text>
-            </>
-          ) : null}
+          <path
+            d={linePath([0, RECOMMENDATIONS], chartWidth, chartHeight, RECOMMENDATIONS)}
+            fill="none"
+            stroke="currentColor"
+            strokeOpacity="0.5"
+            strokeWidth="2"
+            strokeDasharray="7 8"
+          />
           <text x="54" y="370" className="creator-chart-label">
-            recommendation 1
+            0 recommendations
           </text>
           <text x="832" y="370" textAnchor="end" className="creator-chart-label">
             recommendation 1,600
@@ -634,30 +626,35 @@ export function ExperimentMonopolyGraph() {
         </svg>
       </div>
 
-      <div className="experiment-labels" aria-hidden="true">
+      <div className="experiment-labels">
         <div>
           <span className="experiment-labels__line experiment-labels__line--rust" />
           <strong>Keep boosting the early leader</strong>
-          <span>Anyone else: {keptOpenPercent}% average chance of the next recommendation</span>
+          <span>{Math.round(keptScoreTotal)} units of comparison budget</span>
         </div>
         <div>
           <span className="experiment-labels__line experiment-labels__line--blue" />
-          <strong>Reset everyone to equal visibility 10 times</strong>
-          <span>Anyone else: {clearedOpenPercent}% average chance of the next recommendation</span>
+          <strong>Clear ranking scores {COMPARISON_RESET_COUNT} times</strong>
+          <span>{Math.round(clearedScoreTotal)} units of comparison budget; appeal stays unchanged</span>
         </div>
       </div>
+      <p className="chart-reading-note">
+        The dashed line counts transactions, a different quantity shown for reference.
+        Clearing scores creates ten ranking periods, not ten independent markets.
+        A finite animation does not establish what happens over an infinite future.
+      </p>
 
       <p className="creator-graph__result" aria-live="polite">
         {animation.state === "complete" ? (
           <>
-            Across 1,600 recommendations, resetting visibility ten times gave someone other than
-            the current leader a <strong>{clearedOpenPercent}% average chance</strong> of receiving
-            the next recommendation. Continuous boosting cut that chance to{" "}
-            <strong>{keptOpenPercent}%</strong>. The reset rule preserved{" "}
+            Across the same 1,600 recommendations, clearing ranking scores {COMPARISON_RESET_COUNT}
+            {" "}times accumulated <strong>{Math.round(clearedScoreTotal)} comparison-budget units</strong>,
+            versus <strong>{Math.round(keptScoreTotal)}</strong> under continuous reinforcement.
+            This run preserved{" "}
             <strong>
-              about {Math.round(clearedScoreTotal / keptScoreTotal)} times as much opportunity
+              {(clearedScoreTotal / keptScoreTotal).toFixed(1)} times as much comparison
             </strong>
-            {" "}for an alternative to break through.
+            . A bigger budget leaves room for more evidence; it does not guarantee identification.
           </>
         ) : (
           <>
@@ -732,16 +729,6 @@ export function LorenzHistoryGraph() {
   const interventionActiveCreators = interventionShares.filter(
     (share) => share >= 0.02,
   ).length;
-  const displayedBudget =
-    baselineBudget +
-    (interventionBudget - baselineBudget) * animation.progress;
-  const displayedTopThreeShare =
-    baselineTopThreeShare +
-    (interventionTopThreeShare - baselineTopThreeShare) * animation.progress;
-  const displayedActiveCreators = Math.round(
-    baselineActiveCreators +
-      (interventionActiveCreators - baselineActiveCreators) * animation.progress,
-  );
   const chartWidth = 860;
   const chartHeight = 420;
   const annotationX = 54 + 0.75 * 778;
@@ -758,7 +745,7 @@ export function LorenzHistoryGraph() {
       <div className="creator-graph__head">
         <div>
           <div className="panel__meta">A comparison-preserving intervention</div>
-          <strong>Keep alternatives testable, then watch concentration fall.</strong>
+          <strong>In this run, preserving comparison spreads recommendations more widely.</strong>
         </div>
         <button className="button button--small" type="button" onClick={animation.play}>
           {animation.running
@@ -774,9 +761,9 @@ export function LorenzHistoryGraph() {
           className="creator-line-chart"
           viewBox={`0 0 ${chartWidth} ${chartHeight}`}
           role="img"
-          aria-label={`Two stylized Lorenz curves. Under the reinforcing rule, the top three creators receive ${Math.round(baselineTopThreeShare * 100)} percent of income. With a comparison-preserving rule, they receive ${Math.round(interventionTopThreeShare * 100)} percent.`}
+          aria-label={`Two Lorenz curves of simulated recommendation shares. Under reinforcement, the top three receive ${sharePercent(baselineTopThreeShare)} percent of recommendations. With the comparison floor, they receive ${sharePercent(interventionTopThreeShare)} percent. Each curve sorts creators separately from least to most exposure.`}
         >
-          <title>Income concentration before and after preserving comparison</title>
+          <title>Recommendation concentration under two allocation rules</title>
           <desc>
             A rust curve shows the reinforcing baseline. A blue curve appears when a rule
             preserves at least half of each next-recommendation chance for creators other
@@ -854,7 +841,7 @@ export function LorenzHistoryGraph() {
             textAnchor="end"
             className="creator-chart-label"
           >
-            baseline: bottom 75% receive {Math.round(baselineBottomShare * 100)}%
+            baseline: bottom 75% receive {sharePercent(baselineBottomShare)}%
           </text>
           {animation.progress > 0.92 ? (
             <>
@@ -871,7 +858,7 @@ export function LorenzHistoryGraph() {
                 className="creator-chart-label"
               >
                 comparison rule: bottom 75% receive{" "}
-                {Math.round(interventionBottomShare * 100)}%
+                {sharePercent(interventionBottomShare)}%
               </text>
             </>
           ) : null}
@@ -881,7 +868,7 @@ export function LorenzHistoryGraph() {
             textAnchor="middle"
             className="creator-chart-label lorenz-axis-title"
           >
-            creators, lowest to highest income
+            creators, least to most exposure
           </text>
           <text
             x="-196"
@@ -890,14 +877,14 @@ export function LorenzHistoryGraph() {
             textAnchor="middle"
             className="creator-chart-label lorenz-axis-title"
           >
-            share of all creator income
+            cumulative share of recommendations
           </text>
         </svg>
       </div>
 
       <div
         className="lorenz-comparison"
-        aria-label="Comparison budget and income concentration before and after intervention"
+        aria-label="Comparison budget and recommendation concentration under two rules"
       >
         <div className="lorenz-comparison__legend" aria-label="Chart key">
           <div>
@@ -928,29 +915,29 @@ export function LorenzHistoryGraph() {
             <strong>
               {Math.round(baselineBudget)}
               <span aria-hidden="true">→</span>
-              {animation.state === "idle" ? "?" : Math.round(displayedBudget)}
+              {animation.state === "complete" ? Math.round(interventionBudget) : "?"}
             </strong>
             <small>Cumulative chance for someone else to receive the next recommendation</small>
           </article>
           <article>
-            <span>Top three income share</span>
+            <span>Top three recommendation share</span>
             <strong>
-              {Math.round(baselineTopThreeShare * 100)}%
+              {sharePercent(baselineTopThreeShare)}%
               <span aria-hidden="true">→</span>
-              {animation.state === "idle"
-                ? "?"
-                : `${Math.round(displayedTopThreeShare * 100)}%`}
+              {animation.state === "complete"
+                ? `${sharePercent(interventionTopThreeShare)}%`
+                : "?"}
             </strong>
-            <small>Lower means income is less concentrated at the top</small>
+            <small>Exposure share, not an estimate of earnings or contribution</small>
           </article>
           <article>
-            <span>Creators with meaningful reach</span>
+            <span>Creators reaching the 2% cutoff</span>
             <strong>
               {baselineActiveCreators}
               <span aria-hidden="true">→</span>
-              {animation.state === "idle" ? "?" : displayedActiveCreators}
+              {animation.state === "complete" ? interventionActiveCreators : "?"}
             </strong>
-            <small>Creators receiving at least 2% of modeled exposure</small>
+            <small>An illustrative cutoff, not a test of commercial viability</small>
           </article>
         </div>
 
@@ -974,16 +961,16 @@ export function LorenzHistoryGraph() {
               <span className="panel__meta">Real-market counterpart</span>
               <h4>Make audiences and data portable</h4>
               <p>
-                Interoperability and portability stop one platform from owning every route to
-                reputation, customers and distribution.
+                Interoperability and portability can make other routes to reputation,
+                customers and distribution possible.
               </p>
             </article>
             <article>
               <span className="panel__meta">Real-market counterpart</span>
               <h4>Keep trials independent</h4>
               <p>
-                Separate rankings, procurement trials and public options create new paths
-                instead of extending the winner’s inherited history.
+                Separate rankings, procurement trials and public options can create useful
+                replications when their outcomes are genuinely independent and informative.
               </p>
             </article>
           </div>
@@ -997,14 +984,14 @@ export function LorenzHistoryGraph() {
             <strong>
               {(interventionBudget / baselineBudget).toFixed(1)} times as much comparison
             </strong>
-            , expanded the number of creators with meaningful reach from{" "}
+            , expanded the number receiving at least 2% of recommendations from{" "}
             <strong>
               {baselineActiveCreators} to {interventionActiveCreators}
             </strong>
-            , and reduced the top three’s income share from{" "}
+            , and reduced the top three’s recommendation share from{" "}
             <strong>
-              {Math.round(baselineTopThreeShare * 100)}% to{" "}
-              {Math.round(interventionTopThreeShare * 100)}%
+              {sharePercent(baselineTopThreeShare)}% to{" "}
+              {sharePercent(interventionTopThreeShare)}%
             </strong>
             .
           </>
@@ -1014,6 +1001,12 @@ export function LorenzHistoryGraph() {
             in the experiment and compare the resulting competition and concentration.
           </>
         )}
+      </p>
+      <p className="chart-reading-note">
+        Read 75% on the horizontal axis as the 18 least-exposed creators. The vertical
+        value is their combined share of recommendations. Each curve sorts creators anew,
+        so those 18 need not be the same people. These are two completed model runs;
+        the animation reveals the comparison, not a transition through intermediate policies.
       </p>
     </div>
   );
