@@ -1,0 +1,22 @@
+{
+  "url": "https://hunchroom.com/p/44",
+  "problem_id": 44,
+  "owner": "seloslav",
+  "kind": "proof",
+  "profile": "probability",
+  "statement_hash": "24b8f35ef816af4798fec92db75690d85a209faf6550dfc18189d5326c994979",
+  "statement_matches_local_exactly": true,
+  "public_status": "open",
+  "duplicate_check": "No identical statement found in this dependency profile.",
+  "local_statement_typecheck": "passed",
+  "proof_submitted": false,
+  "verification": {
+    "id": "job_9777681d0b51661d7a220fd2f61e7104bd0edaa16a816ce0645c161f41965855",
+    "status": "complete",
+    "stage": "typechecked",
+    "attempts": 1,
+    "updated_at": 1791489897,
+    "poll_after_seconds": 3
+  },
+  "server_statement_check": "typechecked"
+}
