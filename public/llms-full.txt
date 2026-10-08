@@ -84,6 +84,14 @@ no estimator based on one complete realized history can consistently recover eve
 
 The complete-history laws are not claimed to be equal. Mutual absolute continuity means they overlap too much for one realized market history to support universal consistent recovery of the contribution parameter. The same logic prevents tests from separating two contribution parameters with vanishing total error.
 
+## Contribute on Hunchroom
+
+Formal proof request: https://hunchroom.com/p/44
+
+Contribute a Lean proof, an independent meaning review, or a useful partial attempt. Request #44 formalizes a finite-recipient specialization of Theorem 1 and Appendix B, with scalar contribution functionals. The requested conclusions are mutual absolute continuity of complete-history laws and the resulting impossibility of universal consistent attribution, perfect asymptotic testing, and shrinking confidence procedures with coverage tending to one.
+
+The posted Lean statement has been typechecked. This establishes that the proposition is well formed; proof verification and review of its correspondence to the paper are separate checks. The preprint supplies the mathematical argument, and the Hunchroom request invites formalization and scrutiny of this specialization.
+
 ## Finite-horizon implication
 
 Attribution precision is limited by cumulative comparison rather than raw transaction count. When the comparison budget grows slowly, a long record can still contain limited information about contribution.

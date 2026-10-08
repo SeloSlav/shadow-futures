@@ -28,6 +28,12 @@ The implication is an identification limit. No estimator based on one realized m
 
 Strong reinforcement is one sharp corollary because it can exhaust the comparison budget and produce eventual allocation monopoly. With latent position, contribution and position can be exactly observationally equivalent.
 
+## Contribute on Hunchroom
+
+[Join the formal proof request on Hunchroom](https://hunchroom.com/p/44) to contribute a Lean proof, an independent meaning review, or a useful partial attempt. Request #44 formalizes a finite-recipient specialization of Theorem 1 and Appendix B, with scalar contribution functionals.
+
+The posted Lean statement has been typechecked. This establishes that the proposition is well formed; proof verification and review of its correspondence to the paper are separate checks.
+
 ## Citation
 
 Erlic, Martin. "Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market." First posted December 2025; revised July 2026. SSRN abstract 6003994. https://doi.org/10.2139/ssrn.6003994.

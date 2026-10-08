@@ -1010,6 +1010,25 @@ input[type="range"] {
   border-bottom: 1px solid var(--line-strong);
 }
 
+.research-invitation {
+  scroll-margin-top: 5rem;
+}
+
+.math-page .research-invitation {
+  margin-top: clamp(3rem, 8vw, 7rem);
+  padding-bottom: 0;
+}
+
+.research-invitation__scope {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.research-invitation__actions {
+  justify-content: flex-start;
+  margin-top: 1.5rem;
+}
+
 .paper-section__label > span {
   color: var(--rust);
   font-size: 0.7rem;

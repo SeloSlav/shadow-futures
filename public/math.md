@@ -73,6 +73,12 @@ Independent markets with a shared beta can add information when their fixed-hori
 
 Neither theorem says productive inputs have no causal effect.
 
+## Contribute on Hunchroom
+
+[Join the formal proof request on Hunchroom](https://hunchroom.com/p/44) to contribute a Lean proof, an independent meaning review, or a useful partial attempt. Request #44 formalizes a finite-recipient specialization of Theorem 1 and Appendix B, with scalar contribution functionals.
+
+The posted Lean statement has been typechecked. This establishes that the proposition is well formed; proof verification and review of its correspondence to the paper are separate checks.
+
 ## Sources
 
 Model: equation (1). Comparison budget: equations (2)–(3). Learning limit: Theorem 1 and Appendix B. Strong reinforcement: Appendix D. Replication, position invariance and taxation: Appendix E and sections 3–5.

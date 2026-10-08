@@ -811,6 +811,9 @@ export function CreatorStoryPage() {
               <Link className="button" href="/faq">
                 Questions and answers
               </Link>
+              <Link className="button" href="/paper#contribute">
+                Contribute on Hunchroom
+              </Link>
               <button
                 className="button"
                 type="button"

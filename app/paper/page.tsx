@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
+import { ResearchInvitation } from "@/components/research-invitation";
 import { AUTHOR, PAPER } from "@/lib/paper/citation";
 import { SITE_ORIGIN } from "@/lib/site";
 
@@ -207,6 +208,8 @@ export default function PaperPage() {
               </p>
             </div>
           </section>
+
+          <ResearchInvitation />
 
           <section className="paper-section paper-section--last" aria-labelledby="paper-citation">
             <div className="paper-section__label">
