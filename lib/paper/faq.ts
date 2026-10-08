@@ -270,7 +270,7 @@ export const FAQ_GROUPS: FaqGroup[] = [
         id: "author-and-paper",
         question: "Who developed the Shadow Futures argument, and where can I read the paper?",
         answer: [
-          "Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market is by Martin Erlic. The paper was first posted in December 2025 and revised in July 2026.",
+          "Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market is by Martin Erlic. The paper was first posted in December 2025 and revised in October 2026.",
           "The complete paper and technical appendix are available on SSRN at abstract ID 6003994.",
         ],
         inlineLink: {

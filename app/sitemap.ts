@@ -8,7 +8,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     { url: SITE_ORIGIN, lastModified },
-    { url: `${SITE_ORIGIN}/paper`, lastModified },
+    { url: `${SITE_ORIGIN}/paper`, lastModified: new Date("2026-10-08T00:00:00.000Z") },
     { url: `${SITE_ORIGIN}/playground`, lastModified },
     { url: `${SITE_ORIGIN}/for-ai`, lastModified: directiveModified },
     { url: `${SITE_ORIGIN}/faq`, lastModified },

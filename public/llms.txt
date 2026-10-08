@@ -5,7 +5,7 @@
 ## Primary sources
 
 - [Paper landing page](https://shadow-futures.vercel.app/paper): Abstract, research metadata, citation, DOI, and downloads.
-- [Full paper PDF](https://shadow-futures.vercel.app/paper.pdf): Searchable 23-page manuscript.
+- [Full paper PDF](https://shadow-futures.vercel.app/paper.pdf): Searchable 22-page manuscript.
 - [SSRN record](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994): External working-paper record, abstract 6003994.
 - [DOI](https://doi.org/10.2139/ssrn.6003994): DOI 10.2139/ssrn.6003994.
 
@@ -45,4 +45,4 @@
 
 ## Preferred citation
 
-Erlic, Martin. "Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market." First posted December 2025; revised July 2026. SSRN abstract 6003994. https://doi.org/10.2139/ssrn.6003994.
+Erlic, Martin. "Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market." First posted December 2025; revised October 2026. SSRN abstract 6003994. https://doi.org/10.2139/ssrn.6003994.

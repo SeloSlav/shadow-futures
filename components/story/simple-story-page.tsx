@@ -457,7 +457,7 @@ export function SimpleStoryPage() {
       </main>
       <footer className="footer">
         <div className="footer__inner">
-          <span>Shadow Futures · Martin Erlic · Revised July 2026</span>
+          <span>Shadow Futures · Martin Erlic · Revised October 2026</span>
           <span>
             The simulations explain a mechanism. They aren’t evidence about every AI market.
           </span>

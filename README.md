@@ -182,7 +182,7 @@ KaTeX, Zustand, and Zod.
 ## Citation
 
 Erlic, Martin. “Shadow Futures: Contribution Uncertainty and the
-Self-Reinforcing Market.” First posted December 2025; revised July 2026.
+Self-Reinforcing Market.” First posted December 2025; revised October 2026.
 [SSRN abstract 6003994](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994).
 [https://doi.org/10.2139/ssrn.6003994](https://doi.org/10.2139/ssrn.6003994).
 
@@ -194,6 +194,6 @@ Self-Reinforcing Market.” First posted December 2025; revised July 2026.
   month={December},
   doi={10.2139/ssrn.6003994},
   url={https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994},
-  note={Revised July 2026}
+  note={Revised October 2026}
 }
 ```

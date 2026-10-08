@@ -6,7 +6,7 @@ Martin Erlic is an independent author and researcher writing about systems, econ
 
 ## Research
 
-Martin Erlic is the author of "Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market," first posted in December 2025 and revised in July 2026.
+Martin Erlic is the author of "Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market," first posted in December 2025 and revised in October 2026.
 
 - Paper: https://shadow-futures.vercel.app/paper
 - DOI: https://doi.org/10.2139/ssrn.6003994
