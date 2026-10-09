@@ -47,7 +47,7 @@ export function MainPaperCard() {
         <p>{MAIN_RESEARCH_PAPER.description}</p>
         <PaperActions paper={MAIN_RESEARCH_PAPER} />
         <Link className={styles.detailsLink} href="/paper">
-          Abstract, citation and source document <span aria-hidden="true">→</span>
+          Abstract and citation <span aria-hidden="true">→</span>
         </Link>
       </div>
     </article>

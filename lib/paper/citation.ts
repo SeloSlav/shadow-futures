@@ -32,7 +32,6 @@ export const PAPER = {
   doiUrl: `https://doi.org/${DOI}`,
   landingPath: "/paper",
   pdfPath: "/paper.pdf",
-  sourcePath: "/paper.docx",
   ssrnUrl: SSRN_URL,
   url: process.env.NEXT_PUBLIC_PAPER_URL ?? SSRN_URL,
   citation:

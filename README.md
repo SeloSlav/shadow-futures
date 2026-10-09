@@ -159,8 +159,9 @@ NEXT_PUBLIC_SITE_URL=https://your-domain.example
 NEXT_PUBLIC_PAPER_URL=https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994
 ```
 
-`NEXT_PUBLIC_PAPER_URL` may instead point to the included `/paper.pdf` or
-`/paper.docx`.
+`NEXT_PUBLIC_PAPER_URL` may instead point to the included `/paper.pdf`.
+Website manuscript downloads are PDF only. Keep Word source files in the
+research archive under `output/docx/`, outside the public directory.
 
 ## Project map
 

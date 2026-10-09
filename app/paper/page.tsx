@@ -116,9 +116,6 @@ export default function PaperPage() {
               <a className="button button--primary" href={PAPER.pdfPath}>
                 Download the PDF
               </a>
-              <a className="button" href={PAPER.sourcePath}>
-                Download the DOCX
-              </a>
               <a
                 className="button button--rust"
                 href={PAPER.ssrnUrl}
