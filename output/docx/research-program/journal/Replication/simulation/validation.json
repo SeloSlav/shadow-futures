@@ -1,0 +1,1577 @@
+{
+  "status": "pass",
+  "checks_count": 311,
+  "checks": [
+    {
+      "check": "Recorded configuration counts",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=0.5, d=0.25, L=1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=0.5, d=0.25, L=1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=0.5, d=0.25, L=2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=0.5, d=0.25, L=2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=0.5, d=0.25, L=4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=0.5, d=0.25, L=4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=0.5, d=0.25, L=8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=0.5, d=0.25, L=8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=0.5, d=0.25, L=12",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=0.5, d=0.25, L=12",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=0.5, d=0.25, L=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=0.5, d=0.25, L=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=0.5, d=0.5, L=1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=0.5, d=0.5, L=1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=0.5, d=0.5, L=2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=0.5, d=0.5, L=2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=0.5, d=0.5, L=4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=0.5, d=0.5, L=4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=0.5, d=0.5, L=8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=0.5, d=0.5, L=8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=0.5, d=0.5, L=12",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=0.5, d=0.5, L=12",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=0.5, d=0.5, L=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=0.5, d=0.5, L=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=0.5, d=1.0, L=1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=0.5, d=1.0, L=1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=0.5, d=1.0, L=2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=0.5, d=1.0, L=2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=0.5, d=1.0, L=4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=0.5, d=1.0, L=4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=0.5, d=1.0, L=8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=0.5, d=1.0, L=8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=0.5, d=1.0, L=12",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=0.5, d=1.0, L=12",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=0.5, d=1.0, L=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=0.5, d=1.0, L=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=1.0, d=0.25, L=1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=1.0, d=0.25, L=1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=1.0, d=0.25, L=2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=1.0, d=0.25, L=2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=1.0, d=0.25, L=4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=1.0, d=0.25, L=4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=1.0, d=0.25, L=8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=1.0, d=0.25, L=8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=1.0, d=0.25, L=12",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=1.0, d=0.25, L=12",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=1.0, d=0.25, L=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=1.0, d=0.25, L=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=1.0, d=0.5, L=1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=1.0, d=0.5, L=1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=1.0, d=0.5, L=2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=1.0, d=0.5, L=2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=1.0, d=0.5, L=4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=1.0, d=0.5, L=4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=1.0, d=0.5, L=8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=1.0, d=0.5, L=8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=1.0, d=0.5, L=12",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=1.0, d=0.5, L=12",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=1.0, d=0.5, L=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=1.0, d=0.5, L=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=1.0, d=1.0, L=1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=1.0, d=1.0, L=1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=1.0, d=1.0, L=2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=1.0, d=1.0, L=2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=1.0, d=1.0, L=4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=1.0, d=1.0, L=4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=1.0, d=1.0, L=8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=1.0, d=1.0, L=8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=1.0, d=1.0, L=12",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=1.0, d=1.0, L=12",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=1.0, d=1.0, L=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=1.0, d=1.0, L=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=2.0, d=0.25, L=1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=2.0, d=0.25, L=1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=2.0, d=0.25, L=2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=2.0, d=0.25, L=2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=2.0, d=0.25, L=4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=2.0, d=0.25, L=4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=2.0, d=0.25, L=8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=2.0, d=0.25, L=8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=2.0, d=0.25, L=12",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=2.0, d=0.25, L=12",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=2.0, d=0.25, L=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=2.0, d=0.25, L=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=2.0, d=0.5, L=1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=2.0, d=0.5, L=1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=2.0, d=0.5, L=2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=2.0, d=0.5, L=2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=2.0, d=0.5, L=4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=2.0, d=0.5, L=4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=2.0, d=0.5, L=8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=2.0, d=0.5, L=8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=2.0, d=0.5, L=12",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=2.0, d=0.5, L=12",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=2.0, d=0.5, L=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=2.0, d=0.5, L=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=2.0, d=1.0, L=1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=2.0, d=1.0, L=1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=2.0, d=1.0, L=2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=2.0, d=1.0, L=2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=2.0, d=1.0, L=4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=2.0, d=1.0, L=4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=2.0, d=1.0, L=8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=2.0, d=1.0, L=8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=2.0, d=1.0, L=12",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=2.0, d=1.0, L=12",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent complete-history enumeration \u03b1=2.0, d=1.0, L=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Finite divergence and affinity bounds \u03b1=2.0, d=1.0, L=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent earlier length-sixteen benchmark",
+      "pass": true,
+      "detail": {
+        "alpha": 2.0,
+        "separation": 0.5,
+        "length": 16,
+        "exact_bayes_risk": 0.2667762473576408,
+        "affinity": 0.8603937026319346,
+        "expected_budget": 1.5423210220234065,
+        "expected_information": 1.1278065589328432
+      }
+    },
+    {
+      "check": "Independent pre-allocation recurrence reset=None, \u03c1=0, response=False, T=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent pre-allocation recurrence reset=None, \u03c1=0, response=False, T=256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent pre-allocation recurrence reset=None, \u03c1=0, response=False, T=2048",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent pre-allocation recurrence reset=None, \u03c1=0, response=False, T=8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent pre-allocation recurrence reset=16, \u03c1=0, response=False, T=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Retained-state residual floor \u03c1=0, T=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent pre-allocation recurrence reset=16, \u03c1=0, response=False, T=256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Retained-state residual floor \u03c1=0, T=256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent pre-allocation recurrence reset=16, \u03c1=0, response=False, T=2048",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Retained-state residual floor \u03c1=0, T=2048",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent pre-allocation recurrence reset=16, \u03c1=0, response=False, T=8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Retained-state residual floor \u03c1=0, T=8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent pre-allocation recurrence reset=16, \u03c1=0.5, response=False, T=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Retained-state residual floor \u03c1=0.5, T=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent pre-allocation recurrence reset=16, \u03c1=0.5, response=False, T=256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Retained-state residual floor \u03c1=0.5, T=256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent pre-allocation recurrence reset=16, \u03c1=0.5, response=False, T=2048",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Retained-state residual floor \u03c1=0.5, T=2048",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent pre-allocation recurrence reset=16, \u03c1=0.5, response=False, T=8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Retained-state residual floor \u03c1=0.5, T=8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent pre-allocation recurrence reset=16, \u03c1=0.9, response=False, T=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Retained-state residual floor \u03c1=0.9, T=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent pre-allocation recurrence reset=16, \u03c1=0.9, response=False, T=256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Retained-state residual floor \u03c1=0.9, T=256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent pre-allocation recurrence reset=16, \u03c1=0.9, response=False, T=2048",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Retained-state residual floor \u03c1=0.9, T=2048",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent pre-allocation recurrence reset=16, \u03c1=0.9, response=False, T=8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Retained-state residual floor \u03c1=0.9, T=8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent pre-allocation recurrence reset=16, \u03c1=1, response=False, T=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent pre-allocation recurrence reset=16, \u03c1=1, response=False, T=256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent pre-allocation recurrence reset=16, \u03c1=1, response=False, T=2048",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent pre-allocation recurrence reset=16, \u03c1=1, response=False, T=8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent pre-allocation recurrence reset=None, \u03c1=0, response=True, T=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent pre-allocation recurrence reset=None, \u03c1=0, response=True, T=256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent pre-allocation recurrence reset=None, \u03c1=0, response=True, T=2048",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Independent pre-allocation recurrence reset=None, \u03c1=0, response=True, T=8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Stored matched-recipient and audit identities T=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Stored matched-recipient and audit identities T=256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Stored matched-recipient and audit identities T=2048",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Stored matched-recipient and audit identities T=8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=0.5, d=0.25, reset=None, \u03c1=0.0, response=False, T=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=0.5, d=0.25, reset=None, \u03c1=0.0, response=False, T=256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=0.5, d=0.25, reset=None, \u03c1=0.0, response=False, T=2048",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=0.5, d=0.25, reset=None, \u03c1=0.0, response=False, T=8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=0.5, d=0.25, reset=16, \u03c1=0.0, response=False, T=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=0.5, d=0.25, reset=16, \u03c1=0.0, response=False, T=256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=0.5, d=0.25, reset=16, \u03c1=0.0, response=False, T=2048",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=0.5, d=0.25, reset=16, \u03c1=0.0, response=False, T=8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=0.5, d=0.5, reset=None, \u03c1=0.0, response=False, T=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=0.5, d=0.5, reset=None, \u03c1=0.0, response=False, T=256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=0.5, d=0.5, reset=None, \u03c1=0.0, response=False, T=2048",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=0.5, d=0.5, reset=None, \u03c1=0.0, response=False, T=8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=0.5, d=0.5, reset=16, \u03c1=0.0, response=False, T=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=0.5, d=0.5, reset=16, \u03c1=0.0, response=False, T=256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=0.5, d=0.5, reset=16, \u03c1=0.0, response=False, T=2048",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=0.5, d=0.5, reset=16, \u03c1=0.0, response=False, T=8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=0.5, d=1.0, reset=None, \u03c1=0.0, response=False, T=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=0.5, d=1.0, reset=None, \u03c1=0.0, response=False, T=256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=0.5, d=1.0, reset=None, \u03c1=0.0, response=False, T=2048",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=0.5, d=1.0, reset=None, \u03c1=0.0, response=False, T=8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=0.5, d=1.0, reset=16, \u03c1=0.0, response=False, T=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=0.5, d=1.0, reset=16, \u03c1=0.0, response=False, T=256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=0.5, d=1.0, reset=16, \u03c1=0.0, response=False, T=2048",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=0.5, d=1.0, reset=16, \u03c1=0.0, response=False, T=8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=1.0, d=0.25, reset=None, \u03c1=0.0, response=False, T=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=1.0, d=0.25, reset=None, \u03c1=0.0, response=False, T=256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=1.0, d=0.25, reset=None, \u03c1=0.0, response=False, T=2048",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=1.0, d=0.25, reset=None, \u03c1=0.0, response=False, T=8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=1.0, d=0.25, reset=16, \u03c1=0.0, response=False, T=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=1.0, d=0.25, reset=16, \u03c1=0.0, response=False, T=256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=1.0, d=0.25, reset=16, \u03c1=0.0, response=False, T=2048",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=1.0, d=0.25, reset=16, \u03c1=0.0, response=False, T=8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=1.0, d=0.5, reset=None, \u03c1=0.0, response=False, T=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=1.0, d=0.5, reset=None, \u03c1=0.0, response=False, T=256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=1.0, d=0.5, reset=None, \u03c1=0.0, response=False, T=2048",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=1.0, d=0.5, reset=None, \u03c1=0.0, response=False, T=8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=1.0, d=0.5, reset=16, \u03c1=0.0, response=False, T=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=1.0, d=0.5, reset=16, \u03c1=0.0, response=False, T=256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=1.0, d=0.5, reset=16, \u03c1=0.0, response=False, T=2048",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=1.0, d=0.5, reset=16, \u03c1=0.0, response=False, T=8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=1.0, d=1.0, reset=None, \u03c1=0.0, response=False, T=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=1.0, d=1.0, reset=None, \u03c1=0.0, response=False, T=256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=1.0, d=1.0, reset=None, \u03c1=0.0, response=False, T=2048",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=1.0, d=1.0, reset=None, \u03c1=0.0, response=False, T=8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=1.0, d=1.0, reset=16, \u03c1=0.0, response=False, T=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=1.0, d=1.0, reset=16, \u03c1=0.0, response=False, T=256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=1.0, d=1.0, reset=16, \u03c1=0.0, response=False, T=2048",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=1.0, d=1.0, reset=16, \u03c1=0.0, response=False, T=8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=2.0, d=0.25, reset=None, \u03c1=0.0, response=False, T=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=2.0, d=0.25, reset=None, \u03c1=0.0, response=False, T=256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=2.0, d=0.25, reset=None, \u03c1=0.0, response=False, T=2048",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=2.0, d=0.25, reset=None, \u03c1=0.0, response=False, T=8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=2.0, d=0.25, reset=16, \u03c1=0.0, response=False, T=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=2.0, d=0.25, reset=16, \u03c1=0.0, response=False, T=256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=2.0, d=0.25, reset=16, \u03c1=0.0, response=False, T=2048",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=2.0, d=0.25, reset=16, \u03c1=0.0, response=False, T=8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=2.0, d=0.5, reset=None, \u03c1=0.0, response=False, T=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=2.0, d=0.5, reset=None, \u03c1=0.0, response=False, T=256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=2.0, d=0.5, reset=None, \u03c1=0.0, response=False, T=2048",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=2.0, d=0.5, reset=None, \u03c1=0.0, response=False, T=8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=2.0, d=0.5, reset=16, \u03c1=0.0, response=False, T=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=2.0, d=0.5, reset=16, \u03c1=0.0, response=False, T=256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=2.0, d=0.5, reset=16, \u03c1=0.0, response=False, T=2048",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=2.0, d=0.5, reset=16, \u03c1=0.0, response=False, T=8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=2.0, d=1.0, reset=None, \u03c1=0.0, response=False, T=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=2.0, d=1.0, reset=None, \u03c1=0.0, response=False, T=256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=2.0, d=1.0, reset=None, \u03c1=0.0, response=False, T=2048",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=2.0, d=1.0, reset=None, \u03c1=0.0, response=False, T=8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=2.0, d=1.0, reset=16, \u03c1=0.0, response=False, T=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=2.0, d=1.0, reset=16, \u03c1=0.0, response=False, T=256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=2.0, d=1.0, reset=16, \u03c1=0.0, response=False, T=2048",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=2.0, d=1.0, reset=16, \u03c1=0.0, response=False, T=8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=2.0, d=0.5, reset=None, \u03c1=0.0, response=True, T=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=2.0, d=0.5, reset=None, \u03c1=0.0, response=True, T=256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=2.0, d=0.5, reset=None, \u03c1=0.0, response=True, T=2048",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=2.0, d=0.5, reset=None, \u03c1=0.0, response=True, T=8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=2.0, d=0.5, reset=16, \u03c1=0.5, response=False, T=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=2.0, d=0.5, reset=16, \u03c1=0.5, response=False, T=256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=2.0, d=0.5, reset=16, \u03c1=0.5, response=False, T=2048",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=2.0, d=0.5, reset=16, \u03c1=0.5, response=False, T=8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=2.0, d=0.5, reset=16, \u03c1=0.9, response=False, T=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=2.0, d=0.5, reset=16, \u03c1=0.9, response=False, T=256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=2.0, d=0.5, reset=16, \u03c1=0.9, response=False, T=2048",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=2.0, d=0.5, reset=16, \u03c1=0.9, response=False, T=8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=2.0, d=0.5, reset=16, \u03c1=1.0, response=False, T=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=2.0, d=0.5, reset=16, \u03c1=1.0, response=False, T=256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=2.0, d=0.5, reset=16, \u03c1=1.0, response=False, T=2048",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Risk weighting and scalar information bound \u03b1=2.0, d=0.5, reset=16, \u03c1=1.0, response=False, T=8192",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Rank ties included and resolution respected",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Complete ordered calibration banks",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration pooling and nuisance nesting \u03b1=0.5, reset=None, procedure=correct_known_alpha",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration pooling and nuisance nesting \u03b1=0.5, reset=None, procedure=wrong_fixed_alpha2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration pooling and nuisance nesting \u03b1=0.5, reset=None, procedure=baseline_nuisance_union",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration pooling and nuisance nesting \u03b1=0.5, reset=None, procedure=expanded_nuisance_union",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration pooling and nuisance nesting \u03b1=1.0, reset=None, procedure=correct_known_alpha",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration pooling and nuisance nesting \u03b1=1.0, reset=None, procedure=wrong_fixed_alpha2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration pooling and nuisance nesting \u03b1=1.0, reset=None, procedure=baseline_nuisance_union",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration pooling and nuisance nesting \u03b1=1.0, reset=None, procedure=expanded_nuisance_union",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration pooling and nuisance nesting \u03b1=1.5, reset=None, procedure=correct_known_alpha",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration pooling and nuisance nesting \u03b1=1.5, reset=None, procedure=wrong_fixed_alpha2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration pooling and nuisance nesting \u03b1=1.5, reset=None, procedure=baseline_nuisance_union",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration pooling and nuisance nesting \u03b1=1.5, reset=None, procedure=expanded_nuisance_union",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration pooling and nuisance nesting \u03b1=2.0, reset=None, procedure=correct_known_alpha",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration pooling and nuisance nesting \u03b1=2.0, reset=None, procedure=wrong_fixed_alpha2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration pooling and nuisance nesting \u03b1=2.0, reset=None, procedure=baseline_nuisance_union",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration pooling and nuisance nesting \u03b1=2.0, reset=None, procedure=expanded_nuisance_union",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration pooling and nuisance nesting \u03b1=0.5, reset=16, procedure=correct_known_alpha",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration pooling and nuisance nesting \u03b1=0.5, reset=16, procedure=wrong_fixed_alpha2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration pooling and nuisance nesting \u03b1=0.5, reset=16, procedure=baseline_nuisance_union",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration pooling and nuisance nesting \u03b1=0.5, reset=16, procedure=expanded_nuisance_union",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration pooling and nuisance nesting \u03b1=1.0, reset=16, procedure=correct_known_alpha",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration pooling and nuisance nesting \u03b1=1.0, reset=16, procedure=wrong_fixed_alpha2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration pooling and nuisance nesting \u03b1=1.0, reset=16, procedure=baseline_nuisance_union",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration pooling and nuisance nesting \u03b1=1.0, reset=16, procedure=expanded_nuisance_union",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration pooling and nuisance nesting \u03b1=1.5, reset=16, procedure=correct_known_alpha",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration pooling and nuisance nesting \u03b1=1.5, reset=16, procedure=wrong_fixed_alpha2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration pooling and nuisance nesting \u03b1=1.5, reset=16, procedure=baseline_nuisance_union",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration pooling and nuisance nesting \u03b1=1.5, reset=16, procedure=expanded_nuisance_union",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration pooling and nuisance nesting \u03b1=2.0, reset=16, procedure=correct_known_alpha",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration pooling and nuisance nesting \u03b1=2.0, reset=16, procedure=wrong_fixed_alpha2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration pooling and nuisance nesting \u03b1=2.0, reset=16, procedure=baseline_nuisance_union",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration pooling and nuisance nesting \u03b1=2.0, reset=16, procedure=expanded_nuisance_union",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Manuscript table count and row counts",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Exact table numerical payload L=1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Exact table numerical payload L=2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Exact table numerical payload L=4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Exact table numerical payload L=8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Exact table numerical payload L=12",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Exact table numerical payload L=16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Classification table numerical payload \u03b1=0.5, d=0.25",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Classification table numerical payload \u03b1=0.5, d=0.5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Classification table numerical payload \u03b1=0.5, d=1.0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Classification table numerical payload \u03b1=1.0, d=0.25",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Classification table numerical payload \u03b1=1.0, d=0.5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Classification table numerical payload \u03b1=1.0, d=1.0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Classification table numerical payload \u03b1=2.0, d=0.25",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Classification table numerical payload \u03b1=2.0, d=0.5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Classification table numerical payload \u03b1=2.0, d=1.0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Response/persistence table numerical payload Single, allocation only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Response/persistence table numerical payload Fresh resets, \u03c1=0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Response/persistence table numerical payload Retained resets, \u03c1=0.5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Response/persistence table numerical payload Retained resets, \u03c1=0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Response/persistence table numerical payload No state erasure, \u03c1=1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Response/persistence table numerical payload Single + response audit",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration table numerical payload Single, \u03b1=1.0, Known \u03b1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration table numerical payload Single, \u03b1=1.0, Fix \u03b1=2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration table numerical payload Single, \u03b1=1.0, Union {.5,1,2}",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration table numerical payload Single, \u03b1=1.0, Union {.5,1,1.5,2}",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration table numerical payload Reset, \u03b1=1.0, Known \u03b1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration table numerical payload Reset, \u03b1=1.0, Fix \u03b1=2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration table numerical payload Reset, \u03b1=1.0, Union {.5,1,2}",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration table numerical payload Reset, \u03b1=1.0, Union {.5,1,1.5,2}",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration table numerical payload Single, \u03b1=1.5, Known \u03b1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration table numerical payload Single, \u03b1=1.5, Fix \u03b1=2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration table numerical payload Single, \u03b1=1.5, Union {.5,1,2}",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration table numerical payload Single, \u03b1=1.5, Union {.5,1,1.5,2}",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration table numerical payload Reset, \u03b1=1.5, Known \u03b1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration table numerical payload Reset, \u03b1=1.5, Fix \u03b1=2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration table numerical payload Reset, \u03b1=1.5, Union {.5,1,2}",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Calibration table numerical payload Reset, \u03b1=1.5, Union {.5,1,1.5,2}",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Article and abstract length",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "runtime_seconds": 7.649227799999608,
+  "inputs_sha256": {
+    "comparison_results.json": "1c038cb7339796f1a99c76543c1aee9799417a99c128b6a45a889386a1f2790a",
+    "calibration_results.json": "13936cd95efe9d2fc4e6ec296805589cf5fa56f2930544f54fc11288a92c7eb5",
+    "calibration_banks.npz": "345426db15e994baa65810a97608259730a0d5ad8fcb2cad768e546483fbda76",
+    "paper2.json": "ab9932fe5a99196c1a0ef30044b34d6b6e337417bcc7d82266418243735cee30"
+  },
+  "limitations": "Numerical validation of the implemented finite-horizon synthetic experiment; no field validation or infinite-horizon conclusion."
+}

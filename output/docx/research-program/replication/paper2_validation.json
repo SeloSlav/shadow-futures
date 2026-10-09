@@ -1,0 +1,32 @@
+{
+  "status": "pass",
+  "independent_log_odds_probability_check": "all 65,536 length-16 histories",
+  "exact_length16_risk": 0.2667762473576408,
+  "likelihood_ratio_sign": "positive selects beta=+0.5; negative selects beta=-0.5",
+  "reset_horizon_arithmetic": [
+    {
+      "observations": 16,
+      "markets": 1,
+      "final_market_age": 16
+    },
+    {
+      "observations": 256,
+      "markets": 16,
+      "final_market_age": 16
+    },
+    {
+      "observations": 2048,
+      "markets": 128,
+      "final_market_age": 16
+    },
+    {
+      "observations": 8192,
+      "markets": 512,
+      "final_market_age": 16
+    }
+  ],
+  "zero_error_upper_risk_percent": 0.07375038011081525,
+  "zero_error_coverage_scope": "95% simultaneous over both parameter laws at each specified horizon",
+  "no_ties_in_recorded_monte_carlo": true,
+  "stored_results_unchanged": true
+}

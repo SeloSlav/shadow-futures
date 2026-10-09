@@ -1,0 +1,619 @@
+{
+  "program": {
+    "title": "Institutions for Comparative Discovery in Scaling Markets",
+    "target": "Journal of Institutional Economics",
+    "editorial_fit": {
+      "scope_url": "https://www.cambridge.org/core/journals/journal-of-institutional-economics",
+      "instructions_url": "https://www.cambridge.org/core/journals/journal-of-institutional-economics/information/author-instructions/preparing-your-materials",
+      "rationale": "Institutions governing the production of decision-relevant economic evidence; accessible institutional analysis with formal proofs in an appendix.",
+      "word_limit": 10000,
+      "abstract_limit": 200,
+      "keyword_limit": [
+        3,
+        5
+      ],
+      "remaining": "Initial submission must be anonymized; author final review and confirmed personal declarations required. Mathematical details are in the appendix, with the mechanism explained in the main text."
+    },
+    "target_metadata": "Journal of Institutional Economics",
+    "references": [
+      {
+        "text": "Arrow, K. J. (1962). Economic welfare and the allocation of resources for invention. In The Rate and Direction of Inventive Activity: Economic and Social Factors, pp. 609–626. Princeton University Press.",
+        "url": "https://www.nber.org/books-and-chapters/rate-and-direction-inventive-activity-economic-and-social-factors/economic-welfare-and-allocation-resources-invention"
+      },
+      {
+        "text": "Arthur, W. B. (1989). Competing technologies, increasing returns, and lock-in by historical events. The Economic Journal, 99(394), 116–131. doi:10.2307/2234208.",
+        "url": "https://academic.oup.com/ej/article-abstract/99/394/116/5188212"
+      },
+      {
+        "text": "Baumol, W. J. (1982). Contestable markets: An uprising in the theory of industry structure. American Economic Review, 72(1), 1–15.",
+        "url": "https://www.jstor.org/stable/1808571"
+      },
+      {
+        "text": "Bergemann, D., and Morris, S. (2019). Information design: A unified perspective. Journal of Economic Literature, 57(1), 44–95. doi:10.1257/jel.20181489.",
+        "url": "https://www.aeaweb.org/articles?id=10.1257/jel.20181489"
+      },
+      {
+        "text": "Blackwell, D. (1953). Equivalent comparisons of experiments. The Annals of Mathematical Statistics, 24(2), 265–272. doi:10.1214/aoms/1177729032.",
+        "url": "https://doi.org/10.1214/aoms/1177729032"
+      },
+      {
+        "text": "Brezzi, M., and Lai, T. L. (2000). Incomplete learning from endogenous data in dynamic allocation. Econometrica, 68(6), 1511–1516. doi:10.1111/1468-0262.00170.",
+        "url": "https://doi.org/10.1111/1468-0262.00170"
+      },
+      {
+        "text": "Coase, R. H. (1960). The problem of social cost. Journal of Law and Economics, 3, 1–44. doi:10.1086/466560.",
+        "url": "https://doi.org/10.1086/466560"
+      },
+      {
+        "text": "Erlic, M. (2026). Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market. V5 author manuscript, October 2026. Associated public record: doi:10.2139/ssrn.6003994.",
+        "url": "https://shadow-futures.vercel.app/paper.pdf"
+      },
+      {
+        "text": "Hayek, F. A. (1945). The use of knowledge in society. American Economic Review, 35(4), 519–530.",
+        "url": "https://www.aeaweb.org/aer/top20/35.4.519-530.pdf"
+      },
+      {
+        "text": "Heller, M. A., and Eisenberg, R. S. (1998). Can patents deter innovation? The anticommons in biomedical research. Science, 280(5364), 698–701. doi:10.1126/science.280.5364.698.",
+        "url": "https://repository.law.umich.edu/lqnotes/vol41/iss3/10/"
+      },
+      {
+        "text": "Hodgson, G. M. (2006). What are institutions? Journal of Economic Issues, 40(1), 1–25. doi:10.1080/00213624.2006.11506879.",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/00213624.2006.11506879"
+      },
+      {
+        "text": "Jones, C. I., and Tonetti, C. (2020). Nonrivalry and the economics of data. American Economic Review, 110(9), 2819–2858. doi:10.1257/aer.20191330.",
+        "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20191330"
+      },
+      {
+        "text": "North, D. C. (1990). Institutions, Institutional Change and Economic Performance. Cambridge University Press. doi:10.1017/CBO9780511808678.",
+        "url": "https://doi.org/10.1017/CBO9780511808678"
+      },
+      {
+        "text": "Ostrom, E. (1990). Governing the Commons: The Evolution of Institutions for Collective Action. Cambridge University Press. doi:10.1017/CBO9780511807763.",
+        "url": "https://www.cambridge.org/core/books/governing-the-commons/7AB7AE11BADA84409C34815CC288CD79"
+      },
+      {
+        "text": "Sutton, J. (1991). Sunk Costs and Market Structure: Price Competition, Advertising, and the Evolution of Concentration. MIT Press.",
+        "url": "https://mitpress.mit.edu/9780262193054/sunk-costs-and-market-structure/"
+      }
+    ],
+    "source_metadata": null,
+    "submission_metadata_pending": null
+  },
+  "paper1": {
+    "title": "Endogenous Contestability and Technological Scale: Entry, Selection, and the Value of Comparison",
+    "target": "Journal of Evolutionary Economics",
+    "editorial_fit": {
+      "assessment": "Journal of Evolutionary Economics is the first fit because the article connects entry, historical selection, technological capability, and endogenous learning. Review of Industrial Organization is a plausible alternative for the strategic access game and conditional competition-policy test. This is a submission-oriented theory draft; suitability does not imply acceptance or established novelty.",
+      "requirements": "The Journal of Evolutionary Economics guidelines call for a 150–250-word abstract, 4–6 keywords, JEL classification, editable manuscript, author-date references, and relevant declarations. Native Word equations are appropriate. Substantive AI assistance is disclosed below. Corresponding-author contact, residence (no institutional affiliation), ORCID if available, funding, conflicts, and author-contribution metadata require the author's factual completion before submission.",
+      "unpublished_foundation": "The October 2026 Shadow Futures author manuscript is identified in the body, with its associated public record. It is excluded from the bibliography because the target publisher asks that unpublished work be mentioned in text rather than listed as accepted or published research. The public record's July 2026 revision must not be represented as identical to the local October manuscript.",
+      "remaining_author_work": "Confirm accountability for the model and proofs, supply submission metadata, and undertake a broader novelty search and field-specific editorial review. No empirical evidence or general-equilibrium claim is asserted."
+    },
+    "target_metadata": {
+      "primary": "Journal of Evolutionary Economics",
+      "alternative": "Review of Industrial Organization",
+      "scope_urls": [
+        "https://link.springer.com/journal/191/aims-and-scope",
+        "https://link.springer.com/journal/11151/aims-and-scope"
+      ],
+      "guideline_urls": [
+        "https://link.springer.com/journal/191/submission-guidelines",
+        "https://link.springer.com/journal/11151/submission-guidelines"
+      ],
+      "verified_on": "2026-10-09"
+    },
+    "references": [
+      {
+        "text": "Aghion, P., and Bolton, P. (1987). Contracts as a barrier to entry. American Economic Review, 77(3), 388–401.",
+        "url": "https://business.columbia.edu/faculty/research/contracts-barrier-entry"
+      },
+      {
+        "text": "Aghion, P., Bloom, N., Blundell, R., Griffith, R., and Howitt, P. (2005). Competition and innovation: An inverted-U relationship. Quarterly Journal of Economics, 120(2), 701–728. https://doi.org/10.1162/0033553053970214",
+        "url": "https://dash.harvard.edu/entities/publication/73120378-868e-6bd4-e053-0100007fdf3b"
+      },
+      {
+        "text": "Arrow, K. J. (1962). Economic welfare and the allocation of resources for invention. In The Rate and Direction of Inventive Activity: Economic and Social Factors, pp. 609–626. Princeton University Press.",
+        "url": "https://www.nber.org/books-and-chapters/rate-and-direction-inventive-activity-economic-and-social-factors/economic-welfare-and-allocation-resources-invention"
+      },
+      {
+        "text": "Arthur, W. B. (1989). Competing technologies, increasing returns, and lock-in by historical events. Economic Journal, 99(394), 116–131. https://doi.org/10.2307/2234208",
+        "url": "https://academic.oup.com/ej/article-abstract/99/394/116/5188212"
+      },
+      {
+        "text": "Baumol, W. J. (1982). Contestable markets: An uprising in the theory of industry structure. American Economic Review, 72(1), 1–15.",
+        "url": "https://www.jstor.org/stable/1808571"
+      },
+      {
+        "text": "Bergemann, D., and Bonatti, A. (2019). Markets for information: An introduction. Annual Review of Economics, 11, 85–107. https://doi.org/10.1146/annurev-economics-080315-015439",
+        "url": "https://www.annualreviews.org/content/journals/10.1146/annurev-economics-080315-015439"
+      },
+      {
+        "text": "Bergemann, D., and Morris, S. (2019). Information design: A unified perspective. Journal of Economic Literature, 57(1), 44–95. https://doi.org/10.1257/jel.20181489",
+        "url": "https://www.aeaweb.org/articles?id=10.1257/jel.20181489"
+      },
+      {
+        "text": "Blackwell, D. (1953). Equivalent comparisons of experiments. Annals of Mathematical Statistics, 24(2), 265–272. https://doi.org/10.1214/aoms/1177729032",
+        "url": "https://projecteuclid.org/journals/annals-of-mathematical-statistics/volume-24/issue-2/Equivalent-Comparisons-of-Experiments/10.1214/aoms/1177729032.full"
+      },
+      {
+        "text": "Blackwell, D., and Dubins, L. (1962). Merging of opinions with increasing information. Annals of Mathematical Statistics, 33(3), 882–886. https://doi.org/10.1214/aoms/1177704456",
+        "url": "https://doi.org/10.1214/aoms/1177704456"
+      },
+      {
+        "text": "Brezzi, M., and Lai, T. L. (2000). Incomplete learning from endogenous data in dynamic allocation. Econometrica, 68(6), 1511–1516. https://doi.org/10.1111/1468-0262.00170",
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/1468-0262.00170"
+      },
+      {
+        "text": "Ericson, R., and Pakes, A. (1995). Markov-perfect industry dynamics: A framework for empirical work. Review of Economic Studies, 62(1), 53–82. https://doi.org/10.2307/2297841",
+        "url": "https://academic.oup.com/restud/article-abstract/62/1/53/1568000"
+      },
+      {
+        "text": "Gottfried, T., and Grosskinsky, S. (2024). Asymptotics of generalized Pólya urns with non-linear feedback. Electronic Journal of Probability, 29, article 92, 1–56. https://doi.org/10.1214/24-EJP1157",
+        "url": "https://doi.org/10.1214/24-EJP1157"
+      },
+      {
+        "text": "Greenwald, B. C., and Stiglitz, J. E. (1986). Externalities in economies with imperfect information and incomplete markets. Quarterly Journal of Economics, 101(2), 229–264. https://doi.org/10.2307/1891114",
+        "url": "https://academic.oup.com/qje/article-abstract/101/2/229/1928643"
+      },
+      {
+        "text": "Hayek, F. A. (2002). Competition as a discovery procedure. Quarterly Journal of Austrian Economics, 5(3), 9–23. English translation of a 1968 lecture.",
+        "url": "https://mises.org/quarterly-journal-austrian-economics/competition-discovery-procedure"
+      },
+      {
+        "text": "Jones, C. I., and Tonetti, C. (2020). Nonrivalry and the economics of data. American Economic Review, 110(9), 2819–2858. https://doi.org/10.1257/aer.20191330",
+        "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20191330"
+      },
+      {
+        "text": "Lai, T. L., and Robbins, H. (1985). Asymptotically efficient adaptive allocation rules. Advances in Applied Mathematics, 6(1), 4–22. https://doi.org/10.1016/0196-8858(85)90002-8",
+        "url": "https://www.sciencedirect.com/science/article/pii/0196885885900028"
+      },
+      {
+        "text": "Mankiw, N. G., and Whinston, M. D. (1986). Free entry and social inefficiency. RAND Journal of Economics, 17(1), 48–58. https://doi.org/10.2307/2555627",
+        "url": "https://mankiw.scholars.harvard.edu/sites/g/files/omnuum5931/files/mankiw/files/free_entry.pdf"
+      },
+      {
+        "text": "Oliveira, R. I. (2009). The onset of dominance in balls-in-bins processes with feedback. Random Structures & Algorithms, 34(4), 454–477. https://doi.org/10.1002/rsa.20261",
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/rsa.20261"
+      },
+      {
+        "text": "Rothschild, M. (1974). A two-armed bandit theory of market pricing. Journal of Economic Theory, 9(2), 185–202. https://doi.org/10.1016/0022-0531(74)90066-0",
+        "url": "https://www.sciencedirect.com/science/article/pii/0022053174900660"
+      },
+      {
+        "text": "Sutton, J. (1991). Sunk Costs and Market Structure: Price Competition, Advertising, and the Evolution of Concentration. MIT Press.",
+        "url": "https://mitpress.mit.edu/9780262193054/sunk-costs-and-market-structure/"
+      }
+    ],
+    "source_metadata": null,
+    "submission_metadata_pending": null
+  },
+  "paper2": {
+    "title": "Measuring Comparison Opportunities in Adaptive Markets: Finite-Horizon Inference and Experimental Design",
+    "target": "Computational Economics",
+    "editorial_fit": {
+      "assessment": "Defensible scope fit as an original computational econometrics article: finite-horizon likelihood algorithms, Markov feedback, reproducible Monte Carlo validation, and cost-sensitive experiment design. This assessment is not an acceptance prediction.",
+      "scope_url": "https://link.springer.com/journal/10614/aims-and-scope",
+      "requirements_url": "https://link.springer.com/journal/10614/submission-guidelines",
+      "checked_date": "2026-10-09",
+      "requirements": "Official guide: 150–250-word abstract; 4–6 keywords; decimal headings; author-year citations; alphabetized published/accepted references; editable Word or LaTeX source; Data Availability and Statements and Declarations. AI generative assistance must be documented. Author affiliation, corresponding contact, funding and competing-interest facts require author confirmation."
+    },
+    "target_metadata": "Computational Economics",
+    "references": [
+      {
+        "text": "Arthur, W. B. (1989). Competing technologies, increasing returns, and lock-in by historical events. The Economic Journal, 99(394), 116–131.",
+        "url": "https://doi.org/10.2307/2234208"
+      },
+      {
+        "text": "Auer, P., Cesa-Bianchi, N., & Fischer, P. (2002). Finite-time analysis of the multiarmed bandit problem. Machine Learning, 47, 235–256.",
+        "url": "https://doi.org/10.1023/A:1013689704352"
+      },
+      {
+        "text": "Berger, R. L., & Boos, D. D. (1994). P values maximized over a confidence set for the nuisance parameter. Journal of the American Statistical Association, 89(427), 1012–1016.",
+        "url": "https://doi.org/10.1080/01621459.1994.10476836"
+      },
+      {
+        "text": "Blackwell, D., & Dubins, L. (1962). Merging of opinions with increasing information. The Annals of Mathematical Statistics, 33(3), 882–886.",
+        "url": "https://doi.org/10.1214/aoms/1177704456"
+      },
+      {
+        "text": "Dudík, M., Erhan, D., Langford, J., & Li, L. (2014). Doubly robust policy evaluation and optimization. Statistical Science, 29(4), 485–511.",
+        "url": "https://doi.org/10.1214/14-STS500"
+      },
+      {
+        "text": "Dufour, J.-M. (2006). Monte Carlo tests with nuisance parameters: A general approach to finite-sample inference and nonstandard asymptotics. Journal of Econometrics, 133(2), 443–477.",
+        "url": "https://doi.org/10.1016/j.jeconom.2005.06.007"
+      },
+      {
+        "text": "Hadad, V., Hirshberg, D. A., Zhan, R., Wager, S., & Athey, S. (2021). Confidence intervals for policy evaluation in adaptive experiments. Proceedings of the National Academy of Sciences, 118(15), e2014602118.",
+        "url": "https://doi.org/10.1073/pnas.2014602118"
+      },
+      {
+        "text": "Hernán, M. A., & Robins, J. M. (2020). Causal inference: What if. Chapman & Hall/CRC.",
+        "url": "https://miguelhernan.org/whatifbook"
+      },
+      {
+        "text": "Howard, S. R., Ramdas, A., McAuliffe, J., & Sekhon, J. (2021). Time-uniform, nonparametric, nonasymptotic confidence sequences. The Annals of Statistics, 49(2), 1055–1080.",
+        "url": "https://doi.org/10.1214/20-AOS1991"
+      },
+      {
+        "text": "Karampatziakis, N., Mineiro, P., & Ramdas, A. (2021). Off-policy confidence sequences. Proceedings of Machine Learning Research, 139, 5301–5310.",
+        "url": "https://proceedings.mlr.press/v139/karampatziakis21a.html"
+      },
+      {
+        "text": "Kasy, M., & Sautmann, A. (2021). Adaptive treatment assignment in experiments for policy choice. Econometrica, 89(1), 113–132.",
+        "url": "https://doi.org/10.3982/ECTA17527"
+      },
+      {
+        "text": "Lai, T. L., & Robbins, H. (1985). Asymptotically efficient adaptive allocation rules. Advances in Applied Mathematics, 6(1), 4–22.",
+        "url": "https://doi.org/10.1016/0196-8858(85)90002-8"
+      },
+      {
+        "text": "Lattimore, T., & Szepesvári, C. (2020). Bandit algorithms. Cambridge University Press.",
+        "url": "https://doi.org/10.1017/9781108571401"
+      },
+      {
+        "text": "Manski, C. F. (2003). Partial identification of probability distributions. Springer.",
+        "url": "https://doi.org/10.1007/b97478"
+      },
+      {
+        "text": "McFadden, D. (1974). Conditional logit analysis of qualitative choice behavior. In P. Zarembka (Ed.), Frontiers in econometrics (pp. 105–142). Academic Press.",
+        "url": "https://eml.berkeley.edu/reprints/mcfadden/zarembka.pdf"
+      },
+      {
+        "text": "Pemantle, R. (2007). A survey of random processes with reinforcement. Probability Surveys, 4, 1–79.",
+        "url": "https://doi.org/10.1214/07-PS094"
+      },
+      {
+        "text": "Perdomo, J., Zrnic, T., Mendler-Dünner, C., & Hardt, M. (2020). Performative prediction. Proceedings of Machine Learning Research, 119, 7599–7609.",
+        "url": "https://proceedings.mlr.press/v119/perdomo20a.html"
+      },
+      {
+        "text": "Swaminathan, A., & Joachims, T. (2015). Counterfactual risk minimization: Learning from logged bandit feedback. Proceedings of Machine Learning Research, 37, 814–823.",
+        "url": "https://proceedings.mlr.press/v37/swaminathan15.html"
+      },
+      {
+        "text": "Tsybakov, A. B. (2009). Introduction to nonparametric estimation. Springer.",
+        "url": "https://doi.org/10.1007/b13794"
+      },
+      {
+        "text": "Zhang, K. W., Janson, L., & Murphy, S. A. (2020). Inference for batched bandits. Advances in Neural Information Processing Systems, 33, 9818–9829.",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2020/hash/6fd86e0ad726b778e37cf270fa0247d7-Abstract.html"
+      }
+    ],
+    "source_metadata": {
+      "title": "Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market",
+      "author": "Martin Erlic",
+      "version": "V5 author manuscript, October 2026",
+      "url": "https://shadow-futures.vercel.app/paper.pdf",
+      "associated_record": "https://doi.org/10.2139/ssrn.6003994",
+      "publication_status": "Unpublished companion source identified in text, excluded from published-work reference list."
+    },
+    "submission_metadata_pending": [
+      "Corresponding-author contact",
+      "Funding statement based on author facts",
+      "Competing-interest statement based on author facts",
+      "Final author confirmation of contributions and submission"
+    ]
+  },
+  "paper3": {
+    "title": "Forecast Agreement and Counterfactual Warrant in Adaptive Markets",
+    "target": "Journal of Economic Methodology",
+    "editorial_fit": {
+      "scope_url": "https://www.tandfonline.com/journals/rjec20",
+      "instructions_url": "https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=rjec20",
+      "rationale": "A substantive methodological argument about inference, explanation, model-to-world warrant, and the institutional production of economic evidence; formal statements support the argument rather than substitute for it.",
+      "limit_note": "An official word limit was not confirmed. Check the current submission portal before preparing the final submission.",
+      "remaining": "Author final review; journal-specific anonymization and confirmed personal declarations before submission."
+    },
+    "target_metadata": "Journal of Economic Methodology",
+    "references": [
+      {
+        "text": "Blackwell, D. (1953). Equivalent comparisons of experiments. The Annals of Mathematical Statistics, 24(2), 265–272. doi:10.1214/aoms/1177729032.",
+        "url": "https://doi.org/10.1214/aoms/1177729032"
+      },
+      {
+        "text": "Blackwell, D., and Dubins, L. (1962). Merging of opinions with increasing information. The Annals of Mathematical Statistics, 33(3), 882–886. doi:10.1214/aoms/1177704456.",
+        "url": "https://doi.org/10.1214/aoms/1177704456"
+      },
+      {
+        "text": "Breiman, L. (2001). Statistical modeling: The two cultures (with comments and a rejoinder by the author). Statistical Science, 16(3), 199–231. doi:10.1214/ss/1009213726.",
+        "url": "https://doi.org/10.1214/ss/1009213726"
+      },
+      {
+        "text": "Brezzi, M., and Lai, T. L. (2000). Incomplete learning from endogenous data in dynamic allocation. Econometrica, 68(6), 1511–1516. doi:10.1111/1468-0262.00170.",
+        "url": "https://doi.org/10.1111/1468-0262.00170"
+      },
+      {
+        "text": "Cartwright, N., and Hardie, J. (2012). Evidence-Based Policy: A Practical Guide to Doing It Better. Oxford University Press. doi:10.1093/acprof:osobl/9780199841608.001.0001.",
+        "url": "https://academic.oup.com/book/11611"
+      },
+      {
+        "text": "Diaconis, P., and Freedman, D. (1986). On the consistency of Bayes estimates. The Annals of Statistics, 14(1), 1–26. doi:10.1214/aos/1176349830.",
+        "url": "https://doi.org/10.1214/aos/1176349830"
+      },
+      {
+        "text": "Douglas, H. (2009). Science, Policy, and the Value-Free Ideal. University of Pittsburgh Press.",
+        "url": "https://upittpress.org/books/9780822960263/"
+      },
+      {
+        "text": "Erlic, M. (2026). Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market. V5 author manuscript, October 2026. Associated public record: doi:10.2139/ssrn.6003994.",
+        "url": "https://shadow-futures.vercel.app/paper.pdf"
+      },
+      {
+        "text": "Hausman, D. M. (2023). The Inexact and Separate Science of Economics. Second edition. Cambridge University Press. doi:10.1017/9781009320283.",
+        "url": "https://doi.org/10.1017/9781009320283"
+      },
+      {
+        "text": "Hernán, M. A., and Robins, J. M. (2020). Causal Inference: What If. Chapman and Hall/CRC.",
+        "url": "https://miguelhernan.org/whatifbook"
+      },
+      {
+        "text": "Holland, P. W. (1986). Statistics and causal inference. Journal of the American Statistical Association, 81(396), 945–960. doi:10.1080/01621459.1986.10478354.",
+        "url": "https://doi.org/10.1080/01621459.1986.10478354"
+      },
+      {
+        "text": "Longino, H. E. (1990). Science as Social Knowledge: Values and Objectivity in Scientific Inquiry. Princeton University Press. doi:10.2307/j.ctvx5wbfz.",
+        "url": "https://www.jstor.org/stable/j.ctvx5wbfz"
+      },
+      {
+        "text": "Mäki, U. (2009). MISSing the world: Models as isolations and credible surrogate systems. Erkenntnis, 70(1), 29–43. doi:10.1007/s10670-008-9135-9.",
+        "url": "https://doi.org/10.1007/s10670-008-9135-9"
+      },
+      {
+        "text": "Manski, C. F. (2013). Public Policy in an Uncertain World: Analysis and Decisions. Harvard University Press.",
+        "url": "https://www.charlesmanski.com/p/books.html"
+      },
+      {
+        "text": "Mullainathan, S., and Spiess, J. (2017). Machine learning: An applied econometric approach. Journal of Economic Perspectives, 31(2), 87–106. doi:10.1257/jep.31.2.87.",
+        "url": "https://www.aeaweb.org/articles?id=10.1257/jep.31.2.87"
+      },
+      {
+        "text": "Pearl, J. (2009). Causality: Models, Reasoning, and Inference. Second edition. Cambridge University Press. doi:10.1017/CBO9780511803161.",
+        "url": "https://bayes.cs.ucla.edu/BOOK-2K/"
+      },
+      {
+        "text": "Reiss, J. (2012). The explanation paradox. Journal of Economic Methodology, 19(1), 43–62. doi:10.1080/1350178X.2012.661069.",
+        "url": "https://doi.org/10.1080/1350178X.2012.661069"
+      },
+      {
+        "text": "Sugden, R. (2000). Credible worlds: The status of theoretical models in economics. Journal of Economic Methodology, 7(1), 1–31. doi:10.1080/135017800362220.",
+        "url": "https://doi.org/10.1080/135017800362220"
+      },
+      {
+        "text": "Woodward, J. (2004). Making Things Happen: A Theory of Causal Explanation. Oxford University Press. doi:10.1093/0195155270.001.0001.",
+        "url": "https://doi.org/10.1093/0195155270.001.0001"
+      }
+    ],
+    "source_metadata": null,
+    "submission_metadata_pending": null
+  },
+  "paper4": {
+    "title": "Competition Policy for Informative Market Access",
+    "target": "Review of Industrial Organization",
+    "editorial_fit": {
+      "rationale": "The article addresses industrial organization and public policy through an implementable theory of remedies with testable evidence requirements. Its formal common-rule results and explicit hypothetical design fit the journal's interest in significant theory accessible to nonspecialists. The absence of field estimates remains an editorial limitation; fit is a reasoned targeting choice and not an acceptance prediction.",
+      "scope_url": "https://link.springer.com/journal/11151/aims-and-scope",
+      "author_guidelines_url": "https://link.springer.com/journal/11151/submission-guidelines",
+      "verified_as_of": "2026-10-09",
+      "requirements": [
+        "Abstract 150–250 words; four to six keywords.",
+        "Editable source files such as DOCX or LaTeX.",
+        "Author-year text citations and a complete reference list.",
+        "Author contributions and competing-interest information supplied through the submission interface.",
+        "Generative LLM assistance documented in a suitable manuscript section; authorship remains human.",
+        "The accessible instructions did not specify an article word limit; this should be reconfirmed immediately before submission."
+      ],
+      "alternative": {
+        "name": "Journal of Competition Law & Economics",
+        "url": "https://academic.oup.com/jcle/pages/author-guidelines",
+        "fit": "A law-focused adaptation could fit its competition-law-and-economics remit. Official guidance currently specifies 4,000–6,000 words and an abstract no longer than 200 words, so the present full version would need shortening or editorial agreement. Its disclosure and related-manuscript requirements should be checked before submission."
+      },
+      "submission_metadata": {
+        "author_affiliation": "No affiliation",
+        "corresponding_author_email": null,
+        "funding": null,
+        "competing_interests": null,
+        "author_contributions": null,
+        "author_name": "Martin Erlic"
+      },
+      "unknown_metadata_note": "The author has confirmed Martin Erlic and no affiliation. Contact details, funding, competing interests, and author contributions must be supplied and confirmed; missing details have not been treated as negative declarations.",
+      "source_verification_date": "2026-10-09"
+    },
+    "target_metadata": "Review of Industrial Organization",
+    "references": [
+      {
+        "text": "Arrow, K. J. (1962). Economic welfare and the allocation of resources for invention. In The Rate and Direction of Inventive Activity: Economic and Social Factors, pp. 609–626. Princeton University Press.",
+        "url": "https://www.nber.org/books-and-chapters/rate-and-direction-inventive-activity-economic-and-social-factors/economic-welfare-and-allocation-resources-invention"
+      },
+      {
+        "text": "Baumol, W. J. (1982). Contestable markets: An uprising in the theory of industry structure. American Economic Review, 72(1), 1–15.",
+        "url": "https://www.jstor.org/stable/1808571"
+      },
+      {
+        "text": "Bergemann, D., and Bonatti, A. (2019). Markets for information: An introduction. Annual Review of Economics, 11, 85–107. doi:10.1146/annurev-economics-080315-015439.",
+        "url": "https://dspace.mit.edu/entities/publication/87414d05-1caa-400c-93ab-1a4930915a11"
+      },
+      {
+        "text": "Bergemann, D., and Morris, S. (2016). Bayes correlated equilibrium and the comparison of information structures in games. Theoretical Economics, 11(2), 487–522. doi:10.3982/TE1808.",
+        "url": "https://economics.mit.edu/sites/default/files/publications/paper_79_bce.pdf"
+      },
+      {
+        "text": "Blackwell, D. (1953). Equivalent comparisons of experiments. Annals of Mathematical Statistics, 24(2), 265–272. doi:10.1214/aoms/1177729032.",
+        "url": "https://projecteuclid.org/journals/annals-of-mathematical-statistics/volume-24/issue-2/Equivalent-Comparisons-of-Experiments/10.1214/aoms/1177729032.full"
+      },
+      {
+        "text": "Crémer, J., de Montjoye, Y.-A., and Schweitzer, H. (2019). Competition policy for the digital era. European Commission. doi:10.2763/407537.",
+        "url": "https://op.europa.eu/en/publication-detail/-/publication/21dc175c-7b76-11e9-9f05-01aa75ed71a1"
+      },
+      {
+        "text": "Erlic, M. (2026). Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market. V5 author manuscript, October 2026. Associated public record: doi:10.2139/ssrn.6003994.",
+        "url": "https://shadow-futures.vercel.app/paper.pdf"
+      },
+      {
+        "text": "European Commission (2024). Commission Notice on the definition of the relevant market for the purposes of Union competition law. C/2024/1645, 22 February.",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52024XC01645"
+      },
+      {
+        "text": "European Commission (2025). Commission Delegated Regulation (EU) 2025/2050 of 1 July 2025 on technical conditions and procedures for researcher data access under Regulation (EU) 2022/2065.",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32025R2050"
+      },
+      {
+        "text": "European Commission (2026). Guidelines on the application of Article 102 TFEU to abusive exclusionary conduct by dominant undertakings. C(2026) 6118 final, 3 September.",
+        "url": "https://competition-policy.ec.europa.eu/document/download/ac0e592e-2c8e-4a45-aae5-d82e7327b022_en?filename=Guidelines_on_exclusionary_abuses_of_dominance_102TFEU.pdf"
+      },
+      {
+        "text": "European Commission, Joint Research Centre (n.d.). About the European Centre for Algorithmic Transparency. Accessed 9 October 2026.",
+        "url": "https://algorithmic-transparency.ec.europa.eu/about_en"
+      },
+      {
+        "text": "European Union (2016). Consolidated version of the Treaty on the Functioning of the European Union, Article 102. Official Journal C 202, 7 June, p. 89.",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A12016E102"
+      },
+      {
+        "text": "European Union (2022a). Regulation (EU) 2022/1925 on contestable and fair markets in the digital sector (Digital Markets Act), 14 September.",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32022R1925"
+      },
+      {
+        "text": "European Union (2022b). Regulation (EU) 2022/2065 on a Single Market for Digital Services (Digital Services Act), 19 October.",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32022R2065"
+      },
+      {
+        "text": "Farboodi, M., Mihet, R., Philippon, T., and Veldkamp, L. (2019). Big data and firm dynamics. AEA Papers and Proceedings, 109, 38–42. doi:10.1257/pandp.20191001.",
+        "url": "https://pubs.aeaweb.org/doi/10.1257/pandp.20191001"
+      },
+      {
+        "text": "Gilboa, I., and Schmeidler, D. (1989). Maxmin expected utility with non-unique prior. Journal of Mathematical Economics, 18(2), 141–153. doi:10.1016/0304-4068(89)90018-9.",
+        "url": "https://www.sciencedirect.com/science/article/pii/0304406889900189"
+      },
+      {
+        "text": "Jones, C. I., and Tonetti, C. (2020). Nonrivalry and the economics of data. American Economic Review, 110(9), 2819–2858. doi:10.1257/aer.20191330.",
+        "url": "https://www.aeaweb.org/articles?id=10.1257%2Faer.20191330"
+      },
+      {
+        "text": "Kamenica, E., and Gentzkow, M. (2011). Bayesian persuasion. American Economic Review, 101(6), 2590–2615. doi:10.1257/aer.101.6.2590.",
+        "url": "https://pubs.aeaweb.org/doi/10.1257/aer.101.6.2590"
+      },
+      {
+        "text": "Kasy, M., and Sautmann, A. (2021). Adaptive treatment assignment in experiments for policy choice. Econometrica, 89(1), 113–132. doi:10.3982/ECTA17527.",
+        "url": "https://maxkasy.github.io/home/files/papers/adaptiveexperimentspolicy.pdf"
+      },
+      {
+        "text": "Katz, M. L., and Shapiro, C. (1985). Network externalities, competition, and compatibility. American Economic Review, 75(3), 424–440.",
+        "url": "https://www.jstor.org/stable/1814809"
+      },
+      {
+        "text": "Manski, C. F. (2004). Statistical treatment rules for heterogeneous populations. Econometrica, 72(4), 1221–1246. doi:10.1111/j.1468-0262.2004.00530.x.",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1468-0262.2004.00530.x"
+      },
+      {
+        "text": "Wang, Z. (2024). Informativeness orders over ambiguous experiments. Journal of Economic Theory, 222, 105937. doi:10.1016/j.jet.2024.105937.",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0022053124001431"
+      },
+      {
+        "text": "Weitzman, M. L. (1974). Prices vs. quantities. Review of Economic Studies, 41(4), 477–491. doi:10.2307/2296698.",
+        "url": "https://scholar.harvard.edu/files/weitzman/files/prices_vs_quantities.pdf"
+      }
+    ],
+    "source_metadata": null,
+    "submission_metadata_pending": null
+  },
+  "paper5": {
+    "title": "Taxing Lost Comparison: Decision Information, Private Testing, and Costed Corrective Instruments",
+    "target": "International Tax and Public Finance",
+    "editorial_fit": {
+      "assessment": "International Tax and Public Finance is the first target: its official scope includes theoretical research across public economics, and this article solves corrective instruments and public-expenditure choice. Economics of Governance is an alternative if evaluation provision, institutional enforceability, and appropriation are emphasized. Neither recommendation predicts acceptance or establishes novelty.",
+      "requirements": "Current ITPF guidelines require a 150–250-word abstract, 4–6 keywords, JEL codes, author-date citations, relevant declarations, and editable source. LaTeX is recommended; Word is accepted. A Word manuscript should retain native editable equations. Generative AI assistance is disclosed. Martin Erlic has no institutional affiliation. Correspondence details, residence where needed, ORCID if available, funding, conflicts, and author contributions remain factual submission metadata for the author to complete.",
+      "unpublished_foundation": "The supplied October 2026 Shadow Futures manuscript is identified in the body with the associated SSRN record, rather than represented as published or accepted in the bibliography. The public July revision is not asserted to match that local version.",
+      "remaining_author_work": "Confirm the theoretical assumptions and proof accountability; supply metadata; undertake broader novelty and sector-specific review. No real-sector tax rate, claim of actual undertaxation, or unconditional Pareto improvement is asserted."
+    },
+    "target_metadata": {
+      "primary": "International Tax and Public Finance",
+      "alternative": "Economics of Governance",
+      "scope_urls": [
+        "https://link.springer.com/journal/10797/aims-and-scope",
+        "https://link.springer.com/journal/10101/aims-and-scope"
+      ],
+      "guideline_urls": [
+        "https://link.springer.com/journal/10797/submission-guidelines",
+        "https://link.springer.com/journal/10101/submission-guidelines"
+      ],
+      "verified_on": "2026-10-09"
+    },
+    "references": [
+      {
+        "text": "Arrow, K. J. (1962). Economic welfare and the allocation of resources for invention. In The Rate and Direction of Inventive Activity: Economic and Social Factors, pp. 609–626. Princeton University Press.",
+        "url": "https://www.nber.org/books-and-chapters/rate-and-direction-inventive-activity-economic-and-social-factors/economic-welfare-and-allocation-resources-invention"
+      },
+      {
+        "text": "Barthold, T. A. (1994). Issues in the design of environmental excise taxes. Journal of Economic Perspectives, 8(1), 133–151. https://doi.org/10.1257/jep.8.1.133",
+        "url": "https://www.aeaweb.org/articles?id=10.1257/jep.8.1.133"
+      },
+      {
+        "text": "Bergemann, D., and Bonatti, A. (2019). Markets for information: An introduction. Annual Review of Economics, 11, 85–107. https://doi.org/10.1146/annurev-economics-080315-015439",
+        "url": "https://www.annualreviews.org/content/journals/10.1146/annurev-economics-080315-015439"
+      },
+      {
+        "text": "Bergemann, D., and Morris, S. (2019). Information design: A unified perspective. Journal of Economic Literature, 57(1), 44–95. https://doi.org/10.1257/jel.20181489",
+        "url": "https://www.aeaweb.org/articles?id=10.1257/jel.20181489"
+      },
+      {
+        "text": "Blackwell, D. (1953). Equivalent comparisons of experiments. Annals of Mathematical Statistics, 24(2), 265–272. https://doi.org/10.1214/aoms/1177729032",
+        "url": "https://projecteuclid.org/journals/annals-of-mathematical-statistics/volume-24/issue-2/Equivalent-Comparisons-of-Experiments/10.1214/aoms/1177729032.full"
+      },
+      {
+        "text": "Bovenberg, A. L., and de Mooij, R. A. (1994). Environmental levies and distortionary taxation. American Economic Review, 84(4), 1085–1089.",
+        "url": "https://www.jstor.org/stable/2118046"
+      },
+      {
+        "text": "Brezzi, M., and Lai, T. L. (2000). Incomplete learning from endogenous data in dynamic allocation. Econometrica, 68(6), 1511–1516. https://doi.org/10.1111/1468-0262.00170",
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/1468-0262.00170"
+      },
+      {
+        "text": "Coase, R. H. (1960). The problem of social cost. Journal of Law and Economics, 3, 1–44. https://doi.org/10.1086/466560",
+        "url": "https://www.journals.uchicago.edu/doi/10.1086/466560"
+      },
+      {
+        "text": "Farhi, E., and Gabaix, X. (2020). Optimal taxation with behavioral agents. American Economic Review, 110(1), 298–336. https://doi.org/10.1257/aer.20151079",
+        "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20151079"
+      },
+      {
+        "text": "Greenwald, B. C., and Stiglitz, J. E. (1986). Externalities in economies with imperfect information and incomplete markets. Quarterly Journal of Economics, 101(2), 229–264. https://doi.org/10.2307/1891114",
+        "url": "https://academic.oup.com/qje/article-abstract/101/2/229/1928643"
+      },
+      {
+        "text": "Jones, C. I., and Tonetti, C. (2020). Nonrivalry and the economics of data. American Economic Review, 110(9), 2819–2858. https://doi.org/10.1257/aer.20191330",
+        "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20191330"
+      },
+      {
+        "text": "Kaplow, L., and Shavell, S. (2002). On the superiority of corrective taxes to quantity regulation. American Law and Economics Review, 4(1), 1–17. https://doi.org/10.1093/aler/4.1.1",
+        "url": "https://academic.oup.com/aler/article-abstract/4/1/1/108996"
+      },
+      {
+        "text": "Manski, C. F. (2013). Public Policy in an Uncertain World: Analysis and Decisions. Harvard University Press.",
+        "url": "https://www.jstor.org/stable/j.ctt2jbwz0"
+      },
+      {
+        "text": "Morris, S., and Shin, H. S. (2002). Social value of public information. American Economic Review, 92(5), 1521–1534. https://doi.org/10.1257/000282802762024610",
+        "url": "https://www.aeaweb.org/articles?id=10.1257/000282802762024610"
+      },
+      {
+        "text": "Rothschild, M. (1974). A two-armed bandit theory of market pricing. Journal of Economic Theory, 9(2), 185–202. https://doi.org/10.1016/0022-0531(74)90066-0",
+        "url": "https://www.sciencedirect.com/science/article/pii/0022053174900660"
+      },
+      {
+        "text": "Saez, E., and Stantcheva, S. (2016). Generalized social marginal welfare weights for optimal tax theory. American Economic Review, 106(1), 24–45. https://doi.org/10.1257/aer.20141362",
+        "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20141362"
+      },
+      {
+        "text": "Sandmo, A. (1975). Optimal taxation in the presence of externalities. Swedish Journal of Economics, 77(1), 86–98. https://doi.org/10.2307/3439329",
+        "url": "https://www.jstor.org/stable/3439329"
+      },
+      {
+        "text": "Weitzman, M. L. (1974). Prices vs. quantities. Review of Economic Studies, 41(4), 477–491. https://doi.org/10.2307/2296698",
+        "url": "https://academic.oup.com/restud/article-abstract/41/4/477/1543334"
+      }
+    ],
+    "source_metadata": null,
+    "submission_metadata_pending": null
+  }
+}

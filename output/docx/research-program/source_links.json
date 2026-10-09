@@ -1,0 +1,208 @@
+[
+  {
+    "manuscript": "Shadow Futures Research Program for Contestability Evidence and Policy",
+    "references": [
+      {
+        "text": "Erlic, M. (2026). Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market. V5 author manuscript, October 2026. Associated public record: doi:10.2139/ssrn.6003994.",
+        "url": "https://shadow-futures.vercel.app/paper.pdf"
+      },
+      {
+        "text": "Erlic, M. (2026). Endogenous Contestability and Technological Scale. Companion research draft, October.",
+        "url": ""
+      },
+      {
+        "text": "Erlic, M. (2026). Measuring Comparison Opportunities in Adaptive Markets. Companion research draft, October. Synthetic benchmark and replication materials accompany the draft.",
+        "url": ""
+      },
+      {
+        "text": "Erlic, M. (2026). Counterfactual Evidence and the Limits of Market Attribution. Companion research draft, October.",
+        "url": ""
+      },
+      {
+        "text": "Erlic, M. (2026). Competition Policy for Informative Market Access. Companion research draft, October.",
+        "url": ""
+      },
+      {
+        "text": "Erlic, M. (2026). Taxing the Social Cost of Lost Contestability. Companion research draft, October.",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "manuscript": "Endogenous Contestability and Technological Scale",
+    "references": [
+      {
+        "text": "Arrow, K. J. (1962). Economic welfare and the allocation of resources for invention. In The Rate and Direction of Inventive Activity: Economic and Social Factors, pp. 609–626. Princeton University Press.",
+        "url": "https://www.nber.org/books-and-chapters/rate-and-direction-inventive-activity-economic-and-social-factors/economic-welfare-and-allocation-resources-invention"
+      },
+      {
+        "text": "Arthur, W. B. (1989). Competing technologies, increasing returns, and lock-in by historical events. The Economic Journal, 99(394), 116–131. doi:10.2307/2234208.",
+        "url": "https://academic.oup.com/ej/article-abstract/99/394/116/5188212"
+      },
+      {
+        "text": "Baumol, W. J. (1982). Contestable markets: An uprising in the theory of industry structure. American Economic Review, 72(1), 1–15.",
+        "url": "https://www.jstor.org/stable/1808571"
+      },
+      {
+        "text": "Erlic, M. (2026). Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market. V5 author manuscript, October 2026. Associated public record: doi:10.2139/ssrn.6003994.",
+        "url": "https://shadow-futures.vercel.app/paper.pdf"
+      },
+      {
+        "text": "Gottfried, T., and Grosskinsky, S. (2024). Asymptotics of generalized Pólya urns with non-linear feedback. Electronic Journal of Probability, 29, article 92, 1–56. doi:10.1214/24-EJP1157.",
+        "url": "https://doi.org/10.1214/24-EJP1157"
+      },
+      {
+        "text": "Hayek, F. A. (2002). Competition as a discovery procedure. The Quarterly Journal of Austrian Economics, 5(3), 9–23. Translation of a 1968 lecture.",
+        "url": "https://mises.org/quarterly-journal-austrian-economics/competition-discovery-procedure"
+      },
+      {
+        "text": "Oliveira, R. I. (2009). The onset of dominance in balls-in-bins processes with feedback. Random Structures & Algorithms, 34(4), 454–477. doi:10.1002/rsa.20261.",
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/rsa.20261"
+      },
+      {
+        "text": "Sutton, J. (1991). Sunk Costs and Market Structure: Price Competition, Advertising, and the Evolution of Concentration. MIT Press.",
+        "url": "https://mitpress.mit.edu/9780262193054/sunk-costs-and-market-structure/"
+      }
+    ]
+  },
+  {
+    "manuscript": "Measuring Comparison Opportunities in Adaptive Markets",
+    "references": [
+      {
+        "text": "Erlic, M. (2026). Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market. V5 author manuscript, October 2026. Associated public record: doi:10.2139/ssrn.6003994.",
+        "url": "https://shadow-futures.vercel.app/paper.pdf"
+      },
+      {
+        "text": "Hernán, M. A., and Robins, J. M. (2020). Causal Inference: What If. Boca Raton: Chapman & Hall/CRC. Author-distributed book.",
+        "url": "https://miguelhernan.org/whatifbook"
+      },
+      {
+        "text": "Kasy, M., and Sautmann, A. (2021). Adaptive treatment assignment in experiments for policy choice. Econometrica, 89(1), 113–132.",
+        "url": "https://doi.org/10.3982/ECTA17527"
+      },
+      {
+        "text": "Manski, C. F. (2003). Partial Identification of Probability Distributions. New York: Springer.",
+        "url": "https://doi.org/10.1007/b97478"
+      },
+      {
+        "text": "Perdomo, J., Zrnic, T., Mendler-Dünner, C., and Hardt, M. (2020). Performative prediction. Proceedings of Machine Learning Research, 119, 7599–7609.",
+        "url": "https://proceedings.mlr.press/v119/perdomo20a.html"
+      },
+      {
+        "text": "Swaminathan, A., and Joachims, T. (2015). Counterfactual risk minimization: Learning from logged bandit feedback. Proceedings of Machine Learning Research, 37, 814–823.",
+        "url": "https://proceedings.mlr.press/v37/swaminathan15.html"
+      }
+    ]
+  },
+  {
+    "manuscript": "Counterfactual Evidence and the Limits of Market Attribution",
+    "references": [
+      {
+        "text": "Blackwell, D., and Dubins, L. (1962). Merging of opinions with increasing information. The Annals of Mathematical Statistics, 33(3), 882–886. doi:10.1214/aoms/1177704456.",
+        "url": "https://doi.org/10.1214/aoms/1177704456"
+      },
+      {
+        "text": "Erlic, M. (2026). Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market. V5 author manuscript, October 2026. Associated public record: doi:10.2139/ssrn.6003994.",
+        "url": "https://shadow-futures.vercel.app/paper.pdf"
+      },
+      {
+        "text": "Hernán, M. A., and Robins, J. M. (2020). Causal Inference: What If. Chapman and Hall/CRC.",
+        "url": "https://miguelhernan.org/whatifbook"
+      },
+      {
+        "text": "Holland, P. W. (1986). Statistics and causal inference. Journal of the American Statistical Association, 81(396), 945–960. doi:10.1080/01621459.1986.10478354.",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/01621459.1986.10478354"
+      },
+      {
+        "text": "Manski, C. F. (2013). Public Policy in an Uncertain World: Analysis and Decisions. Harvard University Press.",
+        "url": "https://www.charlesmanski.com/p/books.html"
+      },
+      {
+        "text": "Pearl, J. (2009). Causality: Models, Reasoning, and Inference. Second edition. Cambridge University Press. doi:10.1017/CBO9780511803161.",
+        "url": "https://bayes.cs.ucla.edu/BOOK-2K/"
+      },
+      {
+        "text": "Woodward, J. (2004). Making Things Happen: A Theory of Causal Explanation. Oxford University Press. doi:10.1093/0195155270.001.0001.",
+        "url": "https://doi.org/10.1093/0195155270.001.0001"
+      }
+    ]
+  },
+  {
+    "manuscript": "Competition Policy for Informative Market Access",
+    "references": [
+      {
+        "text": "Blackwell, D. (1953). Equivalent comparisons of experiments. Annals of Mathematical Statistics, 24(2), 265–272. https://doi.org/10.1214/aoms/1177729032.",
+        "url": "https://projecteuclid.org/journals/annals-of-mathematical-statistics/volume-24/issue-2/Equivalent-Comparisons-of-Experiments/10.1214/aoms/1177729032.full"
+      },
+      {
+        "text": "Erlic, M. (2026). Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market. V5 author manuscript, October 2026. Associated public record: doi:10.2139/ssrn.6003994.",
+        "url": "https://shadow-futures.vercel.app/paper.pdf"
+      },
+      {
+        "text": "European Commission (2024). Commission Notice on the definition of the relevant market for the purposes of Union competition law. C/2024/1645, 22 February.",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52024XC01645"
+      },
+      {
+        "text": "European Commission (2025). Commission Delegated Regulation (EU) 2025/2050 of 1 July 2025 on technical conditions and procedures for researcher data access under Regulation (EU) 2022/2065.",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32025R2050"
+      },
+      {
+        "text": "European Commission (2026). Guidelines on the application of Article 102 TFEU to abusive exclusionary conduct by dominant undertakings. C(2026) 6118 final, 3 September.",
+        "url": "https://competition-policy.ec.europa.eu/document/download/ac0e592e-2c8e-4a45-aae5-d82e7327b022_en?filename=Guidelines_on_exclusionary_abuses_of_dominance_102TFEU.pdf"
+      },
+      {
+        "text": "European Commission, Joint Research Centre (n.d.). About the European Centre for Algorithmic Transparency. Accessed 9 October 2026.",
+        "url": "https://algorithmic-transparency.ec.europa.eu/about_en"
+      },
+      {
+        "text": "European Union (2022a). Regulation (EU) 2022/1925 on contestable and fair markets in the digital sector (Digital Markets Act), 14 September.",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32022R1925"
+      },
+      {
+        "text": "European Union (2022b). Regulation (EU) 2022/2065 on a Single Market for Digital Services (Digital Services Act), 19 October.",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32022R2065"
+      },
+      {
+        "text": "Kasy, M., and Sautmann, A. (2021). Adaptive treatment assignment in experiments for policy choice. Econometrica, 89(1), 113–132. https://doi.org/10.3982/ECTA17527.",
+        "url": "https://maxkasy.github.io/home/files/papers/adaptiveexperimentspolicy.pdf"
+      }
+    ]
+  },
+  {
+    "manuscript": "Taxing the Social Cost of Lost Contestability",
+    "references": [
+      {
+        "text": "Arrow, K. J. (1962). Economic welfare and the allocation of resources for invention. In The Rate and Direction of Inventive Activity: Economic and Social Factors. Princeton University Press, 609–626.",
+        "url": "https://www.nber.org/books-and-chapters/rate-and-direction-inventive-activity-economic-and-social-factors/economic-welfare-and-allocation-resources-invention"
+      },
+      {
+        "text": "Blackwell, D. (1953). Equivalent comparisons of experiments. Annals of Mathematical Statistics, 24(2), 265–272. doi:10.1214/aoms/1177729032.",
+        "url": "https://projecteuclid.org/journals/annals-of-mathematical-statistics/volume-24/issue-2/Equivalent-Comparisons-of-Experiments/10.1214/aoms/1177729032.full"
+      },
+      {
+        "text": "Coase, R. H. (1960). The problem of social cost. The Journal of Law and Economics, 3, 1–44. doi:10.1086/466560.",
+        "url": "https://www.journals.uchicago.edu/doi/10.1086/466560"
+      },
+      {
+        "text": "Erlic, M. (2026). Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market. V5 author manuscript, October 2026. Associated public record: doi:10.2139/ssrn.6003994.",
+        "url": "https://shadow-futures.vercel.app/paper.pdf"
+      },
+      {
+        "text": "Manski, C. F. (2013). Public Policy in an Uncertain World: Analysis and Decisions. Harvard University Press.",
+        "url": "https://www.charlesmanski.com/p/books.html"
+      },
+      {
+        "text": "Saez, E., and Stantcheva, S. (2016). Generalized social marginal welfare weights for optimal tax theory. American Economic Review, 106(1), 24–45. doi:10.1257/aer.20141362.",
+        "url": "https://eml.berkeley.edu/~saez/saez-stantchevaAER16.pdf"
+      },
+      {
+        "text": "Sandmo, A. (1975). Optimal taxation in the presence of externalities. The Swedish Journal of Economics, 77(1), 86–98. doi:10.2307/3439329.",
+        "url": "https://www.jstor.org/stable/3439329"
+      },
+      {
+        "text": "Weitzman, M. L. (1974). Prices vs. quantities. The Review of Economic Studies, 41(4), 477–491. doi:10.2307/2296698.",
+        "url": "https://scholar.harvard.edu/files/weitzman/files/prices_vs_quantities.pdf"
+      }
+    ]
+  }
+]

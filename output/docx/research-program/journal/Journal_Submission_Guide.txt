@@ -1,0 +1,99 @@
+SHADOW FUTURES: JOURNAL ARTICLE AUTHOR VERSIONS
+Prepared 9 October 2026
+Author: Martin Erlic. No institutional affiliation.
+
+The six short program drafts have been rewritten as distinct journal-oriented articles. The existing v5 foundational paper is unchanged. These are author versions for scientific review, not accepted publications. Targets below are selected by contribution and verified journal scope, not estimated acceptance probabilities. Word counts include references and tables and are approximate counts of the generated content; Word may count mathematical notation differently.
+
+Institutions for Comparative Discovery in Scaling Markets
+Target: Journal of Institutional Economics. Approximate words: 6,012; pages: 23; abstract: 166 words.
+Document: 00_Institutions_for_Comparative_Discovery.docx
+
+Institutions governing the production of decision-relevant economic evidence; accessible institutional analysis with formal proofs in an appendix.
+
+Initial submission must be anonymized; author final review and confirmed personal declarations required. Mathematical details are in the appendix, with the mechanism explained in the main text.
+
+https://www.cambridge.org/core/journals/journal-of-institutional-economics
+https://www.cambridge.org/core/journals/journal-of-institutional-economics/information/author-instructions/preparing-your-materials
+
+Endogenous Contestability and Technological Scale: Entry, Selection, and the Value of Comparison
+Target: Journal of Evolutionary Economics. Approximate words: 6,089; pages: 23; abstract: 187 words.
+Document: 01_Endogenous_Contestability_and_Technological_Scale.docx
+
+Journal of Evolutionary Economics is the first fit because the article connects entry, historical selection, technological capability, and endogenous learning. Review of Industrial Organization is a plausible alternative for the strategic access game and conditional competition-policy test. This is a submission-oriented theory draft; suitability does not imply acceptance or established novelty.
+
+The Journal of Evolutionary Economics guidelines call for a 150–250-word abstract, 4–6 keywords, JEL classification, editable manuscript, author-date references, and relevant declarations. Native Word equations are appropriate. Substantive AI assistance is disclosed below. Corresponding-author contact, residence (no institutional affiliation), ORCID if available, funding, conflicts, and author-contribution metadata require the author's factual completion before submission.
+
+Confirm accountability for the model and proofs, supply submission metadata, and undertake a broader novelty search and field-specific editorial review. No empirical evidence or general-equilibrium claim is asserted.
+
+https://link.springer.com/journal/191/aims-and-scope
+https://link.springer.com/journal/11151/aims-and-scope
+https://link.springer.com/journal/191/submission-guidelines
+https://link.springer.com/journal/11151/submission-guidelines
+
+Measuring Comparison Opportunities in Adaptive Markets: Finite-Horizon Inference and Experimental Design
+Target: Computational Economics. Approximate words: 7,537; pages: 29; abstract: 201 words.
+Document: 02_Measuring_Comparison_Opportunities_in_Adaptive_Markets.docx
+
+Defensible scope fit as an original computational econometrics article: finite-horizon likelihood algorithms, Markov feedback, reproducible Monte Carlo validation, and cost-sensitive experiment design. This assessment is not an acceptance prediction.
+
+Official guide: 150–250-word abstract; 4–6 keywords; decimal headings; author-year citations; alphabetized published/accepted references; editable Word or LaTeX source; Data Availability and Statements and Declarations. AI generative assistance must be documented. Author affiliation, corresponding contact, funding and competing-interest facts require author confirmation.
+
+https://link.springer.com/journal/10614/aims-and-scope
+
+Forecast Agreement and Counterfactual Warrant in Adaptive Markets
+Target: Journal of Economic Methodology. Approximate words: 6,087; pages: 24; abstract: 166 words.
+Document: 03_Forecast_Agreement_and_Counterfactual_Warrant.docx
+
+A substantive methodological argument about inference, explanation, model-to-world warrant, and the institutional production of economic evidence; formal statements support the argument rather than substitute for it.
+
+An official word limit was not confirmed. Check the current submission portal before preparing the final submission.
+
+Author final review; journal-specific anonymization and confirmed personal declarations before submission.
+
+https://www.tandfonline.com/journals/rjec20
+https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=rjec20
+
+Competition Policy for Informative Market Access
+Target: Review of Industrial Organization. Approximate words: 7,757; pages: 30; abstract: 185 words.
+Document: 04_Competition_Policy_for_Informative_Market_Access.docx
+
+The article addresses industrial organization and public policy through an implementable theory of remedies with testable evidence requirements. Its formal common-rule results and explicit hypothetical design fit the journal's interest in significant theory accessible to nonspecialists. The absence of field estimates remains an editorial limitation; fit is a reasoned targeting choice and not an acceptance prediction.
+
+['Abstract 150–250 words; four to six keywords.', 'Editable source files such as DOCX or LaTeX.', 'Author-year text citations and a complete reference list.', 'Author contributions and competing-interest information supplied through the submission interface.', 'Generative LLM assistance documented in a suitable manuscript section; authorship remains human.', 'The accessible instructions did not specify an article word limit; this should be reconfirmed immediately before submission.']
+
+https://link.springer.com/journal/11151/aims-and-scope
+
+Taxing Lost Comparison: Decision Information, Private Testing, and Costed Corrective Instruments
+Target: International Tax and Public Finance. Approximate words: 6,560; pages: 25; abstract: 189 words.
+Document: 05_Taxing_the_Social_Cost_of_Lost_Contestability.docx
+
+International Tax and Public Finance is the first target: its official scope includes theoretical research across public economics, and this article solves corrective instruments and public-expenditure choice. Economics of Governance is an alternative if evaluation provision, institutional enforceability, and appropriation are emphasized. Neither recommendation predicts acceptance or establishes novelty.
+
+Current ITPF guidelines require a 150–250-word abstract, 4–6 keywords, JEL codes, author-date citations, relevant declarations, and editable source. LaTeX is recommended; Word is accepted. A Word manuscript should retain native editable equations. Generative AI assistance is disclosed. Martin Erlic has no institutional affiliation. Correspondence details, residence where needed, ORCID if available, funding, conflicts, and author contributions remain factual submission metadata for the author to complete.
+
+Confirm the theoretical assumptions and proof accountability; supply metadata; undertake broader novelty and sector-specific review. No real-sector tax rate, claim of actual undertaxation, or unconditional Pareto improvement is asserted.
+
+https://link.springer.com/journal/10797/aims-and-scope
+https://link.springer.com/journal/10101/aims-and-scope
+https://link.springer.com/journal/10797/submission-guidelines
+https://link.springer.com/journal/10101/submission-guidelines
+
+SHARED SUBMISSION NOTES
+
+The author and absence of affiliation follow the original Shadow Futures manuscript and the author’s explicit confirmation. No contact email, funding declaration, or competing-interest declaration was inferred from missing information. Confirm these personal facts in the submission portal. AI assistance and synthetic-data/code availability are disclosed factually in the articles. Final author review remains necessary before submitting.
+
+Preserved format: v5’s US Letter page size, one-inch margins, Times New Roman 12-point double-spaced body, black section headings, centered title/byline, and editable native mathematics. Journal-oriented changes: a compact abstract/metadata block, automatic page numbering, readable tables/notes, visible equation labels, and accurate article catalogue metadata.
+
+Initial submissions must follow the chosen journal’s current anonymization instructions. The delivered files preserve Martin Erlic’s author byline as requested; they are not anonymous review copies. Do not upload an author version unchanged where an anonymous manuscript is required.
+
+The six articles share a foundational statistical program but have different contributions: joint-permission institutions; entry/selection game; computational measurement and inference; methodology of forecast and counterfactual warrant; common-rule policy certificates; and joint corrective instruments/public-testing choice. Explain their relationship to editors and distinguish repeated background from the contribution of the submitted article.
+
+No article provides an empirical estimate of an actual AI company’s contestability externality, optimal tax, or legal liability. The numerical policy/tax illustrations are stipulated model calculations. The measurement article’s observations are synthetic and include Monte Carlo uncertainty. Primary references were checked; wider novelty assessment and sector-specific evidence remain research tasks.
+
+Hunchroom #45 is a verified helper inequality, and does not by itself certify the full #44 impossibility proposition or later information/predictive-merging additions. Conventional mathematical proofs and reproducible calculations are presented on their own merits.
+
+REPLICATION
+The Replication folder preserves the methods source and its executable simulation/validation supplement. Follow Replication/simulation/README.md. Independent numerical validation passes 311 checks. Computation does not establish real-market applicability or infinite-horizon finiteness from finite runs.
+
+VERSIONING
+The earlier short drafts in the parent Research Program directory remain unchanged. These journal author versions are saved separately. Internal PDF/PNG page checks are not publication artifacts.

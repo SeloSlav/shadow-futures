@@ -1,0 +1,4937 @@
+{
+  "numpy_version": "2.3.5",
+  "seeds": [
+    20261021,
+    20261022,
+    20261023
+  ],
+  "replicates_per_law_per_seed": 2000,
+  "horizons": [
+    16,
+    256,
+    2048,
+    8192
+  ],
+  "core": [
+    {
+      "alpha": 0.5,
+      "separation": 0.25,
+      "reset_length": null,
+      "retention": 0.0,
+      "response": false,
+      "rows": [
+        {
+          "observations": 16,
+          "bayes_risk": 0.3050833333333334,
+          "risk_mc_se": 0.004203210722335845,
+          "risk_mc_95_interval": [
+            0.2968451916981225,
+            0.31332147496854423
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.31133333333333335,
+            0.29883333333333334
+          ],
+          "risk_by_seed": [
+            0.30175,
+            0.315,
+            0.2985
+          ],
+          "budget": {
+            "mean": 6.213234718483994,
+            "mc_se": 0.008860924666597061
+          },
+          "information_beta_beta": {
+            "mean": 3.7130019991111034,
+            "mc_se": 0.002499780918417646
+          },
+          "information_beta_alpha": {
+            "mean": 0.013533085680845715,
+            "mc_se": 0.02370222805884869
+          },
+          "information_alpha_alpha": {
+            "mean": 2.6096389705229304,
+            "mc_se": 0.02305827920991845
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            3.499261958369479,
+            3.480964548403926
+          ],
+          "forecast_gap": {
+            "mean": 0.11886263458580312,
+            "mc_se": 7.192234326155977e-05
+          }
+        },
+        {
+          "observations": 256,
+          "bayes_risk": 0.022333333333333334,
+          "risk_mc_se": 0.0013487983219107424,
+          "risk_mc_95_interval": [
+            0.019689737199980215,
+            0.024976929466686452
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.019666666666666666,
+            0.025
+          ],
+          "risk_by_seed": [
+            0.019,
+            0.028,
+            0.02
+          ],
+          "budget": {
+            "mean": 98.0989941134135,
+            "mc_se": 0.10411663955322517
+          },
+          "information_beta_beta": {
+            "mean": 59.85163791362487,
+            "mc_se": 0.02682575842520477
+          },
+          "information_beta_alpha": {
+            "mean": 0.13277593928939313,
+            "mc_se": 0.3089045309861351
+          },
+          "information_alpha_alpha": {
+            "mean": 23.701589050781514,
+            "mc_se": 0.22140198921130186
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            33.48816188193321,
+            33.06952019323674
+          ],
+          "forecast_gap": {
+            "mean": 0.12201570036442011,
+            "mc_se": 2.1969251142459862e-05
+          }
+        },
+        {
+          "observations": 2048,
+          "bayes_risk": 0.0,
+          "risk_mc_se": 0.0,
+          "risk_mc_95_interval": [
+            0.0,
+            0.0006146242834176308
+          ],
+          "risk_interval_method": "97.5% exact one-sided per-law zero-error bounds; Bonferroni",
+          "errors_by_law": [
+            0.0,
+            0.0
+          ],
+          "risk_by_seed": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "budget": {
+            "mean": 777.9446937451077,
+            "mc_se": 0.414230404578839
+          },
+          "information_beta_beta": {
+            "mean": 481.0062780518282,
+            "mc_se": 0.10215752021374831
+          },
+          "information_beta_alpha": {
+            "mean": 0.4730137478846203,
+            "mc_se": 2.2277926353324506
+          },
+          "information_alpha_alpha": {
+            "mean": 134.82799060661708,
+            "mc_se": 0.8121529313318774
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            94.76971340661436,
+            94.13080506982925
+          ],
+          "forecast_gap": {
+            "mean": 0.1224205785529435,
+            "mc_se": 8.536452174041993e-06
+          }
+        },
+        {
+          "observations": 8192,
+          "bayes_risk": 0.0,
+          "risk_mc_se": 0.0,
+          "risk_mc_95_interval": [
+            0.0,
+            0.0006146242834176308
+          ],
+          "risk_interval_method": "97.5% exact one-sided per-law zero-error bounds; Bonferroni",
+          "errors_by_law": [
+            0.0,
+            0.0
+          ],
+          "risk_by_seed": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "budget": {
+            "mean": 3102.5330812970697,
+            "mc_se": 0.9569739333234313
+          },
+          "information_beta_beta": {
+            "mean": 1925.4268030240437,
+            "mc_se": 0.23430072871787927
+          },
+          "information_beta_alpha": {
+            "mean": 1.3130793072696154,
+            "mc_se": 8.767927083261206
+          },
+          "information_alpha_alpha": {
+            "mean": 496.5491896800694,
+            "mc_se": 1.8499769669894992
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            147.08198568327361,
+            145.81822209583834
+          ],
+          "forecast_gap": {
+            "mean": 0.12246148629279181,
+            "mc_se": 4.613314807021896e-06
+          }
+        }
+      ]
+    },
+    {
+      "alpha": 0.5,
+      "separation": 0.25,
+      "reset_length": 16,
+      "retention": 0.0,
+      "response": false,
+      "rows": [
+        {
+          "observations": 16,
+          "bayes_risk": 0.3050833333333334,
+          "risk_mc_se": 0.004203210722335845,
+          "risk_mc_95_interval": [
+            0.2968451916981225,
+            0.31332147496854423
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.31133333333333335,
+            0.29883333333333334
+          ],
+          "risk_by_seed": [
+            0.30175,
+            0.315,
+            0.2985
+          ],
+          "budget": {
+            "mean": 6.213234718483994,
+            "mc_se": 0.008860924666597061
+          },
+          "information_beta_beta": {
+            "mean": 3.7130019991111034,
+            "mc_se": 0.002499780918417646
+          },
+          "information_beta_alpha": {
+            "mean": 0.013533085680845715,
+            "mc_se": 0.02370222805884869
+          },
+          "information_alpha_alpha": {
+            "mean": 2.6096389705229304,
+            "mc_se": 0.02305827920991845
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            3.499261958369479,
+            3.480964548403926
+          ],
+          "forecast_gap": {
+            "mean": 0.11886263458580312,
+            "mc_se": 7.192234326155977e-05
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.3050833333333333,
+            "mc_se": 0.004203422829661565
+          }
+        },
+        {
+          "observations": 256,
+          "bayes_risk": 0.021833333333333337,
+          "risk_mc_se": 0.0013341509273016455,
+          "risk_mc_95_interval": [
+            0.019218445565881394,
+            0.02444822110078528
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.021,
+            0.02266666666666667
+          ],
+          "risk_by_seed": [
+            0.01925,
+            0.0245,
+            0.02175
+          ],
+          "budget": {
+            "mean": 99.35146250366563,
+            "mc_se": 0.03538733215448946
+          },
+          "information_beta_beta": {
+            "mean": 59.39083192359948,
+            "mc_se": 0.010009517477026952
+          },
+          "information_beta_alpha": {
+            "mean": -0.025567436388578547,
+            "mc_se": 0.14333088071333586
+          },
+          "information_alpha_alpha": {
+            "mean": 42.07457887288826,
+            "mc_se": 0.09356873683829556
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            55.88401735529956,
+            55.916111574767584
+          ],
+          "forecast_gap": {
+            "mean": 0.118814729668773,
+            "mc_se": 7.223917928031233e-05
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.021833333333333333,
+            "mc_se": 0.0013341170225133502
+          }
+        },
+        {
+          "observations": 2048,
+          "bayes_risk": 0.0,
+          "risk_mc_se": 0.0,
+          "risk_mc_95_interval": [
+            0.0,
+            0.0006146242834176308
+          ],
+          "risk_interval_method": "97.5% exact one-sided per-law zero-error bounds; Bonferroni",
+          "errors_by_law": [
+            0.0,
+            0.0
+          ],
+          "risk_by_seed": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "budget": {
+            "mean": 795.2751916862021,
+            "mc_se": 0.09980278192102739
+          },
+          "information_beta_beta": {
+            "mean": 475.2386536916803,
+            "mc_se": 0.02833340781698864
+          },
+          "information_beta_alpha": {
+            "mean": 0.015120358152285917,
+            "mc_se": 0.9137660724007617
+          },
+          "information_alpha_alpha": {
+            "mean": 335.8053879224169,
+            "mc_se": 0.26464223010064386
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            447.76754164394686,
+            447.7506695488688
+          ],
+          "forecast_gap": {
+            "mean": 0.11893499060768829,
+            "mc_se": 7.158215301948633e-05
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.0,
+            "mc_se": 0.0
+          }
+        },
+        {
+          "observations": 8192,
+          "bayes_risk": 0.0,
+          "risk_mc_se": 0.0,
+          "risk_mc_95_interval": [
+            0.0,
+            0.0006146242834176308
+          ],
+          "risk_interval_method": "97.5% exact one-sided per-law zero-error bounds; Bonferroni",
+          "errors_by_law": [
+            0.0,
+            0.0
+          ],
+          "risk_by_seed": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "budget": {
+            "mean": 3181.5064347065127,
+            "mc_se": 0.19962625379907153
+          },
+          "information_beta_beta": {
+            "mean": 1901.0794557049094,
+            "mc_se": 0.05653482533860841
+          },
+          "information_beta_alpha": {
+            "mean": -0.6016564853832436,
+            "mc_se": 3.539129063331934
+          },
+          "information_alpha_alpha": {
+            "mean": 1342.101088717284,
+            "mc_se": 0.5249661049733667
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            1791.09236423132,
+            1791.8531276393344
+          ],
+          "forecast_gap": {
+            "mean": 0.11878371992078157,
+            "mc_se": 7.382239742761074e-05
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.0,
+            "mc_se": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "alpha": 0.5,
+      "separation": 0.5,
+      "reset_length": null,
+      "retention": 0.0,
+      "response": false,
+      "rows": [
+        {
+          "observations": 16,
+          "bayes_risk": 0.15808333333333335,
+          "risk_mc_se": 0.0033306051999237147,
+          "risk_mc_95_interval": [
+            0.15155546709476106,
+            0.16461119957190565
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.158,
+            0.15816666666666668
+          ],
+          "risk_by_seed": [
+            0.152,
+            0.169,
+            0.15325
+          ],
+          "budget": {
+            "mean": 5.170658346144273,
+            "mc_se": 0.010099344613014741
+          },
+          "information_beta_beta": {
+            "mean": 3.3902704163635384,
+            "mc_se": 0.003668529861504608
+          },
+          "information_beta_alpha": {
+            "mean": 0.009896982754327306,
+            "mc_se": 0.02288915727725619
+          },
+          "information_alpha_alpha": {
+            "mean": 2.7438170796926746,
+            "mc_se": 0.021961334671142564
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            2.7580328197455835,
+            2.7278988406077476
+          ],
+          "forecast_gap": {
+            "mean": 0.23005137290554661,
+            "mc_se": 0.00017184279330961907
+          }
+        },
+        {
+          "observations": 256,
+          "bayes_risk": 0.0,
+          "risk_mc_se": 0.0,
+          "risk_mc_95_interval": [
+            0.0,
+            0.0006146242834176308
+          ],
+          "risk_interval_method": "97.5% exact one-sided per-law zero-error bounds; Bonferroni",
+          "errors_by_law": [
+            0.0,
+            0.0
+          ],
+          "risk_by_seed": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "budget": {
+            "mean": 72.63950395220526,
+            "mc_se": 0.09775614378017727
+          },
+          "information_beta_beta": {
+            "mean": 51.39987999954015,
+            "mc_se": 0.04260150595028982
+          },
+          "information_beta_alpha": {
+            "mean": 0.019958264649389698,
+            "mc_se": 0.4174953369624212
+          },
+          "information_alpha_alpha": {
+            "mean": 47.456159979195526,
+            "mc_se": 0.3005583307786653
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            13.58255757320751,
+            13.501111461133952
+          ],
+          "forecast_gap": {
+            "mean": 0.23150154017876712,
+            "mc_se": 7.66753217236933e-05
+          }
+        },
+        {
+          "observations": 2048,
+          "bayes_risk": 0.0,
+          "risk_mc_se": 0.0,
+          "risk_mc_95_interval": [
+            0.0,
+            0.0006146242834176308
+          ],
+          "risk_interval_method": "97.5% exact one-sided per-law zero-error bounds; Bonferroni",
+          "errors_by_law": [
+            0.0,
+            0.0
+          ],
+          "risk_by_seed": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "budget": {
+            "mean": 560.9454816174341,
+            "mc_se": 0.3744388117745192
+          },
+          "information_beta_beta": {
+            "mean": 406.02717394794695,
+            "mc_se": 0.16946810808589788
+          },
+          "information_beta_alpha": {
+            "mean": 0.19702917767502368,
+            "mc_se": 3.543183287275918
+          },
+          "information_alpha_alpha": {
+            "mean": 386.7174177853007,
+            "mc_se": 1.2593984614091787
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            27.071908142435802,
+            27.04705261646336
+          ],
+          "forecast_gap": {
+            "mean": 0.23144312058588185,
+            "mc_se": 3.214280160622338e-05
+          }
+        },
+        {
+          "observations": 8192,
+          "bayes_risk": 0.0,
+          "risk_mc_se": 0.0,
+          "risk_mc_95_interval": [
+            0.0,
+            0.0006146242834176308
+          ],
+          "risk_interval_method": "97.5% exact one-sided per-law zero-error bounds; Bonferroni",
+          "errors_by_law": [
+            0.0,
+            0.0
+          ],
+          "risk_by_seed": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "budget": {
+            "mean": 2223.1299373030074,
+            "mc_se": 0.8613261795746527
+          },
+          "information_beta_beta": {
+            "mean": 1617.9959061881295,
+            "mc_se": 0.3934462979152813
+          },
+          "information_beta_alpha": {
+            "mean": 0.6912681979619277,
+            "mc_se": 14.430161037631853
+          },
+          "information_alpha_alpha": {
+            "mean": 1568.048141650578,
+            "mc_se": 2.9647322359191177
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            38.40621783108486,
+            38.0135700164833
+          ],
+          "forecast_gap": {
+            "mean": 0.2313038255541173,
+            "mc_se": 1.7580547986270897e-05
+          }
+        }
+      ]
+    },
+    {
+      "alpha": 0.5,
+      "separation": 0.5,
+      "reset_length": 16,
+      "retention": 0.0,
+      "response": false,
+      "rows": [
+        {
+          "observations": 16,
+          "bayes_risk": 0.15808333333333335,
+          "risk_mc_se": 0.0033306051999237147,
+          "risk_mc_95_interval": [
+            0.15155546709476106,
+            0.16461119957190565
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.158,
+            0.15816666666666668
+          ],
+          "risk_by_seed": [
+            0.152,
+            0.169,
+            0.15325
+          ],
+          "budget": {
+            "mean": 5.170658346144273,
+            "mc_se": 0.010099344613014741
+          },
+          "information_beta_beta": {
+            "mean": 3.3902704163635384,
+            "mc_se": 0.003668529861504608
+          },
+          "information_beta_alpha": {
+            "mean": 0.009896982754327306,
+            "mc_se": 0.02288915727725619
+          },
+          "information_alpha_alpha": {
+            "mean": 2.7438170796926746,
+            "mc_se": 0.021961334671142564
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            2.7580328197455835,
+            2.7278988406077476
+          ],
+          "forecast_gap": {
+            "mean": 0.23005137290554661,
+            "mc_se": 0.00017184279330961907
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.15808333333333333,
+            "mc_se": 0.003330466497137252
+          }
+        },
+        {
+          "observations": 256,
+          "bayes_risk": 0.0,
+          "risk_mc_se": 0.0,
+          "risk_mc_95_interval": [
+            0.0,
+            0.0006146242834176308
+          ],
+          "risk_interval_method": "97.5% exact one-sided per-law zero-error bounds; Bonferroni",
+          "errors_by_law": [
+            0.0,
+            0.0
+          ],
+          "risk_by_seed": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "budget": {
+            "mean": 82.52467045353079,
+            "mc_se": 0.04082047287998757
+          },
+          "information_beta_beta": {
+            "mean": 54.148575886013546,
+            "mc_se": 0.01487864442361817
+          },
+          "information_beta_alpha": {
+            "mean": 0.08010274517937675,
+            "mc_se": 0.21186171656687164
+          },
+          "information_alpha_alpha": {
+            "mean": 44.71900575813348,
+            "mc_se": 0.08969766544766616
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            43.856730112363536,
+            43.65863438966315
+          ],
+          "forecast_gap": {
+            "mean": 0.2297975649034382,
+            "mc_se": 0.00017224919835022814
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.0,
+            "mc_se": 0.0
+          }
+        },
+        {
+          "observations": 2048,
+          "bayes_risk": 0.0,
+          "risk_mc_se": 0.0,
+          "risk_mc_95_interval": [
+            0.0,
+            0.0006146242834176308
+          ],
+          "risk_interval_method": "97.5% exact one-sided per-law zero-error bounds; Bonferroni",
+          "errors_by_law": [
+            0.0,
+            0.0
+          ],
+          "risk_by_seed": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "budget": {
+            "mean": 660.2661223017363,
+            "mc_se": 0.11581800334919139
+          },
+          "information_beta_beta": {
+            "mean": 433.2081748768918,
+            "mc_se": 0.04218623126557439
+          },
+          "information_beta_alpha": {
+            "mean": 0.19527613543863603,
+            "mc_se": 1.5882584462191018
+          },
+          "information_alpha_alpha": {
+            "mean": 357.873935990908,
+            "mc_se": 0.2534094480132223
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            350.51400954172635,
+            350.08912521122477
+          ],
+          "forecast_gap": {
+            "mean": 0.22971647560997804,
+            "mc_se": 0.00017443237862531716
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.0,
+            "mc_se": 0.0
+          }
+        },
+        {
+          "observations": 8192,
+          "bayes_risk": 0.0,
+          "risk_mc_se": 0.0,
+          "risk_mc_95_interval": [
+            0.0,
+            0.0006146242834176308
+          ],
+          "risk_interval_method": "97.5% exact one-sided per-law zero-error bounds; Bonferroni",
+          "errors_by_law": [
+            0.0,
+            0.0
+          ],
+          "risk_by_seed": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "budget": {
+            "mean": 2641.5212421499714,
+            "mc_se": 0.23123774625028548
+          },
+          "information_beta_beta": {
+            "mean": 1733.0175995557813,
+            "mc_se": 0.08398994513954693
+          },
+          "information_beta_alpha": {
+            "mean": -0.19092223983525763,
+            "mc_se": 6.298804198781464
+          },
+          "information_alpha_alpha": {
+            "mean": 1430.4132649130224,
+            "mc_se": 0.5029500760542308
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            1401.790410207741,
+            1401.9629065011097
+          ],
+          "forecast_gap": {
+            "mean": 0.22956409131197175,
+            "mc_se": 0.00017698048861238203
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.0,
+            "mc_se": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "alpha": 0.5,
+      "separation": 1.0,
+      "reset_length": null,
+      "retention": 0.0,
+      "response": false,
+      "rows": [
+        {
+          "observations": 16,
+          "bayes_risk": 0.0235,
+          "risk_mc_se": 0.0013828954233095455,
+          "risk_mc_95_interval": [
+            0.020789574775928018,
+            0.026210425224071982
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.025166666666666667,
+            0.021833333333333333
+          ],
+          "risk_by_seed": [
+            0.0225,
+            0.0275,
+            0.0205
+          ],
+          "budget": {
+            "mean": 3.1102455408636156,
+            "mc_se": 0.007325069994443215
+          },
+          "information_beta_beta": {
+            "mean": 2.437919868026791,
+            "mc_se": 0.004214370886448207
+          },
+          "information_beta_alpha": {
+            "mean": 0.012358250201914264,
+            "mc_se": 0.020016674723629474
+          },
+          "information_alpha_alpha": {
+            "mean": 2.9866503772394934,
+            "mc_se": 0.017718064993994167
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            1.3613393067182216,
+            1.3132634534228425
+          ],
+          "forecast_gap": {
+            "mean": 0.41276294469618363,
+            "mc_se": 0.00039309028406291676
+          }
+        },
+        {
+          "observations": 256,
+          "bayes_risk": 0.0,
+          "risk_mc_se": 0.0,
+          "risk_mc_95_interval": [
+            0.0,
+            0.0006146242834176308
+          ],
+          "risk_interval_method": "97.5% exact one-sided per-law zero-error bounds; Bonferroni",
+          "errors_by_law": [
+            0.0,
+            0.0
+          ],
+          "risk_by_seed": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "budget": {
+            "mean": 35.6514063519248,
+            "mc_se": 0.06515416213797597
+          },
+          "information_beta_beta": {
+            "mean": 30.340400077961885,
+            "mc_se": 0.04654566381778076
+          },
+          "information_beta_alpha": {
+            "mean": 0.035747020378951375,
+            "mc_se": 0.44150447538141674
+          },
+          "information_alpha_alpha": {
+            "mean": 86.8624502932257,
+            "mc_se": 0.2758005340633325
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            3.852721518426595,
+            3.8153960257926265
+          ],
+          "forecast_gap": {
+            "mean": 0.38988641407659513,
+            "mc_se": 0.0002531883577816262
+          }
+        },
+        {
+          "observations": 2048,
+          "bayes_risk": 0.0,
+          "risk_mc_se": 0.0,
+          "risk_mc_95_interval": [
+            0.0,
+            0.0006146242834176308
+          ],
+          "risk_interval_method": "97.5% exact one-sided per-law zero-error bounds; Bonferroni",
+          "errors_by_law": [
+            0.0,
+            0.0
+          ],
+          "risk_by_seed": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "budget": {
+            "mean": 257.89791277786486,
+            "mc_se": 0.25571657838212325
+          },
+          "information_beta_beta": {
+            "mean": 224.72479265301453,
+            "mc_se": 0.19060573462948222
+          },
+          "information_beta_alpha": {
+            "mean": 0.1716441657724402,
+            "mc_se": 3.8112621021851876
+          },
+          "information_alpha_alpha": {
+            "mean": 798.7912123825139,
+            "mc_se": 1.2033379726417617
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            6.906289540003229,
+            6.902846079305931
+          ],
+          "forecast_gap": {
+            "mean": 0.38440478786690724,
+            "mc_se": 0.00011277624139128437
+          }
+        },
+        {
+          "observations": 8192,
+          "bayes_risk": 0.0,
+          "risk_mc_se": 0.0,
+          "risk_mc_95_interval": [
+            0.0,
+            0.0006146242834176308
+          ],
+          "risk_interval_method": "97.5% exact one-sided per-law zero-error bounds; Bonferroni",
+          "errors_by_law": [
+            0.0,
+            0.0
+          ],
+          "risk_by_seed": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "budget": {
+            "mean": 1003.2356056872228,
+            "mc_se": 0.5955669129357465
+          },
+          "information_beta_beta": {
+            "mean": 879.3828848545983,
+            "mc_se": 0.44866995954450023
+          },
+          "information_beta_alpha": {
+            "mean": 0.42719222712734095,
+            "mc_se": 15.508997774468437
+          },
+          "information_alpha_alpha": {
+            "mean": 3316.5594910128184,
+            "mc_se": 2.879794302567584
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            9.590017999089469,
+            9.528422086980527
+          ],
+          "forecast_gap": {
+            "mean": 0.38273013938736145,
+            "mc_se": 6.248921379819549e-05
+          }
+        }
+      ]
+    },
+    {
+      "alpha": 0.5,
+      "separation": 1.0,
+      "reset_length": 16,
+      "retention": 0.0,
+      "response": false,
+      "rows": [
+        {
+          "observations": 16,
+          "bayes_risk": 0.0235,
+          "risk_mc_se": 0.0013828954233095455,
+          "risk_mc_95_interval": [
+            0.020789574775928018,
+            0.026210425224071982
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.025166666666666667,
+            0.021833333333333333
+          ],
+          "risk_by_seed": [
+            0.0225,
+            0.0275,
+            0.0205
+          ],
+          "budget": {
+            "mean": 3.1102455408636156,
+            "mc_se": 0.007325069994443215
+          },
+          "information_beta_beta": {
+            "mean": 2.437919868026791,
+            "mc_se": 0.004214370886448207
+          },
+          "information_beta_alpha": {
+            "mean": 0.012358250201914264,
+            "mc_se": 0.020016674723629474
+          },
+          "information_alpha_alpha": {
+            "mean": 2.9866503772394934,
+            "mc_se": 0.017718064993994167
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            1.3613393067182216,
+            1.3132634534228425
+          ],
+          "forecast_gap": {
+            "mean": 0.41276294469618363,
+            "mc_se": 0.00039309028406291676
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.0235,
+            "mc_se": 0.0013829214990938768
+          }
+        },
+        {
+          "observations": 256,
+          "bayes_risk": 0.0,
+          "risk_mc_se": 0.0,
+          "risk_mc_95_interval": [
+            0.0,
+            0.0006146242834176308
+          ],
+          "risk_interval_method": "97.5% exact one-sided per-law zero-error bounds; Bonferroni",
+          "errors_by_law": [
+            0.0,
+            0.0
+          ],
+          "risk_by_seed": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "budget": {
+            "mean": 49.682234925482966,
+            "mc_se": 0.029466776850404223
+          },
+          "information_beta_beta": {
+            "mean": 38.946111080733985,
+            "mc_se": 0.01688299571009308
+          },
+          "information_beta_alpha": {
+            "mean": 0.06980357301768769,
+            "mc_se": 0.2694260746278757
+          },
+          "information_alpha_alpha": {
+            "mean": 48.2203932627099,
+            "mc_se": 0.07082890881359205
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            21.487797202966554,
+            21.311836590855325
+          ],
+          "forecast_gap": {
+            "mean": 0.4126937556873543,
+            "mc_se": 0.0003922327684983692
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.0,
+            "mc_se": 0.0
+          }
+        },
+        {
+          "observations": 2048,
+          "bayes_risk": 0.0,
+          "risk_mc_se": 0.0,
+          "risk_mc_95_interval": [
+            0.0,
+            0.0006146242834176308
+          ],
+          "risk_interval_method": "97.5% exact one-sided per-law zero-error bounds; Bonferroni",
+          "errors_by_law": [
+            0.0,
+            0.0
+          ],
+          "risk_by_seed": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "budget": {
+            "mean": 397.24514990886036,
+            "mc_se": 0.08377864858490222
+          },
+          "information_beta_beta": {
+            "mean": 311.4475468849818,
+            "mc_se": 0.04807996020091608
+          },
+          "information_beta_alpha": {
+            "mean": -0.041381850556392846,
+            "mc_se": 2.131183666986871
+          },
+          "information_alpha_alpha": {
+            "mean": 386.1805132945397,
+            "mc_se": 0.2012921203441826
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            170.79083170778574,
+            170.89619712644455
+          ],
+          "forecast_gap": {
+            "mean": 0.41236595870468074,
+            "mc_se": 0.00038920454290387494
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.0,
+            "mc_se": 0.0
+          }
+        },
+        {
+          "observations": 8192,
+          "bayes_risk": 0.0,
+          "risk_mc_se": 0.0,
+          "risk_mc_95_interval": [
+            0.0,
+            0.0006146242834176308
+          ],
+          "risk_interval_method": "97.5% exact one-sided per-law zero-error bounds; Bonferroni",
+          "errors_by_law": [
+            0.0,
+            0.0
+          ],
+          "risk_by_seed": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "budget": {
+            "mean": 1589.4076308882231,
+            "mc_se": 0.1674657252271608
+          },
+          "information_beta_beta": {
+            "mean": 1246.0305725154087,
+            "mc_se": 0.09592926307292324
+          },
+          "information_beta_alpha": {
+            "mean": -0.20754181133963479,
+            "mc_se": 8.506966688230847
+          },
+          "information_alpha_alpha": {
+            "mean": 1543.9680303862306,
+            "mc_se": 0.3989049523287885
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            683.9792353758805,
+            684.2929761624347
+          ],
+          "forecast_gap": {
+            "mean": 0.4123975181828118,
+            "mc_se": 0.0003937048456144593
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.0,
+            "mc_se": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "alpha": 1.0,
+      "separation": 0.25,
+      "reset_length": null,
+      "retention": 0.0,
+      "response": false,
+      "rows": [
+        {
+          "observations": 16,
+          "bayes_risk": 0.32083333333333336,
+          "risk_mc_se": 0.004261605508476973,
+          "risk_mc_95_interval": [
+            0.312480740020401,
+            0.3291859266462657
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.32133333333333336,
+            0.32033333333333336
+          ],
+          "risk_by_seed": [
+            0.31675,
+            0.326,
+            0.31975
+          ],
+          "budget": {
+            "mean": 4.466799119580831,
+            "mc_se": 0.014835534149026629
+          },
+          "information_beta_beta": {
+            "mean": 2.9528306250300793,
+            "mc_se": 0.007048342452261742
+          },
+          "information_beta_alpha": {
+            "mean": 0.021773919281244274,
+            "mc_se": 0.020846328973219225
+          },
+          "information_alpha_alpha": {
+            "mean": 2.8220721019687227,
+            "mc_se": 0.016752363532631175
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            2.903817199065194,
+            2.9022433247020616
+          ],
+          "forecast_gap": {
+            "mean": 0.08575272358786015,
+            "mc_se": 0.00030135147456586756
+          }
+        },
+        {
+          "observations": 256,
+          "bayes_risk": 0.05225,
+          "risk_mc_se": 0.0020314509895461167,
+          "risk_mc_95_interval": [
+            0.048268429224131354,
+            0.05623157077586864
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.05483333333333333,
+            0.049666666666666665
+          ],
+          "risk_by_seed": [
+            0.04925,
+            0.05225,
+            0.05525
+          ],
+          "budget": {
+            "mean": 54.630080308709196,
+            "mc_se": 0.3166739721200328
+          },
+          "information_beta_beta": {
+            "mean": 37.71382020943764,
+            "mc_se": 0.17230621556385875
+          },
+          "information_beta_alpha": {
+            "mean": 0.5187117612803825,
+            "mc_se": 0.3459582953817844
+          },
+          "information_alpha_alpha": {
+            "mean": 54.731359835294114,
+            "mc_se": 0.301136857376555
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            33.65077677736368,
+            33.15866413107848
+          ],
+          "forecast_gap": {
+            "mean": 0.0733185963635717,
+            "mc_se": 0.0003531487288979363
+          }
+        },
+        {
+          "observations": 2048,
+          "bayes_risk": 0.0028333333333333335,
+          "risk_mc_se": 0.0004852618482067549,
+          "risk_mc_95_interval": [
+            0.0018822375877767515,
+            0.0037844290788899156
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.003,
+            0.0026666666666666666
+          ],
+          "risk_by_seed": [
+            0.0025,
+            0.00325,
+            0.00275
+          ],
+          "budget": {
+            "mean": 362.15100974717797,
+            "mc_se": 2.524216915490962
+          },
+          "information_beta_beta": {
+            "mean": 258.15432475297814,
+            "mc_se": 1.4518874662422776
+          },
+          "information_beta_alpha": {
+            "mean": 3.9847326978480657,
+            "mc_se": 2.6982679813532657
+          },
+          "information_alpha_alpha": {
+            "mean": 463.60138112009435,
+            "mc_se": 2.2585423641449642
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            198.04448040711625,
+            190.92287290706207
+          ],
+          "forecast_gap": {
+            "mean": 0.06353900196323697,
+            "mc_se": 0.00036031804040456125
+          }
+        },
+        {
+          "observations": 8192,
+          "bayes_risk": 0.0003333333333333333,
+          "risk_mc_se": 0.00016664582855785198,
+          "risk_mc_95_interval": [
+            6.71351118610705e-06,
+            0.0006599531554805596
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.0005,
+            0.00016666666666666666
+          ],
+          "risk_by_seed": [
+            0.00025,
+            0.0005,
+            0.00025
+          ],
+          "budget": {
+            "mean": 1254.512562827796,
+            "mc_se": 9.747313587390785
+          },
+          "information_beta_beta": {
+            "mean": 914.7213513547989,
+            "mc_se": 5.772647319712003
+          },
+          "information_beta_alpha": {
+            "mean": 14.791670042437346,
+            "mc_se": 10.527936834507571
+          },
+          "information_alpha_alpha": {
+            "mean": 1927.5869194703741,
+            "mc_se": 8.550556430249229
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            620.2295166606781,
+            589.0141921876418
+          ],
+          "forecast_gap": {
+            "mean": 0.05639477463136166,
+            "mc_se": 0.00035659921084938285
+          }
+        }
+      ]
+    },
+    {
+      "alpha": 1.0,
+      "separation": 0.25,
+      "reset_length": 16,
+      "retention": 0.0,
+      "response": false,
+      "rows": [
+        {
+          "observations": 16,
+          "bayes_risk": 0.32083333333333336,
+          "risk_mc_se": 0.004261605508476973,
+          "risk_mc_95_interval": [
+            0.312480740020401,
+            0.3291859266462657
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.32133333333333336,
+            0.32033333333333336
+          ],
+          "risk_by_seed": [
+            0.31675,
+            0.326,
+            0.31975
+          ],
+          "budget": {
+            "mean": 4.466799119580831,
+            "mc_se": 0.014835534149026629
+          },
+          "information_beta_beta": {
+            "mean": 2.9528306250300793,
+            "mc_se": 0.007048342452261742
+          },
+          "information_beta_alpha": {
+            "mean": 0.021773919281244274,
+            "mc_se": 0.020846328973219225
+          },
+          "information_alpha_alpha": {
+            "mean": 2.8220721019687227,
+            "mc_se": 0.016752363532631175
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            2.903817199065194,
+            2.9022433247020616
+          ],
+          "forecast_gap": {
+            "mean": 0.08575272358786015,
+            "mc_se": 0.00030135147456586756
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.32083333333333336,
+            "mc_se": 0.004261430367692815
+          }
+        },
+        {
+          "observations": 256,
+          "bayes_risk": 0.03808333333333333,
+          "risk_mc_se": 0.0017473374782389988,
+          "risk_mc_95_interval": [
+            0.03465861480714785,
+            0.04150805185951881
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.039,
+            0.03716666666666667
+          ],
+          "risk_by_seed": [
+            0.036,
+            0.03925,
+            0.039
+          ],
+          "budget": {
+            "mean": 71.34050481985967,
+            "mc_se": 0.05962599930706776
+          },
+          "information_beta_beta": {
+            "mean": 47.14365149955807,
+            "mc_se": 0.028245481200810826
+          },
+          "information_beta_alpha": {
+            "mean": -0.01971632197167734,
+            "mc_se": 0.09846581806195909
+          },
+          "information_alpha_alpha": {
+            "mean": 45.39760550565321,
+            "mc_se": 0.0672515411076529
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            46.37054673280287,
+            46.379118948237014
+          ],
+          "forecast_gap": {
+            "mean": 0.08551027174362091,
+            "mc_se": 0.000304176998368385
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.03808333333333333,
+            "mc_se": 0.0017472847044150586
+          }
+        },
+        {
+          "observations": 2048,
+          "bayes_risk": 0.0,
+          "risk_mc_se": 0.0,
+          "risk_mc_95_interval": [
+            0.0,
+            0.0006146242834176308
+          ],
+          "risk_interval_method": "97.5% exact one-sided per-law zero-error bounds; Bonferroni",
+          "errors_by_law": [
+            0.0,
+            0.0
+          ],
+          "risk_by_seed": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "budget": {
+            "mean": 570.9035585275508,
+            "mc_se": 0.1683633333675122
+          },
+          "information_beta_beta": {
+            "mean": 377.22758172286393,
+            "mc_se": 0.080023641967042
+          },
+          "information_beta_alpha": {
+            "mean": -0.08363581549628968,
+            "mc_se": 0.4854256539990026
+          },
+          "information_alpha_alpha": {
+            "mean": 363.24785448718643,
+            "mc_se": 0.19021804575711349
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            371.2155989130083,
+            371.2185281553829
+          ],
+          "forecast_gap": {
+            "mean": 0.08542607003873345,
+            "mc_se": 0.0003026449788379209
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.0,
+            "mc_se": 0.0
+          }
+        },
+        {
+          "observations": 8192,
+          "bayes_risk": 0.0,
+          "risk_mc_se": 0.0,
+          "risk_mc_95_interval": [
+            0.0,
+            0.0006146242834176308
+          ],
+          "risk_interval_method": "97.5% exact one-sided per-law zero-error bounds; Bonferroni",
+          "errors_by_law": [
+            0.0,
+            0.0
+          ],
+          "risk_by_seed": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "budget": {
+            "mean": 2284.432039447095,
+            "mc_se": 0.3344432789260004
+          },
+          "information_beta_beta": {
+            "mean": 1509.3055556797397,
+            "mc_se": 0.15875213499068394
+          },
+          "information_beta_alpha": {
+            "mean": -0.6581585092507691,
+            "mc_se": 1.7653759173827097
+          },
+          "information_alpha_alpha": {
+            "mean": 1452.1841870650148,
+            "mc_se": 0.377459791647257
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            1484.8994834053995,
+            1485.7989065267325
+          ],
+          "forecast_gap": {
+            "mean": 0.08559917688931518,
+            "mc_se": 0.0003043174938286082
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.0,
+            "mc_se": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "alpha": 1.0,
+      "separation": 0.5,
+      "reset_length": null,
+      "retention": 0.0,
+      "response": false,
+      "rows": [
+        {
+          "observations": 16,
+          "bayes_risk": 0.17383333333333334,
+          "risk_mc_se": 0.003459726231811027,
+          "risk_mc_95_interval": [
+            0.16705239452261525,
+            0.18061427214405143
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.1755,
+            0.17216666666666666
+          ],
+          "risk_by_seed": [
+            0.16825,
+            0.1775,
+            0.17575
+          ],
+          "budget": {
+            "mean": 3.820318556611086,
+            "mc_se": 0.015861994779000743
+          },
+          "information_beta_beta": {
+            "mean": 2.62335568515371,
+            "mc_se": 0.008080335850992366
+          },
+          "information_beta_alpha": {
+            "mean": 0.028441566776253466,
+            "mc_se": 0.018808067028264045
+          },
+          "information_alpha_alpha": {
+            "mean": 2.596221346702001,
+            "mc_se": 0.01512458286463314
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            2.4731092779973034,
+            2.4433831477648957
+          ],
+          "forecast_gap": {
+            "mean": 0.15971964479718448,
+            "mc_se": 0.0006086305208849295
+          }
+        },
+        {
+          "observations": 256,
+          "bayes_risk": 0.0028333333333333335,
+          "risk_mc_se": 0.0004852427636962584,
+          "risk_mc_95_interval": [
+            0.001882274992729987,
+            0.00378439167393668
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.0033333333333333335,
+            0.0023333333333333335
+          ],
+          "risk_by_seed": [
+            0.003,
+            0.00275,
+            0.00275
+          ],
+          "budget": {
+            "mean": 33.886054955750325,
+            "mc_se": 0.2632558865211312
+          },
+          "information_beta_beta": {
+            "mean": 25.419603675615313,
+            "mc_se": 0.16142104364492132
+          },
+          "information_beta_alpha": {
+            "mean": 0.4046046991549847,
+            "mc_se": 0.2741508382681344
+          },
+          "information_alpha_alpha": {
+            "mean": 51.35101567313046,
+            "mc_se": 0.19546518478607577
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            17.27744263315207,
+            16.314660960674296
+          ],
+          "forecast_gap": {
+            "mean": 0.10267432160235482,
+            "mc_se": 0.0006693936592901162
+          }
+        },
+        {
+          "observations": 2048,
+          "bayes_risk": 0.0,
+          "risk_mc_se": 0.0,
+          "risk_mc_95_interval": [
+            0.0,
+            0.0006146242834176308
+          ],
+          "risk_interval_method": "97.5% exact one-sided per-law zero-error bounds; Bonferroni",
+          "errors_by_law": [
+            0.0,
+            0.0
+          ],
+          "risk_by_seed": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "budget": {
+            "mean": 152.76168489543613,
+            "mc_se": 1.577532035400493
+          },
+          "information_beta_beta": {
+            "mean": 123.55480905698212,
+            "mc_se": 1.0644124839060025
+          },
+          "information_beta_alpha": {
+            "mean": 0.9973090191202257,
+            "mc_se": 1.8802497469950077
+          },
+          "information_alpha_alpha": {
+            "mean": 420.14323646584546,
+            "mc_se": 1.3273010848777629
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            56.42503610270842,
+            51.49126841037952
+          ],
+          "forecast_gap": {
+            "mean": 0.06312416641650191,
+            "mc_se": 0.0005460056586935976
+          }
+        },
+        {
+          "observations": 8192,
+          "bayes_risk": 0.0,
+          "risk_mc_se": 0.0,
+          "risk_mc_95_interval": [
+            0.0,
+            0.0006146242834176308
+          ],
+          "risk_interval_method": "97.5% exact one-sided per-law zero-error bounds; Bonferroni",
+          "errors_by_law": [
+            0.0,
+            0.0
+          ],
+          "risk_by_seed": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "budget": {
+            "mean": 393.29018299086226,
+            "mc_se": 4.721620873199031
+          },
+          "information_beta_beta": {
+            "mean": 333.81965900273013,
+            "mc_se": 3.388286678122229
+          },
+          "information_beta_alpha": {
+            "mean": -0.6169503242224067,
+            "mc_se": 6.518549197196465
+          },
+          "information_alpha_alpha": {
+            "mean": 1597.4172244529736,
+            "mc_se": 5.414057449451138
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            117.40937976191461,
+            105.41197668379687
+          ],
+          "forecast_gap": {
+            "mean": 0.042743582570360594,
+            "mc_se": 0.00043466528252115733
+          }
+        }
+      ]
+    },
+    {
+      "alpha": 1.0,
+      "separation": 0.5,
+      "reset_length": 16,
+      "retention": 0.0,
+      "response": false,
+      "rows": [
+        {
+          "observations": 16,
+          "bayes_risk": 0.17383333333333334,
+          "risk_mc_se": 0.003459726231811027,
+          "risk_mc_95_interval": [
+            0.16705239452261525,
+            0.18061427214405143
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.1755,
+            0.17216666666666666
+          ],
+          "risk_by_seed": [
+            0.16825,
+            0.1775,
+            0.17575
+          ],
+          "budget": {
+            "mean": 3.820318556611086,
+            "mc_se": 0.015861994779000743
+          },
+          "information_beta_beta": {
+            "mean": 2.62335568515371,
+            "mc_se": 0.008080335850992366
+          },
+          "information_beta_alpha": {
+            "mean": 0.028441566776253466,
+            "mc_se": 0.018808067028264045
+          },
+          "information_alpha_alpha": {
+            "mean": 2.596221346702001,
+            "mc_se": 0.01512458286463314
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            2.4731092779973034,
+            2.4433831477648957
+          ],
+          "forecast_gap": {
+            "mean": 0.15971964479718448,
+            "mc_se": 0.0006086305208849295
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.17383333333333334,
+            "mc_se": 0.003459615519282174
+          }
+        },
+        {
+          "observations": 256,
+          "bayes_risk": 0.00025,
+          "risk_mc_se": 0.00014432954698415614,
+          "risk_mc_95_interval": [
+            0,
+            0.0005328807139939277
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.0003333333333333333,
+            0.00016666666666666666
+          ],
+          "risk_by_seed": [
+            0.00025,
+            0.00025,
+            0.00025
+          ],
+          "budget": {
+            "mean": 60.77332328722863,
+            "mc_se": 0.06353337457718099
+          },
+          "information_beta_beta": {
+            "mean": 41.79269271091276,
+            "mc_se": 0.03237480583128101
+          },
+          "information_beta_alpha": {
+            "mean": 0.07512098491107523,
+            "mc_se": 0.11977792871431356
+          },
+          "information_alpha_alpha": {
+            "mean": 41.967733245445686,
+            "mc_se": 0.06053251446116978
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            39.23676875203539,
+            39.111285424871284
+          ],
+          "forecast_gap": {
+            "mean": 0.1585663188283542,
+            "mc_se": 0.0006092273746560245
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.00025,
+            "mc_se": 0.0001443255376630731
+          }
+        },
+        {
+          "observations": 2048,
+          "bayes_risk": 0.0,
+          "risk_mc_se": 0.0,
+          "risk_mc_95_interval": [
+            0.0,
+            0.0006146242834176308
+          ],
+          "risk_interval_method": "97.5% exact one-sided per-law zero-error bounds; Bonferroni",
+          "errors_by_law": [
+            0.0,
+            0.0
+          ],
+          "risk_by_seed": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "budget": {
+            "mean": 485.92377788139055,
+            "mc_se": 0.17842963740568593
+          },
+          "information_beta_beta": {
+            "mean": 334.1538329808053,
+            "mc_se": 0.09105296140495901
+          },
+          "information_beta_alpha": {
+            "mean": 0.07229792303738455,
+            "mc_se": 0.7896166957869662
+          },
+          "information_alpha_alpha": {
+            "mean": 336.4025655961678,
+            "mc_se": 0.1711312306290503
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            313.4153658515265,
+            313.3493832855526
+          ],
+          "forecast_gap": {
+            "mean": 0.15836634780867553,
+            "mc_se": 0.0006076213371773469
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.0,
+            "mc_se": 0.0
+          }
+        },
+        {
+          "observations": 8192,
+          "bayes_risk": 0.0,
+          "risk_mc_se": 0.0,
+          "risk_mc_95_interval": [
+            0.0,
+            0.0006146242834176308
+          ],
+          "risk_interval_method": "97.5% exact one-sided per-law zero-error bounds; Bonferroni",
+          "errors_by_law": [
+            0.0,
+            0.0
+          ],
+          "risk_by_seed": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "budget": {
+            "mean": 1944.7538948571812,
+            "mc_se": 0.35679506456812493
+          },
+          "information_beta_beta": {
+            "mean": 1337.1194041785732,
+            "mc_se": 0.1819618326421616
+          },
+          "information_beta_alpha": {
+            "mean": -0.3784823291024659,
+            "mc_se": 3.077230172768733
+          },
+          "information_alpha_alpha": {
+            "mean": 1344.4413146177233,
+            "mc_se": 0.3381429247917703
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            1253.5775769483405,
+            1254.6130562799617
+          ],
+          "forecast_gap": {
+            "mean": 0.1587726426004879,
+            "mc_se": 0.0006108751833824546
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.0,
+            "mc_se": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "alpha": 1.0,
+      "separation": 1.0,
+      "reset_length": null,
+      "retention": 0.0,
+      "response": false,
+      "rows": [
+        {
+          "observations": 16,
+          "bayes_risk": 0.028833333333333336,
+          "risk_mc_se": 0.0015276873980887564,
+          "risk_mc_95_interval": [
+            0.02583912105344367,
+            0.031827545613223
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.028,
+            0.029666666666666668
+          ],
+          "risk_by_seed": [
+            0.027,
+            0.03125,
+            0.02825
+          ],
+          "budget": {
+            "mean": 2.2023741388913476,
+            "mc_se": 0.012791807123649681
+          },
+          "information_beta_beta": {
+            "mean": 1.700724719308489,
+            "mc_se": 0.007616985875366431
+          },
+          "information_beta_alpha": {
+            "mean": 0.013055921617189294,
+            "mc_se": 0.012987163191015304
+          },
+          "information_alpha_alpha": {
+            "mean": 1.97798531106598,
+            "mc_se": 0.009208840225601563
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            1.3363901373869103,
+            1.2972076878259293
+          ],
+          "forecast_gap": {
+            "mean": 0.25260493556951036,
+            "mc_se": 0.0010771540438302433
+          }
+        },
+        {
+          "observations": 256,
+          "bayes_risk": 0.0,
+          "risk_mc_se": 0.0,
+          "risk_mc_95_interval": [
+            0.0,
+            0.0006146242834176308
+          ],
+          "risk_interval_method": "97.5% exact one-sided per-law zero-error bounds; Bonferroni",
+          "errors_by_law": [
+            0.0,
+            0.0
+          ],
+          "risk_by_seed": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "budget": {
+            "mean": 9.16529143258704,
+            "mc_se": 0.08858316052317189
+          },
+          "information_beta_beta": {
+            "mean": 8.036460380294058,
+            "mc_se": 0.06773858584904897
+          },
+          "information_beta_alpha": {
+            "mean": -0.028785568322179947,
+            "mc_se": 0.1325207899269816
+          },
+          "information_alpha_alpha": {
+            "mean": 34.084845009265564,
+            "mc_se": 0.07191498761570263
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            3.064645019084356,
+            2.907738642433621
+          ],
+          "forecast_gap": {
+            "mean": 0.0787839277885502,
+            "mc_se": 0.0006733837700381058
+          }
+        },
+        {
+          "observations": 2048,
+          "bayes_risk": 0.0,
+          "risk_mc_se": 0.0,
+          "risk_mc_95_interval": [
+            0.0,
+            0.0006146242834176308
+          ],
+          "risk_interval_method": "97.5% exact one-sided per-law zero-error bounds; Bonferroni",
+          "errors_by_law": [
+            0.0,
+            0.0
+          ],
+          "risk_by_seed": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "budget": {
+            "mean": 21.673622843999482,
+            "mc_se": 0.24253092803176296
+          },
+          "information_beta_beta": {
+            "mean": 20.251842867176883,
+            "mc_se": 0.2097088819754273
+          },
+          "information_beta_alpha": {
+            "mean": -0.48908935287591887,
+            "mc_se": 0.5915616775296165
+          },
+          "information_alpha_alpha": {
+            "mean": 185.6635652367332,
+            "mc_se": 0.7459294023051806
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            4.632014612098599,
+            4.456100957393282
+          ],
+          "forecast_gap": {
+            "mean": 0.02467548087213582,
+            "mc_se": 0.00026539731718900277
+          }
+        },
+        {
+          "observations": 8192,
+          "bayes_risk": 0.0,
+          "risk_mc_se": 0.0,
+          "risk_mc_95_interval": [
+            0.0,
+            0.0006146242834176308
+          ],
+          "risk_interval_method": "97.5% exact one-sided per-law zero-error bounds; Bonferroni",
+          "errors_by_law": [
+            0.0,
+            0.0
+          ],
+          "risk_by_seed": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "budget": {
+            "mean": 37.12241745332684,
+            "mc_se": 0.4346071394732911
+          },
+          "information_beta_beta": {
+            "mean": 35.5810829039363,
+            "mc_se": 0.39632046958038875
+          },
+          "information_beta_alpha": {
+            "mean": -1.3137305851877705,
+            "mc_se": 1.4148568223261524
+          },
+          "information_alpha_alpha": {
+            "mean": 498.49672418532924,
+            "mc_se": 2.5752810419942436
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            6.133439199760282,
+            5.928130697855643
+          ],
+          "forecast_gap": {
+            "mean": 0.01069964259622274,
+            "mc_se": 0.00012417207139914512
+          }
+        }
+      ]
+    },
+    {
+      "alpha": 1.0,
+      "separation": 1.0,
+      "reset_length": 16,
+      "retention": 0.0,
+      "response": false,
+      "rows": [
+        {
+          "observations": 16,
+          "bayes_risk": 0.028833333333333336,
+          "risk_mc_se": 0.0015276873980887564,
+          "risk_mc_95_interval": [
+            0.02583912105344367,
+            0.031827545613223
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.028,
+            0.029666666666666668
+          ],
+          "risk_by_seed": [
+            0.027,
+            0.03125,
+            0.02825
+          ],
+          "budget": {
+            "mean": 2.2023741388913476,
+            "mc_se": 0.012791807123649681
+          },
+          "information_beta_beta": {
+            "mean": 1.700724719308489,
+            "mc_se": 0.007616985875366431
+          },
+          "information_beta_alpha": {
+            "mean": 0.013055921617189294,
+            "mc_se": 0.012987163191015304
+          },
+          "information_alpha_alpha": {
+            "mean": 1.97798531106598,
+            "mc_se": 0.009208840225601563
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            1.3363901373869103,
+            1.2972076878259293
+          ],
+          "forecast_gap": {
+            "mean": 0.25260493556951036,
+            "mc_se": 0.0010771540438302433
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.028833333333333332,
+            "mc_se": 0.0015276426805807088
+          }
+        },
+        {
+          "observations": 256,
+          "bayes_risk": 0.0,
+          "risk_mc_se": 0.0,
+          "risk_mc_95_interval": [
+            0.0,
+            0.0006146242834176308
+          ],
+          "risk_interval_method": "97.5% exact one-sided per-law zero-error bounds; Bonferroni",
+          "errors_by_law": [
+            0.0,
+            0.0
+          ],
+          "risk_by_seed": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "budget": {
+            "mean": 35.25949643552877,
+            "mc_se": 0.051433734598616034
+          },
+          "information_beta_beta": {
+            "mean": 27.20731066446845,
+            "mc_se": 0.030529106401076634
+          },
+          "information_beta_alpha": {
+            "mean": 0.07371565715259688,
+            "mc_se": 0.13236582860715265
+          },
+          "information_alpha_alpha": {
+            "mean": 32.02470705621326,
+            "mc_se": 0.03868031983847801
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            21.449044107216586,
+            21.199103573751117
+          ],
+          "forecast_gap": {
+            "mean": 0.2519300338720813,
+            "mc_se": 0.0010755455742217134
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.0,
+            "mc_se": 0.0
+          }
+        },
+        {
+          "observations": 2048,
+          "bayes_risk": 0.0,
+          "risk_mc_se": 0.0,
+          "risk_mc_95_interval": [
+            0.0,
+            0.0006146242834176308
+          ],
+          "risk_interval_method": "97.5% exact one-sided per-law zero-error bounds; Bonferroni",
+          "errors_by_law": [
+            0.0,
+            0.0
+          ],
+          "risk_by_seed": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "budget": {
+            "mean": 281.79227004527024,
+            "mc_se": 0.14623689877923277
+          },
+          "information_beta_beta": {
+            "mean": 217.46603178772074,
+            "mc_se": 0.08686327099731841
+          },
+          "information_beta_alpha": {
+            "mean": 0.009446358473049865,
+            "mc_se": 1.0106050182061006
+          },
+          "information_alpha_alpha": {
+            "mean": 256.3224162780627,
+            "mc_se": 0.10952499418374075
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            170.3545764846825,
+            170.31651263591272
+          ],
+          "forecast_gap": {
+            "mean": 0.25096469774087116,
+            "mc_se": 0.0010756048474236497
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.0,
+            "mc_se": 0.0
+          }
+        },
+        {
+          "observations": 8192,
+          "bayes_risk": 0.0,
+          "risk_mc_se": 0.0,
+          "risk_mc_95_interval": [
+            0.0,
+            0.0006146242834176308
+          ],
+          "risk_interval_method": "97.5% exact one-sided per-law zero-error bounds; Bonferroni",
+          "errors_by_law": [
+            0.0,
+            0.0
+          ],
+          "risk_by_seed": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "budget": {
+            "mean": 1127.5703966547655,
+            "mc_se": 0.292230543396636
+          },
+          "information_beta_beta": {
+            "mean": 870.0931359155029,
+            "mc_se": 0.17370263553710652
+          },
+          "information_beta_alpha": {
+            "mean": -0.07046882115552823,
+            "mc_se": 4.019059334153069
+          },
+          "information_alpha_alpha": {
+            "mean": 1024.992054362671,
+            "mc_se": 0.21700519026340992
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            681.5367136280837,
+            681.8139356265968
+          ],
+          "forecast_gap": {
+            "mean": 0.25333542488446137,
+            "mc_se": 0.0010823606392087856
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.0,
+            "mc_se": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "alpha": 2.0,
+      "separation": 0.25,
+      "reset_length": null,
+      "retention": 0.0,
+      "response": false,
+      "rows": [
+        {
+          "observations": 16,
+          "bayes_risk": 0.371,
+          "risk_mc_se": 0.0044100905762303605,
+          "risk_mc_95_interval": [
+            0.362356381302029,
+            0.379643618697971
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.37433333333333335,
+            0.36766666666666664
+          ],
+          "risk_by_seed": [
+            0.37975,
+            0.36975,
+            0.3635
+          ],
+          "budget": {
+            "mean": 1.7101080372127295,
+            "mc_se": 0.012084099349841702
+          },
+          "information_beta_beta": {
+            "mean": 1.2186419944917186,
+            "mc_se": 0.00771583001889467
+          },
+          "information_beta_alpha": {
+            "mean": 0.009809974750433433,
+            "mc_se": 0.007416332611484107
+          },
+          "information_alpha_alpha": {
+            "mean": 0.9931577617641193,
+            "mc_se": 0.002875477137217918
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            1.2176028996700416,
+            1.2192628603886217
+          ],
+          "forecast_gap": {
+            "mean": 0.015240928506911876,
+            "mc_se": 0.0002533383137018157
+          }
+        },
+        {
+          "observations": 256,
+          "bayes_risk": 0.34933333333333333,
+          "risk_mc_se": 0.004352516033885473,
+          "risk_mc_95_interval": [
+            0.3408025586647847,
+            0.35786410800188195
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.3515,
+            0.3471666666666667
+          ],
+          "risk_by_seed": [
+            0.356,
+            0.34425,
+            0.34775
+          ],
+          "budget": {
+            "mean": 3.4826733003628263,
+            "mc_se": 0.07802650189729712
+          },
+          "information_beta_beta": {
+            "mean": 2.6292508003527972,
+            "mc_se": 0.05337200154009485
+          },
+          "information_beta_alpha": {
+            "mean": 0.04929205244268242,
+            "mc_se": 0.03869221655363232
+          },
+          "information_alpha_alpha": {
+            "mean": 3.9723532067930822,
+            "mc_se": 0.040355070457555965
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            2.6163997354704507,
+            2.6382540470238287
+          ],
+          "forecast_gap": {
+            "mean": 0.0009537687385783894,
+            "mc_se": 6.597066742745471e-05
+          }
+        },
+        {
+          "observations": 2048,
+          "bayes_risk": 0.3470833333333333,
+          "risk_mc_se": 0.0043460048220585225,
+          "risk_mc_95_interval": [
+            0.33856532040546117,
+            0.35560134626120543
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.3481666666666667,
+            0.346
+          ],
+          "risk_by_seed": [
+            0.355,
+            0.34175,
+            0.3445
+          ],
+          "budget": {
+            "mean": 4.48068299589919,
+            "mc_se": 0.1967329312698277
+          },
+          "information_beta_beta": {
+            "mean": 3.4626837146048373,
+            "mc_se": 0.13785296276952932
+          },
+          "information_beta_alpha": {
+            "mean": 0.059703506553262155,
+            "mc_se": 0.10178539415842941
+          },
+          "information_alpha_alpha": {
+            "mean": 6.581036152526971,
+            "mc_se": 0.1381207932330181
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            3.387876296546712,
+            3.5318760613892226
+          ],
+          "forecast_gap": {
+            "mean": 7.859106785547621e-05,
+            "mc_se": 1.7664387917091772e-05
+          }
+        },
+        {
+          "observations": 8192,
+          "bayes_risk": 0.34650000000000003,
+          "risk_mc_se": 0.0043442847305575185,
+          "risk_mc_95_interval": [
+            0.33798535838952,
+            0.3550146416104801
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.3478333333333333,
+            0.3451666666666667
+          ],
+          "risk_by_seed": [
+            0.35425,
+            0.341,
+            0.34425
+          ],
+          "budget": {
+            "mean": 4.9317855904997465,
+            "mc_se": 0.35925391003627244
+          },
+          "information_beta_beta": {
+            "mean": 3.8255530605538577,
+            "mc_se": 0.24256616424407174
+          },
+          "information_beta_alpha": {
+            "mean": 0.10041133508023291,
+            "mc_se": 0.1678719182067078
+          },
+          "information_alpha_alpha": {
+            "mean": 8.00739977509835,
+            "mc_se": 0.24897902421712992
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            3.836326377386914,
+            3.8097324185258192
+          ],
+          "forecast_gap": {
+            "mean": 1.5480586826797375e-05,
+            "mc_se": 9.141826343311033e-06
+          }
+        }
+      ]
+    },
+    {
+      "alpha": 2.0,
+      "separation": 0.25,
+      "reset_length": 16,
+      "retention": 0.0,
+      "response": false,
+      "rows": [
+        {
+          "observations": 16,
+          "bayes_risk": 0.371,
+          "risk_mc_se": 0.0044100905762303605,
+          "risk_mc_95_interval": [
+            0.362356381302029,
+            0.379643618697971
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.37433333333333335,
+            0.36766666666666664
+          ],
+          "risk_by_seed": [
+            0.37975,
+            0.36975,
+            0.3635
+          ],
+          "budget": {
+            "mean": 1.7101080372127295,
+            "mc_se": 0.012084099349841702
+          },
+          "information_beta_beta": {
+            "mean": 1.2186419944917186,
+            "mc_se": 0.00771583001889467
+          },
+          "information_beta_alpha": {
+            "mean": 0.009809974750433433,
+            "mc_se": 0.007416332611484107
+          },
+          "information_alpha_alpha": {
+            "mean": 0.9931577617641193,
+            "mc_se": 0.002875477137217918
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            1.2176028996700416,
+            1.2192628603886217
+          ],
+          "forecast_gap": {
+            "mean": 0.015240928506911876,
+            "mc_se": 0.0002533383137018157
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.371,
+            "mc_se": 0.004410011793295049
+          }
+        },
+        {
+          "observations": 256,
+          "bayes_risk": 0.129125,
+          "risk_mc_se": 0.0030604969916893164,
+          "risk_mc_95_interval": [
+            0.12312653612149575,
+            0.13512346387850424
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.12625,
+            0.132
+          ],
+          "risk_by_seed": [
+            0.125875,
+            0.13525,
+            0.12625
+          ],
+          "budget": {
+            "mean": 27.287484373794033,
+            "mc_se": 0.04812183399742687
+          },
+          "information_beta_beta": {
+            "mean": 19.44442345192938,
+            "mc_se": 0.03065395568986632
+          },
+          "information_beta_alpha": {
+            "mean": 0.02963638003552338,
+            "mc_se": 0.03001046449230599
+          },
+          "information_alpha_alpha": {
+            "mean": 15.938513858232728,
+            "mc_se": 0.011571487833678756
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            19.42784119561945,
+            19.44898326226405
+          ],
+          "forecast_gap": {
+            "mean": 0.015106924593441701,
+            "mc_se": 0.0002542551934710755
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.129125,
+            "mc_se": 0.003060482000778596
+          }
+        },
+        {
+          "observations": 2048,
+          "bayes_risk": 0.0013333333333333335,
+          "risk_mc_se": 0.000333124900105374,
+          "risk_mc_95_interval": [
+            0.0006804205267732972,
+            0.00198624613989337
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.001,
+            0.0016666666666666668
+          ],
+          "risk_by_seed": [
+            0.00175,
+            0.001,
+            0.00125
+          ],
+          "budget": {
+            "mean": 217.91638523327742,
+            "mc_se": 0.1357528039198413
+          },
+          "information_beta_beta": {
+            "mean": 155.31837939899208,
+            "mc_se": 0.0864484928334568
+          },
+          "information_beta_alpha": {
+            "mean": -0.027039845426125187,
+            "mc_se": 0.08761193656322626
+          },
+          "information_alpha_alpha": {
+            "mean": 127.59574276919336,
+            "mc_se": 0.03275841122018612
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            155.27055555821264,
+            155.2562891827476
+          ],
+          "forecast_gap": {
+            "mean": 0.014666776560367247,
+            "mc_se": 0.0002468152840513834
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.0013333333333333333,
+            "mc_se": 0.00033312491748169117
+          }
+        },
+        {
+          "observations": 8192,
+          "bayes_risk": 0.0,
+          "risk_mc_se": 0.0,
+          "risk_mc_95_interval": [
+            0.0,
+            0.0006146242834176308
+          ],
+          "risk_interval_method": "97.5% exact one-sided per-law zero-error bounds; Bonferroni",
+          "errors_by_law": [
+            0.0,
+            0.0
+          ],
+          "risk_by_seed": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "budget": {
+            "mean": 872.1365655028317,
+            "mc_se": 0.26952134819223694
+          },
+          "information_beta_beta": {
+            "mean": 621.5744373695528,
+            "mc_se": 0.17153061666169334
+          },
+          "information_beta_alpha": {
+            "mean": -0.06073205867147832,
+            "mc_se": 0.195706260043121
+          },
+          "information_alpha_alpha": {
+            "mean": 510.41173936746935,
+            "mc_se": 0.06576949849705935
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            621.177184578516,
+            621.5264658576026
+          ],
+          "forecast_gap": {
+            "mean": 0.01531601266196453,
+            "mc_se": 0.00025434846774867795
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.0,
+            "mc_se": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "alpha": 2.0,
+      "separation": 0.5,
+      "reset_length": null,
+      "retention": 0.0,
+      "response": false,
+      "rows": [
+        {
+          "observations": 16,
+          "bayes_risk": 0.26325,
+          "risk_mc_se": 0.0040205886193709385,
+          "risk_mc_95_interval": [
+            0.25536979110938135,
+            0.2711302088906186
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.26366666666666666,
+            0.2628333333333333
+          ],
+          "risk_by_seed": [
+            0.269,
+            0.2695,
+            0.25125
+          ],
+          "budget": {
+            "mean": 1.550487015191469,
+            "mc_se": 0.011795902356067927
+          },
+          "information_beta_beta": {
+            "mean": 1.1344953794473314,
+            "mc_se": 0.007629820161769544
+          },
+          "information_beta_alpha": {
+            "mean": 0.010184955339194333,
+            "mc_se": 0.00732915445849566
+          },
+          "information_alpha_alpha": {
+            "mean": 0.9264383720299351,
+            "mc_se": 0.004313238398880395
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            1.1441349681583457,
+            1.1231011553646542
+          ],
+          "forecast_gap": {
+            "mean": 0.029207046500780324,
+            "mc_se": 0.0004894873566255133
+          }
+        },
+        {
+          "observations": 256,
+          "bayes_risk": 0.2341666666666667,
+          "risk_mc_se": 0.0038661144159413976,
+          "risk_mc_95_interval": [
+            0.22658922165131046,
+            0.24174411168202292
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.23483333333333334,
+            0.2335
+          ],
+          "risk_by_seed": [
+            0.23725,
+            0.2405,
+            0.22475
+          ],
+          "budget": {
+            "mean": 3.169262649342815,
+            "mc_se": 0.07648393116286316
+          },
+          "information_beta_beta": {
+            "mean": 2.4097596257584777,
+            "mc_se": 0.051653316045141486
+          },
+          "information_beta_alpha": {
+            "mean": 0.02302086720753626,
+            "mc_se": 0.03849628093774154
+          },
+          "information_alpha_alpha": {
+            "mean": 3.628845234137277,
+            "mc_se": 0.04455090247235853
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            2.4533564881152867,
+            2.344929389211607
+          ],
+          "forecast_gap": {
+            "mean": 0.0018689142698166226,
+            "mc_se": 0.0001363890942527012
+          }
+        },
+        {
+          "observations": 2048,
+          "bayes_risk": 0.23299999999999998,
+          "risk_mc_se": 0.0038593763362782993,
+          "risk_mc_95_interval": [
+            0.22543576137810836,
+            0.2405642386218916
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.23483333333333334,
+            0.23116666666666666
+          ],
+          "risk_by_seed": [
+            0.2375,
+            0.2375,
+            0.224
+          ],
+          "budget": {
+            "mean": 4.218627968635264,
+            "mc_se": 0.20209852837794035
+          },
+          "information_beta_beta": {
+            "mean": 3.2718757506099148,
+            "mc_se": 0.14226325043829935
+          },
+          "information_beta_alpha": {
+            "mean": 0.01839457517005561,
+            "mc_se": 0.10594741874622884
+          },
+          "information_alpha_alpha": {
+            "mean": 6.0607689238166085,
+            "mc_se": 0.15083632547123108
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            3.2611810782419743,
+            3.2376303181260075
+          ],
+          "forecast_gap": {
+            "mean": 0.00017581469558354806,
+            "mc_se": 3.6364114061725e-05
+          }
+        },
+        {
+          "observations": 8192,
+          "bayes_risk": 0.23325,
+          "risk_mc_se": 0.0038608135547176397,
+          "risk_mc_95_interval": [
+            0.22568294448172938,
+            0.24081705551827065
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.23516666666666666,
+            0.23133333333333334
+          ],
+          "risk_by_seed": [
+            0.2375,
+            0.2375,
+            0.22475
+          ],
+          "budget": {
+            "mean": 4.682219805808647,
+            "mc_se": 0.358533938246664
+          },
+          "information_beta_beta": {
+            "mean": 3.645999026571385,
+            "mc_se": 0.24192001276856634
+          },
+          "information_beta_alpha": {
+            "mean": 0.030570891037099424,
+            "mc_se": 0.1735983998482521
+          },
+          "information_alpha_alpha": {
+            "mean": 7.530513266919099,
+            "mc_se": 0.2873373014276313
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            3.697897914157339,
+            3.5453022356034496
+          ],
+          "forecast_gap": {
+            "mean": 3.2612539902272465e-05,
+            "mc_se": 1.922910649600809e-05
+          }
+        }
+      ]
+    },
+    {
+      "alpha": 2.0,
+      "separation": 0.5,
+      "reset_length": 16,
+      "retention": 0.0,
+      "response": false,
+      "rows": [
+        {
+          "observations": 16,
+          "bayes_risk": 0.26325,
+          "risk_mc_se": 0.0040205886193709385,
+          "risk_mc_95_interval": [
+            0.25536979110938135,
+            0.2711302088906186
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.26366666666666666,
+            0.2628333333333333
+          ],
+          "risk_by_seed": [
+            0.269,
+            0.2695,
+            0.25125
+          ],
+          "budget": {
+            "mean": 1.550487015191469,
+            "mc_se": 0.011795902356067927
+          },
+          "information_beta_beta": {
+            "mean": 1.1344953794473314,
+            "mc_se": 0.007629820161769544
+          },
+          "information_beta_alpha": {
+            "mean": 0.010184955339194333,
+            "mc_se": 0.00732915445849566
+          },
+          "information_alpha_alpha": {
+            "mean": 0.9264383720299351,
+            "mc_se": 0.004313238398880395
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            1.1441349681583457,
+            1.1231011553646542
+          ],
+          "forecast_gap": {
+            "mean": 0.029207046500780324,
+            "mc_se": 0.0004894873566255133
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.26325,
+            "mc_se": 0.004020422876805668
+          }
+        },
+        {
+          "observations": 256,
+          "bayes_risk": 0.013583333333333333,
+          "risk_mc_se": 0.0010566871430671542,
+          "risk_mc_95_interval": [
+            0.011512264589995188,
+            0.01565440207667148
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.012166666666666666,
+            0.015
+          ],
+          "risk_by_seed": [
+            0.0135,
+            0.01275,
+            0.0145
+          ],
+          "budget": {
+            "mean": 24.72303465323571,
+            "mc_se": 0.0471313302555002
+          },
+          "information_beta_beta": {
+            "mean": 18.07572709291234,
+            "mc_se": 0.030387832829134216
+          },
+          "information_beta_alpha": {
+            "mean": 0.038460376139113045,
+            "mc_se": 0.02976621964689367
+          },
+          "information_alpha_alpha": {
+            "mean": 14.864677357481172,
+            "mc_se": 0.017436502909649435
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            18.09361754557065,
+            18.017621198075073
+          ],
+          "forecast_gap": {
+            "mean": 0.028313346659498317,
+            "mc_se": 0.000482164994010014
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.013583333333333333,
+            "mc_se": 0.0010567222534331412
+          }
+        },
+        {
+          "observations": 2048,
+          "bayes_risk": 0.0,
+          "risk_mc_se": 0.0,
+          "risk_mc_95_interval": [
+            0.0,
+            0.0006146242834176308
+          ],
+          "risk_interval_method": "97.5% exact one-sided per-law zero-error bounds; Bonferroni",
+          "errors_by_law": [
+            0.0,
+            0.0
+          ],
+          "risk_by_seed": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "budget": {
+            "mean": 197.48132012225372,
+            "mc_se": 0.1341743434449099
+          },
+          "information_beta_beta": {
+            "mean": 144.38485368600882,
+            "mc_se": 0.08649732168744276
+          },
+          "information_beta_alpha": {
+            "mean": -0.01562964713134958,
+            "mc_se": 0.09260529276371054
+          },
+          "information_alpha_alpha": {
+            "mean": 118.93327950095477,
+            "mc_se": 0.049246057397294776
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            144.27926954456487,
+            144.14682027717902
+          ],
+          "forecast_gap": {
+            "mean": 0.02783669696495607,
+            "mc_se": 0.000476038217452115
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.0,
+            "mc_se": 0.0
+          }
+        },
+        {
+          "observations": 8192,
+          "bayes_risk": 0.0,
+          "risk_mc_se": 0.0,
+          "risk_mc_95_interval": [
+            0.0,
+            0.0006146242834176308
+          ],
+          "risk_interval_method": "97.5% exact one-sided per-law zero-error bounds; Bonferroni",
+          "errors_by_law": [
+            0.0,
+            0.0
+          ],
+          "risk_by_seed": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "budget": {
+            "mean": 790.1820863513369,
+            "mc_se": 0.2648126694853389
+          },
+          "information_beta_beta": {
+            "mean": 577.7446042109972,
+            "mc_se": 0.17092131132318295
+          },
+          "information_beta_alpha": {
+            "mean": -0.01830863951186014,
+            "mc_se": 0.23497333269877005
+          },
+          "information_alpha_alpha": {
+            "mean": 475.7897316903793,
+            "mc_se": 0.09883500121789437
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            576.9627773486211,
+            577.1500395439532
+          ],
+          "forecast_gap": {
+            "mean": 0.029352104956688312,
+            "mc_se": 0.0004968518210189325
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.0,
+            "mc_se": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "alpha": 2.0,
+      "separation": 1.0,
+      "reset_length": null,
+      "retention": 0.0,
+      "response": false,
+      "rows": [
+        {
+          "observations": 16,
+          "bayes_risk": 0.106,
+          "risk_mc_se": 0.002810379518648648,
+          "risk_mc_95_interval": [
+            0.10049175736055964,
+            0.11150824263944036
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.107,
+            0.105
+          ],
+          "risk_by_seed": [
+            0.1035,
+            0.1095,
+            0.105
+          ],
+          "budget": {
+            "mean": 1.1288538920788957,
+            "mc_se": 0.010816610071011335
+          },
+          "information_beta_beta": {
+            "mean": 0.8529855422557221,
+            "mc_se": 0.007098694709747663
+          },
+          "information_beta_alpha": {
+            "mean": 0.0056361965306959355,
+            "mc_se": 0.00676086256514256
+          },
+          "information_alpha_alpha": {
+            "mean": 0.6986735887760718,
+            "mc_se": 0.006413212019858186
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            0.8571587407256578,
+            0.8458979486898759
+          ],
+          "forecast_gap": {
+            "mean": 0.04872500093315229,
+            "mc_se": 0.0008489042729177558
+          }
+        },
+        {
+          "observations": 256,
+          "bayes_risk": 0.08858333333333333,
+          "risk_mc_se": 0.002594020003199642,
+          "risk_mc_95_interval": [
+            0.08349914755188556,
+            0.0936675191147811
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.09016666666666667,
+            0.087
+          ],
+          "risk_by_seed": [
+            0.08325,
+            0.09225,
+            0.09025
+          ],
+          "budget": {
+            "mean": 2.219206760742265,
+            "mc_se": 0.06124633174080752
+          },
+          "information_beta_beta": {
+            "mean": 1.7083877888795274,
+            "mc_se": 0.0426426643907872
+          },
+          "information_beta_alpha": {
+            "mean": -0.03460823231785431,
+            "mc_se": 0.034755250628552094
+          },
+          "information_alpha_alpha": {
+            "mean": 2.4984655146677697,
+            "mc_se": 0.049782505440811475
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            1.69677006902622,
+            1.67741319421572
+          ],
+          "forecast_gap": {
+            "mean": 0.0029301435551486272,
+            "mc_se": 0.00022566642761278157
+          }
+        },
+        {
+          "observations": 2048,
+          "bayes_risk": 0.08816666666666667,
+          "risk_mc_se": 0.0025885151567261325,
+          "risk_mc_95_interval": [
+            0.0830932701860474,
+            0.09324006314728595
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.0895,
+            0.08683333333333333
+          ],
+          "risk_by_seed": [
+            0.0825,
+            0.09225,
+            0.08975
+          ],
+          "budget": {
+            "mean": 2.8415629855655813,
+            "mc_se": 0.14429433891558163
+          },
+          "information_beta_beta": {
+            "mean": 2.2339476519029575,
+            "mc_se": 0.10637462455879321
+          },
+          "information_beta_alpha": {
+            "mean": -0.08433050633892086,
+            "mc_se": 0.10304527660662316
+          },
+          "information_alpha_alpha": {
+            "mean": 4.2320795250970065,
+            "mc_se": 0.1728487029929053
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            2.201092277417131,
+            2.141253514727366
+          ],
+          "forecast_gap": {
+            "mean": 0.00022538954640779937,
+            "mc_se": 5.4291219019019086e-05
+          }
+        },
+        {
+          "observations": 8192,
+          "bayes_risk": 0.08816666666666667,
+          "risk_mc_se": 0.00258852186481226,
+          "risk_mc_95_interval": [
+            0.08309325703844019,
+            0.09324007629489316
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.08933333333333333,
+            0.087
+          ],
+          "risk_by_seed": [
+            0.0825,
+            0.0925,
+            0.0895
+          ],
+          "budget": {
+            "mean": 3.061212987162968,
+            "mc_se": 0.1951058822272798
+          },
+          "information_beta_beta": {
+            "mean": 2.4423626414626907,
+            "mc_se": 0.15498339183908558
+          },
+          "information_beta_alpha": {
+            "mean": -0.07660769619252297,
+            "mc_se": 0.1917364101942333
+          },
+          "information_alpha_alpha": {
+            "mean": 5.410197409335855,
+            "mc_se": 0.35649082890300304
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            2.3667604436466405,
+            2.3104602010107405
+          ],
+          "forecast_gap": {
+            "mean": 2.3201250135462e-05,
+            "mc_se": 7.621377349908075e-06
+          }
+        }
+      ]
+    },
+    {
+      "alpha": 2.0,
+      "separation": 1.0,
+      "reset_length": 16,
+      "retention": 0.0,
+      "response": false,
+      "rows": [
+        {
+          "observations": 16,
+          "bayes_risk": 0.106,
+          "risk_mc_se": 0.002810379518648648,
+          "risk_mc_95_interval": [
+            0.10049175736055964,
+            0.11150824263944036
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.107,
+            0.105
+          ],
+          "risk_by_seed": [
+            0.1035,
+            0.1095,
+            0.105
+          ],
+          "budget": {
+            "mean": 1.1288538920788957,
+            "mc_se": 0.010816610071011335
+          },
+          "information_beta_beta": {
+            "mean": 0.8529855422557221,
+            "mc_se": 0.007098694709747663
+          },
+          "information_beta_alpha": {
+            "mean": 0.0056361965306959355,
+            "mc_se": 0.00676086256514256
+          },
+          "information_alpha_alpha": {
+            "mean": 0.6986735887760718,
+            "mc_se": 0.006413212019858186
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            0.8571587407256578,
+            0.8458979486898759
+          ],
+          "forecast_gap": {
+            "mean": 0.04872500093315229,
+            "mc_se": 0.0008489042729177558
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.106,
+            "mc_se": 0.00281027723511012
+          }
+        },
+        {
+          "observations": 256,
+          "bayes_risk": 0.0,
+          "risk_mc_se": 0.0,
+          "risk_mc_95_interval": [
+            0.0,
+            0.0006146242834176308
+          ],
+          "risk_interval_method": "97.5% exact one-sided per-law zero-error bounds; Bonferroni",
+          "errors_by_law": [
+            0.0,
+            0.0
+          ],
+          "risk_by_seed": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "budget": {
+            "mean": 17.923269264577428,
+            "mc_se": 0.04282783543128687
+          },
+          "information_beta_beta": {
+            "mean": 13.553101735585333,
+            "mc_se": 0.028218170359441727
+          },
+          "information_beta_alpha": {
+            "mean": 0.0394086420598879,
+            "mc_se": 0.02728754424907308
+          },
+          "information_alpha_alpha": {
+            "mean": 11.226865661094834,
+            "mc_se": 0.02583193250818941
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            13.5845695495462,
+            13.46656620844529
+          ],
+          "forecast_gap": {
+            "mean": 0.047048054334055754,
+            "mc_se": 0.0008324836544530337
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.0,
+            "mc_se": 0.0
+          }
+        },
+        {
+          "observations": 2048,
+          "bayes_risk": 0.0,
+          "risk_mc_se": 0.0,
+          "risk_mc_95_interval": [
+            0.0,
+            0.0006146242834176308
+          ],
+          "risk_interval_method": "97.5% exact one-sided per-law zero-error bounds; Bonferroni",
+          "errors_by_law": [
+            0.0,
+            0.0
+          ],
+          "risk_by_seed": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "budget": {
+            "mean": 143.25909668410642,
+            "mc_se": 0.12183144051185378
+          },
+          "information_beta_beta": {
+            "mean": 108.37081129403381,
+            "mc_se": 0.08024228148422251
+          },
+          "information_beta_alpha": {
+            "mean": -0.0571711064264094,
+            "mc_se": 0.08580988184339694
+          },
+          "information_alpha_alpha": {
+            "mean": 89.81142854330614,
+            "mc_se": 0.07311690479247576
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            108.14727333682096,
+            108.16958772277417
+          ],
+          "forecast_gap": {
+            "mean": 0.0469397639313659,
+            "mc_se": 0.0008356738143784585
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.0,
+            "mc_se": 0.0
+          }
+        },
+        {
+          "observations": 8192,
+          "bayes_risk": 0.0,
+          "risk_mc_se": 0.0,
+          "risk_mc_95_interval": [
+            0.0,
+            0.0006146242834176308
+          ],
+          "risk_interval_method": "97.5% exact one-sided per-law zero-error bounds; Bonferroni",
+          "errors_by_law": [
+            0.0,
+            0.0
+          ],
+          "risk_by_seed": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "budget": {
+            "mean": 573.2579202526294,
+            "mc_se": 0.24290937787743513
+          },
+          "information_beta_beta": {
+            "mean": 433.620173239307,
+            "mc_se": 0.16012436362306706
+          },
+          "information_beta_alpha": {
+            "mean": -0.07907666643826088,
+            "mc_se": 0.22013081508018112
+          },
+          "information_alpha_alpha": {
+            "mean": 359.2530427379298,
+            "mc_se": 0.14561424311569263
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            432.70040615661,
+            432.83510159563747
+          ],
+          "forecast_gap": {
+            "mean": 0.04839875950254518,
+            "mc_se": 0.0008475918022233892
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.0,
+            "mc_se": 0.0
+          }
+        }
+      ]
+    }
+  ],
+  "stress": [
+    {
+      "alpha": 2.0,
+      "separation": 0.5,
+      "reset_length": null,
+      "retention": 0.0,
+      "response": true,
+      "rows": [
+        {
+          "observations": 16,
+          "bayes_risk": 0.12975,
+          "risk_mc_se": 0.003067109273414903,
+          "risk_mc_95_interval": [
+            0.12373857628745798,
+            0.13576142371254202
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.12283333333333334,
+            0.13666666666666666
+          ],
+          "risk_by_seed": [
+            0.134,
+            0.12575,
+            0.1295
+          ],
+          "budget": {
+            "mean": 1.550487015191469,
+            "mc_se": 0.011795902356067927
+          },
+          "information_beta_beta": {
+            "mean": 4.8945547746728435,
+            "mc_se": 0.007629820161769544
+          },
+          "information_beta_alpha": {
+            "mean": 0.010184955339194333,
+            "mc_se": 0.00732915445849566
+          },
+          "information_alpha_alpha": {
+            "mean": 0.9264383720299351,
+            "mc_se": 0.004313238398880395
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            4.904194363383858,
+            4.883160550590166
+          ],
+          "forecast_gap": {
+            "mean": 0.029207046500780324,
+            "mc_se": 0.0004894873566255133
+          }
+        },
+        {
+          "observations": 256,
+          "bayes_risk": 0.0,
+          "risk_mc_se": 0.0,
+          "risk_mc_95_interval": [
+            0.0,
+            0.0006146242834176308
+          ],
+          "risk_interval_method": "97.5% exact one-sided per-law zero-error bounds; Bonferroni",
+          "errors_by_law": [
+            0.0,
+            0.0
+          ],
+          "risk_by_seed": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "budget": {
+            "mean": 3.169262649342815,
+            "mc_se": 0.07648393116286316
+          },
+          "information_beta_beta": {
+            "mean": 62.570709949366965,
+            "mc_se": 0.05165331604514066
+          },
+          "information_beta_alpha": {
+            "mean": 0.02302086720753626,
+            "mc_se": 0.03849628093774154
+          },
+          "information_alpha_alpha": {
+            "mean": 3.628845234137277,
+            "mc_se": 0.04455090247235853
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            62.61430681172377,
+            62.50587971282009
+          ],
+          "forecast_gap": {
+            "mean": 0.0018689142698166226,
+            "mc_se": 0.0001363890942527012
+          }
+        },
+        {
+          "observations": 2048,
+          "bayes_risk": 0.0,
+          "risk_mc_se": 0.0,
+          "risk_mc_95_interval": [
+            0.0,
+            0.0006146242834176308
+          ],
+          "risk_interval_method": "97.5% exact one-sided per-law zero-error bounds; Bonferroni",
+          "errors_by_law": [
+            0.0,
+            0.0
+          ],
+          "risk_by_seed": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "budget": {
+            "mean": 4.218627968635264,
+            "mc_se": 0.20209852837794035
+          },
+          "information_beta_beta": {
+            "mean": 484.559478339488,
+            "mc_se": 0.14226325043827998
+          },
+          "information_beta_alpha": {
+            "mean": 0.01839457517005561,
+            "mc_se": 0.10594741874622884
+          },
+          "information_alpha_alpha": {
+            "mean": 6.0607689238166085,
+            "mc_se": 0.15083632547123108
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            484.5487836671201,
+            484.5252329070041
+          ],
+          "forecast_gap": {
+            "mean": 0.00017581469558354806,
+            "mc_se": 3.6364114061725e-05
+          }
+        },
+        {
+          "observations": 8192,
+          "bayes_risk": 0.0,
+          "risk_mc_se": 0.0,
+          "risk_mc_95_interval": [
+            0.0,
+            0.0006146242834176308
+          ],
+          "risk_interval_method": "97.5% exact one-sided per-law zero-error bounds; Bonferroni",
+          "errors_by_law": [
+            0.0,
+            0.0
+          ],
+          "risk_by_seed": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "budget": {
+            "mean": 4.682219805808647,
+            "mc_se": 0.358533938246664
+          },
+          "information_beta_beta": {
+            "mean": 1928.7964093821965,
+            "mc_se": 0.2419200127684855
+          },
+          "information_beta_alpha": {
+            "mean": 0.030570891037099424,
+            "mc_se": 0.1735983998482521
+          },
+          "information_alpha_alpha": {
+            "mean": 7.530513266919099,
+            "mc_se": 0.2873373014276313
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            1928.8483082697826,
+            1928.6957125912286
+          ],
+          "forecast_gap": {
+            "mean": 3.2612539902272465e-05,
+            "mc_se": 1.922910649600809e-05
+          }
+        }
+      ]
+    },
+    {
+      "alpha": 2.0,
+      "separation": 0.5,
+      "reset_length": 16,
+      "retention": 0.5,
+      "response": false,
+      "rows": [
+        {
+          "observations": 16,
+          "bayes_risk": 0.26325,
+          "risk_mc_se": 0.0040205886193709385,
+          "risk_mc_95_interval": [
+            0.25536979110938135,
+            0.2711302088906186
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.26366666666666666,
+            0.2628333333333333
+          ],
+          "risk_by_seed": [
+            0.269,
+            0.2695,
+            0.25125
+          ],
+          "budget": {
+            "mean": 1.550487015191469,
+            "mc_se": 0.011795902356067927
+          },
+          "information_beta_beta": {
+            "mean": 1.1344953794473314,
+            "mc_se": 0.007629820161769544
+          },
+          "information_beta_alpha": {
+            "mean": 0.010184955339194333,
+            "mc_se": 0.00732915445849566
+          },
+          "information_alpha_alpha": {
+            "mean": 0.9264383720299351,
+            "mc_se": 0.004313238398880395
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            1.1441349681583457,
+            1.1231011553646542
+          ],
+          "forecast_gap": {
+            "mean": 0.029207046500780324,
+            "mc_se": 0.0004894873566255133
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.26325,
+            "mc_se": 0.004020422876805668
+          }
+        },
+        {
+          "observations": 256,
+          "bayes_risk": 0.21350000000000002,
+          "risk_mc_se": 0.003741022172214525,
+          "risk_mc_95_interval": [
+            0.20616773127709376,
+            0.2208322687229063
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.21516666666666667,
+            0.21183333333333335
+          ],
+          "risk_by_seed": [
+            0.2155,
+            0.2215,
+            0.2035
+          ],
+          "budget": {
+            "mean": 2.8981052824399796,
+            "mc_se": 0.03846281045190991
+          },
+          "information_beta_beta": {
+            "mean": 2.298873754894486,
+            "mc_se": 0.02648777091381299
+          },
+          "information_beta_alpha": {
+            "mean": 0.02309323639206241,
+            "mc_se": 0.0312756620677413
+          },
+          "information_alpha_alpha": {
+            "mean": 6.153465985850873,
+            "mc_se": 0.03460672416066443
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            2.3326451038324483,
+            2.253523279319244
+          ],
+          "forecast_gap": {
+            "mean": 0.0011586573784838346,
+            "mc_se": 1.2610854663253327e-05
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.26808333333333334,
+            "mc_se": 0.004043832879692453
+          }
+        },
+        {
+          "observations": 2048,
+          "bayes_risk": 0.10408333333333333,
+          "risk_mc_se": 0.002787711558228584,
+          "risk_mc_95_interval": [
+            0.09861951907991927,
+            0.1095471475867474
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.10716666666666666,
+            0.101
+          ],
+          "risk_by_seed": [
+            0.1045,
+            0.10425,
+            0.1035
+          ],
+          "budget": {
+            "mean": 6.389329493156067,
+            "mc_se": 0.04639382371824003
+          },
+          "information_beta_beta": {
+            "mean": 5.773030971324634,
+            "mc_se": 0.03653753144155127
+          },
+          "information_beta_alpha": {
+            "mean": 0.0745512309145882,
+            "mc_se": 0.1384663096098859
+          },
+          "information_alpha_alpha": {
+            "mean": 37.23527085364755,
+            "mc_se": 0.19350862032898666
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            5.806117269129364,
+            5.707785372615904
+          ],
+          "forecast_gap": {
+            "mean": 0.0011445793927251956,
+            "mc_se": 8.934093694989733e-06
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.2678333333333333,
+            "mc_se": 0.004042637152940713
+          }
+        },
+        {
+          "observations": 8192,
+          "bayes_risk": 0.014583333333333334,
+          "risk_mc_se": 0.0010944173762406284,
+          "risk_mc_95_interval": [
+            0.01243831469184688,
+            0.016728351974819786
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.014833333333333334,
+            0.014333333333333333
+          ],
+          "risk_by_seed": [
+            0.01625,
+            0.015,
+            0.0125
+          ],
+          "budget": {
+            "mean": 18.344400614769146,
+            "mc_se": 0.10117316147003957
+          },
+          "information_beta_beta": {
+            "mean": 17.67317198318914,
+            "mc_se": 0.09587598768567444
+          },
+          "information_beta_alpha": {
+            "mean": 0.24062765210654016,
+            "mc_se": 0.512727865891314
+          },
+          "information_alpha_alpha": {
+            "mean": 143.7955360046355,
+            "mc_se": 0.7448804882674966
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            17.687284187259102,
+            17.55461172268705
+          ],
+          "forecast_gap": {
+            "mean": 0.0011389329091452524,
+            "mc_se": 7.483420333207146e-06
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.26766666666666666,
+            "mc_se": 0.004041839089299222
+          }
+        }
+      ]
+    },
+    {
+      "alpha": 2.0,
+      "separation": 0.5,
+      "reset_length": 16,
+      "retention": 0.9,
+      "response": false,
+      "rows": [
+        {
+          "observations": 16,
+          "bayes_risk": 0.26325,
+          "risk_mc_se": 0.0040205886193709385,
+          "risk_mc_95_interval": [
+            0.25536979110938135,
+            0.2711302088906186
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.26366666666666666,
+            0.2628333333333333
+          ],
+          "risk_by_seed": [
+            0.269,
+            0.2695,
+            0.25125
+          ],
+          "budget": {
+            "mean": 1.550487015191469,
+            "mc_se": 0.011795902356067927
+          },
+          "information_beta_beta": {
+            "mean": 1.1344953794473314,
+            "mc_se": 0.007629820161769544
+          },
+          "information_beta_alpha": {
+            "mean": 0.010184955339194333,
+            "mc_se": 0.00732915445849566
+          },
+          "information_alpha_alpha": {
+            "mean": 0.9264383720299351,
+            "mc_se": 0.004313238398880395
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            1.1441349681583457,
+            1.1231011553646542
+          ],
+          "forecast_gap": {
+            "mean": 0.029207046500780324,
+            "mc_se": 0.0004894873566255133
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.26325,
+            "mc_se": 0.004020422876805668
+          }
+        },
+        {
+          "observations": 256,
+          "bayes_risk": 0.23366666666666666,
+          "risk_mc_se": 0.003863213723540199,
+          "risk_mc_95_interval": [
+            0.22609490690394698,
+            0.24123842642938634
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.2355,
+            0.23183333333333334
+          ],
+          "risk_by_seed": [
+            0.236,
+            0.24175,
+            0.22325
+          ],
+          "budget": {
+            "mean": 2.9365407342591285,
+            "mc_se": 0.06480551253129847
+          },
+          "information_beta_beta": {
+            "mean": 2.2368876168535885,
+            "mc_se": 0.043989481939682114
+          },
+          "information_beta_alpha": {
+            "mean": 0.03752450156808039,
+            "mc_se": 0.03341805372054483
+          },
+          "information_alpha_alpha": {
+            "mean": 3.588918982744172,
+            "mc_se": 0.038829716450333805
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            2.2638053339220066,
+            2.191495793081227
+          ],
+          "forecast_gap": {
+            "mean": 0.0008966017114406997,
+            "mc_se": 8.865782117116472e-05
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.2715,
+            "mc_se": 0.004060010608423543
+          }
+        },
+        {
+          "observations": 2048,
+          "bayes_risk": 0.23175,
+          "risk_mc_se": 0.003852181299353672,
+          "risk_mc_95_interval": [
+            0.22419986339134812,
+            0.2393001366086519
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.23183333333333334,
+            0.23166666666666666
+          ],
+          "risk_by_seed": [
+            0.236,
+            0.23625,
+            0.223
+          ],
+          "budget": {
+            "mean": 3.1291661152745287,
+            "mc_se": 0.07903084317783639
+          },
+          "information_beta_beta": {
+            "mean": 2.409047553430066,
+            "mc_se": 0.054277377927802295
+          },
+          "information_beta_alpha": {
+            "mean": 0.06195021814885097,
+            "mc_se": 0.04216849692702584
+          },
+          "information_alpha_alpha": {
+            "mean": 5.7367574487425115,
+            "mc_se": 0.05617614409622281
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            2.4256011579205174,
+            2.3758683295659213
+          ],
+          "forecast_gap": {
+            "mean": 4.079392258080538e-05,
+            "mc_se": 5.544628496271727e-08
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.27216666666666667,
+            "mc_se": 0.0040631318099704754
+          }
+        },
+        {
+          "observations": 8192,
+          "bayes_risk": 0.21983333333333333,
+          "risk_mc_se": 0.003780819101772552,
+          "risk_mc_95_interval": [
+            0.21242306406179803,
+            0.22724360260486862
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.22016666666666668,
+            0.2195
+          ],
+          "risk_by_seed": [
+            0.227,
+            0.219,
+            0.2135
+          ],
+          "budget": {
+            "mean": 3.3693833943808476,
+            "mc_se": 0.07912892537074599
+          },
+          "information_beta_beta": {
+            "mean": 2.6492523420634018,
+            "mc_se": 0.05440599225382721
+          },
+          "information_beta_alpha": {
+            "mean": 0.07230938262672923,
+            "mc_se": 0.0506337148914528
+          },
+          "information_alpha_alpha": {
+            "mean": 11.770312075981819,
+            "mc_se": 0.0756793167607589
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            2.67181394036016,
+            2.6169315056000917
+          ],
+          "forecast_gap": {
+            "mean": 4.073866976171219e-05,
+            "mc_se": 5.2861140331341704e-08
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.27216666666666667,
+            "mc_se": 0.0040631318099704754
+          }
+        }
+      ]
+    },
+    {
+      "alpha": 2.0,
+      "separation": 0.5,
+      "reset_length": 16,
+      "retention": 1.0,
+      "response": false,
+      "rows": [
+        {
+          "observations": 16,
+          "bayes_risk": 0.26325,
+          "risk_mc_se": 0.0040205886193709385,
+          "risk_mc_95_interval": [
+            0.25536979110938135,
+            0.2711302088906186
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.26366666666666666,
+            0.2628333333333333
+          ],
+          "risk_by_seed": [
+            0.269,
+            0.2695,
+            0.25125
+          ],
+          "budget": {
+            "mean": 1.550487015191469,
+            "mc_se": 0.011795902356067927
+          },
+          "information_beta_beta": {
+            "mean": 1.1344953794473314,
+            "mc_se": 0.007629820161769544
+          },
+          "information_beta_alpha": {
+            "mean": 0.010184955339194333,
+            "mc_se": 0.00732915445849566
+          },
+          "information_alpha_alpha": {
+            "mean": 0.9264383720299351,
+            "mc_se": 0.004313238398880395
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            1.1441349681583457,
+            1.1231011553646542
+          ],
+          "forecast_gap": {
+            "mean": 0.029207046500780324,
+            "mc_se": 0.0004894873566255133
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.26325,
+            "mc_se": 0.004020422876805668
+          }
+        },
+        {
+          "observations": 256,
+          "bayes_risk": 0.2341666666666667,
+          "risk_mc_se": 0.0038661144159413976,
+          "risk_mc_95_interval": [
+            0.22658922165131046,
+            0.24174411168202292
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.23483333333333334,
+            0.2335
+          ],
+          "risk_by_seed": [
+            0.23725,
+            0.2405,
+            0.22475
+          ],
+          "budget": {
+            "mean": 3.169262649342815,
+            "mc_se": 0.07648393116286316
+          },
+          "information_beta_beta": {
+            "mean": 2.4097596257584777,
+            "mc_se": 0.051653316045141486
+          },
+          "information_beta_alpha": {
+            "mean": 0.02302086720753626,
+            "mc_se": 0.03849628093774154
+          },
+          "information_alpha_alpha": {
+            "mean": 3.628845234137277,
+            "mc_se": 0.04455090247235853
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            2.4533564881152867,
+            2.344929389211607
+          ],
+          "forecast_gap": {
+            "mean": 0.0018689142698166226,
+            "mc_se": 0.0001363890942527012
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.27175,
+            "mc_se": 0.004061182408923114
+          }
+        },
+        {
+          "observations": 2048,
+          "bayes_risk": 0.23299999999999998,
+          "risk_mc_se": 0.0038593763362782993,
+          "risk_mc_95_interval": [
+            0.22543576137810836,
+            0.2405642386218916
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.23483333333333334,
+            0.23116666666666666
+          ],
+          "risk_by_seed": [
+            0.2375,
+            0.2375,
+            0.224
+          ],
+          "budget": {
+            "mean": 4.218627968635264,
+            "mc_se": 0.20209852837794035
+          },
+          "information_beta_beta": {
+            "mean": 3.2718757506099148,
+            "mc_se": 0.14226325043829935
+          },
+          "information_beta_alpha": {
+            "mean": 0.01839457517005561,
+            "mc_se": 0.10594741874622884
+          },
+          "information_alpha_alpha": {
+            "mean": 6.0607689238166085,
+            "mc_se": 0.15083632547123108
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            3.2611810782419743,
+            3.2376303181260075
+          ],
+          "forecast_gap": {
+            "mean": 0.00017581469558354806,
+            "mc_se": 3.6364114061725e-05
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.27225,
+            "mc_se": 0.004063521150678539
+          }
+        },
+        {
+          "observations": 8192,
+          "bayes_risk": 0.23325,
+          "risk_mc_se": 0.0038608135547176397,
+          "risk_mc_95_interval": [
+            0.22568294448172938,
+            0.24081705551827065
+          ],
+          "risk_interval_method": "balanced per-law normal Monte Carlo interval",
+          "errors_by_law": [
+            0.23516666666666666,
+            0.23133333333333334
+          ],
+          "risk_by_seed": [
+            0.2375,
+            0.2375,
+            0.22475
+          ],
+          "budget": {
+            "mean": 4.682219805808647,
+            "mc_se": 0.358533938246664
+          },
+          "information_beta_beta": {
+            "mean": 3.645999026571385,
+            "mc_se": 0.24192001276856634
+          },
+          "information_beta_alpha": {
+            "mean": 0.030570891037099424,
+            "mc_se": 0.1735983998482521
+          },
+          "information_alpha_alpha": {
+            "mean": 7.530513266919099,
+            "mc_se": 0.2873373014276313
+          },
+          "efficient_information_beta_unknown_alpha_by_law": [
+            3.697897914157339,
+            3.5453022356034496
+          ],
+          "forecast_gap": {
+            "mean": 3.2612539902272465e-05,
+            "mc_se": 1.922910649600809e-05
+          },
+          "risk_assuming_fresh_resets": {
+            "mean": 0.2723333333333333,
+            "mc_se": 0.004063910311673457
+          }
+        }
+      ]
+    }
+  ],
+  "exact_short_markets": [
+    {
+      "alpha": 0.5,
+      "separation": 0.25,
+      "length": 1,
+      "exact_bayes_risk": 0.43782349911420193,
+      "affinity": 0.9922380414751257,
+      "expected_budget": 0.43782349911420193,
+      "expected_information": 0.24613408273759835
+    },
+    {
+      "alpha": 0.5,
+      "separation": 0.25,
+      "length": 2,
+      "exact_bayes_risk": 0.42911870099565697,
+      "affinity": 0.9847604918485229,
+      "expected_budget": 0.8458175221515742,
+      "expected_information": 0.48408036670550175
+    },
+    {
+      "alpha": 0.5,
+      "separation": 0.25,
+      "length": 4,
+      "exact_bayes_risk": 0.3987516990257499,
+      "affinity": 0.9702060192158202,
+      "expected_budget": 1.6239662131621393,
+      "expected_information": 0.9502609321500135
+    },
+    {
+      "alpha": 0.5,
+      "separation": 0.25,
+      "length": 8,
+      "exact_bayes_risk": 0.35979910280716665,
+      "affinity": 0.9418893516969142,
+      "expected_budget": 3.1550552411225885,
+      "expected_information": 1.8716639285417935
+    },
+    {
+      "alpha": 0.5,
+      "separation": 0.25,
+      "length": 12,
+      "exact_bayes_risk": 0.3313009589113204,
+      "affinity": 0.9142917461140494,
+      "expected_budget": 4.683215559383768,
+      "expected_information": 2.791544533054576
+    },
+    {
+      "alpha": 0.5,
+      "separation": 0.25,
+      "length": 16,
+      "exact_bayes_risk": 0.3079493523003942,
+      "affinity": 0.8873603020930563,
+      "expected_budget": 6.2136359155219445,
+      "expected_information": 3.7129966616941688
+    },
+    {
+      "alpha": 0.5,
+      "separation": 0.5,
+      "length": 1,
+      "exact_bayes_risk": 0.3775406687981454,
+      "affinity": 0.9695436291402146,
+      "expected_budget": 0.3775406687981454,
+      "expected_information": 0.2350037122015945
+    },
+    {
+      "alpha": 0.5,
+      "separation": 0.5,
+      "length": 2,
+      "exact_bayes_risk": 0.361149984287914,
+      "affinity": 0.9408458877157528,
+      "expected_budget": 0.7386906530860595,
+      "expected_information": 0.45958992281696986
+    },
+    {
+      "alpha": 0.5,
+      "separation": 0.5,
+      "length": 4,
+      "exact_bayes_risk": 0.30471846686039306,
+      "affinity": 0.8868011286501309,
+      "expected_budget": 1.4162151812831254,
+      "expected_information": 0.8938267317663584
+    },
+    {
+      "alpha": 0.5,
+      "separation": 0.5,
+      "length": 8,
+      "exact_bayes_risk": 0.23719382808068834,
+      "affinity": 0.7883557279265574,
+      "expected_budget": 2.7007035542892996,
+      "expected_information": 1.7364424597831698
+    },
+    {
+      "alpha": 0.5,
+      "separation": 0.5,
+      "length": 12,
+      "exact_bayes_risk": 0.1923038136109208,
+      "affinity": 0.700542259105424,
+      "expected_budget": 3.9423471527983516,
+      "expected_information": 2.564247667524051
+    },
+    {
+      "alpha": 0.5,
+      "separation": 0.5,
+      "length": 16,
+      "exact_bayes_risk": 0.15873266808502806,
+      "affinity": 0.6221374101867194,
+      "expected_budget": 5.159313017090284,
+      "expected_information": 3.3847755762843637
+    },
+    {
+      "alpha": 0.5,
+      "separation": 1.0,
+      "length": 1,
+      "exact_bayes_risk": 0.2689414213699951,
+      "affinity": 0.8868188839700739,
+      "expected_budget": 0.2689414213699951,
+      "expected_information": 0.19661193324148185
+    },
+    {
+      "alpha": 0.5,
+      "separation": 1.0,
+      "length": 2,
+      "exact_bayes_risk": 0.24294978247184257,
+      "affinity": 0.788931408426569,
+      "expected_budget": 0.5118912038418377,
+      "expected_information": 0.3769119822144986
+    },
+    {
+      "alpha": 0.5,
+      "separation": 1.0,
+      "length": 4,
+      "exact_bayes_risk": 0.15760688756882618,
+      "affinity": 0.6265038232019375,
+      "expected_budget": 0.9507151498053347,
+      "expected_information": 0.7101535242639774
+    },
+    {
+      "alpha": 0.5,
+      "separation": 1.0,
+      "length": 8,
+      "exact_bayes_risk": 0.07918425993542136,
+      "affinity": 0.39613703847003134,
+      "expected_budget": 1.7275391717715154,
+      "expected_information": 1.3191876842296677
+    },
+    {
+      "alpha": 0.5,
+      "separation": 1.0,
+      "length": 12,
+      "exact_bayes_risk": 0.04324124046795959,
+      "affinity": 0.2502090883439291,
+      "expected_budget": 2.435127978477748,
+      "expected_information": 1.8879695688460436
+    },
+    {
+      "alpha": 0.5,
+      "separation": 1.0,
+      "length": 16,
+      "exact_bayes_risk": 0.02434270501903075,
+      "affinity": 0.15775672366533527,
+      "expected_budget": 3.104306712713065,
+      "expected_information": 2.433617790056865
+    },
+    {
+      "alpha": 1.0,
+      "separation": 0.25,
+      "length": 1,
+      "exact_bayes_risk": 0.43782349911420193,
+      "affinity": 0.9922380414751257,
+      "expected_budget": 0.43782349911420193,
+      "expected_information": 0.24613408273759835
+    },
+    {
+      "alpha": 1.0,
+      "separation": 0.25,
+      "length": 2,
+      "exact_bayes_risk": 0.424196747148703,
+      "affinity": 0.9853832304539889,
+      "expected_budget": 0.7665671186014353,
+      "expected_information": 0.4637876565869097
+    },
+    {
+      "alpha": 1.0,
+      "separation": 0.25,
+      "length": 4,
+      "exact_bayes_risk": 0.3979146502313256,
+      "affinity": 0.9729080539297092,
+      "expected_budget": 1.3664338888250969,
+      "expected_information": 0.8609981813212487
+    },
+    {
+      "alpha": 1.0,
+      "separation": 0.25,
+      "length": 8,
+      "exact_bayes_risk": 0.36365151636043025,
+      "affinity": 0.9501973864299114,
+      "expected_budget": 2.4536023610469178,
+      "expected_information": 1.5897968948845582
+    },
+    {
+      "alpha": 1.0,
+      "separation": 0.25,
+      "length": 12,
+      "exact_bayes_risk": 0.338460496520265,
+      "affinity": 0.9289998477306167,
+      "expected_budget": 3.473990049574546,
+      "expected_information": 2.2791978723605597
+    },
+    {
+      "alpha": 1.0,
+      "separation": 0.25,
+      "length": 16,
+      "exact_bayes_risk": 0.31819545511571157,
+      "affinity": 0.9087621996515314,
+      "expected_budget": 4.461251582045735,
+      "expected_information": 2.947653284454948
+    },
+    {
+      "alpha": 1.0,
+      "separation": 0.5,
+      "length": 1,
+      "exact_bayes_risk": 0.3775406687981454,
+      "affinity": 0.9695436291402146,
+      "expected_budget": 0.3775406687981454,
+      "expected_information": 0.2350037122015945
+    },
+    {
+      "alpha": 1.0,
+      "separation": 0.5,
+      "length": 2,
+      "exact_bayes_risk": 0.3517882306531437,
+      "affinity": 0.9431632028305141,
+      "expected_budget": 0.6929813693016407,
+      "expected_information": 0.4396534479035621
+    },
+    {
+      "alpha": 1.0,
+      "separation": 0.5,
+      "length": 4,
+      "exact_bayes_risk": 0.3029672413777261,
+      "affinity": 0.8965060849793356,
+      "expected_budget": 1.2284409377426175,
+      "expected_information": 0.8057272916780011
+    },
+    {
+      "alpha": 1.0,
+      "separation": 0.5,
+      "length": 8,
+      "exact_bayes_risk": 0.24335801555380432,
+      "affinity": 0.8162110891743066,
+      "expected_budget": 2.164052795791923,
+      "expected_information": 1.4560038279838365
+    },
+    {
+      "alpha": 1.0,
+      "separation": 0.5,
+      "length": 12,
+      "exact_bayes_risk": 0.20290458649191517,
+      "affinity": 0.7466608470404615,
+      "expected_budget": 3.008443506698433,
+      "expected_information": 2.0504377343694564
+    },
+    {
+      "alpha": 1.0,
+      "separation": 0.5,
+      "length": 16,
+      "exact_bayes_risk": 0.172856639177912,
+      "affinity": 0.6849782679434748,
+      "expected_budget": 3.7976848418876012,
+      "expected_information": 2.6112790273168454
+    },
+    {
+      "alpha": 1.0,
+      "separation": 1.0,
+      "length": 1,
+      "exact_bayes_risk": 0.2689414213699951,
+      "affinity": 0.8868188839700739,
+      "expected_budget": 0.2689414213699951,
+      "expected_information": 0.19661193324148185
+    },
+    {
+      "alpha": 1.0,
+      "separation": 1.0,
+      "length": 2,
+      "exact_bayes_risk": 0.22757874537885087,
+      "affinity": 0.7959475579461073,
+      "expected_budget": 0.49652016674884597,
+      "expected_information": 0.35822220978574065
+    },
+    {
+      "alpha": 1.0,
+      "separation": 1.0,
+      "length": 4,
+      "exact_bayes_risk": 0.1540795005351689,
+      "affinity": 0.6520632552229912,
+      "expected_budget": 0.8577974760337681,
+      "expected_information": 0.6270414296388789
+    },
+    {
+      "alpha": 1.0,
+      "separation": 1.0,
+      "length": 8,
+      "exact_bayes_risk": 0.08427722096449095,
+      "affinity": 0.45225835021728866,
+      "expected_budget": 1.4056054546338026,
+      "expected_information": 1.0533023290659775
+    },
+    {
+      "alpha": 1.0,
+      "separation": 1.0,
+      "length": 12,
+      "exact_bayes_risk": 0.04980448101919077,
+      "affinity": 0.32218176954681327,
+      "expected_budget": 1.8375314183344682,
+      "expected_information": 1.4000931731043251
+    },
+    {
+      "alpha": 1.0,
+      "separation": 1.0,
+      "length": 16,
+      "exact_bayes_risk": 0.03095715317665389,
+      "affinity": 0.2345916482504914,
+      "expected_budget": 2.2021873222459627,
+      "expected_information": 1.6992743029746036
+    },
+    {
+      "alpha": 2.0,
+      "separation": 0.25,
+      "length": 1,
+      "exact_bayes_risk": 0.43782349911420193,
+      "affinity": 0.9922380414751257,
+      "expected_budget": 0.43782349911420193,
+      "expected_information": 0.24613408273759835
+    },
+    {
+      "alpha": 2.0,
+      "separation": 0.25,
+      "length": 2,
+      "exact_bayes_risk": 0.4230496484841536,
+      "affinity": 0.9872882439750532,
+      "expected_budget": 0.6358330689084237,
+      "expected_information": 0.40335936588672094
+    },
+    {
+      "alpha": 2.0,
+      "separation": 0.25,
+      "length": 4,
+      "exact_bayes_risk": 0.40759960987966637,
+      "affinity": 0.9804826203312128,
+      "expected_budget": 0.9278262804991632,
+      "expected_information": 0.6199661953042319
+    },
+    {
+      "alpha": 2.0,
+      "separation": 0.25,
+      "length": 8,
+      "exact_bayes_risk": 0.39112752523718414,
+      "affinity": 0.971953897839761,
+      "expected_budget": 1.2871249450271778,
+      "expected_information": 0.8935926543585837
+    },
+    {
+      "alpha": 2.0,
+      "separation": 0.25,
+      "length": 12,
+      "exact_bayes_risk": 0.38257560245645295,
+      "affinity": 0.966348270406223,
+      "expected_budget": 1.524664082590955,
+      "expected_information": 1.0761589704607801
+    },
+    {
+      "alpha": 2.0,
+      "separation": 0.25,
+      "length": 16,
+      "exact_bayes_risk": 0.3771913617134304,
+      "affinity": 0.9621921950037983,
+      "expected_budget": 1.7031404319975358,
+      "expected_information": 1.213858583520254
+    },
+    {
+      "alpha": 2.0,
+      "separation": 0.5,
+      "length": 1,
+      "exact_bayes_risk": 0.3775406687981454,
+      "affinity": 0.9695436291402146,
+      "expected_budget": 0.3775406687981454,
+      "expected_information": 0.2350037122015945
+    },
+    {
+      "alpha": 2.0,
+      "separation": 0.5,
+      "length": 2,
+      "exact_bayes_risk": 0.3493036383544794,
+      "affinity": 0.9503318954966709,
+      "expected_budget": 0.5696931039953304,
+      "expected_information": 0.3842018742976565
+    },
+    {
+      "alpha": 2.0,
+      "separation": 0.5,
+      "length": 4,
+      "exact_bayes_risk": 0.3202579896631506,
+      "affinity": 0.9244498584507662,
+      "expected_budget": 0.8381851860257131,
+      "expected_information": 0.5867873998316907
+    },
+    {
+      "alpha": 2.0,
+      "separation": 0.5,
+      "length": 8,
+      "exact_bayes_risk": 0.2903766725021192,
+      "affinity": 0.8932926562124192,
+      "expected_budget": 1.1677387883027976,
+      "expected_information": 0.8383473032852928
+    },
+    {
+      "alpha": 2.0,
+      "separation": 0.5,
+      "length": 12,
+      "exact_bayes_risk": 0.27562041278504534,
+      "affinity": 0.8739468440733611,
+      "expected_budget": 1.382147375969808,
+      "expected_information": 1.0039109282942864
+    },
+    {
+      "alpha": 2.0,
+      "separation": 0.5,
+      "length": 16,
+      "exact_bayes_risk": 0.2667762473576408,
+      "affinity": 0.8603937026319346,
+      "expected_budget": 1.5423210220234065,
+      "expected_information": 1.1278065589328432
+    },
+    {
+      "alpha": 2.0,
+      "separation": 1.0,
+      "length": 1,
+      "exact_bayes_risk": 0.2689414213699951,
+      "affinity": 0.8868188839700739,
+      "expected_budget": 0.2689414213699951,
+      "expected_information": 0.19661193324148185
+    },
+    {
+      "alpha": 2.0,
+      "separation": 1.0,
+      "length": 2,
+      "exact_bayes_risk": 0.2216976578802559,
+      "affinity": 0.8185411290793521,
+      "expected_budget": 0.439330260172466,
+      "expected_information": 0.31778677016733936
+    },
+    {
+      "alpha": 2.0,
+      "separation": 1.0,
+      "length": 4,
+      "exact_bayes_risk": 0.17623231645557855,
+      "affinity": 0.7334649452767135,
+      "expected_budget": 0.6396788690541783,
+      "expected_information": 0.4732486435709279
+    },
+    {
+      "alpha": 2.0,
+      "separation": 1.0,
+      "length": 8,
+      "exact_bayes_risk": 0.13535119541728702,
+      "affinity": 0.6452601901283673,
+      "expected_budget": 0.8715578835145099,
+      "expected_information": 0.6532203279381112
+    },
+    {
+      "alpha": 2.0,
+      "separation": 1.0,
+      "length": 12,
+      "exact_bayes_risk": 0.11846524329844019,
+      "affinity": 0.6005538286603354,
+      "expected_budget": 1.0150679965258649,
+      "expected_information": 0.7651695475574787
+    },
+    {
+      "alpha": 2.0,
+      "separation": 1.0,
+      "length": 16,
+      "exact_bayes_risk": 0.10993647054664465,
+      "affinity": 0.574589445338181,
+      "expected_budget": 1.118651135591759,
+      "expected_information": 0.8462643757475125
+    }
+  ],
+  "design_choices": [
+    {
+      "alpha": 0.5,
+      "separation": 0.25,
+      "startup_cost": 0,
+      "chosen_length": 1,
+      "affinity_exponent_per_cost": 0.007792239318898283
+    },
+    {
+      "alpha": 0.5,
+      "separation": 0.25,
+      "startup_cost": 4,
+      "chosen_length": 16,
+      "affinity_exponent_per_cost": 0.005975208805726813
+    },
+    {
+      "alpha": 0.5,
+      "separation": 0.25,
+      "startup_cost": 16,
+      "chosen_length": 16,
+      "affinity_exponent_per_cost": 0.003734505503579258
+    },
+    {
+      "alpha": 0.5,
+      "separation": 0.25,
+      "startup_cost": 64,
+      "chosen_length": 16,
+      "affinity_exponent_per_cost": 0.0014938022014317032
+    },
+    {
+      "alpha": 0.5,
+      "separation": 0.5,
+      "startup_cost": 0,
+      "chosen_length": 1,
+      "affinity_exponent_per_cost": 0.03092980362016132
+    },
+    {
+      "alpha": 0.5,
+      "separation": 0.5,
+      "startup_cost": 4,
+      "chosen_length": 16,
+      "affinity_exponent_per_cost": 0.023729714697127622
+    },
+    {
+      "alpha": 0.5,
+      "separation": 0.5,
+      "startup_cost": 16,
+      "chosen_length": 16,
+      "affinity_exponent_per_cost": 0.014831071685704763
+    },
+    {
+      "alpha": 0.5,
+      "separation": 0.5,
+      "startup_cost": 64,
+      "chosen_length": 16,
+      "affinity_exponent_per_cost": 0.0059324286742819055
+    },
+    {
+      "alpha": 0.5,
+      "separation": 1.0,
+      "startup_cost": 0,
+      "chosen_length": 1,
+      "affinity_exponent_per_cost": 0.12011450695827752
+    },
+    {
+      "alpha": 0.5,
+      "separation": 1.0,
+      "startup_cost": 4,
+      "chosen_length": 16,
+      "affinity_exponent_per_cost": 0.09233505780924504
+    },
+    {
+      "alpha": 0.5,
+      "separation": 1.0,
+      "startup_cost": 16,
+      "chosen_length": 16,
+      "affinity_exponent_per_cost": 0.057709411130778154
+    },
+    {
+      "alpha": 0.5,
+      "separation": 1.0,
+      "startup_cost": 64,
+      "chosen_length": 16,
+      "affinity_exponent_per_cost": 0.02308376445231126
+    },
+    {
+      "alpha": 1.0,
+      "separation": 0.25,
+      "startup_cost": 0,
+      "chosen_length": 1,
+      "affinity_exponent_per_cost": 0.007792239318898283
+    },
+    {
+      "alpha": 1.0,
+      "separation": 0.25,
+      "startup_cost": 4,
+      "chosen_length": 16,
+      "affinity_exponent_per_cost": 0.0047835912786794565
+    },
+    {
+      "alpha": 1.0,
+      "separation": 0.25,
+      "startup_cost": 16,
+      "chosen_length": 16,
+      "affinity_exponent_per_cost": 0.0029897445491746605
+    },
+    {
+      "alpha": 1.0,
+      "separation": 0.25,
+      "startup_cost": 64,
+      "chosen_length": 16,
+      "affinity_exponent_per_cost": 0.0011958978196698641
+    },
+    {
+      "alpha": 1.0,
+      "separation": 0.5,
+      "startup_cost": 0,
+      "chosen_length": 1,
+      "affinity_exponent_per_cost": 0.03092980362016132
+    },
+    {
+      "alpha": 1.0,
+      "separation": 0.5,
+      "startup_cost": 4,
+      "chosen_length": 16,
+      "affinity_exponent_per_cost": 0.0189184083426572
+    },
+    {
+      "alpha": 1.0,
+      "separation": 0.5,
+      "startup_cost": 16,
+      "chosen_length": 16,
+      "affinity_exponent_per_cost": 0.011824005214160748
+    },
+    {
+      "alpha": 1.0,
+      "separation": 0.5,
+      "startup_cost": 64,
+      "chosen_length": 16,
+      "affinity_exponent_per_cost": 0.0047296020856643
+    },
+    {
+      "alpha": 1.0,
+      "separation": 1.0,
+      "startup_cost": 0,
+      "chosen_length": 1,
+      "affinity_exponent_per_cost": 0.12011450695827752
+    },
+    {
+      "alpha": 1.0,
+      "separation": 1.0,
+      "startup_cost": 4,
+      "chosen_length": 16,
+      "affinity_exponent_per_cost": 0.07249544716758675
+    },
+    {
+      "alpha": 1.0,
+      "separation": 1.0,
+      "startup_cost": 16,
+      "chosen_length": 16,
+      "affinity_exponent_per_cost": 0.04530965447974172
+    },
+    {
+      "alpha": 1.0,
+      "separation": 1.0,
+      "startup_cost": 64,
+      "chosen_length": 16,
+      "affinity_exponent_per_cost": 0.01812386179189669
+    },
+    {
+      "alpha": 2.0,
+      "separation": 0.25,
+      "startup_cost": 0,
+      "chosen_length": 1,
+      "affinity_exponent_per_cost": 0.007792239318898283
+    },
+    {
+      "alpha": 2.0,
+      "separation": 0.25,
+      "startup_cost": 4,
+      "chosen_length": 4,
+      "affinity_exponent_per_cost": 0.002463794851901233
+    },
+    {
+      "alpha": 2.0,
+      "separation": 0.25,
+      "startup_cost": 16,
+      "chosen_length": 12,
+      "affinity_exponent_per_cost": 0.001222535049054449
+    },
+    {
+      "alpha": 2.0,
+      "separation": 0.25,
+      "startup_cost": 64,
+      "chosen_length": 16,
+      "affinity_exponent_per_cost": 0.00048176326706176947
+    },
+    {
+      "alpha": 2.0,
+      "separation": 0.5,
+      "startup_cost": 0,
+      "chosen_length": 1,
+      "affinity_exponent_per_cost": 0.03092980362016132
+    },
+    {
+      "alpha": 2.0,
+      "separation": 0.5,
+      "startup_cost": 4,
+      "chosen_length": 4,
+      "affinity_exponent_per_cost": 0.009819558252878538
+    },
+    {
+      "alpha": 2.0,
+      "separation": 0.5,
+      "startup_cost": 16,
+      "chosen_length": 12,
+      "affinity_exponent_per_cost": 0.004811990154078255
+    },
+    {
+      "alpha": 2.0,
+      "separation": 0.5,
+      "startup_cost": 64,
+      "chosen_length": 16,
+      "affinity_exponent_per_cost": 0.0018795650091514107
+    },
+    {
+      "alpha": 2.0,
+      "separation": 1.0,
+      "startup_cost": 0,
+      "chosen_length": 1,
+      "affinity_exponent_per_cost": 0.12011450695827752
+    },
+    {
+      "alpha": 2.0,
+      "separation": 1.0,
+      "startup_cost": 4,
+      "chosen_length": 4,
+      "affinity_exponent_per_cost": 0.03874693419686508
+    },
+    {
+      "alpha": 2.0,
+      "separation": 1.0,
+      "startup_cost": 16,
+      "chosen_length": 8,
+      "affinity_exponent_per_cost": 0.018254235332525733
+    },
+    {
+      "alpha": 2.0,
+      "separation": 1.0,
+      "startup_cost": 64,
+      "chosen_length": 16,
+      "affinity_exponent_per_cost": 0.006926243766468591
+    }
+  ],
+  "runtime_seconds": 299.8038587000001,
+  "response_channel_rng": "Independent response stream seed = allocation seed + 900000; allocation paths exactly shared with no-response core."
+}

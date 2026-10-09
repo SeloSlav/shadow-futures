@@ -1,0 +1,283 @@
+{
+  "seed": 20261009,
+  "replicates_per_law": 5000,
+  "numpy_version": "2.3.5",
+  "betas": [
+    -0.5,
+    0.5
+  ],
+  "equal_prior_weights": [
+    0.5,
+    0.5
+  ],
+  "kernel": "p1=exp(beta)*(1+N1)^2/((1+N0)^2+exp(beta)*(1+N1)^2)",
+  "single_history": [
+    {
+      "observations": 16,
+      "markets": 1,
+      "bayes_error_mc": 0.2631,
+      "bayes_error_mc_se": 0.004403463647904872,
+      "bayes_error_mc_95_interval": [
+        0.25446921125010646,
+        0.27173078874989354
+      ],
+      "interval_method": "balanced per-law normal Monte Carlo interval",
+      "errors_by_law": [
+        0.2596,
+        0.2666
+      ],
+      "tie_count": 0,
+      "comparison_budget": {
+        "mean": 1.5285596495394436,
+        "mc_se": 0.012924271467659827
+      },
+      "conditional_fisher_information": {
+        "mean": 1.11703764498101,
+        "mc_se": 0.008326816919150534
+      },
+      "one_step_forecast_disagreement": {
+        "mean": 0.028395338709747794,
+        "mc_se": 0.0005341905692011366
+      },
+      "forecast_timing": "after current market allocations, before any reset; ages T versus 16"
+    },
+    {
+      "observations": 256,
+      "markets": 1,
+      "bayes_error_mc": 0.2324,
+      "bayes_error_mc_se": 0.004224010943841261,
+      "bayes_error_mc_95_interval": [
+        0.22412093855007112,
+        0.24067906144992887
+      ],
+      "interval_method": "balanced per-law normal Monte Carlo interval",
+      "errors_by_law": [
+        0.2306,
+        0.2342
+      ],
+      "tie_count": 0,
+      "comparison_budget": {
+        "mean": 3.1680974866815115,
+        "mc_se": 0.08687647525166968
+      },
+      "conditional_fisher_information": {
+        "mean": 2.393079721092622,
+        "mc_se": 0.05784205734643952
+      },
+      "one_step_forecast_disagreement": {
+        "mean": 0.001953725818996259,
+        "mc_se": 0.00015954336467242035
+      },
+      "forecast_timing": "after current market allocations, before any reset; ages T versus 16"
+    },
+    {
+      "observations": 2048,
+      "markets": 1,
+      "bayes_error_mc": 0.23170000000000002,
+      "bayes_error_mc_se": 0.004219542973899154,
+      "bayes_error_mc_95_interval": [
+        0.22342969577115768,
+        0.23997030422884236
+      ],
+      "interval_method": "balanced per-law normal Monte Carlo interval",
+      "errors_by_law": [
+        0.2294,
+        0.234
+      ],
+      "tie_count": 0,
+      "comparison_budget": {
+        "mean": 4.541604710074721,
+        "mc_se": 0.2713735277826555
+      },
+      "conditional_fisher_information": {
+        "mean": 3.476012322928285,
+        "mc_se": 0.1889310679186879
+      },
+      "one_step_forecast_disagreement": {
+        "mean": 0.0002737897229983621,
+        "mc_se": 5.5679222612565426e-05
+      },
+      "forecast_timing": "after current market allocations, before any reset; ages T versus 16"
+    },
+    {
+      "observations": 8192,
+      "markets": 1,
+      "bayes_error_mc": 0.2316,
+      "bayes_error_mc_se": 0.004218912163575913,
+      "bayes_error_mc_95_interval": [
+        0.2233309321593912,
+        0.2398690678406088
+      ],
+      "interval_method": "balanced per-law normal Monte Carlo interval",
+      "errors_by_law": [
+        0.2294,
+        0.2338
+      ],
+      "tie_count": 0,
+      "comparison_budget": {
+        "mean": 5.426618109422693,
+        "mc_se": 0.5047552166361433
+      },
+      "conditional_fisher_information": {
+        "mean": 4.222156018776332,
+        "mc_se": 0.37246965448294345
+      },
+      "one_step_forecast_disagreement": {
+        "mean": 5.5436104716423937e-05,
+        "mc_se": 1.9744616292402036e-05
+      },
+      "forecast_timing": "after current market allocations, before any reset; ages T versus 16"
+    }
+  ],
+  "independent_length16_markets": [
+    {
+      "observations": 16,
+      "markets": 1,
+      "bayes_error_mc": 0.27080000000000004,
+      "bayes_error_mc_se": 0.004444059172916859,
+      "bayes_error_mc_95_interval": [
+        0.262089644021083,
+        0.2795103559789171
+      ],
+      "interval_method": "balanced per-law normal Monte Carlo interval",
+      "errors_by_law": [
+        0.274,
+        0.2676
+      ],
+      "tie_count": 0,
+      "comparison_budget": {
+        "mean": 1.5190926675648289,
+        "mc_se": 0.012759115680577532
+      },
+      "conditional_fisher_information": {
+        "mean": 1.1123753266567116,
+        "mc_se": 0.00824545982226011
+      },
+      "one_step_forecast_disagreement": {
+        "mean": 0.028117082604454946,
+        "mc_se": 0.0005298372495016677
+      },
+      "forecast_timing": "after current market allocations, before any reset; ages T versus 16"
+    },
+    {
+      "observations": 256,
+      "markets": 16,
+      "bayes_error_mc": 0.0136,
+      "bayes_error_mc_se": 0.001157906796607536,
+      "bayes_error_mc_95_interval": [
+        0.011330502678649228,
+        0.01586949732135077
+      ],
+      "interval_method": "balanced per-law normal Monte Carlo interval",
+      "errors_by_law": [
+        0.0104,
+        0.0168
+      ],
+      "tie_count": 0,
+      "comparison_budget": {
+        "mean": 24.64282991981592,
+        "mc_se": 0.05098044173834822
+      },
+      "conditional_fisher_information": {
+        "mean": 18.02792944009091,
+        "mc_se": 0.032961159224092235
+      },
+      "one_step_forecast_disagreement": {
+        "mean": 0.029544290163204524,
+        "mc_se": 0.0005499776079753147
+      },
+      "forecast_timing": "after current market allocations, before any reset; ages T versus 16"
+    },
+    {
+      "observations": 2048,
+      "markets": 128,
+      "bayes_error_mc": 0.0,
+      "bayes_error_mc_se": 0.0,
+      "bayes_error_mc_95_interval": [
+        0.0,
+        0.0007375038011081525
+      ],
+      "interval_method": "two exact per-law zero-error bounds, Bonferroni",
+      "errors_by_law": [
+        0.0,
+        0.0
+      ],
+      "tie_count": 0,
+      "comparison_budget": {
+        "mean": 197.47760715213414,
+        "mc_se": 0.14622460552801106
+      },
+      "conditional_fisher_information": {
+        "mean": 144.39061481595306,
+        "mc_se": 0.09409744257484272
+      },
+      "one_step_forecast_disagreement": {
+        "mean": 0.028982473642968364,
+        "mc_se": 0.0005421845495312649
+      },
+      "forecast_timing": "after current market allocations, before any reset; ages T versus 16"
+    },
+    {
+      "observations": 8192,
+      "markets": 512,
+      "bayes_error_mc": 0.0,
+      "bayes_error_mc_se": 0.0,
+      "bayes_error_mc_95_interval": [
+        0.0,
+        0.0007375038011081525
+      ],
+      "interval_method": "two exact per-law zero-error bounds, Bonferroni",
+      "errors_by_law": [
+        0.0,
+        0.0
+      ],
+      "tie_count": 0,
+      "comparison_budget": {
+        "mean": 788.9979619228727,
+        "mc_se": 0.2939699792949164
+      },
+      "conditional_fisher_information": {
+        "mean": 576.9792397111701,
+        "mc_se": 0.189575204946956
+      },
+      "one_step_forecast_disagreement": {
+        "mean": 0.030083692625859113,
+        "mc_se": 0.0005556522853301378
+      },
+      "forecast_timing": "after current market allocations, before any reset; ages T versus 16"
+    }
+  ],
+  "exact_length16_bayes_error": 0.2667762473576409,
+  "uniform_no_response_control": [
+    {
+      "observations": 16,
+      "comparison_budget": 8.0,
+      "conditional_fisher_information": 0.0,
+      "bayes_error_exact": 0.5,
+      "one_step_forecast_disagreement": 0.0
+    },
+    {
+      "observations": 256,
+      "comparison_budget": 128.0,
+      "conditional_fisher_information": 0.0,
+      "bayes_error_exact": 0.5,
+      "one_step_forecast_disagreement": 0.0
+    },
+    {
+      "observations": 2048,
+      "comparison_budget": 1024.0,
+      "conditional_fisher_information": 0.0,
+      "bayes_error_exact": 0.5,
+      "one_step_forecast_disagreement": 0.0
+    },
+    {
+      "observations": 8192,
+      "comparison_budget": 4096.0,
+      "conditional_fisher_information": 0.0,
+      "bayes_error_exact": 0.5,
+      "one_step_forecast_disagreement": 0.0
+    }
+  ],
+  "interpretation": "Finite synthetic Monte Carlo is not evidence proving an infinite-horizon theorem.",
+  "runtime_seconds": 4.668845700012753
+}

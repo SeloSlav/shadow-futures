@@ -1,0 +1,683 @@
+{
+  "title": "Measuring Comparison Opportunities in Adaptive Markets: Finite-Horizon Inference and Experimental Design",
+  "abstract": "A growing adaptive market record need not preserve the comparisons required for structural attribution. This paper develops an implementable finite-horizon reporting and design procedure that distinguishes residual allocation diversity, parameter information, and observable-law discrimination. The procedure records the complete allocation and response kernel, computes budget and information diagnostics, and inverts likelihood tests using exchangeable null simulations. Maximizing simulated p-values over declared nuisance mechanisms gives finite-sample coverage on a specified candidate class; probability and counterfactual bounds follow by mapping the retained joint parameter set. Conditional information and divergence results establish the scope of these diagnostics, while exact short-market distributional affinities provide a cost-adjusted replication criterion. Reproducible experiments vary reinforcement, parameter separation, reset persistence, and informative response channels. Three independent simulation seeds show that reopening comparisons can outperform extending one strongly reinforced history, but neither large budgets nor nominal resets establish identification. A separate calibration experiment demonstrates severe undercoverage when reinforcement is falsely fixed or omitted from the nuisance class, including after independent replication. All reported quantities are synthetic, with Monte Carlo uncertainty and independent numerical validation. The contribution is a transparent computational protocol for model-dependent comparison evidence, rather than an empirical competition index or an asymptotic conclusion inferred from a finite simulation.",
+  "keywords": [
+    "adaptive markets",
+    "comparison opportunities",
+    "Monte Carlo inference",
+    "reinforcement",
+    "experimental design",
+    "structural attribution"
+  ],
+  "jel": [
+    "C13",
+    "C15",
+    "C18",
+    "C22",
+    "D83",
+    "L41"
+  ],
+  "target_journal": "Computational Economics",
+  "editorial_fit": {
+    "assessment": "Defensible scope fit as an original computational econometrics article: finite-horizon likelihood algorithms, Markov feedback, reproducible Monte Carlo validation, and cost-sensitive experiment design. This assessment is not an acceptance prediction.",
+    "scope_url": "https://link.springer.com/journal/10614/aims-and-scope",
+    "requirements_url": "https://link.springer.com/journal/10614/submission-guidelines",
+    "checked_date": "2026-10-09",
+    "requirements": "Official guide: 150–250-word abstract; 4–6 keywords; decimal headings; author-year citations; alphabetized published/accepted references; editable Word or LaTeX source; Data Availability and Statements and Declarations. AI generative assistance must be documented. Author affiliation, corresponding contact, funding and competing-interest facts require author confirmation."
+  },
+  "source_manuscript": {
+    "title": "Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market",
+    "author": "Martin Erlic",
+    "version": "V5 author manuscript, October 2026",
+    "url": "https://shadow-futures.vercel.app/paper.pdf",
+    "associated_record": "https://doi.org/10.2139/ssrn.6003994",
+    "publication_status": "Unpublished companion source identified in text, excluded from published-work reference list."
+  },
+  "sections": [
+    {
+      "heading": "1. Introduction",
+      "paragraphs": [
+        "Adaptive allocation changes both economic outcomes and the evidence available to explain them. Recommendations influence exposure, procurement awards influence capacity, and early customer adoption influences later visibility. A platform can consequently record many transactions while observing few comparisons between the structural alternatives relevant to an attribution claim. Conversely, a concentrated exposure policy can still generate informative response observations. The empirical problem is to specify which comparisons the complete record preserves, rather than infer its informational content from transaction count or a market-share summary.",
+        "The motivating companion manuscript, Erlic's unpublished Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market, version 5, October 2026, introduces a comparison budget obtained by summing conditional allocation probability outside the current leader. Its public record is associated with doi:10.2139/ssrn.6003994. Under a specified conditional-logit model, the budget bounds cumulative parameter information. Additional Hellinger domination and almost-sure summability assumptions concern equivalence of complete-history laws. This paper takes the budget as a model-relative diagnostic and develops what can actually be calculated, calibrated, and compared at a finite horizon. The infinite-history result is not an empirical classification rule for concentrated markets.",
+        "There are three distinct objects. Allocation diversity describes how probability is distributed across recipients. Parameter information describes how the full observed kernel changes with a specified loading. Discrimination describes how well two complete finite-history distributions can be separated. Their relationship depends on the model and the observation channel. A scalar diversity budget can bound one component of information without identifying a direction, an intervention effect, or an unknown allocation mechanism. Treating these objects as interchangeable can produce confident conclusions even when the identifying variation or the maintained mechanism is wrong.",
+        "The contribution is an executable comparison-report procedure. It combines a complete conditional likelihood, probability and directional-information diagnostics, finite-horizon simulation-rank test inversion, nuisance projection, and an exact short-market design calculation. The finite-sample validity statement applies to a declared candidate class whose null histories can be simulated correctly. It requires neither a routine chi-square approximation nor the assumption that observations within an adaptive history are independent. We give explicit results and proofs to state where the budget is informative, where an additional response channel invalidates an allocation-only bound, and why a nuisance model omitted from calibration cannot be repaired by more data.",
+        "The computational contribution extends a single illustrative reinforcement experiment into a coherent design study. We vary feedback strength and parameter separation, hold allocation totals fixed across inherited and resetting histories, retain independent simulation seeds, and examine persistent state across nominal resets. A second experiment calibrates likelihood confidence sets with independent null simulations and validates their coverage under known, uncertain, and misspecified reinforcement. Exact enumeration of short histories provides a separate numerical check and a replication criterion that incorporates startup cost. No experiment is presented as a calibration to an actual platform, and the results make no statement about an infinite limit merely because a finite curve becomes flat."
+      ]
+    },
+    {
+      "heading": "2. Positioning the Comparison Report",
+      "paragraphs": [
+        "Path dependence and increasing returns are established economic concerns. Arthur (1989) studies how adoption feedback can make historical events affect technological outcomes; Pemantle (2007) surveys reinforced stochastic processes and their diverse behaviors. These literatures motivate a feedback environment, but concentration or lock-in alone does not determine the learnability of a structural parameter. Our object is the finite-history statistical experiment generated by a maintained feedback kernel. The computational study therefore varies reinforcement instead of assuming that every increasing-returns market belongs to one informational regime.",
+        "Bandit research formalizes exploration relative to a decision objective. Lai and Robbins (1985), Auer et al. (2002), and Lattimore and Szepesvári (2020) provide foundations for sequential allocation and regret analysis. Their algorithms learn from specified reward distributions; the reinforced recipient kernel studied here is a structural data-generating mechanism, not an assertion that a market implements a particular bandit algorithm. Low regret, balanced assignments, and precise attribution concern different targets. Kasy and Sautmann (2021) illustrate how an experiment designed for choosing a policy has a distinct allocation objective. Our cost-adjusted criterion addresses binary structural discrimination and does not rank designs by contemporaneous welfare.",
+        "Off-policy evaluation makes the logging mechanism explicit. Swaminathan and Joachims (2015) use propensity scoring and variance-sensitive risk control for learning from logged feedback, while Dudík et al. (2014) combine response and propensity information through doubly robust policy evaluation. Known exposure probabilities can support such analyses without themselves identifying response loadings. Our procedure retains this distinction when constructing the joint likelihood: a parameter-independent logging policy contributes no conditional parameter score, whereas an unknown recipient-selection mechanism can carry information and nuisance uncertainty. The comparison budget is not an effective-sample-size substitute for propensity overlap or for a justified response model.",
+        "Adaptive inference already has methods designed to address dependence and unstable allocation. Hadad et al. (2021) study policy-evaluation confidence intervals using adaptive reweighting, and Zhang et al. (2020) show why standard inference can fail with bandit data and develop a batched alternative. Howard et al. (2021) and Karampatziakis et al. (2021) provide time-uniform tools, including off-policy confidence sequences. We do not claim that adaptation makes all inference invalid. Our simulation-based inversion is useful when a finite structural candidate class and a complete simulator are defensible, especially when ordinary asymptotic calibration is not established for the particular reinforced experiment.",
+        "The rank construction is a direct application of established Monte Carlo testing. Dufour (2006) develops finite-sample simulation tests with nuisance parameters and discrete statistics; Berger and Boos (1994) explain a related nuisance maximization principle using a confidence set. Here the null distribution is the entire adaptive trajectory, and nuisance uncertainty concerns reinforcement rather than an independent-observation variance parameter. Our validity claim does not improve those general testing results. The contribution is their operational integration with comparison-budget diagnostics, exact short-market design calculations, and transparent failure experiments in an economic feedback model.",
+        "Identification and causal interpretation remain separate obligations. Manski (2003) motivates retaining values compatible with observable restrictions rather than forcing a point conclusion, and Hernán and Robins (2020) organize the assumptions required for intervention interpretation. Perdomo et al. (2020) make clear that a deployed prediction can alter the distribution it predicts. These considerations matter when transporting a calibrated simulator to a new allocation policy. Finally, Blackwell and Dubins (1962) concern predictive agreement under absolute continuity. A small next-step forecast gap in our finite computation is not a proof of their complete-future conclusion, nor does prediction agreement establish unique structural attribution."
+      ]
+    },
+    {
+      "heading": "3. The Recorded Experiment and Its Parameters",
+      "paragraphs": [
+        "Fix an initial recorded state and a horizon T before analyzing the record. At time t, h contains all observations before the next allocation A and response Y. The parameter θ consists of the structural target β and nuisance mechanism η. For discrete outcomes the complete conditional kernel factors into allocation and response terms; continuous responses can use a stated dominating measure. Any observed quality signal, eligibility change, audit response, or informative state innovation must be included in Y or in another explicitly modeled transition. Unrecorded variables require a justified marginal kernel or an expanded latent-state analysis.",
+        {
+          "equation": "k_theta(a,y | h) = p_theta(a | h) r_theta(y | a,h).",
+          "latex": "k_{\\theta}(a,y\\mid h)=p_{\\theta}(a\\mid h)r_{\\theta}(y\\mid a,h)"
+        },
+        "When exposure is set by a known policy π that is independent of θ at a fixed h, use p = π. Earlier responses may determine that history and hence the policy's current action, but this does not add a parameter derivative to π at a fixed observed history. When the allocation mechanism itself depends on β, its likelihood contribution remains. The full joint law also includes an initial-state density if that state is random and informative about θ. Conditioning on an observed initial state answers a conditional experiment question; it must not be described as preserving all information in an omitted parameter-dependent baseline.",
+        "Our computational kernel has two recipients. Counts start at zero, and an allocation to recipient i increments its count. A structural loading β and reinforcement exponent α determine the odds. Conditional on the recorded counts, the model is a binary logit with intercept β and predictable regressor equal to the log count ratio. This is a deliberately simple feedback specialization of conditional-choice models, whose economic econometric foundations include McFadden (1974). It supplies a tractable test bed rather than a structural estimate for a real market.",
+        {
+          "equation": "p_beta,alpha(1 | h) = exp(beta)(1+N_1)^alpha / [(1+N_0)^alpha + exp(beta)(1+N_1)^alpha].",
+          "latex": "p_{\\beta,\\alpha}(1\\mid h)=\\frac{\\exp(\\beta)(1+N_1)^{\\alpha}}{(1+N_0)^{\\alpha}+\\exp(\\beta)(1+N_1)^{\\alpha}}"
+        },
+        {
+          "equation": "ell_t = log(1+N_1) - log(1+N_0); log odds = beta + alpha ell_t.",
+          "latex": [
+            "\\ell_t=\\log(1+N_1)-\\log(1+N_0)",
+            "\\log\\frac{p_{\\beta,\\alpha}}{1-p_{\\beta,\\alpha}}=\\beta+\\alpha\\ell_t"
+          ]
+        },
+        "A resetting design starts each length-L block at zero counts and uses independent innovations across blocks while holding β and α fixed. A persistence stress test instead multiplies both counts by a known retention factor ρ before the next block. Unless ρ is zero, block labels do not make the histories independent. A response-channel stress test observes an additional Bernoulli variable with probability logistic(β), conditionally independent of the recipient given the parameter. It does not feed back into counts. The allocation budget is unchanged as an object, but total information changes because the observed experiment changes.",
+        "Define residual contestability ε_t as the probability outside the most probable recipient and B_T as its cumulative sum. We also retain conditional information I_t, its realized predictable sum J_T, and the expected Fisher information F_T. The expectation and the realized sum are different quantities even when both can be estimated from a simulator. A budget evaluated at a fitted parameter is a model-dependent path diagnostic, not direct observation of the true conditional probabilities.",
+        {
+          "equation": "epsilon_t(theta,h) = 1 - max_i p_theta(i | h); B_T(theta) = sum_t epsilon_t(theta,h).",
+          "latex": [
+            "\\varepsilon_t(\\theta,h)=1-\\max_i p_{\\theta}(i\\mid h)",
+            "B_T(\\theta)=\\sum_{t=1}^{T}\\varepsilon_t(\\theta,H_{t-1})"
+          ]
+        },
+        {
+          "equation": "J_T(theta) = sum_t I_t(theta | H_(t-1)); F_T(theta) = E_theta[J_T(theta)].",
+          "latex": [
+            "J_T(\\theta)=\\sum_{t=1}^{T}I_t(\\theta\\mid H_{t-1})",
+            "F_T(\\theta)=\\mathbb{E}_{\\theta}[J_T(\\theta)]"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "4. Finite-Horizon Results and Their Scope",
+      "paragraphs": [
+        "The following propositions condition on the fixed initial state and declared design. Conditional kernels are positive, differentiable in the parameters being varied, and sufficiently regular to differentiate finite-horizon likelihoods. In the discrete computational experiment these requirements hold directly. Scores have zero conditional means, so cross-time score products vanish in expectation and the Fisher information of the full trajectory equals F_T. These finite-horizon facts do not require a central limit theorem, a stationary allocation distribution, or an infinite-horizon information limit.",
+        "Proposition 1 (allocation information). Suppose allocation probabilities are conditional logit in β, with profiles x_i(h) common across β and pairwise Euclidean diameter at most D for every relevant history. Holding nuisance offsets fixed, conditional information is the covariance of the selected profile. Its trace is at most D squared times residual contestability. Consequently the trace of J_T for β is at most D squared times B_T on every recorded path, and the corresponding expected bound follows by taking expectations.",
+        {
+          "equation": "trace I_t^allocation(beta | h) <= D^2 epsilon_t(beta,h).",
+          "latex": "\\mathrm{tr}\\, I_t^{A}(\\beta\\mid h)\\leq D^2\\varepsilon_t(\\beta,h)"
+        },
+        "To see the bound, let l be a recipient with maximal allocation probability. Covariance trace minimizes the expected squared distance to a constant profile, so it is no greater than the expected squared distance to x_l. The leader contributes zero and every other squared distance is at most D squared. This also exposes the limitation: equal profiles give zero covariance for any probability distribution. A positive budget supplies an upper bound and an opportunity for variation; it supplies no lower information bound or direction-specific identification statement.",
+        "For known α in the binary kernel, the β score is A minus p, and conditional information is p(1−p), bounded by min(p,1−p). If α is also unknown, the score vector is (A−p)(1,ell_t), and information is its conditional outer product. Its trace is p(1−p)(1+ell_t squared). At horizon T, counts are at most T even with retention, so a valid bound uses the multiplier 1+log squared(1+T). One cannot apply the scalar β budget bound unchanged to joint estimation of reinforcement. Moreover, a large intercept component can coexist with poor efficient information after nuisance projection.",
+        {
+          "equation": "I_t(beta,alpha | h) = p(1-p) [[1,ell_t],[ell_t,ell_t^2]].",
+          "latex": [
+            "s_t=(A_t-p_t)(1,\\ell_t)",
+            "I_t=p_t(1-p_t)(1,\\ell_t)^{T}(1,\\ell_t)"
+          ]
+        },
+        "Proposition 2 (observation channels). For the factorized joint kernel, allocation and response scores have zero cross expectation conditional on h. Joint information equals allocation information plus allocation-weighted response information. A known parameter-independent exposure policy contributes zero allocation information. The identity requires complete conditional response modeling; it does not justify discarding feedback that is informative about the target.",
+        {
+          "equation": "I_t^joint(theta | h) = I_t^allocation(theta | h) + sum_a p_theta(a | h) I_t^response(theta | a,h).",
+          "latex": "I_t^{k}(\\theta\\mid h)=I_t^{A}(\\theta\\mid h)+\\sum_a p_{\\theta}(a\\mid h)I_t^{Y}(\\theta\\mid a,h)"
+        },
+        "For the audit response logistic(β), each period adds q(1−q) to the β component, where q is its success probability. A recipient-only bound does not dominate that contribution. Two exact controls make the distinction concrete. Uniform recipients independent of β, without an informative response, give B_T = T/2 and zero information. Always selecting one recipient gives exposure budget zero, but repeated Bernoulli responses depending on β can have information growing proportionally to T. These are different recorded experiments, not conflicting conclusions about the same data.",
+        "Proposition 3 (divergence and discrimination). In the binary reinforced kernel, hold α and reset dynamics fixed and compare β_0 with β_1. Let δ = β_1−β_0. The divergence of complete T-step laws is bounded by one half times exp(|δ|) times δ squared times the expected budget under β_0. The result follows from the Bernoulli log-partition second derivative, a logit-shift variance bound, and the conditional chain rule. It is an upper divergence bound relative to a correctly specified experiment, not an estimator's attainable precision.",
+        {
+          "equation": "KL(P_0^T || P_1^T) <= 0.5 exp(|delta|) delta^2 E_0[B_T].",
+          "latex": "\\mathrm{KL}(P_0^T\\Vert P_1^T)\\leq \\frac{\\exp(|\\delta|)\\delta^2}{2}\\mathbb{E}_0[B_T]"
+        },
+        "With equal prior weights, optimal binary classification risk is one half times one minus total variation, using total variation as the supremum event-probability difference. Pinsker's inequality gives the associated lower risk bound, truncated at zero. The same two-point reduction bounds maximal functional-estimation error at half the functional separation, as in standard minimax arguments (Tsybakov, 2009). Such statements concern a pair or a local neighborhood; they do not rule out exceptional accuracy at one parameter. Small realized budgets do not establish small expected budgets, and adding a response channel requires its divergence in the chain rule.",
+        {
+          "equation": "R_T^* = 0.5 (1-TV(P_0^T,P_1^T)) >= 0.5 max(0,1-sqrt(KL/2)).",
+          "latex": "R_T^*=\\frac{1-\\mathrm{TV}(P_0^T,P_1^T)}{2}\\geq\\frac{1}{2}\\max\\left(0,1-\\sqrt{\\frac{\\mathrm{KL}(P_0^T\\Vert P_1^T)}{2}}\\right)"
+        },
+        "A final qualification concerns identification. If an unknown initial-position offset enters the log odds additively with β, then compensating changes in the two parameters leave every allocation law unchanged. No amount of allocation-only replication separates them without a restriction or an additional observation channel. Similarly, a finite observed prefix does not establish summability of residual probability. A continuation with a constant positive exploration floor and a summable continuation can share that prefix unless the maintained model excludes one. The finite-horizon propositions avoid deciding between those infinite continuations from finite data."
+      ]
+    },
+    {
+      "heading": "5. An Implementable Inference Procedure",
+      "paragraphs": [
+        "The comparison report begins with a declared scientific target, not with a budget plot. Specify the loading or intervention functional, the observed horizon, the initial-state treatment, and the candidate mechanisms. Record whether policy probabilities are known by design, reconstructed from code, externally audited, or estimated through structural restrictions. State what makes comparisons transport across resetting units. Shared latent conditions, strategic adaptation, or changing investment can invalidate an independent-market likelihood even when administrative counts are reset. The report should retain that uncertainty rather than use reset labels as evidence of independence.",
+        "Compute the likelihood of the complete chronological record under each candidate. For our binary model the log likelihood is the sum of A_t times its log odds minus log(1+exp(log odds)). The regressor is recalculated from the observed preceding counts under the declared reset rule. Response likelihoods are added when responses are observed. Multiplying marginal recipient frequencies, or treating reinforced choices as independent draws with a common probability, gives a different and generally incorrect likelihood. Stable log-sum-exp calculations prevent numerical overflow and retain both successes and failures even when allocation becomes concentrated.",
+        {
+          "equation": "log L_theta = sum_t [A_t eta_t - log(1+exp(eta_t))], eta_t = beta+alpha ell_t.",
+          "latex": [
+            "\\log L_{\\theta}=\\sum_{t=1}^{T}\\left[A_t\\eta_t-\\log(1+\\exp(\\eta_t))\\right]",
+            "\\eta_t=\\beta+\\alpha\\ell_t"
+          ]
+        },
+        "For a finite candidate grid G, define a likelihood discrepancy at θ as twice the difference between the largest grid log likelihood and the log likelihood at θ. Other predeclared statistics can be used; validity comes from the null simulation law and exchangeability, not from a particular likelihood-ratio limit. Generate R independent trajectories under that θ with the same initial state, horizon, response channel, and adaptive rule as the observed experiment. Apply exactly the same statistic to each trajectory, including the maximization over the same fixed alternative grid.",
+        {
+          "equation": "D_theta = 2[max_{v in G} log L_v - log L_theta].",
+          "latex": "D_{\\theta}=2\\left[\\max_{v\\in G}\\log L_v-\\log L_{\\theta}\\right]"
+        },
+        "Proposition 4 (simulation-rank coverage). Include the observed statistic with the R null statistics and use its upper-tail rank with one added numerator and denominator count. Calibration ties are included in the upper tail. Under the complete θ-null experiment, the p-value is super-uniform over the joint randomness of observation and null simulations. Therefore retaining joint grid points with p greater than γ gives coverage at least 1−γ whenever the true parameter is a grid point. The result is finite-sample and conditional on the declared initial state and design; it is not conditional on a calibration bank after that bank has been frozen.",
+        {
+          "equation": "p_theta = [1 + sum_r 1{D_theta^(r) >= D_theta^obs}]/(R+1).",
+          "latex": "p_{\\theta}=\\frac{1+\\sum_{r=1}^{R}\\mathbb{1}\\{D_{\\theta}^{(r)}\\geq D_{\\theta}^{\\mathrm{obs}}\\}}{R+1}"
+        },
+        "For β with nuisance values η in a declared finite class, retain β if at least one joint point is retained, equivalently if the maximum nuisance p-value exceeds γ. Since the maximum is at least the p-value at the true nuisance value, the same coverage statement follows when the class contains that value. No independence across candidate p-values is needed. A continuous nuisance range requires a justified global supremum or a certified upper bound; evaluating several points and calling their maximum a continuous supremum is invalid. Likewise, filling gaps between retained β grid points does not establish a confidence interval for off-grid values.",
+        "Map the retained joint set into quantities relevant to the report. Recompute B_T at each retained point on the same observed history and report its minimum and maximum. If the true joint parameter is retained, its path budget is necessarily inside that range. The same mapping applies to a declared counterfactual functional whose intervention model is justified. Preserve joint points for this calculation: projecting to β first and then plugging in a nuisance estimate can exclude the true mechanism. Empty sets flag incompatibility with the candidate class or a rare test rejection; they do not imply a unique alternative economic explanation.",
+        "Direct probability restrictions can also produce budget bounds. Jointly justified intervals l_i <= p_i <= u_i imply residual bounds 1−max_i u_i <= ε <= 1−max_i l_i; intersecting with the simplex can tighten them. Simultaneous path coverage must come from a joint mechanism set, simultaneous auditing intervals, or an explicit multiplicity adjustment. Marginal 95 percent intervals at each of thousands of dates are not a 95 percent interval for their cumulative budget. This probability-evidence layer is what prevents observed shares or a fitted decay curve from being silently substituted for conditional probabilities.",
+        "Report numerical resolution and stopping rules. With R=999, rank p-values lie on a grid of width 0.001; zero simulated exceedances give 0.001, not zero. Separate null-calibration seeds from validation seeds, and retain across-bank variation. A fixed-horizon confidence set is not automatically valid after inspecting successive horizons and stopping when it narrows. One can preallocate error over declared horizons or calibrate a statistic that includes the entire inspection rule. A genuine time-uniform construction instead needs an appropriate martingale argument, such as those developed in the confidence-sequence literature, rather than repeatedly applying the fixed-horizon rule."
+      ]
+    },
+    {
+      "heading": "6. Designing Independent Comparison Blocks",
+      "paragraphs": [
+        "A comparison report can inform a prospective design rather than merely describe a record. For a declared pair of structural values and a candidate block length L, let Q_0,L and Q_1,L be the complete short-market laws. Enumerating their probabilities is feasible for small binary horizons and includes every within-block feedback path. Define their affinity as the sum of square roots of paired history probabilities. This measures observable overlap; it depends on the complete experiment and cannot be recovered from a scalar allocation budget alone.",
+        {
+          "equation": "a_L = sum_h sqrt(Q_0,L(h) Q_1,L(h)).",
+          "latex": "a_L=\\sum_h\\sqrt{Q_{0,L}(h)Q_{1,L}(h)}"
+        },
+        "Proposition 5 (independent-block design bound). With M independent length-L markets and common parameters, equal-prior optimal classification risk is at most one half times a_L to the power M. Expected budget and Fisher information add across the independent blocks. The risk bound follows because min(u,v) is at most sqrt(uv), and affinity factorizes for product laws. If the short-market laws coincide, a_L=1 and the bound supplies no convergence. If they differ, a_L<1; this is an observable-law distinction under the maintained model, not a conclusion obtained from a positive budget.",
+        {
+          "equation": "R_M,L^* <= 0.5 a_L^M; E[B_M,L] = M E[B_L].",
+          "latex": [
+            "R_{M,L}^*\\leq\\frac{1}{2}a_L^M",
+            "\\mathbb{E}[B_{M,L}]=M\\mathbb{E}[B_L]"
+          ]
+        },
+        "Let each allocation cost one unit and each new block have startup cost c. The affinity exponent per unit cost is −log(a_L)/(L+c). Maximizing this quantity over feasible block lengths gives a transparent rate-based design criterion. With a fixed finite total resource C, one can instead maximize floor(C/(L+c)) times −log(a_L), retaining the integer block count. Our recorded cost calculation uses the rate criterion over the explicit candidate set L=1,2,4,8,12,16. It does not establish a global optimum over all market lengths, all adaptive policies, or welfare objectives. The affinity bound itself need not be tight.",
+        {
+          "equation": "kappa_L(c) = -log(a_L)/(L+c).",
+          "latex": "\\kappa_L(c)=\\frac{-\\log(a_L)}{L+c}"
+        },
+        "For quadratic reinforcement and β=±0.5, the chosen candidate lengths are one, four, twelve, and sixteen when startup costs are zero, four, sixteen, and sixty-four. Thus the information argument for reopening comparisons does not imply that every transaction should be a new market. Setup costs change the preferred block length even under the same statistical kernel. Exact short-history risk and expected information also change with L, making the design calculation reproducible without assuming an asymptotic estimator variance. These quantities are useful for an audit pilot but require monetary and implementation inputs before they can inform a regulatory cost-benefit calculation.",
+        {
+          "table": {
+            "caption": "Table 1. Exact short-market quantities for α=2 and β=±0.5",
+            "headers": [
+              "Length L",
+              "Bayes risk (%)",
+              "Affinity",
+              "Expected B",
+              "Expected I"
+            ],
+            "rows": [
+              [
+                1,
+                "37.7541",
+                "0.969544",
+                "0.377541",
+                "0.235004"
+              ],
+              [
+                2,
+                "34.9304",
+                "0.950332",
+                "0.569693",
+                "0.384202"
+              ],
+              [
+                4,
+                "32.0258",
+                "0.924450",
+                "0.838185",
+                "0.586787"
+              ],
+              [
+                8,
+                "29.0377",
+                "0.893293",
+                "1.167739",
+                "0.838347"
+              ],
+              [
+                12,
+                "27.5620",
+                "0.873947",
+                "1.382147",
+                "1.003911"
+              ],
+              [
+                16,
+                "26.6776",
+                "0.860394",
+                "1.542321",
+                "1.127807"
+              ]
+            ],
+            "note": "Complete binary-history enumeration with floating-point arithmetic. Risk is for one block with equal parameter priors; I is information for β with α known."
+          }
+        },
+        "Independent blocks require actual separation of the relevant state and innovations. Under retained counts, the correct likelihood uses the continuing state and the product-law affinity calculation does not apply. A useful analytical check nevertheless exists: for nonnegative retention 0≤ρ<1 and block length L, total counts never exceed L/(1−ρ). At any fixed finite β and positive α, this bounds the allocation odds away from zero and infinity, giving a positive residual-probability floor. Hence B_T is at least a positive constant times T. The apparently slow budget growth seen below at ρ=0.9 is not evidence for a finite infinite-horizon budget.",
+        {
+          "equation": "For 0<=rho<1: N_0+N_1 <= L/(1-rho); epsilon_t >= 1/[1+exp(|beta|)(1+L/(1-rho))^alpha].",
+          "latex": [
+            "0\\leq\\rho<1,\\quad N_0+N_1\\leq\\frac{L}{1-\\rho}",
+            "\\varepsilon_t\\geq\\frac{1}{1+\\exp(|\\beta|)(1+L/(1-\\rho))^{\\alpha}}"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "7. Computational Design and Discrimination Results",
+      "paragraphs": [
+        "The main experiment crosses α=0.5,1,2 with β=±0.25,±0.5,±1 and two designs: one inherited history or independent resetting blocks of length sixteen. Observation horizons are 16,256,2,048,8,192. Each condition uses three independent seed batches, 20261021, 20261022, and 20261023, with 2,000 datasets under each parameter per seed. Pooled risk therefore uses 6,000 histories per law and fixed equal-prior weighting. The classifier computes the exact sequential likelihood ratio for the specified pair; conditional probabilities and counts are evaluated before every allocation. No fitted classifier or field observations enter the experiment.",
+        "Within each condition, Monte Carlo standard errors use the independent replicated histories. For risk, we average the two parameter-specific error proportions and combine their variances with equal weights. Nonzero errors have approximate normal Monte Carlo intervals. When no errors occur, simultaneous 97.5 percent one-sided exact zero-error bounds for the two laws give a conservative 95 percent risk upper bound of 0.0615 percent at that specified horizon. It is not zero population risk. Horizons reuse paths, and matched seeds across configurations provide common random numbers; neither horizon differences nor design differences are treated as independent estimates. Seed-specific risk estimates are retained in the replication files.",
+        {
+          "table": {
+            "caption": "Table 2. Equal-prior classification error under reinforcement and resetting (%)",
+            "headers": [
+              "α",
+              "β pair",
+              "Single T=256",
+              "Single T=8192",
+              "Reset T=256",
+              "Reset T=8192"
+            ],
+            "rows": [
+              [
+                0.5,
+                "±0.25",
+                "2.23 (0.135)",
+                "0*",
+                "2.18 (0.133)",
+                "0*"
+              ],
+              [
+                0.5,
+                "±0.5",
+                "0*",
+                "0*",
+                "0*",
+                "0*"
+              ],
+              [
+                0.5,
+                "±1.0",
+                "0*",
+                "0*",
+                "0*",
+                "0*"
+              ],
+              [
+                1.0,
+                "±0.25",
+                "5.22 (0.203)",
+                "0.03 (0.017)",
+                "3.81 (0.175)",
+                "0*"
+              ],
+              [
+                1.0,
+                "±0.5",
+                "0.28 (0.049)",
+                "0*",
+                "0.03 (0.014)",
+                "0*"
+              ],
+              [
+                1.0,
+                "±1.0",
+                "0*",
+                "0*",
+                "0*",
+                "0*"
+              ],
+              [
+                2.0,
+                "±0.25",
+                "34.93 (0.435)",
+                "34.65 (0.434)",
+                "12.91 (0.306)",
+                "0*"
+              ],
+              [
+                2.0,
+                "±0.5",
+                "23.42 (0.387)",
+                "23.33 (0.386)",
+                "1.36 (0.106)",
+                "0*"
+              ],
+              [
+                2.0,
+                "±1.0",
+                "8.86 (0.259)",
+                "8.82 (0.259)",
+                "0*",
+                "0*"
+              ]
+            ],
+            "note": "Parentheses: Monte Carlo standard errors in percentage points. Each cell uses 6,000 histories per law over three seeds. 0* means zero observed errors, with per-horizon conservative 95% upper risk bound 0.0615%. Reset blocks have length 16. Full horizon outputs and intervals accompany the code."
+          }
+        },
+        "Table 2 shows that the contrast depends strongly on reinforcement. At α=0.5, both designs have no observed classification errors at the largest horizon for every tested separation. At α=1, a single history also discriminates well by that horizon, although the closest pair retains a small observed error rate. At α=2, single-history risks remain 34.65,23.33,8.82 percent for β=±0.25,±0.5,±1, respectively. Their Monte Carlo standard errors are 0.434,0.386,0.259 percentage points. All resetting designs have zero observed errors at the largest horizon. These are finite simulation findings for known reinforcement, not a universal ranking of concentrated versus competitive markets.",
+        "For α=2 and β=±0.5, single-history risk at 8,192 allocations is 23.325 percent, with a 95 percent Monte Carlo interval of 22.568–24.082 percent. The three seed risks are 23.750,23.750,22.475 percent. Exact enumeration gives length-sixteen risk 26.6776 percent, consistent with the first-horizon Monte Carlo result. The difference between these independent batches and the earlier illustrative benchmark is simulation variation rather than a model change. The present manuscript uses the expanded experiment's outputs throughout; replication files retain all parameter and design settings.",
+        "Budget and information diagnostics explain part of the pattern but require careful interpretation. At the largest horizon in the same quadratic case, mean B is 4.682 for one history and 790.182 for resetting markets; mean information for known-α β is 3.646 and 577.745. Their Monte Carlo standard errors are respectively 0.359,0.265 for B and 0.242,0.171 for information. The mean values are expectations estimated across simulations, whereas any economist observes one realized path. Single-history heterogeneity and rare, long comparison histories make the average budget particularly noisy. A small average increment over the tested horizons cannot establish either almost-sure finiteness or a finite limiting expectation.",
+        "Unknown reinforcement gives a different information assessment even in the weak regime. At α=0.5 and β=±0.5, single-history mean β information with α treated as known is 1,617.996. The Schur complements of the estimated expected joint Fisher matrices are only 38.406 and 38.014 under the two truths. Resetting markets give mean β information 1,733.018 and Schur complements 1,401.790 and 1,401.963. These are local finite-horizon information diagnostics computed separately by truth, not confidence widths or demonstrated estimator rates. They show why a large scalar budget and accurate known-mechanism classification do not settle attribution when a correlated mechanism loading must also be learned.",
+        "The next-recipient forecasts illustrate a further separation. In the quadratic single-history case, mean absolute disagreement between the two fixed-model forecasts at 8,192 allocations is 0.00003261, with Monte Carlo standard error 0.00001923, despite substantial classification error. Resetting markets have mean disagreement 0.02935, with standard error 0.0004969, when forecasting a hypothetical next allocation in the final sixteen-period block before any further reset. The market ages differ deliberately: T for one inherited history and sixteen for the final resetting block. These are fixed-model forecasts on the same recorded counts, not posterior predictive distributions or a finite-sample verification of complete-future merging."
+      ]
+    },
+    {
+      "heading": "8. Response Channels and Persistent State",
+      "paragraphs": [
+        "The response stress test holds the quadratic recipient law fixed and adds an informative binary audit response at every allocation. Recipient innovations use the same seed stream as the allocation-only experiment; audit innovations use a separate stream offset by 900,000. The resulting recipient paths and path budgets are exactly shared, providing a direct computational check that the change is an observation-channel effect. Joint likelihood ratios include both recipient and audit likelihood contributions. Adding responses is additional measurement and may have a cost; it is not a comparison at equal total observation cost.",
+        "At sixteen allocations, response-channel classification error is 12.975 percent, with Monte Carlo standard error 0.307 percentage points, compared with recipient-only error of 26.325 percent. At 256 and both larger horizons, it has no observed errors, with the same positive zero-error Monte Carlo upper bound. Each observation contributes q(1−q) from the audit, so information at 8,192 allocations is the allocation component plus 8,192 times logistic(0.5)(1−logistic(0.5)). Because the two truths have equal q(1−q), this contribution is deterministic across datasets. Table 3 reports the executed joint information. The recipient budget cannot cap it, exactly as Proposition 2 predicts.",
+        {
+          "table": {
+            "caption": "Table 3. Observation-channel and reset-persistence stress tests at T=8192",
+            "headers": [
+              "Experiment",
+              "Risk % (MC SE)",
+              "Mean B (MC SE)",
+              "Mean β I (MC SE)"
+            ],
+            "rows": [
+              [
+                "Single, allocation only",
+                "23.33 (0.386)",
+                "4.682 (0.359)",
+                "3.646 (0.242)"
+              ],
+              [
+                "Fresh resets, ρ=0",
+                "0 observed; upper 0.0615",
+                "790.182 (0.265)",
+                "577.745 (0.171)"
+              ],
+              [
+                "Retained resets, ρ=0.5",
+                "1.46 (0.109)",
+                "18.344 (0.101)",
+                "17.673 (0.096)"
+              ],
+              [
+                "Retained resets, ρ=0.9",
+                "21.98 (0.378)",
+                "3.369 (0.079)",
+                "2.649 (0.054)"
+              ],
+              [
+                "No state erasure, ρ=1",
+                "23.33 (0.386)",
+                "4.682 (0.359)",
+                "3.646 (0.242)"
+              ],
+              [
+                "Single + response audit",
+                "0 observed; upper 0.0615",
+                "4.682 (0.359)",
+                "1928.796 (0.242)"
+              ]
+            ],
+            "note": "α=2, β=±0.5; 6,000 datasets per law over three seeds. Information includes the audit response only in the last row. Retained-reset rows use the correct dependent-history likelihood. Zero observed risks retain the conservative 95% upper risk bound 0.0615%."
+          }
+        },
+        "State retention weakens the nominal-reset comparison. At ρ=0.5, correct-model classification risk is 1.458 percent after 8,192 allocations, with Monte Carlo standard error 0.109 percentage points. At ρ=0.9 it is 21.983 percent, with standard error 0.378. Setting ρ=1 reproduces the inherited-history recipient paths, risks, and budgets exactly under the matched streams. These checks connect the design effect to the actual erased state. The ρ=0.9 result does not say that learning is asymptotically impossible: the bounded-count residual floor in Section 6 implies divergence of its infinite budget despite a low finite-horizon mean.",
+        "We also evaluate a classifier that falsely analyzes retained histories as fresh independent blocks, recalculating its likelihood from within-block counts. At ρ=0.5 its risk is 26.767 percent, versus 1.458 percent for the correct likelihood; at ρ=0.9 it is 27.217 percent, versus 21.983 percent. The wrongly resetting rule is not Bayes-optimal for the observed law, so its error is reported as classifier risk rather than optimal Bayes risk. These comparisons show an operational failure that cannot be repaired by naming more nominal markets or adding their log likelihoods as though state were erased.",
+        "The uniform-recipient, no-response control remains analytical. Its budget is exactly T/2, both parameter likelihoods coincide, information is zero, and equal-prior optimal risk is one half. Likewise, an unrestricted additive position offset can remain confounded with β in every reset block. Independent replication amplifies differences that the experiment contains; it cannot manufacture a difference between identical observable laws. Conversely, a response signal can add information without changing exposure diversity. A comparison report therefore needs a channel inventory and a mechanism inventory alongside its budget summary."
+      ]
+    },
+    {
+      "heading": "9. Calibration with Unknown Reinforcement",
+      "paragraphs": [
+        "The calibration experiment uses β candidates −1,−0.5,0,0.5,1 and α candidates 0.5,1,1.5,2. At horizon 256, we calculate the same full-grid likelihood discrepancy for every null point. Each point has 999 null trajectories per calibration bank. Independent seed banks 20261031,20261032,20261033 each have 1,000 validation histories under true β=0.5 at each of four reinforcement values, for inherited and length-sixteen resetting designs. Thus each reported coverage rate uses 3,000 validation records and three distinct banks. Null trajectories and validation trajectories use disjoint child streams. The numerical rank resolution is 0.001.",
+        "Four procedures are compared: the correct known α, a falsely fixed α=2, a nuisance union over {0.5,1,2}, and an expanded union including 1.5. Known-α testing still uses the common full-grid discrepancy, with its correct null calibration. The union sets are projections of retained joint points, not intervals for a continuously varying β. The baseline union has no nominal guarantee when true α=1.5, even though 1.5 lies between its grid endpoints. The expanded class restores the finite-grid coverage guarantee at that value. Calibration failures in an omitted class are therefore a test of maintained assumptions rather than a contradiction of Proposition 4.",
+        {
+          "table": {
+            "caption": "Table 4. Coverage of β=0.5 and mean retained β-grid size at T=256",
+            "headers": [
+              "Design",
+              "True α",
+              "Procedure",
+              "Coverage % (MC SE)",
+              "Mean size"
+            ],
+            "rows": [
+              [
+                "Single",
+                1.0,
+                "Known α",
+                "95.73 (0.368)",
+                "1.815"
+              ],
+              [
+                "Single",
+                1.0,
+                "Fix α=2",
+                "5.90 (0.430)",
+                "0.299"
+              ],
+              [
+                "Single",
+                1.0,
+                "Union {.5,1,2}",
+                "97.93 (0.260)",
+                "2.330"
+              ],
+              [
+                "Single",
+                1.0,
+                "Union {.5,1,1.5,2}",
+                "98.30 (0.236)",
+                "3.026"
+              ],
+              [
+                "Reset",
+                1.0,
+                "Known α",
+                "94.63 (0.412)",
+                "1.278"
+              ],
+              [
+                "Reset",
+                1.0,
+                "Fix α=2",
+                "0.13 (0.067)",
+                "0.002"
+              ],
+              [
+                "Reset",
+                1.0,
+                "Union {.5,1,2}",
+                "95.67 (0.372)",
+                "1.345"
+              ],
+              [
+                "Reset",
+                1.0,
+                "Union {.5,1,1.5,2}",
+                "96.90 (0.316)",
+                "1.393"
+              ],
+              [
+                "Single",
+                1.5,
+                "Known α",
+                "94.90 (0.401)",
+                "3.108"
+              ],
+              [
+                "Single",
+                1.5,
+                "Fix α=2",
+                "63.10 (0.881)",
+                "2.881"
+              ],
+              [
+                "Single",
+                1.5,
+                "Union {.5,1,2}",
+                "83.47 (0.679)",
+                "3.649"
+              ],
+              [
+                "Single",
+                1.5,
+                "Union {.5,1,1.5,2}",
+                "96.50 (0.335)",
+                "4.061"
+              ],
+              [
+                "Reset",
+                1.5,
+                "Known α",
+                "94.70 (0.409)",
+                "1.565"
+              ],
+              [
+                "Reset",
+                1.5,
+                "Fix α=2",
+                "43.27 (0.904)",
+                "0.683"
+              ],
+              [
+                "Reset",
+                1.5,
+                "Union {.5,1,2}",
+                "68.27 (0.849)",
+                "1.069"
+              ],
+              [
+                "Reset",
+                1.5,
+                "Union {.5,1,1.5,2}",
+                "97.63 (0.277)",
+                "1.701"
+              ]
+            ],
+            "note": "Nominal grid coverage 95%; five β candidates. MC standard errors describe validation draws conditional on the three calibration banks, not all bank variability. Each rate uses 3,000 independent validation records; bank-specific rates and descriptive Wilson intervals are in the supplement. Classes excluding true α have no nominal guarantee."
+          }
+        },
+        "With true α=1, the correct-known procedure covers 95.73 percent for one history and 94.63 percent for resetting markets. Expanded unions cover 98.30 and 96.90 percent, with mean retained sizes 3.026 and 1.393. Nuisance protection can therefore make sets broader, while restarting comparisons can make the valid set more selective. The slightly below-95 pooled known-α reset result is a finite calibration-and-validation realization, not evidence against the exact rank statement. For that procedure, bank-specific rates are 94.4,95.3,94.2 percent, and the conditional pooled validation standard error is 0.412 percentage points.",
+        "Omitting a mechanism is more consequential. At true α=1.5, the baseline union covers 83.47 percent for one history and 68.27 percent for resetting markets, with conditional validation standard errors 0.679 and 0.849 percentage points. Expanded unions cover 96.50 and 97.63 percent, with standard errors 0.335 and 0.277. Their bank-specific coverage ranges are 95.5–97.9 and 97.0–98.6 percent. Falsely fixing α=2 gives only 63.10 and 43.27 percent coverage at α=1.5. At α=1, it gives 5.90 and 0.13 percent. Replication can expose a false mechanism more decisively while an invalid procedure still reports misleadingly selective or empty sets.",
+        "Calibration uncertainty has two levels. Conditional validation variation arises from new observed histories evaluated against a fixed collection of banks. Bank variation arises from the finite null sample itself. The supplement reports conditional validation standard errors, descriptive Wilson intervals, every bank-specific rate, and the standard error across the three bank means. Three banks do not characterize that second uncertainty precisely; they prevent a single conveniently favorable bank from being the entire validation exercise. The theoretical rank guarantee averages over calibration and observation randomness and survives ties conservatively. The finite validation findings check implementation and sensitivity rather than replace the theorem with a coverage plot.",
+        "These experiments do not justify choosing nuisance classes after seeing which class gives a preferred estimate. The class and any expansion rule should be grounded in external mechanism evidence or a stated sensitivity exercise. One can report several classes, clearly distinguish their assumptions, and retain a jointly calibrated superset when appropriate. A plug-in reinforcement estimate followed by treating that value as known is a different method and has not been validated here. Auditing the feedback rule, retaining rejected offers, or observing an independent response signal can be more useful than merely refining an allocation-only point estimate."
+      ]
+    },
+    {
+      "heading": "10. Interpretation and Use in Market Research",
+      "paragraphs": [
+        "The reporting procedure is implementable when a researcher can reconstruct or justify the full chronological simulator. A platform audit might supply the assignment rule, rejected offers, eligibility states, and outcome measurements. Procurement research might use deliberately separated pilots with recorded initial capacities. The first empirical task is validating those inputs, not fitting the reinforcement example to a share series. Simulated null calibration protects against an unstable likelihood-ratio approximation; it offers no protection against an incorrect simulator, missing feedback, endogenous eligibility, or a false reset assumption.",
+        "A practical study should therefore publish its observation inventory, kernel restrictions, candidate mechanism class, and horizon alongside the comparison report. Validate conditional predictions on separately reserved records or experimental units; use process audits to establish which policy probabilities are known; examine whether changing the nuisance class alters retained structural values. Predictive validation can reject a kernel but cannot by itself prove a unique structural decomposition, since observationally equivalent mechanisms have the same predictive law. When the simulator is estimated from the same record, its estimation uncertainty must enter the candidate class or a new calibration construction rather than disappear into a fixed plug-in policy.",
+        "Counterfactual reporting requires one further maintained object: the mechanism under the intervention. Replaying the observed allocation kernel after a compulsory reset or entry subsidy is justified only if the corresponding state transition, response law, and strategic behavior are stable under that intervention. A retained joint parameter set can propagate uncertainty through such a declared model; it cannot establish its invariance. If several intervention mechanisms remain credible, report their combined functional range. The method consequently supports disciplined uncertainty statements and prospective measurement design, rather than an automatic antitrust threshold, tax rate, or causal claim about a particular firm.",
+        "The computational study has clear limits. Two recipients and a low-dimensional finite grid make exact likelihoods and short-history enumeration tractable. Large choice sets, continuous nuisance classes, latent states, and equilibrium responses require additional computation and certified optimization. The current procedure is fixed-horizon and computationally intensive: increasing null simulations improves rank resolution but does not correct mechanism error. Independent replication is a design option only when the relevant state and innovations can be separated. Its economic costs and welfare effects belong in a substantive application, beyond the affinity-based discrimination criterion demonstrated here."
+      ]
+    },
+    {
+      "heading": "11. Conclusion",
+      "paragraphs": [
+        "Comparison opportunities are measurable only relative to an observed experiment and justified conditional probabilities. The allocation budget can bound a specified information component, while response channels, nuisance directions, and observable-law equivalence determine what that bound means. Combining complete-kernel likelihoods, finite-candidate rank calibration, nuisance projection, and cost-sensitive short-market calculations gives a concrete finite-horizon research procedure. The executed experiments show substantial benefits from fresh comparisons under strong reinforcement, severe failures from false mechanism assumptions, and informative observations beyond exposure diversity. They also show why slow finite budget growth cannot certify an infinite-horizon impossibility theorem. The appropriate output is a reproducible account of which conclusions survive declared mechanisms and designs, with their uncertainty retained."
+      ]
+    },
+    {
+      "heading": "Appendix A. Derivations and Numerical Checks",
+      "paragraphs": [
+        "For Proposition 2, write the joint score as the allocation score plus the response score. At each fixed allocation, differentiating the normalized conditional response law gives mean response score zero. The conditional cross product with the allocation score therefore vanishes. Conditioning again on past history gives the joint-information identity. The same zero-mean argument eliminates cross-time score products. Any informative initial-state score is an additional term when the baseline is not conditioned upon. These arguments require parameter-independent support or the appropriate regular likelihood conditions; they are immediate for the finite positive kernels used in the computations.",
+        "For Proposition 3, let a(z)=log(1+exp(z)) and v(z)=a''(z)=logistic(z)(1−logistic(z)). Its log derivative is 1−2logistic(z), bounded in absolute value by one, so v(z+u) is at most exp(|u|)v(z). Bernoulli divergence from logit z to z+δ equals a(z+δ)−a(z)−δa'(z). Taylor's integral remainder bounds this by exp(|δ|)δ squared v(z)/2. At the same recorded history the two logits differ by δ, and v(z) is at most the residual probability under the first law. Summing the conditional divergence chain rule proves the displayed bound, including adaptive histories and known retained-count dynamics.",
+        "For Proposition 4, the observed discrepancy and R correctly simulated null discrepancies are exchangeable under the null. With no ties, the observed descending rank is uniform on one through R+1. Including all ties in the upper tail can only increase the p-value, giving conservative super-uniformity. Retention with p greater than γ then fails at the true joint point with probability at most γ. Nuisance projection contains that point whenever the nuisance class contains the truth. A likelihood discrepancy maximized over the common alternative grid remains a valid statistic even when a known nuisance is used for its null calibration.",
+        "For Proposition 5, summing min(Q_0,Q_1) gives twice equal-prior optimal risk. Bounding each term by the square root product gives the affinity bound; independent product laws factor the affinity into a_L to the M. Expected predictable information and budget add over genuine independent blocks. For retained counts with 0≤ρ<1, the end-of-block total obeys S_next ≤ ρS_previous+L, so zero initial counts give S ≤ L/(1−ρ). Bounded log odds then give the residual floor in Section 6. This proves budget divergence for every fixed retention factor in that range without claiming a rate for the observed classifier.",
+        "The independent validation script checks kernel normalization and log odds, enumerated short-history risk and affinity, chronological likelihood calculations, the allocation information bound, and the retained-count floor. It verifies matched recipient budgets in the audit experiment, deterministic audit information increments, and the exact identity between full retention and the inherited design. It also checks rank ties and resolution, stored calibration-bank ordering, nuisance-set inclusion, and the manuscript's four table payloads. These tests are numerical implementation checks; they are not substitutes for the assumptions or proofs above."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "text": "Arthur, W. B. (1989). Competing technologies, increasing returns, and lock-in by historical events. The Economic Journal, 99(394), 116–131.",
+      "url": "https://doi.org/10.2307/2234208"
+    },
+    {
+      "text": "Auer, P., Cesa-Bianchi, N., & Fischer, P. (2002). Finite-time analysis of the multiarmed bandit problem. Machine Learning, 47, 235–256.",
+      "url": "https://doi.org/10.1023/A:1013689704352"
+    },
+    {
+      "text": "Berger, R. L., & Boos, D. D. (1994). P values maximized over a confidence set for the nuisance parameter. Journal of the American Statistical Association, 89(427), 1012–1016.",
+      "url": "https://doi.org/10.1080/01621459.1994.10476836"
+    },
+    {
+      "text": "Blackwell, D., & Dubins, L. (1962). Merging of opinions with increasing information. The Annals of Mathematical Statistics, 33(3), 882–886.",
+      "url": "https://doi.org/10.1214/aoms/1177704456"
+    },
+    {
+      "text": "Dudík, M., Erhan, D., Langford, J., & Li, L. (2014). Doubly robust policy evaluation and optimization. Statistical Science, 29(4), 485–511.",
+      "url": "https://doi.org/10.1214/14-STS500"
+    },
+    {
+      "text": "Dufour, J.-M. (2006). Monte Carlo tests with nuisance parameters: A general approach to finite-sample inference and nonstandard asymptotics. Journal of Econometrics, 133(2), 443–477.",
+      "url": "https://doi.org/10.1016/j.jeconom.2005.06.007"
+    },
+    {
+      "text": "Hadad, V., Hirshberg, D. A., Zhan, R., Wager, S., & Athey, S. (2021). Confidence intervals for policy evaluation in adaptive experiments. Proceedings of the National Academy of Sciences, 118(15), e2014602118.",
+      "url": "https://doi.org/10.1073/pnas.2014602118"
+    },
+    {
+      "text": "Hernán, M. A., & Robins, J. M. (2020). Causal inference: What if. Chapman & Hall/CRC.",
+      "url": "https://miguelhernan.org/whatifbook"
+    },
+    {
+      "text": "Howard, S. R., Ramdas, A., McAuliffe, J., & Sekhon, J. (2021). Time-uniform, nonparametric, nonasymptotic confidence sequences. The Annals of Statistics, 49(2), 1055–1080.",
+      "url": "https://doi.org/10.1214/20-AOS1991"
+    },
+    {
+      "text": "Karampatziakis, N., Mineiro, P., & Ramdas, A. (2021). Off-policy confidence sequences. Proceedings of Machine Learning Research, 139, 5301–5310.",
+      "url": "https://proceedings.mlr.press/v139/karampatziakis21a.html"
+    },
+    {
+      "text": "Kasy, M., & Sautmann, A. (2021). Adaptive treatment assignment in experiments for policy choice. Econometrica, 89(1), 113–132.",
+      "url": "https://doi.org/10.3982/ECTA17527"
+    },
+    {
+      "text": "Lai, T. L., & Robbins, H. (1985). Asymptotically efficient adaptive allocation rules. Advances in Applied Mathematics, 6(1), 4–22.",
+      "url": "https://doi.org/10.1016/0196-8858(85)90002-8"
+    },
+    {
+      "text": "Lattimore, T., & Szepesvári, C. (2020). Bandit algorithms. Cambridge University Press.",
+      "url": "https://doi.org/10.1017/9781108571401"
+    },
+    {
+      "text": "Manski, C. F. (2003). Partial identification of probability distributions. Springer.",
+      "url": "https://doi.org/10.1007/b97478"
+    },
+    {
+      "text": "McFadden, D. (1974). Conditional logit analysis of qualitative choice behavior. In P. Zarembka (Ed.), Frontiers in econometrics (pp. 105–142). Academic Press.",
+      "url": "https://eml.berkeley.edu/reprints/mcfadden/zarembka.pdf"
+    },
+    {
+      "text": "Pemantle, R. (2007). A survey of random processes with reinforcement. Probability Surveys, 4, 1–79.",
+      "url": "https://doi.org/10.1214/07-PS094"
+    },
+    {
+      "text": "Perdomo, J., Zrnic, T., Mendler-Dünner, C., & Hardt, M. (2020). Performative prediction. Proceedings of Machine Learning Research, 119, 7599–7609.",
+      "url": "https://proceedings.mlr.press/v119/perdomo20a.html"
+    },
+    {
+      "text": "Swaminathan, A., & Joachims, T. (2015). Counterfactual risk minimization: Learning from logged bandit feedback. Proceedings of Machine Learning Research, 37, 814–823.",
+      "url": "https://proceedings.mlr.press/v37/swaminathan15.html"
+    },
+    {
+      "text": "Tsybakov, A. B. (2009). Introduction to nonparametric estimation. Springer.",
+      "url": "https://doi.org/10.1007/b13794"
+    },
+    {
+      "text": "Zhang, K. W., Janson, L., & Murphy, S. A. (2020). Inference for batched bandits. Advances in Neural Information Processing Systems, 33, 9818–9829.",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2020/hash/6fd86e0ad726b778e37cf270fa0247d7-Abstract.html"
+    }
+  ],
+  "status_note": "Substantial methods and computational economics manuscript. No field data or acceptance claim. Author confirmation of submission metadata and personal declarations remains necessary.",
+  "author": {
+    "name": "Martin Erlic",
+    "affiliation": null
+  },
+  "declarations": [
+    {
+      "heading": "Data and Code Availability",
+      "paragraphs": [
+        "All data in this article are synthetic. The replication supplement contains executable Python scripts, recorded simulation outputs, independent numerical validation, and null-calibration banks. The scripts require Python and NumPy and specify all seeds, parameter grids, horizons, and observation channels. No field observations or personal data were used. A persistent public archive and its identifier should be supplied when depositing the supplement for submission; no public deposit is asserted in this version."
+      ]
+    },
+    {
+      "heading": "AI Assistance",
+      "paragraphs": [
+        "Generative AI assisted manuscript drafting, mathematical exposition, literature retrieval, and replication-code development. The reported experiments were executed and their numerical outputs checked against the manuscript tables. AI tools are not authors. The named author remains responsible for final scientific verification, source checking, interpretation, and any submitted version."
+      ]
+    }
+  ],
+  "submission_metadata_pending": [
+    "Corresponding-author contact",
+    "Funding statement based on author facts",
+    "Competing-interest statement based on author facts",
+    "Final author confirmation of contributions and submission"
+  ],
+  "word_count": 7519
+}
