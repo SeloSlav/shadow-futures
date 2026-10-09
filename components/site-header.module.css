@@ -1,0 +1,21 @@
+@media (max-width: 1000px) {
+  .nav :global(.header-nav__directive),
+  .nav :global(.header-nav__methodology),
+  .nav :global(.header-nav__mathematics) {
+    display: none;
+  }
+}
+
+@media (max-width: 560px) {
+  .nav a.papersLink {
+    display: inline-flex !important;
+    padding: 0.46rem 0.5rem;
+    font-size: 0.68rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .nav :global(a.header-nav__playground) {
+    display: none !important;
+  }
+}

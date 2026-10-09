@@ -211,6 +211,26 @@ export default function PaperPage() {
 
           <ResearchInvitation />
 
+          <section className="paper-section" aria-labelledby="paper-companions">
+            <div className="paper-section__label">
+              <span>The research program</span>
+              <h2 id="paper-companions">Six companion papers</h2>
+            </div>
+            <div className="paper-section__content">
+              <p>
+                The companion research drafts develop contestability, measurement,
+                counterfactual warrant, comparative institutions, competition policy and
+                corrective instruments. Each states the additional assumptions needed to
+                move from the comparison-budget result to its own question.
+              </p>
+              <div className="button-row method-page__actions">
+                <Link className="button" href="/papers">
+                  See all papers <span aria-hidden="true">→</span>
+                </Link>
+              </div>
+            </div>
+          </section>
+
           <section className="paper-section paper-section--last" aria-labelledby="paper-citation">
             <div className="paper-section__label">
               <span>Citation</span>

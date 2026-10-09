@@ -11,6 +11,8 @@ import {
 } from "@/components/story/creator-graphs";
 import { HeroNetwork } from "@/components/story/visuals";
 import { ComparisonBudgetGuide } from "@/components/story/comparison-budget-guide";
+import { ResearchPapers } from "@/components/research-papers";
+import researchStyles from "@/components/research-papers.module.css";
 import { PAPER } from "@/lib/paper/citation";
 
 function StorySection({
@@ -94,6 +96,9 @@ function CreatorHero() {
             Read the paper
           </a>
         </div>
+        <Link className={researchStyles.heroEntry} href="/papers">
+          See all papers <span aria-hidden="true">→</span>
+        </Link>
       </div>
     </section>
   );
@@ -828,6 +833,7 @@ export function CreatorStoryPage() {
             </div>
           </div>
         </StorySection>
+        <ResearchPapers />
       </main>
       <footer className="footer">
         <div className="footer__inner">
