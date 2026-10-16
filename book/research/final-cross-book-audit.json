@@ -75,6 +75,7 @@
     }
   ],
   "remaining_work": [
+    "Integrate the user-requested agent-workforce, capital-accumulation and EU–US–China revision according to book/planning/agents-capital-and-three-economies.md; replace existing prose within approved main/back-matter budgets and review new claims/sources.",
     "Read/check four remaining canonical original technical passages: Kakutani1948 main theorem, KabanovLiptserShiryaev1977 relevant extension, JacodShiryaev2003 particular continuity criterion, LeCamYang2000 two-point bound. Partial original passages and checked alternative primary sources do not silently clear these checks.",
     "Reconcile final conceptual/citation audit with those source findings; retain no claim of independent proof or priority certification.",
     "Complete objective audit against all six plan requirements and checkpoint any final changes."
@@ -96,6 +97,14 @@
       "sha256": "f490b8395187edc34ab46a3d45455f1f59cbbc9632964c63218a2f4c8ba8cd1d",
       "locator": "Original pp.265–272 visually read; book claims use pp.265–267 and Section4 pp.268–269.",
       "finding": "Decision-risk and state-independent transformation equivalence supports the bounded account. Original earlier finite-result credit to Sherman/Stein retained. Prior access failures superseded by ordinary browser publisher download."
+    }
+  ],
+  "pending_user_revisions": [
+    {
+      "id": "agents_capital_and_comparative_institutions",
+      "status": "planned_not_yet_integrated",
+      "memo": "book/planning/agents-capital-and-three-economies.md",
+      "research": "book/research/agents-capital-institutions-research.json"
     }
   ]
 }

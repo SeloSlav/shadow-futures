@@ -1,0 +1,118 @@
+{
+  "status": "planning_research_not_integrated_into_manuscript",
+  "checked_on": "2026-10-16",
+  "memo": "book/planning/agents-capital-and-three-economies.md",
+  "scope": "Primary-source research supporting a user-requested revision plan. This is not a new manuscript source ledger or certification of current country rankings, economic outcomes, legal advice, or a v5 empirical application.",
+  "sources": [
+    {
+      "key": "Carlini2026CompilerTeam",
+      "url": "https://www.anthropic.com/engineering/building-c-compiler",
+      "title": "Building a C compiler with a team of parallel Claudes",
+      "date": "2026-02-05",
+      "locator": "Opening; Make parallelism easy; Evaluation; Looking forward",
+      "checked": "Original full rendered article and indexed primary passages read.",
+      "supports": "Sixteen-agent compiler experiment; shared failure and redesigned GCC-based checks; capability limitations.",
+      "boundary": "Attributed vendor/researcher experiment, not independent replication, a commercial replacement estimate, labor-market outcome or causal effect of agent count. Human harness design and external tools count. No repository execution or benchmark replication performed."
+    },
+    {
+      "key": "Anthropic2025MultiAgentResearch",
+      "url": "https://www.anthropic.com/engineering/multi-agent-research-system",
+      "title": "How we built our multi-agent research system",
+      "date": "2025-06-13",
+      "locator": "Benefits; Architecture overview; Effective evaluation; Production reliability",
+      "checked": "Full substantive rendered article read.",
+      "supports": "Orchestrator/worker architecture, parallel inquiry, resource costs and coordination limitations.",
+      "boundary": "Company account and internal evaluations. Architecture is distinct from the later compiler team's explicit absence of an orchestration agent. Extra agent roles do not themselves establish independent economic trials."
+    },
+    {
+      "key": "KorinekSuh2024AGIScenarios",
+      "url": "https://cdn.governance.ai/AGI_Scenarios.pdf",
+      "title": "Scenarios for the Transition to AGI",
+      "date": "2024-03",
+      "locator": "Abstract; Section 3, Proposition 7, printed pp. 22–23; Section 4.1; specific-capital discussion printed p. 36; conclusion printed p. 37",
+      "checked": "Original PDF abstract, indexed relevant capital/wage passages and conclusion inspected; not complete 45-page proof review.",
+      "supports": "Scenario dependence of wages on automation, capital accumulation and task distribution; reproducible capital versus fixed bottlenecks.",
+      "boundary": "Theoretical scenario model with substantive assumptions, not a forecast or v5 result. Broadly valuable automation and capital formation remain possible; monopoly returns do not follow from reproducible compute alone. Confirm exact final note locators and version during manuscript integration."
+    },
+    {
+      "key": "EuroHPCPlayground2025",
+      "url": "https://www.eurohpc-ju.europa.eu/playground-access-ai-factories_en",
+      "date": "2025-04-09",
+      "locator": "Details and Description, including eligibility/technical assessment and capacity notice",
+      "checked": "Original full substantive call page read.",
+      "supports": "Published route for SME/startup access, first-come processing, capacity limits.",
+      "boundary": "Access process and stated terms, not proof of actual turnaround, granted capacity, successful entry or frontier parity."
+    },
+    {
+      "key": "EuroHPCAccessModes2026Check",
+      "url": "https://www.eurohpc-ju.europa.eu/ai-factories/ai-factories-access-modes_en",
+      "locator": "Industrial Innovation access modes",
+      "checked": "Original indexed access-policy passage read.",
+      "supports": "Free innovation access for eligible AI SMEs and startups; distinct commercial access.",
+      "boundary": "General mode conditions do not establish which application obtains which system or resources. Check current Terms of Reference and implementation before detailed manuscript claims."
+    },
+    {
+      "key": "USAIActionPlan2025",
+      "url": "https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf",
+      "date": "2025-07",
+      "locator": "Printedpp3–5; Remove Red Tape; Encourage Open-Source and Open-Weight AI; computing-market and NAIRR recommendations",
+      "checked": "Relevant full original policy passages read via publisher PDF text.",
+      "supports": "Deregulation and open-model/access objectives coexist in the plan.",
+      "boundary": "Policy recommendations and official characterization, not enacted universal duties, evidence of completed access or proof of policy effects. Do not import the plan's characterization of all open models as a universal license fact."
+    },
+    {
+      "key": "NSFNAIRROperations2026",
+      "url": "https://www.nsf.gov/cise/updates/nsf-establishes-operations-center-national-artificial",
+      "date": "2026-09-01",
+      "locator": "Entire substantive announcement after heading",
+      "checked": "Original full substantive announcement read.",
+      "supports": "US public/private access initiative and operations-center announcement.",
+      "boundary": "Agency account; stated plans, activities and participation are not independently measured additionality or proof of frontier competition. Dependence on participating providers is an institutional question."
+    },
+    {
+      "key": "FTC2025AIPartnerships",
+      "url": "https://www.ftc.gov/reports/ftc-staff-report-ai-partnerships-investments-6b-study",
+      "supporting_primary_url": "https://search.ftc.gov/news-events/news/press-releases/2025/01/ftc-issues-staff-report-ai-partnerships-investments-study",
+      "date": "2025-01",
+      "locator": "Official study landing page, executive-summary excerpt and complete official release's Key Findings and Areas to Watch",
+      "checked": "Original official summary and relevant indexed executive-summary passage read; full report not claimed reviewed.",
+      "supports": "Dated agency inquiry into input access, switching costs and partnership terms.",
+      "boundary": "Potential competition concerns, not adjudicated illegality. Information to September 2024 plus public information through January 2025. Do not treat historical partnership terms as a current contract audit."
+    },
+    {
+      "key": "ChinaAIPlus2025",
+      "url": "https://www.nda.gov.cn/sjj/swdt/xwfb/0826/20250826173046592282838_mobile.html",
+      "date": "2025-08-21",
+      "publication_date": "2025-08-26",
+      "locator": "Section II especially industry and work; Section III items 9–13",
+      "checked": "Original Chinese policy text covering relevant full sections read. English government account separately corroborates scope; planning paraphrases are not an official translation.",
+      "supports": "Agent services, shared computing, open source, employment adaptation and patient-capital policy objectives.",
+      "boundary": "Announced strategy and targets, not achieved adoption, independent entry or economic resilience."
+    },
+    {
+      "key": "ChinaGenAIInterimMeasures2023",
+      "url": "https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm",
+      "date": "2023-07-13",
+      "effective_date": "2023-08-15",
+      "locator": "Articles 2, 4–6",
+      "checked": "Relevant full enacted Chinese provisions read, distinct from April 2023 consultation draft.",
+      "supports": "Public-service scope/exclusion; political content requirements and anti-monopoly language; innovation/infrastructure encouragement.",
+      "boundary": "Dated enacted text, not a complete current-law audit or a claim every nonpublic research activity is covered. No general empirical estimate of censorship or innovation effects follows."
+    },
+    {
+      "key": "EUCharterArticle17",
+      "url": "https://fra.europa.eu/en/eu-charter/charter/article/17-right-property",
+      "locator": "Article 17, paragraphs 1–2 and accompanying explanations",
+      "checked": "Full relevant official article and explanation read.",
+      "supports": "Property and intellectual-property protection coexist with qualified regulation of use.",
+      "boundary": "Formal legal text is not a comparative enforcement score or advice about a particular remedy."
+    }
+  ],
+  "next_checks_before_integration": [
+    "Reread full relevant passages and exact versions for new substantive manuscript claims; refresh current implementation and distinguish recommendations from effective duties.",
+    "Add citations and bibliography entries only as sources enter actual chapters; retain all 24 canonical v5 references and assignments.",
+    "Check separate labor/asset ownership, operating costs, capital formation, distribution, selection and outcome evidence.",
+    "Keep political-economic scenarios distinct from shadow replays and from established country outcomes.",
+    "Replace approximately 3,500 main words within the 80,000 total and budget new back matter below 15,000."
+  ]
+}

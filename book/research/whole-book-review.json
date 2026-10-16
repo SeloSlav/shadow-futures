@@ -202,7 +202,7 @@
     ],
     "scope": "Initial argument brief and outline exports only; not the 80000-word book."
   },
-  "completion_audit": "Not passed. All15main components received sequential editorial review; originalBlackwell1953 gap closed. Four canonical original technical passages remain pending. Cross-book case, conceptual and targeted semantic checks recorded; final reconciliation with remaining original sources still required.",
+  "completion_audit": "Not passed. Existing 15 main components received sequential review, but the newly requested agent-workforce, capital-accumulation and EU–US–China revision is planned and not yet integrated. Four original canonical technical passages and final reconciliation remain open. See the pending revision memo and final-cross-book-audit.json.",
   "review_sessions": [
     {
       "checked_on": "2026-10-16",
@@ -498,6 +498,25 @@
       ]
     }
   ],
-  "next_component": "source_completion_and_cross_book_audit",
-  "cross_book_audit": "book/research/final-cross-book-audit.json; in_progress"
+  "next_component": "agents_capital_and_comparative_institutions_revision",
+  "cross_book_audit": "book/research/final-cross-book-audit.json; in_progress",
+  "pending_user_revisions": [
+    {
+      "id": "agents_capital_and_comparative_institutions",
+      "requested_on": "2026-10-16",
+      "status": "planned_not_yet_integrated",
+      "memo": "book/planning/agents-capital-and-three-economies.md",
+      "research": "book/research/agents-capital-institutions-research.json",
+      "decision": "Keep twelve chapters; prepare agent work and ownership in Chapters 8–9, anchor the EU–US–China comparison in Chapter 10, and return to distribution and adaptability in Chapters 11–12.",
+      "planned_replacement_words": {
+        "chapter_08": 650,
+        "chapter_09": 850,
+        "chapter_10": 1600,
+        "chapter_11": 150,
+        "chapter_12": 250
+      },
+      "budget_rule": "Approximately 3,500 replacement words within 80,000 main words and 72,000 combined chapter words; new endnotes and references must fit the 15,000-word back-matter ceiling.",
+      "scope_boundary": "Scenario-based political economy, with dated actual access terms and counterevidence; no country robustness ranking, no empirical finite-budget diagnosis, no universal inference from scale, ownership, agent count or state capacity."
+    }
+  ]
 }

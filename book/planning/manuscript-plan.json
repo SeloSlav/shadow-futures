@@ -132,5 +132,24 @@
     "AI, work, antitrust, taxation, and the future of economics receive the planned full chapters; policy extensions preserve their additional premises.",
     "The complete manuscript receives a continuity, repetition, factual, conceptual, citation, and word-budget review.",
     "A complete reading manuscript, contents, bibliography, and source records are saved in the repository and committed locally."
+  ],
+  "revision_requests": [
+    {
+      "id": "agents_capital_and_comparative_institutions",
+      "requested_on": "2026-10-16",
+      "status": "planned_not_yet_integrated",
+      "memo": "book/planning/agents-capital-and-three-economies.md",
+      "research": "book/research/agents-capital-institutions-research.json",
+      "decision": "Keep twelve chapters; prepare agent work and ownership in Chapters 8–9, anchor the EU–US–China comparison in Chapter 10, and return to distribution and adaptability in Chapters 11–12.",
+      "planned_replacement_words": {
+        "chapter_08": 650,
+        "chapter_09": 850,
+        "chapter_10": 1600,
+        "chapter_11": 150,
+        "chapter_12": 250
+      },
+      "budget_rule": "Approximately 3,500 replacement words within 80,000 main words and 72,000 combined chapter words; new endnotes and references must fit the 15,000-word back-matter ceiling.",
+      "scope_boundary": "Scenario-based political economy, with dated actual access terms and counterevidence; no country robustness ranking, no empirical finite-budget diagnosis, no universal inference from scale, ownership, agent count or state capacity."
+    }
   ]
 }
