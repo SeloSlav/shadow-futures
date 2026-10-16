@@ -1,32 +1,83 @@
-.bookLink {
-  color: #285563;
-  font-weight: 650;
+.header { border-bottom-color: var(--line); }
+.inner { position: relative; max-width: 1280px; min-height: 76px; padding: .75rem 2.5rem; }
+.nav { display: flex; align-items: center; gap: .5rem; }
+.nav > a, .toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  min-height: 42px;
+  padding: .6rem .9rem;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--muted);
+  font: inherit;
+  font-size: .86rem;
+  font-weight: 550;
   white-space: nowrap;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background .18s, color .18s;
 }
-
-@media (max-width: 1000px) {
-  .nav :global(.header-nav__directive),
-  .nav :global(.header-nav__methodology),
-  .nav :global(.header-nav__mathematics) {
-    display: none;
-  }
+.nav > a:hover, .toggle:hover, .toggle[aria-expanded="true"] { background: var(--surface); color: var(--ink); }
+.nav .bookLink { color: #285563; font-weight: 700; }
+.nav .playgroundLink { color: #285f73; }
+.playgroundLink > span { color: var(--rust); }
+.toggle svg { transition: transform .18s; }
+.rotated { transform: rotate(180deg); }
+.nav .paperLink { margin-left: .6rem; background: var(--rust); color: #fffdf6; font-weight: 650; }
+.nav .paperLink:hover { background: #914826; color: #fffdf6; }
+.panel {
+  position: absolute;
+  top: calc(100% + .65rem);
+  right: 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+  width: min(850px, calc(100vw - 3rem));
+  max-height: calc(100dvh - 110px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 1.65rem;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface-solid);
+  box-shadow: 0 18px 55px #172e3529;
 }
-
+.group + .group { border-left: 1px solid var(--line); padding-left: 1.25rem; }
+.group h2 { margin: 0 0 .8rem; padding-inline: .65rem; color: #7b6036; font-size: .65rem; font-weight: 700; letter-spacing: .13em; text-transform: uppercase; }
+.group a { display: block; padding: .65rem; border-radius: 6px; text-decoration: none; }
+.group a:hover { background: #e8e2d566; }
+.linkTitle { display: flex; align-items: center; justify-content: space-between; gap: .4rem; color: #183b45; font-size: .9rem; font-weight: 650; }
+.linkTitle > span { color: #8a9390; font-size: .75rem; }
+.linkDescription { display: block; margin-top: .2rem; color: var(--muted); font-size: .75rem; line-height: 1.5; }
+@media (max-width: 900px) {
+  .inner { padding-inline: 1.5rem; }
+  .nav { gap: .15rem; }
+  .nav > a, .toggle { padding-inline: .7rem; }
+  .nav .paperLink { margin-left: .25rem; }
+  .panel { right: 1.5rem; }
+}
+@media (max-width: 740px) {
+  .inner { min-height: 64px; }
+  .nav .playgroundLink, .nav .paperLink { display: none; }
+  .panel { gap: .9rem; padding: 1.1rem; }
+  .group + .group { padding-left: .9rem; }
+}
 @media (max-width: 560px) {
-  .nav a.bookLink {
-    display: inline-flex !important;
-    padding: .46rem .5rem;
-    font-size: .68rem;
-  }
-  .nav a.papersLink {
-    display: inline-flex !important;
-    padding: 0.46rem 0.5rem;
-    font-size: 0.68rem;
-  }
+  .inner { gap: .4rem; padding: .5rem 1rem; }
+  .inner :global(.wordmark) { gap: .4rem; font-size: .86rem; }
+  .nav > a, .toggle { min-height: 44px; padding-inline: .6rem; font-size: .76rem; }
+  .panel { top: calc(100% + .4rem); right: .75rem; width: calc(100vw - 1.5rem); max-height: calc(100dvh - 84px); grid-template-columns: 1fr; gap: 1rem; padding: 1.15rem; }
+  .group + .group { border-left: 0; border-top: 1px solid var(--line); padding: 1rem 0 0; }
+  .group h2 { margin-bottom: .35rem; }
+  .group a { padding-block: .6rem; }
+  .linkTitle { font-size: .92rem; }
 }
-
-@media (max-width: 420px) {
-  .nav :global(a.header-nav__playground) {
-    display: none !important;
-  }
+@media (max-width: 360px) {
+  .inner { padding-inline: .65rem; }
+  .inner :global(.wordmark) { font-size: .78rem; gap: .3rem; }
+  .nav > a, .toggle { padding-inline: .45rem; }
 }
+@media (prefers-reduced-motion: reduce) { .nav > a, .toggle, .toggle svg { transition: none; } }

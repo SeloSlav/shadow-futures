@@ -22,13 +22,17 @@ export function BookHero() {
         </p>
         <div className={styles.actions}>
           <Link className={styles.primary} href="/book">Read the book free <span aria-hidden="true">↗</span></Link>
-          <a className={styles.download} href={BOOK.pdf} download="Shadow-Futures-Martin-Erlic.pdf">
-            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5" /></svg>
-            Download PDF
+          <a className={styles.story} href="#novelty">
+            Explore the idea <span aria-hidden="true">↓</span>
           </a>
         </div>
-        <p className={styles.details}>The complete book · {BOOK.pages} pages · {BOOK_PDF_SIZE} · No sign-up</p>
-        <a className={styles.story} href="#breakout">See how the evidence disappears <span aria-hidden="true">↓</span></a>
+        <div className={styles.downloadRow}>
+          <a className={styles.download} href={BOOK.pdf} download="Shadow-Futures-Martin-Erlic.pdf">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5" /></svg>
+            Download PDF
+          </a>
+          <span className={styles.details}>{BOOK.pages} pages · {BOOK_PDF_SIZE} · No sign-up</span>
+        </div>
       </div>
 
       <Link className={styles.stage} href="/book" aria-label="Open Shadow Futures by Martin Erlic, the complete free book">
