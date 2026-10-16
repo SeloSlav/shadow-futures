@@ -9,10 +9,9 @@ import {
   ExperimentMonopolyGraph,
   LorenzHistoryGraph,
 } from "@/components/story/creator-graphs";
-import { HeroNetwork } from "@/components/story/visuals";
+import { BookHero } from "@/components/book-hero";
 import { ComparisonBudgetGuide } from "@/components/story/comparison-budget-guide";
 import { ResearchPapers } from "@/components/research-papers";
-import researchStyles from "@/components/research-papers.module.css";
 import { PAPER } from "@/lib/paper/citation";
 
 function StorySection({
@@ -61,45 +60,6 @@ function StorySection({
         ) : null}
       </div>
       {children}
-    </section>
-  );
-}
-
-function CreatorHero() {
-  return (
-    <section className="hero creator-hero" aria-labelledby="hero-title">
-      <HeroNetwork />
-      <div className="hero__content">
-        <p className="eyebrow">
-          Early advantage compounds · other possible futures disappear
-        </p>
-        <h1 id="hero-title">Shadow Futures</h1>
-        <p className="hero__subtitle">
-          Contribution Uncertainty and the Self-Reinforcing Market
-        </p>
-        <p className="hero__line">
-          A market can reward real contribution while erasing the evidence needed to measure it.
-        </p>
-        <p className="hero__dek">
-          In some markets, each win makes the next win easier. Success brings more attention,
-          customers, capital, data or distribution to the leader, while others lose the chances
-          they need to show what they could’ve contributed. Over time, the market records the
-          winner’s path in extraordinary detail but stops producing the comparisons needed to tell
-          how much success came from contribution and how much came from already being ahead.
-          Those missing experiments are shadow futures.
-        </p>
-        <div className="button-row">
-          <a className="button button--primary" href="#breakout">
-            See how the evidence disappears
-          </a>
-          <a className="button" href={PAPER.url} target="_blank" rel="noreferrer">
-            Read the paper
-          </a>
-        </div>
-        <Link className={researchStyles.heroEntry} href="/papers">
-          See all papers <span aria-hidden="true">→</span>
-        </Link>
-      </div>
     </section>
   );
 }
@@ -249,7 +209,7 @@ export function CreatorStoryPage() {
 
   return (
     <>
-      <CreatorHero />
+      <BookHero />
       <main id="main-content">
         <NoveltyBridge />
         <StorySection

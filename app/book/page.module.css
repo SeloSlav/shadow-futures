@@ -1,0 +1,26 @@
+.page { max-width: 1180px; margin: 0 auto; padding: 4rem 2rem; }
+.intro { display: grid; grid-template-columns: 160px 1fr; gap: 2.75rem; align-items: center; margin: 0 auto 3rem; max-width: 850px; }
+.cover { border-radius: 2px 5px 5px 2px; box-shadow: 5px 12px 22px #142c3430; }
+.eyebrow { color: #8b6b3c; font-size: .68rem; text-transform: uppercase; letter-spacing: .12em; margin: 0 0 .8rem; }
+.intro h1 { font-family: var(--font-serif); color: #142c34; font-weight: 400; font-size: clamp(2.6rem, 5vw, 4rem); line-height: 1.1; margin: 0 0 .6rem; letter-spacing: -.04em; }
+.subtitle { font-family: var(--font-serif); font-size: 1.3rem; line-height: 1.4; max-width: 35ch; margin: 0 0 .8rem; }
+.author { font-size: .9rem; color: var(--muted); margin-bottom: 1.1rem; }
+.download { display: inline-flex; gap: 1.1rem; align-items: center; padding: .8rem 1rem; border-radius: 4px; background: #183b45; color: #fffdf6; font-size: .8rem; font-weight: 600; text-decoration: none; }
+.download:hover { background: #285563; }
+.meta { color: var(--muted); font-size: .68rem; margin-top: .75rem; }
+.reader { border: 1px solid #c6c6b9; border-radius: 6px; overflow: hidden; background: #fffdf7; box-shadow: 0 15px 55px #13282f0d; }
+.toolbar { display: flex; justify-content: space-between; gap: 1rem; align-items: center; padding: 1rem 1.25rem; background: #e9e5da; font-size: .75rem; }
+.toolbar span { font-weight: 600; }
+.toolbar a { color: #285563; text-underline-offset: 3px; }
+.frame { display: block; width: 100%; height: 85vh; min-height: 650px; border: 0; background: #525659; }
+.fallback { font-size: .75rem; padding: 1rem 1.25rem; color: var(--muted); margin: 0; }
+.fallback a { color: #285563; text-underline-offset: 3px; }
+.contents { margin: 4rem 0 1rem; }
+.contents h2 { font-family: var(--font-serif); font-size: clamp(1.8rem, 3.5vw, 2.7rem); font-weight: 400; letter-spacing: -.025em; margin: 0 0 2rem; }
+.chapters { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); border-top: 1px solid var(--line); }
+.chapters a { display: flex; flex-direction: column; gap: .6rem; padding: 1.3rem 2rem 1.3rem 0; min-height: 110px; border-bottom: 1px solid var(--line); color: #243b43; text-decoration: none; position: relative; }
+.chapters a:hover { color: #98713a; }
+.chapters small { color: var(--muted); font-size: .61rem; text-transform: uppercase; letter-spacing: .09em; }
+.chapters span { font-family: var(--font-serif); font-size: 1rem; line-height: 1.35; }
+.chapters span.arrow { position: absolute; right: 1rem; top: 1.4rem; font-family: var(--font-sans); font-size: .8rem; color: #92988f; }
+@media (max-width: 680px) { .page { padding: 2.5rem 1.1rem; } .intro { grid-template-columns: 105px minmax(0,1fr); gap: 1.2rem; } .cover { width: 105px; height: auto; align-self: start; } .intro h1 { font-size: 2.4rem; } .subtitle { font-size: 1.05rem; } .eyebrow { font-size: .57rem; } .toolbar { font-size: .66rem; padding: .85rem; } .frame { height: 75vh; min-height: 480px; } .chapters { grid-template-columns: repeat(2,minmax(0,1fr)); } }

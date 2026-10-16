@@ -1,3 +1,9 @@
+.bookLink {
+  color: #285563;
+  font-weight: 650;
+  white-space: nowrap;
+}
+
 @media (max-width: 1000px) {
   .nav :global(.header-nav__directive),
   .nav :global(.header-nav__methodology),
@@ -7,6 +13,11 @@
 }
 
 @media (max-width: 560px) {
+  .nav a.bookLink {
+    display: inline-flex !important;
+    padding: .46rem .5rem;
+    font-size: .68rem;
+  }
   .nav a.papersLink {
     display: inline-flex !important;
     padding: 0.46rem 0.5rem;

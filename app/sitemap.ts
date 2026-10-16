@@ -9,7 +9,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const researchModified = new Date(`${RESEARCH_PUBLISHED_DATE}T00:00:00.000Z`);
 
   return [
-    { url: SITE_ORIGIN, lastModified: researchModified },
+    { url: SITE_ORIGIN, lastModified: new Date("2026-10-16T00:00:00.000Z") },
+    { url: `${SITE_ORIGIN}/book`, lastModified: new Date("2026-10-16T00:00:00.000Z") },
     { url: `${SITE_ORIGIN}/paper`, lastModified: researchModified },
     { url: `${SITE_ORIGIN}/papers`, lastModified: researchModified },
     { url: `${SITE_ORIGIN}/playground`, lastModified },

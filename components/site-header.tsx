@@ -13,6 +13,9 @@ export function SiteHeader() {
           Shadow Futures
         </Link>
         <nav className={`header-nav ${styles.nav}`} aria-label="Primary navigation">
+          <Link className={styles.bookLink} href="/book">
+            Free book
+          </Link>
           <Link className="header-nav__story" href="/#breakout">
             Start the story
           </Link>
