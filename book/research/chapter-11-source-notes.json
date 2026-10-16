@@ -4,9 +4,9 @@
   "checked_on": "2026-10-16",
   "status": "reviewed",
   "target_main_words": 6000,
-  "body_words": 3380,
+  "body_words": 2275,
   "note_words": 273,
-  "draft_sha256": "b35e096a0871c47ec025cd5aac56938e14b5957e1d8190969d42ecc4d266fe4d",
+  "draft_sha256": "43ad288827f8f868e92ae50898b3cc1ca9cf4077549e5df756d9870e0c1745da",
   "source_checks": "Current expanded unpublished tax manuscript and canonical v5 hidden-position passage read directly. Relevant primary predecessor, Swedish agency, CMA order and CEC project/program passages checked with historical dates and version/access boundaries. Public provision additionality and real-company corrective rates not presumed. Sequential review rechecked v5 Section5/E.2 and tax Sections3-7, refreshed Swedish guidance, and read converter/outage passages in directly accessible original CEC PDF via web research.",
   "sources": [
     {
@@ -339,5 +339,14 @@
     ],
     "verification": "One editorial read of revised chapter and note matching; unchanged full-source passage checks reused. No new empirical or formal policy result introduced.",
     "boundary": "No new source/proof audit; the four earlier original theorem-passage flags remain open internally."
+  },
+  "council_removal_revision": {
+    "date": "2026-10-17",
+    "manuscript_sha256": "43ad288827f8f868e92ae50898b3cc1ca9cf4077549e5df756d9870e0c1745da",
+    "scope": "Recurring fictional council and named supplier storyline removed; direct argument and documented evidence retained.",
+    "removed_reader_notes": [],
+    "source_checks": "Existing claim-specific checks reused for unchanged facts and published model results. No new interviews, reported trial, welfare estimate or proof certification.",
+    "continuity": "Affected explanations and neighboring transitions reviewed; chapter openings/endings checked across the book.",
+    "historical_records": "Earlier narrative and review entries remain historical; current reader wording is authoritative."
   }
 }

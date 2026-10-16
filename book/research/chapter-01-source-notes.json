@@ -4,8 +4,8 @@
   "checked_on": "2026-10-16",
   "status": "drafted",
   "target_main_words": 6000,
-  "body_words": 6000,
-  "draft_sha256": "e89b108dd41d26ee15ede3ec7418902efec76eeef5a1249fc4350ef78b8cc608",
+  "body_words": 5648,
+  "draft_sha256": "d9a2225b9fa7d9ed952a05d79aa67f88fba9be911bccca24bf4a4d52ff3a64e2",
   "source_checks": "Relevant full-source passages checked. Where publisher access failed, the identified author working-paper version or indexed full-source sections were checked; no independent proof or priority certification is claimed.",
   "sources": [
     {
@@ -209,5 +209,15 @@
       "2008 chart inversion distinguished from unchanged-rule replays",
       "Case results are not a numerical comparison-budget estimate or theorem test"
     ]
-  }
+  },
+  "council_removal_revision": {
+    "date": "2026-10-17",
+    "manuscript_sha256": "d9a2225b9fa7d9ed952a05d79aa67f88fba9be911bccca24bf4a4d52ff3a64e2",
+    "scope": "Recurring fictional council and named supplier storyline removed; direct argument and documented evidence retained.",
+    "removed_reader_notes": [],
+    "source_checks": "Existing claim-specific checks reused for unchanged facts and published model results. No new interviews, reported trial, welfare estimate or proof certification.",
+    "continuity": "Affected explanations and neighboring transitions reviewed; chapter openings/endings checked across the book.",
+    "historical_records": "Earlier narrative and review entries remain historical; current reader wording is authoritative."
+  },
+  "note_words": 754
 }

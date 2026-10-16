@@ -4,9 +4,9 @@
   "checked_on": "2026-10-16",
   "status": "reviewed",
   "target_main_words": 6000,
-  "body_words": 6307,
-  "note_words": 833,
-  "draft_sha256": "ff5fd6610f682f26fb3f435c3d3fa4a1ee868d7b368042def03b4eb701c25b2c",
+  "body_words": 4506,
+  "note_words": 651,
+  "draft_sha256": "33d6861b63fa1969158bfe767a3ac8bf41ee26d13b01a29c27ad6b81de163bc5",
   "source_checks": "Relevant primary passages and direct scanned pages checked with exact version/access boundaries. Earlier substantive checks retained by claim; Blackwell1953 original scan now saved and relevant passages checked in cross-book audit. All council design choices/results fictional. Guide printedpp4-8 re-read; Rothamsted January2024 substantive account refreshed; indexed original Bearchell methods/results rechecked after direct PMC challenge.",
   "sources": [
     {
@@ -376,5 +376,16 @@
     "status": "Companion citations removed from reader; historical source checks preserved only in superseded_sources.",
     "boundary": "No companion proposition is attributed to a replacement author. Unsupported formal policy results rewritten as conditional examples. Original-source proof-review limits recorded elsewhere remain unchanged.",
     "manuscript_sha256": "eeb06e473aec4aec72cc5957a6e71ead183021f142ed04d56d8431c2c845888b"
+  },
+  "council_removal_revision": {
+    "date": "2026-10-17",
+    "manuscript_sha256": "33d6861b63fa1969158bfe767a3ac8bf41ee26d13b01a29c27ad6b81de163bc5",
+    "scope": "Recurring fictional council and named supplier storyline removed; direct argument and documented evidence retained.",
+    "removed_reader_notes": [
+      "c12-8"
+    ],
+    "source_checks": "Existing claim-specific checks reused for unchanged facts and published model results. No new interviews, reported trial, welfare estimate or proof certification.",
+    "continuity": "Affected explanations and neighboring transitions reviewed; chapter openings/endings checked across the book.",
+    "historical_records": "Earlier narrative and review entries remain historical; current reader wording is authoritative."
   }
 }

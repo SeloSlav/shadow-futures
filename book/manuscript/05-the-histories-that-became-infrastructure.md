@@ -114,7 +114,7 @@ The keyboard offers a familiar version of the problem, and a warning about telli
 
 The underlying coordination question remains useful. Imagine an employer choosing equipment that existing workers already know how to use. Choosing it can be sensible even if a different arrangement might have worked well had training developed differently. To establish that switching would improve matters now, we would need evidence about both the alternative's performance and the costs of getting there. Pointing to a different imaginable beginning would not settle the decision.
 
-Birch encounters the same practical distinction when it asks the buyer to retrain staff. A faster product in a demonstration might initially make the workplace slower while users learn it. A comparison over one afternoon and a comparison over a year could therefore answer different questions. The right horizon depends on the decision. It cannot be selected afterward merely because it makes the challenger look better.
+Transition costs change what a comparison measures. A technology can perform well in a demonstration while slowing work during training. An afternoon's performance and a year's performance may answer different questions. The evaluation horizon must follow the decision, rather than be selected afterward to favor a preferred technology.
 
 Hush-A-Phone sharpens the contrast. Its case did not require proving that every subscriber should use the attachment. A subscriber's reasonable choice about privacy was narrower than a claim that the whole network should be reorganized around the device. The scope of the requested opportunity mattered. Requiring proof of a total technological revolution before allowing a modest use would have set a peculiar standard for entry.
 
@@ -140,17 +140,17 @@ There is no reason to expect that process to be costless or universally successf
 
 Merton's account of cumulative advantage in science connects recognition to the resources and attention that support later work. The advantage can change what a researcher is able to do next. It need not consist solely of an audience mistaking an unchanged piece of work for a better one. This is why a serious explanation of unequal success has to allow capability itself to develop along the way.[^c4-9]
 
-The first contract can have a similar effect for Birch. It supplies a paid problem to solve, a reason to build tools, and a record another buyer can examine. These are concrete inputs into the next opportunity. If Birch never receives that contract, its later proposal may really be less convincing. The absence of a record can then be both an outcome of the first contest and a reason for losing the next.
+Opportunity can produce the evidence used to allocate the next opportunity. Paid work finances development, exposes practical problems, and establishes a record. A weaker later application can therefore be both a consequence of earlier exclusion and a reason for another rejection.
 
 The field experiments discussed in Chapter 1 isolated one part of this sequence. Van de Rijt and colleagues randomly supplied initial advantages and observed subsequent success in several settings. Their Kickstarter experiment found more later third-party support for projects given an initial donation. Larger initial advantages did not produce proportionate increases without limit. The causal evidence concerned specified interventions, rather than a universal law of runaway success.[^c4-10]
 
-For the buyer, the lesson is not to assume that a first opportunity will create a successful supplier. It is to distinguish the claim that a supplier has no record from the claim that it could not acquire a useful one. The first is an observation. The second is a prediction about a development process. Treating them as interchangeable can make the existing purchasing history justify its own continuation.
+Lacking a record differs from being unable to acquire a useful one. The first is an observation; the second concerns a development process. Treating them as interchangeable allows an existing allocation history to justify its own continuation.
 
 Bell's licensing change can be understood as altering one input into such processes. A firm with access to a useful invention could attempt work previously made more difficult by licensing terms. The work would then generate its own results. This interpretation places the opportunity between existing knowledge and later achievement. It does not assume that removing one obstacle removes all the others.
 
 Alchian's account of profit-based selection supplies another established perspective. A process can select surviving firms without requiring every firm to foresee or deliberately optimize the circumstances that favor it. In the Bell setting, the relevant environment includes the rules for using knowledge and reaching customers. Surviving within that environment and identifying the contribution of each input remain different analytical tasks.[^c4-11]
 
-The distinction allows us to take selection seriously while investigating institutions. Aster may have adapted skillfully to the buyer's requirements. Birch may have failed to adapt. We can ask whether those requirements were valuable, whether another arrangement would have supported useful development, and whether changing them would improve future decisions. None of these questions requires denying the skill involved in succeeding under the actual rules.
+Selection and institutional analysis belong together. Success can reflect skillful adaptation to existing requirements. Whether those requirements were useful, whether alternatives could have developed under different arrangements, and what future changes would accomplish are additional questions.
 
 ### Discovery inside the large organization
 
@@ -160,7 +160,7 @@ A patent list would not have performed that investigation. It required materials
 
 The 1952 symposium adds a second dimension. Knowledge developed inside a large organization could also be transmitted beyond it. Internal research and outside experimentation can be complements. The question is how the arrangement connects them: what is shared, which uses are feasible, what costs are covered, and whether someone outside can produce a result that the larger organization would not have produced itself.
 
-The relevant information set is crucial. If Aster's internal tests directly reveal the engineering effect being investigated, those results cannot be ignored in order to manufacture an attribution problem. If outsiders cannot inspect the tests, that creates a question about access and verification of evidence. It does not establish that no informative evidence exists anywhere. The next chapter will examine this distinction more closely.
+The relevant information set remains crucial. Internal experiments that reveal the input effect under investigation must be counted. An outsider's inability to inspect those experiments raises questions of access and verification; it does not establish that the evidence was never produced. The next chapter examines that distinction.
 
 Likewise, an outside supplier is not automatically a fresh, independent history. It may use the same underlying components, draw on the same training, or depend on the same route to customers. These connections can be efficient. They also affect what a comparison can distinguish. Counting company names without examining the underlying experiment would give the institutional arrangement an informational meaning it has not yet earned.
 
@@ -176,15 +176,15 @@ The Americus example gives the argument something concrete to rest on. Coordinat
 
 At the same time, successful coordination inside an organization cannot establish that every outside restriction is necessary to achieve it. A test of rural equipment and a rule barring a telephone attachment concern different activities. Evidence that the first worked does not settle the second. Following the actual activity keeps a broad institutional defense from standing in for the narrower comparison a particular decision needs.
 
-Imagine Birch proposes to supply one component while Aster retains responsibility for the rest. The buyer would want to know whether the boundary creates failures that an integrated supplier avoids. That is an empirical question about the proposed arrangement. A test could reveal costly coordination problems, manageable problems, or an advantage from specialization. The answer should influence how the arrangement is designed and evaluated.
+Integration and specialization create empirical tradeoffs. An interface may introduce failures an integrated service avoids, or permit a component to improve without replacing the whole system. The consequences depend on the technical boundary and must be tested.
 
-Now imagine that the buyer requires Birch to prove the success of a complete replacement before it can test that component. This may be reasonable if the component cannot be isolated safely. If it can be isolated, however, the requirement changes what the buyer is testing. A feasible comparison of one part has become a demand to duplicate a whole system. The additional burden needs a reason connected to the service.
+Requiring proof that an entire replacement system works before permitting a component test can make that test prohibitively costly. Such a requirement needs a technical or economic justification, particularly when the component can be evaluated safely on its own.
 
 There is a matching mistake in treating the component's success as proof that the whole system could be replaced cheaply. A successful limited pilot can supply useful evidence about that pilot. It may say little about coordination at a larger scale. Advocates of access need to respect this boundary as much as advocates of integration need to respect the limits of evidence for their own arrangement.
 
 The company's report therefore belongs beside the patent study and the attachment cases. Each speaks to a different question. A claim about productive coordination, evidence about follow-on invention, and a judgment about a particular restriction should be allowed to inform one another. They should not be collapsed into a vote on whether the entire institution deserves praise or blame.
 
-The buyer could preserve Aster's integrated service while allowing Birch to test one component. What would the test reveal? Could the component connect reliably? Would the benefit justify the extra work? Those are questions a buyer can investigate without assuming that either integration or separation must always be better.
+A bounded interface can preserve much of an integrated service while allowing a relevant component comparison. Reliability, coordination costs, and productive gains determine whether that arrangement is worthwhile.
 
 ### A rule for connecting
 
@@ -204,15 +204,15 @@ A right to connect becomes useful when someone can actually make the connection.
 
 ### Opening a route, paying for it
 
-For the buyer, the final choice is still a purchase. Suppose it can fund a limited Birch pilot that uses a common interface, records outcomes, and avoids putting the whole service at risk. The pilot has a cost. It might require staff time, duplicate work, and a temporary reduction in reliability. A comparison useful for later decisions can still be an expensive way to serve today's customer.
+An experiment useful for future decisions can still be expensive for present users. Staff time, duplicate infrastructure, migration, and temporary reliability losses belong in the cost of preserving an opportunity.
 
 There are costs on the innovation side as well. A policy that makes existing knowledge easier to use can affect the rewards expected from producing knowledge in the first place. That is a prospective incentive question. It requires attention to how research is financed and how the rule changes behavior. The usefulness of follow-on work does not remove it from the evaluation.
 
 The Bell study's evidence concerns a historical licensing intervention with particular surrounding institutions. It gives us more than a theoretical guess, but it does not identify the best licensing rule for every industry. Nor can my comparison-budget result supply the missing welfare calculation. Applying that result to a policy requires identifying the affected information, the decisions it could improve, and the costs of preserving or replacing it.
 
-A useful Birch pilot could make later purchasing better informed. It could also duplicate an adequate test already available elsewhere. The relevant benefit is the improvement in decisions supported by additional evidence, assessed against feasible alternatives. An independent evaluation might be cheaper. A better logging rule might suffice. Some uncertainty might be too expensive to resolve at all.
+The benefit is the improvement in decisions supported by additional evidence. An independent evaluation or better logging may answer the question more cheaply; an adequate result may already exist. Some uncertainty will be too costly to resolve.
 
-The timing of the decision can matter. If the buyer waits until every system has been built around Aster, even a promising alternative may be costly to test. A modest provision for trials earlier could preserve an option that is expensive to recreate later. That is a reason to assess opportunity while rules are being designed, rather than waiting for a challenger to arrive with a finished product and nowhere to put it.
+Timing can alter those costs. Once infrastructure is organized around a single approach, an alternative can become expensive to test. Preserving a limited route earlier may retain an option difficult to recreate later.
 
 The proposal remains conditional. Early pilots can be badly chosen, poorly measured, or retained after they stop helping. An institution committed to learning should be able to close an unproductive program as well as open a useful one. Preserving comparisons is a means to better decisions. It is not an instruction to maintain every experiment indefinitely or to declare every participant entitled to continued support.
 
@@ -224,7 +224,7 @@ The resulting history contains real achievements. It also leaves questions about
 
 The cup and the cradle bring us back to the carpenter and the two towns. A boundary can let an independent invention reach an established network. It can also make the network owner the judge of what everyone connected to it may try. Digital markets extend that question: how many apparent destinations still lead to the same decision about who deserves a chance?
 
-Birch needs more than a favorable story about the product it might have built. It needs a feasible way to develop, deliver, and be evaluated. Aster's accomplishments deserve to be understood within the economy that produced them. So do the rules determining who can attempt the next accomplishment. The histories that become infrastructure are important partly because later possibilities must pass through them.
+New technologies need feasible routes to development, delivery, and evaluation. Accomplishments deserve to be understood within the arrangements that produced them, including the rules governing who can attempt the next one. The histories that become infrastructure matter because later possibilities must pass through them.
 
 ## Notes
 
@@ -244,7 +244,7 @@ Birch needs more than a favorable story about the product it might have built. I
 
 [^c4-8]: F. A. Hayek, “Competition as a Discovery Procedure,” translated by Marcellus S. Snow, *Quarterly Journal of Austrian Economics* 5 (2002): 9–23, [full translation](https://ppe.isi.org/wp-content/uploads/2017/12/Lesson-9-Reading-Competition-as-a-Discovery-Process.pdf), pp. 9–11. This is a 2002 translation of the 1968 Kiel lecture. The chapter draws on the discovery argument, not an assumption that all relevant input effects are identified by realized market rewards.
 
-[^c4-9]: Robert K. Merton, “The Matthew Effect in Science,” *Science* 159 (1968): 56–63, [full paper](https://garfield.library.upenn.edu/merton/matthew1.pdf), pp. 56–57. Attention, recognition, and resources can support later achievement. No account of an actual Birch or hypothetical researcher's private experience is implied.
+[^c4-9]: Robert K. Merton, “The Matthew Effect in Science,” *Science* 159 (1968): 56–63, especially 56–57. [Article](https://garfield.library.upenn.edu/merton/matthew1.pdf).
 
 [^c4-10]: Arnout van de Rijt, Soong Moon Kang, Michael Restivo, and Akshay Patil, “Field Experiments of Success-Breeds-Success Dynamics,” *PNAS* 111 (2014): 6934–6939, [full paper](https://www.eui.eu/Documents/DepartmentsCentres/SPS/Profiles/Van-de-Rijt/PNAS-2014-van-de-Rijt-6934-9-11.pdf), pp. 6934–6937. Subsequent third-party support differs from meeting a Kickstarter target; larger treatment effects were not unbounded or proportional.
 

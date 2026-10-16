@@ -4,9 +4,9 @@
   "checked_on": "2026-10-16",
   "status": "reviewed",
   "target_main_words": 6000,
-  "body_words": 6000,
-  "note_words": 928,
-  "draft_sha256": "cf877f8411f2f7236129c740a8ceceaa07074899fa7b462594f65535f62127f6",
+  "body_words": 5295,
+  "note_words": 852,
+  "draft_sha256": "659382f4b7b3bff9f60684722772b20f99cfd7c17efcc65f1bc74b60e10ebeb6",
   "source_checks": "Relevant full primary passages checked in dated reports, versioned technical papers, institutional/operator accounts and original economics. Forecasts, developer/operator statements, allocated opportunities, interpretations and illustrations remain distinct.",
   "sources": [
     {
@@ -274,5 +274,14 @@
       "IEA October official metadata and full PDF pp. 7–10, 52–57"
     ],
     "draft_sha256": "cf877f8411f2f7236129c740a8ceceaa07074899fa7b462594f65535f62127f6"
+  },
+  "council_removal_revision": {
+    "date": "2026-10-17",
+    "manuscript_sha256": "659382f4b7b3bff9f60684722772b20f99cfd7c17efcc65f1bc74b60e10ebeb6",
+    "scope": "Recurring fictional council and named supplier storyline removed; direct argument and documented evidence retained.",
+    "removed_reader_notes": [],
+    "source_checks": "Existing claim-specific checks reused for unchanged facts and published model results. No new interviews, reported trial, welfare estimate or proof certification.",
+    "continuity": "Affected explanations and neighboring transitions reviewed; chapter openings/endings checked across the book.",
+    "historical_records": "Earlier narrative and review entries remain historical; current reader wording is authoritative."
   }
 }

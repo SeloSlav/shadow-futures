@@ -4,9 +4,9 @@
   "checked_on": "2026-10-16",
   "status": "reviewed",
   "target_main_words": 6000,
-  "body_words": 6000,
-  "note_words": 783,
-  "draft_sha256": "1cf24f9e0d2cd13d6da0b563a93a7e9721148c1752b48613f913c7eff16cc252",
+  "body_words": 5199,
+  "note_words": 595,
+  "draft_sha256": "24ab9f8b357d84c35de23538a5a291ce30214a7a98ecb127b2677da71aea1218",
   "source_checks": "Relevant full passages checked in published economics papers, the December 2015 Rothschild–Scheuer author version, Nakamura Nobel lecture, Nichia company statement, DARPA institutional records, and previously checked MusicLab, Merton, Kickstarter and Google sources. Named version/access boundaries are retained. This is a chapter claim check, not independent proof certification or a completed whole-book review.",
   "sources": [
     {
@@ -238,5 +238,14 @@
       "DARPA March 13, 2014 retrospective through 2007"
     ],
     "draft_sha256": "1cf24f9e0d2cd13d6da0b563a93a7e9721148c1752b48613f913c7eff16cc252"
+  },
+  "council_removal_revision": {
+    "date": "2026-10-17",
+    "manuscript_sha256": "24ab9f8b357d84c35de23538a5a291ce30214a7a98ecb127b2677da71aea1218",
+    "scope": "Recurring fictional council and named supplier storyline removed; direct argument and documented evidence retained.",
+    "removed_reader_notes": [],
+    "source_checks": "Existing claim-specific checks reused for unchanged facts and published model results. No new interviews, reported trial, welfare estimate or proof certification.",
+    "continuity": "Affected explanations and neighboring transitions reviewed; chapter openings/endings checked across the book.",
+    "historical_records": "Earlier narrative and review entries remain historical; current reader wording is authoritative."
   }
 }

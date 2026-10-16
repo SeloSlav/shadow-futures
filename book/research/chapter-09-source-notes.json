@@ -4,9 +4,9 @@
   "checked_on": "2026-10-16",
   "status": "reviewed",
   "target_main_words": 6000,
-  "body_words": 6022,
-  "note_words": 979,
-  "draft_sha256": "d6bff74626b5b0ad0e931ef3b7f1b3f818b238b9e6df4591d1d42b07de1aca47",
+  "body_words": 4643,
+  "note_words": 761,
+  "draft_sha256": "130a28f712867d0ba44a0da5c4b2d66a248f77a3d530ba60442f7542e7ca26bf",
   "source_checks": "Relevant full primary passages checked for measured outcomes, designs and limits. Published final customer-support record distinguished from author version; learning long version, dated METR studies, published Autor text and robot proof versions explicitly identified. Relevant original Bessen ATM paragraphs were additionally read in indexed publisher text; failed direct fetches, absence of full-PDF inspection and no raw-data replication remain explicit. Agent/capital revision: Original saved Korinek–Suh March 2024 passages checked; theoretical scenarios and hypothetical assets/ownership distinguished.",
   "sources": [
     {
@@ -279,5 +279,17 @@
     ],
     "draft_sha256": "d6bff74626b5b0ad0e931ef3b7f1b3f818b238b9e6df4591d1d42b07de1aca47",
     "review_scope": "Complete original chapter body and notes read in sequence before revision; revised source passages and all replacement sections read with neighboring retained passages. Exact current manuscript hash recorded. Existing primary-source boundaries remain; no independent mathematical proof or priority certification."
+  },
+  "council_removal_revision": {
+    "date": "2026-10-17",
+    "manuscript_sha256": "130a28f712867d0ba44a0da5c4b2d66a248f77a3d530ba60442f7542e7ca26bf",
+    "scope": "Recurring fictional council and named supplier storyline removed; direct argument and documented evidence retained.",
+    "removed_reader_notes": [
+      "c9-11",
+      "c9-12"
+    ],
+    "source_checks": "Existing claim-specific checks reused for unchanged facts and published model results. No new interviews, reported trial, welfare estimate or proof certification.",
+    "continuity": "Affected explanations and neighboring transitions reviewed; chapter openings/endings checked across the book.",
+    "historical_records": "Earlier narrative and review entries remain historical; current reader wording is authoritative."
   }
 }

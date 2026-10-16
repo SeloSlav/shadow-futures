@@ -4,9 +4,9 @@
   "checked_on": "2026-10-16",
   "status": "reviewed",
   "target_main_words": 2000,
-  "body_words": 2000,
-  "note_words": 153,
-  "draft_sha256": "c5060478d62657e9223f7fb4423be8f7075fe1510f1b9eec7efb4d94a9b25d39",
+  "body_words": 945,
+  "note_words": 94,
+  "draft_sha256": "877acffe777c6627238e7c144959e6876806d62cd412122938735c5c5d21f28f",
   "source_checks": "Relevant primary passages and direct scanned pages checked with exact version/access boundaries. Earlier substantive checks retained by claim. Cross-book source queue is recorded separately; this epilogue cites Rothamsted and MusicLab. All council design choices/results fictional.",
   "sources": [
     {
@@ -91,5 +91,16 @@
       "Uses existing outcomes as well as missing comparisons; contribution, rewards, incentives and values remain distinct. Substantial productive benefits, costs, feasible alternatives and the possibility of retaining the incumbent remain visible."
     ],
     "draft_sha256": "c5060478d62657e9223f7fb4423be8f7075fe1510f1b9eec7efb4d94a9b25d39"
+  },
+  "council_removal_revision": {
+    "date": "2026-10-17",
+    "manuscript_sha256": "877acffe777c6627238e7c144959e6876806d62cd412122938735c5c5d21f28f",
+    "scope": "Recurring fictional council and named supplier storyline removed; direct argument and documented evidence retained.",
+    "removed_reader_notes": [
+      "e-1"
+    ],
+    "source_checks": "Existing claim-specific checks reused for unchanged facts and published model results. No new interviews, reported trial, welfare estimate or proof certification.",
+    "continuity": "Affected explanations and neighboring transitions reviewed; chapter openings/endings checked across the book.",
+    "historical_records": "Earlier narrative and review entries remain historical; current reader wording is authoritative."
   }
 }

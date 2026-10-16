@@ -4,8 +4,8 @@
   "checked_on": "2026-10-16",
   "status": "editorial_reviewed_sources_pending",
   "target_main_words": 6000,
-  "body_words": 6009,
-  "draft_sha256": "c68ea30ada1b655c836da82a503fa9ecbdd79c53d3e67273b16515328f8cdb6d",
+  "body_words": 4560,
+  "draft_sha256": "2d4efd04d6bd600c8dffa5b58f824cfdb6c707fa63417f96e2a420e7611ea065",
   "source_checks": "Substantive main-text source passages and v5 conditions checked. Four technical-lineage entries have explicit partial/original-access boundaries and remain on final source audit queue. No independent proof or established priority certification.",
   "sources": [
     {
@@ -331,7 +331,7 @@
       "result": "Publisher preview/metadata and edition confirmed; relevant full chapter passages not obtained. No substitute edition or unverified third-party upload used."
     }
   ],
-  "note_words": 884,
+  "note_words": 804,
   "final_prose_revision": {
     "checked_on": "2026-10-16",
     "status": "completed_for_changed_passages",
@@ -341,5 +341,14 @@
       "Chapter3 note c3-6 now discloses incomplete original theorem-passage checks to the reader; all four flags remain open and all canonical citations/roles are preserved."
     ],
     "boundary": "Four original technical-passage checks remain open; no independent proof or priority certification."
+  },
+  "council_removal_revision": {
+    "date": "2026-10-17",
+    "manuscript_sha256": "2d4efd04d6bd600c8dffa5b58f824cfdb6c707fa63417f96e2a420e7611ea065",
+    "scope": "Recurring fictional council and named supplier storyline removed; direct argument and documented evidence retained.",
+    "removed_reader_notes": [],
+    "source_checks": "Existing claim-specific checks reused for unchanged facts and published model results. No new interviews, reported trial, welfare estimate or proof certification.",
+    "continuity": "Affected explanations and neighboring transitions reviewed; chapter openings/endings checked across the book.",
+    "historical_records": "Earlier narrative and review entries remain historical; current reader wording is authoritative."
   }
 }

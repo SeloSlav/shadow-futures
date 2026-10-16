@@ -6,13 +6,13 @@ A song called Lockdown finished first in one MusicLab world and fortieth in anot
 
 ### The comparison budget
 
-Imagine two software suppliers, Aster and Birch. They are explicitly fictional. Their work and product characteristics are observable, but the effect of those inputs on winning contracts is unknown. An early contract can build references and access that influence later contracts. For each award, take the chance that it goes to someone other than the current favorite. Add those chances over the sequence. I call this total the comparison budget. The favorite can change. The budget adds opportunities outside the favorite; it does not count actual rival victories or independent experiments.
+The comparison budget accumulates the modeled chance that an allocation goes outside the current favorite. The favorite can change. The object describes conditional opportunities, rather than realized outsider wins, independent trials, firm counts, or market shares. Netflix artwork experiments, randomized Yahoo logs, and adaptive recruitment calls carry the explanation alongside brief anonymous probability examples.
 
 In my specified allocation model, that budget places an upper bound on the information the award record supplies about productive input effects. A large budget still requires informative differences between alternatives. A small chance repeated indefinitely can accumulate without limit. Concentration or a low current chance alone therefore does not establish the strongest result. The relevant question is how much comparison the whole allocation process preserves (Erlic, v5, Sections 2 and 3).
 
 ### Shadow futures
 
-A shadow future is another feasible allocation history with the same starting conditions, rules, and underlying effects of productive inputs. In one, Birch receives the early contract and develops differently. Later effort can respond to earlier outcomes under the same response rule. These replays reveal historical variation. A separate intervention, such as changing effort, defines the contribution we want to estimate. An imagined better economy is not evidence merely because we can describe it (Erlic, v5, Section 4).
+A shadow future is another feasible allocation history with the same starting conditions, underlying input effects, and response rules. Different early events can induce different later investment under unchanged rules. An intervention changes an input or policy. MusicLab supplies an observed parallel-market case; hypothetical histories require a specified model and external validation.
 
 The strongest result requires common rules, the same possible next winners under each explanation, controlled differences between their predictions, and a finite lifetime comparison budget. Under those conditions, there is no single method whose contribution estimates become reliably accurate under every candidate explanation as one history grows. I call the unresolved attribution contribution uncertainty. Work can still matter. Extra outcome measurements carrying information about its effect must be counted separately. Forecasts can nevertheless converge, using Blackwell and Dubins's classical result (1962), while the attribution limit remains (Erlic, v5, Section 3 and Appendix B).
 
@@ -42,4 +42,4 @@ There are two arguments. First, economies that generate indistinguishable observ
 
 ### The book
 
-The narrative returns to Lockdown and to Aster and Birch as the stakes move from cultural success to AI procurement, work, and policy. Published experiments, court records, and economic history carry the real cases; interviews are not required. The closing question is how institutions can preserve enough informative opportunity to discover better arrangements while capturing the benefits of scale. The technical source is my SSRN preprint and its October 2026 v5 manuscript, not an accepted journal publication.
+The narrative returns to Lockdown and follows documented experiments, economic history, AI research, labor studies, and policy records. There is no recurring fictional council or invented supplier storyline. The closing question concerns institutions preserving informative opportunities while retaining productive scale. The original SSRN paper is the sole reader-facing self-citation.

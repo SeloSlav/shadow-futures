@@ -18,23 +18,23 @@ The engineers also asked what happens when an image changes between visits. A me
 
 Getting somebody to press play was not enough, either. A striking picture could attract an audience that soon abandoned the film. The engineers described using the quality of engagement when labeling their observations, to avoid rewarding that kind of clickbait. Now the record needed to connect the member, title, image, and subsequent response. A million presentations would be less revealing if the file lost those connections.[^c2-1]
 
-The comparison budget names one feature of the process that produces such records. It counts the accumulated chances of allocation outside the current favorite. It is a way to distinguish a busy system from a system that continues to leave opportunities for alternatives. We will build the idea at the procurement desk, where the numbers are small enough to keep in our heads, and return to actual systems to see what else an application requires.[^c2-2]
+The comparison budget names one feature of the process producing such records: accumulated allocation chance outside the current favorite. Brief probability examples will make that accounting concrete before the documented systems show what an application additionally requires.[^c2-2]
 
 ### What we add up
 
-Our two software suppliers, Aster and Birch, are fictional. Suppose the buyer initially treats them as equally likely recipients of a contract. Pick either as the current favorite when the chances are tied. The chance that the contract goes elsewhere is one half. That half is the first addition to the comparison budget. It describes the allocation chances before the result is known, rather than declaring what the result will be.
+Start with two alternatives that each have a one-half chance of receiving an allocation. Either can be designated the current favorite when they tie. The chance outside it is one half, which becomes the first addition to the comparison budget. This is a probability before the result is known, rather than a prediction of the realized winner.
 
-At a later decision, suppose the buyer's process gives Aster a three-in-four chance and Birch a one-in-four chance. Aster is now the favorite. The chance outside it contributes one quarter. At another decision, let circumstances favor Birch by the same margin. The contribution is again one quarter, because Aster now supplies the chance outside the favorite. Across those three decisions, the additions total one.
+At the next allocation, suppose the leading alternative has a three-in-four chance. The chance outside it contributes one quarter. If the other alternative becomes the favorite at a third allocation with the same margin, the addition is again one quarter. Across these three decisions, the additions total one.
 
-Nothing in this accounting promises that an outsider wins exactly once. The realized awards could repeatedly go to the favorite, or sometimes go elsewhere. The budget sums chances along the history being studied. It does not replace chance with a timetable. A quarter added before a decision does not become a whole unit when Birch unexpectedly wins, or disappear from the accounting when it loses.
+That total does not promise exactly one outsider victory. The awards could repeatedly go to the favorite or sometimes go elsewhere. A quarter added before an allocation stays a quarter in the accounting, whichever alternative wins.
 
-The favorite's identity also matters less than the definition might initially suggest. We are not measuring Aster's rivals forever merely because Aster led at the beginning. At each step, find an alternative with the largest allocation chance and count the probability outside it. If Birch becomes the favorite, the accounting follows that change. The quantity concerns the concentration of the next opportunity, given the history, rather than loyalty to a named incumbent.
+The favorite is redefined at every step. The quantity concerns the concentration of the next opportunity, conditional on the history, rather than loyalty to a permanent incumbent.
 
 The favorite is defined by the chance of receiving the allocation, not by an independent verdict that it is the best product. A buyer can favor a familiar supplier because switching is costly. An experimenter can deliberately give a plausible challenger substantial attention. The reason for the choice and the quality of the option both matter economically, but neither should be smuggled into the word "favorite." The budget first describes how opportunities are distributed.
 
 Calling this a budget does not mean that somebody deposited a fixed fund of experimental tokens at the beginning. The quantity accumulates as opportunities arrive. We can ask how much has accumulated so far, or what the remaining sequence could add under a specified process. The economic issue is whether continuing the market continues to supply meaningful possibilities outside its current favorite.
 
-Suppose there are three eligible suppliers instead of two. Aster has an eight-in-ten chance of the next contract, while the other two share the remaining chances. The addition is the combined chance outside Aster. Adding another name to the supplier list would change nothing if the new name received no chance and all the other chances stayed the same. A longer directory is not itself a larger comparison budget.
+With three alternatives, an eight-in-ten chance for the favorite leaves a combined two-in-ten chance outside it. Adding another name changes nothing if it receives no chance and the existing probabilities remain the same. A longer directory is not itself a larger comparison budget.
 
 Conversely, a company can preserve a variety of informative trials while remaining a single company. Netflix's account of artwork experimentation illustrates the institutional possibility. A legal organization and an alternative being tested are different units of description. Before counting, we must specify which allocations and which alternatives are relevant to the question. The number of corporate registrations cannot perform that work for us.
 
@@ -64,7 +64,7 @@ Personalization makes the conditional part of the accounting especially importan
 
 The converse is possible too. One image could dominate overall presentations while a carefully selected trial supplies useful evidence about a question involving another audience. The minority share alone would not tell us whether that evidence is weak or strong. We would need the selection rule, the groups involved, and the responses observed. Equal totals can conceal different processes; unequal totals can coexist with purposeful learning. Neither pattern in a chart substitutes for inspecting how each opportunity arose.
 
-For our buyer, the lesson is practical. Aster's contract record should say more than who won if the buyer wants to learn more than who wins. Relevant task characteristics, terms of eligibility, selection chances, and measured performance could make the record more informative. Some of those observations will answer questions outside the simple allocation model. The investigation becomes stronger when they are included explicitly, rather than hidden inside a claim that transactions are either informative or useless.
+An allocation record can contain more than the winner. Task characteristics, eligibility terms, selection chances, and measured outcomes may supply additional information. Those observations should be included explicitly, even when they answer questions outside the simple allocation model.
 
 ### A connection someone gets to make
 
@@ -80,13 +80,13 @@ What made a tie weak? The researchers used both the number of mutual connections
 
 The authors also examined the risk that treating one member could affect another member's outcomes. Networked experiments face this problem because people are connected. We should not call two routes independent simply because different people or different accounts appear on them. Their relationship is part of what the design must investigate. This caution applies just as readily when several suppliers depend on a common distribution channel.[^c2-8]
 
-For our fictional buyer, a reference from an earlier customer plays a role that is suggestively similar to a connection, while remaining a different mechanism. It can make the next opportunity easier to hear about or easier to trust. If the buyer wants to evaluate productive capacity, it should understand how that reference entered the process. The market's existing network may be useful for getting work done and incomplete as an explanation of who could have done it.
+A network can improve access to opportunities while complicating attribution of their causes. References, connections, and observed performance need to be distinguished in an account of how the next allocation occurs.
 
 ### Two long futures
 
-Return to the supplier with a very small chance. Suppose Birch keeps a one-in-a-thousand chance of receiving each successive contract, while Aster remains the favorite. Each opportunity adds a thousandth to the budget. After a thousand opportunities, the additions total one; after another thousand, another one. The process is heavily concentrated, but its accumulated outside chance continues growing as the opportunities continue.[^c2-2]
+Suppose the chance outside the favorite stays at one in a thousand at every allocation. Each opportunity adds a thousandth to the budget. A thousand opportunities add one; another thousand add another one. The process is heavily concentrated, but its accumulated outside chance keeps growing.[^c2-2]
 
-This does not mean Birch wins on schedule or that every award reveals something useful. It means that concentration and a finite lifetime comparison budget are different properties. An observer who sees an incumbent winning nearly everything cannot infer the strongest information limit from that observation alone. A tiny chance that persists is not equivalent to a chance that vanishes quickly enough for its total to remain bounded.
+Concentration and a finite lifetime comparison budget are therefore different properties. A tiny chance that persists differs from a chance that vanishes quickly enough for its total to remain bounded. Nor does either calculation promise that awards arrive on schedule or reveal an informative input contrast.
 
 Now consider a different, explicitly hypothetical allocation schedule. Start with a one-in-four chance outside the favorite. At every subsequent opportunity, halve that chance. The first few opportunities contribute most of what the entire future can add. Continuing forever adds successively smaller pieces, and all those pieces together amount to one half. There can be indefinitely many decisions while the accumulated outside chance has a finite ceiling.
 
@@ -96,7 +96,7 @@ A third schedule makes the need for care clearer still. Let outside chances decl
 
 The halving schedule is an accounting illustration, not a fitted model of a named company. An actual supplier's prospects could rise after a useful demonstration or fall after an incompatible product change. Its future chance could depend on who won earlier contracts. The budget follows the relevant conditional chances through those changes. Replacing that evolving process with a single fixed market-share number would remove precisely the history the object is meant to describe.
 
-The supplier example is useful because a small chance sounds almost equivalent to no chance in ordinary conversation. For a person deciding whether to spend a week preparing a bid, the practical difference may indeed be small. For an inquiry about what an indefinitely long record can reveal, persistence matters. A long sequence can accumulate what one isolated opportunity supplies only in a very small amount.
+The schedules expose a distinction ordinary language can blur. A very small chance may feel equivalent to none when deciding whether to make one costly attempt. For what an indefinitely long record can reveal, persistence matters: a long sequence can accumulate what each opportunity adds only in a tiny amount.
 
 The relevant time horizon matters too. A business, worker, or policymaker may need an answer long before an indefinitely accumulating process becomes helpful. An infinite lifetime budget could coexist with painfully little relevant opportunity over five years. The finite-record limit is therefore important in its own right. We should ask what can be learned in time for the decision, rather than using an eventual possibility as a reason to dismiss present ignorance.
 
@@ -136,7 +136,7 @@ Kasy and Sautmann proposed an adaptive method called exploration sampling. Inste
 
 The case supplies an important counterweight to the idea that experimentation must mean equal shares forever. Once an approach looks clearly unpromising, continuing to assign it the same share may be a poor use of opportunities. A close challenger may deserve more investigation. Relevant comparison depends on which uncertainty remains, how much resolving it would matter, and the consequences of sending another call along each route.
 
-For the fictional buyer, this suggests a question more precise than whether Birch receives a fair fraction of contracts. Which Birch task would distinguish a live explanation from one the buyer can already reject? A limited deployment on an appropriate class of work might answer that question. A contract chosen for symbolic balance, but assigned on incomparable terms, might add little. The allocation process has to be related to what the observer wants to learn.
+Adaptive design ties opportunities to the uncertainty being investigated. A limited experiment on a relevant task can distinguish plausible explanations; a nominally balanced allocation on incomparable tasks may add little. The assignment process must be related to what the observer wants to learn.
 
 The measure of success should remain visible as well. Completing five questions is something an organization can record promptly. It is useful for choosing among recruitment methods on that outcome. If the later decision concerns agricultural income or the quality of advice, additional evidence is needed. The outcome recorded for fast adaptation should not acquire authority over every consequence simply because it arrives in time to guide the next wave.
 
@@ -146,15 +146,15 @@ An institution can therefore preserve comparison while making increasingly selec
 
 ### What a large budget cannot buy
 
-Now give Aster and Birch equal chances on every contract. The comparison budget keeps growing briskly. Have we solved attribution? Suppose the input whose effect we want to measure is identical in both suppliers' observed profiles. Every comparison puts the same amount of that input on both sides. Reallocating contracts creates more variation in recipients without creating the input contrast needed to learn its effect in the allocation model.[^c2-2]
+Equal chances at every allocation would make the budget grow, but still need not identify an input effect. If the measured input is identical across the alternatives, reallocating awards changes the recipient without creating the contrast needed to learn that input's effect.[^c2-2]
 
 For a less abstract picture, imagine testing two artwork files that display exactly the same image. More exposures can help estimate how that image performs with particular audiences. They cannot reveal the difference between the two visual treatments because the treatments do not differ. A system can create a great deal of nominal variation while leaving the intended comparison untouched. Counting chances is necessary for one bound; it is insufficient for a guarantee.
 
-Nor does a changing supplier name necessarily create an independent trial. Birch could use the same underlying service as Aster, face the same bottleneck, and be judged by the same faulty performance measure. Whether the results are informative depends on those relationships. The budget does not certify independence, meaningful input variation, or a valid outcome simply because an award went to another name.
+A change of name need not create an independent trial either. Products may share an underlying service, a bottleneck, or a faulty outcome measure. The budget does not certify independence or meaningful variation merely because a different alternative receives an award.
 
 Yaneer Bar-Yam's distinction between large quantities of detailed data and information relevant to an intervention is useful here. His framework concerns how to identify what matters for a system-level question, rather than treating detail as automatically sufficient. The comparison budget addresses a narrower allocation setting, but the shared discipline is to ask what the record can distinguish for the question under study.[^c2-7]
 
-For Yahoo's article evaluation, the randomized logging policy and observed responses mattered. For the farmer calls, the measured completion outcome and adaptive assignment mattered. For Aster and Birch, the relevant differences in inputs and the rules translating them into awards matter. These are reasons to investigate how a record is generated. They are not reasons to dismiss detailed records that actually contain the information needed.
+Yahoo's article evaluation depended on randomized logging and observed responses. The farmer calls depended on the measured completion outcome and adaptive assignment. In each case, the record's usefulness followed from how it was generated, rather than its size alone.
 
 Suppose the buyer can obtain an independent performance test without awarding another full contract. That test belongs in the analysis. If it distinguishes effects the award history leaves uncertain, the observer now has a different experiment from the allocation-only record. Applying an information limit while excluding the new test would manufacture a conclusion about ignorance by removing evidence from consideration.
 
@@ -180,21 +180,21 @@ Sometimes the missing comparison calls for another supplier. Sometimes a company
 
 ### The price of keeping a door open
 
-The procurement desk gives the next decision a price. Suppose a Birch pilot requires training staff, moving a sample of records, and checking whether the returned work is usable. These costs exist before the buyer discovers whether Birch is better. The hoped-for information must justify them. An experiment can be valuable without being cheap, and a useful alternative can remain unevaluated because evaluating it would cost more than the decision could gain.
+Keeping a comparison available has a price. Testing can require moving data, training staff, checking outcomes, and accepting disruption before its result is known. The hoped-for information must justify those costs. Some alternatives will sensibly remain unevaluated because testing them would cost more than the decision could gain.
 
 Netflix's engineers described their artwork setting as favorable partly because exploration costs could be spread across a large membership. That is a claim about the costs of their particular service and evaluation problem. It is not a general permission to treat experimentation on people as negligible. The same organizational scale that makes testing difficult to observe from outside can sometimes make testing economical to undertake inside.[^c2-1]
 
-For the buyer choosing Aster, the most useful first question may be which uncertainty could actually reverse the purchasing decision. If Birch would have to be implausibly superior to compensate for migration costs, another large trial might be wasteful. If a small reliability difference could affect years of expensive work, a carefully designed pilot may be worthwhile. The budget acquires practical significance through this connection to decisions, not through an instruction to maximize it everywhere.
+The practical question is which uncertainty could change a consequential decision. A small reliability difference may justify investigation when it affects years of expensive operation. A difference incapable of outweighing known switching costs may not. There is no economic instruction to maximize the comparison budget everywhere.
 
-We should also ask whether another comparison could do the same job. A shared test environment might reduce setup costs. An evaluator could use existing records if the logging design supports the intended inference. A limited task could reveal a bottleneck before the buyer risks a full transfer. These are design possibilities within the thought experiment, not guarantees that every lost route has a cheap replacement.
+Existing records, a shared test environment, or a limited task can sometimes answer a question more cheaply than a full deployment. Whether they do so depends on their design and on the inference required. A lost route has no automatically adequate substitute.
 
 The order matters. Start with the question, identify a comparison capable of answering it, and assess the cost of producing that comparison. Only then decide whether an access arrangement or purchasing rule helps. Beginning with a preferred number of suppliers and assuming that the resulting record will be informative skips the hardest part of the task. The directory can be long while the relevant test remains absent.
 
-An informative Birch trial could end with a stronger case for Aster. A different artwork could confirm that the established image works better for the audience in question. Learning does not require overturning the incumbent. It requires an arrangement in which a relevant result could change our view, including by increasing justified confidence in what we already do. That possibility gives comparison a practical role even for a buyer who expects to continue choosing the current favorite afterward.
+Learning can strengthen the case for an incumbent. An artwork experiment can confirm that the established image works better for the relevant audience. An informative test must allow a result to change our view, including by increasing justified confidence in an existing choice.
 
-The buyer's task now has a clearer shape. Aster has won contracts and delivered a service. Birch's chances may persist, shrink, or improve after a trial. The record needs to show enough of that process to support the explanation being attempted. The comparison budget measures one part of it: the accumulated chance outside the favorite. The remaining work is to discover what those opportunities reveal and whether preserving more would improve the next purchasing decision.
+The comparison budget measures the accumulated allocation chance outside the current favorite. What those chances reveal depends on the inputs, observed outcomes, and response rules. Preserving more comparison is worthwhile when the resulting evidence improves decisions enough to justify its cost.
 
-The next chapter asks what happens when the needed comparisons remain unrealized. We will return to Aster and Birch at their common beginning, keep the rules fixed, and follow different early awards. The purpose is to understand the alternatives against which a reward can be explained. Aster's next contract can keep the service running. To learn what that contract tells us about contribution, we must also understand which other histories the process could have produced.
+The next chapter examines the histories left unrealized. Holding underlying conditions and response rules fixed makes it possible to distinguish variation in outcomes from the effect of changing the economy itself. That distinction is essential to explaining a reward.
 
 ## Notes
 

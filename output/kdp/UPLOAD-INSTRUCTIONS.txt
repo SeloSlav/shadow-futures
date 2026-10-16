@@ -11,8 +11,8 @@ Manuscript: shadow-futures-paperback-interior.pdf
 Cover: shadow-futures-paperback-cover.pdf (full back/spine/front wrap)
 Choose: 6 x 9 inch trim; black ink; WHITE paper; NO BLEED for the interior.
 The cover includes its required 0.125-inch outer bleed independently.
-Interior: 306 pages. Spine: 0.689112 inches.
-Full cover: 12.939112 x 9.25 inches.
+Interior: 274 pages. Spine: 0.617048 inches.
+Full cover: 12.867048 x 9.25 inches.
 Choose matte or glossy finish to taste; no finish-specific file change is needed.
 The back leaves a clear area for KDP's barcode. No ISBN has been invented.
 If adding your own ISBN, enter that actual ISBN in KDP before approving the preview.

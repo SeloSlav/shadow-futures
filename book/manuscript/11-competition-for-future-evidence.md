@@ -10,59 +10,59 @@ Receiving your records in a form another service can interpret is more useful th
 
 The banks themselves had been required to create and fund the organization maintaining the standards. Completion left those funding duties in place. These were concrete obligations in a dated decision; their existence alone does not establish Open Banking's total economic benefit.[^c10-1]
 
-Now put a different purchasing decision on the desk. A fictional council uses Aster to help sort building-maintenance requests. People describe leaking pipes, broken fittings, and other repairs. Software suggests a category and priority; a responsible human checks consequential decisions. Birch offers an alternative. The council must decide how to buy this work next year.
+Open Banking illustrates a broader question for competition policy: can a feasible access arrangement improve what participants are able to discover, while preserving productive benefits and protecting sensitive information?
 
-Aster has a record. Birch has demonstrations. Changing services could require staff training and data conversion. Keeping Aster might preserve a useful integrated system. It might also prevent the council from discovering whether Birch handles important requests better.
+Established systems can be valuable and expensive to replace. The economic case for a remedy depends on the information it supplies, the decisions that information can change, and the costs of making the route usable.
 
-Would a feasible change in access or testing improve that purchase enough to justify its cost? The comparison budget helps identify a possible shortage of relevant opportunities. It does not tell us what those opportunities are worth.[^c10-2]
+The comparison budget identifies a feature of an allocation process. Assessing a remedy requires a further account of the value of its evidence and its consequences for production.
 
 ## What would the evidence change?
 
-The council could renew, switch, divide the work, or redesign the service. Evidence has value when it helps choose among these actions more successfully. Suppose Birch classifies ordinary requests slightly better, but migration is expensive. A precise accuracy ranking might leave the best decision unchanged. A modest amount of evidence about missed urgent requests could matter much more.
+Evidence has economic value through the choices it improves. A precise ranking of alternatives can leave the best available action unchanged; a modest observation about a costly failure can matter greatly. Decision relevance precedes a demand for more data.
 
 David Blackwell supplied a foundational way to compare experiments. Under the classical conditions, if one experiment's observations can be produced from another's by adding a suitable kind of noise, the richer experiment can do at least as well across decision problems. Someone with the richer evidence can imitate the poorer procedure.[^c10-3]
 
 Imagine a documented record of every eligible trial request: suggestion, checked outcome, and time required. A second report contains only a summary computed from those records. Someone with the interpretable full record can produce the summary; someone with the summary cannot generally recover discarded detail.
 
-The classical argument does not establish that collecting this record is free, that publishing personal details is acceptable, or that every remedy improves welfare. Nor must experiments fit a universal ranking. A trial revealing performance on urgent repairs and another revealing integration costs answer different questions. Their relative usefulness depends on the purchase.
+Collection costs, privacy, and implementation enter after the gross comparison of experiments. Different experiments can also answer different questions, such as operating accuracy and integration costs, without fitting one universal ranking.
 
-The council's first document should therefore describe its decision: eligible suppliers, work, period, and available actions. It should say how missed urgent requests, unnecessary escalations, delays, and costs count. Escalating every repair could produce an impressive safety statistic while wasting resources. Recording only missed emergencies would reward that behavior.
+Evaluation should specify feasible actions, the period under study, relevant outcomes, and how errors and costs enter the decision. A measure that rewards one dimension while ignoring another can encourage behavior that improves the score without improving the service.
 
-Residents' circumstances matter too. A delay one person can accommodate could substantially burden another. An average can conceal this choice of priorities. Aster might serve common requests better while Birch helps a smaller, consequential group. Buying both could be feasible. The experiment should permit an answer the purchaser can actually use.
+Average outcomes can conceal different burdens across users. The appraisal must make consequential differences visible and compare actions an institution can actually take.
 
-The baseline must be feasible as well. If the council would renew Aster with existing human checks, compare the proposal with that arrangement. An imaginary alternative without checks would exaggerate its benefit; a perfectly informed buyer would set an unattainable benchmark.
+The baseline must also be feasible. Removing safeguards from the assumed status quo exaggerates a remedy's value; comparison with a perfectly informed decision maker sets an unattainable benchmark.
 
 An experiment can earn its keep while leaving the exact contributions of programmers, models, training sources, and earlier customers unresolved. Choosing a contract is less demanding than explaining every supplier's economic merit. Taking the inference limit seriously should direct institutions toward useful, attainable learning. It need not keep them experimenting until every question about contribution disappears.
 
 ## Opening the existing record
 
-Before commissioning a trial, the fictional council should inspect existing evidence. Aster might have tested competing systems internally; supervisors or other purchasing units might have relevant checks. A large supplier can conduct excellent experiments. My theorem concerns a specified observed experiment, and all informative measurements belong inside it. Ignoring relevant private tests would manufacture a deficit.
+An audit of existing evidence can precede another experiment. Private tests, independent evaluations, and operational records may already resolve the question. All informative measurements belong in the analysis; disregarding internal experimentation would manufacture a deficit.
 
-The buyer still needs their protocol. Were both services eligible for comparable requests? Were hard cases withheld? Were these the versions now offered? Did supervisors know whose recommendations they checked? A detailed record can answer the wrong question.
+Protocols matter alongside results: eligibility, task selection, withheld cases, version changes, and whether evaluators knew whose output they were checking. Detailed records can still answer the wrong question.
 
 Google's December 2025 search judgment makes this practical concern visible. Its specified data-sharing provisions required enough information for qualified competitors to understand the datasets, including descriptions of contents, sampling, and privacy-related transformations. It did not simply order delivery of an unexplained pile of records.[^c10-4]
 
 This dated provision does not establish that implementation has succeeded. It highlights why interpretation can be part of access. A million query records and an explanation of how they were selected are different assets whose usefulness can depend on receiving both.
 
-Suppose Aster's archive contains only suggestions staff accepted. A high success rate would describe those accepted suggestions, not automatically performance on rejected ones or requests never encountered. The audit should identify what is missing. It could also find convincing evidence that Aster is more reliable and cheaper on the actual work. An informational argument must be capable of recommending no additional pilot.
+A record limited to accepted outputs describes that selection, rather than performance on rejected outputs or tasks never encountered. An audit can identify the gap or establish that existing evidence is adequate. The analysis must be capable of supporting no further intervention.
 
-Zahra Meghani's prior work on epistemic monopoly warns about dependence on a developer for evaluation evidence and the power to set research conditions. I borrow that concern while asking who controls comparisons relevant to a specified economic decision.[^c10-5] Dishonesty is unnecessary: Aster can accurately report its chosen investigations while leaving the buyer's decisive question unanswered.
+Zahra Meghani's work on epistemic monopoly examines dependence on developers for evaluation evidence and control of research conditions.[^c10-5] Accurate reporting can coexist with unanswered questions when the producer chooses which investigations occur.
 
-Scrutiny requires expertise, secure handling, and time. A remedy should request the fields and checks needed for the decision. An authorized evaluator could inspect private requests and report methods, uncertainty, and conclusions. Public accountability need not expose residents' addresses. Credibility depends on what can be checked and challenged.
+Scrutiny requires expertise, secure handling, and time. An authorized evaluator can inspect protected records and report methods, uncertainty, and conclusions. Accountability concerns what can be checked and challenged without necessarily disclosing personal data.
 
 Disclosure can also change competition. The 2023 Merger Guidelines discuss how easier observation of rivals' terms can increase susceptibility to coordination. Giving every competitor every business record need not improve the strategic environment. An independent evaluator and a rival sales department have different uses for confidential information.
 
-Open Banking's completion decision distinguished service-quality indicators and underlying data from current-account transaction records supporting authorized account access and payments. It specified particular services, rather than ordering publication of every internal file.[^c10-6] Our council needs that specificity: residents can receive reasons for the purchase, evaluators can inspect relevant requests, and suppliers can challenge claims. Confidentiality should protect people while permitting scrutiny of the assignment and checking procedures.
+Open Banking's completion decision distinguished service-quality indicators and underlying data from current-account transaction records supporting authorized access and payments. It specified services and continuing obligations rather than publication of every internal file.[^c10-6] That specificity matters to remedies intended to create usable comparison.
 
 ## A file that can travel
 
-Suppose residents' earlier requests, staff corrections, and categories sit in a format Birch cannot use. Switching would require rebuilding that history. Portability might lower the barrier. Open Banking's common standards, conformance checks, and continuing performance obligations provide a real reference: compatibility was a maintained service.[^c10-6]
+Portability can lower switching costs when useful records would otherwise have to be rebuilt. Open Banking's standards, conformance checks, and performance obligations provide a documented reference: compatibility was treated as a service requiring maintenance.[^c10-6]
 
 Ipsos's February 2026 publication supplies another kind of banking evidence. Its independent service-quality survey, conducted during 2025 under a regulatory requirement, asked customers about recommending providers and particular services, including online banking and branches.[^c10-13] These experiences matter, but customers were not randomly assigned to banks. Their needs can differ.
 
-A resident's response after a repair would likewise describe an experience without isolating the respective contributions of software, maintenance crew, and easy assignment. Different observations can improve a decision without becoming interchangeable kinds of evidence.
+Customer experience can inform a decision without isolating the causal effect of each input into that experience. Survey evidence and randomized assignment answer different questions; neither should acquire the other's interpretation.
 
-A portable history could help Birch distinguish a new leak from a follow-up and save staff from re-entering information. These are direct operating benefits. But copying that history to three suppliers does not produce three independent observations of what would have happened had each served the council from the beginning.
+Copying a record to more organizations does not create independent histories of the process that produced it. Operational gains from portability and new evidence from experimentation should be assessed separately.
 
 Interpretation matters too. Imagine a field marked positive means successfully resolved in one record version, but problem requiring action in another. Exported files omit the version. A reader could reverse the results while processing every row correctly. Under one interpretation, following the signal helps; under the other, it hurts.
 
@@ -72,37 +72,37 @@ Definitions alone reveal no outcomes. Outcomes with unknown meanings may be unus
 
 What survives migration should therefore be specified: category definitions, corrections, and the link between a result and its service version. Counting exported fields is an inadequate test of usefulness.
 
-Interoperability asks whether Birch can interact with the systems and users it needs. A narrow interface receiving eligible requests and returning recommendations might suffice. Access to every internal component might be unnecessary. Birch must maintain its connection and protect records; Aster can incur costs when interfaces change. Disputes and responsibility for those burdens need procedures too.
+Interoperability concerns whether services can connect to the systems and users needed for a relevant test. A bounded interface may suffice. Security, maintenance, capacity, and changes to integration costs determine what scope is feasible and who should bear the burden.
 
 Compatibility can bring security, capacity, and maintenance costs and alter investment incentives. The appraisal must retain these consequences and the benefits of integration. An entrant's need does not establish that someone else should bear every cost it requests.
 
 ## Making the missing comparison
 
-An audit cannot recover an unobserved outcome. Portability need not show how Birch performs on fresh work. If the missing contrast matters enough, the fictional council needs a pilot. Qualified services would receive comparable requests under a documented rule, with human checks and records of errors, time, versions, and missing results.
+An audit cannot recover an outcome never observed. If that outcome matters sufficiently, a designed experiment is needed, with comparable tasks, documented assignments, checked results, and records of missing observations.
 
-Requests can interact. Unnecessary escalations from one service could fill the shared maintenance queue and delay the other's repairs. The buyer might compare periods or teams, or account for the queue explicitly. Each solution changes the test and its cost. Balanced assignment alone cannot make an operating comparison interpretable.
+Assignments can interact through shared resources and participants' responses. A design may need to compare periods or groups, or model those interactions explicitly. Balanced assignment alone does not establish an interpretable operational comparison.
 
 On June 3, 2019, a field experiment began calling rice farmers in India. Precision Agriculture for Development wanted to choose how to recruit farmers to its telephone service. Maximilian Kasy and Anja Sautmann helped compare six combinations: morning or evening automated calls, with no text alert, an alert an hour ahead, or one a day ahead. From a government partner's list, the service set aside ten thousand valid numbers outside the do-not-disturb register. Seventeen waves of calls followed, with assignment changing as results arrived.[^c10-7]
 
 The morning call preceded by an hour's warning received nearly four thousand assignments. The evening call without a warning received fewer than four hundred. Every option was tried, but the assignments were unequal. At the end, the authors put the probability that the morning call with that warning was best at just over three quarters, under their statistical model. Uncertainty remained.[^c10-7]
 
-Success meant answering five recruitment questions, not a better harvest or higher income. The calls could guide the next campaign without establishing the agricultural service's total value. The council similarly needs evidence fitted to its available decision.
+Success meant answering five recruitment questions, rather than improved harvests or income. The evidence could guide the next recruitment campaign without establishing the agricultural service's total value. The outcome must fit the decision.
 
 It could adapt assignments as results arrive, giving a promising service more requests while preserving informative alternatives. Serving today's requests and learning what to buy next year need not recommend identical allocations.
 
-The comparison budget accumulates modeled allocation chance outside the current favorite. It prescribes neither equal shares nor a universal quota. A small persistent chance can accumulate indefinitely; a large chance can be wasted on indistinguishable tasks. Sending Birch easy broken-handle cases will not resolve an uncertain difference on ambiguous water damage.
+The comparison budget prescribes neither equal shares nor a universal quota. A small persistent chance can accumulate indefinitely; large nominal opportunities can be wasted on tasks that fail to expose the relevant difference.
 
-The buyer needs a declared rule for using results, such as adopting Birch for specified work if improvement justifies migration. Otherwise, a disappointment can be relabeled as success by changing the criterion afterward.
+A declared decision rule helps prevent changing the criterion after results arrive. The test must be capable of changing an action on grounds specified before its outcome is known.
 
-An impressive pilot can travel badly. It might contain unusually clear requests or receive unusually experienced staff. Versions can change before renewal. The buyer needs to consider several plausible explanations of the pilot’s success and ask whether a feasible purchasing procedure would still work when conditions change. The council could broaden the test, improve calibration, narrow the contract, or decline to switch.
+Transportability also matters. A result obtained under unusually clear tasks, expert staff, or an obsolete version may not travel to ordinary operation. Broader testing, calibration, a narrower application, or rejection of the proposed change can each be appropriate.
 
 Such assurance concerns expected performance across the retained accounts. It cannot promise every resident a better outcome or every realized contract a gain. Investigators should examine credible evidence and justified assumptions as well as what subsequently happened. Fortune alone cannot validate a defective method, and misfortune need not condemn a reasonable choice.
 
-An analyst secretly told the true explanation could choose differently in each imagined world. A council receives no such document. A useful proposal must specify a procedure it can follow with the evidence actually available.
+A feasible policy must use a procedure available with the information actually observed. Imagining a decision maker who is told which explanation is true does not supply such a procedure.
 
 ## When every road leads to the same judge
 
-Our fictional councils could each buy from a different website and still receive one supplier ranking. They could commission separate trials using the same defective checklist. Adding buyers would then multiply encounters with a common judgment. An independent route matters when it changes the relevant selection or measurement process, not merely the name on the invoice.
+Multiple purchasing organizations can inherit one ranking or one defective test. Separate encounters then reproduce a common judgment. Independence matters when it changes the relevant selection or measurement process.
 
 This is the historical possibility running from Smith's towns through Bell's network to platform work. Wider markets can support more specialization, better service, and more customers. They can also extend one institution's reach over the decisions determining who may develop. A market can grow while the number of independent places to try again shrinks. That is a proposition about institutions to investigate, not a measured law of history.
 
@@ -114,7 +114,7 @@ The service might be excellent and cheap. Its owners might have invested wisely 
 
 Saying that markets clear does not answer this. Clearing concerns offers that can be made under existing conditions. It does not guarantee that an undeveloped supplier acquires the inputs, customers, or evidence needed to make a competitive offer. Nor do a million agents necessarily provide a million independent judgments if access to all of them passes through the same gate.
 
-Calling the scenario science fiction is not an institutional safeguard. Neither is describing it enough to justify intervention. The serious question is whether an identifiable arrangement could make independent evaluation prohibitively difficult, and whether reversing it later would require rebuilding vanished skills, infrastructure, or organizations. That inquiry can begin before one supplier controls everything.
+A concentrated future should be evaluated through identifiable mechanisms, reversibility, and feasible safeguards. If independent evaluation could become prohibitively costly, waiting until lost skills and institutions must be rebuilt can itself be consequential. That possibility requires evidence rather than dismissal or assumption.
 
 Hayek's competition as discovery already tells us why unfamiliar possibilities matter. My narrower contribution concerns what a specified allocation history can reveal about productive effects.[^c10-9] The comparison-budget theorem does not prove a centuries-long transition, measure the AI market, or establish that a platform has a finite lifetime comparison budget. It gives us a precise object; the historical and policy extensions need their own evidence.
 
@@ -146,17 +146,17 @@ Government can also become the single judge. A mandatory benchmark, favored cons
 
 ## Who can keep the next entrant possible?
 
-Follow Birch back to the months before its first demonstration. In this thought experiment, agents help the small team write software and investigate failures. But the service still needs computing, permission to use relevant records, a customer willing to try it, and a credible way to check the results. The workers could own every share in the company and still need another organization's permission to take that next step.
+The rise of agent production makes access more consequential. Cheaper software work can still depend on computing, usable records, distribution, and credible evaluation. Ownership of generated output does not automatically provide those complements.
 
-Three documented arrangements put that problem into focus: a European computing application, an American research initiative, and a Chinese industrial policy. Follow what each could enable a qualifying team to build, keep, and test. The records establish particular terms and objectives. Birch supplies the explicitly hypothetical business through which we examine their possible consequences.
+European computing access, an American research initiative, and China's industrial policy provide three documented institutional approaches. Their stated terms identify what qualifying participants may use, retain, and test. Announced objectives and formal entitlements still need to be distinguished from outcomes in practice.
 
 EuroHPC's Playground call, opened in April 2025, offers an entry route for European startups and smaller businesses with limited computing needs. Applications arrive in order, with eligibility and technical checks rather than a competitive ranking. Allocations last one, two, or three months on a single system. The published call also warns that demand can leave particular capacity unavailable. The door has a procedure and a queue.[^c10-europe]
 
 Its Industrial Innovation modes offer eligible AI small businesses free computing for innovation. Crucially, the March 2026 terms say generated data and models remain the user's property and can be commercially exploited. They also require publication of results outside confidential portions and a final report. Public provision and private accumulation coexist in these stated terms.[^c10-europe]
 
-For a qualifying version of Birch, this could mean building an asset before it can afford its own cluster. The public facility supplies a productive input; the firm can retain something it develops. But that is only the first stage. Computing time does not oblige a council to buy, make unsuitable training data useful, or establish that the service handles urgent repairs well. Those remain separate problems.
+These terms allow publicly supported computing and private ownership of resulting assets to coexist. They do not establish that a product reaches customers, uses appropriate data, or succeeds in practice. Those are subsequent stages in development and evaluation.
 
-Suppose Birch reaches the end of its allocation with a prototype. Its next customer asks how it handles an urgent repair described ambiguously. Can the team reproduce its test, explain the mistakes, and run a revised version elsewhere? Those capabilities would make the public input useful beyond the allocation itself. Count the waiting and support costs too, and ask whether Birch would otherwise have bought equivalent computing. A busy facility can subsidize existing plans as well as make new experiments possible.
+An access program's value also depends on whether work can continue after an allocation ends. Reproducible tests, transferable records, waiting time, support costs, and displaced private purchases help determine whether it enables additional useful experimentation.
 
 This arrangement does not require Europe to abandon property. Article 17 of the EU Charter protects possessions and intellectual property while allowing regulation of use under specified conditions. Its text supplies neither an automatic license to compel access nor a comparative enforcement score.[^c10-property] The question is which particular rights and duties sustain investment and entry together. Nor is the EU one government: common institutions and member states must still make different parts of an arrangement work.
 
@@ -164,17 +164,17 @@ America provides a useful challenge to the claim that commitment to private ente
 
 In September 2026, the National Science Foundation announced an operations center for NAIRR, the public-private research initiative. The center would coordinate providers, integrate computing and other resources, operate a portal, and support users. A researcher could potentially reach resources through an organized public route rather than negotiate every component alone. The announcement establishes an institutional undertaking; it does not measure how many otherwise impossible competitors it creates.[^c10-nairr]
 
-An American version of Birch would still need an appropriate commercial route; a research program is not a general business entitlement. The portal also need not remove dependence on its participating providers. Imagine a university collaborator can test a design, but the firm cannot carry the resulting checks into its next customer trial. Research access would have helped, while the business still faced a missing connection. Eligibility, permitted use, and transferable results determine how far the route actually reaches.
+Research access and commercial entry remain different routes. Eligibility, permitted use, and portability of results determine how far a research initiative can support later independent development. A portal can simplify access without removing dependence on its participating providers.
 
 American authorities have also examined the private arrangements. In January 2025, FTC staff reported on partnerships between major cloud suppliers and AI developers. The report identified potential concerns involving input access, contractual and technical switching costs, and privileged information. It explicitly made no determination of illegality. Its historical scope matters: these were findings from a dated inquiry, not an audit of every contract now available.[^c10-ftc]
 
-Such partnerships can finance capabilities that would otherwise remain undeveloped. Breaking a productive relationship can destroy value. But financing can also come with obligations that shape where the recipient can go next. To evaluate Birch's position, inspect the agreement and the feasible substitutes. Saying America lacks any tools is untenable. Whether it uses sufficient tools, with the right incentives and competence, remains a question about institutions in operation.
+Such partnerships can finance valuable capabilities. Their terms can also shape switching and future development. Evaluating those consequences requires the agreement and feasible substitutes. The documented American initiatives show instruments available to the state; their adequacy depends on institutions in operation.
 
-The conditional risk is that a government protects a leading private system so thoroughly that other private businesses must develop on its terms. Removing an unnecessary permit could help both Aster and Birch. Leaving an indispensable interface entirely at Aster's discretion could have a different effect. Counting the regulations removed tells us little about which firm can conduct the next credible test. A government can reduce bureaucracy and still need a carefully specified access duty.
+Deregulation and access protection can affect different constraints. Removing an unnecessary permit can support entry, while leaving an indispensable interface at one provider's discretion can preserve a bottleneck. A count of regulations removed does not measure the ability to conduct an independent test.
 
 China's August 2025 AI Plus policy starts from a more explicit program of coordination. It calls for shared and interconnected computing, agent services, open-source development, and patient capital. It addresses new forms of work and employment risks as well as industrial adoption. These are announced objectives. They do not establish that an unaffiliated firm actually receives resources or that the policy improves long-run adaptation.[^c10-china]
 
-For a Chinese version of our hypothetical team, longer funding could pay for another redesign before the first customer arrives. Shared computing could make that redesign affordable. But imagine that the facility's admission test rewards the established supplier's approach and rejects Birch's different way of classifying requests before a customer can try it. Coordinated resources would then coexist with a common gate. The policy's benefits depend on what teams can actually attempt, including approaches its administrators did not anticipate.
+Patient capital and shared computing could support redesign before commercialization. Their usefulness still depends on admission rules and the ability to try unfamiliar approaches. Coordinated resources can coexist with a common gate that rejects departures from an established method.
 
 There is a further boundary. China's 2023 interim generative-AI measures encourage innovation and shared infrastructure, while imposing political content requirements on covered services offered to the mainland public. Their scope expressly excludes development and applications that do not provide such public services. That distinction prevents us from treating every private research activity as governed by the same provision. It also prevents us from treating support for computing as equivalent to unrestricted public inquiry.[^c10-china-rules]
 
@@ -182,9 +182,9 @@ An economy could make it easier to try competing industrial designs while restri
 
 An excluded applicant's rights and the ability to report failure therefore belong in the comparison alongside computing and finance. Europe and China cannot be grouped into one alternative to America simply because both may intervene. Nor does a larger public budget settle the question. Follow the attempted product, its tests, and the grounds on which somebody can refuse the next step.
 
-Here is the possibility worth taking seriously: limiting a gatekeeper's exclusion rights could preserve more room for private enterprise than leaving that bottleneck untouched. Imagine Birch receives a narrow, secure connection and wins customers through a better service. It remains private; Aster remains private. The state has changed the terms under which they can compete. That is a specific institutional choice to appraise, not a promise that intervention always enlarges opportunity.
+Limiting exclusion at a bottleneck can sometimes enlarge the practical scope for private enterprise. A bounded, secure interface can leave firms privately owned while changing the terms on which they compete. Whether it does so is a question about the particular design and its costs.
 
-The counterexample should be equally concrete. Suppose obtaining the connection requires an expensive certification only Aster can afford. Or suppose publication depends on an official evaluator who suppresses inconvenient failures. Birch then faces a new gate. A rule written to preserve discovery can make the market harder to enter. Reliable limits on public power matter to private accumulation too: investors need grounds to expect that a successful experiment will leave them something worth owning.
+Public intervention can create a gate of its own. Certification costs may exclude smaller firms, or an evaluator may suppress inconvenient failures. Contestability requires limits on official control as well as private control, and reliable expectations about the assets successful experiments create.
 
 To choose between arrangements, return to the same sequence. Can a qualified outsider obtain resources? Can it reach customers and receive informative work? Can someone check the outcomes independently? Can useful records travel? Can an exclusion or a failed official test be challenged? The answers must survive ordinary use. A published entitlement that nobody can exercise is the institutional equivalent of the exported file nobody can read.
 
@@ -192,21 +192,21 @@ The society with the first leading model need not be the society best able to re
 
 ## The price of finding out
 
-The fictional council's menu now includes an audit, portable records, a narrow interface, a pilot, independent purchasing routes, and no additional experiment. There is no permanent ranking. An audit wins when useful evidence already exists. An archive loses when the decisive outcome was never observed. Replication can be worth its cost when shared mistakes dominate the decision.
+Audits, portable records, interfaces, experiments, and independent evaluation address different gaps. There is no permanent ranking among them. The appropriate remedy depends on what evidence already exists, what is missing, and which feasible route can supply it.
 
-The appraisal can be ordinary. What consequential mistake could the procedure prevent, over what period? How likely is it to help? What will testing, migration, supervision, privacy protection, and lost production cost? Is there a cheaper substitute? The council would need evidence for each estimate before choosing a remedy.[^c10-12]
+Appraisal connects the possible mistake prevented to its probability and consequences over a stated period, then counts testing, migration, supervision, privacy protection, and lost production. A cheaper adequate substitute belongs in the comparison.[^c10-12]
 
 Judgments about rare serious errors, residents' different burdens, and future benefits must be visible. More data cannot decide an undeclared value judgment. Costs also need honest bookkeeping. Lost operating output should not be counted twice under different headings. A payment between participants is not automatically a social resource loss; a burden outside the purchasing department is not automatically irrelevant.
 
-Suppose supervisors check Birch's recommendations. Their work can improve today's repairs and future evidence. Count both benefits without duplicating the same improvement. Stop when remaining differences would no longer change the contract, attainable information costs too much, or the trial cannot answer the intended question. Continuing indefinitely would consume resources needed for repairs.
+Testing can improve current service and future evidence at once. Its benefits should be counted without duplication, and its continuation should depend on whether remaining uncertainty can still change a consequential choice at an acceptable cost.
 
-The theorem's failure of universal contribution recovery can coexist with adequate choice among a finite menu over a stated horizon. The council need not resolve every attribution to make a worthwhile purchase.
+Adequate choice among feasible actions can coexist with a limit on universally reliable contribution recovery. Institutions do not need an exact division of all economic merit before acting.
 
-The public-interest case needs another step. If the council captures all benefits and can contract for evidence, it might solve the problem itself. A trial benefiting other buyers or workers could leave private incentives short of social value. Investigate that gap. Concentration alone cannot establish it.
+Arrow's analysis of information use and appropriation supplies a further question: do those deciding whether to investigate capture its wider benefits?[^c10-2] Evidence benefiting other participants can create a gap between private and social incentives. Concentration alone cannot establish that gap.
 
-Birch might want an expensive trial that chiefly subsidizes sales; Aster might prefer an audit too narrow to challenge its position. Require both to explain how their proposal improves the purchase and at whose expense. Residents need repairs handled well. Impressive competition statistics cannot compensate for a remedy that degrades their service.
+Both incumbents and entrants have interests in the design of a remedy. A trial can subsidize sales, and an audit can be too narrow to challenge an established position. The appraisal must explain the improvement sought, who benefits, and who bears the cost.
 
-Open Banking's continuing obligations supply the final image: a route other services could use, maintained after implementation. For the council, the achievement is an actual opportunity to compare qualified alternatives and make a better purchase. A formal opening begins that work.
+Open Banking's continuing obligations provide the concluding reference: a route maintained after the formal opening. Competition policy concerned with discovery must assess whether usable records and workable access allow meaningful comparisons over time.
 
 The next chapter asks whether taxation could address conduct that removes useful comparison and leaves costs outside the actor's account. Before discussing a rate, we need to identify the behavior, the affected decision, and evidence for the claimed social cost.
 
@@ -214,13 +214,13 @@ The next chapter asks whether taxation could address conduct that removes useful
 
 [^c10-1]: CMA, [“Roadmap Completion Decision”](https://assets.publishing.service.gov.uk/media/63bed8958fa8f513b40f866c/BANKING_PROVIDERS_Roadmap_Completion_Decision_.pdf), January 2023, paragraphs 1.1–1.4, 2.1–2.6, 4.4–4.9. Six providers' completion, continuing funding and monitoring; dated obligations, not a welfare estimate or current implementation audit.
 
-[^c10-2]: David Blackwell, “Equivalent Comparisons of Experiments,” *Annals of Mathematical Statistics* 24 (1953): 265–272, pp. 265–267, [doi:10.1214/aoms/1177729032](https://doi.org/10.1214/aoms/1177729032); Kenneth J. Arrow, “Economic Welfare and the Allocation of Resources for Invention” (1962), pp. 614–617, [NBER chapter](https://www.nber.org/system/files/chapters/c2144/c2144.pdf). Blackwell compares experiments through their usefulness for decisions; Arrow examines information’s use and appropriation. The council’s proposed access appraisal adds costs and institutional choices to these foundations. Council, Aster, and Birch are fictional.
+[^c10-2]: Kenneth J. Arrow, “Economic Welfare and the Allocation of Resources for Invention,” in *The Rate and Direction of Inventive Activity* (1962), 614–617. [Chapter](https://www.nber.org/system/files/chapters/c2144/c2144.pdf).
 
 [^c10-3]: Blackwell, [“Equivalent Comparisons of Experiments”](https://doi.org/10.1214/aoms/1177729032), 1953, original pp. 265–267, decision losses and Theorems 3, 5–6; Section 4, pp. 268–269, extends beyond finite outcomes. Earlier Sherman–Stein result credited. De Oliveira, [November 2017 author paper](https://henriquedeoliveira.com/wp-content/uploads/2020/12/blackwells-informativeness-theorem-using-diagrams.pdf), pp. 1–5, published 2018. Fixed decision setting, known interpretation and state-independent garbling matter; gross value excludes collection costs.
 
 [^c10-4]: *United States v. Google*, [Final Judgment](https://www.justice.gov/atr/media/1421546/dl?inline=), December 5, 2025, ECF 1462, Section IV.B–C, pp. 6–7. Qualified competitors, specified user-side data, documentation, safeguards and exclusions including algorithms, ranking signals and post-trained LLMs. Dated ordered terms; no delivery, success or appellate-disposition finding here.
 
-[^c10-5]: Meghani, [“Regulations Matter”](https://link.springer.com/article/10.1007/s13347-021-00467-2), 2021, introduction and Section 6. Prior epistemic-monopoly terminology and knowledge-governance argument credited. Council audit and public-evaluator applications are author reasoning.
+[^c10-5]: Zahra Meghani, “Regulations Matter: Epistemic Monopoly, Domination, Patents, and the Public Interest,” *Philosophy & Technology* 34 (2021): 1449–1474, introduction and section 6. [Article](https://link.springer.com/article/10.1007/s13347-021-00467-2).
 
 [^c10-6]: CMA, *Roadmap Completion Decision*, paragraphs 2.1–2.6 and 4.3–4.5. Read-only service-quality data and Read/Write current-account records are distinguished. The ambiguous-label example is hypothetical: its difficulty comes from an unknown interpretation, so records and verified definitions must be considered together.
 
@@ -234,7 +234,7 @@ The next chapter asks whether taxation could address conduct that removes useful
 
 [^c10-11]: The proposed evaluation power would require legislation specifying its scope, evidentiary threshold, rights of challenge, and review. Procurement, antitrust, and digital regulation have distinct legal requirements; an information concern alone supplies no existing legal authority.
 
-[^c10-12]: The appraisal is a proposed decision procedure, not an empirical welfare estimate. It requires a consequential choice, usable evidence, plausible operating conditions, and the full costs of implementation and stopping. Blackwell (1953), pp. 265–267, supplies the underlying decision-based comparison of experiments, rather than a legal test or a valuation of this fictional purchase.
+[^c10-12]: David Blackwell, “Equivalent Comparisons of Experiments,” *Annals of Mathematical Statistics* 24 (1953): 265–272, especially 265–267. [doi:10.1214/aoms/1177729032](https://doi.org/10.1214/aoms/1177729032).
 
 [^c10-13]: Ipsos, [“Personal Banking Service Quality – Great Britain”](https://www.ipsos.com/en-uk/personal-banking-service-quality-great-britain-february-2026), February 16, 2026, methodology. Fieldwork January–December 2025; recommendation questions, not randomized assignment or a current provider recommendation.
 

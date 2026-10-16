@@ -1,6 +1,6 @@
 # Shadow Futures Book Outline
 
-Martin Erlic   16 October 2026
+Martin Erlic   17 October 2026
 
 An 80000 word popular economics book about what reinforced markets can reveal about contribution and how institutions can preserve useful comparison. The argument moves from one song's contrasting outcomes to the choices governing AI, work, competition, and taxation. The book uses published research and public records. Its first draft requires no interviews.
 
@@ -8,7 +8,7 @@ An 80000 word popular economics book about what reinforced markets can reveal ab
 
 The recurring documented object is Lockdown by 52Metro. Its first-place and fortieth-place outcomes in MusicLab frame the prologue and return in Chapters 1, 3, 6, and 12. Salganik's own account supplies the specific rankings. The story follows what the observer can infer in each setting; the book invents no experiences or reactions for the musicians.
 
-Aster and Birch are recurring fictional software suppliers. Their first contract introduces feedback; procurement reveals the comparison budget; AI deployment raises the stakes; the last chapters compare institutional remedies. Every appearance is labeled as a thought experiment. Changing the early awards while holding economic rules fixed is a replay. Changing an input or policy is a separate intervention.
+The recurring documented object is Lockdown. Use published cases and direct analysis throughout, with brief anonymous probability examples for the definitions. There is no fictional council, named invented supplier, or recurring procurement narrative. Replays preserve economic rules; interventions change an input or institution.
 
 The real-case sequence is fixed: MusicLab, the success-breeds-success field experiments, Bell's 1956 licensing decree, Google search distribution and remedies, AI infrastructure, customer-support deployment, METR's developer studies, and Rothamsted. Each case supplies evidence for a stated mechanism or institutional choice. None is presented as an empirical proof of an infinite-horizon theorem.
 
@@ -28,13 +28,13 @@ Open with the two rankings of Lockdown, already established in the prologue. Exa
 
 Move to van de Rijt and colleagues' Kickstarter experiment: researchers selected 200 new unfunded projects and donated to 100 chosen at random. Follow its comparison of subsequent support. Retain the paper's finding of diminishing returns to larger initial advantages, which limits a simple runaway-success story. Introduce Merton's Matthew effect and Akerlof's hidden-quality problem as distinct predecessors. Ask what would distinguish productive inputs from the effect of having already succeeded.
 
-Aster and Birch first appear in a short, labeled thought experiment. Both perform real work. One early contract changes references and future access. No invented dialogue or personal history is attached to them. The chapter closes before assigning either supplier an exact share of merit.
+Explain the interaction of opportunity and productive development directly, connecting the documented grant, Kickstarter, Wikipedia, and Bell cases. Separate observed achievements from causal attribution without an invented supplier story.
 
 V5 citations: Salganik, Dodds, and Watts (2006); van de Rijt et al. (2014); Merton (1968); Akerlof (1970). Added source: Salganik's first-person MusicLab account.
 
 ## 2 The comparison budget
 
-Stay with the fictional procurement desk choosing Aster or Birch. Follow a small sequence of awards and state the model-assumed chance of an award outside the current favorite in ordinary words. Add those chances conceptually, with no formula. Distinguish the modeled chances from market shares, realized wins, and a count of independent trials.
+Explain a short anonymous sequence of allocation probabilities in ordinary words, then use Netflix, Yahoo, and adaptive recruitment to examine actual observation designs. Separate modeled chance, realized wins, independent trials, and informative input contrasts.
 
 Explain why mostly repeating the favored choice may supply little information about input effects, even while the service improves and transactions multiply. Define the particular information question before describing its scarcity. A high comparison budget is an opportunity for information, not a guarantee of identification.
 
@@ -62,7 +62,7 @@ Follow the route from the 1947 transistor to the 1952 licensing symposium and th
 
 Connect this documented access change to Arthur's account of increasing returns and historical selection. Put the argument in dialogue with Alchian's 1950 account of profit-based selection under uncertainty: selection and recovery of productive contribution are different questions. Credit David's QWERTY paper in a short note acknowledging that the keyboard's empirical interpretation is disputed. Merton supplies another established account of cumulative advantage.
 
-The interpretive question is whether institutions permit alternatives to develop usable records. Bell's innovation findings do not estimate its comparison budget or establish a finite lifetime budget. Bring back Birch as a supplier gaining a route to demonstrate its capabilities. Close by distinguishing access to existing knowledge from opportunities to produce new comparative evidence.
+Examine whether institutions permit usable records to develop. Bell supplies evidence about access to inventions and customers, rather than an estimate of its comparison budget. Close by distinguishing existing knowledge from opportunities to produce new evidence.
 
 V5 citations: Arthur (1989); David (1985); Merton (1968); van de Rijt et al. (2014); Hayek (2002). Added sources: Smith (1776), Book I, Chapters I, III and X; United States Steel (1920), pp. 438–439; Anderson (1972); Alchian (1950); Watzinger, Fackler, Nagler, and Schnitzer (2020).
 
@@ -84,7 +84,7 @@ Return to the composer of Lockdown only through the documented recording and exp
 
 Separate causal contribution, contractual entitlement, incentive design, and moral desert. Use Nakamura's mismatched commercial reactor and two-flow change for a measurable achievement, then the distinct Nichia settlement for payment. Follow DARPA's 2004 failure, next-day announcement of another challenge, 2005 finishers and 2007 staged-city test. These make prospective incentives and changing evaluations concrete; no causal prize-size effect is inferred. Use entrepreneurship as experimentation to explain why large prospective prizes can be useful. Explain how established tax models address effort, bargaining, and rent-seeking without requiring an exact causal audit of every person's income.
 
-Apply the distinction to Aster's fictional owners and Birch's workers. Both can have acted productively even when their rewards diverge. The book argues for care in retrospective attribution and then states its normative choices openly. It does not infer an optimal tax rate, equal merit, or an exact luck percentage. Close by moving from the moral defense of winners to the physical investment needed for AI.
+Apply the distinction between causal effects, contracts, incentives, and moral desert directly to the published cases. State normative commitments openly, then move from reward attribution to the infrastructure enabling AI.
 
 V5 citations: Kerr, Nanda, and Rhodes-Kropf (2014); Piketty, Saez, and Stantcheva (2014); Rothschild and Scheuer (2016); Merton (1968); Salganik, Dodds, and Watts (2006).
 
@@ -94,7 +94,7 @@ Build the opening from the IEA's documented data-center infrastructure account, 
 
 Explain frontier training, post-training, and inference as different economic activities. Frontier describes the leading capability at a given date, not an enduring group of firms. Scale can generate useful capability and lower costs while raising the expense of independent entry. Llama's single-GPU restart/slow-straggler problems and automated recovery make coordination concrete. Chinchilla's adjustment method, tokenization and data-mix changes remain part of the same-compute package. The IEA's dated AEP Ohio tariff survey supplies an actual cost-allocation arrangement, without claiming welfare optimality or a direct current-tariff legal audit. Keep that tension rather than asserting that a large training run proves monopoly or information destruction.
 
-Aster and Birch now purchase AI capacity under explicitly specified hypothetical arrangements. Compare access to a common infrastructure service with an exclusive route to users. Arrow supplies the established appropriation problem, and entrepreneurship research supplies the incentive argument. Close by following a trained system from the factory into repeated use.
+Analyze entry at the infrastructure, model-development, and application layers directly. Use the IEA, training research, Arrow on appropriation, and existing documented investment arrangements; follow a trained system into repeated use.
 
 V5 citation: Kerr, Nanda, and Rhodes-Kropf (2014). Added sources: Arrow (1962); Stanford AI Index (2026); IEA Key Questions on Energy and AI (2026).
 
@@ -106,7 +106,7 @@ Use the length-controlled AlpacaEval study's GPT-4 verbosity score range (rounde
 
 Return to the prediction and explanation distinction, crediting Blackwell and Dubins and Zhang. Give AI's positive case equal analytical weight: it may make independent tests cheaper. Simulated worlds can test implications of assumptions; their realism requires external validation. Close with the people whose work supplies training examples and whose jobs change when deployment expands.
 
-The agent-team section is now integrated, anchored in Carlini's February 2026 compiler account. Sixteen related agents initially encountered the same failure; a human-designed GCC comparison made failures more separable. The vendor account's scope and limitations are retained. Contrast with the June 2025 research system, which has a different architecture. Smallville is shorter while retaining its simulation-validation job. A swarm can generate useful tests inside one firm; agent count and common model ancestry alone establish neither independence nor its absence. Fictional Birch's portable versus supplier-dependent agent arrangements carry ownership into Chapter 9. Rebalanced main text: 5,849 words.
+Use Carlini’s February2026 compiler account and Anthropic’s distinct June2025 research architecture to discuss agents, tests, productive assets and ownership. Retained code and records can support future evaluation. Agent counts and legal ownership do not establish independent discovery.
 
 V5 citations: Bar-Yam (2016); Blackwell and Dubins (1962); Zhang (2004). V5 Section 3. Added context: Stanford AI Index (2026).
 
@@ -116,9 +116,9 @@ Commit to the published customer-support deployment studied by Brynjolfsson, Li,
 
 Use Bastani and colleagues' classroom message analysis to show a proposed mechanism behind assisted output versus acquired skill; do not claim each safeguard's effect is isolated. The Bessen/Autor ATM account supplies scoped urban branch figures, with deregulation and access limits explicit. Then turn to METR's early-2025 developer experiment and its February 2026 account of changing selection into the follow-up study. Developers sometimes avoided participation or tasks that might require working without AI; lower pay and time measurement also affected interpretation. The lesson is that adoption can change which comparisons are available. It is not a demonstration that v5's finite-budget conditions hold.
 
-Use ILO (2021) platform-work evidence, including observed alternative-platform use after deactivation, and the hypothetical moving driver to ask whether another town still offers another judge. Add the 2024 EU directive's ratings portability and December 2026 transposition deadline; distinguish enacted provisions from implementation. Pair proposed portability with correction, contextual interpretation, appeal, and independent assessment. Then use Birch's hypothetical junior staff to investigate a future question: can automating initial tasks remove routes for developing and demonstrating expertise? The customer-support evidence also supports the possibility of faster learning. Close with a concrete institutional choice between monitored augmentation, immediate replacement, and preserving a limited comparison group, with their costs stated.
+Use ILO (2021) evidence on ratings and observed alternative-platform use, plus the2024 EU directive’s portability provisions and transposition deadline. Analyze training, feedback, responsibility, and independent assessment using the workplace and classroom studies. Keep prospective institutional hypotheses distinct from measured employment outcomes.
 
-The new ownership section follows Birch's agent workforce and assets. It separates renting inference from owning equipment, code, retained records, customer relationships, and claims on profits. Profits become capital accumulation through saving and investment. Compare cheaper entry with reinvestment that closes access, retaining productive gains, competition, depreciation and physical bottlenecks. Korinek and Suh's original March 2024 automation/capital scenarios are credited without a wage-collapse forecast. Worker ownership, cooperative access, and public infrastructure are explicitly conditional arrangements. A departing junior's new business separates distribution of income from entrepreneurial opportunity. Rebalanced main text: 6,022 words; the two chapters' combined total is unchanged.
+Discuss inference expenses, durable assets, ownership claims, and reinvestment directly. Credit Korinek and Suh’s automation/capital scenarios with their conditional wage implications. Distinguish distribution of returns from independent entry and control of evaluation.
 
 Added sources: Brynjolfsson, Li, and Raymond (2025, published version); METR early-2025 trial; METR update of February 24, 2026. V5 supplies the question, not an empirical finding about labor markets.
 
@@ -126,7 +126,7 @@ Added sources: Brynjolfsson, Li, and Raymond (2025, published version); METR ear
 
 Open with the January 2023 Open Banking completion decision: banks still had to fund common standards, keep specified records available, and support continuing monitoring. Follow the different access duties rather than treating openness as a slogan. Revisit the Google search judgment's dataset documentation and Bell's licensing experience. State that competition policy already considers quality, innovation, entry, and labor conditions. The additional proposed rationale concerns the production of evidence useful for a specified decision. Economic desirability and legal authority remain separate questions.
 
-Commit to a fictional council choosing between Aster and Birch for maintenance-request classification. Specify eligible suppliers, comparable tasks, outcome definitions, retention of trial records, and a purchasing decision. Compare an audit, portability, a limited pilot, and independent procurement routes. Blackwell helps explain decision value. For adaptive allocation, follow Kasy and Sautmann's actual June 2019 farmer-recruitment experiment: six call/alert combinations, ten thousand numbers, seventeen waves, unequal assignments, and uncertainty remaining after the trial. Call completion is its outcome; no farm-productivity claim or comparison-budget estimate follows.
+Open with documented Open Banking obligations. Compare decision value, audits, portability, interoperability and experimental design directly. Kasy and Sautmann’s actual adaptive recruitment experiment supplies a concrete assignment case; no invented purchasing decision or invented outcome appears.
 
 Judge remedies by attainable decision improvement, implementation costs, scale benefits, and uncertainty about how to interpret the evidence. Several trials sharing one uncalibrated measure can fail together. Credit Meghani and Hayek for antecedents. Use the explicit hypothetical of OpenAI as sole foundational supplier plus gatekeeper of essential development, distribution, and evaluation. State why sole supply alone is insufficient for total epistemic monopoly, and why market clearing and many agents do not guarantee an independently developed rival. Commit to a rebuttable access presumption where credible irreversible foreclosure threatens useful testing, with independent review, proportionate costs, privacy/security safeguards, and research incentives. Arrow and Fisher (1974) supply the option-preservation antecedent; DMA Articles 7 and 6(11) provide scoped legal precedents. This is a normative proposal requiring empirical support and lawful authority.
 
@@ -136,11 +136,11 @@ V5 citations: Meghani (2021); Hayek (2002); Kasy and Sautmann (2021). Added foun
 
 ## 11 Taxing lost comparison
 
-Begin with the fictional buyer's expense of replacing a lost independent supplier trial. Connect local versus network-wide foreclosure to feasible replacement: another town may supply a substitute, while a shared gate may require rebuilding an institution. Treat the contrast conditionally, without assigning a real tax or measured harm. Introduce no real-company tax estimate. State the separate v5 argument: when hidden position can offset a changed input effect, identical observable laws can assign different contributions to a reward. A rule using that record cannot implement an exact earned-versus-positional decomposition in every such economy.
+Begin with Sweden’s documented nitrogen-oxide charge and its distinction between emissions and useful production. Explain the separate fixed-input observational-equivalence argument without a fictional buyer. Then assess lost comparative evidence as a possible cost of conduct, with causal, welfare, replacement and implementation premises stated in the body.
 
 Connect this limit to established public-finance work without claiming it refutes optimal taxation. State the chosen distributional principles separately. Then develop the additional corrective-tax argument from a defined action to lost evidence, a worse consequential decision, and an external cost that private incentives fail to internalize.
 
-Compare an access remedy, a testing payment, and funded evaluation. Retain the companion draft's insights that public trials can crowd out private testing and that feasible replacement can limit the cost of lost comparison. Compute or profit alone is an unreliable proxy for this harm. Close by explaining which measurements would be necessary before choosing a real instrument or rate.
+Compare access, verified testing payments and shared evaluation using Arrow, Colombo/Femminis/Pavan, Blackwell, the Redwood microgrid report and banking finance. Distinguish published model results from the book’s proposed corrective argument. Computing and profit are not automatic harm meters; no real-company rate is inferred.
 
 Use about 150 replacement words to return to the agent owner's assets. Broader ownership, taxing income, preserving access, and correcting a measured loss of decision-relevant evidence solve different problems. An inherited or concentrated asset does not by itself measure information destruction. Preserve the separate normative grounds for distribution and additional premises for corrective taxation.
 
@@ -150,11 +150,11 @@ V5 citations: Piketty, Saez, and Stantcheva (2014); Rothschild and Scheuer (2016
 
 Open at Rothamsted's documented long-term agricultural experiments. Explain the institutional commitment needed to preserve useful comparisons while adapting experiments to changing farming conditions. This is a constructive historical example of producing evidence, not an application of v5's theorem to wheat.
 
-Return to Aster and Birch and choose a costed, time-limited evaluation design rather than indefinite exploration. Explain how experimental access, outcome definitions, compatible records, and independent evaluation can work together. Recognize the established economics of learning, counterfactual analysis, discovery, and experimental design.
+Use Rothamsted, Fisher, simulation design, and adaptive experimentation to explain a testable empirical program. Specify targets, observations, uncertainty, costs and decision consequences without an invented trial, spending cap or sample size.
 
-End with Lockdown. In the experimental setting its alternative outcomes were observed; in ordinary markets many alternatives remain unrealized. The proposal is to measure and preserve valuable comparison opportunities where feasible. The reader should leave able to distinguish an observed winner, an explanation of contribution, and a justified institutional choice. The epilogue returns to that distinction in one final procurement decision.
+End with Lockdown and its observed alternative charts. The epilogue draws together the comparison budget, shadow futures, epistemic monopoly, productive achievement and the institutional conditions for discovering alternatives. No fictional evaluation is presented as the book’s resolution.
 
-Reserve about 250 replacement words for the comparative hypothesis's constructive ending. Define robustness as the ability to discover and adopt workable alternatives after failure at acceptable cost, distinct from growth, national power, company count, or a measured comparison budget. Identify evidence that could overturn the proposed advantage: unusable access, repeated common errors, displaced useful private trials, excessive costs, failure to finance productive scale, or suppression of inconvenient findings. Keep the council's concrete evaluation design and the return to Lockdown.
+Define robustness as discovering and adopting workable alternatives after failure at acceptable cost. Specify evidence capable of defeating the hypothesis, including unusable access, common errors, displaced tests, excessive cost and suppression of inconvenient findings. Return to Lockdown and its documented alternative chart.
 
 V5 citations: Hayek (2002); Kasy and Sautmann (2021); Blackwell and Dubins (1962); Salganik, Dodds, and Watts (2006). Added sources: Rothamsted's history and account of adapting its experiments; Blackwell (1953).
 

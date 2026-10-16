@@ -4,8 +4,8 @@
   "checked_on": "2026-10-16",
   "status": "reviewed",
   "target_main_words": 6000,
-  "body_words": 6077,
-  "draft_sha256": "24c199695c61cf871a7355b1a7b6c8fd88fc5c1891900632642f3db716626eb8",
+  "body_words": 5779,
+  "draft_sha256": "3619ae7a40f374ec91a9a50d09136ddeb88d8fe274659ca63311414ccc27ba0e",
   "source_checks": "Relevant full primary-source passages checked in dated court records, published Meghani text, stakeholder statements and original research report. Some primary text read through indexed full sources after terminal download failure; exact access boundaries retained. No independent proof/priority certification.",
   "sources": [
     {
@@ -212,7 +212,7 @@
     "Index fields, third-party IP boundary and 40% initial syndication cap/tapering taken from actual judgment; no implementation success inferred."
   ],
   "whole_book_review": "Sequential chapter review completed for saved draft and recorded claims. Final cross-book continuity, dated-litigation refresh and completion audit remain required; no independent proof/priority certification.",
-  "note_words": 781,
+  "note_words": 700,
   "historical_scale_revision": {
     "checked_on": "2026-10-16",
     "scope": "Earlier targeted historical-scale revision, subsequently included in the complete sequential chapter review recorded in sequential_review.",
@@ -240,5 +240,14 @@
       "DOJ public case index October 16, 2026"
     ],
     "draft_sha256": "24c199695c61cf871a7355b1a7b6c8fd88fc5c1891900632642f3db716626eb8"
+  },
+  "council_removal_revision": {
+    "date": "2026-10-17",
+    "manuscript_sha256": "3619ae7a40f374ec91a9a50d09136ddeb88d8fe274659ca63311414ccc27ba0e",
+    "scope": "Recurring fictional council and named supplier storyline removed; direct argument and documented evidence retained.",
+    "removed_reader_notes": [],
+    "source_checks": "Existing claim-specific checks reused for unchanged facts and published model results. No new interviews, reported trial, welfare estimate or proof certification.",
+    "continuity": "Affected explanations and neighboring transitions reviewed; chapter openings/endings checked across the book.",
+    "historical_records": "Earlier narrative and review entries remain historical; current reader wording is authoritative."
   }
 }

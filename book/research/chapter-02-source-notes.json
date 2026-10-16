@@ -4,8 +4,8 @@
   "checked_on": "2026-10-16",
   "status": "reviewed",
   "target_main_words": 6000,
-  "body_words": 5991,
-  "draft_sha256": "4f7c84660f119baeb412df20b6b76a056ec8d5ceb405a8927c386caf92e28de2",
+  "body_words": 5342,
+  "draft_sha256": "24844ce0ab8579604c7561b1d5c54931837efd3952bc4bb581e4601bbe43ef1d",
   "source_checks": "Claim-specific full-source passages checked in identified published or author versions. Kasy-Sautmann correction checked; no independent proof or priority certification claimed.",
   "sources": [
     {
@@ -189,5 +189,15 @@
     "source_scope": "Unchanged claims retain prior relevant full-source checks; targeted primary rechecks covered the revised Netflix/LinkedIn details and Kasy-Sautmann field implementation.",
     "main_words": 5991,
     "budget_note": "5991 words; Chapter 3 has 6009. Combined chapter total and 80000-word main budget unchanged."
-  }
+  },
+  "council_removal_revision": {
+    "date": "2026-10-17",
+    "manuscript_sha256": "24844ce0ab8579604c7561b1d5c54931837efd3952bc4bb581e4601bbe43ef1d",
+    "scope": "Recurring fictional council and named supplier storyline removed; direct argument and documented evidence retained.",
+    "removed_reader_notes": [],
+    "source_checks": "Existing claim-specific checks reused for unchanged facts and published model results. No new interviews, reported trial, welfare estimate or proof certification.",
+    "continuity": "Affected explanations and neighboring transitions reviewed; chapter openings/endings checked across the book.",
+    "historical_records": "Earlier narrative and review entries remain historical; current reader wording is authoritative."
+  },
+  "note_words": 600
 }

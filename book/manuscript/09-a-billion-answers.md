@@ -2,9 +2,9 @@
 
 ## A billion answers
 
-A purchase order arrives with a delivery deadline somewhere in its pages. In our hypothetical workplace, a worker asks an AI service to find the date. Behind the familiar interface, software chooses a model, sends the document, receives an answer, and returns it to the worker.
+Inference turns a trained model into a stream of outputs. Each interaction can also create evidence, but what it reveals depends on which requests arrive, how the model is selected, and whether the answer is checked.
 
-The exchange can leave several records. There is the request itself, the model selected, the answer, the time taken, and perhaps a signal that the worker accepted it. If the workplace checks the answer against the order, there can also be a record of whether it was right. These are different observations, produced by different decisions about what to measure.
+The records can include the request, selected model, answer, time taken, and a user's acceptance. A check against an independently known outcome adds another observation. These records answer different questions because they arise from different measurement choices.
 
 The trained model need not change its numerical settings during this exchange. A later development process might use collected examples to update it. The service could also retrieve a newer document or apply a different instruction without retraining the underlying model. We should keep those changes distinct when asking what another successful answer teaches us: the learning can occur in the model, in the surrounding software, or in the people evaluating the result.
 
@@ -20,15 +20,13 @@ Chatbot Arena offers a concrete departure from an ordinary exchange. In the plat
 
 The two columns on the screen do useful work. They bring alternatives into the same encounter, expose them to the same prompt, and delay the information that a famous brand might provide. We can argue about the design while recognizing what it adds. A record of which service people already use supplies a different kind of evidence from a vote after they have seen two responses.
 
-In the hypothetical workplace, we could adopt part of that design. A worker might compare two proposed readings of the same purchase order before seeing the suppliers' names. If one answer identifies the date and the other confuses it with the date of issue, the document can supply a further check. The comparison has a defined object and an observable mistake.
-
-But preference and correctness remain different. A neatly presented wrong date might look more convincing than a correct answer expressed awkwardly. A worker who knows the underlying document can evaluate differently from one who does not. Deciding which answer is preferred is an intelligible task; deciding which answer is accurate may require additional evidence.
+Preference and correctness remain different. A polished wrong answer can be more convincing than a correct but awkwardly expressed one. Assessing accuracy may require evidence beyond the preference judgment.
 
 Arena's paper itself distinguishes benchmarks based on human preference from those based on a known correct answer. That distinction helps us resist treating one ranking as a certificate for every use. A buyer interested in pleasant conversation and a buyer extracting deadlines may need different measurements. Neither has to dismiss the other's question to insist on measuring its own.
 
-There is also a difference between the people and prompts that arrive at a public platform and those in a particular workplace. If our buyer uses unusually long orders, scanned documents, or a specialized vocabulary, it should investigate performance on that work. A useful general comparison can be a starting point for a decision without being its entire evidential basis.
+Prompts and users arriving at a public platform can differ from those in a specialized application. Long documents, damaged scans, or technical vocabulary can change performance. A general benchmark is evidence to assess for transportability, rather than an entire decision basis.
 
-Imagine Aster and Birch, our fictional suppliers, receiving different mixtures of requests. Aster handles mostly short, clear documents. Birch receives damaged scans and complicated revisions. Aster's higher acceptance rate might reflect a better service, easier work, or both. Comparing the rates without investigating the assignments would give a tidy number to an untidy question.
+Unequal task assignments complicate performance comparisons. A service handling clear documents can have a higher acceptance rate than one handling damaged scans even if its underlying capability is no better. Evaluation must examine the assignment process as well as the score.
 
 A paired test can help with that particular problem. We could send suitable examples from each category to both services and assess their outputs using a consistent procedure. The cost includes additional computation and evaluation. The benefit is evidence directed toward a decision that a single unbalanced stream would have made harder.
 
@@ -36,7 +34,7 @@ The Arena design also reminds us that comparison has to be produced. Someone bui
 
 Suppose a purchasing department then uses a ranking to select its default supplier. The ranking can influence subsequent exposure. That possibility does not invalidate the original tests. It creates a new question about how the tests and the resulting deployment interact. A good measured result can become an input into a process that later generates a different kind of evidence.
 
-For the order on our worker's screen, the immediate achievement remains concrete: find the deadline accurately and at an acceptable cost. We can pursue that aim while arranging an occasional comparison that could show when another system performs better. The service and the experiment can be designed together.
+Service and evaluation can be designed together. Delivering an accurate answer at an acceptable cost remains the productive aim; a suitable comparison can reveal when another system better serves it.
 
 ## When the judge likes the packaging
 
@@ -54,7 +52,7 @@ The length-controlled study also makes a counterfactual question explicit: how w
 
 For a developer, the practical stakes concern which improvements an evaluation rewards. If a score rises after a formatting change, the developer should investigate whether users actually complete their work better. If better reasoning raises the score, that is worth distinguishing too. The same final ranking can emerge through changes with different consequences for the customer.
 
-For the buyer choosing Aster or Birch, this adds an institutional question. Who defines the test that helps decide who receives the next opportunity? An accessible evaluation can support discovery, but its convenience is insufficient by itself. Its design should expose important differences rather than repeatedly reward a feature that the buyer does not actually need.
+Who defines the test helps determine who receives the next opportunity. An accessible benchmark can support discovery, but its convenience is insufficient: its design must expose differences relevant to the intended use.
 
 ## Choosing before paying
 
@@ -66,7 +64,7 @@ The purchase order makes the motivation easy to understand. A short document wit
 
 Notice what the router must learn. It needs evidence about relative performance on kinds of requests. A general reputation for being stronger is not the same as an advantage worth paying for on every task. A useful selection rule takes variation seriously instead of reading an overall ranking as an instruction to make the same choice forever.
 
-The RouteLLM paper also reports limits to transferring a router across tasks. Data resembling the eventual evaluation can improve performance. This is an ordinary but consequential lesson: evidence collected for one use does not automatically retain the same meaning in another. Our buyer should care about the correspondence between training examples, evaluation examples, and actual orders.
+The RouteLLM paper also reports limits to transferring a router across tasks. Data resembling the eventual evaluation can improve performance. Correspondence among training examples, evaluation cases, and actual use therefore matters to the interpretation of a score.
 
 Lingjiao Chen, Matei Zaharia, and James Zou explore a related route in FrugalGPT. Their system can call a model, assess the response, and decide whether to stop or call another. The answer already obtained becomes an input into the next decision. The study compares cost and performance on defined tasks, including classification and reading comprehension.[^c8-3]
 
@@ -80,15 +78,15 @@ The two research programs give AI a positive role in this book's argument. Softw
 
 One distinction is essential before we try to measure a comparison budget. A router's estimate that one model will produce the preferred answer differs from the chance that the request will actually be assigned to that model. RouteLLM uses a predicted preference and a threshold to make its selection. The prediction and the assignment rule do different jobs.
 
-Suppose, in an illustrative setting, a selector judges that Aster has a seventy percent chance of producing the preferred response on this kind of order. It could then send every such order to Aster. The seventy percent figure describes the predicted comparison outcome; it does not imply that Birch receives thirty percent of the requests. Adding those thirty percent figures would not measure the allocation process we have actually specified.
+A predicted seventy percent chance of producing the preferred answer is not a seventy percent allocation probability. A selector could send every request to the predicted winner. Adding the remaining thirty percent figures would then mismeasure the process that actually assigns work.
 
 A different rule could deliberately randomize some assignments. Its allocation probabilities would describe that design, while its predicted performance scores would describe the selector's expectations. Both can be recorded. Their relationship matters to the analysis, but they are not interchangeable numbers simply because both can be expressed as percentages.
 
-Nor does deterministic selection make all subsequent observations uninformative. If our workplace checks the dates extracted by Aster, those checks can reveal performance on the orders it receives. If independent tests also assess Birch, they can add evidence about alternatives. Applying the allocation-history bound while ignoring these outcomes would misdescribe the experiment and exaggerate the book's conclusion.
+Deterministic selection does not make observed outcomes uninformative. Checking answers reveals performance on encountered tasks; independent evaluation can supply information about alternatives. Ignoring those measurements would misdescribe the experiment to which the allocation-history bound applies.
 
 The work of checking also has a production process. Someone may need to open an amendment, resolve an ambiguous field, or determine which document version governs the task. AI could assist with that work, but an automated score remains something to validate against the relevant standard. A service can lower the cost of producing an answer while leaving costly uncertainty about whether the answer is useful.
 
-The buyer should therefore investigate the entire chain. What observation trains the selector? Which rule makes the assignment? What check evaluates the response? Which later decision can use that check? Our order does not need to become a giant economic experiment to make those questions worthwhile. They help us distinguish an efficient service, a useful comparison, and a record whose apparent precision exceeds what was measured.
+The relevant chain runs from the observations training a selector through assignment rules, checked responses, and decisions using those checks. Following it distinguishes efficient production from useful comparison and unsupported precision.
 
 The objectives still need to be named. A router optimized for the best current cost/performance tradeoff need not be optimized to discover a new supplier's potential. It may already have enough evidence for its operational decision, or it may need occasional new observations. We cannot determine which merely by noting that the routing is automated.
 
@@ -100,13 +98,13 @@ Their work used records gathered through randomized article selection. Under the
 
 This is an instructive answer to the claim that one history must leave every alternative forever beyond reach. A historical record can contain deliberately created variation. The variation can support questions that the institution operating the system did not answer by simply repeating its current favorite. Collecting the right record changes the possibilities for later analysis.
 
-Return to the order. Suppose our buyer sometimes assigns requests randomly between suitable services and records the assignment mechanism and checked outcomes. A later analyst can ask questions about another selection rule using those observations, if the relevant assumptions and coverage hold. We need not build a literal parallel workplace for every policy we wish to assess.
+Randomized request logs with checked outcomes can support evaluation of another selection rule under the relevant coverage and identification assumptions. A literal parallel economy is not required for every counterfactual question.
 
 That last qualification matters. If a service was never available for a particular kind of order, the record may contain no relevant responses from it. Knowing that the probability was zero does not supply the missing performance. An estimator needs suitable observations or additional defensible assumptions, rather than an increasingly elaborate way of describing their absence.
 
 The Yahoo authors call their method replay. Their use of the word concerns evaluating a recommendation policy with suitable logged events. My shadow futures concern alternative histories generated under specified economic conditions and rules. These are distinct uses. A procedure that reuses article records is not a time machine for recreating the entire industry with a different first winner.
 
-Our hypothetical buyer might use randomized logs to compare current Aster and current Birch on a defined task population. That result would not, on its own, establish how Birch would have developed after a different early allocation sequence, building another team as the same response rules allowed. Deliberately changing its training strategy would be a separate intervention. Current-system evaluation, historical variation under fixed rules, and a changed development policy require different comparisons.
+Evaluation of current systems, variation across alternative development histories, and the effects of changing a development policy require different comparisons. Randomized request logs can help with the first without establishing how capabilities would have evolved after different early opportunities.
 
 The same record can nevertheless be valuable. If it supports a better procurement decision, it need not explain every earlier fortune to justify its collection. The point of the comparison budget is to clarify a particular information constraint, not to demand a complete causal explanation of the economy before allowing any useful inference.
 
@@ -138,13 +136,13 @@ The workplace can act on that warning. It can measure whether the extracted date
 
 ## Predicting the next choice
 
-Suppose two analysts watch the buyer's use of Aster. One credits Aster's engineering; the other assigns more importance to its early access and accumulated references. Over time, both become increasingly good at anticipating which supplier the buyer will choose. Their forecasts can become similar while their accounts of the earlier achievement remain different.
+Forecasts of the next allocation can converge while explanations of productive contribution remain different. Chapter 3 states the conditions under which that distinction persists.
 
 The statistical distinction is older than this book. David Blackwell and Lester Dubins showed in 1962 how conditional forecasts can merge under an appropriate relationship between probability laws. Hao Zhang later established a different example in spatial statistics where some underlying parameters cannot be consistently recovered even though important prediction can remain effective. Both deserve credit.[^c8-7][^c8-8]
 
-Under the conditions in Chapter 3, forecasts of the next award can converge while the effect of work on those awards remains unresolved. Both observers might confidently predict Aster's next contract without knowing what another engineer would change. This is a result about forecasting the modeled allocation process; checking an AI's answers requires evidence about the answers themselves.
+That result concerns prediction of a modeled allocation process. Evaluating the truth of an AI answer needs evidence about the answer itself. The two tasks must not be conflated.
 
-Keep the purchase order in view. A system could predict accurately that the worker will accept Aster's answer. That prediction concerns acceptance. Whether Aster extracted the correct date is another measurable question. Whether an early investment caused the difference between Aster and Birch requires a further causal comparison. These questions should remain distinct even when the software handles them behind one interface.
+Acceptance, correctness, and causal contribution are separate targets. Predicting that a user accepts an answer does not establish that it is accurate, or identify which investment caused the capability. A common interface does not make the underlying inference identical.
 
 We should also resist reversing the theorem into a general celebration of ignorance. An accurately checked answer teaches us something. A well-designed comparison can identify a performance difference. Some input effects may be learned from additional measurements. The finite-budget result concerns a particular obstacle under particular conditions, rather than a rule that economic evidence must always fail.
 
@@ -160,17 +158,17 @@ The revised tests helped separate failures. The checking arrangement belonged to
 
 There are different ways to organize that machinery. Anthropic's June 2025 research system used a lead agent to distribute searches among others. Carlini's compiler account explicitly described a setup without a lead agent assigning tasks. In either arrangement, ask who directs the work and supplies the feedback.[^c8-agents]
 
-Now give fictional Birch an agent team. One program reads purchase orders, another checks amendments, and a third runs tests on proposed extraction code. The team might help a small business investigate more designs than its staff could previously afford. Employees still define a useful deadline, resolve disputed documents, and decide which errors matter. The firm buys a capacity to attempt work, with a bill for the attempts and a further cost of checking them.
+Agent systems can organize candidate generation, execution, and checking, as the compiler account demonstrates. Their productive value depends on the full arrangement: human-defined objectives, tools, tests, and judgments about errors, as well as the cost of model calls.
 
-Suppose Birch retains the resulting code, test cases, and usable project records. If one model becomes unsuitable, the firm can try another against those cases. Its accumulated work helps make the next comparison possible. A supplier of model access and the owner of a developing business then have different roles, even when the business depends heavily on that supplier today.
+Retained code, test cases, and usable project records can support later comparison when a model changes. The rights to those assets therefore affect the cost of developing and evaluating another approach.
 
-A usable record could also include failed attempts. If Birch transfers only the final code, the next team may repeat an abandoned approach. Keeping that history costs storage and care over the customer's confidential material.
+Failed attempts can matter as much as final outputs. Preserving their records may prevent repeated mistakes, while requiring storage, documentation, and protection of confidential material.
 
-Change the stipulated contract. The useful records now remain inside an interface Birch cannot transfer, and its customer route depends on the same provider. Switching could require rebuilding the tests and regaining access to buyers. These are hypothetical terms, not an allegation about an existing service. They show why cheaper software work and easier independent entry are separate propositions. An agent team can build valuable capabilities while the rights governing those capabilities make departure difficult.
+Control of tools and records can make switching expensive even when software generation becomes cheap. This is an institutional question about portability and ownership, distinct from the capability demonstrated by an agent experiment.
 
-Ownership alone cannot settle the information question. The compiler experiment illustrates useful checking inside one company using related models. Conversely, Birch could own every generated file and still rely on a defective test. The relevant inquiry follows the attempted design to an outcome capable of exposing its failure. Different letterheads do not provide that connection automatically.
+Ownership alone also cannot establish validity. Carlini's account illustrates useful checking within one firm using related models. A legally independent project can still use a defective test. The analysis follows the route from a proposed design to feedback capable of exposing its errors.
 
-For the order on our worker's desk, a thousand agents agreeing on a date could still miss the same amendment. One program that finds the amendment could improve the answer. A buyer should investigate which happened before counting the votes. The prospect of abundant software workers makes this discipline more consequential: we may be able to multiply attempts faster than we can produce trustworthy judgments of their results.
+A thousand agents can reproduce one mistaken interpretation; a single check against a relevant document can reveal it. Abundant software labor can multiply attempts faster than it produces trustworthy judgments of their results.
 
 ## A town throws a party
 
@@ -178,7 +176,7 @@ In a 2023 study, Joon Sung Park and colleagues populated Smallville with twenty-
 
 These characters supply a tempting contrast with a compiler. A simulated town can be rerun, with rules changed and histories recorded. But what would establish that its response to a tax change predicts the response of people? Believable conversation and a program's successful execution do not supply that validation. The study investigated believability and agent architecture, not the accuracy of economic policy forecasts.
 
-We could simulate buyers choosing between Aster and Birch. The exercise might reveal an overlooked implication or help design an empirical test. The buyers' preferences could also reflect instructions or assumptions inherited from their model. Generating more residents would reduce some simulation noise without correcting a mistaken account of demand.
+Simulated demand can reveal implications of assumptions and help design an empirical test. Its preferences may also reflect the instructions and training inherited from a common model. Multiplying simulated participants reduces some sampling noise without correcting a mistaken demand mechanism.
 
 A shadow replay keeps underlying parameters, starting conditions, and response rules fixed while the random history changes. Altering procurement or training policy is a separate intervention. For either operation, the claim about an actual economy requires evidence linking the model to that economy. The party makes generated interaction visible. The compiler's checks point toward the additional work of connecting a proposed answer to a result that can prove it wrong.
 
@@ -194,7 +192,7 @@ The sequence matters as much as the headline. A proposal entered a test with a d
 
 Compare that with the simulated party. Smallville can show what its agents do under its rules. A scheduling simulation can also be wrong about a real system. In the AlphaEvolve account, subsequent measurements provided an additional connection to actual operation. We should examine the quality of that connection while recognizing why it adds something that another unvalidated simulation would not.
 
-For fictional Birch, AI could help generate alternative document-processing programs. The company could run them on a test set with known deadlines, inspect failures, and assess the promising candidates on fresh orders. Useful evidence would then come from executed programs and checked documents. The generated code would help organize the search; it would not supply correctness merely by existing.
+For software generation, useful evidence comes from executed programs and checked outcomes. Candidate code can help organize a search, but its correctness needs testing beyond the model's ability to produce it.
 
 The test set still needs attention. A program might exploit a quirk of the examples, perform well on clear documents, and fail on revisions. A good development process would investigate such limits. Automating the proposals makes the quality of evaluation more consequential because many candidates can now be optimized against whatever test we provide.
 
@@ -206,19 +204,19 @@ Generated proposals can help us test ambitious ideas when we can define an outco
 
 ## What the billion requests leave behind
 
-Return to the order and let our hypothetical workplace choose its records. One design retains only the final answer, supplier, and a signal that the worker moved on. Another also retains task characteristics, the selection procedure, checked correctness, and a limited alternative-service trial. Both could process a billion requests. The records would support different questions.
+Record design determines what inference can follow. A final answer and acceptance signal supply different evidence from a record also containing task characteristics, assignment rules, checked outcomes, and appropriate alternative-system tests. Equal request volumes need not produce equally informative records.
 
-Acceptance itself needs interpretation. The worker might have checked the date, found checking difficult, or hurried toward another deadline. These are possibilities in our illustration. Comparing a sample against the governing orders could reveal a recurring confusion between the issue date and delivery date, giving the company a specific error to investigate.
+Acceptance can reflect verification, difficulty checking, or time pressure. Comparing outcomes with independently checked evidence helps distinguish those explanations and identify specific failures. The feedback signal must be interpreted before it is treated as correctness.
 
-Aster's strong performance could justify giving it most production work while preserving a limited test of alternatives. Birch should not receive assignments merely to decorate a spreadsheet with another supplier. Its inputs, tasks, evaluation, and opportunity to be selected after a good result must make the trial relevant to a decision.
+Production can be concentrated while a limited experiment preserves a relevant comparison. Assignments justified as learning must expose informative differences and be capable of affecting a decision, rather than merely adding a second name to a record.
 
-The favorite can also change with the request. Aster may be favored for one document class and Birch for another. Aggregate request totals can conceal little within-class comparison, just as a dominant supplier can host informative internal tests. The assignment process and checked outcomes need to be examined together.
+The favorite can vary by task. Aggregate request totals can conceal a lack of within-task comparison, while a dominant service can host useful internal experiments. Logged assignment rules and checked outcomes matter together.
 
 The comparison budget accumulates modeled allocation chances outside the current favorite, conditional on the relevant history and inputs. It counts neither actual calls nor agents. Small persistent chances can accumulate indefinitely; shrinking chances need not have a finite sum. Additional informative outcomes belong in the observed experiment. A busy agent team supplies no shortcut around these distinctions.
 
 Stanford's 2026 AI Index distinguishes training from inference in discussing energy use. Repeated service remains a physical activity after a model has been developed. That reminder belongs beside the compiler and the order: extra attempts use resources, and their value depends on what they accomplish.[^c8-11]
 
-Some arrangements could make comparison cheaper. Birch could generate candidates, retain tests, and purchase independent checks on unfamiliar orders. Others could extend a favored provider's control over records and distribution while improving its current service. The service's usefulness would remain real; the route by which another approach could develop would remain a separate institutional question.
+AI can lower the cost of generating and testing alternatives. It can also operate within institutions that concentrate control of records, distribution, and evaluation. Its useful output and its effect on independent discovery both belong in the economic assessment.
 
 The constructive choice is to identify a valuable uncertainty and the observation that could reduce it. A paired vote, checked document, randomized assignment, reusable log, or independent deployment can help under suitable conditions. Testing today's extractor also differs from testing whether its use teaches workers to recognize tomorrow's difficult cases. The next question follows the person who has to do that work.
 
@@ -228,7 +226,7 @@ At the beginning of this chapter, the worker asked for a date. By the end, that 
 
 Someone supplied examples used in development. Someone expressed a preference in an evaluation, prepared a document, checked an answer, or corrected an error. Arena's paired votes make one such contribution visible. In a workplace, the corresponding judgments can be less conspicuous, folded into the ordinary activity of getting a task done.
 
-If an AI service improves the worker's performance, that is a real possibility worth measuring. If it changes which tasks the worker gets to attempt, how expertise develops, or what an employer can observe about ability, those are further questions. An answer that helps finish today's order can also change the conditions under which tomorrow's worker learns.
+If an AI service improves the worker's performance, that is a real possibility worth measuring. If it changes which tasks the worker gets to attempt, how expertise develops, or what an employer can observe about ability, those are further questions. An answer that helps finish today's task can also change the conditions under which tomorrow's worker learns.
 
 The next chapter asks what happens to the worker. Its subject is the work behind the answers, the work changed by them, and the first opportunities through which people develop a record of their own.
 
@@ -236,7 +234,7 @@ The next chapter asks what happens to the worker. Its subject is the work behind
 
 [^c8-1]: Wei-Lin Chiang and colleagues, “Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference,” *ICML*, PMLR 235 (2024), 8359–8388, [published paper](https://raw.githubusercontent.com/mlresearch/v235/main/assets/chiang24b/chiang24b.pdf), PDF pp. 1–3, Figure 1 and Section 3.1. Model-pair sampling can be deliberately nonuniform; randomized does not mean every pair has equal probability. The chapter describes the published design, not a verified current platform implementation, universal truth metric, or representative census of workplace demand.
 
-[^c8-2]: Isaac Ong and colleagues, “RouteLLM: Learning to Route LLMs with Preference Data,” *ICLR* 2025, [full version 4](https://arxiv.org/pdf/2406.18665v4), February 23, 2025, Sections 3–5, pp. 3–7, and limitations, p. 10. Original report June 2024. Training uses human preferences and augmentation; evaluation spans distinct benchmarks and scoring procedures. No particular cost-saving percentage, universal router, unbiased factual judgment, or guarantee on our fictional orders is claimed.
+[^c8-2]: Isaac Ong and colleagues, “RouteLLM: Learning to Route LLMs with Preference Data,” *ICLR* (2025), sections 3–5 and limitations. [Version 4, February 23, 2025](https://arxiv.org/pdf/2406.18665v4), 3–7 and 10.
 
 [^c8-3]: Lingjiao Chen, Matei Zaharia, and James Zou, “FrugalGPT: How to Use Large Language Models While Reducing Cost and Improving Performance,” *TMLR*, December 2024, [published paper](https://lingjiaochen.com/papers/2024_FrugalGPT_TMLR.pdf), Section 4, pp. 4–5; experiments and Figure 3, pp. 6–10. Its main historical experiments use March 2023 models/prices, with a November 2024 extension. The chapter uses the cascade/scorer/stopping design and recorded extra-call limitation, not current prices or a universal savings estimate.
 
@@ -258,4 +256,4 @@ The next chapter asks what happens to the worker. Its subject is the work behind
 
 [^c8-13]: Alexander Novikov and colleagues, *AlphaEvolve: A Coding Agent for Scientific and Algorithmic Discovery*, [2025 white paper](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/AlphaEvolve.pdf), pp. 1–3 and data-center scheduling discussion pp. 13–14; Google DeepMind, [May 14, 2025 account](https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/). Reported resource recovery is not an equivalent percentage electricity saving or proof of overall welfare. Simulation, held-out testing and post-deployment measurement are distinct stages; developer report, not independent causal audit.
 
-[^c8-agents]: Nicholas Carlini, [“Building a C Compiler with a Team of Parallel Claudes”](https://www.anthropic.com/engineering/building-c-compiler), February 5, 2026, “Make parallelism easy” and “Evaluation”; Anthropic, [“How We Built Our Multi-Agent Research System”](https://www.anthropic.com/engineering/multi-agent-research-system), June 13, 2025, “Architecture overview.” Distinct architectures; attributed developer experiments, not labor-market estimates or independently replicated benchmarks. Human test design and external tools count. Birch’s contracts and agent tasks are hypothetical.
+[^c8-agents]: Nicholas Carlini, [“Building a C Compiler with a Team of Parallel Claudes,”](https://www.anthropic.com/engineering/building-c-compiler) February 5, 2026, sections “Make Parallelism Easy” and “Evaluation.” Anthropic, [“How We Built Our Multi-Agent Research System,”](https://www.anthropic.com/engineering/multi-agent-research-system) June 13, 2025, section “Architecture Overview.”

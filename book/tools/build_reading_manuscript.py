@@ -28,6 +28,7 @@ def validate_reader_citations(text):
         r"|Measuring Comparison Opportunities in Adaptive Markets"
         r"|Taxing Lost Comparison: Decision Information"
         r"|browser research tool|terminal download|retrieval failed|no local (?:copy|full-text copy)"
+        r"|\b(?:Aster|Birch)\b|\b(?:fictional|our) councils?\b"
     )
     match = re.search(forbidden, text, re.I)
     if match:

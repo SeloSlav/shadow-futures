@@ -4,8 +4,8 @@
   "checked_on": "2026-10-16",
   "status": "reviewed",
   "target_main_words": 6000,
-  "body_words": 6066,
-  "draft_sha256": "1dc90c88de89f84f6ec0bb5ccdef2fc99ae7c717a079020d9d90fb6d52de97fa",
+  "body_words": 5688,
+  "draft_sha256": "e9263318f6e64c0beb0ab6f47adef993fb71ef543697f4a88cc05d2fd07f5013",
   "source_checks": "Claim-specific passages checked in full primary records, identified author versions, and museum collection accounts. Version, access and interpretation boundaries retained; no independent proof or priority certification.",
   "sources": [
     {
@@ -255,7 +255,7 @@
     "Procedural delay/permission asymmetry, failed Bell field-effect work and revisable interconnection standards supply new concrete detail."
   ],
   "whole_book_review": "Sequential chapter review completed for the saved draft and recorded claims; final cross-book continuity, contemporary refresh and whole-book completion audit remain required. Separate Chapter 3 technical-source queue is not resolved by this review.",
-  "note_words": 1011,
+  "note_words": 919,
   "historical_scale_revision": {
     "checked_on": "2026-10-16",
     "scope": "Earlier targeted historical-scale revision, subsequently included in the complete sequential chapter review recorded in sequential_review.",
@@ -282,5 +282,14 @@
       "Carterfone pp. 420–425, especially 424"
     ],
     "draft_sha256": "1dc90c88de89f84f6ec0bb5ccdef2fc99ae7c717a079020d9d90fb6d52de97fa"
+  },
+  "council_removal_revision": {
+    "date": "2026-10-17",
+    "manuscript_sha256": "e9263318f6e64c0beb0ab6f47adef993fb71ef543697f4a88cc05d2fd07f5013",
+    "scope": "Recurring fictional council and named supplier storyline removed; direct argument and documented evidence retained.",
+    "removed_reader_notes": [],
+    "source_checks": "Existing claim-specific checks reused for unchanged facts and published model results. No new interviews, reported trial, welfare estimate or proof certification.",
+    "continuity": "Affected explanations and neighboring transitions reviewed; chapter openings/endings checked across the book.",
+    "historical_records": "Earlier narrative and review entries remain historical; current reader wording is authoritative."
   }
 }

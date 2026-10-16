@@ -32,7 +32,7 @@ What it does give us is a concrete contrast. A statement that Google received mo
 
 There is another lesson in the reversal. An opportunity to reach users can expose weaknesses in the service that receives it. Yahoo's place in the story does not establish that giving a rival distribution necessarily produces a superior product. The additional use can reveal a problem, finance an improvement, or change the commercial pressure on the provider. Preserving an informative opportunity does not dictate which of those results should emerge.
 
-Imagine the procurement desk giving Birch a limited trial and then returning to Aster. That could be a successful experiment if the trial revealed that Aster offered the better arrangement. It could be a failed intervention if the trial was too poorly designed to reveal anything useful. The identity of the eventual winner cannot tell us which description is right. We need the test, its outcomes, and the decision it was meant to inform.
+A successful experiment can strengthen the case for an incumbent. Conversely, a change of supplier can follow a poorly designed trial. The identity of the eventual winner cannot establish whether useful learning occurred. That requires examining the test, its outcomes, and the decision it informed.
 
 Firefox's actual history also helps distinguish a changed rule from a replay. Changing the default changed the arrangement through which queries were distributed. It was an intervention. A shadow future under the old arrangement would hold the relevant rules steady and follow another feasible sequence. Both comparisons can help us think, but the evidence from a changed default answers a question about that change.
 
@@ -78,7 +78,7 @@ I use the term more narrowly here, relative to a stated question about contribut
 
 The distinction helps us ask something precise about the search case. Distribution contracts can affect who receives queries. Data terms can affect who learns from an existing record. A test's confidentiality can affect who can check the evidence. These controls can overlap, but they are not the same control. Each needs to be connected to the particular uncertainty under investigation.
 
-Consider a buyer allowed to inspect Aster's invoices, engineering hours, and completed code, but unable to arrange a relevant Birch trial. The work might be fully verified. What remains missing is experience capable of distinguishing different accounts of the effect of that work. Now consider a buyer barred from seeing an existing, informative trial. The difficulty is access to evidence already produced. Different obstacles call for different responses.
+Verifying invoices, hours, and completed work establishes inputs and execution. Identifying their effects requires suitable comparisons. Access to an existing informative experiment is a different problem from arranging an experiment that has never occurred. Those obstacles call for different responses.
 
 This is why an information argument should begin with a question rather than a label. Which contribution are we trying to understand? Which observations could distinguish the relevant explanations? Who controls the route through which those observations would arise? The term becomes useful when it organizes that investigation. It becomes an accusation without content when it merely replaces “large technology company” with a more alarming phrase.
 
@@ -94,7 +94,7 @@ A scientist with permission to read a company's white paper and a scientist with
 
 The example also shows why disclosure and access should be connected. Without enough information about methods, an outside scientist may struggle to reproduce a study. Without the product, a detailed method may remain something that cannot be attempted. An effective arrangement has to follow the practical requirements of the investigation. The existence of published pages does not establish that every important question can be checked.
 
-In the procurement thought experiment, imagine that Aster permits the buyer to inspect a polished performance report but prohibits testing the service on a relevant class of tasks. If the reported tests answer the buyer's question, the restriction may add little uncertainty for that decision. If they do not, another copy of the report cannot replace the missing opportunity. The buyer needs to identify the gap before deciding what access would help.
+Disclosure is useful when the existing record answers the question. Releasing another copy of a performance report cannot replace a failure condition that was never tested. The first task is to identify whether the missing element is access, interpretation, or another observation.
 
 This is not an argument that every outside investigator is better than every company scientist. Expertise, instruments, and experience matter. An independent test can be incompetent, redundant, or badly designed. The institutional objective is to enable credible investigation of consequential questions and to assess its results, rather than to treat independence as a substitute for scientific quality.
 
@@ -102,9 +102,9 @@ Meghani's governance argument therefore has force before we reach my allocation 
 
 ### More signs, one route
 
-Return to the two towns as a thought experiment. In the first arrangement, each town has buyers who make their own supplier choices. Birch might lose in one and receive a trial in the other. In the second, both towns buy through different websites using one ranking. More customers are reachable, but the same judgment can close both doors. The geography of demand has expanded while the geography of evaluation has contracted.
+The historical concern is the reach of a judgment. A rejection by one independent buyer can leave other buyers free to form their own assessments. A shared ranking can transmit that rejection across a much larger market. Demand can expand geographically while the routes to independent evaluation contract.
 
-This need not make the second arrangement worse overall. The shared service might lower prices, improve reliability, and introduce Birch to distant customers it could never have found alone. The comparison is about a particular freedom: whether another buyer can form and act on a sufficiently independent judgment. Different logos do not guarantee it. Separate owners do not guarantee it either.
+Shared services can also reduce prices, improve reliability, and connect entrants to distant customers. The question is whether those gains preserve a practical route to another judgment. Multiple websites and separate owners do not establish that independence by themselves.
 
 Search syndication gives this distinction a real institutional form. A service can obtain search results from another provider and present them through its own product. This can make entry feasible without duplicating an entire search infrastructure. It also means that several user-facing services need not represent several independently developed engines. Their relationship has to be described before their number is treated as evidence of independent discovery.[^c5-7]
 
@@ -128,7 +128,7 @@ The third door concerned an operating service: syndication. A qualified competit
 
 The judgment limited reliance on that route. First-year Google syndication was capped at forty percent of a qualified competitor's annual US queries, with tapering over five years intended to encourage investment in independent search capabilities. The court left the pace and measurement of tapering for further determination. Access supplied a bridge; the terms sought to keep the bridge from becoming the competitor's permanent foundation. Whether that would work required evidence from implementation.[^c5-7]
 
-For Birch, the three doors would look different too. Permission to appear at the purchasing desk would give it access to a prospective buyer. Access to an existing technical record could help it improve. Permission to use an established supplier's service within its own product could let it serve a customer sooner. Each route changes what Birch can attempt, and each can leave other obstacles in place.
+Market access, access to knowledge, and permission to use a technical service change different opportunities. A measure that opens one route can leave the others closed. Evaluation needs to follow the resulting ability to develop and test alternatives.
 
 This is where a comparison perspective becomes more demanding than a general endorsement of openness. Which door produces the evidence relevant to the decision? If the buyer wants to compare interfaces, access to the same underlying service might suffice. If it wants to compare independent methods of generating results, that arrangement may preserve the very dependence being investigated. A remedy must be connected to the question it is expected to help answer.
 
@@ -146,7 +146,7 @@ The court considered the risk that a broad payment ban would harm distributors o
 
 For a comparison policy, the lesson is that one route can support another. Removing a financial tie might open a search opportunity while weakening a browser through which alternatives reach users. Keeping the tie might preserve that browser while maintaining incentives unfavorable to rival search providers. Describing either move as an unqualified increase in competition would skip the interaction that makes the choice difficult.
 
-The fictional buyer could face a similar problem if its payment for an Aster service also supported a useful independent testing facility. Changing the contract might improve access for Birch while reducing testing elsewhere. That possibility would need evidence in a real application. In the thought experiment, it reminds us to ask what information is lost as well as gained by a proposed change.
+A remedy can also remove useful experimentation financed by an incumbent's existing business. Any appraisal must count evidence lost as well as gained, alongside changes in production, financing, and access.
 
 This is not a demand that every alternative pay for itself immediately. A comparison can have benefits beyond its first transaction. It is a demand to identify those benefits and their costs. Hayek's discovery argument gives us a reason to value processes whose particular results are unknown in advance. It does not give us a reason to assume that every rearrangement of those processes increases the value of what gets discovered.[^c5-11]
 
@@ -164,7 +164,7 @@ Mozilla's response raised a related concern: data remedies should avoid simply t
 
 For a public evaluator, access to a test and access to its results are likewise separate. It may be possible to arrange an independent evaluation without releasing every underlying record publicly. It may be necessary to disclose methods so that a result can be interpreted. A confidentiality condition might protect legitimate information or prevent meaningful scrutiny. The right response follows the specific obstacle and purpose.
 
-Imagine an Aster reliability trial whose results are disclosed only as “passed.” If the buyer needs to know performance on a rare but costly failure, that summary may be inadequate. A fuller report could answer the question without giving a competitor every line of code. If no relevant failure condition was tested, however, disclosure alone cannot fix the gap. The missing item is another experiment.
+A published pass score may conceal performance on rare but costly failures. Detailed results could resolve that uncertainty without exposing every line of code. If the relevant condition was never tested, however, fuller disclosure cannot produce the missing result.
 
 That distinction separates two forms of control that often travel together. One governs what happens and therefore what evidence is generated. The other governs who can inspect the evidence afterward. An institution can open its files while restricting new inquiry, or permit inquiry while keeping useful results difficult to check. A serious account of epistemic power must follow both.
 
@@ -196,7 +196,7 @@ The legal dispute continued beyond the district court's decision. Google publicl
 
 That continuing disagreement matters for interpretation. We should not describe a contested remedy as a completed experiment whose results are already known. We can examine the theory of what it is intended to change, the terms actually ordered, and the evidence produced as it operates. Later results could support, complicate, or undermine expectations on either side.
 
-For Birch, the equivalent distinction would be between a buyer announcing that it welcomes pilots and a supplier receiving a usable pilot arrangement. A promise of access might still require a specification, a budget, security approval, staff time, and a rule for interpreting outcomes. These details can determine whether a relevant comparison happens. They are part of the economic mechanism.
+A formal promise of access becomes economically meaningful through specifications, a budget, security arrangements, usable records, and a way to interpret outcomes. Those implementation requirements help determine whether comparison actually occurs.
 
 The same attention should be given to a claim that a remedy has failed. A route could be open but unattractive because the alternative is poor. It could be attractive but burdened by unnecessary conditions. It could be operating while its learning benefits take time to appear. The investigator needs evidence capable of distinguishing these accounts, rather than choosing one from the identity of the winner.
 
@@ -222,7 +222,7 @@ The Google case supplies a record of defaults, feedback, comparisons, contracts,
 
 For a buyer or public authority, the task is to make that question practical. Identify a decision worth improving. Find the comparison that could improve it. Ask who can produce and check the evidence, what doing so costs, and what existing knowledge can already resolve. Sometimes another route to users matters. Sometimes better access to a record or a well-designed internal trial supplies what is needed.
 
-For the people whose work receives different rewards, the question is more personal. Aster's owners can point to contracts won and work delivered. Birch's engineers may have worked seriously too. What does either record establish about what they deserve? Before turning to AI's factories and workplaces, we need to separate the evidence about contribution from the moral and practical reasons for rewarding it.
+Rewards also carry personal consequences. What does a documented achievement establish about what its makers deserve? Before turning to AI's factories and workplaces, we need to separate evidence about contribution from the moral and practical reasons for rewarding it.
 
 ## Notes
 

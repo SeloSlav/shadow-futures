@@ -6,10 +6,10 @@
   "date": "2026-10-16",
   "pdf": "/book/shadow-futures.pdf",
   "cover": "/book/shadow-futures-cover.png",
-  "pages": 307,
-  "interior_pages": 306,
-  "pdf_bytes": 4489185,
-  "notes": 189,
+  "pages": 275,
+  "interior_pages": 274,
+  "pdf_bytes": 4408332,
+  "notes": 185,
   "contents": [
     {
       "label": "The other life of a song",
@@ -29,62 +29,62 @@
     {
       "label": "The comparison budget",
       "section": "Chapter 2",
-      "page": 45
+      "page": 44
     },
     {
       "label": "Shadow futures",
       "section": "Chapter 3",
-      "page": 65
+      "page": 62
     },
     {
       "label": "The histories that became infrastructure",
       "section": "Chapter 4",
-      "page": 86
+      "page": 79
     },
     {
       "label": "Who gets to be tested",
       "section": "Chapter 5",
-      "page": 107
+      "page": 99
     },
     {
       "label": "Who deserves the winnings",
       "section": "Chapter 6",
-      "page": 128
+      "page": 119
     },
     {
       "label": "The intelligence factory",
       "section": "Chapter 7",
-      "page": 148
+      "page": 137
     },
     {
       "label": "A billion answers",
       "section": "Chapter 8",
-      "page": 169
+      "page": 156
     },
     {
       "label": "The first rung",
       "section": "Chapter 9",
-      "page": 190
+      "page": 175
     },
     {
       "label": "Competition for future evidence",
       "section": "Chapter 10",
-      "page": 210
+      "page": 192
     },
     {
       "label": "Taxing lost comparison",
       "section": "Chapter 11",
-      "page": 229
+      "page": 209
     },
     {
       "label": "An economics of possible worlds",
       "section": "Chapter 12",
-      "page": 241
+      "page": 218
     },
     {
       "label": "The next opportunity",
       "section": "Epilogue",
-      "page": 263
+      "page": 235
     }
   ],
   "trim_inches": [
@@ -97,9 +97,9 @@
   ],
   "paperback": {
     "paper": "black ink / white paper",
-    "spine_inches": 0.6891120000000001,
+    "spine_inches": 0.617048,
     "wrap_inches": [
-      12.939112000000002,
+      12.867048,
       9.25
     ],
     "bleed_inches": 0.125
@@ -109,7 +109,7 @@
     1536
   ],
   "production_note": "KDP-size exports are provided. Generated artwork is natively 1024×1536; 300-dpi raster exports are resampled, not added native detail. Check a print proof; higher-resolution original art is recommended before commercial print upload.",
-  "manuscript_sha256": "9e25725e819825c3d5d26086d07187937f7ba1c93265d5b64551a935cfe7e1bd",
+  "manuscript_sha256": "b796d8c00ae2e868b4462f1dcdd51c7a7d772ef134b5fa96cbf7c665cf3c98ae",
   "inputs": [
     {
       "file": "book/manuscript/00-prologue.md",
@@ -117,59 +117,59 @@
     },
     {
       "file": "book/manuscript/01-introduction.md",
-      "sha256": "09e0acd7e0545d286d5273d8a826baa836dc44b2d9d50224cf31b83c7d06891c"
+      "sha256": "0930c263801e701694d0497e5e4abcb8af0015fcc4bb30027cd7c6dde79b21fd"
     },
     {
       "file": "book/manuscript/02-the-winner-and-the-explanation.md",
-      "sha256": "03d0e4db18e2e607eb45e508fecc04d9f7caadbcd9d0cbd2c4ceecd050c401c6"
+      "sha256": "d9a2225b9fa7d9ed952a05d79aa67f88fba9be911bccca24bf4a4d52ff3a64e2"
     },
     {
       "file": "book/manuscript/03-the-comparison-budget.md",
-      "sha256": "49659df4fae443fede86036e31cc91418a84781d7fcf71b79ff2ddccd1af6b4f"
+      "sha256": "24844ce0ab8579604c7561b1d5c54931837efd3952bc4bb581e4601bbe43ef1d"
     },
     {
       "file": "book/manuscript/04-shadow-futures.md",
-      "sha256": "1c15686f587b8b3e70c078a570d995d3e051a91cb2adf0ee602b30ccce15202f"
+      "sha256": "2d4efd04d6bd600c8dffa5b58f824cfdb6c707fa63417f96e2a420e7611ea065"
     },
     {
       "file": "book/manuscript/05-the-histories-that-became-infrastructure.md",
-      "sha256": "51c48549376f6f27dce41f5a4e30f44c69c1c91484ad1b94d35f7b7bfd425bcb"
+      "sha256": "e9263318f6e64c0beb0ab6f47adef993fb71ef543697f4a88cc05d2fd07f5013"
     },
     {
       "file": "book/manuscript/06-who-gets-to-be-tested.md",
-      "sha256": "bc5b787941c82951978c28c1e0af85c6f45cfc85fa44a13e4d07fec10b7b20aa"
+      "sha256": "3619ae7a40f374ec91a9a50d09136ddeb88d8fe274659ca63311414ccc27ba0e"
     },
     {
       "file": "book/manuscript/07-who-deserves-the-winnings.md",
-      "sha256": "887acd69c019f7446fea33ea11013cb7c35d938f83d3a51a80839cefbf9a4cf2"
+      "sha256": "24ab9f8b357d84c35de23538a5a291ce30214a7a98ecb127b2677da71aea1218"
     },
     {
       "file": "book/manuscript/08-the-intelligence-factory.md",
-      "sha256": "97fc5aee194862857557631697e7658e6fa0b51f8e0423bb43e38a0570db283f"
+      "sha256": "659382f4b7b3bff9f60684722772b20f99cfd7c17efcc65f1bc74b60e10ebeb6"
     },
     {
       "file": "book/manuscript/09-a-billion-answers.md",
-      "sha256": "bd99dbd3de6d94264468fc074e33128c6b62cbee9a2685da7842508cca05c289"
+      "sha256": "48f7fe4a3cc6c0c0bc76cf487ab3b22423c07be6f4861a9b1166a0f6f56d4773"
     },
     {
       "file": "book/manuscript/10-the-first-rung.md",
-      "sha256": "d1dc5535ed67a8862cef75662d61d2dd87d9273bbeacb834ff50fd1108a93ef9"
+      "sha256": "130a28f712867d0ba44a0da5c4b2d66a248f77a3d530ba60442f7542e7ca26bf"
     },
     {
       "file": "book/manuscript/11-competition-for-future-evidence.md",
-      "sha256": "7df917446ed29d3e3b700f5c3c4c55305b89a717c2097f0020e690f4f52045d6"
+      "sha256": "de8a762ba93c8ef51cefb9b056c48e9372a2eae4e8f368a0de47e1c76b85f4f2"
     },
     {
       "file": "book/manuscript/12-taxing-lost-comparison.md",
-      "sha256": "b35e096a0871c47ec025cd5aac56938e14b5957e1d8190969d42ecc4d266fe4d"
+      "sha256": "43ad288827f8f868e92ae50898b3cc1ca9cf4077549e5df756d9870e0c1745da"
     },
     {
       "file": "book/manuscript/13-an-economics-of-possible-worlds.md",
-      "sha256": "eeb06e473aec4aec72cc5957a6e71ead183021f142ed04d56d8431c2c845888b"
+      "sha256": "33d6861b63fa1969158bfe767a3ac8bf41ee26d13b01a29c27ad6b81de163bc5"
     },
     {
       "file": "book/manuscript/14-epilogue.md",
-      "sha256": "4bd4eca2ab671347827292c99ce01e8b00ecb2f5fc68ebdfae5b2a3d17baf0e1"
+      "sha256": "877acffe777c6627238e7c144959e6876806d62cd412122938735c5c5d21f28f"
     },
     {
       "file": "book/manuscript/90-references.md",
@@ -177,10 +177,10 @@
     },
     {
       "file": "book/manuscript/91-acknowledgments.md",
-      "sha256": "9278ab6a11d194d0965897a0bb566144fe18036bec36c48244f43feff005a263"
+      "sha256": "d3c5894094f3fcef539f99330b1a0619f4dd5b1987b85c8ec15ea9f3590fd348"
     }
   ],
-  "pdf_sha256": "f8570a6a49187227835027f783232c860294a240cd88208aef1de93b6ffefbac",
+  "pdf_sha256": "62c3e8d9981d0fb05376f4a3d52b38278f3f841163a6f70246d8ef9a2862aba6",
   "kdp_sources": [
     "https://kdp.amazon.com/en_US/help/topic/G201953020",
     "https://kdp.amazon.com/en_US/help/topic/G6GTK3T3NUHKLEFX",

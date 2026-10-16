@@ -4,8 +4,8 @@
   "checked_on": "2026-10-16",
   "status": "drafted",
   "target_main_words": 3500,
-  "body_words": 3500,
-  "draft_sha256": "6d04d218bd2e4e70e2211b8bed939b5f9f5f3ec252a56f32084a09640b247cba",
+  "body_words": 3250,
+  "draft_sha256": "0930c263801e701694d0497e5e4abcb8af0015fcc4bb30027cd7c6dde79b21fd",
   "source_checks": "Relevant full-source passages checked. Where publisher access failed, the identified author working-paper version or indexed full-source sections were checked; no independent proof or priority certification is claimed.",
   "sources": [
     {
@@ -210,5 +210,15 @@
       "Documented eBay/Dutch-funding additions give the introduction material beyond the prologue"
     ]
   },
-  "latest_revision": "Added the author’s reflection on the book as an adjacent-possible product, credentials and reach, and welcoming wider use with attribution. Condensed repeated policy cautions to preserve the word allowance; no new external factual claim."
+  "latest_revision": "Added the author’s reflection on the book as an adjacent-possible product, credentials and reach, and welcoming wider use with attribution. Condensed repeated policy cautions to preserve the word allowance; no new external factual claim.",
+  "council_removal_revision": {
+    "date": "2026-10-17",
+    "manuscript_sha256": "0930c263801e701694d0497e5e4abcb8af0015fcc4bb30027cd7c6dde79b21fd",
+    "scope": "Recurring fictional council and named supplier storyline removed; direct argument and documented evidence retained.",
+    "removed_reader_notes": [],
+    "source_checks": "Existing claim-specific checks reused for unchanged facts and published model results. No new interviews, reported trial, welfare estimate or proof certification.",
+    "continuity": "Affected explanations and neighboring transitions reviewed; chapter openings/endings checked across the book.",
+    "historical_records": "Earlier narrative and review entries remain historical; current reader wording is authoritative."
+  },
+  "note_words": 733
 }

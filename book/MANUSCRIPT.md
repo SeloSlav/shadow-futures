@@ -1,6 +1,6 @@
 # Shadow Futures manuscript
 
-Martin Erlic · Working manuscript · 76,725 of 80,000 main-text words
+Martin Erlic · Working manuscript · 65,280 of 80,000 main-text words
 
 The approved budget is 2,500 words for the prologue, 3,500 for the introduction, twelve chapters averaging 6,000 words (72,000 combined), and a 2,000-word epilogue. Notes, references, and acknowledgments have a separate 10,000–15,000-word allowance.
 
@@ -9,27 +9,27 @@ Counts below come from the current chapter files. Drafted sections still require
 | Component | Target | Written | Stage |
 | --- | ---: | ---: | --- |
 | [The other life of a song](manuscript/00-prologue.md) | 2,500 | 2,485 | reviewed |
-| [The evidence success leaves behind](manuscript/01-introduction.md) | 3,500 | 3,500 | reviewed |
-| [The winner and the explanation](manuscript/02-the-winner-and-the-explanation.md) | 6,000 | 6,000 | reviewed |
-| [The comparison budget](manuscript/03-the-comparison-budget.md) | 6,000 | 5,940 | reviewed |
-| [Shadow futures](manuscript/04-shadow-futures.md) | 6,000 | 5,942 | editorial reviewed sources pending |
-| [The histories that became infrastructure](manuscript/05-the-histories-that-became-infrastructure.md) | 6,000 | 6,013 | reviewed |
-| [Who gets to be tested](manuscript/06-who-gets-to-be-tested.md) | 6,000 | 6,054 | reviewed |
-| [Who deserves the winnings](manuscript/07-who-deserves-the-winnings.md) | 6,000 | 5,993 | reviewed |
-| [The intelligence factory](manuscript/08-the-intelligence-factory.md) | 6,000 | 5,998 | reviewed |
-| [A billion answers](manuscript/09-a-billion-answers.md) | 6,000 | 5,858 | reviewed |
-| [The first rung](manuscript/10-the-first-rung.md) | 6,000 | 6,022 | reviewed |
-| [Competition for future evidence](manuscript/11-competition-for-future-evidence.md) | 6,000 | 5,353 | reviewed |
-| [Taxing lost comparison](manuscript/12-taxing-lost-comparison.md) | 6,000 | 3,380 | reviewed |
-| [An economics of possible worlds](manuscript/13-an-economics-of-possible-worlds.md) | 6,000 | 6,251 | reviewed |
-| [The next opportunity](manuscript/14-epilogue.md) | 2,000 | 1,936 | reviewed |
+| [The evidence success leaves behind](manuscript/01-introduction.md) | 3,500 | 3,250 | reviewed |
+| [The winner and the explanation](manuscript/02-the-winner-and-the-explanation.md) | 6,000 | 5,648 | reviewed |
+| [The comparison budget](manuscript/03-the-comparison-budget.md) | 6,000 | 5,342 | reviewed |
+| [Shadow futures](manuscript/04-shadow-futures.md) | 6,000 | 4,560 | editorial reviewed sources pending |
+| [The histories that became infrastructure](manuscript/05-the-histories-that-became-infrastructure.md) | 6,000 | 5,688 | reviewed |
+| [Who gets to be tested](manuscript/06-who-gets-to-be-tested.md) | 6,000 | 5,779 | reviewed |
+| [Who deserves the winnings](manuscript/07-who-deserves-the-winnings.md) | 6,000 | 5,199 | reviewed |
+| [The intelligence factory](manuscript/08-the-intelligence-factory.md) | 6,000 | 5,295 | reviewed |
+| [A billion answers](manuscript/09-a-billion-answers.md) | 6,000 | 5,139 | reviewed |
+| [The first rung](manuscript/10-the-first-rung.md) | 6,000 | 4,643 | reviewed |
+| [Competition for future evidence](manuscript/11-competition-for-future-evidence.md) | 6,000 | 4,526 | reviewed |
+| [Taxing lost comparison](manuscript/12-taxing-lost-comparison.md) | 6,000 | 2,275 | reviewed |
+| [An economics of possible worlds](manuscript/13-an-economics-of-possible-worlds.md) | 6,000 | 4,506 | reviewed |
+| [The next opportunity](manuscript/14-epilogue.md) | 2,000 | 945 | reviewed |
 
-Current back matter: 13,423 words, including chapter notes.
+Current back matter: 12,848 words, including chapter notes.
 
 | Back matter | Written | Stage |
 | --- | ---: | --- |
 | [References](manuscript/90-references.md) | 2,667 | drafted |
-| [Acknowledgments](manuscript/91-acknowledgments.md) | 123 | drafted |
+| [Acknowledgments](manuscript/91-acknowledgments.md) | 110 | drafted |
 
 [Read the continuous working manuscript](drafts/Shadow_Futures_Complete_Manuscript.md), with endnotes, references and acknowledgments. It remains a draft pending the whole-book review.
 

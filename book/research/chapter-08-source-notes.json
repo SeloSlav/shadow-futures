@@ -4,9 +4,9 @@
   "checked_on": "2026-10-16",
   "status": "reviewed",
   "target_main_words": 6000,
-  "body_words": 5849,
-  "note_words": 926,
-  "draft_sha256": "c2c44f05a3f11d897234ee2531a05306eda057a050bfb35cec3de791cf58f8cb",
+  "body_words": 5139,
+  "note_words": 801,
+  "draft_sha256": "48f7fe4a3cc6c0c0bc76cf487ab3b22423c07be6f4861a9b1166a0f6f56d4773",
   "source_checks": "Relevant full primary passages checked in published/versioned research papers, original predecessor papers and attributed developer report. Versions, assumptions, measured objectives, author interpretations, simulations and hypotheticals remain distinct. Agent/capital revision: Original Carlini and June 2025 Anthropic architecture passages checked; developer reports and hypothetical contracts distinguished.",
   "sources": [
     {
@@ -321,5 +321,14 @@
     ],
     "draft_sha256": "c2c44f05a3f11d897234ee2531a05306eda057a050bfb35cec3de791cf58f8cb",
     "review_scope": "Complete original chapter body and notes read in sequence before revision; revised source passages and all replacement sections read with neighboring retained passages. Exact current manuscript hash recorded. Existing primary-source boundaries remain; no independent mathematical proof or priority certification."
+  },
+  "council_removal_revision": {
+    "date": "2026-10-17",
+    "manuscript_sha256": "48f7fe4a3cc6c0c0bc76cf487ab3b22423c07be6f4861a9b1166a0f6f56d4773",
+    "scope": "Recurring fictional council and named supplier storyline removed; direct argument and documented evidence retained.",
+    "removed_reader_notes": [],
+    "source_checks": "Existing claim-specific checks reused for unchanged facts and published model results. No new interviews, reported trial, welfare estimate or proof certification.",
+    "continuity": "Affected explanations and neighboring transitions reviewed; chapter openings/endings checked across the book.",
+    "historical_records": "Earlier narrative and review entries remain historical; current reader wording is authoritative."
   }
 }

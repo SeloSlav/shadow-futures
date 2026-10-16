@@ -2,43 +2,43 @@
 
 ## Shadow futures
 
-### The first contract, again
+### One economy, different histories
 
-Give Birch the first contract.
+The same recording can have another history.
 
-We are back at the fictional procurement desk. The buyer has the same needs. Aster and Birch begin with the same staff, products, and resources they had before. Their proposals contain the same information. Whatever effect better engineering has on the chance of winning remains unchanged. This time, however, the first award goes to Birch. A possibility that existed in the original contest becomes the beginning of another history.
+In MusicLab, Lockdown finished first in one experimental world and fortieth in another. The separate groups encountered the same recordings but different developing popularity records. Their charts supply observed alternatives to the idea that one realized ranking explains itself.[^c3-2]
 
-Birch now has a reference customer. Under the buyer's existing rules, that reference helps its next application. Aster must compete against a supplier with experience of the buyer's systems. Suppose both companies follow a simple rule: after winning a contract, they put part of the proceeds into the product. Birch consequently invests more than it did in the history where Aster won first. The rule is unchanged. The resources available under the rule have changed.
+A theoretical replay asks us to hold the underlying effects, starting conditions, and response rules fixed while allowing early allocations to differ. Later investment and behavior can then change because they respond to a different history. The economy follows the same rules without producing identical decisions.
 
-We cannot require the later investment figures to remain identical and still call this the same responsive economy. Doing so would prevent the companies from responding to success in the way we assumed they would. A replay preserves how behavior responds to events. It permits different events, and therefore different behavior. Birch's later improvement can be real even if the opportunity to finance it began with a different early award.
+Holding every later input fixed would describe another exercise. If success normally finances investment, suppressing that response changes the assumed economy. A replay preserves the rule connecting opportunity and behavior, rather than freezing behavior regardless of what happens.
 
-Aster might still win the next contract. Birch's new reference could help without overcoming Aster's strengths. Or Birch might win again, extend its lead, and eventually become the supplier the buyer scarcely considers replacing. Neither ending is specified merely by moving the first award. We must follow the same rules forward and allow their uncertainties to operate. Otherwise we have written a victory for Birch into the exercise before learning anything from it.
+A different early allocation need not permanently reverse the outcome. An initial lead can fade, be overcome, or compound. A model must allow the original rules and their uncertainties to determine which follows. Otherwise its preferred alternative has been written into the conclusion.
 
-This alternative record is a shadow future: a feasible allocation history over a stated horizon, under the same underlying input effects, starting conditions, and response rules, in which someone receives a different reward. The idea concerns the histories an economy could generate, including those it never produces. It does not require a world in which everyone behaves identically after receiving different opportunities.[^c3-1]
+A shadow future is a feasible allocation history over a stated horizon under the same underlying input effects, starting conditions, and response rules. Different events can produce different subsequent behavior under unchanged rules. The object describes histories the modeled economy can generate, including those it never realizes.[^c3-1]
 
-MusicLab supplied a small, observable counterpart. The researchers placed the same set of songs in separate markets. Lockdown could finish first in one and fortieth in another without the recording changing. Different listeners entered those markets; the experiment did not clone people and send each clone down another life. Its design nevertheless let the researchers observe variation that a single chart would have concealed.[^c3-2]
+MusicLab's groups contained different listeners rather than identical people sent down cloned lives. Its observable parallel markets therefore illustrate historical variation without constituting literal independent reruns of every feature of an economy.[^c3-2]
 
-With Birch, the replay is imagined. With MusicLab, parallel markets were created and their outcomes recorded. That difference matters. A thought experiment can explain what we are trying to learn. It cannot, by itself, tell us how often a particular alternative would have occurred. For that we need evidence and a defensible account of the process producing the outcomes.
+MusicLab recorded parallel markets. A theoretical replay describes histories implied by specified rules. The first supplies experimental observations; the second helps define what we seek to explain. Estimating the probability of an imagined history still requires evidence about the process producing it.
 
-An ordinary purchasing archive contains the first contract and everything that followed it. It does not contain Birch's first reference from a contract Birch never received. It does not contain the product development financed from that missing revenue. Those omissions are normal consequences of living through one history. They become economically important when we ask the archive to explain how much of the winning supplier's eventual advantage came from its productive inputs.
+An ordinary archive contains the investments and outcomes that occurred. It lacks development that would have been financed by revenue never received. That omission becomes important when we ask the realized record to explain the effect of productive inputs on success.
 
 ### What changes, and what stays
 
-The replay gives Birch a chance under the original arrangement. A different exercise asks what would happen if Birch improved its engineering before the first award. That changes an input. Another asks what would happen if the buyer reserved a pilot for an untested supplier. That changes a purchasing rule. These are interventions. They belong in economic analysis, but they answer different questions from rerunning the original contest.
+Changing an input before an allocation is an intervention. Changing the rule that allocates opportunities is another intervention. Both are legitimate economic questions, but neither is the same exercise as replaying the original process under unchanged conditions.
 
 For the engineering question, we might specify an additional month of work on reliability, a particular starting date, and the contracts available over the next two years. We would then compare expected rewards with and without that extra work, allowing later investment and exposure to respond as the model says they would. The result is a contribution measure for that intervention and horizon. It is not simply the difference between whichever two histories happen to interest us.
 
 Consider the customer-support study introduced in the prologue. Brynjolfsson, Li, and Raymond examined the introduction of an AI assistant and measured changes in agents' work, including issues resolved per hour. Their published study found average gains, with larger gains among less experienced and lower-skilled agents. The comparison concerned access to a particular assistance system in a particular workplace. It did not measure each worker's share of the value created by the entire organization.[^c3-3]
 
-For our supplier, an equally precise question would identify what the engineering work changes. Does it alter reliability? Does the buyer observe that change? Does it affect the probability of receiving a contract? An intervention on work and an intervention on the buyer's knowledge of that work can have different consequences. Both differ from simply assigning Birch the early contract while leaving productive inputs and their effects alone.
+A contribution question must specify its target. Does more engineering change reliability, whether customers observe reliability, or the chance of receiving revenue? An intervention on work and one on information about work can have different consequences.
 
-Suppose Birch invests more after its unexpected first win and eventually builds the better product. We should count the later engineering as real work. We should also recognize the role of the first opportunity in making that work possible. Treating the two explanations as mutually exclusive would obscure the mechanism. An opportunity can cause investment, and investment can cause improvement. Explaining the resulting reward requires understanding the chain.
+Opportunity can finance investment, and investment can improve performance. Explaining the resulting reward requires tracing that chain. Recognizing the role of an early allocation does not make later productive work disappear.
 
 MusicLab's separate markets help us see variation in success under a common experimental arrangement. They do not tell us the effect of rewriting Lockdown's chorus. To estimate that effect, we would need a design that compared the relevant recordings under suitable conditions. The song's different rankings and the effect of changing the song are related questions, but the first does not supply the answer to the second.
 
 This is why contribution needs an explicit comparison. An additional engineer, a better recording, and a new distribution route are different changes. Their effects may unfold over different periods. A large reward could be sensitive to one and barely sensitive to another. Saying that success reflects contribution leaves these choices unresolved. Naming the change makes the claim something we can investigate.
 
-It also keeps the analysis from becoming a contest between stories chosen after the winner is known. We cannot quietly improve Birch's product in its replay, give it a better starting position, and then attribute the resulting success to a different first award. Each change needs its own place in the argument. Shadow futures hold the economic rules steady so that historical variation can be distinguished from changing those rules.
+This prevents explanations from becoming stories chosen after the outcome. Improving an alternative's initial quality, changing its starting position, and changing its early allocations are different operations. Each needs its own place in the analysis.
 
 ### The fork in the laboratory
 
@@ -46,7 +46,7 @@ There is a striking predecessor involving an animal with no procurement departme
 
 Earlier passages could influence later choices through deposited pheromone. The authors considered a model in which the response to the accumulated trail depended on unknown settings. They studied estimation from repeated trials and the limits of estimation from a single sequence. Their paper already connected reinforcement with difficulties recovering parameters, even from an indefinitely extended path. That problem predates this book and my comparison-budget argument.[^c3-4]
 
-The procurement example has the same broad statistical temptation. Aster's long run of contracts seems to promise that enough entries will eventually explain why it wins. Yet every new contract may follow the route made attractive by earlier contracts. A longer record of that route need not offer the same information as watching the process begin again. The ants make the difference between continuation and repetition unusually easy to picture.
+The ants expose a statistical temptation common to reinforced processes: a longer record of the established route seems to promise an eventual explanation of why it prevailed. Yet continuing that route differs from observing the process begin again.
 
 The fork was carved into white PVC and partly covered by Plexiglas. No food was present during the experiment. Only one ant occupied the apparatus at a time, and it could not return after choosing a branch. The researchers designed these restrictions to make their behavioral assumptions more credible: an arriving ant encountered the trail left by predecessors, rather than other ants at the junction. The apparatus helped define what a choice could tell them.[^c3-4]
 
@@ -54,7 +54,7 @@ The resulting paths did not all look settled. In fewer than ten of the fifty tri
 
 Le Goff and Soulier had already shown that a long history of reinforced choices need not reveal the forces behind those choices. In a market, that raises a further question: can the opportunities left open to rivals tell us how much we can learn about why the winner won? The comparison budget gives those opportunities a precise meaning and connects them to the problem of measuring contribution.
 
-Our buyer can now ask a sharper question about the archive. How much opportunity did its purchasing process retain to distinguish input effects? A thousand contracts might contain substantial relevant variation. A much longer sequence might continue a route established near the beginning. The number of entries cannot settle which description applies. We must inspect the design, its chances, and the outcomes it records.
+The statistical question is how much opportunity the process retains to distinguish input effects. A shorter record can contain substantial relevant variation while a much longer one follows an established route. The design, assignment chances, and measured outcomes determine the difference.
 
 ### A million entries are not a million beginnings
 
@@ -62,11 +62,11 @@ Before considering the strongest result, take a familiar example that goes the o
 
 A long sequence containing about three heads for every tail will increasingly favor the second explanation. Under the usual assumption that the tosses are independent with an unchanged bias, the proportion of heads supplies information that keeps accumulating. We do not need to watch every imaginable coin sequence. The one we observe can become enough to distinguish the two fixed biases reliably as the number of tosses grows.
 
-Birch's case cannot rest on the observation that another history was possible. The coin has other possible histories too. To establish a lasting attribution limit, we need to show something about the information produced along the actual process. In particular, the remaining observations must fail to separate the relevant explanations enough. The existence of unobserved alternatives is a starting point for the question, not its answer.
+An unobserved possible history does not establish a lasting attribution limit. A coin has other possible histories too. The issue is whether observations along the actual process separate the relevant explanations sufficiently as the record grows.
 
 Return to Yahoo's news experiment from the previous chapter. Its randomized article displays and recorded clicks were designed to support a particular evaluation. The logging mechanism mattered because the researchers did not observe how the same encounter would have responded to every other article. Their analysis used the opportunities the design actually generated, with assumptions about those encounters and the evaluation procedure.[^c3-5]
 
-For the fictional contract archive, we likewise need to define the complete experiment. If the archive records awards alone, that is one information set. If it also records measured reliability, independent product tests, and informative performance outcomes, that is a larger one. We cannot announce that awards reveal too little and then disregard a laboratory result that directly measures the input effect we want to recover.
+The complete experiment must be specified. Awards alone supply one information set; measured reliability and independent tests can supply another. A laboratory result directly informative about the input effect cannot be excluded when evaluating what the record reveals.
 
 In the model, the information limit concerns a specified family of candidate explanations for how productive inputs affect allocation. A candidate explanation is not an arbitrary story about the company. It supplies probabilities for the recorded outcomes at each stage. Two such explanations can disagree about engineering's importance while using the same purchasing procedure and the same rules for how suppliers respond to earlier contracts.
 
@@ -76,41 +76,41 @@ An ant route, a song chart, or a supplier's market share cannot establish these 
 
 ### When waiting cannot finish the job
 
-The conditions become clearer at the procurement desk. First, both candidate explanations must describe a common experiment. The input and state rules are fixed functions of the history available before each award. If winning finances more engineering, both explanations use that same investment rule. They may assign different importance to the resulting engineering. They do not quietly assign the suppliers different behavioral rules to fit the same record.
+First, the candidate explanations must describe a common predictable experiment. Input and state rules are fixed functions of the information available before each award. If success finances investment, each explanation retains that response rule rather than changing behavior to fit the observed record.
 
-Second, the explanations retain the same possible next recipients after every history. Suppose one says Birch could receive a contract and the other says Birch's winning is impossible. A Birch award would then be decisive against the latter. The theorem does not hide such a decisive observation inside a claim that comparison has become scarce. Its shared-possibility condition excludes that shortcut.
+Second, the candidate explanations retain the same possible next recipients after every history. If an award is possible under one explanation and impossible under another, that award could decisively distinguish them. The shared-possibility condition excludes this shortcut.
 
 Think again of the coin. Both fixed biases permit heads and tails at every toss, yet the biases can be distinguished in the long run. Shared possible outcomes therefore do not suffice. Third, the model requires the separation between candidate next-award distributions to be controlled by the remaining chance outside the favorite, in each direction of the comparison. As opportunities diminish, the experiment's ability to separate those explanations diminishes with them.
 
 For the bounded input differences in my specified allocation model, this control can be established. It is not a license to disregard a rare result of unlimited diagnostic power. If a new instrument would reveal engineering's effect directly, its information must enter the analysis. The allocation budget cannot constrain information that the investigator has simply left outside the recorded experiment.[^c3-1]
 
-Fourth, under each candidate explanation the cumulative lifetime chance outside the favorite must remain finite, apart from events assigned probability zero. Merely seeing Aster win almost everything does not establish that condition. Nor does seeing Birch's chance decline for several years. We need a justified account of the whole process, including how rapidly those chances decline and what prevents them from reopening.
+Fourth, under each candidate explanation the cumulative lifetime chance outside the favorite must remain finite, apart from events assigned probability zero. A dominant observed share or several years of declining rival chances cannot establish that property of the whole process.
 
-The strong-reinforcement models discussed in Chapter 2 provide one sufficient setting under their specified assumptions. Ordinary positive feedback does not provide it automatically. A buyer who keeps a persistent pilot route may preserve accumulating comparison. Another buyer might allow the route to shrink fast enough that its lifetime total is bounded. These are different processes even if Aster's observed market share initially looks similar in both.
+The strong-reinforcement models discussed in Chapter 2 supply one sufficient setting under specified assumptions. Ordinary positive feedback does not. A persistent route to trials can preserve accumulating comparison; chances shrinking fast enough can have a bounded lifetime total. Similar observed shares can arise from either arrangement.
 
 Under all these conditions, the complete history cannot support a single contribution-estimation method that becomes reliably accurate under every candidate explanation. For a contribution target that differs across the explanations, no universal procedure eventually recovers the right value everywhere merely by continuing to watch this one history. This includes procedures more sophisticated than simply equating sales with merit. Better calculation cannot create the missing separation.[^c3-6]
 
 The technical step concerns collections of histories. Under these conditions, a collection assigned probability zero by one explanation has probability zero under the other. Their probabilities need not be equal otherwise. A universally reliable method would have to separate histories enough to return different contribution values under different explanations. The model establishes that continuing this experiment cannot deliver that separation. A method could work under one candidate, but cannot promise accuracy under them all.
 
-For the buyer, the practical failure is a promise that time alone will settle the argument. Waiting adds contracts, invoices, and operational experience. Those observations may be useful for many purposes. Under the theorem's conditions, however, extending this particular record cannot deliver an attribution procedure whose error vanishes under all the competing explanations. The limitation concerns what the experiment produces, rather than the patience or intelligence of the analyst.
+Under the theorem's conditions, continuing the specified history cannot deliver an attribution procedure whose error vanishes under all candidate explanations. Operational experience can remain useful for other purposes. The limitation concerns the information produced, rather than an analyst's patience.
 
 The result also reaches an apparently modest alternative: avoid estimating a precise number and simply decide which of two different contribution values is correct. Under the same conditions, there is no sequence of such tests for which both kinds of mistake vanish. One cannot escape the attribution problem merely by replacing a detailed merit calculation with a binary verdict.
 
 This is a conditional statement about a class of economic histories, supported by classical probability tools. It is not a finding that actual markets always exhaust their comparisons. The ambitious part is the connection between a defined allocation quantity and a persistent limit on learning input effects. Keeping the conditions visible makes that connection stronger, because it shows what evidence would be needed to apply or challenge it.
 
-### What the contracts still reveal
+### What the record still reveals
 
-The buyer is not left knowing nothing. Aster has delivered software. Recorded outages, completion times, and accepted work tell the buyer things about the service it received. A contract may establish a legal claim to payment. A proposal can demonstrate that engineers completed a task. The attribution limit does not erase these facts, or turn all explanations of them into equally good explanations.
+The attribution limit leaves many facts intact. Recorded outages, completion times, and accepted work can establish performance. Contracts can establish payment obligations. The result concerns the recovery of a defined contribution effect, rather than a general absence of knowledge.
 
-Even the allocation record can favor one account over another. Perhaps Aster repeatedly wins just when its observed engineering advantage is unusually large. That pattern could support a stronger role for engineering. The theorem does not require rival explanations to assign identical probabilities to the pattern. It establishes a limit on driving attribution error to zero across the specified alternatives as one history continues. Evidence can change our judgment without becoming capable of completing that task.
+Even the allocation record can support one explanation more strongly than another. Awards that repeatedly coincide with an observed productive advantage may increase confidence in its effect. The theorem limits the ability to drive attribution error to zero across the specified alternatives; it does not require all explanations to receive equal support.
 
-MusicLab makes a useful distinction here. The separate markets showed considerable variation in outcomes, but the original study did not find that the songs' appeal was irrelevant. Social influence changed the relationship between appeal and success. Recognizing the scope for different histories does not require treating every song as interchangeable, any more than it requires treating Aster's working product as an illusion.[^c3-2]
+MusicLab showed substantial variation across worlds without finding that musical appeal was irrelevant. Social influence changed the relationship between appeal and success. Recognizing alternative histories does not require treating every song as interchangeable.[^c3-2]
 
-For the buyer, there are at least three claims worth keeping apart. Aster performed the contracted work. Aster was likely to win under the purchasing process after its accumulated history. Aster's inputs explain a particular amount of its reward. The first concerns execution, the second a probability under the process, and the third attribution. Strong evidence for the first two can coexist with an unresolved third.
+Execution, predictability, and attribution deserve separate judgments. Demonstrating that work was completed, correctly predicting who receives the next reward, and estimating how much an input changes that reward are different achievements. Strong evidence for the first two can coexist with uncertainty about the third.
 
 We also should not turn a limitation across candidate explanations into a claim about the exact amount of uncertainty every observer must feel today. An observer's prior information may favor a narrow range. A separate engineering test may rule out some candidates. A practical decision may be insensitive to what remains. The theorem concerns a specified experiment and target, not a command to suspend all economic judgment until the entire past can be replayed.
 
-Suppose the buyer would choose Aster even under the most Birch-favorable explanation still under consideration, because migration is expensive and Aster meets the current need. The purchasing decision could be justified without settling the attribution question. Another buyer, deciding whether to finance a new generation of products, might care greatly about the same unresolved input effect. Uncertainty acquires practical significance through the decision it could change.
+That uncertainty matters through the decisions it could change. An organization may have enough evidence to renew a reliable service despite unresolved attribution, while an investor assessing a different technology needs the missing input effect. Complete explanation is not a prerequisite for every practical choice.
 
 ### Two water supplies, one city
 
@@ -120,21 +120,21 @@ Snow sought the water supply of houses where fatal attacks had occurred. This wa
 
 The inferential opportunity came from a change in supply and the intermingling of customers. Snow did not observe the same household through two literal epidemics, one under each water source. He investigated an existing contrast and argued that the groups' surrounding conditions made it informative. That argument about comparability carried the causal claim; the bare existence of two companies would not have done so.
 
-This matters for Birch. Perhaps different buyers already created variation that could answer our engineering question. Perhaps an earlier policy change opened a useful comparison. Before concluding that the archive cannot identify contribution, an investigator should look for such variation and assess whether its assumptions hold. A theorem about an impoverished observation scheme cannot justify ignoring a richer one that is available.
+Before concluding that a record cannot identify contribution, investigators should examine variation supplied by other customers, policy changes, and additional measurements. A result about a sparse observation scheme cannot justify ignoring a richer one that exists.
 
-Snow's example also gives verification a precise role. Establishing which water a household received helped define the comparison. It did not eliminate the need to consider whether the groups were comparable. Likewise, verifying Birch's engineering hours would establish an input; understanding their effect still requires a suitable design. Good measurement and a useful comparison can support each other without becoming the same task.
+Snow's example gives verification a precise role. Establishing which water a household received defined the comparison; it did not eliminate the need to assess whether the groups were comparable. Measuring an input and identifying its effect similarly require distinct, complementary work.
 
 An economy need not reproduce its entire past to learn a causal effect. It needs evidence that distinguishes the particular alternatives relevant to that effect. Sometimes naturally occurring variation provides it; sometimes a designed trial helps. The finite-budget argument identifies a setting where continuing the specified record cannot finish that job. It directs us toward better evidence, rather than away from causal investigation.
 
-### Agreeing about the next contract
+### Agreeing about the next allocation
 
-Two analysts can reach the same forecast for Aster's next contract while disagreeing about engineering's contribution to Aster's success. One puts more weight on productive inputs. The other puts more weight on accumulated exposure. After observing the same long history, both expect Aster to keep winning. The shared prediction sounds like a verdict on the explanation. It need not be one.
+Two explanations can converge on the same prediction for the next allocation while assigning different roles to productive inputs and accumulated advantage. Agreement about what comes next need not settle why the process took its present form.
 
 David Blackwell and Lester Dubins established a classical result in 1962 about conditional forecasts coming together as information accumulates. Under an absolute-continuity condition relating the observers' probability laws, their conditional distributions for the future merge. This is a precise result with assumptions, rather than a general claim that everyone who watches the same facts must eventually agree.[^c3-7]
 
 In my finite-budget setting, the required relationship between the fixed candidate history laws is established by the preceding argument. Blackwell and Dubins's result then applies: conditional forecasts of the future allocation sequence merge, even though a universally reliable recovery of the differing contribution values remains impossible. Both pieces matter. Forecast agreement follows from classical work; its coexistence with this attribution limit follows from the specified market model.
 
-For the procurement desk, the distinction is useful well before any limiting result. Correctly expecting Aster to win the next award can help a supplier plan staffing. It need not tell the buyer how much changing engineering would affect rewards. The forecast follows the process already in motion. The contribution question asks about an intervention within a defensible account of that process.
+Forecasting follows the process already in motion. Contribution asks what an intervention would change within a defensible account of that process. Each can be useful without answering the other's question.
 
 Predictive agreement alone does not establish an attribution problem. Return to the coin with a fixed but unknown bias. Imagine two observers who begin with different reasonable probability distributions over possible biases. Watching the same independent tosses can bring their forecasts together while the observed frequency also reveals the bias. Their growing predictive agreement is perfectly compatible with successful parameter learning.
 
@@ -148,55 +148,53 @@ The distinction between prediction and parameter recovery has another establishe
 
 Imagine measuring soil across a field and using the readings to predict conditions between sampling points. Two models might increasingly agree about those predictions while leaving some of their settings uncertain. The forecasts could become useful before every detail of the underlying variation was known.
 
-The sampling arrangement matters. Filling the gaps inside one fixed region is a different way of collecting more data from expanding the region. Zhang explicitly distinguished those settings. Likewise, continuing Aster's established contract history differs from creating additional informative beginnings. More observations need to be described by how they are generated, not simply counted and declared sufficient.
+The sampling arrangement matters. Zhang distinguished filling gaps within one fixed region from collecting data over an expanding region. In reinforced allocation, continuing one established history likewise differs from observing additional informative beginnings. More data must be described by how they are generated.
 
-Zhang had already shown how forecasts could improve without revealing every setting of the model behind them. At the procurement desk, the question becomes whether we can predict the next contract while remaining unable to tell what another month of engineering would change.
+Zhang showed how prediction could improve without identifying every underlying model setting. The allocation question has a related form: whether forecasts of the next reward can become accurate while the effect of changing an input remains unresolved.
 
-For Aster's engineers, none of this makes a forecast useless. A buyer can predict that the existing service will handle tomorrow's workload and act on that prediction. The additional question is whether the same evidence supports a claim about what more engineering, a different supplier, or another access rule would do. A prediction can be valuable within its task while leaving those changes unresolved.
+A prediction of tomorrow's workload can remain valuable while leaving the effects of more engineering, another supplier, or a different access rule unresolved. The conclusion is about the scope of an inference, rather than the usefulness of prediction itself.
 
 Consider an AI buyer comparing forecasts of its current system's responses with estimates of the benefit of switching systems. Its logs may be excellent for the first problem. They may contain few cases in which another system was tried under comparable conditions. This is a hypothetical purchasing problem, not a conclusion about any named model. Its point is that the relevant comparison follows the decision being considered.
 
 ### What a simulation can supply
 
-Suppose the buyer now builds a simulation of Aster and Birch. It enters their starting resources, the purchasing procedure, and a proposed effect of engineering. It specifies how receiving a contract changes investment and exposure. It runs the economy repeatedly, obtaining many histories. In some Birch wins early; in others Aster does. The resulting distribution makes the implications of those assumptions visible.
+Simulation makes this distinction concrete. Specify starting resources, allocation rules, input effects, and responses to success, then run the modeled process repeatedly. The distribution of histories reveals what those assumptions permit.
 
-That is useful work. The simulation can show that a pattern the buyer expected is incompatible with the rules it supplied. It can reveal whether an imagined Birch success is plausible under those rules or requires an extraordinary sequence. It can help compare a persistent pilot policy with one that gradually closes. But each result remains conditional on the rules and input effects entered into the exercise.
+A simulation can expose contradictions, show that an imagined outcome is rare under the chosen rules, or compare the implications of persistent and diminishing exploration. Its conclusions remain conditional on the rules and effects entered into it.
 
 The MusicLab researchers could compare actual recorded outcomes across their experimental worlds. A simulated procurement market does not acquire the same evidential status merely because it contains eight worlds, eight hundred, or eight million. Increasing the number of runs can reduce uncertainty about what the simulator implies. It does not independently validate the simulator's account of how engineering affects contract awards.
 
 Take the attribution problem directly. Suppose two candidate input effects remain compatible with the evidence. Run the simulation under one and it supplies one distribution of shadow futures. Run it under the other and it supplies another. A precise average inside either simulation does not tell us which candidate governs the real procurement process. That is exactly the distinction the attribution question asks us to resolve.
 
-The buyer can use the disagreement constructively. If the two candidates predict different results from a feasible pilot, that pilot may supply useful evidence. If they recommend the same purchasing decision across a reasonable range of assumptions, the decision may be robust to the unresolved attribution. If their policy recommendations sharply diverge, presenting only the simulation with the preferred result conceals a material uncertainty.
+Disagreement between defensible models can identify a useful experiment. Similar recommended actions may instead show that a decision is robust to unresolved attribution. Sharply different recommendations make that uncertainty material; displaying only a preferred simulation conceals it.
 
 Yahoo's offline evaluation illustrates a disciplined use of an existing record. Its researchers specified a logging process and assumptions that allowed that record to evaluate another article-selection policy. The word “replay” there refers to an evaluation method using logged encounters. It does not mean that a complete alternative economic history was observed. What can be learned depends on the design and the question.[^c3-5]
 
-Our procurement simulator should be equally explicit. A change to the first award explores historical variation. A change to engineering explores an input intervention. A reserved pilot explores an institutional intervention. The buyer can investigate all three, but mixing them produces an attractive animation with an unclear interpretation. The discipline of shadow futures is to specify the economy being replayed before describing its other possible lives.
+Simulation should distinguish historical variation, input interventions, and institutional changes. All three can be investigated, but their interpretations differ. Shadow futures first specify the economy being replayed.
 
 ### A comparison with a purpose
 
-There is another way to misuse an unobserved alternative: assume it must have been better. Birch's missing opportunity can stand for a lost superior product, a lost ordinary product, or a product that would have failed. The absence of a trial prevents us from replacing uncertainty with whichever of those stories best serves our argument. Preserving comparison can have value without giving the unchosen supplier a presumption of superiority.
+An unobserved alternative could have been superior, ordinary, or unsuccessful. A missing comparison leaves uncertainty among those possibilities. It supplies no presumption that the unrealized outcome would have been better.
 
 The eBay advertising experiments provide a concrete corrective. As the introduction described, shutting off brand-search advertisements largely shifted traffic to unpaid search results in that setting, undermining a simple interpretation of paid clicks as additional customers. The same research found a different picture for some other searches and users. The experimental comparison refined the claim rather than making all advertising equally valuable or equally wasteful.[^c3-9]
 
-Aster could emerge from a well-designed Birch trial with stronger support. Its engineering advantage might matter more than the buyer expected. Or the trial might expose a migration problem that a product demonstration concealed. An informative result should be able to disappoint the person who requested the experiment. Otherwise the comparison risks becoming a ceremonial route to a decision made in advance.
+An informative experiment must be capable of disappointing the person who requested it. Results can strengthen an established arrangement or reveal costs that demonstrations concealed. A test designed to vindicate a predetermined winner cannot perform that role.
 
-This also clarifies how a contribution estimate differs from a verdict about fairness. Suppose an extra month of engineering raises Birch's expected contract income over two years. That tells us something about a specified input effect. It does not tell us whether the engineers, shareholders, buyer, or taxpayers should receive every associated gain. Contracts, risk, incentives, and moral claims enter that further argument. Statistical attribution cannot settle them by choosing the word “contribution.”
+Estimating the effect of an input also differs from deciding who deserves the resulting gain. Contracts, risk, incentives, and moral claims enter that further argument. Statistical attribution cannot settle them through the word contribution.
 
-Aster may be owed payment under a valid contract even when nobody can untangle every contribution to its success. The buyer made a promise. Uncertainty about the history of the company does not, by itself, cancel that promise.
+A valid contractual claim to payment can survive uncertainty about all the causes of commercial success. A promise and a causal explanation answer different questions.
 
-The same restraint matters for competition policy. A route to test Birch can preserve information, but producing that information consumes resources and may impose costs on users. Whether an access requirement is justified depends on the consequential question it could answer, the quality of the proposed test, and feasible alternatives. A missing comparison is a reason to investigate a decision problem, rather than an automatic instruction to subsidize every challenger.
-
-For the procurement desk, a useful pilot might target a reliability difference likely to change a substantial purchase. Another might repeat what the buyer already knows. Both give Birch work; only the first necessarily addresses the uncertainty under discussion. Counting pilots without examining their content repeats the mistake of counting contracts without asking what they reveal.
+For competition policy, the relevant question is whether preserving a comparison would improve a consequential decision enough to justify its costs. Users may bear disruption, and some experiments may be uninformative. A missing comparison creates a problem to investigate, rather than a reason to subsidize every alternative.
 
 ### Beginning again
 
-How could the buyer learn more? One possibility is to observe independent repetitions of an informative experiment from a common beginning. This is different from waiting for Aster's next contract. Each repetition can reopen an early comparison before one route has accumulated the same history. Under appropriate identification and regularity conditions, repeated finite experiments can support consistent estimation even when extending one reinforced history cannot.[^c3-10]
+One way to learn more is to observe independent repetitions of an informative experiment from a common beginning. Under appropriate identification and regularity conditions, repeated finite experiments can support consistent estimation even when extending one reinforced path cannot.[^c3-10]
 
-In the fictional example, imagine independent purchasing units starting with the same relevant conditions and applying a common pilot design. Independence is an assumption here. It would fail if one unit's early award changed the suppliers' capabilities for all the others. A procurement experiment involving firms that share staff, reputation, and development cannot be called independent simply because the purchase orders bear different office names.
+Separate organizations do not automatically supply independent repetitions. Shared staff, reputation, shocks, or development can connect their outcomes. Independence and a common informative beginning require a design, rather than a change in letterhead.
 
 MusicLab separated its social markets so that popularity information developed within each world. The design created a way to observe differences a single market would not reveal. Applying an analogous design to suppliers would require identifying which influences actually cross between the proposed units. The useful lesson is about constructing a comparison, rather than giving every administrative subdivision the status of another world.
 
-Repetition must also be informative. If Aster and Birch always present identical measured input profiles and nothing in the experiment distinguishes their input effects, beginning again cannot manufacture the missing variation. A hundred fresh versions of the wrong test remain the wrong test. A large comparison budget supplies opportunity; the design must connect that opportunity to the parameter or intervention we seek to understand.
+Repetition must still provide the relevant variation. If measured input profiles are identical across alternatives and no other observation separates their effects, beginning again cannot create the missing contrast. A large budget supplies opportunity; experimental design connects it to the target.
 
 Nor does a repeated experiment have to answer every question. A trial could identify short-run reliability while leaving the consequences of years of accumulated experience unresolved. A buyer might deliberately choose that limited question because it is useful and affordable. The appropriate response is to state the horizon and scope, then use the evidence for what it supports. Modest, interpretable knowledge can improve a decision substantially.
 
@@ -204,13 +202,13 @@ Le Goff and Soulier's contrast between a single reinforced sequence and repeated
 
 ### The histories that get a chance
 
-We can now return to the first contract without making either supplier a hero. Aster's success may involve excellent engineering. Birch might have developed differently after an early opportunity. Those statements can both be true. Shadow futures give the second a precise place in an account that takes the first seriously. They ask what other histories the same productive economy could have generated, before asking which interventions would improve it.
+A productive economy can generate different histories, with real work and achievement along each. Shadow futures give those histories a precise place in an explanation of the one observed. Policy then poses the further question of which changes would improve the attainable outcome.
 
-The buyer has several choices. It can keep purchasing on the existing route, obtain an additional measurement, try a pilot, or redesign how future suppliers receive their first opportunity. The comparison budget helps describe one constraint on learning from allocation. The shadow futures identify the histories left outside the archive. Together they make an explanation of success more demanding than a reading of the final ranking.
+Existing evidence, additional measurements, new experiments, and redesigned allocation rules can support different decisions. The comparison budget describes a constraint within a specified process; shadow futures define histories left outside its realized record.
 
-The next chapters move from the fictional desk to institutions that have governed actual routes into markets. Bell's 1956 patent decree is a case in which access to existing inventions changed under a public rule. The question will be what happened afterward, and what the available evidence can distinguish. It is a historical intervention to study, rather than a universe in which every unchosen inventor is assumed to have succeeded.[^c3-11]
+The next chapters examine institutions governing actual routes into markets. Bell's 1956 patent decree changed access to existing inventions under a public rule. Its consequences can be studied through historical evidence, without assuming every previously excluded inventor would have succeeded.[^c3-11]
 
-At the desk, Birch's first contract remains an unrealized possibility in one history and an actual award in another. We can understand why that difference matters without claiming that the second history was destined to be better. The economic task is to discover which opportunities teach us something valuable, how to preserve them, and when the benefits justify their costs. That task begins before the next winner is known.
+The economic task is to identify which comparisons can teach us something valuable, how to preserve them, and when their benefits justify the cost. That task begins before the next winner is known.
 
 ## Notes
 

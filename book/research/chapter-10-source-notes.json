@@ -4,9 +4,9 @@
   "checked_on": "2026-10-16",
   "status": "reviewed",
   "target_main_words": 6000,
-  "body_words": 5379,
-  "note_words": 720,
-  "draft_sha256": "dcc0dd67926b98f66de9e56b5bded26cd2a22fd0702514413f67e0fd872b2dbe",
+  "body_words": 4526,
+  "note_words": 714,
+  "draft_sha256": "de8a762ba93c8ef51cefb9b056c48e9372a2eae4e8f368a0de47e1c76b85f4f2",
   "source_checks": "Relevant primary passages checked for stated claims. Original Blackwell1953 source gap closed in cross-book audit: publisher scan saved and read, with exact relevant pages recorded; de Oliveira2017 remains separately checked. Prior case checks/version boundaries retained. Current unpublished expanded policy draft read rather than earlier short version. Comparative revision: nine new dated primary records, relevant complete original passages checked; announced objectives, formal terms and actual outcomes separated.",
   "sources": [
     {
@@ -487,5 +487,14 @@
     "status": "Companion citations removed from reader; historical source checks preserved only in superseded_sources.",
     "boundary": "No companion proposition is attributed to a replacement author. Unsupported formal policy results rewritten as conditional examples. Original-source proof-review limits recorded elsewhere remain unchanged.",
     "manuscript_sha256": "7df917446ed29d3e3b700f5c3c4c55305b89a717c2097f0020e690f4f52045d6"
+  },
+  "council_removal_revision": {
+    "date": "2026-10-17",
+    "manuscript_sha256": "de8a762ba93c8ef51cefb9b056c48e9372a2eae4e8f368a0de47e1c76b85f4f2",
+    "scope": "Recurring fictional council and named supplier storyline removed; direct argument and documented evidence retained.",
+    "removed_reader_notes": [],
+    "source_checks": "Existing claim-specific checks reused for unchanged facts and published model results. No new interviews, reported trial, welfare estimate or proof certification.",
+    "continuity": "Affected explanations and neighboring transitions reviewed; chapter openings/endings checked across the book.",
+    "historical_records": "Earlier narrative and review entries remain historical; current reader wording is authoritative."
   }
 }

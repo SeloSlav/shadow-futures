@@ -40,25 +40,23 @@ I will take the work seriously throughout. An explanation that erases the engine
 
 ### Who gets a chance
 
-To keep that task concrete, we will follow two fictional software suppliers, Aster and Birch. They are a thought experiment, not companies I interviewed. Both have capable staff and products a customer could use. Aster wins an early contract. Completing it gives Aster a reference, revenue, and experience with the customer's requirements. Birch remains outside. The next buyer can now inspect a successful delivery from Aster and a proposal from Birch.
+A first success can change the opportunities available afterward. The Kickstarter experiment gave researchers a way to observe that process by assigning early advantages. Later donors could respond sensibly to the record they encountered while helping widen the gap between projects.
 
-Choosing Aster may be a sensible decision. A buyer pays for a service and has good reasons to avoid an expensive failure. The reference can convey useful information. Yet the choice also helps determine what the following buyer will be able to inspect. After another Aster contract, the difference in the suppliers' visible records may be greater still. Sensible individual decisions can create a record in which the alternative is increasingly difficult to evaluate.
-
-The Kickstarter experiment gave researchers a way to see through one part of this difficulty. They knew which early advantages had been assigned. Later donors did not have to be foolish for the resulting gap to emerge. In the supplier thought experiment, the first contract can likewise affect later choices without anybody making an obvious mistake. We need to ask what the sequence allows an observer to learn.
+Each choice does two things: it allocates resources now and helps determine what the next observer will be able to inspect. An expanding record of success can therefore coexist with fewer opportunities to evaluate alternatives.
 
 The comparison budget gives that inquiry a defined object. At each allocation, given the history so far, identify the candidate with the greatest chance of receiving the reward. Take the chance that someone else receives it instead. Accumulate those chances across the opportunities under study. The favorite can change. This measures the allocation chances left outside the current favorite, rather than the number of times an outsider actually wins.[^i2]
 
-Aster's latest contract and Birch's latest rejection do not, by themselves, tell us those chances. The budget is not a count of winners in a spreadsheet. Nor is it the number of firms on a procurement website. To apply the idea empirically, we need evidence about the allocation process. How are eligible alternatives considered? What changes their prospects? What does the buyer record beyond the award? The quantities cannot be read straight from market shares.
+A list of awards and rejections does not, by itself, tell us those chances. The budget is not a count of winners or the number of firms on a website. To apply the idea empirically, we need evidence about the allocation process: which alternatives are eligible, what changes their prospects, and what is recorded beyond the award. The quantities cannot be read straight from market shares.
 
 MusicLab helps us see why a catalogue is insufficient. A title remaining on a list does not mean listeners encounter it on comparable terms. Conversely, a single business can arrange useful tests of alternatives, as eBay did with advertising. Counting organizations and counting informative opportunities are different inquiries. Institutional design can matter as much as the number of logos on the screen.
 
 In my allocation models, the comparison budget limits the information the reward record can provide about productive input effects. Under further conditions, it can remain finite over the whole future of a market. Then adding transactions need not let an observer reliably settle attribution. This is a conditional result about a specified experiment, including its information and rules. It is not a declaration that a dominant company is permanently inexplicable.[^i2]
 
-The small word "finite" does substantial work. If Birch retains a tiny but persistent chance of being selected, those chances can keep accumulating. A shrinking chance can also accumulate without limit if it shrinks slowly enough. Even then, the comparisons must distinguish the input effects we care about. We will investigate both possibilities before using the result to discuss actual institutions.
+The small word "finite" does substantial work. A tiny but persistent chance of selecting an outsider can keep accumulating. A shrinking chance can also accumulate without limit if it shrinks slowly enough. Even then, comparisons must distinguish the input effects we care about. We will investigate both possibilities before using the result to discuss actual institutions.
 
-For now, the practical distinction is enough. Another purchase from Aster can show that Aster continues to deliver well. It may tell us little about what Birch would deliver after similar opportunities. Both statements can be true in the same procurement office. A transaction can be commercially valuable while contributing little new information to one particular comparison.
+Another transaction can demonstrate that an established service continues to work well while revealing little about an untested alternative. Commercial value and information about a particular comparison are separate properties of the same event.
 
-The buyer may nevertheless have useful evidence elsewhere. Birch could have completed a relevant trial for another customer. An independent evaluator could have measured both products on comparable tasks. If those observations help distinguish the contribution explanations, they belong in the inquiry. An argument about missing evidence would be worthless if it manufactured scarcity by discarding the evidence that happens to exist.
+Useful evidence may exist elsewhere: a field experiment, an independent technical evaluation, or measured outcomes beyond the award itself. If those observations distinguish the contribution explanations, they belong in the inquiry. An argument about missing evidence would be worthless if it manufactured scarcity by discarding evidence that exists.
 
 eBay's experiments illustrate this constructive response. The company could change where advertising appeared and observe what followed. Its advertising ledger did not have to remain the last word. Before declaring an attribution problem intractable, we should ask what a feasible intervention could reveal. The comparison budget helps diagnose a specified record; it does not forbid investigators from improving their experiment.
 
@@ -72,11 +70,11 @@ This book is itself a product of the adjacent possible. Kauffman's work, Johnson
 
 If someone else tests the idea more rigorously, explains it better, or helps more people use it, I will be content with that outcome. Credit matters, as does the freedom to challenge a claim. What I do not want is an epistemic monopoly over an idea that could benefit humanity. I want the comparison to remain open, including when an alternative to my account proves better. I cannot ask readers to take shadow futures seriously and then assume that the history giving me the most recognition must be the best one.
 
-I use shadow futures for feasible alternative allocation histories. They share underlying economic conditions, starting points, and response rules. In one history Aster receives the first contract; in another Birch does. Each can invest, learn, and improve differently under those same rules. Kauffman's concept concerns expanding possibilities. My narrower use concerns alternative histories and the evidence one realized history supplies about contribution.[^i2]
+I use shadow futures for feasible alternative allocation histories. They share underlying economic conditions, starting points, and response rules. Different early allocations can produce different later investment, learning, and performance under those same rules. Kauffman's concept concerns expanding possibilities. My narrower use concerns alternative histories and the evidence one realized history supplies about contribution.[^i2]
 
-MusicLab makes those alternatives visible. Lockdown could win or lose without becoming another recording. Ordinary markets rarely keep such convenient parallel charts. A supplier passed over ten years ago cannot simply be wound backward and given its missing customer.
+MusicLab makes those alternatives visible. Lockdown could win or lose without becoming another recording. Ordinary markets rarely keep such convenient parallel charts. An opportunity withheld ten years ago cannot simply be restored with its original circumstances intact.
 
-An imagined better Birch is not evidence. We need a feasible route and a defensible account of how people respond. Changing an early award within unchanged rules explores another history. Changing procurement rules is an intervention. The eBay experiments changed an arrangement; they did not replay an industry.
+An imagined better outcome is not evidence. We need a feasible route and a defensible account of how people respond. Changing an early award within unchanged rules explores another history. Changing the allocation rules is an intervention. The eBay experiments changed an arrangement; they did not replay an industry.
 
 A simulation needs the same discipline. Programmed markets reveal consequences of their assumptions; explaining an actual buyer requires evidence that those assumptions fit.
 
@@ -84,7 +82,7 @@ The historical cases will therefore do distinct jobs. MusicLab displays variatio
 
 There is another distinction we will need: predicting what comes next and explaining why the outcome has the shape it does. In Lockdown's winning world, an observer who expects more listeners to choose an already popular song could make useful forecasts. Those forecasts would not reveal the other world's chart. Getting the next choice right does not itself account for the song's lead.
 
-The same distinction appears at the procurement desk. Aster's familiarity with the buyer might make the next award easy to anticipate. The forecaster could become very confident while the question of productive contribution remained unsettled. Forecasting is valuable, but its success cannot certify a different inquiry simply because both inquiries use the same transactions. We will examine the precise circumstances in which the two can diverge.[^i2]
+Blackwell and Dubins's work helps make the statistical distinction precise: forecasts can converge under specified conditions. Whether the same record identifies productive contribution is another question. We will examine the circumstances in which the two inquiries diverge.[^i2]
 
 The idea that earlier success shapes later opportunity has a substantial ancestry. Merton described the Matthew effect in scientific recognition. Alchian examined economic selection without perfect foresight. Research on increasing returns, reinforced processes, and statistical learning supplies other parts of the foundation. My proposed contribution is the comparison-budget bound, its limit on precision, and its economic interpretation. Those claims can be assessed without pretending that uncertainty or cumulative advantage was discovered here.[^i6]
 
@@ -108,7 +106,7 @@ For antitrust, that suggests an inquiry into what a restriction prevents other p
 
 For taxation, two questions must remain distinct. One concerns the confidence with which a reward can be divided into contribution and positional advantage. Another concerns whether an action that removes useful comparisons imposes costs on others. The first limits a claim about exact attribution. The second could support a corrective policy only with additional evidence about consequences, incentives, and feasible instruments. Neither question supplies a tax schedule by itself.[^i2]
 
-Think again of the fictional contract. A buyer could give Birch a trial, demand better records, commission an independent test, or conclude that the learning is too small to justify disruption. Birch might disappoint; running two systems might waste resources. A feasible alternative, a probable improvement, and a worthwhile policy are different judgments. Taking an alternative seriously includes allowing evidence to defeat our hopes for it.
+Policy must compare feasible arrangements. An independent test, better access to existing records, and a change in market rules produce different evidence at different costs. A feasible alternative, a probable improvement, and a worthwhile policy are different judgments. Taking an alternative seriously includes allowing evidence to defeat our hopes for it.
 
 ### A different account of success
 
@@ -118,7 +116,7 @@ An economy cannot turn every field into an experiment or give every rejected sup
 
 We will begin with the explanations attached to winners, then examine the comparison budget and shadow futures more closely. The historical chapters ask how opportunities harden into infrastructure and who controls access to a test. The AI chapters follow the investment that makes a model possible, its repeated use, and the workers whose abilities develop alongside it. The final chapters consider what competition policy and taxation can reasonably do with the argument.
 
-Throughout, a winner will remain a winner. Lockdown really attracted listeners in the world where it finished first. Aster's fictional engineers really deliver a service. The AI-assisted customer-support worker really resolves problems. What changes is the inference we draw from the outcome: how far it explains itself, which further comparisons would matter, and which institutional choices can be justified with the knowledge available.
+Throughout, a winner will remain a winner. Lockdown attracted listeners in the world where it finished first. The AI-assisted customer-support workers resolved problems. What changes is the inference we draw from an outcome: how far it explains itself, which further comparisons would matter, and which institutional choices can be justified with the knowledge available.
 
 The eBay customer gives us a modest version of that discipline. A complete record of the paid click could have encouraged a confident story about the advertisement. Making another route observable changed the explanation. In more consequential settings, we should be equally interested in the route that never became a record. The first task is to notice when the winner's evidence has become the only evidence we allow ourselves to see.
 
@@ -132,7 +130,7 @@ The eBay customer gives us a modest version of that discipline. A complete recor
 
 [^i4]: George A. Akerlof, “The Market for ‘Lemons’: Quality Uncertainty and the Market Mechanism,” *The Quarterly Journal of Economics* 84, no. 3 (1970): 488–500, especially pp. 488–490. The used-car example is an explicitly simplifying model in the original paper. [Original paper](https://www.sfu.ca/~allen/Ackerlof.pdf). It concerns information asymmetry and selection; the observed-input attribution question here is a distinct problem that can coexist with it.
 
-[^i5]: Arnout van de Rijt, Soong Moon Kang, Michael Restivo, and Akshay Patil, “Field Experiments of Success-Breeds-Success Dynamics,” *PNAS* 111 (2014): 6934–6939, especially pp. 6934–6937, [doi:10.1073/pnas.1316836111](https://doi.org/10.1073/pnas.1316836111). The subsequent product-improvement discussion is a possible mechanism in the explicitly fictional supplier example; the Kickstarter experiment is not cited as measuring that mechanism.
+[^i5]: Arnout van de Rijt, Soong Moon Kang, Michael Restivo, and Akshay Patil, “Field Experiments of Success-Breeds-Success Dynamics,” *PNAS* 111 (2014): 6934–6939, especially 6934–6937. [doi:10.1073/pnas.1316836111](https://doi.org/10.1073/pnas.1316836111).
 
 [^i6]: Robert K. Merton, “The Matthew Effect in Science,” *Science* 159 (1968): 56–63, especially pp. 56–57, [original paper](https://garfield.library.upenn.edu/merton/matthew1.pdf); Armen A. Alchian, “Uncertainty, Evolution, and Economic Theory,” *Journal of Political Economy* 58 (1950): 211–221, especially pp. 211–213, [doi:10.1086/256940](https://doi.org/10.1086/256940). Detailed attribution of increasing returns, reinforcement, estimation failure, and predictive merging follows in Chapters 2–4.
 

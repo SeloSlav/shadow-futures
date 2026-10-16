@@ -47,8 +47,11 @@ existence do not certify that a chapter or the whole book has passed review.
   not a completed literature review.
 - The first draft requires no interviews. Use public primary records and
   published research. The real recurring object is Lockdown by 52Metro in
-  MusicLab. Aster and Birch are explicitly fictional suppliers. Invent no
-  dialogue, private reactions, visits, or biography for real people.
+  MusicLab. Do not use a recurring fictional council, named invented suppliers,
+  or a fictional procurement storyline. Explain the arguments directly and use
+  the documented cases. Brief anonymous numerical or model examples are allowed
+  where they clarify a definition; they must not become an invented narrative.
+  Invent no dialogue, private reactions, visits, or biography for real people.
 - Keep the narrative grounded in documented cases. Weave explanations into
   those cases and return to concrete people, actions, or outcomes frequently;
   avoid long stretches of abstract model exposition. The prologue must sell

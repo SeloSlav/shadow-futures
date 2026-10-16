@@ -60,13 +60,13 @@ Scale can help in several different ways. The work of developing a useful system
 
 A second possibility concerns idle capacity. Imagine a shared facility serving customers whose compatible workloads arrive at different times. Combining their demand could keep equipment occupied more consistently than separate facilities would. This is a conditional illustration of an advantage from pooling, not evidence that every large operator uses its machines efficiently or that every workload can be scheduled interchangeably.
 
-Neither advantage requires the customer-facing services to become identical. A common facility could support Birch's specialized application and Aster's broader service while letting each develop its own methods. Some production can be centralized while important comparisons remain possible elsewhere. We need to follow what is shared and what can still vary, from research methods to delivered services.
+Centralizing production need not make downstream services identical. Shared infrastructure can support different research methods and applications. The comparison question follows what can vary above that common layer.
 
-For a hypothetical entrant, buying access to well-run computing can therefore be more sensible than building every capability internally. Our fictional software suppliers, Aster and Birch, might rent capacity from the same provider while developing different products. The provider's operating expertise could make both undertakings feasible. Shared infrastructure can enlarge the set of firms able to attempt something.
+Renting access to well-run computing can reduce the need to duplicate physical infrastructure before attempting a product. The provider's expertise can make more projects feasible. Access terms determine which of those projects can actually proceed.
 
 Now imagine requiring each supplier to reproduce the entire cooling plant, network, maintenance system, and staff before it may offer a service. That would create organizational independence at a considerable resource cost. We should not assume the resulting duplication produces enough useful information to justify itself. A desire for comparison is not a reason to ignore engineering economics.
 
-But common infrastructure can also create dependence. Suppose the provider reserves the necessary capacity for Aster and leaves Birch unable to run a credible pilot. The technical expertise at the facility remains useful. Its allocation rule now affects which downstream product can produce a record. The productive merit of the plant and the informational consequences of its access terms are separate matters.
+An exclusive capacity arrangement can restrict downstream experiments while preserving useful operating expertise. The productive value of a facility and the informational consequences of its allocation rules therefore require separate assessment.
 
 We would want to examine the reason for the reservation. A long commitment might finance construction that would otherwise be impossible. A priority rule might protect work that cannot easily tolerate interruption. Or a restriction might exclude an alternative despite feasible capacity being available. These possibilities require evidence about the particular arrangement; the existence of a large cluster does not choose among them.
 
@@ -78,7 +78,7 @@ INCITE's policy document distinguishes technical readiness from scientific impac
 
 There are choices to evaluate here, rather than a guarantee supplied by public ownership. Reviewers can make mistakes; preparing applications takes effort; access remains scarce. The program's existence does not establish the best selection rule or a measured comparison budget. It shows how sharing one physical operation and preserving several undertakings can be parts of the same institutional design.
 
-For fictional Birch, that distinction changes the entry question. Requiring the firm to finance an entire plant is one threshold. Requiring a convincing, technically feasible proposal to use an existing plant is another. Each system selects some projects and excludes others. We should examine the opportunities and evidence each produces, as well as who ultimately pays for the equipment.
+Financing an entire facility and qualifying to use an existing one are different barriers to entry. Each selects projects differently and distributes the cost of infrastructure differently. Their effects must be assessed at the relevant layer.
 
 Llama's interruption record also counters an easy version of the information argument. The company plainly learned about its own operation. A failing component, a useful recovery method, or a bottleneck in communication can generate actionable evidence inside one organization. Calling the organization large cannot make that learning disappear.
 
@@ -96,17 +96,17 @@ For an ordinary analogy, designing a machine differs from operating it to make t
 
 DeepSeek's report on its V3 model separates pre-training, extending the context the model can handle, and post-training in its cost table. That division tells us that even a reported training figure can combine several activities. It does not represent a timeless price for producing intelligence in every setting.[^c7-6]
 
-For fictional Birch, the distinction opens several routes. It might train a model from an initial starting point. It might adapt an existing model, where its permissions and resources allow. Or it might purchase access to a service and concentrate on making that service useful for a specific customer. The cost of entry differs across these undertakings.
+Entry can mean training a model, adapting one, or building a service using an existing model. These undertakings require different resources and permissions. A claim about the cost of one cannot stand for the cost of all three.
 
 A supplier that cannot finance a large general training run could still develop a valuable application. A supplier with a powerful model could still build a poor application. The difference might involve reliability, the customer's information, the surrounding software, or the way a worker uses the output. Counting large training runs does not count every opportunity for useful innovation.
 
-Conversely, access to an existing service is not identical to having control over its development. If Birch's product needs a change the provider will not make, the distinction becomes practical. The firm may need a different model, a different contractual arrangement, or another design. Being allowed to send a question does not grant every capability required to build a rival system.
+Access to inference does not grant control of model development. A product requiring changes to the underlying model may need other permissions, technical capabilities, or a different design. The ability to submit a prompt does not supply every input needed to compete.
 
 The word frontier also needs a task attached to it. A system can lead on one evaluation and be unsuitable for another use. Its position can change as methods and competitors improve. Treating frontier as a permanent title bestowed on a few companies obscures the very discovery process we want to understand.
 
 In its 2026 report, Stanford's AI Index attributes more than 90 percent of the notable models in its 2025 dataset to industry. The dataset is curated for notability; it is not a census of every model or application. It gives evidence of industry's prominent role in this part of development, while leaving open the reasons for that pattern and the consequences of particular access arrangements.[^c7-7]
 
-That is the landscape in which Birch acts. Its choices concern which layer to enter and what it can test there. We need to follow the undertaking closely enough to distinguish a blocked training strategy from an available opportunity to build a useful service. Otherwise a statement that entry is easy or impossible may be true about one activity and misleading about another.
+An assessment of entry must identify the layer being entered and the experiments possible there. A training strategy can be blocked while another useful application remains feasible, or application-level access can coexist with dependence on a single development frontier.
 
 ## Two budgets
 
@@ -118,17 +118,17 @@ The Chinchilla work also involved multiple smaller training experiments. This is
 
 Now distinguish the computing budget from the comparison budget. The first concerns resources used to perform computation. The second, in my allocation model, adds the chances that successive opportunities go to someone outside the current favorite. They are different objects. A very large computing budget could support useful rival tests, or mainly serve a product already selected for deployment.
 
-Suppose, as an illustration, Aster uses rented capacity to test several training recipes on comparable tasks. Its purchase could generate substantial information about those recipes. Suppose instead that it spends the same amount serving more copies of the same product to similar customers. That activity can be valuable and informative about operation, while providing less evidence for the original recipe comparison.
+Spending on competing training recipes produces different evidence from spending on repeated deployment of a fixed recipe. Both can be productive. Only observations relevant to a defined comparison belong in an account of what the spending establishes about that comparison.
 
 Neither description can be inferred from the electricity meter. The meter tells us about energy use. To understand the evidence, we need the designs, measurements, and decisions attached to it. A low electricity bill can accompany an informative test; an enormous bill can accompany repetition. The economic value of either depends on what is being accomplished.
 
 Chinchilla also changed how its settings were adjusted, how text was divided into units, and the proportions drawn from different parts of the training dataset. The paper records those differences. Its result therefore compares two training packages; it does not isolate model size as the sole cause. The productive lesson is the researchers' ability to investigate a prevailing recipe. Future data, hardware, and uses could make another recipe preferable.[^c7-8]
 
-Imagine a customer choosing between Aster and Birch after each has built a product. The customer might observe useful performance measurements from both. Those observations belong in the evidence. We cannot declare contribution unknowable by keeping only the award record and discarding the trials that preceded it.
+Measured performance across competing services belongs in the evidence. The allocation-only limit cannot be applied by retaining the award record while discarding informative trials conducted before it.
 
-Alternatively, imagine that Birch never gets a trial, while every Aster deployment supplies another reference for buying Aster. The inquiry then concerns the whole process generating access and observations. How much chance remains for another product? What can be learned from the performance data already collected? Are the tasks sufficiently comparable? These are questions to model and measure, not conclusions contained in a market share.
+Where deployment mainly reproduces the record of an established service, the questions concern how alternatives obtain use, which outcomes are checked, and whether tasks are comparable. A market share cannot answer those questions.
 
-Another million generated answers would not necessarily tell the council what Birch's service could do. The result in Chapter 3 concerns a defined record of allocations and the assumptions behind it. To apply it here, we would need to count every useful source of evidence, including checked answers and independent tests.
+A million generated answers can reveal performance on encountered tasks without supplying the missing comparison. Applying Chapter 3's result requires specifying the observation process and counting every additional informative outcome and independent test.
 
 Putting the two budgets beside one another helps us ask a constructive question. Can we use some of the computing resource to produce a more informative comparison at tolerable cost? Chinchilla shows the importance of technical experiments. A buyer's pilot might address a different uncertainty about practical performance. Neither requires treating useful scale as a mistake.
 
@@ -140,9 +140,9 @@ The qualification is part of the number's meaning. It does not turn an achieveme
 
 The distinction resembles the difference between paying for a successful reactor run and financing the attempts needed to develop the reactor. The earlier LED chapter showed how repeated modifications could make later production possible. An efficient final operation can rest on costly discovery. Measuring the operation accurately does not make those earlier costs vanish.
 
-For fictional Birch, this matters when planning a budget. Suppose another laboratory publishes a successful recipe and Birch can implement it. Birch's attempt to reproduce the result may cost less than discovering that recipe independently. That is a potential social benefit of published knowledge. It also means the cost of reproduction is not automatically the cost of invention.
+Published methods can reduce the cost of reproducing a successful approach. That is one benefit of knowledge transmission, and one reason reproduction cost differs from discovery cost.
 
-Now suppose the published recipe leaves important details unspecified. Birch may have to perform its own experiments, obtain different data, and solve problems the original team did not encounter. A figure copied from the first report would then be a poor business plan. The feasibility of entry depends on what can actually be reproduced with available inputs.
+Incomplete methods, unavailable data, and different operating conditions can still require fresh experiments. An expenditure figure in a research report does not, by itself, establish the cost at which another organization can reproduce the capability.
 
 The same caution applies in the opposite direction. A company may spend heavily on research that does not improve its final product. We should not assume that every dollar in a large research program was necessary merely because the company later succeeded. To assess necessity, we need comparisons or other evidence about alternatives, rather than either accepting or dismissing the entire bill.
 
@@ -158,7 +158,7 @@ Kenneth Arrow's 1962 analysis of invention explains an older version of this dif
 
 This is an established economic problem, not a new property discovered when AI appeared. What changes are the particular artifacts, costs, and control points. A model's settings might be available while its training data are not. A technical paper might describe a method while the equipment needed for a competitive implementation remains expensive. Different forms of access answer different constraints.
 
-Return to Aster and Birch. Suppose both can obtain the same released model under terms permitting their intended uses. They might still build different services, choose different customer problems, or discover different ways of reducing mistakes. Sharing a model need not make every downstream experiment redundant. It can lower the cost of trying things.
+A common released model can support different services, customer problems, and error-reduction methods where its terms permit. Shared inputs can lower the cost of useful experiments without making their results redundant.
 
 Suppose instead that our question concerns the training process itself: would another dataset or architecture have produced a better model? Two applications using unchanged copies of one model do not perform that comparison merely by having different company names. They may answer important application questions while leaving the training question unresolved.
 
@@ -166,39 +166,35 @@ That is why independence needs an object. Independence of ownership, computing p
 
 Arrow's appropriation problem also gives an incumbent a serious argument. If immediate unrestricted access prevents it from recovering the costs of valuable research, some research might not occur. We need to examine that possibility. An argument for preserving comparison becomes incomplete when it treats the creation of the thing being compared as somebody else's concern.
 
-Yet the incentive argument does not establish that every restriction is necessary. In our illustration, an arrangement might allow the producer to earn returns while permitting downstream trials. Another might close a route to customers without making any additional research feasible. Their effects could differ even when both are described as protecting investment.
+The incentive argument still requires a comparison of feasible arrangements. Terms permitting returns and downstream experiments can differ from terms closing a customer route without enabling additional research. Both can be described as protecting investment while having different consequences.
 
 We should compare feasible arrangements rather than compare an actual factory with an imaginary world in which discovery, equipment, and coordination cost nothing. Public support, contractual access, released artifacts, and competing private facilities can have different strengths and costs. Which is useful depends on the problem we want to solve.
 
 The point is neither to award all knowledge to its first producer nor to require every producer to give everything away. It is to investigate how the terms of producing and using knowledge affect later useful attempts. The factory creates possibilities. Its institutional arrangements determine who can act on them.
 
-## The first customer
+## From computing access to a useful comparison
 
-Our fictional Aster and Birch now offer AI services to the same buyer. Both rent computing from a shared facility. For this illustration, the facility sells capacity on terms that permit both firms to run their products; neither has exclusive control over distribution. The buyer wants useful answers on its own tasks, rather than the prestige of purchasing the largest model.
+Computing access is one stage in producing evidence. A system must also reach relevant tasks, return interpretable outcomes, and permit those outcomes to affect a decision. These requirements connect infrastructure to discovery.
 
-The shared facility can be an advantage. Neither supplier has to reproduce the entire physical operation before demonstrating its service. A buyer can compare results produced on comparable work. The relevant information concerns the services, and common infrastructure may remove a costly source of variation rather than destroy the comparison.
+Task selection, comparable difficulty, valid outcome measures, privacy, and operational risk determine whether a service comparison is useful. The evaluation design has to justify its cost.
 
-There are practical questions. Can the tasks be assigned so that a difference in difficulty does not predetermine the winner? Can performance be measured meaningfully? What happens when either system fails? Are there privacy or operational constraints on the test? These questions affect whether the pilot can justify its cost.
-
-Now change one feature of the illustration. The buyer's distribution system makes Aster the automatic destination for nearly every request. Birch remains permitted to rent computing, but receiving a request requires a separate effort by the user. If the resulting record contains mostly Aster's work, the facility's shared ownership terms have not guaranteed a useful service comparison.
+Distribution can close the route even when computing is available. A default that receives nearly every request can accumulate a record while alternatives obtain little ordinary-use evidence. Availability of an input does not guarantee access to an informative use.
 
 This resembles the distinction between Bell's patent access and customer access, and between search technology and the distribution arrangements examined in Chapter 5. Possessing a useful input is a stage in the process. A practical route to being tried is another. We should not announce that the second problem has been solved merely because the first input is for sale.
 
-For Birch, unused computing capacity could then become a liability rather than a source of evidence. Its product might be strong or weak; the illustration does not decide that. What changes is its ability to produce observations that could distinguish those possibilities. A service cannot demonstrate ordinary use performance if it never receives relevant use.
+Performance can nevertheless justify a strong default. An investigation must include measured quality, actual switching, available comparisons, and the costs of alternatives. Access-dependent evidence is something to interpret carefully, rather than to dismiss.
 
-Aster can reasonably object that customers may prefer its service because it performs better. They might. A sound investigation would include available comparisons, actual switching, measured quality, and the costs of trying alternatives. The information argument does not require every buyer to pretend the suppliers are equally good. It requires care before treating an access-dependent record as if it had already settled the matter.
+Limited, well-measured comparisons can sometimes retain the convenience of a default while supplying useful evidence. Their value depends on the uncertainty resolved, implementation costs, and the decisions they can change.
 
-Consider a third version. Aster is the principal supplier, but the buyer maintains a limited, well-measured trial of alternatives. Birch receives enough suitable work to inform a real decision. The arrangement could retain much of the convenience of a common default while adding useful evidence. Whether it is worthwhile depends on its costs, the quality of the trial, and the value of the decision it informs.
+The comparison budget prescribes no universal spending ratio. Small persistent chances can accumulate indefinitely, and large nominal opportunities can fail to identify a relevant effect. Evaluation concerns the process and its information.
 
-There is no magic percentage in this example. A fraction of requests could be informative or badly chosen. Tiny chances repeated indefinitely can still accumulate, and large nominal opportunity can fail to identify the effect we care about. The comparison budget is a defined feature of an allocation model, not a universal rule requiring buyers to divide their spending in a particular ratio.
-
-The hypothetical buyer must also consider what happens after the test. A pilot that reveals a better option but cannot lead to a change in procurement may have little practical value. An arrangement that permits a trial but makes switching prohibitively difficult can preserve a demonstration while weakening its consequences. Discovery and the ability to act on it are connected stages.
+Discovery also needs a route to action. A demonstration has less practical value if its result cannot influence subsequent adoption. Switching terms and interoperability help determine whether learning can change an economic arrangement.
 
 At the factory level, this inquiry asks about available capacity and access terms. At the service level, it asks about routing and usable performance evidence. At the level of research, it asks whether another training strategy can be attempted. A single statement that AI is concentrated cannot answer all three.
 
 Nor does having many firms guarantee that all three are open. Several services could depend on the same model and the same route to users. They could still innovate meaningfully in their own domains. The useful question is what uncertainty their differences can resolve, and what important uncertainty remains outside their experiments.
 
-This is how we take counterfactual economies seriously without turning every imagined competitor into an entitlement. Specify the alternative arrangement, identify what it could teach, include its production costs, and ask whether the evidence could improve a consequential decision. Birch does not deserve a factory simply because Aster has one. An economy may nevertheless benefit from preserving a feasible route through which Birch can be tested.
+Taking counterfactual economies seriously requires specifying feasible alternatives, what their tests could establish, and the full cost of producing that evidence. The resulting comparison can justify preserving a route without treating every proposed competitor as entitled to infrastructure.
 
 ## Who pays for the connection
 
@@ -220,7 +216,7 @@ We need evidence to distinguish those cases. A large electricity demand is not i
 
 The information question can also enter, but it must be specified separately. If a valuable pilot uses scarce capacity, it competes with other uses. The value of learning is part of the comparison, alongside electricity, equipment, labor, and the service forgone. Preserving evidence should not become a phrase that makes physical resources free.
 
-Aster might argue that a stable long contract permits efficient construction and operation. Birch might argue that the contract locks up the only practical route to a trial. Both arguments could concern real consequences. We should investigate whether another arrangement can retain the investment benefit while making useful comparison possible. Sometimes the feasible improvement will be modest; sometimes its costs will exceed its benefits.
+Long commitments can support investment while restricting access to scarce capacity. The institutional question is whether a feasible arrangement retains the financing benefit and preserves useful independent experiments. Their costs can exceed their benefits; that possibility belongs in the appraisal.
 
 This is the tension that a price or concentration statistic alone cannot resolve. A low price today can coexist with a poor route to testing tomorrow's alternative. A large producer can supply the very capacity that makes new experiments affordable. The economic task is to trace the mechanisms rather than assign one moral meaning to size.
 
