@@ -1,0 +1,208 @@
+{
+  "manuscript": "book/manuscript/05-the-histories-that-became-infrastructure.md",
+  "title": "The histories that became infrastructure",
+  "checked_on": "2026-10-16",
+  "status": "drafted",
+  "target_main_words": 6000,
+  "body_words": 6000,
+  "draft_sha256": "79ba9ba595b9c29af88e7e5103e3ad737ac4ad21b60990374bd13f3d7ca13a12",
+  "source_checks": "Claim-specific passages checked in full primary records, identified author versions, and museum collection accounts. Version, access and interpretation boundaries retained; no independent proof or priority certification.",
+  "sources": [
+    {
+      "key": "Bardeen1956",
+      "note": "c4-1",
+      "source": "https://www.nobelprize.org/uploads/2018/06/bardeen-lecture.pdf",
+      "locator": "Nobel lecture December 11, 1956; printed pp. 318-320 (PDF 1-3)",
+      "claims": [
+        "Complementary research contributions, theoretical foundation, improved materials, coordinated program"
+      ],
+      "boundary": "Inventor account; no estimated causal contribution of organizational integration.",
+      "v5_reference": false
+    },
+    {
+      "key": "CHMTransistor1947",
+      "note": "c4-1",
+      "source": "https://www.computerhistory.org/siliconengine/invention-of-the-point-contact-transistor/",
+      "locator": "Collection account main text, with original logbook and publication references",
+      "claims": [
+        "December 1947 amplification achievement by Bardeen and Brattain"
+      ],
+      "boundary": "Museum collection/history account; quoted private reaction not used. No reconstructed visit or dialogue.",
+      "v5_reference": false
+    },
+    {
+      "key": "DOJBulletin1956",
+      "note": "c4-2",
+      "source": "https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0404.pdf",
+      "locator": "February 17, 1956, vol. 4 no. 4; Antitrust Division, printed p. 119 (PDF 22)",
+      "claims": [
+        "January 24 judgment date; patent licensing; lists; technical information at reasonable charge; broad institutional terms"
+      ],
+      "boundary": "Contemporary government summary, not original decree certified copy. Exceptions, reciprocal arrangements, and domestic eligibility should not be erased. Different portfolio counts across summary and research paper; no exact count used. Filename previously saved as 1956-04 is issue number, not April date.",
+      "v5_reference": false
+    },
+    {
+      "key": "CHMLicensing1952",
+      "note": "c4-3",
+      "source": "https://www.computerhistory.org/siliconengine/bell-labs-licenses-transistor-technology/",
+      "locator": "Main symposium account and proceedings/collection references",
+      "claims": [
+        "Forty companies, $25,000 license fee, nine-day April 1952 symposium and manufacturing visit"
+      ],
+      "boundary": "Licensing and instruction predate 1956; no claim decree created all outside transistor work.",
+      "v5_reference": false
+    },
+    {
+      "key": "HushAPhone1956",
+      "note": "c4-4",
+      "source": "https://law.justia.com/cases/federal/appellate-courts/F2/238/266/247909/",
+      "locator": "Full judicial opinion, 238 F.2d 266-269; November 8, 1956; notes 8-12",
+      "claims": [
+        "Device, use count, tariff and claimed suspension/termination, distributor withdrawal, FCC reasoning, cupped hand, reversal/remand"
+      ],
+      "boundary": "Court explicitly did not reach antitrust issues; no present-day legal liability claimed. Information-production effects are book interpretation, not judicial holding or measured budget.",
+      "v5_reference": false
+    },
+    {
+      "key": "WatzingerEtAl2020",
+      "note": "c4-5",
+      "source": "https://www.aeaweb.org/articles?id=10.1257/pol.20190086",
+      "full_text_checked": "https://www.uoc.gr/files/items/6/6537/watzinger_et_al.pdf",
+      "version_boundary": "June 9, 2017 author paper checked for relevant full passages; published 2020 abstract confirms matching/contrasting-sector findings. November 3, 2016 version inspected but no estimate imported. Published full PDF link failed in this session.",
+      "locator": "2017 introduction, pp. 1-4; institutional background pp. 7-9; empirical design pp. 10-12; Section IV results as summarized in checked introduction; publisher abstract",
+      "claims": [
+        "Matched non-Bell counterfactual; lasting outside-sector follow-on innovation; no corresponding within-telecommunications increase"
+      ],
+      "boundary": "Parallel-trend and conditioning assumptions required. Patent citations are proxy; not full welfare, all innovation, or comparison-budget estimate. No numeric effect size from older versions.",
+      "v5_reference": false
+    },
+    {
+      "key": "Arthur1989",
+      "note": "c4-6",
+      "source": "https://doi.org/10.2307/2234208",
+      "full_text_checked": "https://www.rochelleterman.com/ir/sites/default/files/arthur%201989.pdf",
+      "locator": "Published pp. 116-118, introduction/model; p. 128, conclusion",
+      "claims": [
+        "Adoption, improvement and possible durable historical selection; not necessarily superior development path"
+      ],
+      "boundary": "Prior mechanism credited. Model differs from v5; increasing returns alone does not imply finite lifetime comparison budget. Fictional software capabilities are book illustration.",
+      "v5_reference": true
+    },
+    {
+      "key": "David1985",
+      "note": "c4-7",
+      "source": "https://faculty.econ.ucsb.edu/~tedb/Courses/Ec100C/DavidQwerty.pdf",
+      "locator": "Printed pp. 332 and 335-336",
+      "claims": [
+        "Path dependence through equipment, trained users and conversion costs; historical example"
+      ],
+      "boundary": "QWERTY empirical interpretation explicitly disputed. No uncontested inferior-standard verdict or keyboard-effect estimate.",
+      "v5_reference": true
+    },
+    {
+      "key": "LiebowitzMargolis1990",
+      "note": "c4-7",
+      "source": "https://doi.org/10.1086/467198",
+      "full_text_checked": "https://www.fioravante.patrone.name/mat/TdG/corsi/TdG_Borromeo_2011_12/Liebowitz_Margolis.pdf",
+      "locator": "Author text, introduction pp. 1-2; discussion of typing studies pp. 12-15",
+      "claims": [
+        "Dispute of David interpretation and evidence for switching gains"
+      ],
+      "boundary": "Criticism attributed; book does not purport to resolve ergonomics/history dispute or independently inspect the original Navy study.",
+      "v5_reference": false
+    },
+    {
+      "key": "Hayek2002",
+      "note": "c4-8",
+      "source": "https://mises.org/quarterly-journal-austrian-economics/competition-discovery-procedure",
+      "full_text_checked": "https://ppe.isi.org/wp-content/uploads/2017/12/Lesson-9-Reading-Competition-as-a-Discovery-Process.pdf",
+      "locator": "Printed pp. 9-11, especially discovery definition and translation credit on p. 9",
+      "claims": [
+        "Competition as discovery of unknown/unused facts; 1968 lecture and 2002 translation"
+      ],
+      "boundary": "No claim every market identifies productive input effects; book does not adopt every methodological statement in the lecture.",
+      "v5_reference": true
+    },
+    {
+      "key": "Merton1968",
+      "note": "c4-9",
+      "source": "https://garfield.library.upenn.edu/merton/matthew1.pdf",
+      "locator": "Printed pp. 56-57, relevant passages checked for opening chapters",
+      "claims": [
+        "Recognition/resources can support later achievement"
+      ],
+      "boundary": "No fictional biography attached to actual scientists; not all advantage is mistaken evaluation of an unchanged object.",
+      "v5_reference": true
+    },
+    {
+      "key": "VanDeRijtEtAl2014",
+      "note": "c4-10",
+      "source": "https://www.eui.eu/Documents/DepartmentsCentres/SPS/Profiles/Van-de-Rijt/PNAS-2014-van-de-Rijt-6934-9-11.pdf",
+      "locator": "Printed pp. 6934-6937; figures 1-3; checked for opening chapters",
+      "claims": [
+        "Random initial donations increased later third-party support; diminishing marginal effect of larger treatment"
+      ],
+      "boundary": "Subsequent support is not target success; no universal runaway conclusion.",
+      "v5_reference": true
+    },
+    {
+      "key": "Alchian1950",
+      "note": "c4-11",
+      "source": "book/sources/classics/Alchian_1950_Uncertainty_Evolution_and_Economic_Theory.pdf",
+      "locator": "Printed pp. 213-214; PDF pp. 4-5; checked for Chapter 1",
+      "claims": [
+        "Profit-based selection without required universal foresight"
+      ],
+      "boundary": "Institutional interpretation is book argument; selection does not by itself measure contribution or desert.",
+      "v5_reference": false
+    },
+    {
+      "key": "Carterfone1968",
+      "note": "c4-12",
+      "source": "https://www.nicholasjohnson.org/FCCOps/1968/13F2-420.html",
+      "locator": "13 FCC 2d 420; adopted June 26, 1968; full decision pp. 420-425, particularly 423-425",
+      "claims": [
+        "Radio-telephone connection, cradle operation, tariff exclusion, findings of need/no adverse system effect, reasonable standards allowed"
+      ],
+      "boundary": "Commissioner archive reprints original decision. No blanket permission for harmful devices; no quantified downstream industry/internet effects asserted.",
+      "v5_reference": false
+    },
+    {
+      "key": "ErlicV5",
+      "note": "c4-13",
+      "source": "output/docx/Shadow_Futures_FINAL_Comparison_Budget_Revised_v5.docx",
+      "locator": "Sections 3-5; Theorem 1 conditions; interpretation of alternative paths and institutional access",
+      "claims": [
+        "Distinguish observed allocation chance from counts and welfare; additional information included; replay vs intervention"
+      ],
+      "boundary": "Author preprint; no independent proof/priority certification. Actual historical cases do not establish the lifetime theorem. Welfare applications need extra premises.",
+      "v5_reference": false
+    },
+    {
+      "key": "ATTAnnual1955",
+      "note": "c4-14",
+      "source": "https://www.telephonearchive.com/uploads/papers/pdfs/att1955.pdf",
+      "locator": "Printed pp. 13 and 16; PDF pp. 15 and 18 visually read at original page resolution",
+      "claims": [
+        "Americus rural five-conversation/transistor trial, partial solar power; company integration argument and response to January 1956 decree"
+      ],
+      "boundary": "Corporate descriptions and expectations explicitly attributed, not independently verified results. Annual report is for 1955 but discusses January 1956 event. Report scan is image-only; source passage read visually, not inferred from failed text extraction.",
+      "v5_reference": false
+    }
+  ],
+  "illustrations": [
+    "Aster and Birch remain fictional.",
+    "Software training, component isolation, access documentation and pilot scenarios are hypothetical, not named-company findings."
+  ],
+  "narrative_checks": [
+    "Bell transistor achievement retained alongside 1952 licensing, 1956 decree, Hush-A-Phone and 1968 Carterfone.",
+    "AT&T annual report adds concrete Americus trial and attributed integration defense.",
+    "Outside/inside-telecommunications findings both retained; no unsupported effect size.",
+    "QWERTY dispute acknowledged.",
+    "Access to existing knowledge distinguished from opportunity to produce new evidence.",
+    "Costs, incentives, coordination benefits, internal experiments and substitute evaluation included.",
+    "No equations, invented interviews, private reactions or dialogue.",
+    "No actual comparison-budget estimate or infinite-horizon condition inferred from these cases."
+  ],
+  "whole_book_review": "Still required after full draft, including repeated hypothetical supplier passages and density/pace review."
+}

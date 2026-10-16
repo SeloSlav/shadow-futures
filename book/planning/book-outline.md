@@ -54,6 +54,8 @@ V5 citations: Blackwell and Dubins (1962); Le Goff and Soulier (2017); Zhang (20
 
 Commit to Bell's 1956 patent licensing decree as the historical case. Start with what the decree required and follow the published study of subsequent invention. Explain the study's finding that innovation rose outside telecommunications, together with its different result inside that sector. Do not collapse the 1956 decree into the later Bell breakup.
 
+Follow the route from the 1947 transistor to the 1952 licensing symposium and the 1956 decree, preserving that chronology. Use the 1956 Hush-A-Phone opinion and 1968 Carterfone decision to make customer access concrete. AT&T's 1955 annual report supplies its own integration defense and an actual transistor-and-solar trial in Americus. Attribute company predictions and distinguish them from independent results.
+
 Connect this documented access change to Arthur's account of increasing returns and historical selection. Put the argument in dialogue with Alchian's 1950 account of profit-based selection under uncertainty: selection and recovery of productive contribution are different questions. Credit David's QWERTY paper in a short note acknowledging that the keyboard's empirical interpretation is disputed. Merton supplies another established account of cumulative advantage.
 
 The interpretive question is whether institutions permit alternatives to develop usable records. Bell's innovation findings do not estimate its comparison budget or establish a finite lifetime budget. Bring back Birch as a supplier gaining a route to demonstrate its capabilities. Close by distinguishing access to existing knowledge from opportunities to produce new comparative evidence.

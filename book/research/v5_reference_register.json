@@ -52,7 +52,15 @@
       "subject": "Increasing returns and historical selection",
       "use_and_boundary": "Credit the established account of adoption, increasing returns, and lock-in.",
       "inventory_status": "transcribed_from_canonical_v5",
-      "book_full_text_check": "required_before_claim_specific_drafting"
+      "book_full_text_check": "relevant_passages_checked_for_recorded_draft_claims",
+      "drafted_citations": [
+        {
+          "manuscript": "book/manuscript/05-the-histories-that-became-infrastructure.md",
+          "note": "c4-6"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "checked_locator": "Printed pp. 116-118 and 128"
     },
     {
       "key": "BarYam2016",
@@ -104,7 +112,15 @@
       "subject": "Historical path dependence and QWERTY",
       "use_and_boundary": "Use in the history note with the disputed empirical status of the keyboard example made explicit.",
       "inventory_status": "transcribed_from_canonical_v5",
-      "book_full_text_check": "required_before_claim_specific_drafting"
+      "book_full_text_check": "relevant_passages_checked_for_recorded_draft_claims",
+      "drafted_citations": [
+        {
+          "manuscript": "book/manuscript/05-the-histories-that-became-infrastructure.md",
+          "note": "c4-7"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "checked_locator": "Printed pp. 332 and 335-336; empirical dispute checked in Liebowitz-Margolis author text, introduction and typing-study discussion"
     },
     {
       "key": "Gabriyelyan2011",
@@ -160,7 +176,15 @@
       "subject": "Competition as discovery",
       "use_and_boundary": "Credit the 2002 translation and distinguish its original 1968 lecture from the publication year.",
       "inventory_status": "transcribed_from_canonical_v5",
-      "book_full_text_check": "required_before_claim_specific_drafting"
+      "book_full_text_check": "relevant_passages_checked_for_recorded_draft_claims",
+      "drafted_citations": [
+        {
+          "manuscript": "book/manuscript/05-the-histories-that-became-infrastructure.md",
+          "note": "c4-8"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "checked_locator": "Printed pp. 9-11; discovery definition, translation and lecture date on p. 9"
     },
     {
       "key": "JacodShiryaev2003",
@@ -330,6 +354,10 @@
         {
           "manuscript": "book/manuscript/02-the-winner-and-the-explanation.md",
           "note": "c1-4"
+        },
+        {
+          "manuscript": "book/manuscript/05-the-histories-that-became-infrastructure.md",
+          "note": "c4-9"
         }
       ]
     },
@@ -457,6 +485,10 @@
         {
           "manuscript": "book/manuscript/02-the-winner-and-the-explanation.md",
           "note": "c1-2"
+        },
+        {
+          "manuscript": "book/manuscript/05-the-histories-that-became-infrastructure.md",
+          "note": "c4-10"
         }
       ]
     },

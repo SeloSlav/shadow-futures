@@ -1,9 +1,9 @@
 {
   "status": "in_progress",
   "main_text_target": 80000,
-  "main_words": 24000,
-  "words_remaining_to_target": 56000,
-  "back_matter_words": 3886,
+  "main_words": 30000,
+  "words_remaining_to_target": 50000,
+  "back_matter_words": 4684,
   "back_matter_target": [
     10000,
     15000
@@ -89,10 +89,15 @@
       "title": "The histories that became infrastructure",
       "file": "book/manuscript/05-the-histories-that-became-infrastructure.md",
       "target": 6000,
-      "stage": "not_started",
-      "exists": false,
-      "main_words": 0,
-      "note_words": 0
+      "stage": "drafted",
+      "exists": true,
+      "main_words": 6000,
+      "note_words": 798,
+      "sha256": "79ba9ba595b9c29af88e7e5103e3ad737ac4ad21b60990374bd13f3d7ca13a12",
+      "note_count": 14,
+      "missing_notes": [],
+      "unused_notes": [],
+      "duplicate_notes": false
     },
     {
       "id": "chapter_05",
