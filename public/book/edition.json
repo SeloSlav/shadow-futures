@@ -7,7 +7,7 @@
   "pdf": "/book/shadow-futures.pdf",
   "cover": "/book/shadow-futures-cover.png",
   "pages": 319,
-  "pdf_bytes": 4528245,
+  "pdf_bytes": 4526597,
   "contents": [
     {
       "label": "The other life of a song",
@@ -17,72 +17,72 @@
     {
       "label": "The evidence success leaves behind",
       "section": "Introduction",
-      "page": 14
+      "page": 13
     },
     {
       "label": "The winner and the explanation",
       "section": "Chapter 1",
-      "page": 26
+      "page": 25
     },
     {
       "label": "The comparison budget",
       "section": "Chapter 2",
-      "page": 46
+      "page": 45
     },
     {
       "label": "Shadow futures",
       "section": "Chapter 3",
-      "page": 66
+      "page": 65
     },
     {
       "label": "The histories that became infrastructure",
       "section": "Chapter 4",
-      "page": 87
+      "page": 86
     },
     {
       "label": "Who gets to be tested",
       "section": "Chapter 5",
-      "page": 108
+      "page": 107
     },
     {
       "label": "Who deserves the winnings",
       "section": "Chapter 6",
-      "page": 129
+      "page": 128
     },
     {
       "label": "The intelligence factory",
       "section": "Chapter 7",
-      "page": 149
+      "page": 148
     },
     {
       "label": "A billion answers",
       "section": "Chapter 8",
-      "page": 170
+      "page": 169
     },
     {
       "label": "The first rung",
       "section": "Chapter 9",
-      "page": 191
+      "page": 190
     },
     {
       "label": "Competition for future evidence",
       "section": "Chapter 10",
-      "page": 211
+      "page": 210
     },
     {
       "label": "Taxing lost comparison",
       "section": "Chapter 11",
-      "page": 230
+      "page": 229
     },
     {
       "label": "An economics of possible worlds",
       "section": "Chapter 12",
-      "page": 251
+      "page": 250
     },
     {
       "label": "The next opportunity",
       "section": "Epilogue",
-      "page": 273
+      "page": 272
     }
   ]
 }

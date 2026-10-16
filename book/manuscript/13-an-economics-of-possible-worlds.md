@@ -82,7 +82,7 @@ There is a particularly important distinction in the paired council trial. The r
 
 ## A contract for finding out
 
-We can now commit to a design for the fictional council. For this thought experiment, give it twelve weeks, 600 incoming eligible requests, and a maximum of £60,000 in additional cash spending. These are stipulated planning choices, not an empirically justified sample size, a quotation from an evaluator, or a recommendation for every purchaser.[^c12-8]
+Imagine a twelve-week council trial with 600 eligible requests and an additional cash budget of £60,000. Before running it, a real council would need to check whether that number of requests could answer its question.[^c12-8]
 
 The immediate question is whether Birch's recommendations merit a limited live deployment on a defined class of maintenance work. It is not whether Birch would have become the larger company after winning a different first contract. That broader historical question would require another target and another design.
 
@@ -162,7 +162,7 @@ It would identify the observation process. The routing rule, the outcomes retain
 
 It would report the relevant uncertainty about the mechanism. Two histories with the same market shares may have different assignment processes. Two models can forecast the observed process similarly while disagreeing about how an intervention would work. Precise estimates under one maintained explanation should not conceal uncertainty about that explanation.
 
-Blackwell and Dubins's classical work helps clarify why forecasting agreement is not a universal certificate of attribution. Under its conditions, conditional predictions can merge. V5 combines a particular merging result with its allocation-history learning limit. It does not follow that predictive agreement always prevents learning, or that a good forecast reveals the economic contribution of every input.[^c12-11]
+Blackwell and Dubins showed how observers who begin with different beliefs can come to agree about what happens next. In the market model developed here, that agreement can coexist with uncertainty about contribution. Both observers may expect Aster to win without knowing how much its engineers changed the odds.[^c12-11]
 
 The council can use forecasts without demanding the impossible. It needs to estimate next month's workload and plan staffing. Accurate predictions can be valuable for that purpose. When it asks whether a different supplier or contract would improve service, it has asked another question. The evidence and assumptions should change with the question.
 
@@ -206,7 +206,7 @@ Markets also leave records. Some emerge from transactions undertaken for immedia
 
 The comparison budget names one feature of that process under a specified model. Shadow futures describe feasible histories under unchanged underlying conditions and response rules. Contribution uncertainty concerns what the resulting record cannot reliably settle about defined productive input effects. The policy extensions ask what useful decisions and institutions follow when further premises are supplied.
 
-These claims deserve scrutiny at their proper scale. Path dependence, reinforcement, discovery, experimentation, and prediction without complete parameter recovery all have substantial predecessors. The proposed contribution is the defined bound, its precision and lifetime implications under stated conditions, and its economic interpretation. Independent review must assess the work and its priority.
+Economists have long studied how early advantages compound. The comparison budget connects that process to the evidence it leaves behind. In the model developed here, the chances remaining outside the favorite limit how precisely productive contribution can be measured. Whether a particular market fits that model requires investigation.
 
 The book's practical demand is larger than a statistical result but less grandiose than a plan to replay the entire economy. Treat useful comparison as something institutions can produce, protect, replace, and sometimes waste. Evaluate the cost alongside the production it makes possible or displaces. Let the result change the decision.
 

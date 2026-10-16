@@ -103,7 +103,7 @@ By February 2026, METR said the newer results gave an unreliable measure of the 
 
 Think of a task the programmer keeps out of the study. It may be exactly the task on which AI saves the most time. The developer has a reason to keep using the tool, while the researcher has a reason to want the missing comparison. Both can be acting sensibly. The work gets done, but that opportunity to measure the difference has gone.
 
-METR began redesigning its experiments. Its problem does not prove my model's strongest result; it shows why the arrangements producing comparisons matter. Those arrangements can be repaired. The future of economics will depend partly on how well we learn to build them, especially as technology changes what people are willing to try.
+METR began redesigning its experiments. When developers change how they work, researchers have to change how they measure it. The question is how to preserve useful comparisons without asking people to abandon the tools they now rely on.
 
 The same practical question runs from the programmer's desk to the data center. Training a model, running it to produce answers, and comparing it with another system are different activities. Running a trained model is called inference. A service can generate an enormous record of answers while leaving unanswered whether a different model, supplier, or organization of work would serve us better. AI can also make those comparisons cheaper. Which possibility prevails depends on how we deploy it.
 
@@ -807,7 +807,7 @@ Imagine, as an illustration, a field whose soil measurements are used to predict
 
 The sampling arrangement matters. Filling the gaps inside one fixed region is a different way of collecting more data from expanding the region. Zhang explicitly distinguished those settings. Likewise, continuing Aster's established contract history differs from creating additional informative beginnings. More observations need to be described by how they are generated, not simply counted and declared sufficient.
 
-The analogy has a boundary. A covariance setting is not a worker's moral entitlement, and spatial interpolation is not a causal estimate of engineering's contribution. Zhang's work supplies an antecedent for the statistical distinction, not an economic answer imported from geography. My model still needs its allocation assumptions and contribution target. The older result matters partly because it prevents claiming a much broader discovery than the comparison-budget argument provides.
+Zhang had already shown how forecasts could improve without revealing every setting of the model behind them. At the procurement desk, the question becomes whether we can predict the next contract while remaining unable to tell what another month of engineering would change.
 
 For Aster's engineers, none of this makes a forecast useless. A buyer can predict that the existing service will handle tomorrow's workload and act on that prediction. The additional question is whether the same evidence supports a claim about what more engineering, a different supplier, or another access rule would do. A prediction can be valuable within its task while leaving those changes unresolved.
 
@@ -1075,7 +1075,7 @@ That rule changes the entrant's task. Instead of seeking permission simply becau
 
 Notice how the institutional question has changed since the patent opening. Permission to use an invention addresses one barrier. Permission to attach a device addresses another. A technical standard can address a third, while a customer's willingness to pay remains a fourth. A policy directed at one stage should be judged against what happens along the whole route, including the obstacles that remain afterward.
 
-Hush-A-Phone and Carterfone are therefore part of the chapter's argument for taking implementation seriously. A right on paper can matter greatly, but its economic effects depend on where it fits among other rights, obligations, and practical capacities. We learn more by following a product toward use than by describing every form of access with the same reassuring word.
+A right to connect becomes useful when someone can actually make the connection. The device must work with the network, and the terms must allow it to be used. Hush-A-Phone and Carterfone let us follow the gap between legal permission and practical opportunity.
 
 ### Opening a route, paying for it
 
@@ -2475,7 +2475,7 @@ My tax extension starts at this point. It asks whether a specified action remove
 
 The historical argument changes the possible size of that missing account. If another town offers a genuinely separate trial, closing one local route may leave a feasible substitute. If a shared gate controls the routes across many towns, replacement may require rebuilding an institution rather than purchasing another test. These are conditional comparisons, not estimates. They explain why a rule designed for local exclusion may be inadequate when a restriction travels across a network. Property rights need not settle who bears that additional cost. The owner can retain the service and its productive returns while facing an obligation to keep a testing route open or contribute to a justified replacement. Whether a charge can do that better than an access rule is a question for appraisal, not an assumption that taxation creates the lost history.
 
-There is another taxation argument in the foundational paper, and it concerns a different problem. Before discussing a corrective charge, we need to understand why the observed reward cannot always be divided exactly into a part caused by productive inputs and a part caused by position. Otherwise, a proposal about future incentives can become confused with an attempt to settle every past claim of desert.
+Aster's income raises two questions. How much reflects its engineers' work, and how much reflects the position it acquired? And if its conduct prevents valuable comparisons, should it bear some of the resulting cost? Explaining an existing fortune and changing the incentives governing future conduct are different tasks.
 
 ## The income and its explanation
 
@@ -2767,7 +2767,7 @@ There is a particularly important distinction in the paired council trial. The r
 
 ## A contract for finding out
 
-We can now commit to a design for the fictional council. For this thought experiment, give it twelve weeks, 600 incoming eligible requests, and a maximum of £60,000 in additional cash spending. These are stipulated planning choices, not an empirically justified sample size, a quotation from an evaluator, or a recommendation for every purchaser.[^chapter_12-c12-8]
+Imagine a twelve-week council trial with 600 eligible requests and an additional cash budget of £60,000. Before running it, a real council would need to check whether that number of requests could answer its question.[^chapter_12-c12-8]
 
 The immediate question is whether Birch's recommendations merit a limited live deployment on a defined class of maintenance work. It is not whether Birch would have become the larger company after winning a different first contract. That broader historical question would require another target and another design.
 
@@ -2847,7 +2847,7 @@ It would identify the observation process. The routing rule, the outcomes retain
 
 It would report the relevant uncertainty about the mechanism. Two histories with the same market shares may have different assignment processes. Two models can forecast the observed process similarly while disagreeing about how an intervention would work. Precise estimates under one maintained explanation should not conceal uncertainty about that explanation.
 
-Blackwell and Dubins's classical work helps clarify why forecasting agreement is not a universal certificate of attribution. Under its conditions, conditional predictions can merge. V5 combines a particular merging result with its allocation-history learning limit. It does not follow that predictive agreement always prevents learning, or that a good forecast reveals the economic contribution of every input.[^chapter_12-c12-11]
+Blackwell and Dubins showed how observers who begin with different beliefs can come to agree about what happens next. In the market model developed here, that agreement can coexist with uncertainty about contribution. Both observers may expect Aster to win without knowing how much its engineers changed the odds.[^chapter_12-c12-11]
 
 The council can use forecasts without demanding the impossible. It needs to estimate next month's workload and plan staffing. Accurate predictions can be valuable for that purpose. When it asks whether a different supplier or contract would improve service, it has asked another question. The evidence and assumptions should change with the question.
 
@@ -2891,7 +2891,7 @@ Markets also leave records. Some emerge from transactions undertaken for immedia
 
 The comparison budget names one feature of that process under a specified model. Shadow futures describe feasible histories under unchanged underlying conditions and response rules. Contribution uncertainty concerns what the resulting record cannot reliably settle about defined productive input effects. The policy extensions ask what useful decisions and institutions follow when further premises are supplied.
 
-These claims deserve scrutiny at their proper scale. Path dependence, reinforcement, discovery, experimentation, and prediction without complete parameter recovery all have substantial predecessors. The proposed contribution is the defined bound, its precision and lifetime implications under stated conditions, and its economic interpretation. Independent review must assess the work and its priority.
+Economists have long studied how early advantages compound. The comparison budget connects that process to the evidence it leaves behind. In the model developed here, the chances remaining outside the favorite limit how precisely productive contribution can be measured. Whether a particular market fits that model requires investigation.
 
 The book's practical demand is larger than a statistical result but less grandiose than a plan to replay the entire economy. Treat useful comparison as something institutions can produce, protect, replace, and sometimes waste. Evaluate the cost alongside the production it makes possible or displaces. Let the result change the decision.
 
@@ -2965,9 +2965,7 @@ An economy's arrangements for comparison deserve similar attention. They include
 
 The comparison budget gives one defined feature of an allocation process a name. Shadow futures give a name to feasible histories under unchanged underlying effects, starting conditions, and response rules. Neither name replaces the work of checking assumptions, measuring outcomes, or evaluating institutions. Their purpose is to make a question precise enough to pursue.
 
-The strongest claims in the paper must survive independent mathematical and scholarly scrutiny. The applications must survive observation. This book asks readers to take the proposed object seriously without confusing a research program with an already completed empirical verdict. An economics of possible worlds has to make contact with the world we can actually investigate.
-
-The council's trial illustrates that demand. Its scope, tasks, and resources are specified, and its possible conclusions change a stated purchase. The fictional result supplies no empirical validation. A real buyer would have to do the work. It would create a route through one uncertainty that matters now.
+The comparison budget must ultimately earn its place through careful reasoning and evidence from actual markets. Our council is fictional; its trial remains to be run. A real buyer would have to choose the tasks, pay for the comparison, and discover whether the result justified the cost.
 
 Imagine the last page of its evaluation. The incumbent is retained for ordinary work. The alternative enters a limited next stage. Costs and reasons are stated. There is room for a later result to change the arrangement again. The page contains neither a universal ranking of human worth nor a permanent plan for the industry. It contains a decision that can be explained.
 

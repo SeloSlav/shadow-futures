@@ -200,7 +200,7 @@ That rule changes the entrant's task. Instead of seeking permission simply becau
 
 Notice how the institutional question has changed since the patent opening. Permission to use an invention addresses one barrier. Permission to attach a device addresses another. A technical standard can address a third, while a customer's willingness to pay remains a fourth. A policy directed at one stage should be judged against what happens along the whole route, including the obstacles that remain afterward.
 
-Hush-A-Phone and Carterfone are therefore part of the chapter's argument for taking implementation seriously. A right on paper can matter greatly, but its economic effects depend on where it fits among other rights, obligations, and practical capacities. We learn more by following a product toward use than by describing every form of access with the same reassuring word.
+A right to connect becomes useful when someone can actually make the connection. The device must work with the network, and the terms must allow it to be used. Hush-A-Phone and Carterfone let us follow the gap between legal permission and practical opportunity.
 
 ### Opening a route, paying for it
 

@@ -12,7 +12,7 @@ My tax extension starts at this point. It asks whether a specified action remove
 
 The historical argument changes the possible size of that missing account. If another town offers a genuinely separate trial, closing one local route may leave a feasible substitute. If a shared gate controls the routes across many towns, replacement may require rebuilding an institution rather than purchasing another test. These are conditional comparisons, not estimates. They explain why a rule designed for local exclusion may be inadequate when a restriction travels across a network. Property rights need not settle who bears that additional cost. The owner can retain the service and its productive returns while facing an obligation to keep a testing route open or contribute to a justified replacement. Whether a charge can do that better than an access rule is a question for appraisal, not an assumption that taxation creates the lost history.
 
-There is another taxation argument in the foundational paper, and it concerns a different problem. Before discussing a corrective charge, we need to understand why the observed reward cannot always be divided exactly into a part caused by productive inputs and a part caused by position. Otherwise, a proposal about future incentives can become confused with an attempt to settle every past claim of desert.
+Aster's income raises two questions. How much reflects its engineers' work, and how much reflects the position it acquired? And if its conduct prevents valuable comparisons, should it bear some of the resulting cost? Explaining an existing fortune and changing the incentives governing future conduct are different tasks.
 
 ## The income and its explanation
 

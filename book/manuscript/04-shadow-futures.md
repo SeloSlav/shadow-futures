@@ -150,7 +150,7 @@ Imagine, as an illustration, a field whose soil measurements are used to predict
 
 The sampling arrangement matters. Filling the gaps inside one fixed region is a different way of collecting more data from expanding the region. Zhang explicitly distinguished those settings. Likewise, continuing Aster's established contract history differs from creating additional informative beginnings. More observations need to be described by how they are generated, not simply counted and declared sufficient.
 
-The analogy has a boundary. A covariance setting is not a worker's moral entitlement, and spatial interpolation is not a causal estimate of engineering's contribution. Zhang's work supplies an antecedent for the statistical distinction, not an economic answer imported from geography. My model still needs its allocation assumptions and contribution target. The older result matters partly because it prevents claiming a much broader discovery than the comparison-budget argument provides.
+Zhang had already shown how forecasts could improve without revealing every setting of the model behind them. At the procurement desk, the question becomes whether we can predict the next contract while remaining unable to tell what another month of engineering would change.
 
 For Aster's engineers, none of this makes a forecast useless. A buyer can predict that the existing service will handle tomorrow's workload and act on that prediction. The additional question is whether the same evidence supports a claim about what more engineering, a different supplier, or another access rule would do. A prediction can be valuable within its task while leaving those changes unresolved.
 

@@ -72,7 +72,7 @@ By February 2026, METR said the newer results gave an unreliable measure of the 
 
 Think of a task the programmer keeps out of the study. It may be exactly the task on which AI saves the most time. The developer has a reason to keep using the tool, while the researcher has a reason to want the missing comparison. Both can be acting sensibly. The work gets done, but that opportunity to measure the difference has gone.
 
-METR began redesigning its experiments. Its problem does not prove my model's strongest result; it shows why the arrangements producing comparisons matter. Those arrangements can be repaired. The future of economics will depend partly on how well we learn to build them, especially as technology changes what people are willing to try.
+METR began redesigning its experiments. When developers change how they work, researchers have to change how they measure it. The question is how to preserve useful comparisons without asking people to abandon the tools they now rely on.
 
 The same practical question runs from the programmer's desk to the data center. Training a model, running it to produce answers, and comparing it with another system are different activities. Running a trained model is called inference. A service can generate an enormous record of answers while leaving unanswered whether a different model, supplier, or organization of work would serve us better. AI can also make those comparisons cheaper. Which possibility prevails depends on how we deploy it.
 

@@ -1,8 +1,8 @@
 {
   "date": "2026-10-16",
-  "manuscript_sha256": "34ce6e63bc1f9b7cf59cdaf1c99266ffeaa457fe7e8096e29bbacca6b1fe19f3",
+  "manuscript_sha256": "eb323bce51a0b035ee960af2035a00ade2593179187597b6be540e0223c38b9d",
   "epub_integrity": {
-    "source_paragraphs_present_in_full": 1633,
+    "source_paragraphs_present_in_full": 1632,
     "internal_links_checked": 585,
     "xml_files_checked": 24,
     "status": "passed"
@@ -20,8 +20,8 @@
   "files": [
     {
       "file": "output/kdp/shadow-futures-kindle.epub",
-      "bytes": 1073458,
-      "sha256": "61ab01990e8ec0989492e7eb9b15fdc0002daaaab5da5cea1831ff36c709cd25"
+      "bytes": 1072969,
+      "sha256": "e32a5195e11f2b38896777414b44fecb2fc68dfbdc56d7545a663767986a8616"
     },
     {
       "file": "output/kdp/shadow-futures-kindle-cover.jpg",
@@ -30,13 +30,13 @@
     },
     {
       "file": "output/kdp/shadow-futures-paperback-interior.pdf",
-      "bytes": 1048677,
-      "sha256": "e01729e2967f43f61ac4d37d009cff4dd48bb471886cb3ce006d3f35df0e0c19"
+      "bytes": 1060342,
+      "sha256": "251aa50ed71ad77bfc2a9ff869d50fe4623cb8cc62c424dc44d14ea1489cbaea"
     },
     {
       "file": "output/kdp/shadow-futures-paperback-cover.pdf",
       "bytes": 3548720,
-      "sha256": "422f17bcd46307955a26c946cba44b76e9142c19563435b24b40bcef3f088afe"
+      "sha256": "3a2fdc8339caa4ce1759b8aa4f533e2059d6ecf22c94a87e3032638d446106f4"
     },
     {
       "file": "output/kdp/UPLOAD-INSTRUCTIONS.txt",
@@ -50,8 +50,8 @@
     },
     {
       "file": "output/kdp/shadow-futures-kdp-upload.zip",
-      "bytes": 5436978,
-      "sha256": "92db3ae6152a4e1ad1f914eb0f89644e7700002df5db96a093beeba44e5c2efe"
+      "bytes": 5451677,
+      "sha256": "96e0621eefe9a4f7900057f28b9cf9899ddf8ba2f71fe9a8eba424ac21c788d2"
     }
   ],
   "boundary": "Upload formats and mechanical checks; KDP Previewer and print proof remain author publication steps.",
@@ -59,6 +59,6 @@
     "version": "5.3.0",
     "errors": 0,
     "warnings": 0,
-    "sha256": "61ab01990e8ec0989492e7eb9b15fdc0002daaaab5da5cea1831ff36c709cd25"
+    "sha256": "e32a5195e11f2b38896777414b44fecb2fc68dfbdc56d7545a663767986a8616"
   }
 }
