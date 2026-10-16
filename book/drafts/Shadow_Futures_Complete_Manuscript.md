@@ -2033,7 +2033,7 @@ Someone supplied examples used in development. Someone expressed a preference in
 
 If an AI service improves the worker's performance, that is a real possibility worth measuring. If it changes which tasks the worker gets to attempt, how expertise develops, or what an employer can observe about ability, those are further questions. An answer that helps finish today's order can also change the conditions under which tomorrow's worker learns.
 
-The next chapter follows that person into the workplace. Its subject is the work behind the answers, the work changed by them, and the first opportunities through which people develop a record of their own.
+The next chapter asks what happens to the worker. Its subject is the work behind the answers, the work changed by them, and the first opportunities through which people develop a record of their own.
 
 ---
 
@@ -2801,7 +2801,9 @@ The report should distinguish the money spent from the conclusion purchased. Sta
 
 The design still needs an institution capable of carrying it out. Requests may be controlled by the buyer, service interfaces by suppliers, and verification resources by another organization. Having each ingredient somewhere does not mean the usable experiment has been assembled.
 
-The institutional companion considers a simple version of this problem. Two parties control complementary records. Each can incur a real cost to provide access, while capturing only part of the benefit. Both may decline even when jointly supplying the records would create enough value to cover their combined costs. This is a conditional model of incentives and coordination, not a diagnosis obtained from a large market share.[^chapter_12-c12-10]
+Kenneth Arrow's 1963 study of medical care supplies an earlier institutional argument. The patient, in his account, cannot inspect the service fully before consuming it and depends on knowledge the physician possesses. Expectations that the doctor should put the patient's welfare first help organize this unequal relationship. Arrow interpreted medical institutions partly as responses to uncertainty about illness, treatment, and information. He also warned that an attempted remedy can introduce other obstacles. Institutions deserve investigation as arrangements for managing uncertainty, with consequences that require appraisal.[^chapter_12-c12-arrow1963]
+
+The institutional companion models the council's access problem more narrowly. Two parties control complementary records. Each can incur a real cost to provide access, while capturing only part of the benefit. Both may decline even when jointly supplying the records would create enough value to cover their combined costs. This is a conditional model of incentives and coordination, not a diagnosis obtained from a large market share.[^chapter_12-c12-10]
 
 Our fictional council might need both the original request and a properly documented correction from the existing service. Either alone could leave the proposed comparison difficult to interpret. The evaluator also needs permission to use the record for the stated purpose. One holder's cooperation cannot necessarily overcome the other's refusal.
 
@@ -2863,7 +2865,7 @@ The physical AI economy makes this separation consequential. Computing capacity,
 
 The prospect of failure is part of the program's value.
 
-A convincing first application should therefore be small enough to inspect. An observation inventory, an auditable allocation rule, a set of checked outcomes, and a plainly stated decision would be more valuable than an industry ranking built from convenient public shares. Other researchers could then examine the same target under a different mechanism, add an omitted measurement, or run a feasible replication. Agreement would become more informative, and disagreement could identify the assumption that matters. The objective is cumulative research. A new economic object earns its place through what it helps explain, measure, or design, and through the errors it helps people avoid. A memorable name can start a conversation. It cannot perform those tasks on its own, and it should not protect the work from criticism. If a test shows that an apparent information deficit is already addressed by private evaluation, that is a useful result. If replacing a lost comparison costs little, a dramatic damage story weakens. If a proposed intervention destroys more productive value than its evidence can recover, the recommendation should change.
+A convincing first application should therefore be small enough to inspect. An observation inventory, an auditable allocation rule, a set of checked outcomes, and a plainly stated decision would be more valuable than an industry ranking built from convenient public shares. Other researchers could then examine the same target under a different mechanism, add an omitted measurement, or run a feasible replication. If replacing a lost comparison costs little, a dramatic damage story weakens. If a proposed intervention destroys more productive value than its evidence can recover, the recommendation should change.
 
 There is a corresponding possibility on the other side. A seemingly efficient arrangement may omit the only feasible route through which an alternative can demonstrate a consequential capability. Discovering that fact could justify a well-targeted institutional change. The policy case becomes stronger when the missing comparison and the attainable improvement are shown, rather than merely imagined.
 
@@ -3369,6 +3371,8 @@ Lockdown's other chart was there to be read. Most economic alternatives have no 
 
 [^chapter_12-c12-14]: Salganik, Dodds, and Watts, [“Experimental Study of Inequality and Unpredictability in an Artificial Cultural Market”](https://doi.org/10.1126/science.1121066), 2006, pp. 854–856; Salganik, [*Bit by Bit*, Section 4.6.1](https://www.bitbybitbook.com/en/running-experiments/exp-advice/zero-variable-cost/), for Lockdown's first and fortieth ranks. Same recordings across separate experimental markets; neither a reward-income decomposition nor an empirical proof of the lifetime theorem.
 
+[^chapter_12-c12-arrow1963]: Kenneth J. Arrow, [“Uncertainty and the Welfare Economics of Medical Care”](https://assets.aeaweb.org/asset-server/files/9442.pdf), *American Economic Review* 53(5), 1963, 941–973, especially pp. 941, 947–951. Original locally saved paper inspected. Historical theoretical account of informational differences, professional expectations and institutional adaptation; not a present medical recommendation, a claim that norms always govern actual behavior, or an application of the comparison-budget theorem. This is an added book foundation, outside the original 24 v5 references.
+
 ## The next opportunity
 
 [^epilogue-e-1]: All council results and choices in this epilogue are explicitly stipulated fiction, continuing Chapter 12's prospective design. No test was run, no supplier quotation obtained, and no empirical claim follows from the 600-request design, the six-week/120-request continuation, or either spending cap. Evaluation and selection would need justified uncertainty, costs, safety and feasibility in a real setting.
@@ -3400,6 +3404,8 @@ Anderson, P. W. 1972. More Is Different. Science 177(4047):393–396. [Source](h
 Argonne Leadership Computing Facility. 2026. INCITE program awards supercomputing time to 75 high-impact projects. May 5. [Source](https://www.alcf.anl.gov/news/incite-program-awards-supercomputing-time-75-high-impact-projects-0)
 
 Arrow, K. J. 1962. Economic welfare and the allocation of resources for invention. In The Rate and Direction of Inventive Activity: Economic and Social Factors, 609–626. Princeton University Press and NBER. [Source](https://www.nber.org/system/files/chapters/c2144/c2144.pdf)
+
+Arrow, K. J. 1963. Uncertainty and the welfare economics of medical care. American Economic Review 53(5):941–973. [Original paper](https://assets.aeaweb.org/asset-server/files/9442.pdf)
 
 Arrow, K. J., and A. C. Fisher. 1974. Environmental Preservation, Uncertainty, and Irreversibility. Quarterly Journal of Economics 88(2):312–319. [Source](https://doi.org/10.2307/1883074)
 

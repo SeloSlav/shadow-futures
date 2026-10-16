@@ -1,7 +1,7 @@
 {
   "status": "complete_draft_assembly_review_pending",
   "file": "book/drafts/Shadow_Futures_Complete_Manuscript.md",
-  "sha256": "bcc130059c046640ad787ff367ecea0c192ec8fa8293654c6576d85bd4c14e60",
+  "sha256": "e971e97d0c668b9b8a5edac8d69d3747e9339d74e622a3d48722005324f718fc",
   "inputs": [
     {
       "file": "book/manuscript/00-prologue.md",
@@ -41,7 +41,7 @@
     },
     {
       "file": "book/manuscript/09-a-billion-answers.md",
-      "sha256": "12248f4faf440d6cdc960c967d818b2b2522ad0033e46a071ee4cc16983af1d4"
+      "sha256": "0524e5af289d1f7d6e90a9e44362e09ae12f1f8128b0c89a35c8aacbbfc99f46"
     },
     {
       "file": "book/manuscript/10-the-first-rung.md",
@@ -57,7 +57,7 @@
     },
     {
       "file": "book/manuscript/13-an-economics-of-possible-worlds.md",
-      "sha256": "736a87a1d337a241710cc2d8f302f1670c320ffbf99427f53d9167c77cc70dee"
+      "sha256": "d9fa74311452cdb118f7f0f1c1a18f61f98d653617abb67b70b38a9e92cbcef0"
     },
     {
       "file": "book/manuscript/14-epilogue.md",
@@ -65,18 +65,18 @@
     },
     {
       "file": "book/manuscript/90-references.md",
-      "sha256": "e05c69c62d897e754643c53da7d5b1d5624580712d14ce9e15767fadbad4dda8"
+      "sha256": "cacb5cd2d826480ec232e5b9a148d790880d41c70a69a85b709daf5d658f0d55"
     },
     {
       "file": "book/manuscript/91-acknowledgments.md",
       "sha256": "c9af1838c3350e792acd298dfa4480500cff91ba8218150d4ff2493d488c6671"
     }
   ],
-  "bibliography_input_sha256": "680099e8178719da822539349595b19bf47e1e39f1e56b99d8f3159f077d91ca",
+  "bibliography_input_sha256": "f32a1affd37a3bcf395ffce744e4e84a15a17c28c1336a37db178edc876095bb",
   "main_words": 80000,
-  "back_matter_words": 14480,
-  "reference_entries": 118,
-  "endnote_count": 187,
+  "back_matter_words": 14568,
+  "reference_entries": 119,
+  "endnote_count": 188,
   "notes_namespaced": true,
   "interpretation": "Assembly, counts, hashes and note matching do not certify facts, proofs, prose quality or completion of the book review."
 }

@@ -5,8 +5,8 @@
   "status": "reviewed",
   "target_main_words": 6000,
   "body_words": 6000,
-  "note_words": 751,
-  "draft_sha256": "736a87a1d337a241710cc2d8f302f1670c320ffbf99427f53d9167c77cc70dee",
+  "note_words": 821,
+  "draft_sha256": "d9fa74311452cdb118f7f0f1c1a18f61f98d653617abb67b70b38a9e92cbcef0",
   "source_checks": "Relevant primary passages and direct scanned pages checked with exact version/access boundaries. Earlier substantive checks retained by claim; Blackwell1953 original gap remains explicit. All council design choices/results fictional. Guide printedpp4-8 re-read; Rothamsted January2024 substantive account refreshed; indexed original Bearchell methods/results rechecked after direct PMC challenge.",
   "sources": [
     {
@@ -239,6 +239,21 @@
       ],
       "boundary": "No invented musician reactions, biographies, conversations or commercial reward.",
       "v5_reference": false
+    },
+    {
+      "key": "Arrow1963",
+      "note": "c12-arrow1963",
+      "source": "https://assets.aeaweb.org/asset-server/files/9442.pdf",
+      "locator": "Original AER53(5),1963,941-973; printedp941 introduction,p947 institutional adaptation and possible adverse consequences,pp949-951 professional expectations/product uncertainty; local PDFpp1,7,9-11.",
+      "full_text_checked": true,
+      "local_cache": "book/sources/classics/Arrow_1963_Uncertainty_and_Medical_Care.pdf",
+      "sha256": "6a5c54a652f84884c30c846b2ffb73e3332632ef75a3bc56129f8bda518062b8",
+      "claims": [
+        "Historical account of uncertainty about illness/treatment and unequal physician-patient information",
+        "Professional expectations and institutions as attempted adaptations, with no guarantee of overall efficiency"
+      ],
+      "boundary": "Historical theoretical argument, not present medical advice, current institutional-effect estimate, guaranteed actual physician behavior or comparison-budget application. Added foundation outside canonical24.",
+      "v5_reference": false
     }
   ],
   "illustrations": [
@@ -281,8 +296,9 @@
       "Trimmed repeated archive/request explanation; sample preservation, maintained treatment contrast and new outcomes remain different evidentiary routes.",
       "Known paired routing versus informative checked outputs,600 requests versus comparison budget, and present-service test versus historical replay remain explicit.",
       "Prospective fictional12-week600-requestGBP60000 design retains qualification, calibration, dependence/missingness,versions,full costs, stopping/continuation, and later live-workflow stage. No executed pilot, quoted price or empirically justified sample-size claim.",
-      "Predecessor credit, novelty/proof/priority boundaries, private tests, common measurement errors and lawful costed institutions retained. Original Blackwell1953 gap remains separate from checked deOliveira proof."
+      "Predecessor credit, novelty/proof/priority boundaries, private tests, common measurement errors and lawful costed institutions retained. Original Blackwell1953 gap remains separate from checked deOliveira proof.",
+      "Cross-book audit restored the outline-promised Arrow1963 institutional foundation. Relevant original introduction and medical-market passages were read. Added concrete patient/physician example replaces85words of generic research-program recap; no main-budget expansion."
     ],
-    "draft_sha256": "736a87a1d337a241710cc2d8f302f1670c320ffbf99427f53d9167c77cc70dee"
+    "draft_sha256": "d9fa74311452cdb118f7f0f1c1a18f61f98d653617abb67b70b38a9e92cbcef0"
   }
 }

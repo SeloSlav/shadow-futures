@@ -18,6 +18,8 @@ Argonne Leadership Computing Facility. 2026. INCITE program awards supercomputin
 
 Arrow, K. J. 1962. Economic welfare and the allocation of resources for invention. In The Rate and Direction of Inventive Activity: Economic and Social Factors, 609–626. Princeton University Press and NBER. [Source](https://www.nber.org/system/files/chapters/c2144/c2144.pdf)
 
+Arrow, K. J. 1963. Uncertainty and the welfare economics of medical care. American Economic Review 53(5):941–973. [Original paper](https://assets.aeaweb.org/asset-server/files/9442.pdf)
+
 Arrow, K. J., and A. C. Fisher. 1974. Environmental Preservation, Uncertainty, and Irreversibility. Quarterly Journal of Economics 88(2):312–319. [Source](https://doi.org/10.2307/1883074)
 
 Arthur, W. B. (1989). Competing technologies, increasing returns, and lock-in by historical events. The Economic Journal, 99(394), 116-131. [Source](https://doi.org/10.2307/2234208)

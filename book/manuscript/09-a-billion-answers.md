@@ -234,7 +234,7 @@ Someone supplied examples used in development. Someone expressed a preference in
 
 If an AI service improves the worker's performance, that is a real possibility worth measuring. If it changes which tasks the worker gets to attempt, how expertise develops, or what an employer can observe about ability, those are further questions. An answer that helps finish today's order can also change the conditions under which tomorrow's worker learns.
 
-The next chapter follows that person into the workplace. Its subject is the work behind the answers, the work changed by them, and the first opportunities through which people develop a record of their own.
+The next chapter asks what happens to the worker. Its subject is the work behind the answers, the work changed by them, and the first opportunities through which people develop a record of their own.
 
 ## Notes
 

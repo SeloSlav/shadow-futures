@@ -6,7 +6,7 @@
   "target_main_words": 6000,
   "body_words": 5977,
   "note_words": 866,
-  "draft_sha256": "12248f4faf440d6cdc960c967d818b2b2522ad0033e46a071ee4cc16983af1d4",
+  "draft_sha256": "0524e5af289d1f7d6e90a9e44362e09ae12f1f8128b0c89a35c8aacbbfc99f46",
   "source_checks": "Relevant full primary passages checked in published/versioned research papers, original predecessor papers and attributed developer report. Versions, assumptions, measured objectives, author interpretations, simulations and hypotheticals remain distinct.",
   "sources": [
     {
@@ -259,11 +259,12 @@
       "Historical hiring variation now explicitly follows fixed response rules; deliberate training change is a separate intervention.",
       "Shared ancestry does not imply identical outputs or independent research histories; all informative private tests count.",
       "Blackwell–Dubins and Zhang retain predecessor credit; merging alone not universal nonlearning or chatbot truth.",
-      "Smallville is software simulation, AlphaEvolve developer-reported local evaluation; neither certifies a whole counterfactual economy or total contribution."
+      "Smallville is software simulation, AlphaEvolve developer-reported local evaluation; neither certifies a whole counterfactual economy or total contribution.",
+      "Cross-book transition audit changed the closing reference from following that person to asking what happens to the worker; the next chapter opens a different documented workplace case, not the same fictional individual."
     ],
     "source_rechecks": [
       "Length-Controlled AlpacaEval version 2 pp. 2–3 and 6"
     ],
-    "draft_sha256": "12248f4faf440d6cdc960c967d818b2b2522ad0033e46a071ee4cc16983af1d4"
+    "draft_sha256": "0524e5af289d1f7d6e90a9e44362e09ae12f1f8128b0c89a35c8aacbbfc99f46"
   }
 }

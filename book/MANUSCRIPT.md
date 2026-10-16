@@ -24,11 +24,11 @@ Counts below come from the current chapter files. Drafted sections still require
 | [An economics of possible worlds](manuscript/13-an-economics-of-possible-worlds.md) | 6,000 | 6,000 | reviewed |
 | [The next opportunity](manuscript/14-epilogue.md) | 2,000 | 2,000 | reviewed |
 
-Current back matter: 14,480 words, including chapter notes.
+Current back matter: 14,568 words, including chapter notes.
 
 | Back matter | Written | Stage |
 | --- | ---: | --- |
-| [References](manuscript/90-references.md) | 2,438 | drafted |
+| [References](manuscript/90-references.md) | 2,456 | drafted |
 | [Acknowledgments](manuscript/91-acknowledgments.md) | 174 | drafted |
 
 [Read the continuous working manuscript](drafts/Shadow_Futures_Complete_Manuscript.md), with endnotes, references and acknowledgments. It remains a draft pending the whole-book review.

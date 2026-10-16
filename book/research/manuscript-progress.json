@@ -3,7 +3,7 @@
   "main_text_target": 80000,
   "main_words": 80000,
   "words_remaining_to_target": 0,
-  "back_matter_words": 14480,
+  "back_matter_words": 14568,
   "back_matter_target": [
     10000,
     15000
@@ -153,7 +153,7 @@
       "exists": true,
       "main_words": 5977,
       "note_words": 866,
-      "sha256": "12248f4faf440d6cdc960c967d818b2b2522ad0033e46a071ee4cc16983af1d4",
+      "sha256": "0524e5af289d1f7d6e90a9e44362e09ae12f1f8128b0c89a35c8aacbbfc99f46",
       "note_count": 13,
       "missing_notes": [],
       "unused_notes": [],
@@ -212,9 +212,9 @@
       "stage": "reviewed",
       "exists": true,
       "main_words": 6000,
-      "note_words": 751,
-      "sha256": "736a87a1d337a241710cc2d8f302f1670c320ffbf99427f53d9167c77cc70dee",
-      "note_count": 14,
+      "note_words": 821,
+      "sha256": "d9fa74311452cdb118f7f0f1c1a18f61f98d653617abb67b70b38a9e92cbcef0",
+      "note_count": 15,
       "missing_notes": [],
       "unused_notes": [],
       "duplicate_notes": false
@@ -241,7 +241,7 @@
       "file": "book/manuscript/90-references.md",
       "stage": "drafted",
       "exists": true,
-      "words": 2438
+      "words": 2456
     },
     {
       "id": "acknowledgments",
