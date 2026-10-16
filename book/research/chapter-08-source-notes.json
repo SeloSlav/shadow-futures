@@ -2,11 +2,11 @@
   "manuscript": "book/manuscript/09-a-billion-answers.md",
   "title": "A billion answers",
   "checked_on": "2026-10-16",
-  "status": "drafted",
+  "status": "reviewed",
   "target_main_words": 6000,
-  "body_words": 6000,
-  "note_words": 824,
-  "draft_sha256": "a364c7e8bd7201e14bb46ec63e1213c1a99d86451e4dd64a22ac4c67c1ed789f",
+  "body_words": 5977,
+  "note_words": 866,
+  "draft_sha256": "12248f4faf440d6cdc960c967d818b2b2522ad0033e46a071ee4cc16983af1d4",
   "source_checks": "Relevant full primary passages checked in published/versioned research papers, original predecessor papers and attributed developer report. Versions, assumptions, measured objectives, author interpretations, simulations and hypotheticals remain distinct.",
   "sources": [
     {
@@ -169,14 +169,16 @@
       "key": "DuboisEtAl2024LengthControl",
       "note": "c8-12",
       "source": "https://arxiv.org/pdf/2404.04475v2",
-      "locator": "First released April 2024; version 2 March 10, 2025; pp. 1–4, Section 4.1/Figure 3 p. 6 and limitations p. 9",
+      "locator": "First released April 2024; version 2 March 10, 2025; pp. 1–4, Section 4.1/Figure 3 p. 6 and limitations p. 9; original cached version 2 pp. 2–3 and 6 rechecked for preference-probability score definition and gpt4_1106_preview 22.9%–64.3% prompt range.",
       "full_text_checked": true,
       "claims": [
         "Verbosity instructions change automatic evaluator scores",
         "Statistical length control reduces sensitivity in the studied evaluator",
-        "Same-length counterfactual modeled under simplifying assumptions"
+        "Same-length counterfactual modeled under simplifying assumptions",
+        "One GPT-4 version unadjusted win-rate range 22.9%–64.3% across verbosity prompts; main text rounds to 23–64",
+        "Win rate is expected automatic preference against reference outputs, not checked correctness; prompts change answer content too"
       ],
-      "boundary": "Specific automatic AlpacaEval, distinct from direct Arena votes. Not universal correction, removal of all bias, current ranking, or observed every rewritten answer. Full versioned text, not assumption its 2024 and 2025 text is identical.",
+      "boundary": "Specific automatic AlpacaEval, distinct from direct Arena votes. Not universal correction, removal of all bias, current ranking, or observed every rewritten answer. Full versioned text, not assumption its 2024 and 2025 text is identical. No isolated presentation-only causal claim holding all quality fixed; no newer current-model ranking inferred.",
       "v5_reference": false,
       "local_cache": ".tmp/book-research/length-controlled-alpacaeval.pdf"
     },
@@ -239,7 +241,29 @@
     "AlphaEvolve adds executed evaluation and reported real operation; independent-audit and resource/energy distinction retained.",
     "Cumulative chance outside current favorite remains distinct from scores, calls, market shares, model counts and welfare.",
     "No equations, fabricated interviews, visits, actual-firm finite-budget estimate, policy tax rate or proof certification.",
-    "6000 main words; closes with workers and learning opportunities for Chapter 9."
+    "Verbosity example now supplies actual score range and explains the reference comparison without implying equal answer quality.",
+    "Logged-policy evaluation, history under unchanged response rules and training-policy intervention explicitly separated.",
+    "Removed repeated self-description of novelty and a generic activity summary; original predecessor credit remains."
   ],
-  "whole_book_review": "Still required: final continuity, repetition, pace, conceptual/factual/citation audit, complete bibliography, combined reading manuscript and final word budget."
+  "whole_book_review": "Sequential chapter review completed for the saved draft and recorded claims. Final cross-book continuity/source completion audit remains; no original Chapter 3 gap or independent proof/priority review silently completed.",
+  "sequential_review": {
+    "checked_on": "2026-10-16",
+    "status": "completed_for_recorded_chapter_claims",
+    "method": "Complete body and all notes read after Chapter 7. New evaluation detail checked in original versioned paper; revised passages re-read with surrounding text. Earlier full-source records and explicit simulation/developer/version boundaries retained.",
+    "findings": [
+      "Purchase-order task connects correctness, preference, routing, logs, model ancestry, simulation and later learning without invented workplace reporting.",
+      "Actual AlpacaEval prompt score swing replaces abstraction; reference response and preference-probability meaning explained, with quality-change/adjustment assumptions retained.",
+      "Arena human votes distinct from automatic judge, known-answer checking and representative workplace demand.",
+      "Router predicted preference distinct from actual conditional assignment chance; deterministic assignment can coexist with informative checked outcomes.",
+      "Yahoo logged-policy replay uses designed variation under conditions, not a structural replay of economic development.",
+      "Historical hiring variation now explicitly follows fixed response rules; deliberate training change is a separate intervention.",
+      "Shared ancestry does not imply identical outputs or independent research histories; all informative private tests count.",
+      "Blackwell–Dubins and Zhang retain predecessor credit; merging alone not universal nonlearning or chatbot truth.",
+      "Smallville is software simulation, AlphaEvolve developer-reported local evaluation; neither certifies a whole counterfactual economy or total contribution."
+    ],
+    "source_rechecks": [
+      "Length-Controlled AlpacaEval version 2 pp. 2–3 and 6"
+    ],
+    "draft_sha256": "12248f4faf440d6cdc960c967d818b2b2522ad0033e46a071ee4cc16983af1d4"
+  }
 }

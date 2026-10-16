@@ -1,4 +1,6 @@
-# Chapter 8: A billion answers
+# Chapter 8
+
+## A billion answers
 
 A purchase order arrives with a delivery deadline somewhere in its pages. In our hypothetical workplace, a worker asks an AI service to find the date. Behind the familiar interface, software chooses a model, sends the document, receives an answer, and returns it to the worker.
 
@@ -38,7 +40,9 @@ For the order on our worker's screen, the immediate achievement remains concrete
 
 ## When the judge likes the packaging
 
-An automatic evaluator can make comparison cheaper, but its criteria require scrutiny. Yann Dubois and colleagues investigated this problem in their work on length-controlled AlpacaEval. The evaluation uses a language model to judge responses. They found that changing instructions about verbosity could substantially change an evaluated model's score, and that controlling for response length reduced this sensitivity.[^c8-12]
+Yann Dubois and colleagues tested how an automatic judge responds to presentation in their length-controlled AlpacaEval study. They prompted models to give concise or verbose answers. For one GPT-4 version, the unadjusted win rate ranged from about twenty-three to sixty-four percent as the instruction changed. The underlying model had not received a new training run; the prompt and resulting answers differed. Their statistical length adjustment reduced the swing. The experiment exposes sensitivity to presentation, while leaving us to investigate which changes also improve the answer.[^c8-12]
+
+Each response faced a reference answer to the same instruction. The judge's preference supplied the score. It was a measure of which answer the evaluator favored, rather than an independent check against a separately established correct solution.[^c8-12]
 
 This is a different evaluation procedure from Arena's direct user votes. The distinction prevents a lazy conclusion that every human judgment is merely a preference for long answers. The study examines a particular automatic judge and an adjustment to its measurements. It gives us a concrete example of how the apparatus of evaluation can influence the result.
 
@@ -47,8 +51,6 @@ Think of the deadline in the purchase order. One service returns the date and id
 Now imagine that the longer response contains an error elsewhere. The extra detail has changed more than the length of the answer; it has created another opportunity to mislead the worker. Alternatively, the longer explanation might expose an ambiguity that the short answer concealed. Length by itself cannot tell us which happened. The measurement must remain connected to the purpose.
 
 The length-controlled study also makes a counterfactual question explicit: how would the estimated preference compare if the responses had the same length? Its statistical adjustment supplies an estimate under a model. The authors are not claiming to have observed every possible rewritten answer or eliminated every source of evaluation bias. A defined counterfactual can be useful without becoming an omniscient reconstruction.
-
-That is a helpful precedent for this book. Counterfactual reasoning is already part of research practice. My proposed contribution concerns the comparison-budget bound and its implications for attribution in a specified allocation setting. It does not replace ordinary empirical adjustments, nor does it give me ownership of asking what would happen under another arrangement.
 
 For a developer, the practical stakes concern which improvements an evaluation rewards. If a score rises after a formatting change, the developer should investigate whether users actually complete their work better. If better reasoning raises the score, that is worth distinguishing too. The same final ranking can emerge through changes with different consequences for the customer.
 
@@ -104,7 +106,7 @@ That last qualification matters. If a service was never available for a particul
 
 The Yahoo authors call their method replay. Their use of the word concerns evaluating a recommendation policy with suitable logged events. My shadow futures concern alternative histories generated under specified economic conditions and rules. These are distinct uses. A procedure that reuses article records is not a time machine for recreating the entire industry with a different first winner.
 
-For example, our hypothetical buyer might use randomized logs to estimate how current Aster and current Birch perform on a defined task population. That result would not, on its own, establish how Birch would have developed if it had received Aster's earliest contracts, hired a different team, or chosen another training strategy. The current-system comparison and the development-history question ask different things.
+Our hypothetical buyer might use randomized logs to compare current Aster and current Birch on a defined task population. That result would not, on its own, establish how Birch would have developed after a different early allocation sequence, building another team as the same response rules allowed. Deliberately changing its training strategy would be a separate intervention. Current-system evaluation, historical variation under fixed rules, and a changed development policy require different comparisons.
 
 The same record can nevertheless be valuable. If it supports a better procurement decision, it need not explain every earlier fortune to justify its collection. The point of the comparison budget is to clarify a particular information constraint, not to demand a complete causal explanation of the economy before allowing any useful inference.
 
@@ -147,8 +149,6 @@ Keep the purchase order in view. A system could predict accurately that the work
 We should also resist reversing the theorem into a general celebration of ignorance. An accurately checked answer teaches us something. A well-designed comparison can identify a performance difference. Some input effects may be learned from additional measurements. The finite-budget result concerns a particular obstacle under particular conditions, rather than a rule that economic evidence must always fail.
 
 For the buyer, the next action could be straightforward. If errors matter, check a suitable sample against the original orders. If supplier choice matters, preserve a meaningful comparison. If a historical attribution claim matters, identify the intervention, horizon, and evidence that could support it. The inquiry becomes more useful as it becomes more specific.
-
-The number of generated answers can then be put in its proper place. It tells us about activity. Combined with appropriate design and outcomes, activity can produce information. Without them, the number may mostly tell us that the same decision system has been busy.
 
 ## A town throws a party
 
@@ -260,6 +260,6 @@ The next chapter follows that person into the workplace. Its subject is the work
 
 [^c8-11]: Stanford HAI, *AI Index Report 2026*, [full report](https://hai.stanford.edu/assets/files/ai_index_report_2026.pdf), Section 1.4, inference subsection, printed p. 36. The chapter uses the distinction between developing a model and repeatedly serving it. It adopts no model-specific energy estimate, current usage count, or inference from energy consumption to the comparison budget.
 
-[^c8-12]: Yann Dubois, Balázs Galambosi, Percy Liang, and Tatsunori B. Hashimoto, “Length-Controlled AlpacaEval: A Simple Way to Debias Automatic Evaluators,” first released 2024, [author version 2](https://arxiv.org/pdf/2404.04475v2), March 10, 2025, pp. 1–4, Section 4.1 and Figure 3, p. 6, limitations p. 9. The adjustment concerns a specific automated evaluator, assumes a same-length comparison is desired, and does not remove every judge bias. No universal correction or current ranking is adopted.
+[^c8-12]: Yann Dubois, Balázs Galambosi, Percy Liang, and Tatsunori B. Hashimoto, “Length-Controlled AlpacaEval: A Simple Way to Debias Automatic Evaluators,” first released 2024, [author version 2](https://arxiv.org/pdf/2404.04475v2), March 10, 2025, pp. 1–4, Section 4.1 and Figure 3, p. 6, limitations p. 9. Section 4.1 reports gpt4_1106_preview win rates of 22.9%–64.3% under verbosity prompts, reduced to 41.9%–51.6% with length control. Scores aggregate the automatic judge's preference probabilities against reference outputs, not independently checked correct-answer rates. Prompting also changes the actual answers; the study does not hold all answer quality fixed. The adjustment assumes a same-length comparison is desired and does not remove every judge bias. No universal correction or current ranking is adopted.
 
 [^c8-13]: Alexander Novikov and colleagues, *AlphaEvolve: A Coding Agent for Scientific and Algorithmic Discovery*, [2025 white paper](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/AlphaEvolve.pdf), pp. 1–3 and data-center scheduling discussion pp. 13–14; Google DeepMind, [May 14, 2025 account](https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/). Reported resource recovery is not an equivalent percentage electricity saving or proof of overall welfare. Simulation, held-out testing and post-deployment measurement are distinct stages; developer report, not independent causal audit.

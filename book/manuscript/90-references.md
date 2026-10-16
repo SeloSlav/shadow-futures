@@ -34,7 +34,7 @@ Bearchell, S. J., B. A. Fraaije, M. W. Shaw, and B. D. L. Fitt. 2005. Wheat arch
 
 Becker, J., N. Rush, B. Barnes, and D. Rein. 2025. Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity. METR research report. [Source](https://metr.org/Early_2025_AI_Experienced_OS_Devs_Study-paper.pdf)
 
-Bessen, J. 2015. Toil and technology. Finance & Development 52(1):16–19. ATM account cited through Autor (2015); original article not independently inspected. [Publisher record](https://www.imf.org/external/pubs/ft/fandd/2015/03/bessen.htm)
+Bessen, J. 2015. Toil and technology. Finance & Development 52(1):16–19. [Publisher record](https://www.imf.org/external/pubs/ft/fandd/2015/03/bessen.htm)
 
 Blackwell, D. 1953. Equivalent comparisons of experiments. Annals of Mathematical Statistics 24:265–272. [Source](https://doi.org/10.1214/aoms/1177729032)
 

@@ -17,18 +17,18 @@ Counts below come from the current chapter files. Drafted sections still require
 | [Who gets to be tested](manuscript/06-who-gets-to-be-tested.md) | 6,000 | 6,077 | reviewed |
 | [Who deserves the winnings](manuscript/07-who-deserves-the-winnings.md) | 6,000 | 6,000 | reviewed |
 | [The intelligence factory](manuscript/08-the-intelligence-factory.md) | 6,000 | 6,000 | reviewed |
-| [A billion answers](manuscript/09-a-billion-answers.md) | 6,000 | 6,000 | drafted |
-| [The first rung](manuscript/10-the-first-rung.md) | 6,000 | 5,871 | drafted |
+| [A billion answers](manuscript/09-a-billion-answers.md) | 6,000 | 5,977 | reviewed |
+| [The first rung](manuscript/10-the-first-rung.md) | 6,000 | 5,894 | reviewed |
 | [Competition for future evidence](manuscript/11-competition-for-future-evidence.md) | 6,000 | 5,851 | drafted |
 | [Taxing lost comparison](manuscript/12-taxing-lost-comparison.md) | 6,000 | 6,135 | drafted |
 | [An economics of possible worlds](manuscript/13-an-economics-of-possible-worlds.md) | 6,000 | 6,000 | drafted |
 | [The next opportunity](manuscript/14-epilogue.md) | 2,000 | 2,000 | drafted |
 
-Current back matter: 14,183 words, including chapter notes.
+Current back matter: 14,274 words, including chapter notes.
 
 | Back matter | Written | Stage |
 | --- | ---: | --- |
-| [References](manuscript/90-references.md) | 2,449 | drafted |
+| [References](manuscript/90-references.md) | 2,438 | drafted |
 | [Acknowledgments](manuscript/91-acknowledgments.md) | 174 | drafted |
 
 [Read the continuous working manuscript](drafts/Shadow_Futures_Complete_Manuscript.md), with endnotes, references and acknowledgments. It remains a draft pending the whole-book review.

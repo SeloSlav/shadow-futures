@@ -75,14 +75,14 @@
       "title": "A billion answers",
       "file": "book/manuscript/09-a-billion-answers.md",
       "target": 6000,
-      "stage": "drafted"
+      "stage": "reviewed"
     },
     {
       "id": "chapter_09",
       "title": "The first rung",
       "file": "book/manuscript/10-the-first-rung.md",
       "target": 6000,
-      "stage": "drafted"
+      "stage": "reviewed"
     },
     {
       "id": "chapter_10",

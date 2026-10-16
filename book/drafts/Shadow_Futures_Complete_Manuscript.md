@@ -1797,7 +1797,9 @@ The factory has made an answer possible. The next chapter asks what we learn whe
 
 <a id="chapter_08"></a>
 
-# Chapter 8: A billion answers
+# Chapter 8
+
+## A billion answers
 
 A purchase order arrives with a delivery deadline somewhere in its pages. In our hypothetical workplace, a worker asks an AI service to find the date. Behind the familiar interface, software chooses a model, sends the document, receives an answer, and returns it to the worker.
 
@@ -1837,7 +1839,9 @@ For the order on our worker's screen, the immediate achievement remains concrete
 
 ## When the judge likes the packaging
 
-An automatic evaluator can make comparison cheaper, but its criteria require scrutiny. Yann Dubois and colleagues investigated this problem in their work on length-controlled AlpacaEval. The evaluation uses a language model to judge responses. They found that changing instructions about verbosity could substantially change an evaluated model's score, and that controlling for response length reduced this sensitivity.[^chapter_08-c8-12]
+Yann Dubois and colleagues tested how an automatic judge responds to presentation in their length-controlled AlpacaEval study. They prompted models to give concise or verbose answers. For one GPT-4 version, the unadjusted win rate ranged from about twenty-three to sixty-four percent as the instruction changed. The underlying model had not received a new training run; the prompt and resulting answers differed. Their statistical length adjustment reduced the swing. The experiment exposes sensitivity to presentation, while leaving us to investigate which changes also improve the answer.[^chapter_08-c8-12]
+
+Each response faced a reference answer to the same instruction. The judge's preference supplied the score. It was a measure of which answer the evaluator favored, rather than an independent check against a separately established correct solution.[^chapter_08-c8-12]
 
 This is a different evaluation procedure from Arena's direct user votes. The distinction prevents a lazy conclusion that every human judgment is merely a preference for long answers. The study examines a particular automatic judge and an adjustment to its measurements. It gives us a concrete example of how the apparatus of evaluation can influence the result.
 
@@ -1846,8 +1850,6 @@ Think of the deadline in the purchase order. One service returns the date and id
 Now imagine that the longer response contains an error elsewhere. The extra detail has changed more than the length of the answer; it has created another opportunity to mislead the worker. Alternatively, the longer explanation might expose an ambiguity that the short answer concealed. Length by itself cannot tell us which happened. The measurement must remain connected to the purpose.
 
 The length-controlled study also makes a counterfactual question explicit: how would the estimated preference compare if the responses had the same length? Its statistical adjustment supplies an estimate under a model. The authors are not claiming to have observed every possible rewritten answer or eliminated every source of evaluation bias. A defined counterfactual can be useful without becoming an omniscient reconstruction.
-
-That is a helpful precedent for this book. Counterfactual reasoning is already part of research practice. My proposed contribution concerns the comparison-budget bound and its implications for attribution in a specified allocation setting. It does not replace ordinary empirical adjustments, nor does it give me ownership of asking what would happen under another arrangement.
 
 For a developer, the practical stakes concern which improvements an evaluation rewards. If a score rises after a formatting change, the developer should investigate whether users actually complete their work better. If better reasoning raises the score, that is worth distinguishing too. The same final ranking can emerge through changes with different consequences for the customer.
 
@@ -1903,7 +1905,7 @@ That last qualification matters. If a service was never available for a particul
 
 The Yahoo authors call their method replay. Their use of the word concerns evaluating a recommendation policy with suitable logged events. My shadow futures concern alternative histories generated under specified economic conditions and rules. These are distinct uses. A procedure that reuses article records is not a time machine for recreating the entire industry with a different first winner.
 
-For example, our hypothetical buyer might use randomized logs to estimate how current Aster and current Birch perform on a defined task population. That result would not, on its own, establish how Birch would have developed if it had received Aster's earliest contracts, hired a different team, or chosen another training strategy. The current-system comparison and the development-history question ask different things.
+Our hypothetical buyer might use randomized logs to compare current Aster and current Birch on a defined task population. That result would not, on its own, establish how Birch would have developed after a different early allocation sequence, building another team as the same response rules allowed. Deliberately changing its training strategy would be a separate intervention. Current-system evaluation, historical variation under fixed rules, and a changed development policy require different comparisons.
 
 The same record can nevertheless be valuable. If it supports a better procurement decision, it need not explain every earlier fortune to justify its collection. The point of the comparison budget is to clarify a particular information constraint, not to demand a complete causal explanation of the economy before allowing any useful inference.
 
@@ -1946,8 +1948,6 @@ Keep the purchase order in view. A system could predict accurately that the work
 We should also resist reversing the theorem into a general celebration of ignorance. An accurately checked answer teaches us something. A well-designed comparison can identify a performance difference. Some input effects may be learned from additional measurements. The finite-budget result concerns a particular obstacle under particular conditions, rather than a rule that economic evidence must always fail.
 
 For the buyer, the next action could be straightforward. If errors matter, check a suitable sample against the original orders. If supplier choice matters, preserve a meaningful comparison. If a historical attribution claim matters, identify the intervention, horizon, and evidence that could support it. The inquiry becomes more useful as it becomes more specific.
-
-The number of generated answers can then be put in its proper place. It tells us about activity. Combined with appropriate design and outcomes, activity can produce information. Without them, the number may mostly tell us that the same decision system has been busy.
 
 ## A town throws a party
 
@@ -2039,7 +2039,9 @@ The next chapter follows that person into the workplace. Its subject is the work
 
 <a id="chapter_09"></a>
 
-# 9. The first rung
+# Chapter 9
+
+## The first rung
 
 On September 10, 2020, an engineer ran a load test and an AI assistant stopped making suggestions. The interruption appears in an unusual place: an economics paper about customer support. Workers continued answering customers while the software that had been helping them was unavailable. A breakdown had created an opportunity to ask what remained after assistance disappeared.[^chapter_09-c9-1]
 
@@ -2087,7 +2089,7 @@ There is an economic difference between buying an answer and buying instruction.
 
 Neither approach is always preferable. A customer facing an urgent deadline may reasonably want the repair. An employee already familiar with the problem may gain nothing from another lesson. Instruction takes time, and a tool that insists on teaching every experienced user could become a nuisance. The relevant choice concerns the purpose of this task for this person at this stage of development.
 
-The classroom study shows why a firm should resist using the appearance of competence as its only measure of learning. Assisted work can become smoother while the ability to operate without that form of assistance falls behind. Conversely, the customer-support study suggests that repeated assistance can leave useful knowledge behind. We have examples pointing toward different outcomes because the activities and arrangements differ.
+The classroom researchers also examined students' messages. With the standard assistant, students often simply asked for the answer. With the learning-oriented tutor, they exchanged more messages and increasingly asked for help or attempted solutions. The authors saw this contrast as consistent with students using the standard assistant to obtain solutions instead of working through problems. It helps us see a possible mechanism. The message patterns do not separately identify the contribution of each safeguard, since the tutor changed several things together.[^chapter_09-c9-5]
 
 Imagine Birch assessing a junior's corrected report. It could check whether the numbers now reconcile. That tests the deliverable. It could also present a different reporting error later and ask the employee to diagnose it, with suitable tools available. That tests transfer. A third check might ask whether the employee notices a plausible but incorrect recommendation from the assistant. That tests supervision. Passing one check does not automatically establish the others.
 
@@ -2117,11 +2119,11 @@ One participant's published comment included the simple explanation, “I really
 
 Random assignment cannot recover a task that never enters the pool. It can make the allowed and disallowed conditions comparable among eligible, submitted tasks. The researcher must still ask why these tasks were submitted and what happened to the rest. The boundary around the experiment is part of the evidence.
 
-Other things had changed as well. Payment was lower than in the original study, potentially altering participation. Developers could run agents concurrently, complicating the meaning of time spent on a task. Unfinished work and differences in task selection created further difficulties. These were reasons to reconsider the design, rather than reasons to declare that the original slowdown had cleanly reversed into a new, precisely measured speedup.
+Study pay also fell from $150 to $50 an hour, potentially altering participation. Developers could run agents concurrently, complicating the meaning of time spent on a task. Unfinished work and differences in task selection created further difficulties. These were reasons to reconsider the design, rather than declare that the original slowdown had cleanly reversed into a precisely measured speedup.
 
 The attraction of the tool could be evidence that it had become more useful. It could also reflect convenience, enjoyment, expectations, or the kinds of work people now chose to attempt. METR believed the newer tools likely helped more, while emphasizing how weakly the follow-up identified the magnitude. The preference to use a product and a credible estimate of its productivity effect answer different questions.
 
-Preference itself has economic value. A developer might reasonably choose a method that makes a task less unpleasant even if it takes somewhat longer. An employer might accept that cost to retain staff or improve the working day. Those possibilities should be stated as choices, rather than converted into an unmeasured claim that the tool saved time. In fictional Birch, an employee could prefer reviewing a proposed correction to producing it from scratch. Management could evaluate both the quality of that review and the employee's experience of the task. The decision would then involve several outcomes. A stopwatch would answer one part of it; a preference survey would answer another. Calling both observations productivity would obscure the tradeoff. Treating the preference as worthless would discard something the worker actually values. Good evaluation keeps both observations visible.
+Preference itself has economic value. A developer might reasonably choose a method that makes a task less unpleasant even if it takes somewhat longer. An employer might accept that cost to retain staff or improve the working day. Those possibilities should be stated as choices, rather than converted into an unmeasured claim that the tool saved time. In fictional Birch, an employee could prefer reviewing a correction to producing it from scratch. Management could evaluate both the quality of that review and the employee's experience of the task. The decision would then involve several outcomes. A stopwatch would answer one part of it; a preference survey would answer another. Calling both observations productivity would obscure the tradeoff. Treating the preference as worthless would discard something the worker values. Evaluation keeps both observations visible.
 
 This problem is familiar outside software. A worker who has reorganized a day around a tool may reasonably resist surrendering it for research. An employer may dislike paying for deliberately slower work. A researcher cannot assume that preserving a clean comparison costs nothing merely because the comparison would be informative.
 
@@ -2137,9 +2139,9 @@ The response should be to design better comparisons while taking participants' c
 
 ## From tasks to jobs
 
-Bank tellers supply a historical warning against drawing a straight line from an automated task to disappearing employment. David Autor's account, drawing on James Bessen's work, describes how cash machines reduced the need for tellers per branch while cheaper branch operation and changes in banking helped support more branches. The remaining job also shifted toward customer relationships and other services.[^chapter_09-c9-9]
+Bank tellers offer a historical warning against equating an automated task with an eliminated job. James Bessen reported that the number needed in an average urban branch fell from twenty to thirteen between 1988 and 2004, while urban branch numbers grew by 43 percent. David Autor drew on this account to explain how lower operating costs and expanding demand can change employment. The remaining teller work also shifted toward customer relationships and other services.[^chapter_09-c9-9]
 
-The cash machine performed useful work. It did not have to reproduce every activity of the person whose routine task it took over. Whether employment fell depended on what happened around that substitution: the number of branches, demand for services, the cost of operating them, and the work that remained worth paying a person to do.
+Autor also identified deregulation as part of the branch expansion. The figures do not isolate the cash machine's causal effect. They show why counting automated withdrawals cannot by itself tell us how many people a bank will employ. The business can change the number of outlets, the services it offers, and the work it assigns to people.
 
 Autor's broader argument follows the relationship between tasks within a job. Removing one costly step can increase the value of the steps that remain. But that possibility depends on what customers want and what the remaining workers contribute. In Birch's reporting service, automatic data extraction might leave employees more time to investigate discrepancies. If clients will pay for those investigations, the business could expand that work. If the reports already satisfy demand and investigation adds little, the same technical saving could instead reduce hours. These are different demand conditions around the same automated step. Naming the step is the beginning of an employment analysis, rather than its completed conclusion.
 
@@ -3231,7 +3233,7 @@ Lockdown's other chart was there to be read. Most economic alternatives have no 
 
 [^chapter_08-c8-11]: Stanford HAI, *AI Index Report 2026*, [full report](https://hai.stanford.edu/assets/files/ai_index_report_2026.pdf), Section 1.4, inference subsection, printed p. 36. The chapter uses the distinction between developing a model and repeatedly serving it. It adopts no model-specific energy estimate, current usage count, or inference from energy consumption to the comparison budget.
 
-[^chapter_08-c8-12]: Yann Dubois, Balázs Galambosi, Percy Liang, and Tatsunori B. Hashimoto, “Length-Controlled AlpacaEval: A Simple Way to Debias Automatic Evaluators,” first released 2024, [author version 2](https://arxiv.org/pdf/2404.04475v2), March 10, 2025, pp. 1–4, Section 4.1 and Figure 3, p. 6, limitations p. 9. The adjustment concerns a specific automated evaluator, assumes a same-length comparison is desired, and does not remove every judge bias. No universal correction or current ranking is adopted.
+[^chapter_08-c8-12]: Yann Dubois, Balázs Galambosi, Percy Liang, and Tatsunori B. Hashimoto, “Length-Controlled AlpacaEval: A Simple Way to Debias Automatic Evaluators,” first released 2024, [author version 2](https://arxiv.org/pdf/2404.04475v2), March 10, 2025, pp. 1–4, Section 4.1 and Figure 3, p. 6, limitations p. 9. Section 4.1 reports gpt4_1106_preview win rates of 22.9%–64.3% under verbosity prompts, reduced to 41.9%–51.6% with length control. Scores aggregate the automatic judge's preference probabilities against reference outputs, not independently checked correct-answer rates. Prompting also changes the actual answers; the study does not hold all answer quality fixed. The adjustment assumes a same-length comparison is desired and does not remove every judge bias. No universal correction or current ranking is adopted.
 
 [^chapter_08-c8-13]: Alexander Novikov and colleagues, *AlphaEvolve: A Coding Agent for Scientific and Algorithmic Discovery*, [2025 white paper](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/AlphaEvolve.pdf), pp. 1–3 and data-center scheduling discussion pp. 13–14; Google DeepMind, [May 14, 2025 account](https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/). Reported resource recovery is not an equivalent percentage electricity saving or proof of overall welfare. Simulation, held-out testing and post-deployment measurement are distinct stages; developer report, not independent causal audit.
 
@@ -3245,15 +3247,15 @@ Lockdown's other chart was there to be read. Most economic alternatives have no 
 
 [^chapter_09-c9-4]: Same paper, Section VIII. No compensation data or estimated long-run equilibrium employment response. Demand, hours, staffing, and pay examples are possible responses, not measured findings. The discussion of credit for expert practices raises an attribution and incentive question; it supplies no quantified division of their contribution.
 
-[^chapter_09-c9-5]: Hamsa Bastani, Osbert Bastani, Alp Sungu, Haosen Ge, Özge Kabakcı, and Rei Mariman, [“Generative AI without Guardrails Can Harm Learning”](https://doi.org/10.1073/pnas.2422633122), *PNAS* 122(26), 2025, e2422633122. Relevant full author version: [education_llm.pdf](https://hamsabastani.github.io/education_llm.pdf), pp. 4–11, Sections 2–3 and Figure 1. Classroom allocation uses the school's random student assignment plus constrained classroom assignment; do not describe individual laptop use as independently randomized. The outcome is short-run assessment performance. GPT Tutor's unassisted advantage was not statistically established. The August 2025 correction, DOI 10.1073/pnas.2518204122, concerns an affiliation production error, not the results.
+[^chapter_09-c9-5]: Hamsa Bastani, Osbert Bastani, Alp Sungu, Haosen Ge, Özge Kabakcı, and Rei Mariman, [“Generative AI without Guardrails Can Harm Learning”](https://doi.org/10.1073/pnas.2422633122), *PNAS* 122(26), 2025, e2422633122. Relevant full author version: [education_llm.pdf](https://hamsabastani.github.io/education_llm.pdf), pp. 4–11 for design/results and pp. 13–18, Section 4, for message/error analyses. The authors interpret asking-for-answer and engagement patterns as consistent with reliance on supplied solutions; these analyses do not separately randomize each safeguard or establish a unique mediator. Classroom allocation uses the school's random student assignment plus constrained classroom assignment; do not describe individual laptop use as independently randomized. The outcome is short-run assessment performance. GPT Tutor's unassisted advantage was not statistically established. The August 2025 correction, DOI 10.1073/pnas.2518204122, concerns an affiliation production error, not the results.
 
 [^chapter_09-c9-6]: Joel Becker, Nate Rush, Beth Barnes, and David Rein, [“Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity”](https://metr.org/Early_2025_AI_Experienced_OS_Devs_Study-paper.pdf), 2025, abstract and Sections 1–2. Sixteen developers, 246 tasks; task definition preceded assignment. Tools and repositories are dated and specific. The 19 percent estimate concerns longer completion time, not an identical percentage reduction in output. Forecasts and retrospective perceptions are distinct from measured time. No universal or current-tool effect is claimed.
 
-[^chapter_09-c9-7]: METR, [“We Are Changing Our Developer Productivity Experiment Design”](https://metr.org/blog/2026-02-24-uplift-update/), February 24, 2026. Full account checked for selection, withheld tasks, compensation change, attrition, concurrent-agent time measurement, and interpretation. The five-word participant excerpt is reproduced from METR's published account, not an interview conducted for this book. Neither its stated belief about newer tools nor the selected follow-up results establish a clean causal reversal of the original estimate.
+[^chapter_09-c9-7]: METR, [“We Are Changing Our Developer Productivity Experiment Design”](https://metr.org/blog/2026-02-24-uplift-update/), February 24, 2026. Full account checked for selection, withheld tasks, study pay falling from USD150/hour to USD50/hour, attrition, concurrent-agent time measurement, and interpretation. The five-word participant excerpt is reproduced from METR's published account, not an interview conducted for this book. Neither its stated belief about newer tools nor the selected follow-up results establish a clean causal reversal of the original estimate.
 
 [^chapter_09-c9-8]: Erlic, canonical October 2026 v5, Sections 2–4 and Appendix B; [SSRN record](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994). Application requires specifying the observed experiment, counting all informative measurements, and checking the theorem's assumptions. The labor cases motivate an institutional question; none estimates a finite lifetime comparison budget. Changing training policies is an intervention, distinguished from a replay under unchanged starting conditions and response rules.
 
-[^chapter_09-c9-9]: David H. Autor, [“Why Are There Still So Many Jobs? The History and Future of Workplace Automation”](https://economics.mit.edu/sites/default/files/publications/why%20are%20there%20still%20jobs%202014.pdf), *Journal of Economic Perspectives* 29(3), 2015, 3–30, especially pp. 5–7. The ATM discussion draws on James Bessen (2015); this chapter attributes that account through Autor rather than claiming an independent check of Bessen's original evidence. Deregulation also contributed to branch expansion. This is a historical example with explicit limits, not a claim about current bank employment.
+[^chapter_09-c9-9]: David H. Autor, [“Why Are There Still So Many Jobs? The History and Future of Workplace Automation”](https://economics.mit.edu/sites/default/files/publications/why%20are%20there%20still%20jobs%202014.pdf), *Journal of Economic Perspectives* 29(3), 2015, 3–30, especially pp. 5–7. See also James Bessen, [“Toil and Technology”](https://www.imf.org/external/pubs/ft/fandd/2015/03/bessen.htm), *Finance & Development* 52(1), March 2015, 16–19, ATM discussion. Relevant original paragraphs were read in indexed publisher text; direct HTML/PDF and eLibrary retrieval failed, so no full-PDF or underlying-data inspection is claimed. The figures concern average US urban branches in the stated historical window. Autor also identifies deregulation. These accounts do not isolate an ATM treatment effect or describe current bank employment.
 
 [^chapter_09-c9-10]: Daron Acemoglu and Pascual Restrepo, [“Robots and Jobs: Evidence from US Labor Markets”](https://economics.mit.edu/sites/default/files/publications/Robots%20and%20Jobs%20-%20Evidence%20from%20US%20Labor%20Markets.p.pdf), *Journal of Political Economy* 128(6), 2020, 2188–2244; author-hosted journal-format proof, PDF pp. 1–4. Historical local exposure design, including European adoption as an instrument, differs from random robot assignment. No local coefficient is presented as an unconditional national or generative-AI forecast.
 
@@ -3403,7 +3405,7 @@ Bearchell, S. J., B. A. Fraaije, M. W. Shaw, and B. D. L. Fitt. 2005. Wheat arch
 
 Becker, J., N. Rush, B. Barnes, and D. Rein. 2025. Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity. METR research report. [Source](https://metr.org/Early_2025_AI_Experienced_OS_Devs_Study-paper.pdf)
 
-Bessen, J. 2015. Toil and technology. Finance & Development 52(1):16–19. ATM account cited through Autor (2015); original article not independently inspected. [Publisher record](https://www.imf.org/external/pubs/ft/fandd/2015/03/bessen.htm)
+Bessen, J. 2015. Toil and technology. Finance & Development 52(1):16–19. [Publisher record](https://www.imf.org/external/pubs/ft/fandd/2015/03/bessen.htm)
 
 Blackwell, D. 1953. Equivalent comparisons of experiments. Annals of Mathematical Statistics 24:265–272. [Source](https://doi.org/10.1214/aoms/1177729032)
 

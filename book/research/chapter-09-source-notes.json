@@ -2,12 +2,12 @@
   "manuscript": "book/manuscript/10-the-first-rung.md",
   "title": "The first rung",
   "checked_on": "2026-10-16",
-  "status": "drafted",
+  "status": "reviewed",
   "target_main_words": 6000,
-  "body_words": 5871,
-  "note_words": 854,
-  "draft_sha256": "389fa039203ffab1f3c7a63460004d2e0fb4395550dec1c4d1df7c3e2949e64f",
-  "source_checks": "Relevant full primary passages checked for measured outcomes, designs and limits. Published final customer-support record distinguished from author version; learning long version, dated METR studies, published Autor text and robot proof versions explicitly identified.",
+  "body_words": 5894,
+  "note_words": 914,
+  "draft_sha256": "a6aad46bb4aa1724620e63e84fbfb078dc908805a0f016ff5560c4c0f0fbaafb",
+  "source_checks": "Relevant full primary passages checked for measured outcomes, designs and limits. Published final customer-support record distinguished from author version; learning long version, dated METR studies, published Autor text and robot proof versions explicitly identified. Relevant original Bessen ATM paragraphs were additionally read in indexed publisher text; failed direct fetches, absence of full-PDF inspection and no raw-data replication remain explicit.",
   "sources": [
     {
       "key": "BrynjolfssonLiRaymond2025",
@@ -36,16 +36,17 @@
       "note": "c9-5",
       "source": "https://hamsabastani.github.io/education_llm.pdf",
       "additional_source": "https://doi.org/10.1073/pnas.2422633122",
-      "locator": "68-page full author PDF pp. 4–11, Sections 2–3, Figure 1, Table 1; published PubMed abstract/metadata PMID 40560616",
+      "locator": "68-page full author PDF pp. 4–11, Sections 2–3, Figure 1, Table 1; published PubMed abstract/metadata PMID 40560616; original long author PDF pp. 13–18, Sections 4–4.2 and Figure 3, rechecked for message patterns and limits of proposed mechanism.",
       "full_text_checked": true,
       "claims": [
         "Turkey high-school study of nearly 1,000 students, practice then unassisted assessment",
         "Standard GPT Base and deliberately constrained GPT Tutor; teacher-supplied problem-specific guidance",
         "Both assisted practice outcomes improve; standard-tool unassisted performance lower; Tutor harm largely mitigated without established positive unassisted effect",
-        "Classroom-level assignment and prior random student placement; common written work, rubric and independent graders"
+        "Classroom-level assignment and prior random student placement; common written work, rubric and independent graders",
+        "Standard-tool students often asked for answers; Tutor users exchanged more messages, sought help and attempted solutions; authors interpret as consistent with copying/reliance mechanism"
       ],
       "version_boundary": "Undated author-hosted 68-page long version retrieved October 16, 2026, not claimed identical to publisher typeset PDF. Main qualitative findings corroborated by published abstract. August 2025 correction DOI 10.1073/pnas.2518204122 concerns affiliation production error; correction checked via indexed primary record.",
-      "boundary": "Short-run classroom outcome; no long-term career finding, employment result, general claim all AI harms learning or claim perfect tutor correctness. No individual-use randomization claim. Direct PNAS/PMC/SSRN access failed; successful author PDF validated as PDF.",
+      "boundary": "Short-run classroom outcome; no long-term career finding, employment result, general claim all AI harms learning or claim perfect tutor correctness. No individual-use randomization claim. Direct PNAS/PMC/SSRN access failed; successful author PDF validated as PDF. Message/mediation analysis is not a separate randomized comparison of each safeguard or exclusive causal channel.",
       "v5_reference": false,
       "local_cache": ".tmp/book-research/bastani-learning-author-2025.pdf"
     },
@@ -70,13 +71,14 @@
       "key": "METR2026DesignUpdate",
       "note": "c9-7",
       "source": "https://metr.org/blog/2026-02-24-uplift-update/",
-      "locator": "Full February 24, 2026 account: selection bias, developer compensation, time measurement, interpretation and future designs",
+      "locator": "Full February 24, 2026 account: selection bias, developer compensation, time measurement, interpretation and future designs; full substantive February 24 account refreshed October 16, 2026, including pay USD150/hour to USD50/hour and exact five-word excerpt.",
       "full_text_checked": true,
       "claims": [
         "Some developers avoid no-AI possibility or withhold tasks; comparison pool changes",
         "Lower follow-up pay, incomplete tasks and concurrent agents complicate evaluation",
         "Authors believe newer tools likely help more but follow-up only weakly identifies magnitude",
-        "Five-word excerpt from published participant comment"
+        "Five-word excerpt from published participant comment",
+        "Study compensation fell from USD150/hour to USD50/hour; possible contribution to participation changes"
       ],
       "version_boundary": "Dated follow-up account, not claimed latest completed study or clean causal reversal of early-2025 estimate.",
       "boundary": "Selection precedes randomized task pool; raw follow-up numbers not used. Preference can have value independently of speed; latter is author reasoning. No v5 finite-lifetime diagnosis.",
@@ -110,7 +112,7 @@
         "ATM historical account: fewer tellers per branch, branch expansion with cheaper operation and deregulation, changing teller work",
         "Historical account is not guaranteed employment gain or welfare improvement"
       ],
-      "version_boundary": "2015 published JEP text despite 2014 in filename. ATM account credited to Autor drawing on Bessen 2015; original Bessen source not independently inspected.",
+      "version_boundary": "2015 published JEP text despite 2014 in filename. ATM account credited to Autor drawing on Bessen; relevant original Bessen ATM paragraphs now checked through indexed publisher text, with direct-fetch/raw-data limits separately recorded.",
       "boundary": "No current bank-employment claim, universal future favorable result or exact counterfactual decomposition. Birch report example is author illustration.",
       "v5_reference": false,
       "local_cache": ".tmp/book-research/autor-automation-2015.pdf"
@@ -152,6 +154,19 @@
       ],
       "boundary": "Consolidated text checked October 16, 2026; no uniform implementation or universal recognition claim. Broader correction/appeal/independent-assessment bundle is author proposal.",
       "v5_reference": false
+    },
+    {
+      "key": "Bessen2015",
+      "note": "c9-9",
+      "source": "https://www.imf.org/external/pubs/ft/fandd/2015/03/bessen.htm",
+      "locator": "Original publisher indexed text, ATM discussion: full paragraph beginning First, ATMs increased the demand for tellers and following task-change paragraph; article Finance & Development 52(1), 16–19.",
+      "full_text_checked": "Relevant original ATM passages read through indexed publisher text; full PDF not retrieved.",
+      "claims": [
+        "Reported average urban tellers per branch fell from 20 to 13 between 1988 and 2004 while urban branches increased 43 percent",
+        "Remaining work shifted toward relationship banking"
+      ],
+      "boundary": "Direct HTML/PDF returned 403 and IMF eLibrary retrieval failed; no local copy, full-PDF inspection or raw-data replication claimed. Historical reported account, not isolated causal estimate, universal employment guarantee or current bank labor statistic.",
+      "v5_reference": false
     }
   ],
   "illustrations": [
@@ -188,12 +203,37 @@
     "METR selection difficulty not empirical theorem or clean follow-up reversal.",
     "All informative tests count; learning changes ability and training interventions differ from replays.",
     "Birch scenarios explicitly fictional; no interview, equations or blanket preservation of obsolete work.",
-    "Local compensation, incentives and possible training spillover require additional evidence."
+    "Local compensation, incentives and possible training spillover require additional evidence.",
+    "Classroom message patterns support proposed mechanism without separately identifying guardrails; assisted output and later skill remain distinct.",
+    "METR study-pay change made concrete; no clean causal reversal or current tool estimate inferred.",
+    "Bessen ATM passage checked in indexed original publisher text; direct-fetch and raw-data limits retained."
   ],
-  "whole_book_review": "Still required: final continuity, repetition, pace, conceptual/factual/citation audit, complete bibliography, combined reading manuscript and final word budget.",
+  "whole_book_review": "Sequential chapter review completed for saved draft and recorded claims; final cross-book continuity, original technical-source completion and publication-date refresh remain required. Bessen access is passage-specific indexed primary text, not full original PDF or data replication.",
   "historical_scale_revision": {
     "checked_on": "2026-10-16",
-    "scope": "Targeted user-requested historical scale, reach-of-judgment, preemption, platform work, precaution and private-property revision; complete sequential chapter review remains pending.",
+    "scope": "Earlier targeted historical-scale revision, subsequently included in the complete sequential chapter review recorded in sequential_review.",
     "boundary": "No inevitable historical decline, finite-budget diagnosis of any actual market, independent proof/priority certification, or automatic policy/liability inference."
+  },
+  "sequential_review": {
+    "checked_on": "2026-10-16",
+    "status": "completed_for_recorded_chapter_claims",
+    "method": "Complete body and notes read after Chapter 8, revised case passages checked in context. New message-analysis details checked in full author paper; dated METR account refreshed and Bessen original ATM paragraphs checked via indexed primary text. Existing published-version, causal, historical and legal boundaries retained.",
+    "findings": [
+      "Customer-support outage, assisted gain and retained handling speed remain distinct outcomes/designs; 2025 publication not confused with 2020 outage.",
+      "Classroom design observes subsequent unassisted assessment; message patterns add process evidence, without long-term career forecast or isolated guardrail effect.",
+      "METR early-2025 task completion time distinct from same percentage output decrease and current tools; follow-up selection/pay/concurrency problems not recast as clean reversal.",
+      "Original Bessen ATM paragraph supplies scoped urban 1988–2004 figures; Autor deregulation account retained, no isolated ATM or current employment claim.",
+      "Robot exposure evidence conditional on historical quasi-experimental design, not random town allocation or AI forecast.",
+      "New historical reach-of-judgment thread preserved: driver fictional, ILO alternative-platform evidence included, portability can carry flawed scores.",
+      "Directive transposition deadline distinct from implementation; correction/appeal/independent-assessment bundle explicitly author proposal.",
+      "Human skill can develop; changed training policy an intervention, not replay; additional assessments informative beyond winner records.",
+      "Three staffing options remain costed conditional designs; no theorem-derived training subsidy, job guarantee, liability or finite-budget diagnosis."
+    ],
+    "source_rechecks": [
+      "Bastani long author version pp. 13–18",
+      "METR February 24, 2026 full substantive account",
+      "Bessen original ATM paragraphs via indexed publisher text"
+    ],
+    "draft_sha256": "a6aad46bb4aa1724620e63e84fbfb078dc908805a0f016ff5560c4c0f0fbaafb"
   }
 }

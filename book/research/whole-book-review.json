@@ -4,14 +4,14 @@
   "objective": "Complete book at prologue standard, including sequential editorial, conceptual, factual and citation review; counts and file existence do not certify completion.",
   "mechanical_checks": {
     "main_words": 80000,
-    "back_matter_words": 14183,
+    "back_matter_words": 14274,
     "main_components": 15,
     "endnotes": 187,
     "bibliography_entries": 118,
     "canonical_v5_entries": 24,
-    "source_ledger_identifiers": 118,
+    "source_ledger_identifiers": 119,
     "identifiers_covered": true,
-    "distinct_note_urls": 143,
+    "distinct_note_urls": 144,
     "unmapped_note_urls": [],
     "interpretation": "URL-to-work coverage and source/hash binding, not proof every URL currently serves full text or every cited claim is correct."
   },
@@ -100,17 +100,20 @@
     {
       "id": "chapter_08",
       "file": "book/manuscript/09-a-billion-answers.md",
-      "sha256": "a364c7e8bd7201e14bb46ec63e1213c1a99d86451e4dd64a22ac4c67c1ed789f",
-      "sequential_editorial_review": "pending",
-      "conceptual_factual_citation_review": "claim_ledgers_exist_whole_book_recheck_pending"
+      "sha256": "12248f4faf440d6cdc960c967d818b2b2522ad0033e46a071ee4cc16983af1d4",
+      "sequential_editorial_review": "completed",
+      "conceptual_factual_citation_review": "completed_for_recorded_claims_with_explicit_source_boundaries",
+      "checked_on": "2026-10-16",
+      "review_record": "book/research/chapter-08-source-notes.json; sequential_review field"
     },
     {
       "id": "chapter_09",
       "file": "book/manuscript/10-the-first-rung.md",
-      "sha256": "389fa039203ffab1f3c7a63460004d2e0fb4395550dec1c4d1df7c3e2949e64f",
-      "sequential_editorial_review": "pending",
-      "conceptual_factual_citation_review": "claim_ledgers_exist_whole_book_recheck_pending",
-      "targeted_revision": "2026-10-16 historical-scale revision; relevant new passages and sources checked, complete sequential chapter review still pending."
+      "sha256": "a6aad46bb4aa1724620e63e84fbfb078dc908805a0f016ff5560c4c0f0fbaafb",
+      "sequential_editorial_review": "completed",
+      "conceptual_factual_citation_review": "completed_for_recorded_claims_with_explicit_source_boundaries",
+      "checked_on": "2026-10-16",
+      "review_record": "book/research/chapter-09-source-notes.json; sequential_review field"
     },
     {
       "id": "chapter_10",
@@ -170,7 +173,8 @@
     {
       "work": "Bessen2015",
       "finding": "Autor2015 bibliography printedp29 cites Toil and Technology, Finance & Development52(1), not Learning by Doing.",
-      "action": "Corrected provisional bibliography title and publisher link before first commit; indirect-use boundary remains explicit. Direct original full-text inspection not claimed."
+      "action": "Corrected provisional bibliography title and publisher link before first commit; indirect-use boundary remains explicit. Direct original full-text inspection not claimed.",
+      "subsequent_check": "2026-10-16 Chapter 9 review checked relevant original ATM paragraphs in indexed publisher text. Direct HTML/PDF/eLibrary retrieval failed; no full-PDF or underlying-data inspection claimed. Earlier indirect-only boundary superseded for these specific passages."
     }
   ],
   "editorial_priorities": [
@@ -188,7 +192,7 @@
     ],
     "scope": "Initial argument brief and outline exports only; not the 80000-word book."
   },
-  "completion_audit": "Not passed. Sequential editorial review reaches Chapter 7. Chapters 8–12 and epilogue, four original Chapter 3 technical passages, original Blackwell1953, and final whole-book continuity/citation audit remain incomplete.",
+  "completion_audit": "Not passed. Sequential editorial review reaches Chapter 9. Chapters 10–12 and epilogue, four original Chapter 3 technical passages, original Blackwell1953, and final whole-book continuity/citation audit remain incomplete.",
   "review_sessions": [
     {
       "checked_on": "2026-10-16",
@@ -329,7 +333,36 @@
       },
       "reader_sha256_after_revision": "84590f542b54218a693a35e5a5decbc70b1457339b3b74c06d6d44a20fc81607",
       "remaining_scope": "Sequential review of Chapters 8–12 and epilogue; four Chapter 3 original technical passages; original Blackwell1953; final whole-book continuity/citation audit."
+    },
+    {
+      "checked_on": "2026-10-16",
+      "scope": [
+        "chapter_08",
+        "chapter_09"
+      ],
+      "method": "Complete body and notes read after Chapter 7. Revised passages re-read in surrounding sections; new source details checked in versioned original papers, dated METR primary account and indexed Bessen publisher text. Prior source boundaries retained.",
+      "findings": [
+        "AlpacaEval verbosity score swing now concrete; underlying model unchanged but prompts/answers changed, with no all-quality-held-fixed claim.",
+        "Explains automatic preference against reference answers versus independently checked correctness; actual assignment chance still differs from router quality prediction.",
+        "Logged-policy evaluation, fixed-rule historical variation and intervention on training policy explicitly separated.",
+        "Removed repeated novelty self-description and generic activity summary while retaining predecessor credit and precise budget/reminder scope.",
+        "Classroom student-message analysis adds process evidence; changed pedagogical/correctness safeguards are not individually identified.",
+        "METR study-pay change made concrete, quote verified; selection before randomization, concurrent-agent timing, preferences and productivity remain distinct.",
+        "Bessen 1988–2004 urban teller/branch figures checked in indexed original publisher passage; direct fetches failed, no full-PDF or raw-data replication claimed. Autor deregulation and non-isolated-causality limits retained.",
+        "Support-learning/outage, short classroom assessment, industrial robots and global platform ratings retain their respective measured-outcome/design scopes.",
+        "Historical reach-of-judgment thread and portability/correction proposals preserved; no universal monopoly, fixed-skill or lifetime-budget diagnosis.",
+        "Main total and original 24 identities/assigned roles preserved; source hashes, reader assembly, note matching and URL-to-work coverage verified."
+      ],
+      "budget": {
+        "main_words": 80000,
+        "back_matter_words": 14274,
+        "chapter_08_words": 5977,
+        "chapter_09_words": 5894,
+        "twelve_chapters_total": 72000
+      },
+      "reader_sha256_after_revision": "4a86a4e6442e5d5148ace4b66ddb952304b4e577eaff1d421ffda17a749e23a7",
+      "remaining_scope": "Sequential review of Chapters 10–12 and epilogue; four Chapter 3 original technical passages; original Blackwell1953; final whole-book continuity/citation audit."
     }
   ],
-  "next_component": "chapter_08"
+  "next_component": "chapter_10"
 }

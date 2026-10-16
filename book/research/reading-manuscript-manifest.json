@@ -1,7 +1,7 @@
 {
   "status": "complete_draft_assembly_review_pending",
   "file": "book/drafts/Shadow_Futures_Complete_Manuscript.md",
-  "sha256": "84590f542b54218a693a35e5a5decbc70b1457339b3b74c06d6d44a20fc81607",
+  "sha256": "4a86a4e6442e5d5148ace4b66ddb952304b4e577eaff1d421ffda17a749e23a7",
   "inputs": [
     {
       "file": "book/manuscript/00-prologue.md",
@@ -41,11 +41,11 @@
     },
     {
       "file": "book/manuscript/09-a-billion-answers.md",
-      "sha256": "a364c7e8bd7201e14bb46ec63e1213c1a99d86451e4dd64a22ac4c67c1ed789f"
+      "sha256": "12248f4faf440d6cdc960c967d818b2b2522ad0033e46a071ee4cc16983af1d4"
     },
     {
       "file": "book/manuscript/10-the-first-rung.md",
-      "sha256": "389fa039203ffab1f3c7a63460004d2e0fb4395550dec1c4d1df7c3e2949e64f"
+      "sha256": "a6aad46bb4aa1724620e63e84fbfb078dc908805a0f016ff5560c4c0f0fbaafb"
     },
     {
       "file": "book/manuscript/11-competition-for-future-evidence.md",
@@ -65,16 +65,16 @@
     },
     {
       "file": "book/manuscript/90-references.md",
-      "sha256": "fae27f75057565cbb8a8c239b97d381a0a59bc2d957296fc5ddd81bb7264564c"
+      "sha256": "e05c69c62d897e754643c53da7d5b1d5624580712d14ce9e15767fadbad4dda8"
     },
     {
       "file": "book/manuscript/91-acknowledgments.md",
       "sha256": "c9af1838c3350e792acd298dfa4480500cff91ba8218150d4ff2493d488c6671"
     }
   ],
-  "bibliography_input_sha256": "46146f113e1ef0f313e83079974ca419bc03c7166ecb507d5f750e0315462ccc",
+  "bibliography_input_sha256": "c03544e432b90132c9f736916a1c1e8496dbec0457165886f58afc0823d23a1f",
   "main_words": 80000,
-  "back_matter_words": 14183,
+  "back_matter_words": 14274,
   "reference_entries": 118,
   "endnote_count": 187,
   "notes_namespaced": true,

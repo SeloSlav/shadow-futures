@@ -340,9 +340,11 @@
       "canonical_v5_reference": false
     },
     {
-      "id": "Bessen2015Indirect",
-      "source_keys": [],
-      "citation": "Bessen, J. 2015. Toil and technology. Finance & Development 52(1):16–19. ATM account cited through Autor (2015); original article not independently inspected.",
+      "id": "Bessen2015",
+      "source_keys": [
+        "Bessen2015"
+      ],
+      "citation": "Bessen, J. 2015. Toil and technology. Finance & Development 52(1):16–19.",
       "links": [
         {
           "label": "Publisher record",
@@ -357,7 +359,7 @@
         "https://www.imf.org/external/pubs/ft/fandd/2015/03/bessen.htm",
         "https://www.imf.org/external/pubs/ft/fandd/2015/03/pdf/bessen.pdf"
       ],
-      "bibliographic_check": "Autor2015 bibliography printedp29 (PDFp27) identifies Toil and Technology; IMF/BU records corroborate. Direct publisher full text unavailable; indirect-use boundary retained."
+      "bibliographic_check": "Relevant original ATM paragraphs read in indexed publisher text October 16, 2026; direct HTML/PDF and eLibrary retrieval failed. No full-PDF or underlying-data inspection claimed. Earlier indirect-only boundary superseded for these specific passages."
     },
     {
       "id": "Blackwell1953",
