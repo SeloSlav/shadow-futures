@@ -1,0 +1,168 @@
+{
+  "manuscript": "book/manuscript/03-the-comparison-budget.md",
+  "title": "The comparison budget",
+  "checked_on": "2026-10-16",
+  "status": "drafted",
+  "target_main_words": 6000,
+  "body_words": 6000,
+  "draft_sha256": "42fbeaf93758a5bb04f82dd85f621a160e40368c11a3dd16860e13fd21bec543",
+  "source_checks": "Claim-specific full-source passages checked in identified published or author versions. Kasy-Sautmann correction checked; no independent proof or priority certification claimed.",
+  "sources": [
+    {
+      "key": "NetflixArtwork2017",
+      "note": "c2-1",
+      "source": "https://netflixtechblog.com/artwork-personalization-c589f074ad76",
+      "locator": "December 7, 2017; opening Good Will Hunting illustration; Challenges; Contextual bandits approach; Performance evaluation",
+      "claims": [
+        "Illustrative artwork variants; controlled exploration; logging; stated cost context"
+      ],
+      "boundary": "Company engineering account, dated 2017. Named-movie images illustrate possibilities; no named-image effect size or current deployment claim.",
+      "v5_reference": false
+    },
+    {
+      "key": "ErlicV5",
+      "note": "c2-2",
+      "source": "output/docx/Shadow_Futures_FINAL_Comparison_Budget_Revised_v5.docx",
+      "locator": "Sections 2-3; Proposition 1; Theorem 1; Appendices C-D",
+      "claims": [
+        "Definition and changing favorite; distinction from wins, shares, independence, welfare; information bound and conditional lifetime result"
+      ],
+      "boundary": "Observed information set and bounded profile differences matter; finite budget alone is insufficient; almost-sure and expected-budget conditions differ.",
+      "v5_reference": false
+    },
+    {
+      "key": "LiChuLangfordSchapire2010",
+      "note": "c2-3",
+      "source": "https://doi.org/10.1145/1772690.1772758",
+      "full_text_checked": "https://arxiv.org/pdf/1003.0146",
+      "version_boundary": "arXiv version 2, March 1, 2012, of the WWW 2010 paper",
+      "locator": "Sections 2.1, 4, 5.2.1; PDF pp. 2, 5-6",
+      "claims": [
+        "Randomized logging and partial outcomes; offline replay under stated assumptions"
+      ],
+      "boundary": "Does not estimate a comparison budget; observed click responses cannot be omitted from an application. Abstract and dataset-section event totals differ, so no event count is quoted.",
+      "v5_reference": false
+    },
+    {
+      "key": "Pemantle2007",
+      "note": "c2-4",
+      "source": "https://doi.org/10.1214/07-PS094",
+      "full_text_checked": "https://arxiv.org/pdf/math/0610076",
+      "locator": "Section 2.1, printed pp. 3-5; Theorem 2.1",
+      "claims": [
+        "Classical urn construction; random limiting proportions; reinforcement regimes differ"
+      ],
+      "boundary": "A credited model, not empirical procurement evidence.",
+      "v5_reference": true
+    },
+    {
+      "key": "Oliveira2009",
+      "note": "c2-5",
+      "source": "https://doi.org/10.1002/rsa.20261",
+      "full_text_checked": "https://arxiv.org/pdf/math/0510415",
+      "version_boundary": "Author preprint math/0510415v3, posted July 9, 2007; rendered cover date differs from posting date. Published record is 2009.",
+      "locator": "Introduction and Theorem 1, preprint pp. 1-2",
+      "claims": [
+        "Strong-monopoly regime under the summability condition; earlier results credited by Oliveira"
+      ],
+      "boundary": "Positive feedback or a large lead alone does not establish strong monopoly.",
+      "v5_reference": true
+    },
+    {
+      "key": "GottfriedGrosskinsky2024",
+      "note": "c2-5",
+      "source": "https://doi.org/10.1214/24-EJP1157",
+      "full_text_checked": "https://arxiv.org/pdf/2303.01210",
+      "version_boundary": "Author preprint version 3, November 27, 2023, read for the published 2024 article",
+      "locator": "Sections 2.1-2.3; Theorem 2.2 on preprint p. 6; regime summary on p. 9",
+      "claims": [
+        "Strong versus weak monopoly; polynomial example; general feedback distinctions"
+      ],
+      "boundary": "Comparison-budget information consequence is Erlic additional interpretation under v5 conditions.",
+      "v5_reference": true
+    },
+    {
+      "key": "KasySautmann2021",
+      "note": "c2-6",
+      "source": "https://doi.org/10.3982/ECTA17527",
+      "full_text_checked": "https://maxkasy.github.io/home/files/papers/adaptiveexperimentspolicy.pdf",
+      "locator": "Published pp. 113-114; Section 6, pp. 122-123; table II",
+      "claims": [
+        "Post-experiment policy-choice objective; adaptive assignment; India farmer-call field implementation and narrow completion outcome"
+      ],
+      "boundary": "Main text uses design and field implementation, not original expected frequentist regret-rate claim.",
+      "v5_reference": true
+    },
+    {
+      "key": "KasySautmann2021Correction",
+      "note": "c2-6",
+      "source": "https://maxkasy.github.io/home/files/papers/correction_adaptiveexperimentspolicy.pdf",
+      "locator": "November 10, 2021; p. 1, correction of item 3 and corrected Theorem 1",
+      "claims": [
+        "Correction to item 3 concerns original frequentist expected-policy-regret rate statement"
+      ],
+      "boundary": "Correction identified on author research page and read before drafting. No invalidated original guarantee asserted in manuscript.",
+      "v5_reference": false
+    },
+    {
+      "key": "BarYam2016",
+      "note": "c2-7",
+      "source": "https://doi.org/10.1002/cplx.21785",
+      "full_text_checked": "https://arxiv.org/pdf/1604.00976",
+      "version_boundary": "April 2016 author preprint version 1",
+      "locator": "Abstract and Sections I-II, preprint pp. 1-3",
+      "claims": [
+        "Detailed data and intervention-relevant information; scale framing"
+      ],
+      "boundary": "Conceptual antecedent, not the comparison-budget theorem.",
+      "v5_reference": true
+    },
+    {
+      "key": "RajkumarEtAl2022",
+      "note": "c2-8",
+      "source": "https://doi.org/10.1126/science.abl4476",
+      "full_text_checked": "https://ide.mit.edu/wp-content/uploads/2022/09/abl4476.pdf",
+      "locator": "Printed pp. 1304-1309 design and main results; pp. 1309-1310 definitions and interference",
+      "claims": [
+        "Randomized PYMK variants; outcome-specific and measure-dependent results; network interference considered"
+      ],
+      "boundary": "No aggregate job count presented as jobs caused. No estimated comparison budget or universal networking advice.",
+      "v5_reference": false
+    },
+    {
+      "key": "KohaviEtAl2013",
+      "note": "c2-9",
+      "source": "https://doi.org/10.1145/2487575.2488217",
+      "full_text_checked": "https://www.exp-platform.com/Documents/2013%20controlledExperimentsAtScale.pdf",
+      "locator": "Author version pp. 1-2, Introduction and Section 1.1",
+      "claims": [
+        "Concurrent experiments and holdouts; advertisement site-link tradeoff"
+      ],
+      "boundary": "Historical engineering account; no current-production claim or attribution of public-information comparisons to all internal tests.",
+      "v5_reference": false
+    }
+  ],
+  "original_examples": [
+    "Aster and Birch allocations: tied half, quarter, quarter, with favorite changing",
+    "Three-supplier allocation chances",
+    "Persistent one-in-a-thousand schedule and hypothetical halving schedule",
+    "Four hypothetical viewer groups illustrating conditional versus aggregate chances",
+    "Identical images and identical input contrasts illustrating lack of identification",
+    "Hypothetical logged supplier outcomes, independent tests, and costed pilots"
+  ],
+  "narrative_checks": {
+    "no_equations": true,
+    "no_invented_interviews_or_private_reactions": true,
+    "budget_not_wins_shares_or_independent_tests": true,
+    "allocation_favorite_not_quality_verdict": true,
+    "counting_unit_and_context_specified": true,
+    "infinite_budget_not_sufficient": true,
+    "small_or_shrinking_chance_not_automatically_finite_budget": true,
+    "additional_observed_outcomes_counted": true,
+    "strong_feedback_antecedents_credited": true,
+    "correction_respected": true,
+    "named_cases_not_presented_as_v5_theorem_tests": true,
+    "costs_and_private_experiments_included": true,
+    "read_through_completed": true
+  }
+}

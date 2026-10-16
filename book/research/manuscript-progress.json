@@ -1,9 +1,9 @@
 {
   "status": "in_progress",
   "main_text_target": 80000,
-  "main_words": 12000,
-  "words_remaining_to_target": 68000,
-  "back_matter_words": 2394,
+  "main_words": 18000,
+  "words_remaining_to_target": 62000,
+  "back_matter_words": 3026,
   "back_matter_target": [
     10000,
     15000
@@ -59,10 +59,15 @@
       "title": "The comparison budget",
       "file": "book/manuscript/03-the-comparison-budget.md",
       "target": 6000,
-      "stage": "not_started",
-      "exists": false,
-      "main_words": 0,
-      "note_words": 0
+      "stage": "drafted",
+      "exists": true,
+      "main_words": 6000,
+      "note_words": 632,
+      "sha256": "42fbeaf93758a5bb04f82dd85f621a160e40368c11a3dd16860e13fd21bec543",
+      "note_count": 9,
+      "missing_notes": [],
+      "unused_notes": [],
+      "duplicate_notes": false
     },
     {
       "id": "chapter_03",
