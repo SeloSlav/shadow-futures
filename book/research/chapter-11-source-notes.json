@@ -1,0 +1,228 @@
+{
+  "manuscript": "book/manuscript/12-taxing-lost-comparison.md",
+  "title": "Taxing lost comparison",
+  "checked_on": "2026-10-16",
+  "status": "drafted",
+  "target_main_words": 6000,
+  "body_words": 6000,
+  "note_words": 693,
+  "draft_sha256": "75ba7237daabcdfe74ec0b4ccf8a935c2b799acaa81634cf2a11336867dc7f35",
+  "source_checks": "Current expanded unpublished tax manuscript and canonical v5 hidden-position passage read directly. Relevant primary predecessor, Swedish agency, CMA order and CEC project/program passages checked with historical dates and version/access boundaries. Public provision additionality and real-company corrective rates not presumed.",
+  "sources": [
+    {
+      "key": "Erlic2026TaxJournalDraft",
+      "notes": [
+        "c11-1",
+        "c11-7",
+        "c11-8",
+        "c11-12"
+      ],
+      "source": "output/docx/research-program/journal/05_Taxing_the_Social_Cost_of_Lost_Contestability.docx",
+      "sha256": "0eace74f72e48b47f14b78b293f8306b63ff5b642e9977d72d3cf9500d18f00e",
+      "locator": "October2026 journal draft Sections1–10, Propositions1–5, replacement-value corollary and AppendicesA–B; paragraphs8–109",
+      "full_text_checked": true,
+      "claims": [
+        "Decision-specific information value requires additional likelihood, payoff, causal and appropriation assumptions",
+        "Two private choices, productive/restrictive activity and informative testing; activity-only instrument need not implement interior first best",
+        "Conditional public/private crowdout; possible cost saving without additional information",
+        "After private replacement, constrained activity correction differs from fixed-testing partial derivative",
+        "Feasible informative replacement caps marginal cost under stated substitutability/capacity conditions; setup cost and whole-route choice matter",
+        "Compute/profit/raw test counts unreliable automatic proxies; financing, entry and strategic disclosure require added analysis"
+      ],
+      "version_boundary": "Current expanded unpublished journal manuscript selected per archive README, not earlier short draft; numerical example stipulated, not empirical rate estimate.",
+      "boundary": "Independent common-quality substitutable trials and a common continuation objective are substantive benchmark assumptions. Exact crowdout, cost cap and two-instrument result conditional; positive activity-only improvements not ruled out. Full schedule distinct from rate at one point; fixed operating firm, transfer assumptions and boundary exceptions retained. No real-company undertaxation, tax rate, liability or established priority.",
+      "v5_reference": false
+    },
+    {
+      "key": "ErlicV5",
+      "note": "c11-2",
+      "source": "output/docx/Shadow_Futures_FINAL_Comparison_Budget_Revised_v5.docx",
+      "sha256": "6c5f12d78ba233d0badad7bdc923319e3c9212031d764ff3423604a9faae738a",
+      "additional_source": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994",
+      "locator": "Section5 paragraphs65–69; conclusion72; AppendixE.2 paragraphs199–200; model paragraphs17–26",
+      "full_text_checked": true,
+      "claims": [
+        "Fixed input profiles and admissible hidden-position/input-loading transformation preserve allocation laws",
+        "Exact record-based contribution/position decomposition impossible across equivalent candidate economies with differing contribution target",
+        "Time-varying within-agent input variation may break invariance; extra informative outcomes count",
+        "Separate from same-parameter shadow replay and finite-budget theorem; not refutation of optimal taxation"
+      ],
+      "version_boundary": "Unpublished canonical October2026 v5; associated public SSRN record not claimed byte-identical.",
+      "boundary": "Conditional allocation experiment and defined contribution intervention/horizon. Not universal physical-output nonidentification, equal merit, equal incomes or real-firm tax estimate.",
+      "v5_reference": false
+    },
+    {
+      "key": "PikettySaezStantcheva2014",
+      "note": "c11-3",
+      "source": "https://eml.berkeley.edu/~saez/piketty-saez-stantchevaAEJ14.pdf",
+      "locator": "Published AEJ:EconomicPolicy6(1)230–271, pp230–235; full source checked for Chapter6 and relevant opening rechecked for Chapter11",
+      "full_text_checked": true,
+      "claims": [
+        "Productive activity, avoidance and compensation bargaining have distinct fiscal/welfare implications",
+        "Exact ex post individual merit division not required to formulate optimal tax policies"
+      ],
+      "version_boundary": "Published text plus appendices in53-page author-hosted PDF; no earlier draft statistics or current tax rate.",
+      "boundary": "Framework credit; no imported calibration, causal universality or prescribed real top rate. Author normative commitments stated separately.",
+      "v5_reference": true,
+      "local_cache": ".tmp/book-research/piketty-saez-stantcheva-2014.pdf"
+    },
+    {
+      "key": "RothschildScheuer2016",
+      "note": "c11-4",
+      "source": "https://www.econ.uzh.ch/dam/jcr:e4a3ed75-0645-497b-a7a7-5015f58a15c0/rent_seeking.pdf",
+      "additional_source": "https://doi.org/10.1093/restud/rdw017",
+      "locator": "December2015 author version abstract and introduction printedpp1–4; relevant opening rechecked; published2016 framework corroborated in Chapter6",
+      "full_text_checked": true,
+      "claims": [
+        "Tax combined income without separately observing individual productive/rent-seeking components",
+        "Changes in relative activity returns complicate a simple average Pigouvian correction"
+      ],
+      "version_boundary": "57-page December2015 full author manuscript, distinct from2016 typeset and older2011 draft.",
+      "boundary": "Prior theory, not a named profession/firm empirical attribution, refutation of optimal taxes or adopted calibration.",
+      "v5_reference": true,
+      "local_cache": ".tmp/book-research/rothschild-scheuer-2015.pdf"
+    },
+    {
+      "key": "SwedishEPA2003NOx",
+      "note": "c11-5",
+      "source": "https://www.naturvardsverket.se/4ac644/globalassets/media/publikationer-pdf/5300/978-91-620-5335-3.pdf",
+      "locator": "Report5335, November2003, title page and extended English summary printedpp13–14, PDFpp14–15",
+      "full_text_checked": true,
+      "claims": [
+        "1992 introduction of charge on specified energy-production NOx emissions",
+        "Historical charge receipts returned in relation to useful output; incentive distinguishes emissions and useful energy"
+      ],
+      "version_boundary": "Actual report dated November2003, not recent search-crawl timestamp. No2003 rate presented as current and no historical reduction estimate imported.",
+      "boundary": "Institutional tax-base/refund example, not direct model of information externality, proof production distortions vanish, or causal policy-effect estimate.",
+      "v5_reference": false,
+      "local_cache": ".tmp/book-research/swedish-nox-charge-report-5335.pdf"
+    },
+    {
+      "key": "SwedishEPANOxGuidance2026Access",
+      "note": "c11-5",
+      "source": "https://www.naturvardsverket.se/en/guidance/air-and-climate/nitrogen-oxides/",
+      "locator": "Agency full guidance: measurement regulations, energy credit, annual audit and comparative measurement; read October16,2026",
+      "full_text_checked": true,
+      "claims": [
+        "Measurement instruments, calculations, declarations, independent accredited comparison and audit procedures",
+        "Declared charge quantity requires verification; not a meter of informational damage"
+      ],
+      "version_boundary": "Current accessed guidance, referring to2016 regulation and2019 updated guidelines; not a substitute for full current statute interpretation.",
+      "boundary": "No compliance advice, current charge-rate claim, universal exemption or optimal fiscal assessment.",
+      "v5_reference": false
+    },
+    {
+      "key": "Arrow1962",
+      "note": "c11-6",
+      "source": "https://www.nber.org/system/files/chapters/c2144/c2144.pdf",
+      "locator": "Printedpp609,614–617, information as operating by-product, transmission, appropriation; relevant pages rechecked from local original",
+      "full_text_checked": true,
+      "claims": [
+        "Prior welfare foundation for uncertainty, knowledge production and incomplete appropriation",
+        "Useful information can arise from ordinary economic activity as well as research"
+      ],
+      "version_boundary": "Original1962 chapter, additional book foundation outside original24 v5.",
+      "boundary": "No actual-firm information externality, inevitable market failure, exact social damage or prescribed levy.",
+      "v5_reference": false,
+      "local_cache": "book/sources/classics/Arrow_1962_Economic_Welfare_and_Invention.pdf"
+    },
+    {
+      "key": "CEC_EPIC2026Access",
+      "note": "c11-9",
+      "source": "https://www.energy.ca.gov/programs-and-topics/programs/electric-program-investment-charge-epic-program",
+      "locator": "Agency full program description: funding by utility customers, public-interest research, administrators; checked October16,2026",
+      "full_text_checked": true,
+      "claims": [
+        "Ratepayer-funded research/development/demonstration program with CEC/utility administration"
+      ],
+      "version_boundary": "Current program description; no budget, historical establishment-date dispute or future-investment-plan completion claim used.",
+      "boundary": "Financing example, not marginal information-destruction tax, established additionality/crowdout or causal portfolio-welfare estimate.",
+      "v5_reference": false
+    },
+    {
+      "key": "ZoellickCarterLehman2026Redwood",
+      "note": "c11-10",
+      "source": "https://www.energy.ca.gov/sites/default/files/2026-01/CEC-500-2026-006.pdf",
+      "additional_source": "https://www.energy.ca.gov/publications/2026/redwood-coast-airport-microgrid",
+      "locator": "CEC-500-2026-006, January2026; executive summary printedpp1–3 (PDFpp10–12 in one-based page count), business-model conclusionp69, conclusionpp95–96; indexed pages9–11,77,103–104 zero-based",
+      "full_text_checked": true,
+      "claims": [
+        "Solar/battery microgrid serves airport and Coast Guard air station among customers",
+        "Team reports operation through interruptions including earthquake/winter storms; technical and institutional knowledge transfer",
+        "Team reports converter diagnosis/replacement, remaining costs and replication difficulties",
+        "Commercially monetizable benefits versus broader resilience value differ"
+      ],
+      "version_boundary": "Primary project-team final report, not independent causal audit. Direct terminal PDF retrieval timed out; file absence checked. Full relevant indexed primary passages read; no successful local cache claimed.",
+      "boundary": "No tax/subsidy rate, net social welfare proof, causal additionality, universal microgrid replication or avoided-dollar estimate adopted. Analogies to AI testing are author reasoning.",
+      "v5_reference": false
+    },
+    {
+      "key": "KerrNandaRhodesKropf2014",
+      "note": "c11-11",
+      "source": "https://www.hbs.edu/faculty/Shared%20Documents/conferences/2014-strategy-research/Entrepreneruship%20as%20Experimentation.pdf",
+      "locator": "Published JEP28(3)25–48, pp27–32; full relevant passages checked for Chapter6, opening experimentation/continuation passages rechecked",
+      "full_text_checked": true,
+      "claims": [
+        "Staged experimentation and option to stop before full investment; continuation decision value"
+      ],
+      "version_boundary": "24-page published article, DOI10.1257/jep.28.3.25.",
+      "boundary": "No claim every failure informative/socially valuable, every subsidy justified or all entrepreneurship returns luck.",
+      "v5_reference": true,
+      "local_cache": ".tmp/book-research/kerr-nanda-rhodes-kropf-2014.pdf"
+    },
+    {
+      "key": "CMARetailBankingOrder2017",
+      "note": "c11-13",
+      "source": "https://www.gov.uk/government/publications/retail-banking-market-investigation-order-2017/the-retail-banking-market-investigation-order-2017",
+      "locator": "Part2 implementation arrangements, Article10; Part3 Article16 survey funding formula; full relevant indexed primary passages",
+      "full_text_checked": true,
+      "claims": [
+        "Providers fund implementation resources and independent service-quality surveys",
+        "Survey funding uses active-account shares in relevant survey market"
+      ],
+      "version_boundary": "Dated2017 regulatory order, not current dispute/status or claimed newly adopted tax.",
+      "boundary": "Funding convention differs from causal external harm estimate. No general information-destruction tax or established incidence claim; council financial applications are hypothetical.",
+      "v5_reference": false
+    }
+  ],
+  "illustrations": [
+    {
+      "name": "Council replacement invoice and Aster access condition",
+      "status": "explicit hypothetical",
+      "purpose": "Trace action to lost informative trial, productive benefit, affected decision and feasible replacement"
+    },
+    {
+      "name": "Fixed input profiles and hidden position",
+      "status": "explicit constructed candidate-economy comparison based on canonicalv5E.2",
+      "purpose": "Full allocation-law equivalence distinct from replay and finite-budget theorem"
+    },
+    {
+      "name": "Private replacement/public crowdout",
+      "status": "conditional model-based thought experiment",
+      "purpose": "Private response changes relevant tax margin; total information and resource costs differ"
+    },
+    {
+      "name": "AI compute, profit and raw test-count bases",
+      "status": "explicit economic illustration",
+      "purpose": "Proxy observability not causal harm; informative evaluation can require opposing incentive treatment"
+    },
+    {
+      "name": "Testing payment, access remedy and public facility",
+      "status": "author conditional proposals",
+      "purpose": "Quality verification, setup, financing/incidence/entry, costed substitutes and stopping"
+    }
+  ],
+  "narrative_checks": [
+    "Begins with fictional replacement invoice per outline; no real-company tax estimate.",
+    "Swedish charge and independent measurements ground base/verification; no dated rate confusion.",
+    "EPIC and Redwood introduce concrete financing/operation/lessons with team-report boundaries.",
+    "CMA survey/implementation funding returns to banking with a new question about payer and cost-sharing convention.",
+    "Canonical hidden-position equivalence not mislabeled shadow replay or finite-budget result.",
+    "Existing tax theory credited; exact causal-merit decomposition not asserted prerequisite.",
+    "Productive benefits, private tests, crowdout, replacement, two margins and second-best branch retained.",
+    "Disclosure strategic costs, capacity, welfare weights, fixed operating firm and financing limits acknowledged.",
+    "Normative commitments consistent with Chapter6 and explicitly separate from theorem.",
+    "6000 main words, no equations or invented reporting; leads to Chapter12 future economics."
+  ],
+  "whole_book_review": "Still required: full-sequence continuity/repetition/pace review, conceptual/factual/citation audit, unresolved original-source passages in separate queue, complete bibliography, combined reading artifact and final word-budget review."
+}

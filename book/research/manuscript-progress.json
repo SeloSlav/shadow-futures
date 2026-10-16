@@ -1,9 +1,9 @@
 {
   "status": "in_progress",
   "main_text_target": 80000,
-  "main_words": 66000,
-  "words_remaining_to_target": 14000,
-  "back_matter_words": 9317,
+  "main_words": 72000,
+  "words_remaining_to_target": 8000,
+  "back_matter_words": 10010,
   "back_matter_target": [
     10000,
     15000
@@ -194,10 +194,15 @@
       "title": "Taxing lost comparison",
       "file": "book/manuscript/12-taxing-lost-comparison.md",
       "target": 6000,
-      "stage": "not_started",
-      "exists": false,
-      "main_words": 0,
-      "note_words": 0
+      "stage": "drafted",
+      "exists": true,
+      "main_words": 6000,
+      "note_words": 693,
+      "sha256": "75ba7237daabcdfe74ec0b4ccf8a935c2b799acaa81634cf2a11336867dc7f35",
+      "note_count": 13,
+      "missing_notes": [],
+      "unused_notes": [],
+      "duplicate_notes": false
     },
     {
       "id": "chapter_12",
