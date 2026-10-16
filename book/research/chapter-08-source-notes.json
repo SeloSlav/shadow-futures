@@ -1,0 +1,245 @@
+{
+  "manuscript": "book/manuscript/09-a-billion-answers.md",
+  "title": "A billion answers",
+  "checked_on": "2026-10-16",
+  "status": "drafted",
+  "target_main_words": 6000,
+  "body_words": 6000,
+  "note_words": 824,
+  "draft_sha256": "a364c7e8bd7201e14bb46ec63e1213c1a99d86451e4dd64a22ac4c67c1ed789f",
+  "source_checks": "Relevant full primary passages checked in published/versioned research papers, original predecessor papers and attributed developer report. Versions, assumptions, measured objectives, author interpretations, simulations and hypotheticals remain distinct.",
+  "sources": [
+    {
+      "key": "ChiangEtAl2024Arena",
+      "note": "c8-1",
+      "source": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/chiang24b/chiang24b.pdf",
+      "locator": "Published ICML/PMLR 235:8359–8388, PDF pp. 1–3, Figure 1 and Section 3.1",
+      "full_text_checked": true,
+      "claims": [
+        "User prompt sent to two anonymously presented models; vote before identities revealed",
+        "Pairwise human preference differs from known-answer evaluation",
+        "Designed model-pair sampling may be nonuniform"
+      ],
+      "boundary": "Final published 30-page paper, not earlier 29-page arXiv version also retrieved. Dated design, not current platform audit, universal factual truth metric, or representative workplace census.",
+      "v5_reference": false,
+      "local_cache": ".tmp/book-research/chatbot-arena-published-2024.pdf"
+    },
+    {
+      "key": "OngEtAl2025RouteLLM",
+      "note": "c8-2",
+      "source": "https://arxiv.org/pdf/2406.18665v4",
+      "locator": "Published ICLR 2025 header; Sections 3–5, PDF pp. 3 and 5–7, limitations p. 10",
+      "full_text_checked": true,
+      "claims": [
+        "Predicted strong-versus-weak preference and cost threshold make routing decision",
+        "Human preference data and augmentation support router training",
+        "Cost/performance evaluations and domain-transfer limitations"
+      ],
+      "boundary": "Version 4 dated February 23, 2025, first report June 2024. Predicted win probability differs from allocation propensity. No universal savings figure, correct-answer guarantee or real-workplace effect. Direct OpenReview fetch challenged; complete versioned author PDF read.",
+      "v5_reference": false,
+      "local_cache": ".tmp/book-research/routellm-2025-v4.pdf"
+    },
+    {
+      "key": "ChenZahariaZou2024FrugalGPT",
+      "note": "c8-3",
+      "source": "https://lingjiaochen.com/papers/2024_FrugalGPT_TMLR.pdf",
+      "locator": "Published TMLR December 2024; Section 4 pp. 4–5, experiments and Figure 3 pp. 6–10",
+      "full_text_checked": true,
+      "claims": [
+        "Router, generation scorer and stop decision create adaptive model-call cascade",
+        "Multiple calls can occur even when model answers agree",
+        "Evaluations on defined classification and reading-comprehension tasks"
+      ],
+      "boundary": "Main experiments use March 2023 models/prices; November 2024 extension distinct. No current model/API price or universal savings claim. Hypothetical deadline extraction not paper result.",
+      "v5_reference": false,
+      "local_cache": ".tmp/book-research/frugalgpt-published-2024.pdf"
+    },
+    {
+      "key": "LiChuLangfordWang2011Offline",
+      "note": "c8-4",
+      "source": "https://arxiv.org/pdf/1003.5956v2",
+      "locator": "WSDM 2011, 297–306, DOI 10.1145/1935826.1935878; author version 2 March 1, 2012, Sections 3–4, Theorem 1, Yahoo design and online/offline comparisons",
+      "full_text_checked": true,
+      "claims": [
+        "News recommendation feedback observed for shown article",
+        "Randomized logging can support replay evaluation under iid-event and assignment assumptions",
+        "Yahoo data used to compare offline evaluation with online results"
+      ],
+      "boundary": "Offline retained-event evaluation distinct from structural shadow-future replay or exact counterfactual economic development. Finite-stream ratio and concentration for arbitrary adaptive policies not unconditional. Microsoft-hosted direct PDF returned missing page; complete 10-page arXiv author version read.",
+      "v5_reference": false,
+      "local_cache": ".tmp/book-research/li-offline-news-2012-v2.pdf"
+    },
+    {
+      "key": "LlamaTeam2024",
+      "note": "c8-5",
+      "source": "https://arxiv.org/pdf/2407.21783v3",
+      "locator": "Version 3 November 23, 2024, p. 2, flagship model improving smaller models during post-training",
+      "full_text_checked": true,
+      "claims": [
+        "Model-family members can share development through flagship-assisted post-training"
+      ],
+      "boundary": "Report language results concern Llama 3.1. No inference that related models have identical errors, no informative differences, or statistically independent outputs. Document parser and storefronts hypothetical.",
+      "v5_reference": false,
+      "local_cache": ".tmp/book-research/llama3-2024-v3.pdf"
+    },
+    {
+      "key": "BarYam2016",
+      "note": "c8-6",
+      "source": "https://arxiv.org/pdf/1604.00976",
+      "locator": "April 1, 2016 author preprint version 1, abstract and Sections I–II pp. 1–3",
+      "full_text_checked": true,
+      "claims": [
+        "Detailed data differs from intervention-relevant information; scale matters"
+      ],
+      "boundary": "Conceptual antecedent, not v5 budget bound or general rejection of large datasets.",
+      "v5_reference": true,
+      "published_record": "https://doi.org/10.1002/cplx.21785",
+      "local_cache": ".tmp/book-research/bar-yam-2016.pdf"
+    },
+    {
+      "key": "BlackwellDubins1962",
+      "note": "c8-7",
+      "source": "https://doi.org/10.1214/aoms/1177704456",
+      "locator": "Printed pp. 882–883, main theorem p. 883; original local PDF relevant pages re-read",
+      "full_text_checked": true,
+      "claims": [
+        "Conditional future probability laws merge under specified absolute-continuity relationship"
+      ],
+      "boundary": "Not arbitrary observer agreement, chatbot factual accuracy, automatic nonlearning or a new theorem by book author. Merging alone can coexist with parameter learning.",
+      "v5_reference": true,
+      "local_source": "book/sources/classics/Blackwell_Dubins_1962_Merging_of_Opinions.pdf"
+    },
+    {
+      "key": "Zhang2004",
+      "note": "c8-8",
+      "source": "https://www.stat.purdue.edu/~zhanghao/Paper/JASA2004.pdf",
+      "locator": "Introduction and Section 3 printed pp. 250–253, Theorem 2/Corollaries 1–2/Theorem 3 checked for Chapter 3; introduction re-read",
+      "full_text_checked": true,
+      "claims": [
+        "Fixed-domain infill can fail to recover individual covariance parameters while estimable combination supports prediction"
+      ],
+      "boundary": "Prior spatial-statistics distinction; not an empirical claim about an AI supplier or proof accurate prediction has no value.",
+      "v5_reference": true,
+      "local_cache": ".tmp/book-research/zhang-2004.pdf"
+    },
+    {
+      "key": "ErlicV5",
+      "note": "c8-9",
+      "source": "output/docx/Shadow_Futures_FINAL_Comparison_Budget_Revised_v5.docx",
+      "locator": "Canonical October 2026 v5 Sections 2–4 and Appendices B–D; conditions developed in Chapters 2–3",
+      "full_text_checked": true,
+      "claims": [
+        "Comparison budget accumulates conditional allocation chance outside current favorite, not predicted quality win probabilities or request counts",
+        "All outcomes, scores, assignment rules and private trials belong in observed experiment",
+        "Finite-budget attribution and predictive merging require stated conditions; replay differs from intervention"
+      ],
+      "boundary": "Unpublished author work; no independent proof/priority certification, actual-company lifetime diagnosis or global budget estimate. Information in rich outcomes cannot be ignored.",
+      "v5_reference": false,
+      "public_record": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994"
+    },
+    {
+      "key": "ParkEtAl2023GenerativeAgents",
+      "note": "c8-10",
+      "source": "https://arxiv.org/pdf/2304.03442v2",
+      "locator": "Version 2 August 6, 2023, UIST 2023; Section 3 p. 5, Section 6.5.2 p. 15, Sections 7 and 8.2 pp. 15–17",
+      "full_text_checked": true,
+      "claims": [
+        "25 software agents in Smallville; seeded party plan, diffusion and five invited agents attend",
+        "Software resident misattributes historical Adam Smith biography to neighbor of that name",
+        "Evaluation concerns believability, architecture and simulated community behavior"
+      ],
+      "boundary": "Generated software characters, not real town or human policy experiment. No author interviews or consciousness claim. Does not validate taxation simulation, counterfactual economy or lifetime-budget condition.",
+      "v5_reference": false,
+      "local_cache": ".tmp/book-research/generative-agents-2023-v2.pdf"
+    },
+    {
+      "key": "StanfordAIIndex2026",
+      "note": "c8-11",
+      "source": "https://hai.stanford.edu/assets/files/ai_index_report_2026.pdf",
+      "locator": "Section 1.4 inference subsection printed p. 36, checked for Chapter 7",
+      "full_text_checked": true,
+      "claims": [
+        "Separates training and inference when discussing energy footprint"
+      ],
+      "boundary": "No particular energy estimate, usage total, current-model comparison or conversion from energy to comparison budget adopted.",
+      "v5_reference": false,
+      "local_cache": ".tmp/book-research/stanford-ai-index-2026.pdf"
+    },
+    {
+      "key": "DuboisEtAl2024LengthControl",
+      "note": "c8-12",
+      "source": "https://arxiv.org/pdf/2404.04475v2",
+      "locator": "First released April 2024; version 2 March 10, 2025; pp. 1–4, Section 4.1/Figure 3 p. 6 and limitations p. 9",
+      "full_text_checked": true,
+      "claims": [
+        "Verbosity instructions change automatic evaluator scores",
+        "Statistical length control reduces sensitivity in the studied evaluator",
+        "Same-length counterfactual modeled under simplifying assumptions"
+      ],
+      "boundary": "Specific automatic AlpacaEval, distinct from direct Arena votes. Not universal correction, removal of all bias, current ranking, or observed every rewritten answer. Full versioned text, not assumption its 2024 and 2025 text is identical.",
+      "v5_reference": false,
+      "local_cache": ".tmp/book-research/length-controlled-alpacaeval.pdf"
+    },
+    {
+      "key": "NovikovEtAl2025AlphaEvolve",
+      "note": "c8-13",
+      "source": "https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/AlphaEvolve.pdf",
+      "locator": "2025 white paper pp. 1–3, Section 3.3.1 pp. 13–14; May 14, 2025 developer account",
+      "full_text_checked": true,
+      "claims": [
+        "LLM proposals evaluated through execution and metrics, feedback guides later proposals",
+        "Scheduling uses simulated historical workloads, unseen recent testing and reported post-deployment measurements",
+        "Authors report average 0.7 percent fleet-wide computing resource recovery"
+      ],
+      "boundary": "Developer report, not independent causal audit or equivalent percentage electricity/welfare saving. Simulation, held-out test and deployment remain distinct; local improvement not complete institutional-history attribution.",
+      "v5_reference": false,
+      "additional_source": "https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/",
+      "local_cache": ".tmp/book-research/alphaevolve-2025.pdf"
+    }
+  ],
+  "illustrations": [
+    {
+      "name": "Purchase-order deadline",
+      "status": "explicit hypothetical workplace",
+      "purpose": "Trace request, routing, output, checked truth, user acceptance and development-history questions"
+    },
+    {
+      "name": "Aster and Birch",
+      "status": "recurring explicitly fictional suppliers",
+      "purpose": "Comparable assignments, task mixtures, service selection and procurement consequences"
+    },
+    {
+      "name": "Predicted quality versus allocation chance",
+      "status": "explicit 70 percent illustration",
+      "purpose": "Distinguish router win prediction from actual assignment propensity; checked outcomes can remain informative under deterministic selection"
+    },
+    {
+      "name": "Shared storefronts and lost amendment",
+      "status": "explicit hypothetical",
+      "purpose": "Shared ancestry can leave correlated mistakes while different parsers and applications support useful tests"
+    },
+    {
+      "name": "Simulated suppliers and buyers",
+      "status": "explicit model illustration, distinct from published Smallville case",
+      "purpose": "Sensitivity, replay versus intervention, and external validation"
+    },
+    {
+      "name": "AI-assisted document program development",
+      "status": "explicit hypothetical inspired by executable-evaluation case",
+      "purpose": "Candidate generation, known test labels, fresh evaluation and performance limits"
+    }
+  ],
+  "narrative_checks": [
+    "A concrete order connects paired evaluation, routing, reusable logs, ancestry, forecasts, simulation and work.",
+    "Arena direct preference, AlpacaEval automatic judgment, checked truth and useful work kept distinct.",
+    "RouteLLM and FrugalGPT offer substantive positive cost/performance cases with dated boundaries.",
+    "Yahoo logged-data evaluation is a constructive counterweight to blanket unknowability.",
+    "Blackwell–Dubins and Zhang credited; no theorem about chatbot truth or universal attribution failure.",
+    "Smallville party/Adam Smith are clearly software simulation events, not invented human reporting.",
+    "AlphaEvolve adds executed evaluation and reported real operation; independent-audit and resource/energy distinction retained.",
+    "Cumulative chance outside current favorite remains distinct from scores, calls, market shares, model counts and welfare.",
+    "No equations, fabricated interviews, visits, actual-firm finite-budget estimate, policy tax rate or proof certification.",
+    "6000 main words; closes with workers and learning opportunities for Chapter 9."
+  ],
+  "whole_book_review": "Still required: final continuity, repetition, pace, conceptual/factual/citation audit, complete bibliography, combined reading manuscript and final word budget."
+}

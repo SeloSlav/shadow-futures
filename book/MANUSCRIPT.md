@@ -1,6 +1,6 @@
 # Shadow Futures manuscript
 
-Martin Erlic · Working manuscript · 48,000 of 80,000 main-text words
+Martin Erlic · Working manuscript · 54,000 of 80,000 main-text words
 
 The approved budget is 2,500 words for the prologue, 3,500 for the introduction, twelve 6,000-word chapters, and a 2,000-word epilogue. Notes, references, and acknowledgments have a separate 10,000–15,000-word allowance.
 
@@ -17,13 +17,13 @@ Counts below come from the current chapter files. Drafted sections still require
 | [Who gets to be tested](manuscript/06-who-gets-to-be-tested.md) | 6,000 | 6,000 | drafted |
 | [Who deserves the winnings](manuscript/07-who-deserves-the-winnings.md) | 6,000 | 6,000 | drafted |
 | [The intelligence factory](manuscript/08-the-intelligence-factory.md) | 6,000 | 6,000 | drafted |
-| A billion answers | 6,000 | 0 | not started |
+| [A billion answers](manuscript/09-a-billion-answers.md) | 6,000 | 6,000 | drafted |
 | The first rung | 6,000 | 0 | not started |
 | Competition for future evidence | 6,000 | 0 | not started |
 | Taxing lost comparison | 6,000 | 0 | not started |
 | An economics of possible worlds | 6,000 | 0 | not started |
 | The next opportunity | 2,000 | 0 | not started |
 
-Current back matter: 7,000 words, including chapter notes.
+Current back matter: 7,824 words, including chapter notes.
 
 Regenerate this inventory with `python book/tools/manuscript_status.py`. The argument brief, committed outline, canonical v5, and source notes govern the substance.

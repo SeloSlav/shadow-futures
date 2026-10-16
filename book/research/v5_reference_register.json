@@ -79,6 +79,10 @@
         {
           "manuscript": "book/manuscript/03-the-comparison-budget.md",
           "note": "c2-7"
+        },
+        {
+          "manuscript": "book/manuscript/09-a-billion-answers.md",
+          "note": "c8-6"
         }
       ]
     },
@@ -98,6 +102,10 @@
         {
           "manuscript": "book/manuscript/04-shadow-futures.md",
           "note": "c3-7"
+        },
+        {
+          "manuscript": "book/manuscript/09-a-billion-answers.md",
+          "note": "c8-7"
         }
       ],
       "checked_on": "2026-10-16",
@@ -559,6 +567,10 @@
         {
           "manuscript": "book/manuscript/04-shadow-futures.md",
           "note": "c3-8"
+        },
+        {
+          "manuscript": "book/manuscript/09-a-billion-answers.md",
+          "note": "c8-8"
         }
       ],
       "checked_on": "2026-10-16",

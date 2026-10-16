@@ -1,9 +1,9 @@
 {
   "status": "in_progress",
   "main_text_target": 80000,
-  "main_words": 48000,
-  "words_remaining_to_target": 32000,
-  "back_matter_words": 7000,
+  "main_words": 54000,
+  "words_remaining_to_target": 26000,
+  "back_matter_words": 7824,
   "back_matter_target": [
     10000,
     15000
@@ -149,10 +149,15 @@
       "title": "A billion answers",
       "file": "book/manuscript/09-a-billion-answers.md",
       "target": 6000,
-      "stage": "not_started",
-      "exists": false,
-      "main_words": 0,
-      "note_words": 0
+      "stage": "drafted",
+      "exists": true,
+      "main_words": 6000,
+      "note_words": 824,
+      "sha256": "a364c7e8bd7201e14bb46ec63e1213c1a99d86451e4dd64a22ac4c67c1ed789f",
+      "note_count": 13,
+      "missing_notes": [],
+      "unused_notes": [],
+      "duplicate_notes": false
     },
     {
       "id": "chapter_09",
