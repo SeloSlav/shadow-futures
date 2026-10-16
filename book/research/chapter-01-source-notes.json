@@ -1,0 +1,184 @@
+{
+  "manuscript": "book/manuscript/02-the-winner-and-the-explanation.md",
+  "title": "The winner and the explanation",
+  "checked_on": "2026-10-16",
+  "status": "drafted",
+  "target_main_words": 6000,
+  "body_words": 6000,
+  "draft_sha256": "1687476861531c3f0825f13ae9d9d442e4e663ec13c2320d56ef79ef76e12906",
+  "source_checks": "Relevant full-source passages checked. Where publisher access failed, the identified author working-paper version or indexed full-source sections were checked; no independent proof or priority certification is claimed.",
+  "sources": [
+    {
+      "key": "SalganikDoddsWatts2006",
+      "note": "c1-1",
+      "source": "https://www.princeton.edu/~mjs3/salganik_dodds_watts06_full.pdf",
+      "locator": "Printed p. 854 for design and participant count; pp. 854-855, figures 1-3 for results",
+      "claims": [
+        "Two experiments, 14341 participants, 48 songs, zero initial downloads",
+        "More social influence increased inequality and cross-world unpredictability",
+        "Appeal as assessed in the independent condition still mattered"
+      ],
+      "v5_reference": true
+    },
+    {
+      "key": "SalganikBitByBitOpenReview",
+      "note": "c1-1",
+      "source": "https://www.bitbybitbook.com/en/running-experiments/exp-advice/zero-variable-cost/",
+      "locator": "Section 4.6.1, figures 4.20-4.21 and paragraph reporting Lockdown ranks",
+      "claims": [
+        "Lockdown by 52Metro ranked first in one world and fortieth of forty-eight in another",
+        "Separate randomly assigned participant groups and independently evolving social-influence worlds",
+        "Grid and popularity-ranked presentations"
+      ],
+      "v5_reference": false
+    },
+    {
+      "key": "VanDeRijtEtAl2014",
+      "note": "c1-2",
+      "source": "https://doi.org/10.1073/pnas.1316836111",
+      "full_text_checked": "https://www.eui.eu/Documents/DepartmentsCentres/SPS/Profiles/Van-de-Rijt/PNAS-2014-van-de-Rijt-6934-9-11.pdf",
+      "locator": "Printed pp. 6934-6935, figure 1; pp. 6936-6937, figure 3 and Materials and Methods",
+      "claims": [
+        "200 initially unfunded Kickstarter projects, experimental donations to 100 randomly assigned projects",
+        "39 percent of controls and 70 percent of initially supported projects received subsequent third-party funding",
+        "These percentages measure further backing, not meeting a funding goal",
+        "Larger initial advantages showed diminishing marginal returns; no universal runaway inference"
+      ],
+      "v5_reference": true
+    },
+    {
+      "key": "MuchnikAralTaylor2013",
+      "note": "c1-3",
+      "source": "https://doi.org/10.1126/science.1240466",
+      "full_text_checked": "https://static1.squarespace.com/static/5e680023bf798b61525c7831/t/5ed0fd6c8c3f6405dc66235d/1590754668534/social-influence-bias.pdf",
+      "locator": "Printed pp. 647-649, figure 1; article begins on PDF page 2",
+      "claims": [
+        "Random vote intervention; first-viewer relative effect; final mean scores; negative correction; site not popularity-ordered"
+      ],
+      "v5_reference": false
+    },
+    {
+      "key": "Merton1968",
+      "note": "c1-4",
+      "source": "https://garfield.library.upenn.edu/merton/matthew1.pdf",
+      "locator": "Printed pp. 56-57; forty-first chair and named examples on p. 56",
+      "claims": [
+        "Prior Matthew effect account of recognition and subsequent research resources",
+        "Merton credits Harriet Zuckerman interviews"
+      ],
+      "v5_reference": true
+    },
+    {
+      "key": "BolDeVaanVanDeRijt2018",
+      "source": "https://doi.org/10.1073/pnas.1719557115",
+      "full_text_checked": "https://www.eui.eu/Documents/DepartmentsCentres/SPS/Profiles/Van-de-Rijt/boletal-2018.pdf",
+      "locator": "Printed pp. 4888-4889, figures 1-3; discussion p. 4890",
+      "claims": [
+        "Near-threshold comparison; subsequent funding excludes initial grant; participation mechanism"
+      ],
+      "v5_reference": false,
+      "note": "c1-5"
+    },
+    {
+      "key": "WangJonesWang2019",
+      "note": "c1-6",
+      "source": "https://www.nature.com/articles/s41467-019-12189-3",
+      "locator": "Results: Future career impact; screening analyses; Discussion; methods on active principal investigators",
+      "claims": [
+        "Attrition and conditional-on-active citation results are separate; authors argue screening does not fully explain their result"
+      ],
+      "v5_reference": false
+    },
+    {
+      "key": "TraagEtAl2025",
+      "note": "c1-7",
+      "source": "https://elifesciences.org/reviewed-preprints/109042",
+      "version_boundary": "Reviewed preprint v1, October 13, 2025, DOI 10.7554/eLife.109042.1; indexed full-source sections read because direct open intermittently returned a client challenge.",
+      "locator": "Abstract; Sections 2-4; Appendix A and B.1",
+      "claims": [
+        "Fourteen programs, six funders; differing robustness and selection interpretation; model-based extension beyond threshold sample"
+      ],
+      "v5_reference": false
+    },
+    {
+      "key": "Alchian1950",
+      "note": "c1-alchian",
+      "source": "book/sources/classics/Alchian_1950_Uncertainty_Evolution_and_Economic_Theory.pdf",
+      "locator": "Printed pp. 213-214; random Chicago travelers and gasoline on p. 214",
+      "claims": [
+        "Prior account of profit-based market selection under uncertainty without individually optimal foresight"
+      ],
+      "v5_reference": false
+    },
+    {
+      "key": "Akerlof1970",
+      "source": "https://www.sfu.ca/~allen/Ackerlof.pdf",
+      "locator": "Printed pp. 488-490, especially p. 489",
+      "claims": [
+        "Simplifying used-car model: information asymmetry and selection"
+      ],
+      "v5_reference": true,
+      "note": "c1-8"
+    },
+    {
+      "key": "BlakeNoskoTadelis2015",
+      "source": "https://doi.org/10.3982/ECTA12423",
+      "full_text_checked": "https://www.nber.org/system/files/working_papers/w20171/w20171.pdf",
+      "version_boundary": "Published record checked; relevant full passages read in May 2014 NBER working paper 20171.",
+      "locator": "Printed pp. 1-5, especially p. 3; Section 3 brand-keyword experiments",
+      "claims": [
+        "Brand versus nonbrand effects; route substitution; short-term scope"
+      ],
+      "v5_reference": false,
+      "note": "c1-9"
+    },
+    {
+      "key": "WatzingerEtAl2020",
+      "note": "c1-10",
+      "source": "https://www.aeaweb.org/articles?id=10.1257/pol.20190086",
+      "full_text_checked": "https://www.uoc.gr/files/items/6/6537/watzinger_et_al.pdf",
+      "version_boundary": "Publisher abstract checked for the 2020 matched-patent result; full historical passages checked in the authors June 9, 2017 working paper. Publisher full PDF was inaccessible. No 2017 quantitative effect estimate is attributed to the published version.",
+      "locator": "Published abstract; 2017 working paper pp. 1-4 and 7-8, 7820 patents on p. 2 and transistor on pp. 2 and 6",
+      "claims": [
+        "1956 decree opened 7820 existing Bell patents to royalty-free licensing, with existing cross-license exceptions",
+        "Bell Labs transistor work",
+        "Matched-patent study found lasting follow-on innovation gains outside telecommunications, not equivalent gains inside it",
+        "Customer foreclosure remained a barrier; opening patents is not sufficient access to customers",
+        "1956 decree is distinct from later Bell breakup"
+      ],
+      "v5_reference": false
+    },
+    {
+      "key": "SalganikWatts2008",
+      "note": "c1-11",
+      "source": "https://doi.org/10.1177/019027250807100404",
+      "full_text_checked": "https://www.princeton.edu/~mjs3/salganik_watts08.pdf",
+      "locator": "Printed pp. 341-343, table 2; pp. 349-351, figures 8-9",
+      "claims": [
+        "Inversion intervention; She Said and Florence counts; subsequent honest updating; recovery; downloads"
+      ],
+      "v5_reference": false
+    }
+  ],
+  "original_examples": [
+    "Missing-chart retrospective critic is an explicitly imagined reading exercise",
+    "Potential donor reasoning is a mechanism, not a reported private motive",
+    "Shelf of survivor papers illustrates conditioning on participation",
+    "Alchian travelers are credited as his unreal thought experiment",
+    "Car inspection and salesperson examples are labeled hypothetical extensions",
+    "Aster and Birch contract, additional engineer, migration, and bidding are explicitly fictional"
+  ],
+  "narrative_checks": {
+    "no_equations": true,
+    "no_invented_interviews_or_private_reactions": true,
+    "all_four_planned_v5_sources_substantively_used": true,
+    "diminishing_returns_and_corrective_evidence_retained": true,
+    "NIH_survivor_condition_explicit": true,
+    "replication_version_and_scope_explicit": true,
+    "quality_not_denied": true,
+    "honor_resource_output_and_merit_distinguished": true,
+    "inversion_is_intervention_not_replay": true,
+    "no_actual_comparison_budget_estimated_from_cases": true,
+    "read_through_completed": true
+  }
+}

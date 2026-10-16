@@ -1,0 +1,136 @@
+{
+  "title": "Shadow Futures",
+  "author": "Martin Erlic",
+  "main_text_target": 80000,
+  "back_matter_target_min": 10000,
+  "back_matter_target_max": 15000,
+  "count_method": "Whitespace-separated prose words, excluding headings and footnote markers. Each chapter's Notes section is counted separately. References and acknowledgments are back matter.",
+  "standard": "Use the revised prologue as the narrative, argument, information, and source-density standard. Real documented cases carry explanations; no equations or invented reporting. Preserve all 24 v5 references and their substantive chapter roles.",
+  "components": [
+    {
+      "id": "prologue",
+      "title": "The other life of a song",
+      "file": "book/manuscript/00-prologue.md",
+      "target": 2500,
+      "stage": "drafted"
+    },
+    {
+      "id": "introduction",
+      "title": "The evidence success leaves behind",
+      "file": "book/manuscript/01-introduction.md",
+      "target": 3500,
+      "stage": "drafted"
+    },
+    {
+      "id": "chapter_01",
+      "title": "The winner and the explanation",
+      "file": "book/manuscript/02-the-winner-and-the-explanation.md",
+      "target": 6000,
+      "stage": "drafted"
+    },
+    {
+      "id": "chapter_02",
+      "title": "The comparison budget",
+      "file": "book/manuscript/03-the-comparison-budget.md",
+      "target": 6000,
+      "stage": "not_started"
+    },
+    {
+      "id": "chapter_03",
+      "title": "Shadow futures",
+      "file": "book/manuscript/04-shadow-futures.md",
+      "target": 6000,
+      "stage": "not_started"
+    },
+    {
+      "id": "chapter_04",
+      "title": "The histories that became infrastructure",
+      "file": "book/manuscript/05-the-histories-that-became-infrastructure.md",
+      "target": 6000,
+      "stage": "not_started"
+    },
+    {
+      "id": "chapter_05",
+      "title": "Who gets to be tested",
+      "file": "book/manuscript/06-who-gets-to-be-tested.md",
+      "target": 6000,
+      "stage": "not_started"
+    },
+    {
+      "id": "chapter_06",
+      "title": "Who deserves the winnings",
+      "file": "book/manuscript/07-who-deserves-the-winnings.md",
+      "target": 6000,
+      "stage": "not_started"
+    },
+    {
+      "id": "chapter_07",
+      "title": "The intelligence factory",
+      "file": "book/manuscript/08-the-intelligence-factory.md",
+      "target": 6000,
+      "stage": "not_started"
+    },
+    {
+      "id": "chapter_08",
+      "title": "A billion answers",
+      "file": "book/manuscript/09-a-billion-answers.md",
+      "target": 6000,
+      "stage": "not_started"
+    },
+    {
+      "id": "chapter_09",
+      "title": "The first rung",
+      "file": "book/manuscript/10-the-first-rung.md",
+      "target": 6000,
+      "stage": "not_started"
+    },
+    {
+      "id": "chapter_10",
+      "title": "Competition for future evidence",
+      "file": "book/manuscript/11-competition-for-future-evidence.md",
+      "target": 6000,
+      "stage": "not_started"
+    },
+    {
+      "id": "chapter_11",
+      "title": "Taxing lost comparison",
+      "file": "book/manuscript/12-taxing-lost-comparison.md",
+      "target": 6000,
+      "stage": "not_started"
+    },
+    {
+      "id": "chapter_12",
+      "title": "An economics of possible worlds",
+      "file": "book/manuscript/13-an-economics-of-possible-worlds.md",
+      "target": 6000,
+      "stage": "not_started"
+    },
+    {
+      "id": "epilogue",
+      "title": "The next opportunity",
+      "file": "book/manuscript/14-epilogue.md",
+      "target": 2000,
+      "stage": "not_started"
+    }
+  ],
+  "back_matter": [
+    {
+      "id": "references",
+      "file": "book/manuscript/90-references.md",
+      "stage": "not_started"
+    },
+    {
+      "id": "acknowledgments",
+      "file": "book/manuscript/91-acknowledgments.md",
+      "stage": "not_started"
+    }
+  ],
+  "completion_requirements": [
+    "All fifteen main-text components are fully drafted and reviewed in sequence, at the approved combined word budget.",
+    "Every component has claim-specific source notes, with full-source locators and distinctions between findings, interpretations, hypotheticals, and proposals.",
+    "All 24 canonical v5 references have their planned substantive roles or explanatory technical-lineage notes, with relevant passages checked.",
+    "AI, work, antitrust, taxation, and the future of economics receive the planned full chapters; policy extensions preserve their additional premises.",
+    "The complete manuscript receives a continuity, repetition, factual, conceptual, citation, and word-budget review.",
+    "A complete reading manuscript, contents, bibliography, and source records are saved in the repository and committed locally."
+  ]
+}

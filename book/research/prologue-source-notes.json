@@ -2,12 +2,12 @@
   "manuscript": "book/manuscript/00-prologue.md",
   "title": "The other life of a song",
   "checked_on": "2026-10-16",
-  "body_words": 2329,
+  "body_words": 2500,
   "word_count_method": "Whitespace-separated main-prose words after removing headings and footnote markers; notes are additional.",
-  "draft_sha256": "96de9fdff37f649763e24d06e83db212e9f51a082d9cf797f888d1ae9c42b5e5",
+  "draft_sha256": "05d79cf3a6eeec0e83975c6d320654aa398518a4b021c73f4d16f5deb115f23f",
   "status": "revised_draft",
-  "revision": 2,
-  "revision_intent": "Replace extended abstract exposition with documented cases woven around Lockdown; make the prologue introduce the stakes of the whole book.",
+  "revision": 3,
+  "revision_intent": "Preserve the revised case-led structure and restore the 2500-word target with the documented AI outage comparison and its implications for learning.",
   "source_checks": "Relevant full-source passages checked, using identified author working-paper versions alongside published records where publisher full text was inaccessible. This is not an independent proof audit or scholarly-priority review.",
   "sources": [
     {
@@ -111,7 +111,8 @@
         "Average 15 percent increase in issues resolved per hour",
         "Especially strong gains for less experienced and lower-skilled workers",
         "Workers could accept, edit, or ignore suggestions; evidence of learning",
-        "Results do not establish economy-wide wage or employment effects"
+        "Results do not establish economy-wide wage or employment effects",
+        "During AI outages, exposed workers retained faster handling relative to pre-AI baseline; this is evidence consistent with learning, not a randomized outage treatment."
       ],
       "v5_reference": false
     },

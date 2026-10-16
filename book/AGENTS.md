@@ -16,6 +16,13 @@ Read `README.txt`, the current argument brief, the committed outline, and
 `research/v5_reference_register.json` before substantive book work. These record
 the user's book direction. Keep an equation-free popular-economics main text.
 
+The approved main-text budget is 80,000 words: prologue 2,500, introduction
+3,500, twelve chapters averaging 6,000 (72,000 combined), and epilogue 2,000.
+Endnotes, references, and acknowledgments have a separate 10,000–15,000-word
+allowance. Use `planning/manuscript-plan.json` and `tools/manuscript_status.py`
+to track actual chapter prose separately from back matter. Counts and file
+existence do not certify that a chapter or the whole book has passed review.
+
 - Use the October 2026 v5 already at
   `../output/docx/Shadow_Futures_FINAL_Comparison_Budget_Revised_v5.docx`.
   Its Word and PDF copies match `C:\Shadow Futures\Final` byte for byte;

@@ -12,6 +12,12 @@ Create a local Git checkpoint after each completed writing request, staging only
 the intended files. Pushing to a remote requires a user request.
 
 Author: Martin Erlic. Main-text target: 80000 words. No equations in the trade book.
+Approved component targets: prologue 2500, introduction 3500, twelve chapters
+averaging 6000 (72000 combined), epilogue 2000. Endnotes, references, and
+acknowledgments are separate, approximately 10000 to 15000 words.
+MANUSCRIPT.md links the current working chapters and reports their counts.
+planning/manuscript-plan.json preserves the full scope and completion criteria;
+tools/manuscript_status.py updates the inventory from saved manuscript files.
 Use the canonical October 2026 v5 identified in research/v5_source_provenance.json.
 Both project copies match C:\Shadow Futures\Final byte for byte. Do not replace
 the source manuscript or silently substitute an earlier SSRN version.
