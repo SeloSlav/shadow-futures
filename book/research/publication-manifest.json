@@ -8,8 +8,8 @@
   "cover": "/book/shadow-futures-cover.png",
   "pages": 319,
   "interior_pages": 318,
-  "pdf_bytes": 4526794,
-  "notes": 197,
+  "pdf_bytes": 4528258,
+  "notes": 199,
   "contents": [
     {
       "label": "The other life of a song",
@@ -109,15 +109,15 @@
     1536
   ],
   "production_note": "KDP-size exports are provided. Generated artwork is natively 1024×1536; 300-dpi raster exports are resampled, not added native detail. Check a print proof; higher-resolution original art is recommended before commercial print upload.",
-  "manuscript_sha256": "da068c2ab9869871f5098e581d0f558811a3b4b69aa864ae1aa46ca4a73d78a7",
+  "manuscript_sha256": "0ed2d43ff6137e174969953828426afdb4fe22bbe36bc2bfe53a475df300948f",
   "inputs": [
     {
       "file": "book/manuscript/00-prologue.md",
-      "sha256": "05d79cf3a6eeec0e83975c6d320654aa398518a4b021c73f4d16f5deb115f23f"
+      "sha256": "61b3292450e5f0efb92be7aa7ec20695854f0c77b1a8f50d93023533c5be6cac"
     },
     {
       "file": "book/manuscript/01-introduction.md",
-      "sha256": "bb63a0ae1ef219f388d54ce90658279464dda0e043a5815455270967c34f0749"
+      "sha256": "559bd0d43ba729401f15e3c01360aa54d5c93b4ea4be8a11723e379adb90f274"
     },
     {
       "file": "book/manuscript/02-the-winner-and-the-explanation.md",
@@ -173,14 +173,14 @@
     },
     {
       "file": "book/manuscript/90-references.md",
-      "sha256": "e52cb89348e0e64f622a9cb33355a044f9717fbe2761c78f5fde8033c7675960"
+      "sha256": "b5b64641d24c47e6383f2f5bc468c50dd69e8dc5df916a2670974d9014851d58"
     },
     {
       "file": "book/manuscript/91-acknowledgments.md",
-      "sha256": "c9af1838c3350e792acd298dfa4480500cff91ba8218150d4ff2493d488c6671"
+      "sha256": "9278ab6a11d194d0965897a0bb566144fe18036bec36c48244f43feff005a263"
     }
   ],
-  "pdf_sha256": "0d11a79b5b95896fe3c325efc9ab412ddfaf5046914bf694c9f808c3b68cc703",
+  "pdf_sha256": "b197e03d46518ef2204d0a300027d533e126878a6fbb00f0043701616f3e6418",
   "kdp_sources": [
     "https://kdp.amazon.com/en_US/help/topic/G201953020",
     "https://kdp.amazon.com/en_US/help/topic/G6GTK3T3NUHKLEFX",

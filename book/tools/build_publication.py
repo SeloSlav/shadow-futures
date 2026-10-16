@@ -102,6 +102,8 @@ def xml(text, note_map=None, prefix='', used=None):
         return f'ZZPDFTOKEN{len(tokens)-1}ZZ'
     def link(m):
         label, url = m.groups()
+        if not url.startswith(('https://', 'http://')):
+            return stash(html.escape(label))
         return stash(f'<link href="{html.escape(url, quote=True)}" color="#285f73">'
                      f'{html.escape(label)}</link>')
     text = re.sub(r'\[([^\]]+)\]\(([^\s)]+)\)', link, text)
@@ -199,12 +201,7 @@ def build_interior(plan,path):
           Paragraph(SUBTITLE,STYLES['subtitle']),Spacer(1,85),
           Paragraph('MARTIN ERLIC',STYLES['author']),PageBreak(),Spacer(1,220),
           Paragraph(f'Copyright © 2026 {AUTHOR}. All rights reserved.',STYLES['small']),
-          Paragraph('Free reading edition · October 2026',STYLES['small']),
-          Paragraph('Read and download this edition free at<br/>'
-                    '<link href="https://shadow-futures.vercel.app/book">shadow-futures.vercel.app/book</link>.',STYLES['small']),
-          Paragraph('The notes identify the sources and distinguish documented findings, '
-                    'interpretations, hypothetical examples and proposals. Original-source '
-                    'verification limits are retained in the manuscript.',STYLES['small']),
+          Paragraph('First edition · October 2026',STYLES['small']),
           PageBreak(),Paragraph('Contents',STYLES['chapter'])]
     toc=TableOfContents();toc.levelStyles=[STYLES['toc']];flow.append(toc)
     flow.append(NextPageTemplate('body'))
@@ -213,6 +210,7 @@ def build_interior(plan,path):
         text=(ROOT/item['file']).read_text(encoding='utf-8-sig')
         body,_,notes=text.partition('\n## Notes\n')
         definitions=re.findall(r'^\[\^([^\]]+)\]:\s*(.*?)(?=\n\[\^|\Z)',notes,re.M|re.S)
+        definitions.sort(key=lambda pair: body.index(f'[^{pair[0]}]'))
         note_map={}
         for key,note_text in definitions:
             counter+=1;note_map[key]=counter;all_notes.append((item['title'],item['id'],key,counter,note_text.strip()))

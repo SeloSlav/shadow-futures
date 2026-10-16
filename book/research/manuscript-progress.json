@@ -1,9 +1,9 @@
 {
   "status": "in_progress",
   "main_text_target": 80000,
-  "main_words": 80000,
-  "words_remaining_to_target": 0,
-  "back_matter_words": 14671,
+  "main_words": 79983,
+  "words_remaining_to_target": 17,
+  "back_matter_words": 14886,
   "back_matter_target": [
     10000,
     15000
@@ -16,10 +16,10 @@
       "target": 2500,
       "stage": "reviewed",
       "exists": true,
-      "main_words": 2500,
-      "note_words": 961,
-      "sha256": "05d79cf3a6eeec0e83975c6d320654aa398518a4b021c73f4d16f5deb115f23f",
-      "note_count": 9,
+      "main_words": 2499,
+      "note_words": 1026,
+      "sha256": "61b3292450e5f0efb92be7aa7ec20695854f0c77b1a8f50d93023533c5be6cac",
+      "note_count": 10,
       "missing_notes": [],
       "unused_notes": [],
       "duplicate_notes": false
@@ -31,10 +31,10 @@
       "target": 3500,
       "stage": "reviewed",
       "exists": true,
-      "main_words": 3500,
-      "note_words": 714,
-      "sha256": "bb63a0ae1ef219f388d54ce90658279464dda0e043a5815455270967c34f0749",
-      "note_count": 11,
+      "main_words": 3484,
+      "note_words": 856,
+      "sha256": "559bd0d43ba729401f15e3c01360aa54d5c93b4ea4be8a11723e379adb90f274",
+      "note_count": 12,
       "missing_notes": [],
       "unused_notes": [],
       "duplicate_notes": false
@@ -241,14 +241,14 @@
       "file": "book/manuscript/90-references.md",
       "stage": "drafted",
       "exists": true,
-      "words": 2660
+      "words": 2719
     },
     {
       "id": "acknowledgments",
       "file": "book/manuscript/91-acknowledgments.md",
       "stage": "drafted",
       "exists": true,
-      "words": 174
+      "words": 123
     }
   ],
   "interpretation": "File existence and counts do not prove source accuracy, editorial quality, or completion. See the plan's completion requirements."

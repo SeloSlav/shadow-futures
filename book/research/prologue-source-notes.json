@@ -2,9 +2,9 @@
   "manuscript": "book/manuscript/00-prologue.md",
   "title": "The other life of a song",
   "checked_on": "2026-10-16",
-  "body_words": 2500,
+  "body_words": 2499,
   "word_count_method": "Whitespace-separated main-prose words after removing headings and footnote markers; notes are additional.",
-  "draft_sha256": "05d79cf3a6eeec0e83975c6d320654aa398518a4b021c73f4d16f5deb115f23f",
+  "draft_sha256": "61b3292450e5f0efb92be7aa7ec20695854f0c77b1a8f50d93023533c5be6cac",
   "status": "revised_draft",
   "revision": 3,
   "revision_intent": "Preserve the revised case-led structure and restore the 2500-word target with the documented AI outage comparison and its implications for learning.",
@@ -190,5 +190,6 @@
       "The MusicLab, Kickstarter, Bell and Rothamsted transitions carry different questions."
     ],
     "main_text_changed": false
-  }
+  },
+  "latest_revision": "Origin-of-name attribution to Johnson and Kauffman; existing factual checks reused, new checks in origin-source-notes.json. Reviewed once within the word budget."
 }

@@ -1,0 +1,38 @@
+SHADOW FUTURES — KDP UPLOAD FILES
+Martin Erlic
+
+KINDLE EBOOK
+Manuscript: shadow-futures-kindle.epub (reflowable text; linked contents/endnotes)
+Cover: shadow-futures-kindle-cover.jpg (1600 x 2560 JPEG)
+Upload the EPUB as the manuscript and the JPEG separately as the marketing cover.
+
+PAPERBACK
+Manuscript: shadow-futures-paperback-interior.pdf
+Cover: shadow-futures-paperback-cover.pdf (full back/spine/front wrap)
+Choose: 6 x 9 inch trim; black ink; WHITE paper; NO BLEED for the interior.
+The cover includes its required 0.125-inch outer bleed independently.
+Interior: 318 pages. Spine: 0.716136 inches.
+Full cover: 12.966136 x 9.25 inches.
+Choose matte or glossy finish to taste; no finish-specific file change is needed.
+The back leaves a clear area for KDP's barcode. No ISBN has been invented.
+If adding your own ISBN, enter that actual ISBN in KDP before approving the preview.
+If paper, trim or page count changes, regenerate the cover rather than reusing this spine.
+
+REVIEW AND DISCLOSURE
+Open KDP's Kindle and Print Previewers and approve the previews before publishing.
+Order a print proof to assess the existing artwork: its native source is 1024 x 1536;
+the print-size raster is resampled. Correct geometry does not guarantee sharp original detail.
+The text and cover contain AI-generated material. Answer KDP's AI-content questions
+accurately for both formats; the removed public acknowledgment is not that disclosure.
+https://kdp.amazon.com/en_US/help/topic/G200672390
+
+PUBLICATION SETTINGS
+Use the exact existing title, subtitle and Martin Erlic author name on both editions.
+Leave KDP Select OFF while the full digital book is available free on the website.
+Select requires digital exclusivity during enrollment; ordinary KDP publication does not:
+https://kdp.amazon.com/en_US/help/topic/GD9PMU58BV24QFZ7
+See amazon-listing.md for the three categories, seven keyword fields and description.
+EPUB is an accepted KDP manuscript format:
+https://kdp.amazon.com/en_US/help/topic/G200634390/
+This package does not set a price, choose rights, enter an ISBN or publish the book.
+Original technical source-check limits remain disclosed in the manuscript's notes.

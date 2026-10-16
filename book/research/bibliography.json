@@ -340,155 +340,6 @@
       "canonical_v5_reference": false
     },
     {
-      "id": "ChinaAIPlus2025",
-      "source_keys": [
-        "ChinaAIPlus2025"
-      ],
-      "citation": "State Council, China. 2025. Opinion on implementing the AI Plus initiative. Dated August 21; published August 26. Original Chinese.",
-      "links": [
-        {
-          "label": "Source",
-          "url": "https://www.nda.gov.cn/sjj/swdt/xwfb/0826/20250826173046592282838_mobile.html"
-        }
-      ],
-      "known_locations": [
-        "https://www.nda.gov.cn/sjj/swdt/xwfb/0826/20250826173046592282838_mobile.html"
-      ],
-      "cited_in": [
-        "book/manuscript/11-competition-for-future-evidence.md"
-      ],
-      "canonical_v5_reference": false,
-      "bibliographic_check": "SectionII(2)industry and II(4)work; SectionIII(9)–(13)computing, application, open source, talent and patient capital. Relevant complete original Chinese sections refreshed. Book paraphrases are the author's, not official translation. Objectives not achieved outcomes or a country-robustness estimate."
-    },
-    {
-      "id": "ChinaGenAIInterimMeasures2023",
-      "source_keys": [
-        "ChinaGenAIInterimMeasures2023"
-      ],
-      "citation": "Cyberspace Administration of China and six ministries. 2023. Interim measures for generative AI services. Published July 13; effective August 15. Original Chinese.",
-      "links": [
-        {
-          "label": "Source",
-          "url": "https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm"
-        }
-      ],
-      "known_locations": [
-        "https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm"
-      ],
-      "cited_in": [
-        "book/manuscript/11-competition-for-future-evidence.md"
-      ],
-      "canonical_v5_reference": false,
-      "bibliographic_check": "Enacted original Articles2,4–6, including public-service scope, express nonpublic exclusion, political content and infrastructure/innovation clauses. Dated enacted text, not April consultation draft or comprehensive October2026 legal audit; no empirical innovation/censorship effect estimate."
-    },
-    {
-      "id": "EUCharterArticle17",
-      "source_keys": [
-        "EUCharterArticle17"
-      ],
-      "citation": "European Union. Charter of Fundamental Rights, Article 17. FRA text and explanations.",
-      "links": [
-        {
-          "label": "Source",
-          "url": "https://fra.europa.eu/en/eu-charter/charter/article/17-right-property"
-        }
-      ],
-      "known_locations": [
-        "https://fra.europa.eu/en/eu-charter/charter/article/17-right-property"
-      ],
-      "cited_in": [
-        "book/manuscript/11-competition-for-future-evidence.md"
-      ],
-      "canonical_v5_reference": false,
-      "bibliographic_check": "Article17(1)–(2), complete article and accompanying explanations. Formal protection of property/IP and qualified regulation, not a comparison of enforcement or authorization of a particular AI remedy."
-    },
-    {
-      "id": "EuroHPCAccessModes2026Check",
-      "source_keys": [
-        "EuroHPCAccessModes2026Check"
-      ],
-      "citation": "EuroHPC Joint Undertaking. AI factories access modes. Industrial Innovation; checked October 2026.",
-      "links": [
-        {
-          "label": "Source",
-          "url": "https://www.eurohpc-ju.europa.eu/ai-factories/ai-factories-access-modes_en"
-        }
-      ],
-      "known_locations": [
-        "https://www.eurohpc-ju.europa.eu/ai-factories/ai-factories-access-modes_en"
-      ],
-      "cited_in": [
-        "book/manuscript/11-competition-for-future-evidence.md"
-      ],
-      "canonical_v5_reference": false,
-      "bibliographic_check": "Industrial Innovation modes, free innovation access and distinct pay-per-use commercial access. Original full substantive page refreshed. Eligibility and actual resource availability remain necessary."
-    },
-    {
-      "id": "EuroHPCPlayground2025",
-      "source_keys": [
-        "EuroHPCPlayground2025"
-      ],
-      "citation": "EuroHPC Joint Undertaking. 2025. Playground access to AI factories. Call opened April 9.",
-      "links": [
-        {
-          "label": "Source",
-          "url": "https://www.eurohpc-ju.europa.eu/playground-access-ai-factories_en"
-        }
-      ],
-      "known_locations": [
-        "https://www.eurohpc-ju.europa.eu/playground-access-ai-factories_en"
-      ],
-      "cited_in": [
-        "book/manuscript/11-competition-for-future-evidence.md"
-      ],
-      "canonical_v5_reference": false,
-      "bibliographic_check": "Description, eligibility/technical assessment, duration and capacity notice. Original full substantive call page refreshed October16,2026. Published process, not actual delivery or entry outcome."
-    },
-    {
-      "id": "EuroHPCTerms2026",
-      "source_keys": [
-        "EuroHPCTerms2026"
-      ],
-      "citation": "EuroHPC Joint Undertaking. 2026. AI factories industrial innovation access: Terms of reference. V3, March 31.",
-      "links": [
-        {
-          "label": "Source",
-          "url": "https://www.eurohpc-ju.europa.eu/document/download/bd7aa666-bdf3-4436-b5ec-0b34a781e817_en?filename=Terms+of+Reference+-+AIF+Access+Calls.pdf"
-        }
-      ],
-      "known_locations": [
-        "https://www.eurohpc-ju.europa.eu/document/download/bd7aa666-bdf3-4436-b5ec-0b34a781e817_en?filename=Terms+of+Reference+-+AIF+Access+Calls.pdf"
-      ],
-      "cited_in": [
-        "book/manuscript/11-competition-for-future-evidence.md"
-      ],
-      "canonical_v5_reference": false,
-      "bibliographic_check": "V3 March31,2026; body pp2–4 (PDF pages4–6), Sections1.3–1.4,2–3.1. Original 11-page PDF contains two front pages and nine numbered body pages. Relevant complete clauses read. User ownership, commercial exploitation, nonconfidential publication, eligibility and technical assessment; no measured program effect."
-    },
-    {
-      "id": "FTC2025AIPartnerships",
-      "source_keys": [
-        "FTC2025AIPartnerships"
-      ],
-      "citation": "FTC Office of Technology staff. 2025. Partnerships between cloud service providers and AI developers. January.",
-      "links": [
-        {
-          "label": "Source",
-          "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/p246201_aipartnerships6breport_redacted.pdf"
-        }
-      ],
-      "known_locations": [
-        "https://www.ftc.gov/system/files/ftc_gov/pdf/p246201_aipartnerships6breport_redacted.pdf",
-        "https://www.ftc.gov/reports/ftc-staff-report-ai-partnerships-investments-6b-study",
-        "https://search.ftc.gov/news-events/news/press-releases/2025/01/ftc-issues-staff-report-ai-partnerships-investments-study"
-      ],
-      "cited_in": [
-        "book/manuscript/11-competition-for-future-evidence.md"
-      ],
-      "canonical_v5_reference": false,
-      "bibliographic_check": "Original printed pp1–3; Section5 opening p29; Section5.1 p30; Section5.2 pp32–34. Relevant original report passages now read, replacing summary-only access. Report has43PDFpages. Information through Sep2024 plus public Jan2025; potential concerns, no illegality determination or current-contract assessment."
-    },
-    {
       "id": "METR2025DeveloperStudy",
       "source_keys": [
         "METR2025DeveloperStudy"
@@ -880,6 +731,27 @@
       "bibliographic_check": "Relevant primary passages inspected for the recorded claim; access/interpretation boundaries in chapter source ledger."
     },
     {
+      "id": "ChinaGenAIInterimMeasures2023",
+      "source_keys": [
+        "ChinaGenAIInterimMeasures2023"
+      ],
+      "citation": "Cyberspace Administration of China and six ministries. 2023. Interim measures for generative AI services. Published July 13; effective August 15. Original Chinese.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm"
+        }
+      ],
+      "known_locations": [
+        "https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm"
+      ],
+      "cited_in": [
+        "book/manuscript/11-competition-for-future-evidence.md"
+      ],
+      "canonical_v5_reference": false,
+      "bibliographic_check": "Enacted original Articles2,4–6, including public-service scope, express nonpublic exclusion, political content and infrastructure/innovation clauses. Dated enacted text, not April consultation draft or comprehensive October2026 legal audit; no empirical innovation/censorship effect estimate."
+    },
+    {
       "id": "David1985",
       "source_keys": [
         "David1985"
@@ -1141,6 +1013,69 @@
       "canonical_v5_reference": false
     },
     {
+      "id": "EuroHPCPlayground2025",
+      "source_keys": [
+        "EuroHPCPlayground2025"
+      ],
+      "citation": "EuroHPC Joint Undertaking. 2025. Playground access to AI factories. Call opened April 9.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.eurohpc-ju.europa.eu/playground-access-ai-factories_en"
+        }
+      ],
+      "known_locations": [
+        "https://www.eurohpc-ju.europa.eu/playground-access-ai-factories_en"
+      ],
+      "cited_in": [
+        "book/manuscript/11-competition-for-future-evidence.md"
+      ],
+      "canonical_v5_reference": false,
+      "bibliographic_check": "Description, eligibility/technical assessment, duration and capacity notice. Original full substantive call page refreshed October16,2026. Published process, not actual delivery or entry outcome."
+    },
+    {
+      "id": "EuroHPCTerms2026",
+      "source_keys": [
+        "EuroHPCTerms2026"
+      ],
+      "citation": "EuroHPC Joint Undertaking. 2026. AI factories industrial innovation access: Terms of reference. V3, March 31.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.eurohpc-ju.europa.eu/document/download/bd7aa666-bdf3-4436-b5ec-0b34a781e817_en?filename=Terms+of+Reference+-+AIF+Access+Calls.pdf"
+        }
+      ],
+      "known_locations": [
+        "https://www.eurohpc-ju.europa.eu/document/download/bd7aa666-bdf3-4436-b5ec-0b34a781e817_en?filename=Terms+of+Reference+-+AIF+Access+Calls.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/11-competition-for-future-evidence.md"
+      ],
+      "canonical_v5_reference": false,
+      "bibliographic_check": "V3 March31,2026; body pp2–4 (PDF pages4–6), Sections1.3–1.4,2–3.1. Original 11-page PDF contains two front pages and nine numbered body pages. Relevant complete clauses read. User ownership, commercial exploitation, nonconfidential publication, eligibility and technical assessment; no measured program effect."
+    },
+    {
+      "id": "EuroHPCAccessModes2026Check",
+      "source_keys": [
+        "EuroHPCAccessModes2026Check"
+      ],
+      "citation": "EuroHPC Joint Undertaking. AI factories access modes. Industrial Innovation; checked October 2026.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.eurohpc-ju.europa.eu/ai-factories/ai-factories-access-modes_en"
+        }
+      ],
+      "known_locations": [
+        "https://www.eurohpc-ju.europa.eu/ai-factories/ai-factories-access-modes_en"
+      ],
+      "cited_in": [
+        "book/manuscript/11-competition-for-future-evidence.md"
+      ],
+      "canonical_v5_reference": false,
+      "bibliographic_check": "Industrial Innovation modes, free innovation access and distinct pay-per-use commercial access. Original full substantive page refreshed. Eligibility and actual resource availability remain necessary."
+    },
+    {
       "id": "EUDMA2022",
       "source_keys": [
         "EUDMA2022"
@@ -1184,6 +1119,27 @@
       "bibliographic_check": "Relevant primary passages inspected for the recorded claim; access/interpretation boundaries in chapter source ledger."
     },
     {
+      "id": "EUCharterArticle17",
+      "source_keys": [
+        "EUCharterArticle17"
+      ],
+      "citation": "European Union. Charter of Fundamental Rights, Article 17. FRA text and explanations.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://fra.europa.eu/en/eu-charter/charter/article/17-right-property"
+        }
+      ],
+      "known_locations": [
+        "https://fra.europa.eu/en/eu-charter/charter/article/17-right-property"
+      ],
+      "cited_in": [
+        "book/manuscript/11-competition-for-future-evidence.md"
+      ],
+      "canonical_v5_reference": false,
+      "bibliographic_check": "Article17(1)–(2), complete article and accompanying explanations. Formal protection of property/IP and qualified regulation, not a comparison of enforcement or authorization of a particular AI remedy."
+    },
+    {
       "id": "Carterfone1968",
       "source_keys": [
         "Carterfone1968"
@@ -1222,6 +1178,29 @@
         "book/manuscript/13-an-economics-of-possible-worlds.md"
       ],
       "canonical_v5_reference": false
+    },
+    {
+      "id": "FTC2025AIPartnerships",
+      "source_keys": [
+        "FTC2025AIPartnerships"
+      ],
+      "citation": "FTC Office of Technology staff. 2025. Partnerships between cloud service providers and AI developers. January.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/p246201_aipartnerships6breport_redacted.pdf"
+        }
+      ],
+      "known_locations": [
+        "https://www.ftc.gov/system/files/ftc_gov/pdf/p246201_aipartnerships6breport_redacted.pdf",
+        "https://www.ftc.gov/reports/ftc-staff-report-ai-partnerships-investments-6b-study",
+        "https://search.ftc.gov/news-events/news/press-releases/2025/01/ftc-issues-staff-report-ai-partnerships-investments-study"
+      ],
+      "cited_in": [
+        "book/manuscript/11-competition-for-future-evidence.md"
+      ],
+      "canonical_v5_reference": false,
+      "bibliographic_check": "Original printed pp1–3; Section5 opening p29; Section5.1 p30; Section5.2 pp32–34. Relevant original report passages now read, replacing summary-only access. Report has43PDFpages. Information through Sep2024 plus public Jan2025; potential concerns, no illegality determination or current-contract assessment."
     },
     {
       "id": "Gabriyelyan2011",
@@ -1500,6 +1479,27 @@
       "canonical_v5_reference": true
     },
     {
+      "id": "Johnson2010Tinkerer",
+      "source_keys": [
+        "Johnson2010Tinkerer"
+      ],
+      "citation": "Johnson, S. 2010. The Genius of the Tinkerer. The Wall Street Journal, September 25. Adapted from Where Good Ideas Come From: The Natural History of Innovation (Riverhead Books).",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.pickardlaws.com/myleadership/myfiles/rtdocs/free/TheGeniusOfTheTinkerer.pdf"
+        }
+      ],
+      "known_locations": [
+        "https://www.pickardlaws.com/myleadership/myfiles/rtdocs/free/TheGeniusOfTheTinkerer.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/00-prologue.md",
+        "book/manuscript/01-introduction.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
       "id": "KabanovLiptserShiryaev1977",
       "source_keys": [
         "KabanovLiptserShiryaev1977"
@@ -1585,6 +1585,46 @@
       "canonical_v5_reference": true
     },
     {
+      "id": "Kauffman1995AtHome",
+      "source_keys": [
+        "Kauffman1995AtHome"
+      ],
+      "citation": "Kauffman, S. A. 1995. At Home in the Universe: The Search for the Laws of Self-Organization and Complexity. Oxford University Press. Publication record and broad subject identified; not a verified first occurrence of the adjacent-possible term.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://books.google.com/books?id=o-Owb5IDkSQC"
+        }
+      ],
+      "known_locations": [
+        "https://books.google.com/books?id=o-Owb5IDkSQC"
+      ],
+      "cited_in": [
+        "book/manuscript/01-introduction.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "Kauffman2003Adjacent",
+      "source_keys": [
+        "Kauffman2003Adjacent"
+      ],
+      "citation": "Kauffman, S. A. 2003. The Adjacent Possible. Edge, November 9.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.edge.org/conversation/stuart_a_kauffman-the-adjacent-possible"
+        }
+      ],
+      "known_locations": [
+        "https://www.edge.org/conversation/stuart_a_kauffman-the-adjacent-possible"
+      ],
+      "cited_in": [
+        "book/manuscript/01-introduction.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
       "id": "KerrNandaRhodesKropf2014",
       "source_keys": [
         "KerrNandaRhodesKropf2014"
@@ -1628,47 +1668,6 @@
       "canonical_v5_reference": false
     },
     {
-      "id": "NSFNAIRROperations2026",
-      "source_keys": [
-        "NSFNAIRROperations2026"
-      ],
-      "citation": "National Science Foundation. 2026. NSF establishes operations center for the National Artificial Intelligence Research Resource. September 1.",
-      "links": [
-        {
-          "label": "Source",
-          "url": "https://www.nsf.gov/cise/updates/nsf-establishes-operations-center-national-artificial"
-        }
-      ],
-      "known_locations": [
-        "https://www.nsf.gov/cise/updates/nsf-establishes-operations-center-national-artificial"
-      ],
-      "cited_in": [
-        "book/manuscript/11-competition-for-future-evidence.md"
-      ],
-      "canonical_v5_reference": false,
-      "bibliographic_check": "Full substantive agency announcement, opening and operations/provider coordination paragraphs. Agency account of planned organization and functions. Not independent additionality, a frontier-entry audit, or general business eligibility."
-    },
-    {
-      "id": "ORNLFrontierConstruction2023",
-      "source_keys": [
-        "ORNLFrontierConstruction2023"
-      ],
-      "citation": "Lakin, M. 2023. Super construction at super scale: How ORNL built a new home for Frontier. Oak Ridge National Laboratory, November 14.",
-      "links": [
-        {
-          "label": "Source",
-          "url": "https://www.ornl.gov/news/super-construction-super-scale-how-ornl-built-new-home-frontier/"
-        }
-      ],
-      "known_locations": [
-        "https://www.ornl.gov/news/super-construction-super-scale-how-ornl-built-new-home-frontier/"
-      ],
-      "cited_in": [
-        "book/manuscript/08-the-intelligence-factory.md"
-      ],
-      "canonical_v5_reference": false
-    },
-    {
       "id": "KorinekSuh2024AGIScenarios",
       "source_keys": [
         "KorinekSuh2024AGIScenarios"
@@ -1694,6 +1693,26 @@
         "pages": 45,
         "version": "March2024 author paper; title/authors/date and exact relevant passages inspected."
       }
+    },
+    {
+      "id": "ORNLFrontierConstruction2023",
+      "source_keys": [
+        "ORNLFrontierConstruction2023"
+      ],
+      "citation": "Lakin, M. 2023. Super construction at super scale: How ORNL built a new home for Frontier. Oak Ridge National Laboratory, November 14.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.ornl.gov/news/super-construction-super-scale-how-ornl-built-new-home-frontier/"
+        }
+      ],
+      "known_locations": [
+        "https://www.ornl.gov/news/super-construction-super-scale-how-ornl-built-new-home-frontier/"
+      ],
+      "cited_in": [
+        "book/manuscript/08-the-intelligence-factory.md"
+      ],
+      "canonical_v5_reference": false
     },
     {
       "id": "LeCamYang2000",
@@ -2010,6 +2029,27 @@
         "book/manuscript/06-who-gets-to-be-tested.md"
       ],
       "canonical_v5_reference": false
+    },
+    {
+      "id": "NSFNAIRROperations2026",
+      "source_keys": [
+        "NSFNAIRROperations2026"
+      ],
+      "citation": "National Science Foundation. 2026. NSF establishes operations center for the National Artificial Intelligence Research Resource. September 1.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.nsf.gov/cise/updates/nsf-establishes-operations-center-national-artificial"
+        }
+      ],
+      "known_locations": [
+        "https://www.nsf.gov/cise/updates/nsf-establishes-operations-center-national-artificial"
+      ],
+      "cited_in": [
+        "book/manuscript/11-competition-for-future-evidence.md"
+      ],
+      "canonical_v5_reference": false,
+      "bibliographic_check": "Full substantive agency announcement, opening and operations/provider coordination paragraphs. Agency account of planned organization and functions. Not independent additionality, a frontier-entry audit, or general business eligibility."
     },
     {
       "id": "Nichia2005Settlement",
@@ -2425,6 +2465,27 @@
       "canonical_v5_reference": false
     },
     {
+      "id": "ChinaAIPlus2025",
+      "source_keys": [
+        "ChinaAIPlus2025"
+      ],
+      "citation": "State Council, China. 2025. Opinion on implementing the AI Plus initiative. Dated August 21; published August 26. Original Chinese.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.nda.gov.cn/sjj/swdt/xwfb/0826/20250826173046592282838_mobile.html"
+        }
+      ],
+      "known_locations": [
+        "https://www.nda.gov.cn/sjj/swdt/xwfb/0826/20250826173046592282838_mobile.html"
+      ],
+      "cited_in": [
+        "book/manuscript/11-competition-for-future-evidence.md"
+      ],
+      "canonical_v5_reference": false,
+      "bibliographic_check": "SectionII(2)industry and II(4)work; SectionIII(9)–(13)computing, application, open source, talent and patient capital. Relevant complete original Chinese sections refreshed. Book paraphrases are the author's, not official translation. Objectives not achieved outcomes or a country-robustness estimate."
+    },
+    {
       "id": "SwedishEPA2003NOx",
       "source_keys": [
         "SwedishEPA2003NOx"
@@ -2652,27 +2713,6 @@
       "canonical_v5_reference": false
     },
     {
-      "id": "USAIActionPlan2025",
-      "source_keys": [
-        "USAIActionPlan2025"
-      ],
-      "citation": "White House. 2025. America's AI action plan. July.",
-      "links": [
-        {
-          "label": "Source",
-          "url": "https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf"
-        }
-      ],
-      "known_locations": [
-        "https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf"
-      ],
-      "cited_in": [
-        "book/manuscript/11-competition-for-future-evidence.md"
-      ],
-      "canonical_v5_reference": false,
-      "bibliographic_check": "Printed pp3–5, Remove Red Tape; Encourage Open-Source and Open-Weight AI; computing markets and NAIRR. Original relevant full PDF passages refreshed. Recommendations, not achieved effects, universal license characterization or enforceable commercial access rights."
-    },
-    {
       "id": "USSteel1920",
       "source_keys": [
         "USSteel1920"
@@ -2769,6 +2809,27 @@
         "book/manuscript/11-competition-for-future-evidence.md"
       ],
       "canonical_v5_reference": false
+    },
+    {
+      "id": "USAIActionPlan2025",
+      "source_keys": [
+        "USAIActionPlan2025"
+      ],
+      "citation": "White House. 2025. America's AI action plan. July.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf"
+        }
+      ],
+      "known_locations": [
+        "https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/11-competition-for-future-evidence.md"
+      ],
+      "canonical_v5_reference": false,
+      "bibliographic_check": "Printed pp3–5, Remove Red Tape; Encourage Open-Source and Open-Weight AI; computing markets and NAIRR. Original relevant full PDF passages refreshed. Recommendations, not achieved effects, universal license characterization or enforceable commercial access rights."
     },
     {
       "id": "Zhang2004",

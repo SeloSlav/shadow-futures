@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-16",
+  "manuscript_sha256": "0ed2d43ff6137e174969953828426afdb4fe22bbe36bc2bfe53a475df300948f",
+  "epub_integrity": {
+    "source_paragraphs_present_in_full": 1633,
+    "internal_links_checked": 585,
+    "xml_files_checked": 24,
+    "status": "passed"
+  },
+  "endnotes": 199,
+  "paperback": {
+    "paper": "black ink / white paper",
+    "spine_inches": 0.716136,
+    "wrap_inches": [
+      12.966135999999999,
+      9.25
+    ],
+    "bleed_inches": 0.125
+  },
+  "files": [
+    {
+      "file": "output/kdp/shadow-futures-kindle.epub",
+      "bytes": 1073419,
+      "sha256": "c01a296bc5950a3ee36c6e8b817cedcbe2b1bfcb4722e83e0a4fd248c375db4a"
+    },
+    {
+      "file": "output/kdp/shadow-futures-kindle-cover.jpg",
+      "bytes": 810063,
+      "sha256": "9ecc0b9acde0d19a2c0ce87dffcfa9cac833bd6840d865724421f9f9d2e6509b"
+    },
+    {
+      "file": "output/kdp/shadow-futures-paperback-interior.pdf",
+      "bytes": 1048748,
+      "sha256": "a98b7cfd7a97d321f758ec957764898afc37e272a65d5243b89ead09c75843f5"
+    },
+    {
+      "file": "output/kdp/shadow-futures-paperback-cover.pdf",
+      "bytes": 3548720,
+      "sha256": "819399abb2dac901cf5209c39db7621f4df037ac9092690ff569e685980b9ca5"
+    },
+    {
+      "file": "output/kdp/UPLOAD-INSTRUCTIONS.txt",
+      "bytes": 2175,
+      "sha256": "478ebefdd2f43ff2a9153cc847f9ae376d8331faf398542cabd33328cf03a24a"
+    },
+    {
+      "file": "output/kdp/amazon-listing.md",
+      "bytes": 6711,
+      "sha256": "1de403967debf4ad6e39cb61d00b766148b6fd5e13dc46f34c3a7115f134f490"
+    },
+    {
+      "file": "output/kdp/shadow-futures-kdp-upload.zip",
+      "bytes": 5436983,
+      "sha256": "75e6a813bf988c02ce86071dc433c9abed196aa4f0a14d1de6fd1c64af88f08a"
+    }
+  ],
+  "boundary": "Upload formats and mechanical checks; KDP Previewer and print proof remain author publication steps.",
+  "epubcheck": {
+    "version": "5.3.0",
+    "status": "passed",
+    "fatals": 0,
+    "errors": 0,
+    "warnings": 0,
+    "sha256": "c01a296bc5950a3ee36c6e8b817cedcbe2b1bfcb4722e83e0a4fd248c375db4a"
+  },
+  "visual_review": {
+    "pdf_pages": [
+      3,
+      8,
+      20,
+      310,
+      319
+    ],
+    "epub": "Desktop/mobile reflow at enlarged font; linked origin note and return navigation checked.",
+    "requested_deletions": "All three absent from PDF and EPUB.",
+    "website_build": "Next.js production build passed."
+  }
+}

@@ -1,6 +1,6 @@
 # References
 
-The chapter notes identify the passages and versions used, distinguish findings from interpretation, and record access limits. This bibliography consolidates duplicate source identifiers while retaining all 24 references from the canonical v5 paper. Author manuscripts and dated institutional accounts are identified as such; inclusion is not a claim of independent endorsement.
+The chapter notes identify the passages and versions used, distinguish findings from interpretation, and record access limits. This bibliography consolidates duplicate source identifiers while retaining all 24 references from the canonical v5 paper.
 
 Acemoglu, D., and P. Restrepo. 2020. Robots and jobs: Evidence from US labor markets. Journal of Political Economy 128:2188–2244. Author-hosted proof used. [Source](https://economics.mit.edu/sites/default/files/publications/Robots%20and%20Jobs%20-%20Evidence%20from%20US%20Labor%20Markets.p.pdf)
 
@@ -33,20 +33,6 @@ Bardeen, J. 1956. Semiconductor research leading to the point contact transistor
 Bastani, H., O. Bastani, A. Sungu, H. Ge, Ö. Kabakcı, and R. Mariman. 2025. Generative AI without guardrails can harm learning: Evidence from high school mathematics. PNAS 122:e2422633122. Author version distinguished in the notes. [Source](https://doi.org/10.1073/pnas.2422633122)
 
 Bearchell, S. J., B. A. Fraaije, M. W. Shaw, and B. D. L. Fitt. 2005. Wheat archive links long-term fungal pathogen population dynamics to air pollution. PNAS 102:5438–5442. [Source](https://doi.org/10.1073/pnas.0501596102)
-
-State Council, China. 2025. Opinion on implementing the AI Plus initiative. Dated August 21; published August 26. Original Chinese. [Source](https://www.nda.gov.cn/sjj/swdt/xwfb/0826/20250826173046592282838_mobile.html)
-
-Cyberspace Administration of China and six ministries. 2023. Interim measures for generative AI services. Published July 13; effective August 15. Original Chinese. [Source](https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm)
-
-European Union. Charter of Fundamental Rights, Article 17. FRA text and explanations. [Source](https://fra.europa.eu/en/eu-charter/charter/article/17-right-property)
-
-EuroHPC Joint Undertaking. AI factories access modes. Industrial Innovation; checked October 2026. [Source](https://www.eurohpc-ju.europa.eu/ai-factories/ai-factories-access-modes_en)
-
-EuroHPC Joint Undertaking. 2025. Playground access to AI factories. Call opened April 9. [Source](https://www.eurohpc-ju.europa.eu/playground-access-ai-factories_en)
-
-EuroHPC Joint Undertaking. 2026. AI factories industrial innovation access: Terms of reference. V3, March 31. [Source](https://www.eurohpc-ju.europa.eu/document/download/bd7aa666-bdf3-4436-b5ec-0b34a781e817_en?filename=Terms+of+Reference+-+AIF+Access+Calls.pdf)
-
-FTC Office of Technology staff. 2025. Partnerships between cloud service providers and AI developers. January. [Source](https://www.ftc.gov/system/files/ftc_gov/pdf/p246201_aipartnerships6breport_redacted.pdf)
 
 Becker, J., N. Rush, B. Barnes, and D. Rein. 2025. Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity. METR research report. [Source](https://metr.org/Early_2025_AI_Experienced_OS_Devs_Study-paper.pdf)
 
@@ -84,6 +70,8 @@ Computer History Museum. n.d. 1952: Bell Labs licenses transistor technology. Si
 
 Cunningham, C., F. Ederer, and S. Ma. 2021. Killer Acquisitions. Journal of Political Economy 129(3):649–702. [Source](https://www.antitrustinstitute.org/wp-content/uploads/2022/05/0265-Killer-Acquisitions-129-J.-Pol.-Econ.-649-2021.pdf)
 
+Cyberspace Administration of China and six ministries. 2023. Interim measures for generative AI services. Published July 13; effective August 15. Original Chinese. [Source](https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm)
+
 David, P. A. (1985). Clio and the economics of QWERTY. American Economic Review, 75(2), 332-337. [Source](https://faculty.econ.ucsb.edu/~tedb/Courses/Ec100C/DavidQwerty.pdf)
 
 de Oliveira, H. 2018. Blackwell's informativeness theorem using diagrams. Games and Economic Behavior 109:126–131. November 30, 2017 author version used. [Source](https://henriquedeoliveira.com/wp-content/uploads/2020/12/blackwells-informativeness-theorem-using-diagrams.pdf)
@@ -108,13 +96,23 @@ Erlic, M. 2026. Shadow Futures: Contribution Uncertainty and the Self-Reinforcin
 
 Erlic, M. 2026. Taxing Lost Comparison: Decision Information, Private Testing, and Costed Corrective Instruments. October journal article draft; unpublished. [Author manuscript](../../output/docx/research-program/journal/05_Taxing_the_Social_Cost_of_Lost_Contestability.docx)
 
+EuroHPC Joint Undertaking. 2025. Playground access to AI factories. Call opened April 9. [Source](https://www.eurohpc-ju.europa.eu/playground-access-ai-factories_en)
+
+EuroHPC Joint Undertaking. 2026. AI factories industrial innovation access: Terms of reference. V3, March 31. [Source](https://www.eurohpc-ju.europa.eu/document/download/bd7aa666-bdf3-4436-b5ec-0b34a781e817_en?filename=Terms+of+Reference+-+AIF+Access+Calls.pdf)
+
+EuroHPC Joint Undertaking. AI factories access modes. Industrial Innovation; checked October 2026. [Source](https://www.eurohpc-ju.europa.eu/ai-factories/ai-factories-access-modes_en)
+
 European Parliament and Council. 2022. Regulation (EU) 2022/1925, Digital Markets Act. Articles 6(11) and 7. [Source](https://eur-lex.europa.eu/eli/reg/2022/1925/oj/eng)
 
 European Parliament and Council. 2024. Directive (EU) 2024/2831 on improving working conditions in platform work. Articles 9(6) and 29(1). [Source](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A02024L2831-20241111)
 
+European Union. Charter of Fundamental Rights, Article 17. FRA text and explanations. [Source](https://fra.europa.eu/en/eu-charter/charter/article/17-right-property)
+
 Federal Communications Commission. 1968. Use of the Carterfone Device in Message Toll Telephone Service. 13 FCC 2d 420, adopted June 26. [Source](https://www.nicholasjohnson.org/FCCOps/1968/13F2-420.html)
 
 Fisher, R. A. 1926. The arrangement of field experiments. Journal of the Ministry of Agriculture 33:503–513. Scanned reprint, pp. 84–94. [Source](https://pdixon.stat.iastate.edu/stat571/readings/Fisher%201926.pdf)
+
+FTC Office of Technology staff. 2025. Partnerships between cloud service providers and AI developers. January. [Source](https://www.ftc.gov/system/files/ftc_gov/pdf/p246201_aipartnerships6breport_redacted.pdf)
 
 Gabriyelyan, S. S. (2011). Absolute continuity and singularity of two probability measures on a filtered space. Journal of Theoretical Probability, 24(3), 595-614. [Source](https://doi.org/10.1007/s10959-011-0359-2)
 
@@ -142,6 +140,8 @@ Ipsos. 2026. Personal banking service quality—Great Britain. February 16; Janu
 
 Jacod, J., and Shiryaev, A. N. (2003). Limit Theorems for Stochastic Processes (2nd ed.). Springer. [Source](https://doi.org/10.1007/978-3-662-05265-5_4)
 
+Johnson, S. 2010. The Genius of the Tinkerer. The Wall Street Journal, September 25. Adapted from Where Good Ideas Come From: The Natural History of Innovation (Riverhead Books). [Source](https://www.pickardlaws.com/myleadership/myfiles/rtdocs/free/TheGeniusOfTheTinkerer.pdf)
+
 Kabanov, Yu. M., Liptser, R. Sh., and Shiryaev, A. N. (1977). On the question of absolute continuity and singularity of probability measures. Mathematics of the USSR-Sbornik, 33(2), 203-221. doi:10.1070/SM1977v033n02ABEH002421. [Source](https://doi.org/10.1070/SM1977v033n02ABEH002421)
 
 Kakutani, S. (1948). On equivalence of infinite product measures. Annals of Mathematics, 49(1), 214-224. doi:10.2307/1969123. [Source](https://doi.org/10.2307/1969123)
@@ -150,15 +150,17 @@ Kasy, M., and A. Sautmann. 2021. Correction regarding Adaptive Treatment Assignm
 
 Kasy, M., and Sautmann, A. (2021). Adaptive treatment assignment in experiments for policy choice. Econometrica, 89(1), 113-132. doi:10.3982/ECTA17527. [Source](https://doi.org/10.3982/ECTA17527)
 
+Kauffman, S. A. 1995. At Home in the Universe: The Search for the Laws of Self-Organization and Complexity. Oxford University Press. Publication record and broad subject identified; not a verified first occurrence of the adjacent-possible term. [Source](https://books.google.com/books?id=o-Owb5IDkSQC)
+
+Kauffman, S. A. 2003. The Adjacent Possible. Edge, November 9. [Source](https://www.edge.org/conversation/stuart_a_kauffman-the-adjacent-possible)
+
 Kerr, W. R., Nanda, R., and Rhodes-Kropf, M. (2014). Entrepreneurship as experimentation. Journal of Economic Perspectives, 28(3), 25-48. [Source](https://www.hbs.edu/faculty/Shared%20Documents/conferences/2014-strategy-research/Entrepreneruship%20as%20Experimentation.pdf)
 
 Kohavi, R., A. Deng, B. Frasca, T. Walker, Y. Xu, and N. Pohlmann. 2013. Online controlled experiments at large scale. Proceedings of KDD:1168–1176. [Source](https://doi.org/10.1145/2487575.2488217)
 
-National Science Foundation. 2026. NSF establishes operations center for the National Artificial Intelligence Research Resource. September 1. [Source](https://www.nsf.gov/cise/updates/nsf-establishes-operations-center-national-artificial)
+Korinek, A., and D. Suh. 2024. Scenarios for the transition to AGI. March author working paper. [Author paper](https://cdn.governance.ai/AGI_Scenarios.pdf)
 
 Lakin, M. 2023. Super construction at super scale: How ORNL built a new home for Frontier. Oak Ridge National Laboratory, November 14. [Source](https://www.ornl.gov/news/super-construction-super-scale-how-ornl-built-new-home-frontier/)
-
-Korinek, A., and D. Suh. 2024. Scenarios for the transition to AGI. March author working paper. [Author paper](https://cdn.governance.ai/AGI_Scenarios.pdf)
 
 Le Cam, L., and Yang, G. L. (2000). Asymptotics in Statistics: Some Basic Concepts (2nd ed.). Springer. [Source](https://doi.org/10.1007/978-1-4612-1166-2_2)
 
@@ -189,6 +191,8 @@ Mulholland, L.-A. 2026. Why we're appealing the DOJ search distribution case. Go
 Nakamura, S. 2014. Background story of the invention of efficient blue InGaN light emitting diodes. Nobel lecture, December 8. [Source](https://www.nobelprize.org/uploads/2018/06/nakamura-lecture.pdf)
 
 National Family Farm Coalition v. Environmental Protection Agency. 2020. Ninth Circuit opinion, No. 19-70115, June 3. [Source](https://www.govinfo.gov/content/pkg/USCOURTS-ca9-19-70115/pdf/USCOURTS-ca9-19-70115-0.pdf)
+
+National Science Foundation. 2026. NSF establishes operations center for the National Artificial Intelligence Research Resource. September 1. [Source](https://www.nsf.gov/cise/updates/nsf-establishes-operations-center-national-artificial)
 
 Nichia Corporation. 2005. Nichia settled with former employee over reasonable remuneration. Company statement, January 11. [Source](https://www.nichia.co.jp/en/newsroom/2005/2005_011101.html)
 
@@ -228,6 +232,8 @@ Sony Group. n.d. Developing the Transistor Radio. Sony Group History, Volume 1, 
 
 Stanford Institute for Human-Centered Artificial Intelligence. 2026. Artificial Intelligence Index Report 2026. Research and Development chapter and dataset qualifications. [Source](https://hai.stanford.edu/assets/files/ai_index_report_2026.pdf)
 
+State Council, China. 2025. Opinion on implementing the AI Plus initiative. Dated August 21; published August 26. Original Chinese. [Source](https://www.nda.gov.cn/sjj/swdt/xwfb/0826/20250826173046592282838_mobile.html)
+
 Swedish Environmental Protection Agency. 2003. Reducing NOx Emissions: An Evaluation of the Nitrogen Oxide Charge. Report 5335, November; extended English summary. [Source](https://www.naturvardsverket.se/4ac644/globalassets/media/publikationer-pdf/5300/978-91-620-5335-3.pdf)
 
 Swedish Environmental Protection Agency. n.d. Nitrogen oxides: Charge, measurement and administration guidance. Accessed October 16, 2026. [Source](https://www.naturvardsverket.se/en/guidance/air-and-climate/nitrogen-oxides/)
@@ -250,8 +256,6 @@ United States v. Google LLC. 2025. Final judgment, December 5, ECF 1462. [Source
 
 United States v. Google LLC. 2025. Remedies memorandum opinion, Judge Amit P. Mehta, September 2, ECF 1436. [Source](https://docs.justia.com/cases/federal/district-courts/district-of-columbia/dcdce/1%3A2020cv03010/223205/1436)
 
-White House. 2025. America's AI action plan. July. [Source](https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf)
-
 United States v. United States Steel Corp. 1920. 251 U.S. 417, especially 438–439. [Source](https://supreme.justia.com/cases/federal/us/251/417/)
 
 van de Rijt, A., Kang, S. M., Restivo, M., and Patil, A. (2014). Field experiments of success-breeds-success dynamics. Proceedings of the National Academy of Sciences, 111(19), 6934-6939. [Source](https://doi.org/10.1073/pnas.1316836111)
@@ -259,6 +263,8 @@ van de Rijt, A., Kang, S. M., Restivo, M., and Patil, A. (2014). Field experimen
 Wang, Y., B. F. Jones, and D. Wang. 2019. Early-career setback and future career impact. Nature Communications 10:4331. [Source](https://www.nature.com/articles/s41467-019-12189-3)
 
 Watzinger, M., T. A. Fackler, M. Nagler, and M. Schnitzer. 2020. How antitrust enforcement can spur innovation: Bell Labs and the 1956 consent decree. American Economic Journal: Economic Policy 12:328–359. June 2017 author version identified in the notes. [Source](https://www.aeaweb.org/articles?id=10.1257/pol.20190086) [2017 author version](https://www.uoc.gr/files/items/6/6537/watzinger_et_al.pdf)
+
+White House. 2025. America's AI action plan. July. [Source](https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf)
 
 Zhang, H. (2004). Inconsistent estimation and asymptotically equal interpolations in model-based geostatistics. Journal of the American Statistical Association, 99(465), 250-261. doi:10.1198/016214504000000241. [Source](https://doi.org/10.1198/016214504000000241)
 

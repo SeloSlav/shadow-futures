@@ -26,7 +26,7 @@ def render_references(bibliography):
         raise ValueError("Bibliography must retain all 24 canonical v5 references")
     lines = [
         "# References", "",
-        "The chapter notes identify the passages and versions used, distinguish findings from interpretation, and record access limits. This bibliography consolidates duplicate source identifiers while retaining all 24 references from the canonical v5 paper. Author manuscripts and dated institutional accounts are identified as such; inclusion is not a claim of independent endorsement.",
+        "The chapter notes identify the passages and versions used, distinguish findings from interpretation, and record access limits. This bibliography consolidates duplicate source identifiers while retaining all 24 references from the canonical v5 paper.",
         "",
     ]
     ids = set()

@@ -1,0 +1,41 @@
+{
+  "checked_on": "2026-10-16",
+  "scope": "One bounded origin-of-name revision; existing source checks otherwise reused.",
+  "author_account": "The author identifies Johnson’s wording about Kauffman as the inspiration; no date, place, personal encounter, or reading history has been invented.",
+  "sources": [
+    {
+      "key": "Johnson2010Tinkerer",
+      "source": "https://www.pickardlaws.com/myleadership/myfiles/rtdocs/free/TheGeniusOfTheTinkerer.pdf",
+      "locator": "PDF p. 2, paragraphs naming Kauffman, introducing shadow future, and explaining expanding combinations; PDF p. 4 identifies book adaptation.",
+      "claims": [
+        "Johnson wrote the phrase; the concept is attributed to Kauffman.",
+        "Existing possibilities can enable further combinations."
+      ],
+      "notes": [
+        "prologue 10",
+        "introduction i12"
+      ],
+      "version_boundary": "Primary author text in archived WSJ print view, September 25, 2010."
+    },
+    {
+      "key": "Kauffman1995AtHome",
+      "source": "https://books.google.com/books?id=o-Owb5IDkSQC",
+      "locator": "Publisher-supplied title, author, 1995 publication record and description.",
+      "claims": [
+        "Book identity and broad self-organization/complexity subject."
+      ],
+      "version_boundary": "Metadata/background only; no claim of full book inspection or first occurrence of the term."
+    },
+    {
+      "key": "Kauffman2003Adjacent",
+      "source": "https://www.edge.org/conversation/stuart_a_kauffman-the-adjacent-possible",
+      "locator": "Kauffman’s talk, paragraphs on pre-adaptation and the biosphere/economy’s future possibilities.",
+      "claims": [
+        "Kauffman’s own account links changing biological and economic possibilities."
+      ],
+      "version_boundary": "Primary 2003 account, not a proof of the book’s economic bound."
+    }
+  ],
+  "attribution_decision": "Cite Johnson directly rather than the supplied indirect Smith (2010) attribution. At Home in the Universe is acknowledged as background, without dating the term’s first appearance to that book.",
+  "review": "Changed passages reviewed once; definitions, historical variation/intervention distinction, and original contribution boundaries retained."
+}

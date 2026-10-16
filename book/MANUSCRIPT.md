@@ -1,6 +1,6 @@
 # Shadow Futures manuscript
 
-Martin Erlic · Working manuscript · 80,000 of 80,000 main-text words
+Martin Erlic · Working manuscript · 79,983 of 80,000 main-text words
 
 The approved budget is 2,500 words for the prologue, 3,500 for the introduction, twelve chapters averaging 6,000 words (72,000 combined), and a 2,000-word epilogue. Notes, references, and acknowledgments have a separate 10,000–15,000-word allowance.
 
@@ -8,8 +8,8 @@ Counts below come from the current chapter files. Drafted sections still require
 
 | Component | Target | Written | Stage |
 | --- | ---: | ---: | --- |
-| [The other life of a song](manuscript/00-prologue.md) | 2,500 | 2,500 | reviewed |
-| [The evidence success leaves behind](manuscript/01-introduction.md) | 3,500 | 3,500 | reviewed |
+| [The other life of a song](manuscript/00-prologue.md) | 2,500 | 2,499 | reviewed |
+| [The evidence success leaves behind](manuscript/01-introduction.md) | 3,500 | 3,484 | reviewed |
 | [The winner and the explanation](manuscript/02-the-winner-and-the-explanation.md) | 6,000 | 6,000 | reviewed |
 | [The comparison budget](manuscript/03-the-comparison-budget.md) | 6,000 | 5,991 | reviewed |
 | [Shadow futures](manuscript/04-shadow-futures.md) | 6,000 | 6,009 | editorial reviewed sources pending |
@@ -24,12 +24,12 @@ Counts below come from the current chapter files. Drafted sections still require
 | [An economics of possible worlds](manuscript/13-an-economics-of-possible-worlds.md) | 6,000 | 6,307 | reviewed |
 | [The next opportunity](manuscript/14-epilogue.md) | 2,000 | 2,000 | reviewed |
 
-Current back matter: 14,671 words, including chapter notes.
+Current back matter: 14,886 words, including chapter notes.
 
 | Back matter | Written | Stage |
 | --- | ---: | --- |
-| [References](manuscript/90-references.md) | 2,660 | drafted |
-| [Acknowledgments](manuscript/91-acknowledgments.md) | 174 | drafted |
+| [References](manuscript/90-references.md) | 2,719 | drafted |
+| [Acknowledgments](manuscript/91-acknowledgments.md) | 123 | drafted |
 
 [Read the continuous working manuscript](drafts/Shadow_Futures_Complete_Manuscript.md), with endnotes, references and acknowledgments. It remains a draft pending the whole-book review.
 
