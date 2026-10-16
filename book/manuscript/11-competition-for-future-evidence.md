@@ -14,7 +14,7 @@ Now put a different purchasing decision on the desk. A fictional council uses As
 
 Aster has a record. Birch has demonstrations. Changing services could require staff training and data conversion. Keeping Aster might preserve a useful integrated system. It might also prevent the council from discovering whether Birch handles important requests better.
 
-Would a feasible change in access or testing improve that purchase enough to justify its cost? This is the policy question I develop in an unpublished companion paper. The comparison budget helps identify a possible shortage of relevant opportunities. It does not tell us what those opportunities are worth.[^c10-2]
+Would a feasible change in access or testing improve that purchase enough to justify its cost? The comparison budget helps identify a possible shortage of relevant opportunities. It does not tell us what those opportunities are worth.[^c10-2]
 
 ## What would the evidence change?
 
@@ -66,7 +66,7 @@ A portable history could help Birch distinguish a new leak from a follow-up and 
 
 Interpretation matters too. Imagine a field marked positive means successfully resolved in one record version, but problem requiring action in another. Exported files omit the version. A reader could reverse the results while processing every row correctly. Under one interpretation, following the signal helps; under the other, it hurts.
 
-This deliberately stark example comes from my policy draft. Knowing that someone with the correct interpretation could use the records does not supply the actual buyer with a usable procedure. If the records cannot distinguish the meanings, more equally ambiguous rows may not help. A verified definition can let the buyer use one procedure that reads the version and interprets the result.
+Knowing that someone with the correct interpretation could use the records does not supply the actual buyer with a usable procedure. If the records cannot distinguish the meanings, more equally ambiguous rows may not help. A verified definition can let the buyer use one procedure that reads the version and interprets the result.
 
 Definitions alone reveal no outcomes. Outcomes with unknown meanings may be unusable. Together they can support a decision; their joint value need not equal the sum of their separate values. Freely available, understood evidence need not harm a buyer who can ignore it. Cost and lost interpretation create the problem. Retaining the trusted record preserves the earlier procedure.
 
@@ -94,7 +94,7 @@ The comparison budget accumulates modeled allocation chance outside the current 
 
 The buyer needs a declared rule for using results, such as adopting Birch for specified work if improvement justifies migration. Otherwise, a disappointment can be relabeled as success by changing the criterion afterward.
 
-An impressive pilot can travel badly. It might contain unusually clear requests or receive unusually experienced staff. Versions can change before renewal. My policy draft retains several plausible accounts of how trial performance transfers to operation, then asks whether one feasible procedure works adequately across them. The council could broaden the test, improve calibration, narrow the contract, or decline to switch.
+An impressive pilot can travel badly. It might contain unusually clear requests or receive unusually experienced staff. Versions can change before renewal. The buyer needs to consider several plausible explanations of the pilot’s success and ask whether a feasible purchasing procedure would still work when conditions change. The council could broaden the test, improve calibration, narrow the contract, or decline to switch.
 
 Such assurance concerns expected performance across the retained accounts. It cannot promise every resident a better outcome or every realized contract a gain. Investigators should examine credible evidence and justified assumptions as well as what subsequently happened. Fortune alone cannot validate a defective method, and misfortune need not condemn a reasonable choice.
 
@@ -194,7 +194,7 @@ The society with the first leading model need not be the society best able to re
 
 The fictional council's menu now includes an audit, portable records, a narrow interface, a pilot, independent purchasing routes, and no additional experiment. There is no permanent ranking. An audit wins when useful evidence already exists. An archive loses when the decisive outcome was never observed. Replication can be worth its cost when shared mistakes dominate the decision.
 
-The appraisal can be ordinary. What consequential mistake could the procedure prevent, over what period? How likely is it to help? What will testing, migration, supervision, privacy protection, and lost production cost? Is there a cheaper substitute? The hypothetical calculations in my policy draft specify these inputs; a real purchase would need evidence for them.[^c10-12]
+The appraisal can be ordinary. What consequential mistake could the procedure prevent, over what period? How likely is it to help? What will testing, migration, supervision, privacy protection, and lost production cost? Is there a cheaper substitute? The council would need evidence for each estimate before choosing a remedy.[^c10-12]
 
 Judgments about rare serious errors, residents' different burdens, and future benefits must be visible. More data cannot decide an undeclared value judgment. Costs also need honest bookkeeping. Lost operating output should not be counted twice under different headings. A payment between participants is not automatically a social resource loss; a burden outside the purchasing department is not automatically irrelevant.
 
@@ -214,7 +214,7 @@ The next chapter asks whether taxation could address conduct that removes useful
 
 [^c10-1]: CMA, [“Roadmap Completion Decision”](https://assets.publishing.service.gov.uk/media/63bed8958fa8f513b40f866c/BANKING_PROVIDERS_Roadmap_Completion_Decision_.pdf), January 2023, paragraphs 1.1–1.4, 2.1–2.6, 4.4–4.9. Six providers' completion, continuing funding and monitoring; dated obligations, not a welfare estimate or current implementation audit.
 
-[^c10-2]: Erlic, *Competition Policy for Informative Market Access*, October 2026 unpublished journal draft, Sections 1–4, 7–11; current expanded version in `output/docx/research-program/journal/`. Additional causal, welfare, interpretation, cost and legal premises beyond canonical v5. Council, Aster and Birch are fictional throughout.
+[^c10-2]: David Blackwell, “Equivalent Comparisons of Experiments,” *Annals of Mathematical Statistics* 24 (1953): 265–272, pp. 265–267, [doi:10.1214/aoms/1177729032](https://doi.org/10.1214/aoms/1177729032); Kenneth J. Arrow, “Economic Welfare and the Allocation of Resources for Invention” (1962), pp. 614–617, [NBER chapter](https://www.nber.org/system/files/chapters/c2144/c2144.pdf). Blackwell compares experiments through their usefulness for decisions; Arrow examines information’s use and appropriation. The council’s proposed access appraisal adds costs and institutional choices to these foundations. Council, Aster, and Birch are fictional.
 
 [^c10-3]: Blackwell, [“Equivalent Comparisons of Experiments”](https://doi.org/10.1214/aoms/1177729032), 1953, original pp. 265–267, decision losses and Theorems 3, 5–6; Section 4, pp. 268–269, extends beyond finite outcomes. Earlier Sherman–Stein result credited. De Oliveira, [November 2017 author paper](https://henriquedeoliveira.com/wp-content/uploads/2020/12/blackwells-informativeness-theorem-using-diagrams.pdf), pp. 1–5, published 2018. Fixed decision setting, known interpretation and state-independent garbling matter; gross value excludes collection costs.
 
@@ -222,7 +222,7 @@ The next chapter asks whether taxation could address conduct that removes useful
 
 [^c10-5]: Meghani, [“Regulations Matter”](https://link.springer.com/article/10.1007/s13347-021-00467-2), 2021, introduction and Section 6. Prior epistemic-monopoly terminology and knowledge-governance argument credited. Council audit and public-evaluator applications are author reasoning.
 
-[^c10-6]: CMA, *Roadmap Completion Decision*, paragraphs 2.1–2.6, 4.3–4.5. Read-only service-quality data and Read/Write current-account records distinguished. Ambiguous-label illustration: Erlic's unpublished competition-policy draft, Section 5, Propositions 1–2; no new general Blackwell theorem claimed.
+[^c10-6]: CMA, *Roadmap Completion Decision*, paragraphs 2.1–2.6 and 4.3–4.5. Read-only service-quality data and Read/Write current-account records are distinguished. The ambiguous-label example is hypothetical: its difficulty comes from an unknown interpretation, so records and verified definitions must be considered together.
 
 [^c10-7]: Kasy and Sautmann, [“Adaptive Treatment Assignment in Experiments for Policy Choice”](https://maxkasy.github.io/home/files/papers/adaptiveexperimentspolicy.pdf), 2021, pp. 113–114, 122–123, Table II. June 3 start, 10,000 numbers, 17 waves, six options; assignments 3,931 versus 366. Reported 0.754 optimality probability uses the stated uniform-prior model. Outcome: five recruitment answers. Read with [November 2021 correction](https://maxkasy.github.io/home/files/papers/correction_adaptiveexperimentspolicy.pdf); corrected original regret-rate claim is not used. Counts are not comparison budgets.
 
@@ -232,15 +232,15 @@ The next chapter asks whether taxation could address conduct that removes useful
 
 [^c10-10]: DOJ/FTC, [2023 Merger Guidelines](https://www.justice.gov/atr/media/1329301/dl), overview and Guidelines 2, 3 (observability), 10. Nonprice analysis predates this proposal. Agency guidance, not legislation or particular liability; comparison deficits alone do not meet applicable legal tests.
 
-[^c10-11]: Erlic, competition-policy draft, Sections 9–11. Evaluation power is a conditional legislative proposal with challenge and review; procurement, antitrust and digital regulation have distinct legal requirements.
+[^c10-11]: The proposed evaluation power would require legislation specifying its scope, evidentiary threshold, rights of challenge, and review. Procurement, antitrust, and digital regulation have distinct legal requirements; an information concern alone supplies no existing legal authority.
 
-[^c10-12]: Same draft, Sections 5–8, Table 1, Appendices A–B. Numerical inputs wholly stipulated. Common feasible procedures differ from model-specific oracles; costs, transportability and stopping remain material.
+[^c10-12]: The appraisal is a proposed decision procedure, not an empirical welfare estimate. It requires a consequential choice, usable evidence, plausible operating conditions, and the full costs of implementation and stopping. Blackwell (1953), pp. 265–267, supplies the underlying decision-based comparison of experiments, rather than a legal test or a valuation of this fictional purchase.
 
 [^c10-13]: Ipsos, [“Personal Banking Service Quality – Great Britain”](https://www.ipsos.com/en-uk/personal-banking-service-quality-great-britain-february-2026), February 16, 2026, methodology. Fieldwork January–December 2025; recommendation questions, not randomized assignment or a current provider recommendation.
 
 [^c10-precaution]: Arrow and Fisher, [“Environmental Preservation, Uncertainty, and Irreversibility”](https://doi.org/10.2307/1883074), 1974, pp. 316–319; [article copy](https://www.u-cursos.cl/derecho/2019/1/DDAL23/1/material_docente/bajar?bajar=1&id=2589976). Option-preservation antecedent retaining cost-benefit appraisal. AI irreversibility and the proposed access presumption require separate evidence and legal authority.
 
-[^c10-dma]: [DMA, Regulation 2022/1925](https://eur-lex.europa.eu/eli/reg/2022/1925/oj/eng), Articles 7(1)–(3), 7(6)–(7), 6(11). Requested messaging functions, phased deadlines, security, exceptional extensions and user choice; distinct search-data terms. Relevant indexed official clauses checked; no automatic AI duty or implementation-success claim.
+[^c10-dma]: [DMA, Regulation 2022/1925](https://eur-lex.europa.eu/eli/reg/2022/1925/oj/eng), Articles 7(1)–(3), 7(6)–(7), 6(11). Requested messaging functions, phased deadlines, security, exceptional extensions and user choice; distinct search-data terms. These clauses do not establish an automatic AI duty or demonstrate implementation success.
 
 [^c10-europe]: EuroHPC, [Playground call](https://www.eurohpc-ju.europa.eu/playground-access-ai-factories_en), April 9, 2025, Description/capacity notice; [access modes](https://www.eurohpc-ju.europa.eu/ai-factories/ai-factories-access-modes_en), Industrial Innovation; [Terms of Reference](https://www.eurohpc-ju.europa.eu/document/download/bd7aa666-bdf3-4436-b5ec-0b34a781e817_en?filename=Terms+of+Reference+-+AIF+Access+Calls.pdf), V3, March 31, 2026, Sections 1.3–1.4, 2–3.1. Published terms, not delivered capacity or demonstrated additional entry.
 

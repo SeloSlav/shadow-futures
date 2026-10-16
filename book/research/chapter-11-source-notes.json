@@ -10,30 +10,6 @@
   "source_checks": "Current expanded unpublished tax manuscript and canonical v5 hidden-position passage read directly. Relevant primary predecessor, Swedish agency, CMA order and CEC project/program passages checked with historical dates and version/access boundaries. Public provision additionality and real-company corrective rates not presumed. Sequential review rechecked v5 Section5/E.2 and tax Sections3-7, refreshed Swedish guidance, and read converter/outage passages in directly accessible original CEC PDF via web research.",
   "sources": [
     {
-      "key": "Erlic2026TaxJournalDraft",
-      "notes": [
-        "c11-1",
-        "c11-7",
-        "c11-8",
-        "c11-12"
-      ],
-      "source": "output/docx/research-program/journal/05_Taxing_the_Social_Cost_of_Lost_Contestability.docx",
-      "sha256": "0eace74f72e48b47f14b78b293f8306b63ff5b642e9977d72d3cf9500d18f00e",
-      "locator": "October2026 journal draft Sections1–10, Propositions1–5, replacement-value corollary and AppendicesA–B; paragraphs8–109",
-      "full_text_checked": true,
-      "claims": [
-        "Decision-specific information value requires additional likelihood, payoff, causal and appropriation assumptions",
-        "Two private choices, productive/restrictive activity and informative testing; activity-only instrument need not implement interior first best",
-        "Conditional public/private crowdout; possible cost saving without additional information",
-        "After private replacement, constrained activity correction differs from fixed-testing partial derivative",
-        "Feasible informative replacement caps marginal cost under stated substitutability/capacity conditions; setup cost and whole-route choice matter",
-        "Compute/profit/raw test counts unreliable automatic proxies; financing, entry and strategic disclosure require added analysis"
-      ],
-      "version_boundary": "Current expanded unpublished journal manuscript selected per archive README, not earlier short draft; numerical example stipulated, not empirical rate estimate.",
-      "boundary": "Independent common-quality substitutable trials and a common continuation objective are substantive benchmark assumptions. Exact crowdout, cost cap and two-instrument result conditional; positive activity-only improvements not ruled out. Full schedule distinct from rate at one point; fixed operating firm, transfer assumptions and boundary exceptions retained. No real-company undertaxation, tax rate, liability or established priority.",
-      "v5_reference": false
-    },
-    {
       "key": "ErlicV5",
       "note": "c11-2",
       "source": "output/docx/Shadow_Futures_FINAL_Comparison_Budget_Revised_v5.docx",
@@ -186,6 +162,36 @@
       "version_boundary": "Dated2017 regulatory order, not current dispute/status or claimed newly adopted tax.",
       "boundary": "Funding convention differs from causal external harm estimate. No general information-destruction tax or established incidence claim; council financial applications are hypothetical.",
       "v5_reference": false
+    },
+    {
+      "key": "ColomboFemminisPavan2014",
+      "notes": [
+        "c11-7",
+        "c11-8"
+      ],
+      "source": "https://faculty.wcas.northwestern.edu/apa522/IAW-March-25-2014.pdf",
+      "locator": "Published pp.1438–1440 (acquisition and social efficiency), pp.1446–1448, especially Corollary 1 (public/private information substitution).",
+      "full_text_checked": true,
+      "claims": [
+        "Equilibrium information acquisition can differ from the socially efficient level.",
+        "Public information crowds out private acquisition in the paper’s specified model."
+      ],
+      "boundary": "Not a universal one-for-one result or a tax-implementation theorem. Council examples remain explicitly conditional.",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "key": "Blackwell1953",
+      "notes": [
+        "c11-1",
+        "c11-12"
+      ],
+      "source": "https://doi.org/10.1214/aoms/1177729032",
+      "locator": "pp.265–267; unchanged original scan check reused from Chapters10/12.",
+      "full_text_checked": true,
+      "claims": [
+        "Decision-based comparison of experiments."
+      ],
+      "boundary": "Costs, feasibility and timeliness of replacements are additional premises of the book’s hypothetical example."
     }
   ],
   "illustrations": [
@@ -284,5 +290,37 @@
       "Chapter3 note c3-6 now discloses incomplete original theorem-passage checks to the reader; all four flags remain open and all canonical citations/roles are preserved."
     ],
     "boundary": "Four original technical-passage checks remain open; no independent proof or priority certification."
+  },
+  "superseded_sources": [
+    {
+      "key": "Erlic2026TaxJournalDraft",
+      "notes": [
+        "c11-1",
+        "c11-7",
+        "c11-8",
+        "c11-12"
+      ],
+      "source": "output/docx/research-program/journal/05_Taxing_the_Social_Cost_of_Lost_Contestability.docx",
+      "sha256": "0eace74f72e48b47f14b78b293f8306b63ff5b642e9977d72d3cf9500d18f00e",
+      "locator": "October2026 journal draft Sections1–10, Propositions1–5, replacement-value corollary and AppendicesA–B; paragraphs8–109",
+      "full_text_checked": true,
+      "claims": [
+        "Decision-specific information value requires additional likelihood, payoff, causal and appropriation assumptions",
+        "Two private choices, productive/restrictive activity and informative testing; activity-only instrument need not implement interior first best",
+        "Conditional public/private crowdout; possible cost saving without additional information",
+        "After private replacement, constrained activity correction differs from fixed-testing partial derivative",
+        "Feasible informative replacement caps marginal cost under stated substitutability/capacity conditions; setup cost and whole-route choice matter",
+        "Compute/profit/raw test counts unreliable automatic proxies; financing, entry and strategic disclosure require added analysis"
+      ],
+      "version_boundary": "Current expanded unpublished journal manuscript selected per archive README, not earlier short draft; numerical example stipulated, not empirical rate estimate.",
+      "boundary": "Independent common-quality substitutable trials and a common continuation objective are substantive benchmark assumptions. Exact crowdout, cost cap and two-instrument result conditional; positive activity-only improvements not ruled out. Full schedule distinct from rate at one point; fixed operating firm, transfer assumptions and boundary exceptions retained. No real-company undertaxation, tax rate, liability or established priority.",
+      "v5_reference": false
+    }
+  ],
+  "citation_cleanup": {
+    "checked_on": "2026-10-17",
+    "status": "Companion citations removed from reader; historical source checks preserved only in superseded_sources.",
+    "boundary": "No companion proposition is attributed to a replacement author. Unsupported formal policy results rewritten as conditional examples. Original-source proof-review limits recorded elsewhere remain unchanged.",
+    "manuscript_sha256": "49cc0a7d2eecdd8809c5df551227c6d5e2f0e26c7bff04cb649bbd5c9d492cec"
   }
 }

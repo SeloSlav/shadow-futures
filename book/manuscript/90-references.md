@@ -1,7 +1,5 @@
 # References
 
-The chapter notes identify the passages and versions used, distinguish findings from interpretation, and record access limits. This bibliography consolidates duplicate source identifiers while retaining all 24 references from the canonical v5 paper.
-
 Acemoglu, D., and P. Restrepo. 2020. Robots and jobs: Evidence from US labor markets. Journal of Political Economy 128:2188–2244. Author-hosted proof used. [Source](https://economics.mit.edu/sites/default/files/publications/Robots%20and%20Jobs%20-%20Evidence%20from%20US%20Labor%20Markets.p.pdf)
 
 Akerlof, G. A. (1970). The market for “lemons”: Quality uncertainty and the market mechanism. The Quarterly Journal of Economics, 84(3), 488-500. [Source](https://www.sfu.ca/~allen/Ackerlof.pdf)
@@ -48,6 +46,8 @@ Bol, T., M. de Vaan, and A. van de Rijt. 2018. The Matthew effect in science fun
 
 Brynjolfsson, E., D. Li, and L. R. Raymond. 2025. Generative AI at work. Quarterly Journal of Economics 140:889–942. Published version, with earlier author version distinguished in the notes. [Source](https://doi.org/10.1093/qje/qjae044)
 
+Buchanan, J. M., and Y. J. Yoon. 2000. Symmetric Tragedies: Commons and Anticommons. Journal of Law and Economics 43(1):1–13. [Published paper](https://faculty.econ.ucsb.edu/~tedb/Courses/UCSBpf/readings/BuchananYoon.pdf)
+
 California Energy Commission. n.d. Electric Program Investment Charge program. Funding and administration account. Accessed October 16, 2026. [Source](https://www.energy.ca.gov/programs-and-topics/programs/electric-program-investment-charge-epic-program)
 
 Carlini, N. 2026. Building a C compiler with a team of parallel Claudes. Anthropic Engineering, February 5. [Source](https://www.anthropic.com/engineering/building-c-compiler)
@@ -59,6 +59,8 @@ Chandrashekar, A., F. Amat, J. Basilico, and T. Jebara. 2017. Artwork personaliz
 Chen, L., M. Zaharia, and J. Zou. 2024. FrugalGPT: How to use large language models while reducing cost and improving performance. Transactions on Machine Learning Research, December. [Source](https://lingjiaochen.com/papers/2024_FrugalGPT_TMLR.pdf)
 
 Chiang, W.-L., et al. 2024. Chatbot Arena: An open platform for evaluating LLMs by human preference. ICML, Proceedings of Machine Learning Research 235:8359–8388. [Source](https://raw.githubusercontent.com/mlresearch/v235/main/assets/chiang24b/chiang24b.pdf)
+
+Colombo, L., G. Femminis, and A. Pavan. 2014. Information Acquisition and Welfare. Review of Economic Studies 81:1438–1483. [Published article](https://doi.org/10.1093/restud/rdu015) [Full text](https://faculty.wcas.northwestern.edu/apa522/IAW-March-25-2014.pdf)
 
 Competition and Markets Authority. 2017. Retail Banking Market Investigation Order 2017. Implementation arrangements and service-quality survey funding. [Source](https://www.gov.uk/government/publications/retail-banking-market-investigation-order-2017/the-retail-banking-market-investigation-order-2017)
 
@@ -86,15 +88,7 @@ Dubois, Y., B. Galambosi, P. Liang, and T. B. Hashimoto. 2024. Length-Controlled
 
 Electronic Rothamsted Archive. n.d. Rothamsted Sample Archive. Institutional inventory and applications. Accessed October 16, 2026. [Source](https://www.era.rothamsted.ac.uk/asset/rsa)
 
-Erlic, M. 2026. Competition Policy for Informative Market Access. October journal article draft; unpublished. [Author manuscript](../../output/docx/research-program/journal/04_Competition_Policy_for_Informative_Market_Access.docx)
-
-Erlic, M. 2026. Institutions for Comparative Discovery in Scaling Markets. October journal article draft; unpublished. [Author manuscript](../../output/docx/research-program/journal/00_Institutions_for_Comparative_Discovery.docx)
-
-Erlic, M. 2026. Measuring Comparison Opportunities in Adaptive Markets: Finite-Horizon Inference and Experimental Design. October journal article draft; unpublished. [Author manuscript](../../output/docx/research-program/journal/02_Measuring_Comparison_Opportunities_in_Adaptive_Markets.docx)
-
-Erlic, M. 2026. Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market. Canonical October v5 author manuscript; unpublished. Associated SSRN record 6003994. [Canonical v5](../../output/docx/Shadow_Futures_FINAL_Comparison_Budget_Revised_v5.docx) [SSRN record](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994)
-
-Erlic, M. 2026. Taxing Lost Comparison: Decision Information, Private Testing, and Costed Corrective Instruments. October journal article draft; unpublished. [Author manuscript](../../output/docx/research-program/journal/05_Taxing_the_Social_Cost_of_Lost_Contestability.docx)
+Erlic, M. Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market. SSRN 6003994. [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994)
 
 EuroHPC Joint Undertaking. 2025. Playground access to AI factories. Call opened April 9. [Source](https://www.eurohpc-ju.europa.eu/playground-access-ai-factories_en)
 
@@ -183,6 +177,8 @@ Meghani, Z. (2021). Regulations matter: Epistemic monopoly, domination, patents,
 Merton, R. K. (1968). The Matthew effect in science. Science, 159(3810), 56-63. [Source](https://garfield.library.upenn.edu/merton/matthew1.pdf)
 
 METR. 2026. We are changing our developer productivity experiment design. February 24. [Source](https://metr.org/blog/2026-02-24-uplift-update/)
+
+Morris, T. P., I. R. White, and M. J. Crowther. 2019. Using Simulation Studies to Evaluate Statistical Methods. Statistics in Medicine 38(11):2074–2102. [Published article](https://doi.org/10.1002/sim.8086) [Full text](https://onlinelibrary.wiley.com/doi/10.1002/sim.8086)
 
 Muchnik, L., S. Aral, and S. J. Taylor. 2013. Social influence bias: A randomized experiment. Science 341:647–651. [Source](https://doi.org/10.1126/science.1240466)
 

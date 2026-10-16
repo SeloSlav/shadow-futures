@@ -17,6 +17,23 @@ OUTPUT = ROOT / "book/drafts/Shadow_Futures_Complete_Manuscript.md"
 MANIFEST = ROOT / "book/research/reading-manuscript-manifest.json"
 
 
+def validate_reader_citations(text):
+    """Keep internal source/version records out of the published reader."""
+    forbidden = (
+        r"\bv5\b|\bunpublished\b|\bcompanion (?:paper|draft|study|manuscript)s?\b"
+        r"|\b(?:tax|policy|measurement|institutional) draft\b|\bsame draft\b"
+        r"|(?:book/(?:sources|research)|output/docx|research-program/journal)/"
+        r"|Competition Policy for Informative Market Access"
+        r"|Institutions for Comparative Discovery in Scaling Markets"
+        r"|Measuring Comparison Opportunities in Adaptive Markets"
+        r"|Taxing Lost Comparison: Decision Information"
+        r"|browser research tool|terminal download|retrieval failed|no local (?:copy|full-text copy)"
+    )
+    match = re.search(forbidden, text, re.I)
+    if match:
+        raise ValueError(f"Internal or companion source reference in reader: {match.group(0)}")
+
+
 def digest(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
@@ -24,11 +41,14 @@ def digest(path):
 def render_references(bibliography):
     if sum(bool(entry.get("canonical_v5_reference")) for entry in bibliography["entries"]) != 24:
         raise ValueError("Bibliography must retain all 24 canonical v5 references")
-    lines = [
-        "# References", "",
-        "The chapter notes identify the passages and versions used, distinguish findings from interpretation, and record access limits. This bibliography consolidates duplicate source identifiers while retaining all 24 references from the canonical v5 paper.",
-        "",
-    ]
+    self_entries = [e for e in bibliography["entries"] if re.match(r"Erlic,", e["citation"])]
+    if len(self_entries) != 1 or self_entries[0]["id"] != "Erlic2026ShadowFutures":
+        raise ValueError("The original SSRN paper must be the sole self-citation")
+    if [link["url"] for link in self_entries[0]["links"]] != [
+        "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994"
+    ]:
+        raise ValueError("Self-citation must link only to the original SSRN paper")
+    lines = ["# References", ""]
     ids = set()
     for entry in bibliography["entries"]:
         if entry["id"] in ids:
@@ -98,9 +118,8 @@ def build():
 
     front = [
         "# Shadow Futures", "", "Martin Erlic", "",
-        "Complete working draft · 16 October 2026", "",
-        "This reading copy assembles the saved chapters and relocates their notes to the end. The individual manuscript files remain authoritative. All main-text components are drafted; final editorial and source review remains in progress.",
-        "", "## Contents", "", *toc, "", "- [Endnotes](#endnotes)", "",
+        "Reading edition", "",
+        "## Contents", "", *toc, "", "- [Endnotes](#endnotes)", "",
     ]
     # Put endnotes before references/acknowledgments in both reading order and contents.
     front = [line for line in front if line != "- [Endnotes](#endnotes)"]
@@ -121,6 +140,9 @@ def build():
         raise ValueError("Replacement character in manuscript")
     if main_total != progress["main_words"]:
         raise ValueError("Assembly changed the main-text word inventory")
+    validate_reader_citations(text)
+    if text.count("abstract_id=6003994") != 2:
+        raise ValueError("Cite the original SSRN paper only in the introduction note and bibliography")
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(text, encoding="utf-8", newline="\n")
     manifest = {

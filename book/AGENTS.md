@@ -71,8 +71,17 @@ existence do not certify that a chapter or the whole book has passed review.
 - Distinguish the single-history finite-budget result from the hidden-position
   observational-equivalence argument. Keep attribution, moral desert, contractual
   entitlement, and incentives separate.
+- The only reader-facing self-citation is the original Shadow Futures paper at
+  https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994. Cite it once in
+  the introduction and once in the bibliography. Never publish internal version
+  labels, companion-paper citations, local research paths, or references to the
+  author's other drafts. Keep those files only as historical internal records.
+  Ground additional claims in relevant published scholarship. Where no published
+  source establishes a result, explain a conditional example or proposal without
+  presenting it as a sourced theorem. Never relabel a companion result as a result
+  from the SSRN paper or attribute it to a replacement author.
 - AI, corrective taxes, and remedy design require additional empirical, causal,
-  welfare, and legal premises. Credit unpublished Erlic extensions as drafts.
+  welfare, and legal premises.
   Include scale benefits, private experimentation, implementation costs, testing
   crowdout, and feasible replacement. Infer no real tax rate, legal liability,
   or infinite-horizon condition from a concentration chart or simulation.

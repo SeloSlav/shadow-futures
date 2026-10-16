@@ -1,6 +1,6 @@
 {
   "title": "Shadow Futures bibliography",
-  "compiled_on": "2026-10-16",
+  "compiled_on": "2026-10-17",
   "status": "drafted_source_coverage_checked_editorial_review_pending",
   "scope": "Cited works and explicit indirect credit. All 24 canonical v5 entries retained. Related locations and source-ledger aliases do not assert inspection of every copy.",
   "entries": [
@@ -167,6 +167,7 @@
       ],
       "cited_in": [
         "book/manuscript/08-the-intelligence-factory.md",
+        "book/manuscript/11-competition-for-future-evidence.md",
         "book/manuscript/12-taxing-lost-comparison.md"
       ],
       "canonical_v5_reference": false
@@ -399,6 +400,7 @@
       ],
       "cited_in": [
         "book/manuscript/11-competition-for-future-evidence.md",
+        "book/manuscript/12-taxing-lost-comparison.md",
         "book/manuscript/13-an-economics-of-possible-worlds.md"
       ],
       "canonical_v5_reference": false,
@@ -507,6 +509,32 @@
         "book/manuscript/10-the-first-rung.md"
       ],
       "canonical_v5_reference": false
+    },
+    {
+      "id": "BuchananYoon2000",
+      "source_keys": [
+        "BuchananYoon2000"
+      ],
+      "citation": "Buchanan, J. M., and Y. J. Yoon. 2000. Symmetric Tragedies: Commons and Anticommons. Journal of Law and Economics 43(1):1–13.",
+      "links": [
+        {
+          "label": "Published paper",
+          "url": "https://faculty.econ.ucsb.edu/~tedb/Courses/UCSBpf/readings/BuchananYoon.pdf"
+        }
+      ],
+      "known_locations": [
+        "https://faculty.econ.ucsb.edu/~tedb/Courses/UCSBpf/readings/BuchananYoon.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/13-an-economics-of-possible-worlds.md"
+      ],
+      "canonical_v5_reference": false,
+      "bibliographic_check": {
+        "checked_on": "2026-10-17",
+        "locator": "Published pp.1–6, complementary exclusion rights and the two-permit parking illustration.",
+        "method": "Relevant full published text read through primary publisher or author/university-hosted published copy.",
+        "claim_boundary": "Complementary records are the book’s analogy, not the paper’s particular model or a demonstrated diagnosis of a market."
+      }
     },
     {
       "id": "CEC_EPIC2026Access",
@@ -627,6 +655,37 @@
         "book/manuscript/09-a-billion-answers.md"
       ],
       "canonical_v5_reference": false
+    },
+    {
+      "id": "ColomboFemminisPavan2014",
+      "source_keys": [
+        "ColomboFemminisPavan2014"
+      ],
+      "citation": "Colombo, L., G. Femminis, and A. Pavan. 2014. Information Acquisition and Welfare. Review of Economic Studies 81:1438–1483.",
+      "links": [
+        {
+          "label": "Published article",
+          "url": "https://doi.org/10.1093/restud/rdu015"
+        },
+        {
+          "label": "Full text",
+          "url": "https://faculty.wcas.northwestern.edu/apa522/IAW-March-25-2014.pdf"
+        }
+      ],
+      "known_locations": [
+        "https://doi.org/10.1093/restud/rdu015",
+        "https://faculty.wcas.northwestern.edu/apa522/IAW-March-25-2014.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/12-taxing-lost-comparison.md"
+      ],
+      "canonical_v5_reference": false,
+      "bibliographic_check": {
+        "checked_on": "2026-10-17",
+        "locator": "Published pp.1438–1440 (acquisition and social efficiency), pp.1446–1448, especially Corollary 1 (public/private information substitution).",
+        "method": "Relevant full published text read through primary publisher or author/university-hosted published copy.",
+        "claim_boundary": "Not a universal one-for-one result or a tax-implementation theorem. Council examples remain explicitly conditional."
+      }
     },
     {
       "id": "CMARetailBankingOrder2017",
@@ -894,121 +953,24 @@
       "canonical_v5_reference": false
     },
     {
-      "id": "Erlic2026CompetitionJournalDraft",
-      "source_keys": [
-        "Erlic2026CompetitionJournalDraft"
-      ],
-      "citation": "Erlic, M. 2026. Competition Policy for Informative Market Access. October journal article draft; unpublished.",
-      "links": [
-        {
-          "label": "Author manuscript",
-          "url": "../../output/docx/research-program/journal/04_Competition_Policy_for_Informative_Market_Access.docx"
-        }
-      ],
-      "known_locations": [
-        "../../output/docx/research-program/journal/04_Competition_Policy_for_Informative_Market_Access.docx"
-      ],
-      "cited_in": [
-        "book/manuscript/11-competition-for-future-evidence.md"
-      ],
-      "canonical_v5_reference": false
-    },
-    {
-      "id": "Erlic2026InstitutionsJournalDraft",
-      "source_keys": [
-        "Erlic2026InstitutionsJournalDraft"
-      ],
-      "citation": "Erlic, M. 2026. Institutions for Comparative Discovery in Scaling Markets. October journal article draft; unpublished.",
-      "links": [
-        {
-          "label": "Author manuscript",
-          "url": "../../output/docx/research-program/journal/00_Institutions_for_Comparative_Discovery.docx"
-        }
-      ],
-      "known_locations": [
-        "../../output/docx/research-program/journal/00_Institutions_for_Comparative_Discovery.docx"
-      ],
-      "cited_in": [
-        "book/manuscript/13-an-economics-of-possible-worlds.md"
-      ],
-      "canonical_v5_reference": false
-    },
-    {
-      "id": "Erlic2026MeasurementJournalDraft",
-      "source_keys": [
-        "Erlic2026MeasurementJournalDraft"
-      ],
-      "citation": "Erlic, M. 2026. Measuring Comparison Opportunities in Adaptive Markets: Finite-Horizon Inference and Experimental Design. October journal article draft; unpublished.",
-      "links": [
-        {
-          "label": "Author manuscript",
-          "url": "../../output/docx/research-program/journal/02_Measuring_Comparison_Opportunities_in_Adaptive_Markets.docx"
-        }
-      ],
-      "known_locations": [
-        "../../output/docx/research-program/journal/02_Measuring_Comparison_Opportunities_in_Adaptive_Markets.docx"
-      ],
-      "cited_in": [
-        "book/manuscript/13-an-economics-of-possible-worlds.md"
-      ],
-      "canonical_v5_reference": false
-    },
-    {
-      "id": "ErlicV5",
+      "id": "Erlic2026ShadowFutures",
       "source_keys": [
         "ErlicV5",
         "ErlicV5Replications"
       ],
-      "citation": "Erlic, M. 2026. Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market. Canonical October v5 author manuscript; unpublished. Associated SSRN record 6003994.",
+      "citation": "Erlic, M. Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market. SSRN 6003994.",
       "links": [
         {
-          "label": "Canonical v5",
-          "url": "../../output/docx/Shadow_Futures_FINAL_Comparison_Budget_Revised_v5.docx"
-        },
-        {
-          "label": "SSRN record",
+          "label": "SSRN",
           "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994"
         }
       ],
       "known_locations": [
-        "https://doi.org/10.2139/ssrn.6003994",
         "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994",
-        "../../output/docx/Shadow_Futures_FINAL_Comparison_Budget_Revised_v5.docx"
+        "https://doi.org/10.2139/ssrn.6003994"
       ],
       "cited_in": [
-        "book/manuscript/00-prologue.md",
-        "book/manuscript/01-introduction.md",
-        "book/manuscript/03-the-comparison-budget.md",
-        "book/manuscript/04-shadow-futures.md",
-        "book/manuscript/05-the-histories-that-became-infrastructure.md",
-        "book/manuscript/06-who-gets-to-be-tested.md",
-        "book/manuscript/07-who-deserves-the-winnings.md",
-        "book/manuscript/08-the-intelligence-factory.md",
-        "book/manuscript/09-a-billion-answers.md",
-        "book/manuscript/10-the-first-rung.md",
-        "book/manuscript/11-competition-for-future-evidence.md",
-        "book/manuscript/12-taxing-lost-comparison.md",
-        "book/manuscript/13-an-economics-of-possible-worlds.md"
-      ],
-      "canonical_v5_reference": false
-    },
-    {
-      "id": "Erlic2026TaxJournalDraft",
-      "source_keys": [
-        "Erlic2026TaxJournalDraft"
-      ],
-      "citation": "Erlic, M. 2026. Taxing Lost Comparison: Decision Information, Private Testing, and Costed Corrective Instruments. October journal article draft; unpublished.",
-      "links": [
-        {
-          "label": "Author manuscript",
-          "url": "../../output/docx/research-program/journal/05_Taxing_the_Social_Cost_of_Lost_Contestability.docx"
-        }
-      ],
-      "known_locations": [
-        "../../output/docx/research-program/journal/05_Taxing_the_Social_Cost_of_Lost_Contestability.docx"
-      ],
-      "cited_in": [
-        "book/manuscript/12-taxing-lost-comparison.md"
+        "book/manuscript/01-introduction.md"
       ],
       "canonical_v5_reference": false
     },
@@ -1948,6 +1910,37 @@
         "book/manuscript/10-the-first-rung.md"
       ],
       "canonical_v5_reference": false
+    },
+    {
+      "id": "MorrisWhiteCrowther2019",
+      "source_keys": [
+        "MorrisWhiteCrowther2019"
+      ],
+      "citation": "Morris, T. P., I. R. White, and M. J. Crowther. 2019. Using Simulation Studies to Evaluate Statistical Methods. Statistics in Medicine 38(11):2074–2102.",
+      "links": [
+        {
+          "label": "Published article",
+          "url": "https://doi.org/10.1002/sim.8086"
+        },
+        {
+          "label": "Full text",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1002/sim.8086"
+        }
+      ],
+      "known_locations": [
+        "https://doi.org/10.1002/sim.8086",
+        "https://onlinelibrary.wiley.com/doi/10.1002/sim.8086"
+      ],
+      "cited_in": [
+        "book/manuscript/13-an-economics-of-possible-worlds.md"
+      ],
+      "canonical_v5_reference": false,
+      "bibliographic_check": {
+        "checked_on": "2026-10-17",
+        "locator": "Full published article, Sections3.1–3.2 and Table1 (ADEMP; aims, data-generating mechanisms and scenario design).",
+        "method": "Relevant full published text read through primary publisher or author/university-hosted published copy.",
+        "claim_boundary": "No actual market measurement, validation of a false real-world mechanism, or claim that a completed companion simulation supports the book."
+      }
     },
     {
       "id": "MuchnikAralTaylor2013",

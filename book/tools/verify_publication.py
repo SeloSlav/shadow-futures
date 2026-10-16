@@ -6,6 +6,7 @@ import re
 
 import pypdfium2 as pdfium
 from pypdf import PdfReader
+from build_reading_manuscript import validate_reader_citations
 
 ROOT=Path(__file__).resolve().parents[2]
 
@@ -33,6 +34,7 @@ def verify():
         texts.append(tp.get_text_bounded(left=50,bottom=51,right=382,top=597))
         tp.close();page.close()
     document.close();normalized=normalize(' '.join(texts))
+    validate_reader_citations(re.sub(r'\s+', ' ', ' '.join(texts)))
     missing=[];checked=0
     for i in m['inputs']:
         text=(ROOT/i['file']).read_text(encoding='utf-8-sig')

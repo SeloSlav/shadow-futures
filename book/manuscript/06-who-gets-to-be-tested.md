@@ -48,7 +48,7 @@ A search result also reflects several decisions. The provider has chosen which p
 
 That unevenness gives the word “data” too much work to do. A catalogue of pages, a sequence of user interactions, and results produced by another company's engine are different resources. Each can help a competitor in a different way. Handing over one does not automatically hand over the capability to generate the others. The remedy proceedings eventually had to address these distinctions in practical detail.
 
-Our comparison budget asks a narrower allocation question: how much modeled chance accumulates outside the current favorite? It does not count queries, bytes, or people. Applying the model would require a defined allocation unit, a contribution target, justified probabilities, and an account of all informative observations. The court's search record is not an estimate of that budget, and a large search share does not establish that its lifetime total is finite.[^c5-4]
+Our comparison budget asks a narrower allocation question: how much modeled chance accumulates outside the current favorite? It does not count queries, bytes, or people. Applying the model would require a defined allocation unit, a contribution target, justified probabilities, and an account of all informative observations. The court's search record is not an estimate of that budget, and a large search share does not establish that its lifetime total is finite.
 
 The favorite here is the alternative most likely to receive the next allocation under the model. It can change with history. A service's share of past searches is an outcome, not that conditional probability; turning one into the other would require separately justified evidence and assumptions.
 
@@ -74,7 +74,7 @@ Zahra Meghani used “epistemic monopoly” before this book. Her 2021 paper exa
 
 That prior argument deserves explicit credit. A firm can influence what others know by governing access to the object being studied, the conditions of testing, or the circulation of results. The issue reaches beyond possession of a secret. It concerns the organization of inquiry. An authority may be formally responsible for evaluation while depending heavily on the actor whose product it must evaluate.
 
-I use the term more narrowly here, relative to a stated question about contribution and a specified information set. Epistemic monopoly means control over the production of the relevant comparison paths. The question is whether an actor can determine which alternatives receive the informative opportunities needed to explain an allocation. This is an application of an existing term to the book's particular problem, rather than a claim to have invented the phrase.[^c5-4]
+I use the term more narrowly here, relative to a stated question about contribution and a specified information set. Epistemic monopoly means control over the production of the relevant comparison paths. The question is whether an actor can determine which alternatives receive the informative opportunities needed to explain an allocation. This is an application of an existing term to the book's particular problem, rather than a claim to have invented the phrase.
 
 The distinction helps us ask something precise about the search case. Distribution contracts can affect who receives queries. Data terms can affect who learns from an existing record. A test's confidentiality can affect who can check the evidence. These controls can overlap, but they are not the same control. Each needs to be connected to the particular uncertainty under investigation.
 
@@ -212,7 +212,7 @@ An acquisition can also finance development that would otherwise stop. The findi
 
 The Google record must stand on its own findings about distribution and competition. The pharmaceutical study supplies no finding about Google's motives. But it helps state the timing problem: demanding that every prospective rival first produce a mature superior service can be circular when the challenged restriction concerns the route through which that service could mature.
 
-This proposed information rationale requires a causal account of the lost trial, a valuable decision it would inform, and a remedy worth its costs. Existing antitrust already considers innovation and exclusion. Shadow futures sharpen a question about the record we will inherit; they do not by themselves establish illegality.[^c5-4]
+This proposed information rationale requires a causal account of the lost trial, a valuable decision it would inform, and a remedy worth its costs. Existing antitrust already considers innovation and exclusion. Shadow futures sharpen a question about the record we will inherit; they do not by themselves establish illegality.
 
 ### Whose future is missing?
 
@@ -232,11 +232,9 @@ For the people whose work receives different rewards, the question is more perso
 
 [^c5-3]: Mehta, August 2024 opinion, pp. 34–39, especially paragraphs 86–93. Query and click feedback can improve service. No claim is made that extra observations are uniformly uninformative or that these data measure the comparison budget.
 
-[^c5-4]: Martin Erlic, *Shadow Futures*, canonical October 2026 v5, Sections 2–5. The narrow definition of epistemic monopoly is relative to a contribution estimand and information set. The comparison-budget bound and lifetime result require their stated conditions; all additional informative observations must be included. The book's institutional interpretation does not itself identify Google's budget, establish a violation, or complete a welfare calculation. Aster, Birch, storefronts, and procurement trials are explicitly hypothetical. The probability foundations and relevant predecessors are credited in Chapters 1–4.
-
 [^c5-5]: Mehta, August 2024 opinion, p. 49, paragraphs 136–137. Human-rated comparisons and the Bing latency comparison supplied internal learning; Project Folly concerns the particular speed-improvement effort described in the record, not every aspect of search quality.
 
-[^c5-6]: Zahra Meghani, “Regulations Matter: Epistemic Monopoly, Domination, Patents, and the Public Interest,” *Philosophy & Technology* 34 (2021): 1449–1474, [full published text](https://link.springer.com/article/10.1007/s13347-021-00467-2), introduction and Section 6. Her governance argument and prior terminology are distinct from Erlic's allocation bound; no claim to coinage is made.
+[^c5-6]: Zahra Meghani, “Regulations Matter: Epistemic Monopoly, Domination, Patents, and the Public Interest,” *Philosophy & Technology* 34 (2021): 1449–1474, [full published text](https://link.springer.com/article/10.1007/s13347-021-00467-2), introduction and Section 6. Her governance argument and prior terminology are distinct from the allocation bound; no claim to coinage is made.
 
 [^c5-7]: *United States v. Google*, [final judgment](https://www.justice.gov/atr/media/1421546/dl?inline=), December 5, 2025, Sections III–V and IX.V, pp. 2–10 and 32–33; Mehta, [remedies opinion](https://docs.justia.com/cases/federal/district-courts/district-of-columbia/dcdce/1%3A2020cv03010/223205/1436), September 2, 2025, introduction and remedy-specific conclusions. The judgment specifies conditional contracts, datasets, syndication, eligibility, safeguards, and tapering. It does not require divestiture of Chrome or ban all search payments.
 

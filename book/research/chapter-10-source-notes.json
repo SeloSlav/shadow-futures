@@ -31,29 +31,6 @@
       "local_cache": ".tmp/book-research/cma-open-banking-completion-2023.pdf"
     },
     {
-      "key": "Erlic2026CompetitionJournalDraft",
-      "notes": [
-        "c10-2",
-        "c10-6",
-        "c10-11",
-        "c10-12"
-      ],
-      "source": "output/docx/research-program/journal/04_Competition_Policy_for_Informative_Market_Access.docx",
-      "locator": "October 2026 journal article draft: Sections 1–11, Table 1 and Appendices A–B; paragraph indices 8–118 and 120–133",
-      "full_text_checked": true,
-      "sha256": "88f50219093eca1a5f1371ac392163d78190cbb05aedbf46900afd08f2a24b3f",
-      "claims": [
-        "Defined consequential decision and common implementable rule under retained plausible models",
-        "Interpretation/polarity ambiguity; metadata and outcomes can complement",
-        "Costed audit, portability, interoperability, pilot and independent-replication menu",
-        "Full operating costs, costs counted once, scale benefits, crowdout and finite useful experimentation",
-        "Prospective narrowly scoped evaluation mandate is proposal; statutory requirements separate"
-      ],
-      "version_boundary": "Current expanded journal-oriented unpublished draft selected per research-program README; earlier short draft preserved. No accepted-publication claim or new general Blackwell/ambiguity theorem.",
-      "boundary": "All numerical table inputs hypothetical; book uses prose institutional illustration and no empirical tax/liability/welfare estimate. Robust expected guarantee not guaranteed realized improvement. Council maintenance example is author adaptation, not recorded procurement.",
-      "v5_reference": false
-    },
-    {
       "key": "ErlicV5",
       "note": "c10-2",
       "source": "output/docx/Shadow_Futures_FINAL_Comparison_Budget_Revised_v5.docx",
@@ -84,7 +61,12 @@
       "v5_reference": false,
       "checked_on": "2026-10-16",
       "local_path": "book/sources/classics/Blackwell_1953_Equivalent_Comparisons_of_Experiments.pdf",
-      "sha256": "f490b8395187edc34ab46a3d45455f1f59cbbc9632964c63218a2f4c8ba8cd1d"
+      "sha256": "f490b8395187edc34ab46a3d45455f1f59cbbc9632964c63218a2f4c8ba8cd1d",
+      "notes": [
+        "c10-12",
+        "c10-2",
+        "c10-3"
+      ]
     },
     {
       "key": "deOliveira2018Blackwell",
@@ -360,6 +342,19 @@
       ],
       "boundary": "Dated enacted text, not April consultation draft or comprehensive October2026 legal audit; no empirical innovation/censorship effect estimate.",
       "v5_reference": false
+    },
+    {
+      "key": "Arrow1962",
+      "notes": [
+        "c10-2"
+      ],
+      "source": "https://www.nber.org/system/files/chapters/c2144/c2144.pdf",
+      "locator": "pp.614–617, information use and appropriation; reused unchanged original-source check from Chapters7/11.",
+      "full_text_checked": true,
+      "claims": [
+        "Information production and use pose appropriation problems."
+      ],
+      "boundary": "No tax formula, access mandate or evaluation theorem follows automatically."
     }
   ],
   "illustrations": [
@@ -461,5 +456,36 @@
       "Chapter3 note c3-6 now discloses incomplete original theorem-passage checks to the reader; all four flags remain open and all canonical citations/roles are preserved."
     ],
     "boundary": "Four original technical-passage checks remain open; no independent proof or priority certification."
+  },
+  "superseded_sources": [
+    {
+      "key": "Erlic2026CompetitionJournalDraft",
+      "notes": [
+        "c10-2",
+        "c10-6",
+        "c10-11",
+        "c10-12"
+      ],
+      "source": "output/docx/research-program/journal/04_Competition_Policy_for_Informative_Market_Access.docx",
+      "locator": "October 2026 journal article draft: Sections 1–11, Table 1 and Appendices A–B; paragraph indices 8–118 and 120–133",
+      "full_text_checked": true,
+      "sha256": "88f50219093eca1a5f1371ac392163d78190cbb05aedbf46900afd08f2a24b3f",
+      "claims": [
+        "Defined consequential decision and common implementable rule under retained plausible models",
+        "Interpretation/polarity ambiguity; metadata and outcomes can complement",
+        "Costed audit, portability, interoperability, pilot and independent-replication menu",
+        "Full operating costs, costs counted once, scale benefits, crowdout and finite useful experimentation",
+        "Prospective narrowly scoped evaluation mandate is proposal; statutory requirements separate"
+      ],
+      "version_boundary": "Current expanded journal-oriented unpublished draft selected per research-program README; earlier short draft preserved. No accepted-publication claim or new general Blackwell/ambiguity theorem.",
+      "boundary": "All numerical table inputs hypothetical; book uses prose institutional illustration and no empirical tax/liability/welfare estimate. Robust expected guarantee not guaranteed realized improvement. Council maintenance example is author adaptation, not recorded procurement.",
+      "v5_reference": false
+    }
+  ],
+  "citation_cleanup": {
+    "checked_on": "2026-10-17",
+    "status": "Companion citations removed from reader; historical source checks preserved only in superseded_sources.",
+    "boundary": "No companion proposition is attributed to a replacement author. Unsupported formal policy results rewritten as conditional examples. Original-source proof-review limits recorded elsewhere remain unchanged.",
+    "manuscript_sha256": "7df917446ed29d3e3b700f5c3c4c55305b89a717c2097f0020e690f4f52045d6"
   }
 }

@@ -1,0 +1,647 @@
+{
+  "date": "2026-10-17",
+  "scope": "Full reader manuscript, all chapter notes and bibliography; sole self-citation to original SSRN6003994. Internal source archives preserved.",
+  "changes": [
+    {
+      "file": "00-prologue.md",
+      "before": "[^4]: Martin Erlic, “Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market,” October 2026 v5 author manuscript, Sections 2–5 and Appendices B and E. [SSRN preprint record](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994); [doi:10.2139/ssrn.6003994](https://doi.org/10.2139/ssrn.6003994). The canonical source used here is retained at `output/docx/Shadow_Futures_FINAL_Comparison_Budget_Revised_v5.docx`; provenance is recorded in `book/research/v5_source_provenance.json`. The proposed novelty is the specified comparison-budget information bound, finite-record precision limit, and economic attribution interpretation. It is not the discovery of cumulative advantage or the first demonstration that prediction can coexist with inconsistent parameter estimation. The lifetime result requires the common predictable design, local equivalence, comparison-dominated separation, and finite-budget conditions of Theorem 1; applications must include all informative observations. A large budget alone need not identify input effects. Shadow futures preserve the structural parameter, initial state, and predictable input and state response rules; adaptive realized inputs may differ. The hidden-position argument about exact contribution–position decomposition is separate from the finite-budget result. Corrective taxation and remedy design require additional causal and welfare premises. The examples in this prologue do not establish those hypotheses for the named institutions. This is an author preprint, not a claim of independent proof certification or established scholarly priority.",
+      "after": ""
+    },
+    {
+      "file": "00-prologue.md",
+      "before": " Original scan retained at `book/sources/classics/Alchian_1950_Uncertainty_Evolution_and_Economic_Theory.pdf`.",
+      "after": ""
+    },
+    {
+      "file": "00-prologue.md",
+      "before": "; all 24 v5 references remain in the book's reference register and chapter plan.",
+      "after": "."
+    },
+    {
+      "file": "01-introduction.md",
+      "before": "[^i2]: Martin Erlic, “Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market,” October 2026 v5 author manuscript, Sections 1–5; Proposition 1; Theorem 1; Appendices C and E. [SSRN record](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994). Canonical local source and provenance are recorded in `book/research/v5_source_provenance.json`. The model observes productive inputs and specifies how inputs and position affect allocation. Its information bound requires the bounded profile differences stated there; the lifetime result additionally requires common predictable design, local equivalence, comparison-dominated separation, and an almost-surely finite comparison budget. Additional informative observations must be included. The hidden-position tax argument is distinct from the single-history finite-budget theorem. Corrective taxation is an extension requiring further causal and welfare premises. The manuscript is an author preprint.",
+      "after": "[^i2]: Martin Erlic, “Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market,” [SSRN 6003994](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994). The original formulation of the comparison budget and contribution-uncertainty argument; the model and its conditions are explained in Chapters 2–3."
+    },
+    {
+      "file": "01-introduction.md",
+      "before": "or an empirical verification of v5's lifetime assumptions",
+      "after": "or a test of the lifetime information limit described in Chapter 3"
+    },
+    {
+      "file": "01-introduction.md",
+      "before": " The new object and bound are proposed in Erlic's v5; this book does not claim independent certification of scholarly priority.",
+      "after": ""
+    },
+    {
+      "file": "02-the-winner-and-the-explanation.md",
+      "before": " The original scan is retained at `book/sources/classics/Alchian_1950_Uncertainty_Evolution_and_Economic_Theory.pdf`.",
+      "after": ""
+    },
+    {
+      "file": "03-the-comparison-budget.md",
+      "before": "the strong-feedback setting used in my paper",
+      "after": "the strong-feedback model developed here"
+    },
+    {
+      "file": "03-the-comparison-budget.md",
+      "before": "[^c2-2]: Martin Erlic, “Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market,” October 2026 v5 author manuscript, Sections 2–3, Proposition 1, Theorem 1, and Appendices C–D, [SSRN preprint](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994). Canonical local version: `output/docx/Shadow_Futures_FINAL_Comparison_Budget_Revised_v5.docx`. The information bound uses the specified conditional-logit model and bounded profile differences; the lifetime limit also needs common predictable design, local equivalence, comparison-dominated separation, and almost-surely finite budget. All informative observed outcomes must be included. Infinite budget alone need not identify, and almost-sure finiteness does not imply finite expectation. The supplier probabilities, halving schedule, viewer groups, and identical-image examples are explanatory thought experiments, not estimates for named companies.",
+      "after": "[^c2-2]: The information bound uses a conditional-logit allocation model with bounded differences in input profiles. The lifetime limit additionally requires common predictable design, local equivalence, comparison-dominated separation, and an almost-surely finite comparison budget. All informative observed outcomes must be included. An infinite budget alone need not identify contribution, and almost-sure finiteness does not imply finite expectation. Chapter 3 explains these distinctions. The supplier probabilities and halving schedule are hypothetical."
+    },
+    {
+      "file": "03-the-comparison-budget.md",
+      "before": "under v5's rules",
+      "after": "under unchanged starting conditions and response rules"
+    },
+    {
+      "file": "04-shadow-futures.md",
+      "before": "[^c3-1]: Martin Erlic, *Shadow Futures*, canonical October 2026 v5, Sections 2–4 and Appendices A–C and E.1. The comparison budget sums conditional allocation probability outside the current favorite. Theorem 1 requires a common predictable design, local equivalence, comparison-dominated separation in both directions, and an almost-surely finite lifetime budget at every parameter. Additional informative observations must be included. Shadow futures preserve the parameter, initial state, and response rules; causal intervention effects require those rules to remain valid under the specified intervention. This is the author's preprint argument, not an independently certified proof or established priority claim. Aster, Birch, coin tosses, the field illustration, and AI procurement scenarios are explanatory thought experiments. Observed inputs distinguish the setup from Akerlof's (1970) hidden-quality model, discussed in Chapter 1. The reinforcement distinction draws on Pemantle (2007), Section 2.1; Oliveira (2009), Theorem 1; and Gottfried and Grosskinsky (2024), Theorem 2.2, discussed and linked in Chapter 2.",
+      "after": "[^c3-1]: The comparison budget sums conditional allocation probability outside the current favorite. The lifetime result requires a common predictable design, local equivalence, comparison-dominated separation in both directions, and an almost-surely finite lifetime budget at every parameter. Additional informative observations must be included. Replays preserve the parameter, initial state, and response rules. Intervention effects require those rules to remain valid under the specified change. The observed-input setting differs from Akerlof’s hidden-quality model, discussed in Chapter 1; the reinforcement results of Pemantle (2007), Oliveira (2009), and Gottfried and Grosskinsky (2024) are discussed in Chapter 2."
+    },
+    {
+      "file": "04-shadow-futures.md",
+      "before": "or an empirical verification of v5's lifetime conditions",
+      "after": "or a test of the lifetime information limit"
+    },
+    {
+      "file": "04-shadow-futures.md",
+      "before": "V5's technical lineage is classical. ",
+      "after": ""
+    },
+    {
+      "file": "04-shadow-futures.md",
+      "before": " Original theorem-passage checks remain incomplete for Kakutani, Kabanov and colleagues, Jacod–Shiryaev, and Le Cam–Yang; accessible lineage material does not certify their proofs or v5's.",
+      "after": ""
+    },
+    {
+      "file": "04-shadow-futures.md",
+      "before": "; a full copy is in `book/sources/classics/`",
+      "after": ""
+    },
+    {
+      "file": "04-shadow-futures.md",
+      "before": "V5's fixed-parameter equivalence supplies the application here.",
+      "after": "The application here combines that result with the equivalence of history laws at different fixed contribution parameters."
+    },
+    {
+      "file": "04-shadow-futures.md",
+      "before": "[^c3-10]: Erlic, v5, Appendix E.1. Independent copies of a finite experiment can support consistent maximum-likelihood estimation under its compactness, continuity, positivity, and identification conditions. Organizational plurality does not establish independence or identification. Le Goff and Soulier's Sections 2 and 3.2 provide a related, prior repeated-experiment estimation framework.",
+      "after": "[^c3-10]: Lionel C. Le Goff and Philippe Soulier, “Parameter Estimation of a Two-Colored Urn Model Class,” *International Journal of Biostatistics* 13(1) (2017), article 20160029, Sections 2 and 3.2, [doi:10.1515/ijb-2016-0029](https://doi.org/10.1515/ijb-2016-0029). Their repeated-experiment estimation framework distinguishes independent repetitions from extending one reinforced path. Consistency requires identification and the relevant regularity conditions; separate organizational units do not automatically supply independent experiments."
+    },
+    {
+      "file": "05-the-histories-that-became-infrastructure.md",
+      "before": "Its model is not v5's allocation experiment; increasing returns alone does not establish finite lifetime comparison.",
+      "after": "Increasing returns alone does not establish a finite lifetime comparison budget."
+    },
+    {
+      "file": "05-the-histories-that-became-infrastructure.md",
+      "before": "; local copy in `book/sources/classics/`",
+      "after": ""
+    },
+    {
+      "file": "05-the-histories-that-became-infrastructure.md",
+      "before": "[^c4-13]: Martin Erlic, *Shadow Futures*, canonical October 2026 v5, Sections 3–5. The comparison budget concerns modeled allocation chance outside the current favorite, relative to the recorded experiment and target. Historical licensing, attachment, and coordination cases are interpretations and applications, not empirical demonstrations of Theorem 1. Aster, Birch, software training, component trials, and other purchasing examples are explicitly fictional illustrations.",
+      "after": ""
+    },
+    {
+      "file": "05-the-histories-that-became-infrastructure.md",
+      "before": "Neither Anderson nor v5 proves the proposed centuries-long historical progression.",
+      "after": "The proposed centuries-long economic progression remains a historical hypothesis; Anderson supplies a physical analogy."
+    },
+    {
+      "file": "06-who-gets-to-be-tested.md",
+      "before": "[^c5-4]: Martin Erlic, *Shadow Futures*, canonical October 2026 v5, Sections 2–5. The narrow definition of epistemic monopoly is relative to a contribution estimand and information set. The comparison-budget bound and lifetime result require their stated conditions; all additional informative observations must be included. The book's institutional interpretation does not itself identify Google's budget, establish a violation, or complete a welfare calculation. Aster, Birch, storefronts, and procurement trials are explicitly hypothetical. The probability foundations and relevant predecessors are credited in Chapters 1–4.",
+      "after": ""
+    },
+    {
+      "file": "06-who-gets-to-be-tested.md",
+      "before": "Erlic's allocation",
+      "after": "the allocation"
+    },
+    {
+      "file": "07-who-deserves-the-winnings.md",
+      "before": "unpublished know-how",
+      "after": "know-how not disclosed publicly"
+    },
+    {
+      "file": "07-who-deserves-the-winnings.md",
+      "before": "[^c6-4]: Martin Erlic, *Shadow Futures*, canonical October 2026 v5, Sections 3–5 and Appendices B and E; [SSRN record](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994). The book uses the repository's canonical v5, rather than presuming the SSRN-hosted file has identical contents. Replays preserve parameters, starting conditions, and input/state response rules; causal interventions change a specified input or policy. A contribution claim requires a defined intervention and horizon, with appropriate structural assumptions.",
+      "after": "[^c6-4]: Replays preserve parameters, starting conditions, and input and state response rules; interventions change a specified input or policy. A contribution claim therefore requires a defined intervention and horizon, together with assumptions about how the system responds. See Chapter 3."
+    },
+    {
+      "file": "07-who-deserves-the-winnings.md",
+      "before": "[^c6-9]: Erlic, v5, Section 3 for the conditional finite-lifetime-budget result; Section 5 and Appendix E for the distinct hidden-position observational-equivalence argument relevant to exact contribution/position decomposition. The latter is developed in Chapter 11. Neither result invalidates optimal taxation under uncertainty. The policy illustrations here add behavioral, welfare, feasibility, and normative premises rather than follow from the theorem alone.",
+      "after": ""
+    },
+    {
+      "file": "08-the-intelligence-factory.md",
+      "before": "[^c7-9]: Martin Erlic, canonical October 2026 *Shadow Futures* v5, Sections 2–4 and Appendices B–D; [SSRN record](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994). See Chapters 2–3 for the modeled budget and conditions. Additional outcome measurements and internal experiments belong in the observed information set. The AI illustrations estimate no real firm's budget, establish no finite lifetime condition, and imply no universal nonlearning result for machine-learning systems.",
+      "after": ""
+    },
+    {
+      "file": "08-the-intelligence-factory.md",
+      "before": " This source is an addition to the book bibliography, not one of the original 24 v5 references.",
+      "after": ""
+    },
+    {
+      "file": "09-a-billion-answers.md",
+      "before": "Chapter 3 supplies the relation to v5's separate attribution result.",
+      "after": "Chapter 3 explains why predictive merging and contribution identification are different questions."
+    },
+    {
+      "file": "09-a-billion-answers.md",
+      "before": "[^c8-9]: Martin Erlic, canonical October 2026 *Shadow Futures* v5, Sections 2–4 and Appendices B–D; [SSRN record](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994). The budget accumulates conditional modeled allocation chance outside the current favorite. Additional outcomes, scores, logged selection rules and informative internal tests belong in the observed experiment. Deterministic selection or an aggregate share alone does not establish the theorem's support, separation and lifetime-budget assumptions. The book estimates no named AI supplier's budget.",
+      "after": ""
+    },
+    {
+      "file": "10-the-first-rung.md",
+      "before": "[^c9-8]: Erlic, canonical October 2026 v5, Sections 2–4 and Appendix B; [SSRN record](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994). Application requires specifying the observed experiment, counting all informative measurements, and checking the theorem's assumptions. The labor cases motivate an institutional question; none estimates a finite lifetime comparison budget. Changing training policies is an intervention, distinguished from a replay under unchanged starting conditions and response rules.",
+      "after": ""
+    },
+    {
+      "file": "10-the-first-rung.md",
+      "before": "; v5 does not supply this macroeconomic result",
+      "after": ""
+    },
+    {
+      "file": "11-competition-for-future-evidence.md",
+      "before": " This is the policy question I develop in an unpublished companion paper.",
+      "after": ""
+    },
+    {
+      "file": "11-competition-for-future-evidence.md",
+      "before": "This deliberately stark example comes from my policy draft. ",
+      "after": ""
+    },
+    {
+      "file": "11-competition-for-future-evidence.md",
+      "before": "My policy draft retains several plausible accounts of how trial performance transfers to operation, then asks whether one feasible procedure works adequately across them.",
+      "after": "The buyer needs to consider several plausible explanations of the pilot’s success and ask whether a feasible purchasing procedure would still work when conditions change."
+    },
+    {
+      "file": "11-competition-for-future-evidence.md",
+      "before": "The hypothetical calculations in my policy draft specify these inputs; a real purchase would need evidence for them.",
+      "after": "The council would need evidence for each estimate before choosing a remedy."
+    },
+    {
+      "file": "11-competition-for-future-evidence.md",
+      "before": "[^c10-2]: Erlic, *Competition Policy for Informative Market Access*, October 2026 unpublished journal draft, Sections 1–4, 7–11; current expanded version in `output/docx/research-program/journal/`. Additional causal, welfare, interpretation, cost and legal premises beyond canonical v5. Council, Aster and Birch are fictional throughout.",
+      "after": "[^c10-2]: David Blackwell, “Equivalent Comparisons of Experiments,” *Annals of Mathematical Statistics* 24 (1953): 265–272, pp. 265–267, [doi:10.1214/aoms/1177729032](https://doi.org/10.1214/aoms/1177729032); Kenneth J. Arrow, “Economic Welfare and the Allocation of Resources for Invention” (1962), pp. 614–617, [NBER chapter](https://www.nber.org/system/files/chapters/c2144/c2144.pdf). Blackwell compares experiments through their usefulness for decisions; Arrow examines information’s use and appropriation. The council’s proposed access appraisal adds costs and institutional choices to these foundations. Council, Aster, and Birch are fictional."
+    },
+    {
+      "file": "11-competition-for-future-evidence.md",
+      "before": "[^c10-6]: CMA, *Roadmap Completion Decision*, paragraphs 2.1–2.6, 4.3–4.5. Read-only service-quality data and Read/Write current-account records distinguished. Ambiguous-label illustration: Erlic's unpublished competition-policy draft, Section 5, Propositions 1–2; no new general Blackwell theorem claimed.",
+      "after": "[^c10-6]: CMA, *Roadmap Completion Decision*, paragraphs 2.1–2.6 and 4.3–4.5. Read-only service-quality data and Read/Write current-account records are distinguished. The ambiguous-label example is hypothetical: its difficulty comes from an unknown interpretation, so records and verified definitions must be considered together."
+    },
+    {
+      "file": "11-competition-for-future-evidence.md",
+      "before": "[^c10-11]: Erlic, competition-policy draft, Sections 9–11. Evaluation power is a conditional legislative proposal with challenge and review; procurement, antitrust and digital regulation have distinct legal requirements.",
+      "after": "[^c10-11]: The proposed evaluation power would require legislation specifying its scope, evidentiary threshold, rights of challenge, and review. Procurement, antitrust, and digital regulation have distinct legal requirements; an information concern alone supplies no existing legal authority."
+    },
+    {
+      "file": "11-competition-for-future-evidence.md",
+      "before": "[^c10-12]: Same draft, Sections 5–8, Table 1, Appendices A–B. Numerical inputs wholly stipulated. Common feasible procedures differ from model-specific oracles; costs, transportability and stopping remain material.",
+      "after": "[^c10-12]: The appraisal is a proposed decision procedure, not an empirical welfare estimate. It requires a consequential choice, usable evidence, plausible operating conditions, and the full costs of implementation and stopping. Blackwell (1953), pp. 265–267, supplies the underlying decision-based comparison of experiments, rather than a legal test or a valuation of this fictional purchase."
+    },
+    {
+      "file": "12-taxing-lost-comparison.md",
+      "before": "The unpublished tax draft lets the firm make two choices. It chooses an activity that has productive returns but reduces an existing stream of informative trials. It also chooses how much private testing to buy. The second choice is essential. Without it, an analysis can mistake lost routine feedback for an inevitable loss of total knowledge.[^c11-7]",
+      "after": "Suppose Aster can integrate its service more tightly with the council’s systems. Integration makes ordinary work cheaper, but it also closes off some opportunities to compare suppliers. Aster has another choice: it can pay for tests. A tax appraisal must follow both decisions. Otherwise, the loss of routine feedback can be mistaken for an unavoidable loss of knowledge.[^c11-7]"
+    },
+    {
+      "file": "12-taxing-lost-comparison.md",
+      "before": "Private replacement can also change the appropriate activity charge. Suppose each lost ordinary test leads Aster to purchase an equivalent test, within the draft's specified response setting. More integration then increases its testing bill while leaving the relevant total evidence unchanged. Charging it again as though the decision maker had lost that same information would ignore what the firm already paid to restore. The remaining problem could be that the privately chosen total is too low from the wider beneficiaries' perspective. Correcting that testing target is different from charging for a marginal evidence loss that substitution has prevented. This does not make private evaluation a blanket exemption. It means the fiscal calculation must follow the actual response. When private replacement stops, or cannot supply the same information, the effect of another lost organic test can change. A formula derived while holding testing fixed cannot simply be applied after testing adjusts.",
+      "after": "Suppose Aster replaces each lost field comparison with a test that gives the council the same useful information. Its testing bill rises, but the council’s evidence does not shrink. A charge calculated as though no replacement occurred would overstate that particular loss. There could still be a shortage of testing: Aster might buy enough to protect its own contract while neglecting questions that matter to other buyers. Those are different problems. When replacement stops, becomes too expensive, or fails to answer the same question, the consequences of losing another field comparison change. The appraisal has to follow what the firm actually does."
+    },
+    {
+      "file": "12-taxing-lost-comparison.md",
+      "before": "The draft uses a deliberately tractable experiment. Informative measurements help choose between two alternatives. Organic observations, privately purchased tests, and public tests supply comparable evidence, with errors independent given the underlying state. Results from all three sources reach the same decision maker. The decision has a stated payoff, and tests have stated costs. Those assumptions make the substitution problem possible to analyze precisely.",
+      "after": "Consider a narrow case. The council wants to know which of two maintenance services is more reliable. Ordinary jobs, purchased tests, and public trials could all provide evidence. To count one as a replacement for another, the buyer would need to know what each measures, how its errors relate to the others, and whether the results reach the people making the purchase. A test hidden in Aster’s files cannot replace evidence the council needs but never receives."
+    },
+    {
+      "file": "12-taxing-lost-comparison.md",
+      "before": "They are not descriptions we can assume for every AI evaluation. A supplier's internal test and a public field experiment may reveal different dimensions. One may use synthetic tasks while the other observes actual users. Their errors may be correlated. Before applying the draft's conclusions, an investigator must establish which observations can adequately substitute for which others.",
+      "after": "With AI, that comparison may be difficult. A supplier’s internal test and a public field experiment may reveal different things. One may use synthetic tasks while the other observes actual users. Their errors may be correlated. An investigator must establish which observations can adequately substitute for which others."
+    },
+    {
+      "file": "12-taxing-lost-comparison.md",
+      "before": "Within its stated setting, the firm can value information less than society does because it receives only part of the benefit. It may therefore buy fewer tests than would be worthwhile for the beneficiaries taken together. A charge on the activity that removes organic trials can influence that activity while leaving the incentive to buy tests insufficiently corrected.",
+      "after": "The gap between private and public benefits has a long economic history. Arrow emphasized the difficulty of capturing all the benefits of producing information. In their study of information acquisition, Luca Colombo, Gianluca Femminis, and Alessandro Pavan show why privately chosen research need not match the socially preferred amount. The direction of the gap depends on the economic setting. For our council, underinvestment would require a specific account of benefits Aster’s testing creates but Aster cannot capture."
+    },
+    {
+      "file": "12-taxing-lost-comparison.md",
+      "before": "That is the draft's two-choice problem. A policy trying to reach the fully efficient interior combination may need one instrument for the activity and another for informative testing. An activity-only payment cannot generally correct both choices under the specified conditions. This is a conditional result about incentives, not a universal demand for two new taxes.",
+      "after": "Charging for the restrictive contract condition would change the cost of imposing it. Paying for an independently verified test would change the return to producing evidence. A government considering either measure should examine both responses. A charge that opens access might also reduce the need for purchased tests; a testing payment might reward work that would have happened anyway. Choosing useful instruments requires tracing those effects through the actual purchase."
+    },
+    {
+      "file": "12-taxing-lost-comparison.md",
+      "before": "The relevant activity is therefore not automatically electricity use, model size, or profit. The draft permits a declared productive or restrictive choice whose effects can be specified. An actual tax authority would need an administrable way to observe that choice and the informative testing margin. These are demanding requirements, not details to leave until after announcing a rate.",
+      "after": "A tax base therefore has to name an observable choice and explain its effect. Electricity use, model size, and profit are not automatic measures of lost comparison. For the council, the relevant choice might be a contract restriction that prevents a rival from completing a useful test. An authority would need to observe the restriction, establish what it changes, and account for replacement evidence before setting a charge."
+    },
+    {
+      "file": "12-taxing-lost-comparison.md",
+      "before": "In the draft's substitutable-trial setting, Aster has a desired total level of evidence at a given activity. If a public test supplies evidence Aster would otherwise have purchased, the firm can reduce its own testing. While that replacement continues, total information can remain unchanged. Government has bought tests without increasing the relevant total.[^c11-8]",
+      "after": "Colombo, Femminis, and Pavan also show how public information can crowd out private information acquisition in their model. A similar possibility is easy to see at the council. Suppose Aster planned to purchase a particular test. If a public laboratory supplies the same usable result, Aster could cancel its order. The public program has changed who pays; it may have added no evidence.[^c11-8]"
+    },
+    {
+      "file": "12-taxing-lost-comparison.md",
+      "before": "Imagine the converter diagnosis remaining in a private maintenance log. It could improve the owner's engineering while never reaching another community's purchasing decision. Our tax draft assumes delivery to a common decision maker; this imagined arrangement breaks that premise. The private work still counts as evidence for the decision it informs. Its existence would not establish that the outside community received an adequate substitute. Sharing findings and generating new tests address different gaps.",
+      "after": "Imagine the converter diagnosis remaining in a private maintenance log. It could improve the owner’s engineering while never reaching another community’s purchasing decision. The private work still counts as evidence for the decision it informs. Its existence would not establish that the outside community received an adequate substitute. Sharing findings and generating new tests address different gaps."
+    },
+    {
+      "file": "12-taxing-lost-comparison.md",
+      "before": "The tax draft formalizes this point within its substitutable-trial experiment. Once replacement is worthwhile and available, the marginal cost of losing an organic trial is limited by the cost of replacing it. Preserving every original channel at any price would ignore the substitute. This limit depends on the substitute actually working.",
+      "after": "Suppose replacement really is available: the council can buy an equally useful test, receive its results in time, and cover every cost of obtaining and using them. Preserving the old channel at a greater cost would then need some further benefit to justify the expense. If the substitute cannot do the same job, its low price tells us little. The comparison is between workable ways of informing the purchase."
+    },
+    {
+      "file": "12-taxing-lost-comparison.md",
+      "before": "Public money has an opportunity cost too. Funding a laboratory can displace another program, require revenue, or interact with existing taxes. The draft's clean corrective benchmark treats transfers simply and holds the operating firm fixed. Real financing, entry, avoidance, and jurisdictional responses require a wider analysis. The benchmark is useful precisely because its limits are stated.",
+      "after": "Public money has an opportunity cost too. Funding a laboratory can displace another program, require revenue, or interact with existing taxes. The council needs to compare those costs with the improvement in its purchase. Suppliers may also change their investment, prices, or decision to enter. A test that looks attractive before those responses may be less useful after them."
+    },
+    {
+      "file": "12-taxing-lost-comparison.md",
+      "before": " The companion draft holds the operating firm fixed for its clean corrective benchmark; it does not settle these wider responses.",
+      "after": ""
+    },
+    {
+      "file": "12-taxing-lost-comparison.md",
+      "before": "[^c11-1]: Erlic, *Taxing Lost Comparison: Decision Information, Private Testing, and Costed Corrective Instruments*, October 2026 unpublished journal draft, Sections 1–2 and 9–10. Current file: `output/docx/research-program/journal/05_Taxing_the_Social_Cost_of_Lost_Contestability.docx`; distinguish the earlier short draft. Council, access condition, invoice, Aster and Birch are hypothetical. No real-company tax estimate, identified externality or established priority is claimed.",
+      "after": "[^c11-1]: Arrow, “Economic Welfare and the Allocation of Resources for Invention” (1962), pp. 614–617, [NBER chapter](https://www.nber.org/system/files/chapters/c2144/c2144.pdf), on use and appropriation; Blackwell, “Equivalent Comparisons of Experiments” (1953), pp. 265–267, [DOI](https://doi.org/10.1214/aoms/1177729032), on the decision value of experiments. The proposed tax appraisal requires additional causal and welfare evidence. The council, access condition, invoice, Aster, and Birch are hypothetical."
+    },
+    {
+      "file": "12-taxing-lost-comparison.md",
+      "before": "[^c11-2]: Canonical October 2026 v5, Section 5, paragraphs on attribution-based taxation, and Appendix E.2, contribution-position invariance. Fixed input profiles and admissible transformed hidden-position parameters preserve every allocation probability while changing the input loading. Time-varying within-agent inputs can break that invariance. This differs from shadow replay and from the single-history finite-budget theorem. A monetary decomposition needs a defined contribution target and intervention; it is not furnished by the observed reward alone. [SSRN record](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994) is not assumed byte-identical to canonical v5.",
+      "after": "[^c11-2]: In the fixed-input example, an admissible change in hidden position can offset a change in the input loading and preserve every allocation probability. The record then cannot distinguish those parameter combinations. Time-varying within-agent inputs can break this particular invariance. This is a different argument from the single-history finite-budget result. A monetary contribution decomposition also requires a defined intervention and horizon; observed rewards do not supply it automatically."
+    },
+    {
+      "file": "12-taxing-lost-comparison.md",
+      "before": "[^c11-7]: Erlic, unpublished tax journal draft, Sections 3–5, Propositions 1–3. Common, conditionally independent informative measurements, stated decision payoff, partial private appropriation and observable choices define a benchmark. The interior two-instrument result has stated boundary exceptions; global implementation uses a full payment schedule and strong transfer/verification assumptions. An activity-only charge can improve welfare without implementing the first best. Strategic disclosure with conflicting objectives needs additional analysis.",
+      "after": "[^c11-7]: Arrow (1962), pp. 614–617; Luca Colombo, Gianluca Femminis, and Alessandro Pavan, “Information Acquisition and Welfare,” *Review of Economic Studies* 81 (2014): 1438–1483, introduction, pp. 1438–1440, and discussion of efficient acquisition, pp. 1446–1448, [published article](https://doi.org/10.1093/restud/rdu015). Their model distinguishes equilibrium information acquisition from socially efficient acquisition. The Aster example adds hypothetical contract and testing choices; it supplies no general tax formula or optimal number of instruments."
+    },
+    {
+      "file": "12-taxing-lost-comparison.md",
+      "before": "[^c11-8]: Same draft, Section 6, Proposition 4. Exact crowdout is conditional on substitutability, the common experiment, linear testing costs and the private response branch. It can save resources when public provision is cheaper, before setup costs; it is not an empirical claim about EPIC, a real AI firm or every public program.",
+      "after": "[^c11-8]: Colombo, Femminis, and Pavan (2014), Corollary 1 and discussion, pp. 1446–1447, [full published paper](https://faculty.wcas.northwestern.edu/apa522/IAW-March-25-2014.pdf). Public precision reduces private information acquisition in their specified model. The canceled test order is a conditional illustration, not an empirical claim about a public program or a universal one-for-one crowdout result."
+    },
+    {
+      "file": "12-taxing-lost-comparison.md",
+      "before": "[^c11-12]: Erlic, unpublished tax journal draft, Section 7, Proposition 5 and replacement-value corollary. Cost cap requires feasible informative substitutes and the stated capacity assumptions. Fixed setup costs require whole-route comparison. The Section 8 numerical example is wholly stipulated; none of its arbitrary monetary units is an empirical tax recommendation.",
+      "after": "[^c11-12]: Blackwell (1953), pp. 265–267, compares experiments through the decisions they permit. The replacement argument here additionally assumes an equally useful, feasible substitute and counts its full costs. It does not place an unconditional ceiling on social harm: missing recipients, delay, capacity limits, and effects on later experimentation can defeat the proposed substitution."
+    },
+    {
+      "file": "13-an-economics-of-possible-worlds.md",
+      "before": "under the paper's conditions",
+      "after": "under the conditions explained in Chapter 3"
+    },
+    {
+      "file": "13-an-economics-of-possible-worlds.md",
+      "before": "[^c12-6]: Erlic, canonical October 2026 v5, Sections 2–4 and Appendices A–C; [associated SSRN record](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994). The budget sums modeled conditional chance outside the current favorite; it is not realized rival wins, shares, independent trial count or welfare. The lifetime result needs its full assumptions. Additional informative observations remain part of an application. Independent proof and priority review are not claimed complete.",
+      "after": ""
+    },
+    {
+      "file": "13-an-economics-of-possible-worlds.md",
+      "before": "The unpublished measurement companion pursues this narrower route with synthetic experiments and explicit uncertainty about the feedback mechanism. Its simulations can check a computational method against known assumptions. They are not measurements of an actual market, and adding more simulations cannot validate a false account of how the market works.[^c12-7]",
+      "after": "Simulation offers a narrower test. Build an artificial market whose rules are known, run the proposed estimator, and check whether it recovers what was put in. Tim Morris, Ian White, and Michael Crowther explain why a simulation study must state its aims, data-generating mechanisms, and measures of performance. A method can work in that artificial world while failing in a real market whose feedback rules are different.[^c12-7]"
+    },
+    {
+      "file": "13-an-economics-of-possible-worlds.md",
+      "before": "The institutional companion models the council's access problem more narrowly. Two parties control complementary records. Each can incur a real cost to provide access, while capturing only part of the benefit. Both may decline even when jointly supplying the records would create enough value to cover their combined costs. This is a conditional model of incentives and coordination, not a diagnosis obtained from a large market share.[^c12-10]",
+      "after": "James Buchanan and Yong Yoon describe a related obstacle as an “anticommons”: several holders of exclusion rights can leave a resource underused. Their example requires permits from separate owners to use the same parking space. Our council could face an analogous problem if two parties control records that are useful only together. Neither permission opens the whole route. Paying for one set of records achieves little if the other remains inaccessible.[^c12-10]"
+    },
+    {
+      "file": "13-an-economics-of-possible-worlds.md",
+      "before": "The existing unpublished companion papers are attempts to make those questions precise. Their theoretical examples and synthetic calculations help state assumptions and expose failures. They do not establish a real firm's comparison budget, an economy's lost output, an optimal tax, or the welfare effect of an actual merger. Publishing and testing the program requires keeping those distinctions intact.",
+      "after": "A useful next study could begin with one purchase. Record which alternatives were eligible, how they were selected, which outcomes reached the buyer, and what additional test changed the decision. That would not measure an entire economy’s lost possibilities. It could establish something more modest and actionable: whether a specific institution could learn more, at a cost worth paying."
+    },
+    {
+      "file": "13-an-economics-of-possible-worlds.md",
+      "before": "not empirical verification of v5",
+      "after": "not a test of the lifetime information limit"
+    },
+    {
+      "file": "13-an-economics-of-possible-worlds.md",
+      "before": "[^c12-7]: Erlic, *Measuring Comparison Opportunities in Adaptive Markets*, October 2026 unpublished journal draft, abstract and Sections 2 and 10. Current manuscript in `output/docx/research-program/journal/`, distinct from the earlier short version. Synthetic calibration, feedback uncertainty and observation scope are explicit. No simulation supplies an actual-market measurement or protects against every misspecified mechanism.",
+      "after": "[^c12-7]: Tim P. Morris, Ian R. White, and Michael J. Crowther, “Using Simulation Studies to Evaluate Statistical Methods,” *Statistics in Medicine* 38 (2019): 2074–2102, Sections 3.1–3.2 and Table 1, [doi:10.1002/sim.8086](https://doi.org/10.1002/sim.8086). The authors organize simulation design around aims, data-generating mechanisms, estimands, methods, and performance measures. The market example is a proposed application; successful recovery in specified simulated scenarios does not establish that a real market follows those rules."
+    },
+    {
+      "file": "13-an-economics-of-possible-worlds.md",
+      "before": "[^c12-10]: Erlic, *Institutions for Comparative Discovery in Scaling Markets*, October 2026 unpublished journal draft, Sections 4–5 and 7–9. Complementary permissions, partial appropriation, verifiable delivery, enforceable commitments and financing are substantive assumptions. Elementary coordination and contracting arguments draw on established economics. No real-firm diagnosis follows from the toy example.",
+      "after": "[^c12-10]: James M. Buchanan and Yong J. Yoon, “Symmetric Tragedies: Commons and Anticommons,” *Journal of Law and Economics* 43(1) (2000): 1–13, pp. 1–6, [published paper](https://faculty.econ.ucsb.edu/~tedb/Courses/UCSBpf/readings/BuchananYoon.pdf). Their complementary-permit example concerns underuse arising from multiple rights to exclude. The council’s complementary-records problem is an analogy, with its own costs, benefits, and delivery requirements."
+    },
+    {
+      "file": "13-an-economics-of-possible-worlds.md",
+      "before": ", read with canonical v5 Section 3 and Appendix B",
+      "after": ""
+    },
+    {
+      "file": "13-an-economics-of-possible-worlds.md",
+      "before": " Original locally saved paper inspected.",
+      "after": ""
+    },
+    {
+      "file": "13-an-economics-of-possible-worlds.md",
+      "before": " This is an added book foundation, outside the original 24 v5 references.",
+      "after": ""
+    },
+    {
+      "file": "14-epilogue.md",
+      "before": "not verification of v5's theorem",
+      "after": "not a test of the lifetime information limit"
+    }
+  ],
+  "removed_bibliography_entries": [
+    {
+      "id": "Erlic2026CompetitionJournalDraft",
+      "source_keys": [
+        "Erlic2026CompetitionJournalDraft"
+      ],
+      "citation": "Erlic, M. 2026. Competition Policy for Informative Market Access. October journal article draft; unpublished.",
+      "links": [
+        {
+          "label": "Author manuscript",
+          "url": "../../output/docx/research-program/journal/04_Competition_Policy_for_Informative_Market_Access.docx"
+        }
+      ],
+      "known_locations": [
+        "../../output/docx/research-program/journal/04_Competition_Policy_for_Informative_Market_Access.docx"
+      ],
+      "cited_in": [
+        "book/manuscript/11-competition-for-future-evidence.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "Erlic2026InstitutionsJournalDraft",
+      "source_keys": [
+        "Erlic2026InstitutionsJournalDraft"
+      ],
+      "citation": "Erlic, M. 2026. Institutions for Comparative Discovery in Scaling Markets. October journal article draft; unpublished.",
+      "links": [
+        {
+          "label": "Author manuscript",
+          "url": "../../output/docx/research-program/journal/00_Institutions_for_Comparative_Discovery.docx"
+        }
+      ],
+      "known_locations": [
+        "../../output/docx/research-program/journal/00_Institutions_for_Comparative_Discovery.docx"
+      ],
+      "cited_in": [
+        "book/manuscript/13-an-economics-of-possible-worlds.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "Erlic2026MeasurementJournalDraft",
+      "source_keys": [
+        "Erlic2026MeasurementJournalDraft"
+      ],
+      "citation": "Erlic, M. 2026. Measuring Comparison Opportunities in Adaptive Markets: Finite-Horizon Inference and Experimental Design. October journal article draft; unpublished.",
+      "links": [
+        {
+          "label": "Author manuscript",
+          "url": "../../output/docx/research-program/journal/02_Measuring_Comparison_Opportunities_in_Adaptive_Markets.docx"
+        }
+      ],
+      "known_locations": [
+        "../../output/docx/research-program/journal/02_Measuring_Comparison_Opportunities_in_Adaptive_Markets.docx"
+      ],
+      "cited_in": [
+        "book/manuscript/13-an-economics-of-possible-worlds.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "Erlic2026TaxJournalDraft",
+      "source_keys": [
+        "Erlic2026TaxJournalDraft"
+      ],
+      "citation": "Erlic, M. 2026. Taxing Lost Comparison: Decision Information, Private Testing, and Costed Corrective Instruments. October journal article draft; unpublished.",
+      "links": [
+        {
+          "label": "Author manuscript",
+          "url": "../../output/docx/research-program/journal/05_Taxing_the_Social_Cost_of_Lost_Contestability.docx"
+        }
+      ],
+      "known_locations": [
+        "../../output/docx/research-program/journal/05_Taxing_the_Social_Cost_of_Lost_Contestability.docx"
+      ],
+      "cited_in": [
+        "book/manuscript/12-taxing-lost-comparison.md"
+      ],
+      "canonical_v5_reference": false
+    }
+  ],
+  "published_replacements": [
+    {
+      "id": "ColomboFemminisPavan2014",
+      "citation": "Colombo, L., G. Femminis, and A. Pavan. 2014. Information Acquisition and Welfare. Review of Economic Studies 81:1438–1483.",
+      "doi": "https://doi.org/10.1093/restud/rdu015",
+      "url": "https://faculty.wcas.northwestern.edu/apa522/IAW-March-25-2014.pdf",
+      "chapter": "12-taxing-lost-comparison.md",
+      "notes": [
+        "c11-7",
+        "c11-8"
+      ],
+      "locator": "Published pp.1438–1440 (acquisition and social efficiency), pp.1446–1448, especially Corollary 1 (public/private information substitution).",
+      "claims": [
+        "Equilibrium information acquisition can differ from the socially efficient level.",
+        "Public information crowds out private acquisition in the paper’s specified model."
+      ],
+      "boundary": "Not a universal one-for-one result or a tax-implementation theorem. Council examples remain explicitly conditional."
+    },
+    {
+      "id": "BuchananYoon2000",
+      "citation": "Buchanan, J. M., and Y. J. Yoon. 2000. Symmetric Tragedies: Commons and Anticommons. Journal of Law and Economics 43(1):1–13.",
+      "url": "https://faculty.econ.ucsb.edu/~tedb/Courses/UCSBpf/readings/BuchananYoon.pdf",
+      "chapter": "13-an-economics-of-possible-worlds.md",
+      "notes": [
+        "c12-10"
+      ],
+      "locator": "Published pp.1–6, complementary exclusion rights and the two-permit parking illustration.",
+      "claims": [
+        "Multiple exclusion rights can cause underuse; complementary permits may be jointly necessary."
+      ],
+      "boundary": "Complementary records are the book’s analogy, not the paper’s particular model or a demonstrated diagnosis of a market."
+    },
+    {
+      "id": "MorrisWhiteCrowther2019",
+      "citation": "Morris, T. P., I. R. White, and M. J. Crowther. 2019. Using Simulation Studies to Evaluate Statistical Methods. Statistics in Medicine 38(11):2074–2102.",
+      "doi": "https://doi.org/10.1002/sim.8086",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/sim.8086",
+      "chapter": "13-an-economics-of-possible-worlds.md",
+      "notes": [
+        "c12-7"
+      ],
+      "locator": "Full published article, Sections3.1–3.2 and Table1 (ADEMP; aims, data-generating mechanisms and scenario design).",
+      "claims": [
+        "Simulation design must specify aims, mechanisms and performance criteria; findings concern the scenarios simulated."
+      ],
+      "boundary": "No actual market measurement, validation of a false real-world mechanism, or claim that a completed companion simulation supports the book."
+    }
+  ],
+  "verification_boundary": "Claim-specific full-text checks for three new published sources; unchanged source checks reused. No new independent proof certification. Four earlier original theorem-passage verification limits remain in internal research records.",
+  "final_manuscript_sha256": {
+    "00-prologue.md": "06100a47cc2dd08e14f9586f381642b6e549988f3a2f5d83cf2ccb67a9b850bb",
+    "01-introduction.md": "09e0acd7e0545d286d5273d8a826baa836dc44b2d9d50224cf31b83c7d06891c",
+    "02-the-winner-and-the-explanation.md": "03d0e4db18e2e607eb45e508fecc04d9f7caadbcd9d0cbd2c4ceecd050c401c6",
+    "03-the-comparison-budget.md": "49659df4fae443fede86036e31cc91418a84781d7fcf71b79ff2ddccd1af6b4f",
+    "04-shadow-futures.md": "1c15686f587b8b3e70c078a570d995d3e051a91cb2adf0ee602b30ccce15202f",
+    "05-the-histories-that-became-infrastructure.md": "51c48549376f6f27dce41f5a4e30f44c69c1c91484ad1b94d35f7b7bfd425bcb",
+    "06-who-gets-to-be-tested.md": "bc5b787941c82951978c28c1e0af85c6f45cfc85fa44a13e4d07fec10b7b20aa",
+    "07-who-deserves-the-winnings.md": "887acd69c019f7446fea33ea11013cb7c35d938f83d3a51a80839cefbf9a4cf2",
+    "08-the-intelligence-factory.md": "97fc5aee194862857557631697e7658e6fa0b51f8e0423bb43e38a0570db283f",
+    "09-a-billion-answers.md": "bd99dbd3de6d94264468fc074e33128c6b62cbee9a2685da7842508cca05c289",
+    "10-the-first-rung.md": "d1dc5535ed67a8862cef75662d61d2dd87d9273bbeacb834ff50fd1108a93ef9",
+    "11-competition-for-future-evidence.md": "7df917446ed29d3e3b700f5c3c4c55305b89a717c2097f0020e690f4f52045d6",
+    "12-taxing-lost-comparison.md": "49cc0a7d2eecdd8809c5df551227c6d5e2f0e26c7bff04cb649bbd5c9d492cec",
+    "13-an-economics-of-possible-worlds.md": "eeb06e473aec4aec72cc5957a6e71ead183021f142ed04d56d8431c2c845888b",
+    "14-epilogue.md": "4bd4eca2ab671347827292c99ce01e8b00ecb2f5fc68ebdfae5b2a3d17baf0e1",
+    "91-acknowledgments.md": "9278ab6a11d194d0965897a0bb566144fe18036bec36c48244f43feff005a263"
+  },
+  "bibliographic_correction": "Line Chloé Le Goff’s full name checked against original publisher paper and arXiv record. Buchanan/Yoon pagination follows printed1–13 in the full published scan; publisher landing page counts a trailing page as14.",
+  "reader_workflow_cleanup": [
+    {
+      "file": "00-prologue.md",
+      "before": "Historical detail and the contrast with continued customer foreclosure were checked against the authors' full June 9, 2017 working paper,",
+      "after": "For historical detail and the contrast with continued customer foreclosure, see the authors’ June 9, 2017 working paper,"
+    },
+    {
+      "file": "00-prologue.md",
+      "before": "The corresponding November 2024 full working paper was also checked,",
+      "after": "See also the corresponding November 2024 working paper,"
+    },
+    {
+      "file": "01-introduction.md",
+      "before": "Full passages checked in the authors' May 2014 NBER working paper 20171,",
+      "after": "See the authors’ May 2014 NBER working paper 20171,"
+    },
+    {
+      "file": "01-introduction.md",
+      "before": "Historical and foreclosure passages checked in the full June 2017 author working paper,",
+      "after": "For the historical and foreclosure analysis, see the June 2017 author working paper,"
+    },
+    {
+      "file": "02-the-winner-and-the-explanation.md",
+      "before": "Relevant passages checked in the May 2014 NBER working paper,",
+      "after": "See the May 2014 NBER working paper,"
+    },
+    {
+      "file": "02-the-winner-and-the-explanation.md",
+      "before": "Historical passages and foreclosure interpretation checked in the June 2017 author working paper,",
+      "after": "For the historical and foreclosure analysis, see the June 2017 author working paper,"
+    },
+    {
+      "file": "03-the-comparison-budget.md",
+      "before": "Full passages checked in arXiv version 2 (2012),",
+      "after": "See arXiv version 2 (2012),"
+    },
+    {
+      "file": "03-the-comparison-budget.md",
+      "before": "relevant full passages checked in arXiv version 3,",
+      "after": "see arXiv version 3,"
+    },
+    {
+      "file": "04-shadow-futures.md",
+      "before": "Checked in [author preprint, version 2]",
+      "after": "See [author preprint, version 2]"
+    },
+    {
+      "file": "04-shadow-futures.md",
+      "before": " Its rendered cover date differs from the posting date.",
+      "after": ""
+    },
+    {
+      "file": "05-the-histories-that-became-infrastructure.md",
+      "before": "Relevant full passages checked in the [June 9, 2017 author paper]",
+      "after": "See the [June 9, 2017 author paper]"
+    },
+    {
+      "file": "05-the-histories-that-became-infrastructure.md",
+      "before": ", visually inspected.",
+      "after": "."
+    },
+    {
+      "file": "07-who-deserves-the-winnings.md",
+      "before": "Relevant full text checked in the [December 2015 author version]",
+      "after": "See the [December 2015 author version]"
+    },
+    {
+      "file": "10-the-first-rung.md",
+      "before": "Full account checked for selection, withheld tasks, study pay falling",
+      "after": "The account describes selection, withheld tasks, study pay falling"
+    },
+    {
+      "file": "11-competition-for-future-evidence.md",
+      "before": "Relevant indexed official clauses checked; no automatic AI duty or implementation-success claim.",
+      "after": "These clauses do not establish an automatic AI duty or demonstrate implementation success."
+    },
+    {
+      "file": "12-taxing-lost-comparison.md",
+      "before": " These relevant original PDF passages were directly readable through the browser research tool on recheck; an earlier terminal download failed and no local copy is claimed.",
+      "after": ""
+    },
+    {
+      "file": "13-an-economics-of-possible-worlds.md",
+      "before": " Relevant full indexed primary passages were checked after direct PMC challenges; no local full-text copy is claimed.",
+      "after": ""
+    },
+    {
+      "file": "13-an-economics-of-possible-worlds.md",
+      "before": " Relevant scanned pages were rendered and read directly; the PDF has no extractable text.",
+      "after": ""
+    },
+    {
+      "file": "13-an-economics-of-possible-worlds.md",
+      "before": "Corresponding finite-setting theorem and proof also checked in de Oliveira’s",
+      "after": "For the corresponding finite-setting theorem and proof, see de Oliveira’s"
+    },
+    {
+      "file": "14-epilogue.md",
+      "before": " See Chapter 12's source record.",
+      "after": ""
+    },
+    {
+      "file": "10-the-first-rung.md",
+      "change": "Removed retrieval-failure commentary and recast a classroom-randomization instruction as a factual qualification."
+    }
+  ],
+  "final_scope_scan": {
+    "chapter_files": 15,
+    "single_intro_self_citation": true,
+    "removed_notes": [
+      "prologue-4",
+      "c4-13",
+      "c5-4",
+      "c6-9",
+      "c7-9",
+      "c8-9",
+      "c9-8",
+      "c12-6"
+    ],
+    "unsupported_exact_crowdout_claim": "Replaced by a conditional canceled-test-order example.",
+    "source_access_history": "Previous source files and incomplete theorem-passage flags retained internally; not reported as newly verified."
+  },
+  "publication_checks": {
+    "main_words": 79623,
+    "back_matter_words": 13846,
+    "notes": 191,
+    "references": 133,
+    "retained_original_published_predecessors": 24,
+    "reading_pages": 317,
+    "paperback_pages": 316,
+    "prohibited_reader_references": 0,
+    "ssrn_links_per_pdf": 2,
+    "epubcheck": "0 errors, 0 warnings",
+    "pdf_integrity": {
+      "status": "passed",
+      "pages": 317,
+      "source_paragraphs_present_in_full": 1622,
+      "internal_links": 512,
+      "external_links": 425,
+      "fonts_embedded": true,
+      "pdf_sha256": "1d473526f585f0088714c56b02cb21f30a87644aa3bb6bc19a416b6963910f19",
+      "boundary": "Text/geometry/link integrity, not source truth or print approval."
+    },
+    "visual_review": "All ten changed/adjacent-page previews inspected in two contact sheets; no clipping, overlaps, or broken notes visible.",
+    "pdf_sha256": "1d473526f585f0088714c56b02cb21f30a87644aa3bb6bc19a416b6963910f19"
+  }
+}

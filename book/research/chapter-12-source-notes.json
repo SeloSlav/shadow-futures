@@ -106,21 +106,6 @@
       "v5_reference": false
     },
     {
-      "key": "Erlic2026MeasurementJournalDraft",
-      "note": "c12-7",
-      "source": "output/docx/research-program/journal/02_Measuring_Comparison_Opportunities_in_Adaptive_Markets.docx",
-      "sha256": "4c36f8a03b827541955879cc71fd35c854bb3f4e11a11a8da215501f5de24f9a",
-      "locator": "Abstract; Section2 positioning; Section10 paragraphs105–108 observation model, predictive validation, uncertainty and intervention scope",
-      "full_text_checked": true,
-      "claims": [
-        "Synthetic study and explicit feedback-mechanism uncertainty; computational calibration not protection from misspecified market mechanism",
-        "Future finite-horizon reporting and auditable observation process"
-      ],
-      "version_boundary": "CurrentOctober2026 expanded unpublished journal version, distinct from earlier short draft.",
-      "boundary": "No actual market measured, finite-record proof of lifetime condition, simulation effect size or universal method validity asserted. Other future research projects explicitly proposals.",
-      "v5_reference": false
-    },
-    {
       "key": "KasySautmann2021",
       "note": "c12-9",
       "source": "https://maxkasy.github.io/home/files/papers/adaptiveexperimentspolicy.pdf",
@@ -146,22 +131,6 @@
       "boundary": "Corrected original claim not repeated.",
       "v5_reference": false,
       "local_cache": ".tmp/book-research/kasy-sautmann-correction.pdf"
-    },
-    {
-      "key": "Erlic2026InstitutionsJournalDraft",
-      "note": "c12-10",
-      "source": "output/docx/research-program/journal/00_Institutions_for_Comparative_Discovery.docx",
-      "sha256": "00379a7f5bba84a76a09f48d95c49e94a5c1b103f093a398f889d3d5d8b6daa7",
-      "locator": "Sections4–5, complementary permissions/committed contracting, paragraphs29–43; Sections7–9 paragraphs65–85",
-      "full_text_checked": true,
-      "claims": [
-        "Complementary records, private costs and partial appropriation can prevent worthwhile evidence",
-        "Conditional committed contracting, verifiable provision and financing may assemble access",
-        "Bounded prospectiveAIservice design and cumulative evidence requirements"
-      ],
-      "version_boundary": "Current expandedOctober2026 unpublished journal version per archiveREADME.",
-      "boundary": "Elementary conditional model, not new general coordination theorem, actual-firm diagnosis or observed pilot. Productive scale, security/privacy/implementation and funding retained.",
-      "v5_reference": false
     },
     {
       "key": "BlackwellDubins1962",
@@ -260,6 +229,34 @@
       ],
       "boundary": "Historical theoretical argument, not present medical advice, current institutional-effect estimate, guaranteed actual physician behavior or comparison-budget application. Added foundation outside canonical24.",
       "v5_reference": false
+    },
+    {
+      "key": "BuchananYoon2000",
+      "notes": [
+        "c12-10"
+      ],
+      "source": "https://faculty.econ.ucsb.edu/~tedb/Courses/UCSBpf/readings/BuchananYoon.pdf",
+      "locator": "Published pp.1–6, complementary exclusion rights and the two-permit parking illustration.",
+      "full_text_checked": true,
+      "claims": [
+        "Multiple exclusion rights can cause underuse; complementary permits may be jointly necessary."
+      ],
+      "boundary": "Complementary records are the book’s analogy, not the paper’s particular model or a demonstrated diagnosis of a market.",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "key": "MorrisWhiteCrowther2019",
+      "notes": [
+        "c12-7"
+      ],
+      "source": "https://onlinelibrary.wiley.com/doi/10.1002/sim.8086",
+      "locator": "Full published article, Sections3.1–3.2 and Table1 (ADEMP; aims, data-generating mechanisms and scenario design).",
+      "full_text_checked": true,
+      "claims": [
+        "Simulation design must specify aims, mechanisms and performance criteria; findings concern the scenarios simulated."
+      ],
+      "boundary": "No actual market measurement, validation of a false real-world mechanism, or claim that a completed companion simulation supports the book.",
+      "checked_on": "2026-10-17"
     }
   ],
   "illustrations": [
@@ -340,5 +337,44 @@
       "Chapter3 note c3-6 now discloses incomplete original theorem-passage checks to the reader; all four flags remain open and all canonical citations/roles are preserved."
     ],
     "boundary": "Four original technical-passage checks remain open; no independent proof or priority certification."
+  },
+  "superseded_sources": [
+    {
+      "key": "Erlic2026MeasurementJournalDraft",
+      "note": "c12-7",
+      "source": "output/docx/research-program/journal/02_Measuring_Comparison_Opportunities_in_Adaptive_Markets.docx",
+      "sha256": "4c36f8a03b827541955879cc71fd35c854bb3f4e11a11a8da215501f5de24f9a",
+      "locator": "Abstract; Section2 positioning; Section10 paragraphs105–108 observation model, predictive validation, uncertainty and intervention scope",
+      "full_text_checked": true,
+      "claims": [
+        "Synthetic study and explicit feedback-mechanism uncertainty; computational calibration not protection from misspecified market mechanism",
+        "Future finite-horizon reporting and auditable observation process"
+      ],
+      "version_boundary": "CurrentOctober2026 expanded unpublished journal version, distinct from earlier short draft.",
+      "boundary": "No actual market measured, finite-record proof of lifetime condition, simulation effect size or universal method validity asserted. Other future research projects explicitly proposals.",
+      "v5_reference": false
+    },
+    {
+      "key": "Erlic2026InstitutionsJournalDraft",
+      "note": "c12-10",
+      "source": "output/docx/research-program/journal/00_Institutions_for_Comparative_Discovery.docx",
+      "sha256": "00379a7f5bba84a76a09f48d95c49e94a5c1b103f093a398f889d3d5d8b6daa7",
+      "locator": "Sections4–5, complementary permissions/committed contracting, paragraphs29–43; Sections7–9 paragraphs65–85",
+      "full_text_checked": true,
+      "claims": [
+        "Complementary records, private costs and partial appropriation can prevent worthwhile evidence",
+        "Conditional committed contracting, verifiable provision and financing may assemble access",
+        "Bounded prospectiveAIservice design and cumulative evidence requirements"
+      ],
+      "version_boundary": "Current expandedOctober2026 unpublished journal version per archiveREADME.",
+      "boundary": "Elementary conditional model, not new general coordination theorem, actual-firm diagnosis or observed pilot. Productive scale, security/privacy/implementation and funding retained.",
+      "v5_reference": false
+    }
+  ],
+  "citation_cleanup": {
+    "checked_on": "2026-10-17",
+    "status": "Companion citations removed from reader; historical source checks preserved only in superseded_sources.",
+    "boundary": "No companion proposition is attributed to a replacement author. Unsupported formal policy results rewritten as conditional examples. Original-source proof-review limits recorded elsewhere remain unchanged.",
+    "manuscript_sha256": "eeb06e473aec4aec72cc5957a6e71ead183021f142ed04d56d8431c2c845888b"
   }
 }

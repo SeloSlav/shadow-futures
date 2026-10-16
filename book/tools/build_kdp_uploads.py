@@ -13,6 +13,7 @@ import posixpath
 import re
 import shutil
 import uuid
+from build_reading_manuscript import validate_reader_citations
 
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / 'output/kdp'
@@ -67,7 +68,7 @@ def inline(text, note_map=None, prefix='', references=None):
         if url.startswith(('https://', 'http://')):
             value = f'<a href="{html.escape(url, quote=True)}">{html.escape(label)}</a>'
         else:
-            # Unpublished repository manuscripts have no public download target.
+            # Local links have no public download target.
             value = html.escape(label)
         parts.append(stash(value))
         cursor = end
@@ -153,6 +154,7 @@ def verify_epub(path, plan):
                     internal_links += 1
         # Each source paragraph must survive conversion, including its endnotes.
         text = ' '.join(' '.join(tree.itertext()) for name, tree in trees.items() if name.endswith('.xhtml'))
+        validate_reader_citations(text)
         normalize = lambda value: re.sub('[^a-z]', '', value.lower())
         plain = normalize(text)
         checked = 0
