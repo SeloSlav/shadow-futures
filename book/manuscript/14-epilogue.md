@@ -6,11 +6,11 @@ The next contract goes to Aster.
 
 Our fictional council has completed its paired evaluation. For the purposes of this ending, suppose both suppliers meet the minimum requirements. Aster's recommendations on routine maintenance requests require less checking. Its existing integration also makes continuing ordinary service cheaper than switching the whole operation. Those are reasons to renew, and the council renews.[^e-1]
 
-Birch does not receive a compensating victory for having spent the book outside the favored position. Its staff have done work, its service has been tested, and the buyer has a responsibility to use the result. An experiment that protects an entrant from an unfavorable comparison would defeat the reason for arranging it.
+Birch has no automatic claim to a contract. Its staff have done work, its service has been tested, and the buyer has a responsibility to use the result. An experiment that protects an entrant from an unfavorable comparison would defeat the reason for arranging it.
 
 But the final document contains another decision. On a prespecified class of incomplete requests, suppose Birch's recommendations revealed useful issues the incumbent sometimes missed. The evidence is promising but limited. The paired exercise does not establish how the service would perform when council staff actually use it. The buyer authorizes a smaller live trial for that class of work.
 
-Give this fictional next stage six weeks, 120 eligible requests, and an additional £12,000 cash limit, with the noncash burdens assessed separately. These are stipulated choices. Their adequacy would have to be justified before a real trial. Existing human checks continue. The trial records mistakes, checking time, staff use, and the costs of operating the alternative route.
+Imagine a six-week next stage with 120 eligible requests and an additional cash limit of £12,000. Before committing, the council would check that the trial could answer its question and assess staff time and other noncash costs. Human checks continue, and the record includes mistakes, checking time, staff use, and the cost of operating the alternative route.
 
 There is a review date, and the independent evaluator must explain what justifies continuing or stopping. Birch receives no permanent promise. If the operational benefit survives its costs and the relevant uncertainties, the buyer can expand the arrangement. If it does not, the trial ends. The decision is to buy a useful opportunity to find out, under conditions that make the answer consequential.
 

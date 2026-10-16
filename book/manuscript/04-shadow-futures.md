@@ -146,7 +146,7 @@ Imagine a forecasting competition that rewards only predictions of the next supp
 
 The distinction between prediction and parameter recovery has another established home: spatial statistics. Hao Zhang's 2004 paper studied models in which observations become more densely packed within a fixed region. Under the conditions he analyzed, not all the relevant covariance parameters could be consistently recovered, even with increasing observation density. Nevertheless, certain predictive conclusions could converge and a particular combined quantity could be estimated.[^c3-8]
 
-Imagine, as an illustration, a field whose soil measurements are used to predict values between sampling points. Two accounts of how variation is spread across the field can produce increasingly similar interpolations without every setting in those accounts becoming separately known. This is a picture of Zhang's statistical distinction, not a description of a field experiment he conducted or a new result about crop yields.
+Imagine measuring soil across a field and using the readings to predict conditions between sampling points. Two models might increasingly agree about those predictions while leaving some of their settings uncertain. The forecasts could become useful before every detail of the underlying variation was known.
 
 The sampling arrangement matters. Filling the gaps inside one fixed region is a different way of collecting more data from expanding the region. Zhang explicitly distinguished those settings. Likewise, continuing Aster's established contract history differs from creating additional informative beginnings. More observations need to be described by how they are generated, not simply counted and declared sufficient.
 
@@ -182,7 +182,7 @@ Aster could emerge from a well-designed Birch trial with stronger support. Its e
 
 This also clarifies how a contribution estimate differs from a verdict about fairness. Suppose an extra month of engineering raises Birch's expected contract income over two years. That tells us something about a specified input effect. It does not tell us whether the engineers, shareholders, buyer, or taxpayers should receive every associated gain. Contracts, risk, incentives, and moral claims enter that further argument. Statistical attribution cannot settle them by choosing the word “contribution.”
 
-Conversely, a buyer might owe Aster payment under a valid contract even when nobody can recover the exact contribution of each input to Aster's total success. Uncertainty about causal division does not automatically dissolve ordinary obligations. Later chapters will examine rewards and taxation. The first step is to avoid giving a statistical result a moral conclusion it has not earned.
+Aster may be owed payment under a valid contract even when nobody can untangle every contribution to its success. The buyer made a promise. Uncertainty about the history of the company does not, by itself, cancel that promise.
 
 The same restraint matters for competition policy. A route to test Birch can preserve information, but producing that information consumes resources and may impose costs on users. Whether an access requirement is justified depends on the consequential question it could answer, the quality of the proposed test, and feasible alternatives. A missing comparison is a reason to investigate a decision problem, rather than an automatic instruction to subsidize every challenger.
 

@@ -86,7 +86,7 @@ The design matters because a simple before-and-after count would be difficult to
 
 The study's measure also has a scope. Follow-on patents and their connections to earlier patents are evidence about a particular dimension of invention. They do not put a monetary value on every resulting product, measure every improvement that went unpatented, or reveal what every unrealized company would have achieved. We can take the finding seriously without turning a patent measure into a complete account of social welfare.
 
-The contrast across fields makes the result especially useful for this book. Access to knowledge can help when a business also has a feasible route to use it. Where that route remains constrained, a license alone may be insufficient. The Hush-A-Phone dispute supplies a concrete reminder that the telephone network involved rules about use, not simply a collection of ideas behind patents.
+The contrast points to a practical question: can a business actually use the knowledge it is allowed to obtain? A patent license may be worth little if the route to customers remains closed. The Hush-A-Phone dispute makes the telephone network's rules about use tangible.
 
 This does not establish that every obstacle to entry should disappear. A buyer may have sound reasons to require reliability, security, and compatibility. A supplier may fail those requirements even with full access to the underlying knowledge. The valuable distinction is between testing whether an alternative satisfies the requirements and making its failure inevitable through a rule that prevents the test.
 
@@ -184,7 +184,7 @@ There is a matching mistake in treating the component's success as proof that th
 
 The company's report therefore belongs beside the patent study and the attachment cases. Each speaks to a different question. A claim about productive coordination, evidence about follow-on invention, and a judgment about a particular restriction should be allowed to inform one another. They should not be collapsed into a vote on whether the entire institution deserves praise or blame.
 
-For this book, the practical advance is to make the institutional comparison explicit. Preserve the services that cooperation supplies, specify the trial that outside access would make possible, and investigate what happens at the boundary between them. We can then ask whether a proposed change improves a consequential decision at an acceptable cost. A working network deserves an inquiry that takes both its achievements and its unused possibilities seriously.
+The buyer could preserve Aster's integrated service while allowing Birch to test one component. What would the test reveal? Could the component connect reliably? Would the benefit justify the extra work? Those are questions a buyer can investigate without assuming that either integration or separation must always be better.
 
 ### A rule for connecting
 

@@ -200,7 +200,7 @@ The evidence might support an access remedy. If a narrow contractual change pres
 
 An uncertainty range can be more honest than a precise charge. If plausible accounts disagree about whether a condition improves or worsens total decision quality, a single positive information-loss rate is not established. The useful next step might be a small study, a narrower instrument, or a policy chosen under an explicitly stated approach to uncertainty.
 
-The comparison-budget result cannot remove this uncertainty by force. An almost surely finite lifetime budget is not automatically a numerical bound on expected losses. A concentration chart does not establish the theorem's assumptions. A transaction count does not establish informative variation. The fiscal work begins where the statistical result leaves a specified economic question.
+A finite lifetime comparison budget does not tell the tax authority what losses to expect. It still has to estimate which useful tests were prevented, what decisions they could have changed, and what those decisions were worth. Market concentration and transaction counts cannot supply those estimates on their own.
 
 Piketty, Saez, and Stantcheva's separate response margins help keep the broader tax debate organized. An observed income response may involve productive change, avoidance, or bargaining. An observed reduction in private testing may involve waste, efficient substitution, or a harmful withdrawal of evidence. The label alone does not tell us its welfare significance.
 

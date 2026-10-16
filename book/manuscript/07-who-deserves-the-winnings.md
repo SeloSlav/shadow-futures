@@ -146,7 +146,7 @@ It may also change what other firms do. Birch could respond to reduced competiti
 
 The tax papers deserve credit for confronting these distinctions. Economics did not begin thinking about productive and unproductive returns when I introduced the comparison budget. The contribution uncertainty argument targets a stronger confidence: the belief that a realized market record must eventually identify the contribution behind every reward with arbitrary precision.
 
-In the specified finite-budget setting, that confidence can fail even as the observed history grows. The result has conditions, set out in Chapter 3, and does not diagnose Aster from a revenue chart. It tells us that the desired attribution cannot be assumed to arrive merely because we wait for more allocations of the same kind. Existing tax analysis can still proceed under uncertainty.[^c6-9]
+Aster could keep winning contracts without giving the buyer enough new comparisons to untangle the sources of its success. Chapter 3 describes the conditions under which that uncertainty can persist even as the record grows. A revenue chart alone cannot establish that they hold, and tax policy can proceed without settling every part of the company's history.[^c6-9]
 
 The practical implication is to state what information a proposal actually needs. An income-insurance rule might need earnings and eligibility records. A policy encouraging experiments might need evidence about costs and responses. An exact retrospective division of a fortune into contribution and position asks for something more demanding. These projects should not be treated as though they must all pass the same impossible examination.
 

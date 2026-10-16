@@ -58,7 +58,7 @@ Now imagine a different file in which every visitor had been shown the same pred
 
 Yahoo's case also shows why the comparison budget cannot be applied carelessly. The record contains outcomes after exposure, including nonclicks, as well as information about the visitor and article. Those observations can be informative. My allocation-history theorem does not license throwing them away and then announcing that the remaining awards fail to explain everything. An application must specify and count the information that is actually available.
 
-The researcher's replay has another boundary. Its validity depends on the assumptions about encounters and the selection policy. If a recommendation changes future visits, preferences, or the available supply of stories, a longer-run policy question may require a different design. Evaluating a rule on recorded traffic and explaining how an entire market would develop under another history are different undertakings. The useful narrow result should retain its proper size.
+A replay based on yesterday's visits cannot, by itself, tell us how a new recommendation rule would change tomorrow's audience. Readers might return more often; publishers might offer different stories. Studying those changes requires a design or model that accounts for those responses, rather than assuming that the same encounters would keep arriving.
 
 Personalization makes the conditional part of the accounting especially important. Imagine four groups of viewers, each always assigned its own particular image. Across an equally sized population, the images would have equal shares of presentations. Yet within a group, the stipulated selection rule leaves no chance for another image. The aggregate totals would look diverse while the individual selection process supplies none of that particular variation. This is a hypothetical illustration of why context belongs in the description, rather than an assertion about Netflix's actual assignments.
 
@@ -162,7 +162,7 @@ Likewise, known selection probabilities can be useful information, not merely qu
 
 Defining the object and measuring it are therefore separate achievements. The rice-farmer experiment could implement assignment probabilities deliberately; an analyst of an ordinary market cannot assume comparable access to its mechanism. Sometimes only a range of plausible budgets will be justified. That can still organize an investigation, provided the range and its consequences remain visible. Precision written into a definition should never be mistaken for precision supplied by observations.
 
-This is why I resist turning the object into a simple scoreboard for actual companies. A low measured share for a rival does not tell us its chance on the next relevant task. A high transaction count does not reveal the information supplied by accompanying outcomes. A large comparison budget does not prove that the input effect has been identified. The quantity helps organize an investigation whose other premises remain essential.
+The comparison budget cannot be read from a market-share table. A rival's sales tell us what happened, not its chance on the next job. Even a well-measured budget needs evidence about differences in what suppliers do and how well they perform. Frequent trials would tell us little about engineering if they never compared meaningful differences in engineering.
 
 ### A large company that keeps testing
 
@@ -176,7 +176,7 @@ It also illustrates the difference between a proposed improvement and an improve
 
 The public question remains broader. An experiment inside a company can be valuable for its chosen decision while leaving questions about market access or independent suppliers unresolved. We should credit the first accomplishment without pretending it answers the second. A business may preserve many comparisons concerning its own product and few concerning alternative economic arrangements. Each claim must identify the question and the information set to which it refers.
 
-For this book, the lesson is constructive. We can ask whether a missing comparison needs another organization, another experimental route, or a better use of information already being collected. Sometimes organizational separation matters. Sometimes a well-designed internal trial supplies the evidence more cheaply. The comparison budget directs attention to the available opportunities, while the case reminds us to investigate what those opportunities actually test.
+Sometimes the missing comparison calls for another supplier. Sometimes a company can learn more cheaply by changing its own trial or using records it already keeps. The question is which route will reveal something useful about the decision at hand, and what it will cost.
 
 ### The price of keeping a door open
 

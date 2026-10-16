@@ -8,7 +8,7 @@
   "cover": "/book/shadow-futures-cover.png",
   "pages": 319,
   "interior_pages": 318,
-  "pdf_bytes": 4526597,
+  "pdf_bytes": 4525402,
   "notes": 199,
   "contents": [
     {
@@ -109,7 +109,7 @@
     1536
   ],
   "production_note": "KDP-size exports are provided. Generated artwork is natively 1024×1536; 300-dpi raster exports are resampled, not added native detail. Check a print proof; higher-resolution original art is recommended before commercial print upload.",
-  "manuscript_sha256": "eb323bce51a0b035ee960af2035a00ade2593179187597b6be540e0223c38b9d",
+  "manuscript_sha256": "53f89ea863e0ff4a9f79470eba28db48f1a6f0e1a0b5d4b5f849f0dc26bbb36f",
   "inputs": [
     {
       "file": "book/manuscript/00-prologue.md",
@@ -125,31 +125,31 @@
     },
     {
       "file": "book/manuscript/03-the-comparison-budget.md",
-      "sha256": "4f7c84660f119baeb412df20b6b76a056ec8d5ceb405a8927c386caf92e28de2"
+      "sha256": "592cbebc74ee6ad1d09d5e9efd11cfc2b75ea7e897854dc0d1832a7f5e0fd50d"
     },
     {
       "file": "book/manuscript/04-shadow-futures.md",
-      "sha256": "8144ced20089cd595fe9ad49fd4e75d8a44d8abf8cfdee182107d183d49fd19a"
+      "sha256": "472cf5f035b6492dab9c4ff66452399a750b90f3b229adbdd8203adc941c5d45"
     },
     {
       "file": "book/manuscript/05-the-histories-that-became-infrastructure.md",
-      "sha256": "aa929b2f15c24dc6d9715145d48651104e3bdfa2fafba6cac84d4ae9cc5d4b82"
+      "sha256": "34ff95d8432973881e1797e79307eba12ee894704a9e06ddcd03a41520dff271"
     },
     {
       "file": "book/manuscript/06-who-gets-to-be-tested.md",
-      "sha256": "24c199695c61cf871a7355b1a7b6c8fd88fc5c1891900632642f3db716626eb8"
+      "sha256": "f934e160baa5f75334b65382057bcefdd806506516ae5a6eceafa0f543e93d9c"
     },
     {
       "file": "book/manuscript/07-who-deserves-the-winnings.md",
-      "sha256": "1cf24f9e0d2cd13d6da0b563a93a7e9721148c1752b48613f913c7eff16cc252"
+      "sha256": "76b9a4bc021a09fcc52e6fd5c83ae603b4dc2f87e96b4b56a1b46b03e5ab6259"
     },
     {
       "file": "book/manuscript/08-the-intelligence-factory.md",
-      "sha256": "cf877f8411f2f7236129c740a8ceceaa07074899fa7b462594f65535f62127f6"
+      "sha256": "311520e1f9c65e7326f7001da5771a40b83f0cab972637a1f70bf7b45ba12d4c"
     },
     {
       "file": "book/manuscript/09-a-billion-answers.md",
-      "sha256": "c2c44f05a3f11d897234ee2531a05306eda057a050bfb35cec3de791cf58f8cb"
+      "sha256": "60058cb8f82482b52207b782014d7c0eda603019d68f9f440fa15f16c86ba991"
     },
     {
       "file": "book/manuscript/10-the-first-rung.md",
@@ -161,15 +161,15 @@
     },
     {
       "file": "book/manuscript/12-taxing-lost-comparison.md",
-      "sha256": "88d3a46e366d2b7c36265219dbaac9328a86e4765bab2cc464523bab75592d5f"
+      "sha256": "9e5c80a1231ee2c1b510100959c0a658af899227b91ef0931677405d1c297fc1"
     },
     {
       "file": "book/manuscript/13-an-economics-of-possible-worlds.md",
-      "sha256": "83fcd766813efed3c7ac4da0c5b052d0ea1552af61595f9621ce8326f80767d4"
+      "sha256": "68adb632f614270448896c728d32538a90c8bab41c3ac81e7ce83c3a9a199b1a"
     },
     {
       "file": "book/manuscript/14-epilogue.md",
-      "sha256": "edee2732242c88e81d348f5fa73c7e78b2365d8638bc092b7c6602ef8ef5c80a"
+      "sha256": "80714fdbc143c8d72052800a62be27061c8b08aa4a2515fc2a3c80cea52c9979"
     },
     {
       "file": "book/manuscript/90-references.md",
@@ -180,7 +180,7 @@
       "sha256": "9278ab6a11d194d0965897a0bb566144fe18036bec36c48244f43feff005a263"
     }
   ],
-  "pdf_sha256": "a3e11150f598012b937e98c84bb33c1a068ba7ac943e0634896399b035efdd60",
+  "pdf_sha256": "5ccd6a431d06573a03a68091bb7cd2b210906e88353cbabff901008ba5b5609a",
   "kdp_sources": [
     "https://kdp.amazon.com/en_US/help/topic/G201953020",
     "https://kdp.amazon.com/en_US/help/topic/G6GTK3T3NUHKLEFX",

@@ -128,7 +128,7 @@ Imagine a customer choosing between Aster and Birch after each has built a produ
 
 Alternatively, imagine that Birch never gets a trial, while every Aster deployment supplies another reference for buying Aster. The inquiry then concerns the whole process generating access and observations. How much chance remains for another product? What can be learned from the performance data already collected? Are the tasks sufficiently comparable? These are questions to model and measure, not conclusions contained in a market share.
 
-The finite-budget result described earlier has restrictive conditions. It concerns the information supplied by a specified allocation history, under specified candidate explanations and observation rules. The presence of machine learning does not establish those conditions. Nor does a growing stream of generated text establish that every economically important contribution will eventually be identified.[^c7-9]
+Another million generated answers would not necessarily tell the council what Birch's service could do. The result in Chapter 3 concerns a defined record of allocations and the assumptions behind it. To apply it here, we would need to count every useful source of evidence, including checked answers and independent tests.[^c7-9]
 
 Putting the two budgets beside one another helps us ask a constructive question. Can we use some of the computing resource to produce a more informative comparison at tolerable cost? Chinchilla shows the importance of technical experiments. A buyer's pilot might address a different uncertainty about practical performance. Neither requires treating useful scale as a mistake.
 

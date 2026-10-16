@@ -1,6 +1,6 @@
 {
   "date": "2026-10-16",
-  "manuscript_sha256": "eb323bce51a0b035ee960af2035a00ade2593179187597b6be540e0223c38b9d",
+  "manuscript_sha256": "53f89ea863e0ff4a9f79470eba28db48f1a6f0e1a0b5d4b5f849f0dc26bbb36f",
   "epub_integrity": {
     "source_paragraphs_present_in_full": 1632,
     "internal_links_checked": 585,
@@ -20,8 +20,8 @@
   "files": [
     {
       "file": "output/kdp/shadow-futures-kindle.epub",
-      "bytes": 1072969,
-      "sha256": "e32a5195e11f2b38896777414b44fecb2fc68dfbdc56d7545a663767986a8616"
+      "bytes": 1072384,
+      "sha256": "028e06387294f070dd26afa2ee846a20a161a7b02bcd3d5491ccea475b62eac4"
     },
     {
       "file": "output/kdp/shadow-futures-kindle-cover.jpg",
@@ -30,13 +30,13 @@
     },
     {
       "file": "output/kdp/shadow-futures-paperback-interior.pdf",
-      "bytes": 1060342,
-      "sha256": "251aa50ed71ad77bfc2a9ff869d50fe4623cb8cc62c424dc44d14ea1489cbaea"
+      "bytes": 1059147,
+      "sha256": "f5f106e30904a1b72a079efdf4068618fce00be6a1e767fe664689ae4c740a73"
     },
     {
       "file": "output/kdp/shadow-futures-paperback-cover.pdf",
       "bytes": 3548720,
-      "sha256": "3a2fdc8339caa4ce1759b8aa4f533e2059d6ecf22c94a87e3032638d446106f4"
+      "sha256": "55fd2b914865572ffd11fde1de48f06a67bf1ab26cf70ea7dd152cce5938ff49"
     },
     {
       "file": "output/kdp/UPLOAD-INSTRUCTIONS.txt",
@@ -50,8 +50,8 @@
     },
     {
       "file": "output/kdp/shadow-futures-kdp-upload.zip",
-      "bytes": 5451677,
-      "sha256": "96e0621eefe9a4f7900057f28b9cf9899ddf8ba2f71fe9a8eba424ac21c788d2"
+      "bytes": 5450101,
+      "sha256": "7987dd677be9d05604b9ab1307416e9d73274a2e5d8a539d90a14a2fd7d225b7"
     }
   ],
   "boundary": "Upload formats and mechanical checks; KDP Previewer and print proof remain author publication steps.",
@@ -59,6 +59,6 @@
     "version": "5.3.0",
     "errors": 0,
     "warnings": 0,
-    "sha256": "e32a5195e11f2b38896777414b44fecb2fc68dfbdc56d7545a663767986a8616"
+    "sha256": "028e06387294f070dd26afa2ee846a20a161a7b02bcd3d5491ccea475b62eac4"
   }
 }

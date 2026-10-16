@@ -142,7 +142,7 @@ Suppose two analysts watch the buyer's use of Aster. One credits Aster's enginee
 
 The statistical distinction is older than this book. David Blackwell and Lester Dubins showed in 1962 how conditional forecasts can merge under an appropriate relationship between probability laws. Hao Zhang later established a different example in spatial statistics where some underlying parameters cannot be consistently recovered even though important prediction can remain effective. Both deserve credit.[^c8-7][^c8-8]
 
-In my specified allocation setting, a finite lifetime comparison budget can sustain unresolved attribution alongside converging forecasts. The conditions matter, as Chapter 3 explained. The forecasts concern the modeled observed process. They are not a theorem declaring that a language model's sentences become true because people keep using it.[^c8-9]
+Under the conditions in Chapter 3, forecasts of the next award can converge while the effect of work on those awards remains unresolved. Both observers might confidently predict Aster's next contract without knowing what another engineer would change. This is a result about forecasting the modeled allocation process; checking an AI's answers requires evidence about the answers themselves.[^c8-9]
 
 Keep the purchase order in view. A system could predict accurately that the worker will accept Aster's answer. That prediction concerns acceptance. Whether Aster extracted the correct date is another measurable question. Whether an early investment caused the difference between Aster and Birch requires a further causal comparison. These questions should remain distinct even when the software handles them behind one interface.
 

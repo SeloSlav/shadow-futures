@@ -513,7 +513,7 @@ Now imagine a different file in which every visitor had been shown the same pred
 
 Yahoo's case also shows why the comparison budget cannot be applied carelessly. The record contains outcomes after exposure, including nonclicks, as well as information about the visitor and article. Those observations can be informative. My allocation-history theorem does not license throwing them away and then announcing that the remaining awards fail to explain everything. An application must specify and count the information that is actually available.
 
-The researcher's replay has another boundary. Its validity depends on the assumptions about encounters and the selection policy. If a recommendation changes future visits, preferences, or the available supply of stories, a longer-run policy question may require a different design. Evaluating a rule on recorded traffic and explaining how an entire market would develop under another history are different undertakings. The useful narrow result should retain its proper size.
+A replay based on yesterday's visits cannot, by itself, tell us how a new recommendation rule would change tomorrow's audience. Readers might return more often; publishers might offer different stories. Studying those changes requires a design or model that accounts for those responses, rather than assuming that the same encounters would keep arriving.
 
 Personalization makes the conditional part of the accounting especially important. Imagine four groups of viewers, each always assigned its own particular image. Across an equally sized population, the images would have equal shares of presentations. Yet within a group, the stipulated selection rule leaves no chance for another image. The aggregate totals would look diverse while the individual selection process supplies none of that particular variation. This is a hypothetical illustration of why context belongs in the description, rather than an assertion about Netflix's actual assignments.
 
@@ -617,7 +617,7 @@ Likewise, known selection probabilities can be useful information, not merely qu
 
 Defining the object and measuring it are therefore separate achievements. The rice-farmer experiment could implement assignment probabilities deliberately; an analyst of an ordinary market cannot assume comparable access to its mechanism. Sometimes only a range of plausible budgets will be justified. That can still organize an investigation, provided the range and its consequences remain visible. Precision written into a definition should never be mistaken for precision supplied by observations.
 
-This is why I resist turning the object into a simple scoreboard for actual companies. A low measured share for a rival does not tell us its chance on the next relevant task. A high transaction count does not reveal the information supplied by accompanying outcomes. A large comparison budget does not prove that the input effect has been identified. The quantity helps organize an investigation whose other premises remain essential.
+The comparison budget cannot be read from a market-share table. A rival's sales tell us what happened, not its chance on the next job. Even a well-measured budget needs evidence about differences in what suppliers do and how well they perform. Frequent trials would tell us little about engineering if they never compared meaningful differences in engineering.
 
 ### A large company that keeps testing
 
@@ -631,7 +631,7 @@ It also illustrates the difference between a proposed improvement and an improve
 
 The public question remains broader. An experiment inside a company can be valuable for its chosen decision while leaving questions about market access or independent suppliers unresolved. We should credit the first accomplishment without pretending it answers the second. A business may preserve many comparisons concerning its own product and few concerning alternative economic arrangements. Each claim must identify the question and the information set to which it refers.
 
-For this book, the lesson is constructive. We can ask whether a missing comparison needs another organization, another experimental route, or a better use of information already being collected. Sometimes organizational separation matters. Sometimes a well-designed internal trial supplies the evidence more cheaply. The comparison budget directs attention to the available opportunities, while the case reminds us to investigate what those opportunities actually test.
+Sometimes the missing comparison calls for another supplier. Sometimes a company can learn more cheaply by changing its own trial or using records it already keeps. The question is which route will reveal something useful about the decision at hand, and what it will cost.
 
 ### The price of keeping a door open
 
@@ -803,7 +803,7 @@ Imagine a forecasting competition that rewards only predictions of the next supp
 
 The distinction between prediction and parameter recovery has another established home: spatial statistics. Hao Zhang's 2004 paper studied models in which observations become more densely packed within a fixed region. Under the conditions he analyzed, not all the relevant covariance parameters could be consistently recovered, even with increasing observation density. Nevertheless, certain predictive conclusions could converge and a particular combined quantity could be estimated.[^chapter_03-c3-8]
 
-Imagine, as an illustration, a field whose soil measurements are used to predict values between sampling points. Two accounts of how variation is spread across the field can produce increasingly similar interpolations without every setting in those accounts becoming separately known. This is a picture of Zhang's statistical distinction, not a description of a field experiment he conducted or a new result about crop yields.
+Imagine measuring soil across a field and using the readings to predict conditions between sampling points. Two models might increasingly agree about those predictions while leaving some of their settings uncertain. The forecasts could become useful before every detail of the underlying variation was known.
 
 The sampling arrangement matters. Filling the gaps inside one fixed region is a different way of collecting more data from expanding the region. Zhang explicitly distinguished those settings. Likewise, continuing Aster's established contract history differs from creating additional informative beginnings. More observations need to be described by how they are generated, not simply counted and declared sufficient.
 
@@ -839,7 +839,7 @@ Aster could emerge from a well-designed Birch trial with stronger support. Its e
 
 This also clarifies how a contribution estimate differs from a verdict about fairness. Suppose an extra month of engineering raises Birch's expected contract income over two years. That tells us something about a specified input effect. It does not tell us whether the engineers, shareholders, buyer, or taxpayers should receive every associated gain. Contracts, risk, incentives, and moral claims enter that further argument. Statistical attribution cannot settle them by choosing the word “contribution.”
 
-Conversely, a buyer might owe Aster payment under a valid contract even when nobody can recover the exact contribution of each input to Aster's total success. Uncertainty about causal division does not automatically dissolve ordinary obligations. Later chapters will examine rewards and taxation. The first step is to avoid giving a statistical result a moral conclusion it has not earned.
+Aster may be owed payment under a valid contract even when nobody can untangle every contribution to its success. The buyer made a promise. Uncertainty about the history of the company does not, by itself, cancel that promise.
 
 The same restraint matters for competition policy. A route to test Birch can preserve information, but producing that information consumes resources and may impose costs on users. Whether an access requirement is justified depends on the consequential question it could answer, the quality of the proposed test, and feasible alternatives. A missing comparison is a reason to investigate a decision problem, rather than an automatic instruction to subsidize every challenger.
 
@@ -961,7 +961,7 @@ The design matters because a simple before-and-after count would be difficult to
 
 The study's measure also has a scope. Follow-on patents and their connections to earlier patents are evidence about a particular dimension of invention. They do not put a monetary value on every resulting product, measure every improvement that went unpatented, or reveal what every unrealized company would have achieved. We can take the finding seriously without turning a patent measure into a complete account of social welfare.
 
-The contrast across fields makes the result especially useful for this book. Access to knowledge can help when a business also has a feasible route to use it. Where that route remains constrained, a license alone may be insufficient. The Hush-A-Phone dispute supplies a concrete reminder that the telephone network involved rules about use, not simply a collection of ideas behind patents.
+The contrast points to a practical question: can a business actually use the knowledge it is allowed to obtain? A patent license may be worth little if the route to customers remains closed. The Hush-A-Phone dispute makes the telephone network's rules about use tangible.
 
 This does not establish that every obstacle to entry should disappear. A buyer may have sound reasons to require reliability, security, and compatibility. A supplier may fail those requirements even with full access to the underlying knowledge. The valuable distinction is between testing whether an alternative satisfies the requirements and making its failure inevitable through a rule that prevents the test.
 
@@ -1059,7 +1059,7 @@ There is a matching mistake in treating the component's success as proof that th
 
 The company's report therefore belongs beside the patent study and the attachment cases. Each speaks to a different question. A claim about productive coordination, evidence about follow-on invention, and a judgment about a particular restriction should be allowed to inform one another. They should not be collapsed into a vote on whether the entire institution deserves praise or blame.
 
-For this book, the practical advance is to make the institutional comparison explicit. Preserve the services that cooperation supplies, specify the trial that outside access would make possible, and investigate what happens at the boundary between them. We can then ask whether a proposed change improves a consequential decision at an acceptable cost. A working network deserves an inquiry that takes both its achievements and its unused possibilities seriously.
+The buyer could preserve Aster's integrated service while allowing Birch to test one component. What would the test reveal? Could the component connect reliably? Would the benefit justify the extra work? Those are questions a buyer can investigate without assuming that either integration or separation must always be better.
 
 ### A rule for connecting
 
@@ -1119,7 +1119,7 @@ In the Google search case, that apparently ordinary sequence became the subject 
 
 The court did not explain Google's success by dismissing its product. Its August 2024 opinion credited skilled engineers, continuing innovation, and high search quality. It also found that Google had unlawfully maintained monopolies in general search services and general search text advertising through exclusive distribution agreements. Product accomplishment and unlawful exclusion appeared in the same account. Neither made the other disappear.[^chapter_05-c5-1]
 
-For this book, the next question concerns what that distribution produces. A query is an opportunity to serve someone. It can also generate information about what people want and how well the service responds. A distribution arrangement can therefore influence both today's allocation of attention and the evidence available for tomorrow's improvement. The advantage does not have to remain a matter of habit. It can help make the favored service better.
+Distribution also shapes what a search engine gets to learn. A query is an opportunity to serve someone. It can also generate information about what people want and how well the service responds. A distribution arrangement can therefore influence both today's allocation of attention and the evidence available for tomorrow's improvement. The advantage does not have to remain a matter of habit. It can help make the favored service better.
 
 That possibility should make the question more interesting, not easier. If an engine learns through use, a rival may need use to develop. Yet a user can reasonably prefer the engine that has already developed. The established provider's present quality and the rival's difficulty acquiring experience can reinforce each other. We cannot resolve that sequence by announcing that quality matters, or that exposure matters, and refusing to consider the other.
 
@@ -1295,9 +1295,9 @@ They also create a route for revising an intervention that disappoints. A choice
 
 The subsequent Google record brings implementation back into view. In their September 17, 2026 status report, the plaintiffs described the work of the technical committee, the development of processes, and efforts to implement the final judgment. The report discussed template licenses, requests for information, and exchanges over proposed terms. An obligation to provide access had become a sequence of organizational and technical tasks.[^chapter_05-c5-14]
 
-This was a report by the plaintiffs, not a judicial certification that every obligation had been fulfilled. Its usefulness for our story is more modest and more concrete. It shows the work involved in turning a general access requirement into a relationship another organization can use. Eligibility, documentation, privacy safeguards, permitted uses, and disagreements over terms all affect the opportunity that eventually reaches the recipient.
+This was the plaintiffs' account, rather than a court finding that every obligation had been fulfilled. It describes the practical route to access: who qualifies, which records can be used, how privacy is protected, what documentation is supplied, and which terms remain disputed. A rival's opportunity depends on how those details are settled.
 
-The report also identified future dates for proposed templates and responses. Those dates described a schedule. They did not establish that each later action occurred or that useful data had already changed hands. This book's account of those proceedings is tied to the dated records cited in the notes. A remedy's announcement, its implementation, and evidence of its effects are separate stages.
+A deadline in a status report is a plan, not a completed exchange. The proposed dates for templates and responses did not show that every later step had occurred or that a rival had received useful data. To judge the remedy, we would need to follow those steps through to their effects.
 
 The legal dispute continued beyond the district court's decision. Google publicly announced an appeal in January 2026 and argued that the ruling discounted user preference, product quality, and competition. It also objected to the data and syndication requirements. In July, the plaintiffs' appellate brief defended relief and challenged the rejection of a payment ban. These were opposing parties' arguments, rather than an appellate resolution.[^chapter_05-c5-15]
 
@@ -1483,7 +1483,7 @@ It may also change what other firms do. Birch could respond to reduced competiti
 
 The tax papers deserve credit for confronting these distinctions. Economics did not begin thinking about productive and unproductive returns when I introduced the comparison budget. The contribution uncertainty argument targets a stronger confidence: the belief that a realized market record must eventually identify the contribution behind every reward with arbitrary precision.
 
-In the specified finite-budget setting, that confidence can fail even as the observed history grows. The result has conditions, set out in Chapter 3, and does not diagnose Aster from a revenue chart. It tells us that the desired attribution cannot be assumed to arrive merely because we wait for more allocations of the same kind. Existing tax analysis can still proceed under uncertainty.[^chapter_06-c6-9]
+Aster could keep winning contracts without giving the buyer enough new comparisons to untangle the sources of its success. Chapter 3 describes the conditions under which that uncertainty can persist even as the record grows. A revenue chart alone cannot establish that they hold, and tax policy can proceed without settling every part of the company's history.[^chapter_06-c6-9]
 
 The practical implication is to state what information a proposal actually needs. An income-insurance rule might need earnings and eligibility records. A policy encouraging experiments might need evidence about costs and responses. An exact retrospective division of a fortune into contribution and position asks for something more demanding. These projects should not be treated as though they must all pass the same impossible examination.
 
@@ -1689,7 +1689,7 @@ Imagine a customer choosing between Aster and Birch after each has built a produ
 
 Alternatively, imagine that Birch never gets a trial, while every Aster deployment supplies another reference for buying Aster. The inquiry then concerns the whole process generating access and observations. How much chance remains for another product? What can be learned from the performance data already collected? Are the tasks sufficiently comparable? These are questions to model and measure, not conclusions contained in a market share.
 
-The finite-budget result described earlier has restrictive conditions. It concerns the information supplied by a specified allocation history, under specified candidate explanations and observation rules. The presence of machine learning does not establish those conditions. Nor does a growing stream of generated text establish that every economically important contribution will eventually be identified.[^chapter_07-c7-9]
+Another million generated answers would not necessarily tell the council what Birch's service could do. The result in Chapter 3 concerns a defined record of allocations and the assumptions behind it. To apply it here, we would need to count every useful source of evidence, including checked answers and independent tests.[^chapter_07-c7-9]
 
 Putting the two budgets beside one another helps us ask a constructive question. Can we use some of the computing resource to produce a more informative comparison at tolerable cost? Chinchilla shows the importance of technical experiments. A buyer's pilot might address a different uncertainty about practical performance. Neither requires treating useful scale as a mistake.
 
@@ -1943,7 +1943,7 @@ Suppose two analysts watch the buyer's use of Aster. One credits Aster's enginee
 
 The statistical distinction is older than this book. David Blackwell and Lester Dubins showed in 1962 how conditional forecasts can merge under an appropriate relationship between probability laws. Hao Zhang later established a different example in spatial statistics where some underlying parameters cannot be consistently recovered even though important prediction can remain effective. Both deserve credit.[^chapter_08-c8-7][^chapter_08-c8-8]
 
-In my specified allocation setting, a finite lifetime comparison budget can sustain unresolved attribution alongside converging forecasts. The conditions matter, as Chapter 3 explained. The forecasts concern the modeled observed process. They are not a theorem declaring that a language model's sentences become true because people keep using it.[^chapter_08-c8-9]
+Under the conditions in Chapter 3, forecasts of the next award can converge while the effect of work on those awards remains unresolved. Both observers might confidently predict Aster's next contract without knowing what another engineer would change. This is a result about forecasting the modeled allocation process; checking an AI's answers requires evidence about the answers themselves.[^chapter_08-c8-9]
 
 Keep the purchase order in view. A system could predict accurately that the worker will accept Aster's answer. That prediction concerns acceptance. Whether Aster extracted the correct date is another measurable question. Whether an early investment caused the difference between Aster and Birch requires a further causal comparison. These questions should remain distinct even when the software handles them behind one interface.
 
@@ -2663,7 +2663,7 @@ The evidence might support an access remedy. If a narrow contractual change pres
 
 An uncertainty range can be more honest than a precise charge. If plausible accounts disagree about whether a condition improves or worsens total decision quality, a single positive information-loss rate is not established. The useful next step might be a small study, a narrower instrument, or a policy chosen under an explicitly stated approach to uncertainty.
 
-The comparison-budget result cannot remove this uncertainty by force. An almost surely finite lifetime budget is not automatically a numerical bound on expected losses. A concentration chart does not establish the theorem's assumptions. A transaction count does not establish informative variation. The fiscal work begins where the statistical result leaves a specified economic question.
+A finite lifetime comparison budget does not tell the tax authority what losses to expect. It still has to estimate which useful tests were prevented, what decisions they could have changed, and what those decisions were worth. Market concentration and transaction counts cannot supply those estimates on their own.
 
 Piketty, Saez, and Stantcheva's separate response margins help keep the broader tax debate organized. An observed income response may involve productive change, avoidance, or bargaining. An observed reduction in private testing may involve waste, efficient substitution, or a harmful withdrawal of evidence. The label alone does not tell us its welfare significance.
 
@@ -2829,7 +2829,7 @@ The same principle applies to the researcher. A study of comparison opportunitie
 
 The country comparison proposes a question about robustness: can an economy discover and adopt workable alternatives after a technological, commercial, or policy failure, at acceptable cost? A large computing fleet alone cannot answer it.
 
-Give the fictional council a failure to recover from. Its leading service misses urgent repairs when residents describe them ambiguously. In one stipulated arrangement, Birch can receive protected examples, check its own approach against independent assessments, and offer a limited replacement. In another, every supplier must use the same defective checklist and needs the incumbent's permission to investigate its weakness. Several brands could then leave the buyer with the same blind spot.
+Suppose the council's leading service misses urgent repairs when residents describe them ambiguously. Under one arrangement, Birch can examine protected examples, check another approach against independent assessments, and propose a limited replacement. Under another, every supplier must use the same faulty checklist and needs the incumbent's permission to question it. Several brands could then share one blind spot.
 
 Track the route from discovering the problem to putting a better arrangement into service: permissions, time, expense, mistaken decisions, and productive capacity lost. Ask whether a dormant supplier's retained records helped, whether existing private tests supplied the answer, and whether a cheaper substitute was available. Then investigate whether public access, an enforceable interface, or transferable records improved recovery. Differences between countries would also require attention to their resources and other institutions; a faster recovery by itself would not identify the cause. Record unsuccessful applications too; successful recipients alone cannot describe the access system.
 
@@ -2857,11 +2857,11 @@ For the council, a tiny advantage on easy requests might not justify migration. 
 
 Finally, the report would state which counterfactual it is evaluating. A shadow replay holds underlying effects, initial conditions, and response rules fixed while allowing the realized history to differ. A new access rule or training policy changes the institution. Estimating the consequences requires assumptions about behavior under that intervention. The two operations should not slide into each other halfway through the argument.
 
-These reporting commitments need not turn every economics book or procurement document into a technical appendix. They can be stated plainly: here is the question, here is the comparison, here is what we observed, here is what remains assumed, and here is the decision the evidence can support. The technical work belongs behind those sentences, available to be checked.
+A useful procurement report can be brief: what question did the buyer ask, which services were compared, what happened, what remains uncertain, and what decision follows? The methods and records should be available for anyone authorized to check them.
 
 ## A research program with room to fail
 
-The next step for the comparison budget is empirical and critical. Its formal definition gives us something to investigate, but it is not yet a ready-made index of economic openness. The underlying chances need justification. Relevant input variation and all informative outcomes need to be recorded. The proposed connection to real institutions must survive those requirements.
+The comparison budget is not a ready-made score for ranking economies. Applying it to Aster and Birch means investigating the buyer's choices: what chance did each supplier have, what influenced that chance, and what did the buyer learn when a contract was fulfilled?
 
 A first useful project could reconstruct a procurement process with known assignment rules and checked outcomes. It would ask how much the allocation record alone reveals, what the additional outcomes contribute, and how conclusions change under plausible feedback mechanisms. An estimate that changes sharply when a reasonable mechanism is altered should be reported as sensitive, rather than polished into false certainty.
 
@@ -2889,11 +2889,11 @@ Rothamsted brings the future back into focus. Its experiments have value because
 
 Markets also leave records. Some emerge from transactions undertaken for immediate profit. Others come from tests, public procurement, independent laboratories, or maintained alternatives. Economics should examine how those arrangements interact, and how current choices change what a later observer will be able to learn.
 
-The comparison budget names one feature of that process under a specified model. Shadow futures describe feasible histories under unchanged underlying conditions and response rules. Contribution uncertainty concerns what the resulting record cannot reliably settle about defined productive input effects. The policy extensions ask what useful decisions and institutions follow when further premises are supplied.
+The comparison budget adds up the modeled chances that an opportunity goes to someone other than the current favorite. Shadow futures follow different histories from the same starting conditions, with the same underlying input effects and response rules. Together, they help us ask what the winner's record can reveal about the work behind it.
 
 Economists have long studied how early advantages compound. The comparison budget connects that process to the evidence it leaves behind. In the model developed here, the chances remaining outside the favorite limit how precisely productive contribution can be measured. Whether a particular market fits that model requires investigation.
 
-The book's practical demand is larger than a statistical result but less grandiose than a plan to replay the entire economy. Treat useful comparison as something institutions can produce, protect, replace, and sometimes waste. Evaluate the cost alongside the production it makes possible or displaces. Let the result change the decision.
+The practical question is whether another comparison would improve a decision enough to justify its cost. A buyer might fund a pilot, open an interface, use an existing test, or decide that no further experiment is worth buying. The result should be allowed to change what happens next.
 
 We began with Lockdown because its two rankings were visible. Salganik, Dodds, and Watts built separate experimental markets in which the same songs could encounter different social histories. Salganik's account identifies the recording that finished first in one world and fortieth in another. The additional chart was an observation, not an economist's imagined consolation prize.[^chapter_12-c12-14]
 
@@ -2917,11 +2917,11 @@ The next contract goes to Aster.
 
 Our fictional council has completed its paired evaluation. For the purposes of this ending, suppose both suppliers meet the minimum requirements. Aster's recommendations on routine maintenance requests require less checking. Its existing integration also makes continuing ordinary service cheaper than switching the whole operation. Those are reasons to renew, and the council renews.[^epilogue-e-1]
 
-Birch does not receive a compensating victory for having spent the book outside the favored position. Its staff have done work, its service has been tested, and the buyer has a responsibility to use the result. An experiment that protects an entrant from an unfavorable comparison would defeat the reason for arranging it.
+Birch has no automatic claim to a contract. Its staff have done work, its service has been tested, and the buyer has a responsibility to use the result. An experiment that protects an entrant from an unfavorable comparison would defeat the reason for arranging it.
 
 But the final document contains another decision. On a prespecified class of incomplete requests, suppose Birch's recommendations revealed useful issues the incumbent sometimes missed. The evidence is promising but limited. The paired exercise does not establish how the service would perform when council staff actually use it. The buyer authorizes a smaller live trial for that class of work.
 
-Give this fictional next stage six weeks, 120 eligible requests, and an additional £12,000 cash limit, with the noncash burdens assessed separately. These are stipulated choices. Their adequacy would have to be justified before a real trial. Existing human checks continue. The trial records mistakes, checking time, staff use, and the costs of operating the alternative route.
+Imagine a six-week next stage with 120 eligible requests and an additional cash limit of £12,000. Before committing, the council would check that the trial could answer its question and assess staff time and other noncash costs. Human checks continue, and the record includes mistakes, checking time, staff use, and the cost of operating the alternative route.
 
 There is a review date, and the independent evaluator must explain what justifies continuing or stopping. Birch receives no permanent promise. If the operational benefit survives its costs and the relevant uncertainties, the buyer can expand the arrangement. If it does not, the trial ends. The decision is to buy a useful opportunity to find out, under conditions that make the answer consequential.
 

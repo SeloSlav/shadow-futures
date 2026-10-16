@@ -144,7 +144,7 @@ The same principle applies to the researcher. A study of comparison opportunitie
 
 The country comparison proposes a question about robustness: can an economy discover and adopt workable alternatives after a technological, commercial, or policy failure, at acceptable cost? A large computing fleet alone cannot answer it.
 
-Give the fictional council a failure to recover from. Its leading service misses urgent repairs when residents describe them ambiguously. In one stipulated arrangement, Birch can receive protected examples, check its own approach against independent assessments, and offer a limited replacement. In another, every supplier must use the same defective checklist and needs the incumbent's permission to investigate its weakness. Several brands could then leave the buyer with the same blind spot.
+Suppose the council's leading service misses urgent repairs when residents describe them ambiguously. Under one arrangement, Birch can examine protected examples, check another approach against independent assessments, and propose a limited replacement. Under another, every supplier must use the same faulty checklist and needs the incumbent's permission to question it. Several brands could then share one blind spot.
 
 Track the route from discovering the problem to putting a better arrangement into service: permissions, time, expense, mistaken decisions, and productive capacity lost. Ask whether a dormant supplier's retained records helped, whether existing private tests supplied the answer, and whether a cheaper substitute was available. Then investigate whether public access, an enforceable interface, or transferable records improved recovery. Differences between countries would also require attention to their resources and other institutions; a faster recovery by itself would not identify the cause. Record unsuccessful applications too; successful recipients alone cannot describe the access system.
 
@@ -172,11 +172,11 @@ For the council, a tiny advantage on easy requests might not justify migration. 
 
 Finally, the report would state which counterfactual it is evaluating. A shadow replay holds underlying effects, initial conditions, and response rules fixed while allowing the realized history to differ. A new access rule or training policy changes the institution. Estimating the consequences requires assumptions about behavior under that intervention. The two operations should not slide into each other halfway through the argument.
 
-These reporting commitments need not turn every economics book or procurement document into a technical appendix. They can be stated plainly: here is the question, here is the comparison, here is what we observed, here is what remains assumed, and here is the decision the evidence can support. The technical work belongs behind those sentences, available to be checked.
+A useful procurement report can be brief: what question did the buyer ask, which services were compared, what happened, what remains uncertain, and what decision follows? The methods and records should be available for anyone authorized to check them.
 
 ## A research program with room to fail
 
-The next step for the comparison budget is empirical and critical. Its formal definition gives us something to investigate, but it is not yet a ready-made index of economic openness. The underlying chances need justification. Relevant input variation and all informative outcomes need to be recorded. The proposed connection to real institutions must survive those requirements.
+The comparison budget is not a ready-made score for ranking economies. Applying it to Aster and Birch means investigating the buyer's choices: what chance did each supplier have, what influenced that chance, and what did the buyer learn when a contract was fulfilled?
 
 A first useful project could reconstruct a procurement process with known assignment rules and checked outcomes. It would ask how much the allocation record alone reveals, what the additional outcomes contribute, and how conclusions change under plausible feedback mechanisms. An estimate that changes sharply when a reasonable mechanism is altered should be reported as sensitive, rather than polished into false certainty.
 
@@ -204,11 +204,11 @@ Rothamsted brings the future back into focus. Its experiments have value because
 
 Markets also leave records. Some emerge from transactions undertaken for immediate profit. Others come from tests, public procurement, independent laboratories, or maintained alternatives. Economics should examine how those arrangements interact, and how current choices change what a later observer will be able to learn.
 
-The comparison budget names one feature of that process under a specified model. Shadow futures describe feasible histories under unchanged underlying conditions and response rules. Contribution uncertainty concerns what the resulting record cannot reliably settle about defined productive input effects. The policy extensions ask what useful decisions and institutions follow when further premises are supplied.
+The comparison budget adds up the modeled chances that an opportunity goes to someone other than the current favorite. Shadow futures follow different histories from the same starting conditions, with the same underlying input effects and response rules. Together, they help us ask what the winner's record can reveal about the work behind it.
 
 Economists have long studied how early advantages compound. The comparison budget connects that process to the evidence it leaves behind. In the model developed here, the chances remaining outside the favorite limit how precisely productive contribution can be measured. Whether a particular market fits that model requires investigation.
 
-The book's practical demand is larger than a statistical result but less grandiose than a plan to replay the entire economy. Treat useful comparison as something institutions can produce, protect, replace, and sometimes waste. Evaluate the cost alongside the production it makes possible or displaces. Let the result change the decision.
+The practical question is whether another comparison would improve a decision enough to justify its cost. A buyer might fund a pilot, open an interface, use an existing test, or decide that no further experiment is worth buying. The result should be allowed to change what happens next.
 
 We began with Lockdown because its two rankings were visible. Salganik, Dodds, and Watts built separate experimental markets in which the same songs could encounter different social histories. Salganik's account identifies the recording that finished first in one world and fortieth in another. The additional chart was an observation, not an economist's imagined consolation prize.[^c12-14]
 
