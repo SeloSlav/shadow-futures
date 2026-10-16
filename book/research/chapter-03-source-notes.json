@@ -2,10 +2,10 @@
   "manuscript": "book/manuscript/04-shadow-futures.md",
   "title": "Shadow futures",
   "checked_on": "2026-10-16",
-  "status": "drafted",
+  "status": "editorial_reviewed_sources_pending",
   "target_main_words": 6000,
-  "body_words": 6000,
-  "draft_sha256": "3e555f6c0448543e9a38f4755c93788c87b8dee5d424cf0620e30623bef0446e",
+  "body_words": 6009,
+  "draft_sha256": "fd1a70872151527d7ed926982509b3fa1c2dbee6427b554758f37f520685dde9",
   "source_checks": "Substantive main-text source passages and v5 conditions checked. Four technical-lineage entries have explicit partial/original-access boundaries and remain on final source audit queue. No independent proof or established priority certification.",
   "sources": [
     {
@@ -17,7 +17,8 @@
         "Shadow-future definition; replay versus intervention; conditions and universal-consistency limit; predictive merging application; independent informative copies"
       ],
       "boundary": "Author preprint, not independent proof certification. Extra outcomes belong in the observation model; fixed-parameter equivalence differs from equivalent prior mixtures; hidden-position exact observational equivalence is separate.",
-      "v5_reference": false
+      "v5_reference": false,
+      "sequential_recheck": "Canonical v5 PDF pp. 5-8, Proposition 1, Theorem 1, Corollary 1 and strong-reinforcement paragraph re-read; Appendix B/C prose checked against the equation-free chapter. This verifies correspondence to the author manuscript, not independent proof certification."
     },
     {
       "key": "SalganikDoddsWatts2006",
@@ -58,12 +59,15 @@
       "source": "https://doi.org/10.1515/ijb-2016-0029",
       "full_text_checked": "https://arxiv.org/pdf/1405.2322",
       "version_boundary": "arXiv version 2 posted October 4, 2016; rendered cover dated January 29, 2018; published 2017 record used for bibliography.",
-      "locator": "Sections 3.2-3.3, preprint pp. 14-15; Section 4.1, pp. 19-20",
+      "locator": "Sections 3.2-3.3, preprint pp. 14-15; Sections 4.1-4.2, pp. 19-20.",
       "claims": [
-        "Prior single-path estimation analysis; repeated finite trials; one hundred ant choices per trial, fifty trials; blank initial trail and removal after branch choice"
+        "Prior single-path estimation analysis; repeated finite trials; one hundred ant choices per trial, fifty trials; blank initial trail and removal after branch choice",
+        "White PVC fork partly covered by Plexiglas; no food, one ant at a time, removal prevented returning.",
+        "In fewer than ten of fifty 100-choice paths a branch appeared selected; most paths did not have obvious branch selection at that horizon."
       ],
       "boundary": "No inference from ants to economic causal contribution. Does not claim every reinforcement regime prevents every parameter from being estimated.",
-      "v5_reference": true
+      "v5_reference": true,
+      "sequential_recheck": "Full author preprint Section 4.1 and 4.2, pp. 19-20, re-read for apparatus, protocol and observed paths; Sections 3.2-3.3 rechecked for distinction between repeated paths and extending one path."
     },
     {
       "key": "LiChuLangfordSchapire2010",
@@ -94,12 +98,13 @@
       "note": "c3-6",
       "source": "https://doi.org/10.1070/SM1977v033n02ABEH002421",
       "locator": "Math-Net publisher abstract; primary Jacod-Shiryaev Chapter IV bibliographical comments, item on general stochastic-process case",
-      "access_check": "Publisher PDF was indexed, but direct full download failed (SSL); do not claim full original theorem was read.",
+      "access_check": "2026-10-16 recheck: publisher short page and abstract accessible with ordinary browser User-Agent; exact public PDF endpoint identified from download redirect. Full download attempts ended in SSL EOF/read timeout; no PDF copy saved and no original theorem passage inspected.",
       "claims": [
         "Historical credit for general random-sequence extension"
       ],
       "boundary": "Original-paper relevant passage check remains open.",
-      "v5_reference": true
+      "v5_reference": true,
+      "publisher_download_link_identified": "https://www.mathnet.ru/links/dad6cf47eb2c99494b961487a2d7afad/sm3876_eng.pdf"
     },
     {
       "key": "JacodShiryaev2003",
@@ -274,5 +279,54 @@
     "JacodShiryaev2003 specific continuity criterion beyond authored lineage passages",
     "LeCamYang2000 relevant original precision/experiment-comparison passages"
   ],
-  "whole_book_review": "Still required after full draft: conceptual continuity, repetition, source audit and copy edit."
+  "whole_book_review": "Sequential editorial/conceptual pass completed for this chapter; original technical-source queue remains open and final whole-book continuity audit is still required.",
+  "sequential_review": {
+    "checked_on": "2026-10-16",
+    "editorial_status": "completed",
+    "source_status": "four_original_technical_passages_pending",
+    "scope": "Full body and all notes read in sequence after Chapter 2; revised ant passages read in context.",
+    "changes": [
+      "Replaced repeated generic/hypothetical ant discussion with the original physical protocol and observed finite paths.",
+      "Normalized chapter heading to the opening chapters structure."
+    ],
+    "conceptual_checks": [
+      "Replay preserves structural parameter, initial state and predictable response rules; adaptive inputs may differ.",
+      "Interventions changing inputs/policy are separate comparisons.",
+      "Common experiment, local equivalence, bidirectional comparison-dominated separation and finite budget almost surely at every candidate remain explicit.",
+      "Conclusion concerns universal consistency for a nonconstant target, not identical laws, total ignorance or a diagnosis of a named market.",
+      "Predictive merging is classical and can coexist with parameter learning in other settings; fixed laws and prior mixtures distinguished.",
+      "Additional informative outcomes, simulation validation, replication identification/independence and normative/policy premises retained.",
+      "No novelty claim to prior single-path urn estimation failure or prediction without parameter recovery."
+    ],
+    "main_words": 6009,
+    "source_scope": "Prior checked passages retained for unchanged cases. New ant details checked in original full author preprint; canonical v5 correspondence rechecked. Four original technical sources remain pending despite corroborated lineage and accessible Gabriyelyan criterion.",
+    "budget_note": "6009 words; Chapter 2 has 5991. Combined chapter total and 80000-word main budget unchanged."
+  },
+  "source_access_attempts": [
+    {
+      "checked_on": "2026-10-16",
+      "key": "Kakutani1948",
+      "url": "https://www.jstor.org/stable/pdf/1969123.pdf",
+      "result": "Redirected to non-substantive article page; original passages unavailable. Primary-host searches did not produce an accessible original copy."
+    },
+    {
+      "checked_on": "2026-10-16",
+      "key": "KabanovLiptserShiryaev1977",
+      "url": "https://www.mathnet.ru/php/getFT.phtml?jrnid=sm&paperid=3876&what=fullteng&option_lang=eng",
+      "direct_pdf_url": "https://www.mathnet.ru/links/dad6cf47eb2c99494b961487a2d7afad/sm3876_eng.pdf",
+      "result": "Public download redirect recovered; direct PDF request timed out. Redirect-following request ended in SSL EOF. Both processes terminated with errors; no original copy was saved."
+    },
+    {
+      "checked_on": "2026-10-16",
+      "key": "JacodShiryaev2003",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-662-05265-5_4",
+      "result": "Publisher introduction and authored bibliographical comments available; particular criterion remains behind subscription. No full chapter inspection claimed."
+    },
+    {
+      "checked_on": "2026-10-16",
+      "key": "LeCamYang2000",
+      "url": "https://link.springer.com/chapter/10.1007/978-1-4612-1166-2_2",
+      "result": "Publisher preview/metadata and edition confirmed; relevant full chapter passages not obtained. No substitute edition or unverified third-party upload used."
+    }
+  ]
 }

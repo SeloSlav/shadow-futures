@@ -4,7 +4,7 @@
   "objective": "Complete book at prologue standard, including sequential editorial, conceptual, factual and citation review; counts and file existence do not certify completion.",
   "mechanical_checks": {
     "main_words": 80000,
-    "back_matter_words": 13364,
+    "back_matter_words": 13366,
     "main_components": 15,
     "endnotes": 177,
     "bibliography_entries": 108,
@@ -46,16 +46,20 @@
     {
       "id": "chapter_02",
       "file": "book/manuscript/03-the-comparison-budget.md",
-      "sha256": "42fbeaf93758a5bb04f82dd85f621a160e40368c11a3dd16860e13fd21bec543",
-      "sequential_editorial_review": "pending",
-      "conceptual_factual_citation_review": "claim_ledgers_exist_whole_book_recheck_pending"
+      "sha256": "4f7c84660f119baeb412df20b6b76a056ec8d5ceb405a8927c386caf92e28de2",
+      "sequential_editorial_review": "completed",
+      "conceptual_factual_citation_review": "completed_for_recorded_claims_with_explicit_source_boundaries",
+      "checked_on": "2026-10-16",
+      "review_record": "book/research/chapter-02-source-notes.json; sequential_review field"
     },
     {
       "id": "chapter_03",
       "file": "book/manuscript/04-shadow-futures.md",
-      "sha256": "3e555f6c0448543e9a38f4755c93788c87b8dee5d424cf0620e30623bef0446e",
-      "sequential_editorial_review": "pending",
-      "conceptual_factual_citation_review": "claim_ledgers_exist_whole_book_recheck_pending"
+      "sha256": "fd1a70872151527d7ed926982509b3fa1c2dbee6427b554758f37f520685dde9",
+      "sequential_editorial_review": "completed",
+      "conceptual_factual_citation_review": "chapter_claims_reviewed_four_original_technical_passages_pending",
+      "checked_on": "2026-10-16",
+      "review_record": "book/research/chapter-03-source-notes.json; sequential_review field"
     },
     {
       "id": "chapter_04",
@@ -135,7 +139,7 @@
     },
     {
       "key": "KabanovLiptserShiryaev1977",
-      "reason": "Publisher PDF was indexed, but direct full download failed (SSL); do not claim full original theorem was read."
+      "reason": "Exact public English PDF link recovered from publisher download redirect; redirect-following retrieval ended in SSL EOF and direct PDF retrieval in read timeout. No original passage read or local PDF saved; direct link retained in Chapter 3 source ledger."
     },
     {
       "key": "Kakutani1948",
@@ -173,7 +177,7 @@
     ],
     "scope": "Initial argument brief and outline exports only; not the 80000-word book."
   },
-  "completion_audit": "Not passed. Opening sequence reviewed; Chapters 2-12 and epilogue, final whole-book continuity audit and remaining original-source checks are incomplete.",
+  "completion_audit": "Not passed. Sequential editorial review reaches Chapter 3. Chapters 4-12 and epilogue, four original technical passages, original Blackwell and final whole-book continuity/citation audit remain incomplete.",
   "review_sessions": [
     {
       "checked_on": "2026-10-16",
@@ -204,7 +208,32 @@
       },
       "reader_sha256_after_revision": "315824df5aed638b724511d52311c7a5d1f81272ab1acfe6a9c9464fa05db4f2",
       "remaining_scope": "Chapters 2-12 and epilogue still require sequential review, followed by final continuity and source completion audit. Four canonical original technical passages and original Blackwell remain pending."
+    },
+    {
+      "checked_on": "2026-10-16",
+      "scope": [
+        "chapter_02",
+        "chapter_03"
+      ],
+      "method": "Complete body and notes read in order after Chapter 1, then revised passages re-read in context; primary checks targeted new case details and canonical v5 correspondence. Original technical checks remain separate and open.",
+      "findings": [
+        "Chapter 2 replaces generic opening discussion with Netflix changing-image attribution and engagement-quality labels; LinkedIn tie-strength measures and contrasting results are explicit.",
+        "Chapter 3 adds physical ant-fork protocol and actual finite-path variation, with full author-source locators.",
+        "Conditional allocation chance versus wins/shares, persistent versus summable chance, and budget versus identification preserved.",
+        "Canonical v5 PDF pp. 5-8 supports chapter correspondence for the bound, lifetime conditions and predictive-merging conjunction; this is not independent proof certification.",
+        "Shadow replays versus interventions, fixed-parameter laws versus prior mixtures, extra outcomes, simulation validation and informative independent replication remain distinct.",
+        "No original technical-source gap was silently upgraded. Four canonical passages and original Blackwell remain on the queue."
+      ],
+      "budget": {
+        "main_words": 80000,
+        "back_matter_words": 13366,
+        "chapter_02_words": 5991,
+        "chapter_03_words": 6009,
+        "twelve_chapters_total": 72000
+      },
+      "reader_sha256_after_revision": "d7a1fa117273943c383b1a9879da434f2566de6b8f889fd38e6aefb6962e8601",
+      "remaining_scope": "Sequential review of Chapters 4-12 and epilogue; four original Chapter 3 technical checks; original Blackwell; final whole-book continuity/citation audit."
     }
   ],
-  "next_component": "chapter_02"
+  "next_component": "chapter_04"
 }

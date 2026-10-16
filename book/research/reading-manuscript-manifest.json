@@ -1,7 +1,7 @@
 {
   "status": "complete_draft_assembly_review_pending",
   "file": "book/drafts/Shadow_Futures_Complete_Manuscript.md",
-  "sha256": "315824df5aed638b724511d52311c7a5d1f81272ab1acfe6a9c9464fa05db4f2",
+  "sha256": "d7a1fa117273943c383b1a9879da434f2566de6b8f889fd38e6aefb6962e8601",
   "inputs": [
     {
       "file": "book/manuscript/00-prologue.md",
@@ -17,11 +17,11 @@
     },
     {
       "file": "book/manuscript/03-the-comparison-budget.md",
-      "sha256": "42fbeaf93758a5bb04f82dd85f621a160e40368c11a3dd16860e13fd21bec543"
+      "sha256": "4f7c84660f119baeb412df20b6b76a056ec8d5ceb405a8927c386caf92e28de2"
     },
     {
       "file": "book/manuscript/04-shadow-futures.md",
-      "sha256": "3e555f6c0448543e9a38f4755c93788c87b8dee5d424cf0620e30623bef0446e"
+      "sha256": "fd1a70872151527d7ed926982509b3fa1c2dbee6427b554758f37f520685dde9"
     },
     {
       "file": "book/manuscript/05-the-histories-that-became-infrastructure.md",
@@ -74,7 +74,7 @@
   ],
   "bibliography_input_sha256": "61af5509744dd9882aebbd0f6da66089ec562ef2ca936b74eea9c802e569615e",
   "main_words": 80000,
-  "back_matter_words": 13364,
+  "back_matter_words": 13366,
   "reference_entries": 108,
   "endnote_count": 177,
   "notes_namespaced": true,

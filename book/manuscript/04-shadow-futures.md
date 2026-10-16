@@ -1,4 +1,6 @@
-# Chapter 3: Shadow futures
+# Chapter 3
+
+## Shadow futures
 
 ### The first contract, again
 
@@ -46,9 +48,9 @@ Earlier passages could influence later choices through deposited pheromone. The 
 
 The procurement example has the same broad statistical temptation. Aster's long run of contracts seems to promise that enough entries will eventually explain why it wins. Yet every new contract may follow the route made attractive by earlier contracts. A longer record of that route need not offer the same information as watching the process begin again. The ants make the difference between continuation and repetition unusually easy to picture.
 
-Imagine trying to learn about trail sensitivity from a single fork after almost all traffic has settled on one branch. More traffic tells you that the branch remains heavily used. It may do less to distinguish different accounts of how strongly the original trail affected choice. That is an explanation of the statistical question, rather than a claim that an ant experiment establishes anything about software procurement.
+The fork was carved into white PVC and partly covered by Plexiglas. No food was present during the experiment. Only one ant occupied the apparatus at a time, and it could not return after choosing a branch. The researchers designed these restrictions to make their behavioral assumptions more credible: an arriving ant encountered the trail left by predecessors, rather than other ants at the junction. The apparatus helped define what a choice could tell them.[^c3-4]
 
-For Aster, the equivalent question is whether the next award tests the effect of engineering or mostly continues the accumulated advantage of being the established supplier. We can record every line of the proposal and every hour worked. We still need the allocation process to distinguish different possible effects of those inputs. Knowing what was put into a contest is different from learning how the contest converts it into a reward.
+The resulting paths did not all look settled. In fewer than ten of the fifty trials, the researchers described a branch as appearing to have been selected. In the others, selection was not obvious after one hundred passages. The same protocol had produced visibly different histories. Those finite records gave the researchers something that continuing traffic down one established branch could not: repeated observations of how a path developed from its beginning.[^c3-4]
 
 Le Goff and Soulier's work is therefore an antecedent with a substantive role. It rules out a sweeping novelty claim that reinforcement had never been connected to estimation failure. The question I add is whether an economically interpretable quantity, the cumulative chance outside the current favorite, can bound information and connect that limit to attribution. The comparison budget gives the argument its particular object and scope.
 
@@ -218,7 +220,7 @@ At the desk, Birch's first contract remains an unrealized possibility in one his
 
 [^c3-3]: Erik Brynjolfsson, Danielle Li, and Lindsey R. Raymond, “Generative AI at Work,” *Quarterly Journal of Economics* 140 (2025): 889–942, [published article](https://academic.oup.com/qje/article/140/2/889/7990658), abstract and Sections I and IV. This is the published 5,172-agent study, rather than an earlier working-paper sample. The staggered introduction informs workplace productivity in its studied setting; it is not a decomposition of individual desert or a general employment forecast.
 
-[^c3-4]: Line Chloé Le Goff and Philippe Soulier, “Parameter Estimation of a Two-Colored Urn Model Class,” *International Journal of Biostatistics* 13 (2017), article 20160029, [doi:10.1515/ijb-2016-0029](https://doi.org/10.1515/ijb-2016-0029). Checked in [author preprint, version 2](https://arxiv.org/pdf/1405.2322), posted October 4, 2016: Sections 3.2–3.3, pp. 14–15, and Section 4.1, pp. 19–20. Its rendered cover date differs from the posting date. The chapter credits its single-path estimation analysis and repeated-trial design; the ant model is not offered as evidence for economic contribution claims.
+[^c3-4]: Line Chloé Le Goff and Philippe Soulier, “Parameter Estimation of a Two-Colored Urn Model Class,” *International Journal of Biostatistics* 13 (2017), article 20160029, [doi:10.1515/ijb-2016-0029](https://doi.org/10.1515/ijb-2016-0029). Checked in [author preprint, version 2](https://arxiv.org/pdf/1405.2322), posted October 4, 2016: Sections 3.2–3.3, pp. 14–15, and Sections 4.1–4.2, pp. 19–20. Its rendered cover date differs from the posting date. The chapter credits its single-path estimation analysis and repeated-trial design; the ant model is not offered as evidence for economic contribution claims.
 
 [^c3-5]: Lihong Li, Wei Chu, John Langford, and Robert E. Schapire, “A Contextual-Bandit Approach to Personalized News Article Recommendation,” *WWW 2010*, 661–670, [author version 2](https://arxiv.org/pdf/1003.0146), Sections 2.1, 4, and 5.2.1. Randomized logging, recorded click responses, and the assumptions of offline evaluation matter. Its replay method is distinct from observing complete counterfactual economic histories.
 

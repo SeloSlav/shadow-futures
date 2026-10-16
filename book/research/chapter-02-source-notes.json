@@ -2,10 +2,10 @@
   "manuscript": "book/manuscript/03-the-comparison-budget.md",
   "title": "The comparison budget",
   "checked_on": "2026-10-16",
-  "status": "drafted",
+  "status": "reviewed",
   "target_main_words": 6000,
-  "body_words": 6000,
-  "draft_sha256": "42fbeaf93758a5bb04f82dd85f621a160e40368c11a3dd16860e13fd21bec543",
+  "body_words": 5991,
+  "draft_sha256": "4f7c84660f119baeb412df20b6b76a056ec8d5ceb405a8927c386caf92e28de2",
   "source_checks": "Claim-specific full-source passages checked in identified published or author versions. Kasy-Sautmann correction checked; no independent proof or priority certification claimed.",
   "sources": [
     {
@@ -14,10 +14,13 @@
       "source": "https://netflixtechblog.com/artwork-personalization-c589f074ad76",
       "locator": "December 7, 2017; opening Good Will Hunting illustration; Challenges; Contextual bandits approach; Performance evaluation",
       "claims": [
-        "Illustrative artwork variants; controlled exploration; logging; stated cost context"
+        "Illustrative artwork variants; controlled exploration; logging; stated cost context",
+        "Engineers raised changing artwork between visits as a recognizability and attribution challenge.",
+        "Engagement-quality labels used to avoid learning to favor clickbait; member/title/image and response retained together."
       ],
       "boundary": "Company engineering account, dated 2017. Named-movie images illustrate possibilities; no named-image effect size or current deployment claim.",
-      "v5_reference": false
+      "v5_reference": false,
+      "sequential_recheck": "Dated primary engineering account read again, Challenges and Contextual bandits approach, especially the discussion of changes between sessions and controlled image changes/engagement-quality labels. These are attributed design concerns, not reported effect sizes for named pictures."
     },
     {
       "key": "ErlicV5",
@@ -122,12 +125,14 @@
       "note": "c2-8",
       "source": "https://doi.org/10.1126/science.abl4476",
       "full_text_checked": "https://ide.mit.edu/wp-content/uploads/2022/09/abl4476.pdf",
-      "locator": "Printed pp. 1304-1309 design and main results; pp. 1309-1310 definitions and interference",
+      "locator": "Printed pp. 1304-1309 for design/main results; definitions pp. 1305-1306; methods and interference pp. 1309-1310.",
       "claims": [
-        "Randomized PYMK variants; outcome-specific and measure-dependent results; network interference considered"
+        "Randomized PYMK variants; outcome-specific and measure-dependent results; network interference considered",
+        "Tie strength measured using mutual connections and bilateral messaging; moderately weak structural ties and weakest interaction-intensity ties generated most job mobility in the study."
       ],
       "boundary": "No aggregate job count presented as jobs caused. No estimated comparison budget or universal networking advice.",
-      "v5_reference": false
+      "v5_reference": false,
+      "sequential_recheck": "Original full published PDF abstract and printed pp. 1305-1306 (PDF pp. 2-3) checked for measure definitions and timing; context, industry and interference boundaries retained."
     },
     {
       "key": "KohaviEtAl2013",
@@ -164,5 +169,25 @@
     "named_cases_not_presented_as_v5_theorem_tests": true,
     "costs_and_private_experiments_included": true,
     "read_through_completed": true
+  },
+  "sequential_review": {
+    "checked_on": "2026-10-16",
+    "scope": "Read full chapter and all notes after the reviewed opening; re-read revised passages and their surrounding sections.",
+    "changes": [
+      "Replaced two general opening paragraphs with Netflix changing-artwork and engagement-label design concerns.",
+      "Made LinkedIn weak-tie definitions and their different results explicit."
+    ],
+    "conceptual_checks": [
+      "Budget adds conditional chance outside the current allocation favorite, including ties and changing favorite.",
+      "Does not count actual outsider wins, aggregate shares, firms, independent experiments or welfare.",
+      "Persistent small chance and slowly shrinking chance can accumulate; halving example sums to one half.",
+      "Fisher-information bound and stronger lifetime result retain different conditions.",
+      "Infinite budget does not identify without input contrast; informative outcomes and any information used to estimate chances count.",
+      "Strong versus ordinary reinforcement credited; exploration sampling uses field design/objective, with correction boundary retained.",
+      "Internal trials, costs and decision relevance remain substantive, rather than inferring harm from organization count."
+    ],
+    "source_scope": "Unchanged claims retain prior relevant full-source checks; targeted primary rechecks covered the revised Netflix/LinkedIn details and Kasy-Sautmann field implementation.",
+    "main_words": 5991,
+    "budget_note": "5991 words; Chapter 3 has 6009. Combined chapter total and 80000-word main budget unchanged."
   }
 }

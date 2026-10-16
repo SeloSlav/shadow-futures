@@ -33,14 +33,14 @@
       "title": "The comparison budget",
       "file": "book/manuscript/03-the-comparison-budget.md",
       "target": 6000,
-      "stage": "drafted"
+      "stage": "reviewed"
     },
     {
       "id": "chapter_03",
       "title": "Shadow futures",
       "file": "book/manuscript/04-shadow-futures.md",
       "target": 6000,
-      "stage": "drafted"
+      "stage": "editorial_reviewed_sources_pending"
     },
     {
       "id": "chapter_04",
