@@ -5,7 +5,7 @@
   "status": "drafted",
   "target_main_words": 6000,
   "body_words": 6000,
-  "draft_sha256": "1687476861531c3f0825f13ae9d9d442e4e663ec13c2320d56ef79ef76e12906",
+  "draft_sha256": "e89b108dd41d26ee15ede3ec7418902efec76eeef5a1249fc4350ef78b8cc608",
   "source_checks": "Relevant full-source passages checked. Where publisher access failed, the identified author working-paper version or indexed full-source sections were checked; no independent proof or priority certification is claimed.",
   "sources": [
     {
@@ -16,9 +16,12 @@
       "claims": [
         "Two experiments, 14341 participants, 48 songs, zero initial downloads",
         "More social influence increased inequality and cross-world unpredictability",
-        "Appeal as assessed in the independent condition still mattered"
+        "Appeal as assessed in the independent condition still mattered",
+        "Participants selected songs, were asked for one-to-five-star ratings and could then download; downloading was optional.",
+        "Grid song positions randomized for each participant; socially influenced listeners in second experiment saw descending popularity order."
       ],
-      "v5_reference": true
+      "v5_reference": true,
+      "sequential_recheck": "Original article printed p. 854 read for new concrete design details; ratings versus downloads distinction and hypothetical liking-without-downloading interpretation kept separate."
     },
     {
       "key": "SalganikBitByBitOpenReview",
@@ -53,9 +56,11 @@
       "full_text_checked": "https://static1.squarespace.com/static/5e680023bf798b61525c7831/t/5ed0fd6c8c3f6405dc66235d/1590754668534/social-influence-bias.pdf",
       "locator": "Printed pp. 647-649, figure 1; article begins on PDF page 2",
       "claims": [
-        "Random vote intervention; first-viewer relative effect; final mean scores; negative correction; site not popularity-ordered"
+        "Random vote intervention; first-viewer relative effect; final mean scores; negative correction; site not popularity-ordered",
+        "Positive herding detected for politics, culture/society and business, not detected for economics, IT, fun and general news; activity levels did not explain the pattern."
       ],
-      "v5_reference": false
+      "v5_reference": false,
+      "sequential_recheck": "Original full cached paper printed p. 649 (PDF p. 4), topic paragraph and figure 2. Non-detection is not claimed as exactly zero effect."
     },
     {
       "key": "Merton1968",
@@ -74,10 +79,12 @@
       "full_text_checked": "https://www.eui.eu/Documents/DepartmentsCentres/SPS/Profiles/Van-de-Rijt/boletal-2018.pdf",
       "locator": "Printed pp. 4888-4889, figures 1-3; discussion p. 4890",
       "claims": [
-        "Near-threshold comparison; subsequent funding excludes initial grant; participation mechanism"
+        "Near-threshold comparison; subsequent funding excludes initial grant; participation mechanism",
+        "Veni/Vidi programs; nearest-threshold early winners had about 59 percent later application rate versus 40 percent for nonwinners; supplementary analyses distinguished this from leaving academia or the country."
       ],
       "v5_reference": false,
-      "note": "c1-5"
+      "note": "c1-5",
+      "sequential_recheck": "Original full cached paper printed pp. 4888-4889, figure 1 and participation paragraph."
     },
     {
       "key": "WangJonesWang2019",
@@ -98,7 +105,8 @@
       "claims": [
         "Fourteen programs, six funders; differing robustness and selection interpretation; model-based extension beyond threshold sample"
       ],
-      "v5_reference": false
+      "v5_reference": false,
+      "sequential_recheck": "Publisher indexed primary text refreshed on 2026-10-16: reviewed preprint v1 October 13, 2025, not revised. Direct page returned challenge; no direct local full PDF claimed. Scope and robustness statements remain as in earlier checked indexed full sections."
     },
     {
       "key": "Alchian1950",
@@ -125,12 +133,14 @@
       "source": "https://doi.org/10.3982/ECTA12423",
       "full_text_checked": "https://www.nber.org/system/files/working_papers/w20171/w20171.pdf",
       "version_boundary": "Published record checked; relevant full passages read in May 2014 NBER working paper 20171.",
-      "locator": "Printed pp. 1-5, especially p. 3; Section 3 brand-keyword experiments",
+      "locator": "Printed pp. 1-5, especially pp. 3-4; Section 3; Section 4.1, printed p. 11 (PDF p. 13).",
       "claims": [
-        "Brand versus nonbrand effects; route substitution; short-term scope"
+        "Brand versus nonbrand effects; route substitution; short-term scope",
+        "Nonbrand geographic test: sixty days; 68 test areas; random candidate-area selection followed by sales-pattern matching, not pure individual randomization."
       ],
       "v5_reference": false,
-      "note": "c1-9"
+      "note": "c1-9",
+      "sequential_recheck": "Original full cached May 2014 working paper: abstract/introduction p. 4 duration and Section 4.1 full design on p. 11. Corrected provisional simple-randomization description before commit; version boundary preserved."
     },
     {
       "key": "WatzingerEtAl2020",
@@ -180,5 +190,24 @@
     "inversion_is_intervention_not_replay": true,
     "no_actual_comparison_budget_estimated_from_cases": true,
     "read_through_completed": true
+  },
+  "sequential_review": {
+    "checked_on": "2026-10-16",
+    "scope": "Read all 6000 main-text words and all 12 notes after the prologue/introduction; re-read revised passages and their context.",
+    "changes": [
+      "Replaced six repetitive opening paragraphs with listener actions, optional downloads, display design and interpretation tied to those details.",
+      "Added within-site topic variation to voting example.",
+      "Made Dutch grant participation concrete with program names and observed reapplication rates.",
+      "Replaced a repeated hypothetical salesperson lesson with the nonbrand eBay geographic test and expanded methods note.",
+      "Described Akerlof as selection in the visible market without suggesting his model is a formal dynamic model."
+    ],
+    "preserved": [
+      "6000 main-text words",
+      "All four planned v5 predecessors used substantively",
+      "Positive and negative vote asymmetry; diminishing returns; survivor conditioning; replication caveats",
+      "Fictional Aster/Birch; no invented interviews or real private motives",
+      "2008 chart inversion distinguished from unchanged-rule replays",
+      "Case results are not a numerical comparison-budget estimate or theorem test"
+    ]
   }
 }

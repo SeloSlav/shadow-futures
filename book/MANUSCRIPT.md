@@ -8,9 +8,9 @@ Counts below come from the current chapter files. Drafted sections still require
 
 | Component | Target | Written | Stage |
 | --- | ---: | ---: | --- |
-| [The other life of a song](manuscript/00-prologue.md) | 2,500 | 2,500 | drafted |
-| [The evidence success leaves behind](manuscript/01-introduction.md) | 3,500 | 3,500 | drafted |
-| [The winner and the explanation](manuscript/02-the-winner-and-the-explanation.md) | 6,000 | 6,000 | drafted |
+| [The other life of a song](manuscript/00-prologue.md) | 2,500 | 2,500 | reviewed |
+| [The evidence success leaves behind](manuscript/01-introduction.md) | 3,500 | 3,500 | reviewed |
+| [The winner and the explanation](manuscript/02-the-winner-and-the-explanation.md) | 6,000 | 6,000 | reviewed |
 | [The comparison budget](manuscript/03-the-comparison-budget.md) | 6,000 | 6,000 | drafted |
 | [Shadow futures](manuscript/04-shadow-futures.md) | 6,000 | 6,000 | drafted |
 | [The histories that became infrastructure](manuscript/05-the-histories-that-became-infrastructure.md) | 6,000 | 6,000 | drafted |
@@ -24,7 +24,7 @@ Counts below come from the current chapter files. Drafted sections still require
 | [An economics of possible worlds](manuscript/13-an-economics-of-possible-worlds.md) | 6,000 | 6,000 | drafted |
 | [The next opportunity](manuscript/14-epilogue.md) | 2,000 | 2,000 | drafted |
 
-Current back matter: 13,319 words, including chapter notes.
+Current back matter: 13,364 words, including chapter notes.
 
 | Back matter | Written | Stage |
 | --- | ---: | --- |

@@ -5,7 +5,7 @@
   "status": "drafted",
   "target_main_words": 3500,
   "body_words": 3500,
-  "draft_sha256": "c36147d1f92e55f8b1628dd9354faff6ece780195a43b5b00c4a5f7ab9069f4a",
+  "draft_sha256": "bb63a0ae1ef219f388d54ce90658279464dda0e043a5815455270967c34f0749",
   "source_checks": "Relevant full-source passages checked. Where publisher access failed, the identified author working-paper version or indexed full-source sections were checked; no independent proof or priority certification is claimed.",
   "sources": [
     {
@@ -15,10 +15,12 @@
       "version_boundary": "Published record checked; relevant full passages read in May 2014 NBER working paper 20171.",
       "locator": "Printed pp. 1-5, especially p. 3; Section 3 brand-keyword experiments",
       "claims": [
-        "Brand versus nonbrand effects; route substitution; short-term scope"
+        "Brand versus nonbrand effects; route substitution; short-term scope",
+        "Brand test suspended Yahoo/MSN advertising with Google retained as comparison; forgone traffic and attributed sales largely substituted to natural links."
       ],
       "v5_reference": false,
-      "note": "i1"
+      "note": "i1",
+      "sequential_recheck": "May 2014 full NBER working paper printed p. 3 and Section 3; existing short-term/brand versus nonbrand boundary retained."
     },
     {
       "key": "ErlicV5",
@@ -190,5 +192,22 @@
     "two_tax_arguments_separated": true,
     "author_preprint_status_clear": true,
     "read_through_completed": true
+  },
+  "sequential_review": {
+    "checked_on": "2026-10-16",
+    "scope": "Read complete body and notes after prologue and before Chapter 1.",
+    "changes": [
+      "Replaced a repeated general attribution lesson with the actual eBay cross-platform brand-test arrangement.",
+      "Defined the favorite explicitly as the candidate with the greatest conditional allocation chance given history.",
+      "Removed occasionally from the introduction of recurring fictional suppliers."
+    ],
+    "preserved": [
+      "3500 main-text words",
+      "Conditional nature of lifetime claim; persistent/shrinking chances can accumulate",
+      "Additional informative outcomes count",
+      "Replays versus interventions; prediction versus attribution",
+      "Existing-credit, normative and policy boundaries",
+      "Documented eBay/Dutch-funding additions give the introduction material beyond the prologue"
+    ]
   }
 }

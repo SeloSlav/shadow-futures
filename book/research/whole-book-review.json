@@ -4,7 +4,7 @@
   "objective": "Complete book at prologue standard, including sequential editorial, conceptual, factual and citation review; counts and file existence do not certify completion.",
   "mechanical_checks": {
     "main_words": 80000,
-    "back_matter_words": 13319,
+    "back_matter_words": 13364,
     "main_components": 15,
     "endnotes": 177,
     "bibliography_entries": 108,
@@ -20,22 +20,28 @@
       "id": "prologue",
       "file": "book/manuscript/00-prologue.md",
       "sha256": "05d79cf3a6eeec0e83975c6d320654aa398518a4b021c73f4d16f5deb115f23f",
-      "sequential_editorial_review": "pending",
-      "conceptual_factual_citation_review": "claim_ledgers_exist_whole_book_recheck_pending"
+      "sequential_editorial_review": "completed",
+      "conceptual_factual_citation_review": "completed_for_recorded_claims_with_explicit_source_boundaries",
+      "checked_on": "2026-10-16",
+      "review_record": "book/research/prologue-source-notes.json; sequential_review field"
     },
     {
       "id": "introduction",
       "file": "book/manuscript/01-introduction.md",
-      "sha256": "c36147d1f92e55f8b1628dd9354faff6ece780195a43b5b00c4a5f7ab9069f4a",
-      "sequential_editorial_review": "pending",
-      "conceptual_factual_citation_review": "claim_ledgers_exist_whole_book_recheck_pending"
+      "sha256": "bb63a0ae1ef219f388d54ce90658279464dda0e043a5815455270967c34f0749",
+      "sequential_editorial_review": "completed",
+      "conceptual_factual_citation_review": "completed_for_recorded_claims_with_explicit_source_boundaries",
+      "checked_on": "2026-10-16",
+      "review_record": "book/research/introduction-source-notes.json; sequential_review field"
     },
     {
       "id": "chapter_01",
       "file": "book/manuscript/02-the-winner-and-the-explanation.md",
-      "sha256": "1687476861531c3f0825f13ae9d9d442e4e663ec13c2320d56ef79ef76e12906",
-      "sequential_editorial_review": "pending",
-      "conceptual_factual_citation_review": "claim_ledgers_exist_whole_book_recheck_pending"
+      "sha256": "e89b108dd41d26ee15ede3ec7418902efec76eeef5a1249fc4350ef78b8cc608",
+      "sequential_editorial_review": "completed",
+      "conceptual_factual_citation_review": "completed_for_recorded_claims_with_explicit_source_boundaries",
+      "checked_on": "2026-10-16",
+      "review_record": "book/research/chapter-01-source-notes.json; sequential_review field"
     },
     {
       "id": "chapter_02",
@@ -167,5 +173,38 @@
     ],
     "scope": "Initial argument brief and outline exports only; not the 80000-word book."
   },
-  "completion_audit": "Not passed. Whole-book sequential review and remaining original-source checks are incomplete. Do not mark goal achieved from this report."
+  "completion_audit": "Not passed. Opening sequence reviewed; Chapters 2-12 and epilogue, final whole-book continuity audit and remaining original-source checks are incomplete.",
+  "review_sessions": [
+    {
+      "checked_on": "2026-10-16",
+      "scope": [
+        "prologue",
+        "introduction",
+        "chapter_01"
+      ],
+      "method": "Full body and notes read in order; revisions checked in their local context; unchanged case claims retain their earlier full-source records; targeted source rechecks address new details and contemporary/versioned evidence.",
+      "findings": [
+        "Prologue retained as the opening standard; its case transitions and bounded claims work in the sequence.",
+        "Introduction now shows the cross-platform brand-ad test and defines the history-conditional favorite explicitly.",
+        "Chapter 1 replaces repeated general lessons with listener actions, rating/download distinctions, screen design, topic variation, Veni/Vidi participation and a geographic advertising test.",
+        "Akerlof discussion describes selection without implying a formal dynamic model.",
+        "Published QJE outage pattern corroborated against corresponding November 7, 2024 full author version printed pp. 25-26.",
+        "METR February 24, 2026 primary update refreshed; dated selection/pay/measurement boundaries retained.",
+        "Traag reviewed-preprint v1 status and its robustness/selection interpretation refreshed in indexed publisher text; direct-page challenge remains disclosed.",
+        "eBay geographic design checked beyond the introductory summary: initial random candidate selection followed by sales matching, not pure individual randomization."
+      ],
+      "budget": {
+        "main_words": 80000,
+        "back_matter_words": 13364,
+        "opening_component_words": [
+          2500,
+          3500,
+          6000
+        ]
+      },
+      "reader_sha256_after_revision": "315824df5aed638b724511d52311c7a5d1f81272ab1acfe6a9c9464fa05db4f2",
+      "remaining_scope": "Chapters 2-12 and epilogue still require sequential review, followed by final continuity and source completion audit. Four canonical original technical passages and original Blackwell remain pending."
+    }
+  ],
+  "next_component": "chapter_02"
 }

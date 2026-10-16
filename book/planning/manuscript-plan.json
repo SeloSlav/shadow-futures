@@ -12,21 +12,21 @@
       "title": "The other life of a song",
       "file": "book/manuscript/00-prologue.md",
       "target": 2500,
-      "stage": "drafted"
+      "stage": "reviewed"
     },
     {
       "id": "introduction",
       "title": "The evidence success leaves behind",
       "file": "book/manuscript/01-introduction.md",
       "target": 3500,
-      "stage": "drafted"
+      "stage": "reviewed"
     },
     {
       "id": "chapter_01",
       "title": "The winner and the explanation",
       "file": "book/manuscript/02-the-winner-and-the-explanation.md",
       "target": 6000,
-      "stage": "drafted"
+      "stage": "reviewed"
     },
     {
       "id": "chapter_02",

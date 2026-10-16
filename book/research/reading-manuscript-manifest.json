@@ -1,7 +1,7 @@
 {
   "status": "complete_draft_assembly_review_pending",
   "file": "book/drafts/Shadow_Futures_Complete_Manuscript.md",
-  "sha256": "e86aee476996e4e90062b1285345e1e1c3e0ed9286616de253b7486165941252",
+  "sha256": "315824df5aed638b724511d52311c7a5d1f81272ab1acfe6a9c9464fa05db4f2",
   "inputs": [
     {
       "file": "book/manuscript/00-prologue.md",
@@ -9,11 +9,11 @@
     },
     {
       "file": "book/manuscript/01-introduction.md",
-      "sha256": "c36147d1f92e55f8b1628dd9354faff6ece780195a43b5b00c4a5f7ab9069f4a"
+      "sha256": "bb63a0ae1ef219f388d54ce90658279464dda0e043a5815455270967c34f0749"
     },
     {
       "file": "book/manuscript/02-the-winner-and-the-explanation.md",
-      "sha256": "1687476861531c3f0825f13ae9d9d442e4e663ec13c2320d56ef79ef76e12906"
+      "sha256": "e89b108dd41d26ee15ede3ec7418902efec76eeef5a1249fc4350ef78b8cc608"
     },
     {
       "file": "book/manuscript/03-the-comparison-budget.md",
@@ -74,7 +74,7 @@
   ],
   "bibliography_input_sha256": "61af5509744dd9882aebbd0f6da66089ec562ef2ca936b74eea9c802e569615e",
   "main_words": 80000,
-  "back_matter_words": 13319,
+  "back_matter_words": 13364,
   "reference_entries": 108,
   "endnote_count": 177,
   "notes_namespaced": true,

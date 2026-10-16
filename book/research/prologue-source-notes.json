@@ -104,8 +104,8 @@
       "note": "7",
       "source": "https://academic.oup.com/qje/article/140/2/889/7990658",
       "full_text_checked": "https://arxiv.org/pdf/2304.11771",
-      "version_boundary": "Published abstract and indexed Sections I, V.B, and VI.A checked; corresponding November 2024 author working paper pp. 1-3 checked in full. Earlier 5179-agent/14-percent numbers are not used.",
-      "locator": "Published abstract and Section I; Sections III, V.B, VI.A, VI.B; corresponding 2024 working paper pp. 1-3",
+      "version_boundary": "Published abstract and indexed Sections I, V.B, VI.A and VI.B checked; corresponding November 7, 2024 author working paper relevant full passages checked. Sequential review rechecked the original outage/exposure discussion on printed pp. 25-26. Earlier 5179-agent/14-percent numbers are not used.",
+      "locator": "Published abstract and Section I; Sections III, V.B, VI.A, VI.B; corresponding November 7, 2024 working paper printed pp. 1-3 and 25-26 (PDF pp. 26-27) for outage design and exposure pattern.",
       "claims": [
         "Staggered rollout using data from 5172 customer-support agents",
         "Average 15 percent increase in issues resolved per hour",
@@ -179,5 +179,16 @@
     "METR_not_presented_as_proof_of_v5": true,
     "policy_intervention_distinguished_from_unchanged_rule_replay": true,
     "v5_reference_register_preserved": true
+  },
+  "sequential_review": {
+    "checked_on": "2026-10-16",
+    "scope": "Read full prologue and notes in sequence before introduction and Chapter 1. Retained its text as the narrative standard. Rechecked AI outage interpretation and METR dated update; earlier full-source records retained for unchanged cases.",
+    "findings": [
+      "Public cases remain distinct from theorem applications.",
+      "No reconstruction of musicians or workers private experiences.",
+      "The move from customer support to METR distinguishes evidence of learning from missing comparisons; no randomized-outage claim.",
+      "The MusicLab, Kickstarter, Bell and Rothamsted transitions carry different questions."
+    ],
+    "main_text_changed": false
   }
 }
