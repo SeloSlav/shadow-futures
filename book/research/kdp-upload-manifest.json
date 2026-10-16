@@ -1,6 +1,6 @@
 {
   "date": "2026-10-16",
-  "manuscript_sha256": "7e8f1bc24aaed9327d49087d79803b0df9e04322f10ec8e6f0626f88084269b0",
+  "manuscript_sha256": "34ce6e63bc1f9b7cf59cdaf1c99266ffeaa457fe7e8096e29bbacca6b1fe19f3",
   "epub_integrity": {
     "source_paragraphs_present_in_full": 1633,
     "internal_links_checked": 585,
@@ -20,8 +20,8 @@
   "files": [
     {
       "file": "output/kdp/shadow-futures-kindle.epub",
-      "bytes": 1073445,
-      "sha256": "a25ee98efe85824220d59624cf8635208096ccbff41cea81aee6844cf2b53137"
+      "bytes": 1073458,
+      "sha256": "61ab01990e8ec0989492e7eb9b15fdc0002daaaab5da5cea1831ff36c709cd25"
     },
     {
       "file": "output/kdp/shadow-futures-kindle-cover.jpg",
@@ -30,13 +30,13 @@
     },
     {
       "file": "output/kdp/shadow-futures-paperback-interior.pdf",
-      "bytes": 1048702,
-      "sha256": "6c2a5f7433142f6dc678a1d04b408a52546f88cc728f031f2cee3556bd672f3e"
+      "bytes": 1048677,
+      "sha256": "e01729e2967f43f61ac4d37d009cff4dd48bb471886cb3ce006d3f35df0e0c19"
     },
     {
       "file": "output/kdp/shadow-futures-paperback-cover.pdf",
       "bytes": 3548720,
-      "sha256": "67595b584892207c2cdba90091fe6e6570cc7526001c1224f41d5611a993355f"
+      "sha256": "422f17bcd46307955a26c946cba44b76e9142c19563435b24b40bcef3f088afe"
     },
     {
       "file": "output/kdp/UPLOAD-INSTRUCTIONS.txt",
@@ -50,8 +50,8 @@
     },
     {
       "file": "output/kdp/shadow-futures-kdp-upload.zip",
-      "bytes": 5436987,
-      "sha256": "3fbe0f7b4785f3158f5c0ea7f29b8298e21a4255b65abe6f7b9ac4ec63e48520"
+      "bytes": 5436978,
+      "sha256": "92db3ae6152a4e1ad1f914eb0f89644e7700002df5db96a093beeba44e5c2efe"
     }
   ],
   "boundary": "Upload formats and mechanical checks; KDP Previewer and print proof remain author publication steps.",
@@ -59,6 +59,6 @@
     "version": "5.3.0",
     "errors": 0,
     "warnings": 0,
-    "sha256": "a25ee98efe85824220d59624cf8635208096ccbff41cea81aee6844cf2b53137"
+    "sha256": "61ab01990e8ec0989492e7eb9b15fdc0002daaaab5da5cea1831ff36c709cd25"
   }
 }

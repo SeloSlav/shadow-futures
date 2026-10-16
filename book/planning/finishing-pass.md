@@ -27,3 +27,11 @@ Changed prose was reviewed once with retained context. Existing source checks we
 Four original passages remain incompletely verified: Kakutani (1948), Section 6 main theorem; Kabanov–Liptser–Shiryaev (1977), relevant extension; Jacod–Shiryaev (2003), particular continuity criterion; Le Cam–Yang (2000), two-point bound. Chapter 3 note c3-6 now discloses this limitation in the reading copy itself. Precise partial checks and failed access routes remain in `research/final-cross-book-audit.json`. These flags are not silently cleared.
 
 The prose is ready for the author's read-through. Submission readiness still requires addressing material source limitations. New author feedback or source verification should be a separate scoped request. This revision stops at this checkpoint; no automatic continuation is active.
+
+## Le Goff and Soulier wording correction — 16 October 2026
+
+Replaced the Chapter 3 paragraph about an “antecedent with a substantive role” and a “sweeping novelty claim” with the author's approved explanation connecting reinforced choices, opportunities for rivals, and measuring contribution. Credit and the existing source note remain; the claim-specific checks recorded for Le Goff and Soulier are reused. This is a one-paragraph prose revision, with no new factual or novelty claim and no reopened source audit.
+
+Regenerated the website reading PDF, Kindle EPUB, paperback interior and cover, and KDP upload ZIP through one `book:refresh` run. Main text: **80,000** words; back matter: **14,886**. The reading PDF remains 319 pages and the paperback interior 318 pages. EPUBCheck reported zero errors and zero warnings; existing PDF text, font, link and geometry checks passed. Changed-page previews 71–72 were inspected and have no visible layout defects.
+
+Current continuous-reader SHA256: `34ce6e63bc1f9b7cf59cdaf1c99266ffeaa457fe7e8096e29bbacca6b1fe19f3`. Reading-PDF SHA256: `c134b535a079e5c200f2c7a31b3b32c161b9e81558f1f8aa42d8f0550d9926f8`. Deliverable paths and hashes are recorded in `research/export-state.json`. The four existing original-source flags above remain open.

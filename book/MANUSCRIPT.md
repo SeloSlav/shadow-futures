@@ -1,6 +1,6 @@
 # Shadow Futures manuscript
 
-Martin Erlic · Working manuscript · 79,999 of 80,000 main-text words
+Martin Erlic · Working manuscript · 80,000 of 80,000 main-text words
 
 The approved budget is 2,500 words for the prologue, 3,500 for the introduction, twelve chapters averaging 6,000 words (72,000 combined), and a 2,000-word epilogue. Notes, references, and acknowledgments have a separate 10,000–15,000-word allowance.
 
@@ -12,7 +12,7 @@ Counts below come from the current chapter files. Drafted sections still require
 | [The evidence success leaves behind](manuscript/01-introduction.md) | 3,500 | 3,500 | reviewed |
 | [The winner and the explanation](manuscript/02-the-winner-and-the-explanation.md) | 6,000 | 6,000 | reviewed |
 | [The comparison budget](manuscript/03-the-comparison-budget.md) | 6,000 | 5,991 | reviewed |
-| [Shadow futures](manuscript/04-shadow-futures.md) | 6,000 | 6,009 | editorial reviewed sources pending |
+| [Shadow futures](manuscript/04-shadow-futures.md) | 6,000 | 6,010 | editorial reviewed sources pending |
 | [The histories that became infrastructure](manuscript/05-the-histories-that-became-infrastructure.md) | 6,000 | 6,066 | reviewed |
 | [Who gets to be tested](manuscript/06-who-gets-to-be-tested.md) | 6,000 | 6,077 | reviewed |
 | [Who deserves the winnings](manuscript/07-who-deserves-the-winnings.md) | 6,000 | 6,000 | reviewed |

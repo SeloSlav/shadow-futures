@@ -1,7 +1,7 @@
 {
   "status": "complete_draft_assembly_review_pending",
   "file": "book/drafts/Shadow_Futures_Complete_Manuscript.md",
-  "sha256": "7e8f1bc24aaed9327d49087d79803b0df9e04322f10ec8e6f0626f88084269b0",
+  "sha256": "34ce6e63bc1f9b7cf59cdaf1c99266ffeaa457fe7e8096e29bbacca6b1fe19f3",
   "inputs": [
     {
       "file": "book/manuscript/00-prologue.md",
@@ -21,7 +21,7 @@
     },
     {
       "file": "book/manuscript/04-shadow-futures.md",
-      "sha256": "c68ea30ada1b655c836da82a503fa9ecbdd79c53d3e67273b16515328f8cdb6d"
+      "sha256": "483a5c6e09f6fb02f380c19d627e431d44e1e61e840c4e3f2d15992f34db0bd1"
     },
     {
       "file": "book/manuscript/05-the-histories-that-became-infrastructure.md",
@@ -73,7 +73,7 @@
     }
   ],
   "bibliography_input_sha256": "e76d4c2e966fbf70ebbdb85d331862df15a90ae86b22a778471b9be387cd9ad9",
-  "main_words": 79999,
+  "main_words": 80000,
   "back_matter_words": 14886,
   "reference_entries": 134,
   "endnote_count": 199,

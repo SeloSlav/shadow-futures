@@ -1,8 +1,8 @@
 {
   "status": "in_progress",
   "main_text_target": 80000,
-  "main_words": 79999,
-  "words_remaining_to_target": 1,
+  "main_words": 80000,
+  "words_remaining_to_target": 0,
   "back_matter_words": 14886,
   "back_matter_target": [
     10000,
@@ -76,9 +76,9 @@
       "target": 6000,
       "stage": "editorial_reviewed_sources_pending",
       "exists": true,
-      "main_words": 6009,
+      "main_words": 6010,
       "note_words": 884,
-      "sha256": "c68ea30ada1b655c836da82a503fa9ecbdd79c53d3e67273b16515328f8cdb6d",
+      "sha256": "483a5c6e09f6fb02f380c19d627e431d44e1e61e840c4e3f2d15992f34db0bd1",
       "note_count": 12,
       "missing_notes": [],
       "unused_notes": [],
