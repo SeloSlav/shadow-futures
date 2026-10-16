@@ -283,7 +283,15 @@
       "subject": "Entrepreneurship as experimentation",
       "use_and_boundary": "Present the incentive case for risk-taking and prospective rewards seriously.",
       "inventory_status": "transcribed_from_canonical_v5",
-      "book_full_text_check": "required_before_claim_specific_drafting"
+      "book_full_text_check": "relevant_passages_checked_for_recorded_draft_claims",
+      "checked_on": "2026-10-16",
+      "checked_locator": "Published pp. 27–32 and 43–44; full published JEP PDF",
+      "drafted_citations": [
+        {
+          "manuscript": "book/manuscript/07-who-deserves-the-winnings.md",
+          "note": "c6-6"
+        }
+      ]
     },
     {
       "key": "LeCamYang2000",
@@ -370,6 +378,10 @@
         {
           "manuscript": "book/manuscript/05-the-histories-that-became-infrastructure.md",
           "note": "c4-9"
+        },
+        {
+          "manuscript": "book/manuscript/07-who-deserves-the-winnings.md",
+          "note": "c6-10"
         }
       ]
     },
@@ -431,7 +443,15 @@
       "subject": "Top-income taxation and behavioral margins",
       "use_and_boundary": "Explain productive effort, bargaining, and tax responses without attributing an exact-merit requirement to optimal-tax theory.",
       "inventory_status": "transcribed_from_canonical_v5",
-      "book_full_text_check": "required_before_claim_specific_drafting"
+      "book_full_text_check": "relevant_passages_checked_for_recorded_draft_claims",
+      "checked_on": "2026-10-16",
+      "checked_locator": "Published pp. 230–235, author-hosted full published PDF plus appendices",
+      "drafted_citations": [
+        {
+          "manuscript": "book/manuscript/07-who-deserves-the-winnings.md",
+          "note": "c6-7"
+        }
+      ]
     },
     {
       "key": "RothschildScheuer2016",
@@ -443,7 +463,15 @@
       "subject": "Taxation with rent-seeking",
       "use_and_boundary": "Connect to established productive versus rent-seeking distinctions; v5 limits a stronger exact ex post decomposition.",
       "inventory_status": "transcribed_from_canonical_v5",
-      "book_full_text_check": "required_before_claim_specific_drafting"
+      "book_full_text_check": "relevant_passages_checked_for_recorded_draft_claims",
+      "checked_on": "2026-10-16",
+      "checked_locator": "December 2015 full author-version abstract and introduction pp. 1–4; 2016 publisher abstract corroborates framework",
+      "drafted_citations": [
+        {
+          "manuscript": "book/manuscript/07-who-deserves-the-winnings.md",
+          "note": "c6-8"
+        }
+      ]
     },
     {
       "key": "SalganikDoddsWatts2006",
@@ -472,6 +500,10 @@
         {
           "manuscript": "book/manuscript/04-shadow-futures.md",
           "note": "c3-2"
+        },
+        {
+          "manuscript": "book/manuscript/07-who-deserves-the-winnings.md",
+          "note": "c6-1"
         }
       ]
     },
@@ -501,6 +533,10 @@
         {
           "manuscript": "book/manuscript/05-the-histories-that-became-infrastructure.md",
           "note": "c4-10"
+        },
+        {
+          "manuscript": "book/manuscript/07-who-deserves-the-winnings.md",
+          "note": "c6-11"
         }
       ]
     },

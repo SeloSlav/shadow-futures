@@ -1,0 +1,215 @@
+{
+  "manuscript": "book/manuscript/07-who-deserves-the-winnings.md",
+  "title": "Who deserves the winnings",
+  "checked_on": "2026-10-16",
+  "status": "drafted",
+  "target_main_words": 6000,
+  "body_words": 6000,
+  "note_words": 752,
+  "draft_sha256": "ec7a27e615d8479489c623a613d61e375e08f0f8068acfcacec03e18cbf4ee27",
+  "source_checks": "Relevant full passages checked in published economics papers, the December 2015 Rothschild–Scheuer author version, Nakamura Nobel lecture, Nichia company statement, DARPA institutional records, and previously checked MusicLab, Merton, Kickstarter and Google sources. Named version/access boundaries are retained. This is a chapter claim check, not independent proof certification or a completed whole-book review.",
+  "sources": [
+    {
+      "key": "SalganikDoddsWatts2006",
+      "note": "c6-1",
+      "source": "https://www.princeton.edu/~mjs3/salganik_dodds_watts06_full.pdf",
+      "locator": "Printed pp. 854–855 and Figures 1–3; relevant passages checked previously for prologue and Chapters 1/3",
+      "full_text_checked": true,
+      "claims": [
+        "Same recordings in distinct experimental markets; popularity and sequence affect reception alongside appeal"
+      ],
+      "boundary": "Different listeners, not cloned people; experimental downloads and attention, not observed musician income, labor input or reactions.",
+      "v5_reference": true
+    },
+    {
+      "key": "SalganikBitByBit",
+      "note": "c6-1",
+      "source": "https://www.bitbybitbook.com/en/running-experiments/exp-advice/zero-variable-cost/",
+      "locator": "Section 4.6.1, MusicLab example and Lockdown ranking account; checked previously",
+      "full_text_checked": true,
+      "claims": [
+        "Lockdown by 52Metro first in one market and fortieth in another"
+      ],
+      "boundary": "No inference that an ordinal rank ratio measures royalties, labor, ability or desert.",
+      "v5_reference": false
+    },
+    {
+      "key": "Nakamura2014Lecture",
+      "note": "c6-2",
+      "source": "https://www.nobelprize.org/uploads/2018/06/nakamura-lecture.pdf",
+      "locator": "Printed pp. 70 and 72–75 (PDF pp. 2 and 4–7), especially pp. 73–74 reactor purchase, failed growths, repeated modifications and two-flow design",
+      "full_text_checked": true,
+      "local_cache": ".tmp/book-research/nakamura-lecture-2014.pdf",
+      "claims": [
+        "Inventor recounts unsuccessful GaN growths and 1.5 years of reactor modifications",
+        "Credits Akasaki and Amano advances",
+        "Blue light plus phosphor can yield white light"
+      ],
+      "boundary": "Retrospective inventor account with technical citations, attributed accordingly; not independent allocation of all causal credit, no fabricated laboratory observation and no asserted social-value percentage. Device measurements are additional evidence beyond allocation records.",
+      "v5_reference": false
+    },
+    {
+      "key": "Nichia2005Settlement",
+      "note": "c6-3",
+      "source": "https://www.nichia.co.jp/en/newsroom/2005/2005_011101.html",
+      "locator": "Opening three substantive paragraphs and company positions 2–4; full relevant indexed primary text read",
+      "full_text_checked": true,
+      "claims": [
+        "Announced remuneration JPY608570000 and interest damages JPY235340000, total JPY843910000",
+        "Scope includes many patents, pending applications, foreign counterparts and unpublished know-how from Nakamura employment",
+        "Company emphasized employer risk and defended its position"
+      ],
+      "boundary": "Company press statement is an interested party account. No claim that it independently establishes a causal contribution percentage; no district-court award account, current legal guidance or inferred reaction from Nakamura. Rounded main-text figures identified as approximate.",
+      "v5_reference": false
+    },
+    {
+      "key": "ErlicV5",
+      "notes": [
+        "c6-4",
+        "c6-9"
+      ],
+      "source": "output/docx/Shadow_Futures_FINAL_Comparison_Budget_Revised_v5.docx",
+      "public_record": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994",
+      "locator": "Sections 3–5 and Appendices B/E; paragraphs on contribution-position decomposition and optimal-tax boundaries rechecked for this chapter",
+      "full_text_checked": true,
+      "claims": [
+        "Replays preserve parameter, initial state and response rules; a changed input or policy is a separate intervention",
+        "Conditional finite-budget attribution limit does not imply moral equality, a tax rate or invalidity of optimal taxation",
+        "Separate hidden-position argument developed in Chapter 11"
+      ],
+      "boundary": "Canonical local v5, not assumption that current SSRN hosted file is byte-identical; unpublished author work, no established priority or independent proof certification. No actual-firm lifetime budget estimated.",
+      "v5_reference": false
+    },
+    {
+      "key": "DARPA2004And2005",
+      "note": "c6-5",
+      "source": "https://www.darpa.mil/about/innovation-timeline/grand-challenge",
+      "additional_source": "https://www.darpa.mil/news/2014/grand-challenge-ten-years-later",
+      "locator": "Timeline first three paragraphs; March 13, 2014 retrospective opening through 2005 event",
+      "full_text_checked": true,
+      "claims": [
+        "March 13, 2004 million-dollar prize unclaimed because no finalist finished",
+        "October 8, 2005 five finishers on 132-mile course; Stanford Stanley winner, 6h53m, two-million-dollar prize"
+      ],
+      "boundary": "Organizer account; the two courses differ. No estimated causal effect of doubling the prize or attributed long-run autonomy impact. Race observations include more than identity of prize recipient; no budget estimate.",
+      "v5_reference": false
+    },
+    {
+      "key": "KerrNandaRhodesKropf2014",
+      "note": "c6-6",
+      "source": "https://www.hbs.edu/faculty/Shared%20Documents/conferences/2014-strategy-research/Entrepreneruship%20as%20Experimentation.pdf",
+      "locator": "Published pp. 27–32 and 43–44; staged testing, option to stop, anonymous funded-venture score comparison and policy discussion",
+      "full_text_checked": true,
+      "version_boundary": "24-page published JEP article, pp. 25–48; DOI 10.1257/jep.28.3.25",
+      "local_cache": ".tmp/book-research/kerr-nanda-rhodes-kropf-2014.pdf",
+      "claims": [
+        "Experiments can reveal information before committing full commercialization cost",
+        "Initial scores within one successful VC firm did not clearly distinguish later outcome groups"
+      ],
+      "boundary": "Comparison conditions on funded ventures at one anonymous firm; not a test on all rejected ideas, investor skill in general or proof success is pure luck. Birch financing illustrations are original hypothetical applications.",
+      "v5_reference": true
+    },
+    {
+      "key": "PikettySaezStantcheva2014",
+      "note": "c6-7",
+      "source": "https://eml.berkeley.edu/~saez/piketty-saez-stantchevaAEJ14.pdf",
+      "locator": "Published pp. 230–235; three response margins, bargaining setup, social welfare weights and tax-avoidance distinction",
+      "full_text_checked": true,
+      "version_boundary": "53-page author-hosted PDF starts with published AEJ: Economic Policy 6(1), 230–271, followed by appendices; DOI 10.1257/pol.6.1.230",
+      "local_cache": ".tmp/book-research/piketty-saez-stantcheva-2014.pdf",
+      "claims": [
+        "Productive activity, tax avoidance and compensation bargaining differ in welfare and tax implications",
+        "Exact ex post individual merit decomposition not a required premise"
+      ],
+      "boundary": "Explains model margins, does not adopt calibration, empirical causal universality or an optimal real-world tax rate. Aster executive examples explicitly fictional. Harvard-hosted download failed; Berkeley-hosted complete PDF succeeded.",
+      "v5_reference": true
+    },
+    {
+      "key": "RothschildScheuer2016",
+      "note": "c6-8",
+      "source": "https://www.econ.uzh.ch/dam/jcr:e4a3ed75-0645-497b-a7a7-5015f58a15c0/rent_seeking.pdf",
+      "published_record": "https://doi.org/10.1093/restud/rdw017",
+      "locator": "December 2015 author-version abstract and printed introduction pp. 1–4; published abstract checked for framework and informational warning",
+      "full_text_checked": true,
+      "version_boundary": "Full December 2015 author manuscript, 57 PDF pages, accessed through Scheuer official UZH research page; distinct from published 2016 pp. 1225–1262 and older March 2011 draft, which was not used",
+      "local_cache": ".tmp/book-research/rothschild-scheuer-2015.pdf",
+      "claims": [
+        "Tax authority can observe combined income without individual productive/rent-seeking decomposition",
+        "Relative-return and activity-substitution effects complicate a simple corrective-income-tax inference"
+      ],
+      "boundary": "Theoretical framework, not empirical identification of actual executive or profession; no tax rate or calibration adopted. General-equilibrium warning is prior literature, not a v5 discovery.",
+      "v5_reference": true
+    },
+    {
+      "key": "Merton1968",
+      "note": "c6-10",
+      "source": "https://garfield.library.upenn.edu/merton/matthew1.pdf",
+      "locator": "Printed pp. 56–57; relevant passages checked previously for opening and Chapter 4",
+      "full_text_checked": true,
+      "claims": [
+        "Prior cumulative recognition mechanism and its relation to opportunity"
+      ],
+      "boundary": "Credits Merton and Zuckerman; no interviews by author, no inference of a particular inventor deserved payment.",
+      "v5_reference": true
+    },
+    {
+      "key": "VanDeRijtEtAl2014",
+      "note": "c6-11",
+      "source": "https://www.eui.eu/Documents/DepartmentsCentres/SPS/Profiles/Van-de-Rijt/PNAS-2014-van-de-Rijt-6934-9-11.pdf",
+      "locator": "Printed pp. 6934–6935 and Figure 1; initial-donation design and subsequent support passages re-read for this chapter",
+      "full_text_checked": true,
+      "local_cache": ".tmp/prologue-revision/van-de-rijt-2014.pdf",
+      "claims": [
+        "200 new unfunded projects; 100 randomly selected for initial donation; greater likelihood of later third-party support"
+      ],
+      "boundary": "Subsequent support, not target achievement, project delivery, individual merit or welfare; support program is hypothetical.",
+      "v5_reference": true
+    },
+    {
+      "key": "Google2024Liability",
+      "note": "c6-12",
+      "source": "https://fingfx.thomsonreuters.com/gfx/legaldocs/gdpzmaxjxvw/United%20States%20v%20Google%2020240805.pdf",
+      "locator": "Printed p. 49, paragraphs 136–137; checked in full opinion for Chapter 5",
+      "full_text_checked": true,
+      "claims": [
+        "Bing comparison and Project Folly illustrate informative incumbent experiments"
+      ],
+      "boundary": "Reuse of specific dated finding, not current litigation disposition or comparison-budget diagnosis; detailed case remains in Chapter 5.",
+      "v5_reference": false
+    }
+  ],
+  "illustrations": [
+    {
+      "name": "Laboratory complementary inputs",
+      "status": "explicit hypothetical",
+      "purpose": "Replacement, horizon and intervention must be specified; indispensable inputs do not automatically produce an additive payout rule"
+    },
+    {
+      "name": "Alternative prizes and race entry rules",
+      "status": "explicit hypothetical design comparisons",
+      "purpose": "Separate promised prize, inducement, entry, information and costs; no estimated DARPA treatment effect"
+    },
+    {
+      "name": "Aster and Birch",
+      "status": "recurring explicitly fictional suppliers",
+      "purpose": "Financing pilots, executives and workers, productive effort, avoidance, bargaining, historical position and prospective reward choices"
+    },
+    {
+      "name": "Initial support and worker security",
+      "status": "hypothetical proposals plus stated author normative commitments",
+      "purpose": "Distinguish financing feasibility, welfare, usable information, income protection and behavioral responses; no proof insurance always increases innovation"
+    }
+  ],
+  "narrative_checks": [
+    "Lockdown opens a new question about rewards, rather than retelling the entire experiment.",
+    "Nakamura lecture and Nichia settlement supply different documented objects; no invented biography, dialogue, reaction or visit.",
+    "DARPA defined prize performance carries prospective-incentive argument; failure and further testing remain distinct.",
+    "Four explanations for fictional executive pay separate production, avoidance, bargaining and reinforced historical position.",
+    "Kerr, Piketty–Saez–Stantcheva and Rothschild–Scheuer receive substantive credit with full relevant versioned source passages.",
+    "Merton and van de Rijt retain earlier credit and add recognition and initial-support questions.",
+    "Contribution, contractual entitlement, incentives and moral desert remain distinct; author proposed values are explicit.",
+    "No equal-merit conclusion, luck percentage, optimal tax rate, actual-firm lifetime diagnosis or dismissal of physical evidence.",
+    "6000 main words; headings and notes excluded; transition to Chapter 7 physical AI inputs."
+  ],
+  "whole_book_review": "Still required: final continuity, repetition, pace, conceptual/factual/citation review, author review of normative voice, complete bibliography and combined word budget."
+}
