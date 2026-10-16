@@ -2,10 +2,10 @@
   "manuscript": "book/manuscript/06-who-gets-to-be-tested.md",
   "title": "Who gets to be tested",
   "checked_on": "2026-10-16",
-  "status": "drafted",
+  "status": "reviewed",
   "target_main_words": 6000,
-  "body_words": 6082,
-  "draft_sha256": "a20e7801c5ef1eb8a28786c0a6358ce525db0685cb1367f4eacbb5369875ebd0",
+  "body_words": 6077,
+  "draft_sha256": "24c199695c61cf871a7355b1a7b6c8fd88fc5c1891900632642f3db716626eb8",
   "source_checks": "Relevant full primary-source passages checked in dated court records, published Meghani text, stakeholder statements and original research report. Some primary text read through indexed full sources after terminal download failure; exact access boundaries retained. No independent proof/priority certification.",
   "sources": [
     {
@@ -19,13 +19,14 @@
         "c5-8"
       ],
       "source": "https://fingfx.thomsonreuters.com/gfx/legaldocs/gdpzmaxjxvw/United%20States%20v%20Google%2020240805.pdf",
-      "locator": "Mehta opinion, August5 2024, ECF1033; printed pp.1-4,34-35,48-49,115-116; paragraphs86-92,136-137,335,337-339",
+      "locator": "Mehta opinion, August5 2024, ECF1033; printed pp.1-4,34-35,48-49,115-116; paragraphs86-92,136-137,335,337-339; printed pp. 34–36, paragraphs 86–93 (PDF 38–40) rechecked for click/return/reformulation and query learning.",
       "claims": [
         "Default contracts/payments and quality credited alongside monopoly-maintenance findings",
         "Firefox/Yahoo2014-2017 default and query shares; advertising/user-experience context",
         "Query/click feedback; useful scale",
         "Internal side-by-side studies, Bing latency comparison, Project Folly",
-        "Mozilla2021 payment above$400million and roughly80percent operating budget"
+        "Mozilla2021 payment above$400million and roughly80percent operating budget",
+        "Click/return timing and query reformulation as informative user activity; narrower illustration, not budget measurement"
       ],
       "boundary": "Dated judicial findings, not current product rankings/shares/budgets. Particular search-services and search-text-ad markets, not every advertising market. Firefox switch is not randomized. Additional informative internal tests cannot be omitted from a learning claim.",
       "v5_reference": false
@@ -63,11 +64,13 @@
         "c5-12"
       ],
       "source": "https://www.justice.gov/atr/media/1421546/dl?inline=",
-      "locator": "December5 2025, ECF1462; SectionsIII-V and IX.V; pp.2-10,32-33",
+      "locator": "December5 2025, ECF1462; SectionsIII-V and IX.V; pp.2-10,32-33; original local PDF pp. 6–10 rechecked for exact index fields, third-party rights boundary and first-year 40% cap/tapering.",
       "claims": [
         "Specific distribution conditions and one-year provisions",
         "Specified index and user-side data, safeguards and documentation; algorithms/ranking signals/post-trained LLMs excluded from user-data disclosure mandate",
-        "Qualified competitor requirements, syndication and tapering"
+        "Qualified competitor requirements, syndication and tapering",
+        "DocID/URL/duplicate map and first-seen/last-crawled/spam/device fields; no transfer of third-party IP rights",
+        "Google syndication capped at 40% of qualified competitor annual US queries first year; tapering over five years with pace/measurement left for court determination"
       ],
       "boundary": "Ordered terms, not proof of completed delivery or effects; no all-payments ban or Chrome divestiture; syndication and data-sharing are distinct.",
       "v5_reference": false
@@ -115,18 +118,19 @@
       "key": "AkessonLucaPetrieAmlani2023",
       "note": "c5-13",
       "source": "https://research.mozilla.org/files/2023/09/Can-browser-choice-screens-be-effective_-Mozilla-experiment-report.pdf",
-      "locator": "Acknowledgments, executive summary and experimental design; PDFpp.2-5,22-25",
+      "locator": "Full report acknowledgments and design PDF pp. 2–5, 22–25 and 29–32; results PDF pp. 38–40, Table 2 and T3/T4 comparison, rechecked in original report.",
       "claims": [
-        "Commissioning/compensation/publication terms; Germany/Spain/Poland simulated setup; randomized information, number and timing versus preset-browser control"
+        "Commissioning/compensation/publication terms; Germany/Spain/Poland simulated setup; randomized information, number and timing versus preset-browser control",
+        "Same five-browser design at setup versus browser first use; preset selection rounded 11% versus 19%, reported difference 8.2 percentage points; Samsung Internet/Edge preset, Chrome alternative"
       ],
-      "boundary": "No numerical effect size or durable market-share/actual-use claim. Browser selection differs from search selection. Simulation-based study, not live field intervention.",
+      "boundary": "No numerical effect size or durable market-share/actual-use claim. Browser selection differs from search selection. Simulation-based study, not live field intervention. Timing randomized; preceding-click mechanism is proposed interpretation. Screen behavior is not observed long-run use or independent search capability.",
       "v5_reference": false
     },
     {
       "key": "GoogleStatusSeptember2026",
       "note": "c5-14",
       "source": "https://www.justice.gov/atr/media/1461926/dl?inline=",
-      "locator": "Plaintiffs September17 2026 second status report, ECF1552; pp.2-3 and10-12; DOJ case index inspected October16",
+      "locator": "Plaintiffs September17 2026 second status report, ECF1552; pp.2-3 and10-12; DOJ case index inspected October16; public DOJ case index refreshed October 16, 2026, with September status report and July appellate brief; no final appellate disposition asserted.",
       "claims": [
         "Technical committee organizational/process work, templates, information requests and exchanges"
       ],
@@ -203,13 +207,38 @@
     "Privacy, documentation, eligibility, costs, substitute evidence, and disappointment/revision considered.",
     "No lifetime-budget diagnosis, statutory violation, tax rate, or welfare conclusion inferred from concentration.",
     "2026 filings are attributed dated records; no announced/scheduled/completed stage collapsed.",
-    "No equations, fabricated interviews, private reactions or dialogue."
+    "No equations, fabricated interviews, private reactions or dialogue.",
+    "Choice-screen timing result is observed in simulation; click mechanism is interpretation, and Chrome is not preset.",
+    "Index fields, third-party IP boundary and 40% initial syndication cap/tapering taken from actual judgment; no implementation success inferred."
   ],
-  "whole_book_review": "Still required: continuity/repetition, density/pace, factual/citation review, updated temporal claims and final word budget.",
-  "note_words": 771,
+  "whole_book_review": "Sequential chapter review completed for saved draft and recorded claims. Final cross-book continuity, dated-litigation refresh and completion audit remain required; no independent proof/priority certification.",
+  "note_words": 781,
   "historical_scale_revision": {
     "checked_on": "2026-10-16",
-    "scope": "Targeted user-requested historical scale, reach-of-judgment, preemption, platform work, precaution and private-property revision; complete sequential chapter review remains pending.",
+    "scope": "Earlier targeted historical-scale revision, subsequently included in the complete sequential chapter review recorded in sequential_review.",
     "boundary": "No inevitable historical decline, finite-budget diagnosis of any actual market, independent proof/priority certification, or automatic policy/liability inference."
+  },
+  "sequential_review": {
+    "checked_on": "2026-10-16",
+    "status": "completed_for_recorded_chapter_claims",
+    "method": "Complete body and notes read in order after Chapter 4; changed passages re-read in local context; targeted primary checks address new procedural details, measured outcomes, precise judgment terms and dated case index.",
+    "findings": [
+      "Search quality and unlawful exclusion remain attributed dated findings in the separate general-search case.",
+      "Query behavior explains useful scale; modeled allocation chance not query count, bytes, observed shares or independent-trial count.",
+      "Project Folly replaces another generic Aster trial and remains evidence of actual internal learning with a bounded target.",
+      "Judgment index fields and retained third-party IP rights show what a concrete knowledge-access obligation supplies.",
+      "40% first-year syndication cap and intended five-year tapering distinguish access from eventual independent capability; later court determinations not invented.",
+      "Mozilla choice-screen section now supplies actual same-design timing contrast, names preset alternatives accurately, and separates causal intervention from proposed psychological mechanism.",
+      "Meghani prior terminology, dicamba historical testing record, Herod narrative and pharmaceutical empirical study retain distinct scopes.",
+      "Default switches are observed interventions, not randomized replays; private tests count and existing-data access differs from prospective testing.",
+      "2026 implementation/appeal records remain dated party evidence, with no claim of completed delivery, current universal terms, final remedy success or appellate resolution."
+    ],
+    "source_rechecks": [
+      "Original Mozilla PDF design and results pp. 38–40",
+      "December 5, 2025 final judgment pp. 6–10",
+      "August 5, 2024 opinion pp. 34–36",
+      "DOJ public case index October 16, 2026"
+    ],
+    "draft_sha256": "24c199695c61cf871a7355b1a7b6c8fd88fc5c1891900632642f3db716626eb8"
   }
 }

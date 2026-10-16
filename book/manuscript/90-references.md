@@ -200,6 +200,8 @@ Smith, A. 1776. An Inquiry into the Nature and Causes of the Wealth of Nations. 
 
 Snow, J. 1855. On the Mode of Communication of Cholera. Second edition. London: John Churchill. Part 3; UCLA transcription. [Source](https://epi-snow.ph.ucla.edu/Stream3_GrandExperiment_a.html)
 
+Sony Group. n.d. Developing the Transistor Radio. Sony Group History, Volume 1, Chapter 3. Part 2. [Source](https://www.sony.com/en/SonyInfo/CorporateInfo/History/SonyHistory/1-03.html)
+
 Stanford Institute for Human-Centered Artificial Intelligence. 2026. Artificial Intelligence Index Report 2026. Research and Development chapter and dataset qualifications. [Source](https://hai.stanford.edu/assets/files/ai_index_report_2026.pdf)
 
 Swedish Environmental Protection Agency. 2003. Reducing NOx Emissions: An Evaluation of the Nitrogen Oxide Charge. Report 5335, November; extended English summary. [Source](https://www.naturvardsverket.se/4ac644/globalassets/media/publikationer-pdf/5300/978-91-620-5335-3.pdf)

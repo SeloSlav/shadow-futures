@@ -1,4 +1,6 @@
-# Chapter 5: Who gets to be tested
+# Chapter 5
+
+## Who gets to be tested
 
 ### Before the first query
 
@@ -38,7 +40,7 @@ Firefox's actual history also helps distinguish a changed rule from a replay. Ch
 
 The district court described several ways that user activity helped search. Queries reveal what people ask. Clicks, returns to the results page, and other interactions can help assess relevance. Query data can help decide what belongs in an index and which pages need to be revisited. More use can improve the work of finding and presenting information.[^c5-3]
 
-The long tail makes the advantage particularly tangible. A frequent query gives a smaller provider repeated opportunities to encounter it. An unusual query might hardly appear in that provider's record at all. A larger service can observe a wider range of questions. Its extra data can contain something different, rather than just another copy of a familiar observation.
+An unusual query makes that advantage tangible. An engine cannot learn from a question it never receives. Nor does one encounter necessarily reveal which result was useful. A click, an immediate return, and a later reformulation can tell different stories. The court described rankings informed by accumulated interactions. Scale supplies more than a larger inbox: it can supply repeated occasions to learn which answers people find useful.[^c5-3]
 
 This is productive information. It would be a mistake to describe every additional query as empty repetition. The relevant distinction is what a query helps us learn. More encounters can improve the established engine's response to encountered tasks while leaving another question less well answered: what would a different service, or a different development route, achieve with a meaningful chance to operate?
 
@@ -62,7 +64,7 @@ The example sharpens the question for outsiders. A test of search speed can answ
 
 For a user waiting for results, a faster response is a real improvement. For a potential entrant, a public demonstration of a faster prototype may still fall short of obtaining a route to users. Both perspectives matter. A system can support productive internal learning while making some kinds of external development difficult. That combination is more informative than a choice between declaring the incumbent all-knowing and declaring that it learns nothing.
 
-Suppose Aster maintains extensive internal trials. The fictional buyer could ask whether they address the reliability difference that would change its purchasing decision. If the tests do, their evidence belongs in the analysis. If they investigate only interface colors while the buyer needs to understand a different technical design, their number does not answer the relevant question. The content of comparison matters as much as its existence.
+Project Folly offers a more useful test than a count of experiments. Google's comparison identified a concrete disadvantage, and work followed to reduce it. An outsider appraising that evidence should ask whether latency is the uncertainty affecting the decision. If so, the test matters. If the question concerns another provider's development under different distribution, measuring response time cannot answer it alone.
 
 We should also distinguish a test's existence from access to its results. A private organization can possess useful evidence that a buyer, researcher, or public authority cannot examine. That can create problems of verification, incentives, or dependence. It does not justify pretending the evidence was never generated. The next step is to specify who needs to know what, and why.
 
@@ -120,9 +122,11 @@ One door concerned distribution. The judgment restricted tying the licensing of 
 
 A second door concerned data. The judgment specified information from Google's web index and particular user-interaction datasets used in ranking models. An index is a structured record of what the service has found on the web. User interactions can inform relevance and training. Giving a rival access to these resources could help it develop a service, but the judgment did not simply hand over all Google's algorithms, ranking signals, or trained models.[^c5-7]
 
+The web-index provisions named concrete fields: document identifiers, their corresponding web addresses, when an address was first seen and last crawled, a spam score, and the device type. They also included information identifying documents Google considered duplicates. These are useful ingredients for another provider's work. They are not an instruction to make the same ranking decision. Nor did the access order transfer the intellectual property rights of third parties whose material appeared in the index. An entrant could still need machinery for collecting pages, interpreting them, and delivering results. The list makes the distinction between knowledge access and a finished capability inspectable: we can ask which specified resource removes which obstacle, rather than treat the whole search engine as a single indivisible secret.[^c5-7]
+
 The third door concerned an operating service: syndication. A qualified competitor could obtain specified search results and features through an interface, subject to the judgment's terms. This allows a provider to use capabilities it has not reproduced for itself. It can lower the burden of serving users while the provider develops. It also raises a question about how the arrangement supports eventual independent capability.
 
-The judgment addressed that concern directly. It limited the proportion of a qualified competitor's queries that could use Google syndication and provided for that share to decline over time, with the expectation of investment in the competitor's own search capabilities. Whether those terms would produce the intended development was a future question. Their presence makes clear that access and independence were not being treated as interchangeable.
+The judgment limited reliance on that route. First-year Google syndication was capped at forty percent of a qualified competitor's annual US queries, with tapering over five years intended to encourage investment in independent search capabilities. The court left the pace and measurement of tapering for further determination. Access supplied a bridge; the terms sought to keep the bridge from becoming the competitor's permanent foundation. Whether that would work required evidence from implementation.[^c5-7]
 
 For Birch, the three doors would look different too. Permission to appear at the purchasing desk would give it access to a prospective buyer. Access to an existing technical record could help it improve. Permission to use an established supplier's service within its own product could let it serve a customer sooner. Each route changes what Birch can attempt, and each can leave other obstacles in place.
 
@@ -166,15 +170,15 @@ That distinction separates two forms of control that often travel together. One 
 
 ### A screen that can be tested
 
-The design of an access point can itself become an experimental question. In a study published by Mozilla in 2023, researchers asked participants in Germany, Spain, and Poland to set up simulated devices. They randomly varied browser choice screens, including the information provided, the number of browsers shown, and when the choice appeared. Other participants received a preset browser without a choice screen.[^c5-13]
+Mozilla's 2023 study randomly varied browser choice screens during simulated device setup in Germany, Spain, and Poland. Information, list length, and timing were experimental choices. One comparison held the five-browser screen constant while changing when it appeared.[^c5-13]
 
-This was browser choice within a simulated setup, rather than a field estimate of long-run search competition. Its immediate value here is the design: “give people a choice” was broken into arrangements that could be compared. Information, list length, and timing became features to investigate instead of details left for implementation after the principle had been announced.
+When the screen followed a click on the preset browser's icon, roughly nineteen percent selected that browser, compared with eleven percent during setup. The preset was Samsung Internet or Edge. The preceding click was a proposed explanation, not a separately established mechanism.[^c5-13]
 
-The distinction between browser and search engine matters again. Selecting a browser does not necessarily select a different search provider, and selecting a provider once does not establish years of continued use. A test should report the behavior it measures. A study of the first screen can be useful without claiming to have measured the development of every engine behind it.
+Chrome was an alternative here. Timing could favor a position occupied by another brand.
 
-For the buyer choosing between Aster and Birch, the corresponding question might concern when users encounter the option to try another product. Offering it during a complicated setup could produce a different response from offering it at the moment of a relevant task. More information could clarify the choice or overwhelm the user. These are hypotheses about design that a suitable experiment could investigate.
+These simulated choices do not establish sustained browser use or independent search capability. A remedy's sequence can nevertheless affect its immediate outcome.
 
-An experiment on a choice screen would be an intervention. It changes the arrangement of choices and observes responses. It does not reproduce every shadow future of the old arrangement. Keeping that distinction clear makes the evidence more useful: we know which changed feature the study is trying to evaluate and which wider questions would require additional work.
+The study changed a rule and observed responses. It therefore supplies evidence about an intervention. A shadow future would preserve the old rules while outcomes unfolded differently. The distinction keeps us from asking one experiment to settle both how a screen works and how a whole competitive history would have developed.
 
 There is a constructive implication for the institution imposing a remedy. It can ask how to learn whether the remedy works. Which outcomes would show that a meaningful opportunity had opened? Which would indicate that users were merely clicking through another screen? What evidence would distinguish a temporary shift from a sustained improvement? Those questions should influence the record collected as the remedy operates.
 
@@ -226,7 +230,7 @@ For the people whose work receives different rewards, the question is more perso
 
 [^c5-2]: Mehta, August 2024 opinion, pp. 115–117, especially paragraphs 337–339. The Firefox–Yahoo switch, query-share changes, advertising pressure, and reversal are the court's account. This observed intervention is not an investigator-randomized experiment or an estimate of an invariant default effect.
 
-[^c5-3]: Mehta, August 2024 opinion, pp. 34–39, especially paragraphs 86–92. Query and click feedback can improve service. No claim is made that extra observations are uniformly uninformative or that these data measure the comparison budget.
+[^c5-3]: Mehta, August 2024 opinion, pp. 34–39, especially paragraphs 86–93. Query and click feedback can improve service. No claim is made that extra observations are uniformly uninformative or that these data measure the comparison budget.
 
 [^c5-4]: Martin Erlic, *Shadow Futures*, canonical October 2026 v5, Sections 2–5. The narrow definition of epistemic monopoly is relative to a contribution estimand and information set. The comparison-budget bound and lifetime result require their stated conditions; all additional informative observations must be included. The book's institutional interpretation does not itself identify Google's budget, establish a violation, or complete a welfare calculation. Aster, Birch, storefronts, and procurement trials are explicitly hypothetical. The probability foundations and relevant predecessors are credited in Chapters 1–4.
 
@@ -246,7 +250,7 @@ For the people whose work receives different rewards, the question is more perso
 
 [^c5-12]: Mehta, September 2025 remedies opinion, user-side data discussion, especially pp. 163–164; December final judgment, Sections IV.B–C. Privacy protections and dataset documentation are substantive parts of access. The book does not assert that every disclosed dataset remains equally useful after safeguards.
 
-[^c5-13]: Jesper Akesson, Michael Luca, Gemma Petrie, and Kush Amlani, *Can Browser Choice Screens Be Effective?* (2023), [full report](https://research.mozilla.org/files/2023/09/Can-browser-choice-screens-be-effective_-Mozilla-experiment-report.pdf), acknowledgments, executive summary, and experimental design, PDF pp. 2–5 and 22–25. Mozilla commissioned the compensated research; publication was not tied to results. Simulated browser choice differs from long-run search use. No numerical treatment effect is claimed here.
+[^c5-13]: Jesper Akesson, Michael Luca, Gemma Petrie, and Kush Amlani, *Can Browser Choice Screens Be Effective?* (2023), [full report](https://research.mozilla.org/files/2023/09/Can-browser-choice-screens-be-effective_-Mozilla-experiment-report.pdf), acknowledgments, executive summary, and experimental design, PDF pp. 2–5, 22–25 and 38–40, especially Table 2 and the T3/T4 comparison. Mozilla commissioned the compensated research. Rounded shares: 11% and 19%; reported difference: 8.2 percentage points. Timing was randomized; the click mechanism is interpretation. Long-run use was not observed.
 
 [^c5-14]: Plaintiffs, [second compliance and enforcement status report](https://www.justice.gov/atr/media/1461926/dl?inline=), September 17, 2026, pp. 2–3 and 10–12. This is a party report, not judicial certification. Scheduled October actions are not evidence of completed filings or delivery. The [public case index](https://www.justice.gov/atr/case/us-and-plaintiff-states-v-google-llc) was checked October 16, 2026.
 

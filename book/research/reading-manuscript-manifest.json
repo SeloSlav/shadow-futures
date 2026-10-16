@@ -1,7 +1,7 @@
 {
   "status": "complete_draft_assembly_review_pending",
   "file": "book/drafts/Shadow_Futures_Complete_Manuscript.md",
-  "sha256": "c7e33f9708a983d2466595b78f52ddaeacead377871005cfbc1b195d2f38f14f",
+  "sha256": "f4ad09e8c77c04c681484a741c8fb06082f33ffeac0f41c2ed00ba7ec5973c72",
   "inputs": [
     {
       "file": "book/manuscript/00-prologue.md",
@@ -25,11 +25,11 @@
     },
     {
       "file": "book/manuscript/05-the-histories-that-became-infrastructure.md",
-      "sha256": "c503ba42f89d390ed8cb90e0dcf677624a0903f3470cd655e808a6f7d8b89031"
+      "sha256": "1dc90c88de89f84f6ec0bb5ccdef2fc99ae7c717a079020d9d90fb6d52de97fa"
     },
     {
       "file": "book/manuscript/06-who-gets-to-be-tested.md",
-      "sha256": "a20e7801c5ef1eb8a28786c0a6358ce525db0685cb1367f4eacbb5369875ebd0"
+      "sha256": "24c199695c61cf871a7355b1a7b6c8fd88fc5c1891900632642f3db716626eb8"
     },
     {
       "file": "book/manuscript/07-who-deserves-the-winnings.md",
@@ -65,18 +65,18 @@
     },
     {
       "file": "book/manuscript/90-references.md",
-      "sha256": "6c0186d9e5714dd38f1a04b54bd37d7c3685dd66ac83dd7526835099a9ee0795"
+      "sha256": "d1708a140013a217801f18bb8acc8b6e73c21de03d2ada6ec1f804f622972eef"
     },
     {
       "file": "book/manuscript/91-acknowledgments.md",
       "sha256": "c9af1838c3350e792acd298dfa4480500cff91ba8218150d4ff2493d488c6671"
     }
   ],
-  "bibliography_input_sha256": "562d6bcf36621bbec33a00d0232acdb4158416f5a0ba707209d68fc04de4c5d6",
+  "bibliography_input_sha256": "379f602a5bfe3acd51dff2cf058d124cab683fcdb4500af9e5c91f49e516689f",
   "main_words": 80000,
-  "back_matter_words": 14010,
-  "reference_entries": 117,
-  "endnote_count": 186,
+  "back_matter_words": 14101,
+  "reference_entries": 118,
+  "endnote_count": 187,
   "notes_namespaced": true,
   "interpretation": "Assembly, counts, hashes and note matching do not certify facts, proofs, prose quality or completion of the book review."
 }

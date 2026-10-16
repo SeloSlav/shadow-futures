@@ -3,7 +3,7 @@
   "main_text_target": 80000,
   "main_words": 80000,
   "words_remaining_to_target": 0,
-  "back_matter_words": 14010,
+  "back_matter_words": 14101,
   "back_matter_target": [
     10000,
     15000
@@ -89,12 +89,12 @@
       "title": "The histories that became infrastructure",
       "file": "book/manuscript/05-the-histories-that-became-infrastructure.md",
       "target": 6000,
-      "stage": "drafted",
+      "stage": "reviewed",
       "exists": true,
-      "main_words": 6061,
-      "note_words": 947,
-      "sha256": "c503ba42f89d390ed8cb90e0dcf677624a0903f3470cd655e808a6f7d8b89031",
-      "note_count": 17,
+      "main_words": 6066,
+      "note_words": 1011,
+      "sha256": "1dc90c88de89f84f6ec0bb5ccdef2fc99ae7c717a079020d9d90fb6d52de97fa",
+      "note_count": 18,
       "missing_notes": [],
       "unused_notes": [],
       "duplicate_notes": false
@@ -104,11 +104,11 @@
       "title": "Who gets to be tested",
       "file": "book/manuscript/06-who-gets-to-be-tested.md",
       "target": 6000,
-      "stage": "drafted",
+      "stage": "reviewed",
       "exists": true,
-      "main_words": 6082,
-      "note_words": 771,
-      "sha256": "a20e7801c5ef1eb8a28786c0a6358ce525db0685cb1367f4eacbb5369875ebd0",
+      "main_words": 6077,
+      "note_words": 781,
+      "sha256": "24c199695c61cf871a7355b1a7b6c8fd88fc5c1891900632642f3db716626eb8",
       "note_count": 18,
       "missing_notes": [],
       "unused_notes": [],
@@ -241,7 +241,7 @@
       "file": "book/manuscript/90-references.md",
       "stage": "drafted",
       "exists": true,
-      "words": 2430
+      "words": 2447
     },
     {
       "id": "acknowledgments",

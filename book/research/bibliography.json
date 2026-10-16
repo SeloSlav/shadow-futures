@@ -2109,6 +2109,27 @@
       "canonical_v5_reference": false
     },
     {
+      "id": "SonyTransistorHistory",
+      "source_keys": [
+        "SonyTransistorHistory"
+      ],
+      "citation": "Sony Group. n.d. Developing the Transistor Radio. Sony Group History, Volume 1, Chapter 3. Part 2.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.sony.com/en/SonyInfo/CorporateInfo/History/SonyHistory/1-03.html"
+        }
+      ],
+      "known_locations": [
+        "https://www.sony.com/en/SonyInfo/CorporateInfo/History/SonyHistory/1-03.html"
+      ],
+      "cited_in": [
+        "book/manuscript/05-the-histories-that-became-infrastructure.md"
+      ],
+      "canonical_v5_reference": false,
+      "bibliographic_check": "Relevant original corporate-retrospective passages inspected October 16, 2026. Attributed equipment/reports/casing chronology; no exact launch month or recreated dialogue."
+    },
+    {
       "id": "StanfordAIIndex2026",
       "source_keys": [
         "StanfordAIIndex2026"

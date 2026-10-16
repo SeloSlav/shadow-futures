@@ -4,14 +4,14 @@
   "objective": "Complete book at prologue standard, including sequential editorial, conceptual, factual and citation review; counts and file existence do not certify completion.",
   "mechanical_checks": {
     "main_words": 80000,
-    "back_matter_words": 14010,
+    "back_matter_words": 14101,
     "main_components": 15,
-    "endnotes": 186,
-    "bibliography_entries": 117,
+    "endnotes": 187,
+    "bibliography_entries": 118,
     "canonical_v5_entries": 24,
-    "source_ledger_identifiers": 117,
+    "source_ledger_identifiers": 118,
     "identifiers_covered": true,
-    "distinct_note_urls": 142,
+    "distinct_note_urls": 143,
     "unmapped_note_urls": [],
     "interpretation": "URL-to-work coverage and source/hash binding, not proof every URL currently serves full text or every cited claim is correct."
   },
@@ -64,18 +64,20 @@
     {
       "id": "chapter_04",
       "file": "book/manuscript/05-the-histories-that-became-infrastructure.md",
-      "sha256": "c503ba42f89d390ed8cb90e0dcf677624a0903f3470cd655e808a6f7d8b89031",
-      "sequential_editorial_review": "pending",
-      "conceptual_factual_citation_review": "claim_ledgers_exist_whole_book_recheck_pending",
-      "targeted_revision": "2026-10-16 historical-scale revision; relevant new passages and sources checked, complete sequential chapter review still pending."
+      "sha256": "1dc90c88de89f84f6ec0bb5ccdef2fc99ae7c717a079020d9d90fb6d52de97fa",
+      "sequential_editorial_review": "completed",
+      "conceptual_factual_citation_review": "completed_for_recorded_claims_with_explicit_source_boundaries",
+      "checked_on": "2026-10-16",
+      "review_record": "book/research/chapter-04-source-notes.json; sequential_review field"
     },
     {
       "id": "chapter_05",
       "file": "book/manuscript/06-who-gets-to-be-tested.md",
-      "sha256": "a20e7801c5ef1eb8a28786c0a6358ce525db0685cb1367f4eacbb5369875ebd0",
-      "sequential_editorial_review": "pending",
-      "conceptual_factual_citation_review": "claim_ledgers_exist_whole_book_recheck_pending",
-      "targeted_revision": "2026-10-16 historical-scale revision; relevant new passages and sources checked, complete sequential chapter review still pending."
+      "sha256": "24c199695c61cf871a7355b1a7b6c8fd88fc5c1891900632642f3db716626eb8",
+      "sequential_editorial_review": "completed",
+      "conceptual_factual_citation_review": "completed_for_recorded_claims_with_explicit_source_boundaries",
+      "checked_on": "2026-10-16",
+      "review_record": "book/research/chapter-05-source-notes.json; sequential_review field"
     },
     {
       "id": "chapter_06",
@@ -182,7 +184,7 @@
     ],
     "scope": "Initial argument brief and outline exports only; not the 80000-word book."
   },
-  "completion_audit": "Not passed. Sequential editorial review reaches Chapter 3. Chapters 4-12 and epilogue, four original technical passages, original Blackwell and final whole-book continuity/citation audit remain incomplete.",
+  "completion_audit": "Not passed. Sequential editorial review reaches Chapter 5. Chapters 6–12 and epilogue, four original Chapter 3 technical passages, original Blackwell1953, and final whole-book continuity/citation audit remain incomplete.",
   "review_sessions": [
     {
       "checked_on": "2026-10-16",
@@ -267,7 +269,34 @@
       },
       "reader_sha256_after_revision": "c7e33f9708a983d2466595b78f52ddaeacead377871005cfbc1b195d2f38f14f",
       "remaining_scope": "Sequential review of Chapters 4–12 and epilogue, four Chapter 3 original technical passages, original Blackwell1953, final whole-book continuity/citation audit."
+    },
+    {
+      "checked_on": "2026-10-16",
+      "scope": [
+        "chapter_04",
+        "chapter_05"
+      ],
+      "method": "Complete body and notes read sequentially after Chapter 3 and the targeted historical-scale revision. Changed passages re-read with surrounding paragraphs; new source claims checked in relevant original records. Existing version/access boundaries retained.",
+      "findings": [
+        "Bell chapter replaces repeated abstraction with attributed Sony learning/casing failure, Hush-A-Phone delay/asymmetry, failed field-effect research and actual Carterfone obligations.",
+        "Sony events precede 1956; no claim decree created them, exact launch month, invented dialogue or author reporting.",
+        "Search chapter replaces generic internal trial with Project Folly, specifies index fields/third-party IP boundary and first-year 40% syndication cap with five-year tapering.",
+        "Mozilla timing contrast supplies observed rounded 11%/19% preset selections; actual reported difference 8.2 percentage points. Timing randomized; preceding click proposed mechanism, not separately identified; simulation not long-run behavior.",
+        "Judicial source findings, unresolved questions, party implementation reports, appeal arguments and author interpretations remain distinct.",
+        "New historical scale thread, prior epistemic-monopoly credit, Herod narrative boundary and acquisition research preserved.",
+        "Comparison budget, extra outcomes, private learning, replay/intervention and additional policy premises retain scope.",
+        "Full main budget and all canonical v5 citations/assigned roles preserved; counts, source hashes, note matching and URL-to-bibliography coverage verified."
+      ],
+      "budget": {
+        "main_words": 80000,
+        "back_matter_words": 14101,
+        "chapter_04_words": 6066,
+        "chapter_05_words": 6077,
+        "twelve_chapters_total": 72000
+      },
+      "reader_sha256_after_revision": "f4ad09e8c77c04c681484a741c8fb06082f33ffeac0f41c2ed00ba7ec5973c72",
+      "remaining_scope": "Sequential review of Chapters 6–12 and epilogue; four original Chapter 3 technical passages; original Blackwell1953; final whole-book continuity/citation audit."
     }
   ],
-  "next_component": "chapter_04"
+  "next_component": "chapter_06"
 }

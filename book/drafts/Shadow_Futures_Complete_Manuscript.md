@@ -911,7 +911,7 @@ The semiconductor story makes that distinction tangible. A transistor on a labor
 
 This is one way a history becomes infrastructure. Earlier work leaves designs, machines, procedures, and skills that make some later projects easier. It can also leave permissions and restrictions that determine who may try them. The resulting advantage can be productive. Engineers using an established body of knowledge may work better because somebody has already paid to develop it. A serious account of opportunity must include that benefit.
 
-Bell offers actual institutional choices against which to think about that question. We need not invent a frustrated engineer, reconstruct a private conversation, or assume that every excluded project would have succeeded. We can inspect licensing, a court dispute over a telephone attachment, and a study of subsequent patents. The record contains both productive achievement and limits on the opportunities available around it.
+Bell's records let us follow both routes. A technology could leave the laboratory through a license and a training program. A finished attachment could reach a shop yet remain barred from a customer's telephone. The invention, the right to build on it, and the right to use the result were separate economic opportunities.
 
 Follow those opportunities rather than asking whether Bell was simply good or bad. One route led from a major laboratory to inventions others could use. Another led from an independent device to a customer whose telephone service could be threatened if the device was attached. The differences between those routes help explain why releasing knowledge and opening a market can have different consequences.
 
@@ -941,13 +941,15 @@ The Federal Communications Commission had upheld the restriction. The appeals co
 
 This was a dispute about a mundane object, which is precisely why it is useful. We do not need to settle whether Hush-A-Phone was destined to transform communications. Its claim could be considered at the level of what the device did and whom it affected. A privacy aid might involve a trade-off that the two people in a conversation were capable of choosing for themselves.
 
-The companies' position also produced an unusually concrete comparison. A subscriber could cup a hand around the mouthpiece to seek privacy. The court asked why producing a similar effect with an attachment should be treated differently. The possibility of comparing the cup with the hand helped expose what a broad appeal to system protection left unexplained.[^chapter_04-c4-4]
+A subscriber could cup a hand around the mouthpiece to seek privacy. The court asked why an attachment producing a similar effect should be treated differently. The cup also left the hand free to write. A restriction presented as protection of the telephone system reached down to an ordinary choice about how to hold a private conversation.[^chapter_04-c4-4]
 
 A general network cannot function if every user is free to damage everyone else's service. That concern deserves a technical answer. The question is whether a particular restriction follows from a demonstrated harm, a reasonable precaution, or a blanket preference for equipment supplied by the operator. Those possibilities lead to different rules. They should not be made indistinguishable by calling all of them protection of the system.
 
 The informational consequence is my interpretation of the dispute. When a customer cannot use an independently supplied device, the market produces less experience of that use. Fewer people learn whether it is worth the inconvenience, whether a different design works better, or whether another application is possible. A prohibition can affect the record of performance as well as the maker's immediate sales.
 
-We should be careful about the counterfactual. Hush-A-Phone had sold devices, and the court had evidence to examine. This was not a case of literally no experience or a measured finite lifetime comparison budget. Its importance here is institutional: a rule governing attachment could restrict the use of an existing product independently of the ability to invent or manufacture it.
+The maker had already sold devices; this was no wholly untested invention. Its complaint went to the FCC in December 1948. Hearings followed in 1950, oral argument in 1951, and a final Commission decision only in December 1955. The appeals court noted the four-year delay after argument. Permission was a question about time as well as principle: an independent producer waited while the established system continued to operate. The court's record supports that chronology, not a calculation of the sales or discoveries the delay prevented.[^chapter_04-c4-4]
+
+A footnote exposed the unequal starting positions. Telephone companies could offer equipment unless the Commission stopped them; an independent maker faced authorization before competing. The court called this unfair and said delay aggravated it, while leaving the legal question unresolved. A permission system can allocate time itself: one side continues accumulating customers while the other waits. That interpretation concerns a regulator's procedure as well as private control. It is distinct from the judgment on the cup.[^chapter_04-c4-4]
 
 ### What happened after the decree
 
@@ -995,13 +997,13 @@ For an investigator of historical advantage, these examples impose a useful disc
 
 Friedrich Hayek put discovery at the center of his account of competition. In a lecture delivered in 1968, published in the English translation cited here in 2002, he argued that competition reveals facts that would otherwise remain unknown or unused. Its point involves uncertainty about the particular results it will produce. If every relevant answer were already known, the discovery process would have little to discover.[^chapter_04-c4-8]
 
-Bell's licensees give that idea a practical setting. Passing on a technology can allow other organizations to pursue uses the original laboratory has not fully developed. They bring different needs, skills, and customers. Their work may produce useful surprises. We need not know each surprise in advance to understand why the chance to undertake the work could matter.
+One outside learner was Tokyo Tsushin Kogyo, later renamed Sony. Its corporate history describes engineers studying a technical book and reports Kazuo Iwama sent from a 1954 visit to Western Electric. The team had to develop its own manufacturing equipment. Acquiring rights had not delivered a finished factory.[^chapter_04-c4-sony]
 
 Hayek's discovery argument and this book's attribution question fit together without becoming identical. A process can reveal a usable new product. Whether its resulting rewards precisely measure the effects of each contributor's inputs is another matter. Discovering that something works does not automatically recover everything that caused its maker to become the one who could offer it.
 
-For Birch, gaining a customer can reveal a problem its demonstration never exposed. Solving that problem can improve the product for the next customer. The trial creates experience as well as information about a fixed preexisting capability. That makes the trial potentially valuable, and makes its interpretation more demanding. We may be watching a supplier develop through use rather than merely taking a measurement of an unchanged supplier.
+Licensing had not delivered a saleable radio. Sony's account describes a prototype, the TR-52, whose housing warped as the weather warmed in 1955. Plans to sell it were abandoned; the redesigned TR-55 reached the market later that year. A working transistor had left a practical problem unresolved.[^chapter_04-c4-sony]
 
-The distinction matters for Aster too. Its operational experience can be a productive result of having served customers. A rival's lack of that experience may be a reason for caution without being evidence that the rival could never have developed it. The buyer needs a route that distinguishes current delivery risk from the possible value of financing learning. Those are both real considerations.
+The distinction is visible in the objects: a licensed invention, manufacturing equipment, a failed casing, a redesigned product. An opportunity to develop can generate problems nobody has yet priced into a finished offer. Solving them takes further work.
 
 At Hush-A-Phone's scale, a user could learn whether the privacy benefit justified the effect on a conversation. At a laboratory's scale, a company could learn how to turn a semiconductor technique into a product. These are different forms of discovery. Preserving the opportunity for them does not require a planner who already knows all the answers. It requires rules under which relevant answers can be produced and used.
 
@@ -1025,9 +1027,9 @@ The distinction allows us to take selection seriously while investigating instit
 
 ### Discovery inside the large organization
 
-Bell Laboratories also warns against treating organizational scale as the opposite of discovery. Bardeen's lecture described a coordinated research program, with contributions from people working on theory, materials, chemistry, and instrumentation. The work benefited from earlier research and from other groups. A large organization could bring complementary capacities together. Its internal activity belongs in any account of what the system made possible.[^chapter_04-c4-1]
+Bell's own laboratory supplies the other side. Bardeen described a field-effect proposal that initially failed. Investigating the failure directed research toward semiconductor surfaces; the point-contact transistor emerged from that program. The large organization could pursue an unpromising result until it opened another route. Productive internal discovery belongs beside the outside opportunities in this history.[^chapter_04-c4-1]
 
-Think of the difference between a patent list and the ability to carry out an experiment. An organization may have equipment, staff, and accumulated know-how that make a difficult test feasible. Splitting those capacities apart could make some experiments more expensive. Keeping them together could accelerate learning. An argument about comparison must count these benefits, rather than assuming that a smaller organizational boundary automatically creates better evidence.
+A patent list would not have performed that investigation. It required materials, instruments, theory, and people able to work together. Breaking those capacities apart might have made the experiment harder. Their value helps explain why opening a boundary and dismantling an organization are different proposals. The telephone attachment could be assessed without pretending the laboratory supplied nothing worth preserving.
 
 The 1952 symposium adds a second dimension. Knowledge developed inside a large organization could also be transmitted beyond it. Internal research and outside experimentation can be complements. The question is how the arrangement connects them: what is shared, which uses are feasible, what costs are covered, and whether someone outside can produce a result that the larger organization would not have produced itself.
 
@@ -1065,9 +1067,9 @@ The telephone companies treated its use as prohibited under their tariff. The FC
 
 The cradle makes the economic issue visible. A person could possess the radio, the telephone, and a device capable of joining the conversation, yet face a rule forbidding that combination. The performance of the combination could not be inferred from a telephone's success on its own. A new use required an opportunity at the boundary between established systems.
 
-For Birch, such a boundary might be where its product exchanges information with the buyer's existing software. An interface standard could make a useful trial possible while protecting users from harmful failures. A blanket exclusion would prevent both good and bad trials. Unrestricted connection could impose costs on others. The design problem is to distinguish those cases with a rule people can actually use.
+The FCC also allowed the network to change. Telephone companies could improve their systems and revise reasonable standards. Independent manufacturers would have to comply; an owner might have to rebuild a device or stop using it. Permission to connect did not oblige the network to preserve every old attachment forever. It created a boundary with responsibilities on both sides.[^chapter_04-c4-12]
 
-This is a narrower claim than promising that every open interface will generate a flourishing industry. It asks what a rule permits us to discover about a proposed use. The Carterfone decision provides a documented example of an institution replacing a broad exclusion with a principle attentive to harmful effects. Its wider consequences require their own evidence; the device's appeal does not supply a number for them.
+That rule changes the entrant's task. Instead of seeking permission simply because its equipment came from elsewhere, it must satisfy protective requirements. Those requirements can themselves be disputed and evaluated. The economic promise is a workable route to use, with a test of the claimed harm. Whether a particular implementation delivers that promise remains an empirical question.
 
 Notice how the institutional question has changed since the patent opening. Permission to use an invention addresses one barrier. Permission to attach a device addresses another. A technical standard can address a third, while a customer's willingness to pay remains a fourth. A policy directed at one stage should be judged against what happens along the whole route, including the obstacles that remain afterward.
 
@@ -1101,7 +1103,9 @@ Birch needs more than a favorable story about the product it might have built. I
 
 <a id="chapter_05"></a>
 
-# Chapter 5: Who gets to be tested
+# Chapter 5
+
+## Who gets to be tested
 
 ### Before the first query
 
@@ -1141,7 +1145,7 @@ Firefox's actual history also helps distinguish a changed rule from a replay. Ch
 
 The district court described several ways that user activity helped search. Queries reveal what people ask. Clicks, returns to the results page, and other interactions can help assess relevance. Query data can help decide what belongs in an index and which pages need to be revisited. More use can improve the work of finding and presenting information.[^chapter_05-c5-3]
 
-The long tail makes the advantage particularly tangible. A frequent query gives a smaller provider repeated opportunities to encounter it. An unusual query might hardly appear in that provider's record at all. A larger service can observe a wider range of questions. Its extra data can contain something different, rather than just another copy of a familiar observation.
+An unusual query makes that advantage tangible. An engine cannot learn from a question it never receives. Nor does one encounter necessarily reveal which result was useful. A click, an immediate return, and a later reformulation can tell different stories. The court described rankings informed by accumulated interactions. Scale supplies more than a larger inbox: it can supply repeated occasions to learn which answers people find useful.[^chapter_05-c5-3]
 
 This is productive information. It would be a mistake to describe every additional query as empty repetition. The relevant distinction is what a query helps us learn. More encounters can improve the established engine's response to encountered tasks while leaving another question less well answered: what would a different service, or a different development route, achieve with a meaningful chance to operate?
 
@@ -1165,7 +1169,7 @@ The example sharpens the question for outsiders. A test of search speed can answ
 
 For a user waiting for results, a faster response is a real improvement. For a potential entrant, a public demonstration of a faster prototype may still fall short of obtaining a route to users. Both perspectives matter. A system can support productive internal learning while making some kinds of external development difficult. That combination is more informative than a choice between declaring the incumbent all-knowing and declaring that it learns nothing.
 
-Suppose Aster maintains extensive internal trials. The fictional buyer could ask whether they address the reliability difference that would change its purchasing decision. If the tests do, their evidence belongs in the analysis. If they investigate only interface colors while the buyer needs to understand a different technical design, their number does not answer the relevant question. The content of comparison matters as much as its existence.
+Project Folly offers a more useful test than a count of experiments. Google's comparison identified a concrete disadvantage, and work followed to reduce it. An outsider appraising that evidence should ask whether latency is the uncertainty affecting the decision. If so, the test matters. If the question concerns another provider's development under different distribution, measuring response time cannot answer it alone.
 
 We should also distinguish a test's existence from access to its results. A private organization can possess useful evidence that a buyer, researcher, or public authority cannot examine. That can create problems of verification, incentives, or dependence. It does not justify pretending the evidence was never generated. The next step is to specify who needs to know what, and why.
 
@@ -1223,9 +1227,11 @@ One door concerned distribution. The judgment restricted tying the licensing of 
 
 A second door concerned data. The judgment specified information from Google's web index and particular user-interaction datasets used in ranking models. An index is a structured record of what the service has found on the web. User interactions can inform relevance and training. Giving a rival access to these resources could help it develop a service, but the judgment did not simply hand over all Google's algorithms, ranking signals, or trained models.[^chapter_05-c5-7]
 
+The web-index provisions named concrete fields: document identifiers, their corresponding web addresses, when an address was first seen and last crawled, a spam score, and the device type. They also included information identifying documents Google considered duplicates. These are useful ingredients for another provider's work. They are not an instruction to make the same ranking decision. Nor did the access order transfer the intellectual property rights of third parties whose material appeared in the index. An entrant could still need machinery for collecting pages, interpreting them, and delivering results. The list makes the distinction between knowledge access and a finished capability inspectable: we can ask which specified resource removes which obstacle, rather than treat the whole search engine as a single indivisible secret.[^chapter_05-c5-7]
+
 The third door concerned an operating service: syndication. A qualified competitor could obtain specified search results and features through an interface, subject to the judgment's terms. This allows a provider to use capabilities it has not reproduced for itself. It can lower the burden of serving users while the provider develops. It also raises a question about how the arrangement supports eventual independent capability.
 
-The judgment addressed that concern directly. It limited the proportion of a qualified competitor's queries that could use Google syndication and provided for that share to decline over time, with the expectation of investment in the competitor's own search capabilities. Whether those terms would produce the intended development was a future question. Their presence makes clear that access and independence were not being treated as interchangeable.
+The judgment limited reliance on that route. First-year Google syndication was capped at forty percent of a qualified competitor's annual US queries, with tapering over five years intended to encourage investment in independent search capabilities. The court left the pace and measurement of tapering for further determination. Access supplied a bridge; the terms sought to keep the bridge from becoming the competitor's permanent foundation. Whether that would work required evidence from implementation.[^chapter_05-c5-7]
 
 For Birch, the three doors would look different too. Permission to appear at the purchasing desk would give it access to a prospective buyer. Access to an existing technical record could help it improve. Permission to use an established supplier's service within its own product could let it serve a customer sooner. Each route changes what Birch can attempt, and each can leave other obstacles in place.
 
@@ -1269,15 +1275,15 @@ That distinction separates two forms of control that often travel together. One 
 
 ### A screen that can be tested
 
-The design of an access point can itself become an experimental question. In a study published by Mozilla in 2023, researchers asked participants in Germany, Spain, and Poland to set up simulated devices. They randomly varied browser choice screens, including the information provided, the number of browsers shown, and when the choice appeared. Other participants received a preset browser without a choice screen.[^chapter_05-c5-13]
+Mozilla's 2023 study randomly varied browser choice screens during simulated device setup in Germany, Spain, and Poland. Information, list length, and timing were experimental choices. One comparison held the five-browser screen constant while changing when it appeared.[^chapter_05-c5-13]
 
-This was browser choice within a simulated setup, rather than a field estimate of long-run search competition. Its immediate value here is the design: “give people a choice” was broken into arrangements that could be compared. Information, list length, and timing became features to investigate instead of details left for implementation after the principle had been announced.
+When the screen followed a click on the preset browser's icon, roughly nineteen percent selected that browser, compared with eleven percent during setup. The preset was Samsung Internet or Edge. The preceding click was a proposed explanation, not a separately established mechanism.[^chapter_05-c5-13]
 
-The distinction between browser and search engine matters again. Selecting a browser does not necessarily select a different search provider, and selecting a provider once does not establish years of continued use. A test should report the behavior it measures. A study of the first screen can be useful without claiming to have measured the development of every engine behind it.
+Chrome was an alternative here. Timing could favor a position occupied by another brand.
 
-For the buyer choosing between Aster and Birch, the corresponding question might concern when users encounter the option to try another product. Offering it during a complicated setup could produce a different response from offering it at the moment of a relevant task. More information could clarify the choice or overwhelm the user. These are hypotheses about design that a suitable experiment could investigate.
+These simulated choices do not establish sustained browser use or independent search capability. A remedy's sequence can nevertheless affect its immediate outcome.
 
-An experiment on a choice screen would be an intervention. It changes the arrangement of choices and observes responses. It does not reproduce every shadow future of the old arrangement. Keeping that distinction clear makes the evidence more useful: we know which changed feature the study is trying to evaluate and which wider questions would require additional work.
+The study changed a rule and observed responses. It therefore supplies evidence about an intervention. A shadow future would preserve the old rules while outcomes unfolded differently. The distinction keeps us from asking one experiment to settle both how a screen works and how a whole competitive history would have developed.
 
 There is a constructive implication for the institution imposing a remedy. It can ask how to learn whether the remedy works. Which outcomes would show that a meaningful opportunity had opened? Which would indicate that users were merely clicking through another screen? What evidence would distinguish a temporary shift from a sustained improvement? Those questions should influence the record collected as the remedy operates.
 
@@ -3071,13 +3077,13 @@ Lockdown's other chart was there to be read. Most economic alternatives have no 
 
 ## The histories that became infrastructure
 
-[^chapter_04-c4-1]: John Bardeen, “Semiconductor Research Leading to the Point Contact Transistor,” Nobel lecture, December 11, 1956, [full lecture](https://www.nobelprize.org/uploads/2018/06/bardeen-lecture.pdf), pp. 318–320: research program, earlier theory, materials, and complementary contributions. For the December 1947 device, see the Computer History Museum's [collection account](https://www.computerhistory.org/siliconengine/invention-of-the-point-contact-transistor/), with original logbook and publication references. This documents an achievement; it does not estimate the causal benefit of Bell's organizational structure.
+[^chapter_04-c4-1]: John Bardeen, “Semiconductor Research Leading to the Point Contact Transistor,” Nobel lecture, December 11, 1956, [full lecture](https://www.nobelprize.org/uploads/2018/06/bardeen-lecture.pdf), pp. 318–321: research program, earlier theory, materials, complementary contributions and the failed field-effect proposal directing surface research. For the December 1947 device, see the Computer History Museum's [collection account](https://www.computerhistory.org/siliconengine/invention-of-the-point-contact-transistor/), with original logbook and publication references. This documents an achievement; it does not estimate the causal benefit of Bell's organizational structure.
 
 [^chapter_04-c4-2]: U.S. Department of Justice, *United States Attorneys' Bulletin*, February 17, 1956, vol. 4, no. 4, [full issue](https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0404.pdf), Antitrust Division, p. 119. The contemporary summary records licensing, technical-information, patent-list, and other requirements. Licensing included exceptions and reciprocal arrangements; this was not a general abolition of patents. Reported portfolio counts differ by source and definition, so the narrative uses “thousands.” The 1956 settlement is distinct from the later Bell breakup.
 
 [^chapter_04-c4-3]: Computer History Museum, [“1952: Bell Labs Licenses Transistor Technology”](https://www.computerhistory.org/siliconengine/bell-labs-licenses-transistor-technology/), symposium and manufacturing-visit account, with proceedings and collection references. The stated $25,000 fee and nine-day event predate the 1956 decree. This distinction prevents attributing the beginning of outside transistor development to the later settlement.
 
-[^chapter_04-c4-4]: *Hush-A-Phone Corp. v. United States*, 238 F.2d 266 (D.C. Cir. 1956), November 8, 1956, [full opinion](https://law.justia.com/cases/federal/appellate-courts/F2/238/266/247909/), pp. 267–269 and notes 8–12. The court's account supplies the device, sales/use figure, tariff, distributor effects, and cupped-hand comparison. It set aside the FCC order and remanded. The opinion did not decide the antitrust issues it expressly left open. The chapter's inference about comparison production is an economic interpretation, not the holding.
+[^chapter_04-c4-4]: *Hush-A-Phone Corp. v. United States*, 238 F.2d 266 (D.C. Cir. 1956), November 8, 1956, [full opinion](https://law.justia.com/cases/federal/appellate-courts/F2/238/266/247909/), pp. 267–269 and notes 8–12. The court supplies the device, sales/use figure, tariff, distributor effects, cupped-hand comparison and free hand, and 1948–1955 procedural chronology. It set aside the FCC order and remanded. The opinion did not decide the antitrust issues it expressly left open. The chapter's inference about comparison production is an economic interpretation, not the holding.
 
 [^chapter_04-c4-5]: Martin Watzinger, Thomas A. Fackler, Markus Nagler, and Monika Schnitzer, “How Antitrust Enforcement Can Spur Innovation: Bell Labs and the 1956 Consent Decree,” *American Economic Journal: Economic Policy* 12 (2020): 328–359, [published record](https://www.aeaweb.org/articles?id=10.1257/pol.20190086). Relevant full passages checked in the [June 9, 2017 author paper](https://www.uoc.gr/files/items/6/6537/watzinger_et_al.pdf), introduction, institutional background, and empirical design/results. The published abstract confirms the matching design and contrasting sector findings. No effect size is taken from earlier working-paper versions. Patent-based follow-on innovation is not total welfare or an estimated comparison budget.
 
@@ -3093,7 +3099,7 @@ Lockdown's other chart was there to be read. Most economic alternatives have no 
 
 [^chapter_04-c4-11]: Armen A. Alchian, “Uncertainty, Evolution, and Economic Theory,” *Journal of Political Economy* 58 (1950): 211–221, pp. 213–214; local copy in `book/sources/classics/`. Selection through profit does not require universal foresight. The institutional application here is the book's interpretation.
 
-[^chapter_04-c4-12]: FCC, *Use of the Carterfone Device in Message Toll Telephone Service*, 13 FCC 2d 420 (1968), adopted June 26, 1968, [full decision in Commissioner Nicholas Johnson's archive](https://www.nicholasjohnson.org/FCCOps/1968/13F2-420.html), pp. 420–425. The decision describes the device and rejects the blanket rule while allowing reasonable protective standards. The chapter does not infer quantified downstream benefits or universal permission for harmful connections.
+[^chapter_04-c4-12]: FCC, *Use of the Carterfone Device in Message Toll Telephone Service*, 13 FCC 2d 420 (1968), adopted June 26, 1968, [full decision in Commissioner Nicholas Johnson's archive](https://www.nicholasjohnson.org/FCCOps/1968/13F2-420.html), pp. 420–425. The decision describes the device and rejects the blanket rule while allowing reasonable protective standards, including revisions and owners' responsibility to rebuild or discontinue noncompliant devices (p. 424). The chapter does not infer quantified downstream benefits or universal permission for harmful connections.
 
 [^chapter_04-c4-13]: Martin Erlic, *Shadow Futures*, canonical October 2026 v5, Sections 3–5. The comparison budget concerns modeled allocation chance outside the current favorite, relative to the recorded experiment and target. Historical licensing, attachment, and coordination cases are interpretations and applications, not empirical demonstrations of Theorem 1. Aster, Birch, software training, component trials, and other purchasing examples are explicitly fictional illustrations.
 
@@ -3105,13 +3111,15 @@ Lockdown's other chart was there to be read. Most economic alternatives have no 
 
 [^chapter_04-c4-anderson]: P. W. Anderson, “More Is Different,” *Science* 177, no. 4047 (1972): 393–396, opening page and Bell Telephone Laboratories affiliation. [Published article](https://www.rpgroup.caltech.edu/embl_pboc_2023/assets/pdfs/anderson1972.pdf). The economic use is an analogy. Neither Anderson nor v5 proves the proposed centuries-long historical progression.
 
+[^chapter_04-c4-sony]: Sony Group History, Volume 1, Chapter 3, [“Developing the Transistor Radio”](https://www.sony.com/en/SonyInfo/CorporateInfo/History/SonyHistory/1-03.html), Part 2. Corporate retrospective; reports, equipment and TR-52/TR-55 chronology are attributed. No reconstructed dialogue, motives, or precise launch month is used; these events predate the 1956 decree.
+
 ## Who gets to be tested
 
 [^chapter_05-c5-1]: Amit P. Mehta, *United States v. Google*, memorandum opinion, August 5, 2024, [full court opinion](https://fingfx.thomsonreuters.com/gfx/legaldocs/gdpzmaxjxvw/United%20States%20v%20Google%2020240805.pdf), printed pp. 1–4. Quality findings, default arrangements, 2021 payments, and liability are dated findings, not descriptions of current shares or an appellate disposition. The search case is distinct from the separate ad-tech litigation.
 
 [^chapter_05-c5-2]: Mehta, August 2024 opinion, pp. 115–117, especially paragraphs 337–339. The Firefox–Yahoo switch, query-share changes, advertising pressure, and reversal are the court's account. This observed intervention is not an investigator-randomized experiment or an estimate of an invariant default effect.
 
-[^chapter_05-c5-3]: Mehta, August 2024 opinion, pp. 34–39, especially paragraphs 86–92. Query and click feedback can improve service. No claim is made that extra observations are uniformly uninformative or that these data measure the comparison budget.
+[^chapter_05-c5-3]: Mehta, August 2024 opinion, pp. 34–39, especially paragraphs 86–93. Query and click feedback can improve service. No claim is made that extra observations are uniformly uninformative or that these data measure the comparison budget.
 
 [^chapter_05-c5-4]: Martin Erlic, *Shadow Futures*, canonical October 2026 v5, Sections 2–5. The narrow definition of epistemic monopoly is relative to a contribution estimand and information set. The comparison-budget bound and lifetime result require their stated conditions; all additional informative observations must be included. The book's institutional interpretation does not itself identify Google's budget, establish a violation, or complete a welfare calculation. Aster, Birch, storefronts, and procurement trials are explicitly hypothetical. The probability foundations and relevant predecessors are credited in Chapters 1–4.
 
@@ -3131,7 +3139,7 @@ Lockdown's other chart was there to be read. Most economic alternatives have no 
 
 [^chapter_05-c5-12]: Mehta, September 2025 remedies opinion, user-side data discussion, especially pp. 163–164; December final judgment, Sections IV.B–C. Privacy protections and dataset documentation are substantive parts of access. The book does not assert that every disclosed dataset remains equally useful after safeguards.
 
-[^chapter_05-c5-13]: Jesper Akesson, Michael Luca, Gemma Petrie, and Kush Amlani, *Can Browser Choice Screens Be Effective?* (2023), [full report](https://research.mozilla.org/files/2023/09/Can-browser-choice-screens-be-effective_-Mozilla-experiment-report.pdf), acknowledgments, executive summary, and experimental design, PDF pp. 2–5 and 22–25. Mozilla commissioned the compensated research; publication was not tied to results. Simulated browser choice differs from long-run search use. No numerical treatment effect is claimed here.
+[^chapter_05-c5-13]: Jesper Akesson, Michael Luca, Gemma Petrie, and Kush Amlani, *Can Browser Choice Screens Be Effective?* (2023), [full report](https://research.mozilla.org/files/2023/09/Can-browser-choice-screens-be-effective_-Mozilla-experiment-report.pdf), acknowledgments, executive summary, and experimental design, PDF pp. 2–5, 22–25 and 38–40, especially Table 2 and the T3/T4 comparison. Mozilla commissioned the compensated research. Rounded shares: 11% and 19%; reported difference: 8.2 percentage points. Timing was randomized; the click mechanism is interpretation. Long-run use was not observed.
 
 [^chapter_05-c5-14]: Plaintiffs, [second compliance and enforcement status report](https://www.justice.gov/atr/media/1461926/dl?inline=), September 17, 2026, pp. 2–3 and 10–12. This is a party report, not judicial certification. Scheduled October actions are not evidence of completed filings or delivery. The [public case index](https://www.justice.gov/atr/case/us-and-plaintiff-states-v-google-llc) was checked October 16, 2026.
 
@@ -3560,6 +3568,8 @@ Salganik, M. J., Dodds, P. S., and Watts, D. J. (2006). Experimental study of in
 Smith, A. 1776. An Inquiry into the Nature and Causes of the Wealth of Nations. Book I, Chapters I, III and X, Part II. [Source](https://www.gutenberg.org/files/3300/3300-h/3300-h.htm)
 
 Snow, J. 1855. On the Mode of Communication of Cholera. Second edition. London: John Churchill. Part 3; UCLA transcription. [Source](https://epi-snow.ph.ucla.edu/Stream3_GrandExperiment_a.html)
+
+Sony Group. n.d. Developing the Transistor Radio. Sony Group History, Volume 1, Chapter 3. Part 2. [Source](https://www.sony.com/en/SonyInfo/CorporateInfo/History/SonyHistory/1-03.html)
 
 Stanford Institute for Human-Centered Artificial Intelligence. 2026. Artificial Intelligence Index Report 2026. Research and Development chapter and dataset qualifications. [Source](https://hai.stanford.edu/assets/files/ai_index_report_2026.pdf)
 

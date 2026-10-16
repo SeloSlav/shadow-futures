@@ -2,19 +2,20 @@
   "manuscript": "book/manuscript/05-the-histories-that-became-infrastructure.md",
   "title": "The histories that became infrastructure",
   "checked_on": "2026-10-16",
-  "status": "drafted",
+  "status": "reviewed",
   "target_main_words": 6000,
-  "body_words": 6061,
-  "draft_sha256": "c503ba42f89d390ed8cb90e0dcf677624a0903f3470cd655e808a6f7d8b89031",
+  "body_words": 6066,
+  "draft_sha256": "1dc90c88de89f84f6ec0bb5ccdef2fc99ae7c717a079020d9d90fb6d52de97fa",
   "source_checks": "Claim-specific passages checked in full primary records, identified author versions, and museum collection accounts. Version, access and interpretation boundaries retained; no independent proof or priority certification.",
   "sources": [
     {
       "key": "Bardeen1956",
       "note": "c4-1",
       "source": "https://www.nobelprize.org/uploads/2018/06/bardeen-lecture.pdf",
-      "locator": "Nobel lecture December 11, 1956; printed pp. 318-320 (PDF 1-3)",
+      "locator": "Nobel lecture December 11, 1956; printed pp. 318–321 (PDF 1–4); failed field-effect proposal and ensuing surface-research direction on p. 321 rechecked in original local PDF.",
       "claims": [
-        "Complementary research contributions, theoretical foundation, improved materials, coordinated program"
+        "Complementary research contributions, theoretical foundation, improved materials, coordinated program",
+        "Initially unsuccessful field-effect work helped direct surface research from which the point-contact transistor emerged"
       ],
       "boundary": "Inventor account; no estimated causal contribution of organizational integration.",
       "v5_reference": false
@@ -56,11 +57,12 @@
       "key": "HushAPhone1956",
       "note": "c4-4",
       "source": "https://law.justia.com/cases/federal/appellate-courts/F2/238/266/247909/",
-      "locator": "Full judicial opinion, 238 F.2d 266-269; November 8, 1956; notes 8-12",
+      "locator": "Full judicial opinion, 238 F.2d 266–269; printed pp. 267–269 and notes 8–12; procedure, free hand and permission asymmetry rechecked October 16, 2026.",
       "claims": [
-        "Device, use count, tariff and claimed suspension/termination, distributor withdrawal, FCC reasoning, cupped hand, reversal/remand"
+        "Device, use count, tariff and claimed suspension/termination, distributor withdrawal, FCC reasoning, cupped hand, reversal/remand",
+        "1948 complaint, 1950 hearing, 1951 argument, 1955 FCC decision; free hand to write; footnote 9 permission asymmetry and delay concern"
       ],
-      "boundary": "Court explicitly did not reach antitrust issues; no present-day legal liability claimed. Information-production effects are book interpretation, not judicial holding or measured budget.",
+      "boundary": "Court explicitly did not reach antitrust issues; no present-day legal liability claimed. Information-production effects are book interpretation, not judicial holding or measured budget. Court left the permission-asymmetry legal question unresolved; time allocation is author interpretation, not measured lost sales or discoveries.",
       "v5_reference": false
     },
     {
@@ -160,9 +162,10 @@
       "key": "Carterfone1968",
       "note": "c4-12",
       "source": "https://www.nicholasjohnson.org/FCCOps/1968/13F2-420.html",
-      "locator": "13 FCC 2d 420; adopted June 26, 1968; full decision pp. 420-425, particularly 423-425",
+      "locator": "13 FCC 2d 420; adopted June 26, 1968; full decision pp. 420–425, especially p. 424 on reasonable revised standards, rebuilding or discontinuing equipment; refreshed original commissioner archive text.",
       "claims": [
-        "Radio-telephone connection, cradle operation, tariff exclusion, findings of need/no adverse system effect, reasonable standards allowed"
+        "Radio-telephone connection, cradle operation, tariff exclusion, findings of need/no adverse system effect, reasonable standards allowed",
+        "Network improvements/revised reasonable standards allowed; outside equipment must comply or be rebuilt/discontinued"
       ],
       "boundary": "Commissioner archive reprints original decision. No blanket permission for harmful devices; no quantified downstream industry/internet effects asserted.",
       "v5_reference": false
@@ -221,6 +224,18 @@
       ],
       "boundary": "Physics essay supplies a credited analogy, not an economic phase-transition theorem or evidence of declining comparison.",
       "v5_reference": false
+    },
+    {
+      "key": "SonyTransistorHistory",
+      "note": "c4-sony",
+      "source": "https://www.sony.com/en/SonyInfo/CorporateInfo/History/SonyHistory/1-03.html",
+      "locator": "Volume 1, Chapter 3, Part 2, The Iwama Reports: paragraphs on 1954 study, reports and manufacturing equipment, and 1955 TR-52 case failure/TR-55. Full relevant original corporate text read.",
+      "claims": [
+        "Technical book, Iwama reports and 1954 Western Electric visit; custom manufacturing equipment",
+        "TR-52 housing warped in 1955, planned sale abandoned, redesigned TR-55 marketed that year"
+      ],
+      "boundary": "Corporate retrospective explicitly attributed; no reconstructed dialogue, motives, factory visit by author, exact launch month, or claim 1956 decree created this earlier development.",
+      "v5_reference": false
     }
   ],
   "illustrations": [
@@ -235,13 +250,37 @@
     "Access to existing knowledge distinguished from opportunity to produce new evidence.",
     "Costs, incentives, coordination benefits, internal experiments and substitute evaluation included.",
     "No equations, invented interviews, private reactions or dialogue.",
-    "No actual comparison-budget estimate or infinite-horizon condition inferred from these cases."
+    "No actual comparison-budget estimate or infinite-horizon condition inferred from these cases.",
+    "Sony technical learning and TR-52 casing failure are attributed corporate history before the decree.",
+    "Procedural delay/permission asymmetry, failed Bell field-effect work and revisable interconnection standards supply new concrete detail."
   ],
-  "whole_book_review": "Still required after full draft, including repeated hypothetical supplier passages and density/pace review.",
-  "note_words": 947,
+  "whole_book_review": "Sequential chapter review completed for the saved draft and recorded claims; final cross-book continuity, contemporary refresh and whole-book completion audit remain required. Separate Chapter 3 technical-source queue is not resolved by this review.",
+  "note_words": 1011,
   "historical_scale_revision": {
     "checked_on": "2026-10-16",
-    "scope": "Targeted user-requested historical scale, reach-of-judgment, preemption, platform work, precaution and private-property revision; complete sequential chapter review remains pending.",
+    "scope": "Earlier targeted historical-scale revision, subsequently included in the complete sequential chapter review recorded in sequential_review.",
     "boundary": "No inevitable historical decline, finite-budget diagnosis of any actual market, independent proof/priority certification, or automatic policy/liability inference."
+  },
+  "sequential_review": {
+    "checked_on": "2026-10-16",
+    "status": "completed_for_recorded_chapter_claims",
+    "method": "Complete body and all notes read in order after Chapter 3 and after targeted scale revision; revised passages checked in their surrounding sections. Existing source-specific boundaries retained; new facts checked against identified primary passages.",
+    "findings": [
+      "Removed narrator instructions and repeated generic supplier explanations from Bell opening and middle.",
+      "Sony technical learning and failed radio casing supply an actual outside-development sequence, explicitly preceding 1956.",
+      "Hush-A-Phone waiting times, permission asymmetry and free-hand comparison make timing and evaluation tangible; unresolved legal question distinguished from holding.",
+      "Bardeen's failed field-effect proposal supplies a concrete internal discovery path; productive integration retained.",
+      "Carterfone reasonable revised standards and owner obligations make interoperability costs and continued development concrete.",
+      "Smith/steel/Anderson historical extension remains conditional; no uniform old-market freedom, historical theorem or real-market finite-budget claim.",
+      "1952 sharing/1956 decree/1968 attachment chronology, sectoral contrast, disputed QWERTY, Hayek, Merton, Arthur, Alchian and van de Rijt credit retained.",
+      "Access to existing information versus new evidence, informative private tests, replay versus intervention and welfare premises remain distinct."
+    ],
+    "source_rechecks": [
+      "Sony corporate history Part 2",
+      "Bardeen printed pp. 319–321",
+      "Hush-A-Phone pp. 267–269 and footnote 9",
+      "Carterfone pp. 420–425, especially 424"
+    ],
+    "draft_sha256": "1dc90c88de89f84f6ec0bb5ccdef2fc99ae7c717a079020d9d90fb6d52de97fa"
   }
 }
