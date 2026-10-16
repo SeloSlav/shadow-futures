@@ -1,4 +1,4 @@
-.page { max-width: 1180px; margin: 0 auto; padding: 4rem 2rem; }
+.page { max-width: 1180px; margin: 0 auto; padding: 7rem 2rem 4rem; }
 .intro { display: grid; grid-template-columns: 160px 1fr; gap: 2.75rem; align-items: center; margin: 0 auto 3rem; max-width: 850px; }
 .cover { border-radius: 2px 5px 5px 2px; box-shadow: 5px 12px 22px #142c3430; }
 .eyebrow { color: #8b6b3c; font-size: .68rem; text-transform: uppercase; letter-spacing: .12em; margin: 0 0 .8rem; }
@@ -23,4 +23,4 @@
 .chapters small { color: var(--muted); font-size: .61rem; text-transform: uppercase; letter-spacing: .09em; }
 .chapters span { font-family: var(--font-serif); font-size: 1rem; line-height: 1.35; }
 .chapters span.arrow { position: absolute; right: 1rem; top: 1.4rem; font-family: var(--font-sans); font-size: .8rem; color: #92988f; }
-@media (max-width: 680px) { .page { padding: 2.5rem 1.1rem; } .intro { grid-template-columns: 105px minmax(0,1fr); gap: 1.2rem; } .cover { width: 105px; height: auto; align-self: start; } .intro h1 { font-size: 2.4rem; } .subtitle { font-size: 1.05rem; } .eyebrow { font-size: .57rem; } .toolbar { font-size: .66rem; padding: .85rem; } .frame { height: 75vh; min-height: 480px; } .chapters { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+@media (max-width: 680px) { .page { padding: 6rem 1.1rem 2.5rem; } .intro { grid-template-columns: 105px minmax(0,1fr); gap: 1.2rem; } .cover { width: 105px; height: auto; align-self: start; } .intro h1 { font-size: 2.4rem; } .subtitle { font-size: 1.05rem; } .eyebrow { font-size: .57rem; } .toolbar { font-size: .66rem; padding: .85rem; } .frame { height: 75vh; min-height: 480px; } .chapters { grid-template-columns: repeat(2,minmax(0,1fr)); } }
