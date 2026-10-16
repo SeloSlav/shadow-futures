@@ -1,7 +1,7 @@
 {
   "status": "complete_draft_assembly_review_pending",
   "file": "book/drafts/Shadow_Futures_Complete_Manuscript.md",
-  "sha256": "e971e97d0c668b9b8a5edac8d69d3747e9339d74e622a3d48722005324f718fc",
+  "sha256": "3420a064fba4cdb00082beceda2f1d209016f0d624afc617764a6f59fe7d21d3",
   "inputs": [
     {
       "file": "book/manuscript/00-prologue.md",
@@ -49,7 +49,7 @@
     },
     {
       "file": "book/manuscript/11-competition-for-future-evidence.md",
-      "sha256": "5749766807bda01e562025b1c3c69ef90969b948840732c051b39879bd7da7e8"
+      "sha256": "757c534e4ad7f74bec16ef6327409ca423a5c4fbf3aef968a80c59b382fcfee4"
     },
     {
       "file": "book/manuscript/12-taxing-lost-comparison.md",
@@ -57,7 +57,7 @@
     },
     {
       "file": "book/manuscript/13-an-economics-of-possible-worlds.md",
-      "sha256": "d9fa74311452cdb118f7f0f1c1a18f61f98d653617abb67b70b38a9e92cbcef0"
+      "sha256": "15f467d49f9dca59a0a6fa90553087e4874cbedcdd8c0c47f2f2aac0299d039c"
     },
     {
       "file": "book/manuscript/14-epilogue.md",
@@ -72,9 +72,9 @@
       "sha256": "c9af1838c3350e792acd298dfa4480500cff91ba8218150d4ff2493d488c6671"
     }
   ],
-  "bibliography_input_sha256": "f32a1affd37a3bcf395ffce744e4e84a15a17c28c1336a37db178edc876095bb",
+  "bibliography_input_sha256": "ed393624b7685109429a83dd355aeffef39043498e586d8f277609ee4e431ef3",
   "main_words": 80000,
-  "back_matter_words": 14568,
+  "back_matter_words": 14591,
   "reference_entries": 119,
   "endnote_count": 188,
   "notes_namespaced": true,

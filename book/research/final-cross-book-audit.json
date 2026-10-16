@@ -1,8 +1,8 @@
 {
   "status": "in_progress",
   "checked_on": "2026-10-16",
-  "reader_sha256": "e971e97d0c668b9b8a5edac8d69d3747e9339d74e622a3d48722005324f718fc",
-  "scope": "Cross-book audit after all15main components received sequential editorial review. Completed checks below do not clear open source/theory requirements.",
+  "reader_sha256": "3420a064fba4cdb00082beceda2f1d209016f0d624afc617764a6f59fe7d21d3",
+  "scope": "Cross-book audit after all 15 main components received sequential editorial review. Recorded comparisons and source completion below are bounded checks; four canonical original technical passages remain open.",
   "completed_checks": [
     {
       "check": "Transitions and narrative order",
@@ -28,6 +28,21 @@
       "check": "Mechanical coverage",
       "method": "Build reading manuscript, check notes,source/reader hashes, all24canonical identity strings and assignments, URL-to-work coverage and combined budget.",
       "finding": "Pass for the recorded artifact; neither citation identity nor URL coverage certifies unavailable source passages."
+    },
+    {
+      "check": "Recurring cases and definition consistency",
+      "method": "Read all 43 MusicLab/Lockdown paragraphs across components together, plus selected defining and policy paragraphs; re-read canonical v5 Sections2–3 and AppendicesB–C against the trade exposition.",
+      "finding": "First/fortieth outcomes, 48 songs, independent developing markets and fixed recordings consistent. Distinct 2008 chart intervention remains separate. Allocation probability is conditional and cumulative; replay preserves response rules while realized inputs may vary. Theorem conditions, fixed-law versus prior-mixture distinction, precision limit versus attainable rate and all other informative outcomes remain explicit. No new empirical validation or priority certification."
+    },
+    {
+      "check": "Historical scale and policy continuity",
+      "method": "Combined prior full sequential reviews of Chapters4,5,9–12 with current reading of selected surrounding paragraphs on towns, common judgment, preemption, sole supplier, property, precaution, private tests and replacement.",
+      "finding": "Historical hypothesis concerns reach/synchronization of selection rather than size or logo count. Earlier guild barriers and large steel industry prevent a simple lost-golden-age story. Herod is labeled literary analogy, separate pharmaceutical evidence supplies the empirical case. OpenAI scenario adds indispensable gatekeeping/no workable independent route. Market clearing does not guarantee undeveloped entry. Rebuttable access proposal retains scale benefits, private tests, costs, lawful authority, safeguards and public-evaluator risks. These are additional arguments, not consequences proved by v5."
+    },
+    {
+      "check": "Semantic repetition candidates",
+      "method": "Compared TF-IDF word vectors for 1270 main-text paragraphs of at least35words across distinct components; manually read all9pairs above cosine0.45, then the full43paragraph recurring MusicLab cluster and defining/policy clusters. This is a targeted editorial aid, not a complete semantic detector.",
+      "finding": "All9high-overlap pairs revisit documented cases or predecessor concepts. Opening previews precede fuller accounts; later passages apply findings to attribution, work or tax. Dutch grant and Akerlof returns explicitly introduce the distinct selection/observed-input problem. Repeated facts agree; no redundant detached section found in these candidates. Necessary definition/condition reminders retained. Earlier sequential reviews removed larger repeated caveat blocks."
     }
   ],
   "exact_repeated_sentences": [
@@ -44,11 +59,11 @@
   "open_original_sources": [
     {
       "key": "Kakutani1948",
-      "recheck": "Official JSTOR PDF endpoint returned3038-byteHTML; no PDF saved. Narrow local filename search in author project/downloads returned no matching source. Original relevant passage still pending."
+      "recheck": "Official JSTOR PDF endpoint returned3038-byteHTML; no PDF saved. Narrow local filename search in author project/downloads returned no matching source. Original relevant passage still pending. Later public JSTOR p.214 introduction/visible definitions read. Main theorem in Section6 remains unavailable; free reader requires registration. Google collected-paper preview search challenged; no bypass."
     },
     {
       "key": "KabanovLiptserShiryaev1977",
-      "recheck": "Previously recovered direct PDF timed out again. Indexed alternate publisher link exposed originalp203 introduction/local absolute-continuity setup, but direct open redirected to portal and theorem statement was not obtained. No theorem/proof or savedPDF upgrade."
+      "recheck": "Previously recovered direct PDF timed out again. Indexed alternate publisher link exposed originalp203 introduction/local absolute-continuity setup, but direct open redirected to portal and theorem statement was not obtained. No theorem/proof or savedPDF upgrade. Ordinary publisher browser page also timed out; no original theorem read."
     },
     {
       "key": "JacodShiryaev2003",
@@ -56,25 +71,31 @@
     },
     {
       "key": "LeCamYang2000",
-      "recheck": "Official chapter PDF redirected to subscription chapter HTML; GoogleBooks page-specific URLs not accessible through web research. No bound passage obtained."
-    },
-    {
-      "key": "Blackwell1953",
-      "recheck": "Two official Euclid PDF routes returned1166/1161-byteHTML. Celebratio bibliography ReadPDF link resolves to empty media directory, not the paper. Modern deOliveira proof remains checked, original1953gap open."
+      "recheck": "Original Google Books preview: p.6 upper portion, Section2.1; p.13 Definition1; p.14 portions including Definition2; p.18 Corollaries1–2; p.19 upper portion; p.27 portions. Decision risk, deficiency, experiment distance and Bayes-risk comparison actually read. Specific two-point testing bound not located. Partial original passage check now available, not metadata alone. Preview excludes pp.16–17; no bypass attempted. The specific precision-bound passage remains open; no full-chapter, theorem-number or original two-point-bound inspection claim."
     }
   ],
   "remaining_work": [
-    "Read/check the four original canonical technical passages and originalBlackwell1953 without upgrading metadata or secondhand lineage into original inspection.",
-    "Complete final cross-book conceptual/factual/citation/semantic-repetition audit against final source findings and saved hashes.",
-    "Rebuild and checkpoint final artifacts after any remaining edits; complete objective audit against all six plan requirements."
+    "Read/check four remaining canonical original technical passages: Kakutani1948 main theorem, KabanovLiptserShiryaev1977 relevant extension, JacodShiryaev2003 particular continuity criterion, LeCamYang2000 two-point bound. Partial original passages and checked alternative primary sources do not silently clear these checks.",
+    "Reconcile final conceptual/citation audit with those source findings; retain no claim of independent proof or priority certification.",
+    "Complete objective audit against all six plan requirements and checkpoint any final changes."
   ],
   "mechanical_totals": {
     "main_words": 80000,
-    "back_matter_words": 14568,
+    "back_matter_words": 14591,
     "endnotes": 188,
     "references": 119,
     "ledger_identifiers": 120,
     "note_urls": 145,
     "canonical_v5": 24
-  }
+  },
+  "resolved_original_sources": [
+    {
+      "key": "Blackwell1953",
+      "checked_on": "2026-10-16",
+      "local_path": "book/sources/classics/Blackwell_1953_Equivalent_Comparisons_of_Experiments.pdf",
+      "sha256": "f490b8395187edc34ab46a3d45455f1f59cbbc9632964c63218a2f4c8ba8cd1d",
+      "locator": "Original pp.265–272 visually read; book claims use pp.265–267 and Section4 pp.268–269.",
+      "finding": "Decision-risk and state-independent transformation equivalence supports the bounded account. Original earlier finite-result credit to Sherman/Stein retained. Prior access failures superseded by ordinary browser publisher download."
+    }
+  ]
 }

@@ -10,19 +10,16 @@
       "filename": "Blackwell_1953_Equivalent_Comparisons_of_Experiments.pdf",
       "urls": [
         "https://www.jstor.org/stable/pdf/2236332.pdf",
-        "https://projecteuclid.org/download/pdf_1/euclid.aoms/1177729032"
+        "https://projecteuclid.org/download/pdf_1/euclid.aoms/1177729032",
+        "https://projecteuclid.org/journalArticle/Download?urlId=10.1214%2Faoms%2F1177729032"
       ],
       "v5_reference": false,
       "role": "Decision-based comparison of experiments; additional foundation for the policy extension.",
-      "status": "link_only",
-      "errors": [
-        "https://www.jstor.org/stable/pdf/2236332.pdf: ValueError: Response was not a PDF",
-        "https://projecteuclid.org/download/pdf_1/euclid.aoms/1177729032: ValueError: Response was not a PDF"
-      ],
-      "source_url": "https://www.jstor.org/stable/pdf/2236332.pdf",
-      "book_full_text_check": "original_passage_check_pending_finite_theorem_checked_in_deOliveira2017_primary_proof",
+      "status": "downloaded",
+      "source_url": "https://projecteuclid.org/journalArticle/Download?urlId=10.1214%2Faoms%2F1177729032",
+      "book_full_text_check": "relevant_passages_checked_for_recorded_draft_claims",
       "checked_on": "2026-10-16",
-      "access_boundary": "Original ProjectEuclid current/legacy HTTPS and HTTP endpoints and JSTOR return HTML; Celebratio bibliography PDF link has no file target. Original remains link_only. Modern full primary theorem/proof used with historical credit, no original inspection claim.",
+      "access_boundary": "Ordinary publisher browser download succeeded after earlier terminal failures. PDF magic, eight-page extent, original title/pages and SHA256 verified; scanned images rendered and read. This is a source check, not independent certification of every proof step or of v5.",
       "corroborating_primary_proof": {
         "source": "https://henriquedeoliveira.com/wp-content/uploads/2020/12/blackwells-informativeness-theorem-using-diagrams.pdf",
         "version": "November30,2017 author preprint, pp.1–5; published2018",
@@ -37,6 +34,16 @@
           "manuscript": "book/manuscript/13-an-economics-of-possible-worlds.md",
           "note": "c12-12"
         }
+      ],
+      "local_path": "book/sources/classics/Blackwell_1953_Equivalent_Comparisons_of_Experiments.pdf",
+      "sha256": "f490b8395187edc34ab46a3d45455f1f59cbbc9632964c63218a2f4c8ba8cd1d",
+      "pages": 8,
+      "checked_locator": "Original pp. 265–272 visually read from the eight-page scan; recorded book claims use pp. 265–267, Section 2 and Section 3, Theorems 3, 5–6; Section 4, pp. 268–269 extends the result beyond finite outcome spaces while retaining finite state collection.",
+      "download_method": "Publisher DOWNLOAD PDF control, browser downloadMedia; copied from Downloads into book/sources/classics without modifying the downloaded original.",
+      "opening_text": "EQUIVALENT COMPARISONS OF EXPERIMENTS. By David Blackwell. Stanford University and Howard University. Printed p. 265.",
+      "earlier_access_errors": [
+        "https://www.jstor.org/stable/pdf/2236332.pdf: ValueError: Response was not a PDF",
+        "https://projecteuclid.org/download/pdf_1/euclid.aoms/1177729032: ValueError: Response was not a PDF"
       ]
     },
     {

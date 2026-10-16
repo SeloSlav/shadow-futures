@@ -401,7 +401,14 @@
         "book/manuscript/11-competition-for-future-evidence.md",
         "book/manuscript/13-an-economics-of-possible-worlds.md"
       ],
-      "canonical_v5_reference": false
+      "canonical_v5_reference": false,
+      "bibliographic_check": {
+        "checked_on": "2026-10-16",
+        "local_path": "book/sources/classics/Blackwell_1953_Equivalent_Comparisons_of_Experiments.pdf",
+        "sha256": "f490b8395187edc34ab46a3d45455f1f59cbbc9632964c63218a2f4c8ba8cd1d",
+        "locator": "Original pp.265–272; relevant decision-risk and transformation equivalence on pp.265–267; extension pp.268–269.",
+        "method": "Original publisher scan visually inspected; title, author, extent and content checked."
+      }
     },
     {
       "id": "BlackwellDubins1962",

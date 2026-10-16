@@ -4,7 +4,7 @@
   "objective": "Complete book at prologue standard, including sequential editorial, conceptual, factual and citation review; counts and file existence do not certify completion.",
   "mechanical_checks": {
     "main_words": 80000,
-    "back_matter_words": 14568,
+    "back_matter_words": 14591,
     "main_components": 15,
     "endnotes": 188,
     "bibliography_entries": 119,
@@ -118,7 +118,7 @@
     {
       "id": "chapter_10",
       "file": "book/manuscript/11-competition-for-future-evidence.md",
-      "sha256": "5749766807bda01e562025b1c3c69ef90969b948840732c051b39879bd7da7e8",
+      "sha256": "757c534e4ad7f74bec16ef6327409ca423a5c4fbf3aef968a80c59b382fcfee4",
       "sequential_editorial_review": "completed",
       "conceptual_factual_citation_review": "completed_for_recorded_claims_with_explicit_source_boundaries",
       "checked_on": "2026-10-16",
@@ -136,7 +136,7 @@
     {
       "id": "chapter_12",
       "file": "book/manuscript/13-an-economics-of-possible-worlds.md",
-      "sha256": "d9fa74311452cdb118f7f0f1c1a18f61f98d653617abb67b70b38a9e92cbcef0",
+      "sha256": "15f467d49f9dca59a0a6fa90553087e4874cbedcdd8c0c47f2f2aac0299d039c",
       "sequential_editorial_review": "completed",
       "conceptual_factual_citation_review": "completed_for_recorded_claims_with_explicit_source_boundaries",
       "checked_on": "2026-10-16",
@@ -163,17 +163,21 @@
     },
     {
       "key": "Kakutani1948",
-      "reason": "Original JSTOR full text unavailable in this session; no claim of original-paper proof inspection."
+      "reason": "Original public p.214 introduction/visible definitions checked; main theorem in Section6 still unavailable. No account registration or challenge bypass."
     },
     {
       "key": "LeCamYang2000",
-      "reason": "Full chapter/particular bound pages not accessible. Bibliographic role corroborated, no claim of full original passage inspection."
+      "reason": "Original Google Books preview: p.6 upper portion, Section2.1; p.13 Definition1; p.14 portions including Definition2; p.18 Corollaries1–2; p.19 upper portion; p.27 portions. Decision risk, deficiency, experiment distance and Bayes-risk comparison actually read. Specific two-point testing bound not located. Specific original bound check remains open."
     }
   ],
   "additional_original_check": {
     "key": "Blackwell1953",
-    "status": "pending",
-    "boundary": "Finite-setting theorem and proof checked in de Oliveira2017 primary research version; original1953 archive remains inaccessible. See classics_manifest.json."
+    "status": "completed_for_recorded_claims",
+    "checked_on": "2026-10-16",
+    "local_path": "book/sources/classics/Blackwell_1953_Equivalent_Comparisons_of_Experiments.pdf",
+    "sha256": "f490b8395187edc34ab46a3d45455f1f59cbbc9632964c63218a2f4c8ba8cd1d",
+    "locator": "Original pp.265–267 and Section4 pp.268–269; entire8pagepaper visually read.",
+    "boundary": "Original source check completed, not independent proof certification. deOliveira2017 remains separately checked."
   },
   "bibliographic_corrections": [
     {
@@ -198,7 +202,7 @@
     ],
     "scope": "Initial argument brief and outline exports only; not the 80000-word book."
   },
-  "completion_audit": "Not passed. All fifteen main components have received sequential editorial review. Four original canonical Chapter3 technical passages, original Blackwell1953, and final cross-book continuity, repetition, factual, conceptual and citation audit remain open.",
+  "completion_audit": "Not passed. All15main components received sequential editorial review; originalBlackwell1953 gap closed. Four canonical original technical passages remain pending. Cross-book case, conceptual and targeted semantic checks recorded; final reconciliation with remaining original sources still required.",
   "review_sessions": [
     {
       "checked_on": "2026-10-16",
@@ -464,6 +468,33 @@
         "Read/check the four original canonical technical passages and originalBlackwell1953 without upgrading metadata or secondhand lineage into original inspection.",
         "Complete final cross-book conceptual/factual/citation/semantic-repetition audit against final source findings and saved hashes.",
         "Rebuild and checkpoint final artifacts after any remaining edits; complete objective audit against all six plan requirements."
+      ]
+    },
+    {
+      "checked_on": "2026-10-16",
+      "scope": [
+        "original_Blackwell1953",
+        "partial_original_LeCamYang2000",
+        "partial_original_Kakutani1948",
+        "cross_book_definitions_cases_and_repetition"
+      ],
+      "method": "Ordinary publisher browser download; visually inspect original scanned pages. Compare recurring main-text clusters, high semantic-overlap candidates and canonical v5 text. Exact bounded scopes in final-cross-book-audit.json.",
+      "findings": [
+        "Closed originalBlackwell1953 gap and saved verified8pagePDF; revised two endnotes with exact original locators and earlier Sherman–Stein credit.",
+        "Original LeCamYang decision-risk/deficiency/Bayes-risk pages now read, but particular two-point bound remains pending. Original Kakutani first-page scope read, main theorem pending.",
+        "Historical reach-of-judgment thread remains continuous from towns to platforms to conditional access/tax proposals; no size-alone or inevitable-transition claim.",
+        "Recurring MusicLab facts/roles and comparison-budget/replay/theorem distinctions remain consistent. Targeted semantic-overlap review found intentional documented-case/predecessor returns, with no new detached repeat section to remove.",
+        "Main80,000 budget preserved; original24canonical identities/roles retained. Four canonical original-source checks still open."
+      ],
+      "budget": {
+        "main_words": 80000,
+        "back_matter_words": 14591
+      },
+      "reader_sha256_after_revision": "3420a064fba4cdb00082beceda2f1d209016f0d624afc617764a6f59fe7d21d3",
+      "remaining_scope": [
+        "Read/check four remaining canonical original technical passages: Kakutani1948 main theorem, KabanovLiptserShiryaev1977 relevant extension, JacodShiryaev2003 particular continuity criterion, LeCamYang2000 two-point bound. Partial original passages and checked alternative primary sources do not silently clear these checks.",
+        "Reconcile final conceptual/citation audit with those source findings; retain no claim of independent proof or priority certification.",
+        "Complete objective audit against all six plan requirements and checkpoint any final changes."
       ]
     }
   ],

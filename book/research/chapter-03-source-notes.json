@@ -91,7 +91,8 @@
         "Historical technical credit only"
       ],
       "boundary": "Original relevant passages remain on full-book source-access queue; main impossibility claim checked against v5 and accessible Gabriyelyan theorem.",
-      "v5_reference": true
+      "v5_reference": true,
+      "partial_original_check": "JSTOR public first-page preview, printed p.214, Section1 and visible Section2 definitions, read in browser. Introduction locates main theorem in Section6; that theorem remains unavailable. Free reading requires account registration; none created. Collected-papers Google Books search returned anti-automation challenge; no challenge solved or bypassed."
     },
     {
       "key": "KabanovLiptserShiryaev1977",
@@ -135,13 +136,14 @@
       "key": "LeCamYang2000",
       "note": "c3-6",
       "source": "https://doi.org/10.1007/978-1-4612-1166-2_2",
-      "locator": "Publisher Chapter 2 metadata, Experiments, Deficiencies, Distances, pp. 6-33; v5 Appendix C",
-      "access_check": "Full chapter/particular bound pages not accessible. Bibliographic role corroborated, no claim of full original passage inspection.",
+      "locator": "Original Google Books preview: p.6 upper portion, Section2.1; p.13 Definition1; p.14 portions including Definition2; p.18 Corollaries1–2; p.19 upper portion; p.27 portions. Decision risk, deficiency, experiment distance and Bayes-risk comparison actually read. Specific two-point testing bound not located.",
+      "access_check": "Partial original passage check now available, not metadata alone. Preview excludes pp.16–17; no bypass attempted. The specific precision-bound passage remains open; no full-chapter, theorem-number or original two-point-bound inspection claim.",
       "claims": [
         "Credit for experiment-comparison and precision-limit foundations"
       ],
       "boundary": "Relevant original book pages remain on full-book access queue; no book-specific theorem number asserted.",
-      "v5_reference": true
+      "v5_reference": true,
+      "original_preview": "https://books.google.com/books?id=wpIrbruQJK4C"
     },
     {
       "key": "BlackwellDubins1962",

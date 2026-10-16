@@ -24,7 +24,7 @@ Counts below come from the current chapter files. Drafted sections still require
 | [An economics of possible worlds](manuscript/13-an-economics-of-possible-worlds.md) | 6,000 | 6,000 | reviewed |
 | [The next opportunity](manuscript/14-epilogue.md) | 2,000 | 2,000 | reviewed |
 
-Current back matter: 14,568 words, including chapter notes.
+Current back matter: 14,591 words, including chapter notes.
 
 | Back matter | Written | Stage |
 | --- | ---: | --- |

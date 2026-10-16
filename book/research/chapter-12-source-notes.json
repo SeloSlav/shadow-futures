@@ -5,9 +5,9 @@
   "status": "reviewed",
   "target_main_words": 6000,
   "body_words": 6000,
-  "note_words": 821,
-  "draft_sha256": "d9fa74311452cdb118f7f0f1c1a18f61f98d653617abb67b70b38a9e92cbcef0",
-  "source_checks": "Relevant primary passages and direct scanned pages checked with exact version/access boundaries. Earlier substantive checks retained by claim; Blackwell1953 original gap remains explicit. All council design choices/results fictional. Guide printedpp4-8 re-read; Rothamsted January2024 substantive account refreshed; indexed original Bearchell methods/results rechecked after direct PMC challenge.",
+  "note_words": 833,
+  "draft_sha256": "15f467d49f9dca59a0a6fa90553087e4874cbedcdd8c0c47f2f2aac0299d039c",
+  "source_checks": "Relevant primary passages and direct scanned pages checked with exact version/access boundaries. Earlier substantive checks retained by claim; Blackwell1953 original scan now saved and relevant passages checked in cross-book audit. All council design choices/results fictional. Guide printedpp4-8 re-read; Rothamsted January2024 substantive account refreshed; indexed original Bearchell methods/results rechecked after direct PMC challenge.",
   "sources": [
     {
       "key": "Macdonald2018RothamstedGuide",
@@ -181,13 +181,19 @@
       "key": "Blackwell1953",
       "note": "c12-12",
       "source": "https://doi.org/10.1214/aoms/1177729032",
-      "locator": "Historical experiment-comparison foundation; original1953 full passage inaccessible, see classics_manifest.json",
-      "full_text_checked": false,
+      "locator": "Original pp.265–267: decision-loss sets and stochastic transformations; Theorem3 and Section3, Theorems5–6. Section4, pp.268–269: extension beyond finite outcomes.",
+      "full_text_checked": true,
       "claims": [
-        "Historical attribution of classical decision-based comparison"
+        "Decision-based comparison of experiments",
+        "Finite-outcome equivalence with a state-independent stochastic transformation",
+        "Historical credit to Sherman and Stein retained"
       ],
-      "boundary": "Finite-setting theorem/proof checked in deOliveira2017 primary paper, not falsely upgraded to original inspection. Additional foundation outside original24.",
-      "v5_reference": false
+      "boundary": "Finite collection of states and the theorem’s decision setting matter. No inference that every dataset is universally ordered, collection is free, or a gross information advantage establishes net welfare. Additional book foundation outside original 24; no independent v5 proof certification.",
+      "v5_reference": false,
+      "checked_on": "2026-10-16",
+      "local_path": "book/sources/classics/Blackwell_1953_Equivalent_Comparisons_of_Experiments.pdf",
+      "sha256": "f490b8395187edc34ab46a3d45455f1f59cbbc9632964c63218a2f4c8ba8cd1d",
+      "version_boundary": "Original 1953 eight-page scan downloaded from publisher and visually read; previously checked de Oliveira 2017 author proof remains a separate primary exposition."
     },
     {
       "key": "deOliveira2018Blackwell",
@@ -284,7 +290,7 @@
     "No equations, invented realinterviews/visits/private experience.",
     "6000mainwords; Lockdown returns as observed contrast rather than rewardmeritcalculation."
   ],
-  "whole_book_review": "Sequential component review completed for recorded claims. Original-source queue and final cross-book continuity, repetition, factual, conceptual, citation and budget audit remain separate and open.",
+  "whole_book_review": "Sequential component review completed for recorded claims. Original Blackwell1953 source gap subsequently closed. Four canonical Chapter3 original technical passages and final audit reconciliation remain open; see final-cross-book-audit.json.",
   "sequential_review": {
     "checked_on": "2026-10-16",
     "status": "completed_for_recorded_chapter_claims",
@@ -296,9 +302,10 @@
       "Trimmed repeated archive/request explanation; sample preservation, maintained treatment contrast and new outcomes remain different evidentiary routes.",
       "Known paired routing versus informative checked outputs,600 requests versus comparison budget, and present-service test versus historical replay remain explicit.",
       "Prospective fictional12-week600-requestGBP60000 design retains qualification, calibration, dependence/missingness,versions,full costs, stopping/continuation, and later live-workflow stage. No executed pilot, quoted price or empirically justified sample-size claim.",
-      "Predecessor credit, novelty/proof/priority boundaries, private tests, common measurement errors and lawful costed institutions retained. Original Blackwell1953 gap remains separate from checked deOliveira proof.",
-      "Cross-book audit restored the outline-promised Arrow1963 institutional foundation. Relevant original introduction and medical-market passages were read. Added concrete patient/physician example replaces85words of generic research-program recap; no main-budget expansion."
+      "Predecessor credit, novelty/proof/priority boundaries, private tests, common measurement errors and lawful costed institutions retained. Original Blackwell1953 gap was then separate from checked de Oliveira proof; subsequent source completion below closes it.",
+      "Cross-book audit restored the outline-promised Arrow1963 institutional foundation. Relevant original introduction and medical-market passages were read. Added concrete patient/physician example replaces85words of generic research-program recap; no main-budget expansion.",
+      "Subsequent cross-book source completion obtained and visually read original Blackwell1953 pp.265–272. Notes now cite exact original decision-risk and transformation passages and retain earlier Sherman–Stein credit. The previous original-access gap is closed; no main-text change."
     ],
-    "draft_sha256": "d9fa74311452cdb118f7f0f1c1a18f61f98d653617abb67b70b38a9e92cbcef0"
+    "draft_sha256": "15f467d49f9dca59a0a6fa90553087e4874cbedcdd8c0c47f2f2aac0299d039c"
   }
 }

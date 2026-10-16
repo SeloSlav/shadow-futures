@@ -346,8 +346,8 @@
         }
       ],
       "checked_on": "2026-10-16",
-      "checked_locator": "Publisher Chapter 2 metadata, Experiments, Deficiencies, Distances, pp. 6-33; v5 Appendix C",
-      "access_boundary": "Full chapter/particular bound pages not accessible. Bibliographic role corroborated, no claim of full original passage inspection."
+      "checked_locator": "Original Google Books preview: p.6 upper portion, Section2.1; p.13 Definition1; p.14 portions including Definition2; p.18 Corollaries1–2; p.19 upper portion; p.27 portions. Decision risk, deficiency, experiment distance and Bayes-risk comparison actually read. Specific two-point testing bound not located.",
+      "access_boundary": "Partial original passage check now available, not metadata alone. Preview excludes pp.16–17; no bypass attempted. The specific precision-bound passage remains open; no full-chapter, theorem-number or original two-point-bound inspection claim."
     },
     {
       "key": "LeGoffSoulier2017",

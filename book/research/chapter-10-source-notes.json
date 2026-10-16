@@ -5,9 +5,9 @@
   "status": "reviewed",
   "target_main_words": 6000,
   "body_words": 5851,
-  "note_words": 982,
-  "draft_sha256": "5749766807bda01e562025b1c3c69ef90969b948840732c051b39879bd7da7e8",
-  "source_checks": "Relevant primary passages checked for stated claims. Original Blackwell1953 archive remains inaccessible; precise finite-setting theorem and proof checked in de Oliveira2017 primary research version. Do not claim original inspection. Prior case checks/version boundaries retained. Current unpublished expanded policy draft read rather than earlier short version.",
+  "note_words": 993,
+  "draft_sha256": "757c534e4ad7f74bec16ef6327409ca423a5c4fbf3aef968a80c59b382fcfee4",
+  "source_checks": "Relevant primary passages checked for stated claims. Original Blackwell1953 source gap closed in cross-book audit: publisher scan saved and read, with exact relevant pages recorded; de Oliveira2017 remains separately checked. Prior case checks/version boundaries retained. Current unpublished expanded policy draft read rather than earlier short version.",
   "sources": [
     {
       "key": "CMAOpenBanking2023Completion",
@@ -72,14 +72,19 @@
       "key": "Blackwell1953",
       "note": "c10-3",
       "source": "https://doi.org/10.1214/aoms/1177729032",
-      "locator": "Original Annals of Mathematical Statistics 24(2), 265–272; original full passage not obtained",
-      "full_text_checked": false,
+      "locator": "Original pp.265–267: decision-loss sets and stochastic transformations; Theorem3 and Section3, Theorems5–6. Section4, pp.268–269: extension beyond finite outcomes.",
+      "full_text_checked": true,
       "claims": [
-        "Historical attribution of classical experiment-comparison result"
+        "Decision-based comparison of experiments",
+        "Finite-outcome equivalence with a state-independent stochastic transformation",
+        "Historical credit to Sherman and Stein retained"
       ],
-      "version_boundary": "Original bibliographic identity corroborated through publisher-linked bibliography and modern primary proof; original archive endpoints return HTML rather than PDF.",
-      "boundary": "No claim of original full text or proof inspection. Corresponding finite-setting theorem/proof actually checked in de Oliveira November 2017 author version, separately recorded. Additional book foundation outside original 24 v5 references.",
-      "v5_reference": false
+      "version_boundary": "Original 1953 eight-page scan downloaded from publisher and visually read; previously checked de Oliveira 2017 author proof remains a separate primary exposition.",
+      "boundary": "Finite collection of states and the theorem’s decision setting matter. No inference that every dataset is universally ordered, collection is free, or a gross information advantage establishes net welfare. Additional book foundation outside original 24; no independent v5 proof certification.",
+      "v5_reference": false,
+      "checked_on": "2026-10-16",
+      "local_path": "book/sources/classics/Blackwell_1953_Equivalent_Comparisons_of_Experiments.pdf",
+      "sha256": "f490b8395187edc34ab46a3d45455f1f59cbbc9632964c63218a2f4c8ba8cd1d"
     },
     {
       "key": "deOliveira2018Blackwell",
@@ -277,7 +282,7 @@
     "Decision-specific common rule, calibration, transportability and expected versus realized outcome distinct.",
     "No equations, invented interviews, actual-company tax/welfare estimates or automatic legal liability."
   ],
-  "whole_book_review": "Still required: original Blackwell1953 access/passages if obtainable, final continuity/repetition/pace, conceptual/factual/citation audit, complete bibliography, combined reading manuscript and final budget. Four canonical Chapter3 original-passage checks remain separately recorded.",
+  "whole_book_review": "Sequential component review completed for recorded claims. Original Blackwell1953 source gap subsequently closed. Four canonical Chapter3 original technical passages and final audit reconciliation remain open; see final-cross-book-audit.json.",
   "historical_scale_revision": {
     "checked_on": "2026-10-16",
     "scope": "Targeted user-requested historical scale, reach-of-judgment, preemption, platform work, precaution and private-property revision; complete sequential chapter review remains pending.",
@@ -295,7 +300,8 @@
       "Stronger hypothetical epistemic monopoly now explicitly requires no workable independent route, as well as control of relevant comparisons. Sole supply remains insufficient.",
       "Historical reach-of-judgment mechanism, conditional independent-access presumption, property rights, additional welfare/legal premises, scope/cost/security constraints and public-evaluator risks preserved.",
       "Removed repeated interpretation/migration recap and hypothetical-table introduction; council throughline, all informative private tests, finite decision objective versus universal attribution, crowdout and stopping preserved.",
-      "Original Blackwell1953 remains inaccessible; previously checked de Oliveira primary proof supports bounded finite-setting exposition. Four canonical Chapter 3 passages still pending; no independent v5 proof or priority certification."
+      "At sequential review, original Blackwell1953 was inaccessible and the de Oliveira primary proof supported the bounded finite-setting exposition. Subsequent source completion below closes the original gap. Four canonical Chapter3 passages remain pending; no independent v5 proof or priority certification.",
+      "Subsequent cross-book source completion obtained and visually read original Blackwell1953 pp.265–272. Notes now cite exact original decision-risk and transformation passages and retain earlier Sherman–Stein credit. The previous original-access gap is closed; no main-text change."
     ],
     "source_rechecks": [
       "CMA seven-page original completion decision re-read in full; funding paragraphs 2.3/2.5, differentiated record duties 4.3(d)-(e), monitoring 4.5.",
@@ -304,6 +310,6 @@
       "Ipsos February16,2026 full primary publication refreshed; fieldwork2025, recommendation measures and publication purpose verified. Dated case, not newest August result.",
       "Google December5,2025 original judgment pp.6-7 re-read; documentation and exclusions verified, no implementation or appeal result claim."
     ],
-    "draft_sha256": "5749766807bda01e562025b1c3c69ef90969b948840732c051b39879bd7da7e8"
+    "draft_sha256": "757c534e4ad7f74bec16ef6327409ca423a5c4fbf3aef968a80c59b382fcfee4"
   }
 }
