@@ -1,4 +1,6 @@
-# Chapter 6: Who deserves the winnings
+# Chapter 6
+
+## Who deserves the winnings
 
 The song does not work harder in the world where it wins.
 
@@ -20,9 +22,9 @@ In the previous chapter, the question was who gets an opportunity to demonstrate
 
 ## The inventor and the bill
 
-In his Nobel lecture, Shuji Nakamura describes buying a reactor to grow semiconductor material and repeatedly failing to obtain the result he needed. Some attempts produced no gallium nitride; others produced a black layer where the material should have been transparent. He spent a year and a half changing the equipment and testing the results. His eventual reactor design helped make possible the efficient blue light-emitting diode.[^c6-2]
+In his Nobel lecture, Shuji Nakamura describes buying a reactor to grow semiconductor material. The commercial machine had been designed for a different material from the gallium nitride he wanted. Some attempts produced no growth; others produced a black layer where the material should have been transparent. He spent a year and a half modifying the equipment. Buying the reactor was the beginning of the work.[^c6-2]
 
-This is a useful place to begin an argument about luck, because the work is difficult to wave away. A reactor does not become suitable for manufacturing because its operator has a persuasive account of deserved success. Changes must do something. The material must have the required properties. A device must function.
+His two-flow design introduced another stream of gas that gently pushed the reacting gases toward the surface where the material grew. He reported uniform, high-quality growth over a two-inch surface. This was a physical change producing an observable result. The question of what the inventor deserved began with an achievement we can describe, rather than with the amount he was eventually paid.[^c6-2]
 
 Nakamura's account also credits Isamu Akasaki and Hiroshi Amano, whose earlier advances helped establish gallium nitride as a workable route. His lecture explains how blue LEDs can produce white light by combining their output with a phosphor. The familiar bulb therefore leads backward into a history of materials, equipment, and distinct technical advances. It does not lead to a single undifferentiated stroke of good fortune.
 
@@ -48,15 +50,13 @@ This is why shadow futures need discipline. Replaying history under the same und
 
 The LED case also shows what the book's argument leaves open. Detailed technical evidence may establish that a particular change solved a particular obstacle. It may do so convincingly. The harder question of dividing the entire commercial and social return among inventors, employers, predecessors, suppliers, and later producers does not disappear as a result.
 
-We should want credit to become more accurate as the evidence improves. We should also resist stretching an accurate local conclusion beyond what it establishes. The engineer who solved a manufacturing problem deserves acknowledgment for that achievement. A claim about the exact income that all justice requires needs further premises.
-
 The distinction protects the inventor as well as the company. If the original employment payment were low, that fact alone would not show a small contribution. If a later settlement were large, its size alone would not measure the contribution either. Actual payment cannot serve as the evidence for deserved payment without making every existing arrangement certify itself.
 
 With Lockdown, the two rankings expose a gap between a fixed recording and its reception. With a blue LED, measurements can narrow important technical gaps while leaving broader questions of credit and reward. There is no single level of uncertainty that applies to every claim about an achievement. We need to know which claim is being made.
 
 ## A prize waiting in the desert
 
-On March 13, 2004, DARPA offered a million dollars for a driverless vehicle that could complete its Grand Challenge. None of the finalists completed the desert route. The prize went unclaimed. In October 2005, five vehicles finished a new, 132-mile course. Stanford's Stanley won the two-million-dollar prize in six hours and fifty-three minutes.[^c6-5]
+On March 13, 2004, fifteen driverless vehicles set off on DARPA's 142-mile Grand Challenge. The best managed about seven and a half miles. Nobody collected the million-dollar prize. In October 2005, five vehicles finished a new, 132-mile course. Stanford's Stanley won the two-million-dollar prize in six hours and fifty-three minutes. The prize account changed from no payment to a large one; the history of work was longer than that entry.[^c6-5]
 
 A prize waiting at the finish line has a useful property: its purpose can be understood before anyone reaches it. It invites people to attempt a problem. The reward can help justify expenses, attract collaborators, and concentrate effort on a testable objective. Those reasons do not depend on pretending that the eventual winner will be the sole author of autonomous driving.
 
@@ -68,7 +68,7 @@ Return to the first race. Nobody collected the million dollars. If the only evid
 
 Equally, failure should not receive an automatic certificate of social usefulness. A vehicle that stops in the desert may reveal an important limitation or merely repeat a mistake that was already understood. Whether the attempt generated valuable knowledge depends on what it tested, what was recorded, and who could use the result. Failure is an outcome to investigate, not an achievement by definition.
 
-The next challenge supplied another opportunity. That institutional choice matters separately from the prize amount. We can imagine an organizer declaring the first event decisive and refusing further trials. We can also imagine an organizer continuing indefinitely despite no credible prospect of improvement. Neither policy follows mechanically from respect for inventors.
+DARPA announced the second challenge the very next day after the first ended. The decision preceded Stanley's victory by roughly eighteen months. It created another occasion on which teams could turn development into a public performance. We can inspect that institutional choice without assuming the organizer already knew which team would finish, or that every further contest would justify its costs.[^c6-5]
 
 DARPA's documented sequence does not tell us what the optimal prize should have been. Doubling the headline amount between the two events was not a randomized test of prize size. The routes, technologies, participants, and time available also differed. The sequence demonstrates that an institution can announce a reward, observe failure, and arrange a further test without having solved every question of individual merit.
 
@@ -76,11 +76,11 @@ That is already a substantial lesson. Discussions of incentives often become arg
 
 Suppose a new contest promised a reward too small to cover even a credible attempt's costs. Increasing the prize might bring a valuable team into the competition. Suppose instead that all capable teams were already participating and a larger prize changed only the amount transferred to the winner. The two increases would have different consequences. These are illustrative possibilities, not findings about DARPA's actual entrants.
 
-Now change the entry rule. An organizer might let only the previous winner attempt the next course. That could save the cost of evaluating weak entrants and allow the winner to build on its work. It could also prevent an alternative design from producing a record. The incentive question and the comparison question intersect here: a reward can motivate today's achievement while its associated privileges reduce tomorrow's opportunities to learn.
+In 2007, the task changed again. DARPA's Urban Challenge required vehicles to negotiate a staged city, deal with other moving traffic, and obey traffic rules. Six of eleven finalists completed it; Carnegie Mellon's Tartan Racing team placed first. A desert finish had not settled performance in traffic. Changing the test could expose a different set of capabilities and produce another winner. The institution kept asking questions beyond who had won its previous prize.[^c6-5]
 
-The comparison budget gives the second question a precise meaning in the book's allocation model. It adds the modeled chances of opportunities going outside the current favorite. A cash prize is not itself that budget. A million dollars can reward a contest with many informative attempts, or a demonstration whose outcome was effectively settled in advance.
+The comparison budget gives the allocation question a precise meaning in the book's allocation model. It adds the modeled chances of opportunities going outside the current favorite. A cash prize is not itself that budget. A million dollars can reward a contest with many informative attempts, or a demonstration whose outcome was effectively settled in advance.
 
-For the vehicles, we also observe much more than a winner's name. Distances, completion times, failures, and technical tests can contain information. Any claim about what the event taught us must include that evidence. Compressing the entire challenge into a single award would throw away part of the experiment and then complain about the resulting ignorance.
+The races left more than a winner's name. How far did a vehicle travel? Did it complete the course within the limit? Could it handle traffic under the new rules? Those observations distinguish failed attempts and successful ones more finely than the payment account does. Any application of the information argument must count that evidence. Discarding it would create an ignorance the actual test did not impose.
 
 We can therefore defend a prize without treating its winner as the owner of all the knowledge it helped generate. We can credit unsuccessful teams for identifiable useful work without deciding that every attempt should earn the same payment. The practical task is to arrange rewards and tests so that worthwhile effort and usable learning can happen together.
 
@@ -98,7 +98,7 @@ The pilot's result can change what the participants rationally do. Success might
 
 Kerr and his coauthors also examine the difficulty of prediction within venture capital. In data from one successful firm, the initial partner scores did not clearly distinguish its later spectacular successes from weaker outcomes. This concerns ventures the firm had already chosen to finance. It does not establish that investors lack skill at selecting or developing investments, or that every rejected idea would have been equally good.
 
-The distinction is familiar from the race. Selecting capable entrants, creating a useful test, and identifying its eventual winner are different abilities. An investor might be good at the first two while remaining uncertain about the third. A system that demanded foreknowledge of the winner as a condition of financing would rule out much of what financing is for.
+The successive races show why those abilities differ. A team unable to finish in 2004 might return with a better vehicle; a desert winner still faced a new task in a city. A backer could help make that development possible without knowing the final ranking. Requiring foreknowledge as a condition of financing would defeat much of the purpose of financing an experiment.
 
 Birch's backer can therefore make a serious incentive argument: without a prospect of receiving enough from successful projects, the backer would fund fewer attempts. We should listen. We should then ask how much the prospect changes behavior, which attempts disappear, and what other financing arrangements could support them. The word incentive begins an empirical inquiry; it does not end one.
 
@@ -108,7 +108,7 @@ That defense has limits of its own. A contract can settle what its signatories p
 
 Consider two imaginable offers to Birch. In the first, an investor demands a large share because the project is risky and alternative financing is costly. In the second, the investor demands the same share after acquiring exclusive control over the only permitted route to customers. The numbers on the signed pages could match. The economic explanation for them would differ.
 
-We would need evidence before placing a real investor in either description. The purpose of the example is to expose a shortcut. The share somebody can obtain is an observation. Whether it reflects necessary risk compensation, scarce expertise, exclusion, or some mixture is a question about alternatives and behavior. Calling the share deserved does not perform that investigation.
+These are hypothetical offers, not findings about a real investor. The share somebody obtains is an observation. Whether it reflects risk compensation, scarce expertise, exclusion, or some mixture is a question about alternatives and behavior. Calling the share deserved does not investigate those possibilities or distinguish their implications for future rules.
 
 The experimental view of entrepreneurship also gives us a reason to look beyond the conspicuous winner. Useful tests may occur inside a large company, at a small entrant, or through a publicly supported project. The label on the organization does not reveal whether it asks an informative question. We learned that in the previous chapter when private experiments at Google generated improvements while separate questions arose about access to distribution.[^c6-12]
 
@@ -172,7 +172,7 @@ For Birch, imagine that failure means its workers cannot meet ordinary expenses.
 
 Aster's owners might answer that their own willingness to bear losses helped create the useful product. They could be right. We should give that claim its proper evidential form: what did they finance, what losses were possible, what alternatives existed, and what did the arrangement induce? It becomes weaker when presented as a demand that the size of the final fortune settle every question.
 
-Nakamura's reactor makes the question tangible. Work needed equipment, repeated attempts, and room to continue after disappointing results. His account of those attempts supports appreciation of the achievement. Nichia's emphasis on employer risk identifies a different consideration. A serious analysis can hear both without assigning the company or inventor an exact share of all subsequent social value from those documents alone.
+Nakamura's account separates the purchases from the learning. The reactor existed before it could grow the material he needed. Its owner financed an uncertain undertaking; modifying it required work that the original purchase did not supply. Nichia's statement emphasizes employer risk, while the lecture describes technical changes. Putting the two documents together makes each claim more concrete without making their eventual settlement a scientific measurement.
 
 There is also a difference between bearing uncertainty and creating it for someone else. In an illustrative procurement system, a supplier might invest in reliability and accept the chance that buyers will prefer a rival. Or it might arrange to make rivals' performance impossible for buyers to assess. Both activities can involve expense. Expense by itself does not establish equal social usefulness.
 
@@ -222,13 +222,13 @@ That is the task ahead. Follow the actual inputs, follow what is tested, and dis
 
 [^c6-1]: Matthew J. Salganik, Peter Sheridan Dodds, and Duncan J. Watts, “Experimental Study of Inequality and Unpredictability in an Artificial Cultural Market,” *Science* 311 (2006), 854–856, [full paper](https://www.princeton.edu/~mjs3/salganik_dodds_watts06_full.pdf), pp. 854–855 and Figures 1–3. The particular first-place and fortieth-place rankings come from Salganik's [*Bit by Bit*, Section 4.6.1](https://www.bitbybitbook.com/en/running-experiments/exp-advice/zero-variable-cost/). The study compares markets with different listeners, not cloned people. These ranks do not document musician income, working hours, or personal reactions.
 
-[^c6-2]: Shuji Nakamura, “Background Story of the Invention of Efficient Blue InGaN Light Emitting Diodes,” [Nobel lecture, December 8, 2014](https://www.nobelprize.org/uploads/2018/06/nakamura-lecture.pdf), printed pp. 70 and 72–75, especially the reactor account on pp. 73–74. This is the inventor's retrospective account, with references to technical publications. The chapter attributes the account and uses no invented laboratory scene. The remarks about measurements and attribution are this book's interpretation; the allocation-history result does not erase additional physical evidence.
+[^c6-2]: Shuji Nakamura, “Background Story of the Invention of Efficient Blue InGaN Light Emitting Diodes,” [Nobel lecture, December 8, 2014](https://www.nobelprize.org/uploads/2018/06/nakamura-lecture.pdf), printed pp. 70 and 72–75, especially the commercial-reactor mismatch, modifications, two-flow design and two-inch growth on pp. 73–74. This is the inventor's retrospective account, with references to technical publications. The chapter attributes the account and uses no invented laboratory scene. The remarks about measurements and attribution are this book's interpretation; the allocation-history result does not erase additional physical evidence.
 
 [^c6-3]: Nichia Corporation, January 11, 2005, [“Nichia Settled with Former Employee over ‘Reasonable Remuneration’”](https://www.nichia.co.jp/en/newsroom/2005/2005_011101.html), opening, settlement scope, payment paragraphs, and company statements 2–4. Announced amounts are JPY608,570,000 remuneration plus JPY235,340,000 interest damages, totaling JPY843,910,000. The company described 191 registered patents, four utility models, 112 pending applications, foreign counterparts, and unpublished know-how. Its views on risk and contribution are attributed party positions. No independent causal percentage, original trial-award account, or current Japanese-law guidance is claimed.
 
 [^c6-4]: Martin Erlic, *Shadow Futures*, canonical October 2026 v5, Sections 3–5 and Appendices B and E; [SSRN record](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994). The book uses the repository's canonical v5, rather than presuming the SSRN-hosted file has identical contents. Replays preserve parameters, starting conditions, and input/state response rules; causal interventions change a specified input or policy. A contribution claim requires a defined intervention and horizon, with appropriate structural assumptions.
 
-[^c6-5]: DARPA, [“Grand Challenge” institutional timeline](https://www.darpa.mil/about/innovation-timeline/grand-challenge), first three paragraphs; and [“The DARPA Grand Challenge: Ten Years Later”](https://www.darpa.mil/news/2014/grand-challenge-ten-years-later), March 13, 2014, opening through the 2005 event. The courses differed between years. DARPA is the organizer and describes its own program. The chapter uses dated event results, not its broader causal claims about later autonomous driving, and makes no estimated prize-size effect or comparison-budget claim.
+[^c6-5]: DARPA, [“Grand Challenge” institutional timeline](https://www.darpa.mil/about/innovation-timeline/grand-challenge), first three paragraphs; and [“The DARPA Grand Challenge: Ten Years Later”](https://www.darpa.mil/news/2014/grand-challenge-ten-years-later), March 13, 2014, opening through the 2007 Urban Challenge. The retrospective reports fifteen 2004 starters, a best distance of 7.5 miles, the next-day announcement of another challenge, and the 2007 task and finishers. The courses differed between years. DARPA is the organizer and describes its own program. The chapter uses dated event results, not its broader causal claims about later autonomous driving, and makes no estimated prize-size effect or comparison-budget claim.
 
 [^c6-6]: William R. Kerr, Ramana Nanda, and Matthew Rhodes-Kropf, “Entrepreneurship as Experimentation,” *Journal of Economic Perspectives* 28(3) (2014), 25–48, [full published paper](https://www.hbs.edu/faculty/Shared%20Documents/conferences/2014-strategy-research/Entrepreneruship%20as%20Experimentation.pdf), pp. 27–32 and 43–44, DOI 10.1257/jep.28.3.25. Their initial-score comparison concerns one anonymous firm's funded investments; it does not identify performance on rejected ventures or disprove investor skill. The Birch pilot and alternative financing arrangements are illustrations, not observations from their dataset.
 

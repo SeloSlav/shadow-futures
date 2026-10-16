@@ -2,11 +2,11 @@
   "manuscript": "book/manuscript/07-who-deserves-the-winnings.md",
   "title": "Who deserves the winnings",
   "checked_on": "2026-10-16",
-  "status": "drafted",
+  "status": "reviewed",
   "target_main_words": 6000,
   "body_words": 6000,
-  "note_words": 752,
-  "draft_sha256": "ec7a27e615d8479489c623a613d61e375e08f0f8068acfcacec03e18cbf4ee27",
+  "note_words": 783,
+  "draft_sha256": "1cf24f9e0d2cd13d6da0b563a93a7e9721148c1752b48613f913c7eff16cc252",
   "source_checks": "Relevant full passages checked in published economics papers, the December 2015 Rothschild–Scheuer author version, Nakamura Nobel lecture, Nichia company statement, DARPA institutional records, and previously checked MusicLab, Merton, Kickstarter and Google sources. Named version/access boundaries are retained. This is a chapter claim check, not independent proof certification or a completed whole-book review.",
   "sources": [
     {
@@ -37,13 +37,15 @@
       "key": "Nakamura2014Lecture",
       "note": "c6-2",
       "source": "https://www.nobelprize.org/uploads/2018/06/nakamura-lecture.pdf",
-      "locator": "Printed pp. 70 and 72–75 (PDF pp. 2 and 4–7), especially pp. 73–74 reactor purchase, failed growths, repeated modifications and two-flow design",
+      "locator": "Printed pp. 70 and 72–75 (PDF pp. 2 and 4–7), especially pp. 73–74 reactor purchase, failed growths, repeated modifications and two-flow design; original cached PDF pp. 5–6 (printed 73–74) rechecked for commercial GaAs reactor versus GaN target, subflow mechanism and uniform two-inch growth.",
       "full_text_checked": true,
       "local_cache": ".tmp/book-research/nakamura-lecture-2014.pdf",
       "claims": [
         "Inventor recounts unsuccessful GaN growths and 1.5 years of reactor modifications",
         "Credits Akasaki and Amano advances",
-        "Blue light plus phosphor can yield white light"
+        "Blue light plus phosphor can yield white light",
+        "Commercial reactor designed for a different material from desired GaN",
+        "Subflow gently pushes carrier gases toward substrate; inventor reports uniform high-quality two-inch growth"
       ],
       "boundary": "Retrospective inventor account with technical citations, attributed accordingly; not independent allocation of all causal credit, no fabricated laboratory observation and no asserted social-value percentage. Device measurements are additional evidence beyond allocation records.",
       "v5_reference": false
@@ -52,7 +54,7 @@
       "key": "Nichia2005Settlement",
       "note": "c6-3",
       "source": "https://www.nichia.co.jp/en/newsroom/2005/2005_011101.html",
-      "locator": "Opening three substantive paragraphs and company positions 2–4; full relevant indexed primary text read",
+      "locator": "Opening three substantive paragraphs and company positions 2–4; full relevant indexed primary text read; full substantive company statement refreshed October 16, 2026.",
       "full_text_checked": true,
       "claims": [
         "Announced remuneration JPY608570000 and interest damages JPY235340000, total JPY843910000",
@@ -85,13 +87,16 @@
       "note": "c6-5",
       "source": "https://www.darpa.mil/about/innovation-timeline/grand-challenge",
       "additional_source": "https://www.darpa.mil/news/2014/grand-challenge-ten-years-later",
-      "locator": "Timeline first three paragraphs; March 13, 2014 retrospective opening through 2005 event",
+      "locator": "DARPA timeline and March 13, 2014 organizer retrospective, full relevant paragraphs on 2004, next-day announcement, 2005 finishers and 2007 Urban Challenge; refreshed October 16, 2026.",
       "full_text_checked": true,
       "claims": [
         "March 13, 2004 million-dollar prize unclaimed because no finalist finished",
-        "October 8, 2005 five finishers on 132-mile course; Stanford Stanley winner, 6h53m, two-million-dollar prize"
+        "October 8, 2005 five finishers on 132-mile course; Stanford Stanley winner, 6h53m, two-million-dollar prize",
+        "Fifteen vehicles started 142-mile 2004 challenge; organizer retrospective reports top distance 7.5 miles",
+        "Second challenge announced the next day, roughly eighteen months before 2005 race",
+        "2007 Urban Challenge staged city, moving traffic and traffic rules; six of eleven finished, Tartan Racing led by Carnegie Mellon first"
       ],
-      "boundary": "Organizer account; the two courses differ. No estimated causal effect of doubling the prize or attributed long-run autonomy impact. Race observations include more than identity of prize recipient; no budget estimate.",
+      "boundary": "Organizer account; the two courses differ. No estimated causal effect of doubling the prize or attributed long-run autonomy impact. Race observations include more than identity of prize recipient; no budget estimate. Original ledger identifier retained while substantive scope extends through 2007. No causal estimate of program impact or comparison-budget measurement.",
       "v5_reference": false
     },
     {
@@ -209,7 +214,29 @@
     "Merton and van de Rijt retain earlier credit and add recognition and initial-support questions.",
     "Contribution, contractual entitlement, incentives and moral desert remain distinct; author proposed values are explicit.",
     "No equal-merit conclusion, luck percentage, optimal tax rate, actual-firm lifetime diagnosis or dismissal of physical evidence.",
-    "6000 main words; headings and notes excluded; transition to Chapter 7 physical AI inputs."
+    "Commercial reactor mismatch and two-flow mechanism replace abstract praise with a specific technical achievement.",
+    "DARPA next-day continuation and 2007 city task replace hypothetical event design with documented changing tests.",
+    "Removed repeated local-credit caveat and tightened investor-share explanation; no equal-merit or optimal-tax conclusion."
   ],
-  "whole_book_review": "Still required: final continuity, repetition, pace, conceptual/factual/citation review, author review of normative voice, complete bibliography and combined word budget."
+  "whole_book_review": "Sequential chapter review completed for saved draft and recorded claims. Final cross-book continuity/source completion audit and author review of normative voice remain; no independent proof or priority certification.",
+  "sequential_review": {
+    "checked_on": "2026-10-16",
+    "status": "completed_for_recorded_chapter_claims",
+    "method": "Complete body and notes read in sequence after Chapter 5, then revised passages read with neighboring paragraphs. Relevant new technical/event details checked in original inventor and organizer records; earlier full-source checks and explicit economics-paper version boundaries retained.",
+    "findings": [
+      "Lockdown rankings describe downloads/attention, not actual royalties or effort differences.",
+      "Reactor mechanism and Nichia settlement remain different evidence; interest/contractual payment not treated as a causal measure or moral calibration.",
+      "DARPA sequence supplies failure, another opportunity and a changed task; prize-size causality and total-program welfare not inferred.",
+      "Contribution, enforceable promises, incentives and moral desert remain separate.",
+      "Kerr/Nanda/Rhodes-Kropf, Piketty/Saez/Stantcheva and Rothschild/Scheuer retain substantive predecessor credit and checked version/scope.",
+      "Conditional allocation-history result does not establish equal merit, any luck percentage, an optimal tax, or universal ignorance; other informative observations count.",
+      "Normative security/reward/opportunity commitments explicit, with cost and behavioral limits; transition to physical AI inputs preserved."
+    ],
+    "source_rechecks": [
+      "Nakamura printed pp. 73–74",
+      "Nichia January 11, 2005 statement",
+      "DARPA March 13, 2014 retrospective through 2007"
+    ],
+    "draft_sha256": "1cf24f9e0d2cd13d6da0b563a93a7e9721148c1752b48613f913c7eff16cc252"
+  }
 }

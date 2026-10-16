@@ -61,14 +61,14 @@
       "title": "Who deserves the winnings",
       "file": "book/manuscript/07-who-deserves-the-winnings.md",
       "target": 6000,
-      "stage": "drafted"
+      "stage": "reviewed"
     },
     {
       "id": "chapter_07",
       "title": "The intelligence factory",
       "file": "book/manuscript/08-the-intelligence-factory.md",
       "target": 6000,
-      "stage": "drafted"
+      "stage": "reviewed"
     },
     {
       "id": "chapter_08",

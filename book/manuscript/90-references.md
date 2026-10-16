@@ -114,7 +114,7 @@ INCITE. 2024. INCITE Overview and Policies. Version 13, December; distributed fo
 
 International Energy Agency. 2026. Key Questions on Energy and AI. Paris: IEA. [Source](https://iea.blob.core.windows.net/assets/3179f7f8-01f6-4dd6-bffa-c9f7b73f1dc9/KeyQuestionsonEnergyandAI.pdf)
 
-International Energy Agency. 2026. Powering Artificial Intelligence: Strategies for Integrating Data Centres into Electricity Systems. October 14. [Source](https://www.iea.org/reports/powering-artificial-intelligence/executive-summary)
+International Energy Agency. 2026. Powering Artificial Intelligence: Strategies for Integrating Data Centres into Electricity Systems. October 14. [Report](https://www.iea.org/reports/powering-artificial-intelligence) [Full PDF](https://iea.blob.core.windows.net/assets/cd360a30-aaef-43cd-84e6-a125c3a0bc67/PoweringArtificialIntelligence.pdf)
 
 International Labour Organization. 2021. World Employment and Social Outlook 2021: The Role of Digital Labour Platforms in Transforming the World of Work. Geneva: ILO. [Source](https://www.ilo.org/sites/default/files/wcmsp5/groups/public/%40dgreports/%40dcomm/%40publ/documents/publication/wcms_771749.pdf)
 

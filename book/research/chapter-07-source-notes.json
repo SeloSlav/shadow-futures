@@ -2,18 +2,18 @@
   "manuscript": "book/manuscript/08-the-intelligence-factory.md",
   "title": "The intelligence factory",
   "checked_on": "2026-10-16",
-  "status": "drafted",
+  "status": "reviewed",
   "target_main_words": 6000,
   "body_words": 6000,
-  "note_words": 879,
-  "draft_sha256": "38bc19896a145c1eb0b64ba01b0adf0c0f36a87e3f6832d0213a59b9417fe21f",
+  "note_words": 928,
+  "draft_sha256": "cf877f8411f2f7236129c740a8ceceaa07074899fa7b462594f65535f62127f6",
   "source_checks": "Relevant full primary passages checked in dated reports, versioned technical papers, institutional/operator accounts and original economics. Forecasts, developer/operator statements, allocated opportunities, interpretations and illustrations remain distinct.",
   "sources": [
     {
       "key": "IEAEnergyAI2026",
       "note": "c7-1",
       "source": "https://iea.blob.core.windows.net/assets/3179f7f8-01f6-4dd6-bffa-c9f7b73f1dc9/KeyQuestionsonEnergyandAI.pdf",
-      "locator": "Executive summary pp. 9–11; bottlenecks p. 21; demand scenarios and accelerator definitions pp. 24–26",
+      "locator": "Executive summary pp. 9–11; bottlenecks p. 21; demand scenarios and accelerator definitions pp. 24–26; original cached pp. 9–10 and 21 rechecked; official report page confirms April 16, 2026 publication.",
       "full_text_checked": true,
       "claims": [
         "Reported grid waits up to 5–10 years in many jurisdictions",
@@ -53,12 +53,14 @@
       "key": "LlamaTeam2024",
       "note": "c7-4",
       "source": "https://arxiv.org/pdf/2407.21783v3",
-      "locator": "Introduction p. 1; Section 3.3.4 pp. 13–14 and Table 5; Section 4 p. 15",
+      "locator": "Introduction p. 1; Section 3.3.4 pp. 13–14 and Table 5; Section 4 p. 15; original cached version 3 pp. 13–14 rechecked for single-GPU restart, straggler detection and three significant manual interventions in snapshot.",
       "full_text_checked": true,
       "claims": [
         "54-day snapshot contains 466 interruptions: 47 planned and 419 unexpected",
         "Reported greater than 90 percent effective training time with automated recovery/diagnosis",
-        "Pre-training and post-training distinct"
+        "Pre-training and post-training distinct",
+        "Single GPU failure can require whole-job restart; slow working processor can delay thousands",
+        "Significant manual intervention reported only three times in snapshot; remaining issues handled by automation"
       ],
       "boundary": "Developer report, not independent audit; snapshot not total run duration; effective training time not economic efficiency. Internal technical evidence retained. No implication each inference updates model weights.",
       "v5_reference": false,
@@ -103,12 +105,13 @@
       "key": "HoffmannEtAl2022Chinchilla",
       "note": "c7-8",
       "source": "https://papers.nips.cc/paper_files/paper/2022/file/c1e2faff6f588870935f114ebe04a3e5-Paper-Conference.pdf",
-      "locator": "Published NeurIPS abstract pp. 1–2 and Section 4/4.1 p. 7; author April 12, 2022 account relevant body",
+      "locator": "Published NeurIPS abstract pp. 1–2 and Section 4/4.1 p. 7; author April 12, 2022 account relevant body; original published Section 4.1 p. 7 rechecked for AdamW/Adam, tokenization normalization and MassiveText subset proportions.",
       "full_text_checked": true,
       "claims": [
         "Multiple smaller experiments investigate training resource allocation",
         "Chinchilla smaller/more training data than Gopher under same training compute, stronger reported evaluations",
-        "Section 4.1 also records optimizer, tokenizer and data-mix changes"
+        "Section 4.1 also records optimizer, tokenizer and data-mix changes",
+        "Main text now describes adjustment method, text units and data proportions in ordinary language rather than leaving bundled changes unspecified"
       ],
       "boundary": "Not isolated randomized model-size effect, universal scaling law, economic attribution or actual comparison-budget estimate.",
       "v5_reference": false,
@@ -162,15 +165,18 @@
       "key": "IEAPoweringAI2026",
       "note": "c7-12",
       "source": "https://www.iea.org/reports/powering-artificial-intelligence/executive-summary",
-      "locator": "Report date October 14, 2026; executive summary demand-visibility and affordability sections; grid integration discussion",
+      "locator": "Official report landing page, October 14, 2026 publication confirmed; full official PDF pp. 7–10, 52–57; p. 57 AEP Ohio row read in original indexed table.",
       "full_text_checked": true,
       "claims": [
         "Queues can contain duplicate/speculative proposals",
-        "Tariffs and contracts allocate connection and usage risks"
+        "Tariffs and contracts allocate connection and usage risks",
+        "IEA survey lists AEP Ohio large-data-center ramp-up, minimum capacity payment, long commitment and exit fee arrangements"
       ],
-      "boundary": "Primary report available by October 16, 2026. Queue entry not completed capacity; multi-grid developer, grid-cost and interruptible-workload examples hypothetical.",
+      "boundary": "Primary report available by October 16, 2026. Queue entry not completed capacity; multi-grid developer, grid-cost and interruptible-workload examples hypothetical. AEP terms are attributed to dated IEA survey; no independent original-tariff legal audit or empirical optimality/no-cost-to-households conclusion.",
       "v5_reference": false,
-      "report": "https://www.iea.org/reports/powering-artificial-intelligence"
+      "report": "https://www.iea.org/reports/powering-artificial-intelligence",
+      "full_text_checked_location": "https://iea.blob.core.windows.net/assets/cd360a30-aaef-43cd-84e6-a125c3a0bc67/PoweringArtificialIntelligence.pdf",
+      "access_note": "Online summary endpoint failed in this pass; official landing-page Download PDF link supplied full primary report. No new local copy asserted."
     },
     {
       "key": "LUMISustainableFuture",
@@ -240,7 +246,33 @@
     "Pre-training, post-training, inference, shared artifacts and research access distinct.",
     "No equations, fabricated interviews, author visits, invented private reactions, actual-firm finite-budget diagnosis or automatic welfare/legal conclusion.",
     "Arrow is a bibliography addition; original 24 v5 entries and assignments preserved.",
-    "6000 main words; transition into Chapter 8 request routing and repeated use."
+    "Llama failure coupling and automation supply concrete operating evidence; speculative diagnosis counts and independent-audit claims avoided.",
+    "Chinchilla bundled changes stated plainly; AEP Ohio survey example replaces another generic grid-cost scenario.",
+    "Both April and October IEA report dates confirmed; energy projection remains total data centers, not AI-only or observed future demand."
   ],
-  "whole_book_review": "Still required: continuity, repetition, pace, factual/conceptual/citation audit, updated dates, complete bibliography, combined reading manuscript and final word budget."
+  "whole_book_review": "Sequential chapter review completed for saved draft and recorded claims; final cross-book continuity, source completion and publication-date refresh remain. No independent proof/priority certification or current-market diagnosis.",
+  "sequential_review": {
+    "checked_on": "2026-10-16",
+    "status": "completed_for_recorded_chapter_claims",
+    "method": "Complete body and notes read in sequence after Chapter 6; revised passages re-read in their sections. New details checked against versioned originals and official IEA primary report/date metadata. Prior case boundaries retained.",
+    "findings": [
+      "Grid, building, cooling, operating recovery and allocation stages remain distinct; Frontier proper name not conflated with frontier models.",
+      "April 2026 IEA estimate/projection scope preserved and unit explained; October report date verified against official landing page.",
+      "Single failure/slow straggler and rare significant manual intervention replace abstract operating discussion with developer evidence.",
+      "Private experiments, public capacity awards and released models can permit different learning; ownership, model ancestry and independence not conflated.",
+      "Training, post-training, inference and marginal serving resources remain distinct.",
+      "Chinchilla changed adjustment method, tokenization and data mix as well as size/tokens; no isolated model-size causal claim.",
+      "DeepSeek valuation/exclusions and Stanford curated-notability boundaries retained; no entry-cost constant, market definition, actual-firm finite budget or current capability ranking inferred.",
+      "AEP Ohio cost-allocation example attributed to IEA survey; speculation, underused capacity, risk allocation and welfare remain separate.",
+      "Arrow appropriation problem and Kerr et al. staged experimentation credited; no automatic sharing mandate, liability or tax conclusion.",
+      "Compute resource budget distinct from modeled allocation-chance budget; all informative tests count, and finite lifetime requires more than concentration."
+    ],
+    "source_rechecks": [
+      "Llama version 3 pp. 13–14",
+      "Chinchilla published p. 7",
+      "IEA April report pp. 9–10 and 21",
+      "IEA October official metadata and full PDF pp. 7–10, 52–57"
+    ],
+    "draft_sha256": "cf877f8411f2f7236129c740a8ceceaa07074899fa7b462594f65535f62127f6"
+  }
 }

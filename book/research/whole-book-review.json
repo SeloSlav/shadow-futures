@@ -4,7 +4,7 @@
   "objective": "Complete book at prologue standard, including sequential editorial, conceptual, factual and citation review; counts and file existence do not certify completion.",
   "mechanical_checks": {
     "main_words": 80000,
-    "back_matter_words": 14101,
+    "back_matter_words": 14183,
     "main_components": 15,
     "endnotes": 187,
     "bibliography_entries": 118,
@@ -82,16 +82,20 @@
     {
       "id": "chapter_06",
       "file": "book/manuscript/07-who-deserves-the-winnings.md",
-      "sha256": "ec7a27e615d8479489c623a613d61e375e08f0f8068acfcacec03e18cbf4ee27",
-      "sequential_editorial_review": "pending",
-      "conceptual_factual_citation_review": "claim_ledgers_exist_whole_book_recheck_pending"
+      "sha256": "1cf24f9e0d2cd13d6da0b563a93a7e9721148c1752b48613f913c7eff16cc252",
+      "sequential_editorial_review": "completed",
+      "conceptual_factual_citation_review": "completed_for_recorded_claims_with_explicit_source_boundaries",
+      "checked_on": "2026-10-16",
+      "review_record": "book/research/chapter-06-source-notes.json; sequential_review field"
     },
     {
       "id": "chapter_07",
       "file": "book/manuscript/08-the-intelligence-factory.md",
-      "sha256": "38bc19896a145c1eb0b64ba01b0adf0c0f36a87e3f6832d0213a59b9417fe21f",
-      "sequential_editorial_review": "pending",
-      "conceptual_factual_citation_review": "claim_ledgers_exist_whole_book_recheck_pending"
+      "sha256": "cf877f8411f2f7236129c740a8ceceaa07074899fa7b462594f65535f62127f6",
+      "sequential_editorial_review": "completed",
+      "conceptual_factual_citation_review": "completed_for_recorded_claims_with_explicit_source_boundaries",
+      "checked_on": "2026-10-16",
+      "review_record": "book/research/chapter-07-source-notes.json; sequential_review field"
     },
     {
       "id": "chapter_08",
@@ -184,7 +188,7 @@
     ],
     "scope": "Initial argument brief and outline exports only; not the 80000-word book."
   },
-  "completion_audit": "Not passed. Sequential editorial review reaches Chapter 5. Chapters 6–12 and epilogue, four original Chapter 3 technical passages, original Blackwell1953, and final whole-book continuity/citation audit remain incomplete.",
+  "completion_audit": "Not passed. Sequential editorial review reaches Chapter 7. Chapters 8–12 and epilogue, four original Chapter 3 technical passages, original Blackwell1953, and final whole-book continuity/citation audit remain incomplete.",
   "review_sessions": [
     {
       "checked_on": "2026-10-16",
@@ -296,7 +300,36 @@
       },
       "reader_sha256_after_revision": "f4ad09e8c77c04c681484a741c8fb06082f33ffeac0f41c2ed00ba7ec5973c72",
       "remaining_scope": "Sequential review of Chapters 6–12 and epilogue; four original Chapter 3 technical passages; original Blackwell1953; final whole-book continuity/citation audit."
+    },
+    {
+      "checked_on": "2026-10-16",
+      "scope": [
+        "chapter_06",
+        "chapter_07"
+      ],
+      "method": "Complete body and notes read in sequence after Chapter 5, then new passages checked with neighboring text. Relevant new claims checked in original inventor/organizer/technical and dated IEA sources; prior checked versions and boundaries retained.",
+      "findings": [
+        "Chapter 6 replaces repeated abstraction with Nakamura's commercial-reactor mismatch and two-flow result; technical achievement remains distinct from remuneration and employer-risk claims.",
+        "DARPA 2004 distance, next-day continuation and 2007 staged-city task give prospective incentives a documented sequence; prize-size treatment effect and broad program causality not inferred.",
+        "Contribution, contractual entitlement, incentives and moral desert remain separate; predecessors in entrepreneurship and public finance credited.",
+        "Chapter 7 explains the electricity unit and dates April IEA estimate/projection; source scope remains total data centers.",
+        "Llama single-failure/straggler coupling and reported automation ground organizational competence, with fifty-four-day snapshot and self-report boundaries retained.",
+        "Chinchilla main text states bundled adjustment/tokenization/data-mix changes, preventing isolated-model-size attribution.",
+        "Official October 14, 2026 IEA metadata/full PDF confirms current report; AEP Ohio risk-allocation terms are an attributed survey example, not a current-tariff legal or welfare audit.",
+        "Two repeated caveat paragraphs removed; dangling second-question reference repaired and Llama automation paragraph moved beside its engineering evidence.",
+        "No model-budget inference from power/market shares, no erasure of private tests, no universal nonlearning or automatic property/tax/antitrust conclusion.",
+        "Both chapters remain 6000 words; reading copy, source hashes, canonical identities/roles, note matching and bibliography coverage verified."
+      ],
+      "budget": {
+        "main_words": 80000,
+        "back_matter_words": 14183,
+        "chapter_06_words": 6000,
+        "chapter_07_words": 6000,
+        "twelve_chapters_total": 72000
+      },
+      "reader_sha256_after_revision": "84590f542b54218a693a35e5a5decbc70b1457339b3b74c06d6d44a20fc81607",
+      "remaining_scope": "Sequential review of Chapters 8–12 and epilogue; four Chapter 3 original technical passages; original Blackwell1953; final whole-book continuity/citation audit."
     }
   ],
-  "next_component": "chapter_06"
+  "next_component": "chapter_08"
 }

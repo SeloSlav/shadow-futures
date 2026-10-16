@@ -1199,18 +1199,24 @@
       "citation": "International Energy Agency. 2026. Powering Artificial Intelligence: Strategies for Integrating Data Centres into Electricity Systems. October 14.",
       "links": [
         {
-          "label": "Source",
-          "url": "https://www.iea.org/reports/powering-artificial-intelligence/executive-summary"
+          "label": "Report",
+          "url": "https://www.iea.org/reports/powering-artificial-intelligence"
+        },
+        {
+          "label": "Full PDF",
+          "url": "https://iea.blob.core.windows.net/assets/cd360a30-aaef-43cd-84e6-a125c3a0bc67/PoweringArtificialIntelligence.pdf"
         }
       ],
       "known_locations": [
         "https://www.iea.org/reports/powering-artificial-intelligence",
-        "https://www.iea.org/reports/powering-artificial-intelligence/executive-summary"
+        "https://www.iea.org/reports/powering-artificial-intelligence/executive-summary",
+        "https://iea.blob.core.windows.net/assets/cd360a30-aaef-43cd-84e6-a125c3a0bc67/PoweringArtificialIntelligence.pdf"
       ],
       "cited_in": [
         "book/manuscript/08-the-intelligence-factory.md"
       ],
-      "canonical_v5_reference": false
+      "canonical_v5_reference": false,
+      "bibliographic_check": "Official publication date October 14, 2026 confirmed; full PDF pp. 7–10 and 52–57 checked for chapter claims. Summary endpoint failed in this pass; full official PDF succeeded."
     },
     {
       "id": "ILO2021Platforms",

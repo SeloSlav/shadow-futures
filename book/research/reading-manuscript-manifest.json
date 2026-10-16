@@ -1,7 +1,7 @@
 {
   "status": "complete_draft_assembly_review_pending",
   "file": "book/drafts/Shadow_Futures_Complete_Manuscript.md",
-  "sha256": "f4ad09e8c77c04c681484a741c8fb06082f33ffeac0f41c2ed00ba7ec5973c72",
+  "sha256": "84590f542b54218a693a35e5a5decbc70b1457339b3b74c06d6d44a20fc81607",
   "inputs": [
     {
       "file": "book/manuscript/00-prologue.md",
@@ -33,11 +33,11 @@
     },
     {
       "file": "book/manuscript/07-who-deserves-the-winnings.md",
-      "sha256": "ec7a27e615d8479489c623a613d61e375e08f0f8068acfcacec03e18cbf4ee27"
+      "sha256": "1cf24f9e0d2cd13d6da0b563a93a7e9721148c1752b48613f913c7eff16cc252"
     },
     {
       "file": "book/manuscript/08-the-intelligence-factory.md",
-      "sha256": "38bc19896a145c1eb0b64ba01b0adf0c0f36a87e3f6832d0213a59b9417fe21f"
+      "sha256": "cf877f8411f2f7236129c740a8ceceaa07074899fa7b462594f65535f62127f6"
     },
     {
       "file": "book/manuscript/09-a-billion-answers.md",
@@ -65,16 +65,16 @@
     },
     {
       "file": "book/manuscript/90-references.md",
-      "sha256": "d1708a140013a217801f18bb8acc8b6e73c21de03d2ada6ec1f804f622972eef"
+      "sha256": "fae27f75057565cbb8a8c239b97d381a0a59bc2d957296fc5ddd81bb7264564c"
     },
     {
       "file": "book/manuscript/91-acknowledgments.md",
       "sha256": "c9af1838c3350e792acd298dfa4480500cff91ba8218150d4ff2493d488c6671"
     }
   ],
-  "bibliography_input_sha256": "379f602a5bfe3acd51dff2cf058d124cab683fcdb4500af9e5c91f49e516689f",
+  "bibliography_input_sha256": "46146f113e1ef0f313e83079974ca419bc03c7166ecb507d5f750e0315462ccc",
   "main_words": 80000,
-  "back_matter_words": 14101,
+  "back_matter_words": 14183,
   "reference_entries": 118,
   "endnote_count": 187,
   "notes_namespaced": true,

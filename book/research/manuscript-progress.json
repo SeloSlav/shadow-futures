@@ -3,7 +3,7 @@
   "main_text_target": 80000,
   "main_words": 80000,
   "words_remaining_to_target": 0,
-  "back_matter_words": 14101,
+  "back_matter_words": 14183,
   "back_matter_target": [
     10000,
     15000
@@ -119,11 +119,11 @@
       "title": "Who deserves the winnings",
       "file": "book/manuscript/07-who-deserves-the-winnings.md",
       "target": 6000,
-      "stage": "drafted",
+      "stage": "reviewed",
       "exists": true,
       "main_words": 6000,
-      "note_words": 752,
-      "sha256": "ec7a27e615d8479489c623a613d61e375e08f0f8068acfcacec03e18cbf4ee27",
+      "note_words": 783,
+      "sha256": "1cf24f9e0d2cd13d6da0b563a93a7e9721148c1752b48613f913c7eff16cc252",
       "note_count": 12,
       "missing_notes": [],
       "unused_notes": [],
@@ -134,11 +134,11 @@
       "title": "The intelligence factory",
       "file": "book/manuscript/08-the-intelligence-factory.md",
       "target": 6000,
-      "stage": "drafted",
+      "stage": "reviewed",
       "exists": true,
       "main_words": 6000,
-      "note_words": 879,
-      "sha256": "38bc19896a145c1eb0b64ba01b0adf0c0f36a87e3f6832d0213a59b9417fe21f",
+      "note_words": 928,
+      "sha256": "cf877f8411f2f7236129c740a8ceceaa07074899fa7b462594f65535f62127f6",
       "note_count": 14,
       "missing_notes": [],
       "unused_notes": [],
@@ -241,7 +241,7 @@
       "file": "book/manuscript/90-references.md",
       "stage": "drafted",
       "exists": true,
-      "words": 2447
+      "words": 2449
     },
     {
       "id": "acknowledgments",

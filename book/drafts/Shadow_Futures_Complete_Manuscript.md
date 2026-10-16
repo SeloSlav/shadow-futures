@@ -1333,7 +1333,9 @@ For the people whose work receives different rewards, the question is more perso
 
 <a id="chapter_06"></a>
 
-# Chapter 6: Who deserves the winnings
+# Chapter 6
+
+## Who deserves the winnings
 
 The song does not work harder in the world where it wins.
 
@@ -1355,9 +1357,9 @@ In the previous chapter, the question was who gets an opportunity to demonstrate
 
 ## The inventor and the bill
 
-In his Nobel lecture, Shuji Nakamura describes buying a reactor to grow semiconductor material and repeatedly failing to obtain the result he needed. Some attempts produced no gallium nitride; others produced a black layer where the material should have been transparent. He spent a year and a half changing the equipment and testing the results. His eventual reactor design helped make possible the efficient blue light-emitting diode.[^chapter_06-c6-2]
+In his Nobel lecture, Shuji Nakamura describes buying a reactor to grow semiconductor material. The commercial machine had been designed for a different material from the gallium nitride he wanted. Some attempts produced no growth; others produced a black layer where the material should have been transparent. He spent a year and a half modifying the equipment. Buying the reactor was the beginning of the work.[^chapter_06-c6-2]
 
-This is a useful place to begin an argument about luck, because the work is difficult to wave away. A reactor does not become suitable for manufacturing because its operator has a persuasive account of deserved success. Changes must do something. The material must have the required properties. A device must function.
+His two-flow design introduced another stream of gas that gently pushed the reacting gases toward the surface where the material grew. He reported uniform, high-quality growth over a two-inch surface. This was a physical change producing an observable result. The question of what the inventor deserved began with an achievement we can describe, rather than with the amount he was eventually paid.[^chapter_06-c6-2]
 
 Nakamura's account also credits Isamu Akasaki and Hiroshi Amano, whose earlier advances helped establish gallium nitride as a workable route. His lecture explains how blue LEDs can produce white light by combining their output with a phosphor. The familiar bulb therefore leads backward into a history of materials, equipment, and distinct technical advances. It does not lead to a single undifferentiated stroke of good fortune.
 
@@ -1383,15 +1385,13 @@ This is why shadow futures need discipline. Replaying history under the same und
 
 The LED case also shows what the book's argument leaves open. Detailed technical evidence may establish that a particular change solved a particular obstacle. It may do so convincingly. The harder question of dividing the entire commercial and social return among inventors, employers, predecessors, suppliers, and later producers does not disappear as a result.
 
-We should want credit to become more accurate as the evidence improves. We should also resist stretching an accurate local conclusion beyond what it establishes. The engineer who solved a manufacturing problem deserves acknowledgment for that achievement. A claim about the exact income that all justice requires needs further premises.
-
 The distinction protects the inventor as well as the company. If the original employment payment were low, that fact alone would not show a small contribution. If a later settlement were large, its size alone would not measure the contribution either. Actual payment cannot serve as the evidence for deserved payment without making every existing arrangement certify itself.
 
 With Lockdown, the two rankings expose a gap between a fixed recording and its reception. With a blue LED, measurements can narrow important technical gaps while leaving broader questions of credit and reward. There is no single level of uncertainty that applies to every claim about an achievement. We need to know which claim is being made.
 
 ## A prize waiting in the desert
 
-On March 13, 2004, DARPA offered a million dollars for a driverless vehicle that could complete its Grand Challenge. None of the finalists completed the desert route. The prize went unclaimed. In October 2005, five vehicles finished a new, 132-mile course. Stanford's Stanley won the two-million-dollar prize in six hours and fifty-three minutes.[^chapter_06-c6-5]
+On March 13, 2004, fifteen driverless vehicles set off on DARPA's 142-mile Grand Challenge. The best managed about seven and a half miles. Nobody collected the million-dollar prize. In October 2005, five vehicles finished a new, 132-mile course. Stanford's Stanley won the two-million-dollar prize in six hours and fifty-three minutes. The prize account changed from no payment to a large one; the history of work was longer than that entry.[^chapter_06-c6-5]
 
 A prize waiting at the finish line has a useful property: its purpose can be understood before anyone reaches it. It invites people to attempt a problem. The reward can help justify expenses, attract collaborators, and concentrate effort on a testable objective. Those reasons do not depend on pretending that the eventual winner will be the sole author of autonomous driving.
 
@@ -1403,7 +1403,7 @@ Return to the first race. Nobody collected the million dollars. If the only evid
 
 Equally, failure should not receive an automatic certificate of social usefulness. A vehicle that stops in the desert may reveal an important limitation or merely repeat a mistake that was already understood. Whether the attempt generated valuable knowledge depends on what it tested, what was recorded, and who could use the result. Failure is an outcome to investigate, not an achievement by definition.
 
-The next challenge supplied another opportunity. That institutional choice matters separately from the prize amount. We can imagine an organizer declaring the first event decisive and refusing further trials. We can also imagine an organizer continuing indefinitely despite no credible prospect of improvement. Neither policy follows mechanically from respect for inventors.
+DARPA announced the second challenge the very next day after the first ended. The decision preceded Stanley's victory by roughly eighteen months. It created another occasion on which teams could turn development into a public performance. We can inspect that institutional choice without assuming the organizer already knew which team would finish, or that every further contest would justify its costs.[^chapter_06-c6-5]
 
 DARPA's documented sequence does not tell us what the optimal prize should have been. Doubling the headline amount between the two events was not a randomized test of prize size. The routes, technologies, participants, and time available also differed. The sequence demonstrates that an institution can announce a reward, observe failure, and arrange a further test without having solved every question of individual merit.
 
@@ -1411,11 +1411,11 @@ That is already a substantial lesson. Discussions of incentives often become arg
 
 Suppose a new contest promised a reward too small to cover even a credible attempt's costs. Increasing the prize might bring a valuable team into the competition. Suppose instead that all capable teams were already participating and a larger prize changed only the amount transferred to the winner. The two increases would have different consequences. These are illustrative possibilities, not findings about DARPA's actual entrants.
 
-Now change the entry rule. An organizer might let only the previous winner attempt the next course. That could save the cost of evaluating weak entrants and allow the winner to build on its work. It could also prevent an alternative design from producing a record. The incentive question and the comparison question intersect here: a reward can motivate today's achievement while its associated privileges reduce tomorrow's opportunities to learn.
+In 2007, the task changed again. DARPA's Urban Challenge required vehicles to negotiate a staged city, deal with other moving traffic, and obey traffic rules. Six of eleven finalists completed it; Carnegie Mellon's Tartan Racing team placed first. A desert finish had not settled performance in traffic. Changing the test could expose a different set of capabilities and produce another winner. The institution kept asking questions beyond who had won its previous prize.[^chapter_06-c6-5]
 
-The comparison budget gives the second question a precise meaning in the book's allocation model. It adds the modeled chances of opportunities going outside the current favorite. A cash prize is not itself that budget. A million dollars can reward a contest with many informative attempts, or a demonstration whose outcome was effectively settled in advance.
+The comparison budget gives the allocation question a precise meaning in the book's allocation model. It adds the modeled chances of opportunities going outside the current favorite. A cash prize is not itself that budget. A million dollars can reward a contest with many informative attempts, or a demonstration whose outcome was effectively settled in advance.
 
-For the vehicles, we also observe much more than a winner's name. Distances, completion times, failures, and technical tests can contain information. Any claim about what the event taught us must include that evidence. Compressing the entire challenge into a single award would throw away part of the experiment and then complain about the resulting ignorance.
+The races left more than a winner's name. How far did a vehicle travel? Did it complete the course within the limit? Could it handle traffic under the new rules? Those observations distinguish failed attempts and successful ones more finely than the payment account does. Any application of the information argument must count that evidence. Discarding it would create an ignorance the actual test did not impose.
 
 We can therefore defend a prize without treating its winner as the owner of all the knowledge it helped generate. We can credit unsuccessful teams for identifiable useful work without deciding that every attempt should earn the same payment. The practical task is to arrange rewards and tests so that worthwhile effort and usable learning can happen together.
 
@@ -1433,7 +1433,7 @@ The pilot's result can change what the participants rationally do. Success might
 
 Kerr and his coauthors also examine the difficulty of prediction within venture capital. In data from one successful firm, the initial partner scores did not clearly distinguish its later spectacular successes from weaker outcomes. This concerns ventures the firm had already chosen to finance. It does not establish that investors lack skill at selecting or developing investments, or that every rejected idea would have been equally good.
 
-The distinction is familiar from the race. Selecting capable entrants, creating a useful test, and identifying its eventual winner are different abilities. An investor might be good at the first two while remaining uncertain about the third. A system that demanded foreknowledge of the winner as a condition of financing would rule out much of what financing is for.
+The successive races show why those abilities differ. A team unable to finish in 2004 might return with a better vehicle; a desert winner still faced a new task in a city. A backer could help make that development possible without knowing the final ranking. Requiring foreknowledge as a condition of financing would defeat much of the purpose of financing an experiment.
 
 Birch's backer can therefore make a serious incentive argument: without a prospect of receiving enough from successful projects, the backer would fund fewer attempts. We should listen. We should then ask how much the prospect changes behavior, which attempts disappear, and what other financing arrangements could support them. The word incentive begins an empirical inquiry; it does not end one.
 
@@ -1443,7 +1443,7 @@ That defense has limits of its own. A contract can settle what its signatories p
 
 Consider two imaginable offers to Birch. In the first, an investor demands a large share because the project is risky and alternative financing is costly. In the second, the investor demands the same share after acquiring exclusive control over the only permitted route to customers. The numbers on the signed pages could match. The economic explanation for them would differ.
 
-We would need evidence before placing a real investor in either description. The purpose of the example is to expose a shortcut. The share somebody can obtain is an observation. Whether it reflects necessary risk compensation, scarce expertise, exclusion, or some mixture is a question about alternatives and behavior. Calling the share deserved does not perform that investigation.
+These are hypothetical offers, not findings about a real investor. The share somebody obtains is an observation. Whether it reflects risk compensation, scarce expertise, exclusion, or some mixture is a question about alternatives and behavior. Calling the share deserved does not investigate those possibilities or distinguish their implications for future rules.
 
 The experimental view of entrepreneurship also gives us a reason to look beyond the conspicuous winner. Useful tests may occur inside a large company, at a small entrant, or through a publicly supported project. The label on the organization does not reveal whether it asks an informative question. We learned that in the previous chapter when private experiments at Google generated improvements while separate questions arose about access to distribution.[^chapter_06-c6-12]
 
@@ -1507,7 +1507,7 @@ For Birch, imagine that failure means its workers cannot meet ordinary expenses.
 
 Aster's owners might answer that their own willingness to bear losses helped create the useful product. They could be right. We should give that claim its proper evidential form: what did they finance, what losses were possible, what alternatives existed, and what did the arrangement induce? It becomes weaker when presented as a demand that the size of the final fortune settle every question.
 
-Nakamura's reactor makes the question tangible. Work needed equipment, repeated attempts, and room to continue after disappointing results. His account of those attempts supports appreciation of the achievement. Nichia's emphasis on employer risk identifies a different consideration. A serious analysis can hear both without assigning the company or inventor an exact share of all subsequent social value from those documents alone.
+Nakamura's account separates the purchases from the learning. The reactor existed before it could grow the material he needed. Its owner financed an uncertain undertaking; modifying it required work that the original purchase did not supply. Nichia's statement emphasizes employer risk, while the lecture describes technical changes. Putting the two documents together makes each claim more concrete without making their eventual settlement a scientific measurement.
 
 There is also a difference between bearing uncertainty and creating it for someone else. In an illustrative procurement system, a supplier might invest in reliability and accept the chance that buyers will prefer a rival. Or it might arrange to make rivals' performance impossible for buyers to assess. Both activities can involve expense. Expense by itself does not establish equal social usefulness.
 
@@ -1557,7 +1557,9 @@ That is the task ahead. Follow the actual inputs, follow what is tested, and dis
 
 <a id="chapter_07"></a>
 
-# Chapter 7: The intelligence factory
+# Chapter 7
+
+## The intelligence factory
 
 In the International Energy Agency's 2026 account of artificial intelligence, one of the consequential technologies is a connection to the electricity grid.
 
@@ -1567,7 +1569,7 @@ This is an unusual setting for a discussion of something described as intelligen
 
 Nor can the phrase data center tell us what a facility will accomplish. A building can house many kinds of computing. The useful economic questions concern the equipment inside it, the work assigned to that equipment, and the arrangements through which its output reaches people. The same physical capacity could support different services and different opportunities to test them.
 
-The IEA estimated that all data centers together consumed about 485 terawatt-hours of electricity in 2025. Its central projection put consumption at roughly 950 in 2030. The second number is an outlook, not an observation from the future. Both cover more than AI alone. They nevertheless make a physical fact difficult to overlook: the activity behind a seemingly weightless answer occupies a material economy.
+In its April report, the IEA estimated that all data centers together consumed about 485 terawatt-hours of electricity in 2025. A terawatt-hour is a billion kilowatt-hours, the unit familiar from electricity bills. Its central projection put consumption at roughly 950 terawatt-hours in 2030. That is an outlook, not an observation from the future, and both totals cover more than AI alone. The seemingly weightless answer occupies a material economy.
 
 We have reached that economy from an argument about rewards. The previous chapter asked how an inventor, a financier, and a worker might have different claims arising from the same achievement. AI gives the question a new scale. Someone must obtain chips, install them, keep them working, and finance the interval before a useful product earns anything.
 
@@ -1577,7 +1579,7 @@ There are strong reasons for some of that work to occur in large organizations. 
 
 At Oak Ridge National Laboratory, preparations for the Frontier supercomputer involved a cooling plant, elaborate piping, and foundations capable of carrying cabinets weighing four tons apiece. The laboratory's published construction account records a failed joint in a large pipe during a pressure test. Water poured out; the team identified the failed weld and repaired it. Before the computer could do its work, the building had to survive the plumbing.[^chapter_07-c7-2]
 
-This is a documented engineering episode, rather than a scene I witnessed. It is useful precisely because its difficulty is so recognizable. A pipe can be installed incorrectly. A floor can need reinforcement. A computer ordered for advanced science still depends on people who know how to build and maintain a facility.
+The failed weld belongs in the account of the machine. Buying processors had not completed the job; the supporting systems had to pass their own tests. The pressurized pipe offered a plain measure: a joint had to hold before the planned operation could proceed. Acknowledging that work does not require calculating the crew's share of every future scientific discovery the computer will support.
 
 Frontier is a scientific supercomputer with that proper name. When people call an AI model a frontier model, they mean something different: a system near the leading edge of relevant capabilities at a particular time. The distinction is worth making before the language conceals the machinery. A leading model is produced and operated on physical systems; it is not the building itself.
 
@@ -1597,7 +1599,7 @@ The LUMI example therefore makes location more than a choice about cheap land. T
 
 That is relevant to a comparison of AI factories even when they offer similar services. Their private accounts can omit different benefits and costs falling outside their walls. A meter reading alone does not identify those effects. Neither does a claim that all computation is virtual. The heat has to go somewhere, and in Kajaani some of it goes into homes.
 
-If we compare two facilities only by counting their processors, we can miss those differences. If we compare them only by counting electricity consumed, we can miss differences in what they accomplish. And if we compare the companies only by their eventual revenue, we can mistake an outcome for a complete explanation of the productive system behind it.
+Counting processors can miss those differences. Counting electricity can miss what the equipment accomplishes. Revenue records what a company receives. Each measure answers a question; none alone explains the whole productive system.
 
 The Oak Ridge construction record makes the missing work visible. Someone had to discover the defect during testing and correct it. That is a contribution we can describe concretely. We do not need an exact division of the supercomputer's lifetime scientific value to acknowledge that preventing a failed pipe from interrupting operation is useful.
 
@@ -1609,15 +1611,15 @@ Meta's technical report on the Llama 3 family provides a view inside large-scale
 
 The two facts belong together. Reporting the interruptions alone would make the exercise sound like a collapse. Reporting the useful training time alone would hide the organizational and technical work needed to achieve it. Automation, diagnosis, and recovery turned a collection of fallible components into a functioning undertaking.
 
-This is one reason an AI company cannot be understood as a person who buys chips and waits for intelligence to appear. There are problems to anticipate, faults to locate, and decisions about when to stop or restart a job. A processor's advertised speed does not contain that knowledge.
+A single failed GPU could require the entire training job to restart. A processor that still worked but ran slowly could hold back thousands of others. Meta's report describes tools for finding those stragglers. The coordination problem was physical: many expensive processors depended on the pace and reliability of the components around them. Their number alone did not establish the useful work they could perform.[^chapter_07-c7-4]
+
+The Llama team reported significant manual intervention was needed only three times during that period; automation handled the other issues. That is an operational claim with a specified boundary. An entrant renting well-run computing might purchase the benefit of such procedures without developing them afresh. The institutional question is whether the service lets the entrant investigate a different product, rather than whether every entrant owns its own maintenance operation.[^chapter_07-c7-4]
 
 Scale can help in several different ways. The work of developing a useful system can be spread across many uses, provided the resulting service remains useful to those users. An operating team can support more than one project. A costly improvement in diagnosis may pay off repeatedly, rather than needing to be rediscovered for every customer.
 
 A second possibility concerns idle capacity. Imagine a shared facility serving customers whose compatible workloads arrive at different times. Combining their demand could keep equipment occupied more consistently than separate facilities would. This is a conditional illustration of an advantage from pooling, not evidence that every large operator uses its machines efficiently or that every workload can be scheduled interchangeably.
 
 Neither advantage requires the customer-facing services to become identical. A common facility could support Birch's specialized application and Aster's broader service while letting each develop its own methods. Some production can be centralized while important comparisons remain possible elsewhere. We need to follow what is shared and what can still vary, from research methods to delivered services.
-
-The Llama interruption record makes operating competence a concrete part of this discussion. An entrant might purchase that kind of competence through a computing service rather than acquire it from scratch. The consequential institutional question is whether the arrangement makes more useful undertakings feasible, and whether its terms preserve enough room for those undertakings to differ and be assessed on the relevant evidence.
 
 For a hypothetical entrant, buying access to well-run computing can therefore be more sensible than building every capability internally. Our fictional software suppliers, Aster and Birch, might rent capacity from the same provider while developing different products. The provider's operating expertise could make both undertakings feasible. Shared infrastructure can enlarge the set of firms able to attempt something.
 
@@ -1640,8 +1642,6 @@ For fictional Birch, that distinction changes the entry question. Requiring the 
 Llama's interruption record also counters an easy version of the information argument. The company plainly learned about its own operation. A failing component, a useful recovery method, or a bottleneck in communication can generate actionable evidence inside one organization. Calling the organization large cannot make that learning disappear.
 
 The more demanding question is which question the learning answers. An improved recovery procedure can establish how to keep this cluster operating. It does not, without further work, establish what a differently financed rival would have built or which product a buyer would prefer after a fair trial. A factory can become better understood while its place in the wider economy remains harder to explain.
-
-We should ask for that distinction without asking the engineers to apologize for their achievement. Keeping a difficult operation working is valuable. The economic inquiry concerns how to capture that value while leaving useful alternatives testable.
 
 ## Three different jobs
 
@@ -1681,7 +1681,7 @@ Suppose, as an illustration, Aster uses rented capacity to test several training
 
 Neither description can be inferred from the electricity meter. The meter tells us about energy use. To understand the evidence, we need the designs, measurements, and decisions attached to it. A low electricity bill can accompany an informative test; an enormous bill can accompany repetition. The economic value of either depends on what is being accomplished.
 
-Chinchilla's results should not become a universal formula for every later training decision. The relevant technologies, data, objectives, and future use costs can change. Even the reported comparison involved details beyond model size and data quantity. The broader lesson is that a prominent recipe remains something researchers can investigate, rather than an answer guaranteed by the scale of its earlier success.
+Chinchilla also changed how its settings were adjusted, how text was divided into units, and the proportions drawn from different parts of the training dataset. The paper records those differences. Its result therefore compares two training packages; it does not isolate model size as the sole cause. The productive lesson is the researchers' ability to investigate a prevailing recipe. Future data, hardware, and uses could make another recipe preferable.[^chapter_07-c7-8]
 
 Imagine a customer choosing between Aster and Birch after each has built a product. The customer might observe useful performance measurements from both. Those observations belong in the evidence. We cannot declare contribution unknowable by keeping only the award record and discarding the trials that preceded it.
 
@@ -1769,7 +1769,7 @@ Here is another economic record that does not explain itself. A proposed project
 
 The IEA's October report also describes the importance of allocating connection costs and risks. If new infrastructure is built for a large customer that consumes less than expected or leaves early, somebody must absorb the cost. Contractual commitments and tariffs can determine how much falls on other users of the electricity system. These are institutional choices alongside the engineering.
 
-For our fictional facility, suppose a grid expansion serves both the computing customer and other future users. The project's benefits may extend beyond the company financing the cluster. Suppose instead that expensive dedicated infrastructure is left underused and its costs are shifted to households. The same label, investment in AI, would conceal a different distribution of consequences.
+The IEA's comparison gives AEP Ohio's large-data-center arrangements a concrete form: a ramp-up period, minimum capacity payments, a long commitment, and exit fees. The customer reserving infrastructure cannot assume its obligation ends whenever its appetite for computing falls. That shifts some risk of unused capacity toward the customer requesting it. The terms are a way to allocate risk, not proof that the resulting investment is optimal or that households bear no remaining costs.[^chapter_07-c7-12]
 
 Operating commitments matter as well as construction commitments. In another illustrative arrangement, a customer could accept occasional interruptions in exchange for earlier or cheaper access. A computing job able to pause safely might fit that bargain; a service promising immediate responses might find it costly. The relevant unit is the particular workload and obligation, rather than an undifferentiated category called AI demand.
 
@@ -3155,13 +3155,13 @@ Lockdown's other chart was there to be read. Most economic alternatives have no 
 
 [^chapter_06-c6-1]: Matthew J. Salganik, Peter Sheridan Dodds, and Duncan J. Watts, “Experimental Study of Inequality and Unpredictability in an Artificial Cultural Market,” *Science* 311 (2006), 854–856, [full paper](https://www.princeton.edu/~mjs3/salganik_dodds_watts06_full.pdf), pp. 854–855 and Figures 1–3. The particular first-place and fortieth-place rankings come from Salganik's [*Bit by Bit*, Section 4.6.1](https://www.bitbybitbook.com/en/running-experiments/exp-advice/zero-variable-cost/). The study compares markets with different listeners, not cloned people. These ranks do not document musician income, working hours, or personal reactions.
 
-[^chapter_06-c6-2]: Shuji Nakamura, “Background Story of the Invention of Efficient Blue InGaN Light Emitting Diodes,” [Nobel lecture, December 8, 2014](https://www.nobelprize.org/uploads/2018/06/nakamura-lecture.pdf), printed pp. 70 and 72–75, especially the reactor account on pp. 73–74. This is the inventor's retrospective account, with references to technical publications. The chapter attributes the account and uses no invented laboratory scene. The remarks about measurements and attribution are this book's interpretation; the allocation-history result does not erase additional physical evidence.
+[^chapter_06-c6-2]: Shuji Nakamura, “Background Story of the Invention of Efficient Blue InGaN Light Emitting Diodes,” [Nobel lecture, December 8, 2014](https://www.nobelprize.org/uploads/2018/06/nakamura-lecture.pdf), printed pp. 70 and 72–75, especially the commercial-reactor mismatch, modifications, two-flow design and two-inch growth on pp. 73–74. This is the inventor's retrospective account, with references to technical publications. The chapter attributes the account and uses no invented laboratory scene. The remarks about measurements and attribution are this book's interpretation; the allocation-history result does not erase additional physical evidence.
 
 [^chapter_06-c6-3]: Nichia Corporation, January 11, 2005, [“Nichia Settled with Former Employee over ‘Reasonable Remuneration’”](https://www.nichia.co.jp/en/newsroom/2005/2005_011101.html), opening, settlement scope, payment paragraphs, and company statements 2–4. Announced amounts are JPY608,570,000 remuneration plus JPY235,340,000 interest damages, totaling JPY843,910,000. The company described 191 registered patents, four utility models, 112 pending applications, foreign counterparts, and unpublished know-how. Its views on risk and contribution are attributed party positions. No independent causal percentage, original trial-award account, or current Japanese-law guidance is claimed.
 
 [^chapter_06-c6-4]: Martin Erlic, *Shadow Futures*, canonical October 2026 v5, Sections 3–5 and Appendices B and E; [SSRN record](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994). The book uses the repository's canonical v5, rather than presuming the SSRN-hosted file has identical contents. Replays preserve parameters, starting conditions, and input/state response rules; causal interventions change a specified input or policy. A contribution claim requires a defined intervention and horizon, with appropriate structural assumptions.
 
-[^chapter_06-c6-5]: DARPA, [“Grand Challenge” institutional timeline](https://www.darpa.mil/about/innovation-timeline/grand-challenge), first three paragraphs; and [“The DARPA Grand Challenge: Ten Years Later”](https://www.darpa.mil/news/2014/grand-challenge-ten-years-later), March 13, 2014, opening through the 2005 event. The courses differed between years. DARPA is the organizer and describes its own program. The chapter uses dated event results, not its broader causal claims about later autonomous driving, and makes no estimated prize-size effect or comparison-budget claim.
+[^chapter_06-c6-5]: DARPA, [“Grand Challenge” institutional timeline](https://www.darpa.mil/about/innovation-timeline/grand-challenge), first three paragraphs; and [“The DARPA Grand Challenge: Ten Years Later”](https://www.darpa.mil/news/2014/grand-challenge-ten-years-later), March 13, 2014, opening through the 2007 Urban Challenge. The retrospective reports fifteen 2004 starters, a best distance of 7.5 miles, the next-day announcement of another challenge, and the 2007 task and finishers. The courses differed between years. DARPA is the organizer and describes its own program. The chapter uses dated event results, not its broader causal claims about later autonomous driving, and makes no estimated prize-size effect or comparison-budget claim.
 
 [^chapter_06-c6-6]: William R. Kerr, Ramana Nanda, and Matthew Rhodes-Kropf, “Entrepreneurship as Experimentation,” *Journal of Economic Perspectives* 28(3) (2014), 25–48, [full published paper](https://www.hbs.edu/faculty/Shared%20Documents/conferences/2014-strategy-research/Entrepreneruship%20as%20Experimentation.pdf), pp. 27–32 and 43–44, DOI 10.1257/jep.28.3.25. Their initial-score comparison concerns one anonymous firm's funded investments; it does not identify performance on rejected ventures or disprove investor skill. The Birch pilot and alternative financing arrangements are illustrations, not observations from their dataset.
 
@@ -3179,13 +3179,13 @@ Lockdown's other chart was there to be read. Most economic alternatives have no 
 
 ## The intelligence factory
 
-[^chapter_07-c7-1]: IEA, *Key Questions on Energy and AI* (2026), [full report](https://iea.blob.core.windows.net/assets/3179f7f8-01f6-4dd6-bffa-c9f7b73f1dc9/KeyQuestionsonEnergyandAI.pdf), executive summary, pp. 9–11; physical bottlenecks, p. 21; demand outlook and accelerator definitions, pp. 24–26. The summary rounds 2030 consumption to 950 TWh. These are total data-center estimates/projections, not AI-only consumption or observed future demand. Wait times vary across jurisdictions.
+[^chapter_07-c7-1]: IEA, *Key Questions on Energy and AI* (2026), [full report](https://iea.blob.core.windows.net/assets/3179f7f8-01f6-4dd6-bffa-c9f7b73f1dc9/KeyQuestionsonEnergyandAI.pdf), published April 16, 2026; executive summary, pp. 9–11; physical bottlenecks, p. 21; demand outlook and accelerator definitions, pp. 24–26. The summary rounds 2030 consumption to 950 TWh. These are total data-center estimates/projections, not AI-only consumption or observed future demand. Wait times vary across jurisdictions.
 
 [^chapter_07-c7-2]: Matt Lakin, ORNL, [“Super Construction at Super Scale: How ORNL Built a New Home for Frontier”](https://www.ornl.gov/news/super-construction-super-scale-how-ornl-built-new-home-frontier/), November 14, 2023, construction account from cooling plant and piping through foundations and failed pressure test. The laboratory reports the event and identifies its staff. No visit, conversation, or private reaction is invented here. Frontier is a DOE scientific supercomputer, not the name of a language model.
 
 [^chapter_07-c7-3]: ORNL, [“Computer Engineers at ORNL Pioneer Approaches to Energy Efficient Supercomputing”](https://www.ornl.gov/news/computer-engineers-ornl-pioneer-approaches-energy-efficient-supercomputing/), section describing David Grant's cooling-system work and the transition from Titan's cooler supply to Frontier's warm-water design. The chapter uses the qualitative engineering account, not a claimed causal estimate for AI companies or an assertion that every data center uses this design.
 
-[^chapter_07-c7-4]: Llama Team, AI at Meta, *The Llama 3 Herd of Models*, [arXiv version 3](https://arxiv.org/pdf/2407.21783v3), November 23, 2024, Section 3.3.4, pp. 13–14 and Table 5. The reported fifty-four-day snapshot contains 466 interruptions: 47 planned and 419 unexpected. More than 90 percent effective training time concerns the reported operation; it is not a measurement of economic efficiency or a claim that the whole training run lasted fifty-four days. Developer self-report, not an independent operational audit.
+[^chapter_07-c7-4]: Llama Team, AI at Meta, *The Llama 3 Herd of Models*, [arXiv version 3](https://arxiv.org/pdf/2407.21783v3), November 23, 2024, Section 3.3.4, pp. 13–14 and Table 5. The reported fifty-four-day snapshot contains 466 interruptions: 47 planned and 419 unexpected. More than 90 percent effective training time concerns the reported operation; it is not a measurement of economic efficiency or a claim that the whole training run lasted fifty-four days. The same section reports single-GPU restart risk, slow stragglers affecting thousands of GPUs, and significant manual intervention only three times in the snapshot. Developer self-report, not an independent operational audit.
 
 [^chapter_07-c7-5]: Llama Team, same report, introduction p. 1 and Section 4, p. 15, for pre-training and post-training; Section 3 for training infrastructure. The paper says its language-model results concern Llama 3.1, shortened to Llama 3 in its text. This chapter's general explanation does not imply that serving each request updates model weights, or that use requires all stages to be repeated.
 
@@ -3201,7 +3201,7 @@ Lockdown's other chart was there to be read. Most economic alternatives have no 
 
 [^chapter_07-c7-11]: Kenneth J. Arrow, “Economic Welfare and the Allocation of Resources for Invention,” in *The Rate and Direction of Inventive Activity* (1962), 609–626, [NBER chapter](https://www.nber.org/system/files/chapters/c2144/c2144.pdf), pp. 609 and 614–617, especially pp. 615 and 617. Arrow supplies the established uncertainty, use and appropriation problem. This source is an addition to the book bibliography, not one of the original 24 v5 references. No particular AI access or intellectual-property rule follows automatically from it.
 
-[^chapter_07-c7-12]: IEA, *Powering Artificial Intelligence: Strategies for Integrating Data Centres into Electricity Systems*, October 14, 2026, [report](https://www.iea.org/reports/powering-artificial-intelligence) and [executive summary](https://www.iea.org/reports/powering-artificial-intelligence/executive-summary), sections “Policy Efforts Focus on Improving Demand Visibility” and “Policy Makers Have Tools That Can Address Affordability Concerns.” The multi-grid developer is a labeled illustration, not an identified company. Queue entries, completed capacity, tariffs and realized welfare remain distinct. The chapter uses the report available by its October 16, 2026 source-check date.
+[^chapter_07-c7-12]: IEA, *Powering Artificial Intelligence: Strategies for Integrating Data Centres into Electricity Systems*, October 14, 2026, [report](https://www.iea.org/reports/powering-artificial-intelligence) and [full PDF](https://iea.blob.core.windows.net/assets/cd360a30-aaef-43cd-84e6-a125c3a0bc67/PoweringArtificialIntelligence.pdf), pp. 7–10 for queue visibility and cost allocation, and pp. 52–57, especially the AEP Ohio row on p. 57. The tariff example is the IEA's dated survey description, not a fresh inspection of every operative contract or a legal/welfare recommendation. The multi-grid developer is a labeled illustration, not an identified company. Queue entries, completed capacity, tariffs and realized welfare remain distinct. The chapter uses the report available by its October 16, 2026 source-check date.
 
 [^chapter_07-c7-13]: LUMI consortium, [“Sustainable Future”](https://lumi-supercomputer.eu/sustainable-future/), opening paragraphs on waste-heat use, accessed October 16, 2026. This is an operator account of heat supplied to Kajaani households. The chapter does not adopt the site's broader claims of optimality or its strongest environmental descriptions, or substitute older projected heating shares for measured current ones.
 
@@ -3483,7 +3483,7 @@ INCITE. 2024. INCITE Overview and Policies. Version 13, December; distributed fo
 
 International Energy Agency. 2026. Key Questions on Energy and AI. Paris: IEA. [Source](https://iea.blob.core.windows.net/assets/3179f7f8-01f6-4dd6-bffa-c9f7b73f1dc9/KeyQuestionsonEnergyandAI.pdf)
 
-International Energy Agency. 2026. Powering Artificial Intelligence: Strategies for Integrating Data Centres into Electricity Systems. October 14. [Source](https://www.iea.org/reports/powering-artificial-intelligence/executive-summary)
+International Energy Agency. 2026. Powering Artificial Intelligence: Strategies for Integrating Data Centres into Electricity Systems. October 14. [Report](https://www.iea.org/reports/powering-artificial-intelligence) [Full PDF](https://iea.blob.core.windows.net/assets/cd360a30-aaef-43cd-84e6-a125c3a0bc67/PoweringArtificialIntelligence.pdf)
 
 International Labour Organization. 2021. World Employment and Social Outlook 2021: The Role of Digital Labour Platforms in Transforming the World of Work. Geneva: ILO. [Source](https://www.ilo.org/sites/default/files/wcmsp5/groups/public/%40dgreports/%40dcomm/%40publ/documents/publication/wcms_771749.pdf)
 
