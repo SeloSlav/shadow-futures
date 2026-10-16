@@ -1,8 +1,32 @@
-# Chapter 4: The histories that became infrastructure
+# Chapter 4
+
+## The histories that became infrastructure
+
+### How far can a judgment travel?
+
+A market can grow while the number of independent places to try again shrinks.
+
+Imagine a carpenter who disappoints a buyer in one town. Another town might offer a different buyer, unfamiliar with the dispute and willing to commission a small job. Now imagine that both towns purchase through one platform, which carries the carpenter's ranking from one to the other. The second town is still there. The second judgment may have disappeared. These are thought experiments, but the difference between them is the historical question of this chapter.
+
+Adam Smith began his account of the division of labor with a pin workshop. Specialization raised what its workers could produce together. Its reach still depended on finding buyers. In his chapter on the extent of the market, Smith contrasted the narrow opportunities of scattered settlements with the commerce made possible by water transport. A larger reachable market could support work that a small village could not.[^c4-smith]
+
+Distance therefore did two things. It limited the customers an artisan could serve, and it could separate the people deciding whether to give that artisan a chance. Removing distance could expand both income and competition. Whether it also joined previously separate judgments is another question. A new road connecting buyers is different from one authority deciding which sellers every connected buyer may see.
+
+The old town was hardly an automatic refuge. Smith also described restrictions imposed by guilds and settlement rules, including obstacles to moving in search of work. A newcomer could meet a closed corporation rather than an open door. History offers no clean passage from free local markets to oppressive global ones. It offers changing combinations of reach, productive scale, and permission.[^c4-smith]
+
+Nor did formidable scale begin with software. By 1920, the Supreme Court's United States Steel opinion was recounting a huge industrial combination and disagreement over whether integration reflected the physical requirements of steel production or suppressed competition. Pig iron and finished steel were physical goods; that had not kept their producers small. Furnaces, transport, capital, and organization could already assemble power over a wide territory.[^c4-steel]
+
+The question is how far a common selection system can reach, and what remains outside it. One intermediary serving ten towns may offer customers more choice than ten isolated villages ever had. It may also carry one exclusion across all ten. Increased scale changes the institutional problem when the route to a fresh evaluation disappears.
+
+In 1972, the physicist Philip Anderson called an essay “More Is Different.” New levels of scale and complexity could require new explanations. Anderson worked at Bell Laboratories. His argument was about physics, not a demonstration of economic monopoly, but his title gives us a useful question: when does an increase in reach change the kind of independence an economy can sustain?[^c4-anderson]
+
+Consider what is being scaled. A bigger furnace changes the cost of producing steel. A railway changes where steel can be sold. A shared admissions rule changes which producer can reach those buyers at all. These changes can reinforce one another, but they are not interchangeable. The transition to digital markets adds another possibility: an evaluation can travel with the seller and be reproduced across transactions at very little cost. The important change is not that physical limits have vanished. AI's power supplies and computing clusters make those limits conspicuous. It is that physical reach, distribution, and judgment can become organized at different scales, with one ranking governing opportunities across a much wider network.
+
+Bell gives that question a physical object: a telephone attachment that a customer could buy, yet risk losing service by using.
 
 ### An invention leaves the laboratory
 
-The transistor existed before the government opened Bell's patents. That is where this story must begin.
+The transistor existed before the government opened Bell's patents.
 
 In December 1947, John Bardeen and Walter Brattain made a semiconductor device amplify a signal at Bell Laboratories. Their point-contact transistor belonged to a research program drawing on physics, materials, instruments, and the work of several people. In his Nobel lecture, Bardeen emphasized the earlier theoretical work and improvements in materials on which the discovery depended. The invention was an achievement, and it had a history.[^c4-1]
 
@@ -13,8 +37,6 @@ Between those events lie two questions that are easy to collapse. How did a rema
 The semiconductor story makes that distinction tangible. A transistor on a laboratory bench is not yet a reliable supply of components, an affordable radio, or a workable design in someone else's product. Moving between those stages requires further decisions and further learning. Whoever gets to undertake that work can discover things the original inventors did not yet know. Whoever cannot undertake it leaves fewer results for later observers to examine.
 
 This is one way a history becomes infrastructure. Earlier work leaves designs, machines, procedures, and skills that make some later projects easier. It can also leave permissions and restrictions that determine who may try them. The resulting advantage can be productive. Engineers using an established body of knowledge may work better because somebody has already paid to develop it. A serious account of opportunity must include that benefit.
-
-Our fictional supplier Birch confronts a smaller version of the problem. A reference contract can finance a better product and teach its engineers how to work with a demanding customer. Years later, Aster's experienced team may therefore be genuinely better equipped to deliver. An observer who sees that later difference is seeing a real capability. The further question is how much its development depended on which route was open at the beginning.
 
 Bell offers actual institutional choices against which to think about that question. We need not invent a frustrated engineer, reconstruct a private conversation, or assume that every excluded project would have succeeded. We can inspect licensing, a court dispute over a telephone attachment, and a study of subsequent patents. The record contains both productive achievement and limits on the opportunities available around it.
 
@@ -31,8 +53,6 @@ For an engineer, access can require more than permission to practice a patented 
 The symposium's combination of licensing and instruction is therefore revealing. Making an invention usable can involve transmitting practical knowledge alongside the rights. The economic object reaching another company is a bundle of opportunities and requirements. A cheaper license helps one part of the problem. It need not remove the other costs of turning an idea into something worth buying.
 
 The government's contemporary account of the 1956 judgment recorded a requirement to furnish technical information at a reasonable charge. It also described annual patent lists and a mechanism for settling royalty disagreements. These were ways of making an access obligation operational. A general statement that firms should be allowed to innovate would have left the mechanics unresolved.[^c4-2]
-
-Return to Birch. Suppose the buyer publishes a standard that Birch is allowed to implement, but the practical tests, documentation, and migration requirements remain unclear. Birch can possess the legal permission and still have difficulty delivering a usable alternative. A remedy concerned with meaningful opportunity would ask which of those obstacles is necessary for reliable service and which needlessly blocks a relevant trial.
 
 The incumbent has a legitimate interest here too. Producing instructions, answering technical questions, and maintaining a stable interface require work. An access rule can shift those costs onto an organization that does not receive all the resulting benefits. Ignoring that work would make openness look cheaper than it is. Charging for every missing piece without scrutiny could make nominal access unusable. The design has to address both possibilities.
 
@@ -56,8 +76,6 @@ The informational consequence is my interpretation of the dispute. When a custom
 
 We should be careful about the counterfactual. Hush-A-Phone had sold devices, and the court had evidence to examine. This was not a case of literally no experience or a measured finite lifetime comparison budget. Its importance here is institutional: a rule governing attachment could restrict the use of an existing product independently of the ability to invent or manufacture it.
 
-For Birch, the corresponding barrier would arise after engineers finished a compatible product. Suppose a purchasing system recognizes only components furnished by Aster, without a route for demonstrating that another component is safe and useful. Releasing technical documents would help Birch build. It would leave the decisive access rule in place. The intervention must reach the stage at which the relevant alternative is actually blocked.
-
 ### What happened after the decree
 
 Decades later, Martin Watzinger, Thomas Fackler, Markus Nagler, and Monika Schnitzer studied invention after Bell's 1956 settlement. They compared follow-on patenting associated with Bell patents with carefully matched non-Bell patents. Their published finding was a lasting increase in innovation outside telecommunications, while the corresponding increase did not appear inside telecommunications, where customer access remained constrained.[^c4-5]
@@ -67,8 +85,6 @@ The design matters because a simple before-and-after count would be difficult to
 The study's measure also has a scope. Follow-on patents and their connections to earlier patents are evidence about a particular dimension of invention. They do not put a monetary value on every resulting product, measure every improvement that went unpatented, or reveal what every unrealized company would have achieved. We can take the finding seriously without turning a patent measure into a complete account of social welfare.
 
 The contrast across fields makes the result especially useful for this book. Access to knowledge can help when a business also has a feasible route to use it. Where that route remains constrained, a license alone may be insufficient. The Hush-A-Phone dispute supplies a concrete reminder that the telephone network involved rules about use, not simply a collection of ideas behind patents.
-
-Imagine Birch receiving an inexpensive license for an essential technology. If other buyers can evaluate its product, the license may allow a project to proceed and produce a record. If all relevant customers are bound to another supplier, the same license may sit unused. The cost of the invention has changed in both cases. The opportunity to discover what the entrant can do has changed much more in the first.
 
 This does not establish that every obstacle to entry should disappear. A buyer may have sound reasons to require reliability, security, and compatibility. A supplier may fail those requirements even with full access to the underlying knowledge. The valuable distinction is between testing whether an alternative satisfies the requirements and making its failure inevitable through a rule that prevents the test.
 
@@ -84,17 +100,11 @@ One reason these choices matter is that success can improve the thing that succe
 
 Suppose, in a thought experiment, a widely used software system has trained operators, tested connectors, and a large collection of fixes. A rival's underlying design might be promising, yet the established system can be the practical choice today. Its accumulated advantages are services users actually value. The argument for examining its history does not require pretending those services vanish when we recognize how they developed.
 
-Birch therefore faces a demanding question. It may be able to match a feature in a demonstration and still lack the experience needed to deliver it reliably at scale. A pilot can help it acquire that experience, but the pilot itself costs something and can fail. The buyer choosing Aster is not necessarily confused. The choice can be sensible given the capabilities that this history has produced.
-
 The separate question is whether another history would have developed a better set of capabilities. Arthur's framework gives that question an established economic lineage. It also reminds us that changing a price at the end may not recreate the development that did not happen along the way. A later subsidy can alter incentives; it does not automatically supply years of missing experience.
 
 Bell's technology sharing makes the constructive side visible. Accumulated knowledge can become an input for other people's work. A strong incumbent need not keep every improvement inside its own boundary. An institution may preserve the benefits of a developed technology while allowing others to learn from and extend it. Whether a particular rule achieves that depends on its practical terms.
 
-The buyer need not choose between declaring the incumbent undeserving and treating the present arrangement as beyond improvement. It can acknowledge Aster's real capabilities, investigate what another supplier could achieve, and consider the cost of creating that opportunity. Retrospective explanation and prospective purchasing are connected, but they are different tasks. The relevant evidence and acceptable uncertainty may differ between them.
-
 There is a further distinction from the strongest theorem in Chapter 3. Historical dependence, increasing returns, and technological dominance do not by themselves establish a finite lifetime comparison budget. Arthur's adoption model and my information argument answer different questions under their respective assumptions. The shared idea that early events can matter should not conceal those differences.
-
-For a practical investigation, the first questions are therefore specific. Which advantage comes from accumulated experience? Which comes from a restriction on access? What could a feasible trial reveal? What would be lost by conducting it? The historical case directs us toward those questions without giving us a shortcut from a large incumbent to a predetermined policy answer.
 
 ### The machine and the workforce
 
@@ -147,8 +157,6 @@ Bell Laboratories also warns against treating organizational scale as the opposi
 Think of the difference between a patent list and the ability to carry out an experiment. An organization may have equipment, staff, and accumulated know-how that make a difficult test feasible. Splitting those capacities apart could make some experiments more expensive. Keeping them together could accelerate learning. An argument about comparison must count these benefits, rather than assuming that a smaller organizational boundary automatically creates better evidence.
 
 The 1952 symposium adds a second dimension. Knowledge developed inside a large organization could also be transmitted beyond it. Internal research and outside experimentation can be complements. The question is how the arrangement connects them: what is shared, which uses are feasible, what costs are covered, and whether someone outside can produce a result that the larger organization would not have produced itself.
-
-Our fictional buyer might obtain useful evidence from an independent supplier, a separate testing service, or a carefully designed experiment inside the incumbent. These possibilities need to be compared on their merits. An internal trial could answer a narrow performance question very well. An independent route could matter when the uncertainty concerns something the incumbent's existing design or commercial incentives do not test.
 
 The relevant information set is crucial. If Aster's internal tests directly reveal the engineering effect being investigated, those results cannot be ignored in order to manufacture an attribution problem. If outsiders cannot inspect the tests, that creates a question about access and verification of evidence. It does not establish that no informative evidence exists anywhere. The next chapter will examine this distinction more closely.
 
@@ -212,7 +220,7 @@ Bell's transistor, its technology-sharing program, the patent decree, and the at
 
 The resulting history contains real achievements. It also leaves questions about routes that were harder to pursue. We can investigate those questions through actual interventions and comparisons, as the patent study did. We can use shadow futures to state what remains unobserved. We should keep the evidence for an intervention distinct from the imagined histories that help formulate the attribution problem.
 
-For the next chapter, the cup and the cradle leave a further question. Who decides which alternatives receive a test, and who can examine what the test reveals? Control over a route can matter even when the operator produces excellent research of its own. It can also matter when many nominal suppliers depend on that same route. The number of products in a catalogue does not answer who can generate a relevant comparison.
+The cup and the cradle bring us back to the carpenter and the two towns. A boundary can let an independent invention reach an established network. It can also make the network owner the judge of what everyone connected to it may try. Digital markets extend that question: how many apparent destinations still lead to the same decision about who deserves a chance?
 
 Birch needs more than a favorable story about the product it might have built. It needs a feasible way to develop, deliver, and be evaluated. Aster's accomplishments deserve to be understood within the economy that produced them. So do the rules determining who can attempt the next accomplishment. The histories that become infrastructure are important partly because later possibilities must pass through them.
 
@@ -245,3 +253,9 @@ Birch needs more than a favorable story about the product it might have built. I
 [^c4-13]: Martin Erlic, *Shadow Futures*, canonical October 2026 v5, Sections 3–5. The comparison budget concerns modeled allocation chance outside the current favorite, relative to the recorded experiment and target. Historical licensing, attachment, and coordination cases are interpretations and applications, not empirical demonstrations of Theorem 1. Aster, Birch, software training, component trials, and other purchasing examples are explicitly fictional illustrations.
 
 [^c4-14]: AT&T, *Annual Report 1955*, [original report scan](https://www.telephonearchive.com/uploads/papers/pdfs/att1955.pdf), printed pp. 13 and 16, PDF pp. 15 and 18, visually inspected. Americus equipment and solar-power trials are described on p. 13; the company's account of integration, decree terms, and expected business consequences is on p. 16. These are attributed corporate descriptions and predictions, not independently established policy effects.
+
+[^c4-smith]: Adam Smith, *An Inquiry into the Nature and Causes of the Wealth of Nations* (1776), Book I, Chapters I and III (pins, specialization, market extent and water carriage), and Chapter X, Part II (corporation and settlement restrictions). [Original text, Project Gutenberg](https://www.gutenberg.org/files/3300/3300-h/3300-h.htm). The carpenter and two towns are thought experiments. Geographic separation does not establish independent selection or freer historical markets.
+
+[^c4-steel]: *United States v. United States Steel Corp.*, 251 U.S. 417 (1920), pp. 438–439, recounting the lower court judges' differing explanations of industrial combination. [Opinion](https://supreme.justia.com/cases/federal/us/251/417/). The contrast is part of the judicial record, not a claim that physical integration always requires monopoly or that this decision supplies present legal authority.
+
+[^c4-anderson]: P. W. Anderson, “More Is Different,” *Science* 177, no. 4047 (1972): 393–396, opening page and Bell Telephone Laboratories affiliation. [Published article](https://www.rpgroup.caltech.edu/embl_pboc_2023/assets/pdfs/anderson1972.pdf). The economic use is an analogy. Neither Anderson nor v5 proves the proposed centuries-long historical progression.

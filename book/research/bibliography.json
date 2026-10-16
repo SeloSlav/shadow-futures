@@ -110,6 +110,27 @@
       "canonical_v5_reference": false
     },
     {
+      "id": "Anderson1972",
+      "source_keys": [
+        "Anderson1972"
+      ],
+      "citation": "Anderson, P. W. 1972. More Is Different. Science 177(4047):393–396.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.rpgroup.caltech.edu/embl_pboc_2023/assets/pdfs/anderson1972.pdf"
+        }
+      ],
+      "known_locations": [
+        "https://www.rpgroup.caltech.edu/embl_pboc_2023/assets/pdfs/anderson1972.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/05-the-histories-that-became-infrastructure.md"
+      ],
+      "canonical_v5_reference": false,
+      "bibliographic_check": "Relevant primary passages inspected for the recorded claim; access/interpretation boundaries in chapter source ledger."
+    },
+    {
       "id": "ALCFINCITE2026Awards",
       "source_keys": [
         "ALCFINCITE2026Awards"
@@ -149,6 +170,28 @@
         "book/manuscript/12-taxing-lost-comparison.md"
       ],
       "canonical_v5_reference": false
+    },
+    {
+      "id": "ArrowFisher1974",
+      "source_keys": [
+        "ArrowFisher1974"
+      ],
+      "citation": "Arrow, K. J., and A. C. Fisher. 1974. Environmental Preservation, Uncertainty, and Irreversibility. Quarterly Journal of Economics 88(2):312–319.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://doi.org/10.2307/1883074"
+        }
+      ],
+      "known_locations": [
+        "https://doi.org/10.2307/1883074",
+        "https://www.u-cursos.cl/derecho/2019/1/DDAL23/1/material_docente/bajar?bajar=1&id=2589976"
+      ],
+      "cited_in": [
+        "book/manuscript/11-competition-for-future-evidence.md"
+      ],
+      "canonical_v5_reference": false,
+      "bibliographic_check": "Relevant primary passages inspected for the recorded claim; access/interpretation boundaries in chapter source ledger."
     },
     {
       "id": "Arthur1989",
@@ -616,6 +659,28 @@
       "canonical_v5_reference": false
     },
     {
+      "id": "CunninghamEdererMa2021",
+      "source_keys": [
+        "CunninghamEdererMa2021"
+      ],
+      "citation": "Cunningham, C., F. Ederer, and S. Ma. 2021. Killer Acquisitions. Journal of Political Economy 129(3):649–702.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.antitrustinstitute.org/wp-content/uploads/2022/05/0265-Killer-Acquisitions-129-J.-Pol.-Econ.-649-2021.pdf"
+        }
+      ],
+      "known_locations": [
+        "https://www.antitrustinstitute.org/wp-content/uploads/2022/05/0265-Killer-Acquisitions-129-J.-Pol.-Econ.-649-2021.pdf",
+        "https://doi.org/10.1086/712506"
+      ],
+      "cited_in": [
+        "book/manuscript/06-who-gets-to-be-tested.md"
+      ],
+      "canonical_v5_reference": false,
+      "bibliographic_check": "Relevant primary passages inspected for the recorded claim; access/interpretation boundaries in chapter source ledger."
+    },
+    {
       "id": "David1985",
       "source_keys": [
         "David1985"
@@ -877,6 +942,48 @@
       "canonical_v5_reference": false
     },
     {
+      "id": "EUDMA2022",
+      "source_keys": [
+        "EUDMA2022"
+      ],
+      "citation": "European Parliament and Council. 2022. Regulation (EU) 2022/1925, Digital Markets Act. Articles 6(11) and 7.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://eur-lex.europa.eu/eli/reg/2022/1925/oj/eng"
+        }
+      ],
+      "known_locations": [
+        "https://eur-lex.europa.eu/eli/reg/2022/1925/oj/eng"
+      ],
+      "cited_in": [
+        "book/manuscript/11-competition-for-future-evidence.md"
+      ],
+      "canonical_v5_reference": false,
+      "bibliographic_check": "Relevant primary passages inspected for the recorded claim; access/interpretation boundaries in chapter source ledger."
+    },
+    {
+      "id": "EU2024PlatformWorkDirective",
+      "source_keys": [
+        "EU2024PlatformWorkDirective"
+      ],
+      "citation": "European Parliament and Council. 2024. Directive (EU) 2024/2831 on improving working conditions in platform work. Articles 9(6) and 29(1).",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A02024L2831-20241111"
+        }
+      ],
+      "known_locations": [
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A02024L2831-20241111"
+      ],
+      "cited_in": [
+        "book/manuscript/10-the-first-rung.md"
+      ],
+      "canonical_v5_reference": false,
+      "bibliographic_check": "Relevant primary passages inspected for the recorded claim; access/interpretation boundaries in chapter source ledger."
+    },
+    {
       "id": "Carterfone1968",
       "source_keys": [
         "Carterfone1968"
@@ -1104,6 +1211,27 @@
         "book/manuscript/08-the-intelligence-factory.md"
       ],
       "canonical_v5_reference": false
+    },
+    {
+      "id": "ILO2021Platforms",
+      "source_keys": [
+        "ILO2021Platforms"
+      ],
+      "citation": "International Labour Organization. 2021. World Employment and Social Outlook 2021: The Role of Digital Labour Platforms in Transforming the World of Work. Geneva: ILO.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.ilo.org/sites/default/files/wcmsp5/groups/public/%40dgreports/%40dcomm/%40publ/documents/publication/wcms_771749.pdf"
+        }
+      ],
+      "known_locations": [
+        "https://www.ilo.org/sites/default/files/wcmsp5/groups/public/%40dgreports/%40dcomm/%40publ/documents/publication/wcms_771749.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/10-the-first-rung.md"
+      ],
+      "canonical_v5_reference": false,
+      "bibliographic_check": "Relevant primary passages inspected for the recorded claim; access/interpretation boundaries in chapter source ledger."
     },
     {
       "id": "Ipsos2026BankServiceQuality",
@@ -1940,6 +2068,27 @@
       "canonical_v5_reference": true
     },
     {
+      "id": "Smith1776",
+      "source_keys": [
+        "Smith1776"
+      ],
+      "citation": "Smith, A. 1776. An Inquiry into the Nature and Causes of the Wealth of Nations. Book I, Chapters I, III and X, Part II.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.gutenberg.org/files/3300/3300-h/3300-h.htm"
+        }
+      ],
+      "known_locations": [
+        "https://www.gutenberg.org/files/3300/3300-h/3300-h.htm"
+      ],
+      "cited_in": [
+        "book/manuscript/05-the-histories-that-became-infrastructure.md"
+      ],
+      "canonical_v5_reference": false,
+      "bibliographic_check": "Relevant primary passages inspected for the recorded claim; access/interpretation boundaries in chapter source ledger."
+    },
+    {
       "id": "Snow1855",
       "source_keys": [
         "Snow1855"
@@ -2019,6 +2168,27 @@
         "book/manuscript/12-taxing-lost-comparison.md"
       ],
       "canonical_v5_reference": false
+    },
+    {
+      "id": "Matthew2Herod",
+      "source_keys": [
+        "Matthew2Herod"
+      ],
+      "citation": "The Bible. Matthew 2:1–18. King James Version.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.biblegateway.com/passage/?search=Matthew%202%3A1-18&version=KJV"
+        }
+      ],
+      "known_locations": [
+        "https://www.biblegateway.com/passage/?search=Matthew%202%3A1-18&version=KJV"
+      ],
+      "cited_in": [
+        "book/manuscript/06-who-gets-to-be-tested.md"
+      ],
+      "canonical_v5_reference": false,
+      "bibliographic_check": "Relevant primary passages inspected for the recorded claim; access/interpretation boundaries in chapter source ledger."
     },
     {
       "id": "TraagEtAl2025",
@@ -2185,6 +2355,27 @@
         "book/manuscript/06-who-gets-to-be-tested.md"
       ],
       "canonical_v5_reference": false
+    },
+    {
+      "id": "USSteel1920",
+      "source_keys": [
+        "USSteel1920"
+      ],
+      "citation": "United States v. United States Steel Corp. 1920. 251 U.S. 417, especially 438–439.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://supreme.justia.com/cases/federal/us/251/417/"
+        }
+      ],
+      "known_locations": [
+        "https://supreme.justia.com/cases/federal/us/251/417/"
+      ],
+      "cited_in": [
+        "book/manuscript/05-the-histories-that-became-infrastructure.md"
+      ],
+      "canonical_v5_reference": false,
+      "bibliographic_check": "Relevant primary passages inspected for the recorded claim; access/interpretation boundaries in chapter source ledger."
     },
     {
       "id": "VanDeRijtEtAl2014",

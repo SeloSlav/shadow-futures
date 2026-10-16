@@ -4,8 +4,8 @@
   "checked_on": "2026-10-16",
   "status": "drafted",
   "target_main_words": 6000,
-  "body_words": 6000,
-  "draft_sha256": "79ba9ba595b9c29af88e7e5103e3ad737ac4ad21b60990374bd13f3d7ca13a12",
+  "body_words": 6061,
+  "draft_sha256": "c503ba42f89d390ed8cb90e0dcf677624a0903f3470cd655e808a6f7d8b89031",
   "source_checks": "Claim-specific passages checked in full primary records, identified author versions, and museum collection accounts. Version, access and interpretation boundaries retained; no independent proof or priority certification.",
   "sources": [
     {
@@ -188,6 +188,39 @@
       ],
       "boundary": "Corporate descriptions and expectations explicitly attributed, not independently verified results. Annual report is for 1955 but discusses January 1956 event. Report scan is image-only; source passage read visually, not inferred from failed text extraction.",
       "v5_reference": false
+    },
+    {
+      "key": "Smith1776",
+      "note": "c4-smith",
+      "source": "https://www.gutenberg.org/files/3300/3300-h/3300-h.htm",
+      "locator": "Book I, Chapters I (pins), III (extent of market and water carriage), X Part II (corporations and settlement restrictions)",
+      "claims": [
+        "Specialization and extent of market; transport widens reachable exchange; old entry/mobility restrictions"
+      ],
+      "boundary": "Original text inspected; no claim old markets were uniformly local, independent or free. Two towns are a thought experiment; historical scaling hypothesis not proved by v5.",
+      "v5_reference": false
+    },
+    {
+      "key": "USSteel1920",
+      "note": "c4-steel",
+      "source": "https://supreme.justia.com/cases/federal/us/251/417/",
+      "locator": "Opinion pp. 438–439, recounting differing lower-court explanations of physical integration and suppression of competition",
+      "claims": [
+        "Large physical-industrial combination and competing explanations already before digital platforms"
+      ],
+      "boundary": "Primary judicial opinion in public transcription, not a modern liability rule; competing judges' views not collapsed into uncontested fact.",
+      "v5_reference": false
+    },
+    {
+      "key": "Anderson1972",
+      "note": "c4-anderson",
+      "source": "https://www.rpgroup.caltech.edu/embl_pboc_2023/assets/pdfs/anderson1972.pdf",
+      "locator": "Published article opening p. 393; affiliation and scale/complexity argument",
+      "claims": [
+        "Scale and complexity motivating different explanations; Bell Telephone Laboratories affiliation"
+      ],
+      "boundary": "Physics essay supplies a credited analogy, not an economic phase-transition theorem or evidence of declining comparison.",
+      "v5_reference": false
     }
   ],
   "illustrations": [
@@ -204,5 +237,11 @@
     "No equations, invented interviews, private reactions or dialogue.",
     "No actual comparison-budget estimate or infinite-horizon condition inferred from these cases."
   ],
-  "whole_book_review": "Still required after full draft, including repeated hypothetical supplier passages and density/pace review."
+  "whole_book_review": "Still required after full draft, including repeated hypothetical supplier passages and density/pace review.",
+  "note_words": 947,
+  "historical_scale_revision": {
+    "checked_on": "2026-10-16",
+    "scope": "Targeted user-requested historical scale, reach-of-judgment, preemption, platform work, precaution and private-property revision; complete sequential chapter review remains pending.",
+    "boundary": "No inevitable historical decline, finite-budget diagnosis of any actual market, independent proof/priority certification, or automatic policy/liability inference."
+  }
 }

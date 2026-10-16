@@ -12,6 +12,8 @@ Aster and Birch are recurring fictional software suppliers. Their first contract
 
 The real-case sequence is fixed: MusicLab, the success-breeds-success field experiments, Bell's 1956 licensing decree, Google search distribution and remedies, AI infrastructure, customer-support deployment, METR's developer studies, and Rothamsted. Each case supplies evidence for a stated mechanism or institutional choice. None is presented as an empirical proof of an infinite-horizon theorem.
 
+The historical throughline asks how far a judgment travels. Smith's pins and water transport lead through steel integration and Bell's telephone network to global platforms, portable ratings, and AI gatekeeping. Use the conditional two-town thought experiment repeatedly: another destination can cease to be another evaluator. The book does not presume old markets were uniformly freer or prove an inevitable decline in comparison. It asks whether synchronized selection changes contestability in kind.
+
 ## Opening and word budget
 
 Prologue about 2500 words: Lockdown's two outcomes frame a sequence of documented cases. Kickstarter's randomly assigned first donations introduce early advantage; Bell's 1956 patent opening gives access and unrealized invention a concrete form; customer-support gains and METR's changing developer experiment introduce AI, work, and the difficulty of preserving comparisons. Return to those cases for rewards and taxation, then use Rothamsted's continuing field experiments to introduce the constructive institutional question before ending at Lockdown. Define the comparison budget and shadow futures briefly where the cases make them useful. Keep detailed literature and theorem conditions in notes and later chapters. Introduction 3500 words: the attribution question and the three defined concepts. Chapters 1 to 12 total 72000 words. Epilogue 2000 words: return to the song and the final procurement decision. Notes and references are additional.
@@ -52,7 +54,7 @@ V5 citations: Blackwell and Dubins (1962); Le Goff and Soulier (2017); Zhang (20
 
 ## 4 The histories that became infrastructure
 
-Commit to Bell's 1956 patent licensing decree as the historical case. Start with what the decree required and follow the published study of subsequent invention. Explain the study's finding that innovation rose outside telecommunications, together with its different result inside that sector. Do not collapse the 1956 decree into the later Bell breakup.
+Open with the two-town carpenter thought experiment, Smith's pins/market extent/water transport, and his account of guild and settlement restrictions. The 1920 United States Steel opinion prevents a false story in which physical industry never reached enormous scale. Credit Anderson's 1972 More Is Different as an analogy and note his Bell affiliation. Then make Bell's 1956 patent licensing decree the sustained historical case and follow the published study of subsequent invention. Explain the study's finding that innovation rose outside telecommunications, together with its different result inside that sector. Do not collapse the 1956 decree into the later Bell breakup.
 
 Follow the route from the 1947 transistor to the 1952 licensing symposium and the 1956 decree, preserving that chronology. Use the 1956 Hush-A-Phone opinion and 1968 Carterfone decision to make customer access concrete. AT&T's 1955 annual report supplies its own integration defense and an actual transistor-and-solar trial in Americus. Attribute company predictions and distinguish them from independent results.
 
@@ -60,7 +62,7 @@ Connect this documented access change to Arthur's account of increasing returns 
 
 The interpretive question is whether institutions permit alternatives to develop usable records. Bell's innovation findings do not estimate its comparison budget or establish a finite lifetime budget. Bring back Birch as a supplier gaining a route to demonstrate its capabilities. Close by distinguishing access to existing knowledge from opportunities to produce new comparative evidence.
 
-V5 citations: Arthur (1989); David (1985); Merton (1968); van de Rijt et al. (2014); Hayek (2002). Added sources: Alchian (1950); Watzinger, Fackler, Nagler, and Schnitzer (2020).
+V5 citations: Arthur (1989); David (1985); Merton (1968); van de Rijt et al. (2014); Hayek (2002). Added sources: Smith (1776), Book I, Chapters I, III and X; United States Steel (1920), pp. 438–439; Anderson (1972); Alchian (1950); Watzinger, Fackler, Nagler, and Schnitzer (2020).
 
 ## 5 Who gets to be tested
 
@@ -70,7 +72,7 @@ Use the actual 2014–2017 Firefox/Yahoo default switch, Google's Bing latency c
 
 Credit Zahra Meghani before introducing the narrower use of epistemic monopoly: control over comparison production relative to a defined contribution question and information set. Her knowledge-governance argument is an antecedent. The book does not claim to have coined the term. Contrast control of relevant trials with possession of a large dataset.
 
-Return to Aster and Birch on several storefronts sharing one selection system. Then consider a single operator that maintains genuinely informative pilots. These thought experiments explain why organization count and comparison opportunities differ. Close by asking who can check whether an incumbent's private experiments answer the public's consequential questions.
+Return to the two towns as a comparison between separate buyers and storefronts sharing one selection system. Use Matthew 2 as a labeled literary analogy for preemption; Cunningham, Ederer, and Ma (2021) supply the actual pharmaceutical acquisition evidence. No historical corroboration or corporate moral equivalence is claimed, and the Google findings remain separate. Then consider a single operator that maintains genuinely informative pilots. These thought experiments explain why organization count and comparison opportunities differ. Close by asking who can check whether an incumbent's private experiments answer the public's consequential questions.
 
 V5 citations: Meghani (2021); Hayek (2002). V5 Sections 4 and 5. Added sources: Google's search case documents and DOJ's September 2, 2025 remedies summary.
 
@@ -110,7 +112,7 @@ Commit to the published customer-support deployment studied by Brynjolfsson, Li,
 
 Then turn to METR's early-2025 developer experiment and its February 2026 account of changing selection into the follow-up study. Developers sometimes avoided participation or tasks that might require working without AI; lower pay and time measurement also affected interpretation. The lesson is that adoption can change which comparisons are available. It is not a demonstration that v5's finite-budget conditions hold.
 
-Use Birch's hypothetical junior staff to investigate a future question: can automating initial tasks remove routes for developing and demonstrating expertise? The customer-support evidence also supports the possibility of faster learning. Close with a concrete institutional choice between monitored augmentation, immediate replacement, and preserving a limited comparison group, with their costs stated.
+Use ILO (2021) platform-work evidence, including observed alternative-platform use after deactivation, and the hypothetical moving driver to ask whether another town still offers another judge. Add the 2024 EU directive's ratings portability and December 2026 transposition deadline; distinguish enacted provisions from implementation. Pair proposed portability with correction, contextual interpretation, appeal, and independent assessment. Then use Birch's hypothetical junior staff to investigate a future question: can automating initial tasks remove routes for developing and demonstrating expertise? The customer-support evidence also supports the possibility of faster learning. Close with a concrete institutional choice between monitored augmentation, immediate replacement, and preserving a limited comparison group, with their costs stated.
 
 Added sources: Brynjolfsson, Li, and Raymond (2025, published version); METR early-2025 trial; METR update of February 24, 2026. V5 supplies the question, not an empirical finding about labor markets.
 
@@ -120,13 +122,13 @@ Revisit the Google search remedies and Bell's licensing experience. State that c
 
 Commit to a fictional public buyer choosing between Aster and Birch for an AI-assisted service. Specify eligible suppliers, comparable tasks, outcome definitions, retention of trial records, and a purchasing decision. Compare an audit, portability, a limited pilot, and independent procurement routes. Blackwell helps explain decision value; Kasy and Sautmann explain why adaptive allocation involves a learning choice.
 
-Judge remedies by attainable decision improvement, implementation costs, scale benefits, and uncertainty about how to interpret the evidence. Several trials sharing one uncalibrated measure can fail together. Credit Meghani and Hayek for antecedents. The chapter ends with a conditional institutional recommendation rather than a legal finding about a named firm.
+Judge remedies by attainable decision improvement, implementation costs, scale benefits, and uncertainty about how to interpret the evidence. Several trials sharing one uncalibrated measure can fail together. Credit Meghani and Hayek for antecedents. Use the explicit hypothetical of OpenAI as sole foundational supplier plus gatekeeper of essential development, distribution, and evaluation. State why sole supply alone is insufficient for total epistemic monopoly, and why market clearing and many agents do not guarantee an independently developed rival. Commit to a rebuttable access presumption where credible irreversible foreclosure threatens useful testing, with independent review, proportionate costs, privacy/security safeguards, and research incentives. Arrow and Fisher (1974) supply the option-preservation antecedent; DMA Articles 7 and 6(11) provide scoped legal precedents. This is a normative proposal requiring empirical support and lawful authority.
 
 V5 citations: Meghani (2021); Hayek (2002); Kasy and Sautmann (2021). Added foundation: Blackwell (1953). Policy extension: Erlic's unpublished Competition Policy for Informative Market Access draft. Added legal source: DOJ 2023 Merger Guidelines, Guideline 2.
 
 ## 11 Taxing lost comparison
 
-Begin with the fictional buyer's expense of replacing a lost independent supplier trial. Introduce no real-company tax estimate. State the separate v5 argument: when hidden position can offset a changed input effect, identical observable laws can assign different contributions to a reward. A rule using that record cannot implement an exact earned-versus-positional decomposition in every such economy.
+Begin with the fictional buyer's expense of replacing a lost independent supplier trial. Connect local versus network-wide foreclosure to feasible replacement: another town may supply a substitute, while a shared gate may require rebuilding an institution. Treat the contrast conditionally, without assigning a real tax or measured harm. Introduce no real-company tax estimate. State the separate v5 argument: when hidden position can offset a changed input effect, identical observable laws can assign different contributions to a reward. A rule using that record cannot implement an exact earned-versus-positional decomposition in every such economy.
 
 Connect this limit to established public-finance work without claiming it refutes optimal taxation. State the chosen distributional principles separately. Then develop the additional corrective-tax argument from a defined action to lost evidence, a worse consequential decision, and an external cost that private incentives fail to internalize.
 

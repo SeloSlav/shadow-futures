@@ -4,9 +4,9 @@
   "checked_on": "2026-10-16",
   "status": "drafted",
   "target_main_words": 6000,
-  "body_words": 6000,
-  "note_words": 721,
-  "draft_sha256": "182fd5b91ec8db8772daf49ceda1b853a64a67bdb1d5d8ba4b8a19818a3b15ae",
+  "body_words": 5871,
+  "note_words": 854,
+  "draft_sha256": "389fa039203ffab1f3c7a63460004d2e0fb4395550dec1c4d1df7c3e2949e64f",
   "source_checks": "Relevant full primary passages checked for measured outcomes, designs and limits. Published final customer-support record distinguished from author version; learning long version, dated METR studies, published Autor text and robot proof versions explicitly identified.",
   "sources": [
     {
@@ -130,6 +130,28 @@
       "boundary": "Observational/quasi-experimental design, not randomized town assignment; no numerical local/national conflation or current generative-AI forecast. Supports possibility of learning within one historical economy.",
       "v5_reference": false,
       "local_cache": ".tmp/book-research/acemoglu-restrepo-robots-jobs-2020.pdf"
+    },
+    {
+      "key": "ILO2021Platforms",
+      "note": "c9-platform",
+      "source": "https://www.ilo.org/sites/default/files/wcmsp5/groups/public/%40dgreports/%40dcomm/%40publ/documents/publication/wcms_771749.pdf",
+      "locator": "Printed pp. 182 and 192 (PDF pp. 184 and 194); footnote 7 and Chapter 4 conclusion",
+      "claims": [
+        "Ratings, algorithmic allocation, access and possible deactivation; surveyed deactivated workers used alternative platforms"
+      ],
+      "boundary": "2021 report, not current universal condition; fictional moving driver assumes common score and few feasible alternatives. Counterevidence about exit retained.",
+      "v5_reference": false
+    },
+    {
+      "key": "EU2024PlatformWorkDirective",
+      "note": "c9-portability",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A02024L2831-20241111",
+      "locator": "Official consolidated text, Article 9(6) PDF pp. 9–10; Article 29(1) PDF p. 19",
+      "claims": [
+        "Portability of relevant personal work data including ratings and reviews; national transposition due December 2, 2026"
+      ],
+      "boundary": "Consolidated text checked October 16, 2026; no uniform implementation or universal recognition claim. Broader correction/appeal/independent-assessment bundle is author proposal.",
+      "v5_reference": false
     }
   ],
   "illustrations": [
@@ -151,6 +173,11 @@
         "c9-12"
       ],
       "purpose": "Immediate automation, monitored augmentation and limited comparison; costs, spillovers, replacements and decision horizon"
+    },
+    {
+      "name": "Driver moving between towns served by a shared ranking",
+      "status": "explicitly fictional and conditional",
+      "purpose": "Geographic mobility versus another evaluator; portability and correction"
     }
   ],
   "narrative_checks": [
@@ -161,8 +188,12 @@
     "METR selection difficulty not empirical theorem or clean follow-up reversal.",
     "All informative tests count; learning changes ability and training interventions differ from replays.",
     "Birch scenarios explicitly fictional; no interview, equations or blanket preservation of obsolete work.",
-    "Local compensation, incentives and possible training spillover require additional evidence.",
-    "6000 main words; ends at customer-access gate leading to Chapter 10."
+    "Local compensation, incentives and possible training spillover require additional evidence."
   ],
-  "whole_book_review": "Still required: final continuity, repetition, pace, conceptual/factual/citation audit, complete bibliography, combined reading manuscript and final word budget."
+  "whole_book_review": "Still required: final continuity, repetition, pace, conceptual/factual/citation audit, complete bibliography, combined reading manuscript and final word budget.",
+  "historical_scale_revision": {
+    "checked_on": "2026-10-16",
+    "scope": "Targeted user-requested historical scale, reach-of-judgment, preemption, platform work, precaution and private-property revision; complete sequential chapter review remains pending.",
+    "boundary": "No inevitable historical decline, finite-budget diagnosis of any actual market, independent proof/priority certification, or automatic policy/liability inference."
+  }
 }

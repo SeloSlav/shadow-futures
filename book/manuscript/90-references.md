@@ -12,9 +12,13 @@ Alchian, A. A. 1950. Uncertainty, evolution, and economic theory. Journal of Pol
 
 American Telephone and Telegraph Company. 1955. Annual Report 1955. Historical report scan. [Source](https://www.telephonearchive.com/uploads/papers/pdfs/att1955.pdf)
 
+Anderson, P. W. 1972. More Is Different. Science 177(4047):393–396. [Source](https://www.rpgroup.caltech.edu/embl_pboc_2023/assets/pdfs/anderson1972.pdf)
+
 Argonne Leadership Computing Facility. 2026. INCITE program awards supercomputing time to 75 high-impact projects. May 5. [Source](https://www.alcf.anl.gov/news/incite-program-awards-supercomputing-time-75-high-impact-projects-0)
 
 Arrow, K. J. 1962. Economic welfare and the allocation of resources for invention. In The Rate and Direction of Inventive Activity: Economic and Social Factors, 609–626. Princeton University Press and NBER. [Source](https://www.nber.org/system/files/chapters/c2144/c2144.pdf)
+
+Arrow, K. J., and A. C. Fisher. 1974. Environmental Preservation, Uncertainty, and Irreversibility. Quarterly Journal of Economics 88(2):312–319. [Source](https://doi.org/10.2307/1883074)
 
 Arthur, W. B. (1989). Competing technologies, increasing returns, and lock-in by historical events. The Economic Journal, 99(394), 116-131. [Source](https://doi.org/10.2307/2234208)
 
@@ -60,6 +64,8 @@ Computer History Museum. n.d. 1947: Invention of the point-contact transistor. S
 
 Computer History Museum. n.d. 1952: Bell Labs licenses transistor technology. Silicon Engine collection. Accessed October 16, 2026. [Source](https://www.computerhistory.org/siliconengine/bell-labs-licenses-transistor-technology/)
 
+Cunningham, C., F. Ederer, and S. Ma. 2021. Killer Acquisitions. Journal of Political Economy 129(3):649–702. [Source](https://www.antitrustinstitute.org/wp-content/uploads/2022/05/0265-Killer-Acquisitions-129-J.-Pol.-Econ.-649-2021.pdf)
+
 David, P. A. (1985). Clio and the economics of QWERTY. American Economic Review, 75(2), 332-337. [Source](https://faculty.econ.ucsb.edu/~tedb/Courses/Ec100C/DavidQwerty.pdf)
 
 de Oliveira, H. 2018. Blackwell's informativeness theorem using diagrams. Games and Economic Behavior 109:126–131. November 30, 2017 author version used. [Source](https://henriquedeoliveira.com/wp-content/uploads/2020/12/blackwells-informativeness-theorem-using-diagrams.pdf)
@@ -84,6 +90,10 @@ Erlic, M. 2026. Shadow Futures: Contribution Uncertainty and the Self-Reinforcin
 
 Erlic, M. 2026. Taxing Lost Comparison: Decision Information, Private Testing, and Costed Corrective Instruments. October journal article draft; unpublished. [Author manuscript](../../output/docx/research-program/journal/05_Taxing_the_Social_Cost_of_Lost_Contestability.docx)
 
+European Parliament and Council. 2022. Regulation (EU) 2022/1925, Digital Markets Act. Articles 6(11) and 7. [Source](https://eur-lex.europa.eu/eli/reg/2022/1925/oj/eng)
+
+European Parliament and Council. 2024. Directive (EU) 2024/2831 on improving working conditions in platform work. Articles 9(6) and 29(1). [Source](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A02024L2831-20241111)
+
 Federal Communications Commission. 1968. Use of the Carterfone Device in Message Toll Telephone Service. 13 FCC 2d 420, adopted June 26. [Source](https://www.nicholasjohnson.org/FCCOps/1968/13F2-420.html)
 
 Fisher, R. A. 1926. The arrangement of field experiments. Journal of the Ministry of Agriculture 33:503–513. Scanned reprint, pp. 84–94. [Source](https://pdixon.stat.iastate.edu/stat571/readings/Fisher%201926.pdf)
@@ -105,6 +115,8 @@ INCITE. 2024. INCITE Overview and Policies. Version 13, December; distributed fo
 International Energy Agency. 2026. Key Questions on Energy and AI. Paris: IEA. [Source](https://iea.blob.core.windows.net/assets/3179f7f8-01f6-4dd6-bffa-c9f7b73f1dc9/KeyQuestionsonEnergyandAI.pdf)
 
 International Energy Agency. 2026. Powering Artificial Intelligence: Strategies for Integrating Data Centres into Electricity Systems. October 14. [Source](https://www.iea.org/reports/powering-artificial-intelligence/executive-summary)
+
+International Labour Organization. 2021. World Employment and Social Outlook 2021: The Role of Digital Labour Platforms in Transforming the World of Work. Geneva: ILO. [Source](https://www.ilo.org/sites/default/files/wcmsp5/groups/public/%40dgreports/%40dcomm/%40publ/documents/publication/wcms_771749.pdf)
 
 Ipsos. 2026. Personal banking service quality—Great Britain. February 16; January–December 2025 fieldwork. [Source](https://www.ipsos.com/en-uk/personal-banking-service-quality-great-britain-february-2026)
 
@@ -184,6 +196,8 @@ Salganik, M. J., and D. J. Watts. 2008. Leading the herd astray: An experimental
 
 Salganik, M. J., Dodds, P. S., and Watts, D. J. (2006). Experimental study of inequality and unpredictability in an artificial cultural market. Science, 311(5762), 854-856. [Source](https://doi.org/10.1126/science.1121066)
 
+Smith, A. 1776. An Inquiry into the Nature and Causes of the Wealth of Nations. Book I, Chapters I, III and X, Part II. [Source](https://www.gutenberg.org/files/3300/3300-h/3300-h.htm)
+
 Snow, J. 1855. On the Mode of Communication of Cholera. Second edition. London: John Churchill. Part 3; UCLA transcription. [Source](https://epi-snow.ph.ucla.edu/Stream3_GrandExperiment_a.html)
 
 Stanford Institute for Human-Centered Artificial Intelligence. 2026. Artificial Intelligence Index Report 2026. Research and Development chapter and dataset qualifications. [Source](https://hai.stanford.edu/assets/files/ai_index_report_2026.pdf)
@@ -191,6 +205,8 @@ Stanford Institute for Human-Centered Artificial Intelligence. 2026. Artificial 
 Swedish Environmental Protection Agency. 2003. Reducing NOx Emissions: An Evaluation of the Nitrogen Oxide Charge. Report 5335, November; extended English summary. [Source](https://www.naturvardsverket.se/4ac644/globalassets/media/publikationer-pdf/5300/978-91-620-5335-3.pdf)
 
 Swedish Environmental Protection Agency. n.d. Nitrogen oxides: Charge, measurement and administration guidance. Accessed October 16, 2026. [Source](https://www.naturvardsverket.se/en/guidance/air-and-climate/nitrogen-oxides/)
+
+The Bible. Matthew 2:1–18. King James Version. [Source](https://www.biblegateway.com/passage/?search=Matthew%202%3A1-18&version=KJV)
 
 Traag, V., E. Brady, P. Vincent-Lamarre, F. Bidel, C. Lopes-Bento, J. P. Andersen, and C. Bloch. 2025. The Matthew effect and early-career setbacks in research funding—a replication study. eLife reviewed preprint, version 1, October 13. [Source](https://doi.org/10.7554/eLife.109042.1)
 
@@ -207,6 +223,8 @@ United States v. Google LLC. 2024. Memorandum opinion, Judge Amit P. Mehta, Augu
 United States v. Google LLC. 2025. Final judgment, December 5, ECF 1462. [Source](https://www.justice.gov/atr/media/1421546/dl?inline=)
 
 United States v. Google LLC. 2025. Remedies memorandum opinion, Judge Amit P. Mehta, September 2, ECF 1436. [Source](https://docs.justia.com/cases/federal/district-courts/district-of-columbia/dcdce/1%3A2020cv03010/223205/1436)
+
+United States v. United States Steel Corp. 1920. 251 U.S. 417, especially 438–439. [Source](https://supreme.justia.com/cases/federal/us/251/417/)
 
 van de Rijt, A., Kang, S. M., Restivo, M., and Patil, A. (2014). Field experiments of success-breeds-success dynamics. Proceedings of the National Academy of Sciences, 111(19), 6934-6939. [Source](https://doi.org/10.1073/pnas.1316836111)
 

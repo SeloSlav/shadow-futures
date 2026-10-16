@@ -4,9 +4,9 @@
   "checked_on": "2026-10-16",
   "status": "drafted",
   "target_main_words": 6000,
-  "body_words": 6000,
+  "body_words": 6135,
   "note_words": 693,
-  "draft_sha256": "75ba7237daabcdfe74ec0b4ccf8a935c2b799acaa81634cf2a11336867dc7f35",
+  "draft_sha256": "954b72898b1fd8fca2f4b79bb26e14e3a349442c09c5508f0cfe50a5a40c8e19",
   "source_checks": "Current expanded unpublished tax manuscript and canonical v5 hidden-position passage read directly. Relevant primary predecessor, Swedish agency, CMA order and CEC project/program passages checked with historical dates and version/access boundaries. Public provision additionality and real-company corrective rates not presumed.",
   "sources": [
     {
@@ -221,8 +221,12 @@
     "Existing tax theory credited; exact causal-merit decomposition not asserted prerequisite.",
     "Productive benefits, private tests, crowdout, replacement, two margins and second-best branch retained.",
     "Disclosure strategic costs, capacity, welfare weights, fixed operating firm and financing limits acknowledged.",
-    "Normative commitments consistent with Chapter6 and explicitly separate from theorem.",
-    "6000 main words, no equations or invented reporting; leads to Chapter12 future economics."
+    "Normative commitments consistent with Chapter6 and explicitly separate from theorem."
   ],
-  "whole_book_review": "Still required: full-sequence continuity/repetition/pace review, conceptual/factual/citation audit, unresolved original-source passages in separate queue, complete bibliography, combined reading artifact and final word-budget review."
+  "whole_book_review": "Still required: full-sequence continuity/repetition/pace review, conceptual/factual/citation audit, unresolved original-source passages in separate queue, complete bibliography, combined reading artifact and final word-budget review.",
+  "historical_scale_revision": {
+    "checked_on": "2026-10-16",
+    "scope": "Targeted user-requested historical scale, reach-of-judgment, preemption, platform work, precaution and private-property revision; complete sequential chapter review remains pending.",
+    "boundary": "No inevitable historical decline, finite-budget diagnosis of any actual market, independent proof/priority certification, or automatic policy/liability inference."
+  }
 }

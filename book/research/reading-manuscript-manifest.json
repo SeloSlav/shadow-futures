@@ -1,7 +1,7 @@
 {
   "status": "complete_draft_assembly_review_pending",
   "file": "book/drafts/Shadow_Futures_Complete_Manuscript.md",
-  "sha256": "d7a1fa117273943c383b1a9879da434f2566de6b8f889fd38e6aefb6962e8601",
+  "sha256": "c7e33f9708a983d2466595b78f52ddaeacead377871005cfbc1b195d2f38f14f",
   "inputs": [
     {
       "file": "book/manuscript/00-prologue.md",
@@ -25,11 +25,11 @@
     },
     {
       "file": "book/manuscript/05-the-histories-that-became-infrastructure.md",
-      "sha256": "79ba9ba595b9c29af88e7e5103e3ad737ac4ad21b60990374bd13f3d7ca13a12"
+      "sha256": "c503ba42f89d390ed8cb90e0dcf677624a0903f3470cd655e808a6f7d8b89031"
     },
     {
       "file": "book/manuscript/06-who-gets-to-be-tested.md",
-      "sha256": "7300f0b890e5fb4cf88ec364ed1ac3f4a944729694c36f52f2604c7ec3d41245"
+      "sha256": "a20e7801c5ef1eb8a28786c0a6358ce525db0685cb1367f4eacbb5369875ebd0"
     },
     {
       "file": "book/manuscript/07-who-deserves-the-winnings.md",
@@ -45,15 +45,15 @@
     },
     {
       "file": "book/manuscript/10-the-first-rung.md",
-      "sha256": "182fd5b91ec8db8772daf49ceda1b853a64a67bdb1d5d8ba4b8a19818a3b15ae"
+      "sha256": "389fa039203ffab1f3c7a63460004d2e0fb4395550dec1c4d1df7c3e2949e64f"
     },
     {
       "file": "book/manuscript/11-competition-for-future-evidence.md",
-      "sha256": "1b9ca6bbe97e452cd565d959d74b1f2f37c2dd2e6ef840db0e9a486e335cd0a5"
+      "sha256": "b1d56970bdbeb6874a95b2ed33df0ca3c65cd07a01cc7a992f90bbba6125a486"
     },
     {
       "file": "book/manuscript/12-taxing-lost-comparison.md",
-      "sha256": "75ba7237daabcdfe74ec0b4ccf8a935c2b799acaa81634cf2a11336867dc7f35"
+      "sha256": "954b72898b1fd8fca2f4b79bb26e14e3a349442c09c5508f0cfe50a5a40c8e19"
     },
     {
       "file": "book/manuscript/13-an-economics-of-possible-worlds.md",
@@ -65,18 +65,18 @@
     },
     {
       "file": "book/manuscript/90-references.md",
-      "sha256": "ff8b07dc07696072548577d02e705aa37fe60912f3d1e4b38623d3afdda8be3d"
+      "sha256": "6c0186d9e5714dd38f1a04b54bd37d7c3685dd66ac83dd7526835099a9ee0795"
     },
     {
       "file": "book/manuscript/91-acknowledgments.md",
       "sha256": "c9af1838c3350e792acd298dfa4480500cff91ba8218150d4ff2493d488c6671"
     }
   ],
-  "bibliography_input_sha256": "61af5509744dd9882aebbd0f6da66089ec562ef2ca936b74eea9c802e569615e",
+  "bibliography_input_sha256": "562d6bcf36621bbec33a00d0232acdb4158416f5a0ba707209d68fc04de4c5d6",
   "main_words": 80000,
-  "back_matter_words": 13366,
-  "reference_entries": 108,
-  "endnote_count": 177,
+  "back_matter_words": 14010,
+  "reference_entries": 117,
+  "endnote_count": 186,
   "notes_namespaced": true,
   "interpretation": "Assembly, counts, hashes and note matching do not certify facts, proofs, prose quality or completion of the book review."
 }

@@ -4,9 +4,9 @@
   "checked_on": "2026-10-16",
   "status": "drafted",
   "target_main_words": 6000,
-  "body_words": 6000,
-  "note_words": 772,
-  "draft_sha256": "1b9ca6bbe97e452cd565d959d74b1f2f37c2dd2e6ef840db0e9a486e335cd0a5",
+  "body_words": 5851,
+  "note_words": 895,
+  "draft_sha256": "b1d56970bdbeb6874a95b2ed33df0ca3c65cd07a01cc7a992f90bbba6125a486",
   "source_checks": "Relevant primary passages checked for stated claims. Original Blackwell1953 archive remains inaccessible; precise finite-setting theorem and proof checked in de Oliveira2017 primary research version. Do not claim original inspection. Prior case checks/version boundaries retained. Current unpublished expanded policy draft read rather than earlier short version.",
   "sources": [
     {
@@ -208,6 +208,29 @@
       "version_boundary": "Dated February2026 publication, not latest August2026 result or current product ranking. No numeric ranking used.",
       "boundary": "Survey preferences not randomized provider allocation or causal decomposition. Council interpretation explicit author reasoning.",
       "v5_reference": false
+    },
+    {
+      "key": "ArrowFisher1974",
+      "note": "c10-precaution",
+      "source": "https://doi.org/10.2307/1883074",
+      "locator": "Published article pp. 312, 316–319; full model assumptions, future conditioning, option-loss argument and retained cost-benefit appraisal",
+      "claims": [
+        "Potential value of preserving reversible choice while information arrives; irreversibility does not automatically forbid investment"
+      ],
+      "boundary": "Original article downloaded and relevant pages inspected. Environmental model antecedent, not evidence AI closure is irreversible or access presumption is implied by theorem.",
+      "v5_reference": false,
+      "full_text_checked": "https://www.u-cursos.cl/derecho/2019/1/DDAL23/1/material_docente/bajar?bajar=1&id=2589976"
+    },
+    {
+      "key": "EUDMA2022",
+      "note": "c10-dma",
+      "source": "https://eur-lex.europa.eu/eli/reg/2022/1925/oj/eng",
+      "locator": "Articles 6(11) and 7, relevant indexed official full clauses; direct official pages intermittently challenge/fail",
+      "claims": [
+        "Scoped messaging interoperability; search ranking/query/click/view access; security/privacy safeguards and differentiated terms"
+      ],
+      "boundary": "Relevant primary clauses read via indexed official text, not claim of complete direct-PDF retrieval. No AI designation, general all-knowledge mandate, or demonstrated implementation success inferred.",
+      "v5_reference": false
     }
   ],
   "illustrations": [
@@ -230,6 +253,11 @@
       "name": "Hypothetical remedy menu",
       "status": "author proposal with wholly stipulated numerical paper inputs; equations and table numbers not imported into main text",
       "purpose": "Decision target, full cost, crowdout, scale benefits, replacement and stopping"
+    },
+    {
+      "name": "OpenAI sole foundational supplier plus essential development/distribution/evaluation gatekeeping",
+      "status": "explicit hypothetical; not current description or forecast",
+      "purpose": "Strong epistemic monopoly requires control of relevant comparison, not sole model supply alone"
     }
   ],
   "narrative_checks": [
@@ -240,8 +268,12 @@
     "Comparison budget not market shares, trial count, legal entity count, welfare measure or universal quota.",
     "All informative private and external records count; no actual-firm theorem diagnosis.",
     "Decision-specific common rule, calibration, transportability and expected versus realized outcome distinct.",
-    "No equations, invented interviews, actual-company tax/welfare estimates or automatic legal liability.",
-    "6000 main words; tax-instrument question leads to Chapter11."
+    "No equations, invented interviews, actual-company tax/welfare estimates or automatic legal liability."
   ],
-  "whole_book_review": "Still required: original Blackwell1953 access/passages if obtainable, final continuity/repetition/pace, conceptual/factual/citation audit, complete bibliography, combined reading manuscript and final budget. Four canonical Chapter3 original-passage checks remain separately recorded."
+  "whole_book_review": "Still required: original Blackwell1953 access/passages if obtainable, final continuity/repetition/pace, conceptual/factual/citation audit, complete bibliography, combined reading manuscript and final budget. Four canonical Chapter3 original-passage checks remain separately recorded.",
+  "historical_scale_revision": {
+    "checked_on": "2026-10-16",
+    "scope": "Targeted user-requested historical scale, reach-of-judgment, preemption, platform work, precaution and private-property revision; complete sequential chapter review remains pending.",
+    "boundary": "No inevitable historical decline, finite-budget diagnosis of any actual market, independent proof/priority certification, or automatic policy/liability inference."
+  }
 }

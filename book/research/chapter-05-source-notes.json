@@ -4,8 +4,8 @@
   "checked_on": "2026-10-16",
   "status": "drafted",
   "target_main_words": 6000,
-  "body_words": 6000,
-  "draft_sha256": "7300f0b890e5fb4cf88ec364ed1ac3f4a944729694c36f52f2604c7ec3d41245",
+  "body_words": 6082,
+  "draft_sha256": "a20e7801c5ef1eb8a28786c0a6358ce525db0685cb1367f4eacbb5369875ebd0",
   "source_checks": "Relevant full primary-source passages checked in dated court records, published Meghani text, stakeholder statements and original research report. Some primary text read through indexed full sources after terminal download failure; exact access boundaries retained. No independent proof/priority certification.",
   "sources": [
     {
@@ -166,6 +166,28 @@
       ],
       "boundary": "Historical judicial account only; no current pesticide status, blanket biotechnology/chemical-safety claim, or statement that independent testing was the sole holding. Book informational interpretation distinct from holding.",
       "v5_reference": false
+    },
+    {
+      "key": "Matthew2Herod",
+      "note": "c5-herod",
+      "source": "https://www.biblegateway.com/passage/?search=Matthew%202%3A1-18&version=KJV",
+      "locator": "Matthew 2:1–18, full narrative",
+      "claims": [
+        "Herod narrative about action against a possible future king"
+      ],
+      "boundary": "Literary analogy only; no independent historical corroboration, moral equivalence to actual firms, or claim of their motives.",
+      "v5_reference": false
+    },
+    {
+      "key": "CunninghamEdererMa2021",
+      "note": "c5-preemption",
+      "source": "https://www.antitrustinstitute.org/wp-content/uploads/2022/05/0265-Killer-Acquisitions-129-J.-Pol.-Econ.-649-2021.pdf",
+      "locator": "Published article introduction pp. 649–653, findings and identification strategy",
+      "claims": [
+        "Overlapping acquired drug projects less likely developed; weaker competition strengthens pattern; mechanism of preemption"
+      ],
+      "boundary": "Empirical pharmaceutical study with identification assumptions, not all-merger causal experiment; no technology-sector effect-size or actual Google motive inferred.",
+      "v5_reference": false
     }
   ],
   "illustrations": [
@@ -183,5 +205,11 @@
     "2026 filings are attributed dated records; no announced/scheduled/completed stage collapsed.",
     "No equations, fabricated interviews, private reactions or dialogue."
   ],
-  "whole_book_review": "Still required: continuity/repetition, density/pace, factual/citation review, updated temporal claims and final word budget."
+  "whole_book_review": "Still required: continuity/repetition, density/pace, factual/citation review, updated temporal claims and final word budget.",
+  "note_words": 771,
+  "historical_scale_revision": {
+    "checked_on": "2026-10-16",
+    "scope": "Targeted user-requested historical scale, reach-of-judgment, preemption, platform work, precaution and private-property revision; complete sequential chapter review remains pending.",
+    "boundary": "No inevitable historical decline, finite-budget diagnosis of any actual market, independent proof/priority certification, or automatic policy/liability inference."
+  }
 }

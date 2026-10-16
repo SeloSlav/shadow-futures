@@ -8,6 +8,8 @@ The invoice gives the problem a useful shape. What evidence was lost? What decis
 
 My tax extension starts at this point. It asks whether a specified action removes useful comparison and creates a cost outside the decision maker's private account. It also asks what happens when firms buy their own tests and governments fund replacements. The answers require economic assumptions beyond the comparison-budget theorem.[^c11-1]
 
+The historical argument changes the possible size of that missing account. If another town offers a genuinely separate trial, closing one local route may leave a feasible substitute. If a shared gate controls the routes across many towns, replacement may require rebuilding an institution rather than purchasing another test. These are conditional comparisons, not estimates. They explain why a rule designed for local exclusion may be inadequate when a restriction travels across a network. Property rights need not settle who bears that additional cost. The owner can retain the service and its productive returns while facing an obligation to keep a testing route open or contribute to a justified replacement. Whether a charge can do that better than an access rule is a question for appraisal, not an assumption that taxation creates the lost history.
+
 There is another taxation argument in the foundational paper, and it concerns a different problem. Before discussing a corrective charge, we need to understand why the observed reward cannot always be divided exactly into a part caused by productive inputs and a part caused by position. Otherwise, a proposal about future incentives can become confused with an attempt to settle every past claim of desert.
 
 ## The income and its explanation

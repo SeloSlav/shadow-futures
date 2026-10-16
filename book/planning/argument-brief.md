@@ -20,6 +20,10 @@ The strongest result requires common rules, the same possible next winners under
 
 I propose an economic information bound connecting the comparison budget to what reward histories reveal about the effects of work, quality, and investment. It limits precision in a finite record and, under further conditions, reliable attribution as history extends indefinitely. Alchian (1950) already explained profit-based selection under uncertainty. Increasing returns and cumulative advantage are established ideas (Arthur, 1989; Merton, 1968). Estimation failure in a reinforced urn predates this paper (Le Goff and Soulier, 2017), as does accurate prediction alongside inconsistent parameter estimation (Zhang, 2004). The contribution is this defined object, bound, and economic interpretation. Its probability foundations are classical; priority requires wider review.
 
+### Scale and the reach of a judgment
+
+A market can grow while the number of independent places to try again shrinks. Smith's market extent, old guild restrictions, industrial steel, Bell's network, and platform ratings supply the historical thread. Wider reach can expand opportunity while synchronizing the judgments that allocate it. The proposed qualitative change concerns the disappearance of independent routes to evaluation, not size alone. It is a historical hypothesis requiring evidence, not a transition proved by v5. Anderson's More Is Different supplies an explicitly credited analogy.
+
 ### AI and work
 
 AI makes the distinction between activity and comparison consequential. Frontier training and deployment depend on compute, infrastructure, and distribution. Inference means running a trained model to produce an output. A growing volume of outputs can reveal performance on encountered tasks without independently testing alternative suppliers, training strategies, or economic arrangements. AI can also lower the cost of those tests. Whether it expands the comparison budget is an empirical and institutional question. The work chapter pairs observed productivity gains in customer support with METR's account of developers avoiding tasks that might be assigned to a no-AI condition (Brynjolfsson, Li, and Raymond, 2025; METR, 2026).
@@ -27,6 +31,8 @@ AI makes the distinction between activity and comparison consequential. Frontier
 ### Antitrust
 
 An access rule or merger can change which alternatives receive interpretable trials. This supplies a possible informational rationale for intervention alongside established price, quality, and innovation concerns. I use epistemic monopoly for control over relevant comparison production, explicitly crediting Meghani's prior use of the term (2021). An intervention must improve a consequential decision enough to justify its costs. Internal experiments may preserve learning, and independent routes may be expensive. This economic argument does not itself establish legal liability or remove existing statutory requirements (Erlic, v5, Sections 4 and 5).
+
+A sole AI provider is not automatically a total epistemic monopoly. The explicit OpenAI hypothetical adds control over indispensable development, distribution, and evaluation routes. I favor a rebuttable presumption for workable independent testing access where credible, hard-to-reverse foreclosure threatens valuable comparison. Interfaces, interoperability, appropriate knowledge access, portability, and independent appeal can preserve private ownership while limiting control over others' discovery. Arrow and Fisher supply the option-preservation antecedent; Bell and the DMA supply concrete boundary obligations. The burden, scope, costs, and legal authority require specification.
 
 ### Taxation
 
