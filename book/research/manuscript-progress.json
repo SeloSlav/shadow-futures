@@ -3,7 +3,7 @@
   "main_text_target": 80000,
   "main_words": 80000,
   "words_remaining_to_target": 0,
-  "back_matter_words": 14591,
+  "back_matter_words": 14778,
   "back_matter_target": [
     10000,
     15000
@@ -151,10 +151,10 @@
       "target": 6000,
       "stage": "reviewed",
       "exists": true,
-      "main_words": 5977,
-      "note_words": 866,
-      "sha256": "0524e5af289d1f7d6e90a9e44362e09ae12f1f8128b0c89a35c8aacbbfc99f46",
-      "note_count": 13,
+      "main_words": 5849,
+      "note_words": 926,
+      "sha256": "c2c44f05a3f11d897234ee2531a05306eda057a050bfb35cec3de791cf58f8cb",
+      "note_count": 14,
       "missing_notes": [],
       "unused_notes": [],
       "duplicate_notes": false
@@ -166,10 +166,10 @@
       "target": 6000,
       "stage": "reviewed",
       "exists": true,
-      "main_words": 5894,
-      "note_words": 914,
-      "sha256": "a6aad46bb4aa1724620e63e84fbfb078dc908805a0f016ff5560c4c0f0fbaafb",
-      "note_count": 14,
+      "main_words": 6022,
+      "note_words": 979,
+      "sha256": "d6bff74626b5b0ad0e931ef3b7f1b3f818b238b9e6df4591d1d42b07de1aca47",
+      "note_count": 15,
       "missing_notes": [],
       "unused_notes": [],
       "duplicate_notes": false
@@ -241,7 +241,7 @@
       "file": "book/manuscript/90-references.md",
       "stage": "drafted",
       "exists": true,
-      "words": 2456
+      "words": 2518
     },
     {
       "id": "acknowledgments",

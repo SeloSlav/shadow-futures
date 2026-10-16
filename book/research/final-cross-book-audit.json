@@ -1,7 +1,7 @@
 {
   "status": "in_progress",
   "checked_on": "2026-10-16",
-  "reader_sha256": "3420a064fba4cdb00082beceda2f1d209016f0d624afc617764a6f59fe7d21d3",
+  "reader_sha256": "fd24f1783efb2a91b5cde84db57bbd9d7a5d72e022dc0263510306b8a2f1b8f8",
   "scope": "Cross-book audit after all 15 main components received sequential editorial review. Recorded comparisons and source completion below are bounded checks; four canonical original technical passages remain open.",
   "completed_checks": [
     {
@@ -43,6 +43,11 @@
       "check": "Semantic repetition candidates",
       "method": "Compared TF-IDF word vectors for 1270 main-text paragraphs of at least35words across distinct components; manually read all9pairs above cosine0.45, then the full43paragraph recurring MusicLab cluster and defining/policy clusters. This is a targeted editorial aid, not a complete semantic detector.",
       "finding": "All9high-overlap pairs revisit documented cases or predecessor concepts. Opening previews precede fuller accounts; later passages apply findings to attribution, work or tax. Dutch grant and Akerlof returns explicitly introduce the distinct selection/observed-input problem. Repeated facts agree; no redundant detached section found in these candidates. Necessary definition/condition reminders retained. Earlier sequential reviews removed larger repeated caveat blocks."
+    },
+    {
+      "check": "Agent-team and capital-ownership revision, Chapters8–9",
+      "method": "Full prior chapters read; source-backed revisions and adjacent retained passages reviewed. Source version, note matching, canonical identities and budgets checked against current hashes.",
+      "finding": "Real compiler checking, simulated social agents and institutional contract thought experiments remain distinct. Renting, profits, investment, ownership, wages and entrepreneurial access separated. Prior macro scenario analysis credited; no country ranking, universal wage forecast, size-alone monopoly or agent-count comparison budget. Later comparative/closing revision remains open."
     }
   ],
   "exact_repeated_sentences": [
@@ -75,18 +80,18 @@
     }
   ],
   "remaining_work": [
-    "Integrate the user-requested agent-workforce, capital-accumulation and EU–US–China revision according to book/planning/agents-capital-and-three-economies.md; replace existing prose within approved main/back-matter budgets and review new claims/sources.",
+    "Complete the user-requested comparative EU–US–China centerpiece and Chapters11–12 ownership/adaptability links. Chapters8–9 agent/capital revision is integrated; reconcile the entire new sequence and all new sources within approved budgets.",
     "Read/check four remaining canonical original technical passages: Kakutani1948 main theorem, KabanovLiptserShiryaev1977 relevant extension, JacodShiryaev2003 particular continuity criterion, LeCamYang2000 two-point bound. Partial original passages and checked alternative primary sources do not silently clear these checks.",
     "Reconcile final conceptual/citation audit with those source findings; retain no claim of independent proof or priority certification.",
     "Complete objective audit against all six plan requirements and checkpoint any final changes."
   ],
   "mechanical_totals": {
     "main_words": 80000,
-    "back_matter_words": 14591,
-    "endnotes": 188,
-    "references": 119,
-    "ledger_identifiers": 120,
-    "note_urls": 145,
+    "back_matter_words": 14778,
+    "endnotes": 190,
+    "references": 122,
+    "ledger_identifiers": 123,
+    "note_urls": 148,
     "canonical_v5": 24
   },
   "resolved_original_sources": [
@@ -102,7 +107,7 @@
   "pending_user_revisions": [
     {
       "id": "agents_capital_and_comparative_institutions",
-      "status": "planned_not_yet_integrated",
+      "status": "partially_integrated_chapters_08_09",
       "memo": "book/planning/agents-capital-and-three-economies.md",
       "research": "book/research/agents-capital-institutions-research.json"
     }

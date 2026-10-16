@@ -529,6 +529,26 @@
       "canonical_v5_reference": false
     },
     {
+      "id": "Carlini2026CompilerTeam",
+      "source_keys": [
+        "Carlini2026CompilerTeam"
+      ],
+      "citation": "Carlini, N. 2026. Building a C compiler with a team of parallel Claudes. Anthropic Engineering, February 5.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.anthropic.com/engineering/building-c-compiler"
+        }
+      ],
+      "known_locations": [
+        "https://www.anthropic.com/engineering/building-c-compiler"
+      ],
+      "cited_in": [
+        "book/manuscript/09-a-billion-answers.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
       "id": "MozillaChambers2025",
       "source_keys": [
         "MozillaChambers2025"
@@ -1118,6 +1138,26 @@
       "canonical_v5_reference": true
     },
     {
+      "id": "Anthropic2025MultiAgentResearch",
+      "source_keys": [
+        "Anthropic2025MultiAgentResearch"
+      ],
+      "citation": "Hadfield, J., B. Zhang, K. Lien, F. Scholz, J. Fox, and D. Ford. 2025. How we built our multi-agent research system. Anthropic Engineering, June 13.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.anthropic.com/engineering/multi-agent-research-system"
+        }
+      ],
+      "known_locations": [
+        "https://www.anthropic.com/engineering/multi-agent-research-system"
+      ],
+      "cited_in": [
+        "book/manuscript/09-a-billion-answers.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
       "id": "Hayek2002",
       "source_keys": [
         "Hayek2002"
@@ -1457,6 +1497,33 @@
         "book/manuscript/08-the-intelligence-factory.md"
       ],
       "canonical_v5_reference": false
+    },
+    {
+      "id": "KorinekSuh2024AGIScenarios",
+      "source_keys": [
+        "KorinekSuh2024AGIScenarios"
+      ],
+      "citation": "Korinek, A., and D. Suh. 2024. Scenarios for the transition to AGI. March author working paper.",
+      "links": [
+        {
+          "label": "Author paper",
+          "url": "https://cdn.governance.ai/AGI_Scenarios.pdf"
+        }
+      ],
+      "known_locations": [
+        "https://cdn.governance.ai/AGI_Scenarios.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/10-the-first-rung.md"
+      ],
+      "canonical_v5_reference": false,
+      "bibliographic_check": {
+        "checked_on": "2026-10-16",
+        "local_path": "book/sources/research/Korinek_Suh_2024_AGI_Scenarios.pdf",
+        "sha256": "9a60681ff8ab8cfa6842fbc746efaf0d3a96eb47977f2bc89a4e1257e015b4da",
+        "pages": 45,
+        "version": "March2024 author paper; title/authors/date and exact relevant passages inspected."
+      }
     },
     {
       "id": "LeCamYang2000",

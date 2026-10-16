@@ -1,5 +1,5 @@
 {
-  "status": "planning_research_not_integrated_into_manuscript",
+  "status": "partially_integrated_chapters_08_09",
   "checked_on": "2026-10-16",
   "memo": "book/planning/agents-capital-and-three-economies.md",
   "scope": "Primary-source research supporting a user-requested revision plan. This is not a new manuscript source ledger or certification of current country rankings, economic outcomes, legal advice, or a v5 empirical application.",
@@ -12,7 +12,12 @@
       "locator": "Opening; Make parallelism easy; Evaluation; Looking forward",
       "checked": "Original full rendered article and indexed primary passages read.",
       "supports": "Sixteen-agent compiler experiment; shared failure and redesigned GCC-based checks; capability limitations.",
-      "boundary": "Attributed vendor/researcher experiment, not independent replication, a commercial replacement estimate, labor-market outcome or causal effect of agent count. Human harness design and external tools count. No repository execution or benchmark replication performed."
+      "boundary": "Attributed vendor/researcher experiment, not independent replication, a commercial replacement estimate, labor-market outcome or causal effect of agent count. Human harness design and external tools count. No repository execution or benchmark replication performed.",
+      "integrated_in": {
+        "manuscript": "book/manuscript/09-a-billion-answers.md",
+        "note": "c8-agents",
+        "checked_on": "2026-10-16"
+      }
     },
     {
       "key": "Anthropic2025MultiAgentResearch",
@@ -22,7 +27,12 @@
       "locator": "Benefits; Architecture overview; Effective evaluation; Production reliability",
       "checked": "Full substantive rendered article read.",
       "supports": "Orchestrator/worker architecture, parallel inquiry, resource costs and coordination limitations.",
-      "boundary": "Company account and internal evaluations. Architecture is distinct from the later compiler team's explicit absence of an orchestration agent. Extra agent roles do not themselves establish independent economic trials."
+      "boundary": "Company account and internal evaluations. Architecture is distinct from the later compiler team's explicit absence of an orchestration agent. Extra agent roles do not themselves establish independent economic trials.",
+      "integrated_in": {
+        "manuscript": "book/manuscript/09-a-billion-answers.md",
+        "note": "c8-agents",
+        "checked_on": "2026-10-16"
+      }
     },
     {
       "key": "KorinekSuh2024AGIScenarios",
@@ -30,9 +40,16 @@
       "title": "Scenarios for the Transition to AGI",
       "date": "2024-03",
       "locator": "Abstract; Section 3, Proposition 7, printed pp. 22–23; Section 4.1; specific-capital discussion printed p. 36; conclusion printed p. 37",
-      "checked": "Original PDF abstract, indexed relevant capital/wage passages and conclusion inspected; not complete 45-page proof review.",
+      "checked": "Exact original45pagePDF saved; recorded full relevant passages on pp1,22–26,36–37 read. No independent proof review claimed.",
       "supports": "Scenario dependence of wages on automation, capital accumulation and task distribution; reproducible capital versus fixed bottlenecks.",
-      "boundary": "Theoretical scenario model with substantive assumptions, not a forecast or v5 result. Broadly valuable automation and capital formation remain possible; monopoly returns do not follow from reproducible compute alone. Confirm exact final note locators and version during manuscript integration."
+      "boundary": "Theoretical scenario model with substantive assumptions, not a forecast or v5 result. Broadly valuable automation and capital formation remain possible; monopoly returns do not follow from reproducible compute alone. Confirm exact final note locators and version during manuscript integration.",
+      "integrated_in": {
+        "manuscript": "book/manuscript/10-the-first-rung.md",
+        "note": "c9-capital",
+        "checked_on": "2026-10-16"
+      },
+      "local_path": "book/sources/research/Korinek_Suh_2024_AGI_Scenarios.pdf",
+      "sha256": "9a60681ff8ab8cfa6842fbc746efaf0d3a96eb47977f2bc89a4e1257e015b4da"
     },
     {
       "key": "EuroHPCPlayground2025",

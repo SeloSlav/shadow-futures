@@ -12,8 +12,6 @@ The customer-support study supplies a hopeful case. Erik Brynjolfsson, Danielle 
 
 These were live text conversations about business software. An agent had to understand the customer's problem, find an appropriate response, and communicate it. The assistant suggested language and information. The human could use, change, or ignore its suggestions. The measured improvement belonged to that arrangement: a person handling customers with help available.
 
-An employer considering this arrangement has an immediate reason to be interested. More problems solved in the same working time can mean a shorter wait for customers and more useful service. A beginner who gets effective guidance during a difficult exchange may be able to do work that previously required a more experienced colleague. Those are productive possibilities, even before considering anything that happens to jobs.
-
 But the outage evidence adds something. Previously assisted workers retained improvements in handling speed when suggestions became unavailable. The pattern was consistent with learning, and it became stronger with more prior exposure. It was imperfect evidence: outages were not a clean randomized training experiment, and the conversations handled during them could differ. Still, the machine's temporary absence helped the researchers investigate a benefit that its continuous presence might conceal.[^c9-3]
 
 The first rung of a career need not be protected from AI. In this workplace, AI appeared capable of helping people climb it.
@@ -26,7 +24,7 @@ The study cannot settle that future. It did not observe compensation, and it did
 
 The missing wage record matters for a second reason. Suppose a beginner's improved reply draws on patterns learned from excellent workers. The resulting output does not arrive with a receipt dividing its value among the beginner, those earlier workers, the model developer, and the employer that organized the service. The customer has received help. The division of credit remains a further question.
 
-This distinction changes how we should read a narrowing performance gap. An expert may have become less scarce at answering the common question because useful knowledge can now travel. That is a productive achievement. It leaves open whether the expert remains crucial for diagnosing unusual failures, producing new practices, or improving the system that distributes the old ones. In the support study, the strongest workers' smaller gains are an observation about that deployment. They do not establish that a business can dispense with the sources of expertise on which future assistance may depend. A firm needs to examine the work those people still perform before treating the average gain as a staffing plan.
+A narrowing performance gap can mean useful knowledge travels farther. Experts might still be crucial for diagnosing unusual failures, developing practices, or improving the system that distributes the old ones. The strongest support workers' smaller gains concern that deployment. They do not establish that a business can dispense with the expertise on which future assistance may depend. A firm needs to examine that continuing work before turning the average gain into a staffing plan.
 
 We should carry both observations forward. A machine can create real value and improve human learning. The reward history of the resulting workplace can still leave important contributions unresolved. Neither observation cancels the other.
 
@@ -58,8 +56,6 @@ For the students, the subsequent unassisted problem was deliberately part of the
 
 The first rung is therefore more than a collection of simple tasks. It is an arrangement that lets a beginner attempt something, receive feedback, improve, and demonstrate the improvement. AI can change every part of that arrangement. It can make practice cheaper, feedback quicker, and difficult work accessible earlier. It can also complete the activity from which the beginner was supposed to learn.
 
-A worksheet and a repaired report bring the issue down to a manageable scale. The future of work will be built from decisions like these, repeated across tasks and institutions. We should investigate which designs create future capability while delivering useful work today.
-
 ## The disappearing control group
 
 The experienced programmers in METR's early-2025 experiment present another surprise. Sixteen developers worked on 246 tasks in open-source projects they knew well. Tasks were specified before assignment to conditions allowing or disallowing AI. With the tools available in that study, allowing AI made completion take 19 percent longer.[^c9-6]
@@ -82,7 +78,7 @@ Study pay also fell from $150 to $50 an hour, potentially altering participation
 
 The attraction of the tool could be evidence that it had become more useful. It could also reflect convenience, enjoyment, expectations, or the kinds of work people now chose to attempt. METR believed the newer tools likely helped more, while emphasizing how weakly the follow-up identified the magnitude. The preference to use a product and a credible estimate of its productivity effect answer different questions.
 
-Preference itself has economic value. A developer might reasonably choose a method that makes a task less unpleasant even if it takes somewhat longer. An employer might accept that cost to retain staff or improve the working day. Those possibilities should be stated as choices, rather than converted into an unmeasured claim that the tool saved time. In fictional Birch, an employee could prefer reviewing a correction to producing it from scratch. Management could evaluate both the quality of that review and the employee's experience of the task. The decision would then involve several outcomes. A stopwatch would answer one part of it; a preference survey would answer another. Calling both observations productivity would obscure the tradeoff. Treating the preference as worthless would discard something the worker values. Evaluation keeps both observations visible.
+Developers might accept slower work because the tool makes it less unpleasant. An employer might accept the cost to retain staff. Fictional Birch could measure quality, time, and employees' experience separately. A stopwatch answers one question; a preference survey answers another. Calling both productivity would obscure the choice, while dismissing preference would discard something workers value.
 
 This problem is familiar outside software. A worker who has reorganized a day around a tool may reasonably resist surrendering it for research. An employer may dislike paying for deliberately slower work. A researcher cannot assume that preserving a clean comparison costs nothing merely because the comparison would be informative.
 
@@ -94,8 +90,6 @@ Here the distinction between activity and informative opportunity becomes tangib
 
 METR's design difficulty is not an empirical demonstration of my lifetime theorem. No finite comparison budget has been measured here, and the study observes much more than a sequence of winners. It supplies a concrete institutional mechanism: adopting a technology can change which subsequent tests people are willing and able to undertake.[^c9-8]
 
-The response should be to design better comparisons while taking participants' costs seriously. METR's willingness to describe its difficulty is itself useful. Readers learn something an uncomplicated productivity headline would have hidden: maintaining the conditions for a meaningful test can become part of the work.
-
 ## From tasks to jobs
 
 Bank tellers offer a historical warning against equating an automated task with an eliminated job. James Bessen reported that the number needed in an average urban branch fell from twenty to thirteen between 1988 and 2004, while urban branch numbers grew by 43 percent. David Autor drew on this account to explain how lower operating costs and expanding demand can change employment. The remaining teller work also shifted toward customer relationships and other services.[^c9-9]
@@ -103,8 +97,6 @@ Bank tellers offer a historical warning against equating an automated task with 
 Autor also identified deregulation as part of the branch expansion. The figures do not isolate the cash machine's causal effect. They show why counting automated withdrawals cannot by itself tell us how many people a bank will employ. The business can change the number of outlets, the services it offers, and the work it assigns to people.
 
 Autor's broader argument follows the relationship between tasks within a job. Removing one costly step can increase the value of the steps that remain. But that possibility depends on what customers want and what the remaining workers contribute. In Birch's reporting service, automatic data extraction might leave employees more time to investigate discrepancies. If clients will pay for those investigations, the business could expand that work. If the reports already satisfy demand and investigation adds little, the same technical saving could instead reduce hours. These are different demand conditions around the same automated step. Naming the step is the beginning of an employment analysis, rather than its completed conclusion.
-
-That historical account is no guarantee about bank employment now, much less about programmers or customer-support agents. Autor explicitly resists treating it as a universal favorable outcome. It helps because it makes the intervening choices visible. Someone who counts automated withdrawals and announces an equal number of eliminated jobs has skipped the adjustment of the business.
 
 There is harder evidence on the other side. Daron Acemoglu and Pascual Restrepo studied exposure to industrial robots across American labor markets over 1990–2007. They found adverse effects on employment and wages in more exposed places. A machine's productivity benefits did not ensure that the affected local workers would gain.[^c9-10]
 
@@ -114,10 +106,6 @@ Notice what this research can accomplish without rerunning the whole American ec
 
 The teller account and the robot study should make us impatient with easy reassurance as well as easy catastrophe. Automation can reduce the labor needed for particular work. Lower costs and new activities can create demand elsewhere. The balance, location, timing, and distribution of those responses matter. An aggregate gain can coexist with a damaging local loss.
 
-For a customer-support business, the practical uncertainties are concrete. If an assistant makes each worker faster, does the firm serve more customers, shorten hours, raise service standards, or reduce staffing? If more customers receive useful help, do they buy more of the underlying product? If rivals adopt similar tools, how much of the gain remains with this employer? The deployment estimate cannot supply these responses automatically.
-
-Nor does the robot evidence authorize a mechanical forecast about today's models. Generative software reaches different tasks, can be deployed differently, and may complement different kinds of labor. Historical research supplies mechanisms and disciplined ways to investigate them. It does not eliminate the need to observe the new setting.
-
 The first rung adds a further adjustment. Firms need workers today, but they may also need people capable of doing more demanding work later. If the tasks that once introduced beginners to a profession become cheaper to automate, the employer can redesign training, recruit experienced staff, hire fewer entrants, or develop another route into expertise. Those choices affect the supply of skilled labor that future firms will encounter.
 
 Imagine Birch deciding that its assistants can now complete the routine report repairs previously assigned to juniors. The immediate saving may be real. Keeping those exact repairs as manual work solely because they used to train someone would impose a real cost too. The constructive question is whether Birch can create a better learning route, and who will pay for it.
@@ -125,8 +113,6 @@ Imagine Birch deciding that its assistants can now complete the routine report r
 A simulation might provide repeated practice without risking a customer's records. A supervised assignment could expose a beginner to a more demanding diagnosis sooner. The classroom tutor offers a real example of deliberately changing assistance around learning. The customer-support deployment offers evidence consistent with skills spreading through assistance. These possibilities deserve trials alongside the fear that the entry route will disappear.
 
 It is possible, however, for an employer to discover that it can buy experienced judgment elsewhere more cheaply than it can cultivate it. If many employers make that choice, the next generation's opportunities may change. That is a hypothesis about incentives and collective adjustment. It requires evidence about hiring, training, mobility, and demand. It cannot be established by pointing to a machine that writes a good report.
-
-The distinction matters politically. A worker worried about a missing entry route is asking about a future opportunity to develop and demonstrate skill. An employer reporting higher output is describing a present productive achievement. Both statements can be true. A useful economic argument has to connect them through the actual decisions governing work.
 
 ## Who gets the difficult assignment?
 
@@ -184,19 +170,37 @@ The costs extend beyond Birch. A worker may carry training to another employer. 
 
 The same reasoning cuts against preserving a program simply because it trains people. Training can teach obsolete practices, select poorly, or consume supervision needed for more valuable work. An alternative employer, professional course, or well-designed AI tutor might supply a better route. The comparison has to include plausible replacements, rather than treat the existing arrangement as the only imaginable source of skill.
 
-Return to the customer-support outage. Its value as evidence came from a specific question about retained performance and a particular interruption that helped expose it. Nobody needed to keep the assistant permanently broken to believe learning mattered. Birch's objective should likewise be to discover a productive training arrangement, then use it. The point of experimentation is a better decision.
-
 There are limits to what one firm can settle. It cannot observe the entire labor market's response to simultaneous adoption. It may not know how another employer's staffing choices affect the future pool of reviewers. This is a reason for research across firms, careful labor-market evidence, and institutions that can evaluate shared problems. It is not a reason to substitute a confident story for missing observations.
-
-Autor's task framework and Acemoglu and Restrepo's robot study already offer ways to study adjustment beyond a single workplace. The comparison-budget argument adds a question about the production and persistence of relevant evidence. Which future opportunities to learn about alternatives survive the decisions being made now? Existing labor economics supplies essential tools for answering the consequences.
 
 An employer choosing the fastest tool today may be entirely sensible. A workforce, an industry, or a government may have a longer horizon and different interests. Making those interests explicit is more productive than asking whether AI is simply good or bad for labor. The important choices concern who gains, who bears the cost, what can still be learned, and which arrangements remain feasible.
 
-The machine that helps a beginner answer a customer can become a teacher. The machine that supplies a student's answer can interrupt learning. A programmer can prefer a tool that a careful trial finds slower, and a later generation of tools can become difficult to evaluate because users resist giving them up. These are concrete reasons to study the organization of work alongside the technology.
+## Who owns the workforce?
 
-The first rung need not survive in its old form. We need routes through which people can acquire useful judgment and obtain credible chances to exercise it. Sometimes AI will supply those routes. Sometimes an employer will have to build them deliberately. Sometimes the evidence will support replacing a costly arrangement with something better.
+Imagine Birch's junior looking at a new kind of invoice. It is a bill for the software agents that helped produce this month's reports. Those agents can work on several problems at once, but their activity is not free. The firm pays for model use, checking, and the people who remain responsible for delivery. A thousand completed tasks do not tell the employee who will receive the resulting income.
 
-The next question reaches beyond the workplace. What happens when control over the opportunities to demonstrate ability belongs to a firm that also competes against those seeking access? Birch's junior needs a route from practice to responsibility. Birch itself may need a route from a promising product to a customer. Competition policy enters at that gate.
+In this thought experiment, Birch rents access to the models. It owns equipment and retains the code, tests, and customer relationships its contract allows it to keep. Buying another month of service is an expense. Saving profits and investing in equipment or durable productive capabilities can accumulate capital. The distinction matters because an impressive stream of generated work need not leave the purchaser with an asset it can use independently afterward.
+
+The junior could benefit in several ways. Better tools might make the employee more valuable and help the firm win customers. An ownership stake could give the employee a claim on profits as well as wages. A cheaper service could improve life as a customer. These are different gains. None should be inferred solely from the number of agent sessions on Birch's bill.
+
+Consider two possible uses of the firm's retained earnings. Birch could buy equipment, improve its tests, and finance another product demonstration. A small company would then use automated work to build the capacity for another attempt. Alternatively, an established supplier could invest its returns in an exclusive customer route or access arrangement that makes a rival's demonstration harder to organize. Both involve investment. Their consequences for future comparison differ.
+
+In the more expansive version, the product earns money for another round of development. Its owner can buy more software work without recruiting a corresponding number of employees, provided the systems and available resources support it. That could help Birch challenge a larger business. It could also help a well-funded incumbent advance faster than a challenger can assemble its first demonstration. The mechanism is a possible feedback between production and investment. Demand, competition, financing, and checking costs still determine its strength. A working agent team has not, by itself, demonstrated a firm that can finance and manage its own expansion.
+
+The second possibility does not make the investment unproductive. An integrated service might become faster and more reliable. The question is whether a feasible way remains to test an alternative arrangement while preserving those benefits. Nor does the first possibility guarantee success. Birch's product could disappoint, its equipment could depreciate, and competitors could copy an improvement. Accumulation is a process with costs and rivals, not a promise that every early winner compounds without limit.
+
+Anton Korinek and Donghyun Suh examine automation and capital accumulation together in their March 2024 scenario model. Investment can complement work that remains with people. Its pace relative to automation and the assumed range of human tasks can produce very different wage paths. Their model also separates reproducible capital, including compute, from fixed scarce factors. It gives no unconditional forecast that wages or monopoly profits must move in one direction.[^c9-capital]
+
+For Birch, that distinction has a practical form. Another software agent cannot create a missing electricity connection or manufacture a server instantly. Nor does a temporary shortage establish permanent control. Investment could expand supply and invite competitors. To make the stronger gatekeeping argument, we would need to identify the enduring obstruction, what an outsider could do without it, and the costs of keeping another route available.
+
+The ownership question concerns who holds claims on these productive assets. Suppose workers hold a stake in Birch. Suppose several small firms jointly finance equipment and evaluation. Suppose a public facility grants qualified teams access to computing. These are possible arrangements to investigate, not results already established by the workplace studies. Each changes claims on returns and authority over resources. Each still needs workable financing, competent operation, and a way to check whether its projects deserve more support.
+
+Broad ownership would not automatically create independent discovery. A cooperative could be locked into one provider's records, while a single private owner could fund genuinely informative tests. Our junior's share certificate would answer who receives some income. It would not establish whether another model can be tried or an inconvenient failure reported. Distribution and the control of learning belong in the same conversation without becoming the same question.
+
+Suppose the junior leaves to establish another reporting business. Under one hypothetical arrangement, the new firm can rent tools and build its own tests. Under another, reaching customers requires the old supplier's permission. Giving the worker a stake in the original employer would not necessarily create the missing route. A wider distribution of income and a wider distribution of entrepreneurial opportunity can still come apart.
+
+Return to the first rung. A worker can be helped by cheaper instruction and harmed by losing an opportunity to demonstrate judgment. The firm employing that worker can be helped by affordable agents and constrained by the rights attached to them. The future of work therefore includes the future of the assets work builds: who can retain them, redirect them, and use them to attempt something new.
+
+Those choices will be made under institutions as well as contracts. A country can encourage investment while permitting a common gate to close; it can also fund access through a procedure that becomes another gate. The next chapter follows that problem from Birch's workplace to the rules governing its opportunity to compete.
 
 ## Notes
 
@@ -227,3 +231,5 @@ The next question reaches beyond the workplace. What happens when control over t
 [^c9-platform]: International Labour Organization, *World Employment and Social Outlook 2021: The Role of Digital Labour Platforms in Transforming the World of Work* (2021), Chapter 4 conclusion, printed p. 192 (PDF p. 194), and deactivation discussion/footnote 7, printed p. 182 (PDF p. 184). [Full report](https://www.ilo.org/sites/default/files/wcmsp5/groups/public/%40dgreports/%40dcomm/%40publ/documents/publication/wcms_771749.pdf). Reported conditions and surveyed workers, not a current universal sole-platform diagnosis. Footnote 7 explicitly records alternative-platform use after permanent deactivation. The moving driver and shared-ranking scenario are hypothetical.
 
 [^c9-portability]: Directive (EU) 2024/2831, Article 9(6), portability including ratings/reviews; Article 29(1), transposition by December 2, 2026. [Official consolidated text, November 11, 2024](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A02024L2831-20241111), PDF pp. 9–10 and 19. Checked October 16, 2026; no claim all Member States have implemented it. The broader proposed combination of contextual correction, independent assessment, and portability is the author's recommendation, not a description of every directive entitlement.
+
+[^c9-capital]: Anton Korinek and Donghyun Suh, [*Scenarios for the Transition to AGI*](https://cdn.governance.ai/AGI_Scenarios.pdf), March 2024 author paper, abstract; Section 3, pp. 22–25; Section 4.1, pp. 25–27; p. 36; conclusion p. 37. Wage paths and returns depend on the model’s task distribution, automation, accumulation and scarcity assumptions. Scenarios, not dated predictions; v5 does not supply this macroeconomic result. Birch’s assets, ownership and reinvestment arrangements are thought experiments.

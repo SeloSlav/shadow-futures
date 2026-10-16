@@ -4,14 +4,14 @@
   "objective": "Complete book at prologue standard, including sequential editorial, conceptual, factual and citation review; counts and file existence do not certify completion.",
   "mechanical_checks": {
     "main_words": 80000,
-    "back_matter_words": 14591,
+    "back_matter_words": 14778,
     "main_components": 15,
-    "endnotes": 188,
-    "bibliography_entries": 119,
+    "endnotes": 190,
+    "bibliography_entries": 122,
     "canonical_v5_entries": 24,
-    "source_ledger_identifiers": 120,
+    "source_ledger_identifiers": 123,
     "identifiers_covered": true,
-    "distinct_note_urls": 145,
+    "distinct_note_urls": 148,
     "unmapped_note_urls": [],
     "interpretation": "URL-to-work coverage and source/hash binding, not proof every URL currently serves full text or every cited claim is correct."
   },
@@ -100,7 +100,7 @@
     {
       "id": "chapter_08",
       "file": "book/manuscript/09-a-billion-answers.md",
-      "sha256": "0524e5af289d1f7d6e90a9e44362e09ae12f1f8128b0c89a35c8aacbbfc99f46",
+      "sha256": "c2c44f05a3f11d897234ee2531a05306eda057a050bfb35cec3de791cf58f8cb",
       "sequential_editorial_review": "completed",
       "conceptual_factual_citation_review": "completed_for_recorded_claims_with_explicit_source_boundaries",
       "checked_on": "2026-10-16",
@@ -109,7 +109,7 @@
     {
       "id": "chapter_09",
       "file": "book/manuscript/10-the-first-rung.md",
-      "sha256": "a6aad46bb4aa1724620e63e84fbfb078dc908805a0f016ff5560c4c0f0fbaafb",
+      "sha256": "d6bff74626b5b0ad0e931ef3b7f1b3f818b238b9e6df4591d1d42b07de1aca47",
       "sequential_editorial_review": "completed",
       "conceptual_factual_citation_review": "completed_for_recorded_claims_with_explicit_source_boundaries",
       "checked_on": "2026-10-16",
@@ -202,7 +202,7 @@
     ],
     "scope": "Initial argument brief and outline exports only; not the 80000-word book."
   },
-  "completion_audit": "Not passed. Existing 15 main components received sequential review, but the newly requested agent-workforce, capital-accumulation and EU–US–China revision is planned and not yet integrated. Four original canonical technical passages and final reconciliation remain open. See the pending revision memo and final-cross-book-audit.json.",
+  "completion_audit": "Not passed. Agent-team and capital-ownership revisions are now integrated and reviewed in Chapters8–9. Comparative-institutions and closing revisions remain pending, alongside four canonical original technical passages and final cross-book reconciliation.",
   "review_sessions": [
     {
       "checked_on": "2026-10-16",
@@ -496,15 +496,42 @@
         "Reconcile final conceptual/citation audit with those source findings; retain no claim of independent proof or priority certification.",
         "Complete objective audit against all six plan requirements and checkpoint any final changes."
       ]
+    },
+    {
+      "checked_on": "2026-10-16",
+      "scope": [
+        "chapter_08_agent_revision",
+        "chapter_09_capital_revision"
+      ],
+      "method": "Complete existing chapters read in sequence; revised passages and neighbors reviewed; original new source passages checked. Exact source/version boundaries retained.",
+      "findings": [
+        "Inserted a concrete compiler-team production case and distinguished its architecture from the June2025 research orchestrator. Retained developer-report and external-check boundaries.",
+        "Introduced fictional agent-team tasks and portable versus provider-dependent contractual arrangements. No current vendor-contract accusation or agent-count measure of comparison budget.",
+        "Shortened Smallville and closing recap; retained party, AdamSmith error, simulation validation, fixed-rule replay versus intervention, and AlphaEvolve actual-operation check.",
+        "All original cited works/notes and canonical BarYam/BlackwellDubins/Zhang roles retained. Checked outputs and informative private tests remain included.",
+        "Added Who owns the workforce? following the preserved training-design section. Separates rented inference, durable capabilities, profits, saving, investment and claims on income.",
+        "Developed two conditional accumulation routes: cheaper independent entry and investment extending exclusion. Productive benefits, copying, depreciation, financing, demand, physical constraints and checking costs remain.",
+        "Read exact original KorinekSuh March2024 scenario passages; credited prior automation/capital analysis without importing an unconditional wage or monopoly-profit forecast.",
+        "Worker stakes, cooperative and public access are hypothetical institutional possibilities, not established welfare improvements. Distribution of income and entrepreneurial access remain separate.",
+        "Removed repeated case summaries and shortened assessment/preference guidance. Original support, classroom, METR, ATM, robot, platform/portability and staff-trial facts/conditions retained."
+      ],
+      "budget": {
+        "main_words": 80000,
+        "back_matter_words": 14778,
+        "chapter_08_words": 5849,
+        "chapter_09_words": 6022
+      },
+      "reader_sha256_after_revision": "fd24f1783efb2a91b5cde84db57bbd9d7a5d72e022dc0263510306b8a2f1b8f8",
+      "remaining_scope": "New comparative-institutions/tax/robustness passages, four original canonical technical sources, final cross-book reconciliation."
     }
   ],
-  "next_component": "agents_capital_and_comparative_institutions_revision",
+  "next_component": "comparative_institutions_chapters_10_to_12",
   "cross_book_audit": "book/research/final-cross-book-audit.json; in_progress",
   "pending_user_revisions": [
     {
       "id": "agents_capital_and_comparative_institutions",
       "requested_on": "2026-10-16",
-      "status": "planned_not_yet_integrated",
+      "status": "partially_integrated",
       "memo": "book/planning/agents-capital-and-three-economies.md",
       "research": "book/research/agents-capital-institutions-research.json",
       "decision": "Keep twelve chapters; prepare agent work and ownership in Chapters 8–9, anchor the EU–US–China comparison in Chapter 10, and return to distribution and adaptability in Chapters 11–12.",
@@ -516,7 +543,15 @@
         "chapter_12": 250
       },
       "budget_rule": "Approximately 3,500 replacement words within 80,000 main words and 72,000 combined chapter words; new endnotes and references must fit the 15,000-word back-matter ceiling.",
-      "scope_boundary": "Scenario-based political economy, with dated actual access terms and counterevidence; no country robustness ranking, no empirical finite-budget diagnosis, no universal inference from scale, ownership, agent count or state capacity."
+      "scope_boundary": "Scenario-based political economy, with dated actual access terms and counterevidence; no country robustness ranking, no empirical finite-budget diagnosis, no universal inference from scale, ownership, agent count or state capacity.",
+      "components": {
+        "chapter_08": "integrated_reviewed",
+        "chapter_09": "integrated_reviewed",
+        "chapter_10": "pending",
+        "chapter_11": "pending",
+        "chapter_12": "pending"
+      },
+      "remaining_scope": "Comparative EU–US–China centerpiece, tax/ownership bridge and adaptability ending; fresh source/budget/continuity review after those changes."
     }
   ]
 }

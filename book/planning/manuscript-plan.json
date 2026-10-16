@@ -137,7 +137,7 @@
     {
       "id": "agents_capital_and_comparative_institutions",
       "requested_on": "2026-10-16",
-      "status": "planned_not_yet_integrated",
+      "status": "partially_integrated",
       "memo": "book/planning/agents-capital-and-three-economies.md",
       "research": "book/research/agents-capital-institutions-research.json",
       "decision": "Keep twelve chapters; prepare agent work and ownership in Chapters 8–9, anchor the EU–US–China comparison in Chapter 10, and return to distribution and adaptability in Chapters 11–12.",
@@ -149,7 +149,15 @@
         "chapter_12": 250
       },
       "budget_rule": "Approximately 3,500 replacement words within 80,000 main words and 72,000 combined chapter words; new endnotes and references must fit the 15,000-word back-matter ceiling.",
-      "scope_boundary": "Scenario-based political economy, with dated actual access terms and counterevidence; no country robustness ranking, no empirical finite-budget diagnosis, no universal inference from scale, ownership, agent count or state capacity."
+      "scope_boundary": "Scenario-based political economy, with dated actual access terms and counterevidence; no country robustness ranking, no empirical finite-budget diagnosis, no universal inference from scale, ownership, agent count or state capacity.",
+      "components": {
+        "chapter_08": "integrated_reviewed",
+        "chapter_09": "integrated_reviewed",
+        "chapter_10": "pending",
+        "chapter_11": "pending",
+        "chapter_12": "pending"
+      },
+      "remaining_scope": "Comparative EU–US–China centerpiece, tax/ownership bridge and adaptability ending; fresh source/budget/continuity review after those changes."
     }
   ]
 }

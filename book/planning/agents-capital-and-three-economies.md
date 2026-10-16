@@ -2,11 +2,11 @@
 
 Martin Erlic · 16 October 2026
 
-Editorial decision: weave this argument through the existing twelve chapters, with a substantial comparative section in Chapter 10. This is a committed revision plan and source-backed argument memo. These passages have not yet been integrated into the main manuscript. The 80,000-word main-text budget remains binding.
+Editorial decision: weave this argument through the existing twelve chapters, with a substantial comparative section in Chapter 10. This is the revision plan and source-backed argument memo. The agent and capital material is now integrated into Chapters 8 and 9; the comparative centerpiece and Chapters 11–12 links remain pending. The main text remains exactly 80,000 words.
 
 ## What the present draft contains
 
-Chapter 7 explains computing infrastructure, productive scale, finance, and access. Chapter 8 discusses Smallville's simulated agents, common model ancestry, routing, and independently checked outputs. Chapter 9 covers assistance, automation, skill formation, platform ratings, and a brief reference to developers using concurrent agents. Chapters 10–12 discuss access, private ownership, taxation, and institutional discovery. They supply the foundations, but the book does not yet develop agent workforces as an ownership question. It has no sustained US–EU–China comparison. Smallville's generated characters should not stand in for an account of actual software production.
+Chapter 7 explains computing infrastructure, productive scale, finance, and access. Chapter 8 now combines the compiler team's actual production case with a shorter Smallville contrast, routing, and checked outputs. Chapter 9 adds agent invoices, retained earnings, productive assets and alternative ownership arrangements to its workplace and training evidence. Chapters 10–12 supply the access, taxation and institutional foundations. The sustained US–EU–China comparison remains to be written. The two revised chapters contain 5,849 and 6,022 main words, preserving their previous combined allocation.
 
 ## The argument to develop
 
@@ -64,4 +64,4 @@ The plausible long-run claim is conditional. A society that sustains several eff
 
 These roughly 3,500 words replace existing prose; they are not an addition to 80,000. Start with repeated general explanations and case recaps, preserving the canonical 24-reference roles, necessary theorem conditions, and the council's concrete design. A rebalancing across chapters is permissible within the approved 72,000 combined chapter words. Select and count actual cuts during drafting; a plan does not certify that every proposed cut is harmless.
 
-Back matter currently contains 14,591 words, leaving 409 below the 15,000 ceiling. New references and notes will require concise cross-references and reductions in repeated bibliographic or limitation prose. Preserve the version, relevant passage, and factual boundary in both reader notes and source records. No new sources are counted as integrated manuscript references until they actually enter the chapters.
+Back matter now contains 14,778 words, leaving 222 below the 15,000 ceiling. Three new works and two endnotes have entered Chapters 8–9; the original Korinek–Suh paper is saved with its hash and exact checked passages. The remaining comparative references and notes will require concise cross-references and reductions in repeated bibliographic or limitation prose. Preserve the version, relevant passage, and factual boundary in reader notes and source records. Remaining planning sources enter the manuscript bibliography only when cited in the chapters.

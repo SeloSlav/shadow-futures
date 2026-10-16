@@ -4,10 +4,10 @@
   "checked_on": "2026-10-16",
   "status": "reviewed",
   "target_main_words": 6000,
-  "body_words": 5894,
-  "note_words": 914,
-  "draft_sha256": "a6aad46bb4aa1724620e63e84fbfb078dc908805a0f016ff5560c4c0f0fbaafb",
-  "source_checks": "Relevant full primary passages checked for measured outcomes, designs and limits. Published final customer-support record distinguished from author version; learning long version, dated METR studies, published Autor text and robot proof versions explicitly identified. Relevant original Bessen ATM paragraphs were additionally read in indexed publisher text; failed direct fetches, absence of full-PDF inspection and no raw-data replication remain explicit.",
+  "body_words": 6022,
+  "note_words": 979,
+  "draft_sha256": "d6bff74626b5b0ad0e931ef3b7f1b3f818b238b9e6df4591d1d42b07de1aca47",
+  "source_checks": "Relevant full primary passages checked for measured outcomes, designs and limits. Published final customer-support record distinguished from author version; learning long version, dated METR studies, published Autor text and robot proof versions explicitly identified. Relevant original Bessen ATM paragraphs were additionally read in indexed publisher text; failed direct fetches, absence of full-PDF inspection and no raw-data replication remain explicit. Agent/capital revision: Original saved Korinek–Suh March 2024 passages checked; theoretical scenarios and hypothetical assets/ownership distinguished.",
   "sources": [
     {
       "key": "BrynjolfssonLiRaymond2025",
@@ -167,6 +167,24 @@
       ],
       "boundary": "Direct HTML/PDF returned 403 and IMF eLibrary retrieval failed; no local copy, full-PDF inspection or raw-data replication claimed. Historical reported account, not isolated causal estimate, universal employment guarantee or current bank labor statistic.",
       "v5_reference": false
+    },
+    {
+      "key": "KorinekSuh2024AGIScenarios",
+      "note": "c9-capital",
+      "source": "https://cdn.governance.ai/AGI_Scenarios.pdf",
+      "locator": "March 2024 author version: abstract p. 1; Section 3, Proposition 7 and interpretation pp. 22–25; Section 4.1 pp. 25–27; specific-capital discussion/Proposition 13 p. 36; conclusion p. 37.",
+      "checked_on": "2026-10-16",
+      "relevant_passages_checked": true,
+      "local_path": "book/sources/research/Korinek_Suh_2024_AGI_Scenarios.pdf",
+      "sha256": "9a60681ff8ab8cfa6842fbc746efaf0d3a96eb47977f2bc89a4e1257e015b4da",
+      "pages": 45,
+      "claims": [
+        "Automation and capital accumulation jointly affect scenario wage paths",
+        "Task-complexity assumptions and pace of accumulation matter",
+        "Reproducible compute differs from fixed scarce factors; temporary high returns do not establish permanent monopoly"
+      ],
+      "boundary": "Exact original version saved; recorded full relevant source passages read. Theoretical scenario results, not a forecast, an independent proof audit, or a v5 theorem. Investment/ownership examples are explicitly hypothetical. No real tax rate, wage-collapse forecast or country ranking.",
+      "v5_reference": false
     }
   ],
   "illustrations": [
@@ -193,6 +211,14 @@
       "name": "Driver moving between towns served by a shared ranking",
       "status": "explicitly fictional and conditional",
       "purpose": "Geographic mobility versus another evaluator; portability and correction"
+    },
+    {
+      "name": "Birch agent invoices, retained earnings and ownership alternatives",
+      "status": "explicitly fictional",
+      "notes": [
+        "c9-capital"
+      ],
+      "purpose": "Renting versus assets, productive accumulation versus exclusion, worker stakes versus entrepreneurial access, and conditional cooperative/public arrangements."
     }
   ],
   "narrative_checks": [
@@ -208,7 +234,7 @@
     "METR study-pay change made concrete; no clean causal reversal or current tool estimate inferred.",
     "Bessen ATM passage checked in indexed original publisher text; direct-fetch and raw-data limits retained."
   ],
-  "whole_book_review": "Sequential chapter review completed for saved draft and recorded claims; final cross-book continuity, original technical-source completion and publication-date refresh remain required. Bessen access is passage-specific indexed primary text, not full original PDF or data replication.",
+  "whole_book_review": "Current component revision reviewed for recorded claims. Comparative-institutions revision in Chapters10–12, four original canonical technical passages and final cross-book reconciliation remain open.",
   "historical_scale_revision": {
     "checked_on": "2026-10-16",
     "scope": "Earlier targeted historical-scale revision, subsequently included in the complete sequential chapter review recorded in sequential_review.",
@@ -227,13 +253,31 @@
       "New historical reach-of-judgment thread preserved: driver fictional, ILO alternative-platform evidence included, portability can carry flawed scores.",
       "Directive transposition deadline distinct from implementation; correction/appeal/independent-assessment bundle explicitly author proposal.",
       "Human skill can develop; changed training policy an intervention, not replay; additional assessments informative beyond winner records.",
-      "Three staffing options remain costed conditional designs; no theorem-derived training subsidy, job guarantee, liability or finite-budget diagnosis."
+      "Three staffing options remain costed conditional designs; no theorem-derived training subsidy, job guarantee, liability or finite-budget diagnosis.",
+      "Added Who owns the workforce? following the preserved training-design section. Separates rented inference, durable capabilities, profits, saving, investment and claims on income.",
+      "Developed two conditional accumulation routes: cheaper independent entry and investment extending exclusion. Productive benefits, copying, depreciation, financing, demand, physical constraints and checking costs remain.",
+      "Read exact original KorinekSuh March2024 scenario passages; credited prior automation/capital analysis without importing an unconditional wage or monopoly-profit forecast.",
+      "Worker stakes, cooperative and public access are hypothetical institutional possibilities, not established welfare improvements. Distribution of income and entrepreneurial access remain separate.",
+      "Removed repeated case summaries and shortened assessment/preference guidance. Original support, classroom, METR, ATM, robot, platform/portability and staff-trial facts/conditions retained."
     ],
     "source_rechecks": [
       "Bastani long author version pp. 13–18",
       "METR February 24, 2026 full substantive account",
       "Bessen original ATM paragraphs via indexed publisher text"
     ],
-    "draft_sha256": "a6aad46bb4aa1724620e63e84fbfb078dc908805a0f016ff5560c4c0f0fbaafb"
+    "draft_sha256": "d6bff74626b5b0ad0e931ef3b7f1b3f818b238b9e6df4591d1d42b07de1aca47"
+  },
+  "agent_capital_revision": {
+    "checked_on": "2026-10-16",
+    "status": "integrated_for_this_chapter",
+    "findings": [
+      "Added Who owns the workforce? following the preserved training-design section. Separates rented inference, durable capabilities, profits, saving, investment and claims on income.",
+      "Developed two conditional accumulation routes: cheaper independent entry and investment extending exclusion. Productive benefits, copying, depreciation, financing, demand, physical constraints and checking costs remain.",
+      "Read exact original KorinekSuh March2024 scenario passages; credited prior automation/capital analysis without importing an unconditional wage or monopoly-profit forecast.",
+      "Worker stakes, cooperative and public access are hypothetical institutional possibilities, not established welfare improvements. Distribution of income and entrepreneurial access remain separate.",
+      "Removed repeated case summaries and shortened assessment/preference guidance. Original support, classroom, METR, ATM, robot, platform/portability and staff-trial facts/conditions retained."
+    ],
+    "draft_sha256": "d6bff74626b5b0ad0e931ef3b7f1b3f818b238b9e6df4591d1d42b07de1aca47",
+    "review_scope": "Complete original chapter body and notes read in sequence before revision; revised source passages and all replacement sections read with neighboring retained passages. Exact current manuscript hash recorded. Existing primary-source boundaries remain; no independent mathematical proof or priority certification."
   }
 }

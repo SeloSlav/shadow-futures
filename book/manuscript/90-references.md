@@ -50,6 +50,8 @@ Brynjolfsson, E., D. Li, and L. R. Raymond. 2025. Generative AI at work. Quarter
 
 California Energy Commission. n.d. Electric Program Investment Charge program. Funding and administration account. Accessed October 16, 2026. [Source](https://www.energy.ca.gov/programs-and-topics/programs/electric-program-investment-charge-epic-program)
 
+Carlini, N. 2026. Building a C compiler with a team of parallel Claudes. Anthropic Engineering, February 5. [Source](https://www.anthropic.com/engineering/building-c-compiler)
+
 Chambers, L. 2025. Defending an open web: What the Google Search ruling means for the future. Mozilla, September 8. [Source](https://blog.mozilla.org/en/mozilla/internet-policy/defending-an-open-web/)
 
 Chandrashekar, A., F. Amat, J. Basilico, and T. Jebara. 2017. Artwork personalization at Netflix. Netflix TechBlog, December 7. [Source](https://netflixtechblog.com/artwork-personalization-c589f074ad76)
@@ -106,6 +108,8 @@ Google DeepMind. 2025. AlphaEvolve: A Gemini-powered coding agent for designing 
 
 Gottfried, T., and Grosskinsky, S. (2024). Asymptotics of generalized Pólya urns with non-linear feedback. Electronic Journal of Probability, 29, 1-56. [Source](https://doi.org/10.1214/24-EJP1157)
 
+Hadfield, J., B. Zhang, K. Lien, F. Scholz, J. Fox, and D. Ford. 2025. How we built our multi-agent research system. Anthropic Engineering, June 13. [Source](https://www.anthropic.com/engineering/multi-agent-research-system)
+
 Hayek, F. A. (2002). Competition as a discovery procedure. The Quarterly Journal of Austrian Economics, 5(3), 9-23. [Source](https://mises.org/quarterly-journal-austrian-economics/competition-discovery-procedure)
 
 Hoffmann, J., et al. 2022. Training compute-optimal large language models. Advances in Neural Information Processing Systems 35. [Source](https://papers.nips.cc/paper_files/paper/2022/file/c1e2faff6f588870935f114ebe04a3e5-Paper-Conference.pdf)
@@ -137,6 +141,8 @@ Kerr, W. R., Nanda, R., and Rhodes-Kropf, M. (2014). Entrepreneurship as experim
 Kohavi, R., A. Deng, B. Frasca, T. Walker, Y. Xu, and N. Pohlmann. 2013. Online controlled experiments at large scale. Proceedings of KDD:1168–1176. [Source](https://doi.org/10.1145/2487575.2488217)
 
 Lakin, M. 2023. Super construction at super scale: How ORNL built a new home for Frontier. Oak Ridge National Laboratory, November 14. [Source](https://www.ornl.gov/news/super-construction-super-scale-how-ornl-built-new-home-frontier/)
+
+Korinek, A., and D. Suh. 2024. Scenarios for the transition to AGI. March author working paper. [Author paper](https://cdn.governance.ai/AGI_Scenarios.pdf)
 
 Le Cam, L., and Yang, G. L. (2000). Asymptotics in Statistics: Some Basic Concepts (2nd ed.). Springer. [Source](https://doi.org/10.1007/978-1-4612-1166-2_2)
 

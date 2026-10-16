@@ -4,10 +4,10 @@
   "checked_on": "2026-10-16",
   "status": "reviewed",
   "target_main_words": 6000,
-  "body_words": 5977,
-  "note_words": 866,
-  "draft_sha256": "0524e5af289d1f7d6e90a9e44362e09ae12f1f8128b0c89a35c8aacbbfc99f46",
-  "source_checks": "Relevant full primary passages checked in published/versioned research papers, original predecessor papers and attributed developer report. Versions, assumptions, measured objectives, author interpretations, simulations and hypotheticals remain distinct.",
+  "body_words": 5849,
+  "note_words": 926,
+  "draft_sha256": "c2c44f05a3f11d897234ee2531a05306eda057a050bfb35cec3de791cf58f8cb",
+  "source_checks": "Relevant full primary passages checked in published/versioned research papers, original predecessor papers and attributed developer report. Versions, assumptions, measured objectives, author interpretations, simulations and hypotheticals remain distinct. Agent/capital revision: Original Carlini and June 2025 Anthropic architecture passages checked; developer reports and hypothetical contracts distinguished.",
   "sources": [
     {
       "key": "ChiangEtAl2024Arena",
@@ -197,6 +197,36 @@
       "v5_reference": false,
       "additional_source": "https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/",
       "local_cache": ".tmp/book-research/alphaevolve-2025.pdf"
+    },
+    {
+      "key": "Carlini2026CompilerTeam",
+      "note": "c8-agents",
+      "source": "https://www.anthropic.com/engineering/building-c-compiler",
+      "locator": "Original February 5, 2026 article: opening; Make parallelism easy; Evaluation; Looking forward.",
+      "claims": [
+        "Sixteen Claude instances in compiler capability experiment",
+        "Shared Linux-build bug/interfering fixes and GCC-based varying-subset test harness",
+        "Efficiency and external-tool limitations",
+        "Explicit absence of orchestration agent in this setup"
+      ],
+      "checked_on": "2026-10-16",
+      "relevant_passages_checked": true,
+      "boundary": "Attributed developer experiment, not independently replicated benchmark, all-in production-cost calculation, labor-market effect, or causal agent-count comparison. Existing GCC, human test design and external tools count. No code was run for this book. Does not establish an empirical comparison budget.",
+      "v5_reference": false
+    },
+    {
+      "key": "Anthropic2025MultiAgentResearch",
+      "note": "c8-agents",
+      "source": "https://www.anthropic.com/engineering/multi-agent-research-system",
+      "locator": "June 13, 2025 original article, Architecture overview for Research; Benefits; Production reliability.",
+      "claims": [
+        "Lead agent delegates to parallel subagents in the described research architecture",
+        "Architecture differs from the later compiler setup"
+      ],
+      "checked_on": "2026-10-16",
+      "relevant_passages_checked": true,
+      "boundary": "Dated company engineering account; no universal orchestration claim or adoption/performance ranking. No internal-evaluation percentage or token multiplier adopted.",
+      "v5_reference": false
     }
   ],
   "illustrations": [
@@ -229,6 +259,14 @@
       "name": "AI-assisted document program development",
       "status": "explicit hypothetical inspired by executable-evaluation case",
       "purpose": "Candidate generation, known test labels, fresh evaluation and performance limits"
+    },
+    {
+      "name": "Birch agent team and two contractual access arrangements",
+      "status": "explicitly fictional",
+      "notes": [
+        "c8-agents"
+      ],
+      "purpose": "Portable retained work versus dependence on project records/distribution; same-model useful checks and rights are separate."
     }
   ],
   "narrative_checks": [
@@ -245,7 +283,7 @@
     "Logged-policy evaluation, history under unchanged response rules and training-policy intervention explicitly separated.",
     "Removed repeated self-description of novelty and a generic activity summary; original predecessor credit remains."
   ],
-  "whole_book_review": "Sequential chapter review completed for the saved draft and recorded claims. Final cross-book continuity/source completion audit remains; no original Chapter 3 gap or independent proof/priority review silently completed.",
+  "whole_book_review": "Current component revision reviewed for recorded claims. Comparative-institutions revision in Chapters10–12, four original canonical technical passages and final cross-book reconciliation remain open.",
   "sequential_review": {
     "checked_on": "2026-10-16",
     "status": "completed_for_recorded_chapter_claims",
@@ -260,11 +298,28 @@
       "Shared ancestry does not imply identical outputs or independent research histories; all informative private tests count.",
       "Blackwell–Dubins and Zhang retain predecessor credit; merging alone not universal nonlearning or chatbot truth.",
       "Smallville is software simulation, AlphaEvolve developer-reported local evaluation; neither certifies a whole counterfactual economy or total contribution.",
-      "Cross-book transition audit changed the closing reference from following that person to asking what happens to the worker; the next chapter opens a different documented workplace case, not the same fictional individual."
+      "Cross-book transition audit changed the closing reference from following that person to asking what happens to the worker; the next chapter opens a different documented workplace case, not the same fictional individual.",
+      "Inserted a concrete compiler-team production case and distinguished its architecture from the June2025 research orchestrator. Retained developer-report and external-check boundaries.",
+      "Introduced fictional agent-team tasks and portable versus provider-dependent contractual arrangements. No current vendor-contract accusation or agent-count measure of comparison budget.",
+      "Shortened Smallville and closing recap; retained party, AdamSmith error, simulation validation, fixed-rule replay versus intervention, and AlphaEvolve actual-operation check.",
+      "All original cited works/notes and canonical BarYam/BlackwellDubins/Zhang roles retained. Checked outputs and informative private tests remain included."
     ],
     "source_rechecks": [
       "Length-Controlled AlpacaEval version 2 pp. 2–3 and 6"
     ],
-    "draft_sha256": "0524e5af289d1f7d6e90a9e44362e09ae12f1f8128b0c89a35c8aacbbfc99f46"
+    "draft_sha256": "c2c44f05a3f11d897234ee2531a05306eda057a050bfb35cec3de791cf58f8cb"
+  },
+  "agent_capital_revision": {
+    "checked_on": "2026-10-16",
+    "status": "integrated_for_this_chapter",
+    "findings": [
+      "Inserted a concrete compiler-team production case and distinguished its architecture from the June2025 research orchestrator. Retained developer-report and external-check boundaries.",
+      "Introduced fictional agent-team tasks and portable versus provider-dependent contractual arrangements. No current vendor-contract accusation or agent-count measure of comparison budget.",
+      "Shortened Smallville and closing recap; retained party, AdamSmith error, simulation validation, fixed-rule replay versus intervention, and AlphaEvolve actual-operation check.",
+      "All original cited works/notes and canonical BarYam/BlackwellDubins/Zhang roles retained. Checked outputs and informative private tests remain included.",
+      "Defined compiler in ordinary language and replaced orchestration jargon with lead-agent task assignment. Added failed-attempt records and confidentiality as concrete transfer costs."
+    ],
+    "draft_sha256": "c2c44f05a3f11d897234ee2531a05306eda057a050bfb35cec3de791cf58f8cb",
+    "review_scope": "Complete original chapter body and notes read in sequence before revision; revised source passages and all replacement sections read with neighboring retained passages. Exact current manuscript hash recorded. Existing primary-source boundaries remain; no independent mathematical proof or priority certification."
   }
 }
