@@ -14,7 +14,7 @@ Counts below come from the current chapter files. Drafted sections still require
 | [The comparison budget](manuscript/03-the-comparison-budget.md) | 6,000 | 6,000 | drafted |
 | [Shadow futures](manuscript/04-shadow-futures.md) | 6,000 | 6,000 | drafted |
 | [The histories that became infrastructure](manuscript/05-the-histories-that-became-infrastructure.md) | 6,000 | 6,000 | drafted |
-| Who gets to be tested | 6,000 | 0 | not started |
+| Who gets to be tested | 6,000 | 0 | researching |
 | Who deserves the winnings | 6,000 | 0 | not started |
 | The intelligence factory | 6,000 | 0 | not started |
 | A billion answers | 6,000 | 0 | not started |

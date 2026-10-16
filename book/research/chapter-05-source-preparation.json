@@ -1,0 +1,195 @@
+{
+  "chapter": 5,
+  "title": "Who gets to be tested",
+  "prepared_on": "2026-10-16",
+  "status": "source_preparation_not_a_drafted_chapter",
+  "target_main_words": 6000,
+  "main_case": "Google search-distribution dispute, distinct from separate ad-tech litigation",
+  "narrative_commitments": [
+    "Open at the preselected search access point before the first query; acknowledge engineering/quality alongside distribution power.",
+    "Use Firefox Yahoo2014-2017 switch to show a documented change in exposure and its limits.",
+    "Follow query feedback, internal Bing comparison/ProjectFolly, shared data and syndicated results as different information routes.",
+    "Credit Meghani prior epistemic-monopoly argument, then state narrower book definition with estimand and information set.",
+    "Use Aster/Birch on several fronts sharing a ranking, and an operator preserving useful trials; do not let hypothetical model exposition dominate.",
+    "Show Mozilla funding/competition tradeoff and 2026 implementation details without treating statements as adjudicated facts.",
+    "Close with who can check a relevant comparison and transition to desert, not an inferred tax rate or liability."
+  ],
+  "sources": [
+    {
+      "key": "GoogleLiability2024",
+      "source": "https://fingfx.thomsonreuters.com/gfx/legaldocs/gdpzmaxjxvw/United%20States%20v%20Google%2020240805.pdf",
+      "local_cache": ".tmp/book-research/google-liability-opinion-2024-08-05.pdf",
+      "checked_passages": [
+        "Printed pp. 1-3: engineering/quality credited alongside default distribution and 2021 payments above $26 billion; complaint and trial chronology",
+        "Printed pp. 34-35: query/click feedback, rare queries and productive quality improvement",
+        "Printed pp. 48-49: quality experiments, human-rated side-by-side comparisons, Bing latency comparison and Project Folly",
+        "Printed pp. 115-116: Apple study and Mozilla agreements; Yahoo default 2014-2017, observed share shifts, return to Google"
+      ],
+      "possible_uses": [
+        "Before first query, default is already selected",
+        "Firefox/Yahoo supplies a documented default change, not a randomized economic replay",
+        "Project Folly supplies a concrete internal comparison at a dominant firm"
+      ],
+      "boundaries": [
+        "Liability opinion findings dated August 5, 2024; do not apply product rankings or shares as current October 2026 facts",
+        "General search services and general search text ads are the particular monopoly markets; not all advertising",
+        "Observed Firefox switch is not a clean RCT and Yahoo advertising/user-experience changes matter",
+        "Internal quality experiments must not be discarded to claim no information exists",
+        "Printed page offset: printed page plus 3 gives zero-based PDF page index."
+      ],
+      "cache_sha256": "b4103f867700418ab2fa691c02bd89ee36995268923efa5e66b519f3d73c0a93"
+    },
+    {
+      "key": "GoogleRemediesSeptember2025",
+      "source": "https://docs.justia.com/cases/federal/district-courts/district-of-columbia/dcdce/1%3A2020cv03010/223205/1436",
+      "checked_passages": [
+        "Public full opinion available as HTML, September 2, 2025, ECF 1436",
+        "Printed pp. 111-117, Chrome-divestiture discussion and denial; parts read through indexed source"
+      ],
+      "pending": [
+        "Read full relevant distribution, data and Mozilla/payment-remedy sections before drafting detailed claims",
+        "Original PDF can be retrieved from the Justia document page; not yet in local cache"
+      ],
+      "boundaries": [
+        "Requested divestiture differs from ordered relief",
+        "September opinion differs from December final judgment",
+        "Court account is primary; press-release characterizations are party descriptions."
+      ]
+    },
+    {
+      "key": "GoogleFinalJudgment2025",
+      "source": "https://www.justice.gov/atr/media/1421546/dl?inline=",
+      "local_cache": ".tmp/book-research/google-final-judgment-2025-12-05.pdf",
+      "checked_passages": [
+        "PDF pp. 5-7: permitted contract terms at end of Section III; Section IV index identifiers/metadata, specified user-side data, privacy/security safeguards and understandable dataset documentation",
+        "PDF pp. 9-10: syndication limits and tapering, qualified users, query/user-origin and retention restrictions"
+      ],
+      "pending": [
+        "Read entire Section III before simplifying restrictions on exclusivity, conditional payments and default terms",
+        "Read Section V.A first page (p. 8) and Section IX qualification definition before writing their precise operation"
+      ],
+      "boundaries": [
+        "Judgment entered December 5, 2025, ECF1462",
+        "Access is specified, qualified and governed by safeguards/licenses; not all source code, algorithms, ranking signals, post-trained models or private browsing history",
+        "Syndicated results and shared index/user data are different remedies",
+        "Do not equate order with completed delivery or verified market effects."
+      ],
+      "cache_sha256": "331a843442e548e7d707e08903457b7fb790ebcd714598a43adc47d3633c40b0"
+    },
+    {
+      "key": "GoogleStatusSeptember2026",
+      "source": "https://www.justice.gov/atr/media/1461926/dl?inline=",
+      "local_cache": ".tmp/book-research/google-plaintiffs-status-2026-09-17.pdf",
+      "checked_passages": [
+        "PDF pp. 1-3: plaintiffs report, technical committee fully appointed/onboarded and implementing processes",
+        "PDF pp. 10-11: recommendation process, request/response chronology, syndication-template schedule and separate index/user-data-template schedule"
+      ],
+      "boundaries": [
+        "Plaintiffs report, not judicial findings or proof of compliance",
+        "Dates scheduled after September17 are not evidence the event happened",
+        "Report says syndication template due October6, joint issues report October14, index/data template due October27; verify any claimed later completion",
+        "Main text can describe what September report said rather than asserting unverified current access",
+        "DOJ case index checked October16 has entries through September17; this is not proof no later docket activity exists."
+      ],
+      "cache_sha256": "bda9522897c2bd17c28d0f9dfabc3ad845a34af139adaaeed415bb6b6439da1a"
+    },
+    {
+      "key": "GoogleAugust2026Order",
+      "source": "https://www.justice.gov/atr/media/1459051/dl?inline=",
+      "local_cache": ".tmp/book-research/google-order-2026-08-25.pdf",
+      "checked_passages": [
+        "Full five-page order through web source; technical committee staff testimony and post-employment restrictions"
+      ],
+      "boundaries": [
+        "List of named firms in employment restrictions does not certify them as actual Qualified Competitors receiving datasets",
+        "Not necessary to enumerate named firms in main chapter."
+      ],
+      "cache_sha256": "1e3976f045f9cc6b3c320ce67113780350b7d35794a7a896481a8eb97ef83cc7"
+    },
+    {
+      "key": "GoogleAppealJuly2026",
+      "source": "https://www.justice.gov/atr/media/1454586/dl?inline=",
+      "local_cache": ".tmp/book-research/google-plaintiffs-appeal-brief-2026-07-28.pdf",
+      "checked_passages": [
+        "Cover identifies response/opening cross-appeal brief and date",
+        "PDF pp. 22-25, 50, 54 and 64: plaintiffs contest rejection of payment ban; do not cross-appeal Chrome divestiture ruling"
+      ],
+      "boundaries": [
+        "A party brief, not an appellate judgment or adopted findings",
+        "Supports existence/scope of dispute as of July2026, not final appellate resolution."
+      ],
+      "cache_sha256": "fe03c7c8d33d1cad8af962273e7ed8574e6f2644caa54543d48b8475f3d5c82e"
+    },
+    {
+      "key": "Meghani2021",
+      "source": "https://link.springer.com/article/10.1007/s13347-021-00467-2",
+      "checked_passages": [
+        "Published full-text Sections 6-7: regulatory epistemic obligations, access to independent studies, power to set conditions of research and publication, prior term epistemic monopoly",
+        "Publisher text around paragraphs beginning The affording of such broad rights and It allows the patent holder; author PDF on PhilPapers also indexed"
+      ],
+      "pending": [
+        "If using historical dicamba factual/legal details, read and cite original National Family Farm Coalition v EPA June3 2020 decision and date the account; no current chemical risk/status inference"
+      ],
+      "boundaries": [
+        "Credit Zahra Meghani before introducing book narrower relative-to-estimand allocation/evidence definition",
+        "Do not claim Erlic coined epistemic monopoly, or that Meghani proved the comparison-budget bound",
+        "PhilPapers PDF direct local download failed403; published full HTML was read; no claim local PDF exists."
+      ]
+    },
+    {
+      "key": "MozillaChambers2025",
+      "source": "https://blog.mozilla.org/en/mozilla/internet-policy/defending-an-open-web/",
+      "checked_passages": [
+        "Laura Chambers, September8 2025; entire main post: flexibility, opposing payment ban, privacy/security, risk of shifting power between major firms"
+      ],
+      "boundaries": [
+        "Stakeholder statement/argument, not independent empirical finding",
+        "Mozilla funding facts can be taken from court 2024p116 as dated findings; current financial share not inferred",
+        "Do not repeat only independent browser engine left assertion without definitions and verification."
+      ]
+    },
+    {
+      "key": "GoogleAppealStatement2026",
+      "source": "https://blog.google/company-news/outreach-and-initiatives/public-policy/why-were-appealing-the-doj-search-distribution-case/",
+      "checked_passages": [
+        "Search result establishes January16 2026 statement and claimed user preference plus stay request"
+      ],
+      "pending": [
+        "Read full company statement before quoting/paraphrasing its substantive defense"
+      ],
+      "boundaries": [
+        "A company argument, not reversal of liability findings."
+      ]
+    },
+    {
+      "key": "MozillaChoiceScreens",
+      "source": "https://research.mozilla.org/browser-competition/",
+      "checked_passages": [
+        "Research inventory only, not substantive results"
+      ],
+      "candidates": [
+        "April2026 NBER working paper, The Effect of Choice Screens on Mobile Browser Usage: Evidence from the EU Digital Markets Act, Jesper Akesson, Kush Amlani, Raul Cepeda Suarez, Emily Chissell, Stefan Hunt, Michael Luca, Gemma Petrie",
+        "September2023 experimental study at https://research.mozilla.org/browser-competition/choicescreen/"
+      ],
+      "pending": [
+        "Read full relevant methods/results/version/funding before any factual claim; optional, not required to finish core Google case"
+      ],
+      "boundaries": [
+        "Browser choice versus search-engine choice are different outcomes",
+        "Do not use research listing as evidence of efficacy."
+      ]
+    }
+  ],
+  "conceptual_boundaries": [
+    "Comparison budget remains cumulative modeled chance outside current favorite, not searches, shares, users, firms or tests.",
+    "No lifetime-budget diagnosis of Google from distribution or concentration.",
+    "Private tests can supply useful information; denial of public access differs from nonexistence of evidence.",
+    "The court did not adopt Erlic concept or theorem.",
+    "Remedy economics needs value/cost/causal/feasible-substitute premises; statutory legal obligations remain independent."
+  ],
+  "research_next_steps": [
+    "Read remaining relevant September2025 opinion and final-judgment sections.",
+    "Inspect any source used for later procedural status; do not infer completed October filings from September deadlines.",
+    "Draft full6000word chapter with concrete cases and linked notes; then claim-specific source ledger, reference register update, counts and local checkpoint."
+  ]
+}
