@@ -7,7 +7,7 @@ test.describe("interactive essay", () => {
     await expect(
       page.getByRole("heading", { name: "Shadow Futures", exact: true }),
     ).toBeVisible();
-    await expect(page.locator(".site-header .header-nav__paper")).toHaveAttribute(
+    await expect(page.getByRole("navigation", { name: "Primary navigation" }).getByRole("link", { name: /Read the paper/ })).toHaveAttribute(
       "href",
       "/paper",
     );
@@ -19,7 +19,9 @@ test.describe("interactive essay", () => {
       }),
     ).toBeVisible();
     await expect(firstSectionAfterHero.getByText(/The closest statistical precedent/)).toBeVisible();
-    await page.getByRole("link", { name: "See how the evidence disappears" }).click();
+    await page.locator("#book").getByRole("link", { name: /Explore the idea/ }).click();
+    await expect(page).toHaveURL(/#novelty$/);
+    await page.getByTestId("breakout-graph").scrollIntoViewIfNeeded();
     await expect(page.getByTestId("breakout-graph")).toBeVisible();
 
     await page.getByRole("button", { name: "Run the recommendations" }).click();
@@ -233,8 +235,11 @@ test.describe("interactive essay", () => {
     test.skip(!isMobile, "mobile-only coverage");
     await page.goto("/");
     await expect(page.locator("body")).not.toHaveCSS("overflow-x", "scroll");
-    await page.getByLabel("Shadow Futures home").click();
-    await page.goto("/methodology");
+    await page.getByRole("button", { name: "Explore", exact: true }).click();
+    const navigation = page.getByRole("navigation", { name: "Explore Shadow Futures" });
+    await expect(navigation.getByRole("link")).toHaveCount(10);
+    await navigation.getByRole("link", { name: /Methodology/ }).click();
+    await expect(navigation).toHaveCount(0);
     await expect(page.getByRole("heading", { name: "How the argument works" })).toBeVisible();
   });
 

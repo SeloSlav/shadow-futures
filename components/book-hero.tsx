@@ -9,7 +9,7 @@ export function BookHero() {
     <section className={styles.hero} id="book" aria-labelledby="hero-title">
       <div className={styles.copy}>
         <p className={styles.eyebrow}>The book · Free reading edition</p>
-        <h1 id="hero-title">Shadow<br />Futures</h1>
+        <h1 id="hero-title">Shadow Futures</h1>
         <p className={styles.subtitle}>{BOOK.subtitle}</p>
         <p className={styles.byline}>By <Link href="/author/martin-erlic">Martin Erlic</Link></p>
         <p className={styles.description}>
