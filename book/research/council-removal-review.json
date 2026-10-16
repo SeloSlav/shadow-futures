@@ -154,5 +154,18 @@
     "All original predecessor entries retained; existing source checks reused."
   ],
   "boundary": "No new independent proof or priority certification. Four earlier original theorem-passage verification flags remain in internal records.",
-  "final_heading_check": "Rendered preview exposed an obsolete first-contract heading; replaced it and two other contract headings with headings matching the direct allocation argument."
+  "final_heading_check": "Rendered preview exposed an obsolete first-contract heading; replaced it and two other contract headings with headings matching the direct allocation argument.",
+  "publication_checks": {
+    "reading_pdf_pages": 275,
+    "paperback_interior_pages": 274,
+    "endnotes": 185,
+    "references": 133,
+    "backmatter_words": 12848,
+    "epubcheck_errors": 0,
+    "epubcheck_warnings": 0,
+    "pdf_integrity": "passed",
+    "visual_review": "Ten changed/adjacent-page previews, paperback cover and corrected final chapter-opening heading inspected without visible layout defects.",
+    "reading_pdf_sha256": "62c3e8d9981d0fb05376f4a3d52b38278f3f841163a6f70246d8ef9a2862aba6",
+    "deployment_boundary": "Author requested commit and push only; no Vercel login or further deployment troubleshooting."
+  }
 }
