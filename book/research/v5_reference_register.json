@@ -193,6 +193,10 @@
         {
           "manuscript": "book/manuscript/06-who-gets-to-be-tested.md",
           "note": "c5-11"
+        },
+        {
+          "manuscript": "book/manuscript/11-competition-for-future-evidence.md",
+          "note": "c10-9"
         }
       ],
       "checked_on": "2026-10-16",
@@ -276,6 +280,10 @@
         {
           "manuscript": "book/manuscript/03-the-comparison-budget.md",
           "note": "c2-6"
+        },
+        {
+          "manuscript": "book/manuscript/11-competition-for-future-evidence.md",
+          "note": "c10-7"
         }
       ],
       "correction_checked": "Authors November 10, 2021 correction to Theorem 1, item 3; see chapter-02-source-notes.json."
@@ -359,6 +367,10 @@
         {
           "manuscript": "book/manuscript/06-who-gets-to-be-tested.md",
           "note": "c5-6"
+        },
+        {
+          "manuscript": "book/manuscript/11-competition-for-future-evidence.md",
+          "note": "c10-5"
         }
       ],
       "checked_on": "2026-10-16",

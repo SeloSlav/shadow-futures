@@ -19,7 +19,21 @@
         "https://www.jstor.org/stable/pdf/2236332.pdf: ValueError: Response was not a PDF",
         "https://projecteuclid.org/download/pdf_1/euclid.aoms/1177729032: ValueError: Response was not a PDF"
       ],
-      "source_url": "https://www.jstor.org/stable/pdf/2236332.pdf"
+      "source_url": "https://www.jstor.org/stable/pdf/2236332.pdf",
+      "book_full_text_check": "original_passage_check_pending_finite_theorem_checked_in_deOliveira2017_primary_proof",
+      "checked_on": "2026-10-16",
+      "access_boundary": "Original ProjectEuclid current/legacy HTTPS and HTTP endpoints and JSTOR return HTML; Celebratio bibliography PDF link has no file target. Original remains link_only. Modern full primary theorem/proof used with historical credit, no original inspection claim.",
+      "corroborating_primary_proof": {
+        "source": "https://henriquedeoliveira.com/wp-content/uploads/2020/12/blackwells-informativeness-theorem-using-diagrams.pdf",
+        "version": "November30,2017 author preprint, pp.1–5; published2018",
+        "local_cache": ".tmp/book-research/de-oliveira-blackwell-2017.pdf"
+      },
+      "drafted_citations": [
+        {
+          "manuscript": "book/manuscript/11-competition-for-future-evidence.md",
+          "note": "c10-3"
+        }
+      ]
     },
     {
       "key": "BlackwellDubins1962",

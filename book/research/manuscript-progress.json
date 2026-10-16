@@ -1,9 +1,9 @@
 {
   "status": "in_progress",
   "main_text_target": 80000,
-  "main_words": 60000,
-  "words_remaining_to_target": 20000,
-  "back_matter_words": 8545,
+  "main_words": 66000,
+  "words_remaining_to_target": 14000,
+  "back_matter_words": 9317,
   "back_matter_target": [
     10000,
     15000
@@ -179,10 +179,15 @@
       "title": "Competition for future evidence",
       "file": "book/manuscript/11-competition-for-future-evidence.md",
       "target": 6000,
-      "stage": "not_started",
-      "exists": false,
-      "main_words": 0,
-      "note_words": 0
+      "stage": "drafted",
+      "exists": true,
+      "main_words": 6000,
+      "note_words": 772,
+      "sha256": "1b9ca6bbe97e452cd565d959d74b1f2f37c2dd2e6ef840db0e9a486e335cd0a5",
+      "note_count": 13,
+      "missing_notes": [],
+      "unused_notes": [],
+      "duplicate_notes": false
     },
     {
       "id": "chapter_11",

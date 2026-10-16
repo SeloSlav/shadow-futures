@@ -1,0 +1,247 @@
+{
+  "manuscript": "book/manuscript/11-competition-for-future-evidence.md",
+  "title": "Competition for future evidence",
+  "checked_on": "2026-10-16",
+  "status": "drafted",
+  "target_main_words": 6000,
+  "body_words": 6000,
+  "note_words": 772,
+  "draft_sha256": "1b9ca6bbe97e452cd565d959d74b1f2f37c2dd2e6ef840db0e9a486e335cd0a5",
+  "source_checks": "Relevant primary passages checked for stated claims. Original Blackwell1953 archive remains inaccessible; precise finite-setting theorem and proof checked in de Oliveira2017 primary research version. Do not claim original inspection. Prior case checks/version boundaries retained. Current unpublished expanded policy draft read rather than earlier short version.",
+  "sources": [
+    {
+      "key": "CMAOpenBanking2023Completion",
+      "notes": [
+        "c10-1",
+        "c10-6"
+      ],
+      "source": "https://assets.publishing.service.gov.uk/media/63bed8958fa8f513b40f866c/BANKING_PROVIDERS_Roadmap_Completion_Decision_.pdf",
+      "locator": "January 2023, paragraphs 1.1–1.4, 2.1–2.6, 4.3–4.9, PDF pp. 1–3 and 5–7",
+      "full_text_checked": true,
+      "claims": [
+        "Six major providers completed remaining roadmap items; not all nine simultaneously",
+        "Common banking standards, secure authorized sharing and permitted payments",
+        "Continuing standards conformance, performance/availability monitoring, funding and trustee obligations"
+      ],
+      "version_boundary": "Dated primary authority decision; original historical roadmap, not current implementation/governance or usage status.",
+      "boundary": "Institutional features and authority appraisal distinguished from causal welfare evaluation. No trial effect, current bank recommendation or actual comparison-budget estimate.",
+      "v5_reference": false,
+      "local_cache": ".tmp/book-research/cma-open-banking-completion-2023.pdf"
+    },
+    {
+      "key": "Erlic2026CompetitionJournalDraft",
+      "notes": [
+        "c10-2",
+        "c10-6",
+        "c10-11",
+        "c10-12"
+      ],
+      "source": "output/docx/research-program/journal/04_Competition_Policy_for_Informative_Market_Access.docx",
+      "locator": "October 2026 journal article draft: Sections 1–11, Table 1 and Appendices A–B; paragraph indices 8–118 and 120–133",
+      "full_text_checked": true,
+      "sha256": "88f50219093eca1a5f1371ac392163d78190cbb05aedbf46900afd08f2a24b3f",
+      "claims": [
+        "Defined consequential decision and common implementable rule under retained plausible models",
+        "Interpretation/polarity ambiguity; metadata and outcomes can complement",
+        "Costed audit, portability, interoperability, pilot and independent-replication menu",
+        "Full operating costs, costs counted once, scale benefits, crowdout and finite useful experimentation",
+        "Prospective narrowly scoped evaluation mandate is proposal; statutory requirements separate"
+      ],
+      "version_boundary": "Current expanded journal-oriented unpublished draft selected per research-program README; earlier short draft preserved. No accepted-publication claim or new general Blackwell/ambiguity theorem.",
+      "boundary": "All numerical table inputs hypothetical; book uses prose institutional illustration and no empirical tax/liability/welfare estimate. Robust expected guarantee not guaranteed realized improvement. Council maintenance example is author adaptation, not recorded procurement.",
+      "v5_reference": false
+    },
+    {
+      "key": "ErlicV5",
+      "note": "c10-2",
+      "source": "output/docx/Shadow_Futures_FINAL_Comparison_Budget_Revised_v5.docx",
+      "locator": "Canonical October 2026 v5, Sections 2–4 and Appendix B; provenance hash in v5_source_provenance.json",
+      "full_text_checked": true,
+      "claims": [
+        "Cumulative modeled allocation chance outside current favorite; additional informative observations included",
+        "Large budget not sufficient for identification; small persistent chance may accumulate without limit",
+        "Universal contribution recovery differs from finite decision improvement"
+      ],
+      "version_boundary": "Unpublished canonical v5, not assumed identical to hosted SSRN file.",
+      "boundary": "No actual-firm finite-lifetime estimate, market-share diagnosis, legal authority, tax rate or welfare theorem from budget alone.",
+      "v5_reference": false
+    },
+    {
+      "key": "Blackwell1953",
+      "note": "c10-3",
+      "source": "https://doi.org/10.1214/aoms/1177729032",
+      "locator": "Original Annals of Mathematical Statistics 24(2), 265–272; original full passage not obtained",
+      "full_text_checked": false,
+      "claims": [
+        "Historical attribution of classical experiment-comparison result"
+      ],
+      "version_boundary": "Original bibliographic identity corroborated through publisher-linked bibliography and modern primary proof; original archive endpoints return HTML rather than PDF.",
+      "boundary": "No claim of original full text or proof inspection. Corresponding finite-setting theorem/proof actually checked in de Oliveira November 2017 author version, separately recorded. Additional book foundation outside original 24 v5 references.",
+      "v5_reference": false
+    },
+    {
+      "key": "deOliveira2018Blackwell",
+      "note": "c10-3",
+      "source": "https://henriquedeoliveira.com/wp-content/uploads/2020/12/blackwells-informativeness-theorem-using-diagrams.pdf",
+      "locator": "November 30, 2017 full author version, pp. 1–5, Theorem 1 and Section 4; published Games and Economic Behavior 109 (2018), 126–131, DOI10.1016/j.geb.2017.12.008",
+      "full_text_checked": true,
+      "claims": [
+        "Finite-setting equivalence of state-independent garbling, feasible decisions and Bayesian decision value",
+        "Direct richer-to-poorer imitation rationale; historical credit to Blackwell 1951/1953"
+      ],
+      "version_boundary": "10-page author preprint dated November 30, 2017, not claimed final six-page typeset article. Published metadata corroborated on publisher/university record.",
+      "boundary": "Known interpretation and fixed decision environment; no guarantee of free data acquisition, welfare gain in strategic games or positive net remedy return. Not Roberto Oliveira2009, a separate v5 predecessor.",
+      "v5_reference": false,
+      "local_cache": ".tmp/book-research/de-oliveira-blackwell-2017.pdf"
+    },
+    {
+      "key": "GoogleFinalJudgment2025",
+      "note": "c10-4",
+      "source": "https://www.justice.gov/atr/media/1421546/dl?inline=",
+      "locator": "December 5, 2025 ECF1462, Section IV.B–C, pp. 6–7",
+      "full_text_checked": true,
+      "claims": [
+        "Specified user-side data access, safeguards, descriptions, sampling and transformations",
+        "Qualified competitors, exclusions of algorithms/ranking signals/post-trained LLMs"
+      ],
+      "version_boundary": "Dated ordered terms; no new representation about completion or appellate disposition. Relevant primary cached pages rechecked for this chapter.",
+      "boundary": "Documentation and privacy provisions used as concrete design example, not remedy success, general unrestricted access or current implementation claim.",
+      "v5_reference": false,
+      "local_cache": ".tmp/book-research/google-final-judgment-2025-12-05.pdf"
+    },
+    {
+      "key": "Meghani2021",
+      "note": "c10-5",
+      "source": "https://link.springer.com/article/10.1007/s13347-021-00467-2",
+      "locator": "Published introduction paragraphs on credible sources/dependence and Section 6, previously checked for Chapter 5; introduction rechecked for Chapter 10",
+      "full_text_checked": true,
+      "claims": [
+        "Prior epistemic-monopoly terminology and concern about dependence on product developer for evaluation evidence",
+        "Control over independent testing conditions and regulatory epistemic responsibilities"
+      ],
+      "version_boundary": "Published 2021 full indexed primary text; no claimed local PDF.",
+      "boundary": "Credit distinct normative/governance argument, not coinage or equivalence with v5 bound. Public-evaluator extension and council audit are author reasoning.",
+      "v5_reference": true
+    },
+    {
+      "key": "KasySautmann2021",
+      "note": "c10-7",
+      "source": "https://maxkasy.github.io/home/files/papers/adaptiveexperimentspolicy.pdf",
+      "locator": "Published pp. 113–114, Section 6 pp. 122–123 and Table II; relevant passages rechecked",
+      "full_text_checked": true,
+      "claims": [
+        "Adaptive design for post-experiment policy choice distinct from maximizing within-experiment outcome",
+        "Indian agricultural-service recruitment: call times and SMS alerts; outcome completion of five questions"
+      ],
+      "version_boundary": "Published Econometrica89(1)113–132 plus separately checked November 10, 2021 correction.",
+      "boundary": "No original corrected frequentist expected-regret rate, farm yield/income or universal pilot allocation quota.",
+      "v5_reference": true,
+      "local_cache": ".tmp/book-research/kasy-sautmann-2021.pdf"
+    },
+    {
+      "key": "KasySautmann2021Correction",
+      "note": "c10-7",
+      "source": "https://maxkasy.github.io/home/files/papers/correction_adaptiveexperimentspolicy.pdf",
+      "locator": "November 10, 2021 p. 1, correction of Theorem1 item3",
+      "full_text_checked": true,
+      "claims": [
+        "Original frequentist expected-policy-regret rate claim corrected"
+      ],
+      "boundary": "Invalidated original statement not used in book.",
+      "v5_reference": false,
+      "local_cache": ".tmp/book-research/kasy-sautmann-correction.pdf"
+    },
+    {
+      "key": "WatzingerEtAl2020",
+      "note": "c10-8",
+      "source": "https://www.aeaweb.org/articles?id=10.1257/pol.20190086",
+      "additional_source": "https://www.uoc.gr/files/items/6/6537/watzinger_et_al.pdf",
+      "locator": "June9,2017 author version introduction pp.1–4, institutional background pp.7–9, empirical design pp.10–12; published2020 abstract; Chapter4 source ledger",
+      "full_text_checked": true,
+      "claims": [
+        "Bell1956 licensing and outside-sector follow-on innovation; different within-telecommunications finding"
+      ],
+      "version_boundary": "2017 full author paper checked for Chapter4; published2020 abstract corroborates. No numeric older2016 estimate imported.",
+      "boundary": "Conditional empirical design and patent proxies; no full welfare, infinite budget or actual-firm comparison-budget diagnosis.",
+      "v5_reference": false,
+      "local_cache": ".tmp/book-research/bell-author-2017.pdf"
+    },
+    {
+      "key": "Hayek2002",
+      "note": "c10-9",
+      "source": "https://ppe.isi.org/wp-content/uploads/2017/12/Lesson-9-Reading-Competition-as-a-Discovery-Process.pdf",
+      "locator": "Printed pp.9–11; first three PDF pages rechecked for Chapter10",
+      "full_text_checked": true,
+      "claims": [
+        "Competition as discovery under prior uncertainty; antecedent to book question",
+        "1968 lecture, Marcellus S.Snow2002 translation"
+      ],
+      "boundary": "No adoption of every methodological claim or guarantee market sequences identify contribution.",
+      "v5_reference": true,
+      "local_cache": ".tmp/book-research/hayek-2002.pdf"
+    },
+    {
+      "key": "DOJFTC2023MergerGuidelines",
+      "note": "c10-10",
+      "source": "https://www.justice.gov/atr/media/1329301/dl",
+      "locator": "Overview printedp.1, Guideline2, Guideline3 market-observability paragraph printedp.9, Guideline10 printedp.26",
+      "full_text_checked": true,
+      "claims": [
+        "Existing analysis includes quality, innovation, wages/benefits and buyer competition",
+        "Guideline2 evidence can matter independently of market-share analysis",
+        "Greater observation of rivals terms can increase susceptibility to coordination"
+      ],
+      "version_boundary": "December18,2023 agency guidance; official pages and full51-page PDF checked. Description of stated frameworks, not claim legislative status or new court holding.",
+      "boundary": "No inference deficit alone supplies liability, jurisdiction, relevant market or other applicable requirements. All information disclosure not inherently welfare improving in strategic environment.",
+      "v5_reference": false,
+      "local_cache": ".tmp/book-research/merger-guidelines-2023.pdf"
+    },
+    {
+      "key": "Ipsos2026BankServiceQuality",
+      "note": "c10-13",
+      "source": "https://www.ipsos.com/en-uk/personal-banking-service-quality-great-britain-february-2026",
+      "locator": "February16,2026 full publication, fieldwork period, questions and methodology summary",
+      "full_text_checked": true,
+      "claims": [
+        "Regulatory independent survey January–December2025; recommendations for provider and particular service categories"
+      ],
+      "version_boundary": "Dated February2026 publication, not latest August2026 result or current product ranking. No numeric ranking used.",
+      "boundary": "Survey preferences not randomized provider allocation or causal decomposition. Council interpretation explicit author reasoning.",
+      "v5_reference": false
+    }
+  ],
+  "illustrations": [
+    {
+      "name": "Council maintenance-request procurement",
+      "status": "explicitly fictional throughout",
+      "purpose": "Defined decisions, eligibility, operating outcomes, audit, portability, interface, pilot and alternative procurement routes"
+    },
+    {
+      "name": "Ambiguous positive field",
+      "status": "explicit hypothetical adapted from unpublished policy draft",
+      "purpose": "Common implementable interpretation, definitions/outcomes complementarity, no implied general new Blackwell result"
+    },
+    {
+      "name": "Independent councils and shared checklist",
+      "status": "explicit hypothetical",
+      "purpose": "Organization counts differ from independent assignments and independent measurement errors"
+    },
+    {
+      "name": "Hypothetical remedy menu",
+      "status": "author proposal with wholly stipulated numerical paper inputs; equations and table numbers not imported into main text",
+      "purpose": "Decision target, full cost, crowdout, scale benefits, replacement and stopping"
+    }
+  ],
+  "narrative_checks": [
+    "New real Open Banking implementation case opens and closes chapter; Ipsos survey supplies distinct observable evidence.",
+    "Fictional single purchasing decision anchors each remedy rather than unconnected policy list.",
+    "Google dated documentation clause adds new question; Bell sectoral contrast and Hayek discovery preserve antecedent credit.",
+    "Existing nonprice antitrust and information-induced coordination risk acknowledged.",
+    "Comparison budget not market shares, trial count, legal entity count, welfare measure or universal quota.",
+    "All informative private and external records count; no actual-firm theorem diagnosis.",
+    "Decision-specific common rule, calibration, transportability and expected versus realized outcome distinct.",
+    "No equations, invented interviews, actual-company tax/welfare estimates or automatic legal liability.",
+    "6000 main words; tax-instrument question leads to Chapter11."
+  ],
+  "whole_book_review": "Still required: original Blackwell1953 access/passages if obtainable, final continuity/repetition/pace, conceptual/factual/citation audit, complete bibliography, combined reading manuscript and final budget. Four canonical Chapter3 original-passage checks remain separately recorded."
+}
