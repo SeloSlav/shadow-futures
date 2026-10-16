@@ -1,0 +1,2310 @@
+{
+  "title": "Shadow Futures bibliography",
+  "compiled_on": "2026-10-16",
+  "status": "drafted_source_coverage_checked_editorial_review_pending",
+  "scope": "Cited works and explicit indirect credit. All 24 canonical v5 entries retained. Related locations and source-ledger aliases do not assert inspection of every copy.",
+  "entries": [
+    {
+      "id": "AcemogluRestrepo2020Robots",
+      "source_keys": [
+        "AcemogluRestrepo2020Robots"
+      ],
+      "citation": "Acemoglu, D., and P. Restrepo. 2020. Robots and jobs: Evidence from US labor markets. Journal of Political Economy 128:2188–2244. Author-hosted proof used.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://economics.mit.edu/sites/default/files/publications/Robots%20and%20Jobs%20-%20Evidence%20from%20US%20Labor%20Markets.p.pdf"
+        }
+      ],
+      "known_locations": [
+        "https://economics.mit.edu/sites/default/files/publications/Robots%20and%20Jobs%20-%20Evidence%20from%20US%20Labor%20Markets.p.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/10-the-first-rung.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "Akerlof1970",
+      "source_keys": [
+        "Akerlof1970"
+      ],
+      "citation": "Akerlof, G. A. (1970). The market for “lemons”: Quality uncertainty and the market mechanism. The Quarterly Journal of Economics, 84(3), 488-500.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.sfu.ca/~allen/Ackerlof.pdf"
+        }
+      ],
+      "known_locations": [
+        "https://www.sfu.ca/~allen/Ackerlof.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/01-introduction.md",
+        "book/manuscript/02-the-winner-and-the-explanation.md",
+        "book/manuscript/04-shadow-futures.md"
+      ],
+      "canonical_v5_reference": true
+    },
+    {
+      "id": "AkessonLucaPetrieAmlani2023",
+      "source_keys": [
+        "AkessonLucaPetrieAmlani2023"
+      ],
+      "citation": "Akesson, J., M. Luca, G. Petrie, and K. Amlani. 2023. Can Browser Choice Screens Be Effective? Mozilla-commissioned research report.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://research.mozilla.org/files/2023/09/Can-browser-choice-screens-be-effective_-Mozilla-experiment-report.pdf"
+        }
+      ],
+      "known_locations": [
+        "https://research.mozilla.org/files/2023/09/Can-browser-choice-screens-be-effective_-Mozilla-experiment-report.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/06-who-gets-to-be-tested.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "Alchian1950",
+      "source_keys": [
+        "Alchian1950"
+      ],
+      "citation": "Alchian, A. A. 1950. Uncertainty, evolution, and economic theory. Journal of Political Economy 58:211–221.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://doi.org/10.1086/256940"
+        }
+      ],
+      "known_locations": [
+        "https://doi.org/10.1086/256940"
+      ],
+      "cited_in": [
+        "book/manuscript/00-prologue.md",
+        "book/manuscript/01-introduction.md",
+        "book/manuscript/02-the-winner-and-the-explanation.md",
+        "book/manuscript/05-the-histories-that-became-infrastructure.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "ATTAnnual1955",
+      "source_keys": [
+        "ATTAnnual1955"
+      ],
+      "citation": "American Telephone and Telegraph Company. 1955. Annual Report 1955. Historical report scan.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.telephonearchive.com/uploads/papers/pdfs/att1955.pdf"
+        }
+      ],
+      "known_locations": [
+        "https://www.telephonearchive.com/uploads/papers/pdfs/att1955.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/05-the-histories-that-became-infrastructure.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "ALCFINCITE2026Awards",
+      "source_keys": [
+        "ALCFINCITE2026Awards"
+      ],
+      "citation": "Argonne Leadership Computing Facility. 2026. INCITE program awards supercomputing time to 75 high-impact projects. May 5.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.alcf.anl.gov/news/incite-program-awards-supercomputing-time-75-high-impact-projects-0"
+        }
+      ],
+      "known_locations": [
+        "https://www.alcf.anl.gov/news/incite-program-awards-supercomputing-time-75-high-impact-projects-0"
+      ],
+      "cited_in": [
+        "book/manuscript/08-the-intelligence-factory.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "Arrow1962",
+      "source_keys": [
+        "Arrow1962"
+      ],
+      "citation": "Arrow, K. J. 1962. Economic welfare and the allocation of resources for invention. In The Rate and Direction of Inventive Activity: Economic and Social Factors, 609–626. Princeton University Press and NBER.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.nber.org/system/files/chapters/c2144/c2144.pdf"
+        }
+      ],
+      "known_locations": [
+        "https://www.nber.org/system/files/chapters/c2144/c2144.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/08-the-intelligence-factory.md",
+        "book/manuscript/12-taxing-lost-comparison.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "Arthur1989",
+      "source_keys": [
+        "Arthur1989"
+      ],
+      "citation": "Arthur, W. B. (1989). Competing technologies, increasing returns, and lock-in by historical events. The Economic Journal, 99(394), 116-131.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://doi.org/10.2307/2234208"
+        }
+      ],
+      "known_locations": [
+        "https://doi.org/10.2307/2234208",
+        "https://www.rochelleterman.com/ir/sites/default/files/arthur%201989.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/05-the-histories-that-became-infrastructure.md"
+      ],
+      "canonical_v5_reference": true
+    },
+    {
+      "id": "Autor2015Automation",
+      "source_keys": [
+        "Autor2015Automation"
+      ],
+      "citation": "Autor, D. H. 2015. Why are there still so many jobs? The history and future of workplace automation. Journal of Economic Perspectives 29:3–30.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://economics.mit.edu/sites/default/files/publications/why%20are%20there%20still%20jobs%202014.pdf"
+        }
+      ],
+      "known_locations": [
+        "https://economics.mit.edu/sites/default/files/publications/why%20are%20there%20still%20jobs%202014.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/10-the-first-rung.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "BarYam2016",
+      "source_keys": [
+        "BarYam2016"
+      ],
+      "citation": "Bar-Yam, Y. (2016). From big data to important information. Complexity, 21(S2), 73–98. doi:10.1002/cplx.21785.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://doi.org/10.1002/cplx.21785"
+        }
+      ],
+      "known_locations": [
+        "https://arxiv.org/pdf/1604.00976",
+        "https://doi.org/10.1002/cplx.21785"
+      ],
+      "cited_in": [
+        "book/manuscript/03-the-comparison-budget.md",
+        "book/manuscript/09-a-billion-answers.md"
+      ],
+      "canonical_v5_reference": true
+    },
+    {
+      "id": "Bardeen1956",
+      "source_keys": [
+        "Bardeen1956"
+      ],
+      "citation": "Bardeen, J. 1956. Semiconductor research leading to the point contact transistor. Nobel lecture, December 11.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.nobelprize.org/uploads/2018/06/bardeen-lecture.pdf"
+        }
+      ],
+      "known_locations": [
+        "https://www.nobelprize.org/uploads/2018/06/bardeen-lecture.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/05-the-histories-that-became-infrastructure.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "BastaniEtAl2025Learning",
+      "source_keys": [
+        "BastaniEtAl2025Learning"
+      ],
+      "citation": "Bastani, H., O. Bastani, A. Sungu, H. Ge, Ö. Kabakcı, and R. Mariman. 2025. Generative AI without guardrails can harm learning: Evidence from high school mathematics. PNAS 122:e2422633122. Author version distinguished in the notes.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://doi.org/10.1073/pnas.2422633122"
+        }
+      ],
+      "known_locations": [
+        "https://doi.org/10.1073/pnas.2422633122",
+        "https://hamsabastani.github.io/education_llm.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/10-the-first-rung.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "BearchellEtAl2005WheatArchive",
+      "source_keys": [
+        "BearchellEtAl2005WheatArchive"
+      ],
+      "citation": "Bearchell, S. J., B. A. Fraaije, M. W. Shaw, and B. D. L. Fitt. 2005. Wheat archive links long-term fungal pathogen population dynamics to air pollution. PNAS 102:5438–5442.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://doi.org/10.1073/pnas.0501596102"
+        }
+      ],
+      "known_locations": [
+        "https://doi.org/10.1073/pnas.0501596102",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC556271/"
+      ],
+      "cited_in": [
+        "book/manuscript/13-an-economics-of-possible-worlds.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "METR2025DeveloperStudy",
+      "source_keys": [
+        "METR2025DeveloperStudy"
+      ],
+      "citation": "Becker, J., N. Rush, B. Barnes, and D. Rein. 2025. Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity. METR research report.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://metr.org/Early_2025_AI_Experienced_OS_Devs_Study-paper.pdf"
+        }
+      ],
+      "known_locations": [
+        "https://metr.org/Early_2025_AI_Experienced_OS_Devs_Study-paper.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/00-prologue.md",
+        "book/manuscript/10-the-first-rung.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "Bessen2015Indirect",
+      "source_keys": [],
+      "citation": "Bessen, J. 2015. Toil and technology. Finance & Development 52(1):16–19. ATM account cited through Autor (2015); original article not independently inspected.",
+      "links": [
+        {
+          "label": "Publisher record",
+          "url": "https://www.imf.org/external/pubs/ft/fandd/2015/03/bessen.htm"
+        }
+      ],
+      "cited_in": [
+        "book/manuscript/10-the-first-rung.md"
+      ],
+      "canonical_v5_reference": false,
+      "known_locations": [
+        "https://www.imf.org/external/pubs/ft/fandd/2015/03/bessen.htm",
+        "https://www.imf.org/external/pubs/ft/fandd/2015/03/pdf/bessen.pdf"
+      ],
+      "bibliographic_check": "Autor2015 bibliography printedp29 (PDFp27) identifies Toil and Technology; IMF/BU records corroborate. Direct publisher full text unavailable; indirect-use boundary retained."
+    },
+    {
+      "id": "Blackwell1953",
+      "source_keys": [
+        "Blackwell1953"
+      ],
+      "citation": "Blackwell, D. 1953. Equivalent comparisons of experiments. Annals of Mathematical Statistics 24:265–272.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://doi.org/10.1214/aoms/1177729032"
+        }
+      ],
+      "known_locations": [
+        "https://doi.org/10.1214/aoms/1177729032"
+      ],
+      "cited_in": [
+        "book/manuscript/11-competition-for-future-evidence.md",
+        "book/manuscript/13-an-economics-of-possible-worlds.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "BlackwellDubins1962",
+      "source_keys": [
+        "BlackwellDubins1962"
+      ],
+      "citation": "Blackwell, D., and Dubins, L. (1962). Merging of opinions with increasing information. The Annals of Mathematical Statistics, 33(3), 882-886. doi:10.1214/aoms/1177704456.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://doi.org/10.1214/aoms/1177704456"
+        }
+      ],
+      "known_locations": [
+        "http://www.dklevine.com/archive/refs4565.pdf",
+        "https://doi.org/10.1214/aoms/1177704456"
+      ],
+      "cited_in": [
+        "book/manuscript/04-shadow-futures.md",
+        "book/manuscript/09-a-billion-answers.md",
+        "book/manuscript/13-an-economics-of-possible-worlds.md"
+      ],
+      "canonical_v5_reference": true
+    },
+    {
+      "id": "BlakeNoskoTadelis2015",
+      "source_keys": [
+        "BlakeNoskoTadelis2015"
+      ],
+      "citation": "Blake, T., C. Nosko, and S. Tadelis. 2015. Consumer heterogeneity and paid search effectiveness: A large-scale field experiment. Econometrica 83:155–174. May 2014 working version identified in the notes.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://doi.org/10.3982/ECTA12423"
+        },
+        {
+          "label": "2014 working paper",
+          "url": "https://www.nber.org/system/files/working_papers/w20171/w20171.pdf"
+        }
+      ],
+      "known_locations": [
+        "https://doi.org/10.3982/ECTA12423",
+        "https://www.nber.org/system/files/working_papers/w20171/w20171.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/01-introduction.md",
+        "book/manuscript/02-the-winner-and-the-explanation.md",
+        "book/manuscript/04-shadow-futures.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "BolDeVaanVanDeRijt2018",
+      "source_keys": [
+        "BolDeVaanVanDeRijt2018"
+      ],
+      "citation": "Bol, T., M. de Vaan, and A. van de Rijt. 2018. The Matthew effect in science funding. Proceedings of the National Academy of Sciences 115:4887–4890.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://doi.org/10.1073/pnas.1719557115"
+        }
+      ],
+      "known_locations": [
+        "https://doi.org/10.1073/pnas.1719557115",
+        "https://www.eui.eu/Documents/DepartmentsCentres/SPS/Profiles/Van-de-Rijt/boletal-2018.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/01-introduction.md",
+        "book/manuscript/02-the-winner-and-the-explanation.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "BrynjolfssonLiRaymond2025",
+      "source_keys": [
+        "BrynjolfssonLiRaymond2025"
+      ],
+      "citation": "Brynjolfsson, E., D. Li, and L. R. Raymond. 2025. Generative AI at work. Quarterly Journal of Economics 140:889–942. Published version, with earlier author version distinguished in the notes.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://doi.org/10.1093/qje/qjae044"
+        }
+      ],
+      "known_locations": [
+        "https://academic.oup.com/qje/article/140/2/889/7990658",
+        "https://arxiv.org/abs/2304.11771",
+        "https://arxiv.org/pdf/2304.11771",
+        "https://doi.org/10.1093/qje/qjae044"
+      ],
+      "cited_in": [
+        "book/manuscript/00-prologue.md",
+        "book/manuscript/01-introduction.md",
+        "book/manuscript/04-shadow-futures.md",
+        "book/manuscript/10-the-first-rung.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "CEC_EPIC2026Access",
+      "source_keys": [
+        "CEC_EPIC2026Access"
+      ],
+      "citation": "California Energy Commission. n.d. Electric Program Investment Charge program. Funding and administration account. Accessed October 16, 2026.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.energy.ca.gov/programs-and-topics/programs/electric-program-investment-charge-epic-program"
+        }
+      ],
+      "known_locations": [
+        "https://www.energy.ca.gov/programs-and-topics/programs/electric-program-investment-charge-epic-program"
+      ],
+      "cited_in": [
+        "book/manuscript/12-taxing-lost-comparison.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "MozillaChambers2025",
+      "source_keys": [
+        "MozillaChambers2025"
+      ],
+      "citation": "Chambers, L. 2025. Defending an open web: What the Google Search ruling means for the future. Mozilla, September 8.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://blog.mozilla.org/en/mozilla/internet-policy/defending-an-open-web/"
+        }
+      ],
+      "known_locations": [
+        "https://blog.mozilla.org/en/mozilla/internet-policy/defending-an-open-web/"
+      ],
+      "cited_in": [
+        "book/manuscript/06-who-gets-to-be-tested.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "NetflixArtwork2017",
+      "source_keys": [
+        "NetflixArtwork2017"
+      ],
+      "citation": "Chandrashekar, A., F. Amat, J. Basilico, and T. Jebara. 2017. Artwork personalization at Netflix. Netflix TechBlog, December 7.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://netflixtechblog.com/artwork-personalization-c589f074ad76"
+        }
+      ],
+      "known_locations": [
+        "https://netflixtechblog.com/artwork-personalization-c589f074ad76"
+      ],
+      "cited_in": [
+        "book/manuscript/03-the-comparison-budget.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "ChenZahariaZou2024FrugalGPT",
+      "source_keys": [
+        "ChenZahariaZou2024FrugalGPT"
+      ],
+      "citation": "Chen, L., M. Zaharia, and J. Zou. 2024. FrugalGPT: How to use large language models while reducing cost and improving performance. Transactions on Machine Learning Research, December.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://lingjiaochen.com/papers/2024_FrugalGPT_TMLR.pdf"
+        }
+      ],
+      "known_locations": [
+        "https://lingjiaochen.com/papers/2024_FrugalGPT_TMLR.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/09-a-billion-answers.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "ChiangEtAl2024Arena",
+      "source_keys": [
+        "ChiangEtAl2024Arena"
+      ],
+      "citation": "Chiang, W.-L., et al. 2024. Chatbot Arena: An open platform for evaluating LLMs by human preference. ICML, Proceedings of Machine Learning Research 235:8359–8388.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/chiang24b/chiang24b.pdf"
+        }
+      ],
+      "known_locations": [
+        "https://raw.githubusercontent.com/mlresearch/v235/main/assets/chiang24b/chiang24b.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/09-a-billion-answers.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "CMARetailBankingOrder2017",
+      "source_keys": [
+        "CMARetailBankingOrder2017"
+      ],
+      "citation": "Competition and Markets Authority. 2017. Retail Banking Market Investigation Order 2017. Implementation arrangements and service-quality survey funding.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.gov.uk/government/publications/retail-banking-market-investigation-order-2017/the-retail-banking-market-investigation-order-2017"
+        }
+      ],
+      "known_locations": [
+        "https://www.gov.uk/government/publications/retail-banking-market-investigation-order-2017/the-retail-banking-market-investigation-order-2017"
+      ],
+      "cited_in": [
+        "book/manuscript/12-taxing-lost-comparison.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "CMAOpenBanking2023Completion",
+      "source_keys": [
+        "CMAOpenBanking2023Completion"
+      ],
+      "citation": "Competition and Markets Authority. 2023. Retail Banking Market Investigation: Roadmap Completion Decision. January.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://assets.publishing.service.gov.uk/media/63bed8958fa8f513b40f866c/BANKING_PROVIDERS_Roadmap_Completion_Decision_.pdf"
+        }
+      ],
+      "known_locations": [
+        "https://assets.publishing.service.gov.uk/media/63bed8958fa8f513b40f866c/BANKING_PROVIDERS_Roadmap_Completion_Decision_.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/11-competition-for-future-evidence.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "CHMTransistor1947",
+      "source_keys": [
+        "CHMTransistor1947"
+      ],
+      "citation": "Computer History Museum. n.d. 1947: Invention of the point-contact transistor. Silicon Engine collection. Accessed October 16, 2026.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.computerhistory.org/siliconengine/invention-of-the-point-contact-transistor/"
+        }
+      ],
+      "known_locations": [
+        "https://www.computerhistory.org/siliconengine/invention-of-the-point-contact-transistor/"
+      ],
+      "cited_in": [
+        "book/manuscript/05-the-histories-that-became-infrastructure.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "CHMLicensing1952",
+      "source_keys": [
+        "CHMLicensing1952"
+      ],
+      "citation": "Computer History Museum. n.d. 1952: Bell Labs licenses transistor technology. Silicon Engine collection. Accessed October 16, 2026.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.computerhistory.org/siliconengine/bell-labs-licenses-transistor-technology/"
+        }
+      ],
+      "known_locations": [
+        "https://www.computerhistory.org/siliconengine/bell-labs-licenses-transistor-technology/"
+      ],
+      "cited_in": [
+        "book/manuscript/05-the-histories-that-became-infrastructure.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "David1985",
+      "source_keys": [
+        "David1985"
+      ],
+      "citation": "David, P. A. (1985). Clio and the economics of QWERTY. American Economic Review, 75(2), 332-337.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://faculty.econ.ucsb.edu/~tedb/Courses/Ec100C/DavidQwerty.pdf"
+        }
+      ],
+      "known_locations": [
+        "https://faculty.econ.ucsb.edu/~tedb/Courses/Ec100C/DavidQwerty.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/05-the-histories-that-became-infrastructure.md"
+      ],
+      "canonical_v5_reference": true
+    },
+    {
+      "id": "deOliveira2018Blackwell",
+      "source_keys": [
+        "deOliveira2018Blackwell"
+      ],
+      "citation": "de Oliveira, H. 2018. Blackwell's informativeness theorem using diagrams. Games and Economic Behavior 109:126–131. November 30, 2017 author version used.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://henriquedeoliveira.com/wp-content/uploads/2020/12/blackwells-informativeness-theorem-using-diagrams.pdf"
+        }
+      ],
+      "known_locations": [
+        "https://henriquedeoliveira.com/wp-content/uploads/2020/12/blackwells-informativeness-theorem-using-diagrams.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/11-competition-for-future-evidence.md",
+        "book/manuscript/13-an-economics-of-possible-worlds.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "DeepSeekV3Report",
+      "source_keys": [
+        "DeepSeekV3Report"
+      ],
+      "citation": "DeepSeek-AI. 2025. DeepSeek-V3 Technical Report. arXiv:2412.19437, version 2, February 18; first released 2024.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://arxiv.org/pdf/2412.19437v2"
+        }
+      ],
+      "known_locations": [
+        "https://arxiv.org/pdf/2412.19437v2"
+      ],
+      "cited_in": [
+        "book/manuscript/08-the-intelligence-factory.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "DARPA2014TenYears",
+      "source_keys": [
+        "DARPA2004And2005"
+      ],
+      "citation": "Defense Advanced Research Projects Agency. 2014. The DARPA Grand Challenge: Ten years later. March 13.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.darpa.mil/news/2014/grand-challenge-ten-years-later"
+        }
+      ],
+      "cited_in": [
+        "book/manuscript/07-who-deserves-the-winnings.md"
+      ],
+      "canonical_v5_reference": false,
+      "known_locations": [
+        "https://www.darpa.mil/news/2014/grand-challenge-ten-years-later"
+      ]
+    },
+    {
+      "id": "DARPA2004And2005",
+      "source_keys": [
+        "DARPA2004And2005"
+      ],
+      "citation": "Defense Advanced Research Projects Agency. n.d. Grand Challenge. Institutional innovation timeline. Accessed October 16, 2026.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.darpa.mil/about/innovation-timeline/grand-challenge"
+        }
+      ],
+      "known_locations": [
+        "https://www.darpa.mil/about/innovation-timeline/grand-challenge",
+        "https://www.darpa.mil/news/2014/grand-challenge-ten-years-later"
+      ],
+      "cited_in": [
+        "book/manuscript/07-who-deserves-the-winnings.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "DuboisEtAl2024LengthControl",
+      "source_keys": [
+        "DuboisEtAl2024LengthControl"
+      ],
+      "citation": "Dubois, Y., B. Galambosi, P. Liang, and T. B. Hashimoto. 2024. Length-Controlled AlpacaEval: A Simple Way to Debias Automatic Evaluators. Author version 2, March 10, 2025.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://arxiv.org/pdf/2404.04475v2"
+        }
+      ],
+      "known_locations": [
+        "https://arxiv.org/pdf/2404.04475v2"
+      ],
+      "cited_in": [
+        "book/manuscript/09-a-billion-answers.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "ElectronicRothamstedArchiveSamples",
+      "source_keys": [
+        "ElectronicRothamstedArchiveSamples"
+      ],
+      "citation": "Electronic Rothamsted Archive. n.d. Rothamsted Sample Archive. Institutional inventory and applications. Accessed October 16, 2026.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.era.rothamsted.ac.uk/asset/rsa"
+        }
+      ],
+      "known_locations": [
+        "https://www.era.rothamsted.ac.uk/asset/rsa"
+      ],
+      "cited_in": [
+        "book/manuscript/13-an-economics-of-possible-worlds.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "Erlic2026CompetitionJournalDraft",
+      "source_keys": [
+        "Erlic2026CompetitionJournalDraft"
+      ],
+      "citation": "Erlic, M. 2026. Competition Policy for Informative Market Access. October journal article draft; unpublished.",
+      "links": [
+        {
+          "label": "Author manuscript",
+          "url": "../../output/docx/research-program/journal/04_Competition_Policy_for_Informative_Market_Access.docx"
+        }
+      ],
+      "known_locations": [
+        "../../output/docx/research-program/journal/04_Competition_Policy_for_Informative_Market_Access.docx"
+      ],
+      "cited_in": [
+        "book/manuscript/11-competition-for-future-evidence.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "Erlic2026InstitutionsJournalDraft",
+      "source_keys": [
+        "Erlic2026InstitutionsJournalDraft"
+      ],
+      "citation": "Erlic, M. 2026. Institutions for Comparative Discovery in Scaling Markets. October journal article draft; unpublished.",
+      "links": [
+        {
+          "label": "Author manuscript",
+          "url": "../../output/docx/research-program/journal/00_Institutions_for_Comparative_Discovery.docx"
+        }
+      ],
+      "known_locations": [
+        "../../output/docx/research-program/journal/00_Institutions_for_Comparative_Discovery.docx"
+      ],
+      "cited_in": [
+        "book/manuscript/13-an-economics-of-possible-worlds.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "Erlic2026MeasurementJournalDraft",
+      "source_keys": [
+        "Erlic2026MeasurementJournalDraft"
+      ],
+      "citation": "Erlic, M. 2026. Measuring Comparison Opportunities in Adaptive Markets: Finite-Horizon Inference and Experimental Design. October journal article draft; unpublished.",
+      "links": [
+        {
+          "label": "Author manuscript",
+          "url": "../../output/docx/research-program/journal/02_Measuring_Comparison_Opportunities_in_Adaptive_Markets.docx"
+        }
+      ],
+      "known_locations": [
+        "../../output/docx/research-program/journal/02_Measuring_Comparison_Opportunities_in_Adaptive_Markets.docx"
+      ],
+      "cited_in": [
+        "book/manuscript/13-an-economics-of-possible-worlds.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "ErlicV5",
+      "source_keys": [
+        "ErlicV5",
+        "ErlicV5Replications"
+      ],
+      "citation": "Erlic, M. 2026. Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market. Canonical October v5 author manuscript; unpublished. Associated SSRN record 6003994.",
+      "links": [
+        {
+          "label": "Canonical v5",
+          "url": "../../output/docx/Shadow_Futures_FINAL_Comparison_Budget_Revised_v5.docx"
+        },
+        {
+          "label": "SSRN record",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994"
+        }
+      ],
+      "known_locations": [
+        "https://doi.org/10.2139/ssrn.6003994",
+        "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994",
+        "../../output/docx/Shadow_Futures_FINAL_Comparison_Budget_Revised_v5.docx"
+      ],
+      "cited_in": [
+        "book/manuscript/00-prologue.md",
+        "book/manuscript/01-introduction.md",
+        "book/manuscript/03-the-comparison-budget.md",
+        "book/manuscript/04-shadow-futures.md",
+        "book/manuscript/05-the-histories-that-became-infrastructure.md",
+        "book/manuscript/06-who-gets-to-be-tested.md",
+        "book/manuscript/07-who-deserves-the-winnings.md",
+        "book/manuscript/08-the-intelligence-factory.md",
+        "book/manuscript/09-a-billion-answers.md",
+        "book/manuscript/10-the-first-rung.md",
+        "book/manuscript/11-competition-for-future-evidence.md",
+        "book/manuscript/12-taxing-lost-comparison.md",
+        "book/manuscript/13-an-economics-of-possible-worlds.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "Erlic2026TaxJournalDraft",
+      "source_keys": [
+        "Erlic2026TaxJournalDraft"
+      ],
+      "citation": "Erlic, M. 2026. Taxing Lost Comparison: Decision Information, Private Testing, and Costed Corrective Instruments. October journal article draft; unpublished.",
+      "links": [
+        {
+          "label": "Author manuscript",
+          "url": "../../output/docx/research-program/journal/05_Taxing_the_Social_Cost_of_Lost_Contestability.docx"
+        }
+      ],
+      "known_locations": [
+        "../../output/docx/research-program/journal/05_Taxing_the_Social_Cost_of_Lost_Contestability.docx"
+      ],
+      "cited_in": [
+        "book/manuscript/12-taxing-lost-comparison.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "Carterfone1968",
+      "source_keys": [
+        "Carterfone1968"
+      ],
+      "citation": "Federal Communications Commission. 1968. Use of the Carterfone Device in Message Toll Telephone Service. 13 FCC 2d 420, adopted June 26.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.nicholasjohnson.org/FCCOps/1968/13F2-420.html"
+        }
+      ],
+      "known_locations": [
+        "https://www.nicholasjohnson.org/FCCOps/1968/13F2-420.html"
+      ],
+      "cited_in": [
+        "book/manuscript/05-the-histories-that-became-infrastructure.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "Fisher1926FieldExperiments",
+      "source_keys": [
+        "Fisher1926FieldExperiments"
+      ],
+      "citation": "Fisher, R. A. 1926. The arrangement of field experiments. Journal of the Ministry of Agriculture 33:503–513. Scanned reprint, pp. 84–94.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://pdixon.stat.iastate.edu/stat571/readings/Fisher%201926.pdf"
+        }
+      ],
+      "known_locations": [
+        "https://pdixon.stat.iastate.edu/stat571/readings/Fisher%201926.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/13-an-economics-of-possible-worlds.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "Gabriyelyan2011",
+      "source_keys": [
+        "Gabriyelyan2011"
+      ],
+      "citation": "Gabriyelyan, S. S. (2011). Absolute continuity and singularity of two probability measures on a filtered space. Journal of Theoretical Probability, 24(3), 595-614.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://doi.org/10.1007/s10959-011-0359-2"
+        }
+      ],
+      "known_locations": [
+        "https://arxiv.org/pdf/0802.0385",
+        "https://doi.org/10.1007/s10959-011-0359-2"
+      ],
+      "cited_in": [
+        "book/manuscript/04-shadow-futures.md"
+      ],
+      "canonical_v5_reference": true
+    },
+    {
+      "id": "DeepMind2025AlphaEvolveAccount",
+      "source_keys": [
+        "NovikovEtAl2025AlphaEvolve"
+      ],
+      "citation": "Google DeepMind. 2025. AlphaEvolve: A Gemini-powered coding agent for designing advanced algorithms. May 14. Developer account.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/"
+        }
+      ],
+      "cited_in": [
+        "book/manuscript/09-a-billion-answers.md"
+      ],
+      "canonical_v5_reference": false,
+      "known_locations": [
+        "https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/"
+      ]
+    },
+    {
+      "id": "GottfriedGrosskinsky2024",
+      "source_keys": [
+        "GottfriedGrosskinsky2024"
+      ],
+      "citation": "Gottfried, T., and Grosskinsky, S. (2024). Asymptotics of generalized Pólya urns with non-linear feedback. Electronic Journal of Probability, 29, 1-56.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://doi.org/10.1214/24-EJP1157"
+        }
+      ],
+      "known_locations": [
+        "https://arxiv.org/pdf/2303.01210",
+        "https://doi.org/10.1214/24-EJP1157"
+      ],
+      "cited_in": [
+        "book/manuscript/03-the-comparison-budget.md",
+        "book/manuscript/04-shadow-futures.md"
+      ],
+      "canonical_v5_reference": true
+    },
+    {
+      "id": "Hayek2002",
+      "source_keys": [
+        "Hayek2002"
+      ],
+      "citation": "Hayek, F. A. (2002). Competition as a discovery procedure. The Quarterly Journal of Austrian Economics, 5(3), 9-23.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://mises.org/quarterly-journal-austrian-economics/competition-discovery-procedure"
+        }
+      ],
+      "known_locations": [
+        "https://mises.org/quarterly-journal-austrian-economics/competition-discovery-procedure",
+        "https://ppe.isi.org/wp-content/uploads/2017/12/Lesson-9-Reading-Competition-as-a-Discovery-Process.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/05-the-histories-that-became-infrastructure.md",
+        "book/manuscript/06-who-gets-to-be-tested.md",
+        "book/manuscript/11-competition-for-future-evidence.md",
+        "book/manuscript/13-an-economics-of-possible-worlds.md"
+      ],
+      "canonical_v5_reference": true
+    },
+    {
+      "id": "HoffmannEtAl2022Chinchilla",
+      "source_keys": [
+        "HoffmannEtAl2022Chinchilla"
+      ],
+      "citation": "Hoffmann, J., et al. 2022. Training compute-optimal large language models. Advances in Neural Information Processing Systems 35.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://papers.nips.cc/paper_files/paper/2022/file/c1e2faff6f588870935f114ebe04a3e5-Paper-Conference.pdf"
+        }
+      ],
+      "known_locations": [
+        "https://deepmind.google/blog/an-empirical-analysis-of-compute-optimal-large-language-model-training/",
+        "https://papers.nips.cc/paper_files/paper/2022/file/c1e2faff6f588870935f114ebe04a3e5-Paper-Conference.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/08-the-intelligence-factory.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "HushAPhone1956",
+      "source_keys": [
+        "HushAPhone1956"
+      ],
+      "citation": "Hush-A-Phone Corp. v. United States. 1956. 238 F.2d 266, D.C. Circuit, November 8.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://law.justia.com/cases/federal/appellate-courts/F2/238/266/247909/"
+        }
+      ],
+      "known_locations": [
+        "https://law.justia.com/cases/federal/appellate-courts/F2/238/266/247909/"
+      ],
+      "cited_in": [
+        "book/manuscript/05-the-histories-that-became-infrastructure.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "INCITEPoliciesVersion13",
+      "source_keys": [
+        "INCITEPoliciesVersion13"
+      ],
+      "citation": "INCITE. 2024. INCITE Overview and Policies. Version 13, December; distributed for the 2026 cycle.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://doeleadershipcomputing.org/wp-content/uploads/sites/123/2025/04/INCITE-Overview-and-Policies_2026.pdf"
+        }
+      ],
+      "known_locations": [
+        "https://doeleadershipcomputing.org/wp-content/uploads/sites/123/2025/04/INCITE-Overview-and-Policies_2026.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/08-the-intelligence-factory.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "IEAEnergyAI2026",
+      "source_keys": [
+        "IEAEnergyAI2026"
+      ],
+      "citation": "International Energy Agency. 2026. Key Questions on Energy and AI. Paris: IEA.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://iea.blob.core.windows.net/assets/3179f7f8-01f6-4dd6-bffa-c9f7b73f1dc9/KeyQuestionsonEnergyandAI.pdf"
+        }
+      ],
+      "known_locations": [
+        "https://iea.blob.core.windows.net/assets/3179f7f8-01f6-4dd6-bffa-c9f7b73f1dc9/KeyQuestionsonEnergyandAI.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/08-the-intelligence-factory.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "IEAPoweringAI2026",
+      "source_keys": [
+        "IEAPoweringAI2026"
+      ],
+      "citation": "International Energy Agency. 2026. Powering Artificial Intelligence: Strategies for Integrating Data Centres into Electricity Systems. October 14.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.iea.org/reports/powering-artificial-intelligence/executive-summary"
+        }
+      ],
+      "known_locations": [
+        "https://www.iea.org/reports/powering-artificial-intelligence",
+        "https://www.iea.org/reports/powering-artificial-intelligence/executive-summary"
+      ],
+      "cited_in": [
+        "book/manuscript/08-the-intelligence-factory.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "Ipsos2026BankServiceQuality",
+      "source_keys": [
+        "Ipsos2026BankServiceQuality"
+      ],
+      "citation": "Ipsos. 2026. Personal banking service quality—Great Britain. February 16; January–December 2025 fieldwork.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.ipsos.com/en-uk/personal-banking-service-quality-great-britain-february-2026"
+        }
+      ],
+      "known_locations": [
+        "https://www.ipsos.com/en-uk/personal-banking-service-quality-great-britain-february-2026"
+      ],
+      "cited_in": [
+        "book/manuscript/11-competition-for-future-evidence.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "JacodShiryaev2003",
+      "source_keys": [
+        "JacodShiryaev2003"
+      ],
+      "citation": "Jacod, J., and Shiryaev, A. N. (2003). Limit Theorems for Stochastic Processes (2nd ed.). Springer.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://doi.org/10.1007/978-3-662-05265-5_4"
+        }
+      ],
+      "known_locations": [
+        "https://doi.org/10.1007/978-3-662-05265-5_4"
+      ],
+      "cited_in": [
+        "book/manuscript/04-shadow-futures.md"
+      ],
+      "canonical_v5_reference": true
+    },
+    {
+      "id": "KabanovLiptserShiryaev1977",
+      "source_keys": [
+        "KabanovLiptserShiryaev1977"
+      ],
+      "citation": "Kabanov, Yu. M., Liptser, R. Sh., and Shiryaev, A. N. (1977). On the question of absolute continuity and singularity of probability measures. Mathematics of the USSR-Sbornik, 33(2), 203-221. doi:10.1070/SM1977v033n02ABEH002421.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://doi.org/10.1070/SM1977v033n02ABEH002421"
+        }
+      ],
+      "known_locations": [
+        "https://doi.org/10.1070/SM1977v033n02ABEH002421"
+      ],
+      "cited_in": [
+        "book/manuscript/04-shadow-futures.md"
+      ],
+      "canonical_v5_reference": true
+    },
+    {
+      "id": "Kakutani1948",
+      "source_keys": [
+        "Kakutani1948"
+      ],
+      "citation": "Kakutani, S. (1948). On equivalence of infinite product measures. Annals of Mathematics, 49(1), 214-224. doi:10.2307/1969123.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://doi.org/10.2307/1969123"
+        }
+      ],
+      "known_locations": [
+        "https://doi.org/10.2307/1969123"
+      ],
+      "cited_in": [
+        "book/manuscript/04-shadow-futures.md"
+      ],
+      "canonical_v5_reference": true
+    },
+    {
+      "id": "KasySautmann2021Correction",
+      "source_keys": [
+        "KasySautmann2021Correction"
+      ],
+      "citation": "Kasy, M., and A. Sautmann. 2021. Correction regarding Adaptive Treatment Assignment in Experiments for Policy Choice. Author correction, November 10.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://maxkasy.github.io/home/files/papers/correction_adaptiveexperimentspolicy.pdf"
+        }
+      ],
+      "known_locations": [
+        "https://maxkasy.github.io/home/files/papers/correction_adaptiveexperimentspolicy.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/03-the-comparison-budget.md",
+        "book/manuscript/11-competition-for-future-evidence.md",
+        "book/manuscript/13-an-economics-of-possible-worlds.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "KasySautmann2021",
+      "source_keys": [
+        "KasySautmann2021"
+      ],
+      "citation": "Kasy, M., and Sautmann, A. (2021). Adaptive treatment assignment in experiments for policy choice. Econometrica, 89(1), 113-132. doi:10.3982/ECTA17527.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://doi.org/10.3982/ECTA17527"
+        }
+      ],
+      "known_locations": [
+        "https://doi.org/10.3982/ECTA17527",
+        "https://maxkasy.github.io/home/files/papers/adaptiveexperimentspolicy.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/03-the-comparison-budget.md",
+        "book/manuscript/11-competition-for-future-evidence.md",
+        "book/manuscript/13-an-economics-of-possible-worlds.md"
+      ],
+      "canonical_v5_reference": true
+    },
+    {
+      "id": "KerrNandaRhodesKropf2014",
+      "source_keys": [
+        "KerrNandaRhodesKropf2014"
+      ],
+      "citation": "Kerr, W. R., Nanda, R., and Rhodes-Kropf, M. (2014). Entrepreneurship as experimentation. Journal of Economic Perspectives, 28(3), 25-48.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.hbs.edu/faculty/Shared%20Documents/conferences/2014-strategy-research/Entrepreneruship%20as%20Experimentation.pdf"
+        }
+      ],
+      "known_locations": [
+        "https://www.hbs.edu/faculty/Shared%20Documents/conferences/2014-strategy-research/Entrepreneruship%20as%20Experimentation.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/07-who-deserves-the-winnings.md",
+        "book/manuscript/08-the-intelligence-factory.md",
+        "book/manuscript/12-taxing-lost-comparison.md"
+      ],
+      "canonical_v5_reference": true
+    },
+    {
+      "id": "KohaviEtAl2013",
+      "source_keys": [
+        "KohaviEtAl2013"
+      ],
+      "citation": "Kohavi, R., A. Deng, B. Frasca, T. Walker, Y. Xu, and N. Pohlmann. 2013. Online controlled experiments at large scale. Proceedings of KDD:1168–1176.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://doi.org/10.1145/2487575.2488217"
+        }
+      ],
+      "known_locations": [
+        "https://doi.org/10.1145/2487575.2488217",
+        "https://www.exp-platform.com/Documents/2013%20controlledExperimentsAtScale.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/03-the-comparison-budget.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "ORNLFrontierConstruction2023",
+      "source_keys": [
+        "ORNLFrontierConstruction2023"
+      ],
+      "citation": "Lakin, M. 2023. Super construction at super scale: How ORNL built a new home for Frontier. Oak Ridge National Laboratory, November 14.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.ornl.gov/news/super-construction-super-scale-how-ornl-built-new-home-frontier/"
+        }
+      ],
+      "known_locations": [
+        "https://www.ornl.gov/news/super-construction-super-scale-how-ornl-built-new-home-frontier/"
+      ],
+      "cited_in": [
+        "book/manuscript/08-the-intelligence-factory.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "LeCamYang2000",
+      "source_keys": [
+        "LeCamYang2000"
+      ],
+      "citation": "Le Cam, L., and Yang, G. L. (2000). Asymptotics in Statistics: Some Basic Concepts (2nd ed.). Springer.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://doi.org/10.1007/978-1-4612-1166-2_2"
+        }
+      ],
+      "known_locations": [
+        "https://doi.org/10.1007/978-1-4612-1166-2_2"
+      ],
+      "cited_in": [
+        "book/manuscript/04-shadow-futures.md"
+      ],
+      "canonical_v5_reference": true
+    },
+    {
+      "id": "LeGoffSoulier2017",
+      "source_keys": [
+        "LeGoffSoulier2017"
+      ],
+      "citation": "Le Goff, L. C., and Soulier, P. (2017). Parameter estimation of a two-colored urn model class. The International Journal of Biostatistics, 13(1), Article 20160029.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://doi.org/10.1515/ijb-2016-0029"
+        }
+      ],
+      "known_locations": [
+        "https://arxiv.org/pdf/1405.2322",
+        "https://doi.org/10.1515/ijb-2016-0029"
+      ],
+      "cited_in": [
+        "book/manuscript/04-shadow-futures.md"
+      ],
+      "canonical_v5_reference": true
+    },
+    {
+      "id": "LiChuLangfordSchapire2010",
+      "source_keys": [
+        "LiChuLangfordSchapire2010"
+      ],
+      "citation": "Li, L., W. Chu, J. Langford, and R. E. Schapire. 2010. A contextual-bandit approach to personalized news article recommendation. Proceedings of WWW:661–670. Author version identified in the notes.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://doi.org/10.1145/1772690.1772758"
+        }
+      ],
+      "known_locations": [
+        "https://arxiv.org/pdf/1003.0146",
+        "https://doi.org/10.1145/1772690.1772758"
+      ],
+      "cited_in": [
+        "book/manuscript/03-the-comparison-budget.md",
+        "book/manuscript/04-shadow-futures.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "LiChuLangfordWang2011Offline",
+      "source_keys": [
+        "LiChuLangfordWang2011Offline"
+      ],
+      "citation": "Li, L., W. Chu, J. Langford, and X. Wang. 2011. Unbiased offline evaluation of contextual-bandit-based news article recommendation algorithms. WSDM:297–306. Author version 2, March 1, 2012.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://arxiv.org/pdf/1003.5956v2"
+        }
+      ],
+      "known_locations": [
+        "https://arxiv.org/pdf/1003.5956v2"
+      ],
+      "cited_in": [
+        "book/manuscript/09-a-billion-answers.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "LiebowitzMargolis1990",
+      "source_keys": [
+        "LiebowitzMargolis1990"
+      ],
+      "citation": "Liebowitz, S. J., and S. E. Margolis. 1990. The fable of the keys. Journal of Law and Economics 33:1–25.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://doi.org/10.1086/467198"
+        }
+      ],
+      "known_locations": [
+        "https://doi.org/10.1086/467198",
+        "https://www.fioravante.patrone.name/mat/TdG/corsi/TdG_Borromeo_2011_12/Liebowitz_Margolis.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/05-the-histories-that-became-infrastructure.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "LlamaTeam2024",
+      "source_keys": [
+        "LlamaTeam2024"
+      ],
+      "citation": "Llama Team, AI at Meta. 2024. The Llama 3 Herd of Models. arXiv:2407.21783, version 3, November 23.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://arxiv.org/pdf/2407.21783v3"
+        }
+      ],
+      "known_locations": [
+        "https://arxiv.org/pdf/2407.21783v3"
+      ],
+      "cited_in": [
+        "book/manuscript/08-the-intelligence-factory.md",
+        "book/manuscript/09-a-billion-answers.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "LUMISustainableFuture",
+      "source_keys": [
+        "LUMISustainableFuture"
+      ],
+      "citation": "LUMI consortium. n.d. Sustainable future. Operator account of waste-heat use. Accessed October 16, 2026.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://lumi-supercomputer.eu/sustainable-future/"
+        }
+      ],
+      "known_locations": [
+        "https://lumi-supercomputer.eu/sustainable-future/"
+      ],
+      "cited_in": [
+        "book/manuscript/08-the-intelligence-factory.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "Macdonald2018RothamstedGuide",
+      "source_keys": [
+        "Macdonald2018RothamstedGuide"
+      ],
+      "citation": "Macdonald, A. J., editor. 2018. Guide to the Classical and Other Long-Term Experiments, Datasets and Sample Archive. Rothamsted Research. Reprinted 2019.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.rothamsted.ac.uk/sites/default/files/national-capability/long-term-experiments/Web_LTE%20Guidebook_2019%20Final2.pdf"
+        }
+      ],
+      "known_locations": [
+        "https://www.rothamsted.ac.uk/sites/default/files/national-capability/long-term-experiments/Web_LTE%20Guidebook_2019%20Final2.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/13-an-economics-of-possible-worlds.md",
+        "book/manuscript/14-epilogue.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "Meghani2021",
+      "source_keys": [
+        "Meghani2021"
+      ],
+      "citation": "Meghani, Z. (2021). Regulations matter: Epistemic monopoly, domination, patents, and the public interest. Philosophy & Technology, 34(4), 1449-1474.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://link.springer.com/article/10.1007/s13347-021-00467-2"
+        }
+      ],
+      "known_locations": [
+        "https://link.springer.com/article/10.1007/s13347-021-00467-2",
+        "https://link.springer.com/content/pdf/10.1007/s13347-021-00467-2.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/06-who-gets-to-be-tested.md",
+        "book/manuscript/11-competition-for-future-evidence.md"
+      ],
+      "canonical_v5_reference": true
+    },
+    {
+      "id": "Merton1968",
+      "source_keys": [
+        "Merton1968"
+      ],
+      "citation": "Merton, R. K. (1968). The Matthew effect in science. Science, 159(3810), 56-63.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://garfield.library.upenn.edu/merton/matthew1.pdf"
+        }
+      ],
+      "known_locations": [
+        "https://doi.org/10.1126/science.159.3810.56",
+        "https://garfield.library.upenn.edu/merton/matthew1.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/00-prologue.md",
+        "book/manuscript/01-introduction.md",
+        "book/manuscript/02-the-winner-and-the-explanation.md",
+        "book/manuscript/05-the-histories-that-became-infrastructure.md",
+        "book/manuscript/07-who-deserves-the-winnings.md"
+      ],
+      "canonical_v5_reference": true
+    },
+    {
+      "id": "METR2026DesignUpdate",
+      "source_keys": [
+        "METR2026DesignUpdate"
+      ],
+      "citation": "METR. 2026. We are changing our developer productivity experiment design. February 24.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://metr.org/blog/2026-02-24-uplift-update/"
+        }
+      ],
+      "known_locations": [
+        "https://metr.org/blog/2026-02-24-uplift-update/"
+      ],
+      "cited_in": [
+        "book/manuscript/00-prologue.md",
+        "book/manuscript/01-introduction.md",
+        "book/manuscript/10-the-first-rung.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "MuchnikAralTaylor2013",
+      "source_keys": [
+        "MuchnikAralTaylor2013"
+      ],
+      "citation": "Muchnik, L., S. Aral, and S. J. Taylor. 2013. Social influence bias: A randomized experiment. Science 341:647–651.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://doi.org/10.1126/science.1240466"
+        }
+      ],
+      "known_locations": [
+        "https://doi.org/10.1126/science.1240466",
+        "https://static1.squarespace.com/static/5e680023bf798b61525c7831/t/5ed0fd6c8c3f6405dc66235d/1590754668534/social-influence-bias.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/02-the-winner-and-the-explanation.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "GoogleAppealStatement2026",
+      "source_keys": [
+        "GoogleAppealStatement2026"
+      ],
+      "citation": "Mulholland, L.-A. 2026. Why we're appealing the DOJ search distribution case. Google, January 16. Company statement.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://blog.google/company-news/outreach-and-initiatives/public-policy/why-were-appealing-the-doj-search-distribution-case/"
+        }
+      ],
+      "known_locations": [
+        "https://blog.google/company-news/outreach-and-initiatives/public-policy/why-were-appealing-the-doj-search-distribution-case/"
+      ],
+      "cited_in": [
+        "book/manuscript/06-who-gets-to-be-tested.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "Nakamura2014Lecture",
+      "source_keys": [
+        "Nakamura2014Lecture"
+      ],
+      "citation": "Nakamura, S. 2014. Background story of the invention of efficient blue InGaN light emitting diodes. Nobel lecture, December 8.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.nobelprize.org/uploads/2018/06/nakamura-lecture.pdf"
+        }
+      ],
+      "known_locations": [
+        "https://www.nobelprize.org/uploads/2018/06/nakamura-lecture.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/07-who-deserves-the-winnings.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "NationalFamilyFarmCoalition2020",
+      "source_keys": [
+        "NationalFamilyFarmCoalition2020"
+      ],
+      "citation": "National Family Farm Coalition v. Environmental Protection Agency. 2020. Ninth Circuit opinion, No. 19-70115, June 3.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.govinfo.gov/content/pkg/USCOURTS-ca9-19-70115/pdf/USCOURTS-ca9-19-70115-0.pdf"
+        }
+      ],
+      "known_locations": [
+        "https://www.govinfo.gov/content/pkg/USCOURTS-ca9-19-70115/pdf/USCOURTS-ca9-19-70115-0.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/06-who-gets-to-be-tested.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "Nichia2005Settlement",
+      "source_keys": [
+        "Nichia2005Settlement"
+      ],
+      "citation": "Nichia Corporation. 2005. Nichia settled with former employee over reasonable remuneration. Company statement, January 11.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.nichia.co.jp/en/newsroom/2005/2005_011101.html"
+        }
+      ],
+      "known_locations": [
+        "https://www.nichia.co.jp/en/newsroom/2005/2005_011101.html"
+      ],
+      "cited_in": [
+        "book/manuscript/07-who-deserves-the-winnings.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "NovikovEtAl2025AlphaEvolve",
+      "source_keys": [
+        "NovikovEtAl2025AlphaEvolve"
+      ],
+      "citation": "Novikov, A., et al. 2025. AlphaEvolve: A Coding Agent for Scientific and Algorithmic Discovery. Google DeepMind white paper.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/AlphaEvolve.pdf"
+        }
+      ],
+      "known_locations": [
+        "https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/",
+        "https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/AlphaEvolve.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/09-a-billion-answers.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "ORNLCoolingEfficiency",
+      "source_keys": [
+        "ORNLCoolingEfficiency"
+      ],
+      "citation": "Oak Ridge National Laboratory. n.d. Computer engineers at ORNL pioneer approaches to energy efficient supercomputing. Accessed October 16, 2026.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.ornl.gov/news/computer-engineers-ornl-pioneer-approaches-energy-efficient-supercomputing/"
+        }
+      ],
+      "known_locations": [
+        "https://www.ornl.gov/news/computer-engineers-ornl-pioneer-approaches-energy-efficient-supercomputing/"
+      ],
+      "cited_in": [
+        "book/manuscript/08-the-intelligence-factory.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "Oliveira2009",
+      "source_keys": [
+        "Oliveira2009"
+      ],
+      "citation": "Oliveira, R. I. (2009). The onset of dominance in balls-in-bins processes with feedback. Random Structures & Algorithms, 34(4), 454-477.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://doi.org/10.1002/rsa.20261"
+        }
+      ],
+      "known_locations": [
+        "https://arxiv.org/pdf/math/0510415",
+        "https://doi.org/10.1002/rsa.20261"
+      ],
+      "cited_in": [
+        "book/manuscript/03-the-comparison-budget.md",
+        "book/manuscript/04-shadow-futures.md"
+      ],
+      "canonical_v5_reference": true
+    },
+    {
+      "id": "OngEtAl2025RouteLLM",
+      "source_keys": [
+        "OngEtAl2025RouteLLM"
+      ],
+      "citation": "Ong, I., et al. 2025. RouteLLM: Learning to route LLMs with preference data. ICLR; author version 4, February 23, first released 2024.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://arxiv.org/pdf/2406.18665v4"
+        }
+      ],
+      "known_locations": [
+        "https://arxiv.org/pdf/2406.18665v4"
+      ],
+      "cited_in": [
+        "book/manuscript/09-a-billion-answers.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "ParkEtAl2023GenerativeAgents",
+      "source_keys": [
+        "ParkEtAl2023GenerativeAgents"
+      ],
+      "citation": "Park, J. S., et al. 2023. Generative agents: Interactive simulacra of human behavior. UIST; author version 2, August 6.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://arxiv.org/pdf/2304.03442v2"
+        }
+      ],
+      "known_locations": [
+        "https://arxiv.org/pdf/2304.03442v2"
+      ],
+      "cited_in": [
+        "book/manuscript/09-a-billion-answers.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "Pemantle2007",
+      "source_keys": [
+        "Pemantle2007"
+      ],
+      "citation": "Pemantle, R. (2007). A survey of random processes with reinforcement. Probability Surveys, 4, 1-79.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://doi.org/10.1214/07-PS094"
+        }
+      ],
+      "known_locations": [
+        "https://arxiv.org/pdf/math/0610076",
+        "https://doi.org/10.1214/07-PS094"
+      ],
+      "cited_in": [
+        "book/manuscript/03-the-comparison-budget.md",
+        "book/manuscript/04-shadow-futures.md"
+      ],
+      "canonical_v5_reference": true
+    },
+    {
+      "id": "PikettySaezStantcheva2014",
+      "source_keys": [
+        "PikettySaezStantcheva2014"
+      ],
+      "citation": "Piketty, T., Saez, E., and Stantcheva, S. (2014). Optimal taxation of top labor incomes: A tale of three elasticities. American Economic Journal: Economic Policy, 6(1), 230-271.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://eml.berkeley.edu/~saez/piketty-saez-stantchevaAEJ14.pdf"
+        }
+      ],
+      "known_locations": [
+        "https://eml.berkeley.edu/~saez/piketty-saez-stantchevaAEJ14.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/07-who-deserves-the-winnings.md",
+        "book/manuscript/12-taxing-lost-comparison.md"
+      ],
+      "canonical_v5_reference": true
+    },
+    {
+      "id": "Bastani2025Correction",
+      "source_keys": [],
+      "citation": "Proceedings of the National Academy of Sciences. 2025. Correction for Bastani et al., Generative AI without guardrails can harm learning: Evidence from high school mathematics. PNAS 122:e2518204122. Affiliation correction, August 20.",
+      "links": [
+        {
+          "label": "Correction",
+          "url": "https://doi.org/10.1073/pnas.2518204122"
+        }
+      ],
+      "cited_in": [
+        "book/manuscript/10-the-first-rung.md"
+      ],
+      "canonical_v5_reference": false,
+      "known_locations": [
+        "https://doi.org/10.1073/pnas.2518204122"
+      ]
+    },
+    {
+      "id": "RajkumarEtAl2022",
+      "source_keys": [
+        "RajkumarEtAl2022"
+      ],
+      "citation": "Rajkumar, K., G. Saint-Jacques, I. Bojinov, E. Brynjolfsson, and S. Aral. 2022. A causal test of the strength of weak ties. Science 377:1304–1310.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://doi.org/10.1126/science.abl4476"
+        }
+      ],
+      "known_locations": [
+        "https://doi.org/10.1126/science.abl4476",
+        "https://ide.mit.edu/wp-content/uploads/2022/09/abl4476.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/03-the-comparison-budget.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "Rothamsted2024LongTermExperiments",
+      "source_keys": [
+        "Rothamsted2024LongTermExperiments"
+      ],
+      "citation": "Rothamsted Research. 2024. Why do we make changes to the long-term experiments at Rothamsted? January 17.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.rothamsted.ac.uk/news/why-do-we-make-changes-long-term-experiments-rothamsted"
+        }
+      ],
+      "known_locations": [
+        "https://www.rothamsted.ac.uk/news/why-do-we-make-changes-long-term-experiments-rothamsted"
+      ],
+      "cited_in": [
+        "book/manuscript/00-prologue.md",
+        "book/manuscript/01-introduction.md",
+        "book/manuscript/13-an-economics-of-possible-worlds.md",
+        "book/manuscript/14-epilogue.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "RothschildScheuer2016",
+      "source_keys": [
+        "RothschildScheuer2016"
+      ],
+      "citation": "Rothschild, C., and Scheuer, F. (2016). Optimal taxation with rent-seeking. The Review of Economic Studies, 83(3), 1225-1262.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://doi.org/10.1093/restud/rdw017"
+        },
+        {
+          "label": "2015 author version",
+          "url": "https://www.econ.uzh.ch/dam/jcr:e4a3ed75-0645-497b-a7a7-5015f58a15c0/rent_seeking.pdf"
+        }
+      ],
+      "known_locations": [
+        "https://doi.org/10.1093/restud/rdw017",
+        "https://www.econ.uzh.ch/dam/jcr:e4a3ed75-0645-497b-a7a7-5015f58a15c0/rent_seeking.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/07-who-deserves-the-winnings.md",
+        "book/manuscript/12-taxing-lost-comparison.md"
+      ],
+      "canonical_v5_reference": true
+    },
+    {
+      "id": "SalganikBitByBit",
+      "source_keys": [
+        "SalganikBitByBit",
+        "SalganikBitByBitMusicLab",
+        "SalganikBitByBitOpenReview"
+      ],
+      "citation": "Salganik, M. J. n.d. Bit by Bit: Social Research in the Digital Age. Open review edition, Section 4.6.1. Accessed October 16, 2026.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.bitbybitbook.com/en/running-experiments/exp-advice/zero-variable-cost/"
+        }
+      ],
+      "known_locations": [
+        "https://www.bitbybitbook.com/en/running-experiments/exp-advice/zero-variable-cost/"
+      ],
+      "cited_in": [
+        "book/manuscript/00-prologue.md",
+        "book/manuscript/01-introduction.md",
+        "book/manuscript/02-the-winner-and-the-explanation.md",
+        "book/manuscript/04-shadow-futures.md",
+        "book/manuscript/07-who-deserves-the-winnings.md",
+        "book/manuscript/13-an-economics-of-possible-worlds.md",
+        "book/manuscript/14-epilogue.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "SalganikWatts2008",
+      "source_keys": [
+        "SalganikWatts2008"
+      ],
+      "citation": "Salganik, M. J., and D. J. Watts. 2008. Leading the herd astray: An experimental study of self-fulfilling prophecies in an artificial cultural market. Social Psychology Quarterly 71:338–355.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://doi.org/10.1177/019027250807100404"
+        }
+      ],
+      "known_locations": [
+        "https://doi.org/10.1177/019027250807100404",
+        "https://www.princeton.edu/~mjs3/salganik_watts08.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/02-the-winner-and-the-explanation.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "SalganikDoddsWatts2006",
+      "source_keys": [
+        "SalganikDoddsWatts2006"
+      ],
+      "citation": "Salganik, M. J., Dodds, P. S., and Watts, D. J. (2006). Experimental study of inequality and unpredictability in an artificial cultural market. Science, 311(5762), 854-856.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://doi.org/10.1126/science.1121066"
+        }
+      ],
+      "known_locations": [
+        "https://doi.org/10.1126/science.1121066",
+        "https://www.princeton.edu/~mjs3/salganik_dodds_watts06_full.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/00-prologue.md",
+        "book/manuscript/01-introduction.md",
+        "book/manuscript/02-the-winner-and-the-explanation.md",
+        "book/manuscript/04-shadow-futures.md",
+        "book/manuscript/07-who-deserves-the-winnings.md",
+        "book/manuscript/13-an-economics-of-possible-worlds.md",
+        "book/manuscript/14-epilogue.md"
+      ],
+      "canonical_v5_reference": true
+    },
+    {
+      "id": "Snow1855",
+      "source_keys": [
+        "Snow1855"
+      ],
+      "citation": "Snow, J. 1855. On the Mode of Communication of Cholera. Second edition. London: John Churchill. Part 3; UCLA transcription.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://epi-snow.ph.ucla.edu/Stream3_GrandExperiment_a.html"
+        }
+      ],
+      "known_locations": [
+        "https://epi-snow.ph.ucla.edu/Stream3_GrandExperiment_a.html"
+      ],
+      "cited_in": [
+        "book/manuscript/04-shadow-futures.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "StanfordAIIndex2026",
+      "source_keys": [
+        "StanfordAIIndex2026"
+      ],
+      "citation": "Stanford Institute for Human-Centered Artificial Intelligence. 2026. Artificial Intelligence Index Report 2026. Research and Development chapter and dataset qualifications.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://hai.stanford.edu/assets/files/ai_index_report_2026.pdf"
+        }
+      ],
+      "known_locations": [
+        "https://hai.stanford.edu/assets/files/ai_index_report_2026.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/08-the-intelligence-factory.md",
+        "book/manuscript/09-a-billion-answers.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "SwedishEPA2003NOx",
+      "source_keys": [
+        "SwedishEPA2003NOx"
+      ],
+      "citation": "Swedish Environmental Protection Agency. 2003. Reducing NOx Emissions: An Evaluation of the Nitrogen Oxide Charge. Report 5335, November; extended English summary.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.naturvardsverket.se/4ac644/globalassets/media/publikationer-pdf/5300/978-91-620-5335-3.pdf"
+        }
+      ],
+      "known_locations": [
+        "https://www.naturvardsverket.se/4ac644/globalassets/media/publikationer-pdf/5300/978-91-620-5335-3.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/12-taxing-lost-comparison.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "SwedishEPANOxGuidance2026Access",
+      "source_keys": [
+        "SwedishEPANOxGuidance2026Access"
+      ],
+      "citation": "Swedish Environmental Protection Agency. n.d. Nitrogen oxides: Charge, measurement and administration guidance. Accessed October 16, 2026.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.naturvardsverket.se/en/guidance/air-and-climate/nitrogen-oxides/"
+        }
+      ],
+      "known_locations": [
+        "https://www.naturvardsverket.se/en/guidance/air-and-climate/nitrogen-oxides/"
+      ],
+      "cited_in": [
+        "book/manuscript/12-taxing-lost-comparison.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "TraagEtAl2025",
+      "source_keys": [
+        "TraagEtAl2025"
+      ],
+      "citation": "Traag, V., E. Brady, P. Vincent-Lamarre, F. Bidel, C. Lopes-Bento, J. P. Andersen, and C. Bloch. 2025. The Matthew effect and early-career setbacks in research funding—a replication study. eLife reviewed preprint, version 1, October 13.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://doi.org/10.7554/eLife.109042.1"
+        }
+      ],
+      "known_locations": [
+        "https://doi.org/10.7554/eLife.109042.1",
+        "https://elifesciences.org/reviewed-preprints/109042"
+      ],
+      "cited_in": [
+        "book/manuscript/02-the-winner-and-the-explanation.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "DOJFTC2023MergerGuidelines",
+      "source_keys": [
+        "DOJFTC2023MergerGuidelines"
+      ],
+      "citation": "U.S. Department of Justice and Federal Trade Commission. 2023. Merger Guidelines. December 18.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.justice.gov/atr/media/1329301/dl"
+        }
+      ],
+      "known_locations": [
+        "https://www.justice.gov/atr/media/1329301/dl"
+      ],
+      "cited_in": [
+        "book/manuscript/11-competition-for-future-evidence.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "DOJBulletin1956",
+      "source_keys": [
+        "DOJBulletin1956"
+      ],
+      "citation": "U.S. Department of Justice. 1956. Antitrust Division: AT&T consent decree summary. United States Attorneys' Bulletin 4(4), February 17, p. 119.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0404.pdf"
+        }
+      ],
+      "known_locations": [
+        "https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0404.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/05-the-histories-that-became-infrastructure.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "GooglePlaintiffsAppealJuly2026",
+      "source_keys": [
+        "GooglePlaintiffsAppealJuly2026"
+      ],
+      "citation": "United States and plaintiff states. 2026. Response and opening cross-appeal brief in the Google search case, July 28. Party filing.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.justice.gov/atr/media/1454586/dl?inline="
+        }
+      ],
+      "known_locations": [
+        "https://www.justice.gov/atr/media/1454586/dl?inline="
+      ],
+      "cited_in": [
+        "book/manuscript/06-who-gets-to-be-tested.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "GoogleStatusSeptember2026",
+      "source_keys": [
+        "GoogleStatusSeptember2026"
+      ],
+      "citation": "United States and plaintiff states. 2026. Second compliance and enforcement status report. United States v. Google LLC, September 17, ECF 1552. Party filing.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.justice.gov/atr/media/1461926/dl?inline="
+        }
+      ],
+      "known_locations": [
+        "https://www.justice.gov/atr/case/us-and-plaintiff-states-v-google-llc",
+        "https://www.justice.gov/atr/media/1461926/dl?inline="
+      ],
+      "cited_in": [
+        "book/manuscript/06-who-gets-to-be-tested.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "GoogleLiability2024",
+      "source_keys": [
+        "Google2024Liability",
+        "GoogleLiability2024"
+      ],
+      "citation": "United States v. Google LLC. 2024. Memorandum opinion, Judge Amit P. Mehta, August 5, ECF 1033.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://fingfx.thomsonreuters.com/gfx/legaldocs/gdpzmaxjxvw/United%20States%20v%20Google%2020240805.pdf"
+        }
+      ],
+      "known_locations": [
+        "https://fingfx.thomsonreuters.com/gfx/legaldocs/gdpzmaxjxvw/United%20States%20v%20Google%2020240805.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/06-who-gets-to-be-tested.md",
+        "book/manuscript/07-who-deserves-the-winnings.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "GoogleFinalJudgment2025",
+      "source_keys": [
+        "GoogleFinalJudgment2025"
+      ],
+      "citation": "United States v. Google LLC. 2025. Final judgment, December 5, ECF 1462.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.justice.gov/atr/media/1421546/dl?inline="
+        }
+      ],
+      "known_locations": [
+        "https://www.justice.gov/atr/media/1421546/dl?inline="
+      ],
+      "cited_in": [
+        "book/manuscript/06-who-gets-to-be-tested.md",
+        "book/manuscript/11-competition-for-future-evidence.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "GoogleRemedies2025",
+      "source_keys": [
+        "GoogleRemedies2025"
+      ],
+      "citation": "United States v. Google LLC. 2025. Remedies memorandum opinion, Judge Amit P. Mehta, September 2, ECF 1436.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://docs.justia.com/cases/federal/district-courts/district-of-columbia/dcdce/1%3A2020cv03010/223205/1436"
+        }
+      ],
+      "known_locations": [
+        "https://cases.justia.com/federal/district-courts/district-of-columbia/dcdce/1%3A2020cv03010/223205/1436/0.pdf?ts=1756887879",
+        "https://docs.justia.com/cases/federal/district-courts/district-of-columbia/dcdce/1%3A2020cv03010/223205/1436"
+      ],
+      "cited_in": [
+        "book/manuscript/06-who-gets-to-be-tested.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "VanDeRijtEtAl2014",
+      "source_keys": [
+        "VanDeRijtEtAl2014"
+      ],
+      "citation": "van de Rijt, A., Kang, S. M., Restivo, M., and Patil, A. (2014). Field experiments of success-breeds-success dynamics. Proceedings of the National Academy of Sciences, 111(19), 6934-6939.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://doi.org/10.1073/pnas.1316836111"
+        }
+      ],
+      "known_locations": [
+        "https://doi.org/10.1073/pnas.1316836111",
+        "https://www.eui.eu/Documents/DepartmentsCentres/SPS/Profiles/Van-de-Rijt/PNAS-2014-van-de-Rijt-6934-9-11.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/00-prologue.md",
+        "book/manuscript/01-introduction.md",
+        "book/manuscript/02-the-winner-and-the-explanation.md",
+        "book/manuscript/05-the-histories-that-became-infrastructure.md",
+        "book/manuscript/07-who-deserves-the-winnings.md"
+      ],
+      "canonical_v5_reference": true
+    },
+    {
+      "id": "WangJonesWang2019",
+      "source_keys": [
+        "WangJonesWang2019"
+      ],
+      "citation": "Wang, Y., B. F. Jones, and D. Wang. 2019. Early-career setback and future career impact. Nature Communications 10:4331.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.nature.com/articles/s41467-019-12189-3"
+        }
+      ],
+      "known_locations": [
+        "https://doi.org/10.1038/s41467-019-12189-3",
+        "https://www.nature.com/articles/s41467-019-12189-3"
+      ],
+      "cited_in": [
+        "book/manuscript/02-the-winner-and-the-explanation.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "WatzingerEtAl2020",
+      "source_keys": [
+        "WatzingerEtAl2020"
+      ],
+      "citation": "Watzinger, M., T. A. Fackler, M. Nagler, and M. Schnitzer. 2020. How antitrust enforcement can spur innovation: Bell Labs and the 1956 consent decree. American Economic Journal: Economic Policy 12:328–359. June 2017 author version identified in the notes.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.aeaweb.org/articles?id=10.1257/pol.20190086"
+        },
+        {
+          "label": "2017 author version",
+          "url": "https://www.uoc.gr/files/items/6/6537/watzinger_et_al.pdf"
+        }
+      ],
+      "known_locations": [
+        "https://doi.org/10.1257/pol.20190086",
+        "https://www.aeaweb.org/articles?id=10.1257/pol.20190086",
+        "https://www.uoc.gr/files/items/6/6537/watzinger_et_al.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/00-prologue.md",
+        "book/manuscript/01-introduction.md",
+        "book/manuscript/02-the-winner-and-the-explanation.md",
+        "book/manuscript/04-shadow-futures.md",
+        "book/manuscript/05-the-histories-that-became-infrastructure.md",
+        "book/manuscript/11-competition-for-future-evidence.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "Zhang2004",
+      "source_keys": [
+        "Zhang2004"
+      ],
+      "citation": "Zhang, H. (2004). Inconsistent estimation and asymptotically equal interpolations in model-based geostatistics. Journal of the American Statistical Association, 99(465), 250-261. doi:10.1198/016214504000000241.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://doi.org/10.1198/016214504000000241"
+        }
+      ],
+      "known_locations": [
+        "https://doi.org/10.1198/016214504000000241",
+        "https://www.stat.purdue.edu/~zhanghao/Paper/JASA2004.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/04-shadow-futures.md",
+        "book/manuscript/09-a-billion-answers.md"
+      ],
+      "canonical_v5_reference": true
+    },
+    {
+      "id": "ZoellickCarterLehman2026Redwood",
+      "source_keys": [
+        "ZoellickCarterLehman2026Redwood"
+      ],
+      "citation": "Zoellick, J., D. Carter, and P. Lehman. 2026. Redwood Coast Airport Microgrid. California Energy Commission, CEC-500-2026-006, January.",
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://www.energy.ca.gov/sites/default/files/2026-01/CEC-500-2026-006.pdf"
+        }
+      ],
+      "known_locations": [
+        "https://www.energy.ca.gov/publications/2026/redwood-coast-airport-microgrid",
+        "https://www.energy.ca.gov/sites/default/files/2026-01/CEC-500-2026-006.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/12-taxing-lost-comparison.md"
+      ],
+      "canonical_v5_reference": false
+    }
+  ]
+}

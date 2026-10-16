@@ -68,7 +68,7 @@ def main():
     lines = [
         "# Shadow Futures manuscript", "",
         f"Martin Erlic · Working manuscript · {total:,} of {plan['main_text_target']:,} main-text words", "",
-        "The approved budget is 2,500 words for the prologue, 3,500 for the introduction, twelve 6,000-word chapters, and a 2,000-word epilogue. Notes, references, and acknowledgments have a separate 10,000–15,000-word allowance.", "",
+        "The approved budget is 2,500 words for the prologue, 3,500 for the introduction, twelve chapters averaging 6,000 words (72,000 combined), and a 2,000-word epilogue. Notes, references, and acknowledgments have a separate 10,000–15,000-word allowance.", "",
         "Counts below come from the current chapter files. Drafted sections still require the final whole-book review; missing sections are not represented by placeholder chapters.", "",
         "| Component | Target | Written | Stage |", "| --- | ---: | ---: | --- |",
     ]
@@ -77,7 +77,18 @@ def main():
         if row["exists"]:
             label = f"[{label}]({row['file'].removeprefix('book/')})"
         lines.append(f"| {label} | {row['target']:,} | {row['main_words']:,} | {row['stage'].replace('_', ' ')} |")
-    lines += ["", f"Current back matter: {back_total:,} words, including chapter notes.", "", "Regenerate this inventory with `python book/tools/manuscript_status.py`. The argument brief, committed outline, canonical v5, and source notes govern the substance.", ""]
+    lines += ["", f"Current back matter: {back_total:,} words, including chapter notes.", ""]
+    if back_rows:
+        lines += ["| Back matter | Written | Stage |", "| --- | ---: | --- |"]
+        for row in back_rows:
+            label = row["id"].replace("_", " ").title()
+            if row["exists"]:
+                label = f"[{label}]({row['file'].removeprefix('book/')})"
+            lines.append(f"| {label} | {row['words']:,} | {row['stage'].replace('_', ' ')} |")
+        lines.append("")
+    if (ROOT / "book/drafts/Shadow_Futures_Complete_Manuscript.md").is_file():
+        lines += ["[Read the continuous working manuscript](drafts/Shadow_Futures_Complete_Manuscript.md), with endnotes, references and acknowledgments. It remains a draft pending the whole-book review.", ""]
+    lines += ["Regenerate the inventory with `python book/tools/manuscript_status.py`; rebuild the reading copy with `python book/tools/build_reading_manuscript.py`. The argument brief, committed outline, canonical v5, and source notes govern the substance.", ""]
     (ROOT / "book/MANUSCRIPT.md").write_text("\n".join(lines), encoding="utf-8", newline="\n")
     print(f"Main text: {total:,} / {plan['main_text_target']:,}. Back matter: {back_total:,}.")
     for row in rows:

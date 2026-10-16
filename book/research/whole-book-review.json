@@ -1,0 +1,171 @@
+{
+  "status": "in_progress",
+  "checked_on": "2026-10-16",
+  "objective": "Complete book at prologue standard, including sequential editorial, conceptual, factual and citation review; counts and file existence do not certify completion.",
+  "mechanical_checks": {
+    "main_words": 80000,
+    "back_matter_words": 13319,
+    "main_components": 15,
+    "endnotes": 177,
+    "bibliography_entries": 108,
+    "canonical_v5_entries": 24,
+    "source_ledger_identifiers": 108,
+    "identifiers_covered": true,
+    "distinct_note_urls": 131,
+    "unmapped_note_urls": [],
+    "interpretation": "URL-to-work coverage and source/hash binding, not proof every URL currently serves full text or every cited claim is correct."
+  },
+  "components": [
+    {
+      "id": "prologue",
+      "file": "book/manuscript/00-prologue.md",
+      "sha256": "05d79cf3a6eeec0e83975c6d320654aa398518a4b021c73f4d16f5deb115f23f",
+      "sequential_editorial_review": "pending",
+      "conceptual_factual_citation_review": "claim_ledgers_exist_whole_book_recheck_pending"
+    },
+    {
+      "id": "introduction",
+      "file": "book/manuscript/01-introduction.md",
+      "sha256": "c36147d1f92e55f8b1628dd9354faff6ece780195a43b5b00c4a5f7ab9069f4a",
+      "sequential_editorial_review": "pending",
+      "conceptual_factual_citation_review": "claim_ledgers_exist_whole_book_recheck_pending"
+    },
+    {
+      "id": "chapter_01",
+      "file": "book/manuscript/02-the-winner-and-the-explanation.md",
+      "sha256": "1687476861531c3f0825f13ae9d9d442e4e663ec13c2320d56ef79ef76e12906",
+      "sequential_editorial_review": "pending",
+      "conceptual_factual_citation_review": "claim_ledgers_exist_whole_book_recheck_pending"
+    },
+    {
+      "id": "chapter_02",
+      "file": "book/manuscript/03-the-comparison-budget.md",
+      "sha256": "42fbeaf93758a5bb04f82dd85f621a160e40368c11a3dd16860e13fd21bec543",
+      "sequential_editorial_review": "pending",
+      "conceptual_factual_citation_review": "claim_ledgers_exist_whole_book_recheck_pending"
+    },
+    {
+      "id": "chapter_03",
+      "file": "book/manuscript/04-shadow-futures.md",
+      "sha256": "3e555f6c0448543e9a38f4755c93788c87b8dee5d424cf0620e30623bef0446e",
+      "sequential_editorial_review": "pending",
+      "conceptual_factual_citation_review": "claim_ledgers_exist_whole_book_recheck_pending"
+    },
+    {
+      "id": "chapter_04",
+      "file": "book/manuscript/05-the-histories-that-became-infrastructure.md",
+      "sha256": "79ba9ba595b9c29af88e7e5103e3ad737ac4ad21b60990374bd13f3d7ca13a12",
+      "sequential_editorial_review": "pending",
+      "conceptual_factual_citation_review": "claim_ledgers_exist_whole_book_recheck_pending"
+    },
+    {
+      "id": "chapter_05",
+      "file": "book/manuscript/06-who-gets-to-be-tested.md",
+      "sha256": "7300f0b890e5fb4cf88ec364ed1ac3f4a944729694c36f52f2604c7ec3d41245",
+      "sequential_editorial_review": "pending",
+      "conceptual_factual_citation_review": "claim_ledgers_exist_whole_book_recheck_pending"
+    },
+    {
+      "id": "chapter_06",
+      "file": "book/manuscript/07-who-deserves-the-winnings.md",
+      "sha256": "ec7a27e615d8479489c623a613d61e375e08f0f8068acfcacec03e18cbf4ee27",
+      "sequential_editorial_review": "pending",
+      "conceptual_factual_citation_review": "claim_ledgers_exist_whole_book_recheck_pending"
+    },
+    {
+      "id": "chapter_07",
+      "file": "book/manuscript/08-the-intelligence-factory.md",
+      "sha256": "38bc19896a145c1eb0b64ba01b0adf0c0f36a87e3f6832d0213a59b9417fe21f",
+      "sequential_editorial_review": "pending",
+      "conceptual_factual_citation_review": "claim_ledgers_exist_whole_book_recheck_pending"
+    },
+    {
+      "id": "chapter_08",
+      "file": "book/manuscript/09-a-billion-answers.md",
+      "sha256": "a364c7e8bd7201e14bb46ec63e1213c1a99d86451e4dd64a22ac4c67c1ed789f",
+      "sequential_editorial_review": "pending",
+      "conceptual_factual_citation_review": "claim_ledgers_exist_whole_book_recheck_pending"
+    },
+    {
+      "id": "chapter_09",
+      "file": "book/manuscript/10-the-first-rung.md",
+      "sha256": "182fd5b91ec8db8772daf49ceda1b853a64a67bdb1d5d8ba4b8a19818a3b15ae",
+      "sequential_editorial_review": "pending",
+      "conceptual_factual_citation_review": "claim_ledgers_exist_whole_book_recheck_pending"
+    },
+    {
+      "id": "chapter_10",
+      "file": "book/manuscript/11-competition-for-future-evidence.md",
+      "sha256": "1b9ca6bbe97e452cd565d959d74b1f2f37c2dd2e6ef840db0e9a486e335cd0a5",
+      "sequential_editorial_review": "pending",
+      "conceptual_factual_citation_review": "claim_ledgers_exist_whole_book_recheck_pending"
+    },
+    {
+      "id": "chapter_11",
+      "file": "book/manuscript/12-taxing-lost-comparison.md",
+      "sha256": "75ba7237daabcdfe74ec0b4ccf8a935c2b799acaa81634cf2a11336867dc7f35",
+      "sequential_editorial_review": "pending",
+      "conceptual_factual_citation_review": "claim_ledgers_exist_whole_book_recheck_pending"
+    },
+    {
+      "id": "chapter_12",
+      "file": "book/manuscript/13-an-economics-of-possible-worlds.md",
+      "sha256": "e68dfc70f9ae5ba28d75c8deaf6d74821c8a5145f5c9ab2f23fded7d38649e4e",
+      "sequential_editorial_review": "pending",
+      "conceptual_factual_citation_review": "claim_ledgers_exist_whole_book_recheck_pending"
+    },
+    {
+      "id": "epilogue",
+      "file": "book/manuscript/14-epilogue.md",
+      "sha256": "0cb428f07aad0f9c0786f1d8d30791c86cedfd8d1e0e1f1929ee40eb48b7700f",
+      "sequential_editorial_review": "pending",
+      "conceptual_factual_citation_review": "claim_ledgers_exist_whole_book_recheck_pending"
+    }
+  ],
+  "remaining_original_passage_checks": [
+    {
+      "key": "JacodShiryaev2003",
+      "reason": "Authored historical/lineage passages available; complete chapter and particular theorem pages not accessed."
+    },
+    {
+      "key": "KabanovLiptserShiryaev1977",
+      "reason": "Publisher PDF was indexed, but direct full download failed (SSL); do not claim full original theorem was read."
+    },
+    {
+      "key": "Kakutani1948",
+      "reason": "Original JSTOR full text unavailable in this session; no claim of original-paper proof inspection."
+    },
+    {
+      "key": "LeCamYang2000",
+      "reason": "Full chapter/particular bound pages not accessible. Bibliographic role corroborated, no claim of full original passage inspection."
+    }
+  ],
+  "additional_original_check": {
+    "key": "Blackwell1953",
+    "status": "pending",
+    "boundary": "Finite-setting theorem and proof checked in de Oliveira2017 primary research version; original1953 archive remains inaccessible. See classics_manifest.json."
+  },
+  "bibliographic_corrections": [
+    {
+      "work": "Bessen2015",
+      "finding": "Autor2015 bibliography printedp29 cites Toil and Technology, Finance & Development52(1), not Learning by Doing.",
+      "action": "Corrected provisional bibliography title and publisher link before first commit; indirect-use boundary remains explicit. Direct original full-text inspection not claimed."
+    }
+  ],
+  "editorial_priorities": [
+    "Read every component in sequence; record evidence and any changes against its saved hash.",
+    "Check repeated Aster/Birch exposition and repeated limits; retain necessary precision without slowing the narrative.",
+    "Check that repeated real cases add a new question or new evidence, and that policy chapters remain concrete.",
+    "Review transitions, conceptual definitions, scope of counterfactual interventions, and observed-outcome versus theorem claims.",
+    "Recheck contemporary/versioned sources and any actual-firm, novelty, tax or antitrust claim; resolve recorded original-source gaps.",
+    "Regenerate reader and source hashes after edits; preserve approved main/back-matter budgets."
+  ],
+  "legacy_reports": {
+    "files": [
+      "book/research/final_checks.json",
+      "book/research/render_verification.json"
+    ],
+    "scope": "Initial argument brief and outline exports only; not the 80000-word book."
+  },
+  "completion_audit": "Not passed. Whole-book sequential review and remaining original-source checks are incomplete. Do not mark goal achieved from this report."
+}

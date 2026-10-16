@@ -117,12 +117,12 @@
     {
       "id": "references",
       "file": "book/manuscript/90-references.md",
-      "stage": "not_started"
+      "stage": "drafted"
     },
     {
       "id": "acknowledgments",
       "file": "book/manuscript/91-acknowledgments.md",
-      "stage": "not_started"
+      "stage": "drafted"
     }
   ],
   "completion_requirements": [

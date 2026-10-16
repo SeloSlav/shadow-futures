@@ -3,7 +3,7 @@
   "main_text_target": 80000,
   "main_words": 80000,
   "words_remaining_to_target": 0,
-  "back_matter_words": 10868,
+  "back_matter_words": 13319,
   "back_matter_target": [
     10000,
     15000
@@ -239,16 +239,16 @@
     {
       "id": "references",
       "file": "book/manuscript/90-references.md",
-      "stage": "not_started",
-      "exists": false,
-      "words": 0
+      "stage": "drafted",
+      "exists": true,
+      "words": 2277
     },
     {
       "id": "acknowledgments",
       "file": "book/manuscript/91-acknowledgments.md",
-      "stage": "not_started",
-      "exists": false,
-      "words": 0
+      "stage": "drafted",
+      "exists": true,
+      "words": 174
     }
   ],
   "interpretation": "File existence and counts do not prove source accuracy, editorial quality, or completion. See the plan's completion requirements."

@@ -2,7 +2,7 @@
 
 Martin Erlic · Working manuscript · 80,000 of 80,000 main-text words
 
-The approved budget is 2,500 words for the prologue, 3,500 for the introduction, twelve 6,000-word chapters, and a 2,000-word epilogue. Notes, references, and acknowledgments have a separate 10,000–15,000-word allowance.
+The approved budget is 2,500 words for the prologue, 3,500 for the introduction, twelve chapters averaging 6,000 words (72,000 combined), and a 2,000-word epilogue. Notes, references, and acknowledgments have a separate 10,000–15,000-word allowance.
 
 Counts below come from the current chapter files. Drafted sections still require the final whole-book review; missing sections are not represented by placeholder chapters.
 
@@ -24,6 +24,13 @@ Counts below come from the current chapter files. Drafted sections still require
 | [An economics of possible worlds](manuscript/13-an-economics-of-possible-worlds.md) | 6,000 | 6,000 | drafted |
 | [The next opportunity](manuscript/14-epilogue.md) | 2,000 | 2,000 | drafted |
 
-Current back matter: 10,868 words, including chapter notes.
+Current back matter: 13,319 words, including chapter notes.
 
-Regenerate this inventory with `python book/tools/manuscript_status.py`. The argument brief, committed outline, canonical v5, and source notes govern the substance.
+| Back matter | Written | Stage |
+| --- | ---: | --- |
+| [References](manuscript/90-references.md) | 2,277 | drafted |
+| [Acknowledgments](manuscript/91-acknowledgments.md) | 174 | drafted |
+
+[Read the continuous working manuscript](drafts/Shadow_Futures_Complete_Manuscript.md), with endnotes, references and acknowledgments. It remains a draft pending the whole-book review.
+
+Regenerate the inventory with `python book/tools/manuscript_status.py`; rebuild the reading copy with `python book/tools/build_reading_manuscript.py`. The argument brief, committed outline, canonical v5, and source notes govern the substance.

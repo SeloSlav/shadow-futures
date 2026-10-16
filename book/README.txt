@@ -18,6 +18,17 @@ acknowledgments are separate, approximately 10000 to 15000 words.
 MANUSCRIPT.md links the current working chapters and reports their counts.
 planning/manuscript-plan.json preserves the full scope and completion criteria;
 tools/manuscript_status.py updates the inventory from saved manuscript files.
+drafts/Shadow_Futures_Complete_Manuscript.md is the continuous reading copy.
+Rebuild it with tools/build_reading_manuscript.py after editing chapters or
+acknowledgments. That builder preserves chapter prose, namespaces note markers,
+and places notes at the end. research/bibliography.json is the curated reference
+source; the builder generates manuscript/90-references.md from it. Edit reference
+entries in that JSON, rather than directly editing the generated reference file.
+The reading builder rejects main text above 80000 words or back matter above
+15000; rebalance revisions within the approved budgets before assembling.
+research/reading-manuscript-manifest.json records assembly hashes and counts;
+research/whole-book-review.json records review scope and remaining work. Neither
+the assembly nor the earlier planning-document checks certifies the full book.
 Use the canonical October 2026 v5 identified in research/v5_source_provenance.json.
 Both project copies match C:\Shadow Futures\Final byte for byte. Do not replace
 the source manuscript or silently substitute an earlier SSRN version.
