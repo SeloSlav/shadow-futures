@@ -14,7 +14,7 @@ The real-case sequence is fixed: MusicLab, the success-breeds-success field expe
 
 ## Opening and word budget
 
-Prologue 2500 words: two published outcomes of the same recording, followed by the missing comparison in ordinary markets. Introduction 3500 words: the attribution question and the three defined concepts. Chapters 1 to 12 total 72000 words. Epilogue 2000 words: return to the song and the final procurement decision. Notes and references are additional.
+Prologue about 2500 words: Lockdown's two outcomes frame a sequence of documented cases. Kickstarter's randomly assigned first donations introduce early advantage; Bell's 1956 patent opening gives access and unrealized invention a concrete form; customer-support gains and METR's changing developer experiment introduce AI, work, and the difficulty of preserving comparisons. Return to those cases for rewards and taxation, then use Rothamsted's continuing field experiments to introduce the constructive institutional question before ending at Lockdown. Define the comparison budget and shadow futures briefly where the cases make them useful. Keep detailed literature and theorem conditions in notes and later chapters. Introduction 3500 words: the attribution question and the three defined concepts. Chapters 1 to 12 total 72000 words. Epilogue 2000 words: return to the song and the final procurement decision. Notes and references are additional.
 
 The four movements are learning the concepts in Chapters 1 to 3; history, power, and desert in Chapters 4 to 6; AI and work in Chapters 7 to 9; and institutions in Chapters 10 to 12. The author narrates documented choices and explains mechanisms. Sensory scenes, dialogue, motives, and private experiences require an identified record.
 

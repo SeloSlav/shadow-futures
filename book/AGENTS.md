@@ -30,6 +30,11 @@ the user's book direction. Keep an equation-free popular-economics main text.
   published research. The real recurring object is Lockdown by 52Metro in
   MusicLab. Aster and Birch are explicitly fictional suppliers. Invent no
   dialogue, private reactions, visits, or biography for real people.
+- Keep the narrative grounded in documented cases. Weave explanations into
+  those cases and return to concrete people, actions, or outcomes frequently;
+  avoid long stretches of abstract model exposition. The prologue must sell
+  the book's questions. Put detailed literature and theorem conditions in notes
+  or the relevant later chapters rather than interrupting its narrative.
 - Explain the comparison budget as cumulative modeled allocation chance outside
   the current favorite. It is not actual rival wins, independent trial counts,
   market shares, firm counts, or welfare. Small or shrinking chance alone does

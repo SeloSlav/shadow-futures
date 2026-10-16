@@ -2,20 +2,23 @@
   "manuscript": "book/manuscript/00-prologue.md",
   "title": "The other life of a song",
   "checked_on": "2026-10-16",
-  "body_words": 2500,
+  "body_words": 2329,
   "word_count_method": "Whitespace-separated main-prose words after removing headings and footnote markers; notes are additional.",
-  "draft_sha256": "371b23ce07b32964d66fbaededdc913f76b29a48afef4f7f79c341e41f652e5b",
-  "status": "first_draft",
-  "source_checks": "Relevant source passages checked; this is not an independent proof audit or a scholarly-priority review.",
+  "draft_sha256": "96de9fdff37f649763e24d06e83db212e9f51a082d9cf797f888d1ae9c42b5e5",
+  "status": "revised_draft",
+  "revision": 2,
+  "revision_intent": "Replace extended abstract exposition with documented cases woven around Lockdown; make the prologue introduce the stakes of the whole book.",
+  "source_checks": "Relevant full-source passages checked, using identified author working-paper versions alongside published records where publisher full text was inaccessible. This is not an independent proof audit or scholarly-priority review.",
   "sources": [
     {
       "key": "SalganikBitByBitOpenReview",
       "note": "1",
       "source": "https://www.bitbybitbook.com/en/running-experiments/exp-advice/zero-variable-cost/",
-      "locator": "Section 4.6.1, discussion accompanying figures 4.20 and 4.21 and paragraph reporting Lockdown ranks",
+      "locator": "Section 4.6.1, figures 4.20-4.21 and paragraph reporting Lockdown ranks",
       "claims": [
         "Lockdown by 52Metro ranked first in one world and fortieth of forty-eight in another",
-        "Different participants assigned to independent social-influence worlds with their own displayed histories"
+        "Separate randomly assigned participant groups and independently evolving social-influence worlds",
+        "Grid and popularity-ranked presentations"
       ],
       "v5_reference": false
     },
@@ -23,36 +26,50 @@
       "key": "SalganikDoddsWatts2006",
       "note": "2",
       "source": "https://www.princeton.edu/~mjs3/salganik_dodds_watts06_full.pdf",
-      "locator": "Printed p. 854 for design and count; pp. 854-855 and figures 1-3 for findings",
+      "locator": "Printed p. 854 for design and participant count; pp. 854-855, figures 1-3 for results",
       "claims": [
-        "2006 Science publication, two experiments, 14341 participants, 48 songs",
-        "Independent and social-influence conditions; eight independently evolving worlds",
-        "Initial download totals zero",
-        "Greater social influence increased inequality and cross-world unpredictability; independently assessed appeal still mattered"
+        "Two experiments, 14341 participants, 48 songs, zero initial downloads",
+        "More social influence increased inequality and cross-world unpredictability",
+        "Appeal as assessed in the independent condition still mattered"
+      ],
+      "v5_reference": true
+    },
+    {
+      "key": "VanDeRijtEtAl2014",
+      "note": "3",
+      "source": "https://doi.org/10.1073/pnas.1316836111",
+      "full_text_checked": "https://www.eui.eu/Documents/DepartmentsCentres/SPS/Profiles/Van-de-Rijt/PNAS-2014-van-de-Rijt-6934-9-11.pdf",
+      "locator": "Printed pp. 6934-6935, figure 1; pp. 6936-6937, figure 3 and Materials and Methods",
+      "claims": [
+        "200 initially unfunded Kickstarter projects, experimental donations to 100 randomly assigned projects",
+        "39 percent of controls and 70 percent of initially supported projects received subsequent third-party funding",
+        "These percentages measure further backing, not meeting a funding goal",
+        "Larger initial advantages showed diminishing marginal returns; no universal runaway inference"
       ],
       "v5_reference": true
     },
     {
       "key": "ErlicV5",
-      "note": "3",
+      "note": "4",
       "source": "output/docx/Shadow_Futures_FINAL_Comparison_Budget_Revised_v5.docx",
-      "locator": "Sections 2-5; Section 3 Theorem 1; Appendices B and E",
+      "locator": "Sections 2-5, Theorem 1, Appendices B and E",
       "claims": [
-        "Model-defined comparison budget and shadow futures",
-        "Separate replays from input or policy interventions",
-        "Finite-budget limit conditional on the complete stated experiment and further assumptions",
-        "Information scarcity is not itself a welfare measure or an identified tax rate"
+        "Comparison budget counts cumulative modeled allocation chance outside the current favorite, allowing the favorite to change",
+        "Finite-record precision limit and conditional lifetime attribution limit",
+        "Shadow futures preserve parameter, initial state, and input and state response rules; distinguish from policy interventions",
+        "Hidden-position tax decomposition argument is separate from finite-budget theorem",
+        "Tax and antitrust proposals need additional causal and welfare premises"
       ],
       "v5_reference": false
     },
     {
       "key": "Merton1968",
-      "note": "4",
+      "note": "5",
       "source": "https://garfield.library.upenn.edu/merton/matthew1.pdf",
-      "locator": "Printed pp. 56-57; Zuckerman attribution in opening; resources and Matthew effect on p. 57",
+      "locator": "Printed pp. 56-57; opening credits Zuckerman; research resources on p. 57",
       "claims": [
-        "Prior Matthew effect account of recognition and subsequent research opportunities",
-        "Merton explicitly draws in part on Harriet Zuckerman interviews"
+        "Prior Matthew effect account of recognition and subsequent research resources",
+        "Merton credits Harriet Zuckerman interviews"
       ],
       "v5_reference": true
     },
@@ -60,36 +77,106 @@
       "key": "Alchian1950",
       "note": "5",
       "source": "book/sources/classics/Alchian_1950_Uncertainty_Evolution_and_Economic_Theory.pdf",
-      "locator": "Printed pp. 211-213, especially Section II on p. 213",
+      "locator": "Printed pp. 211-213",
       "claims": [
-        "Market selection under uncertainty does not require individually optimal foresight",
-        "Realized positive profits play the selection role described by Alchian"
+        "Prior account of profit-based market selection under uncertainty without individually optimal foresight"
       ],
       "v5_reference": false
     },
     {
-      "key": "BlackwellDubins1962",
+      "key": "WatzingerEtAl2020",
       "note": "6",
-      "source": "book/sources/classics/Blackwell_Dubins_1962_Merging_of_Opinions.pdf",
-      "locator": "Printed pp. 882-883, main theorem on p. 883; Erlic v5 Section 3 predictive-merging corollary",
+      "source": "https://www.aeaweb.org/articles?id=10.1257/pol.20190086",
+      "full_text_checked": "https://www.uoc.gr/files/items/6/6537/watzinger_et_al.pdf",
+      "version_boundary": "Publisher abstract checked for the 2020 matched-patent result; full historical passages checked in the authors June 9, 2017 working paper. Publisher full PDF was inaccessible. No 2017 quantitative effect estimate is attributed to the published version.",
+      "locator": "Published abstract; 2017 working paper pp. 1-4 and 7-8, 7820 patents on p. 2 and transistor on pp. 2 and 6",
       "claims": [
-        "Classical source used by v5 predictive-merging corollary",
-        "Main text procurement prediction example is hypothetical and does not establish theorem hypotheses for an actual market"
+        "1956 decree opened 7820 existing Bell patents to royalty-free licensing, with existing cross-license exceptions",
+        "Bell Labs transistor work",
+        "Matched-patent study found lasting follow-on innovation gains outside telecommunications, not equivalent gains inside it",
+        "Customer foreclosure remained a barrier; opening patents is not sufficient access to customers",
+        "1956 decree is distinct from later Bell breakup"
       ],
-      "v5_reference": true
+      "v5_reference": false
+    },
+    {
+      "key": "BrynjolfssonLiRaymond2025",
+      "note": "7",
+      "source": "https://academic.oup.com/qje/article/140/2/889/7990658",
+      "full_text_checked": "https://arxiv.org/pdf/2304.11771",
+      "version_boundary": "Published abstract and indexed Sections I, V.B, and VI.A checked; corresponding November 2024 author working paper pp. 1-3 checked in full. Earlier 5179-agent/14-percent numbers are not used.",
+      "locator": "Published abstract and Section I; Sections III, V.B, VI.A, VI.B; corresponding 2024 working paper pp. 1-3",
+      "claims": [
+        "Staggered rollout using data from 5172 customer-support agents",
+        "Average 15 percent increase in issues resolved per hour",
+        "Especially strong gains for less experienced and lower-skilled workers",
+        "Workers could accept, edit, or ignore suggestions; evidence of learning",
+        "Results do not establish economy-wide wage or employment effects"
+      ],
+      "v5_reference": false
+    },
+    {
+      "key": "METR2025DeveloperStudy",
+      "note": "8",
+      "source": "https://metr.org/Early_2025_AI_Experienced_OS_Devs_Study-paper.pdf",
+      "locator": "Abstract and pp. 1-5",
+      "claims": [
+        "Early-2025 randomized AI-allowed/disallowed tasks for 16 experienced open-source developers, 246 tasks",
+        "19 percent longer completion times in that sampled setting",
+        "This result does not establish current or universal developer effects"
+      ],
+      "v5_reference": false
+    },
+    {
+      "key": "METR2026DesignUpdate",
+      "note": "8",
+      "source": "https://metr.org/blog/2026-02-24-uplift-update/",
+      "locator": "February 24, 2026; Wider adoption of AI has made it more difficult to measure task-level productivity; Other means of measuring productivity",
+      "claims": [
+        "Follow-up paid 50 dollars per hour for work on participants own projects",
+        "Developers declined or withheld tasks to avoid no-AI assignment",
+        "30-50 percent reported withholding some tasks for that reason",
+        "Changed pay and time measurement also complicated results",
+        "Authors considered newer productivity estimates unreliable, thought likely speedups had increased, and began redesign"
+      ],
+      "v5_reference": false
+    },
+    {
+      "key": "Rothamsted2024LongTermExperiments",
+      "note": "9",
+      "source": "https://www.rothamsted.ac.uk/news/why-do-we-make-changes-long-term-experiments-rothamsted",
+      "locator": "January 17, 2024; opening and Broadbalk discussion",
+      "claims": [
+        "Experiments begun from 1843 onward",
+        "Soil and plant samples retained over 180 years",
+        "Some fertilizer/manure treatments maintained since autumn 1843 except fallow periods",
+        "Methods adapted to preserve relevance; small-plot results have external-validity limits"
+      ],
+      "v5_reference": false
     }
   ],
+  "documented_cases": [
+    "Lockdown and MusicLab",
+    "Kickstarter first-donation experiment",
+    "Bell 1956 patent licensing settlement",
+    "Customer-support AI rollout",
+    "METR early-2025 experiment and February 2026 redesign account",
+    "Rothamsted long-term field experiments"
+  ],
   "original_examples": [
-    "Hypothetical reading of the two rankings and commercial contract",
-    "Restaurant order display thought experiment",
-    "Hypothetical production dossier",
-    "Supplier contract, hiring, and procurement examples",
-    "Hypothetical AI service choice and conditional policy questions"
+    "Imagined retrospective explanations of first and fortieth place",
+    "Explicitly imagined extension of a MusicLab world by another thousand listeners",
+    "Interpretation of what a withheld programmer task could have taught",
+    "Conditional implications for division of income, taxation, and costs of removing comparisons",
+    "Interpretation of experimental plots as producing crops and useful comparisons; no forgone-yield estimate"
   ],
   "narrative_checks": {
     "no_interviews_required": true,
     "no_invented_real_person_dialogue_or_private_reactions": true,
     "no_equations": true,
-    "MusicLab_not_presented_as_proof_of_v5": true
+    "MusicLab_not_presented_as_proof_of_v5": true,
+    "METR_not_presented_as_proof_of_v5": true,
+    "policy_intervention_distinguished_from_unchanged_rule_replay": true,
+    "v5_reference_register_preserved": true
   }
 }
