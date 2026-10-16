@@ -16,9 +16,11 @@
 .byline a { color: #243b43; text-underline-offset: 4px; }
 .description { font-size: .98rem; line-height: 1.7; max-width: 68ch; color: #586267; margin: 0 0 .65rem; }
 .actions { display: flex; gap: .7rem; align-items: center; flex-wrap: wrap; margin-top: 1.4rem; }
-.primary, .story { display: inline-flex; align-items: center; justify-content: center; gap: .8rem; min-height: 48px; padding: .8rem 1.1rem; border-radius: 4px; font-size: .8rem; line-height: 1.25; font-weight: 600; text-decoration: none; transition: background .2s, transform .2s; }
+.primary, .amazon, .story { display: inline-flex; align-items: center; justify-content: center; gap: .8rem; min-height: 48px; padding: .8rem 1.1rem; border-radius: 4px; font-size: .8rem; line-height: 1.25; font-weight: 600; text-decoration: none; transition: background .2s, transform .2s; }
 .primary { background: #183b45; color: #fffdf6; border: 1px solid #183b45; }
 .primary:hover { background: #285563; transform: translateY(-1px); }
+.amazon { color: #914621; border: 1px solid #b7714a; background: #ad5b3608; }
+.amazon:hover { background: #ad5b3618; }
 .story { color: #183b45; border: 1px solid #9ba7a5; background: #ffffff25; }
 .story:hover { background: #ffffff90; }
 .story > span { font-size: 1.05rem; line-height: 1; }
@@ -43,8 +45,8 @@
 .top { top: -18px; transform: rotateX(90deg); }
 .bottom { bottom: -18px; transform: rotateX(-90deg); }
 .open { position: absolute; bottom: 0; color: #65706d; font-size: .64rem; letter-spacing: .09em; text-transform: uppercase; display: inline-flex; gap: .6rem; }
-.primary:focus-visible, .download:focus-visible, .stage:focus-visible, .story:focus-visible { outline: 3px solid var(--focus); outline-offset: 7px; }
+.primary:focus-visible, .amazon:focus-visible, .download:focus-visible, .stage:focus-visible, .story:focus-visible { outline: 3px solid var(--focus); outline-offset: 7px; }
 @media (max-width: 900px) { .hero { grid-template-columns: minmax(0, 1fr) 280px; gap: 1.5rem; padding-inline: 1.5rem; } .stage { --book-width: 250px; --book-height: 375px; min-height: 450px; } .description { font-size: .9rem; } }
 @media (max-width: 680px) { .hero { grid-template-columns: 1fr; gap: 2rem; padding: 6rem 1.4rem 2.5rem; } .copy h1 { font-size: clamp(4.25rem, 15vw, 5.5rem); } .subtitle { max-width: 32ch; font-size: 1.35rem; } .description { max-width: 52ch; } .stage { --book-width: 240px; --book-height: 360px; min-height: 415px; margin: 0 1.2rem; } .stage::after { bottom: 28px; max-width: 300px; } }
-@media (max-width: 360px) { .hero { padding-inline: 1.1rem; } .eyebrow { gap: .5rem; font-size: .57rem; } .eyebrow::before { width: 1.25rem; } .actions { gap: .5rem; } .primary, .story { gap: .4rem; padding-inline: .6rem; font-size: .75rem; } .stage { --book-width: 210px; --book-height: 315px; min-height: 365px; } }
-@media (prefers-reduced-motion: reduce) { .book, .primary, .story { transition: none; } .stage:hover .book, .stage:focus-visible .book { transform: rotateX(7deg) rotateY(-21deg) rotateZ(-3deg); } }
+@media (max-width: 360px) { .hero { padding-inline: 1.1rem; } .eyebrow { gap: .5rem; font-size: .57rem; } .eyebrow::before { width: 1.25rem; } .actions { gap: .5rem; } .primary, .amazon, .story { gap: .4rem; padding-inline: .6rem; font-size: .75rem; } .stage { --book-width: 210px; --book-height: 315px; min-height: 365px; } }
+@media (prefers-reduced-motion: reduce) { .book, .primary, .amazon, .story { transition: none; } .stage:hover .book, .stage:focus-visible .book { transform: rotateX(7deg) rotateY(-21deg) rotateZ(-3deg); } }

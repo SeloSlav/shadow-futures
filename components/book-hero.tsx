@@ -22,6 +22,9 @@ export function BookHero() {
         </p>
         <div className={styles.actions}>
           <Link className={styles.primary} href="/book">Read the book free <span aria-hidden="true">↗</span></Link>
+          <a className={styles.amazon} href={BOOK.amazon} target="_blank" rel="noopener noreferrer" aria-label="Buy Shadow Futures on Amazon (opens in a new tab)">
+            Buy on Amazon <span aria-hidden="true">↗</span>
+          </a>
           <a className={styles.story} href="#novelty">
             Explore the idea <span aria-hidden="true">↓</span>
           </a>

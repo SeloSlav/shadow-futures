@@ -44,6 +44,7 @@ export default function HomePage() {
         alternativeHeadline: BOOK.subtitle,
         author: { "@id": `${SITE_ORIGIN}${AUTHOR.path}#person` },
         url: `${SITE_ORIGIN}/book`,
+        sameAs: BOOK.amazon,
         image: `${SITE_ORIGIN}${BOOK.cover}`,
         numberOfPages: BOOK.pages,
         isAccessibleForFree: true,

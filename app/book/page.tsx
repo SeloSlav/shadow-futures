@@ -16,7 +16,7 @@ export default function BookPage() {
     "@context": "https://schema.org", "@type": "Book",
     name: BOOK.title, alternativeHeadline: BOOK.subtitle,
     author: { "@type": "Person", name: BOOK.author, url: `${SITE_ORIGIN}/author/martin-erlic` },
-    url: `${SITE_ORIGIN}/book`, image: `${SITE_ORIGIN}${BOOK.cover}`,
+    url: `${SITE_ORIGIN}/book`, image: `${SITE_ORIGIN}${BOOK.cover}`, sameAs: BOOK.amazon,
     numberOfPages: BOOK.pages, inLanguage: "en", isAccessibleForFree: true,
     bookFormat: "https://schema.org/EBook",
     encoding: { "@type": "MediaObject", contentUrl: `${SITE_ORIGIN}${BOOK.pdf}`, encodingFormat: "application/pdf" },
@@ -31,7 +31,10 @@ export default function BookPage() {
           <h1>Shadow Futures</h1>
           <p className={styles.subtitle}>{BOOK.subtitle}</p>
           <p className={styles.author}>Martin Erlic</p>
-          <a className={styles.download} href={BOOK.pdf} download="Shadow-Futures-Martin-Erlic.pdf">Download the full PDF <span aria-hidden="true">↓</span></a>
+          <div className={styles.actions}>
+            <a className={styles.download} href={BOOK.pdf} download="Shadow-Futures-Martin-Erlic.pdf">Download the full PDF <span aria-hidden="true">↓</span></a>
+            <a className={styles.amazon} href={BOOK.amazon} target="_blank" rel="noopener noreferrer" aria-label="Buy Shadow Futures on Amazon (opens in a new tab)">Buy on Amazon <span aria-hidden="true">↗</span></a>
+          </div>
           <p className={styles.meta}>{BOOK.pages} pages · {BOOK_PDF_SIZE} · October 2026</p>
         </div>
       </header>

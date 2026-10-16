@@ -5,8 +5,12 @@
 .intro h1 { font-family: var(--font-serif); color: #142c34; font-weight: 400; font-size: clamp(2.6rem, 5vw, 4rem); line-height: 1.1; margin: 0 0 .6rem; letter-spacing: -.04em; }
 .subtitle { font-family: var(--font-serif); font-size: 1.3rem; line-height: 1.4; max-width: 35ch; margin: 0 0 .8rem; }
 .author { font-size: .9rem; color: var(--muted); margin-bottom: 1.1rem; }
-.download { display: inline-flex; gap: 1.1rem; align-items: center; padding: .8rem 1rem; border-radius: 4px; background: #183b45; color: #fffdf6; font-size: .8rem; font-weight: 600; text-decoration: none; }
+.actions { display: flex; align-items: center; flex-wrap: wrap; gap: .7rem; }
+.download, .amazon { display: inline-flex; gap: 1.1rem; align-items: center; min-height: 48px; padding: .8rem 1rem; border: 1px solid transparent; border-radius: 4px; font-size: .8rem; font-weight: 600; text-decoration: none; }
+.download { background: #183b45; color: #fffdf6; }
 .download:hover { background: #285563; }
+.amazon { color: #914621; border-color: #b7714a; background: #ad5b3608; }
+.amazon:hover { background: #ad5b3618; }
 .meta { color: var(--muted); font-size: .68rem; margin-top: .75rem; }
 .reader { border: 1px solid #c6c6b9; border-radius: 6px; overflow: hidden; background: #fffdf7; box-shadow: 0 15px 55px #13282f0d; }
 .toolbar { display: flex; justify-content: space-between; gap: 1rem; align-items: center; padding: 1rem 1.25rem; background: #e9e5da; font-size: .75rem; }
