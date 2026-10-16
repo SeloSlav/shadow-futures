@@ -4,8 +4,8 @@
   "checked_on": "2026-10-16",
   "status": "drafted",
   "target_main_words": 3500,
-  "body_words": 3484,
-  "draft_sha256": "559bd0d43ba729401f15e3c01360aa54d5c93b4ea4be8a11723e379adb90f274",
+  "body_words": 3500,
+  "draft_sha256": "6d04d218bd2e4e70e2211b8bed939b5f9f5f3ec252a56f32084a09640b247cba",
   "source_checks": "Relevant full-source passages checked. Where publisher access failed, the identified author working-paper version or indexed full-source sections were checked; no independent proof or priority certification is claimed.",
   "sources": [
     {
@@ -210,5 +210,5 @@
       "Documented eBay/Dutch-funding additions give the introduction material beyond the prologue"
     ]
   },
-  "latest_revision": "Origin-of-name attribution to Johnson and Kauffman; existing factual checks reused, new checks in origin-source-notes.json. Reviewed once within the word budget."
+  "latest_revision": "Added the author’s reflection on the book as an adjacent-possible product, credentials and reach, and welcoming wider use with attribution. Condensed repeated policy cautions to preserve the word allowance; no new external factual claim."
 }

@@ -6,6 +6,12 @@ The user requested economical, finite passes. Start with the latest handoff;
 reuse unchanged source checks and stop after the agreed pass. Preserve precise
 unresolved flags instead of restarting source-access or whole-book audit loops.
 
+For requested edition updates, use `npm run book:refresh -- --preview "changed phrase"`
+once after settling the prose. It builds and validates the website PDF, Kindle
+EPUB, and paperback files together, with hash-based reuse when unchanged. Follow
+`tools/skills/shadow-futures-publication/SKILL.md`; do not manually rerun all the
+underlying builders after a passed export. Publishing still requires user scope.
+
 The user wants to write the book in this repository and preserve progress in Git.
 Use `planning/argument-brief.md` and `planning/book-outline.md` as the working
 planning text. Write new chapters as Markdown in `manuscript/`. Word files in

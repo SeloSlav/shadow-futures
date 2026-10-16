@@ -68,13 +68,17 @@ The seed of this book's name was a phrase in Steven Johnson's account of Stuart 
 
 Think of Bell's transistor. An invention can become a component in devices its inventors never built. Who can work with it matters to which possibilities are explored. Johnson's image made me ask an economic question: what happens to possibilities that depend on opportunities going to someone who never gets them?
 
+This book is itself a product of the adjacent possible. Kauffman's work, Johnson's image, and the economic literature made a further question available to me. Its future will depend on who encounters it and what they can do with it. A professional economist may give these ideas a larger audience, sooner than I can. Credentials, an established readership, and access to the right conversations can open doors that an argument alone cannot. That possibility belongs inside this book, too.
+
+If someone else tests the idea more rigorously, explains it better, or helps more people use it, I will be content with that outcome. Credit matters, as does the freedom to challenge a claim. What I do not want is an epistemic monopoly over an idea that could benefit humanity. I want the comparison to remain open, including when an alternative to my account proves better. I cannot ask readers to take shadow futures seriously and then assume that the history giving me the most recognition must be the best one.
+
 I use shadow futures for feasible alternative allocation histories. They share underlying economic conditions, starting points, and response rules. In one history Aster receives the first contract; in another Birch does. Each can invest, learn, and improve differently under those same rules. Kauffman's concept concerns expanding possibilities. My narrower use concerns alternative histories and the evidence one realized history supplies about contribution.[^i2]
 
 MusicLab makes those alternatives visible. Lockdown could win or lose without becoming another recording. Ordinary markets rarely keep such convenient parallel charts. A supplier passed over ten years ago cannot simply be wound backward and given its missing customer.
 
 An imagined better Birch is not evidence. We need a feasible route and a defensible account of how people respond. Changing an early award within unchanged rules explores another history. Changing procurement rules is an intervention. The eBay experiments changed an arrangement; they did not replay an industry.
 
-A simulation requires the same discipline. Thousands of programmed markets reveal consequences of their assumptions. Explaining an actual buyer requires evidence that those assumptions fit. Johnson's phrase supplied an image; the comparison budget supplies a specified question about the evidence allocation preserves.
+A simulation needs the same discipline. Programmed markets reveal consequences of their assumptions; explaining an actual buyer requires evidence that those assumptions fit.
 
 The historical cases will therefore do distinct jobs. MusicLab displays variation across controlled market histories. Kickstarter helps establish a causal effect of early support. Bell's patent opening shows how an access intervention can change what outsiders are able to attempt. None is required to prove everything. Their differences are useful because the book's central question appears in more than one kind of economic arrangement.
 
@@ -104,11 +108,7 @@ For antitrust, that suggests an inquiry into what a restriction prevents other p
 
 For taxation, two questions must remain distinct. One concerns the confidence with which a reward can be divided into contribution and positional advantage. Another concerns whether an action that removes useful comparisons imposes costs on others. The first limits a claim about exact attribution. The second could support a corrective policy only with additional evidence about consequences, incentives, and feasible instruments. Neither question supplies a tax schedule by itself.[^i2]
 
-Think again of the fictional contract. A buyer could give Birch a trial, demand different records from Aster, fund an independent test, or conclude that the prospective learning is too small to justify disruption. These choices have different costs. A trial can fail. Running two systems can waste resources. A comparison deserves support because it can improve a consequential decision, and that improvement must be worth what producing it requires.
-
-This discipline also limits what an unobserved future can demand from us. Birch's missing opportunity does not become a social loss merely because we can imagine a successful version of it. Perhaps its product is inferior, perhaps its testing costs are excessive, or perhaps a simpler evaluation supplies everything the buyer needs. Taking an alternative seriously means allowing evidence to disappoint our hopes for it.
-
-Lockdown's other chart is powerful precisely because we have a result to examine. Most proposed alternatives arrive with less support. We will need to distinguish a possibility from a probable improvement, and a probable improvement from a policy whose benefits survive its costs. The argument becomes more useful when those judgments remain visible, instead of being concealed inside a flattering story about whichever side we prefer.
+Think again of the fictional contract. A buyer could give Birch a trial, demand better records, commission an independent test, or conclude that the learning is too small to justify disruption. Birch might disappoint; running two systems might waste resources. A feasible alternative, a probable improvement, and a worthwhile policy are different judgments. Taking an alternative seriously includes allowing evidence to defeat our hopes for it.
 
 ### A different account of success
 
