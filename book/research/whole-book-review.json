@@ -4,7 +4,7 @@
   "objective": "Complete book at prologue standard, including sequential editorial, conceptual, factual and citation review; counts and file existence do not certify completion.",
   "mechanical_checks": {
     "main_words": 80000,
-    "back_matter_words": 14361,
+    "back_matter_words": 14480,
     "main_components": 15,
     "endnotes": 187,
     "bibliography_entries": 118,
@@ -127,24 +127,29 @@
     {
       "id": "chapter_11",
       "file": "book/manuscript/12-taxing-lost-comparison.md",
-      "sha256": "954b72898b1fd8fca2f4b79bb26e14e3a349442c09c5508f0cfe50a5a40c8e19",
-      "sequential_editorial_review": "pending",
-      "conceptual_factual_citation_review": "claim_ledgers_exist_whole_book_recheck_pending",
-      "targeted_revision": "2026-10-16 historical-scale revision; relevant new passages and sources checked, complete sequential chapter review still pending."
+      "sha256": "3c0b7a75a903f31e86ac7d3a1c689a68937811608469f0b234e1c55ccaf3da9d",
+      "sequential_editorial_review": "completed",
+      "conceptual_factual_citation_review": "completed_for_recorded_claims_with_explicit_source_boundaries",
+      "checked_on": "2026-10-16",
+      "review_record": "book/research/chapter-11-source-notes.json; sequential_review field"
     },
     {
       "id": "chapter_12",
       "file": "book/manuscript/13-an-economics-of-possible-worlds.md",
-      "sha256": "e68dfc70f9ae5ba28d75c8deaf6d74821c8a5145f5c9ab2f23fded7d38649e4e",
-      "sequential_editorial_review": "pending",
-      "conceptual_factual_citation_review": "claim_ledgers_exist_whole_book_recheck_pending"
+      "sha256": "736a87a1d337a241710cc2d8f302f1670c320ffbf99427f53d9167c77cc70dee",
+      "sequential_editorial_review": "completed",
+      "conceptual_factual_citation_review": "completed_for_recorded_claims_with_explicit_source_boundaries",
+      "checked_on": "2026-10-16",
+      "review_record": "book/research/chapter-12-source-notes.json; sequential_review field"
     },
     {
       "id": "epilogue",
       "file": "book/manuscript/14-epilogue.md",
-      "sha256": "0cb428f07aad0f9c0786f1d8d30791c86cedfd8d1e0e1f1929ee40eb48b7700f",
-      "sequential_editorial_review": "pending",
-      "conceptual_factual_citation_review": "claim_ledgers_exist_whole_book_recheck_pending"
+      "sha256": "c5060478d62657e9223f7fb4423be8f7075fe1510f1b9eec7efb4d94a9b25d39",
+      "sequential_editorial_review": "completed",
+      "conceptual_factual_citation_review": "completed_for_recorded_claims_with_explicit_source_boundaries",
+      "checked_on": "2026-10-16",
+      "review_record": "book/research/epilogue-source-notes.json; sequential_review field"
     }
   ],
   "remaining_original_passage_checks": [
@@ -193,7 +198,7 @@
     ],
     "scope": "Initial argument brief and outline exports only; not the 80000-word book."
   },
-  "completion_audit": "Not passed. Sequential editorial review reaches Chapter10. Sequential review of Chapters11-12 and epilogue; four original Chapter3 technical passages; original Blackwell1953; final whole-book continuity/citation audit.",
+  "completion_audit": "Not passed. All fifteen main components have received sequential editorial review. Four original canonical Chapter3 technical passages, original Blackwell1953, and final cross-book continuity, repetition, factual, conceptual and citation audit remain open.",
   "review_sessions": [
     {
       "checked_on": "2026-10-16",
@@ -388,7 +393,47 @@
       },
       "reader_sha256_after_revision": "a710aabbbb9c78434ec7d678ae230b30e97f607f02d5160247812c4f6c67df30",
       "remaining_scope": "Sequential review of Chapters11-12 and epilogue; four original Chapter3 technical passages; original Blackwell1953; final whole-book continuity/citation audit."
+    },
+    {
+      "checked_on": "2026-10-16",
+      "scope": [
+        "chapter_11",
+        "chapter_12",
+        "epilogue"
+      ],
+      "method": "Complete final chapters and epilogue read in sequence; revisions re-read with neighboring paragraphs; new primary details checked against exact passages, retaining source/version boundaries.",
+      "findings": [
+        "Complete chapter and notes read in sequence after Chapter10; changed passages re-read with neighboring text.",
+        "Clarified predecessor credit and exact retrospective-attribution benchmark; fixed-input hidden-position law equivalence remains separate from shadow replay and the finite-budget theorem.",
+        "Rechecked canonical v5 Section5 and AppendixE.2, plus current expanded unpublished tax draft Sections3-7. Private substitution, interior two-choice result, constrained activity margin, full schedules, crowdout and feasible replacement retain their conditions.",
+        "Swedish agency guidance refreshed: annual independent accredited measurements and agency checks of the laboratories are distinct. No current charge rate, causal emissions effect or compliance advice.",
+        "Redwood case now gives dated earthquake/outage/backup durations and the actual converter/ground-fault diagnosis. Separate functionality explains backup despite impaired solar output. Direct original PDF passages were available through web research; prior terminal download failure retained, no local copy claimed.",
+        "Private maintenance log is an explicit hypothetical illustrating common-decision delivery, not an allegation of withheld findings. Useful private tests remain part of the evidence they inform.",
+        "Removed duplicate financing-proxy and earmarking recaps; historical reach-of-exclusion, scale benefits, measurement/quality, additionality, costs, incidence, entry and legal premises remain. No actual-company tax estimate, liability or automatic success charge.",
+        "Complete body and notes read sequentially after Chapter11; changed passages re-read in context.",
+        "Replaced generic acidity account with late1940s fertilizer comparison failure, separate Agdell turnip/club-root case and1951 modification, chalk correction, and distinct Broadbalk1968 changes. Original guide printedpp5-7 re-read.",
+        "Bearchell case now shows leaf/stem sampling, liquid-nitrogen powdering, short DNA targets,1844-2003 span, gaps and two-plot combination after checks. Relevant full original methods/results read through indexed PMC; direct PMC challenge persists. No full local copy or randomized pollution effect claimed.",
+        "Trimmed repeated archive/request explanation; sample preservation, maintained treatment contrast and new outcomes remain different evidentiary routes.",
+        "Known paired routing versus informative checked outputs,600 requests versus comparison budget, and present-service test versus historical replay remain explicit.",
+        "Prospective fictional12-week600-requestGBP60000 design retains qualification, calibration, dependence/missingness,versions,full costs, stopping/continuation, and later live-workflow stage. No executed pilot, quoted price or empirically justified sample-size claim.",
+        "Predecessor credit, novelty/proof/priority boundaries, private tests, common measurement errors and lawful costed institutions retained. Original Blackwell1953 gap remains separate from checked deOliveira proof.",
+        "Full ending and notes read after Chapter12. Renewal for Aster and limited Birch continuation follow the defined different task classes and decision stages.",
+        "Six-week120-requestGBP12000 continuation is explicitly stipulated fiction; no empirical result, quotation, causal workforce gain or calibrated recommendation implied.",
+        "Repaired statement implying an imagined trial itself validated contact with real observation. It now illustrates a specified design; a real buyer would have to execute it.",
+        "MusicLab and Rothamsted returns preserve the opening case and maintained-comparison theme; no invented biography, dialogue, visit or actual council result.",
+        "Uses existing outcomes as well as missing comparisons; contribution, rewards, incentives and values remain distinct. Substantial productive benefits, costs, feasible alternatives and the possibility of retaining the incumbent remain visible."
+      ],
+      "budget": {
+        "main_words": 80000,
+        "back_matter_words": 14480,
+        "chapter_11_words": 6135,
+        "chapter_12_words": 6000,
+        "epilogue_words": 2000,
+        "twelve_chapters_total": 72000
+      },
+      "reader_sha256_after_revision": "bcc130059c046640ad787ff367ecea0c192ec8fa8293654c6576d85bd4c14e60",
+      "remaining_scope": "Four original canonical Chapter3 technical passages, original Blackwell1953, and final cross-book continuity, repetition, factual, conceptual and citation audit remain open."
     }
   ],
-  "next_component": "chapter_11"
+  "next_component": "source_completion_and_cross_book_audit"
 }

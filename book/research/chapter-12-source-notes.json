@@ -2,12 +2,12 @@
   "manuscript": "book/manuscript/13-an-economics-of-possible-worlds.md",
   "title": "An economics of possible worlds",
   "checked_on": "2026-10-16",
-  "status": "drafted",
+  "status": "reviewed",
   "target_main_words": 6000,
   "body_words": 6000,
-  "note_words": 705,
-  "draft_sha256": "e68dfc70f9ae5ba28d75c8deaf6d74821c8a5145f5c9ab2f23fded7d38649e4e",
-  "source_checks": "Relevant primary passages and direct scanned pages checked with exact version/access boundaries. Earlier substantive checks retained by claim; Blackwell1953 original gap remains explicit. All council design choices/results fictional.",
+  "note_words": 751,
+  "draft_sha256": "736a87a1d337a241710cc2d8f302f1670c320ffbf99427f53d9167c77cc70dee",
+  "source_checks": "Relevant primary passages and direct scanned pages checked with exact version/access boundaries. Earlier substantive checks retained by claim; Blackwell1953 original gap remains explicit. All council design choices/results fictional. Guide printedpp4-8 re-read; Rothamsted January2024 substantive account refreshed; indexed original Bearchell methods/results rechecked after direct PMC challenge.",
   "sources": [
     {
       "key": "Macdonald2018RothamstedGuide",
@@ -17,12 +17,13 @@
         "c12-3"
       ],
       "source": "https://www.rothamsted.ac.uk/sites/default/files/national-capability/long-term-experiments/Web_LTE%20Guidebook_2019%20Final2.pdf",
-      "locator": "Copyright/title pp1–2; printedpp5–9, especially Broadbalkp7 and planp8; sample overviewp6",
+      "locator": "Copyright/title pp1–2; printedpp5–9, especially Broadbalkp7 and planp8; sample overviewp6; printedp5 late1940s acidity, separate Agdell club-root/turnips and1951 modification; printedp7 distinct Broadbalk1968 changes",
       "full_text_checked": true,
       "claims": [
         "Autumn1843 wheat sowing,1844 harvest; treatments evolved then1852 scheme largely retained to1968",
         "Acidity, weeds, shorter-strawed cultivars and cropping modifications; management/treatment plans",
-        "Nutrient/organic-matter legacies and later investigation; archived samples and metadata"
+        "Nutrient/organic-matter legacies and later investigation; archived samples and metadata",
+        "Acidity disrupted nitrogen-source comparison; Agdell turnip club-root and1951 modification distinct from Broadbalk1968 cultivar/cropping revision"
       ],
       "version_boundary": "A.J.Macdonald editor, copyright2018, reprinted2019, verified on printedp2.60-page public guide, not2019 original publication or current audit.",
       "boundary": "Original Broadbalk not described as modern randomized experiment. Institutional design and maintained differences not empirical v5 theorem application, uniform unchanging practices, or independent crop-year replications.",
@@ -61,11 +62,13 @@
       "note": "c12-4",
       "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC556271/",
       "additional_source": "https://doi.org/10.1073/pnas.0501596102",
-      "locator": "PNAS102(15)5438–5442; indexed Materials and Methods, DNA-extraction/PCR methods, pathogen-abundance results and correlated-factor limitation",
+      "locator": "PNAS102(15)5438-5442, full indexed Materials and Methods: Sample Selection, DNA Extraction/Purification/Quantification, PCR Assay Development; Results: Validity of PCR Data, Pathogen Abundance; correlated-factor discussion. Direct PMC returned challenge.",
       "full_text_checked": true,
       "claims": [
         "DNA methods investigate two wheat pathogens in archived material; long relative-abundance record",
-        "Association with sulfur-dioxide emissions; possible correlated factors acknowledged"
+        "Association with sulfur-dioxide emissions; possible correlated factors acknowledged",
+        "Archived leaf/stem material powdered using liquid nitrogen; short DNA targets address degradation",
+        "1844-2003 sample span has gaps; two differently treated plot series combined after overlap/validity checks"
       ],
       "version_boundary": "Published2005 primary passages read through full indexed search excerpts, with PubMed metadata. Direct PMCHTML/PDF challenged, EuropePMC mirror inaccessible/XML500, author repositories no full text; no successful local original claimed.",
       "boundary": "Not randomized pollution effect, disease recommendation or creation of unobserved harvest. Narrow qualitative claims, no numerical correlation/effect size. Relevant full passages rather than abstract-only check.",
@@ -266,5 +269,20 @@
     "No equations, invented realinterviews/visits/private experience.",
     "6000mainwords; Lockdown returns as observed contrast rather than rewardmeritcalculation."
   ],
-  "whole_book_review": "Still required: complete sequential editorial/factual/conceptual/citation review, unresolved original-source queue, complete bibliography/acknowledgments, combined reading manuscript and final budget audit."
+  "whole_book_review": "Sequential component review completed for recorded claims. Original-source queue and final cross-book continuity, repetition, factual, conceptual, citation and budget audit remain separate and open.",
+  "sequential_review": {
+    "checked_on": "2026-10-16",
+    "status": "completed_for_recorded_chapter_claims",
+    "method": "Full component and notes read in sequence; revised passages re-read in surrounding context. New source claims checked in relevant original passages, with access/version boundaries retained.",
+    "findings": [
+      "Complete body and notes read sequentially after Chapter11; changed passages re-read in context.",
+      "Replaced generic acidity account with late1940s fertilizer comparison failure, separate Agdell turnip/club-root case and1951 modification, chalk correction, and distinct Broadbalk1968 changes. Original guide printedpp5-7 re-read.",
+      "Bearchell case now shows leaf/stem sampling, liquid-nitrogen powdering, short DNA targets,1844-2003 span, gaps and two-plot combination after checks. Relevant full original methods/results read through indexed PMC; direct PMC challenge persists. No full local copy or randomized pollution effect claimed.",
+      "Trimmed repeated archive/request explanation; sample preservation, maintained treatment contrast and new outcomes remain different evidentiary routes.",
+      "Known paired routing versus informative checked outputs,600 requests versus comparison budget, and present-service test versus historical replay remain explicit.",
+      "Prospective fictional12-week600-requestGBP60000 design retains qualification, calibration, dependence/missingness,versions,full costs, stopping/continuation, and later live-workflow stage. No executed pilot, quoted price or empirically justified sample-size claim.",
+      "Predecessor credit, novelty/proof/priority boundaries, private tests, common measurement errors and lawful costed institutions retained. Original Blackwell1953 gap remains separate from checked deOliveira proof."
+    ],
+    "draft_sha256": "736a87a1d337a241710cc2d8f302f1670c320ffbf99427f53d9167c77cc70dee"
+  }
 }

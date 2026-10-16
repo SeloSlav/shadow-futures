@@ -2463,7 +2463,9 @@ The next chapter asks about another instrument. If conduct removes useful compar
 
 <a id="chapter_11"></a>
 
-# 11. Taxing lost comparison
+# Chapter 11
+
+## Taxing lost comparison
 
 Imagine the fictional council from the previous chapter receiving an invoice for a new supplier trial. Staff must prepare requests, check outcomes, supervise the work, and preserve an interpretable record. The test will cost money. It is needed because a separate purchasing route through which Birch might have demonstrated its service has disappeared.
 
@@ -2503,7 +2505,7 @@ That is already familiar territory in public finance. Thomas Piketty, Emmanuel S
 
 Casey Rothschild and Florian Scheuer likewise study taxation when income can combine productive and rent-seeking activities that the authority cannot separately observe for each person. The response to taxation depends on how returns across activities change. Their analysis warns against assuming that a simple average of unobserved components produces the right corrective rate.[^chapter_11-c11-4]
 
-These predecessors prevent an exaggerated claim for my result. Modern tax theory did not require us to identify every person's earned share until Shadow Futures revealed the difficulty. The additional argument concerns a stronger benchmark of exact retrospective attribution. It gives another reason to state what the proposed rule can observe and what it is intended to accomplish.
+These predecessors already model hidden activities and behavioral responses. My result addresses a narrower demand: an exact retrospective division of rewards based on a specified market record. It asks whether that record can distinguish the candidate explanations, before anyone promises a tax authority that it can.
 
 My own commitments remain those stated earlier: useful work and valuable experimentation should have substantial rewards; people should have enough security to survive failure; capable alternatives should have practical routes to demonstrate themselves. Those are positions to defend openly. They are not percentages that fall out of an impossibility theorem.
 
@@ -2515,7 +2517,9 @@ Sweden's nitrogen-oxide charge supplies a concrete contrast. Introduced in 1992,
 
 The charge also depended on measurement. The Swedish environmental agency describes requirements for emissions instruments, calculations, declarations, audits, and checks against independent measurements. Whatever judgment one makes about the complete policy, its administrators need to know what the charged quantity means. A meter, a definition, and a verification procedure are part of the instrument.
 
-The independent measurement check is especially revealing. An emissions reading becomes more credible when a qualified laboratory can compare it with another measurement and examine the method. That check costs resources. It is still part of making the charged quantity administrable. Our council would need a different verification process for informative trials: evidence that eligible alternatives faced relevant tasks, that results were checked, and that failures were retained. A receipt showing that a million tests ran would establish expenditure and activity. It would leave open whether the tests distinguished the alternatives. The emissions analogy helps identify the administrative question without pretending that informational damage has become a physical substance that can be metered in the same way.
+Under the agency's guidance, a facility's measuring equipment must be checked at least annually against independent measurements from an accredited laboratory. The agency also coordinates comparisons that check the laboratories themselves. There is a chain of verification behind the declared quantity.[^chapter_11-c11-5]
+
+Our council needs a different chain: eligible alternatives, relevant tasks, checked results, and retained failures. A receipt for a million tests would establish activity. It would leave open whether those tests distinguished the alternatives. That is why preserving the selection rule matters alongside preserving the test results.
 
 Our council has a harder measurement problem. It cannot attach a sensor to Aster's contract and read out units of destroyed knowledge. A lost supplier assignment might have been informative, redundant, or too poorly measured to help. Its value depends on the decision and on what other evidence remains available.
 
@@ -2543,7 +2547,7 @@ Imagine Aster receiving less useful feedback from ordinary operations as its ser
 
 Private replacement can also change the appropriate activity charge. Suppose each lost ordinary test leads Aster to purchase an equivalent test, within the draft's specified response setting. More integration then increases its testing bill while leaving the relevant total evidence unchanged. Charging it again as though the decision maker had lost that same information would ignore what the firm already paid to restore. The remaining problem could be that the privately chosen total is too low from the wider beneficiaries' perspective. Correcting that testing target is different from charging for a marginal evidence loss that substitution has prevented. This does not make private evaluation a blanket exemption. It means the fiscal calculation must follow the actual response. When private replacement stops, or cannot supply the same information, the effect of another lost organic test can change. A formula derived while holding testing fixed cannot simply be applied after testing adjusts.
 
-The draft uses a deliberately tractable experiment. Informative measurements help choose between two alternatives. Organic observations, privately purchased tests, and public tests are assumed to supply comparable evidence with independent errors. The decision has a stated payoff, and tests have stated costs. Those assumptions make the substitution problem possible to analyze precisely.
+The draft uses a deliberately tractable experiment. Informative measurements help choose between two alternatives. Organic observations, privately purchased tests, and public tests supply comparable evidence, with errors independent given the underlying state. Results from all three sources reach the same decision maker. The decision has a stated payoff, and tests have stated costs. Those assumptions make the substitution problem possible to analyze precisely.
 
 They are not descriptions we can assume for every AI evaluation. A supplier's internal test and a public field experiment may reveal different dimensions. One may use synthetic tasks while the other observes actual users. Their errors may be correlated. Before applying the draft's conclusions, an investigator must establish which observations can adequately substitute for which others.
 
@@ -2577,13 +2581,17 @@ The exact one-for-one crowdout result depends on strong assumptions: interchange
 
 California's Electric Program Investment Charge provides a real example of a different financing route. Utility customers fund research administered by the Energy Commission and participating utilities. The program supports research, development, and demonstration directed toward electricity-system goals. Its existence shows an institutional way to pay for shared investigation; it does not by itself prove that each funded project adds knowledge beyond private spending.[^chapter_11-c11-9]
 
-One project makes the work tangible. A January 2026 report on the Redwood Coast Airport Microgrid describes solar generation and battery storage serving customers including the airport and a Coast Guard air station. The project team reported operation through grid interruptions, including an earthquake and winter storms, and documented technical and institutional lessons for possible replication.[^chapter_11-c11-10]
+On December 20, 2022, an earthquake struck Ferndale, California, causing a widespread power outage lasting nearly sixteen hours. According to the project team's January 2026 report, the Redwood Coast Airport Microgrid provided backup power for nearly fifteen hours. Its customers included the airport and a Coast Guard air station. Solar generation and battery storage had acquired a practical test.[^chapter_11-c11-10]
 
-The report also describes diagnosing and replacing a failed converter system. This is a useful reminder of what a demonstration can reveal. Designing an installation, discovering a component problem, correcting it, and reporting the experience are distinct productive activities. Another community could benefit from the lesson without buying electricity from the original project. How much it benefits would depend on whether the lesson applies to its own equipment and plans. The existence of this possible recipient does not give us an exact social value. It gives the evaluator a beneficiary and a potential decision to investigate. For an AI trial, the corresponding question is who can avoid a mistake or choose a better system because the documented test exists.
+The installation also had a persistent fault. Converters linking the large solar array to the batteries repeatedly triggered protective trips. The report identified an unwanted current path to ground, especially in humid conditions. After repeated attempts at repair, replacement equipment was installed and tested. The fault impaired solar generation while another part of the system still allowed backup operation.[^chapter_11-c11-10]
+
+That combination matters. A project can deliver useful service, incur a costly failure, and produce a lesson for someone else. Another community might avoid the converter problem without ever buying electricity from this installation. Whether that lesson changes its choice, and what avoiding the mistake is worth, would need investigation. We have a possible beneficiary and a consequential decision, rather than an automatic social return on every research dollar.
 
 The same report identifies a difficult business case. Readily monetizable benefits did not cover the assessed costs, while the value of resilience depended on the services and community involved. This is a project-team assessment, with its own assumptions, rather than proof that a subsidy of any particular size was socially optimal.
 
 The distinction matters. A demonstration can produce electricity, resilience, operating experience, and information for other projects. Those benefits may have different recipients. A commercial revenue shortfall does not measure all the wider value, but neither does the phrase public benefit establish that wider value exceeds the cost.
+
+Imagine the converter diagnosis remaining in a private maintenance log. It could improve the owner's engineering while never reaching another community's purchasing decision. Our tax draft assumes delivery to a common decision maker; this imagined arrangement breaks that premise. The private work still counts as evidence for the decision it informs. Its existence would not establish that the outside community received an adequate substitute. Sharing findings and generating new tests address different gaps.
 
 For an AI evaluation program, the analogous questions are concrete. Which future buyers use the results? Do they change procurement? Does the program reveal failures that internal tests missed? Does a supplier reduce its own work in response? A publicly available benchmark that nobody uses may have less value than a small, credible test that changes an important contract.
 
@@ -2623,11 +2631,7 @@ The account-based survey allocation also makes the purpose of a proxy easier to 
 
 This is not an example of my proposed tax being adopted. It is a regulatory funding arrangement for specified duties. Its relevance is narrower: a policy can require access, require evidence, and allocate the cost of producing that evidence. These are related decisions, not one automatic consequence of a declaration that competition is desirable.
 
-The survey cost allocation did not claim to measure each bank's destruction of knowledge. A share of accounts can be a financing convention without being an estimate of marginal external damage. Confusing those roles would make a practical contribution rule appear to certify a causal claim it never established.
-
 The distinction applies to our fictional council. It could purchase an evaluation from general funds, require suppliers to contribute under lawful contract terms, or consider a payment tied to a demonstrated restrictive action. Each choice answers a different financing or incentive question. An instrument can raise enough money for useful work while still doing little to discourage the behavior that removed a comparison.
-
-Earmarking does not repair that mismatch.
 
 There are also two different entries in the public account. Aster's payment can become revenue available to finance useful work. The evaluator's staff time, secure computing, and supervision are resources consumed in doing that work. Adding the tax payment to the testing bill and calling both destroyed output would count a transfer as if it were a second resource cost. Ignoring the staff time because a tax paid for it would make the opposite mistake. Who pays remains important for distribution and behavior, while what gets used determines the resource burden. A transparent appraisal should show both. If charging the payment also alters prices, entry, or investment, those additional consequences need their own analysis; they are not automatically equal to the amount collected. Suppose a fee on every AI response pays for an excellent testing service. The service might deserve support. The fee could nevertheless discourage useful production or useful evaluation in ways unrelated to the particular information loss. Its funding rationale and its corrective rationale should be assessed separately.
 
@@ -2677,7 +2681,9 @@ We are ready to ask what economics itself should do differently. The discipline 
 
 <a id="chapter_12"></a>
 
-# 12. An economics of possible worlds
+# Chapter 12
+
+## An economics of possible worlds
 
 The winter wheat planted at Broadbalk in autumn 1843 was harvested in 1844. The records of that harvest were the beginning of a much longer undertaking. Fertilizers, manure, and untreated ground supplied contrasts that successive generations of researchers continued to study. The field produced grain. Keeping differences alive helped it produce evidence too.[^chapter_12-c12-1]
 
@@ -2687,7 +2693,7 @@ That does not make the experiment an argument against productive farming. It mak
 
 The long record also makes a difficulty visible. An experiment cannot remain useful simply by refusing to change. Weeds, soil acidity, new varieties, and changing farming practices can alter the question a comparison answers. Rothamsted's account of its experiments describes considered modifications alongside preserved treatment differences.[^chapter_12-c12-2]
 
-The experiment guide records a particularly concrete problem. Acidification eventually interfered with comparisons on some plots. Correcting soil acidity and modifying management helped keep questions answerable. At Broadbalk, the introduction of shorter-strawed wheat varieties and changes to cropping in 1968 brought the experiment closer to contemporary practice. Continuity required judgment about what to preserve and what to alter.
+By the late 1940s, some plots had become so acidic that comparing two nitrogen fertilizers no longer answered the intended question. In the separate Agdell experiment, acidity favored a disease that depressed turnip yields; the experiment required extensive modification in 1951. Researchers applied chalk to correct acidity. Broadbalk later received shorter-strawed wheat varieties and a revised cropping arrangement in 1968. Preserving a useful experiment required changing what happened on the ground.[^chapter_12-c12-2]
 
 The guide describes another consequence of persistence. Repeated applications of manure and fertilizer altered the soils themselves, leaving different stores of nutrients and organic matter. Later investigations could study those reserves and their effects. Yesterday's treatment had become part of today's condition. This is a productive reason to keep the history, rather than assume every harvest starts with identical ground. It also limits a careless reading of the result: a difference after many years can reflect the accumulated consequences of earlier management as well as the immediate application. The relevant comparison depends on whether the question concerns this year's input, a sustained practice, or a change from the inherited state.
 
@@ -2707,7 +2713,7 @@ The future of economics needs more attention to that supply. We already study ho
 
 Rothamsted's sample archive gives this argument an unexpected extension. Material retained from earlier harvests can be examined with methods unavailable when it was collected. The preserved record includes physical samples, not only numbers in a table. A later researcher can sometimes ask the material a new question.[^chapter_12-c12-3]
 
-In a study published in 2005, Sarah Bearchell and colleagues used DNA methods to investigate two wheat pathogens in archived material. They assembled a long record and found an association between changes in the relative abundance of the pathogens and atmospheric pollution measured through sulfur-dioxide emissions. The paper considered the possibility of another factor correlated with pollution; the historical association was not a randomized pollution experiment.[^chapter_12-c12-4]
+Sarah Bearchell and colleagues took small portions of old leaves and stems from archive containers, powdered them using liquid nitrogen, and extracted DNA. They looked for short DNA sequences to accommodate damage in the old material. Their 2005 study examined two wheat pathogens in samples spanning 1844–2003. Gaps in the archive required combining material from two plots, after checks of comparability. Changes in the pathogens' relative abundance were associated with sulfur-dioxide emissions. The researchers considered other correlated factors; they had not randomized atmospheric pollution.[^chapter_12-c12-4]
 
 The useful surprise is the question made possible. Harvest material retained for one scientific purpose could contain evidence relevant to another. The archive connected a modern laboratory method with a sequence of older observations. It did not manufacture those earlier samples after discovering that they would be useful.
 
@@ -2725,7 +2731,7 @@ The institutional task is to make those tradeoffs reviewable. A preservation dec
 
 The wheat archive also cautions against treating old records as self-explanatory. Researchers had to use methods suited to aged material and check what their measurements meant. An economist recovering old procurement logs would likewise need to understand missing entries, changing definitions, and the process that created the archive. Historical depth is valuable when it remains interpretable.
 
-Consider what would happen if the council retained only the final label successful. A future evaluator could count accepted recommendations but might be unable to discover why an error escaped. Retaining the permitted original request and the checked correction could allow a new test of that question. It would still be necessary to establish whether the check was reliable and whether the retained requests represented the relevant work. This is the digital analogue of keeping useful material with a record of where it came from. The analogy has limits: personal information creates obligations that a bag of wheat does not, and a later software version may no longer reproduce an earlier output. Those limits should shape the retention policy. They do not remove the distinction between a total that cannot be investigated and a protected, documented record that can.
+Consider what would happen if the council retained only the final label successful. A future evaluator could count accepted recommendations but might be unable to discover why an error escaped. Retaining the permitted original request and the checked correction could allow a new test. That still requires reliable checking and relevant retained requests. Personal information also creates obligations that a bag of wheat does not, and a later software version may no longer reproduce an earlier output. Those limits should shape the retention policy. The useful archive is a protected record whose provenance can be checked, with enough context to ask a justified question about the earlier result.
 
 This is one constructive implication of shadow futures. The argument does not say that only literal repetitions can teach us anything. Additional outcomes, archives, natural variation, and designed experiments can all supply useful evidence under their own assumptions. The task is to identify the target and explain how the available observations bear on it.
 
@@ -2887,7 +2893,9 @@ Lockdown's second chart survived because the experiment gave it a place. For the
 
 <a id="epilogue"></a>
 
-# Epilogue: The next opportunity
+# Epilogue
+
+## The next opportunity
 
 The next contract goes to Aster.
 
@@ -2943,7 +2951,7 @@ The comparison budget gives one defined feature of an allocation process a name.
 
 The strongest claims in the paper must survive independent mathematical and scholarly scrutiny. The applications must survive observation. This book asks readers to take the proposed object seriously without confusing a research program with an already completed empirical verdict. An economics of possible worlds has to make contact with the world we can actually investigate.
 
-The council's small trial does that. Its scope is limited, its inputs are real within the thought experiment, and its possible conclusions change a specified purchase. It does not restore every missed opportunity in the industry's past. It creates a credible route through one uncertainty that matters now.
+The council's trial illustrates that demand. Its scope, tasks, and resources are specified, and its possible conclusions change a stated purchase. The fictional result supplies no empirical validation. A real buyer would have to do the work. It would create a route through one uncertainty that matters now.
 
 Imagine the last page of its evaluation. The incumbent is retained for ordinary work. The alternative enters a limited next stage. Costs and reasons are stated. There is room for a later result to change the arrangement again. The page contains neither a universal ranking of human worth nor a permanent plan for the industry. It contains a decision that can be explained.
 
@@ -3313,7 +3321,7 @@ Lockdown's other chart was there to be read. Most economic alternatives have no 
 
 [^chapter_11-c11-4]: Rothschild and Scheuer, [“Optimal Taxation with Rent-Seeking”](https://www.econ.uzh.ch/dam/jcr:e4a3ed75-0645-497b-a7a7-5015f58a15c0/rent_seeking.pdf), December 2015 author manuscript, abstract and introduction pp. 1–4; published *Review of Economic Studies* 83(3), 2016, 1225–1262. Combined-income taxation and relative-return effects do not require exact individual activity decomposition. No sectoral verdict or actual tax rate is imported.
 
-[^chapter_11-c11-5]: Swedish Environmental Protection Agency, [*Reducing NOx Emissions: An Evaluation of the Nitrogen Oxide Charge*](https://www.naturvardsverket.se/4ac644/globalassets/media/publikationer-pdf/5300/978-91-620-5335-3.pdf), Report 5335, November 2003, English summary pp. 13–14, especially p. 14. Historical introduction and charge/refund design; no old rate is presented as current. Agency [measurement and administration guidance](https://www.naturvardsverket.se/en/guidance/air-and-climate/nitrogen-oxides/) checked October 16, 2026. Main text makes no causal emissions-reduction estimate or claim that refunds fully eliminate production distortions.
+[^chapter_11-c11-5]: Swedish Environmental Protection Agency, [*Reducing NOx Emissions: An Evaluation of the Nitrogen Oxide Charge*](https://www.naturvardsverket.se/4ac644/globalassets/media/publikationer-pdf/5300/978-91-620-5335-3.pdf), Report 5335, November 2003, English summary pp. 13–14, especially p. 14. Historical introduction and charge/refund design; no old rate is presented as current. Agency [measurement and administration guidance](https://www.naturvardsverket.se/en/guidance/air-and-climate/nitrogen-oxides/), reviewed October 28, 2025, checked October 16, 2026, sections “Comparative measurement of measurement equipment” and “Test comparisons.” Annual equipment comparison and checks of accredited labs are distinct. Main text makes no causal emissions-reduction estimate or claim that refunds fully eliminate production distortions.
 
 [^chapter_11-c11-6]: Arrow, [“Economic Welfare and the Allocation of Resources for Invention”](https://www.nber.org/system/files/chapters/c2144/c2144.pdf), 1962, pp. 609 and 614–617. Information can arise as an operating by-product; appropriation and transmission pose established welfare problems. This foundation supplies neither a measured information externality for a named AI firm nor an optimal charge.
 
@@ -3323,7 +3331,7 @@ Lockdown's other chart was there to be read. Most economic alternatives have no 
 
 [^chapter_11-c11-9]: California Energy Commission, [EPIC program description](https://www.energy.ca.gov/programs-and-topics/programs/electric-program-investment-charge-epic-program), funding and administration sections, checked October 16, 2026. Ratepayer funding and research purposes distinguish this institution from a tax calibrated to marginal information destruction. No budget, additionality or portfolio welfare estimate is adopted.
 
-[^chapter_11-c11-10]: Jim Zoellick, David Carter, and Peter Lehman, [*Redwood Coast Airport Microgrid*](https://www.energy.ca.gov/sites/default/files/2026-01/CEC-500-2026-006.pdf), CEC-500-2026-006, January 2026, executive summary pp. 1–3, business-model conclusion p. 69, and conclusions pp. 95–96. Project-team report: operation, knowledge transfer, monetizable benefits and remaining replication barriers. Technical performance is not an independent causal welfare audit. Relevant indexed primary passages checked; direct local PDF download timed out and no local copy is claimed.
+[^chapter_11-c11-10]: Jim Zoellick, David Carter, and Peter Lehman, [*Redwood Coast Airport Microgrid*](https://www.energy.ca.gov/sites/default/files/2026-01/CEC-500-2026-006.pdf), CEC-500-2026-006, January 2026, executive summary pp. 1–3, converter diagnosis/replacement pp. 53–54, earthquake/outage p. 62, business-model conclusion p. 69, conclusions pp. 95–96. The December 20, 2022 event brought nearly sixteen hours of regional outage; the team reports nearly fifteen hours of backup. Separate AC-coupled functionality allowed backup operation despite the DC-converter fault. These relevant original PDF passages were directly readable through the browser research tool on recheck; an earlier terminal download failed and no local copy is claimed. Project-team account, not an independent technical or welfare audit. The private maintenance log is an explicit counterfactual illustration, not an allegation about withheld project findings.
 
 [^chapter_11-c11-11]: Kerr, Nanda, and Rhodes-Kropf, [“Entrepreneurship as Experimentation”](https://www.hbs.edu/faculty/Shared%20Documents/conferences/2014-strategy-research/Entrepreneruship%20as%20Experimentation.pdf), *Journal of Economic Perspectives* 28(3), 2014, 25–48, especially pp. 27–32. Staged learning and continuation choices; not evidence that every funded failure was socially valuable.
 
@@ -3335,11 +3343,11 @@ Lockdown's other chart was there to be read. Most economic alternatives have no 
 
 [^chapter_12-c12-1]: Rothamsted Research, A. J. Macdonald, editor, [*Guide to the Classical and Other Long-Term Experiments, Datasets and Sample Archive*](https://www.rothamsted.ac.uk/sites/default/files/national-capability/long-term-experiments/Web_LTE%20Guidebook_2019%20Final2.pdf), 2018, reprinted 2019, pp. 4–9, especially p. 7. Autumn 1843 sowing and 1844 first harvest distinguished. Treatments varied in the first years; a scheme established in 1852 largely persisted until 1968. Original Broadbalk layout is not described as a modern randomized design.
 
-[^chapter_12-c12-2]: Rothamsted, [“Why Do We Make Changes to the Long-Term Experiments?”](https://www.rothamsted.ac.uk/news/why-do-we-make-changes-long-term-experiments-rothamsted), January 17, 2024, full substantive account; *Guide*, pp. 5–7 and Broadbalk plan. Soil acidity, weeds, cultivars and cropping changes have different purposes. Continuity does not mean every treatment or method remained unchanged. Historical institutional case, not empirical verification of v5.
+[^chapter_12-c12-2]: Rothamsted, [“Why Do We Make Changes to the Long-Term Experiments?”](https://www.rothamsted.ac.uk/news/why-do-we-make-changes-long-term-experiments-rothamsted), January 17, 2024, full substantive account; *Guide*, pp. 5–7 and Broadbalk plan. Guide p. 5 distinguishes the late-1940s nitrogen-source comparison problem, Agdell's club-root/turnip problem and 1951 modification, and subsequent liming of arable experiments. Broadbalk's 1968 cultivar/cropping changes appear on p. 7. These are distinct experiments and changes, not a claim that one plot underwent every event. Historical institutional case, not empirical verification of v5.
 
 [^chapter_12-c12-3]: Electronic Rothamsted Archive, [Rothamsted Sample Archive](https://www.era.rothamsted.ac.uk/asset/rsa), overview and documented applications; *Guide*, p. 6. Samples, metadata and treatment contrasts are distinct assets. No claim that every retained record is worth its cost or that an archive creates an unobserved treatment outcome.
 
-[^chapter_12-c12-4]: Bearchell, Fraaije, Shaw, and Fitt, [“Wheat Archive Links Long-Term Fungal Pathogen Population Dynamics to Air Pollution”](https://pmc.ncbi.nlm.nih.gov/articles/PMC556271/), *PNAS* 102(15), 2005, 5438–5442, Materials and Methods, pathogen-abundance results and discussion of correlated factors. Relevant full indexed primary passages were checked after direct PMC access returned a challenge and Europe PMC XML retrieval failed; no local full-text copy is claimed. Association with sulfur-dioxide emissions is not randomized causal attribution. The chapter uses qualitative findings, not a disease-control recommendation.
+[^chapter_12-c12-4]: Bearchell, Fraaije, Shaw, and Fitt, [“Wheat Archive Links Long-Term Fungal Pathogen Population Dynamics to Air Pollution”](https://pmc.ncbi.nlm.nih.gov/articles/PMC556271/), *PNAS* 102(15), 2005, 5438–5442. Materials and Methods, “Sample Selection,” “DNA Extraction” and “PCR Assay Development,” plus “Validity of PCR Data” and pathogen-abundance results: chopped leaf/stem material, liquid-nitrogen powdering, short targets for degraded DNA, plot 10/plot 8 periods and overlap checks. Gaps and exclusions remain; no complete annually sampled single plot is claimed. Relevant full indexed primary passages were checked after direct PMC challenges; no local full-text copy is claimed. Sulfur-dioxide association does not establish randomized causal attribution; no disease-control advice.
 
 [^chapter_12-c12-5]: R. A. Fisher, [“The Arrangement of Field Experiments”](https://pdixon.stat.iastate.edu/stat571/readings/Fisher%201926.pdf), 1926, original pp. 503–508, reproduced pp. 84–89, particularly replication and randomization. Relevant scanned pages were rendered and read directly; the PDF has no extractable text. The chapter credits methodological precedent without adopting every historical significance-testing convention or claiming all Rothamsted experiments were randomized.
 

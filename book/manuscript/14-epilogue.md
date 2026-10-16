@@ -1,4 +1,6 @@
-# Epilogue: The next opportunity
+# Epilogue
+
+## The next opportunity
 
 The next contract goes to Aster.
 
@@ -54,7 +56,7 @@ The comparison budget gives one defined feature of an allocation process a name.
 
 The strongest claims in the paper must survive independent mathematical and scholarly scrutiny. The applications must survive observation. This book asks readers to take the proposed object seriously without confusing a research program with an already completed empirical verdict. An economics of possible worlds has to make contact with the world we can actually investigate.
 
-The council's small trial does that. Its scope is limited, its inputs are real within the thought experiment, and its possible conclusions change a specified purchase. It does not restore every missed opportunity in the industry's past. It creates a credible route through one uncertainty that matters now.
+The council's trial illustrates that demand. Its scope, tasks, and resources are specified, and its possible conclusions change a stated purchase. The fictional result supplies no empirical validation. A real buyer would have to do the work. It would create a route through one uncertainty that matters now.
 
 Imagine the last page of its evaluation. The incumbent is retained for ordinary work. The alternative enters a limited next stage. Costs and reasons are stated. There is room for a later result to change the arrangement again. The page contains neither a universal ranking of human worth nor a permanent plan for the industry. It contains a decision that can be explained.
 

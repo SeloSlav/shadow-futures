@@ -2,12 +2,12 @@
   "manuscript": "book/manuscript/12-taxing-lost-comparison.md",
   "title": "Taxing lost comparison",
   "checked_on": "2026-10-16",
-  "status": "drafted",
+  "status": "reviewed",
   "target_main_words": 6000,
   "body_words": 6135,
-  "note_words": 693,
-  "draft_sha256": "954b72898b1fd8fca2f4b79bb26e14e3a349442c09c5508f0cfe50a5a40c8e19",
-  "source_checks": "Current expanded unpublished tax manuscript and canonical v5 hidden-position passage read directly. Relevant primary predecessor, Swedish agency, CMA order and CEC project/program passages checked with historical dates and version/access boundaries. Public provision additionality and real-company corrective rates not presumed.",
+  "note_words": 766,
+  "draft_sha256": "3c0b7a75a903f31e86ac7d3a1c689a68937811608469f0b234e1c55ccaf3da9d",
+  "source_checks": "Current expanded unpublished tax manuscript and canonical v5 hidden-position passage read directly. Relevant primary predecessor, Swedish agency, CMA order and CEC project/program passages checked with historical dates and version/access boundaries. Public provision additionality and real-company corrective rates not presumed. Sequential review rechecked v5 Section5/E.2 and tax Sections3-7, refreshed Swedish guidance, and read converter/outage passages in directly accessible original CEC PDF via web research.",
   "sources": [
     {
       "key": "Erlic2026TaxJournalDraft",
@@ -101,11 +101,12 @@
       "key": "SwedishEPANOxGuidance2026Access",
       "note": "c11-5",
       "source": "https://www.naturvardsverket.se/en/guidance/air-and-climate/nitrogen-oxides/",
-      "locator": "Agency full guidance: measurement regulations, energy credit, annual audit and comparative measurement; read October16,2026",
+      "locator": "Agency guidance last reviewed October28,2025; accessed October16,2026. Sections on measurement regulation, audit, comparative measurement equipment and test comparisons.",
       "full_text_checked": true,
       "claims": [
         "Measurement instruments, calculations, declarations, independent accredited comparison and audit procedures",
-        "Declared charge quantity requires verification; not a meter of informational damage"
+        "Declared charge quantity requires verification; not a meter of informational damage",
+        "Annual independent accredited measurement check; agency coordinates comparisons of lab measurements"
       ],
       "version_boundary": "Current accessed guidance, referring to2016 regulation and2019 updated guidelines; not a substitute for full current statute interpretation.",
       "boundary": "No compliance advice, current charge-rate claim, universal exemption or optimal fiscal assessment.",
@@ -144,15 +145,17 @@
       "note": "c11-10",
       "source": "https://www.energy.ca.gov/sites/default/files/2026-01/CEC-500-2026-006.pdf",
       "additional_source": "https://www.energy.ca.gov/publications/2026/redwood-coast-airport-microgrid",
-      "locator": "CEC-500-2026-006, January2026; executive summary printedpp1–3 (PDFpp10–12 in one-based page count), business-model conclusionp69, conclusionpp95–96; indexed pages9–11,77,103–104 zero-based",
+      "locator": "January2026 CEC-500-2026-006, executive summarypp1-3; converter diagnosis/retrofitpp53-54 (PDFpp62-63), earthquake/outagep62 (PDFp71), business-model conclusionp69, conclusionspp95-96.",
       "full_text_checked": true,
       "claims": [
         "Solar/battery microgrid serves airport and Coast Guard air station among customers",
         "Team reports operation through interruptions including earthquake/winter storms; technical and institutional knowledge transfer",
         "Team reports converter diagnosis/replacement, remaining costs and replication difficulties",
-        "Commercially monetizable benefits versus broader resilience value differ"
+        "Commercially monetizable benefits versus broader resilience value differ",
+        "December20,2022 Ferndale earthquake: nearly16-hour regional outage, nearly15-hour reported backup",
+        "Ground-fault trips and unwanted ground-current path especially in humidity; replacement and testing; separate AC functionality retained backup despite DC-solar impairment"
       ],
-      "version_boundary": "Primary project-team final report, not independent causal audit. Direct terminal PDF retrieval timed out; file absence checked. Full relevant indexed primary passages read; no successful local cache claimed.",
+      "version_boundary": "Project-team final report. Relevant original PDF passages directly readable through web research on October16,2026 recheck. Earlier terminal download timed out; no local PDF claimed. Not an independent technical or causal audit.",
       "boundary": "No tax/subsidy rate, net social welfare proof, causal additionality, universal microgrid replication or avoided-dollar estimate adopted. Analogies to AI testing are author reasoning.",
       "v5_reference": false
     },
@@ -210,6 +213,11 @@
       "name": "Testing payment, access remedy and public facility",
       "status": "author conditional proposals",
       "purpose": "Quality verification, setup, financing/incidence/entry, costed substitutes and stopping"
+    },
+    {
+      "name": "Converter diagnosis kept in a private maintenance log",
+      "status": "explicit counterfactual illustration, not claim about project behavior",
+      "purpose": "Common-decision delivery assumption and distinct value to internal/external decisions; sharing existing findings versus creating new tests"
     }
   ],
   "narrative_checks": [
@@ -223,10 +231,25 @@
     "Disclosure strategic costs, capacity, welfare weights, fixed operating firm and financing limits acknowledged.",
     "Normative commitments consistent with Chapter6 and explicitly separate from theorem."
   ],
-  "whole_book_review": "Still required: full-sequence continuity/repetition/pace review, conceptual/factual/citation audit, unresolved original-source passages in separate queue, complete bibliography, combined reading artifact and final word-budget review.",
+  "whole_book_review": "Sequential component review completed for recorded claims. Original-source queue and final cross-book continuity, repetition, factual, conceptual, citation and budget audit remain separate and open.",
   "historical_scale_revision": {
     "checked_on": "2026-10-16",
     "scope": "Targeted user-requested historical scale, reach-of-judgment, preemption, platform work, precaution and private-property revision; complete sequential chapter review remains pending.",
     "boundary": "No inevitable historical decline, finite-budget diagnosis of any actual market, independent proof/priority certification, or automatic policy/liability inference."
+  },
+  "sequential_review": {
+    "checked_on": "2026-10-16",
+    "status": "completed_for_recorded_chapter_claims",
+    "method": "Full component and notes read in sequence; revised passages re-read in surrounding context. New source claims checked in relevant original passages, with access/version boundaries retained.",
+    "findings": [
+      "Complete chapter and notes read in sequence after Chapter10; changed passages re-read with neighboring text.",
+      "Clarified predecessor credit and exact retrospective-attribution benchmark; fixed-input hidden-position law equivalence remains separate from shadow replay and the finite-budget theorem.",
+      "Rechecked canonical v5 Section5 and AppendixE.2, plus current expanded unpublished tax draft Sections3-7. Private substitution, interior two-choice result, constrained activity margin, full schedules, crowdout and feasible replacement retain their conditions.",
+      "Swedish agency guidance refreshed: annual independent accredited measurements and agency checks of the laboratories are distinct. No current charge rate, causal emissions effect or compliance advice.",
+      "Redwood case now gives dated earthquake/outage/backup durations and the actual converter/ground-fault diagnosis. Separate functionality explains backup despite impaired solar output. Direct original PDF passages were available through web research; prior terminal download failure retained, no local copy claimed.",
+      "Private maintenance log is an explicit hypothetical illustrating common-decision delivery, not an allegation of withheld findings. Useful private tests remain part of the evidence they inform.",
+      "Removed duplicate financing-proxy and earmarking recaps; historical reach-of-exclusion, scale benefits, measurement/quality, additionality, costs, incidence, entry and legal premises remain. No actual-company tax estimate, liability or automatic success charge."
+    ],
+    "draft_sha256": "3c0b7a75a903f31e86ac7d3a1c689a68937811608469f0b234e1c55ccaf3da9d"
   }
 }

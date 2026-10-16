@@ -1,7 +1,7 @@
 {
   "status": "complete_draft_assembly_review_pending",
   "file": "book/drafts/Shadow_Futures_Complete_Manuscript.md",
-  "sha256": "a710aabbbb9c78434ec7d678ae230b30e97f607f02d5160247812c4f6c67df30",
+  "sha256": "bcc130059c046640ad787ff367ecea0c192ec8fa8293654c6576d85bd4c14e60",
   "inputs": [
     {
       "file": "book/manuscript/00-prologue.md",
@@ -53,15 +53,15 @@
     },
     {
       "file": "book/manuscript/12-taxing-lost-comparison.md",
-      "sha256": "954b72898b1fd8fca2f4b79bb26e14e3a349442c09c5508f0cfe50a5a40c8e19"
+      "sha256": "3c0b7a75a903f31e86ac7d3a1c689a68937811608469f0b234e1c55ccaf3da9d"
     },
     {
       "file": "book/manuscript/13-an-economics-of-possible-worlds.md",
-      "sha256": "e68dfc70f9ae5ba28d75c8deaf6d74821c8a5145f5c9ab2f23fded7d38649e4e"
+      "sha256": "736a87a1d337a241710cc2d8f302f1670c320ffbf99427f53d9167c77cc70dee"
     },
     {
       "file": "book/manuscript/14-epilogue.md",
-      "sha256": "0cb428f07aad0f9c0786f1d8d30791c86cedfd8d1e0e1f1929ee40eb48b7700f"
+      "sha256": "c5060478d62657e9223f7fb4423be8f7075fe1510f1b9eec7efb4d94a9b25d39"
     },
     {
       "file": "book/manuscript/90-references.md",
@@ -72,9 +72,9 @@
       "sha256": "c9af1838c3350e792acd298dfa4480500cff91ba8218150d4ff2493d488c6671"
     }
   ],
-  "bibliography_input_sha256": "a1afabab1eaa9b0d0f8c4096ebbb5d3f2c1cad602680b440f996feb477b70f8a",
+  "bibliography_input_sha256": "680099e8178719da822539349595b19bf47e1e39f1e56b99d8f3159f077d91ca",
   "main_words": 80000,
-  "back_matter_words": 14361,
+  "back_matter_words": 14480,
   "reference_entries": 118,
   "endnote_count": 187,
   "notes_namespaced": true,
