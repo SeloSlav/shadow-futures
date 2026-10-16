@@ -1,9 +1,9 @@
 {
   "status": "in_progress",
   "main_text_target": 80000,
-  "main_words": 18000,
-  "words_remaining_to_target": 62000,
-  "back_matter_words": 3026,
+  "main_words": 24000,
+  "words_remaining_to_target": 56000,
+  "back_matter_words": 3886,
   "back_matter_target": [
     10000,
     15000
@@ -74,10 +74,15 @@
       "title": "Shadow futures",
       "file": "book/manuscript/04-shadow-futures.md",
       "target": 6000,
-      "stage": "not_started",
-      "exists": false,
-      "main_words": 0,
-      "note_words": 0
+      "stage": "drafted",
+      "exists": true,
+      "main_words": 6000,
+      "note_words": 860,
+      "sha256": "3e555f6c0448543e9a38f4755c93788c87b8dee5d424cf0620e30623bef0446e",
+      "note_count": 12,
+      "missing_notes": [],
+      "unused_notes": [],
+      "duplicate_notes": false
     },
     {
       "id": "chapter_04",

@@ -42,6 +42,8 @@ V5 citations: Bar-Yam (2016); Pemantle (2007); Oliveira (2009); Gottfried and Gr
 
 Replay the procurement example with the same underlying parameters, starting state, and response rules, but different early awards. Let later behavior change only as the unchanged rules prescribe. Separate these histories from an intervention that changes an input or a policy. Return briefly to MusicLab as an observed analogue of parallel histories, not a test of the theorem.
 
+Use Le Goff and Soulier's ant-fork experiment as a concrete predecessor: a continued reinforced path differs from repeated finite trials. John Snow's 1854 comparison of intermingled London water-company customers supplies a historical counterweight: useful causal variation can exist within one observed history. Do not identify either case with a measured comparison budget or an empirical proof of the lifetime result.
+
 Explain the finite-budget result in prose and preserve its conditions. Candidate explanations must use the common recorded experiment, retain the same possible next recipients, and differ in a way controlled by remaining comparison. Additional informative outcomes belong in the experiment. The conclusion is a failure of universal consistent recovery, not identical probabilities, total ignorance, or a guarantee that every observed market is permanently unknowable.
 
 Use Blackwell and Dubins to explain how forecasts can converge while attribution remains unresolved in v5's setting. Credit Le Goff and Soulier and Zhang for prior estimation and prediction results. A single grouped technical endnote credits Kakutani, Kabanov and colleagues, Jacod and Shiryaev, Gabriyelyan, and Le Cam and Yang. Close with what an independent, informative replication could add.

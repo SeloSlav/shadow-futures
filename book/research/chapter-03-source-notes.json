@@ -1,0 +1,278 @@
+{
+  "manuscript": "book/manuscript/04-shadow-futures.md",
+  "title": "Shadow futures",
+  "checked_on": "2026-10-16",
+  "status": "drafted",
+  "target_main_words": 6000,
+  "body_words": 6000,
+  "draft_sha256": "3e555f6c0448543e9a38f4755c93788c87b8dee5d424cf0620e30623bef0446e",
+  "source_checks": "Substantive main-text source passages and v5 conditions checked. Four technical-lineage entries have explicit partial/original-access boundaries and remain on final source audit queue. No independent proof or established priority certification.",
+  "sources": [
+    {
+      "key": "ErlicV5",
+      "note": "c3-1",
+      "source": "output/docx/Shadow_Futures_FINAL_Comparison_Budget_Revised_v5.docx",
+      "locator": "Sections 2-4; Proposition 1; Theorem 1 and Corollary 1; Appendices A-C and E.1",
+      "claims": [
+        "Shadow-future definition; replay versus intervention; conditions and universal-consistency limit; predictive merging application; independent informative copies"
+      ],
+      "boundary": "Author preprint, not independent proof certification. Extra outcomes belong in the observation model; fixed-parameter equivalence differs from equivalent prior mixtures; hidden-position exact observational equivalence is separate.",
+      "v5_reference": false
+    },
+    {
+      "key": "SalganikDoddsWatts2006",
+      "note": "c3-2",
+      "source": "https://www.princeton.edu/~mjs3/salganik_dodds_watts06_full.pdf",
+      "locator": "Printed pp. 854-855; figures 1-3",
+      "claims": [
+        "Separate randomized listener markets; influence and unpredictable success; appeal remains relevant"
+      ],
+      "boundary": "Observed analogue, not exact replications of identical people or validation of lifetime theorem conditions.",
+      "v5_reference": true
+    },
+    {
+      "key": "SalganikBitByBit",
+      "note": "c3-2",
+      "source": "https://www.bitbybitbook.com/en/running-experiments/exp-advice/zero-variable-cost/",
+      "locator": "Section 4.6.1, MusicLab description",
+      "claims": [
+        "Lockdown by 52Metro first and fortieth rankings"
+      ],
+      "boundary": "Specific rankings attributed to Salganik account.",
+      "v5_reference": false
+    },
+    {
+      "key": "BrynjolfssonLiRaymond2025",
+      "note": "c3-3",
+      "source": "https://academic.oup.com/qje/article/140/2/889/7990658",
+      "locator": "Published abstract and Sections I and IV; November 2024 full author version also checked for opening chapters",
+      "claims": [
+        "Studied AI-assistance introduction and productivity heterogeneity"
+      ],
+      "boundary": "Published 5,172-agent version. No macro employment, total organizational value decomposition, or universal causal application.",
+      "v5_reference": false
+    },
+    {
+      "key": "LeGoffSoulier2017",
+      "note": "c3-4",
+      "source": "https://doi.org/10.1515/ijb-2016-0029",
+      "full_text_checked": "https://arxiv.org/pdf/1405.2322",
+      "version_boundary": "arXiv version 2 posted October 4, 2016; rendered cover dated January 29, 2018; published 2017 record used for bibliography.",
+      "locator": "Sections 3.2-3.3, preprint pp. 14-15; Section 4.1, pp. 19-20",
+      "claims": [
+        "Prior single-path estimation analysis; repeated finite trials; one hundred ant choices per trial, fifty trials; blank initial trail and removal after branch choice"
+      ],
+      "boundary": "No inference from ants to economic causal contribution. Does not claim every reinforcement regime prevents every parameter from being estimated.",
+      "v5_reference": true
+    },
+    {
+      "key": "LiChuLangfordSchapire2010",
+      "note": "c3-5",
+      "source": "https://doi.org/10.1145/1772690.1772758",
+      "full_text_checked": "https://arxiv.org/pdf/1003.0146",
+      "locator": "Sections 2.1, 4, 5.2.1; PDF pp. 2, 5-6",
+      "claims": [
+        "Logged randomized article selection and click response; offline replay has design assumptions"
+      ],
+      "boundary": "Replay evaluation method is not observation of a whole alternative economy; no budget estimated.",
+      "v5_reference": false
+    },
+    {
+      "key": "Kakutani1948",
+      "note": "c3-6",
+      "source": "https://doi.org/10.2307/1969123",
+      "locator": "Product-measure scope corroborated by Jacod-Shiryaev Chapter IV introduction and Gabriyelyan introduction; original article access still required",
+      "access_check": "Original JSTOR full text unavailable in this session; no claim of original-paper proof inspection.",
+      "claims": [
+        "Historical technical credit only"
+      ],
+      "boundary": "Original relevant passages remain on full-book source-access queue; main impossibility claim checked against v5 and accessible Gabriyelyan theorem.",
+      "v5_reference": true
+    },
+    {
+      "key": "KabanovLiptserShiryaev1977",
+      "note": "c3-6",
+      "source": "https://doi.org/10.1070/SM1977v033n02ABEH002421",
+      "locator": "Math-Net publisher abstract; primary Jacod-Shiryaev Chapter IV bibliographical comments, item on general stochastic-process case",
+      "access_check": "Publisher PDF was indexed, but direct full download failed (SSL); do not claim full original theorem was read.",
+      "claims": [
+        "Historical credit for general random-sequence extension"
+      ],
+      "boundary": "Original-paper relevant passage check remains open.",
+      "v5_reference": true
+    },
+    {
+      "key": "JacodShiryaev2003",
+      "note": "c3-6",
+      "source": "https://doi.org/10.1007/978-3-662-05265-5_4",
+      "locator": "Chapter IV, published pp. 227-283; publisher-rendered introduction and complete bibliographical comments inspected",
+      "access_check": "Authored historical/lineage passages available; complete chapter and particular theorem pages not accessed.",
+      "claims": [
+        "Filtered-space continuity machinery and earlier credit"
+      ],
+      "boundary": "Specific original-book continuity criterion still to inspect in final technical-lineage audit; not claimed independent proof verification.",
+      "v5_reference": true
+    },
+    {
+      "key": "Gabriyelyan2011",
+      "note": "c3-6",
+      "source": "https://doi.org/10.1007/s10959-011-0359-2",
+      "full_text_checked": "https://arxiv.org/pdf/0802.0385",
+      "version_boundary": "arXiv version 4, April 6, 2011",
+      "locator": "Introduction, pp. 1-3; Theorem 1, p. 3; proof, pp. 6-7",
+      "claims": [
+        "Continuity/singularity criterion on filtered space; classical foundations"
+      ],
+      "boundary": "Read criterion and relevant context; no independent certification that v5 meets every hypothesis.",
+      "v5_reference": true
+    },
+    {
+      "key": "LeCamYang2000",
+      "note": "c3-6",
+      "source": "https://doi.org/10.1007/978-1-4612-1166-2_2",
+      "locator": "Publisher Chapter 2 metadata, Experiments, Deficiencies, Distances, pp. 6-33; v5 Appendix C",
+      "access_check": "Full chapter/particular bound pages not accessible. Bibliographic role corroborated, no claim of full original passage inspection.",
+      "claims": [
+        "Credit for experiment-comparison and precision-limit foundations"
+      ],
+      "boundary": "Relevant original book pages remain on full-book access queue; no book-specific theorem number asserted.",
+      "v5_reference": true
+    },
+    {
+      "key": "BlackwellDubins1962",
+      "note": "c3-7",
+      "source": "https://doi.org/10.1214/aoms/1177704456",
+      "full_text_checked": "book/sources/classics/Blackwell_Dubins_1962_Merging_of_Opinions.pdf",
+      "locator": "Printed pp. 882-883; main theorem p. 883",
+      "claims": [
+        "Conditional future-law merging under absolute continuity"
+      ],
+      "boundary": "Not general agreement of all observers; merging alone does not preclude parameter learning.",
+      "v5_reference": true
+    },
+    {
+      "key": "Zhang2004",
+      "note": "c3-8",
+      "source": "https://doi.org/10.1198/016214504000000241",
+      "full_text_checked": "https://www.stat.purdue.edu/~zhanghao/Paper/JASA2004.pdf",
+      "locator": "Introduction and Section 3; Theorem 2, Corollaries 1-2, Theorem 3; printed pp. 250-253",
+      "claims": [
+        "Fixed-domain infill versus increasing domain; inconsistent individual covariance parameters with estimable combination; predictive agreement"
+      ],
+      "boundary": "Soil field is illustrative, not a reported experiment. Geostatistics result does not establish economic causal attribution or moral desert.",
+      "v5_reference": true
+    },
+    {
+      "key": "BlakeNoskoTadelis2015",
+      "note": "c3-9",
+      "source": "https://doi.org/10.3982/ECTA12423",
+      "full_text_checked": "https://www.nber.org/system/files/working_papers/w20171/w20171.pdf",
+      "version_boundary": "May 2014 NBER working paper read for published 2015 article",
+      "locator": "Introduction and Section 3",
+      "claims": [
+        "Brand-search substitution and heterogeneous nonbrand results"
+      ],
+      "boundary": "No general claim all advertising wasteful or about long-run brand investment.",
+      "v5_reference": false
+    },
+    {
+      "key": "ErlicV5Replications",
+      "note": "c3-10",
+      "source": "output/docx/Shadow_Futures_FINAL_Comparison_Budget_Revised_v5.docx",
+      "locator": "Appendix E.1",
+      "claims": [
+        "Independent informative finite-history copies can support consistency under identification and regularity"
+      ],
+      "boundary": "Different offices or nominal suppliers are not automatically independent; shared supplier effects can invalidate hypothetical replication.",
+      "v5_reference": false
+    },
+    {
+      "key": "WatzingerEtAl2020",
+      "note": "c3-11",
+      "source": "https://www.aeaweb.org/articles?id=10.1257/pol.20190086",
+      "full_text_checked": "https://www.uoc.gr/files/items/6/6537/watzinger_et_al.pdf",
+      "locator": "June 2017 author version, introduction and institutional background, pp. 1-4 and 7-8",
+      "claims": [
+        "1956 patent-licensing decree previews next chapter"
+      ],
+      "boundary": "No claimed budget measure; distinct from 1984 breakup.",
+      "v5_reference": false
+    },
+    {
+      "key": "Snow1855",
+      "note": "c3-12",
+      "source": "https://epi-snow.ph.ucla.edu/Stream3_GrandExperiment_a.html",
+      "locator": "Full Part 3 transcription, headings New water supply of the Lambeth Company; Opportunity ...; Account of the inquiry ...",
+      "claims": [
+        "Lambeth move in 1852; intermixed households; receipts and chemical supply identification; comparative cholera inference"
+      ],
+      "boundary": "Not randomized by Snow. Comparability argument attributed to him, not assertion of literal identity or identification of all effects. No medical advice or comparison-budget estimate.",
+      "v5_reference": false
+    },
+    {
+      "key": "Akerlof1970",
+      "note": "c3-1",
+      "source": "See canonical v5 reference register and earlier chapter source ledger",
+      "locator": "pp. 488-490",
+      "claims": [
+        "Conceptual predecessor recalled in technical note"
+      ],
+      "boundary": "Previously checked relevant passages retained; no new unverified extension claimed.",
+      "v5_reference": true
+    },
+    {
+      "key": "Pemantle2007",
+      "note": "c3-1",
+      "source": "See canonical v5 reference register and earlier chapter source ledger",
+      "locator": "Section 2.1, pp. 3-5, Theorem 2.1",
+      "claims": [
+        "Conceptual predecessor recalled in technical note"
+      ],
+      "boundary": "Previously checked relevant passages retained; no new unverified extension claimed.",
+      "v5_reference": true
+    },
+    {
+      "key": "Oliveira2009",
+      "note": "c3-1",
+      "source": "See canonical v5 reference register and earlier chapter source ledger",
+      "locator": "Author preprint pp. 1-2, Theorem 1",
+      "claims": [
+        "Conceptual predecessor recalled in technical note"
+      ],
+      "boundary": "Previously checked relevant passages retained; no new unverified extension claimed.",
+      "v5_reference": true
+    },
+    {
+      "key": "GottfriedGrosskinsky2024",
+      "note": "c3-1",
+      "source": "See canonical v5 reference register and earlier chapter source ledger",
+      "locator": "Author preprint Sections 2.1-2.3, Theorem 2.2, p. 6",
+      "claims": [
+        "Conceptual predecessor recalled in technical note"
+      ],
+      "boundary": "Previously checked relevant passages retained; no new unverified extension claimed.",
+      "v5_reference": true
+    }
+  ],
+  "illustrations": [
+    "Aster and Birch are fictional; the opening replay preserves underlying effects, initial conditions and response rules; realized investment can differ.",
+    "Coin sequences and prior mixtures illustrate why mere possibilities or merging alone do not prove nonlearning.",
+    "Soil field, AI buyer, simulations and independent purchasing units are hypothetical."
+  ],
+  "narrative_checks": [
+    "Opening first award replay, then intervention difference.",
+    "New ant and historical water-supply cases supplement MusicLab, Yahoo, AI-support and eBay.",
+    "No fabricated dialogue, visits or private reactions.",
+    "No equations; condition statements remain in plain language.",
+    "No identical-probability or total-ignorance conclusion; independent informative replication and additional outcomes explicitly considered.",
+    "Attribution, forecasts, execution, legal payment and desert kept distinct.",
+    "Separate latent-position tax equivalence not silently used for the single-history result."
+  ],
+  "remaining_source_access_checks": [
+    "Kakutani1948 original relevant passages",
+    "KabanovLiptserShiryaev1977 original relevant theorem passages",
+    "JacodShiryaev2003 specific continuity criterion beyond authored lineage passages",
+    "LeCamYang2000 relevant original precision/experiment-comparison passages"
+  ],
+  "whole_book_review": "Still required after full draft: conceptual continuity, repetition, source audit and copy edit."
+}

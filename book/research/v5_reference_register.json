@@ -36,6 +36,10 @@
         {
           "manuscript": "book/manuscript/02-the-winner-and-the-explanation.md",
           "note": "c1-8"
+        },
+        {
+          "manuscript": "book/manuscript/04-shadow-futures.md",
+          "note": "c3-1"
         }
       ]
     },
@@ -81,7 +85,15 @@
       "subject": "Predictive merging",
       "use_and_boundary": "Credit the classical prediction result; v5 supplies the allocation setting and attribution conjunction.",
       "inventory_status": "transcribed_from_canonical_v5",
-      "book_full_text_check": "required_before_claim_specific_drafting"
+      "book_full_text_check": "relevant_passages_checked_for_recorded_draft_claims",
+      "drafted_citations": [
+        {
+          "manuscript": "book/manuscript/04-shadow-futures.md",
+          "note": "c3-7"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "checked_locator": "Printed pp. 882-883; main theorem p. 883"
     },
     {
       "key": "David1985",
@@ -103,7 +115,15 @@
       "subject": "Probability laws on filtered spaces",
       "use_and_boundary": "Credit the mathematical foundation in a plain-language chapter endnote; do not reproduce the proof.",
       "inventory_status": "transcribed_from_canonical_v5",
-      "book_full_text_check": "required_before_claim_specific_drafting"
+      "book_full_text_check": "relevant_passages_checked_for_recorded_draft_claims",
+      "drafted_citations": [
+        {
+          "manuscript": "book/manuscript/04-shadow-futures.md",
+          "note": "c3-6"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "checked_locator": "Author version 4, April 6, 2011, introduction and Theorem 1, pp. 1-3; proof pp. 6-7"
     },
     {
       "key": "GottfriedGrosskinsky2024",
@@ -122,6 +142,10 @@
         {
           "manuscript": "book/manuscript/03-the-comparison-budget.md",
           "note": "c2-5"
+        },
+        {
+          "manuscript": "book/manuscript/04-shadow-futures.md",
+          "note": "c3-1"
         }
       ]
     },
@@ -147,7 +171,16 @@
       "subject": "Stochastic-process probability machinery",
       "use_and_boundary": "Technical lineage endnote for the main theorem, using the exact v5 edition.",
       "inventory_status": "transcribed_from_canonical_v5",
-      "book_full_text_check": "required_before_claim_specific_drafting"
+      "book_full_text_check": "lineage_corroborated_original_passage_check_pending",
+      "drafted_citations": [
+        {
+          "manuscript": "book/manuscript/04-shadow-futures.md",
+          "note": "c3-6"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "checked_locator": "Chapter IV, published pp. 227-283; publisher-rendered introduction and complete bibliographical comments inspected",
+      "access_boundary": "Authored historical/lineage passages available; complete chapter and particular theorem pages not accessed."
     },
     {
       "key": "KabanovLiptserShiryaev1977",
@@ -158,7 +191,16 @@
       "subject": "Absolute continuity and singularity",
       "use_and_boundary": "Technical lineage endnote; the general probability result is not a new result of Shadow Futures.",
       "inventory_status": "transcribed_from_canonical_v5",
-      "book_full_text_check": "required_before_claim_specific_drafting"
+      "book_full_text_check": "lineage_corroborated_original_passage_check_pending",
+      "drafted_citations": [
+        {
+          "manuscript": "book/manuscript/04-shadow-futures.md",
+          "note": "c3-6"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "checked_locator": "Math-Net publisher abstract; primary Jacod-Shiryaev Chapter IV bibliographical comments, item on general stochastic-process case",
+      "access_boundary": "Publisher PDF was indexed, but direct full download failed (SSL); do not claim full original theorem was read."
     },
     {
       "key": "Kakutani1948",
@@ -169,7 +211,16 @@
       "subject": "Infinite product measures",
       "use_and_boundary": "Explain the older question of what an indefinitely long record can distinguish.",
       "inventory_status": "transcribed_from_canonical_v5",
-      "book_full_text_check": "required_before_claim_specific_drafting"
+      "book_full_text_check": "lineage_corroborated_original_passage_check_pending",
+      "drafted_citations": [
+        {
+          "manuscript": "book/manuscript/04-shadow-futures.md",
+          "note": "c3-6"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "checked_locator": "Product-measure scope corroborated by Jacod-Shiryaev Chapter IV introduction and Gabriyelyan introduction; original article access still required",
+      "access_boundary": "Original JSTOR full text unavailable in this session; no claim of original-paper proof inspection."
     },
     {
       "key": "KasySautmann2021",
@@ -215,7 +266,16 @@
       "subject": "Limits on statistical precision",
       "use_and_boundary": "Credit the testing and lower-bound machinery in the finite-record endnote.",
       "inventory_status": "transcribed_from_canonical_v5",
-      "book_full_text_check": "required_before_claim_specific_drafting"
+      "book_full_text_check": "lineage_corroborated_original_passage_check_pending",
+      "drafted_citations": [
+        {
+          "manuscript": "book/manuscript/04-shadow-futures.md",
+          "note": "c3-6"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "checked_locator": "Publisher Chapter 2 metadata, Experiments, Deficiencies, Distances, pp. 6-33; v5 Appendix C",
+      "access_boundary": "Full chapter/particular bound pages not accessible. Bibliographic role corroborated, no claim of full original passage inspection."
     },
     {
       "key": "LeGoffSoulier2017",
@@ -226,7 +286,15 @@
       "subject": "Prior estimation failure for a reinforced urn",
       "use_and_boundary": "State explicitly that single-trajectory estimation failure predates v5.",
       "inventory_status": "transcribed_from_canonical_v5",
-      "book_full_text_check": "required_before_claim_specific_drafting"
+      "book_full_text_check": "relevant_passages_checked_for_recorded_draft_claims",
+      "drafted_citations": [
+        {
+          "manuscript": "book/manuscript/04-shadow-futures.md",
+          "note": "c3-4"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "checked_locator": "Author version 2, Sections 3.2-3.3, pp. 14-15; Section 4.1, pp. 19-20"
     },
     {
       "key": "Meghani2021",
@@ -282,6 +350,10 @@
         {
           "manuscript": "book/manuscript/03-the-comparison-budget.md",
           "note": "c2-5"
+        },
+        {
+          "manuscript": "book/manuscript/04-shadow-futures.md",
+          "note": "c3-1"
         }
       ]
     },
@@ -302,6 +374,10 @@
         {
           "manuscript": "book/manuscript/03-the-comparison-budget.md",
           "note": "c2-4"
+        },
+        {
+          "manuscript": "book/manuscript/04-shadow-futures.md",
+          "note": "c3-1"
         }
       ]
     },
@@ -352,6 +428,10 @@
         {
           "manuscript": "book/manuscript/02-the-winner-and-the-explanation.md",
           "note": "c1-1"
+        },
+        {
+          "manuscript": "book/manuscript/04-shadow-futures.md",
+          "note": "c3-2"
         }
       ]
     },
@@ -390,7 +470,15 @@
       "subject": "Prediction alongside inconsistent parameter estimation",
       "use_and_boundary": "Credit the prior distinction in geostatistics; avoid claiming that prediction without parameter recovery is newly discovered.",
       "inventory_status": "transcribed_from_canonical_v5",
-      "book_full_text_check": "required_before_claim_specific_drafting"
+      "book_full_text_check": "relevant_passages_checked_for_recorded_draft_claims",
+      "drafted_citations": [
+        {
+          "manuscript": "book/manuscript/04-shadow-futures.md",
+          "note": "c3-8"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "checked_locator": "Printed pp. 250-253; Section 3, Theorem 2, Corollaries 1-2 and Theorem 3"
     }
   ]
 }
