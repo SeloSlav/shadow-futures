@@ -2,7 +2,7 @@
   "manuscript": "book/manuscript/13-an-economics-of-possible-worlds.md",
   "title": "An economics of possible worlds",
   "checked_on": "2026-10-16",
-  "status": "drafted_revision_review_pending",
+  "status": "reviewed",
   "target_main_words": 6000,
   "body_words": 6321,
   "note_words": 833,
@@ -295,7 +295,7 @@
     "No equations, invented realinterviews/visits/private experience.",
     "6000mainwords; Lockdown returns as observed contrast rather than rewardmeritcalculation."
   ],
-  "whole_book_review": "Sequential component review completed for recorded claims. Original Blackwell1953 source gap subsequently closed. Four canonical Chapter3 original technical passages and final audit reconciliation remain open; see final-cross-book-audit.json.",
+  "whole_book_review": "Current comparative revision reviewed for recorded claims; four canonical Chapter3 original passages and author read-through remain open. See planning/finishing-pass.md.",
   "sequential_review": {
     "checked_on": "2026-10-16",
     "status": "completed_for_recorded_chapter_claims",
@@ -311,12 +311,20 @@
       "Cross-book audit restored the outline-promised Arrow1963 institutional foundation. Relevant original introduction and medical-market passages were read. Added concrete patient/physician example replaces85words of generic research-program recap; no main-budget expansion.",
       "Subsequent cross-book source completion obtained and visually read original Blackwell1953 pp.265–272. Notes now cite exact original decision-risk and transformation passages and retain earlier Sherman–Stein credit. The previous original-access gap is closed; no main-text change."
     ],
-    "draft_sha256": "15f467d49f9dca59a0a6fa90553087e4874cbedcdd8c0c47f2f2aac0299d039c"
+    "draft_sha256": "c3b4590484a2ad8cd79933527f275f29a442d1016f41e8c045802281fce34a9f"
   },
   "comparative_institutions_revision": {
     "checked_on": "2026-10-16",
-    "status": "integrated_final_reconciliation_pending_user_paused",
+    "status": "integrated_reviewed_for_recorded_claims",
     "draft_sha256": "c3b4590484a2ad8cd79933527f275f29a442d1016f41e8c045802281fce34a9f",
-    "scope": "US–EU–China comparison and linked ownership/taxation/robustness argument; existing chapter foundations retained."
+    "scope": "US–EU–China comparison and linked ownership/taxation/robustness argument; existing chapter foundations retained.",
+    "review_scope": "Bounded changed-passage review plus earlier sequential chapter/source reviews; final unresolved original-source checks remain separate.",
+    "findings": [
+      "Current comparative section and ownership/tax/robustness links read once; earlier full sequential reviews and source-specific checks reused for unchanged passages.",
+      "EU access and retained private assets, US deregulation plus access initiatives, and Chinese industrial support plus scoped political requirements remain distinct dated records. No country ranking or measured robustness claim.",
+      "Birch is hypothetical; agent count, ownership distribution, useful comparison, corrective harm and institutional resilience remain separate. Policy changes are interventions, not fixed-rule shadow replays.",
+      "Nine new primary source records retain versions, passage locators and limits. Existing private tests, scale benefits, full costs, public-evaluator errors and disconfirming outcomes remain in the argument.",
+      "No prose change required in this pass. No unavailable-source retries, new factual claims, broad literature review or independent proof/priority certification."
+    ]
   }
 }

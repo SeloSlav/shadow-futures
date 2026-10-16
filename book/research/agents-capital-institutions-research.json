@@ -1,5 +1,5 @@
 {
-  "status": "integrated_chapters_08_to_12_review_pending",
+  "status": "integrated_reviewed_for_recorded_claims",
   "checked_on": "2026-10-16",
   "memo": "book/planning/agents-capital-and-three-economies.md",
   "scope": "Primary-source research supporting a user-requested revision plan. This is not a new manuscript source ledger or certification of current country rankings, economic outcomes, legal advice, or a v5 empirical application.",
@@ -181,8 +181,5 @@
       }
     }
   ],
-  "next_checks_before_integration": [
-    "Integration complete; reread changed chapter sequence and compacted notes, verify canonical identities, note/source bindings, URL coverage, current hashes and budgets.",
-    "Final cross-book reconciliation and four original canonical technical passages remain separate."
-  ]
+  "remaining_work": "No remaining integration work. Four original canonical technical-passage flags and author read-through remain separate."
 }

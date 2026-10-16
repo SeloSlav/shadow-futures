@@ -4,14 +4,14 @@
   "objective": "Complete book at prologue standard, including sequential editorial, conceptual, factual and citation review; counts and file existence do not certify completion.",
   "mechanical_checks": {
     "main_words": 80000,
-    "back_matter_words": 14778,
+    "back_matter_words": 14647,
     "main_components": 15,
-    "endnotes": 190,
-    "bibliography_entries": 122,
+    "endnotes": 197,
+    "bibliography_entries": 131,
     "canonical_v5_entries": 24,
-    "source_ledger_identifiers": 123,
+    "source_ledger_identifiers": 132,
     "identifiers_covered": true,
-    "distinct_note_urls": 148,
+    "distinct_note_urls": 157,
     "unmapped_note_urls": [],
     "interpretation": "URL-to-work coverage and source/hash binding, not proof every URL currently serves full text or every cited claim is correct."
   },
@@ -118,7 +118,7 @@
     {
       "id": "chapter_10",
       "file": "book/manuscript/11-competition-for-future-evidence.md",
-      "sha256": "757c534e4ad7f74bec16ef6327409ca423a5c4fbf3aef968a80c59b382fcfee4",
+      "sha256": "c120e6470cb428cc8e44f601120848511e567beb9530c4dce7f489fb8c67dda3",
       "sequential_editorial_review": "completed",
       "conceptual_factual_citation_review": "completed_for_recorded_claims_with_explicit_source_boundaries",
       "checked_on": "2026-10-16",
@@ -127,7 +127,7 @@
     {
       "id": "chapter_11",
       "file": "book/manuscript/12-taxing-lost-comparison.md",
-      "sha256": "3c0b7a75a903f31e86ac7d3a1c689a68937811608469f0b234e1c55ccaf3da9d",
+      "sha256": "688ba1d2375cc5d50063654012fe44be3d5794d628b377392cb9446da8eb7ed9",
       "sequential_editorial_review": "completed",
       "conceptual_factual_citation_review": "completed_for_recorded_claims_with_explicit_source_boundaries",
       "checked_on": "2026-10-16",
@@ -136,7 +136,7 @@
     {
       "id": "chapter_12",
       "file": "book/manuscript/13-an-economics-of-possible-worlds.md",
-      "sha256": "15f467d49f9dca59a0a6fa90553087e4874cbedcdd8c0c47f2f2aac0299d039c",
+      "sha256": "c3b4590484a2ad8cd79933527f275f29a442d1016f41e8c045802281fce34a9f",
       "sequential_editorial_review": "completed",
       "conceptual_factual_citation_review": "completed_for_recorded_claims_with_explicit_source_boundaries",
       "checked_on": "2026-10-16",
@@ -202,7 +202,7 @@
     ],
     "scope": "Initial argument brief and outline exports only; not the 80000-word book."
   },
-  "completion_audit": "Not passed. Agent-team and capital-ownership revisions are now integrated and reviewed in Chapters8–9. Comparative-institutions and closing revisions remain pending, alongside four canonical original technical passages and final cross-book reconciliation.",
+  "completion_audit": "Not passed. All manuscript components and the latest agent/capital/institutions revision are drafted and reviewed for recorded claims. Four original technical passages remain unverified. Bounded finishing pass completed; author read-through and one subsequent issue-list revision remain.",
   "review_sessions": [
     {
       "checked_on": "2026-10-16",
@@ -523,15 +523,40 @@
       },
       "reader_sha256_after_revision": "fd24f1783efb2a91b5cde84db57bbd9d7a5d72e022dc0263510306b8a2f1b8f8",
       "remaining_scope": "New comparative-institutions/tax/robustness passages, four original canonical technical sources, final cross-book reconciliation."
+    },
+    {
+      "checked_on": "2026-10-16",
+      "scope": [
+        "bounded_comparative_revision_closure"
+      ],
+      "method": "Current changed passages read once; unchanged reader hash, existing sequential reviews and claim-specific source records reused. One integrity check; no new source retrieval.",
+      "findings": [
+        "Current comparative section and ownership/tax/robustness links read once; earlier full sequential reviews and source-specific checks reused for unchanged passages.",
+        "EU access and retained private assets, US deregulation plus access initiatives, and Chinese industrial support plus scoped political requirements remain distinct dated records. No country ranking or measured robustness claim.",
+        "Birch is hypothetical; agent count, ownership distribution, useful comparison, corrective harm and institutional resilience remain separate. Policy changes are interventions, not fixed-rule shadow replays.",
+        "Nine new primary source records retain versions, passage locators and limits. Existing private tests, scale benefits, full costs, public-evaluator errors and disconfirming outcomes remain in the argument.",
+        "No prose change required in this pass. No unavailable-source retries, new factual claims, broad literature review or independent proof/priority certification."
+      ],
+      "reader_sha256_after_revision": "31cdd14e5fe75c05d6f2ea373cdced30e268d37b41ea3de7631be3e7ab720446",
+      "budget": {
+        "main_words": 80000,
+        "back_matter_words": 14647,
+        "endnotes": 197,
+        "references": 131,
+        "ledger_identifiers": 132,
+        "note_urls": 157,
+        "canonical_v5": 24
+      },
+      "remaining_scope": "Four flagged original technical passages and author issue-list pass."
     }
   ],
-  "next_component": "comparative_institutions_chapters_10_to_12",
+  "next_component": "author_issue_list_or_explicitly_scoped_original_source_check",
   "cross_book_audit": "book/research/final-cross-book-audit.json; in_progress",
   "pending_user_revisions": [
     {
       "id": "agents_capital_and_comparative_institutions",
       "requested_on": "2026-10-16",
-      "status": "partially_integrated",
+      "status": "integrated_reviewed",
       "memo": "book/planning/agents-capital-and-three-economies.md",
       "research": "book/research/agents-capital-institutions-research.json",
       "decision": "Keep twelve chapters; prepare agent work and ownership in Chapters 8–9, anchor the EU–US–China comparison in Chapter 10, and return to distribution and adaptability in Chapters 11–12.",
@@ -547,11 +572,12 @@
       "components": {
         "chapter_08": "integrated_reviewed",
         "chapter_09": "integrated_reviewed",
-        "chapter_10": "pending",
-        "chapter_11": "pending",
-        "chapter_12": "pending"
+        "chapter_10": "integrated_reviewed",
+        "chapter_11": "integrated_reviewed",
+        "chapter_12": "integrated_reviewed"
       },
-      "remaining_scope": "Comparative EU–US–China centerpiece, tax/ownership bridge and adaptability ending; fresh source/budget/continuity review after those changes."
+      "remaining_scope": "No remaining integration work for this request. Four original canonical source checks and author read-through are separate finishing tasks.",
+      "review_record": "book/planning/finishing-pass.md"
     }
   ]
 }

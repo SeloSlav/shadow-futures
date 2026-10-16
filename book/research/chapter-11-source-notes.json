@@ -2,7 +2,7 @@
   "manuscript": "book/manuscript/12-taxing-lost-comparison.md",
   "title": "Taxing lost comparison",
   "checked_on": "2026-10-16",
-  "status": "drafted_revision_review_pending",
+  "status": "reviewed",
   "target_main_words": 6000,
   "body_words": 6297,
   "note_words": 766,
@@ -236,7 +236,7 @@
     "Disclosure strategic costs, capacity, welfare weights, fixed operating firm and financing limits acknowledged.",
     "Normative commitments consistent with Chapter6 and explicitly separate from theorem."
   ],
-  "whole_book_review": "Sequential component review completed for recorded claims. Original-source queue and final cross-book continuity, repetition, factual, conceptual, citation and budget audit remain separate and open.",
+  "whole_book_review": "Current comparative revision reviewed for recorded claims; four canonical Chapter3 original passages and author read-through remain open. See planning/finishing-pass.md.",
   "historical_scale_revision": {
     "checked_on": "2026-10-16",
     "scope": "Targeted user-requested historical scale, reach-of-judgment, preemption, platform work, precaution and private-property revision; complete sequential chapter review remains pending.",
@@ -255,12 +255,20 @@
       "Private maintenance log is an explicit hypothetical illustrating common-decision delivery, not an allegation of withheld findings. Useful private tests remain part of the evidence they inform.",
       "Removed duplicate financing-proxy and earmarking recaps; historical reach-of-exclusion, scale benefits, measurement/quality, additionality, costs, incidence, entry and legal premises remain. No actual-company tax estimate, liability or automatic success charge."
     ],
-    "draft_sha256": "3c0b7a75a903f31e86ac7d3a1c689a68937811608469f0b234e1c55ccaf3da9d"
+    "draft_sha256": "688ba1d2375cc5d50063654012fe44be3d5794d628b377392cb9446da8eb7ed9"
   },
   "comparative_institutions_revision": {
     "checked_on": "2026-10-16",
-    "status": "integrated_final_reconciliation_pending_user_paused",
+    "status": "integrated_reviewed_for_recorded_claims",
     "draft_sha256": "688ba1d2375cc5d50063654012fe44be3d5794d628b377392cb9446da8eb7ed9",
-    "scope": "US–EU–China comparison and linked ownership/taxation/robustness argument; existing chapter foundations retained."
+    "scope": "US–EU–China comparison and linked ownership/taxation/robustness argument; existing chapter foundations retained.",
+    "review_scope": "Bounded changed-passage review plus earlier sequential chapter/source reviews; final unresolved original-source checks remain separate.",
+    "findings": [
+      "Current comparative section and ownership/tax/robustness links read once; earlier full sequential reviews and source-specific checks reused for unchanged passages.",
+      "EU access and retained private assets, US deregulation plus access initiatives, and Chinese industrial support plus scoped political requirements remain distinct dated records. No country ranking or measured robustness claim.",
+      "Birch is hypothetical; agent count, ownership distribution, useful comparison, corrective harm and institutional resilience remain separate. Policy changes are interventions, not fixed-rule shadow replays.",
+      "Nine new primary source records retain versions, passage locators and limits. Existing private tests, scale benefits, full costs, public-evaluator errors and disconfirming outcomes remain in the argument.",
+      "No prose change required in this pass. No unavailable-source retries, new factual claims, broad literature review or independent proof/priority certification."
+    ]
   }
 }

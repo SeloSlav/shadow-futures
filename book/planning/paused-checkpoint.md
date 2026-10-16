@@ -1,5 +1,7 @@
 # Paused book checkpoint — 16 October 2026
 
+Historical checkpoint. The subsequent bounded finishing pass is recorded in [finishing-pass.md](finishing-pass.md); use that file for current status.
+
 The user requested stopping usage-intensive work. The full-book goal is paused. Do not resume it automatically. This file is the latest handoff; earlier planning/review records predate the newest revision and must not be treated as a current final certification.
 
 ## Current artifact

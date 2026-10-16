@@ -2,11 +2,11 @@
 
 Martin Erlic · 16 October 2026
 
-Editorial decision: weave this argument through the existing twelve chapters, with a substantial comparative section in Chapter 10. This is the revision plan and source-backed argument memo. The agent and capital material is now integrated into Chapters 8 and 9; the comparative centerpiece and Chapters 11–12 links remain pending. The main text remains exactly 80,000 words.
+Editorial decision: weave this argument through the existing twelve chapters, with a substantial comparative section in Chapter 10. This is the revision plan and source-backed argument memo. The agent and capital material, comparative centerpiece, and Chapters 11–12 links are integrated and reviewed for recorded claims. See `finishing-pass.md` for current counts and remaining work. The main text remains exactly 80,000 words.
 
 ## What the present draft contains
 
-Chapter 7 explains computing infrastructure, productive scale, finance, and access. Chapter 8 now combines the compiler team's actual production case with a shorter Smallville contrast, routing, and checked outputs. Chapter 9 adds agent invoices, retained earnings, productive assets and alternative ownership arrangements to its workplace and training evidence. Chapters 10–12 supply the access, taxation and institutional foundations. The sustained US–EU–China comparison remains to be written. The two revised chapters contain 5,849 and 6,022 main words, preserving their previous combined allocation.
+Chapter 7 explains computing infrastructure, productive scale, finance, and access. Chapter 8 now combines the compiler team's actual production case with a shorter Smallville contrast, routing, and checked outputs. Chapter 9 adds agent invoices, retained earnings, productive assets and alternative ownership arrangements to its workplace and training evidence. Chapters 10–12 supply the access, taxation and institutional foundations. The sustained US–EU–China comparison is now in Chapter 10, followed by the Chapter 11 ownership/tax link and Chapter 12 robustness criterion. The two revised chapters contain 5,849 and 6,022 main words, preserving their previous combined allocation.
 
 ## The argument to develop
 
@@ -64,4 +64,4 @@ The plausible long-run claim is conditional. A society that sustains several eff
 
 These roughly 3,500 words replace existing prose; they are not an addition to 80,000. Start with repeated general explanations and case recaps, preserving the canonical 24-reference roles, necessary theorem conditions, and the council's concrete design. A rebalancing across chapters is permissible within the approved 72,000 combined chapter words. Select and count actual cuts during drafting; a plan does not certify that every proposed cut is harmless.
 
-Back matter now contains 14,778 words, leaving 222 below the 15,000 ceiling. Three new works and two endnotes have entered Chapters 8–9; the original Korinek–Suh paper is saved with its hash and exact checked passages. The remaining comparative references and notes will require concise cross-references and reductions in repeated bibliographic or limitation prose. Preserve the version, relevant passage, and factual boundary in reader notes and source records. Remaining planning sources enter the manuscript bibliography only when cited in the chapters.
+The revision is implemented within 80,000 main words and 14,647 back-matter words, with 197 endnotes and 131 references. All planned comparative sources now have manuscript citations and ledger records; exact versions and source limits are retained. The allocations above are the original planning estimates. Current implementation, review scope and the four remaining original technical-source flags are recorded in `finishing-pass.md`.

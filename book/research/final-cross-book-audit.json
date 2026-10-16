@@ -1,7 +1,7 @@
 {
   "status": "in_progress",
   "checked_on": "2026-10-16",
-  "reader_sha256": "fd24f1783efb2a91b5cde84db57bbd9d7a5d72e022dc0263510306b8a2f1b8f8",
+  "reader_sha256": "31cdd14e5fe75c05d6f2ea373cdced30e268d37b41ea3de7631be3e7ab720446",
   "scope": "Cross-book audit after all 15 main components received sequential editorial review. Recorded comparisons and source completion below are bounded checks; four canonical original technical passages remain open.",
   "completed_checks": [
     {
@@ -48,6 +48,11 @@
       "check": "Agent-team and capital-ownership revision, Chapters8–9",
       "method": "Full prior chapters read; source-backed revisions and adjacent retained passages reviewed. Source version, note matching, canonical identities and budgets checked against current hashes.",
       "finding": "Real compiler checking, simulated social agents and institutional contract thought experiments remain distinct. Renting, profits, investment, ownership, wages and entrepreneurial access separated. Prior macro scenario analysis credited; no country ranking, universal wage forecast, size-alone monopoly or agent-count comparison budget. Later comparative/closing revision remains open."
+    },
+    {
+      "check": "Bounded agent/capital/comparative revision closure",
+      "method": "Reuse original passage checks and prior full component reviews; read current additions, reconcile their source bindings and saved hashes. No repeat source-access attempts.",
+      "finding": "Integration complete, including taxation and falsifiable robustness criterion. Current assembly/coverage verified; four original technical-source flags remain open."
     }
   ],
   "exact_repeated_sentences": [
@@ -80,18 +85,17 @@
     }
   ],
   "remaining_work": [
-    "Complete the user-requested comparative EU–US–China centerpiece and Chapters11–12 ownership/adaptability links. Chapters8–9 agent/capital revision is integrated; reconcile the entire new sequence and all new sources within approved budgets.",
-    "Read/check four remaining canonical original technical passages: Kakutani1948 main theorem, KabanovLiptserShiryaev1977 relevant extension, JacodShiryaev2003 particular continuity criterion, LeCamYang2000 two-point bound. Partial original passages and checked alternative primary sources do not silently clear these checks.",
-    "Reconcile final conceptual/citation audit with those source findings; retain no claim of independent proof or priority certification.",
-    "Complete objective audit against all six plan requirements and checkpoint any final changes."
+    "Resolve or explicitly retain the four original technical-passage flags in a separately scoped source task. Prior failed routes are recorded; do not repeat them without new evidence.",
+    "Author reads current manuscript and supplies one consolidated issue list; perform one bounded revision pass against it.",
+    "After that pass, check changed text, final assembly/citations/budgets and submission status once. Do not claim independent proof or priority certification."
   ],
   "mechanical_totals": {
     "main_words": 80000,
-    "back_matter_words": 14778,
-    "endnotes": 190,
-    "references": 122,
-    "ledger_identifiers": 123,
-    "note_urls": 148,
+    "back_matter_words": 14647,
+    "endnotes": 197,
+    "references": 131,
+    "ledger_identifiers": 132,
+    "note_urls": 157,
     "canonical_v5": 24
   },
   "resolved_original_sources": [
@@ -107,9 +111,8 @@
   "pending_user_revisions": [
     {
       "id": "agents_capital_and_comparative_institutions",
-      "status": "partially_integrated_chapters_08_09",
-      "memo": "book/planning/agents-capital-and-three-economies.md",
-      "research": "book/research/agents-capital-institutions-research.json"
+      "status": "integrated_reviewed",
+      "review_record": "book/planning/finishing-pass.md"
     }
   ]
 }

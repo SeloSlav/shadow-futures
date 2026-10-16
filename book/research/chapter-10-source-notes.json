@@ -2,7 +2,7 @@
   "manuscript": "book/manuscript/11-competition-for-future-evidence.md",
   "title": "Competition for future evidence",
   "checked_on": "2026-10-16",
-  "status": "drafted_revision_review_pending",
+  "status": "reviewed",
   "target_main_words": 6000,
   "body_words": 5368,
   "note_words": 720,
@@ -404,7 +404,7 @@
     "Decision-specific common rule, calibration, transportability and expected versus realized outcome distinct.",
     "No equations, invented interviews, actual-company tax/welfare estimates or automatic legal liability."
   ],
-  "whole_book_review": "Sequential component review completed for recorded claims. Original Blackwell1953 source gap subsequently closed. Four canonical Chapter3 original technical passages and final audit reconciliation remain open; see final-cross-book-audit.json.",
+  "whole_book_review": "Current comparative revision reviewed for recorded claims; four canonical Chapter3 original passages and author read-through remain open. See planning/finishing-pass.md.",
   "historical_scale_revision": {
     "checked_on": "2026-10-16",
     "scope": "Targeted user-requested historical scale, reach-of-judgment, preemption, platform work, precaution and private-property revision; complete sequential chapter review remains pending.",
@@ -432,12 +432,20 @@
       "Ipsos February16,2026 full primary publication refreshed; fieldwork2025, recommendation measures and publication purpose verified. Dated case, not newest August result.",
       "Google December5,2025 original judgment pp.6-7 re-read; documentation and exclusions verified, no implementation or appeal result claim."
     ],
-    "draft_sha256": "757c534e4ad7f74bec16ef6327409ca423a5c4fbf3aef968a80c59b382fcfee4"
+    "draft_sha256": "c120e6470cb428cc8e44f601120848511e567beb9530c4dce7f489fb8c67dda3"
   },
   "comparative_institutions_revision": {
     "checked_on": "2026-10-16",
-    "status": "integrated_final_reconciliation_pending_user_paused",
+    "status": "integrated_reviewed_for_recorded_claims",
     "draft_sha256": "c120e6470cb428cc8e44f601120848511e567beb9530c4dce7f489fb8c67dda3",
-    "scope": "US–EU–China comparison and linked ownership/taxation/robustness argument; existing chapter foundations retained."
+    "scope": "US–EU–China comparison and linked ownership/taxation/robustness argument; existing chapter foundations retained.",
+    "review_scope": "Bounded changed-passage review plus earlier sequential chapter/source reviews; final unresolved original-source checks remain separate.",
+    "findings": [
+      "Current comparative section and ownership/tax/robustness links read once; earlier full sequential reviews and source-specific checks reused for unchanged passages.",
+      "EU access and retained private assets, US deregulation plus access initiatives, and Chinese industrial support plus scoped political requirements remain distinct dated records. No country ranking or measured robustness claim.",
+      "Birch is hypothetical; agent count, ownership distribution, useful comparison, corrective harm and institutional resilience remain separate. Policy changes are interventions, not fixed-rule shadow replays.",
+      "Nine new primary source records retain versions, passage locators and limits. Existing private tests, scale benefits, full costs, public-evaluator errors and disconfirming outcomes remain in the argument.",
+      "No prose change required in this pass. No unavailable-source retries, new factual claims, broad literature review or independent proof/priority certification."
+    ]
   }
 }

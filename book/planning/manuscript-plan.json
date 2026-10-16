@@ -137,7 +137,7 @@
     {
       "id": "agents_capital_and_comparative_institutions",
       "requested_on": "2026-10-16",
-      "status": "partially_integrated",
+      "status": "integrated_reviewed",
       "memo": "book/planning/agents-capital-and-three-economies.md",
       "research": "book/research/agents-capital-institutions-research.json",
       "decision": "Keep twelve chapters; prepare agent work and ownership in Chapters 8–9, anchor the EU–US–China comparison in Chapter 10, and return to distribution and adaptability in Chapters 11–12.",
@@ -153,11 +153,12 @@
       "components": {
         "chapter_08": "integrated_reviewed",
         "chapter_09": "integrated_reviewed",
-        "chapter_10": "pending",
-        "chapter_11": "pending",
-        "chapter_12": "pending"
+        "chapter_10": "integrated_reviewed",
+        "chapter_11": "integrated_reviewed",
+        "chapter_12": "integrated_reviewed"
       },
-      "remaining_scope": "Comparative EU–US–China centerpiece, tax/ownership bridge and adaptability ending; fresh source/budget/continuity review after those changes."
+      "remaining_scope": "No remaining integration work for this request. Four original canonical source checks and author read-through are separate finishing tasks.",
+      "review_record": "book/planning/finishing-pass.md"
     }
   ]
 }

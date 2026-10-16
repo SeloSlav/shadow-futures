@@ -1,5 +1,11 @@
 # Shadow Futures book drafting
 
+Use the bounded workflow in
+`tools/skills/bounded-book-writing/SKILL.md` for writing and review.
+The user requested economical, finite passes. Start with the latest handoff;
+reuse unchanged source checks and stop after the agreed pass. Preserve precise
+unresolved flags instead of restarting source-access or whole-book audit loops.
+
 The user wants to write the book in this repository and preserve progress in Git.
 Use `planning/argument-brief.md` and `planning/book-outline.md` as the working
 planning text. Write new chapters as Markdown in `manuscript/`. Word files in
