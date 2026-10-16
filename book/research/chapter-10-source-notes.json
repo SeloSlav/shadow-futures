@@ -4,9 +4,9 @@
   "checked_on": "2026-10-16",
   "status": "reviewed",
   "target_main_words": 6000,
-  "body_words": 5368,
+  "body_words": 5379,
   "note_words": 720,
-  "draft_sha256": "c120e6470cb428cc8e44f601120848511e567beb9530c4dce7f489fb8c67dda3",
+  "draft_sha256": "dcc0dd67926b98f66de9e56b5bded26cd2a22fd0702514413f67e0fd872b2dbe",
   "source_checks": "Relevant primary passages checked for stated claims. Original Blackwell1953 source gap closed in cross-book audit: publisher scan saved and read, with exact relevant pages recorded; de Oliveira2017 remains separately checked. Prior case checks/version boundaries retained. Current unpublished expanded policy draft read rather than earlier short version. Comparative revision: nine new dated primary records, relevant complete original passages checked; announced objectives, formal terms and actual outcomes separated.",
   "sources": [
     {
@@ -432,12 +432,12 @@
       "Ipsos February16,2026 full primary publication refreshed; fieldwork2025, recommendation measures and publication purpose verified. Dated case, not newest August result.",
       "Google December5,2025 original judgment pp.6-7 re-read; documentation and exclusions verified, no implementation or appeal result claim."
     ],
-    "draft_sha256": "c120e6470cb428cc8e44f601120848511e567beb9530c4dce7f489fb8c67dda3"
+    "draft_sha256": "dcc0dd67926b98f66de9e56b5bded26cd2a22fd0702514413f67e0fd872b2dbe"
   },
   "comparative_institutions_revision": {
     "checked_on": "2026-10-16",
     "status": "integrated_reviewed_for_recorded_claims",
-    "draft_sha256": "c120e6470cb428cc8e44f601120848511e567beb9530c4dce7f489fb8c67dda3",
+    "draft_sha256": "dcc0dd67926b98f66de9e56b5bded26cd2a22fd0702514413f67e0fd872b2dbe",
     "scope": "US–EU–China comparison and linked ownership/taxation/robustness argument; existing chapter foundations retained.",
     "review_scope": "Bounded changed-passage review plus earlier sequential chapter/source reviews; final unresolved original-source checks remain separate.",
     "findings": [
@@ -447,5 +447,19 @@
       "Nine new primary source records retain versions, passage locators and limits. Existing private tests, scale benefits, full costs, public-evaluator errors and disconfirming outcomes remain in the argument.",
       "No prose change required in this pass. No unavailable-source retries, new factual claims, broad literature review or independent proof/priority certification."
     ]
+  },
+  "final_prose_revision": {
+    "checked_on": "2026-10-16",
+    "status": "completed_for_changed_passages",
+    "draft_sha256": "dcc0dd67926b98f66de9e56b5bded26cd2a22fd0702514413f67e0fd872b2dbe",
+    "scope": "Current agent/capital/comparative additions and neighboring transitions; prior full sequential review retained.",
+    "findings": [
+      "Finished current prose revision in Chapters10–12: clarified the time shift to Birch before its first demonstration; replaced generic appraisal recaps with hypothetical prototype, research-transfer and admission-test decisions.",
+      "Ownership, income and access now follow the share certificate, tax return and contract; corrective information cost remains a separate claim. No actual tax recommendation or new legal fact.",
+      "Robustness now contrasts two explicit repair-evaluation arrangements, retains private tests, costs, crowdout and disconfirming findings, and adds cross-country confounding and rejected-applicant observations.",
+      "Changed passages reviewed with retained context; earlier original-source checks reused. No new factual claims, interviews, literature review or inaccessible-source retries.",
+      "Chapter3 note c3-6 now discloses incomplete original theorem-passage checks to the reader; all four flags remain open and all canonical citations/roles are preserved."
+    ],
+    "boundary": "Four original technical-passage checks remain open; no independent proof or priority certification."
   }
 }

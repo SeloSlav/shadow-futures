@@ -4,9 +4,9 @@
   "checked_on": "2026-10-16",
   "status": "reviewed",
   "target_main_words": 6000,
-  "body_words": 6297,
+  "body_words": 6300,
   "note_words": 766,
-  "draft_sha256": "688ba1d2375cc5d50063654012fe44be3d5794d628b377392cb9446da8eb7ed9",
+  "draft_sha256": "41ace54d43607ee4f9a71df9553401059bac0832431eccd7690dcf6f038ada05",
   "source_checks": "Current expanded unpublished tax manuscript and canonical v5 hidden-position passage read directly. Relevant primary predecessor, Swedish agency, CMA order and CEC project/program passages checked with historical dates and version/access boundaries. Public provision additionality and real-company corrective rates not presumed. Sequential review rechecked v5 Section5/E.2 and tax Sections3-7, refreshed Swedish guidance, and read converter/outage passages in directly accessible original CEC PDF via web research.",
   "sources": [
     {
@@ -255,12 +255,12 @@
       "Private maintenance log is an explicit hypothetical illustrating common-decision delivery, not an allegation of withheld findings. Useful private tests remain part of the evidence they inform.",
       "Removed duplicate financing-proxy and earmarking recaps; historical reach-of-exclusion, scale benefits, measurement/quality, additionality, costs, incidence, entry and legal premises remain. No actual-company tax estimate, liability or automatic success charge."
     ],
-    "draft_sha256": "688ba1d2375cc5d50063654012fe44be3d5794d628b377392cb9446da8eb7ed9"
+    "draft_sha256": "41ace54d43607ee4f9a71df9553401059bac0832431eccd7690dcf6f038ada05"
   },
   "comparative_institutions_revision": {
     "checked_on": "2026-10-16",
     "status": "integrated_reviewed_for_recorded_claims",
-    "draft_sha256": "688ba1d2375cc5d50063654012fe44be3d5794d628b377392cb9446da8eb7ed9",
+    "draft_sha256": "41ace54d43607ee4f9a71df9553401059bac0832431eccd7690dcf6f038ada05",
     "scope": "US–EU–China comparison and linked ownership/taxation/robustness argument; existing chapter foundations retained.",
     "review_scope": "Bounded changed-passage review plus earlier sequential chapter/source reviews; final unresolved original-source checks remain separate.",
     "findings": [
@@ -270,5 +270,19 @@
       "Nine new primary source records retain versions, passage locators and limits. Existing private tests, scale benefits, full costs, public-evaluator errors and disconfirming outcomes remain in the argument.",
       "No prose change required in this pass. No unavailable-source retries, new factual claims, broad literature review or independent proof/priority certification."
     ]
+  },
+  "final_prose_revision": {
+    "checked_on": "2026-10-16",
+    "status": "completed_for_changed_passages",
+    "draft_sha256": "41ace54d43607ee4f9a71df9553401059bac0832431eccd7690dcf6f038ada05",
+    "scope": "Current agent/capital/comparative additions and neighboring transitions; prior full sequential review retained.",
+    "findings": [
+      "Finished current prose revision in Chapters10–12: clarified the time shift to Birch before its first demonstration; replaced generic appraisal recaps with hypothetical prototype, research-transfer and admission-test decisions.",
+      "Ownership, income and access now follow the share certificate, tax return and contract; corrective information cost remains a separate claim. No actual tax recommendation or new legal fact.",
+      "Robustness now contrasts two explicit repair-evaluation arrangements, retains private tests, costs, crowdout and disconfirming findings, and adds cross-country confounding and rejected-applicant observations.",
+      "Changed passages reviewed with retained context; earlier original-source checks reused. No new factual claims, interviews, literature review or inaccessible-source retries.",
+      "Chapter3 note c3-6 now discloses incomplete original theorem-passage checks to the reader; all four flags remain open and all canonical citations/roles are preserved."
+    ],
+    "boundary": "Four original technical-passage checks remain open; no independent proof or priority certification."
   }
 }

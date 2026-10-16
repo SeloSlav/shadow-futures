@@ -19,12 +19,12 @@ Counts below come from the current chapter files. Drafted sections still require
 | [The intelligence factory](manuscript/08-the-intelligence-factory.md) | 6,000 | 6,000 | reviewed |
 | [A billion answers](manuscript/09-a-billion-answers.md) | 6,000 | 5,849 | reviewed |
 | [The first rung](manuscript/10-the-first-rung.md) | 6,000 | 6,022 | reviewed |
-| [Competition for future evidence](manuscript/11-competition-for-future-evidence.md) | 6,000 | 5,368 | reviewed |
-| [Taxing lost comparison](manuscript/12-taxing-lost-comparison.md) | 6,000 | 6,297 | reviewed |
-| [An economics of possible worlds](manuscript/13-an-economics-of-possible-worlds.md) | 6,000 | 6,321 | reviewed |
+| [Competition for future evidence](manuscript/11-competition-for-future-evidence.md) | 6,000 | 5,379 | reviewed |
+| [Taxing lost comparison](manuscript/12-taxing-lost-comparison.md) | 6,000 | 6,300 | reviewed |
+| [An economics of possible worlds](manuscript/13-an-economics-of-possible-worlds.md) | 6,000 | 6,307 | reviewed |
 | [The next opportunity](manuscript/14-epilogue.md) | 2,000 | 2,000 | reviewed |
 
-Current back matter: 14,647 words, including chapter notes.
+Current back matter: 14,671 words, including chapter notes.
 
 | Back matter | Written | Stage |
 | --- | ---: | --- |

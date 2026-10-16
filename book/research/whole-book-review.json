@@ -4,7 +4,7 @@
   "objective": "Complete book at prologue standard, including sequential editorial, conceptual, factual and citation review; counts and file existence do not certify completion.",
   "mechanical_checks": {
     "main_words": 80000,
-    "back_matter_words": 14647,
+    "back_matter_words": 14671,
     "main_components": 15,
     "endnotes": 197,
     "bibliography_entries": 131,
@@ -55,7 +55,7 @@
     {
       "id": "chapter_03",
       "file": "book/manuscript/04-shadow-futures.md",
-      "sha256": "fd1a70872151527d7ed926982509b3fa1c2dbee6427b554758f37f520685dde9",
+      "sha256": "c68ea30ada1b655c836da82a503fa9ecbdd79c53d3e67273b16515328f8cdb6d",
       "sequential_editorial_review": "completed",
       "conceptual_factual_citation_review": "chapter_claims_reviewed_four_original_technical_passages_pending",
       "checked_on": "2026-10-16",
@@ -118,7 +118,7 @@
     {
       "id": "chapter_10",
       "file": "book/manuscript/11-competition-for-future-evidence.md",
-      "sha256": "c120e6470cb428cc8e44f601120848511e567beb9530c4dce7f489fb8c67dda3",
+      "sha256": "dcc0dd67926b98f66de9e56b5bded26cd2a22fd0702514413f67e0fd872b2dbe",
       "sequential_editorial_review": "completed",
       "conceptual_factual_citation_review": "completed_for_recorded_claims_with_explicit_source_boundaries",
       "checked_on": "2026-10-16",
@@ -127,7 +127,7 @@
     {
       "id": "chapter_11",
       "file": "book/manuscript/12-taxing-lost-comparison.md",
-      "sha256": "688ba1d2375cc5d50063654012fe44be3d5794d628b377392cb9446da8eb7ed9",
+      "sha256": "41ace54d43607ee4f9a71df9553401059bac0832431eccd7690dcf6f038ada05",
       "sequential_editorial_review": "completed",
       "conceptual_factual_citation_review": "completed_for_recorded_claims_with_explicit_source_boundaries",
       "checked_on": "2026-10-16",
@@ -136,7 +136,7 @@
     {
       "id": "chapter_12",
       "file": "book/manuscript/13-an-economics-of-possible-worlds.md",
-      "sha256": "c3b4590484a2ad8cd79933527f275f29a442d1016f41e8c045802281fce34a9f",
+      "sha256": "ff5fd6610f682f26fb3f435c3d3fa4a1ee868d7b368042def03b4eb701c25b2c",
       "sequential_editorial_review": "completed",
       "conceptual_factual_citation_review": "completed_for_recorded_claims_with_explicit_source_boundaries",
       "checked_on": "2026-10-16",
@@ -202,7 +202,7 @@
     ],
     "scope": "Initial argument brief and outline exports only; not the 80000-word book."
   },
-  "completion_audit": "Not passed. All manuscript components and the latest agent/capital/institutions revision are drafted and reviewed for recorded claims. Four original technical passages remain unverified. Bounded finishing pass completed; author read-through and one subsequent issue-list revision remain.",
+  "completion_audit": "Prose revisions complete. All manuscript components and current additions have recorded editorial reviews; final assembly/coverage checked. Four original technical passages remain incompletely verified and are now disclosed in reader note c3-6. Submission readiness is not certified; future author feedback is a separate bounded revision.",
   "review_sessions": [
     {
       "checked_on": "2026-10-16",
@@ -548,9 +548,29 @@
         "canonical_v5": 24
       },
       "remaining_scope": "Four flagged original technical passages and author issue-list pass."
+    },
+    {
+      "checked_on": "2026-10-16",
+      "scope": [
+        "final_requested_prose_revision"
+      ],
+      "method": "One targeted editorial revision using existing claim-specific checks; no new source retrieval. One rebuild and existing integrity check.",
+      "findings": [
+        "Finished current prose revision in Chapters10–12: clarified the time shift to Birch before its first demonstration; replaced generic appraisal recaps with hypothetical prototype, research-transfer and admission-test decisions.",
+        "Ownership, income and access now follow the share certificate, tax return and contract; corrective information cost remains a separate claim. No actual tax recommendation or new legal fact.",
+        "Robustness now contrasts two explicit repair-evaluation arrangements, retains private tests, costs, crowdout and disconfirming findings, and adds cross-country confounding and rejected-applicant observations.",
+        "Changed passages reviewed with retained context; earlier original-source checks reused. No new factual claims, interviews, literature review or inaccessible-source retries.",
+        "Chapter3 note c3-6 now discloses incomplete original theorem-passage checks to the reader; all four flags remain open and all canonical citations/roles are preserved."
+      ],
+      "reader_sha256_after_revision": "da068c2ab9869871f5098e581d0f558811a3b4b69aa864ae1aa46ca4a73d78a7",
+      "budget": {
+        "main_words": 80000,
+        "back_matter_words": 14671
+      },
+      "remaining_scope": "Four original technical-passage checks; future author feedback if provided."
     }
   ],
-  "next_component": "author_issue_list_or_explicitly_scoped_original_source_check",
+  "next_component": "separately_scoped_original_source_verification_or_author_feedback",
   "cross_book_audit": "book/research/final-cross-book-audit.json; in_progress",
   "pending_user_revisions": [
     {

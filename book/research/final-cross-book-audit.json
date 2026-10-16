@@ -1,7 +1,7 @@
 {
   "status": "in_progress",
   "checked_on": "2026-10-16",
-  "reader_sha256": "31cdd14e5fe75c05d6f2ea373cdced30e268d37b41ea3de7631be3e7ab720446",
+  "reader_sha256": "da068c2ab9869871f5098e581d0f558811a3b4b69aa864ae1aa46ca4a73d78a7",
   "scope": "Cross-book audit after all 15 main components received sequential editorial review. Recorded comparisons and source completion below are bounded checks; four canonical original technical passages remain open.",
   "completed_checks": [
     {
@@ -53,6 +53,11 @@
       "check": "Bounded agent/capital/comparative revision closure",
       "method": "Reuse original passage checks and prior full component reviews; read current additions, reconcile their source bindings and saved hashes. No repeat source-access attempts.",
       "finding": "Integration complete, including taxation and falsifiable robustness criterion. Current assembly/coverage verified; four original technical-source flags remain open."
+    },
+    {
+      "check": "Final requested prose revisions",
+      "method": "One changed-passage review and revision of Chapters10–12; Chapter3 note-only source disclosure; existing checks reused.",
+      "finding": "Concrete entrant decisions replace repeated abstraction; tax instruments stay distinct; recovery comparison includes independent checking and confounding. Prose revision complete; four source flags remain open."
     }
   ],
   "exact_repeated_sentences": [
@@ -85,13 +90,13 @@
     }
   ],
   "remaining_work": [
-    "Resolve or explicitly retain the four original technical-passage flags in a separately scoped source task. Prior failed routes are recorded; do not repeat them without new evidence.",
-    "Author reads current manuscript and supplies one consolidated issue list; perform one bounded revision pass against it.",
-    "After that pass, check changed text, final assembly/citations/budgets and submission status once. Do not claim independent proof or priority certification."
+    "Four original technical-passage checks remain open. They are disclosed in Chapter3 note c3-6; inspect recorded failed access history before a separately scoped source task.",
+    "Author read-through and any new issue list can trigger a subsequent bounded revision. No automatic further polishing or research loop.",
+    "Before submission, resolve material source limitations and assess factual/proof readiness; no independent proof or priority certification claimed."
   ],
   "mechanical_totals": {
     "main_words": 80000,
-    "back_matter_words": 14647,
+    "back_matter_words": 14671,
     "endnotes": 197,
     "references": 131,
     "ledger_identifiers": 132,

@@ -4,9 +4,9 @@
   "checked_on": "2026-10-16",
   "status": "reviewed",
   "target_main_words": 6000,
-  "body_words": 6321,
+  "body_words": 6307,
   "note_words": 833,
-  "draft_sha256": "c3b4590484a2ad8cd79933527f275f29a442d1016f41e8c045802281fce34a9f",
+  "draft_sha256": "ff5fd6610f682f26fb3f435c3d3fa4a1ee868d7b368042def03b4eb701c25b2c",
   "source_checks": "Relevant primary passages and direct scanned pages checked with exact version/access boundaries. Earlier substantive checks retained by claim; Blackwell1953 original scan now saved and relevant passages checked in cross-book audit. All council design choices/results fictional. Guide printedpp4-8 re-read; Rothamsted January2024 substantive account refreshed; indexed original Bearchell methods/results rechecked after direct PMC challenge.",
   "sources": [
     {
@@ -311,12 +311,12 @@
       "Cross-book audit restored the outline-promised Arrow1963 institutional foundation. Relevant original introduction and medical-market passages were read. Added concrete patient/physician example replaces85words of generic research-program recap; no main-budget expansion.",
       "Subsequent cross-book source completion obtained and visually read original Blackwell1953 pp.265–272. Notes now cite exact original decision-risk and transformation passages and retain earlier Sherman–Stein credit. The previous original-access gap is closed; no main-text change."
     ],
-    "draft_sha256": "c3b4590484a2ad8cd79933527f275f29a442d1016f41e8c045802281fce34a9f"
+    "draft_sha256": "ff5fd6610f682f26fb3f435c3d3fa4a1ee868d7b368042def03b4eb701c25b2c"
   },
   "comparative_institutions_revision": {
     "checked_on": "2026-10-16",
     "status": "integrated_reviewed_for_recorded_claims",
-    "draft_sha256": "c3b4590484a2ad8cd79933527f275f29a442d1016f41e8c045802281fce34a9f",
+    "draft_sha256": "ff5fd6610f682f26fb3f435c3d3fa4a1ee868d7b368042def03b4eb701c25b2c",
     "scope": "US–EU–China comparison and linked ownership/taxation/robustness argument; existing chapter foundations retained.",
     "review_scope": "Bounded changed-passage review plus earlier sequential chapter/source reviews; final unresolved original-source checks remain separate.",
     "findings": [
@@ -326,5 +326,19 @@
       "Nine new primary source records retain versions, passage locators and limits. Existing private tests, scale benefits, full costs, public-evaluator errors and disconfirming outcomes remain in the argument.",
       "No prose change required in this pass. No unavailable-source retries, new factual claims, broad literature review or independent proof/priority certification."
     ]
+  },
+  "final_prose_revision": {
+    "checked_on": "2026-10-16",
+    "status": "completed_for_changed_passages",
+    "draft_sha256": "ff5fd6610f682f26fb3f435c3d3fa4a1ee868d7b368042def03b4eb701c25b2c",
+    "scope": "Current agent/capital/comparative additions and neighboring transitions; prior full sequential review retained.",
+    "findings": [
+      "Finished current prose revision in Chapters10–12: clarified the time shift to Birch before its first demonstration; replaced generic appraisal recaps with hypothetical prototype, research-transfer and admission-test decisions.",
+      "Ownership, income and access now follow the share certificate, tax return and contract; corrective information cost remains a separate claim. No actual tax recommendation or new legal fact.",
+      "Robustness now contrasts two explicit repair-evaluation arrangements, retains private tests, costs, crowdout and disconfirming findings, and adds cross-country confounding and rejected-applicant observations.",
+      "Changed passages reviewed with retained context; earlier original-source checks reused. No new factual claims, interviews, literature review or inaccessible-source retries.",
+      "Chapter3 note c3-6 now discloses incomplete original theorem-passage checks to the reader; all four flags remain open and all canonical citations/roles are preserved."
+    ],
+    "boundary": "Four original technical-passage checks remain open; no independent proof or priority certification."
   }
 }

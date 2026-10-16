@@ -5,7 +5,7 @@
   "status": "editorial_reviewed_sources_pending",
   "target_main_words": 6000,
   "body_words": 6009,
-  "draft_sha256": "fd1a70872151527d7ed926982509b3fa1c2dbee6427b554758f37f520685dde9",
+  "draft_sha256": "c68ea30ada1b655c836da82a503fa9ecbdd79c53d3e67273b16515328f8cdb6d",
   "source_checks": "Substantive main-text source passages and v5 conditions checked. Four technical-lineage entries have explicit partial/original-access boundaries and remain on final source audit queue. No independent proof or established priority certification.",
   "sources": [
     {
@@ -330,5 +330,16 @@
       "url": "https://link.springer.com/chapter/10.1007/978-1-4612-1166-2_2",
       "result": "Publisher preview/metadata and edition confirmed; relevant full chapter passages not obtained. No substitute edition or unverified third-party upload used."
     }
-  ]
+  ],
+  "note_words": 884,
+  "final_prose_revision": {
+    "checked_on": "2026-10-16",
+    "status": "completed_for_changed_passages",
+    "draft_sha256": "c68ea30ada1b655c836da82a503fa9ecbdd79c53d3e67273b16515328f8cdb6d",
+    "scope": "Note c3-6 verification disclosure only; Chapter3 body unchanged.",
+    "findings": [
+      "Chapter3 note c3-6 now discloses incomplete original theorem-passage checks to the reader; all four flags remain open and all canonical citations/roles are preserved."
+    ],
+    "boundary": "Four original technical-passage checks remain open; no independent proof or priority certification."
+  }
 }
