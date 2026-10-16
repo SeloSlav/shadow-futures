@@ -1,7 +1,7 @@
 {
   "status": "complete_draft_assembly_review_pending",
   "file": "book/drafts/Shadow_Futures_Complete_Manuscript.md",
-  "sha256": "9e79d68618bba0fa0c82db54e89e53f39b49ff9a2e4566fcdb3c3b6e7e0ecf98",
+  "sha256": "9e25725e819825c3d5d26086d07187937f7ba1c93265d5b64551a935cfe7e1bd",
   "inputs": [
     {
       "file": "book/manuscript/00-prologue.md",
@@ -53,7 +53,7 @@
     },
     {
       "file": "book/manuscript/12-taxing-lost-comparison.md",
-      "sha256": "49cc0a7d2eecdd8809c5df551227c6d5e2f0e26c7bff04cb649bbd5c9d492cec"
+      "sha256": "b35e096a0871c47ec025cd5aac56938e14b5957e1d8190969d42ecc4d266fe4d"
     },
     {
       "file": "book/manuscript/13-an-economics-of-possible-worlds.md",
@@ -73,10 +73,10 @@
     }
   ],
   "bibliography_input_sha256": "d1fd1deeb9efee06d66a3e5121edfe64e973c065a5f06e466143a216ae244d2c",
-  "main_words": 79623,
-  "back_matter_words": 13846,
+  "main_words": 76725,
+  "back_matter_words": 13423,
   "reference_entries": 133,
-  "endnote_count": 191,
+  "endnote_count": 189,
   "notes_namespaced": true,
   "interpretation": "Assembly, counts, hashes and note matching do not certify facts, proofs, prose quality or completion of the book review."
 }

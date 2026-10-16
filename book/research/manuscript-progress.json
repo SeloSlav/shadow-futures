@@ -1,9 +1,9 @@
 {
   "status": "in_progress",
   "main_text_target": 80000,
-  "main_words": 79623,
-  "words_remaining_to_target": 377,
-  "back_matter_words": 13846,
+  "main_words": 76725,
+  "words_remaining_to_target": 3275,
+  "back_matter_words": 13423,
   "back_matter_target": [
     10000,
     15000
@@ -196,10 +196,10 @@
       "target": 6000,
       "stage": "reviewed",
       "exists": true,
-      "main_words": 6278,
-      "note_words": 696,
-      "sha256": "49cc0a7d2eecdd8809c5df551227c6d5e2f0e26c7bff04cb649bbd5c9d492cec",
-      "note_count": 13,
+      "main_words": 3380,
+      "note_words": 273,
+      "sha256": "b35e096a0871c47ec025cd5aac56938e14b5957e1d8190969d42ecc4d266fe4d",
+      "note_count": 11,
       "missing_notes": [],
       "unused_notes": [],
       "duplicate_notes": false

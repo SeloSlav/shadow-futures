@@ -6,10 +6,10 @@
   "date": "2026-10-16",
   "pdf": "/book/shadow-futures.pdf",
   "cover": "/book/shadow-futures-cover.png",
-  "pages": 317,
-  "interior_pages": 316,
-  "pdf_bytes": 4514007,
-  "notes": 191,
+  "pages": 307,
+  "interior_pages": 306,
+  "pdf_bytes": 4489185,
+  "notes": 189,
   "contents": [
     {
       "label": "The other life of a song",
@@ -79,12 +79,12 @@
     {
       "label": "An economics of possible worlds",
       "section": "Chapter 12",
-      "page": 250
+      "page": 241
     },
     {
       "label": "The next opportunity",
       "section": "Epilogue",
-      "page": 272
+      "page": 263
     }
   ],
   "trim_inches": [
@@ -97,9 +97,9 @@
   ],
   "paperback": {
     "paper": "black ink / white paper",
-    "spine_inches": 0.711632,
+    "spine_inches": 0.6891120000000001,
     "wrap_inches": [
-      12.961632,
+      12.939112000000002,
       9.25
     ],
     "bleed_inches": 0.125
@@ -109,7 +109,7 @@
     1536
   ],
   "production_note": "KDP-size exports are provided. Generated artwork is natively 1024×1536; 300-dpi raster exports are resampled, not added native detail. Check a print proof; higher-resolution original art is recommended before commercial print upload.",
-  "manuscript_sha256": "9e79d68618bba0fa0c82db54e89e53f39b49ff9a2e4566fcdb3c3b6e7e0ecf98",
+  "manuscript_sha256": "9e25725e819825c3d5d26086d07187937f7ba1c93265d5b64551a935cfe7e1bd",
   "inputs": [
     {
       "file": "book/manuscript/00-prologue.md",
@@ -161,7 +161,7 @@
     },
     {
       "file": "book/manuscript/12-taxing-lost-comparison.md",
-      "sha256": "49cc0a7d2eecdd8809c5df551227c6d5e2f0e26c7bff04cb649bbd5c9d492cec"
+      "sha256": "b35e096a0871c47ec025cd5aac56938e14b5957e1d8190969d42ecc4d266fe4d"
     },
     {
       "file": "book/manuscript/13-an-economics-of-possible-worlds.md",
@@ -180,7 +180,7 @@
       "sha256": "9278ab6a11d194d0965897a0bb566144fe18036bec36c48244f43feff005a263"
     }
   ],
-  "pdf_sha256": "1d473526f585f0088714c56b02cb21f30a87644aa3bb6bc19a416b6963910f19",
+  "pdf_sha256": "f8570a6a49187227835027f783232c860294a240cd88208aef1de93b6ffefbac",
   "kdp_sources": [
     "https://kdp.amazon.com/en_US/help/topic/G201953020",
     "https://kdp.amazon.com/en_US/help/topic/G6GTK3T3NUHKLEFX",

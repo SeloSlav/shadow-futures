@@ -80,6 +80,13 @@ existence do not certify that a chapter or the whole book has passed review.
   source establishes a result, explain a conditional example or proposal without
   presenting it as a sourced theorem. Never relabel a companion result as a result
   from the SSRN paper or attribute it to a replacement author.
+- Write reader-facing endnotes as ordinary citations: author, title, publication,
+  date, page or section, and link. Put necessary assumptions and distinctions
+  naturally in the body at the relevant claim. Keep editorial instructions,
+  audit commentary, source-access reports, and manuscript-status language in
+  internal research records. Cite published findings where they enter the prose;
+  a citation beside an original example must not imply that its source proves
+  the book's proposed policy.
 - AI, corrective taxes, and remedy design require additional empirical, causal,
   welfare, and legal premises.
   Include scale benefits, private experimentation, implementation costs, testing

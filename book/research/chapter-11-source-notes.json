@@ -4,14 +4,13 @@
   "checked_on": "2026-10-16",
   "status": "reviewed",
   "target_main_words": 6000,
-  "body_words": 6300,
-  "note_words": 766,
-  "draft_sha256": "41ace54d43607ee4f9a71df9553401059bac0832431eccd7690dcf6f038ada05",
+  "body_words": 3380,
+  "note_words": 273,
+  "draft_sha256": "b35e096a0871c47ec025cd5aac56938e14b5957e1d8190969d42ecc4d266fe4d",
   "source_checks": "Current expanded unpublished tax manuscript and canonical v5 hidden-position passage read directly. Relevant primary predecessor, Swedish agency, CMA order and CEC project/program passages checked with historical dates and version/access boundaries. Public provision additionality and real-company corrective rates not presumed. Sequential review rechecked v5 Section5/E.2 and tax Sections3-7, refreshed Swedish guidance, and read converter/outage passages in directly accessible original CEC PDF via web research.",
   "sources": [
     {
       "key": "ErlicV5",
-      "note": "c11-2",
       "source": "output/docx/Shadow_Futures_FINAL_Comparison_Budget_Revised_v5.docx",
       "sha256": "6c5f12d78ba233d0badad7bdc923319e3c9212031d764ff3423604a9faae738a",
       "additional_source": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994",
@@ -25,7 +24,8 @@
       ],
       "version_boundary": "Unpublished canonical October2026 v5; associated public SSRN record not claimed byte-identical.",
       "boundary": "Conditional allocation experiment and defined contribution intervention/horizon. Not universal physical-output nonidentification, equal merit, equal incomes or real-firm tax estimate.",
-      "v5_reference": false
+      "v5_reference": false,
+      "body_locator": "The income and its explanation; fixed-input observational-equivalence example. Original argument, without a repeated self-citation."
     },
     {
       "key": "PikettySaezStantcheva2014",
@@ -182,7 +182,6 @@
     {
       "key": "Blackwell1953",
       "notes": [
-        "c11-1",
         "c11-12"
       ],
       "source": "https://doi.org/10.1214/aoms/1177729032",
@@ -322,5 +321,23 @@
     "status": "Companion citations removed from reader; historical source checks preserved only in superseded_sources.",
     "boundary": "No companion proposition is attributed to a replacement author. Unsupported formal policy results rewritten as conditional examples. Original-source proof-review limits recorded elsewhere remain unchanged.",
     "manuscript_sha256": "49cc0a7d2eecdd8809c5df551227c6d5e2f0e26c7bff04cb649bbd5c9d492cec"
+  },
+  "tax_style_revision": {
+    "date": "2026-10-17",
+    "before_main_words": 6278,
+    "after_main_words": 3380,
+    "main_words_removed": 2898,
+    "before_note_words": 696,
+    "after_note_words": 273,
+    "reader_notes": 11,
+    "changes": [
+      "All tax chapter notes now conventional bibliographic citations.",
+      "Removed redundant opening citation note and explanatory fixed-input note; qualifications integrated in body.",
+      "Placed Colombo/Femminis/Pavan citations beside their actual published findings, Blackwell beside his experiment-comparison argument.",
+      "Combined repeated private replacement, public crowdout, computing/profit proxies, financing, incidence, measurement and closing appraisals.",
+      "Retained the Swedish charge, microgrid and open-banking cases; author hypotheticals, welfare premises, hidden-position versus replay distinction, recipients, timing, private response, entry and implementation costs."
+    ],
+    "verification": "One editorial read of revised chapter and note matching; unchanged full-source passage checks reused. No new empirical or formal policy result introduced.",
+    "boundary": "No new source/proof audit; the four earlier original theorem-passage flags remain open internally."
   }
 }

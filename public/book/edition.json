@@ -6,8 +6,8 @@
   "date": "2026-10-16",
   "pdf": "/book/shadow-futures.pdf",
   "cover": "/book/shadow-futures-cover.png",
-  "pages": 317,
-  "pdf_bytes": 4514007,
+  "pages": 307,
+  "pdf_bytes": 4489185,
   "contents": [
     {
       "label": "The other life of a song",
@@ -77,12 +77,12 @@
     {
       "label": "An economics of possible worlds",
       "section": "Chapter 12",
-      "page": 250
+      "page": 241
     },
     {
       "label": "The next opportunity",
       "section": "Epilogue",
-      "page": 272
+      "page": 263
     }
   ]
 }
