@@ -1,0 +1,246 @@
+{
+  "manuscript": "book/manuscript/08-the-intelligence-factory.md",
+  "title": "The intelligence factory",
+  "checked_on": "2026-10-16",
+  "status": "drafted",
+  "target_main_words": 6000,
+  "body_words": 6000,
+  "note_words": 879,
+  "draft_sha256": "38bc19896a145c1eb0b64ba01b0adf0c0f36a87e3f6832d0213a59b9417fe21f",
+  "source_checks": "Relevant full primary passages checked in dated reports, versioned technical papers, institutional/operator accounts and original economics. Forecasts, developer/operator statements, allocated opportunities, interpretations and illustrations remain distinct.",
+  "sources": [
+    {
+      "key": "IEAEnergyAI2026",
+      "note": "c7-1",
+      "source": "https://iea.blob.core.windows.net/assets/3179f7f8-01f6-4dd6-bffa-c9f7b73f1dc9/KeyQuestionsonEnergyandAI.pdf",
+      "locator": "Executive summary pp. 9–11; bottlenecks p. 21; demand scenarios and accelerator definitions pp. 24–26",
+      "full_text_checked": true,
+      "claims": [
+        "Reported grid waits up to 5–10 years in many jurisdictions",
+        "Estimated 485 TWh total data-center electricity in 2025; central 2030 outlook rounded to 950 TWh",
+        "Accelerators perform parallel computation for AI training/use"
+      ],
+      "boundary": "Total data centers, not AI-only; dated estimates and projections, not observed future demand. Waits vary by jurisdiction. No empirical comparison-budget diagnosis.",
+      "v5_reference": false,
+      "local_cache": ".tmp/book-research/iea-energy-ai-2026.pdf"
+    },
+    {
+      "key": "ORNLFrontierConstruction2023",
+      "note": "c7-2",
+      "source": "https://www.ornl.gov/news/super-construction-super-scale-how-ornl-built-new-home-frontier/",
+      "locator": "November 14, 2023, cooling plant/piping, foundations, pressure-test failure and repair paragraphs",
+      "full_text_checked": true,
+      "claims": [
+        "Cooling infrastructure and heavy cabinet foundations required",
+        "Failed pipe joint during pressure test; staff identified failed weld and repaired it"
+      ],
+      "boundary": "Institution report; no author visit, private reaction or invented dialogue. Frontier is a scientific supercomputer, not a language model or a finite-budget empirical case.",
+      "v5_reference": false
+    },
+    {
+      "key": "ORNLCoolingEfficiency",
+      "note": "c7-3",
+      "source": "https://www.ornl.gov/news/computer-engineers-ornl-pioneer-approaches-energy-efficient-supercomputing/",
+      "locator": "David Grant cooling-system account, Titan/Frontier warm-water transition and evaporative towers",
+      "full_text_checked": true,
+      "claims": [
+        "Warm-water cooling avoids refrigeration required by older arrangement"
+      ],
+      "boundary": "Qualitative institutional engineering account, no universal design or quantified efficiency effect for AI companies.",
+      "v5_reference": false
+    },
+    {
+      "key": "LlamaTeam2024",
+      "note": "c7-4",
+      "source": "https://arxiv.org/pdf/2407.21783v3",
+      "locator": "Introduction p. 1; Section 3.3.4 pp. 13–14 and Table 5; Section 4 p. 15",
+      "full_text_checked": true,
+      "claims": [
+        "54-day snapshot contains 466 interruptions: 47 planned and 419 unexpected",
+        "Reported greater than 90 percent effective training time with automated recovery/diagnosis",
+        "Pre-training and post-training distinct"
+      ],
+      "boundary": "Developer report, not independent audit; snapshot not total run duration; effective training time not economic efficiency. Internal technical evidence retained. No implication each inference updates model weights.",
+      "v5_reference": false,
+      "notes": [
+        "c7-4",
+        "c7-5"
+      ],
+      "version_boundary": "Version 3, November 23, 2024; language results are Llama 3.1, abbreviated Llama 3 in report",
+      "local_cache": ".tmp/book-research/llama3-2024-v3.pdf"
+    },
+    {
+      "key": "DeepSeekV3Report",
+      "note": "c7-6",
+      "source": "https://arxiv.org/pdf/2412.19437v2",
+      "locator": "p. 5, Table 1 and accompanying cost/scope paragraphs",
+      "full_text_checked": true,
+      "claims": [
+        "Official pre-training, context extension and post-training total 2.788 million H800 GPU hours",
+        "Assumed USD2/hour yields USD5.576 million",
+        "Prior research and ablations explicitly excluded"
+      ],
+      "boundary": "Attributed developer calculation, not audited actual invoice, all-company spending, equivalent comparison with another model or timeless entry cost.",
+      "v5_reference": false,
+      "version_boundary": "Version 2, February 18, 2025; original report appeared December 2024",
+      "local_cache": ".tmp/book-research/deepseek-v3-2025-v2.pdf"
+    },
+    {
+      "key": "StanfordAIIndex2026",
+      "note": "c7-7",
+      "source": "https://hai.stanford.edu/assets/files/ai_index_report_2026.pdf",
+      "locator": "Section 1.1 printed pp. 16–18; p. 18 and Figure 1.1.4",
+      "full_text_checked": true,
+      "claims": [
+        "Industry accounts for 91.2 percent of curated notable models in 2025",
+        "Epoch manually curated dataset, not census; April 22, 2026 snapshot"
+      ],
+      "boundary": "Not all-model/application market share, legal market definition, exclusion evidence or lifetime comparison-budget diagnosis. Other report statistics read but not used.",
+      "v5_reference": false,
+      "local_cache": ".tmp/book-research/stanford-ai-index-2026.pdf"
+    },
+    {
+      "key": "HoffmannEtAl2022Chinchilla",
+      "note": "c7-8",
+      "source": "https://papers.nips.cc/paper_files/paper/2022/file/c1e2faff6f588870935f114ebe04a3e5-Paper-Conference.pdf",
+      "locator": "Published NeurIPS abstract pp. 1–2 and Section 4/4.1 p. 7; author April 12, 2022 account relevant body",
+      "full_text_checked": true,
+      "claims": [
+        "Multiple smaller experiments investigate training resource allocation",
+        "Chinchilla smaller/more training data than Gopher under same training compute, stronger reported evaluations",
+        "Section 4.1 also records optimizer, tokenizer and data-mix changes"
+      ],
+      "boundary": "Not isolated randomized model-size effect, universal scaling law, economic attribution or actual comparison-budget estimate.",
+      "v5_reference": false,
+      "additional_source": "https://deepmind.google/blog/an-empirical-analysis-of-compute-optimal-large-language-model-training/",
+      "local_cache": ".tmp/book-research/hoffmann-chinchilla-2022.pdf"
+    },
+    {
+      "key": "ErlicV5",
+      "note": "c7-9",
+      "source": "output/docx/Shadow_Futures_FINAL_Comparison_Budget_Revised_v5.docx",
+      "locator": "Sections 2–4, Appendices B–D, and previously checked conditions in Chapters 2–3",
+      "full_text_checked": true,
+      "claims": [
+        "Computing resource budget differs from cumulative modeled allocation chance outside favorite",
+        "All informative outcomes and private tests must enter observed experiment",
+        "AI activity alone establishes neither identification nor finite-budget conditions"
+      ],
+      "boundary": "Unpublished canonical author v5, no independent proof or priority certification. No real-firm budget estimate or concentration-based theorem inference.",
+      "v5_reference": false,
+      "public_record": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994"
+    },
+    {
+      "key": "KerrNandaRhodesKropf2014",
+      "note": "c7-10",
+      "source": "https://www.hbs.edu/faculty/Shared%20Documents/conferences/2014-strategy-research/Entrepreneruship%20as%20Experimentation.pdf",
+      "locator": "Published pp. 27–30 and 43–44, checked for Chapter 6",
+      "full_text_checked": true,
+      "claims": [
+        "Staged testing, stopping options and financing uncertain undertakings are established ideas"
+      ],
+      "boundary": "Credited predecessor; no assertion every expenditure by a successful AI company was necessary or optimal.",
+      "v5_reference": true,
+      "local_cache": ".tmp/book-research/kerr-nanda-rhodes-kropf-2014.pdf"
+    },
+    {
+      "key": "Arrow1962",
+      "note": "c7-11",
+      "source": "https://www.nber.org/system/files/chapters/c2144/c2144.pdf",
+      "locator": "Printed pp. 609 and 614–617; information-as-commodity and invention/appropriation discussion",
+      "full_text_checked": true,
+      "claims": [
+        "Uncertainty and imperfect appropriation affect incentives for producing knowledge",
+        "Using/transmitting knowledge differs from costly discovery",
+        "Incentive and access tradeoffs predate AI/v5"
+      ],
+      "boundary": "Addition outside original 24 v5 references; does not determine an AI license, public-investment rule, sharing mandate, tax or welfare conclusion. Serving copied models still uses resources.",
+      "v5_reference": false,
+      "local_source": "book/sources/classics/Arrow_1962_Economic_Welfare_and_Invention.pdf"
+    },
+    {
+      "key": "IEAPoweringAI2026",
+      "note": "c7-12",
+      "source": "https://www.iea.org/reports/powering-artificial-intelligence/executive-summary",
+      "locator": "Report date October 14, 2026; executive summary demand-visibility and affordability sections; grid integration discussion",
+      "full_text_checked": true,
+      "claims": [
+        "Queues can contain duplicate/speculative proposals",
+        "Tariffs and contracts allocate connection and usage risks"
+      ],
+      "boundary": "Primary report available by October 16, 2026. Queue entry not completed capacity; multi-grid developer, grid-cost and interruptible-workload examples hypothetical.",
+      "v5_reference": false,
+      "report": "https://www.iea.org/reports/powering-artificial-intelligence"
+    },
+    {
+      "key": "LUMISustainableFuture",
+      "note": "c7-13",
+      "source": "https://lumi-supercomputer.eu/sustainable-future/",
+      "locator": "Opening heat-use paragraphs, accessed October 16, 2026",
+      "full_text_checked": true,
+      "claims": [
+        "Operator reports excess heat used for hundreds of households annually in Kajaani"
+      ],
+      "boundary": "Attributed operator account; no strongest optimality or zero/negative-carbon claim, projected 20 percent share substituted for current measurement, or inferred net welfare.",
+      "v5_reference": false
+    },
+    {
+      "key": "ALCFINCITE2026Awards",
+      "note": "c7-14",
+      "source": "https://www.alcf.anl.gov/news/incite-program-awards-supercomputing-time-75-high-impact-projects-0",
+      "locator": "May 5, 2026; opening, selection paragraphs and listed awards",
+      "full_text_checked": true,
+      "claims": [
+        "75 computational science projects allocated access for 2026",
+        "Scientific review and technical readiness assessed",
+        "William Collins weather-extremes ML and materials foundation-model projects listed"
+      ],
+      "boundary": "Allocated opportunities, not completed achievements or causal evaluation of public provision. Oak Ridge direct open failed 403; Argonne full primary account successfully read.",
+      "v5_reference": false
+    },
+    {
+      "key": "INCITEPoliciesVersion13",
+      "note": "c7-14",
+      "source": "https://doeleadershipcomputing.org/wp-content/uploads/sites/123/2025/04/INCITE-Overview-and-Policies_2026.pdf",
+      "locator": "Section 1.2.1, printed pp. 1–2, PDF pp. 4–5",
+      "full_text_checked": true,
+      "claims": [
+        "Readiness alone insufficient for award; external scientific review",
+        "Potential preliminary access through DD program before later large allocation"
+      ],
+      "boundary": "Program criteria do not prove optimal selection, no errors, equal merit or a measured comparison budget.",
+      "v5_reference": false,
+      "version_boundary": "December 2024 version 13, distributed for 2026 cycle; not newly dated 2026 text"
+    }
+  ],
+  "illustrations": [
+    {
+      "name": "Aster and Birch",
+      "status": "explicitly fictional recurring suppliers",
+      "purpose": "Capacity purchase, compatible workload pooling, financing, access, routing, pilots, switching and research-cost/reproduction alternatives"
+    },
+    {
+      "name": "Multi-grid developer",
+      "status": "explicit hypothetical",
+      "purpose": "Queue proposals differ from eventual realized load"
+    },
+    {
+      "name": "Grid expansion and interruptible workloads",
+      "status": "explicit hypothetical",
+      "purpose": "Construction, operational, service and contract risks with costs to others"
+    }
+  ],
+  "narrative_checks": [
+    "Physical grid, construction, cooling and reliability cases carry the opening.",
+    "Frontier proper name and frontier-model capability distinguished.",
+    "Internal Chinchilla and Llama technical evidence retained; compute budget distinct from comparison budget.",
+    "DeepSeek assumed valuation and exclusions preserved; Stanford curated dataset boundary preserved.",
+    "INCITE allocated opportunities and LUMI operator account are not proof of realized welfare.",
+    "Scale benefits, financing, costs and private experimentation receive substantive treatment.",
+    "Pre-training, post-training, inference, shared artifacts and research access distinct.",
+    "No equations, fabricated interviews, author visits, invented private reactions, actual-firm finite-budget diagnosis or automatic welfare/legal conclusion.",
+    "Arrow is a bibliography addition; original 24 v5 entries and assignments preserved.",
+    "6000 main words; transition into Chapter 8 request routing and repeated use."
+  ],
+  "whole_book_review": "Still required: continuity, repetition, pace, factual/conceptual/citation audit, updated dates, complete bibliography, combined reading manuscript and final word budget."
+}

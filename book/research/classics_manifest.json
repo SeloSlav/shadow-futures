@@ -58,7 +58,16 @@
       "local_path": "book\\sources\\classics\\Arrow_1962_Economic_Welfare_and_Invention.pdf",
       "sha256": "4897cad0384cefd1bb08cf980874bb2ac4759861ddcaa57b8d79a450d66a56ab",
       "pages": 19,
-      "opening_text": "This PDF is a selection from an out-of-print volume from the National\nBureau of Economic Research\nVolume Title: The Rate and Direction of Inventive Activity: Economic\nand Social Factors\nVolume Author/Editor: Universities-National Bureau Committee for \nEconomic Research, Committee on Economic Growth of the Social \nScience Research Council\nVolume Publisher: Princeton University Press\nVolume ISBN: 0-87014-304-2\nVolume URL: http://www.nber.org/books/univ62-1\nPublication Date: 1962\nChapter Title: Economic Welfare and the Allocation of Resources \nfor Invention\nChapter Author: Kenneth Arrow\nChapter URL: http://www.nber.org/chapters/c2144\nChapter pages in book: (p. 609 - 626)"
+      "opening_text": "This PDF is a selection from an out-of-print volume from the National\nBureau of Economic Research\nVolume Title: The Rate and Direction of Inventive Activity: Economic\nand Social Factors\nVolume Author/Editor: Universities-National Bureau Committee for \nEconomic Research, Committee on Economic Growth of the Social \nScience Research Council\nVolume Publisher: Princeton University Press\nVolume ISBN: 0-87014-304-2\nVolume URL: http://www.nber.org/books/univ62-1\nPublication Date: 1962\nChapter Title: Economic Welfare and the Allocation of Resources \nfor Invention\nChapter Author: Kenneth Arrow\nChapter URL: http://www.nber.org/chapters/c2144\nChapter pages in book: (p. 609 - 626)",
+      "book_full_text_check": "relevant_passages_checked_for_recorded_draft_claims",
+      "checked_on": "2026-10-16",
+      "checked_locator": "Printed pp. 609 and 614–617",
+      "drafted_citations": [
+        {
+          "manuscript": "book/manuscript/08-the-intelligence-factory.md",
+          "note": "c7-11"
+        }
+      ]
     },
     {
       "key": "Arrow1963",
