@@ -1,9 +1,9 @@
 {
   "status": "in_progress",
   "main_text_target": 80000,
-  "main_words": 72000,
-  "words_remaining_to_target": 8000,
-  "back_matter_words": 10010,
+  "main_words": 80000,
+  "words_remaining_to_target": 0,
+  "back_matter_words": 10868,
   "back_matter_target": [
     10000,
     15000
@@ -209,20 +209,30 @@
       "title": "An economics of possible worlds",
       "file": "book/manuscript/13-an-economics-of-possible-worlds.md",
       "target": 6000,
-      "stage": "not_started",
-      "exists": false,
-      "main_words": 0,
-      "note_words": 0
+      "stage": "drafted",
+      "exists": true,
+      "main_words": 6000,
+      "note_words": 705,
+      "sha256": "e68dfc70f9ae5ba28d75c8deaf6d74821c8a5145f5c9ab2f23fded7d38649e4e",
+      "note_count": 14,
+      "missing_notes": [],
+      "unused_notes": [],
+      "duplicate_notes": false
     },
     {
       "id": "epilogue",
       "title": "The next opportunity",
       "file": "book/manuscript/14-epilogue.md",
       "target": 2000,
-      "stage": "not_started",
-      "exists": false,
-      "main_words": 0,
-      "note_words": 0
+      "stage": "drafted",
+      "exists": true,
+      "main_words": 2000,
+      "note_words": 153,
+      "sha256": "0cb428f07aad0f9c0786f1d8d30791c86cedfd8d1e0e1f1929ee40eb48b7700f",
+      "note_count": 3,
+      "missing_notes": [],
+      "unused_notes": [],
+      "duplicate_notes": false
     }
   ],
   "back_matter": [

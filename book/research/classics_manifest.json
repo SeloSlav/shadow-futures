@@ -32,6 +32,10 @@
         {
           "manuscript": "book/manuscript/11-competition-for-future-evidence.md",
           "note": "c10-3"
+        },
+        {
+          "manuscript": "book/manuscript/13-an-economics-of-possible-worlds.md",
+          "note": "c12-12"
         }
       ]
     },
@@ -54,7 +58,13 @@
       "local_path": "book\\sources\\classics\\Blackwell_Dubins_1962_Merging_of_Opinions.pdf",
       "sha256": "9b99b52deb083694e888d2b3343ea30e75329d632adec835797fd5e98b50be18",
       "pages": 6,
-      "opening_text": "Merging of Opinions with Increasing Information\nAuthor(s): David Blackwell and Lester Dubins\nSource: The Annals of Mathematical Statistics, Vol. 33, No. 3 (Sep., 1962), pp. 882-886\nPublished by: Institute of Mathematical Statistics\nStable URL: http://www.jstor.org/stable/2237864\nAccessed: 08/12/2010 11:08\nYour use of the JSTOR archive indicates your acceptance of JSTOR's Terms and Conditions of Use, available at\nhttp://www.jstor.org/page/info/about/policies/terms.jsp. JSTOR's Terms and Conditions of Use provides, in part, that unless\nyou have obtained prior permission, you may not download an entire issue of a journal or multiple copies of articles, and you\nmay use content in the JSTOR archive only for your personal, non-commercial use.\nPlease contact the publisher regarding any further use of this work. Publisher contact information may be obtained at\nhttp://www.jstor.org/action/showPublisher?publisherCode=ims.\nEach copy of any part of a JSTOR transmission must contain the same copyright notice that appears on the screen or printed\npage of such transmission.\nJSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide range of\ncontent in a trusted digital archive. We use information technology and tools to increase product"
+      "opening_text": "Merging of Opinions with Increasing Information\nAuthor(s): David Blackwell and Lester Dubins\nSource: The Annals of Mathematical Statistics, Vol. 33, No. 3 (Sep., 1962), pp. 882-886\nPublished by: Institute of Mathematical Statistics\nStable URL: http://www.jstor.org/stable/2237864\nAccessed: 08/12/2010 11:08\nYour use of the JSTOR archive indicates your acceptance of JSTOR's Terms and Conditions of Use, available at\nhttp://www.jstor.org/page/info/about/policies/terms.jsp. JSTOR's Terms and Conditions of Use provides, in part, that unless\nyou have obtained prior permission, you may not download an entire issue of a journal or multiple copies of articles, and you\nmay use content in the JSTOR archive only for your personal, non-commercial use.\nPlease contact the publisher regarding any further use of this work. Publisher contact information may be obtained at\nhttp://www.jstor.org/action/showPublisher?publisherCode=ims.\nEach copy of any part of a JSTOR transmission must contain the same copyright notice that appears on the screen or printed\npage of such transmission.\nJSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide range of\ncontent in a trusted digital archive. We use information technology and tools to increase product",
+      "drafted_citations": [
+        {
+          "manuscript": "book/manuscript/13-an-economics-of-possible-worlds.md",
+          "note": "c12-11"
+        }
+      ]
     },
     {
       "key": "Arrow1962",

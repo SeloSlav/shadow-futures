@@ -103,14 +103,14 @@
       "title": "An economics of possible worlds",
       "file": "book/manuscript/13-an-economics-of-possible-worlds.md",
       "target": 6000,
-      "stage": "not_started"
+      "stage": "drafted"
     },
     {
       "id": "epilogue",
       "title": "The next opportunity",
       "file": "book/manuscript/14-epilogue.md",
       "target": 2000,
-      "stage": "not_started"
+      "stage": "drafted"
     }
   ],
   "back_matter": [

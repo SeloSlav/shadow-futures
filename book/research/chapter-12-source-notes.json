@@ -1,0 +1,270 @@
+{
+  "manuscript": "book/manuscript/13-an-economics-of-possible-worlds.md",
+  "title": "An economics of possible worlds",
+  "checked_on": "2026-10-16",
+  "status": "drafted",
+  "target_main_words": 6000,
+  "body_words": 6000,
+  "note_words": 705,
+  "draft_sha256": "e68dfc70f9ae5ba28d75c8deaf6d74821c8a5145f5c9ab2f23fded7d38649e4e",
+  "source_checks": "Relevant primary passages and direct scanned pages checked with exact version/access boundaries. Earlier substantive checks retained by claim; Blackwell1953 original gap remains explicit. All council design choices/results fictional.",
+  "sources": [
+    {
+      "key": "Macdonald2018RothamstedGuide",
+      "notes": [
+        "c12-1",
+        "c12-2",
+        "c12-3"
+      ],
+      "source": "https://www.rothamsted.ac.uk/sites/default/files/national-capability/long-term-experiments/Web_LTE%20Guidebook_2019%20Final2.pdf",
+      "locator": "Copyright/title pp1–2; printedpp5–9, especially Broadbalkp7 and planp8; sample overviewp6",
+      "full_text_checked": true,
+      "claims": [
+        "Autumn1843 wheat sowing,1844 harvest; treatments evolved then1852 scheme largely retained to1968",
+        "Acidity, weeds, shorter-strawed cultivars and cropping modifications; management/treatment plans",
+        "Nutrient/organic-matter legacies and later investigation; archived samples and metadata"
+      ],
+      "version_boundary": "A.J.Macdonald editor, copyright2018, reprinted2019, verified on printedp2.60-page public guide, not2019 original publication or current audit.",
+      "boundary": "Original Broadbalk not described as modern randomized experiment. Institutional design and maintained differences not empirical v5 theorem application, uniform unchanging practices, or independent crop-year replications.",
+      "v5_reference": false,
+      "local_cache": ".tmp/book-research/rothamsted-lte-guide-2019.pdf"
+    },
+    {
+      "key": "Rothamsted2024LongTermExperiments",
+      "note": "c12-2",
+      "source": "https://www.rothamsted.ac.uk/news/why-do-we-make-changes-long-term-experiments-rothamsted",
+      "locator": "January17,2024 substantive account: continuity, acidity/weeds, cultivars/pesticides and Broadbalk; relevant opening rechecked alongside guide",
+      "full_text_checked": true,
+      "claims": [
+        "Considered adaptation and preserved differences; study begun1843 rather than every feature forever unchanged"
+      ],
+      "version_boundary": "Dated institutional account, not source of a causal welfare estimate; also checked for prologue.",
+      "boundary": "No direct farm visit or invented experience, no wheat comparison-budget diagnosis.",
+      "v5_reference": false
+    },
+    {
+      "key": "ElectronicRothamstedArchiveSamples",
+      "note": "c12-3",
+      "source": "https://www.era.rothamsted.ac.uk/asset/rsa",
+      "locator": "Full archive overview, classical sample inventory and documented uses; metadata and access description",
+      "full_text_checked": true,
+      "claims": [
+        "Preserved physical samples permit later measurements and new research questions",
+        "Sample retention, metadata and original treatment contrasts distinct"
+      ],
+      "version_boundary": "Institutional archive accessedOctober16,2026; no current sample-count or universal sampling-completeness claim used.",
+      "boundary": "Storage does not create an unobserved treatment outcome. AI-log analogy and protection/cost choices are author reasoning.",
+      "v5_reference": false
+    },
+    {
+      "key": "BearchellEtAl2005WheatArchive",
+      "note": "c12-4",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC556271/",
+      "additional_source": "https://doi.org/10.1073/pnas.0501596102",
+      "locator": "PNAS102(15)5438–5442; indexed Materials and Methods, DNA-extraction/PCR methods, pathogen-abundance results and correlated-factor limitation",
+      "full_text_checked": true,
+      "claims": [
+        "DNA methods investigate two wheat pathogens in archived material; long relative-abundance record",
+        "Association with sulfur-dioxide emissions; possible correlated factors acknowledged"
+      ],
+      "version_boundary": "Published2005 primary passages read through full indexed search excerpts, with PubMed metadata. Direct PMCHTML/PDF challenged, EuropePMC mirror inaccessible/XML500, author repositories no full text; no successful local original claimed.",
+      "boundary": "Not randomized pollution effect, disease recommendation or creation of unobserved harvest. Narrow qualitative claims, no numerical correlation/effect size. Relevant full passages rather than abstract-only check.",
+      "v5_reference": false
+    },
+    {
+      "key": "Fisher1926FieldExperiments",
+      "note": "c12-5",
+      "source": "https://pdixon.stat.iastate.edu/stat571/readings/Fisher%201926.pdf",
+      "locator": "Originalpp503–508, reproducedpp84–89, scanPDFpp2–7; all six relevant pages rendered and visually read",
+      "full_text_checked": true,
+      "claims": [
+        "Soil heterogeneity distinct from measurement care",
+        "Replication, random arrangement and inference depend on how design generated",
+        "Restricted allocation requires corresponding analysis"
+      ],
+      "version_boundary": "Original1926 paper in scanned reprint,12PDFpages; text extraction empty. pypdfium2 rendering inspected directly. Adelaide catalogue corroborates identity; no claims based on unviewed scan text.",
+      "boundary": "Not originalBroadbalk randomized design or endorsement of all1926 significance conventions. Added predecessor outside original24.",
+      "v5_reference": false,
+      "local_cache": ".tmp/book-research/fisher-field-experiments-1926.pdf"
+    },
+    {
+      "key": "ErlicV5",
+      "note": "c12-6",
+      "source": "output/docx/Shadow_Futures_FINAL_Comparison_Budget_Revised_v5.docx",
+      "locator": "CanonicalOctober2026 Sections2–4 and AppendicesA–C; source provenance hash",
+      "full_text_checked": true,
+      "claims": [
+        "Cumulative modeled chance outside current favorite and conditional information bound",
+        "Lifetime assumptions, finite-horizon caution and all informative outcomes",
+        "Same-parameter replay distinct from policy intervention; novelty scope limited"
+      ],
+      "version_boundary": "Unpublished canonicalv5; SSRNrecord not assumed byte-identical.",
+      "boundary": "No universal impossibility, actual-market lifetime estimate, independent proof certification or established priority.",
+      "v5_reference": false
+    },
+    {
+      "key": "Erlic2026MeasurementJournalDraft",
+      "note": "c12-7",
+      "source": "output/docx/research-program/journal/02_Measuring_Comparison_Opportunities_in_Adaptive_Markets.docx",
+      "sha256": "4c36f8a03b827541955879cc71fd35c854bb3f4e11a11a8da215501f5de24f9a",
+      "locator": "Abstract; Section2 positioning; Section10 paragraphs105–108 observation model, predictive validation, uncertainty and intervention scope",
+      "full_text_checked": true,
+      "claims": [
+        "Synthetic study and explicit feedback-mechanism uncertainty; computational calibration not protection from misspecified market mechanism",
+        "Future finite-horizon reporting and auditable observation process"
+      ],
+      "version_boundary": "CurrentOctober2026 expanded unpublished journal version, distinct from earlier short draft.",
+      "boundary": "No actual market measured, finite-record proof of lifetime condition, simulation effect size or universal method validity asserted. Other future research projects explicitly proposals.",
+      "v5_reference": false
+    },
+    {
+      "key": "KasySautmann2021",
+      "note": "c12-9",
+      "source": "https://maxkasy.github.io/home/files/papers/adaptiveexperimentspolicy.pdf",
+      "locator": "Publishedpp113–114,122–123, policy-choice objective and Indian recruitment field design; relevant passages checked for Chapters2/10",
+      "full_text_checked": true,
+      "claims": [
+        "Post-test policy choice distinct from maximizing all within-test outcomes; narrow recruitment completion objective"
+      ],
+      "version_boundary": "Published2021 paper plus checkedNovember10,2021 correction.",
+      "boundary": "No invalidated original expected-frequentist-regret guarantee or council pilot-power claim.",
+      "v5_reference": true,
+      "local_cache": ".tmp/book-research/kasy-sautmann-2021.pdf"
+    },
+    {
+      "key": "KasySautmann2021Correction",
+      "note": "c12-9",
+      "source": "https://maxkasy.github.io/home/files/papers/correction_adaptiveexperimentspolicy.pdf",
+      "locator": "November10,2021 p1 correctedTheorem1item3; checked for Chapters2/10",
+      "full_text_checked": true,
+      "claims": [
+        "Correction constrains use of original rate statement"
+      ],
+      "boundary": "Corrected original claim not repeated.",
+      "v5_reference": false,
+      "local_cache": ".tmp/book-research/kasy-sautmann-correction.pdf"
+    },
+    {
+      "key": "Erlic2026InstitutionsJournalDraft",
+      "note": "c12-10",
+      "source": "output/docx/research-program/journal/00_Institutions_for_Comparative_Discovery.docx",
+      "sha256": "00379a7f5bba84a76a09f48d95c49e94a5c1b103f093a398f889d3d5d8b6daa7",
+      "locator": "Sections4–5, complementary permissions/committed contracting, paragraphs29–43; Sections7–9 paragraphs65–85",
+      "full_text_checked": true,
+      "claims": [
+        "Complementary records, private costs and partial appropriation can prevent worthwhile evidence",
+        "Conditional committed contracting, verifiable provision and financing may assemble access",
+        "Bounded prospectiveAIservice design and cumulative evidence requirements"
+      ],
+      "version_boundary": "Current expandedOctober2026 unpublished journal version per archiveREADME.",
+      "boundary": "Elementary conditional model, not new general coordination theorem, actual-firm diagnosis or observed pilot. Productive scale, security/privacy/implementation and funding retained.",
+      "v5_reference": false
+    },
+    {
+      "key": "BlackwellDubins1962",
+      "note": "c12-11",
+      "source": "http://www.dklevine.com/archive/refs4565.pdf",
+      "locator": "Originalpp882–883 theorem, canonicalv5Section3/AppendixB; checked earlierchapter records",
+      "full_text_checked": true,
+      "claims": [
+        "Classical conditional predictive merging under absolutecontinuity",
+        "V5specific conjunction differs from universal prediction/nonlearning claim"
+      ],
+      "boundary": "No theorem about chatbot truth; merging alone can coexist with learning; full relevant observed experiment matters.",
+      "v5_reference": true,
+      "local_cache": "book/sources/classics/Blackwell_Dubins_1962_Merging_of_Opinions.pdf"
+    },
+    {
+      "key": "Blackwell1953",
+      "note": "c12-12",
+      "source": "https://doi.org/10.1214/aoms/1177729032",
+      "locator": "Historical experiment-comparison foundation; original1953 full passage inaccessible, see classics_manifest.json",
+      "full_text_checked": false,
+      "claims": [
+        "Historical attribution of classical decision-based comparison"
+      ],
+      "boundary": "Finite-setting theorem/proof checked in deOliveira2017 primary paper, not falsely upgraded to original inspection. Additional foundation outside original24.",
+      "v5_reference": false
+    },
+    {
+      "key": "deOliveira2018Blackwell",
+      "note": "c12-12",
+      "source": "https://henriquedeoliveira.com/wp-content/uploads/2020/12/blackwells-informativeness-theorem-using-diagrams.pdf",
+      "locator": "November30,2017 author version pp1–5, Theorem1 and proof; published2018",
+      "full_text_checked": true,
+      "claims": [
+        "Finite-setting experiment comparison by decision value/garbling; gross versus net remedy value distinguished"
+      ],
+      "version_boundary": "10-page author preprint, not final6-page typeset article; checked for Chapter10.",
+      "boundary": "Known interpretation and fixed decision problems; no all-disclosure welfare theorem or tax/antitrust conclusion.",
+      "v5_reference": false,
+      "local_cache": ".tmp/book-research/de-oliveira-blackwell-2017.pdf"
+    },
+    {
+      "key": "Hayek2002",
+      "note": "c12-13",
+      "source": "https://ppe.isi.org/wp-content/uploads/2017/12/Lesson-9-Reading-Competition-as-a-Discovery-Process.pdf",
+      "locator": "Printedpp9–11,1968lecture/2002Snowtranslation; checked for Chapters4/10",
+      "full_text_checked": true,
+      "claims": [
+        "Prior competition/discovery argument under uncertainty"
+      ],
+      "boundary": "Not guarantee of contribution identification or every information remedy benefit.",
+      "v5_reference": true,
+      "local_cache": ".tmp/book-research/hayek-2002.pdf"
+    },
+    {
+      "key": "SalganikDoddsWatts2006",
+      "note": "c12-14",
+      "source": "https://doi.org/10.1126/science.1121066",
+      "locator": "Science311:854–856, separate social-influence markets and same48recordings; checked earlierchapter records",
+      "full_text_checked": true,
+      "claims": [
+        "Repeated experimental cultural markets expose differing histories with same recordings"
+      ],
+      "boundary": "Not income/merit decomposition, ordinaryindustry causal verdict or lifetime-theorem proof.",
+      "v5_reference": true
+    },
+    {
+      "key": "SalganikBitByBitMusicLab",
+      "note": "c12-14",
+      "source": "https://www.bitbybitbook.com/en/running-experiments/exp-advice/zero-variable-cost/",
+      "locator": "Open author account Section4.6.1, Lockdown first/fortieth; checked for prologue/Chapter1",
+      "full_text_checked": true,
+      "claims": [
+        "Specific Lockdown rank contrast"
+      ],
+      "boundary": "No invented musician reactions, biographies, conversations or commercial reward.",
+      "v5_reference": false
+    }
+  ],
+  "illustrations": [
+    {
+      "name": "Council pairedAIrecommendation evaluation",
+      "status": "explicitly fictional prospective design",
+      "note": "c12-8",
+      "purpose": "12weeks,600eligible requests,£60,000 cashcap; qualification, calibration, checks, versions, missingness, dependence, fullcost and continuation decision"
+    },
+    {
+      "name": "AIlogs versus physicalarchive",
+      "status": "author analogy with explicit limits",
+      "purpose": "Newmeasurements of observed history distinct from generating missing outcomes; privacy and documentation"
+    },
+    {
+      "name": "Three future research projects",
+      "status": "proposed, not completed empirical studies",
+      "purpose": "Measurement, finite designs and institutional permissions/costs"
+    }
+  ],
+  "narrative_checks": [
+    "Rothamsted opening/adaptation and pathogenarchive add concrete documented cases.",
+    "Fisher original scannedpp503–508 read and credited; originalBroadbalk not mislabeled randomized.",
+    "Comparisonbudget distinct from600pairedobservations, shares, winnercount and welfare.",
+    "Prospective pilot has actual stipulated scope/cap/endpointrule but no claimed power or executed result.",
+    "Commonpayoff/permissionmodel conditional; private tests, scale, costs and negative findings included.",
+    "Counterfactual and learning predecessors acknowledged; no invention of allcounterfactualeconomics, independent proof/priority certification or realfirmtax/liability.",
+    "No equations, invented realinterviews/visits/private experience.",
+    "6000mainwords; Lockdown returns as observed contrast rather than rewardmeritcalculation."
+  ],
+  "whole_book_review": "Still required: complete sequential editorial/factual/conceptual/citation review, unresolved original-source queue, complete bibliography/acknowledgments, combined reading manuscript and final budget audit."
+}

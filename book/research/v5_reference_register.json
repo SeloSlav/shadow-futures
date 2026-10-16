@@ -106,6 +106,10 @@
         {
           "manuscript": "book/manuscript/09-a-billion-answers.md",
           "note": "c8-7"
+        },
+        {
+          "manuscript": "book/manuscript/13-an-economics-of-possible-worlds.md",
+          "note": "c12-11"
         }
       ],
       "checked_on": "2026-10-16",
@@ -197,6 +201,10 @@
         {
           "manuscript": "book/manuscript/11-competition-for-future-evidence.md",
           "note": "c10-9"
+        },
+        {
+          "manuscript": "book/manuscript/13-an-economics-of-possible-worlds.md",
+          "note": "c12-13"
         }
       ],
       "checked_on": "2026-10-16",
@@ -284,6 +292,10 @@
         {
           "manuscript": "book/manuscript/11-competition-for-future-evidence.md",
           "note": "c10-7"
+        },
+        {
+          "manuscript": "book/manuscript/13-an-economics-of-possible-worlds.md",
+          "note": "c12-9"
         }
       ],
       "correction_checked": "Authors November 10, 2021 correction to Theorem 1, item 3; see chapter-02-source-notes.json."
@@ -540,6 +552,14 @@
         {
           "manuscript": "book/manuscript/07-who-deserves-the-winnings.md",
           "note": "c6-1"
+        },
+        {
+          "manuscript": "book/manuscript/13-an-economics-of-possible-worlds.md",
+          "note": "c12-14"
+        },
+        {
+          "manuscript": "book/manuscript/14-epilogue.md",
+          "note": "e-2"
         }
       ]
     },
