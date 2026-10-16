@@ -2,7 +2,7 @@
   "chapter": 5,
   "title": "Who gets to be tested",
   "prepared_on": "2026-10-16",
-  "status": "source_preparation_not_a_drafted_chapter",
+  "status": "consumed_for_draft",
   "target_main_words": 6000,
   "main_case": "Google search-distribution dispute, distinct from separate ad-tech litigation",
   "narrative_commitments": [
@@ -191,5 +191,7 @@
     "Read remaining relevant September2025 opinion and final-judgment sections.",
     "Inspect any source used for later procedural status; do not infer completed October filings from September deadlines.",
     "Draft full6000word chapter with concrete cases and linked notes; then claim-specific source ledger, reference register update, counts and local checkpoint."
-  ]
+  ],
+  "draft_source_ledger": "book/research/chapter-05-source-notes.json",
+  "interpretation": "Preparation records preserve searches, partial accesses and candidates. Final draft source ledger is authoritative for claims actually used."
 }

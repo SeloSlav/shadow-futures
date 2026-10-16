@@ -181,6 +181,10 @@
         {
           "manuscript": "book/manuscript/05-the-histories-that-became-infrastructure.md",
           "note": "c4-8"
+        },
+        {
+          "manuscript": "book/manuscript/06-who-gets-to-be-tested.md",
+          "note": "c5-11"
         }
       ],
       "checked_on": "2026-10-16",
@@ -330,7 +334,15 @@
       "subject": "Prior use of epistemic monopoly",
       "use_and_boundary": "Credit the term and the knowledge-governance argument before defining the book's narrower allocation use.",
       "inventory_status": "transcribed_from_canonical_v5",
-      "book_full_text_check": "required_before_claim_specific_drafting"
+      "book_full_text_check": "relevant_passages_checked_for_recorded_draft_claims",
+      "drafted_citations": [
+        {
+          "manuscript": "book/manuscript/06-who-gets-to-be-tested.md",
+          "note": "c5-6"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "checked_locator": "Published full-text introduction and Section6; prior epistemic-monopoly terminology, independent evidence and patent-holder control of research conditions"
     },
     {
       "key": "Merton1968",

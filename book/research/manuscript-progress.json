@@ -1,9 +1,9 @@
 {
   "status": "in_progress",
   "main_text_target": 80000,
-  "main_words": 30000,
-  "words_remaining_to_target": 50000,
-  "back_matter_words": 4684,
+  "main_words": 36000,
+  "words_remaining_to_target": 44000,
+  "back_matter_words": 5369,
   "back_matter_target": [
     10000,
     15000
@@ -104,10 +104,15 @@
       "title": "Who gets to be tested",
       "file": "book/manuscript/06-who-gets-to-be-tested.md",
       "target": 6000,
-      "stage": "researching",
-      "exists": false,
-      "main_words": 0,
-      "note_words": 0
+      "stage": "drafted",
+      "exists": true,
+      "main_words": 6000,
+      "note_words": 685,
+      "sha256": "7300f0b890e5fb4cf88ec364ed1ac3f4a944729694c36f52f2604c7ec3d41245",
+      "note_count": 16,
+      "missing_notes": [],
+      "unused_notes": [],
+      "duplicate_notes": false
     },
     {
       "id": "chapter_06",

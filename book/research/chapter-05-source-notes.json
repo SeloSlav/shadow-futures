@@ -1,0 +1,187 @@
+{
+  "manuscript": "book/manuscript/06-who-gets-to-be-tested.md",
+  "title": "Who gets to be tested",
+  "checked_on": "2026-10-16",
+  "status": "drafted",
+  "target_main_words": 6000,
+  "body_words": 6000,
+  "draft_sha256": "7300f0b890e5fb4cf88ec364ed1ac3f4a944729694c36f52f2604c7ec3d41245",
+  "source_checks": "Relevant full primary-source passages checked in dated court records, published Meghani text, stakeholder statements and original research report. Some primary text read through indexed full sources after terminal download failure; exact access boundaries retained. No independent proof/priority certification.",
+  "sources": [
+    {
+      "key": "GoogleLiability2024",
+      "note": "c5-1",
+      "notes": [
+        "c5-1",
+        "c5-2",
+        "c5-3",
+        "c5-5",
+        "c5-8"
+      ],
+      "source": "https://fingfx.thomsonreuters.com/gfx/legaldocs/gdpzmaxjxvw/United%20States%20v%20Google%2020240805.pdf",
+      "locator": "Mehta opinion, August5 2024, ECF1033; printed pp.1-4,34-35,48-49,115-116; paragraphs86-92,136-137,335,337-339",
+      "claims": [
+        "Default contracts/payments and quality credited alongside monopoly-maintenance findings",
+        "Firefox/Yahoo2014-2017 default and query shares; advertising/user-experience context",
+        "Query/click feedback; useful scale",
+        "Internal side-by-side studies, Bing latency comparison, Project Folly",
+        "Mozilla2021 payment above$400million and roughly80percent operating budget"
+      ],
+      "boundary": "Dated judicial findings, not current product rankings/shares/budgets. Particular search-services and search-text-ad markets, not every advertising market. Firefox switch is not randomized. Additional informative internal tests cannot be omitted from a learning claim.",
+      "v5_reference": false
+    },
+    {
+      "key": "ErlicV5",
+      "note": "c5-4",
+      "source": "output/docx/Shadow_Futures_FINAL_Comparison_Budget_Revised_v5.docx",
+      "locator": "Sections2-5; comparison-budget definition, Theorem1 and narrower epistemic-monopoly interpretation",
+      "claims": [
+        "Cumulative modeled chance outside changing favorite; shares/users/bytes not budget",
+        "Narrow question-relative control over comparison production; additional information must count",
+        "Institutional interpretation needs empirical/causal/welfare/legal premises"
+      ],
+      "boundary": "Author preprint, no independent proof or established-priority certification. No empirical estimate or lifetime-budget diagnosis of Google.",
+      "v5_reference": false
+    },
+    {
+      "key": "Meghani2021",
+      "note": "c5-6",
+      "source": "https://link.springer.com/article/10.1007/s13347-021-00467-2",
+      "full_text_checked": "https://link.springer.com/content/pdf/10.1007/s13347-021-00467-2.pdf",
+      "locator": "Published introduction and Section6: regulatory epistemic duties; patent-holder power to set independent research conditions; paragraphs beginning The affording of such broad rights and It allows the patent holder",
+      "claims": [
+        "Prior epistemic-monopoly term and governance argument; independent credible sources; control of testing conditions"
+      ],
+      "boundary": "Book does not claim coinage or equate her normative/governance argument with the comparison-budget theorem. Her original case is corroborated in the original2020 opinion, separately recorded. Publisher full HTML and indexed full PDF were read; no successful local PhilPapers PDF download claimed.",
+      "v5_reference": true
+    },
+    {
+      "key": "GoogleFinalJudgment2025",
+      "note": "c5-7",
+      "notes": [
+        "c5-7",
+        "c5-12"
+      ],
+      "source": "https://www.justice.gov/atr/media/1421546/dl?inline=",
+      "locator": "December5 2025, ECF1462; SectionsIII-V and IX.V; pp.2-10,32-33",
+      "claims": [
+        "Specific distribution conditions and one-year provisions",
+        "Specified index and user-side data, safeguards and documentation; algorithms/ranking signals/post-trained LLMs excluded from user-data disclosure mandate",
+        "Qualified competitor requirements, syndication and tapering"
+      ],
+      "boundary": "Ordered terms, not proof of completed delivery or effects; no all-payments ban or Chrome divestiture; syndication and data-sharing are distinct.",
+      "v5_reference": false
+    },
+    {
+      "key": "GoogleRemedies2025",
+      "note": "c5-10",
+      "notes": [
+        "c5-7",
+        "c5-10",
+        "c5-12"
+      ],
+      "source": "https://docs.justia.com/cases/federal/district-courts/district-of-columbia/dcdce/1%3A2020cv03010/223205/1436",
+      "full_text_checked": "https://cases.justia.com/federal/district-courts/district-of-columbia/dcdce/1%3A2020cv03010/223205/1436/0.pdf?ts=1756887879",
+      "locator": "September2 2025, ECF1436; introduction and remedy-specific conclusions; payment-ban pp.119-122 checked for distributor-risk reasoning; privacy pp.163-164; Chrome discussion pp.112-117 previously checked",
+      "claims": [
+        "Ordered versus requested relief; distributor/payment-ban reasoning; privacy concern and technical implementation"
+      ],
+      "boundary": "Full indexed primary text read. Direct terminal PDF download was blocked and no local PDF exists; terminal printed retrieved message after error was not evidence of success and file existence was checked. No completed remedy-effects claim.",
+      "v5_reference": false
+    },
+    {
+      "key": "MozillaChambers2025",
+      "note": "c5-9",
+      "source": "https://blog.mozilla.org/en/mozilla/internet-policy/defending-an-open-web/",
+      "locator": "Laura Chambers, September8 2025, full main statement",
+      "claims": [
+        "Attributed opposition to payments ban, support for flexibility, implementation/privacy concern, concern about transfer of power"
+      ],
+      "boundary": "Stakeholder argument, not independently established welfare effect. Only-independent-engine assertion not reproduced.",
+      "v5_reference": false
+    },
+    {
+      "key": "Hayek2002",
+      "note": "c5-11",
+      "source": "https://ppe.isi.org/wp-content/uploads/2017/12/Lesson-9-Reading-Competition-as-a-Discovery-Process.pdf",
+      "locator": "Printed pp.9-11; relevant passages already checked for Chapter4",
+      "claims": [
+        "Competition/discovery value under uncertainty"
+      ],
+      "boundary": "Not a guarantee every remedy improves discovery or attribution. Lecture1968, translated2002. Original v5 chapter assignments retained.",
+      "v5_reference": true
+    },
+    {
+      "key": "AkessonLucaPetrieAmlani2023",
+      "note": "c5-13",
+      "source": "https://research.mozilla.org/files/2023/09/Can-browser-choice-screens-be-effective_-Mozilla-experiment-report.pdf",
+      "locator": "Acknowledgments, executive summary and experimental design; PDFpp.2-5,22-25",
+      "claims": [
+        "Commissioning/compensation/publication terms; Germany/Spain/Poland simulated setup; randomized information, number and timing versus preset-browser control"
+      ],
+      "boundary": "No numerical effect size or durable market-share/actual-use claim. Browser selection differs from search selection. Simulation-based study, not live field intervention.",
+      "v5_reference": false
+    },
+    {
+      "key": "GoogleStatusSeptember2026",
+      "note": "c5-14",
+      "source": "https://www.justice.gov/atr/media/1461926/dl?inline=",
+      "locator": "Plaintiffs September17 2026 second status report, ECF1552; pp.2-3 and10-12; DOJ case index inspected October16",
+      "claims": [
+        "Technical committee organizational/process work, templates, information requests and exchanges"
+      ],
+      "boundary": "Party report, not judicial certification; scheduled dates not completed actions. Public index/search does not prove absence of later docket activity. No actual recipient certifications inferred from August employment-order named-company list.",
+      "v5_reference": false
+    },
+    {
+      "key": "GoogleAppealStatement2026",
+      "note": "c5-15",
+      "source": "https://blog.google/company-news/outreach-and-initiatives/public-policy/why-were-appealing-the-doj-search-distribution-case/",
+      "locator": "Lee-Anne Mulholland, January16 2026; full substantive statement",
+      "claims": [
+        "Attributed appeal announcement, preference/quality/competition defense and data/syndication objections"
+      ],
+      "boundary": "Company argument, not reversal of district court findings or a current appellate disposition.",
+      "v5_reference": false
+    },
+    {
+      "key": "GooglePlaintiffsAppealJuly2026",
+      "note": "c5-15",
+      "source": "https://www.justice.gov/atr/media/1454586/dl?inline=",
+      "locator": "July28 2026 response/opening cross-appeal brief; cover; introduction/issues and cross-appeal; PDFpp.22-25,50,54,64",
+      "claims": [
+        "Plaintiffs defend relief and contest rejection of payment ban"
+      ],
+      "boundary": "Brief of litigating party, not an appellate ruling. No statement that no later filing/decision exists based solely on this document.",
+      "v5_reference": false
+    },
+    {
+      "key": "NationalFamilyFarmCoalition2020",
+      "note": "c5-16",
+      "source": "https://www.govinfo.gov/content/pkg/USCOURTS-ca9-19-70115/pdf/USCOURTS-ca9-19-70115-0.pdf",
+      "locator": "June3 2020, No.19-70115; judicial opinion pp.5-7 and27-32, especially p.28; full indexed text also checked via Justia",
+      "claims": [
+        "Monsanto pre-2016 field testing in Georgia/Texas and product not made available for independent studies at that time",
+        "Challenge to2018 registrations; vacatur on risk-assessment grounds; satisfactory-data element not decided"
+      ],
+      "boundary": "Historical judicial account only; no current pesticide status, blanket biotechnology/chemical-safety claim, or statement that independent testing was the sole holding. Book informational interpretation distinct from holding.",
+      "v5_reference": false
+    }
+  ],
+  "illustrations": [
+    "Opening generic new-device sequence is explanatory, not observation of a particular user.",
+    "Aster/Birch procurement, multiple storefronts, reliability summaries, and proposed access-point trials are hypothetical."
+  ],
+  "narrative_checks": [
+    "Public search case carries defaults, feedback, internal experiments, legal remedies and implementation.",
+    "Firefox/Yahoo switch includes advertising context and return to Google.",
+    "ProjectFolly counters a blanket claim of absent internal comparison.",
+    "Meghani credited before the narrower book use; original dicamba-case paragraph corroborated in court opinion.",
+    "Mozilla financing and browser/search distinction retained.",
+    "Privacy, documentation, eligibility, costs, substitute evidence, and disappointment/revision considered.",
+    "No lifetime-budget diagnosis, statutory violation, tax rate, or welfare conclusion inferred from concentration.",
+    "2026 filings are attributed dated records; no announced/scheduled/completed stage collapsed.",
+    "No equations, fabricated interviews, private reactions or dialogue."
+  ],
+  "whole_book_review": "Still required: continuity/repetition, density/pace, factual/citation review, updated temporal claims and final word budget."
+}
