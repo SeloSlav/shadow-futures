@@ -1,0 +1,48 @@
+[
+  {
+    "document": "C:\\WebProjects\\shadow-futures-app\\book\\drafts\\Shadow_Futures_Argument_Brief.docx",
+    "page_count": 2,
+    "page_character_counts": [
+      3001,
+      3550
+    ],
+    "images": [
+      "C:\\WebProjects\\shadow-futures-app\\.tmp\\book-planning\\Shadow_Futures_Argument_Brief\\page-1.png",
+      "C:\\WebProjects\\shadow-futures-app\\.tmp\\book-planning\\Shadow_Futures_Argument_Brief\\page-2.png"
+    ],
+    "converter": "Microsoft Word",
+    "rasterizer": "C:\\Users\\Asus\\.codex\\plugins\\cache\\openai-primary-runtime\\documents\\26.1013.11914\\skills\\documents\\render_docx.py"
+  },
+  {
+    "document": "C:\\WebProjects\\shadow-futures-app\\book\\drafts\\Shadow_Futures_Committed_Book_Outline.docx",
+    "page_count": 11,
+    "page_character_counts": [
+      2353,
+      2539,
+      2964,
+      2441,
+      2637,
+      2851,
+      2807,
+      2674,
+      2873,
+      2053,
+      2495
+    ],
+    "images": [
+      "C:\\WebProjects\\shadow-futures-app\\.tmp\\book-planning\\Shadow_Futures_Committed_Book_Outline\\page-1.png",
+      "C:\\WebProjects\\shadow-futures-app\\.tmp\\book-planning\\Shadow_Futures_Committed_Book_Outline\\page-2.png",
+      "C:\\WebProjects\\shadow-futures-app\\.tmp\\book-planning\\Shadow_Futures_Committed_Book_Outline\\page-3.png",
+      "C:\\WebProjects\\shadow-futures-app\\.tmp\\book-planning\\Shadow_Futures_Committed_Book_Outline\\page-4.png",
+      "C:\\WebProjects\\shadow-futures-app\\.tmp\\book-planning\\Shadow_Futures_Committed_Book_Outline\\page-5.png",
+      "C:\\WebProjects\\shadow-futures-app\\.tmp\\book-planning\\Shadow_Futures_Committed_Book_Outline\\page-6.png",
+      "C:\\WebProjects\\shadow-futures-app\\.tmp\\book-planning\\Shadow_Futures_Committed_Book_Outline\\page-7.png",
+      "C:\\WebProjects\\shadow-futures-app\\.tmp\\book-planning\\Shadow_Futures_Committed_Book_Outline\\page-8.png",
+      "C:\\WebProjects\\shadow-futures-app\\.tmp\\book-planning\\Shadow_Futures_Committed_Book_Outline\\page-9.png",
+      "C:\\WebProjects\\shadow-futures-app\\.tmp\\book-planning\\Shadow_Futures_Committed_Book_Outline\\page-10.png",
+      "C:\\WebProjects\\shadow-futures-app\\.tmp\\book-planning\\Shadow_Futures_Committed_Book_Outline\\page-11.png"
+    ],
+    "converter": "Microsoft Word",
+    "rasterizer": "C:\\Users\\Asus\\.codex\\plugins\\cache\\openai-primary-runtime\\documents\\26.1013.11914\\skills\\documents\\render_docx.py"
+  }
+]

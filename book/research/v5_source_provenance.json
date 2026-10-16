@@ -1,0 +1,17 @@
+{
+  "checked_on": "2026-10-16",
+  "sources": [
+    {
+      "external_path": "C:\\Shadow Futures\\Final\\Shadow_Futures_FINAL_Comparison_Budget_Revised_v5.docx",
+      "project_path": "output\\docx\\Shadow_Futures_FINAL_Comparison_Budget_Revised_v5.docx",
+      "sha256": "6c5f12d78ba233d0badad7bdc923319e3c9212031d764ff3423604a9faae738a",
+      "byte_identical": true
+    },
+    {
+      "external_path": "C:\\Shadow Futures\\Final\\Shadow_Futures_FINAL_Comparison_Budget_Revised_v5.pdf",
+      "project_path": "output\\pdf\\Shadow_Futures_FINAL_Comparison_Budget_Revised_v5.pdf",
+      "sha256": "815a43773bc24d09d3ff078ecfbd2331e297e98c4d2309867885bc278d913cfb",
+      "byte_identical": true
+    }
+  ]
+}

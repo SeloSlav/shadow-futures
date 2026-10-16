@@ -1,0 +1,307 @@
+{
+  "canonical_source": [
+    {
+      "external_path": "C:\\Shadow Futures\\Final\\Shadow_Futures_FINAL_Comparison_Budget_Revised_v5.docx",
+      "project_path": "output\\docx\\Shadow_Futures_FINAL_Comparison_Budget_Revised_v5.docx",
+      "sha256": "6c5f12d78ba233d0badad7bdc923319e3c9212031d764ff3423604a9faae738a",
+      "byte_identical": true
+    },
+    {
+      "external_path": "C:\\Shadow Futures\\Final\\Shadow_Futures_FINAL_Comparison_Budget_Revised_v5.pdf",
+      "project_path": "output\\pdf\\Shadow_Futures_FINAL_Comparison_Budget_Revised_v5.pdf",
+      "sha256": "815a43773bc24d09d3ff078ecfbd2331e297e98c4d2309867885bc278d913cfb",
+      "byte_identical": true
+    }
+  ],
+  "reference_count": 24,
+  "references": [
+    {
+      "key": "Akerlof1970",
+      "citation": "Akerlof, G. A. (1970). The market for “lemons”: Quality uncertainty and the market mechanism. The Quarterly Journal of Economics, 84(3), 488-500.",
+      "planned_chapters": [
+        1,
+        3
+      ],
+      "subject": "Hidden quality and adverse selection",
+      "use_and_boundary": "Contrast hidden product quality with missing historical comparisons even when inputs are observed.",
+      "inventory_status": "transcribed_from_canonical_v5",
+      "book_full_text_check": "required_before_claim_specific_drafting"
+    },
+    {
+      "key": "Arthur1989",
+      "citation": "Arthur, W. B. (1989). Competing technologies, increasing returns, and lock-in by historical events. The Economic Journal, 99(394), 116-131.",
+      "planned_chapters": [
+        4
+      ],
+      "subject": "Increasing returns and historical selection",
+      "use_and_boundary": "Credit the established account of adoption, increasing returns, and lock-in.",
+      "inventory_status": "transcribed_from_canonical_v5",
+      "book_full_text_check": "required_before_claim_specific_drafting"
+    },
+    {
+      "key": "BarYam2016",
+      "citation": "Bar-Yam, Y. (2016). From big data to important information. Complexity, 21(S2), 73–98. doi:10.1002/cplx.21785.",
+      "planned_chapters": [
+        2,
+        8
+      ],
+      "subject": "Data and decision-relevant information",
+      "use_and_boundary": "Explain why additional records need not resolve the particular causal question.",
+      "inventory_status": "transcribed_from_canonical_v5",
+      "book_full_text_check": "required_before_claim_specific_drafting"
+    },
+    {
+      "key": "BlackwellDubins1962",
+      "citation": "Blackwell, D., and Dubins, L. (1962). Merging of opinions with increasing information. The Annals of Mathematical Statistics, 33(3), 882-886. doi:10.1214/aoms/1177704456.",
+      "planned_chapters": [
+        3,
+        8,
+        12
+      ],
+      "subject": "Predictive merging",
+      "use_and_boundary": "Credit the classical prediction result; v5 supplies the allocation setting and attribution conjunction.",
+      "inventory_status": "transcribed_from_canonical_v5",
+      "book_full_text_check": "required_before_claim_specific_drafting"
+    },
+    {
+      "key": "David1985",
+      "citation": "David, P. A. (1985). Clio and the economics of QWERTY. American Economic Review, 75(2), 332-337.",
+      "planned_chapters": [
+        4
+      ],
+      "subject": "Historical path dependence and QWERTY",
+      "use_and_boundary": "Use in the history note with the disputed empirical status of the keyboard example made explicit.",
+      "inventory_status": "transcribed_from_canonical_v5",
+      "book_full_text_check": "required_before_claim_specific_drafting"
+    },
+    {
+      "key": "Gabriyelyan2011",
+      "citation": "Gabriyelyan, S. S. (2011). Absolute continuity and singularity of two probability measures on a filtered space. Journal of Theoretical Probability, 24(3), 595-614.",
+      "planned_chapters": [
+        3
+      ],
+      "subject": "Probability laws on filtered spaces",
+      "use_and_boundary": "Credit the mathematical foundation in a plain-language chapter endnote; do not reproduce the proof.",
+      "inventory_status": "transcribed_from_canonical_v5",
+      "book_full_text_check": "required_before_claim_specific_drafting"
+    },
+    {
+      "key": "GottfriedGrosskinsky2024",
+      "citation": "Gottfried, T., and Grosskinsky, S. (2024). Asymptotics of generalized Pólya urns with non-linear feedback. Electronic Journal of Probability, 29, 1-56.",
+      "planned_chapters": [
+        2,
+        3
+      ],
+      "subject": "Nonlinear reinforced urns",
+      "use_and_boundary": "Credit the reinforcement results behind the sufficient strong-feedback example.",
+      "inventory_status": "transcribed_from_canonical_v5",
+      "book_full_text_check": "required_before_claim_specific_drafting"
+    },
+    {
+      "key": "Hayek2002",
+      "citation": "Hayek, F. A. (2002). Competition as a discovery procedure. The Quarterly Journal of Austrian Economics, 5(3), 9-23.",
+      "planned_chapters": [
+        4,
+        10,
+        12
+      ],
+      "subject": "Competition as discovery",
+      "use_and_boundary": "Credit the 2002 translation and distinguish its original 1968 lecture from the publication year.",
+      "inventory_status": "transcribed_from_canonical_v5",
+      "book_full_text_check": "required_before_claim_specific_drafting"
+    },
+    {
+      "key": "JacodShiryaev2003",
+      "citation": "Jacod, J., and Shiryaev, A. N. (2003). Limit Theorems for Stochastic Processes (2nd ed.). Springer.",
+      "planned_chapters": [
+        3
+      ],
+      "subject": "Stochastic-process probability machinery",
+      "use_and_boundary": "Technical lineage endnote for the main theorem, using the exact v5 edition.",
+      "inventory_status": "transcribed_from_canonical_v5",
+      "book_full_text_check": "required_before_claim_specific_drafting"
+    },
+    {
+      "key": "KabanovLiptserShiryaev1977",
+      "citation": "Kabanov, Yu. M., Liptser, R. Sh., and Shiryaev, A. N. (1977). On the question of absolute continuity and singularity of probability measures. Mathematics of the USSR-Sbornik, 33(2), 203-221. doi:10.1070/SM1977v033n02ABEH002421.",
+      "planned_chapters": [
+        3
+      ],
+      "subject": "Absolute continuity and singularity",
+      "use_and_boundary": "Technical lineage endnote; the general probability result is not a new result of Shadow Futures.",
+      "inventory_status": "transcribed_from_canonical_v5",
+      "book_full_text_check": "required_before_claim_specific_drafting"
+    },
+    {
+      "key": "Kakutani1948",
+      "citation": "Kakutani, S. (1948). On equivalence of infinite product measures. Annals of Mathematics, 49(1), 214-224. doi:10.2307/1969123.",
+      "planned_chapters": [
+        3
+      ],
+      "subject": "Infinite product measures",
+      "use_and_boundary": "Explain the older question of what an indefinitely long record can distinguish.",
+      "inventory_status": "transcribed_from_canonical_v5",
+      "book_full_text_check": "required_before_claim_specific_drafting"
+    },
+    {
+      "key": "KasySautmann2021",
+      "citation": "Kasy, M., and Sautmann, A. (2021). Adaptive treatment assignment in experiments for policy choice. Econometrica, 89(1), 113-132. doi:10.3982/ECTA17527.",
+      "planned_chapters": [
+        2,
+        10,
+        12
+      ],
+      "subject": "Adaptive assignment and policy learning",
+      "use_and_boundary": "Develop allocation as an experimental-design choice with both learning benefits and opportunity costs.",
+      "inventory_status": "transcribed_from_canonical_v5",
+      "book_full_text_check": "required_before_claim_specific_drafting"
+    },
+    {
+      "key": "KerrNandaRhodesKropf2014",
+      "citation": "Kerr, W. R., Nanda, R., and Rhodes-Kropf, M. (2014). Entrepreneurship as experimentation. Journal of Economic Perspectives, 28(3), 25-48.",
+      "planned_chapters": [
+        6,
+        7,
+        11
+      ],
+      "subject": "Entrepreneurship as experimentation",
+      "use_and_boundary": "Present the incentive case for risk-taking and prospective rewards seriously.",
+      "inventory_status": "transcribed_from_canonical_v5",
+      "book_full_text_check": "required_before_claim_specific_drafting"
+    },
+    {
+      "key": "LeCamYang2000",
+      "citation": "Le Cam, L., and Yang, G. L. (2000). Asymptotics in Statistics: Some Basic Concepts (2nd ed.). Springer.",
+      "planned_chapters": [
+        3
+      ],
+      "subject": "Limits on statistical precision",
+      "use_and_boundary": "Credit the testing and lower-bound machinery in the finite-record endnote.",
+      "inventory_status": "transcribed_from_canonical_v5",
+      "book_full_text_check": "required_before_claim_specific_drafting"
+    },
+    {
+      "key": "LeGoffSoulier2017",
+      "citation": "Le Goff, L. C., and Soulier, P. (2017). Parameter estimation of a two-colored urn model class. The International Journal of Biostatistics, 13(1), Article 20160029.",
+      "planned_chapters": [
+        3
+      ],
+      "subject": "Prior estimation failure for a reinforced urn",
+      "use_and_boundary": "State explicitly that single-trajectory estimation failure predates v5.",
+      "inventory_status": "transcribed_from_canonical_v5",
+      "book_full_text_check": "required_before_claim_specific_drafting"
+    },
+    {
+      "key": "Meghani2021",
+      "citation": "Meghani, Z. (2021). Regulations matter: Epistemic monopoly, domination, patents, and the public interest. Philosophy & Technology, 34(4), 1449-1474.",
+      "planned_chapters": [
+        5,
+        10
+      ],
+      "subject": "Prior use of epistemic monopoly",
+      "use_and_boundary": "Credit the term and the knowledge-governance argument before defining the book's narrower allocation use.",
+      "inventory_status": "transcribed_from_canonical_v5",
+      "book_full_text_check": "required_before_claim_specific_drafting"
+    },
+    {
+      "key": "Merton1968",
+      "citation": "Merton, R. K. (1968). The Matthew effect in science. Science, 159(3810), 56-63.",
+      "planned_chapters": [
+        1,
+        4,
+        6
+      ],
+      "subject": "Cumulative advantage in science",
+      "use_and_boundary": "Credit the Matthew effect; do not present success breeding success as a new mechanism.",
+      "inventory_status": "transcribed_from_canonical_v5",
+      "book_full_text_check": "required_before_claim_specific_drafting"
+    },
+    {
+      "key": "Oliveira2009",
+      "citation": "Oliveira, R. I. (2009). The onset of dominance in balls-in-bins processes with feedback. Random Structures & Algorithms, 34(4), 454-477.",
+      "planned_chapters": [
+        2,
+        3
+      ],
+      "subject": "Dominance under reinforcement",
+      "use_and_boundary": "Credit the mathematical antecedent for eventual dominance under sufficient feedback.",
+      "inventory_status": "transcribed_from_canonical_v5",
+      "book_full_text_check": "required_before_claim_specific_drafting"
+    },
+    {
+      "key": "Pemantle2007",
+      "citation": "Pemantle, R. (2007). A survey of random processes with reinforcement. Probability Surveys, 4, 1-79.",
+      "planned_chapters": [
+        2,
+        3
+      ],
+      "subject": "Reinforced random processes",
+      "use_and_boundary": "General reinforcement lineage and the distinction between different reinforcement regimes.",
+      "inventory_status": "transcribed_from_canonical_v5",
+      "book_full_text_check": "required_before_claim_specific_drafting"
+    },
+    {
+      "key": "PikettySaezStantcheva2014",
+      "citation": "Piketty, T., Saez, E., and Stantcheva, S. (2014). Optimal taxation of top labor incomes: A tale of three elasticities. American Economic Journal: Economic Policy, 6(1), 230-271.",
+      "planned_chapters": [
+        6,
+        11
+      ],
+      "subject": "Top-income taxation and behavioral margins",
+      "use_and_boundary": "Explain productive effort, bargaining, and tax responses without attributing an exact-merit requirement to optimal-tax theory.",
+      "inventory_status": "transcribed_from_canonical_v5",
+      "book_full_text_check": "required_before_claim_specific_drafting"
+    },
+    {
+      "key": "RothschildScheuer2016",
+      "citation": "Rothschild, C., and Scheuer, F. (2016). Optimal taxation with rent-seeking. The Review of Economic Studies, 83(3), 1225-1262.",
+      "planned_chapters": [
+        6,
+        11
+      ],
+      "subject": "Taxation with rent-seeking",
+      "use_and_boundary": "Connect to established productive versus rent-seeking distinctions; v5 limits a stronger exact ex post decomposition.",
+      "inventory_status": "transcribed_from_canonical_v5",
+      "book_full_text_check": "required_before_claim_specific_drafting"
+    },
+    {
+      "key": "SalganikDoddsWatts2006",
+      "citation": "Salganik, M. J., Dodds, P. S., and Watts, D. J. (2006). Experimental study of inequality and unpredictability in an artificial cultural market. Science, 311(5762), 854-856.",
+      "planned_chapters": [
+        0,
+        1,
+        3,
+        12
+      ],
+      "subject": "Parallel cultural markets",
+      "use_and_boundary": "Opening and closing case; empirical analogue rather than a proof of the finite-budget theorem.",
+      "inventory_status": "transcribed_from_canonical_v5",
+      "book_full_text_check": "required_before_claim_specific_drafting"
+    },
+    {
+      "key": "VanDeRijtEtAl2014",
+      "citation": "van de Rijt, A., Kang, S. M., Restivo, M., and Patil, A. (2014). Field experiments of success-breeds-success dynamics. Proceedings of the National Academy of Sciences, 111(19), 6934-6939.",
+      "planned_chapters": [
+        1,
+        4,
+        6
+      ],
+      "subject": "Field experiments in cumulative success",
+      "use_and_boundary": "Provide causal evidence of success-breeds-success mechanisms, with the domain and intervention specified.",
+      "inventory_status": "transcribed_from_canonical_v5",
+      "book_full_text_check": "required_before_claim_specific_drafting"
+    },
+    {
+      "key": "Zhang2004",
+      "citation": "Zhang, H. (2004). Inconsistent estimation and asymptotically equal interpolations in model-based geostatistics. Journal of the American Statistical Association, 99(465), 250-261. doi:10.1198/016214504000000241.",
+      "planned_chapters": [
+        3,
+        8
+      ],
+      "subject": "Prediction alongside inconsistent parameter estimation",
+      "use_and_boundary": "Credit the prior distinction in geostatistics; avoid claiming that prediction without parameter recovery is newly discovered.",
+      "inventory_status": "transcribed_from_canonical_v5",
+      "book_full_text_check": "required_before_claim_specific_drafting"
+    }
+  ]
+}

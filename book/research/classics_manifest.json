@@ -1,0 +1,103 @@
+{
+  "retrieved_on": "2026-10-16",
+  "papers": [
+    {
+      "key": "Blackwell1953",
+      "title": "Equivalent Comparisons of Experiments",
+      "authors": "David Blackwell",
+      "year": 1953,
+      "doi": "10.1214/aoms/1177729032",
+      "filename": "Blackwell_1953_Equivalent_Comparisons_of_Experiments.pdf",
+      "urls": [
+        "https://www.jstor.org/stable/pdf/2236332.pdf",
+        "https://projecteuclid.org/download/pdf_1/euclid.aoms/1177729032"
+      ],
+      "v5_reference": false,
+      "role": "Decision-based comparison of experiments; additional foundation for the policy extension.",
+      "status": "link_only",
+      "errors": [
+        "https://www.jstor.org/stable/pdf/2236332.pdf: ValueError: Response was not a PDF",
+        "https://projecteuclid.org/download/pdf_1/euclid.aoms/1177729032: ValueError: Response was not a PDF"
+      ],
+      "source_url": "https://www.jstor.org/stable/pdf/2236332.pdf"
+    },
+    {
+      "key": "BlackwellDubins1962",
+      "title": "Merging of Opinions with Increasing Information",
+      "authors": "David Blackwell and Lester Dubins",
+      "year": 1962,
+      "doi": "10.1214/aoms/1177704456",
+      "filename": "Blackwell_Dubins_1962_Merging_of_Opinions.pdf",
+      "urls": [
+        "https://www.dklevine.com/archive/refs4565.pdf",
+        "http://www.dklevine.com/archive/refs4565.pdf",
+        "https://citeseerx.ist.psu.edu/document?doi=8043220ae5ef8dabcee283c8409085bc276009f3&repid=rep1&type=pdf"
+      ],
+      "v5_reference": true,
+      "role": "Classical predictive merging under the relevant absolute-continuity condition.",
+      "status": "downloaded",
+      "source_url": "http://www.dklevine.com/archive/refs4565.pdf",
+      "local_path": "book\\sources\\classics\\Blackwell_Dubins_1962_Merging_of_Opinions.pdf",
+      "sha256": "9b99b52deb083694e888d2b3343ea30e75329d632adec835797fd5e98b50be18",
+      "pages": 6,
+      "opening_text": "Merging of Opinions with Increasing Information\nAuthor(s): David Blackwell and Lester Dubins\nSource: The Annals of Mathematical Statistics, Vol. 33, No. 3 (Sep., 1962), pp. 882-886\nPublished by: Institute of Mathematical Statistics\nStable URL: http://www.jstor.org/stable/2237864\nAccessed: 08/12/2010 11:08\nYour use of the JSTOR archive indicates your acceptance of JSTOR's Terms and Conditions of Use, available at\nhttp://www.jstor.org/page/info/about/policies/terms.jsp. JSTOR's Terms and Conditions of Use provides, in part, that unless\nyou have obtained prior permission, you may not download an entire issue of a journal or multiple copies of articles, and you\nmay use content in the JSTOR archive only for your personal, non-commercial use.\nPlease contact the publisher regarding any further use of this work. Publisher contact information may be obtained at\nhttp://www.jstor.org/action/showPublisher?publisherCode=ims.\nEach copy of any part of a JSTOR transmission must contain the same copyright notice that appears on the screen or printed\npage of such transmission.\nJSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide range of\ncontent in a trusted digital archive. We use information technology and tools to increase product"
+    },
+    {
+      "key": "Arrow1962",
+      "title": "Economic Welfare and the Allocation of Resources for Invention",
+      "authors": "Kenneth J. Arrow",
+      "year": 1962,
+      "filename": "Arrow_1962_Economic_Welfare_and_Invention.pdf",
+      "urls": [
+        "https://www.nber.org/system/files/chapters/c2144/c2144.pdf"
+      ],
+      "v5_reference": false,
+      "role": "Uncertainty, knowledge production, and limits to private appropriation; policy foundation added to the book.",
+      "status": "downloaded",
+      "source_url": "https://www.nber.org/system/files/chapters/c2144/c2144.pdf",
+      "local_path": "book\\sources\\classics\\Arrow_1962_Economic_Welfare_and_Invention.pdf",
+      "sha256": "4897cad0384cefd1bb08cf980874bb2ac4759861ddcaa57b8d79a450d66a56ab",
+      "pages": 19,
+      "opening_text": "This PDF is a selection from an out-of-print volume from the National\nBureau of Economic Research\nVolume Title: The Rate and Direction of Inventive Activity: Economic\nand Social Factors\nVolume Author/Editor: Universities-National Bureau Committee for \nEconomic Research, Committee on Economic Growth of the Social \nScience Research Council\nVolume Publisher: Princeton University Press\nVolume ISBN: 0-87014-304-2\nVolume URL: http://www.nber.org/books/univ62-1\nPublication Date: 1962\nChapter Title: Economic Welfare and the Allocation of Resources \nfor Invention\nChapter Author: Kenneth Arrow\nChapter URL: http://www.nber.org/chapters/c2144\nChapter pages in book: (p. 609 - 626)"
+    },
+    {
+      "key": "Arrow1963",
+      "title": "Uncertainty and the Welfare Economics of Medical Care",
+      "authors": "Kenneth J. Arrow",
+      "year": 1963,
+      "doi": "10.2307/1812044",
+      "filename": "Arrow_1963_Uncertainty_and_Medical_Care.pdf",
+      "urls": [
+        "https://assets.aeaweb.org/asset-server/files/9442.pdf"
+      ],
+      "v5_reference": false,
+      "role": "How uncertainty and information conditions shape institutions; medical care is a comparison, not evidence for v5's theorem.",
+      "status": "downloaded",
+      "source_url": "https://assets.aeaweb.org/asset-server/files/9442.pdf",
+      "local_path": "book\\sources\\classics\\Arrow_1963_Uncertainty_and_Medical_Care.pdf",
+      "sha256": "6a5c54a652f84884c30c846b2ffb73e3332632ef75a3bc56129f8bda518062b8",
+      "pages": 33,
+      "opening_text": "TH1E AMERICAN \nECONOMIC REVIEW \nVOLUME LIII DECEMBER 1963 NUMBER 5 \nUNCERTAINTY AND THE WELFARE \nECONOMICS OF MEDICAL CARE \nBy KENNETH J. ARROW* \nI. Introduction: Scope and Method \nThis paper is an exploratory and tentative study of the specific \ndifferentia of medical care as the object of normative economics. It \nis contended here, on the basis of comparison of obvious characteris- \ntics of the medical-care industry with the norms of welfare economics, \nthat the special economic problems of medical care can be explained \nas adaptations to the existence of uncertainty in the incidence of dis- \nease and in the efficacy of treatment. \nIt should be noted that the subject is the medical-care industry, not \nhealth. The causal factors in health are many, and the provision of \nmedical care is only one. Particularly at low levels of income, other \ncommodities such as nutrition, shelter, clothing, and sanitation may \nbe much more significant. It is the complex of services that center \nabout the physician, private and group practice, hospitals, and public \nhealth, which I propose to discuss. \nThe focus of discussion will be on the way the operation of the \nmedical-care industry and the efficacy with which it satisfies the needs \nof society differ from a norm, if at all. The \"norm\" that th"
+    },
+    {
+      "key": "Alchian1950",
+      "title": "Uncertainty, Evolution, and Economic Theory",
+      "authors": "Armen A. Alchian",
+      "year": 1950,
+      "doi": "10.1086/256940",
+      "filename": "Alchian_1950_Uncertainty_Evolution_and_Economic_Theory.pdf",
+      "urls": [
+        "https://docenti.luiss.it/protected-uploads/623/2016/04/20160405105251-Uncertainty-Evolution-and-Economic-Theory-Alchian-1950.pdf",
+        "https://ios23.classes.ryansafner.com/files/readings/Alchian-1950.pdf"
+      ],
+      "v5_reference": false,
+      "role": "Profit-based selection under uncertainty; a central intellectual interlocutor added to the book, not an existing v5 reference.",
+      "status": "downloaded",
+      "source_url": "https://docenti.luiss.it/protected-uploads/623/2016/04/20160405105251-Uncertainty-Evolution-and-Economic-Theory-Alchian-1950.pdf",
+      "local_path": "book\\sources\\classics\\Alchian_1950_Uncertainty_Evolution_and_Economic_Theory.pdf",
+      "sha256": "f24d63ec9660d355e8cea7701d600b91348c384b45767206079c660635da2553",
+      "pages": 13,
+      "opening_text": "Uncertainty, Evolution, and Economic Theory\nArmen A. Alchian\nThe Journal of Political Economy, Vol. 58, No. 3. (Jun., 1950), pp. 211-221.\nStable URL:\nhttp://links.jstor.org/sici?sici=0022-3808%28195006%2958%3A3%3C211%3AUEAET%3E2.0.CO%3B2-K\nThe Journal of Political Economy is currently published by The University of Chicago Press.\nYour use of the JSTOR archive indicates your acceptance of JSTOR's Terms and Conditions of Use, available at\nhttp://www.jstor.org/about/terms.html. JSTOR's Terms and Conditions of Use provides, in part, that unless you have obtained\nprior permission, you may not download an entire issue of a journal or multiple copies of articles, and you may use content in\nthe JSTOR archive only for your personal, non-commercial use.\nPlease contact the publisher regarding any further use of this work. Publisher contact information may be obtained at\nhttp://www.jstor.org/journals/ucpress.html.\nEach copy of any part of a JSTOR transmission must contain the same copyright notice that appears on the screen or printed\npage of such transmission.\nThe JSTOR Archive is a trusted digital repository providing for long-term preservation and access to leading academic\njournals and scholarly literature from around the world. The Archive is supported by libraries, scholarly societies,"
+    }
+  ]
+}
