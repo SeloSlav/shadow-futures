@@ -4,7 +4,7 @@
   "objective": "Complete book at prologue standard, including sequential editorial, conceptual, factual and citation review; counts and file existence do not certify completion.",
   "mechanical_checks": {
     "main_words": 80000,
-    "back_matter_words": 14274,
+    "back_matter_words": 14361,
     "main_components": 15,
     "endnotes": 187,
     "bibliography_entries": 118,
@@ -118,10 +118,11 @@
     {
       "id": "chapter_10",
       "file": "book/manuscript/11-competition-for-future-evidence.md",
-      "sha256": "b1d56970bdbeb6874a95b2ed33df0ca3c65cd07a01cc7a992f90bbba6125a486",
-      "sequential_editorial_review": "pending",
-      "conceptual_factual_citation_review": "claim_ledgers_exist_whole_book_recheck_pending",
-      "targeted_revision": "2026-10-16 historical-scale revision; relevant new passages and sources checked, complete sequential chapter review still pending."
+      "sha256": "5749766807bda01e562025b1c3c69ef90969b948840732c051b39879bd7da7e8",
+      "sequential_editorial_review": "completed",
+      "conceptual_factual_citation_review": "completed_for_recorded_claims_with_explicit_source_boundaries",
+      "checked_on": "2026-10-16",
+      "review_record": "book/research/chapter-10-source-notes.json; sequential_review field"
     },
     {
       "id": "chapter_11",
@@ -192,7 +193,7 @@
     ],
     "scope": "Initial argument brief and outline exports only; not the 80000-word book."
   },
-  "completion_audit": "Not passed. Sequential editorial review reaches Chapter 9. Chapters 10–12 and epilogue, four original Chapter 3 technical passages, original Blackwell1953, and final whole-book continuity/citation audit remain incomplete.",
+  "completion_audit": "Not passed. Sequential editorial review reaches Chapter10. Sequential review of Chapters11-12 and epilogue; four original Chapter3 technical passages; original Blackwell1953; final whole-book continuity/citation audit.",
   "review_sessions": [
     {
       "checked_on": "2026-10-16",
@@ -362,7 +363,32 @@
       },
       "reader_sha256_after_revision": "4a86a4e6442e5d5148ace4b66ddb952304b4e577eaff1d421ffda17a749e23a7",
       "remaining_scope": "Sequential review of Chapters 10–12 and epilogue; four Chapter 3 original technical passages; original Blackwell1953; final whole-book continuity/citation audit."
+    },
+    {
+      "checked_on": "2026-10-16",
+      "scope": [
+        "chapter_10"
+      ],
+      "method": "Full chapter and notes read in order; relevant new primary passages checked; changed passages re-read in context. Historical original-source gap remains separate.",
+      "findings": [
+        "Complete body and notes read in sequence after Chapter 9; revised passages re-read with neighbors.",
+        "Replaced repeated public-access procedure with actual bank funding duties and separately specified service-quality and current-account records.",
+        "Kasy-Sautmann case now follows dated calls, six options, 10000 numbers, seventeen waves, unequal observed assignments and remaining posterior uncertainty. Counts are not comparison-budget measurement; outcome is recruitment completion, not farm production.",
+        "DMA example specifies phased already-offered messaging functions, requested free access, security preservation and distinct search-data terms. Indexed official full clauses checked; direct pages challenged; no complete direct-PDF claim, actual AI duty or implementation-success inference.",
+        "Stronger hypothetical epistemic monopoly now explicitly requires no workable independent route, as well as control of relevant comparisons. Sole supply remains insufficient.",
+        "Historical reach-of-judgment mechanism, conditional independent-access presumption, property rights, additional welfare/legal premises, scope/cost/security constraints and public-evaluator risks preserved.",
+        "Removed repeated interpretation/migration recap and hypothetical-table introduction; council throughline, all informative private tests, finite decision objective versus universal attribution, crowdout and stopping preserved.",
+        "Original Blackwell1953 remains inaccessible; previously checked de Oliveira primary proof supports bounded finite-setting exposition. Four canonical Chapter 3 passages still pending; no independent v5 proof or priority certification."
+      ],
+      "budget": {
+        "main_words": 80000,
+        "back_matter_words": 14361,
+        "chapter_10_words": 5851,
+        "twelve_chapters_total": 72000
+      },
+      "reader_sha256_after_revision": "a710aabbbb9c78434ec7d678ae230b30e97f607f02d5160247812c4f6c67df30",
+      "remaining_scope": "Sequential review of Chapters11-12 and epilogue; four original Chapter3 technical passages; original Blackwell1953; final whole-book continuity/citation audit."
     }
   ],
-  "next_component": "chapter_10"
+  "next_component": "chapter_11"
 }

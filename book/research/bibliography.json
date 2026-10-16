@@ -956,13 +956,14 @@
         }
       ],
       "known_locations": [
-        "https://eur-lex.europa.eu/eli/reg/2022/1925/oj/eng"
+        "https://eur-lex.europa.eu/eli/reg/2022/1925/oj/eng",
+        "https://eur-lex.europa.eu/legal-content/EN-ES/TXT/?uri=CELEX%3A32022R1925"
       ],
       "cited_in": [
         "book/manuscript/11-competition-for-future-evidence.md"
       ],
       "canonical_v5_reference": false,
-      "bibliographic_check": "Relevant primary passages inspected for the recorded claim; access/interpretation boundaries in chapter source ledger."
+      "bibliographic_check": "Relevant full official indexed clauses, including Article7 phased functions/security/extension/user-choice terms, rechecked October16,2026. Direct ELI/HTML/PDF remained challenge pages. No complete direct retrieval or implementation-success claim."
     },
     {
       "id": "EU2024PlatformWorkDirective",

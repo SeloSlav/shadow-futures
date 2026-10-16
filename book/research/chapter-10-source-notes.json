@@ -2,11 +2,11 @@
   "manuscript": "book/manuscript/11-competition-for-future-evidence.md",
   "title": "Competition for future evidence",
   "checked_on": "2026-10-16",
-  "status": "drafted",
+  "status": "reviewed",
   "target_main_words": 6000,
   "body_words": 5851,
-  "note_words": 895,
-  "draft_sha256": "b1d56970bdbeb6874a95b2ed33df0ca3c65cd07a01cc7a992f90bbba6125a486",
+  "note_words": 982,
+  "draft_sha256": "5749766807bda01e562025b1c3c69ef90969b948840732c051b39879bd7da7e8",
   "source_checks": "Relevant primary passages checked for stated claims. Original Blackwell1953 archive remains inaccessible; precise finite-setting theorem and proof checked in de Oliveira2017 primary research version. Do not claim original inspection. Prior case checks/version boundaries retained. Current unpublished expanded policy draft read rather than earlier short version.",
   "sources": [
     {
@@ -16,12 +16,14 @@
         "c10-6"
       ],
       "source": "https://assets.publishing.service.gov.uk/media/63bed8958fa8f513b40f866c/BANKING_PROVIDERS_Roadmap_Completion_Decision_.pdf",
-      "locator": "January 2023, paragraphs 1.1–1.4, 2.1–2.6, 4.3–4.9, PDF pp. 1–3 and 5–7",
+      "locator": "January2023 original seven-page decision, paragraphs1.1-1.4,2.1-2.6,4.3-4.9; funding2.3/2.5, PDFpp.2-3; record categories4.3(d)-(e), PDFp.6; monitoring4.5,PDFp.6",
       "full_text_checked": true,
       "claims": [
         "Six major providers completed remaining roadmap items; not all nine simultaneously",
         "Common banking standards, secure authorized sharing and permitted payments",
-        "Continuing standards conformance, performance/availability monitoring, funding and trustee obligations"
+        "Continuing standards conformance, performance/availability monitoring, funding and trustee obligations",
+        "Banks required to create/fund standards entity; completion retains funding duties",
+        "Service-quality and underlying records under Read-only standard; current-account transaction datasets under Read/Write standard"
       ],
       "version_boundary": "Dated primary authority decision; original historical roadmap, not current implementation/governance or usage status.",
       "boundary": "Institutional features and authority appraisal distinguished from causal welfare evaluation. No trial effect, current bank recommendation or actual comparison-budget estimate.",
@@ -131,10 +133,12 @@
       "full_text_checked": true,
       "claims": [
         "Adaptive design for post-experiment policy choice distinct from maximizing within-experiment outcome",
-        "Indian agricultural-service recruitment: call times and SMS alerts; outcome completion of five questions"
+        "Indian agricultural-service recruitment: call times and SMS alerts; outcome completion of five questions",
+        "June3,2019 start;10000 valid non-DND numbers;17waves and6combinations",
+        "10am/one-hour-SMS3931assignments versus6:30pm/no-SMS366; reported morning/one-hour posterior optimality0.754 under uniform prior"
       ],
       "version_boundary": "Published Econometrica89(1)113–132 plus separately checked November 10, 2021 correction.",
-      "boundary": "No original corrected frequentist expected-regret rate, farm yield/income or universal pilot allocation quota.",
+      "boundary": "No original corrected frequentist expected-regret rate, farm yield/income or universal pilot allocation quota. Counts are realized assignments, not the comparison budget. Posterior is model-dependent, not frequentist confidence or certain superiority.",
       "v5_reference": true,
       "local_cache": ".tmp/book-research/kasy-sautmann-2021.pdf"
     },
@@ -225,12 +229,15 @@
       "key": "EUDMA2022",
       "note": "c10-dma",
       "source": "https://eur-lex.europa.eu/eli/reg/2022/1925/oj/eng",
-      "locator": "Articles 6(11) and 7, relevant indexed official full clauses; direct official pages intermittently challenge/fail",
+      "locator": "Articles6(11),7(1)-(9); specified already-offered functions and phased2/4-year schedule in7(2), security7(3), reference offer7(4), exceptional extensions7(6), user choice7(7). Relevant full clauses read in indexed official text; direct ELI/HTML/PDF returned challenges.",
       "claims": [
-        "Scoped messaging interoperability; search ranking/query/click/view access; security/privacy safeguards and differentiated terms"
+        "Scoped messaging interoperability; search ranking/query/click/view access; security/privacy safeguards and differentiated terms",
+        "Requested free interoperability for designated messaging functions already offered, stagedindividual/group/call requirements",
+        "Preservation of security including applicable end-to-end encryption; exceptional extensions and user choice"
       ],
       "boundary": "Relevant primary clauses read via indexed official text, not claim of complete direct-PDF retrieval. No AI designation, general all-knowledge mandate, or demonstrated implementation success inferred.",
-      "v5_reference": false
+      "v5_reference": false,
+      "indexed_primary_text_url": "https://eur-lex.europa.eu/legal-content/EN-ES/TXT/?uri=CELEX%3A32022R1925"
     }
   ],
   "illustrations": [
@@ -275,5 +282,28 @@
     "checked_on": "2026-10-16",
     "scope": "Targeted user-requested historical scale, reach-of-judgment, preemption, platform work, precaution and private-property revision; complete sequential chapter review remains pending.",
     "boundary": "No inevitable historical decline, finite-budget diagnosis of any actual market, independent proof/priority certification, or automatic policy/liability inference."
+  },
+  "sequential_review": {
+    "checked_on": "2026-10-16",
+    "status": "completed_for_recorded_chapter_claims",
+    "method": "Full chapter and notes read in order; relevant new primary passages checked; changed passages re-read in context. Historical original-source gap remains separate.",
+    "findings": [
+      "Complete body and notes read in sequence after Chapter 9; revised passages re-read with neighbors.",
+      "Replaced repeated public-access procedure with actual bank funding duties and separately specified service-quality and current-account records.",
+      "Kasy-Sautmann case now follows dated calls, six options, 10000 numbers, seventeen waves, unequal observed assignments and remaining posterior uncertainty. Counts are not comparison-budget measurement; outcome is recruitment completion, not farm production.",
+      "DMA example specifies phased already-offered messaging functions, requested free access, security preservation and distinct search-data terms. Indexed official full clauses checked; direct pages challenged; no complete direct-PDF claim, actual AI duty or implementation-success inference.",
+      "Stronger hypothetical epistemic monopoly now explicitly requires no workable independent route, as well as control of relevant comparisons. Sole supply remains insufficient.",
+      "Historical reach-of-judgment mechanism, conditional independent-access presumption, property rights, additional welfare/legal premises, scope/cost/security constraints and public-evaluator risks preserved.",
+      "Removed repeated interpretation/migration recap and hypothetical-table introduction; council throughline, all informative private tests, finite decision objective versus universal attribution, crowdout and stopping preserved.",
+      "Original Blackwell1953 remains inaccessible; previously checked de Oliveira primary proof supports bounded finite-setting exposition. Four canonical Chapter 3 passages still pending; no independent v5 proof or priority certification."
+    ],
+    "source_rechecks": [
+      "CMA seven-page original completion decision re-read in full; funding paragraphs 2.3/2.5, differentiated record duties 4.3(d)-(e), monitoring 4.5.",
+      "Kasy-Sautmann published Section 6/Table II, printed p.122 (PDF p.11), and November 10,2021 correction p.1 rechecked; 3931 versus366 assignments and 0.754 posterior.",
+      "DMA Articles7(1)-(9) relevant full clauses read in indexed official English/Spanish record; Article7(2) functions also checked in indexed official text. Direct ELI/HTML/PDF endpoints returned challenge pages.",
+      "Ipsos February16,2026 full primary publication refreshed; fieldwork2025, recommendation measures and publication purpose verified. Dated case, not newest August result.",
+      "Google December5,2025 original judgment pp.6-7 re-read; documentation and exclusions verified, no implementation or appeal result claim."
+    ],
+    "draft_sha256": "5749766807bda01e562025b1c3c69ef90969b948840732c051b39879bd7da7e8"
   }
 }
