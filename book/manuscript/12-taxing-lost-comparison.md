@@ -46,6 +46,10 @@ My own commitments remain those stated earlier: useful work and valuable experim
 
 For Birch's workers, income support after losing a contract might provide security. A funded test might provide a chance to demonstrate the service. For Aster, predictable contractual payment might support investment. These instruments pursue different aims and can have different costs. We should examine their effects without pretending that a complete ledger of moral merit has already settled the choice.
 
+Return to Birch's agent workforce. Suppose workers own shares in the company that owns the resulting code and equipment. They could receive investment income as well as wages. A broader ownership policy concerns who receives those returns. An income tax concerns receipts under its specified rules. Neither is a measurement of lost comparison. Widely distributed profits could come from an arrangement that blocks an independent test; concentrated profits could finance excellent experiments.
+
+Now suppose a narrow access duty lets a departing worker start another firm and test a different service. That preserves an entrepreneurial route. A corrective charge would pursue another margin: making conduct reflect a demonstrated cost imposed on others. These instruments might complement each other, but their justifications remain separate. An inherited capital stake does not measure information destruction, and an agent invoice does not reveal it. The country comparison adds choices about ownership and access; it cannot turn national wealth or private success into a calibrated informational tax base.
+
 ## A charge needs a base
 
 Sweden's nitrogen-oxide charge supplies a concrete contrast. Introduced in 1992, the system charged covered energy-production facilities for emissions and returned receipts in relation to useful energy output. The design sought to reward low emissions relative to production. It distinguished a harmful by-product from the useful activity that produced it.[^c11-5]

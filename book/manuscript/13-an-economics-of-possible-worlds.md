@@ -140,6 +140,18 @@ Suppliers need a reason to trust the process as well. If Aster believes every un
 
 The same principle applies to the researcher. A study of comparison opportunities should preserve evidence that a market already generates useful tests or that no practical alternative meets the requirements. Negative findings help distinguish a mechanism from a slogan. They can show where the comparison-budget perspective adds little to an existing explanation.
 
+## When the leading arrangement fails
+
+The country comparison in Chapter 10 proposes another research question. By robustness here I mean the ability to discover and adopt workable alternatives after a technological, commercial, or policy failure, at acceptable cost. This is a decision criterion to investigate. It is not a country ranking supplied by the comparison budget, or another name for a large computing fleet.
+
+Give the fictional council a failure to recover from: its leading service misclassifies a consequential class of repairs. A useful alternative must do more than appear on a list. Someone must diagnose the problem, obtain permission and resources for a test, check a different approach, and put it into service. Track the time, expense, mistaken decisions, and productive capacity lost along that route. A dormant supplier with usable records could help; several suppliers relying on the same defective check might fail together.
+
+A comparative study could then examine whether public access, enforceable interfaces, or transferable records made that recovery easier. It must count displaced private experiments and ask what would have happened through available substitutes. Subsidized computing that produces unusable results would weaken the hypothesis. So would suppressed findings, a common official error, excessive implementation burdens, or investment lost because obligations made useful research unattractive. Faster initial development could still outweigh a slower recovery; the time horizon and consequences must be stated.
+
+The proposed advantage belongs to arrangements preserving worthwhile discovery, wherever they operate. Announced American, European, and Chinese policies cannot establish that advantage merely by existing. Nor can national output, company counts, or the number of active agents settle it. Begin with comparable decisions and observable routes through failure. Ask who could challenge the accepted explanation, what evidence they could obtain, and whether acting on it improved the result. That would let the institutional argument risk an answer against itself.
+
+Such a study would compare interventions changing institutions; it would not mistake those policy changes for shadow replays under unchanged rules.
+
 ## What an economist should report
 
 Imagine reading an economic account of the council after it has purchased millions of recommendations. The service may have become cheaper, more accurate, and more widely used. Those are outcomes to establish. The explanation should also describe what the process allowed the buyer to learn about the alternatives it actually faced.

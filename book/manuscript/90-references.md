@@ -34,6 +34,20 @@ Bastani, H., O. Bastani, A. Sungu, H. Ge, Ö. Kabakcı, and R. Mariman. 2025. Ge
 
 Bearchell, S. J., B. A. Fraaije, M. W. Shaw, and B. D. L. Fitt. 2005. Wheat archive links long-term fungal pathogen population dynamics to air pollution. PNAS 102:5438–5442. [Source](https://doi.org/10.1073/pnas.0501596102)
 
+State Council, China. 2025. Opinion on implementing the AI Plus initiative. Dated August 21; published August 26. Original Chinese. [Source](https://www.nda.gov.cn/sjj/swdt/xwfb/0826/20250826173046592282838_mobile.html)
+
+Cyberspace Administration of China and six ministries. 2023. Interim measures for generative AI services. Published July 13; effective August 15. Original Chinese. [Source](https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm)
+
+European Union. Charter of Fundamental Rights, Article 17. FRA text and explanations. [Source](https://fra.europa.eu/en/eu-charter/charter/article/17-right-property)
+
+EuroHPC Joint Undertaking. AI factories access modes. Industrial Innovation; checked October 2026. [Source](https://www.eurohpc-ju.europa.eu/ai-factories/ai-factories-access-modes_en)
+
+EuroHPC Joint Undertaking. 2025. Playground access to AI factories. Call opened April 9. [Source](https://www.eurohpc-ju.europa.eu/playground-access-ai-factories_en)
+
+EuroHPC Joint Undertaking. 2026. AI factories industrial innovation access: Terms of reference. V3, March 31. [Source](https://www.eurohpc-ju.europa.eu/document/download/bd7aa666-bdf3-4436-b5ec-0b34a781e817_en?filename=Terms+of+Reference+-+AIF+Access+Calls.pdf)
+
+FTC Office of Technology staff. 2025. Partnerships between cloud service providers and AI developers. January. [Source](https://www.ftc.gov/system/files/ftc_gov/pdf/p246201_aipartnerships6breport_redacted.pdf)
+
 Becker, J., N. Rush, B. Barnes, and D. Rein. 2025. Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity. METR research report. [Source](https://metr.org/Early_2025_AI_Experienced_OS_Devs_Study-paper.pdf)
 
 Bessen, J. 2015. Toil and technology. Finance & Development 52(1):16–19. [Publisher record](https://www.imf.org/external/pubs/ft/fandd/2015/03/bessen.htm)
@@ -140,6 +154,8 @@ Kerr, W. R., Nanda, R., and Rhodes-Kropf, M. (2014). Entrepreneurship as experim
 
 Kohavi, R., A. Deng, B. Frasca, T. Walker, Y. Xu, and N. Pohlmann. 2013. Online controlled experiments at large scale. Proceedings of KDD:1168–1176. [Source](https://doi.org/10.1145/2487575.2488217)
 
+National Science Foundation. 2026. NSF establishes operations center for the National Artificial Intelligence Research Resource. September 1. [Source](https://www.nsf.gov/cise/updates/nsf-establishes-operations-center-national-artificial)
+
 Lakin, M. 2023. Super construction at super scale: How ORNL built a new home for Frontier. Oak Ridge National Laboratory, November 14. [Source](https://www.ornl.gov/news/super-construction-super-scale-how-ornl-built-new-home-frontier/)
 
 Korinek, A., and D. Suh. 2024. Scenarios for the transition to AGI. March author working paper. [Author paper](https://cdn.governance.ai/AGI_Scenarios.pdf)
@@ -233,6 +249,8 @@ United States v. Google LLC. 2024. Memorandum opinion, Judge Amit P. Mehta, Augu
 United States v. Google LLC. 2025. Final judgment, December 5, ECF 1462. [Source](https://www.justice.gov/atr/media/1421546/dl?inline=)
 
 United States v. Google LLC. 2025. Remedies memorandum opinion, Judge Amit P. Mehta, September 2, ECF 1436. [Source](https://docs.justia.com/cases/federal/district-courts/district-of-columbia/dcdce/1%3A2020cv03010/223205/1436)
+
+White House. 2025. America's AI action plan. July. [Source](https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf)
 
 United States v. United States Steel Corp. 1920. 251 U.S. 417, especially 438–439. [Source](https://supreme.justia.com/cases/federal/us/251/417/)
 

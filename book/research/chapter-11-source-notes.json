@@ -2,11 +2,11 @@
   "manuscript": "book/manuscript/12-taxing-lost-comparison.md",
   "title": "Taxing lost comparison",
   "checked_on": "2026-10-16",
-  "status": "reviewed",
+  "status": "drafted_revision_review_pending",
   "target_main_words": 6000,
-  "body_words": 6135,
+  "body_words": 6297,
   "note_words": 766,
-  "draft_sha256": "3c0b7a75a903f31e86ac7d3a1c689a68937811608469f0b234e1c55ccaf3da9d",
+  "draft_sha256": "688ba1d2375cc5d50063654012fe44be3d5794d628b377392cb9446da8eb7ed9",
   "source_checks": "Current expanded unpublished tax manuscript and canonical v5 hidden-position passage read directly. Relevant primary predecessor, Swedish agency, CMA order and CEC project/program passages checked with historical dates and version/access boundaries. Public provision additionality and real-company corrective rates not presumed. Sequential review rechecked v5 Section5/E.2 and tax Sections3-7, refreshed Swedish guidance, and read converter/outage passages in directly accessible original CEC PDF via web research.",
   "sources": [
     {
@@ -218,6 +218,11 @@
       "name": "Converter diagnosis kept in a private maintenance log",
       "status": "explicit counterfactual illustration, not claim about project behavior",
       "purpose": "Common-decision delivery assumption and distinct value to internal/external decisions; sharing existing findings versus creating new tests"
+    },
+    {
+      "name": "Agent-built assets, worker stakes, departing worker and distinct tax/access purposes",
+      "status": "conditional author reasoning within fictional Birch example",
+      "purpose": "Separate distribution/ownership, ordinary taxation, entrepreneurial access and measured informational external cost."
     }
   ],
   "narrative_checks": [
@@ -251,5 +256,11 @@
       "Removed duplicate financing-proxy and earmarking recaps; historical reach-of-exclusion, scale benefits, measurement/quality, additionality, costs, incidence, entry and legal premises remain. No actual-company tax estimate, liability or automatic success charge."
     ],
     "draft_sha256": "3c0b7a75a903f31e86ac7d3a1c689a68937811608469f0b234e1c55ccaf3da9d"
+  },
+  "comparative_institutions_revision": {
+    "checked_on": "2026-10-16",
+    "status": "integrated_final_reconciliation_pending_user_paused",
+    "draft_sha256": "688ba1d2375cc5d50063654012fe44be3d5794d628b377392cb9446da8eb7ed9",
+    "scope": "US–EU–China comparison and linked ownership/taxation/robustness argument; existing chapter foundations retained."
   }
 }

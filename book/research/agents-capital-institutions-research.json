@@ -1,5 +1,5 @@
 {
-  "status": "partially_integrated_chapters_08_09",
+  "status": "integrated_chapters_08_to_12_review_pending",
   "checked_on": "2026-10-16",
   "memo": "book/planning/agents-capital-and-three-economies.md",
   "scope": "Primary-source research supporting a user-requested revision plan. This is not a new manuscript source ledger or certification of current country rankings, economic outcomes, legal advice, or a v5 empirical application.",
@@ -56,35 +56,55 @@
       "url": "https://www.eurohpc-ju.europa.eu/playground-access-ai-factories_en",
       "date": "2025-04-09",
       "locator": "Details and Description, including eligibility/technical assessment and capacity notice",
-      "checked": "Original full substantive call page read.",
+      "checked": "Relevant complete original passages refreshed and read for manuscript claims. Description, eligibility/technical assessment, duration and capacity notice.",
       "supports": "Published route for SME/startup access, first-come processing, capacity limits.",
-      "boundary": "Access process and stated terms, not proof of actual turnaround, granted capacity, successful entry or frontier parity."
+      "boundary": "Access process and stated terms, not proof of actual turnaround, granted capacity, successful entry or frontier parity.",
+      "integrated_in": {
+        "manuscript": "book/manuscript/11-competition-for-future-evidence.md",
+        "note": "c10-europe",
+        "checked_on": "2026-10-16"
+      }
     },
     {
       "key": "EuroHPCAccessModes2026Check",
       "url": "https://www.eurohpc-ju.europa.eu/ai-factories/ai-factories-access-modes_en",
       "locator": "Industrial Innovation access modes",
-      "checked": "Original indexed access-policy passage read.",
+      "checked": "Relevant complete original passages refreshed and read for manuscript claims. Industrial Innovation modes, free innovation access and distinct pay-per-use commercial access.",
       "supports": "Free innovation access for eligible AI SMEs and startups; distinct commercial access.",
-      "boundary": "General mode conditions do not establish which application obtains which system or resources. Check current Terms of Reference and implementation before detailed manuscript claims."
+      "boundary": "General mode conditions do not establish which application obtains which system or resources. Check current Terms of Reference and implementation before detailed manuscript claims.",
+      "integrated_in": {
+        "manuscript": "book/manuscript/11-competition-for-future-evidence.md",
+        "note": "c10-europe",
+        "checked_on": "2026-10-16"
+      }
     },
     {
       "key": "USAIActionPlan2025",
       "url": "https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf",
       "date": "2025-07",
       "locator": "Printedpp3–5; Remove Red Tape; Encourage Open-Source and Open-Weight AI; computing-market and NAIRR recommendations",
-      "checked": "Relevant full original policy passages read via publisher PDF text.",
+      "checked": "Relevant complete original passages refreshed and read for manuscript claims. Printed pp3–5, Remove Red Tape; Encourage Open-Source and Open-Weight AI; computing markets and NAIRR.",
       "supports": "Deregulation and open-model/access objectives coexist in the plan.",
-      "boundary": "Policy recommendations and official characterization, not enacted universal duties, evidence of completed access or proof of policy effects. Do not import the plan's characterization of all open models as a universal license fact."
+      "boundary": "Policy recommendations and official characterization, not enacted universal duties, evidence of completed access or proof of policy effects. Do not import the plan's characterization of all open models as a universal license fact.",
+      "integrated_in": {
+        "manuscript": "book/manuscript/11-competition-for-future-evidence.md",
+        "note": "c10-america",
+        "checked_on": "2026-10-16"
+      }
     },
     {
       "key": "NSFNAIRROperations2026",
       "url": "https://www.nsf.gov/cise/updates/nsf-establishes-operations-center-national-artificial",
       "date": "2026-09-01",
       "locator": "Entire substantive announcement after heading",
-      "checked": "Original full substantive announcement read.",
+      "checked": "Relevant complete original passages refreshed and read for manuscript claims. Full substantive agency announcement, opening and operations/provider coordination paragraphs.",
       "supports": "US public/private access initiative and operations-center announcement.",
-      "boundary": "Agency account; stated plans, activities and participation are not independently measured additionality or proof of frontier competition. Dependence on participating providers is an institutional question."
+      "boundary": "Agency account; stated plans, activities and participation are not independently measured additionality or proof of frontier competition. Dependence on participating providers is an institutional question.",
+      "integrated_in": {
+        "manuscript": "book/manuscript/11-competition-for-future-evidence.md",
+        "note": "c10-nairr",
+        "checked_on": "2026-10-16"
+      }
     },
     {
       "key": "FTC2025AIPartnerships",
@@ -92,9 +112,15 @@
       "supporting_primary_url": "https://search.ftc.gov/news-events/news/press-releases/2025/01/ftc-issues-staff-report-ai-partnerships-investments-study",
       "date": "2025-01",
       "locator": "Official study landing page, executive-summary excerpt and complete official release's Key Findings and Areas to Watch",
-      "checked": "Original official summary and relevant indexed executive-summary passage read; full report not claimed reviewed.",
+      "checked": "Relevant original43-page report passages now read: Original printed pp1–3; Section5 opening p29; Section5.1 p30; Section5.2 pp32–34. Full report not claimed read in its entirety.",
       "supports": "Dated agency inquiry into input access, switching costs and partnership terms.",
-      "boundary": "Potential competition concerns, not adjudicated illegality. Information to September 2024 plus public information through January 2025. Do not treat historical partnership terms as a current contract audit."
+      "boundary": "Relevant original report passages now read, replacing summary-only access. Report has43PDFpages. Information through Sep2024 plus public Jan2025; potential concerns, no illegality determination or current-contract assessment.",
+      "integrated_in": {
+        "manuscript": "book/manuscript/11-competition-for-future-evidence.md",
+        "note": "c10-ftc",
+        "checked_on": "2026-10-16"
+      },
+      "original_report_url": "https://www.ftc.gov/system/files/ftc_gov/pdf/p246201_aipartnerships6breport_redacted.pdf"
     },
     {
       "key": "ChinaAIPlus2025",
@@ -102,9 +128,14 @@
       "date": "2025-08-21",
       "publication_date": "2025-08-26",
       "locator": "Section II especially industry and work; Section III items 9–13",
-      "checked": "Original Chinese policy text covering relevant full sections read. English government account separately corroborates scope; planning paraphrases are not an official translation.",
+      "checked": "Relevant complete original passages refreshed and read for manuscript claims. SectionII(2)industry and II(4)work; SectionIII(9)–(13)computing, application, open source, talent and patient capital.",
       "supports": "Agent services, shared computing, open source, employment adaptation and patient-capital policy objectives.",
-      "boundary": "Announced strategy and targets, not achieved adoption, independent entry or economic resilience."
+      "boundary": "Announced strategy and targets, not achieved adoption, independent entry or economic resilience.",
+      "integrated_in": {
+        "manuscript": "book/manuscript/11-competition-for-future-evidence.md",
+        "note": "c10-china",
+        "checked_on": "2026-10-16"
+      }
     },
     {
       "key": "ChinaGenAIInterimMeasures2023",
@@ -112,24 +143,46 @@
       "date": "2023-07-13",
       "effective_date": "2023-08-15",
       "locator": "Articles 2, 4–6",
-      "checked": "Relevant full enacted Chinese provisions read, distinct from April 2023 consultation draft.",
+      "checked": "Relevant complete original passages refreshed and read for manuscript claims. Enacted original Articles2,4–6, including public-service scope, express nonpublic exclusion, political content and infrastructure/innovation clauses.",
       "supports": "Public-service scope/exclusion; political content requirements and anti-monopoly language; innovation/infrastructure encouragement.",
-      "boundary": "Dated enacted text, not a complete current-law audit or a claim every nonpublic research activity is covered. No general empirical estimate of censorship or innovation effects follows."
+      "boundary": "Dated enacted text, not a complete current-law audit or a claim every nonpublic research activity is covered. No general empirical estimate of censorship or innovation effects follows.",
+      "integrated_in": {
+        "manuscript": "book/manuscript/11-competition-for-future-evidence.md",
+        "note": "c10-china-rules",
+        "checked_on": "2026-10-16"
+      }
     },
     {
       "key": "EUCharterArticle17",
       "url": "https://fra.europa.eu/en/eu-charter/charter/article/17-right-property",
       "locator": "Article 17, paragraphs 1–2 and accompanying explanations",
-      "checked": "Full relevant official article and explanation read.",
+      "checked": "Relevant complete original passages refreshed and read for manuscript claims. Article17(1)–(2), complete article and accompanying explanations.",
       "supports": "Property and intellectual-property protection coexist with qualified regulation of use.",
-      "boundary": "Formal legal text is not a comparative enforcement score or advice about a particular remedy."
+      "boundary": "Formal legal text is not a comparative enforcement score or advice about a particular remedy.",
+      "integrated_in": {
+        "manuscript": "book/manuscript/11-competition-for-future-evidence.md",
+        "note": "c10-property",
+        "checked_on": "2026-10-16"
+      }
+    },
+    {
+      "key": "EuroHPCTerms2026",
+      "url": "https://www.eurohpc-ju.europa.eu/document/download/bd7aa666-bdf3-4436-b5ec-0b34a781e817_en?filename=Terms+of+Reference+-+AIF+Access+Calls.pdf",
+      "date": "2026-03-31",
+      "title": "AI Factories industrial innovation access: Terms of Reference, V3",
+      "locator": "V3 March31,2026; body pp2–4 (PDF pages4–6), Sections1.3–1.4,2–3.1.",
+      "checked": "Relevant complete original clauses read.",
+      "supports": "User ownership/commercial exploitation, nonconfidential publication, eligibility and technical assessment.",
+      "boundary": "Original 11-page PDF contains two front pages and nine numbered body pages. Relevant complete clauses read. User ownership, commercial exploitation, nonconfidential publication, eligibility and technical assessment; no measured program effect.",
+      "integrated_in": {
+        "manuscript": "book/manuscript/11-competition-for-future-evidence.md",
+        "note": "c10-europe",
+        "checked_on": "2026-10-16"
+      }
     }
   ],
   "next_checks_before_integration": [
-    "Reread full relevant passages and exact versions for new substantive manuscript claims; refresh current implementation and distinguish recommendations from effective duties.",
-    "Add citations and bibliography entries only as sources enter actual chapters; retain all 24 canonical v5 references and assignments.",
-    "Check separate labor/asset ownership, operating costs, capital formation, distribution, selection and outcome evidence.",
-    "Keep political-economic scenarios distinct from shadow replays and from established country outcomes.",
-    "Replace approximately 3,500 main words within the 80,000 total and budget new back matter below 15,000."
+    "Integration complete; reread changed chapter sequence and compacted notes, verify canonical identities, note/source bindings, URL coverage, current hashes and budgets.",
+    "Final cross-book reconciliation and four original canonical technical passages remain separate."
   ]
 }

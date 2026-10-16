@@ -2,12 +2,12 @@
   "manuscript": "book/manuscript/11-competition-for-future-evidence.md",
   "title": "Competition for future evidence",
   "checked_on": "2026-10-16",
-  "status": "reviewed",
+  "status": "drafted_revision_review_pending",
   "target_main_words": 6000,
-  "body_words": 5851,
-  "note_words": 993,
-  "draft_sha256": "757c534e4ad7f74bec16ef6327409ca423a5c4fbf3aef968a80c59b382fcfee4",
-  "source_checks": "Relevant primary passages checked for stated claims. Original Blackwell1953 source gap closed in cross-book audit: publisher scan saved and read, with exact relevant pages recorded; de Oliveira2017 remains separately checked. Prior case checks/version boundaries retained. Current unpublished expanded policy draft read rather than earlier short version.",
+  "body_words": 5368,
+  "note_words": 720,
+  "draft_sha256": "c120e6470cb428cc8e44f601120848511e567beb9530c4dce7f489fb8c67dda3",
+  "source_checks": "Relevant primary passages checked for stated claims. Original Blackwell1953 source gap closed in cross-book audit: publisher scan saved and read, with exact relevant pages recorded; de Oliveira2017 remains separately checked. Prior case checks/version boundaries retained. Current unpublished expanded policy draft read rather than earlier short version. Comparative revision: nine new dated primary records, relevant complete original passages checked; announced objectives, formal terms and actual outcomes separated.",
   "sources": [
     {
       "key": "CMAOpenBanking2023Completion",
@@ -243,6 +243,123 @@
       "boundary": "Relevant primary clauses read via indexed official text, not claim of complete direct-PDF retrieval. No AI designation, general all-knowledge mandate, or demonstrated implementation success inferred.",
       "v5_reference": false,
       "indexed_primary_text_url": "https://eur-lex.europa.eu/legal-content/EN-ES/TXT/?uri=CELEX%3A32022R1925"
+    },
+    {
+      "key": "EuroHPCPlayground2025",
+      "note": "c10-europe",
+      "source": "https://www.eurohpc-ju.europa.eu/playground-access-ai-factories_en",
+      "locator": "Description, eligibility/technical assessment, duration and capacity notice.",
+      "full_text_checked": "relevant_complete_original_passages_checked",
+      "checked_on": "2026-10-16",
+      "claims": [
+        "Published route for SME/startup access, first-come processing, capacity limits."
+      ],
+      "boundary": "Original full substantive call page refreshed October16,2026. Published process, not actual delivery or entry outcome.",
+      "v5_reference": false
+    },
+    {
+      "key": "EuroHPCAccessModes2026Check",
+      "note": "c10-europe",
+      "source": "https://www.eurohpc-ju.europa.eu/ai-factories/ai-factories-access-modes_en",
+      "locator": "Industrial Innovation modes, free innovation access and distinct pay-per-use commercial access.",
+      "full_text_checked": "relevant_complete_original_passages_checked",
+      "checked_on": "2026-10-16",
+      "claims": [
+        "Free innovation access for eligible AI SMEs and startups; distinct commercial access."
+      ],
+      "boundary": "Original full substantive page refreshed. Eligibility and actual resource availability remain necessary.",
+      "v5_reference": false
+    },
+    {
+      "key": "EuroHPCTerms2026",
+      "note": "c10-europe",
+      "source": "https://www.eurohpc-ju.europa.eu/document/download/bd7aa666-bdf3-4436-b5ec-0b34a781e817_en?filename=Terms+of+Reference+-+AIF+Access+Calls.pdf",
+      "locator": "V3 March31,2026; body pp2–4 (PDF pages4–6), Sections1.3–1.4,2–3.1.",
+      "full_text_checked": "relevant_complete_original_passages_checked",
+      "checked_on": "2026-10-16",
+      "claims": [
+        "User retains generated data and models; commercial use and nonconfidential publication terms; eligibility/technical assessment."
+      ],
+      "boundary": "Original 11-page PDF contains two front pages and nine numbered body pages. Relevant complete clauses read. User ownership, commercial exploitation, nonconfidential publication, eligibility and technical assessment; no measured program effect.",
+      "v5_reference": false
+    },
+    {
+      "key": "EUCharterArticle17",
+      "note": "c10-property",
+      "source": "https://fra.europa.eu/en/eu-charter/charter/article/17-right-property",
+      "locator": "Article17(1)–(2), complete article and accompanying explanations.",
+      "full_text_checked": "relevant_complete_original_passages_checked",
+      "checked_on": "2026-10-16",
+      "claims": [
+        "Property and intellectual-property protection coexist with qualified regulation of use."
+      ],
+      "boundary": "Formal protection of property/IP and qualified regulation, not a comparison of enforcement or authorization of a particular AI remedy.",
+      "v5_reference": false
+    },
+    {
+      "key": "USAIActionPlan2025",
+      "note": "c10-america",
+      "source": "https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf",
+      "locator": "Printed pp3–5, Remove Red Tape; Encourage Open-Source and Open-Weight AI; computing markets and NAIRR.",
+      "full_text_checked": "relevant_complete_original_passages_checked",
+      "checked_on": "2026-10-16",
+      "claims": [
+        "Deregulation and open-model/access objectives coexist in the plan."
+      ],
+      "boundary": "Original relevant full PDF passages refreshed. Recommendations, not achieved effects, universal license characterization or enforceable commercial access rights.",
+      "v5_reference": false
+    },
+    {
+      "key": "NSFNAIRROperations2026",
+      "note": "c10-nairr",
+      "source": "https://www.nsf.gov/cise/updates/nsf-establishes-operations-center-national-artificial",
+      "locator": "Full substantive agency announcement, opening and operations/provider coordination paragraphs.",
+      "full_text_checked": "relevant_complete_original_passages_checked",
+      "checked_on": "2026-10-16",
+      "claims": [
+        "US public/private access initiative and operations-center announcement."
+      ],
+      "boundary": "Agency account of planned organization and functions. Not independent additionality, a frontier-entry audit, or general business eligibility.",
+      "v5_reference": false
+    },
+    {
+      "key": "FTC2025AIPartnerships",
+      "note": "c10-ftc",
+      "source": "https://www.ftc.gov/system/files/ftc_gov/pdf/p246201_aipartnerships6breport_redacted.pdf",
+      "locator": "Original printed pp1–3; Section5 opening p29; Section5.1 p30; Section5.2 pp32–34.",
+      "full_text_checked": "relevant_complete_original_passages_checked",
+      "checked_on": "2026-10-16",
+      "claims": [
+        "Dated agency inquiry into input access, switching costs and partnership terms."
+      ],
+      "boundary": "Relevant original report passages now read, replacing summary-only access. Report has43PDFpages. Information through Sep2024 plus public Jan2025; potential concerns, no illegality determination or current-contract assessment.",
+      "v5_reference": false
+    },
+    {
+      "key": "ChinaAIPlus2025",
+      "note": "c10-china",
+      "source": "https://www.nda.gov.cn/sjj/swdt/xwfb/0826/20250826173046592282838_mobile.html",
+      "locator": "SectionII(2)industry and II(4)work; SectionIII(9)–(13)computing, application, open source, talent and patient capital.",
+      "full_text_checked": "relevant_complete_original_passages_checked",
+      "checked_on": "2026-10-16",
+      "claims": [
+        "Agent services, shared computing, open source, employment adaptation and patient-capital policy objectives."
+      ],
+      "boundary": "Relevant complete original Chinese sections refreshed. Book paraphrases are the author's, not official translation. Objectives not achieved outcomes or a country-robustness estimate.",
+      "v5_reference": false
+    },
+    {
+      "key": "ChinaGenAIInterimMeasures2023",
+      "note": "c10-china-rules",
+      "source": "https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm",
+      "locator": "Enacted original Articles2,4–6, including public-service scope, express nonpublic exclusion, political content and infrastructure/innovation clauses.",
+      "full_text_checked": "relevant_complete_original_passages_checked",
+      "checked_on": "2026-10-16",
+      "claims": [
+        "Public-service scope/exclusion; political content requirements and anti-monopoly language; innovation/infrastructure encouragement."
+      ],
+      "boundary": "Dated enacted text, not April consultation draft or comprehensive October2026 legal audit; no empirical innovation/censorship effect estimate.",
+      "v5_reference": false
     }
   ],
   "illustrations": [
@@ -270,6 +387,11 @@
       "name": "OpenAI sole foundational supplier plus essential development/distribution/evaluation gatekeeping",
       "status": "explicit hypothetical; not current description or forecast",
       "purpose": "Strong epistemic monopoly requires control of relevant comparison, not sole model supply alone"
+    },
+    {
+      "name": "Birch business problem beside EU, US and Chinese access arrangements",
+      "status": "explicit institutional comparison and conditional author argument; no invented visits, applications or outcomes",
+      "purpose": "Follow resources, retained assets, customers, outcome checking, inconvenient findings, switching/appeal, investment incentives and full costs. These are interventions across different arrangements, not fixed-rule shadow replays."
     }
   ],
   "narrative_checks": [
@@ -311,5 +433,11 @@
       "Google December5,2025 original judgment pp.6-7 re-read; documentation and exclusions verified, no implementation or appeal result claim."
     ],
     "draft_sha256": "757c534e4ad7f74bec16ef6327409ca423a5c4fbf3aef968a80c59b382fcfee4"
+  },
+  "comparative_institutions_revision": {
+    "checked_on": "2026-10-16",
+    "status": "integrated_final_reconciliation_pending_user_paused",
+    "draft_sha256": "c120e6470cb428cc8e44f601120848511e567beb9530c4dce7f489fb8c67dda3",
+    "scope": "US–EU–China comparison and linked ownership/taxation/robustness argument; existing chapter foundations retained."
   }
 }

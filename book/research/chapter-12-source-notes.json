@@ -2,11 +2,11 @@
   "manuscript": "book/manuscript/13-an-economics-of-possible-worlds.md",
   "title": "An economics of possible worlds",
   "checked_on": "2026-10-16",
-  "status": "reviewed",
+  "status": "drafted_revision_review_pending",
   "target_main_words": 6000,
-  "body_words": 6000,
+  "body_words": 6321,
   "note_words": 833,
-  "draft_sha256": "15f467d49f9dca59a0a6fa90553087e4874cbedcdd8c0c47f2f2aac0299d039c",
+  "draft_sha256": "c3b4590484a2ad8cd79933527f275f29a442d1016f41e8c045802281fce34a9f",
   "source_checks": "Relevant primary passages and direct scanned pages checked with exact version/access boundaries. Earlier substantive checks retained by claim; Blackwell1953 original scan now saved and relevant passages checked in cross-book audit. All council design choices/results fictional. Guide printedpp4-8 re-read; Rothamsted January2024 substantive account refreshed; indexed original Bearchell methods/results rechecked after direct PMC challenge.",
   "sources": [
     {
@@ -278,6 +278,11 @@
       "name": "Three future research projects",
       "status": "proposed, not completed empirical studies",
       "purpose": "Measurement, finite designs and institutional permissions/costs"
+    },
+    {
+      "name": "Recovering from a consequential failure of the leading service",
+      "status": "explicit fictional case and proposed empirical research criterion",
+      "purpose": "Define robustness, trace recovery costs and observable routes, state disconfirming findings and distinguish institutional interventions from shadow replays."
     }
   ],
   "narrative_checks": [
@@ -307,5 +312,11 @@
       "Subsequent cross-book source completion obtained and visually read original Blackwell1953 pp.265–272. Notes now cite exact original decision-risk and transformation passages and retain earlier Sherman–Stein credit. The previous original-access gap is closed; no main-text change."
     ],
     "draft_sha256": "15f467d49f9dca59a0a6fa90553087e4874cbedcdd8c0c47f2f2aac0299d039c"
+  },
+  "comparative_institutions_revision": {
+    "checked_on": "2026-10-16",
+    "status": "integrated_final_reconciliation_pending_user_paused",
+    "draft_sha256": "c3b4590484a2ad8cd79933527f275f29a442d1016f41e8c045802281fce34a9f",
+    "scope": "US–EU–China comparison and linked ownership/taxation/robustness argument; existing chapter foundations retained."
   }
 }
