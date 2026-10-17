@@ -58,7 +58,7 @@ Ronald Fisher's 1926 paper on field experiments began with a familiar agricultur
 
 His discussion moved from replication to the way plots were allocated. A collection of treatment labels arranged systematically could produce a misleading estimate of error. Random arrangements, including appropriate restrictions that the analysis respects, could support a different inferential claim. The method depended on how the experiment was generated, rather than the appearance of its final diagram alone.
 
-The original Broadbalk experiment should not be retroactively described as a modern randomized trial. Its lasting treatment contrasts, subsequent changes, and accumulated observations require their own interpretation. Fisher's paper supplies a separate methodological point: design is part of the evidence, and uncertainty calculations must correspond to that design.
+Broadbalk's original plots were not laid out as a modern randomized trial. Its evidence comes from maintained treatment contrasts, subsequent changes, and accumulated observations. Fisher's paper concerns experimental design and the uncertainty calculations appropriate to it. Interpreting each record depends on how its comparisons were made.
 
 The same design issues recur in service evaluation. Different task difficulty, inconsistent judgment, or a shared faulty reference can distort apparently balanced comparisons. Repetition alone does not repair a common measurement error.
 
@@ -146,7 +146,7 @@ Forecasts of workload and inference about a different technology answer differen
 
 It would also distinguish statistical information from decision value. A measured contrast could be precise but economically trivial. Another could remain uncertain while affecting a consequential choice. Blackwell's decision perspective supplies a foundation; collection costs, interpretation, incentives, and legal feasibility still determine whether obtaining the evidence is worthwhile.[^c12-12]
 
-A precise but tiny contrast may leave an action unchanged; uncertainty about a costly failure may justify a targeted test. The report must identify the consequential decision rather than substitute a larger comparison budget for a value argument.
+A precise but tiny difference may leave the purchase unchanged; uncertainty about a costly failure may justify a targeted test. The value of more comparison depends on the decision it can improve.
 
 Finally, the report would state which counterfactual it is evaluating. A shadow replay holds underlying effects, initial conditions, and response rules fixed while allowing the realized history to differ. A new access rule or training policy changes the institution. Its estimated effects depend on how people would respond under the changed rules.
 

@@ -24,6 +24,8 @@ Arthur, W. B. (1989). Competing technologies, increasing returns, and lock-in by
 
 Autor, D. H. 2015. Why are there still so many jobs? The history and future of workplace automation. Journal of Economic Perspectives 29:3–30. [Source](https://economics.mit.edu/sites/default/files/publications/why%20are%20there%20still%20jobs%202014.pdf)
 
+Barabási, A.-L., and R. Albert. 1999. Emergence of scaling in random networks. Science 286(5439):509–512. [Article](https://doi.org/10.1126/science.286.5439.509) [Full text](https://barabasi.com/media/Emergence-Barabasi-1999_gN74Tws.pdf)
+
 Bar-Yam, Y. (2016). From big data to important information. Complexity, 21(S2), 73–98. doi:10.1002/cplx.21785. [Source](https://doi.org/10.1002/cplx.21785)
 
 Bardeen, J. 1956. Semiconductor research leading to the point contact transistor. Nobel lecture, December 11. [Source](https://www.nobelprize.org/uploads/2018/06/bardeen-lecture.pdf)

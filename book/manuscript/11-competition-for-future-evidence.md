@@ -32,7 +32,7 @@ Average outcomes can conceal different burdens across users. The appraisal must 
 
 The baseline must also be feasible. Removing safeguards from the assumed status quo exaggerates a remedy's value; comparison with a perfectly informed decision maker sets an unattainable benchmark.
 
-An experiment can earn its keep while leaving the exact contributions of programmers, models, training sources, and earlier customers unresolved. Choosing a contract is less demanding than explaining every supplier's economic merit. Taking the inference limit seriously should direct institutions toward useful, attainable learning. It need not keep them experimenting until every question about contribution disappears.
+A buyer can learn enough to choose a contract while the exact contributions of programmers, models, training sources, and earlier customers remain uncertain. The trial earns its keep through a better decision. Further testing is worthwhile only if the remaining uncertainty could change a consequential choice.
 
 ## Opening the existing record
 
@@ -96,7 +96,7 @@ A declared decision rule helps prevent changing the criterion after results arri
 
 Transportability also matters. A result obtained under unusually clear tasks, expert staff, or an obsolete version may not travel to ordinary operation. Broader testing, calibration, a narrower application, or rejection of the proposed change can each be appropriate.
 
-Such assurance concerns expected performance across the retained accounts. It cannot promise every resident a better outcome or every realized contract a gain. Investigators should examine credible evidence and justified assumptions as well as what subsequently happened. Fortune alone cannot validate a defective method, and misfortune need not condemn a reasonable choice.
+The assurance concerns expected performance across the retained accounts. Some residents or contracts can still fare worse. A sound decision uses the available evidence and justified assumptions before the outcome is known. A fortunate result cannot repair a method that ignored relevant costs.
 
 A feasible policy must use a procedure available with the information actually observed. Imagining a decision maker who is told which explanation is true does not supply such a procedure.
 
@@ -200,7 +200,7 @@ Audits, portable records, interfaces, experiments, and independent evaluation ad
 
 Appraisal connects the possible mistake prevented to its probability and consequences over a stated period, then counts testing, migration, supervision, privacy protection, and lost production. A cheaper adequate substitute belongs in the comparison.[^c10-12]
 
-Judgments about rare serious errors, residents' different burdens, and future benefits must be visible. More data cannot decide an undeclared value judgment. Costs also need honest bookkeeping. Lost operating output should not be counted twice under different headings. A payment between participants is not automatically a social resource loss; a burden outside the purchasing department is not automatically irrelevant.
+Preventing a rare serious error can justify costs spread across many routine transactions. The decision depends on whose burdens and future benefits count. A payment transfers money between participants; an opportunity cost concerns what scarce capacity could have produced elsewhere. Counting forgone production once, and including consequences outside the purchasing department, makes the tradeoff clearer.
 
 Testing can improve current service and future evidence at once. Its benefits should be counted without duplication, and its continuation should depend on whether remaining uncertainty can still change a consequential choice at an acceptable cost.
 

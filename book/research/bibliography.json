@@ -232,7 +232,8 @@
         "https://www.rochelleterman.com/ir/sites/default/files/arthur%201989.pdf"
       ],
       "cited_in": [
-        "book/manuscript/05-the-histories-that-became-infrastructure.md"
+        "book/manuscript/05-the-histories-that-became-infrastructure.md",
+        "book/manuscript/01-introduction.md"
       ],
       "canonical_v5_reference": true
     },
@@ -253,6 +254,31 @@
       ],
       "cited_in": [
         "book/manuscript/10-the-first-rung.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "BarabasiAlbert1999",
+      "source_keys": [
+        "BarabasiAlbert1999"
+      ],
+      "citation": "Barabási, A.-L., and R. Albert. 1999. Emergence of scaling in random networks. Science 286(5439):509–512.",
+      "links": [
+        {
+          "label": "Article",
+          "url": "https://doi.org/10.1126/science.286.5439.509"
+        },
+        {
+          "label": "Full text",
+          "url": "https://barabasi.com/media/Emergence-Barabasi-1999_gN74Tws.pdf"
+        }
+      ],
+      "known_locations": [
+        "https://doi.org/10.1126/science.286.5439.509",
+        "https://barabasi.com/media/Emergence-Barabasi-1999_gN74Tws.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/01-introduction.md"
       ],
       "canonical_v5_reference": false
     },
@@ -431,7 +457,8 @@
       "cited_in": [
         "book/manuscript/04-shadow-futures.md",
         "book/manuscript/09-a-billion-answers.md",
-        "book/manuscript/13-an-economics-of-possible-worlds.md"
+        "book/manuscript/13-an-economics-of-possible-worlds.md",
+        "book/manuscript/01-introduction.md"
       ],
       "canonical_v5_reference": true
     },
@@ -1395,7 +1422,8 @@
         "https://www.ilo.org/sites/default/files/wcmsp5/groups/public/%40dgreports/%40dcomm/%40publ/documents/publication/wcms_771749.pdf"
       ],
       "cited_in": [
-        "book/manuscript/10-the-first-rung.md"
+        "book/manuscript/10-the-first-rung.md",
+        "book/manuscript/01-introduction.md"
       ],
       "canonical_v5_reference": false,
       "bibliographic_check": "Relevant primary passages inspected for the recorded claim; access/interpretation boundaries in chapter source ledger."
@@ -1713,7 +1741,8 @@
         "https://doi.org/10.1515/ijb-2016-0029"
       ],
       "cited_in": [
-        "book/manuscript/04-shadow-futures.md"
+        "book/manuscript/04-shadow-futures.md",
+        "book/manuscript/01-introduction.md"
       ],
       "canonical_v5_reference": true
     },
@@ -1860,7 +1889,8 @@
       ],
       "cited_in": [
         "book/manuscript/06-who-gets-to-be-tested.md",
-        "book/manuscript/11-competition-for-future-evidence.md"
+        "book/manuscript/11-competition-for-future-evidence.md",
+        "book/manuscript/01-introduction.md"
       ],
       "canonical_v5_reference": true
     },
@@ -2411,7 +2441,8 @@
         "https://www.gutenberg.org/files/3300/3300-h/3300-h.htm"
       ],
       "cited_in": [
-        "book/manuscript/05-the-histories-that-became-infrastructure.md"
+        "book/manuscript/05-the-histories-that-became-infrastructure.md",
+        "book/manuscript/01-introduction.md"
       ],
       "canonical_v5_reference": false,
       "bibliographic_check": "Relevant primary passages inspected for the recorded claim; access/interpretation boundaries in chapter source ledger."
@@ -2642,7 +2673,8 @@
         "https://www.justice.gov/atr/media/1329301/dl"
       ],
       "cited_in": [
-        "book/manuscript/11-competition-for-future-evidence.md"
+        "book/manuscript/11-competition-for-future-evidence.md",
+        "book/manuscript/01-introduction.md"
       ],
       "canonical_v5_reference": false
     },
@@ -2908,7 +2940,8 @@
       ],
       "cited_in": [
         "book/manuscript/04-shadow-futures.md",
-        "book/manuscript/09-a-billion-answers.md"
+        "book/manuscript/09-a-billion-answers.md",
+        "book/manuscript/01-introduction.md"
       ],
       "canonical_v5_reference": true
     },

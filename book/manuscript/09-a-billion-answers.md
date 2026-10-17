@@ -62,7 +62,7 @@ Isaac Ong and colleagues' RouteLLM research investigates such a selector. Their 
 
 The purchase order makes the motivation easy to understand. A short document with a clearly labeled date may require less capability than an ambiguous revision spread across several pages. A well-designed router could reserve the more costly service for the cases where it adds enough value. That is a productive improvement even if the user never sees the selection happening.
 
-Notice what the router must learn. It needs evidence about relative performance on kinds of requests. A general reputation for being stronger is not the same as an advantage worth paying for on every task. A useful selection rule takes variation seriously instead of reading an overall ranking as an instruction to make the same choice forever.
+A router needs evidence about which model performs well on each kind of request. The strongest overall model may offer little advantage on a simple task. Paying for it on every request can waste resources a task-specific choice would save.
 
 The RouteLLM paper also reports limits to transferring a router across tasks. Data resembling the eventual evaluation can improve performance. Correspondence among training examples, evaluation cases, and actual use therefore matters to the interpretation of a score.
 
@@ -106,7 +106,7 @@ The Yahoo authors call their method replay. Their use of the word concerns evalu
 
 Evaluation of current systems, variation across alternative development histories, and the effects of changing a development policy require different comparisons. Randomized request logs can help with the first without establishing how capabilities would have evolved after different early opportunities.
 
-The same record can nevertheless be valuable. If it supports a better procurement decision, it need not explain every earlier fortune to justify its collection. The point of the comparison budget is to clarify a particular information constraint, not to demand a complete causal explanation of the economy before allowing any useful inference.
+A record can justify its collection by helping a buyer choose a better service. That decision can be worthwhile even when the evidence leaves each supplier's past contribution unresolved.
 
 This gives us a practical reason to preserve details that a success count omits. Which alternatives were available? Why was this one selected? What was measured afterward? A usable assignment record and meaningful outcome can make a small pilot worth more, for a specific decision, than a much larger archive lacking those features.
 
@@ -120,7 +120,7 @@ Perhaps each service has independently trained a different system. Perhaps each 
 
 Meta's Llama 3 report supplies a concrete example of a relationship between models. It describes using its flagship model to improve smaller models during post-training. Different members of a model family can therefore be connected through the development process. Treating their outputs as evidence from wholly unrelated research histories would miss that connection.[^c8-5]
 
-Shared ancestry does not make their performance identical. A smaller model can behave differently, require different resources, and fit a particular application better. Comparing those actual systems can teach us something useful. The mistake would be to suppose the comparison automatically tests every assumption inherited from their common origin.
+A smaller model can behave differently, require fewer resources, and fit a particular application better. Testing it against its larger relative can guide the purchase. Both can still inherit a training assumption the comparison never varies.
 
 Imagine that our three services extract the same wrong date because the underlying document representation loses the same footnote. Asking all three may produce reassuring agreement while leaving that error untouched. Now imagine that one service uses a better document parser and finds the footnote. A common language model has not prevented a meaningful improvement elsewhere in the service.
 
@@ -176,7 +176,7 @@ These characters supply a tempting contrast with a compiler. A simulated town ca
 
 Simulated demand can reveal implications of assumptions and help design an empirical test. Its preferences may also reflect the instructions and training inherited from a common model. Multiplying simulated participants reduces some sampling noise without correcting a mistaken demand mechanism.
 
-A shadow replay keeps underlying parameters, starting conditions, and response rules fixed while the random history changes. Altering procurement or training policy is a separate intervention. For either operation, the claim about an actual economy requires evidence linking the model to that economy. The party makes generated interaction visible. The compiler's checks point toward the additional work of connecting a proposed answer to a result that can prove it wrong.
+A shadow replay keeps underlying parameters, starting conditions, and response rules fixed while the random history changes. Altering procurement or training policy is a separate intervention. Either simulation needs evidence connecting its rules to the actual economy. A generated conversation can reveal how programmed agents interact. An executed program with independent checks can also expose a proposed design's errors.
 
 ## When a generated answer can be tested
 
@@ -210,9 +210,9 @@ Production can be concentrated while a limited experiment preserves a relevant c
 
 The favorite can vary by task. Aggregate request totals can conceal a lack of within-task comparison, while a dominant service can host useful internal experiments. Logged assignment rules and checked outcomes matter together.
 
-The comparison budget accumulates modeled allocation chances outside the current favorite, conditional on the relevant history and inputs. It counts neither actual calls nor agents. Small persistent chances can accumulate indefinitely; shrinking chances need not have a finite sum. Additional informative outcomes belong in the observed experiment. A busy agent team supplies no shortcut around these distinctions.
+Adding agents can multiply work without giving another supplier a chance at a task. The comparison budget accumulates the conditional chances of allocation outside the current favorite, given the history so far. Checks on the team's completed work supply further evidence about its performance. Both the assignments and those checked outcomes affect what can be learned.
 
-Stanford's 2026 AI Index distinguishes training from inference in discussing energy use. Repeated service remains a physical activity after a model has been developed. That reminder belongs beside the compiler and the order: extra attempts use resources, and their value depends on what they accomplish.[^c8-11]
+Stanford's 2026 AI Index distinguishes training from inference in discussing energy use. Each extra attempt still requires computing after the model has been developed. More attempts are worthwhile when what they produce or reveal is worth those resources.[^c8-11]
 
 AI can lower the cost of generating and testing alternatives. It can also operate within institutions that concentrate control of records, distribution, and evaluation. Its useful output and its effect on independent discovery both belong in the economic assessment.
 

@@ -32,7 +32,7 @@ Lost comparison has no corresponding physical meter. A prevented assignment coul
 
 The comparison budget accumulates modeled allocation chance outside the current favorite. To move from that statistical object to money requires an account of how conduct changes opportunities, what observations those opportunities produce, and what their absence costs. A finite budget supplies no monetary damage estimate by itself.
 
-The causal link must be established. Removing a restriction may still leave an experiment infeasible because participants lack resources, technical access, or a valid outcome measure. Alternatively, another source may already supply the relevant evidence. The effect of the conduct has to be evaluated against those feasible alternatives.
+Removing a restriction may leave an experiment infeasible if participants still lack resources, technical access, or a valid outcome measure. Another source may already supply the evidence. The loss caused by the restriction depends on what a feasible alternative would have made possible.
 
 Scale can make replacement harder. Losing one local route may leave independent institutions elsewhere. Losing access through a gate shared across a large network can remove many practical routes together. That is a hypothesis about institutional dependence to investigate, alongside the productive gains the shared system supplies.
 

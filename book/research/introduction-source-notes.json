@@ -4,8 +4,8 @@
   "checked_on": "2026-10-16",
   "status": "drafted",
   "target_main_words": 3500,
-  "body_words": 3390,
-  "draft_sha256": "b3bfc34822f4cd21ac757dca7710415f2d95b517ad8eae338d08f2ba9cc4b154",
+  "body_words": 3174,
+  "draft_sha256": "6cef653760ced9b2a62db529041933801717bd4943b29c74b13a258c7f017674",
   "source_checks": "Relevant full-source passages checked. Where publisher access failed, the identified author working-paper version or indexed full-source sections were checked; no independent proof or priority certification is claimed.",
   "sources": [
     {
@@ -175,6 +175,129 @@
       ],
       "v5_reference": false,
       "note": "i11"
+    },
+    {
+      "key": "BarabasiAlbert1999",
+      "note": "i13",
+      "source": "https://doi.org/10.1126/science.286.5439.509",
+      "full_text_checked": "https://barabasi.com/media/Emergence-Barabasi-1999_gN74Tws.pdf",
+      "locator": "Published pp. 509-511: abstract and the growth/preferential-attachment construction.",
+      "claims": [
+        "Network growth combined with attachment favoring already connected vertices produces a power-law distribution in the stated model."
+      ],
+      "boundary": "The article is credited for its network mechanism. The distinction between a link distribution and contribution-identifying comparisons is this manuscript's argument. No claim that all networks follow power laws, or that this paper establishes finite comparison budgets, economic prevalence, or optimal antitrust policy.",
+      "checked_on": "2026-10-17",
+      "v5_reference": false
+    },
+    {
+      "key": "Arthur1989",
+      "note": "i6",
+      "source": "https://doi.org/10.2307/2234208",
+      "full_text_checked": "https://www.rochelleterman.com/ir/sites/default/files/arthur%201989.pdf",
+      "locator": "Published pp. 116-118, introduction/model; p. 128, conclusion",
+      "claims": [
+        "Adoption, improvement and possible durable historical selection; not necessarily superior development path"
+      ],
+      "boundary": "Prior mechanism credited. Model differs from v5; increasing returns alone does not imply finite lifetime comparison budget. Fictional software capabilities are book illustration.",
+      "v5_reference": true,
+      "verification_reuse": "Unchanged relevant claim-specific passage check reused from chapter-04-source-notes.json"
+    },
+    {
+      "key": "LeGoffSoulier2017",
+      "note": "i14",
+      "source": "https://doi.org/10.1515/ijb-2016-0029",
+      "full_text_checked": "https://arxiv.org/pdf/1405.2322",
+      "version_boundary": "arXiv version 2 posted October 4, 2016; rendered cover dated January 29, 2018; published 2017 record used for bibliography.",
+      "locator": "Sections 3.2-3.3, preprint pp. 14-15; Sections 4.1-4.2, pp. 19-20.",
+      "claims": [
+        "Prior single-path estimation analysis; repeated finite trials; one hundred ant choices per trial, fifty trials; blank initial trail and removal after branch choice",
+        "White PVC fork partly covered by Plexiglas; no food, one ant at a time, removal prevented returning.",
+        "In fewer than ten of fifty 100-choice paths a branch appeared selected; most paths did not have obvious branch selection at that horizon."
+      ],
+      "boundary": "No inference from ants to economic causal contribution. Does not claim every reinforcement regime prevents every parameter from being estimated.",
+      "v5_reference": true,
+      "sequential_recheck": "Full author preprint Section 4.1 and 4.2, pp. 19-20, re-read for apparatus, protocol and observed paths; Sections 3.2-3.3 rechecked for distinction between repeated paths and extending one path.",
+      "verification_reuse": "Unchanged relevant claim-specific passage check reused from chapter-03-source-notes.json"
+    },
+    {
+      "key": "BlackwellDubins1962",
+      "note": "i15",
+      "source": "https://doi.org/10.1214/aoms/1177704456",
+      "full_text_checked": "book/sources/classics/Blackwell_Dubins_1962_Merging_of_Opinions.pdf",
+      "locator": "Printed pp. 882-883; main theorem p. 883",
+      "claims": [
+        "Conditional future-law merging under absolute continuity"
+      ],
+      "boundary": "Not general agreement of all observers; merging alone does not preclude parameter learning.",
+      "v5_reference": true,
+      "verification_reuse": "Unchanged relevant claim-specific passage check reused from chapter-03-source-notes.json"
+    },
+    {
+      "key": "Zhang2004",
+      "note": "i15",
+      "source": "https://doi.org/10.1198/016214504000000241",
+      "full_text_checked": "https://www.stat.purdue.edu/~zhanghao/Paper/JASA2004.pdf",
+      "locator": "Introduction and Section 3; Theorem 2, Corollaries 1-2, Theorem 3; printed pp. 250-253",
+      "claims": [
+        "Fixed-domain infill versus increasing domain; inconsistent individual covariance parameters with estimable combination; predictive agreement"
+      ],
+      "boundary": "Soil field is illustrative, not a reported experiment. Geostatistics result does not establish economic causal attribution or moral desert.",
+      "v5_reference": true,
+      "verification_reuse": "Unchanged relevant claim-specific passage check reused from chapter-03-source-notes.json"
+    },
+    {
+      "key": "Smith1776",
+      "note": "i16",
+      "source": "https://www.gutenberg.org/files/3300/3300-h/3300-h.htm",
+      "locator": "Book I, Chapters I (pins), III (extent of market and water carriage), X Part II (corporations and settlement restrictions)",
+      "claims": [
+        "Specialization and extent of market; transport widens reachable exchange; old entry/mobility restrictions"
+      ],
+      "boundary": "Original text inspected; no claim old markets were uniformly local, independent or free. Two towns are a thought experiment; historical scaling hypothesis not proved by v5.",
+      "v5_reference": false,
+      "verification_reuse": "Unchanged relevant claim-specific passage check reused from chapter-04-source-notes.json"
+    },
+    {
+      "key": "ILO2021Platforms",
+      "note": "i16",
+      "source": "https://www.ilo.org/sites/default/files/wcmsp5/groups/public/%40dgreports/%40dcomm/%40publ/documents/publication/wcms_771749.pdf",
+      "locator": "Printed pp. 182 and 192 (PDF pp. 184 and 194); footnote 7 and Chapter 4 conclusion",
+      "claims": [
+        "Ratings, algorithmic allocation, access and possible deactivation; surveyed deactivated workers used alternative platforms"
+      ],
+      "boundary": "2021 report, not current universal condition; fictional moving driver assumes common score and few feasible alternatives. Counterevidence about exit retained.",
+      "v5_reference": false,
+      "verification_reuse": "Unchanged relevant claim-specific passage check reused from chapter-09-source-notes.json"
+    },
+    {
+      "key": "Meghani2021",
+      "note": "i17",
+      "source": "https://link.springer.com/article/10.1007/s13347-021-00467-2",
+      "full_text_checked": "https://link.springer.com/content/pdf/10.1007/s13347-021-00467-2.pdf",
+      "locator": "Published introduction and Section6: regulatory epistemic duties; patent-holder power to set independent research conditions; paragraphs beginning The affording of such broad rights and It allows the patent holder",
+      "claims": [
+        "Prior epistemic-monopoly term and governance argument; independent credible sources; control of testing conditions"
+      ],
+      "boundary": "Book does not claim coinage or equate her normative/governance argument with the comparison-budget theorem. Her original case is corroborated in the original2020 opinion, separately recorded. Publisher full HTML and indexed full PDF were read; no successful local PhilPapers PDF download claimed.",
+      "v5_reference": true,
+      "verification_reuse": "Unchanged relevant claim-specific passage check reused from chapter-05-source-notes.json"
+    },
+    {
+      "key": "DOJFTC2023MergerGuidelines",
+      "note": "i18",
+      "source": "https://www.justice.gov/atr/media/1329301/dl",
+      "locator": "Overview printedp.1, Guideline2, Guideline3 market-observability paragraph printedp.9, Guideline10 printedp.26",
+      "full_text_checked": true,
+      "claims": [
+        "Existing analysis includes quality, innovation, wages/benefits and buyer competition",
+        "Guideline2 evidence can matter independently of market-share analysis",
+        "Greater observation of rivals terms can increase susceptibility to coordination"
+      ],
+      "version_boundary": "December18,2023 agency guidance; official pages and full51-page PDF checked. Description of stated frameworks, not claim legislative status or new court holding.",
+      "boundary": "No inference deficit alone supplies liability, jurisdiction, relevant market or other applicable requirements. All information disclosure not inherently welfare improving in strategic environment.",
+      "v5_reference": false,
+      "local_cache": ".tmp/book-research/merger-guidelines-2023.pdf",
+      "verification_reuse": "Unchanged relevant claim-specific passage check reused from chapter-10-source-notes.json"
     }
   ],
   "original_examples": [
@@ -220,7 +343,7 @@
     "continuity": "Affected explanations and neighboring transitions reviewed; chapter openings/endings checked across the book.",
     "historical_records": "Earlier narrative and review entries remain historical; current reader wording is authoritative."
   },
-  "note_words": 581,
+  "note_words": 642,
   "quick_style_revision": {
     "date": "2026-10-17",
     "manuscript_sha256": "6da80894d0aa25019e8677c9157e9a098dd59b80e9fb5bf09b6c84983f22bf25",
@@ -245,5 +368,16 @@
     "source_checks": "Existing claim-specific passages reused; no new externally reported experiment, historical scene, legal status or independently certified theorem. Source conditions and four earlier original-passage flags remain internal.",
     "qualifications_retained": "Observed outcomes, study settings and dates, nonrandomized associations, hypothetical status, proposal ownership and limits of the observation model retained in plain body language.",
     "review": "Changed prose and relevant neighbors reviewed once. The origin statement expresses the author-requested intellectual connection, not a newly reported biographical event."
+  },
+  "positive_process_revision": {
+    "date": "2026-10-17",
+    "scope": "Earlier literature, preferential attachment/growth/power-law distinction, positive information mechanism, network reach and pre-price-change policy action.",
+    "new_source": "BarabasiAlbert1999; relevant published passages checked from author-hosted PDF.",
+    "source_reuse": "Existing recorded checks reused for selection, cumulative advantage, increasing returns, reinforced estimation failure, predictive merging, parameter estimation, historical market extent, platform ratings, epistemic monopoly and nonprice competition guidance.",
+    "interpretation": "Illustrative platform allocations and the extension from transport-bound markets to shared gates are conditional economic explanations. No count of exhausted budgets, population frequency estimate, inevitable historical transition or universal ranking of information losses above price harms is claimed.",
+    "model_boundary": "The bound and lifetime attribution limit remain conditional on the original model and observed information. The descriptive mechanism precedes the separate judgments needed for a remedy or redistribution.",
+    "publication": "Manuscript-only; editions and push await explicit authorization.",
+    "manuscript_sha256": "6cef653760ced9b2a62db529041933801717bd4943b29c74b13a258c7f017674",
+    "continuity": "Changed passages and immediate neighbors reviewed once; duplicated productive-development explanation and repeated closing qualification removed; Alchian extension kept explicitly conditional."
   }
 }

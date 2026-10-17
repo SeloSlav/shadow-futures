@@ -12,7 +12,7 @@ Adam Smith began his account of the division of labor with a pin workshop. Speci
 
 Distance therefore did two things. It limited the customers an artisan could serve, and it could separate the people deciding whether to give that artisan a chance. Removing distance could expand both income and competition. Whether it also joined previously separate judgments is another question. A new road connecting buyers is different from one authority deciding which sellers every connected buyer may see.
 
-The old town was hardly an automatic refuge. Smith also described restrictions imposed by guilds and settlement rules, including obstacles to moving in search of work. A newcomer could meet a closed corporation rather than an open door. History offers no clean passage from free local markets to oppressive global ones. It offers changing combinations of reach, productive scale, and permission.[^c4-smith]
+Guilds and settlement rules also obstructed movement in Smith's account. A newcomer could encounter a closed corporation in the next town. Geographical separation offered a fresh assessment only where another buyer had the freedom to make one.[^c4-smith]
 
 Nor did formidable scale begin with software. By 1920, the Supreme Court's United States Steel opinion was recounting a huge industrial combination and disagreement over whether integration reflected the physical requirements of steel production or suppressed competition. Pig iron and finished steel were physical goods; that had not kept their producers small. Furnaces, transport, capital, and organization could already assemble power over a wide territory.[^c4-steel]
 
@@ -20,7 +20,7 @@ The question is how far a common selection system can reach, and what remains ou
 
 In 1972, the physicist Philip Anderson called an essay “More Is Different.” Anderson worked at Bell Laboratories, and his subject was how new levels of physical scale and complexity could require new explanations. His title raises a useful economic question: when does an increase in reach change the kind of independence an economy can sustain?[^c4-anderson]
 
-Consider what is being scaled. A bigger furnace changes the cost of producing steel. A railway changes where steel can be sold. A shared admissions rule changes which producer can reach those buyers at all. These changes can reinforce one another, but they are not interchangeable. The transition to digital markets adds another possibility: an evaluation can travel with the seller and be reproduced across transactions at very little cost. The important change is not that physical limits have vanished. AI's power supplies and computing clusters make those limits conspicuous. It is that physical reach, distribution, and judgment can become organized at different scales, with one ranking governing opportunities across a much wider network.
+A bigger furnace changes the cost of producing steel. A railway changes where steel can be sold. A shared admissions rule changes which producer can reach those buyers at all. Digital distribution lets an evaluation travel with a seller and be reproduced across transactions at very little cost. The seller can move while the ranking follows. Power supplies and computing clusters remain physically constrained, but one judgment can govern opportunities throughout the network they serve.
 
 Imagine a rival network that needs users before it becomes useful. Those users already communicate through the established network. If the two cannot connect, the entrant may have to assemble a very large customer base before it can offer its first customers a worthwhile service. A network that would work well once established need not have a feasible route from a small beginning. Under those arrangements, a possible competitor can remain economically unreachable. Interconnection could change the arrangements and make a beginning possible.
 
@@ -28,7 +28,9 @@ Increasing returns can give early adoption a lasting influence over which techno
 
 That changes what a continuing return tells us. An owner may keep improving the service and also benefit from the absence of a feasible starting point for rivals. No executive needs to cancel a competing project for that structural barrier to work. Capital earns another return, the return finances further expansion, and the alternatives that might have tested the arrangement never acquire a record. The history becomes richer on one side while remaining unwritten on the other.
 
-Bell gives that question a physical object: a telephone attachment that a customer could buy, yet risk losing service by using.
+The next buyer may have every reason to choose the established service. Testing a rival would cost time and might produce a worse result. Other buyers could benefit from what the trial revealed, without paying for it. When a common route closes, that potential learning can disappear across the whole network. The immediate transaction can remain attractive while the opportunity others needed is lost.
+
+Bell's telephone network made permission tangible: a customer could buy an independent attachment, yet risk losing service by using it.
 
 ### An invention leaves the laboratory
 
@@ -188,7 +190,7 @@ Requiring proof that an entire replacement system works before permitting a comp
 
 A component's successful pilot can reveal little about the cost of replacing a whole system. Coordination that works in a limited test may become harder at a larger scale. Moving from one component to an entire service adds work the pilot never attempted.
 
-The company's report therefore belongs beside the patent study and the attachment cases. Each speaks to a different question. A claim about productive coordination, evidence about follow-on invention, and a judgment about a particular restriction should be allowed to inform one another. They should not be collapsed into a vote on whether the entire institution deserves praise or blame.
+Integrated production can make a useful component possible while restrictions prevent other components from reaching customers. Opening a patent, connecting an attachment, and breaking up a laboratory would change different parts of that arrangement. Their effects depend on which productive connections survive and which new work becomes feasible.
 
 A bounded interface can preserve much of an integrated service while allowing a relevant component comparison. Reliability, coordination costs, and productive gains determine whether that arrangement is worthwhile.
 
@@ -204,7 +206,7 @@ The FCC also allowed the network to change. Telephone companies could improve th
 
 That rule changes the entrant's task. Instead of seeking permission simply because its equipment came from elsewhere, it must satisfy protective requirements. Those requirements can themselves be disputed and evaluated. The economic promise is a workable route to use, with a test of the claimed harm. Whether a particular implementation delivers that promise remains an empirical question.
 
-Notice how the institutional question has changed since the patent opening. Permission to use an invention addresses one barrier. Permission to attach a device addresses another. A technical standard can address a third, while a customer's willingness to pay remains a fourth. A policy directed at one stage should be judged against what happens along the whole route, including the obstacles that remain afterward.
+A patent license gives an entrant permission to use an invention. Connection rules determine whether its device can reach the network. Technical standards determine whether it can operate there. Customers still have to want it. Clearing one stage leaves work to do at the others.
 
 A right to connect becomes useful when someone can actually make the connection. The device must work with the network, and the terms must allow it to be used. Hush-A-Phone and Carterfone let us follow the gap between legal permission and practical opportunity.
 

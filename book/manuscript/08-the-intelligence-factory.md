@@ -232,7 +232,7 @@ A working facility has overcome physical obstacles: pipes that could fail, inter
 
 But the completed training run is a beginning for the economic story. A model can be served repeatedly, incorporated into different products, evaluated on changing tasks, and routed toward some users rather than others. Those arrangements affect which observations accumulate and which alternatives develop a usable record.
 
-Follow the next request. Someone chooses a system, the machines produce an answer, and a person or another program does something with it. Does that sequence teach us what we need to know? Does it improve the next decision? Can it reveal when a different system would work better?
+Follow the next request. Someone chooses a system, the machines produce an answer, and a person or another program uses it. Who checks the answer? Can the buyer try another system on a comparable task? Which failures remain invisible if every request follows the same route?
 
 One answer becomes a million, then a billion. Each can be useful. How many of them tell us whether a different system would work better?
 

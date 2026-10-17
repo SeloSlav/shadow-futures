@@ -24,7 +24,7 @@ On Kickstarter, researchers led by Arnout van de Rijt selected 200 new, unfunded
 
 Among projects that received no experimental donation, 39 percent subsequently attracted money from other donors. Among those given the initial donation, 70 percent did. That later support excluded the researchers' own contribution. The first donation had helped bring others behind it.[^3]
 
-Notice what an observer arriving afterward would see. Some projects had attracted several backers; others had attracted none. It would be reasonable to inspect the successful pitches for clues. Perhaps their plans were clearer, their ambitions more compelling. Without knowing about the random donation, however, the observer could give the pitch credit for an advantage that had been assigned by an experiment.
+An observer arriving afterward would see projects with several backers and projects with none. The successful pitches might seem clearer, their ambitions more compelling. Without knowing about the random donation, the observer could give the pitch credit for an advantage assigned by an experiment.
 
 The researchers also tested larger initial advantages. Their effects showed diminishing returns: more manufactured success did not produce proportionately more subsequent success.[^3] An initial boost mattered, but increasing it did not keep buying the same additional response.
 
@@ -40,7 +40,7 @@ MusicLab makes the distinction tangible. Forty-eight song titles can remain on a
 
 In my allocation models, the comparison budget limits how precisely a reward history can reveal the effects of work, quality, and investment. Under specified conditions, opportunities outside the favorite can dwindle fast enough that even an indefinitely growing record cannot reliably settle attribution. A small chance that persists can still accumulate. The way those chances change over time matters, alongside their size today.
 
-Success breeding success is an old idea. Robert Merton described how recognition could bring scientists resources for further work. Armen Alchian explained market selection under uncertainty decades before MusicLab.[^5] My question concerns the evidence left behind by that selection: when does an economy stop producing enough comparison to explain the rewards it continues to distribute?
+Success breeding success is an old idea. Robert Merton described how recognition could bring scientists resources for further work. Armen Alchian explained market selection under uncertainty decades before MusicLab.[^5] A lead can keep growing while opportunities to check its causes disappear. The growing reward and the shrinking capacity to explain it can be consequences of the same process.
 
 Lockdown's other chart suggests what is missing. I call these feasible alternative histories shadow futures, borrowing words from Steven Johnson's account of Stuart Kauffman's adjacent possible.[^10] They share the same underlying economic conditions and rules, but early events differ. Later choices and effort can respond. The recording stays the same; different first listeners leave a different chart for everyone afterward.
 
@@ -50,9 +50,9 @@ Decades later, Martin Watzinger and his colleagues studied the consequences. Com
 
 The result gives the missing comparison a physical form: equipment that another company might build, offer, and improve. An invention behind a licensing barrier cannot tell us everything about what other inventors could do with it. Opening access changes the rules; it is an intervention, rather than a replay of an unchanged economy. But it can let possibilities previously confined to speculation develop observable results.
 
-There is a question here for antitrust beyond the next price increase. What does a restriction prevent us from discovering? Existing competition policy already takes innovation seriously. The additional inquiry I pursue is whether control over opportunities can impoverish the evidence on which future economic decisions depend. A remedy should earn its cost by improving those decisions. Bell's uneven results show why simply announcing access is insufficient.
+A restriction can prevent useful discovery before it raises a price. A rival may lose its route to a first customer, leaving no finished product for buyers to compare. Preserving that route can matter before there is a price dispute. Its value depends on what another supplier could test and what people could learn, as well as the costs of making the trial possible.
 
-That question becomes more urgent when the thing being bought can help decide who gets hired, what work gets done, and which ideas receive attention.
+Preserving that route becomes more urgent when the thing being bought can help decide who gets hired, what work gets done, and which ideas receive attention.
 
 Consider a customer-support worker with an AI assistant suggesting replies during a conversation. The worker can accept, edit, or ignore them. This was the setting studied by Erik Brynjolfsson, Danielle Li, and Lindsey Raymond, using data from 5,172 agents. Their published study found an average increase of 15 percent in issues resolved per hour after access to the assistant, with especially strong improvements among less experienced and lower-skilled workers.[^7]
 

@@ -53,7 +53,7 @@ On Kickstarter, researchers led by Arnout van de Rijt selected 200 new, unfunded
 
 Among projects that received no experimental donation, 39 percent subsequently attracted money from other donors. Among those given the initial donation, 70 percent did. That later support excluded the researchers' own contribution. The first donation had helped bring others behind it.[^prologue-3]
 
-Notice what an observer arriving afterward would see. Some projects had attracted several backers; others had attracted none. It would be reasonable to inspect the successful pitches for clues. Perhaps their plans were clearer, their ambitions more compelling. Without knowing about the random donation, however, the observer could give the pitch credit for an advantage that had been assigned by an experiment.
+An observer arriving afterward would see projects with several backers and projects with none. The successful pitches might seem clearer, their ambitions more compelling. Without knowing about the random donation, the observer could give the pitch credit for an advantage assigned by an experiment.
 
 The researchers also tested larger initial advantages. Their effects showed diminishing returns: more manufactured success did not produce proportionately more subsequent success.[^prologue-3] An initial boost mattered, but increasing it did not keep buying the same additional response.
 
@@ -69,7 +69,7 @@ MusicLab makes the distinction tangible. Forty-eight song titles can remain on a
 
 In my allocation models, the comparison budget limits how precisely a reward history can reveal the effects of work, quality, and investment. Under specified conditions, opportunities outside the favorite can dwindle fast enough that even an indefinitely growing record cannot reliably settle attribution. A small chance that persists can still accumulate. The way those chances change over time matters, alongside their size today.
 
-Success breeding success is an old idea. Robert Merton described how recognition could bring scientists resources for further work. Armen Alchian explained market selection under uncertainty decades before MusicLab.[^prologue-5] My question concerns the evidence left behind by that selection: when does an economy stop producing enough comparison to explain the rewards it continues to distribute?
+Success breeding success is an old idea. Robert Merton described how recognition could bring scientists resources for further work. Armen Alchian explained market selection under uncertainty decades before MusicLab.[^prologue-5] A lead can keep growing while opportunities to check its causes disappear. The growing reward and the shrinking capacity to explain it can be consequences of the same process.
 
 Lockdown's other chart suggests what is missing. I call these feasible alternative histories shadow futures, borrowing words from Steven Johnson's account of Stuart Kauffman's adjacent possible.[^prologue-10] They share the same underlying economic conditions and rules, but early events differ. Later choices and effort can respond. The recording stays the same; different first listeners leave a different chart for everyone afterward.
 
@@ -79,9 +79,9 @@ Decades later, Martin Watzinger and his colleagues studied the consequences. Com
 
 The result gives the missing comparison a physical form: equipment that another company might build, offer, and improve. An invention behind a licensing barrier cannot tell us everything about what other inventors could do with it. Opening access changes the rules; it is an intervention, rather than a replay of an unchanged economy. But it can let possibilities previously confined to speculation develop observable results.
 
-There is a question here for antitrust beyond the next price increase. What does a restriction prevent us from discovering? Existing competition policy already takes innovation seriously. The additional inquiry I pursue is whether control over opportunities can impoverish the evidence on which future economic decisions depend. A remedy should earn its cost by improving those decisions. Bell's uneven results show why simply announcing access is insufficient.
+A restriction can prevent useful discovery before it raises a price. A rival may lose its route to a first customer, leaving no finished product for buyers to compare. Preserving that route can matter before there is a price dispute. Its value depends on what another supplier could test and what people could learn, as well as the costs of making the trial possible.
 
-That question becomes more urgent when the thing being bought can help decide who gets hired, what work gets done, and which ideas receive attention.
+Preserving that route becomes more urgent when the thing being bought can help decide who gets hired, what work gets done, and which ideas receive attention.
 
 Consider a customer-support worker with an AI assistant suggesting replies during a conversation. The worker can accept, edit, or ignore them. This was the setting studied by Erik Brynjolfsson, Danielle Li, and Lindsey Raymond, using data from 5,172 agents. Their published study found an average increase of 15 percent in issues resolved per hour after access to the assistant, with especially strong improvements among less experienced and lower-skilled workers.[^prologue-7]
 
@@ -145,7 +145,15 @@ For the shopper who wanted eBay, the alternative was close at hand: another link
 
 An early reward can affect the opportunity to earn the next reward. When that happens, the market is also helping select the evidence that later observers will use to explain its success. The economy we inhabit is partly a system for producing things and partly a system for deciding which possibilities become observable.
 
-Go back to the eBay search page. To discover the advertisement's short-term contribution, the researchers needed customers who could arrive without it. A manager looking only at the completed sequence of paid clicks and purchases would face a different task. More accurate recording of that sequence would not recreate the missing comparison. The distinction will matter whenever we hear that enough data should eventually explain everything.
+To measure the advertisement's short-term contribution, eBay needed customers who could arrive without it. Recording the paid clicks more accurately would not recreate that comparison.
+
+### How success changes the evidence
+
+Economists and sociologists have long studied how success builds on itself. Armen Alchian explained how profits select surviving firms without requiring perfect foresight. Robert Merton described how recognition brings scientists resources for further work. W. Brian Arthur showed how increasing returns can let early adoption influence which technology becomes established.[^introduction-i6]
+
+Network science offers another familiar mechanism. In preferential attachment, a web page that already has many links is more likely to attract another link. Albert-László Barabási and Réka Albert combined that process with network growth to explain a power-law distribution of links, with a small number of highly connected hubs.[^introduction-i13] Growth, lower costs, and unequal outcomes can accompany either plentiful comparisons or very few. Explaining a winner's contribution requires evidence about the opportunities that actually remain to test alternatives.
+
+Consider a platform that sends more tasks to workers with longer records. The feedback can widen their lead and get useful work done. It also determines what anyone can learn about workers who rarely receive a task. A thousand completed jobs for the favorite might reveal little about someone never hired. The problem concerns the production of evidence, before any judgment about whether the winner deserves the income.
 
 ### The work and the difference it made
 
@@ -155,19 +163,15 @@ Increasing visits to a website differs from increasing purchases. Attracting a n
 
 Lockdown's two rankings raise a related question with a different design. MusicLab preserved independently developing markets for the same songs. The song's first-place finish and its fortieth-place finish were both outcomes of listeners choosing. They tell us that one observed ranking cannot be treated as a complete account of what that recording was capable of achieving. They do not calculate the value of every rehearsal or assign a percentage of the song's success to talent.[^introduction-i3]
 
-It is easy to move too quickly between those claims. Once we learn that success depends partly on a history, we may want to declare the winner undeserving. Once we notice that a winner made something useful, we may want to declare the reward fully explained. Neither conclusion follows. A recording can give pleasure in several possible histories, and the amount of attention it receives can differ greatly between them.
+A recording can give pleasure in several possible histories and receive very different amounts of attention in each. The pleasure is real. How much of the reward it explains remains a question about causes.
 
-Consider another familiar difficulty. In George Akerlof's account of the used-car market, the seller may know more about the car's quality than the buyer does. A buyer unable to distinguish good cars from bad ones may offer a price that drives good cars away. The information problem changes which trades take place. Akerlof showed why uncertainty about quality belongs inside an account of how a market works.[^introduction-i4]
+In George Akerlof's account of the used-car market, the seller may know more about the car's quality than the buyer does. A buyer unable to distinguish good cars from bad ones may offer a price that drives good cars away. The information problem changes which trades take place.[^introduction-i4]
 
 My starting question allows the inputs to be observed. Suppose the buyer can inspect the work, rather than suspecting a hidden defect. That still leaves the effect of those inputs on the outcome to be learned. Knowing how much an advertising campaign cost does not identify the sales it created. Knowing what a musician recorded does not reveal every audience the recording could have found. Better disclosure and better comparison can solve different problems.
 
-The distinction is particularly important when success changes the product itself. Kickstarter's experimental first donations helped some projects attract subsequent backing. In an ordinary business, an early customer might also finance an improvement that makes the next customer happier. The advantage can become productive. By the time we inspect the business, asking whether it is good and asking how it became good are separate inquiries.[^introduction-i5]
-
-I will take the work seriously throughout. An explanation that erases the engineering, practice, organization, and willingness to bear losses explains too little. So does an explanation that treats the finished reward as a precise measure of those contributions. The task is to understand how real productive activity interacts with the opportunities through which it develops and becomes visible.
+Kickstarter's experimental first donations helped some projects attract subsequent backing. In an ordinary business, an early customer can also finance better engineering, more practice, and a stronger organization. The advantage becomes productive when it improves what later customers receive. Asking whether the business is good and asking how it became good are separate inquiries.[^introduction-i5]
 
 ### Who gets a chance
-
-A first success can change the opportunities available afterward. The Kickstarter experiment gave researchers a way to observe that process by assigning early advantages. Later donors could respond sensibly to the record they encountered while helping widen the gap between projects.
 
 Each choice does two things: it allocates resources now and helps determine what the next observer will be able to inspect. An expanding record of success can therefore coexist with fewer opportunities to evaluate alternatives.
 
@@ -177,13 +181,13 @@ A list of awards and rejections does not, by itself, tell us those chances. The 
 
 MusicLab helps us see why a catalogue is insufficient. A title remaining on a list does not mean listeners encounter it on comparable terms. Conversely, a single business can arrange useful tests of alternatives, as eBay did with advertising. Counting organizations and counting informative opportunities are different inquiries. Institutional design can matter as much as the number of logos on the screen.
 
-In my allocation models, the comparison budget limits the information the reward record can provide about productive input effects. Under further conditions, it can remain finite over the whole future of a market. Then adding transactions need not let an observer reliably settle attribution. The limit depends on the experiment's information and rules; independent tests or different access arrangements can change what can be learned.[^introduction-i2]
+Reinforcement had already been connected to estimation failure in urn models by Line Chloé Le Goff and Philippe Soulier.[^introduction-i14] In my allocation models, the comparison budget places an upper bound on the information the reward record supplies about productive input effects. Under further conditions, a finite lifetime budget prevents any one method from reliably recovering contribution across every explanation the model allows. Independent measurements can change the available evidence.[^introduction-i2]
 
 A tiny but persistent chance of selecting an outsider can keep accumulating. A shrinking chance can also accumulate without limit if it shrinks slowly enough. Even then, comparisons must distinguish the input effects we care about. A trial that never varies the relevant engineering tells us little about its contribution, however often it runs.
 
 Another transaction can demonstrate that an established service continues to work well while revealing little about an untested alternative. Commercial value and information about a particular comparison are separate properties of the same event.
 
-Useful evidence may exist elsewhere: a field experiment, an independent technical evaluation, or measured outcomes beyond the award itself. If those observations distinguish the contribution explanations, they belong in the inquiry.
+Field experiments, independent technical evaluations, and measured outcomes can distinguish contributions that an award record leaves uncertain. Their information adds to what can be learned.
 
 eBay could change where advertising appeared and observe what followed. Its advertising ledger did not have to remain the last word. A feasible intervention could supply the comparison that the existing record lacked.
 
@@ -207,15 +211,11 @@ This book is itself a product of the adjacent possible. Kauffman's work, Johnson
 
 If someone else tests the idea more rigorously, explains it better, or helps more people use it, I will be content with that outcome. Credit matters, as does the freedom to challenge a claim. What I do not want is an epistemic monopoly over an idea that could benefit humanity. I want the comparison to remain open, including when an alternative to my account proves better. I cannot ask readers to take shadow futures seriously and then assume that the history giving me the most recognition must be the best one.
 
-An imagined better outcome is not evidence. We need a feasible route and a defensible account of how people respond. Changing an early award within unchanged rules explores another history. Changing the allocation rules is an intervention. The eBay experiments changed an arrangement; they did not replay an industry.
-
-A simulation needs the same discipline. Programmed markets reveal consequences of their assumptions; explaining an actual buyer requires evidence that those assumptions fit.
+Changing an early award within unchanged rules explores another history. Changing the rules is an intervention. eBay altered an arrangement and measured the response. A simulated alteration would also need evidence that its programmed responses fit the actual market.
 
 Predicting what comes next and explaining why the outcome has the shape it does answer different questions. In Lockdown's winning world, an observer who expects more listeners to choose an already popular song could make useful forecasts. Those forecasts would not reveal the other world's chart. Getting the next choice right does not itself account for the song's lead.
 
-Blackwell and Dubins showed that, under specified conditions, observers' forecasts converge as evidence accumulates. Whether the same record identifies productive contribution is another question.[^introduction-i2]
-
-Merton described how scientific recognition could bring resources for further work. Alchian examined economic selection without perfect foresight. Research on increasing returns, reinforced processes, and statistical learning helps explain how a history of rewards develops. The comparison-budget bound is my proposed way of connecting those processes to the precision with which contribution can be measured.[^introduction-i6]
+Blackwell and Dubins showed that, under specified conditions, observers' forecasts converge as evidence accumulates. Hao Zhang later demonstrated a statistical setting in which useful prediction coexists with failure to recover particular underlying parameters. Prediction and explanation can demand different things from the same record.[^introduction-i15]
 
 An early research grant makes the stakes concrete. Thijs Bol, Mathijs de Vaan, and Arnout van de Rijt studied Dutch scientists whose applications fell just above or below a funding threshold. The near-winners subsequently accumulated more than twice as much further funding over eight years as the near-losers, excluding the initial grant itself. Part of the gap arose because unsuccessful applicants entered later funding competitions less often. The distinction involved who continued to present work for evaluation, as well as how evaluators treated it.[^introduction-i11]
 
@@ -225,27 +225,29 @@ The research proposal that never reaches another panel leaves a different kind o
 
 At the customer-support desk studied by Brynjolfsson, Li, and Raymond, AI assistance helped workers resolve more issues per hour on average. The gains were particularly strong among less experienced and lower-skilled workers. Useful capability was reaching people who could benefit from it.[^introduction-i7]
 
-But suppose we want to know how organizations should train future workers. Measuring the gain from an assistant available today does not finish the inquiry. We would need to compare arrangements that affect which tasks beginners attempt, what guidance they receive, and what they learn over time. A service that solves the current customer's problem and an institution that develops tomorrow's expertise can be evaluated together, provided we actually preserve evidence about both.
+Training future workers raises a further question. Today's assistant might help beginners learn, or do the tasks through which they would have learned. Comparing their later abilities requires following what they attempt, the guidance they receive, and what they can do afterward.
 
 METR's developer research exposes one difficulty. As programmers became less willing to do certain work without AI, the research team found that participation and task selection made its follow-up estimates difficult to interpret. The work being studied was changing which comparisons people would supply. The team responded by reconsidering its design. Learning about the technology required attention to the institutions producing evidence about it.[^introduction-i8]
 
-AI changes the production of economic evidence as well as goods and services. More computing can make some experiments cheaper and some records easier to analyze. It can also make one system so convenient that its alternatives are rarely tried. A larger stream of answers may reveal much about current use while leaving important alternatives unresolved. What we learn will depend on questions, access, and design as well as on processing power.
+The reach of a judgment changes the stakes. Smith's artisan faced a market limited by transport; another town could offer another buyer. A platform can carry one rating across towns, while a shared infrastructure provider can control the route used by many apparently separate businesses. Physical limits persist, and old guilds also obstructed entry. What changes when a common gate spans the market is how far an exclusion travels.[^introduction-i16]
+
+More computing can make experiments cheaper while routing more work through the same model, service, or evaluator. Where one institution controls the comparisons others need to judge alternatives, it holds an epistemic monopoly over those comparisons.[^introduction-i17] Productive scale and control over discovery can grow together.
 
 Bell's 1956 settlement provides a historical warning against treating access as a slogan. Opening existing patents to royalty-free licensing was followed by greater innovation outside telecommunications. The study did not find the same result inside the sector, where barriers to reaching customers remained. A policy can loosen one constraint while leaving another in place. An entrant needs a usable route from permission to performance.[^introduction-i9]
 
-For antitrust, the question is what a restriction prevents other people from learning. Lost comparisons can impair valuable decisions even when today's price is low. Existing competition policy already considers innovation and exclusion. When a gatekeeper controls an indispensable route to useful independent evaluation, waiting until that route has disappeared may destroy the evidence needed to judge the loss. Credible threats of lasting closure should therefore trigger a presumption for keeping a workable route open. Ownership can reward invention while leaving others a meaningful chance to develop and test their own ideas.
+Lost comparison can impose a cost that never appears on the customer's bill. A gatekeeper may improve its service while closing a route others need to develop or test theirs. When that closure deprives other people of valuable evidence, part of its cost falls outside the gatekeeper's decision. Many buyers can also favor the same route without one supplier controlling the whole market. Their transactions record the work completed; the missing trial leaves no failed product to count.
+
+For such a market, waiting for a price increase can mean waiting until an alternative has lost its feasible beginning. Existing competition policy considers innovation and exclusion as well as prices.[^introduction-i18] Protecting a workable route to independent evaluation gives those concerns an earlier point of action. Credible threats of lasting closure should trigger a presumption for keeping that route open, with security, investment, and the costs of access included in its terms.
 
 For taxation, explaining an income and changing future incentives are different tasks. The reward record may fail to settle how much contribution produced a fortune. Conduct that prevents useful comparison may also impose costs on others. Establishing those costs can justify a corrective charge. Financing shared research and wider access to productive capital provides a further reason for taxation, without first proving that particular recipients were morally undeserving.
 
 Consider a capable team that cannot afford its first credible trial while existing owners use their returns to consolidate the routes to customers. Leaving both positions untouched is a choice about the next opportunity. Using part of capital income and large inheritances to finance shared research and broader access to assets is another. The second can support an economy with room for new judgments and new owners. Its tax rates and spending choices must be assessed through investment, avoidance, administration, and the benefits people actually receive.
 
-Policy must compare feasible arrangements. An independent test, better access to existing records, and a change in market rules produce different evidence at different costs. A feasible alternative, a probable improvement, and a worthwhile policy are different judgments. Taking an alternative seriously includes allowing evidence to defeat our hopes for it.
+An independent test, access to existing records, and a change in market rules produce different evidence at different costs. A useful remedy improves a consequential decision enough to justify those costs. Sometimes the evidence will favor keeping the existing arrangement.
 
 ### A different account of success
 
 At Rothamsted, continuing agricultural experiments make the value of maintained comparison unusually tangible. Different treatments have been preserved while methods have also been adapted to keep the experiments relevant. The record matters because someone has continued the arrangements that produce it. Useful knowledge has a material history: plots, treatments, samples, labor, and decisions about which differences to keep.[^introduction-i10]
-
-An economy cannot turn every field into an experiment or give every rejected supplier a second chance. Nor should it. The interesting question is where preserving an alternative would teach us enough to improve what comes next. Sometimes the answer will be an independent route into a market. Sometimes it will be an experiment inside a large organization. Sometimes it will be a better measurement, and sometimes the available evidence will support doing nothing.
 
 A first customer can finance a better product. A patent license can open a field of work. A distribution agreement can close it again. These decisions help determine whose ability gets demonstrated, how capital accumulates, and what competition policy and taxation can change.
 
@@ -333,7 +335,7 @@ That second role changes the economic question. An extra chair would alter an ho
 
 The Dutch grant study introduced earlier makes this process less dependent on a striking phrase. Bol, de Vaan, and van de Rijt examined applicants close to a funding threshold. Those just above it later accumulated more than twice as much additional grant money over eight years as those just below. The original award was excluded from that total. A narrow early distinction was followed by a much wider difference in further funding.[^chapter_01-c1-5]
 
-The design matters as much as the result. Comparing all successful applicants with all rejected applicants would entangle the award with differences that helped determine who won. Focusing on applicants near the threshold makes the comparison more credible under the study's assumptions. It does not establish that every pair of nearby scientists possessed identical talent. It provides a way to investigate an early award's consequences without treating the entire difference in later records as proof of initial superiority.
+An applicant just above the funding threshold had won; one just below it had lost. Comparing those nearby applicants reduced the differences that would separate the entire pool of winners from the entire pool of rejected scientists. Their talent could still vary. The study's design and assumptions made it possible to investigate the award's effects without assigning the whole later gap to initial superiority.
 
 The competitions had names: Veni for the early-career award and Vidi for the midcareer grant. Among applicants closest to the Veni threshold, about 59 percent of winners later applied for Vidi, compared with 40 percent of nonwinners. The researchers checked whether the application difference simply reflected people leaving academia or the country; it did not. An earlier decision had changed which proposals reached a later panel, before that panel judged anything.[^chapter_01-c1-5]
 
@@ -371,13 +373,13 @@ An early rejection need not settle a scientist's career. Another funder, laborat
 
 Long before online charts, Armen Alchian offered an economical way to separate a successful outcome from a wise decision. His 1950 paper imagined thousands of travelers leaving Chicago along randomly chosen roads. Gasoline stations existed on only one road. Travelers who happened to choose it could continue; the others would run out of fuel. The continuing travelers might look unusually far-sighted to someone who saw only their progress.[^chapter_01-c1-alchian]
 
-Alchian was illustrating how an environment could select surviving behavior without requiring every individual to understand the selection in advance. If gasoline supplies moved to another road, the pattern of continued travel would change even without travelers changing their paths. This was an explicitly unreal thought experiment, designed to make a point about selection under uncertainty, rather than an account of actual motorists.[^chapter_01-c1-alchian]
+Alchian's environment selected surviving behavior without requiring every individual to understand the selection in advance. If gasoline supplies moved to another road, the pattern of continued travel would change even without travelers changing their paths.[^chapter_01-c1-alchian]
 
-The travelers help clarify what is at stake in a record of winners. Progress along the fueled road is a real outcome. It would be absurd to say that the travelers had not moved merely because their initial route was chosen randomly. But observing that progress would not establish that their original decisions were unusually well informed. The fact to explain and the explanation attached to it remain distinct.
+The travelers made real progress along the fueled road. Someone who saw only their continued movement might mistake survival for foresight. Knowing how they chose their roads changes that explanation without changing the distance they traveled.
 
 In the grant studies, the scientist who keeps applying remains eligible for later awards. The one who stops no longer appears in the same competition. Their continued presence or absence says little on its own about the earlier experiences that changed their choices and opportunities.
 
-The thought experiment also reveals a possible abuse of skepticism. An observer could insist that the successful travelers were only lucky and therefore dismiss everything they did afterward. That would explain too little if, in a richer example, continuing the journey allowed them to acquire knowledge and develop skills. An early advantage can create conditions for later productive activity. The existence of the advantage does not make that later activity unreal.
+If the surviving travelers also learned along the way, their lucky route could support real improvements in skill. Selection and learning could then operate together. An early advantage can make productive work possible without measuring how much that work caused the eventual reward.
 
 For a Wikipedia editor, recognition can bring another person to a useful contribution. For a business, revenue can finance improvements. These are different mechanisms. Alchian's example exposes an inference from survival; explaining a particular reward system still requires investigating how it selects, rewards, and develops its participants.
 
@@ -881,7 +883,7 @@ Adam Smith began his account of the division of labor with a pin workshop. Speci
 
 Distance therefore did two things. It limited the customers an artisan could serve, and it could separate the people deciding whether to give that artisan a chance. Removing distance could expand both income and competition. Whether it also joined previously separate judgments is another question. A new road connecting buyers is different from one authority deciding which sellers every connected buyer may see.
 
-The old town was hardly an automatic refuge. Smith also described restrictions imposed by guilds and settlement rules, including obstacles to moving in search of work. A newcomer could meet a closed corporation rather than an open door. History offers no clean passage from free local markets to oppressive global ones. It offers changing combinations of reach, productive scale, and permission.[^chapter_04-c4-smith]
+Guilds and settlement rules also obstructed movement in Smith's account. A newcomer could encounter a closed corporation in the next town. Geographical separation offered a fresh assessment only where another buyer had the freedom to make one.[^chapter_04-c4-smith]
 
 Nor did formidable scale begin with software. By 1920, the Supreme Court's United States Steel opinion was recounting a huge industrial combination and disagreement over whether integration reflected the physical requirements of steel production or suppressed competition. Pig iron and finished steel were physical goods; that had not kept their producers small. Furnaces, transport, capital, and organization could already assemble power over a wide territory.[^chapter_04-c4-steel]
 
@@ -889,7 +891,7 @@ The question is how far a common selection system can reach, and what remains ou
 
 In 1972, the physicist Philip Anderson called an essay “More Is Different.” Anderson worked at Bell Laboratories, and his subject was how new levels of physical scale and complexity could require new explanations. His title raises a useful economic question: when does an increase in reach change the kind of independence an economy can sustain?[^chapter_04-c4-anderson]
 
-Consider what is being scaled. A bigger furnace changes the cost of producing steel. A railway changes where steel can be sold. A shared admissions rule changes which producer can reach those buyers at all. These changes can reinforce one another, but they are not interchangeable. The transition to digital markets adds another possibility: an evaluation can travel with the seller and be reproduced across transactions at very little cost. The important change is not that physical limits have vanished. AI's power supplies and computing clusters make those limits conspicuous. It is that physical reach, distribution, and judgment can become organized at different scales, with one ranking governing opportunities across a much wider network.
+A bigger furnace changes the cost of producing steel. A railway changes where steel can be sold. A shared admissions rule changes which producer can reach those buyers at all. Digital distribution lets an evaluation travel with a seller and be reproduced across transactions at very little cost. The seller can move while the ranking follows. Power supplies and computing clusters remain physically constrained, but one judgment can govern opportunities throughout the network they serve.
 
 Imagine a rival network that needs users before it becomes useful. Those users already communicate through the established network. If the two cannot connect, the entrant may have to assemble a very large customer base before it can offer its first customers a worthwhile service. A network that would work well once established need not have a feasible route from a small beginning. Under those arrangements, a possible competitor can remain economically unreachable. Interconnection could change the arrangements and make a beginning possible.
 
@@ -897,7 +899,9 @@ Increasing returns can give early adoption a lasting influence over which techno
 
 That changes what a continuing return tells us. An owner may keep improving the service and also benefit from the absence of a feasible starting point for rivals. No executive needs to cancel a competing project for that structural barrier to work. Capital earns another return, the return finances further expansion, and the alternatives that might have tested the arrangement never acquire a record. The history becomes richer on one side while remaining unwritten on the other.
 
-Bell gives that question a physical object: a telephone attachment that a customer could buy, yet risk losing service by using.
+The next buyer may have every reason to choose the established service. Testing a rival would cost time and might produce a worse result. Other buyers could benefit from what the trial revealed, without paying for it. When a common route closes, that potential learning can disappear across the whole network. The immediate transaction can remain attractive while the opportunity others needed is lost.
+
+Bell's telephone network made permission tangible: a customer could buy an independent attachment, yet risk losing service by using it.
 
 ### An invention leaves the laboratory
 
@@ -1057,7 +1061,7 @@ Requiring proof that an entire replacement system works before permitting a comp
 
 A component's successful pilot can reveal little about the cost of replacing a whole system. Coordination that works in a limited test may become harder at a larger scale. Moving from one component to an entire service adds work the pilot never attempted.
 
-The company's report therefore belongs beside the patent study and the attachment cases. Each speaks to a different question. A claim about productive coordination, evidence about follow-on invention, and a judgment about a particular restriction should be allowed to inform one another. They should not be collapsed into a vote on whether the entire institution deserves praise or blame.
+Integrated production can make a useful component possible while restrictions prevent other components from reaching customers. Opening a patent, connecting an attachment, and breaking up a laboratory would change different parts of that arrangement. Their effects depend on which productive connections survive and which new work becomes feasible.
 
 A bounded interface can preserve much of an integrated service while allowing a relevant component comparison. Reliability, coordination costs, and productive gains determine whether that arrangement is worthwhile.
 
@@ -1073,7 +1077,7 @@ The FCC also allowed the network to change. Telephone companies could improve th
 
 That rule changes the entrant's task. Instead of seeking permission simply because its equipment came from elsewhere, it must satisfy protective requirements. Those requirements can themselves be disputed and evaluated. The economic promise is a workable route to use, with a test of the claimed harm. Whether a particular implementation delivers that promise remains an empirical question.
 
-Notice how the institutional question has changed since the patent opening. Permission to use an invention addresses one barrier. Permission to attach a device addresses another. A technical standard can address a third, while a customer's willingness to pay remains a fourth. A policy directed at one stage should be judged against what happens along the whole route, including the obstacles that remain afterward.
+A patent license gives an entrant permission to use an invention. Connection rules determine whether its device can reach the network. Technical standards determine whether it can operate there. Customers still have to want it. Clearing one stage leaves work to do at the others.
 
 A right to connect becomes useful when someone can actually make the connection. The device must work with the network, and the terms must allow it to be used. Hush-A-Phone and Carterfone let us follow the gap between legal permission and practical opportunity.
 
@@ -1149,7 +1153,7 @@ The district court described several ways that user activity helped search. Quer
 
 An unusual query makes that advantage tangible. An engine cannot learn from a question it never receives. Nor does one encounter necessarily reveal which result was useful. A click, an immediate return, and a later reformulation can tell different stories. The court described rankings informed by accumulated interactions. Scale supplies more than a larger inbox: it can supply repeated occasions to learn which answers people find useful.[^chapter_05-c5-3]
 
-This is productive information. It would be a mistake to describe every additional query as empty repetition. The relevant distinction is what a query helps us learn. More encounters can improve the established engine's response to encountered tasks while leaving another question less well answered: what would a different service, or a different development route, achieve with a meaningful chance to operate?
+More queries can improve the established engine's responses to the tasks it encounters. They leave a different service's development untested when that service receives no comparable opportunity to operate. The incumbent can learn more about its own performance while outsiders remain harder to evaluate.
 
 A search result also reflects several decisions. The provider has chosen which pages to collect, how to rank them, and how to present the answer. A user's response concerns what was shown under those choices. It does not directly report the response to every result that might have been shown by another system. The record can be rich and still have an uneven relationship to the comparisons we want.
 
@@ -1241,7 +1245,7 @@ The court's findings of legal violations supplied the basis for intervention. Ch
 
 Search payments also financed something outside search. The court's 2024 opinion reported that Google's payment to Mozilla exceeded $400 million in 2021 and represented about eighty percent of Mozilla's operating budget. The financial connection supporting Google's default position also helped support a separate browser. A change directed at one market could therefore affect the resources available in another.[^chapter_05-c5-8]
 
-Mozilla's chief executive, Laura Chambers, welcomed the court's rejection of a proposed ban on search payments in September 2025. She argued that a ban would weaken independent browsers. She also welcomed greater flexibility to offer other search and AI services and emphasized the need for careful implementation of data remedies. These were the arguments of an interested participant, with its own experience and incentives, rather than an independent welfare verdict.[^chapter_05-c5-9]
+Mozilla's chief executive, Laura Chambers, welcomed the court's rejection of a proposed ban on search payments in September 2025. She argued that a ban would weaken independent browsers. She also welcomed greater flexibility to offer other search and AI services and called for careful implementation of data remedies.[^chapter_05-c5-9]
 
 The position is economically intelligible. A browser is the software through which a person accesses the web; a search engine supplies answers to searches. More competition in one does not automatically finance competition in the other. A payment can help sustain a browser while also making a particular search relationship financially attractive. The arrangement has to be examined across both activities.
 
@@ -1301,7 +1305,7 @@ The ordered remedy sets terms under which later evidence can emerge. As it opera
 
 A formal promise of access becomes economically meaningful through specifications, a budget, security arrangements, usable records, and a way to interpret outcomes. Those implementation requirements help determine whether comparison actually occurs.
 
-The same attention should be given to a claim that a remedy has failed. A route could be open but unattractive because the alternative is poor. It could be attractive but burdened by unnecessary conditions. It could be operating while its learning benefits take time to appear. The investigator needs evidence capable of distinguishing these accounts, rather than choosing one from the identity of the winner.
+An unused route could reflect a poor alternative, unnecessary conditions, or benefits that take time to develop. Those possibilities call for different responses. Evidence about the terms offered, attempts made, and work completed can distinguish them; the incumbent's continued success alone cannot.
 
 ### Before a rival can grow
 
@@ -1793,7 +1797,7 @@ A working facility has overcome physical obstacles: pipes that could fail, inter
 
 But the completed training run is a beginning for the economic story. A model can be served repeatedly, incorporated into different products, evaluated on changing tasks, and routed toward some users rather than others. Those arrangements affect which observations accumulate and which alternatives develop a usable record.
 
-Follow the next request. Someone chooses a system, the machines produce an answer, and a person or another program does something with it. Does that sequence teach us what we need to know? Does it improve the next decision? Can it reveal when a different system would work better?
+Follow the next request. Someone chooses a system, the machines produce an answer, and a person or another program uses it. Who checks the answer? Can the buyer try another system on a comparable task? Which failures remain invisible if every request follows the same route?
 
 One answer becomes a million, then a billion. Each can be useful. How many of them tell us whether a different system would work better?
 
@@ -1865,7 +1869,7 @@ Isaac Ong and colleagues' RouteLLM research investigates such a selector. Their 
 
 The purchase order makes the motivation easy to understand. A short document with a clearly labeled date may require less capability than an ambiguous revision spread across several pages. A well-designed router could reserve the more costly service for the cases where it adds enough value. That is a productive improvement even if the user never sees the selection happening.
 
-Notice what the router must learn. It needs evidence about relative performance on kinds of requests. A general reputation for being stronger is not the same as an advantage worth paying for on every task. A useful selection rule takes variation seriously instead of reading an overall ranking as an instruction to make the same choice forever.
+A router needs evidence about which model performs well on each kind of request. The strongest overall model may offer little advantage on a simple task. Paying for it on every request can waste resources a task-specific choice would save.
 
 The RouteLLM paper also reports limits to transferring a router across tasks. Data resembling the eventual evaluation can improve performance. Correspondence among training examples, evaluation cases, and actual use therefore matters to the interpretation of a score.
 
@@ -1909,7 +1913,7 @@ The Yahoo authors call their method replay. Their use of the word concerns evalu
 
 Evaluation of current systems, variation across alternative development histories, and the effects of changing a development policy require different comparisons. Randomized request logs can help with the first without establishing how capabilities would have evolved after different early opportunities.
 
-The same record can nevertheless be valuable. If it supports a better procurement decision, it need not explain every earlier fortune to justify its collection. The point of the comparison budget is to clarify a particular information constraint, not to demand a complete causal explanation of the economy before allowing any useful inference.
+A record can justify its collection by helping a buyer choose a better service. That decision can be worthwhile even when the evidence leaves each supplier's past contribution unresolved.
 
 This gives us a practical reason to preserve details that a success count omits. Which alternatives were available? Why was this one selected? What was measured afterward? A usable assignment record and meaningful outcome can make a small pilot worth more, for a specific decision, than a much larger archive lacking those features.
 
@@ -1923,7 +1927,7 @@ Perhaps each service has independently trained a different system. Perhaps each 
 
 Meta's Llama 3 report supplies a concrete example of a relationship between models. It describes using its flagship model to improve smaller models during post-training. Different members of a model family can therefore be connected through the development process. Treating their outputs as evidence from wholly unrelated research histories would miss that connection.[^chapter_08-c8-5]
 
-Shared ancestry does not make their performance identical. A smaller model can behave differently, require different resources, and fit a particular application better. Comparing those actual systems can teach us something useful. The mistake would be to suppose the comparison automatically tests every assumption inherited from their common origin.
+A smaller model can behave differently, require fewer resources, and fit a particular application better. Testing it against its larger relative can guide the purchase. Both can still inherit a training assumption the comparison never varies.
 
 Imagine that our three services extract the same wrong date because the underlying document representation loses the same footnote. Asking all three may produce reassuring agreement while leaving that error untouched. Now imagine that one service uses a better document parser and finds the footnote. A common language model has not prevented a meaningful improvement elsewhere in the service.
 
@@ -1979,7 +1983,7 @@ These characters supply a tempting contrast with a compiler. A simulated town ca
 
 Simulated demand can reveal implications of assumptions and help design an empirical test. Its preferences may also reflect the instructions and training inherited from a common model. Multiplying simulated participants reduces some sampling noise without correcting a mistaken demand mechanism.
 
-A shadow replay keeps underlying parameters, starting conditions, and response rules fixed while the random history changes. Altering procurement or training policy is a separate intervention. For either operation, the claim about an actual economy requires evidence linking the model to that economy. The party makes generated interaction visible. The compiler's checks point toward the additional work of connecting a proposed answer to a result that can prove it wrong.
+A shadow replay keeps underlying parameters, starting conditions, and response rules fixed while the random history changes. Altering procurement or training policy is a separate intervention. Either simulation needs evidence connecting its rules to the actual economy. A generated conversation can reveal how programmed agents interact. An executed program with independent checks can also expose a proposed design's errors.
 
 ## When a generated answer can be tested
 
@@ -2013,9 +2017,9 @@ Production can be concentrated while a limited experiment preserves a relevant c
 
 The favorite can vary by task. Aggregate request totals can conceal a lack of within-task comparison, while a dominant service can host useful internal experiments. Logged assignment rules and checked outcomes matter together.
 
-The comparison budget accumulates modeled allocation chances outside the current favorite, conditional on the relevant history and inputs. It counts neither actual calls nor agents. Small persistent chances can accumulate indefinitely; shrinking chances need not have a finite sum. Additional informative outcomes belong in the observed experiment. A busy agent team supplies no shortcut around these distinctions.
+Adding agents can multiply work without giving another supplier a chance at a task. The comparison budget accumulates the conditional chances of allocation outside the current favorite, given the history so far. Checks on the team's completed work supply further evidence about its performance. Both the assignments and those checked outcomes affect what can be learned.
 
-Stanford's 2026 AI Index distinguishes training from inference in discussing energy use. Repeated service remains a physical activity after a model has been developed. That reminder belongs beside the compiler and the order: extra attempts use resources, and their value depends on what they accomplish.[^chapter_08-c8-11]
+Stanford's 2026 AI Index distinguishes training from inference in discussing energy use. Each extra attempt still requires computing after the model has been developed. More attempts are worthwhile when what they produce or reveal is worth those resources.[^chapter_08-c8-11]
 
 AI can lower the cost of generating and testing alternatives. It can also operate within institutions that concentrate control of records, distribution, and evaluation. Its useful output and its effect on independent discovery both belong in the economic assessment.
 
@@ -2269,7 +2273,7 @@ Average outcomes can conceal different burdens across users. The appraisal must 
 
 The baseline must also be feasible. Removing safeguards from the assumed status quo exaggerates a remedy's value; comparison with a perfectly informed decision maker sets an unattainable benchmark.
 
-An experiment can earn its keep while leaving the exact contributions of programmers, models, training sources, and earlier customers unresolved. Choosing a contract is less demanding than explaining every supplier's economic merit. Taking the inference limit seriously should direct institutions toward useful, attainable learning. It need not keep them experimenting until every question about contribution disappears.
+A buyer can learn enough to choose a contract while the exact contributions of programmers, models, training sources, and earlier customers remain uncertain. The trial earns its keep through a better decision. Further testing is worthwhile only if the remaining uncertainty could change a consequential choice.
 
 ## Opening the existing record
 
@@ -2333,7 +2337,7 @@ A declared decision rule helps prevent changing the criterion after results arri
 
 Transportability also matters. A result obtained under unusually clear tasks, expert staff, or an obsolete version may not travel to ordinary operation. Broader testing, calibration, a narrower application, or rejection of the proposed change can each be appropriate.
 
-Such assurance concerns expected performance across the retained accounts. It cannot promise every resident a better outcome or every realized contract a gain. Investigators should examine credible evidence and justified assumptions as well as what subsequently happened. Fortune alone cannot validate a defective method, and misfortune need not condemn a reasonable choice.
+The assurance concerns expected performance across the retained accounts. Some residents or contracts can still fare worse. A sound decision uses the available evidence and justified assumptions before the outcome is known. A fortunate result cannot repair a method that ignored relevant costs.
 
 A feasible policy must use a procedure available with the information actually observed. Imagining a decision maker who is told which explanation is true does not supply such a procedure.
 
@@ -2437,7 +2441,7 @@ Audits, portable records, interfaces, experiments, and independent evaluation ad
 
 Appraisal connects the possible mistake prevented to its probability and consequences over a stated period, then counts testing, migration, supervision, privacy protection, and lost production. A cheaper adequate substitute belongs in the comparison.[^chapter_10-c10-12]
 
-Judgments about rare serious errors, residents' different burdens, and future benefits must be visible. More data cannot decide an undeclared value judgment. Costs also need honest bookkeeping. Lost operating output should not be counted twice under different headings. A payment between participants is not automatically a social resource loss; a burden outside the purchasing department is not automatically irrelevant.
+Preventing a rare serious error can justify costs spread across many routine transactions. The decision depends on whose burdens and future benefits count. A payment transfers money between participants; an opportunity cost concerns what scarce capacity could have produced elsewhere. Counting forgone production once, and including consequences outside the purchasing department, makes the tradeoff clearer.
 
 Testing can improve current service and future evidence at once. Its benefits should be counted without duplication, and its continuation should depend on whether remaining uncertainty can still change a consequential choice at an acceptable cost.
 
@@ -2489,7 +2493,7 @@ Lost comparison has no corresponding physical meter. A prevented assignment coul
 
 The comparison budget accumulates modeled allocation chance outside the current favorite. To move from that statistical object to money requires an account of how conduct changes opportunities, what observations those opportunities produce, and what their absence costs. A finite budget supplies no monetary damage estimate by itself.
 
-The causal link must be established. Removing a restriction may still leave an experiment infeasible because participants lack resources, technical access, or a valid outcome measure. Alternatively, another source may already supply the relevant evidence. The effect of the conduct has to be evaluated against those feasible alternatives.
+Removing a restriction may leave an experiment infeasible if participants still lack resources, technical access, or a valid outcome measure. Another source may already supply the evidence. The loss caused by the restriction depends on what a feasible alternative would have made possible.
 
 Scale can make replacement harder. Losing one local route may leave independent institutions elsewhere. Losing access through a gate shared across a large network can remove many practical routes together. That is a hypothesis about institutional dependence to investigate, alongside the productive gains the shared system supplies.
 
@@ -2651,7 +2655,7 @@ Ronald Fisher's 1926 paper on field experiments began with a familiar agricultur
 
 His discussion moved from replication to the way plots were allocated. A collection of treatment labels arranged systematically could produce a misleading estimate of error. Random arrangements, including appropriate restrictions that the analysis respects, could support a different inferential claim. The method depended on how the experiment was generated, rather than the appearance of its final diagram alone.
 
-The original Broadbalk experiment should not be retroactively described as a modern randomized trial. Its lasting treatment contrasts, subsequent changes, and accumulated observations require their own interpretation. Fisher's paper supplies a separate methodological point: design is part of the evidence, and uncertainty calculations must correspond to that design.
+Broadbalk's original plots were not laid out as a modern randomized trial. Its evidence comes from maintained treatment contrasts, subsequent changes, and accumulated observations. Fisher's paper concerns experimental design and the uncertainty calculations appropriate to it. Interpreting each record depends on how its comparisons were made.
 
 The same design issues recur in service evaluation. Different task difficulty, inconsistent judgment, or a shared faulty reference can distort apparently balanced comparisons. Repetition alone does not repair a common measurement error.
 
@@ -2739,7 +2743,7 @@ Forecasts of workload and inference about a different technology answer differen
 
 It would also distinguish statistical information from decision value. A measured contrast could be precise but economically trivial. Another could remain uncertain while affecting a consequential choice. Blackwell's decision perspective supplies a foundation; collection costs, interpretation, incentives, and legal feasibility still determine whether obtaining the evidence is worthwhile.[^chapter_12-c12-12]
 
-A precise but tiny contrast may leave an action unchanged; uncertainty about a costly failure may justify a targeted test. The report must identify the consequential decision rather than substitute a larger comparison budget for a value argument.
+A precise but tiny difference may leave the purchase unchanged; uncertainty about a costly failure may justify a targeted test. The value of more comparison depends on the decision it can improve.
 
 Finally, the report would state which counterfactual it is evaluating. A shadow replay holds underlying effects, initial conditions, and response rules fixed while allowing the realized history to differ. A new access rule or training policy changes the institution. Its estimated effects depend on how people would respond under the changed rules.
 
@@ -2873,7 +2877,7 @@ An economy should reward its winners without giving them ownership of everyone e
 
 [^introduction-i5]: Arnout van de Rijt, Soong Moon Kang, Michael Restivo, and Akshay Patil, “Field Experiments of Success-Breeds-Success Dynamics,” *PNAS* 111 (2014): 6934–6939, especially 6934–6937. [doi:10.1073/pnas.1316836111](https://doi.org/10.1073/pnas.1316836111).
 
-[^introduction-i6]: Robert K. Merton, “The Matthew Effect in Science,” *Science* 159 (1968): 56–63, especially pp. 56–57, [original paper](https://garfield.library.upenn.edu/merton/matthew1.pdf); Armen A. Alchian, “Uncertainty, Evolution, and Economic Theory,” *Journal of Political Economy* 58 (1950): 211–221, especially pp. 211–213, [doi:10.1086/256940](https://doi.org/10.1086/256940).
+[^introduction-i6]: Armen A. Alchian, “Uncertainty, Evolution, and Economic Theory,” *Journal of Political Economy* 58 (1950): 211–221, especially pp. 211–213, [doi:10.1086/256940](https://doi.org/10.1086/256940); Robert K. Merton, “The Matthew Effect in Science,” *Science* 159 (1968): 56–63, especially pp. 56–57, [original paper](https://garfield.library.upenn.edu/merton/matthew1.pdf); W. Brian Arthur, “Competing Technologies, Increasing Returns, and Lock-In by Historical Events,” *Economic Journal* 99 (1989): 116–131, pp. 116–118 and 128, [doi:10.2307/2234208](https://doi.org/10.2307/2234208).
 
 [^introduction-i7]: Erik Brynjolfsson, Danielle Li, and Lindsey Raymond, “Generative AI at Work,” *The Quarterly Journal of Economics* 140 (2025): 889–942, abstract and Sections I, V.B, and VI, [doi:10.1093/qje/qjae044](https://doi.org/10.1093/qje/qjae044).
 
@@ -2886,6 +2890,18 @@ An economy should reward its winners without giving them ownership of everyone e
 [^introduction-i11]: Thijs Bol, Mathijs de Vaan, and Arnout van de Rijt, “The Matthew Effect in Science Funding,” *PNAS* 115, no. 19 (2018): 4887–4890, especially pp. 4888–4889, figures 1 and 3, [doi:10.1073/pnas.1719557115](https://doi.org/10.1073/pnas.1719557115). [Full paper](https://www.eui.eu/Documents/DepartmentsCentres/SPS/Profiles/Van-de-Rijt/boletal-2018.pdf).
 
 [^introduction-i12]: Steven Johnson, “The Genius of the Tinkerer,” *The Wall Street Journal*, September 25, 2010, adapted from *Where Good Ideas Come From: The Natural History of Innovation* (Riverhead Books, 2010), [archived print view](https://www.pickardlaws.com/myleadership/myfiles/rtdocs/free/TheGeniusOfTheTinkerer.pdf), PDF p. 2; Stuart A. Kauffman, [*At Home in the Universe: The Search for the Laws of Self-Organization and Complexity*](https://books.google.com/books?id=o-Owb5IDkSQC) (Oxford University Press, 1995); Kauffman, [“The Adjacent Possible”](https://www.edge.org/conversation/stuart_a_kauffman-the-adjacent-possible), *Edge*, November 9, 2003.
+
+[^introduction-i13]: Albert-László Barabási and Réka Albert, “Emergence of Scaling in Random Networks,” *Science* 286, no. 5439 (1999): 509–512, especially pp. 509–511, [doi:10.1126/science.286.5439.509](https://doi.org/10.1126/science.286.5439.509), [author-hosted article](https://barabasi.com/media/Emergence-Barabasi-1999_gN74Tws.pdf).
+
+[^introduction-i14]: Line Chloé Le Goff and Philippe Soulier, “Parameter Estimation of a Two-Colored Urn Model Class,” *International Journal of Biostatistics* 13 (2017), article 20160029, [doi:10.1515/ijb-2016-0029](https://doi.org/10.1515/ijb-2016-0029); [author preprint, version 2](https://arxiv.org/pdf/1405.2322), Sections 3.2–3.3, pp. 14–15.
+
+[^introduction-i15]: David Blackwell and Lester Dubins, “Merging of Opinions with Increasing Information,” *Annals of Mathematical Statistics* 33 (1962): 882–886, main theorem, p. 883, [doi:10.1214/aoms/1177704456](https://doi.org/10.1214/aoms/1177704456); Hao Zhang, “Inconsistent Estimation and Asymptotically Equal Interpolations in Model-Based Geostatistics,” *Journal of the American Statistical Association* 99 (2004): 250–261, pp. 250–253, [published article](https://www.stat.purdue.edu/~zhanghao/Paper/JASA2004.pdf).
+
+[^introduction-i16]: Adam Smith, *An Inquiry into the Nature and Causes of the Wealth of Nations* (1776), Book I, Chapter III and Chapter X, Part II, [original text](https://www.gutenberg.org/files/3300/3300-h/3300-h.htm); International Labour Organization, *World Employment and Social Outlook 2021*, Chapter 4, printed pp. 182 and 192, [report](https://www.ilo.org/sites/default/files/wcmsp5/groups/public/%40dgreports/%40dcomm/%40publ/documents/publication/wcms_771749.pdf).
+
+[^introduction-i17]: Zahra Meghani, “Regulations Matter: Epistemic Monopoly, Domination, Patents, and the Public Interest,” *Philosophy & Technology* 34 (2021): 1449–1474, introduction and Section 6, [article](https://link.springer.com/article/10.1007/s13347-021-00467-2).
+
+[^introduction-i18]: U.S. Department of Justice and Federal Trade Commission, [*2023 Merger Guidelines*](https://www.justice.gov/atr/media/1329301/dl), overview and Guidelines 2, 3, and 10.
 
 ## The winner and the explanation
 
@@ -3266,6 +3282,8 @@ Arrow, K. J., and A. C. Fisher. 1974. Environmental Preservation, Uncertainty, a
 Arthur, W. B. (1989). Competing technologies, increasing returns, and lock-in by historical events. The Economic Journal, 99(394), 116-131. [Source](https://doi.org/10.2307/2234208)
 
 Autor, D. H. 2015. Why are there still so many jobs? The history and future of workplace automation. Journal of Economic Perspectives 29:3–30. [Source](https://economics.mit.edu/sites/default/files/publications/why%20are%20there%20still%20jobs%202014.pdf)
+
+Barabási, A.-L., and R. Albert. 1999. Emergence of scaling in random networks. Science 286(5439):509–512. [Article](https://doi.org/10.1126/science.286.5439.509) [Full text](https://barabasi.com/media/Emergence-Barabasi-1999_gN74Tws.pdf)
 
 Bar-Yam, Y. (2016). From big data to important information. Complexity, 21(S2), 73–98. doi:10.1002/cplx.21785. [Source](https://doi.org/10.1002/cplx.21785)
 

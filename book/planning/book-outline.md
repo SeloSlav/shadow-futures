@@ -24,6 +24,8 @@ Prologue about 2500 words: Lockdown's two outcomes frame a sequence of documente
 
 The four movements are learning the concepts in Chapters 1 to 3; history, power, and desert in Chapters 4 to 6; AI and work in Chapters 7 to 9; and institutions in Chapters 10 to 12. The author narrates documented choices and explains mechanisms. Sensory scenes, dialogue, motives, and private experiences require an identified record.
 
+Early positioning is explicit in the revised introduction: Alchian, Merton and Arthur establish selection, cumulative advantage and increasing returns; Barabási and Albert establish the cited growth/preferential-attachment mechanism; Le Goff/Soulier, Blackwell/Dubins and Zhang establish the relevant statistical antecedents. Separate unequal outcomes and productive scale from the information available to identify contribution. Use a worker allocation to make the positive mechanism concrete, then connect historical market reach and modern shared gates to the case for protecting development before price changes expose exclusion. The chapter continues to distinguish model conditions, empirical evidence and normative prescriptions.
+
 ## 1 The winner and the explanation
 
 Open with the two rankings of Lockdown, already established in the prologue. Examine the explanation a reader might give after seeing only the winning world. The same song's contrasting outcomes make the difference between appeal and realized success concrete without claiming that quality is irrelevant.

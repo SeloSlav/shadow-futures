@@ -42,7 +42,7 @@ The district court described several ways that user activity helped search. Quer
 
 An unusual query makes that advantage tangible. An engine cannot learn from a question it never receives. Nor does one encounter necessarily reveal which result was useful. A click, an immediate return, and a later reformulation can tell different stories. The court described rankings informed by accumulated interactions. Scale supplies more than a larger inbox: it can supply repeated occasions to learn which answers people find useful.[^c5-3]
 
-This is productive information. It would be a mistake to describe every additional query as empty repetition. The relevant distinction is what a query helps us learn. More encounters can improve the established engine's response to encountered tasks while leaving another question less well answered: what would a different service, or a different development route, achieve with a meaningful chance to operate?
+More queries can improve the established engine's responses to the tasks it encounters. They leave a different service's development untested when that service receives no comparable opportunity to operate. The incumbent can learn more about its own performance while outsiders remain harder to evaluate.
 
 A search result also reflects several decisions. The provider has chosen which pages to collect, how to rank them, and how to present the answer. A user's response concerns what was shown under those choices. It does not directly report the response to every result that might have been shown by another system. The record can be rich and still have an uneven relationship to the comparisons we want.
 
@@ -134,7 +134,7 @@ The court's findings of legal violations supplied the basis for intervention. Ch
 
 Search payments also financed something outside search. The court's 2024 opinion reported that Google's payment to Mozilla exceeded $400 million in 2021 and represented about eighty percent of Mozilla's operating budget. The financial connection supporting Google's default position also helped support a separate browser. A change directed at one market could therefore affect the resources available in another.[^c5-8]
 
-Mozilla's chief executive, Laura Chambers, welcomed the court's rejection of a proposed ban on search payments in September 2025. She argued that a ban would weaken independent browsers. She also welcomed greater flexibility to offer other search and AI services and emphasized the need for careful implementation of data remedies. These were the arguments of an interested participant, with its own experience and incentives, rather than an independent welfare verdict.[^c5-9]
+Mozilla's chief executive, Laura Chambers, welcomed the court's rejection of a proposed ban on search payments in September 2025. She argued that a ban would weaken independent browsers. She also welcomed greater flexibility to offer other search and AI services and called for careful implementation of data remedies.[^c5-9]
 
 The position is economically intelligible. A browser is the software through which a person accesses the web; a search engine supplies answers to searches. More competition in one does not automatically finance competition in the other. A payment can help sustain a browser while also making a particular search relationship financially attractive. The arrangement has to be examined across both activities.
 
@@ -194,7 +194,7 @@ The ordered remedy sets terms under which later evidence can emerge. As it opera
 
 A formal promise of access becomes economically meaningful through specifications, a budget, security arrangements, usable records, and a way to interpret outcomes. Those implementation requirements help determine whether comparison actually occurs.
 
-The same attention should be given to a claim that a remedy has failed. A route could be open but unattractive because the alternative is poor. It could be attractive but burdened by unnecessary conditions. It could be operating while its learning benefits take time to appear. The investigator needs evidence capable of distinguishing these accounts, rather than choosing one from the identity of the winner.
+An unused route could reflect a poor alternative, unnecessary conditions, or benefits that take time to develop. Those possibilities call for different responses. Evidence about the terms offered, attempts made, and work completed can distinguish them; the incumbent's continued success alone cannot.
 
 ### Before a rival can grow
 
