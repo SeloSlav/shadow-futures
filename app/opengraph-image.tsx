@@ -1,6 +1,7 @@
 import { ImageResponse } from "next/og";
+import { BOOK } from "@/lib/book";
 
-export const alt = "Shadow Futures: one realized market history surrounded by unrealized branches";
+export const alt = "Shadow Futures by Martin Erlic — How Markets Choose Winners—and Lose Sight of the Alternatives";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -49,14 +50,13 @@ export default function OpenGraphImage() {
               color: "#ad5b36",
             }}
           >
-            Martin Erlic · Interactive economics essay
+            Martin Erlic · Book and research
           </div>
           <div style={{ display: "flex", marginTop: 26, fontSize: 104, letterSpacing: "-0.065em" }}>
             Shadow Futures
           </div>
           <div style={{ display: "flex", maxWidth: 840, marginTop: 24, fontSize: 36, lineHeight: 1.08 }}>
-            Compounding success can make a winner&apos;s contribution impossible to identify from
-            one market history.
+            {BOOK.subtitle}
           </div>
         </div>
       </div>

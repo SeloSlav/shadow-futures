@@ -163,6 +163,30 @@ NEXT_PUBLIC_PAPER_URL=https://papers.ssrn.com/sol3/papers.cfm?abstract_id=600399
 Website manuscript downloads are PDF only. Keep Word source files in the
 research archive under `output/docx/`, outside the public directory.
 
+## Search and AI discovery
+
+The book page includes its synopsis, chapter guide, and Book structured data.
+`/book.md` and `/papers.md` are generated from the same book edition and research
+records as the HTML pages; they link to the complete PDFs. `/llms.txt` and
+`/llms-full.txt` distinguish the book, original paper, and companion drafts.
+Update their descriptions when the scope or identity of those works changes.
+
+The sitemap lists canonical pages and publication PDFs. Keep `lastModified`
+dates tied to actual content updates. After deployment, inspect or submit the
+URLs from the live sitemap using:
+
+```bash
+npm run seo:indexnow -- --dry-run
+npm run seo:indexnow
+```
+
+The dry run reads the sitemap without submitting. Submission uses every URL in
+that sitemap, so newly published pages and papers do not require a second URL
+list in the script. Submit `/sitemap.xml` in Google Search Console and Bing
+Webmaster Tools, then use their indexing and performance reports to measure
+discovery. Crawler access and machine-readable guides do not guarantee indexing
+or citations in AI answers.
+
 ## Project map
 
 ```text

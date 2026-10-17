@@ -3,19 +3,19 @@ import type { ReactNode } from "react";
 
 import "@/app/globals.css";
 import { SiteHeader } from "@/components/site-header";
-import { AUTHOR, PAPER } from "@/lib/paper/citation";
+import { BOOK_DESCRIPTION, BOOK_FULL_TITLE } from "@/lib/book";
+import { AUTHOR } from "@/lib/paper/citation";
 import { SITE_ORIGIN } from "@/lib/site";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_ORIGIN),
   title: {
-    default: "Shadow Futures | Contribution Uncertainty and the Self-Reinforcing Market",
+    default: "Shadow Futures by Martin Erlic",
     template: "%s | Shadow Futures",
   },
-  description:
-    "An interactive explanation of Shadow Futures: how self-reinforcing markets can reward real inputs while destroying the comparison paths needed to measure contribution.",
-  authors: [{ name: PAPER.author, url: AUTHOR.path }],
-  creator: PAPER.author,
+  description: BOOK_DESCRIPTION,
+  authors: [{ name: AUTHOR.name, url: AUTHOR.path }],
+  creator: AUTHOR.name,
   alternates: { canonical: "/" },
   icons: {
     icon: [
@@ -28,19 +28,16 @@ export const metadata: Metadata = {
     google: "mDWlpJpnFhzdXa9kacEFsEEvw52h2BBhZud3XVHo24g",
   },
   openGraph: {
-    type: "article",
-    title: PAPER.title,
-    description:
-      "Increasing returns explain why leads compound. Shadow Futures explains how that process can erase the evidence needed to measure contribution.",
-    authors: [PAPER.author],
+    type: "website",
+    title: BOOK_FULL_TITLE,
+    description: BOOK_DESCRIPTION,
     siteName: "Shadow Futures",
     url: "/",
   },
   twitter: {
     card: "summary_large_image",
-    title: PAPER.title,
-    description:
-      "Animated graphs explain contribution uncertainty for creators and firms in self-reinforcing markets.",
+    title: BOOK_FULL_TITLE,
+    description: BOOK_DESCRIPTION,
   },
 };
 

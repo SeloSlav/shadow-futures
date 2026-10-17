@@ -14,6 +14,11 @@ export const metadata: Metadata = {
       "Follow five companies competing for 360 customers and watch early wins reshape later chances.",
     url: "/playground",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Shadow Futures Five-Company Competition Playground",
+    description: "Follow five companies competing for 360 customers and watch early wins reshape later chances.",
+  },
 };
 
 export default function PlaygroundPage() {

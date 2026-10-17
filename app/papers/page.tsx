@@ -20,7 +20,10 @@ export const metadata: Metadata = {
   title: "Research papers",
   description,
   authors: [{ name: RESEARCH_AUTHOR, url: AUTHOR.path }],
-  alternates: { canonical: "/papers" },
+  alternates: {
+    canonical: "/papers",
+    types: { "text/markdown": "/papers.md" },
+  },
   openGraph: {
     type: "website",
     title: "Research papers | Shadow Futures",
@@ -100,6 +103,10 @@ export default function PapersPage() {
             <a className={styles.jumpLink} href="#companion-papers">
               Explore the six companion papers <span aria-hidden="true">↓</span>
             </a>
+            <p className={styles.note}>
+              <a href="/papers.md">Research collection in Markdown</a> · The general-audience
+              book is available on the <Link href="/book">free book page</Link>.
+            </p>
           </header>
 
           <MainPaperCard />

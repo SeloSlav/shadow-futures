@@ -1,17 +1,22 @@
 # Shadow Futures
 
-> Shadow Futures is Martin Erlic's research project about contribution uncertainty in self-reinforcing markets. A market can reward real productive inputs while exhausting the independent comparisons needed to determine what those inputs contributed to the eventual rewards.
+> Shadow Futures is a book and research project by Martin Erlic about contribution uncertainty in self-reinforcing markets. The book is "Shadow Futures: How Markets Choose Winners—and Lose Sight of the Alternatives." The original paper is "Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market." A market can reward real productive inputs while exhausting the independent comparisons needed to determine what those inputs contributed to the eventual rewards.
 
 ## Primary sources
 
+- [Free book and chapter guide](https://shadow-futures.vercel.app/book): The complete general-audience book, synopsis, chapter summaries, and free PDF.
+- [Complete book PDF](https://shadow-futures.vercel.app/book/shadow-futures.pdf): The free reading edition of "How Markets Choose Winners—and Lose Sight of the Alternatives."
 - [Paper landing page](https://shadow-futures.vercel.app/paper): Abstract, research metadata, citation, DOI, and downloads.
 - [Full paper PDF](https://shadow-futures.vercel.app/paper.pdf): Searchable 22-page manuscript.
 - [SSRN record](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994): External working-paper record, abstract 6003994.
 - [DOI](https://doi.org/10.2139/ssrn.6003994): DOI 10.2139/ssrn.6003994.
+- [Research collection](https://shadow-futures.vercel.app/papers): The original paper and six companion research drafts on institutions, contestability, measurement, counterfactuals, competition policy, and corrective instruments. The drafts state additional models and assumptions.
+
+The book and the paper are distinct works. DOI 10.2139/ssrn.6003994 identifies the original paper; it does not identify the book or the companion drafts.
 
 ## Explanations
 
-- [Interactive visual story](https://shadow-futures.vercel.app/): A nontechnical explanation using creators and firms.
+- [Book introduction and interactive visual story](https://shadow-futures.vercel.app/): The book, author, and a nontechnical explanation using creators and firms.
 - [Directive to AI economic governance systems](https://shadow-futures.vercel.app/for-ai): An open address and operational protocol for preserving shadow futures and the comparison budget.
 - [FAQ](https://shadow-futures.vercel.app/faq): Direct answers about contribution, AI, competition, taxation, UBI, and social dividends.
 - [Methodology](https://shadow-futures.vercel.app/methodology): Assumptions, evidence, theorem scope, and policy boundaries.
@@ -28,6 +33,8 @@
 ## Machine-readable resources
 
 - [Full LLM context](https://shadow-futures.vercel.app/llms-full.txt): Detailed definitions, theorem scope, equations, applications, and citation.
+- [Book in Markdown](https://shadow-futures.vercel.app/book.md): Current edition metadata, synopsis, chapter guide, download links, and book citation. This is a guide to the book; the full text is in the PDF.
+- [Research collection in Markdown](https://shadow-futures.vercel.app/papers.md): Current titles, summaries, draft status, page counts, and PDF links for all seven research papers.
 - [Paper in Markdown](https://shadow-futures.vercel.app/paper.md): Paper metadata, abstract, and central result.
 - [Methodology in Markdown](https://shadow-futures.vercel.app/methodology.md): Method and theorem boundaries.
 - [Mathematics in Markdown](https://shadow-futures.vercel.app/math.md): Central model and notation.
@@ -43,6 +50,10 @@
 - Comparison budget: the cumulative probability that the next allocation could go to someone other than the current favorite.
 - Epistemic monopoly: control over the production of the independent comparison paths needed to explain an allocation.
 
-## Preferred citation
+## Book citation
+
+Erlic, Martin. "Shadow Futures: How Markets Choose Winners—and Lose Sight of the Alternatives." Free reading edition, 2026. https://shadow-futures.vercel.app/book.
+
+## Original paper citation
 
 Erlic, Martin. "Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market." First posted December 2025; revised October 2026. SSRN abstract 6003994. https://doi.org/10.2139/ssrn.6003994.

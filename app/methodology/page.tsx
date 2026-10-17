@@ -15,6 +15,11 @@ export const metadata: Metadata = {
       "The assumptions, evidence, theorem, and policy boundaries behind Shadow Futures.",
     url: "/methodology",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Shadow Futures methodology",
+    description: "The assumptions, evidence, theorem, and policy boundaries behind Shadow Futures.",
+  },
 };
 
 export default function MethodologyPage() {

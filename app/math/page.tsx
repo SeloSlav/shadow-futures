@@ -16,6 +16,11 @@ export const metadata: Metadata = {
       "The allocation model, comparison budget, and assumptions behind the single-history learning limit.",
     url: "/math",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "The Shadow Futures mathematics",
+    description: "The allocation model, comparison budget, and assumptions behind the single-history learning limit.",
+  },
 };
 
 const CENTRAL_EQUATION = String.raw`

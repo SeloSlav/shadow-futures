@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { CreatorStoryPage } from "@/components/story/creator-story-page";
-import { BOOK } from "@/lib/book";
+import { BOOK, BOOK_DESCRIPTION, BOOK_FULL_TITLE } from "@/lib/book";
+import { BOOK_SCHEMA } from "@/lib/book-schema";
 import { AUTHOR, PAPER } from "@/lib/paper/citation";
 import { SITE_ORIGIN } from "@/lib/site";
 
@@ -12,6 +13,12 @@ export const metadata: Metadata = {
     description: BOOK.subtitle,
     type: "website",
     url: "/",
+    siteName: "Shadow Futures",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: BOOK_FULL_TITLE,
+    description: BOOK_DESCRIPTION,
   },
 };
 
@@ -25,8 +32,7 @@ export default function HomePage() {
         url: SITE_ORIGIN,
         name: "Shadow Futures",
         alternateName: ["Shadow Futures", "shadow-futures.vercel.app"],
-        description:
-          "An interactive explanation of contribution uncertainty in self-reinforcing markets.",
+        description: BOOK_DESCRIPTION,
         inLanguage: "en",
         creator: { "@id": `${SITE_ORIGIN}${AUTHOR.path}#person` },
       },
@@ -37,24 +43,7 @@ export default function HomePage() {
         url: `${SITE_ORIGIN}${AUTHOR.path}`,
         sameAs: [AUTHOR.ssrnUrl, AUTHOR.mediumUrl, AUTHOR.xUrl],
       },
-      {
-        "@type": "Book",
-        "@id": `${SITE_ORIGIN}/book#book`,
-        name: BOOK.title,
-        alternativeHeadline: BOOK.subtitle,
-        author: { "@id": `${SITE_ORIGIN}${AUTHOR.path}#person` },
-        url: `${SITE_ORIGIN}/book`,
-        sameAs: BOOK.amazon,
-        image: `${SITE_ORIGIN}${BOOK.cover}`,
-        numberOfPages: BOOK.pages,
-        isAccessibleForFree: true,
-        inLanguage: "en",
-        encoding: {
-          "@type": "MediaObject",
-          contentUrl: `${SITE_ORIGIN}${BOOK.pdf}`,
-          encodingFormat: "application/pdf",
-        },
-      },
+      BOOK_SCHEMA,
       {
         "@type": "ScholarlyArticle",
         "@id": `${SITE_ORIGIN}${PAPER.landingPath}#article`,

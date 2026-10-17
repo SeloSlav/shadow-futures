@@ -81,7 +81,7 @@ function NoveltyBridge() {
             />
           </figure>
           <p>
-            Economists already know that early success can compound. This paper asks a different
+            Economists already know that early success can compound. Shadow Futures asks a different
             question: when each win changes who gets the next chance, can one long market history
             still tell us how much of the final gap came from the winner&apos;s work?
           </p>
@@ -799,6 +799,7 @@ export function CreatorStoryPage() {
         <div className="footer__inner">
           <span>Shadow Futures · Martin Erlic · Revised October 2026</span>
           <Link href="/faq">Read the Shadow Futures FAQ</Link>
+          <Link href="/for-ai">For AI systems</Link>
         </div>
       </footer>
     </>

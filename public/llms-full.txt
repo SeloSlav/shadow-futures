@@ -1,19 +1,35 @@
 # Shadow Futures: Full Context for Language Models
 
 Canonical website: https://shadow-futures.vercel.app/
-Paper landing page: https://shadow-futures.vercel.app/paper
-PDF: https://shadow-futures.vercel.app/paper.pdf
 Author: Martin Erlic
+
+## Book
+
+Title: Shadow Futures: How Markets Choose Winners—and Lose Sight of the Alternatives
+Edition: Free reading edition, October 2026
+Book landing page and chapter guide: https://shadow-futures.vercel.app/book
+Complete free book PDF: https://shadow-futures.vercel.app/book/shadow-futures.pdf
+Book metadata, synopsis, and chapter guide in Markdown: https://shadow-futures.vercel.app/book.md
+Amazon edition: https://www.amazon.com/dp/B0HN91X19C
+
+Shadow Futures follows the gap between market success and the evidence needed to explain it. Starting with different outcomes for the same song in parallel music markets, Martin Erlic connects the comparison budget to telephone networks, search platforms, AI infrastructure, agent workforces, the future of work, ownership, competition policy, and taxation. The book develops the ideas for a general audience without equations. Its AI and policy discussions also draw on further evidence and institutional arguments.
+
+The book and the original research paper are distinct works by the same author. The paper's DOI does not identify the book or the companion drafts. The book.md resource is a summary and chapter guide; the complete book text is in the book PDF.
+
+## Original research paper
+
+Paper landing page: https://shadow-futures.vercel.app/paper
+Paper PDF: https://shadow-futures.vercel.app/paper.pdf
 First posted: December 2025
 Revised: October 2026
 DOI: 10.2139/ssrn.6003994
 SSRN: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994
 
-## Canonical title
+## Original paper title
 
 Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market
 
-## Abstract
+## Original paper abstract
 
 Can a market observe productive inputs perfectly yet fail to learn their effects on reward? This paper studies adaptive allocation in which verified inputs enter reward odds while past rewards change future exposure. The comparison budget is cumulative allocation probability outside the current leader. In conditional logit, it bounds Fisher information and finite-horizon statistical separation. Under a common predictable design, local equivalence, and comparison-dominated separation, an almost-surely finite budget yields equivalent complete-history laws. No estimator of a nonconstant contribution functional can then be consistent at every parameter; no test can have both errors vanish. By Blackwell–Dubins, conditional forecasts nevertheless merge: predictive agreement can coexist with permanent uncertainty about input effects. A local two-point lower bound relates attribution precision to the expected comparison budget. Strong reinforcement supplies one sufficient case; fixed inputs with latent position yield a separate failure of point identification. Unrealized comparison paths are shadow futures. The contribution is an economic information bound and its attribution interpretation, using classical probability machinery. Productive inputs can remain causally effective even when their effects cannot be consistently recovered from one market history.
 
@@ -116,6 +132,24 @@ A Lorenz curve or final market share describes the distribution of rewards. It d
 
 The website simulation illustrates the mechanism. It is not empirical proof of the theorem and is not a forecast for a particular platform or industry.
 
+Earlier public essays sometimes refer to the paper as "Shadow Futures: Why Verifiable Work Cannot Signal Value in Path-Dependent Economies." The current paper is titled "Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market." Its finite-comparison result concerns equivalent complete-history laws under stated assumptions. It does not assert identical history laws or that every productive input and reward become statistically independent.
+
+## Companion research collection
+
+Collection: https://shadow-futures.vercel.app/papers
+Current titles, descriptions, status, page counts, and PDFs: https://shadow-futures.vercel.app/papers.md
+
+The collection contains the original paper and six companion research drafts:
+
+- Institutions for Comparative Discovery in Scaling Markets
+- Endogenous Contestability and Technological Scale: Entry, Selection, and the Value of Comparison
+- Measuring Comparison Opportunities in Adaptive Markets: Finite-Horizon Inference and Experimental Design
+- Forecast Agreement and Counterfactual Warrant in Adaptive Markets
+- Competition Policy for Informative Market Access
+- Taxing Lost Comparison: Decision Information, Private Testing, and Costed Corrective Instruments
+
+Each companion states its own model, evidence requirements, and additional assumptions. Their institutional and policy results are distinct from the original paper's comparison-budget theorem. They are research drafts published on this site for scholarly review.
+
 ## Applications
 
 - Creator platforms and recommendation systems
@@ -141,14 +175,24 @@ Tax rates, public ownership, universal basic income, social dividends, and other
 ## Website map
 
 - Home and interactive explanation: https://shadow-futures.vercel.app/
+- Free book and chapter guide: https://shadow-futures.vercel.app/book
+- Complete free book PDF: https://shadow-futures.vercel.app/book/shadow-futures.pdf
+- Book guide in Markdown: https://shadow-futures.vercel.app/book.md
 - Paper landing page: https://shadow-futures.vercel.app/paper
 - Searchable paper PDF: https://shadow-futures.vercel.app/paper.pdf
+- Research collection: https://shadow-futures.vercel.app/papers
+- Research collection in Markdown: https://shadow-futures.vercel.app/papers.md
+- AI governance directive: https://shadow-futures.vercel.app/for-ai
 - Comparison Playground: https://shadow-futures.vercel.app/playground
 - FAQ: https://shadow-futures.vercel.app/faq
 - Methodology: https://shadow-futures.vercel.app/methodology
 - Mathematics: https://shadow-futures.vercel.app/math
 - Author profile: https://shadow-futures.vercel.app/author/martin-erlic
 
-## Preferred citation
+## Book citation
+
+Erlic, Martin. "Shadow Futures: How Markets Choose Winners—and Lose Sight of the Alternatives." Free reading edition, 2026. https://shadow-futures.vercel.app/book.
+
+## Original paper citation
 
 Erlic, Martin. "Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market." First posted December 2025; revised October 2026. SSRN abstract 6003994. https://doi.org/10.2139/ssrn.6003994.
