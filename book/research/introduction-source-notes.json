@@ -4,8 +4,8 @@
   "checked_on": "2026-10-16",
   "status": "drafted",
   "target_main_words": 3500,
-  "body_words": 3407,
-  "draft_sha256": "bbd3364cc15d7c134a39e4e940e9e3e2e5c9a4fcec8f0db8355a9d95e4f836be",
+  "body_words": 3390,
+  "draft_sha256": "b3bfc34822f4cd21ac757dca7710415f2d95b517ad8eae338d08f2ba9cc4b154",
   "source_checks": "Relevant full-source passages checked. Where publisher access failed, the identified author working-paper version or indexed full-source sections were checked; no independent proof or priority certification is claimed.",
   "sources": [
     {
@@ -234,8 +234,8 @@
   },
   "editorial_commentary_revision": {
     "date": "2026-10-17",
-    "manuscript_sha256": "bbd3364cc15d7c134a39e4e940e9e3e2e5c9a4fcec8f0db8355a9d95e4f836be",
-    "body_groups": 2,
+    "manuscript_sha256": "b3bfc34822f4cd21ac757dca7710415f2d95b517ad8eae338d08f2ba9cc4b154",
+    "body_groups": 3,
     "notes_rewritten": [
       "i3",
       "i11",

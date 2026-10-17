@@ -56,7 +56,7 @@ The small word "finite" does substantial work. A tiny but persistent chance of s
 
 Another transaction can demonstrate that an established service continues to work well while revealing little about an untested alternative. Commercial value and information about a particular comparison are separate properties of the same event.
 
-Useful evidence may exist elsewhere: a field experiment, an independent technical evaluation, or measured outcomes beyond the award itself. If those observations distinguish the contribution explanations, they belong in the inquiry. An argument about missing evidence would be worthless if it manufactured scarcity by discarding evidence that exists.
+Useful evidence may exist elsewhere: a field experiment, an independent technical evaluation, or measured outcomes beyond the award itself. If those observations distinguish the contribution explanations, they belong in the inquiry.
 
 eBay's experiments illustrate this constructive response. The company could change where advertising appeared and observe what followed. Its advertising ledger did not have to remain the last word. Before declaring an attribution problem intractable, we should ask what a feasible intervention could reveal. The comparison budget helps diagnose a specified record; it does not forbid investigators from improving their experiment.
 

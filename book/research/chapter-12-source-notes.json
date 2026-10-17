@@ -4,9 +4,9 @@
   "checked_on": "2026-10-16",
   "status": "reviewed",
   "target_main_words": 6000,
-  "body_words": 4121,
+  "body_words": 4104,
   "note_words": 441,
-  "draft_sha256": "2e1fe0550ecf75b33590b5a02fa38de784bfbf2940ae48d826bdfcb47305c074",
+  "draft_sha256": "83af3da538be65b6f04c5c0fe9e4d6556db10130f807ef22c8769cb920bd3f95",
   "source_checks": "Relevant primary passages and direct scanned pages checked with exact version/access boundaries. Earlier substantive checks retained by claim; Blackwell1953 original scan now saved and relevant passages checked in cross-book audit. All council design choices/results fictional. Guide printedpp4-8 re-read; Rothamsted January2024 substantive account refreshed; indexed original Bearchell methods/results rechecked after direct PMC challenge.",
   "sources": [
     {
@@ -406,8 +406,8 @@
   },
   "editorial_commentary_revision": {
     "date": "2026-10-17",
-    "manuscript_sha256": "2e1fe0550ecf75b33590b5a02fa38de784bfbf2940ae48d826bdfcb47305c074",
-    "body_groups": 2,
+    "manuscript_sha256": "83af3da538be65b6f04c5c0fe9e4d6556db10130f807ef22c8769cb920bd3f95",
+    "body_groups": 3,
     "notes_rewritten": [
       "c12-3",
       "c12-5"

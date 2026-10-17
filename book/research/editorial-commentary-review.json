@@ -25,11 +25,16 @@
     {
       "file": "book/manuscript/01-introduction.md",
       "before_body_words": 3169,
-      "after_body_words": 3407,
+      "after_body_words": 3390,
       "before_note_words": 706,
       "after_note_words": 581,
-      "after_sha256": "bbd3364cc15d7c134a39e4e940e9e3e2e5c9a4fcec8f0db8355a9d95e4f836be",
+      "after_sha256": "b3bfc34822f4cd21ac757dca7710415f2d95b517ad8eae338d08f2ba9cc4b154",
       "body_groups": [
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        },
         {
           "kind": "replace",
           "old_paragraphs": 1,
@@ -172,11 +177,16 @@
     {
       "file": "book/manuscript/05-the-histories-that-became-infrastructure.md",
       "before_body_words": 5688,
-      "after_body_words": 5590,
+      "after_body_words": 5569,
       "before_note_words": 919,
       "after_note_words": 729,
-      "after_sha256": "7c89ad1c2b36af318157f7c4285f18fe9da48cb18070c1a100df4914de297b71",
+      "after_sha256": "ab76becbbdeabba8c49fbc53919e308b0af994cc9d08537c3e6e1d663bce645b",
       "body_groups": [
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        },
         {
           "kind": "replace",
           "old_paragraphs": 1,
@@ -230,10 +240,10 @@
     {
       "file": "book/manuscript/06-who-gets-to-be-tested.md",
       "before_body_words": 5498,
-      "after_body_words": 5494,
+      "after_body_words": 5466,
       "before_note_words": 674,
       "after_note_words": 509,
-      "after_sha256": "15db5074976c35892c56bd86c837ea31ed5911746876a666ecc49903e03f2055",
+      "after_sha256": "92701672de1abe3bd96ae25bba3c8d6fee7bd41d79e3b14470a476c9d704c920",
       "body_groups": [
         {
           "kind": "replace",
@@ -419,11 +429,16 @@
     {
       "file": "book/manuscript/13-an-economics-of-possible-worlds.md",
       "before_body_words": 4151,
-      "after_body_words": 4121,
+      "after_body_words": 4104,
       "before_note_words": 472,
       "after_note_words": 441,
-      "after_sha256": "2e1fe0550ecf75b33590b5a02fa38de784bfbf2940ae48d826bdfcb47305c074",
+      "after_sha256": "83af3da538be65b6f04c5c0fe9e4d6556db10130f807ef22c8769cb920bd3f95",
       "body_groups": [
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        },
         {
           "kind": "replace",
           "old_paragraphs": 1,
@@ -457,14 +472,43 @@
       "notes_rewritten": []
     }
   ],
-  "body_change_groups": 45,
+  "body_change_groups": 48,
   "notes_rewritten": 51,
-  "main_words_cut_net": 632,
+  "main_words_cut_net": 715,
   "note_words_cut": 1771,
   "acknowledgment_words_cut": 30,
-  "expected_main_words": 63366,
+  "expected_main_words": 63283,
   "expected_backmatter_words": 10608,
   "residual_review": "Remaining self-reference concerns introductory framing, the intentional origin story, explicit model scope and authorial values. The identified manuscript-appraisal formulations are removed.",
   "name_and_theorem": "Johnson and Kauffman credit retained. Same-rule alternative histories distinguished from learning which contribution effect generated the observed record; finite lifetime comparison is connected conditionally to the original impossibility result.",
-  "boundary": "No new bibliography entries or source audit; original SSRN remains the sole self-citation; approved epilogue untouched."
+  "boundary": "No new bibliography entries or source audit; original SSRN remains the sole self-citation; approved epilogue untouched.",
+  "publication": {
+    "main_words": 63283,
+    "backmatter_words": 10608,
+    "endnotes": 185,
+    "references": 133,
+    "reading_pdf_pages": 263,
+    "paperback_pages": 262,
+    "epubcheck": {
+      "version": "5.3.0",
+      "errors": 0,
+      "warnings": 0,
+      "sha256": "81e30d0a35b3f4c8475f440ebf4fc787d7f2dff510f82b3f50e8ced4daf3743b"
+    },
+    "pdf_integrity": {
+      "status": "passed",
+      "pages": 263,
+      "source_paragraphs_present_in_full": 1510,
+      "internal_links": 502,
+      "external_links": 427,
+      "fonts_embedded": true,
+      "pdf_sha256": "5e97c66f36afe810e85cb45a834b3fb8c189a5d5dd9c5efcc70b149782ef425d",
+      "boundary": "Text/geometry/link integrity, not source truth or print approval."
+    },
+    "visual_review": "Initial changed/adjacent-page contact sheets, corrective previews, and final delivery previews inspected. Final origin section and corrected qualifications inspected without visible layout defects. Unchanged layout checks reused.",
+    "reading_pdf_sha256": "5e97c66f36afe810e85cb45a834b3fb8c189a5d5dd9c5efcc70b149782ef425d",
+    "hash_check": "Final input and output bytes matched the export state."
+  },
+  "pipeline_fix": "Upload-file copies skip byte-identical outputs and replace changed copies atomically after a Windows mapped-file copy failure. Subsequent full packaging, EPUBCheck and PDF integrity passed.",
+  "known_phrase_guard": "Assembly rejects the specifically identified editorial holdovers, while accepting intentional origin statements and political values."
 }

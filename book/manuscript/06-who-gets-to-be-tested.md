@@ -82,7 +82,7 @@ This is why an information argument should begin with a question rather than a l
 
 ### The product on the bench
 
-Meghani's discussion has a physical counterpart to the search record: a product that outside scientists need to study. Her paper examined a dispute over the regulation of dicamba herbicides. The underlying court opinion, issued in June 2020, described Monsanto's field studies in support of an initial 2016 registration. The company had tested its reformulated herbicide in Georgia and Texas. At that time, it had not made the herbicide available for independent studies. The court's decision to vacate the registration rested on its assessment of risk.[^c5-16]
+Meghani's discussion has a physical counterpart to the search record: a product that outside scientists need to study. Her paper examined a dispute over the regulation of dicamba herbicides. The underlying court opinion, issued in June 2020, described Monsanto's field studies in support of an initial 2016 registration. The company had tested its reformulated herbicide in Georgia and Texas. At that time, it had not made the herbicide available for independent studies.[^c5-16]
 
 There were results, then, and there were experiments. The problem was not an empty file. A developer had produced evidence about its own product, while another route to producing evidence was unavailable. That is different from saying the developer's measurements must have been false. It asks what could be learned by investigators able to choose and carry out their own tests.
 
@@ -94,7 +94,7 @@ The example also shows why disclosure and access should be connected. Without en
 
 Disclosure is useful when the existing record answers the question. Releasing another copy of a performance report cannot replace a failure condition that was never tested. The first task is to identify whether the missing element is access, interpretation, or another observation.
 
-This is not an argument that every outside investigator is better than every company scientist. Expertise, instruments, and experience matter. An independent test can be incompetent, redundant, or badly designed. The institutional objective is to enable credible investigation of consequential questions and to assess its results, rather than to treat independence as a substitute for scientific quality.
+Expertise, instruments, and experience matter. An independent test can be incompetent, redundant, or badly designed. The institutional objective is to enable credible investigation of consequential questions and to assess its results, rather than to treat independence as a substitute for scientific quality.
 
 ### More signs, one route
 

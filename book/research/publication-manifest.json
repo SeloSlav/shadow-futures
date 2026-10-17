@@ -8,7 +8,7 @@
   "cover": "/book/shadow-futures-cover.png",
   "pages": 263,
   "interior_pages": 262,
-  "pdf_bytes": 4380138,
+  "pdf_bytes": 4379426,
   "notes": 185,
   "contents": [
     {
@@ -109,7 +109,7 @@
     1536
   ],
   "production_note": "KDP-size exports are provided. Generated artwork is natively 1024×1536; 300-dpi raster exports are resampled, not added native detail. Check a print proof; higher-resolution original art is recommended before commercial print upload.",
-  "manuscript_sha256": "211b9d6048bbe11232bd9fc55b4d8b1cd07e5e5eefa145b08529edfdb3f8041a",
+  "manuscript_sha256": "367da3a3a21180a677b82fb42e3b580922437640bab2bc05178ae317d57cbd9b",
   "inputs": [
     {
       "file": "book/manuscript/00-prologue.md",
@@ -117,7 +117,7 @@
     },
     {
       "file": "book/manuscript/01-introduction.md",
-      "sha256": "bbd3364cc15d7c134a39e4e940e9e3e2e5c9a4fcec8f0db8355a9d95e4f836be"
+      "sha256": "b3bfc34822f4cd21ac757dca7710415f2d95b517ad8eae338d08f2ba9cc4b154"
     },
     {
       "file": "book/manuscript/02-the-winner-and-the-explanation.md",
@@ -133,11 +133,11 @@
     },
     {
       "file": "book/manuscript/05-the-histories-that-became-infrastructure.md",
-      "sha256": "7c89ad1c2b36af318157f7c4285f18fe9da48cb18070c1a100df4914de297b71"
+      "sha256": "ab76becbbdeabba8c49fbc53919e308b0af994cc9d08537c3e6e1d663bce645b"
     },
     {
       "file": "book/manuscript/06-who-gets-to-be-tested.md",
-      "sha256": "15db5074976c35892c56bd86c837ea31ed5911746876a666ecc49903e03f2055"
+      "sha256": "92701672de1abe3bd96ae25bba3c8d6fee7bd41d79e3b14470a476c9d704c920"
     },
     {
       "file": "book/manuscript/07-who-deserves-the-winnings.md",
@@ -145,7 +145,7 @@
     },
     {
       "file": "book/manuscript/08-the-intelligence-factory.md",
-      "sha256": "42fdc10a29ae5c5d5924585440b0dd567f0e79b099c1bdb773f753401f4cb4bd"
+      "sha256": "8bb5ebbb55a9ef3ccc1fe67b97fd9a681d1b28c31a4ad31ec9ca043afb172c73"
     },
     {
       "file": "book/manuscript/09-a-billion-answers.md",
@@ -165,7 +165,7 @@
     },
     {
       "file": "book/manuscript/13-an-economics-of-possible-worlds.md",
-      "sha256": "2e1fe0550ecf75b33590b5a02fa38de784bfbf2940ae48d826bdfcb47305c074"
+      "sha256": "83af3da538be65b6f04c5c0fe9e4d6556db10130f807ef22c8769cb920bd3f95"
     },
     {
       "file": "book/manuscript/14-epilogue.md",
@@ -180,7 +180,7 @@
       "sha256": "d577aee194f1f47aa3e450ae3f0e07b6dd11ac83de4080857d6c0708b2e5d8ba"
     }
   ],
-  "pdf_sha256": "baf6efdbc2f55355d7cfa11fad0765c864f6807fce89c170f598ebf083242942",
+  "pdf_sha256": "5e97c66f36afe810e85cb45a834b3fb8c189a5d5dd9c5efcc70b149782ef425d",
   "kdp_sources": [
     "https://kdp.amazon.com/en_US/help/topic/G201953020",
     "https://kdp.amazon.com/en_US/help/topic/G6GTK3T3NUHKLEFX",

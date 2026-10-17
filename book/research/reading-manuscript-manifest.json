@@ -1,7 +1,7 @@
 {
   "status": "complete_draft_assembly_review_pending",
   "file": "book/drafts/Shadow_Futures_Complete_Manuscript.md",
-  "sha256": "76522e68ba6df356200eeaccefe8d6d2d3e588060cadf8f1f2bde839c99d4a17",
+  "sha256": "367da3a3a21180a677b82fb42e3b580922437640bab2bc05178ae317d57cbd9b",
   "inputs": [
     {
       "file": "book/manuscript/00-prologue.md",
@@ -9,7 +9,7 @@
     },
     {
       "file": "book/manuscript/01-introduction.md",
-      "sha256": "bbd3364cc15d7c134a39e4e940e9e3e2e5c9a4fcec8f0db8355a9d95e4f836be"
+      "sha256": "b3bfc34822f4cd21ac757dca7710415f2d95b517ad8eae338d08f2ba9cc4b154"
     },
     {
       "file": "book/manuscript/02-the-winner-and-the-explanation.md",
@@ -25,11 +25,11 @@
     },
     {
       "file": "book/manuscript/05-the-histories-that-became-infrastructure.md",
-      "sha256": "7c89ad1c2b36af318157f7c4285f18fe9da48cb18070c1a100df4914de297b71"
+      "sha256": "ab76becbbdeabba8c49fbc53919e308b0af994cc9d08537c3e6e1d663bce645b"
     },
     {
       "file": "book/manuscript/06-who-gets-to-be-tested.md",
-      "sha256": "15db5074976c35892c56bd86c837ea31ed5911746876a666ecc49903e03f2055"
+      "sha256": "92701672de1abe3bd96ae25bba3c8d6fee7bd41d79e3b14470a476c9d704c920"
     },
     {
       "file": "book/manuscript/07-who-deserves-the-winnings.md",
@@ -57,7 +57,7 @@
     },
     {
       "file": "book/manuscript/13-an-economics-of-possible-worlds.md",
-      "sha256": "2e1fe0550ecf75b33590b5a02fa38de784bfbf2940ae48d826bdfcb47305c074"
+      "sha256": "83af3da538be65b6f04c5c0fe9e4d6556db10130f807ef22c8769cb920bd3f95"
     },
     {
       "file": "book/manuscript/14-epilogue.md",
@@ -73,7 +73,7 @@
     }
   ],
   "bibliography_input_sha256": "d1fd1deeb9efee06d66a3e5121edfe64e973c065a5f06e466143a216ae244d2c",
-  "main_words": 63366,
+  "main_words": 63283,
   "back_matter_words": 10608,
   "reference_entries": 133,
   "endnote_count": 185,

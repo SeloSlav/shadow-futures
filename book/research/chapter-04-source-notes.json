@@ -4,8 +4,8 @@
   "checked_on": "2026-10-16",
   "status": "reviewed",
   "target_main_words": 6000,
-  "body_words": 5590,
-  "draft_sha256": "7c89ad1c2b36af318157f7c4285f18fe9da48cb18070c1a100df4914de297b71",
+  "body_words": 5569,
+  "draft_sha256": "ab76becbbdeabba8c49fbc53919e308b0af994cc9d08537c3e6e1d663bce645b",
   "source_checks": "Claim-specific passages checked in full primary records, identified author versions, and museum collection accounts. Version, access and interpretation boundaries retained; no independent proof or priority certification.",
   "sources": [
     {
@@ -294,8 +294,8 @@
   },
   "editorial_commentary_revision": {
     "date": "2026-10-17",
-    "manuscript_sha256": "7c89ad1c2b36af318157f7c4285f18fe9da48cb18070c1a100df4914de297b71",
-    "body_groups": 8,
+    "manuscript_sha256": "ab76becbbdeabba8c49fbc53919e308b0af994cc9d08537c3e6e1d663bce645b",
+    "body_groups": 9,
     "notes_rewritten": [
       "c4-4",
       "c4-7",

@@ -164,7 +164,7 @@ A third could investigate the institution supplying access. Which permissions, c
 
 A useful next study could begin with one purchase. Record which alternatives were eligible, how they were selected, which outcomes reached the buyer, and what additional test changed the decision. That would not measure an entire economy’s lost possibilities. It could establish something more modest and actionable: whether a specific institution could learn more, at a cost worth paying.
 
-Hayek's discovery argument remains an important predecessor. Competition can reveal facts that were not known or used beforehand. A serious extension should ask where the discovery process works, which questions it answers, and where other arrangements could improve it. It should not treat every departure from a particular model as a reason to dismiss decentralized learning.[^c12-13]
+Hayek described competition as a way to discover facts that were not known or used beforehand.[^c12-13] We can investigate where that discovery works, which questions it answers, and whether another arrangement would produce more useful evidence at acceptable cost.
 
 Likewise, acknowledging the costs of duplicated production should not end the inquiry before considering duplicated evaluation. Several firms need not each build a complete frontier training operation to contribute useful tests of deployed services. Some comparisons can occur within an integrated organization; others may need independent access. The capability, cost, and information questions must each be examined.
 

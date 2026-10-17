@@ -1,6 +1,6 @@
 {
   "date": "2026-10-16",
-  "manuscript_sha256": "211b9d6048bbe11232bd9fc55b4d8b1cd07e5e5eefa145b08529edfdb3f8041a",
+  "manuscript_sha256": "367da3a3a21180a677b82fb42e3b580922437640bab2bc05178ae317d57cbd9b",
   "epub_integrity": {
     "source_paragraphs_present_in_full": 1510,
     "internal_links_checked": 553,
@@ -20,8 +20,8 @@
   "files": [
     {
       "file": "output/kdp/shadow-futures-kindle.epub",
-      "bytes": 1025048,
-      "sha256": "c70db2e656bd69cfe13ead379ab7b04d62dee9bb44fd256d0016432be0032cdb"
+      "bytes": 1024796,
+      "sha256": "81e30d0a35b3f4c8475f440ebf4fc787d7f2dff510f82b3f50e8ced4daf3743b"
     },
     {
       "file": "output/kdp/shadow-futures-kindle-cover.jpg",
@@ -30,13 +30,13 @@
     },
     {
       "file": "output/kdp/shadow-futures-paperback-interior.pdf",
-      "bytes": 913882,
-      "sha256": "0612c8bf089ebd1f0cf657dd472108ba2d45750b24df12cf12e5e306823e2c05"
+      "bytes": 913170,
+      "sha256": "4c6565d6ca783c55e02cab867f4f450e759486142bec1ec44b42e3bb48460355"
     },
     {
       "file": "output/kdp/shadow-futures-paperback-cover.pdf",
       "bytes": 3548722,
-      "sha256": "b9a6cb3fc8f61ae33a444f61b6f4f45fc651330760a5f9fa2e0088432716075c"
+      "sha256": "67ab34f2d87aba1d0a90db3df015f55359e1d11d0174a5c9eab7500d3aebdec2"
     },
     {
       "file": "output/kdp/UPLOAD-INSTRUCTIONS.txt",
@@ -50,8 +50,8 @@
     },
     {
       "file": "output/kdp/shadow-futures-kdp-upload.zip",
-      "bytes": 5300528,
-      "sha256": "e3e20cf173839def0d1578d7afbbf112629d8dc847a1464e67cf9f08b40a7727"
+      "bytes": 5299593,
+      "sha256": "5abf78164479d24349e5086c8321bcf75f5e97a4c1e3c4dca1e3a5ad49a725e9"
     }
   ],
   "boundary": "Upload formats and mechanical checks; KDP Previewer and print proof remain author publication steps.",
@@ -59,6 +59,6 @@
     "version": "5.3.0",
     "errors": 0,
     "warnings": 0,
-    "sha256": "c70db2e656bd69cfe13ead379ab7b04d62dee9bb44fd256d0016432be0032cdb"
+    "sha256": "81e30d0a35b3f4c8475f440ebf4fc787d7f2dff510f82b3f50e8ced4daf3743b"
   }
 }

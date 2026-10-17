@@ -106,7 +106,7 @@ Could another history have developed a better set of capabilities? Changing a pr
 
 Bell's technology sharing makes the constructive side visible. Accumulated knowledge can become an input for other people's work. A strong incumbent need not keep every improvement inside its own boundary. An institution may preserve the benefits of a developed technology while allowing others to learn from and extend it. Whether a particular rule achieves that depends on its practical terms.
 
-There is a further distinction from the strongest theorem in Chapter 3. Historical dependence, increasing returns, and technological dominance do not by themselves establish a finite lifetime comparison budget. Arthur's adoption model and my information argument answer different questions under their respective assumptions. The shared idea that early events can matter should not conceal those differences.
+Historical dependence, increasing returns, and technological dominance do not by themselves establish a finite lifetime comparison budget. To investigate that property, we need the allocation probabilities and an account of how productive inputs affect them.
 
 ### The machine and the workforce
 

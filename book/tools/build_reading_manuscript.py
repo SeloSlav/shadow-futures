@@ -32,6 +32,8 @@ def validate_reader_citations(text):
         r"|the book['’]s argument leaves open|what this book need not claim"
         r"|Economics did not begin thinking|embarrassing exception|firm is a colou?red ball"
         r"|was not waiting for the comparison budget|earns its place beside the Netflix"
+        r"|This is not an argument that|A serious extension should"
+        r"|An argument about missing evidence would be worthless"
     )
     match = re.search(forbidden, text, re.I)
     if match:

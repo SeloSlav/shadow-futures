@@ -284,7 +284,17 @@ def build():
               'shadow-futures-paperback-interior.pdf': ROOT / 'output/pdf/shadow-futures-interior-6x9.pdf',
               'shadow-futures-paperback-cover.pdf': ROOT / 'output/pdf/shadow-futures-kdp-paperback-cover.pdf'}
     for name, source in copies.items():
-        shutil.copy2(source, OUT / name)
+        destination = OUT / name
+        if destination.exists() and source.read_bytes() == destination.read_bytes():
+            continue
+        pending = OUT / f'.{name}.{uuid.uuid4().hex}.tmp'
+        try:
+            shutil.copy2(source, pending)
+            pending.replace(destination)
+        except OSError as exc:
+            raise OSError(f'Cannot refresh upload file {destination}: {exc}') from exc
+        finally:
+            pending.unlink(missing_ok=True)
     instructions = f'''SHADOW FUTURES — KDP UPLOAD FILES
 Martin Erlic
 

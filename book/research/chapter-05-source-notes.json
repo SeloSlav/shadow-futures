@@ -4,8 +4,8 @@
   "checked_on": "2026-10-16",
   "status": "reviewed",
   "target_main_words": 6000,
-  "body_words": 5494,
-  "draft_sha256": "15db5074976c35892c56bd86c837ea31ed5911746876a666ecc49903e03f2055",
+  "body_words": 5466,
+  "draft_sha256": "92701672de1abe3bd96ae25bba3c8d6fee7bd41d79e3b14470a476c9d704c920",
   "source_checks": "Relevant full primary-source passages checked in dated court records, published Meghani text, stakeholder statements and original research report. Some primary text read through indexed full sources after terminal download failure; exact access boundaries retained. No independent proof/priority certification.",
   "sources": [
     {
@@ -263,7 +263,7 @@
   },
   "editorial_commentary_revision": {
     "date": "2026-10-17",
-    "manuscript_sha256": "15db5074976c35892c56bd86c837ea31ed5911746876a666ecc49903e03f2055",
+    "manuscript_sha256": "92701672de1abe3bd96ae25bba3c8d6fee7bd41d79e3b14470a476c9d704c920",
     "body_groups": 2,
     "notes_rewritten": [
       "c5-3",

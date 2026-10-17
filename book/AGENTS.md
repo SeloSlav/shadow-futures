@@ -96,6 +96,8 @@ existence do not certify that a chapter or the whole book has passed review.
   an example “belongs” in the theory, or comments about what a chapter uses or
   proves. Give predecessor credit directly where the idea enters. Preserve the
   author's intentional origin story and clearly stated political values.
+  Before moving a qualification from a note, check whether the surrounding
+  section already explains it; avoid adding a second version of the same limit.
 - AI, corrective taxes, and remedy design require additional empirical, causal,
   welfare, and legal premises.
   Include scale benefits, private experimentation, implementation costs, testing

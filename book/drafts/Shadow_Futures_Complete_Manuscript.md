@@ -183,7 +183,7 @@ The small word "finite" does substantial work. A tiny but persistent chance of s
 
 Another transaction can demonstrate that an established service continues to work well while revealing little about an untested alternative. Commercial value and information about a particular comparison are separate properties of the same event.
 
-Useful evidence may exist elsewhere: a field experiment, an independent technical evaluation, or measured outcomes beyond the award itself. If those observations distinguish the contribution explanations, they belong in the inquiry. An argument about missing evidence would be worthless if it manufactured scarcity by discarding evidence that exists.
+Useful evidence may exist elsewhere: a field experiment, an independent technical evaluation, or measured outcomes beyond the award itself. If those observations distinguish the contribution explanations, they belong in the inquiry.
 
 eBay's experiments illustrate this constructive response. The company could change where advertising appeared and observe what followed. Its advertising ledger did not have to remain the last word. Before declaring an attribution problem intractable, we should ask what a feasible intervention could reveal. The comparison budget helps diagnose a specified record; it does not forbid investigators from improving their experiment.
 
@@ -975,7 +975,7 @@ Could another history have developed a better set of capabilities? Changing a pr
 
 Bell's technology sharing makes the constructive side visible. Accumulated knowledge can become an input for other people's work. A strong incumbent need not keep every improvement inside its own boundary. An institution may preserve the benefits of a developed technology while allowing others to learn from and extend it. Whether a particular rule achieves that depends on its practical terms.
 
-There is a further distinction from the strongest theorem in Chapter 3. Historical dependence, increasing returns, and technological dominance do not by themselves establish a finite lifetime comparison budget. Arthur's adoption model and my information argument answer different questions under their respective assumptions. The shared idea that early events can matter should not conceal those differences.
+Historical dependence, increasing returns, and technological dominance do not by themselves establish a finite lifetime comparison budget. To investigate that property, we need the allocation probabilities and an account of how productive inputs affect them.
 
 ### The machine and the workforce
 
@@ -1183,7 +1183,7 @@ This is why an information argument should begin with a question rather than a l
 
 ### The product on the bench
 
-Meghani's discussion has a physical counterpart to the search record: a product that outside scientists need to study. Her paper examined a dispute over the regulation of dicamba herbicides. The underlying court opinion, issued in June 2020, described Monsanto's field studies in support of an initial 2016 registration. The company had tested its reformulated herbicide in Georgia and Texas. At that time, it had not made the herbicide available for independent studies. The court's decision to vacate the registration rested on its assessment of risk.[^chapter_05-c5-16]
+Meghani's discussion has a physical counterpart to the search record: a product that outside scientists need to study. Her paper examined a dispute over the regulation of dicamba herbicides. The underlying court opinion, issued in June 2020, described Monsanto's field studies in support of an initial 2016 registration. The company had tested its reformulated herbicide in Georgia and Texas. At that time, it had not made the herbicide available for independent studies.[^chapter_05-c5-16]
 
 There were results, then, and there were experiments. The problem was not an empty file. A developer had produced evidence about its own product, while another route to producing evidence was unavailable. That is different from saying the developer's measurements must have been false. It asks what could be learned by investigators able to choose and carry out their own tests.
 
@@ -1195,7 +1195,7 @@ The example also shows why disclosure and access should be connected. Without en
 
 Disclosure is useful when the existing record answers the question. Releasing another copy of a performance report cannot replace a failure condition that was never tested. The first task is to identify whether the missing element is access, interpretation, or another observation.
 
-This is not an argument that every outside investigator is better than every company scientist. Expertise, instruments, and experience matter. An independent test can be incompetent, redundant, or badly designed. The institutional objective is to enable credible investigation of consequential questions and to assess its results, rather than to treat independence as a substitute for scientific quality.
+Expertise, instruments, and experience matter. An independent test can be incompetent, redundant, or badly designed. The institutional objective is to enable credible investigation of consequential questions and to assess its results, rather than to treat independence as a substitute for scientific quality.
 
 ### More signs, one route
 
@@ -2703,7 +2703,7 @@ A third could investigate the institution supplying access. Which permissions, c
 
 A useful next study could begin with one purchase. Record which alternatives were eligible, how they were selected, which outcomes reached the buyer, and what additional test changed the decision. That would not measure an entire economy’s lost possibilities. It could establish something more modest and actionable: whether a specific institution could learn more, at a cost worth paying.
 
-Hayek's discovery argument remains an important predecessor. Competition can reveal facts that were not known or used beforehand. A serious extension should ask where the discovery process works, which questions it answers, and where other arrangements could improve it. It should not treat every departure from a particular model as a reason to dismiss decentralized learning.[^chapter_12-c12-13]
+Hayek described competition as a way to discover facts that were not known or used beforehand.[^chapter_12-c12-13] We can investigate where that discovery works, which questions it answers, and whether another arrangement would produce more useful evidence at acceptable cost.
 
 Likewise, acknowledging the costs of duplicated production should not end the inquiry before considering duplicated evaluation. Several firms need not each build a complete frontier training operation to contribute useful tests of deployed services. Some comparisons can occur within an integrated organization; others may need independent access. The capability, cost, and information questions must each be examined.
 
