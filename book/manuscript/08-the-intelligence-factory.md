@@ -14,6 +14,10 @@ In its April report, the IEA estimated that all data centers together consumed a
 
 Someone must obtain the chips, install them, keep them working, and finance the interval before a useful AI product earns anything.
 
+In my own work on cloud infrastructure and software deployments, the practical question is whether something can actually be made to run. Code has to meet the systems on which it depends. A service that works in one setting may need considerable work before somebody else can use it.
+
+The distance between a capability and a working service is a part of the AI story I recognize. Following that distance leads through hardware, power, connections, and the people who operate them.
+
 There are strong reasons for some of that work to occur in large organizations. There are also reasons to ask whether the resulting arrangements let other approaches demonstrate what they can do. Understanding both requires following the power cable into the building.
 
 ## The machine needs a building

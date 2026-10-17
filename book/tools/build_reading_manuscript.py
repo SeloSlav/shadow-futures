@@ -52,12 +52,19 @@ def render_references(bibliography):
     if sum(bool(entry.get("canonical_v5_reference")) for entry in bibliography["entries"]) != 24:
         raise ValueError("Bibliography must retain all 24 canonical v5 references")
     self_entries = [e for e in bibliography["entries"] if re.match(r"Erlic,", e["citation"])]
-    if len(self_entries) != 1 or self_entries[0]["id"] != "Erlic2026ShadowFutures":
-        raise ValueError("The original SSRN paper must be the sole self-citation")
-    if [link["url"] for link in self_entries[0]["links"]] != [
+    expected_self = {"Erlic2026ShadowFutures", "Erlic2016IncreasingReturns"}
+    if len(self_entries) != 2 or {e["id"] for e in self_entries} != expected_self:
+        raise ValueError("Self-citations are limited to the original SSRN paper and the 2016 autobiographical essay")
+    original_paper = next(e for e in self_entries if e["id"] == "Erlic2026ShadowFutures")
+    if [link["url"] for link in original_paper["links"]] != [
         "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994"
     ]:
         raise ValueError("Self-citation must link only to the original SSRN paper")
+    personal_essay = next(e for e in self_entries if e["id"] == "Erlic2016IncreasingReturns")
+    if [link["url"] for link in personal_essay["links"]] != [
+        "https://medium.com/@SeloSlav/increasing-returns-and-the-new-world-of-hindsight-a7cc6fa5db2a"
+    ]:
+        raise ValueError("The autobiographical citation must link only to the published 2016 essay")
     lines = ["# References", ""]
     ids = set()
     for entry in bibliography["entries"]:

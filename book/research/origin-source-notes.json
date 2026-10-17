@@ -37,5 +37,66 @@
     }
   ],
   "attribution_decision": "Cite Johnson directly rather than the supplied indirect Smith (2010) attribution. At Home in the Universe is acknowledged as background, without dating the term’s first appearance to that book.",
-  "review": "Changed passages reviewed once; definitions, historical variation/intervention distinction, and original contribution boundaries retained."
+  "review": "Changed passages reviewed once; definitions, historical variation/intervention distinction, and original contribution boundaries retained.",
+  "personal_thread_revision": {
+    "date": "2026-10-18",
+    "scope": "Introduction, Chapters 1, 6 and 7, epilogue; manuscript only.",
+    "author_account": "The author supplied the economics degree at University of Victoria, varied work including sales/landscaping/software/cloud deployments, feelings of not fitting in, counterfactual regret, complexity-reading influences, and a Washington DC Santa Fe Institute short course. No exact course title/date, academic affiliation, employer, private dialogue or detailed scene is invented.",
+    "finance_and_health": "COVID-period crypto holdings reaching millions in value, eventual net loss, a 2012 newsletter offering free bitcoin through faucets, and subsequent digestive problems, stress, palpitations and years reading about vitamin A/gut health are the author's account. No Gmail access, trading-record review, clinical verification, medical causal inference, treatment recommendation or invented recovery is claimed.",
+    "olive_oil": "Author requested company anonymity and described 2026 failure after US tariffs, fuel-related freight and fulfillment last-mile costs, premium pricing/tight margins, sustained cost-reduction efforts and an advertising burden linked to establishing quality. Personal cost/failure accounts are not independently audited. No specific competitor is accused. No claim that most oil is adulterated, honest businesses cannot scale, or enforcement does not exist is made. Current local production/relationships are an orientation; no new product or customer is invented.",
+    "conceptual_boundary": "Life regret and missed wealth explain motivation, not an empirical proof of finite comparison budgets or a policy entitlement. Olive-oil quality uncertainty is linked to Akerlof before returning to contribution uncertainty that can remain with known quality.",
+    "self_citation_exception": "The current request authorizes one ordinary citation and bibliography entry for the published 2016 personal essay. The original SSRN remains the only theory paper self-cited; no internal/companion paper is added.",
+    "public_source_checks": [
+      {
+        "key": "Erlic2016IncreasingReturns",
+        "url": "https://medium.com/@SeloSlav/increasing-returns-and-the-new-world-of-hindsight-a7cc6fa5db2a",
+        "checked": "Full accessible article, title/byline/date September 18 2016, opening and increasing-returns/hindsight passages.",
+        "supports": "The author publicly posed a related question a decade earlier.",
+        "boundary": "No asserted scholarly priority, theorem, definitions of ergodicity, monopoly frequency, or moral/empirical claims from that essay are adopted as findings."
+      },
+      {
+        "key": "Mueller2011ExtraVirginity",
+        "url": "https://books.google.com/books?id=L1CNEAAAQBAJ",
+        "checked": "Publisher-supplied book metadata: author/title, W W Norton, November 22 2011; author-hosted book page.",
+        "boundary": "Full book not inspected. No quote is attributed to a book page."
+      },
+      {
+        "key": "Mueller2011FreshAir",
+        "url": "https://freshairarchive.org/segments/losing-virginity-olive-oils-scandalous-fraud",
+        "checked": "Official Fresh Air Archive transcript dated December 12 2011; adulteration/deodorized-oil and relative production-cost exchange, web lines 82-89.",
+        "quote": "the honest people are getting terribly undercut",
+        "supports": "Mueller's stated concern that inferior oil and carefully produced oil sharing a label disadvantages honest producers.",
+        "boundary": "Eight-word quotation from the interview, not the book. Historical account, no 2026 market prevalence estimate or cause assigned to this author's failure. NPR direct retrieval failed; official archive was the one alternate."
+      },
+      {
+        "key": "FDAFoodFraud",
+        "url": "https://www.fda.gov/food/compliance-enforcement-food/economically-motivated-adulteration-food-fraud",
+        "checked": "Opening definition, Olive Oil example, monitoring and enforcement sections, web lines 59-67 and 88-99.",
+        "supports": "Substitution of cheaper vegetable oils sold as pure olive oil is recognized fraud; detection/testing/enforcement exist.",
+        "boundary": "No adulteration prevalence estimate, allegation against named firms, or finding about the author's business."
+      },
+      {
+        "key": "WhiteHouse2025ReciprocalTariffFactSheet",
+        "url": "https://www.whitehouse.gov/fact-sheets/2025/09/fact-sheet-president-donald-j-trump-modifies-the-scope-of-reciprocal-tariffs-and-establishes-procedures-for-implementing-trade-deals/",
+        "checked": "Official September 5 2025 fact sheet: opening identifies Trump's reciprocal tariffs announced April 2 2025; trade-deal section describes framework.",
+        "supports": "Historical existence/administration of the tariff measures referenced in the personal account.",
+        "boundary": "No claim about a current precise tariff rate, classification, country of origin, invoices, or fuel-price series; company-specific cost effects are the author's account."
+      }
+    ],
+    "review": "Changed passages and neighbors reviewed once; inspection-to-attribution transition tightened. Markdown assembly, citation matching and word budgets passed. No publication exports or push authorized for this revision.",
+    "counts": {
+      "main_text": 64138,
+      "back_matter": 8505,
+      "endnotes": 193,
+      "references": 141,
+      "introduction": 3477
+    },
+    "manuscript_hashes": {
+      "book/manuscript/01-introduction.md": "1e0c04e182ffc2a38d2558f1b3f563104ef8bb708ae2de150180d79219d0e4a9",
+      "book/manuscript/02-the-winner-and-the-explanation.md": "2cb2348793e2bb5575d90ea5870a5a2e535d767167204746fb481f1c977870d5",
+      "book/manuscript/07-who-deserves-the-winnings.md": "7fe2ab6759f76d7bca6ada08dcc74eba48829e7a572c800dae630fd2942d5f5e",
+      "book/manuscript/08-the-intelligence-factory.md": "7d3d3f0be5981c1023e2c0e4b4cb532d53c81653209d0b3739d6efbe3048d3b3",
+      "book/manuscript/14-epilogue.md": "41c81dbd344eeffc21f8a7161e3e00f87ade934a53b66b9718ddb7adef259fd8"
+    }
+  }
 }

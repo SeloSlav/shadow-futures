@@ -136,9 +136,21 @@ Akerlof's used-car model makes another kind of missing evidence easy to picture.
 
 The buyer's uncertainty helps determine which cars actually appear in this market. Inspecting only cars offered at the resulting price would not show the full population of cars their owners might have sold under different information arrangements. The missing good car matters even though no transaction involving it appears in the sales record. Akerlof's example illustrates how a market's rules of information can help select its observable contents.
 
-The contribution problem I want to isolate can remain even after a different uncertainty has been resolved. Suppose, in an explicitly imagined extension, an inspection tells the buyer the condition of each car accurately. The hidden-defect problem in the example has changed. But that knowledge would not tell a dealership how much its advertising added to sales, how much a salesperson's work affected a customer's choice, or how a prior reputation brought that customer through the door.
+### What was in the bottle
 
-This does not make inspections unhelpful. An inspection answers a valuable question about the car. It may enable a trade that otherwise would not occur. The mistake would be asking the inspection to provide an account of every input's effect on the dealership's income. A certificate of condition and an estimate of contribution are different products, even if both are called information.
+I encountered that difficulty selling olive oil. The business failed in 2026. We had a premium product with tight margins. Donald Trump's tariffs on imports into the United States added to the cost of reaching our customers.[^c1-14] Rising fuel costs reached us at more than one stage: air or sea freight into the country, then the last mile from a third-party fulfillment center to the buyer. A bottle had to pay for the whole journey.
+
+I spent a long time trying to drive costs down. But there was a limit to what business optimization could accomplish. Replacing some of the olive oil with a cheaper seed oil would reduce a cost by changing what was in the bottle. Selling that mixture as pure olive oil would make the customer's comparison false.
+
+Tom Mueller explored that market in *Extra Virginity: The Sublime and Scandalous World of Olive Oil* in 2011. Discussing the book on *Fresh Air* that December, he described what happens when cheap, inferior oil and carefully produced oil share a label: “the honest people are getting terribly undercut.”[^c1-12] The FDA also identifies dilution with cheaper vegetable oil sold as pure olive oil as a form of food fraud.[^c1-13]
+
+A buyer who cannot reliably distinguish the contents sees a price difference that may conceal a product difference. The honest seller then has another expense: persuading someone that the difference is real. I felt that burden in the money we needed to spend on advertising while freight and delivery were consuming what margin remained. A cheaper sale elsewhere could mean greater efficiency, a different product, or a misleading claim. The label alone could not settle which. Testing and credible enforcement matter because a rule on a bottle has to mean something outside the bottle.
+
+### What an inspection can settle
+
+Suppose an inspection now tells the used-car buyer each car's condition accurately. That resolves a question about quality. It still does not tell a dealership how much its advertising added to sales, how much a salesperson's work affected a customer's choice, or how a prior reputation brought that customer through the door.
+
+An inspection can enable a trade by answering a valuable question about the car. Measuring how much each input added to the dealership's income requires further evidence. A certificate of condition and an estimate of contribution are different products, even if both are called information.
 
 eBay's paid-search study provides a real counterpart. There was no need to doubt that an advertisement had appeared or that a customer had clicked. The records could establish the event. The experimental suspension showed how much apparent advertising success could be supplied through another route instead. The question was about an effect, and the added evidence came from changing the conditions under which that effect could be observed.[^c1-9]
 
@@ -213,3 +225,9 @@ The next step is to ask what the record itself can teach us once those mechanism
 [^c1-10]: Martin Watzinger, Thomas A. Fackler, Markus Nagler, and Monika Schnitzer, “How Antitrust Enforcement Can Spur Innovation: Bell Labs and the 1956 Consent Decree,” *American Economic Journal: Economic Policy* 12 (2020): 328–359, [published record](https://www.aeaweb.org/articles?id=10.1257/pol.20190086). For the historical and foreclosure analysis, see the June 2017 author working paper, pp. 1–4 and 7–8, [full working paper](https://www.uoc.gr/files/items/6/6537/watzinger_et_al.pdf).
 
 [^c1-11]: Matthew J. Salganik and Duncan J. Watts, “Leading the Herd Astray: An Experimental Study of Self-Fulfilling Prophecies in an Artificial Cultural Market,” *Social Psychology Quarterly* 71 (2008): 338–355, [doi:10.1177/019027250807100404](https://doi.org/10.1177/019027250807100404). Inversion design and the two named songs: pp. 341–343, table 2; appeal, recovery, and downloads: pp. 349–351, figures 8–9. [Original article](https://www.princeton.edu/~mjs3/salganik_watts08.pdf).
+
+[^c1-12]: Tom Mueller, *Extra Virginity: The Sublime and Scandalous World of Olive Oil* (W. W. Norton, 2011); Mueller, [“Losing 'Virginity': Olive Oil's 'Scandalous' Fraud”](https://freshairarchive.org/segments/losing-virginity-olive-oils-scandalous-fraud), interview by Terry Gross, *Fresh Air*, December 12, 2011, discussion of deodorized oil and production costs.
+
+[^c1-13]: U.S. Food and Drug Administration, [“Economically Motivated Adulteration (Food Fraud)”](https://www.fda.gov/food/compliance-enforcement-food/economically-motivated-adulteration-food-fraud), opening definition, “Examples of Food Fraud: Olive Oil,” and “Enforcement and Legal Consequences.”
+
+[^c1-14]: The White House, [“Fact Sheet: President Donald J. Trump Modifies the Scope of Reciprocal Tariffs and Establishes Procedures for Implementing Trade Deals”](https://www.whitehouse.gov/fact-sheets/2025/09/fact-sheet-president-donald-j-trump-modifies-the-scope-of-reciprocal-tariffs-and-establishes-procedures-for-implementing-trade-deals/), September 5, 2025, opening paragraph.

@@ -1,12 +1,14 @@
 # Shadow Futures Book Outline
 
-Martin Erlic   17 October 2026
+Martin Erlic   18 October 2026
 
 An 80000 word popular economics book about what reinforced markets can reveal about contribution and how institutions can preserve useful comparison. The argument moves from one song's contrasting outcomes to the choices governing AI, work, competition, and taxation. The book uses published research and public records. Its first draft requires no interviews.
 
 ## The narrative throughline
 
 The recurring documented object is Lockdown by 52Metro. Its first-place and fortieth-place outcomes in MusicLab frame the prologue and return in Chapters 1, 3, 6, and 12. Salganik's own account supplies the specific rankings. The story follows what the observer can infer in each setting; the book invents no experiences or reactions for the musicians.
+
+The author's personal thread follows a question rather than a success story. The introduction joins an economics degree at Victoria, varied work, complexity reading and a Washington short course to a dated September 2016 essay. Chapter 1's unnamed olive-oil business makes quality verification, trade costs and the advertising burden tangible. Chapter 6 contrasts a 2012 Bitcoin newsletter with actual COVID-period crypto losses and their aftermath. Chapter 7 adds cloud/deployment experience. The epilogue turns toward local production and relationships while retaining the institutional conclusion and final line. Use only the author's supplied account and checked public sources; invent no employer, transaction amount, diagnosis, conversation, company identity or professional affiliation. Mueller's quoted words come from his December 2011 Fresh Air interview, not a claimed inspection of his full book. Neither personal loss nor missed wealth establishes an economy-wide impossibility result.
 
 The recurring documented object is Lockdown. Use published cases and direct analysis throughout, with brief anonymous probability examples for the definitions. There is no fictional council, named invented supplier, or recurring procurement narrative. Replays preserve economic rules; interventions change an input or institution.
 

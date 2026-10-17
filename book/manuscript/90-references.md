@@ -273,3 +273,11 @@ White House. 2025. America's AI action plan. July. [Source](https://www.whitehou
 Zhang, H. (2004). Inconsistent estimation and asymptotically equal interpolations in model-based geostatistics. Journal of the American Statistical Association, 99(465), 250-261. doi:10.1198/016214504000000241. [Source](https://doi.org/10.1198/016214504000000241)
 
 Zoellick, J., D. Carter, and P. Lehman. 2026. Redwood Coast Airport Microgrid. California Energy Commission, CEC-500-2026-006, January. [Source](https://www.energy.ca.gov/sites/default/files/2026-01/CEC-500-2026-006.pdf)
+
+Erlic, M. Increasing Returns and the New World of Hindsight. Medium, September 18, 2016. [Published essay](https://medium.com/@SeloSlav/increasing-returns-and-the-new-world-of-hindsight-a7cc6fa5db2a)
+
+Mueller, T. Extra Virginity: The Sublime and Scandalous World of Olive Oil. W. W. Norton, 2011. Losing 'Virginity': Olive Oil's 'Scandalous' Fraud, interview by Terry Gross, Fresh Air, December 12, 2011. [Book](https://www.tommueller.co/extravirginigy) [Interview transcript](https://freshairarchive.org/segments/losing-virginity-olive-oils-scandalous-fraud)
+
+U.S. Food and Drug Administration. Economically Motivated Adulteration (Food Fraud). [Agency account](https://www.fda.gov/food/compliance-enforcement-food/economically-motivated-adulteration-food-fraud)
+
+The White House. Fact Sheet: President Donald J. Trump Modifies the Scope of Reciprocal Tariffs and Establishes Procedures for Implementing Trade Deals. September 5, 2025. [Fact sheet](https://www.whitehouse.gov/fact-sheets/2025/09/fact-sheet-president-donald-j-trump-modifies-the-scope-of-reciprocal-tariffs-and-establishes-procedures-for-implementing-trade-deals/)

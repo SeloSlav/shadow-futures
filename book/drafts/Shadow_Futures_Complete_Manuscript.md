@@ -129,6 +129,18 @@ Lockdown finished first. Lockdown finished fortieth. The second chart survived b
 
 ## The evidence success leaves behind
 
+### The lives I did not live
+
+I have spent an unreasonable amount of time thinking about the lives I did not live.
+
+I studied economics at the University of Victoria in Canada and took a route through door-to-door sales, landscaping, and software development. I have worked on cloud infrastructure and deployments. I never pursued an academic career. In several of those worlds I felt that I had arrived by the wrong entrance and never quite belonged.
+
+There are choices I still resent having made. A different investment, a business begun earlier, a career pursued more consistently: hindsight makes it easy to furnish another life. It supplies the outcome I want and leaves out the decisions I would have faced along the way.
+
+In computing, simulated annealing lets a search move away from its current solution in pursuit of a better one. I have done rather too much of the personal equivalent. Changing direction can reveal something worth finding. It can also keep you from building on what you have found.
+
+My regrets kept returning me to a larger question. I could remember some of the opportunities I had missed. What about the opportunities that never became available to anyone? How could a market learn about a business that nobody could get started?
+
 ### The advertisement that got the credit
 
 A customer searches for eBay, clicks an advertisement for eBay, and buys something on eBay. For the advertiser, the journey looks reassuringly complete. There was an ad, then a click, then a sale. Each step can be recorded. Money went out to attract the customer; money came back when the customer bought. Here, apparently, is an unusually clean account of a contribution.
@@ -139,7 +151,7 @@ Economists Thomas Blake, Chris Nosko, and Steven Tadelis studied large advertisi
 
 One brand-keyword test stopped eBay advertising on Yahoo and Microsoft's search platform while retaining Google advertising as a comparison. Almost all the lost paid-search traffic and attributed sales reappeared through unpaid links. Customers had another route to the shop. Closing the paid route revealed how many sales the advertising ledger had mistakenly credited.[^introduction-i1]
 
-The advertisements existed. Someone designed them, arranged their placement, and paid for them. Some were useful to some customers. The difficult question was the difference they made to a specified outcome. Counting activity was an excellent way to establish activity. Establishing contribution required something more.
+The advertisements existed. People designed them, placed them, and paid for them. Some helped customers. Counting that activity did not establish how much it changed purchases.
 
 For the shopper who wanted eBay, the alternative was close at hand: another link on a search page. In other settings, the alternative is much harder to recover. It might be another business that never attracted a first customer, another worker who never received an assignment, or another technology that never developed a record of successful use. We can study what happened in great detail while remaining uncertain about what those alternatives would have revealed.
 
@@ -159,7 +171,7 @@ Consider a platform that sends more tasks to workers with longer records. The fe
 
 I use contribution uncertainty for uncertainty about the effect of productive inputs on rewards in a specified economic setting. The inputs might include effort, quality, investment, or risk-bearing. The question concerns how an outcome would change if an input changed, while the relevant economic rules continued to apply. A result can be valuable, and the work behind it entirely real, while the size of that effect remains difficult to recover.[^introduction-i2]
 
-Increasing visits to a website differs from increasing purchases. Attracting a new customer differs from giving an existing customer a more convenient route. A short-term experiment may leave longer-term effects unresolved. Contribution has a specific outcome, comparison, and time horizon.
+Visits, purchases, and longer-term customer relationships are different outcomes. Contribution concerns a specified outcome, comparison, and time horizon.
 
 Lockdown's two rankings raise a related question with a different design. MusicLab preserved independently developing markets for the same songs. The song's first-place finish and its fortieth-place finish were both outcomes of listeners choosing. They tell us that one observed ranking cannot be treated as a complete account of what that recording was capable of achieving. They do not calculate the value of every rehearsal or assign a percentage of the song's success to talent.[^introduction-i3]
 
@@ -193,6 +205,12 @@ eBay could change where advertising appeared and observe what followed. Its adve
 
 ### Other possible histories
 
+Melanie Mitchell, Douglas Hofstadter, and M. Mitchell Waldrop first drew me into complexity through their popular writing. I went on to read W. Brian Arthur, Stuart Kauffman, Eric Beinhocker, and John Holland, alongside economists such as Kenneth Arrow. I even traveled to Washington, D.C., for a Santa Fe Institute short course. Economics had become a way of asking how a world makes things that nobody planned.
+
+There was something almost spiritual in the thought that the world held possibilities no one had yet imagined. There was something unforgiving about it too. We would live only some of them.
+
+In September 2016, I published a Medium essay called “Increasing Returns and the New World of Hindsight.” I was already asking how a company's growth could strengthen its confidence in a history that left its alternatives unseen.[^introduction-i19] The comparison budget came later. The question had been following me for years.
+
 The seed of this book's name was a phrase in Steven Johnson's account of Stuart A. Kauffman's adjacent possible. Kauffman, author of *At Home in the Universe*, explored self-organization and complexity. The adjacent possible describes possibilities reachable from what already exists. Johnson called it “a kind of shadow future.” Existing materials and discoveries put some next steps within reach; taking them can make further combinations possible.[^introduction-i12]
 
 Think of Bell's transistor. An invention can become a component in devices its inventors never built. Who can work with it matters to which possibilities are explored. Johnson's image made me ask an economic question: what happens to possibilities that depend on opportunities going to someone who never gets them?
@@ -207,7 +225,7 @@ The comparison budget connects those missing paths to the paper's impossibility 
 
 That is why I chose a phrase about unrealized futures for a result about knowledge. A path we do not observe can contain a comparison we need to explain the one we do. Another order for the winner adds to its history. It need not tell us what the rival would have learned, built, or earned if an earlier order had gone the other way.
 
-This book is itself a product of the adjacent possible. Kauffman's work, Johnson's image, and the economic literature made a further question available to me. Its future will depend on who encounters it and what they can do with it. A professional economist may give these ideas a larger audience, sooner than I can. Credentials, an established readership, and access to the right conversations can open doors that an argument alone cannot. That is another way opportunity can shape an idea's reception.
+This book is itself a product of the adjacent possible. Those writers gave me questions I could carry into jobs and ventures they knew nothing about. Its future will depend on who encounters it and what they can do with it. A professional economist may give these ideas a larger audience, sooner than I can. Credentials, readers, and access to the right conversations help an idea find people able to develop it.
 
 If someone else tests the idea more rigorously, explains it better, or helps more people use it, I will be content with that outcome. Credit matters, as does the freedom to challenge a claim. What I do not want is an epistemic monopoly over an idea that could benefit humanity. I want the comparison to remain open, including when an alternative to my account proves better. I cannot ask readers to take shadow futures seriously and then assume that the history giving me the most recognition must be the best one.
 
@@ -395,9 +413,21 @@ Akerlof's used-car model makes another kind of missing evidence easy to picture.
 
 The buyer's uncertainty helps determine which cars actually appear in this market. Inspecting only cars offered at the resulting price would not show the full population of cars their owners might have sold under different information arrangements. The missing good car matters even though no transaction involving it appears in the sales record. Akerlof's example illustrates how a market's rules of information can help select its observable contents.
 
-The contribution problem I want to isolate can remain even after a different uncertainty has been resolved. Suppose, in an explicitly imagined extension, an inspection tells the buyer the condition of each car accurately. The hidden-defect problem in the example has changed. But that knowledge would not tell a dealership how much its advertising added to sales, how much a salesperson's work affected a customer's choice, or how a prior reputation brought that customer through the door.
+### What was in the bottle
 
-This does not make inspections unhelpful. An inspection answers a valuable question about the car. It may enable a trade that otherwise would not occur. The mistake would be asking the inspection to provide an account of every input's effect on the dealership's income. A certificate of condition and an estimate of contribution are different products, even if both are called information.
+I encountered that difficulty selling olive oil. The business failed in 2026. We had a premium product with tight margins. Donald Trump's tariffs on imports into the United States added to the cost of reaching our customers.[^chapter_01-c1-14] Rising fuel costs reached us at more than one stage: air or sea freight into the country, then the last mile from a third-party fulfillment center to the buyer. A bottle had to pay for the whole journey.
+
+I spent a long time trying to drive costs down. But there was a limit to what business optimization could accomplish. Replacing some of the olive oil with a cheaper seed oil would reduce a cost by changing what was in the bottle. Selling that mixture as pure olive oil would make the customer's comparison false.
+
+Tom Mueller explored that market in *Extra Virginity: The Sublime and Scandalous World of Olive Oil* in 2011. Discussing the book on *Fresh Air* that December, he described what happens when cheap, inferior oil and carefully produced oil share a label: “the honest people are getting terribly undercut.”[^chapter_01-c1-12] The FDA also identifies dilution with cheaper vegetable oil sold as pure olive oil as a form of food fraud.[^chapter_01-c1-13]
+
+A buyer who cannot reliably distinguish the contents sees a price difference that may conceal a product difference. The honest seller then has another expense: persuading someone that the difference is real. I felt that burden in the money we needed to spend on advertising while freight and delivery were consuming what margin remained. A cheaper sale elsewhere could mean greater efficiency, a different product, or a misleading claim. The label alone could not settle which. Testing and credible enforcement matter because a rule on a bottle has to mean something outside the bottle.
+
+### What an inspection can settle
+
+Suppose an inspection now tells the used-car buyer each car's condition accurately. That resolves a question about quality. It still does not tell a dealership how much its advertising added to sales, how much a salesperson's work affected a customer's choice, or how a prior reputation brought that customer through the door.
+
+An inspection can enable a trade by answering a valuable question about the car. Measuring how much each input added to the dealership's income requires further evidence. A certificate of condition and an estimate of contribution are different products, even if both are called information.
 
 eBay's paid-search study provides a real counterpart. There was no need to doubt that an advertisement had appeared or that a customer had clicked. The records could establish the event. The experimental suspension showed how much apparent advertising success could be supplied through another route instead. The question was about an effect, and the added evidence came from changing the conditions under which that effect could be observed.[^chapter_01-c1-9]
 
@@ -1489,6 +1519,14 @@ The practical implication is to state what information a proposal actually needs
 
 ## The risk that gets counted
 
+During the COVID period, the value of my cryptocurrency holdings ran into millions. I gave those gains back and finished with a net loss. The rising balance had offered one account of my judgment. The falling balance offered another.
+
+Afterward came severe digestive problems, stress, and heart palpitations. I spent years reading about vitamin A and gut health, trying to understand what was happening to me. The account balance could change in a second. My life took longer to absorb it.
+
+In my email I can still find a newsletter from 2012 offering free bitcoins through what were called faucets. Looking back, the arithmetic is irresistible. Take the coins, keep them, wait. But that gives my younger self knowledge he did not have. It also assumes he would have held on through every later temptation to sell. My actual trading gives me reasons to question that assumption.
+
+The money I lost was real. The fortune I imagine keeping belongs to a history whose other decisions I do not know. Risk is lived before the result is available to explain it.
+
 Risk falls on more than investors. Researchers commit time they cannot recover; employees depend on continued work; competing projects may lose support. Counting only capital exposure can settle a moral argument by excluding other consequences before examining them.
 
 An investor can lose capital; a worker can lose a livelihood. Their exposure differs, as do the promises made to them. A judgment about rewards has to consider whose consequences are being counted, including the people whose risks appear nowhere in the winner's investment account.
@@ -1578,6 +1616,10 @@ Nor can the phrase data center tell us what a facility will accomplish. A buildi
 In its April report, the IEA estimated that all data centers together consumed about 485 terawatt-hours of electricity in 2025. A terawatt-hour is a billion kilowatt-hours, the unit familiar from electricity bills. Its central projection put consumption at roughly 950 terawatt-hours in 2030. That is an outlook, not an observation from the future, and both totals cover more than AI alone. The seemingly weightless answer occupies a material economy.
 
 Someone must obtain the chips, install them, keep them working, and finance the interval before a useful AI product earns anything.
+
+In my own work on cloud infrastructure and software deployments, the practical question is whether something can actually be made to run. Code has to meet the systems on which it depends. A service that works in one setting may need considerable work before somebody else can use it.
+
+The distance between a capability and a working service is a part of the AI story I recognize. Following that distance leads through hardware, power, connections, and the people who operate them.
 
 There are strong reasons for some of that work to occur in large organizations. There are also reasons to ask whether the resulting arrangements let other approaches demonstrate what they can do. Understanding both requires following the power cable into the building.
 
@@ -2805,6 +2847,10 @@ Give every plot the same treatment, and the field might produce more wheat. It w
 
 Someone has to keep making room for it. Soil must be tended, samples preserved, records understood. The experiment has changed as agricultural methods and scientific questions have changed. The knowledge available to later researchers depends on work that earlier generations chose to do.
 
+After the olive-oil business failed, I began putting more of my attention into local production, networks, and relationships. I wanted to build from opportunities close enough to act on, with people I could come to know. Years spent imagining a better past had made the next small beginning feel more valuable.
+
+I still think about the paths I did not take. But another life cannot answer an email, make a delivery, or help a neighbor begin something. Those things have to happen in this one.
+
 A market leaves a different kind of field behind it. Orders, wages, investments, and download counts record where activity went. They can tell us a great deal about the businesses and people who received those opportunities. The rejected application usually leaves a thinner file.
 
 For a beginner, an assignment can bring pay, practice, a reference, and something to show the next employer. Turn someone down for lack of experience, and the decision can help perpetuate the very lack it cites. Another year of work by the experienced applicant will not reveal what the beginner would have learned. To find that out, someone has to offer a beginning.
@@ -2903,6 +2949,8 @@ An economy should reward its winners without giving them ownership of everyone e
 
 [^introduction-i18]: U.S. Department of Justice and Federal Trade Commission, [*2023 Merger Guidelines*](https://www.justice.gov/atr/media/1329301/dl), overview and Guidelines 2, 3, and 10.
 
+[^introduction-i19]: Martin Erlic, [“Increasing Returns and the New World of Hindsight”](https://medium.com/@SeloSlav/increasing-returns-and-the-new-world-of-hindsight-a7cc6fa5db2a), *Medium*, September 18, 2016.
+
 ## The winner and the explanation
 
 [^chapter_01-c1-1]: Matthew J. Salganik, Peter Sheridan Dodds, and Duncan J. Watts, “Experimental Study of Inequality and Unpredictability in an Artificial Cultural Market,” *Science* 311 (2006): 854–856, especially pp. 854–855 and figures 1–3, [full article](https://www.princeton.edu/~mjs3/salganik_dodds_watts06_full.pdf). Lockdown's ranks are reported in Salganik's *Bit by Bit*, open review edition, [section 4.6.1](https://www.bitbybitbook.com/en/running-experiments/exp-advice/zero-variable-cost/).
@@ -2928,6 +2976,12 @@ An economy should reward its winners without giving them ownership of everyone e
 [^chapter_01-c1-10]: Martin Watzinger, Thomas A. Fackler, Markus Nagler, and Monika Schnitzer, “How Antitrust Enforcement Can Spur Innovation: Bell Labs and the 1956 Consent Decree,” *American Economic Journal: Economic Policy* 12 (2020): 328–359, [published record](https://www.aeaweb.org/articles?id=10.1257/pol.20190086). For the historical and foreclosure analysis, see the June 2017 author working paper, pp. 1–4 and 7–8, [full working paper](https://www.uoc.gr/files/items/6/6537/watzinger_et_al.pdf).
 
 [^chapter_01-c1-11]: Matthew J. Salganik and Duncan J. Watts, “Leading the Herd Astray: An Experimental Study of Self-Fulfilling Prophecies in an Artificial Cultural Market,” *Social Psychology Quarterly* 71 (2008): 338–355, [doi:10.1177/019027250807100404](https://doi.org/10.1177/019027250807100404). Inversion design and the two named songs: pp. 341–343, table 2; appeal, recovery, and downloads: pp. 349–351, figures 8–9. [Original article](https://www.princeton.edu/~mjs3/salganik_watts08.pdf).
+
+[^chapter_01-c1-12]: Tom Mueller, *Extra Virginity: The Sublime and Scandalous World of Olive Oil* (W. W. Norton, 2011); Mueller, [“Losing 'Virginity': Olive Oil's 'Scandalous' Fraud”](https://freshairarchive.org/segments/losing-virginity-olive-oils-scandalous-fraud), interview by Terry Gross, *Fresh Air*, December 12, 2011, discussion of deodorized oil and production costs.
+
+[^chapter_01-c1-13]: U.S. Food and Drug Administration, [“Economically Motivated Adulteration (Food Fraud)”](https://www.fda.gov/food/compliance-enforcement-food/economically-motivated-adulteration-food-fraud), opening definition, “Examples of Food Fraud: Olive Oil,” and “Enforcement and Legal Consequences.”
+
+[^chapter_01-c1-14]: The White House, [“Fact Sheet: President Donald J. Trump Modifies the Scope of Reciprocal Tariffs and Establishes Procedures for Implementing Trade Deals”](https://www.whitehouse.gov/fact-sheets/2025/09/fact-sheet-president-donald-j-trump-modifies-the-scope-of-reciprocal-tariffs-and-establishes-procedures-for-implementing-trade-deals/), September 5, 2025, opening paragraph.
 
 ## The comparison budget
 
@@ -3532,6 +3586,14 @@ White House. 2025. America's AI action plan. July. [Source](https://www.whitehou
 Zhang, H. (2004). Inconsistent estimation and asymptotically equal interpolations in model-based geostatistics. Journal of the American Statistical Association, 99(465), 250-261. doi:10.1198/016214504000000241. [Source](https://doi.org/10.1198/016214504000000241)
 
 Zoellick, J., D. Carter, and P. Lehman. 2026. Redwood Coast Airport Microgrid. California Energy Commission, CEC-500-2026-006, January. [Source](https://www.energy.ca.gov/sites/default/files/2026-01/CEC-500-2026-006.pdf)
+
+Erlic, M. Increasing Returns and the New World of Hindsight. Medium, September 18, 2016. [Published essay](https://medium.com/@SeloSlav/increasing-returns-and-the-new-world-of-hindsight-a7cc6fa5db2a)
+
+Mueller, T. Extra Virginity: The Sublime and Scandalous World of Olive Oil. W. W. Norton, 2011. Losing 'Virginity': Olive Oil's 'Scandalous' Fraud, interview by Terry Gross, Fresh Air, December 12, 2011. [Book](https://www.tommueller.co/extravirginigy) [Interview transcript](https://freshairarchive.org/segments/losing-virginity-olive-oils-scandalous-fraud)
+
+U.S. Food and Drug Administration. Economically Motivated Adulteration (Food Fraud). [Agency account](https://www.fda.gov/food/compliance-enforcement-food/economically-motivated-adulteration-food-fraud)
+
+The White House. Fact Sheet: President Donald J. Trump Modifies the Scope of Reciprocal Tariffs and Establishes Procedures for Implementing Trade Deals. September 5, 2025. [Fact sheet](https://www.whitehouse.gov/fact-sheets/2025/09/fact-sheet-president-donald-j-trump-modifies-the-scope-of-reciprocal-tariffs-and-establishes-procedures-for-implementing-trade-deals/)
 
 ---
 

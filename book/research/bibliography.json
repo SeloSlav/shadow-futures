@@ -2966,6 +2966,80 @@
       ],
       "canonical_v5_reference": false,
       "bibliographic_check": "January2026 primary project report. Relevant converter/outage passages directly readable in original PDF through web research on October16,2026 recheck; earlier terminal download failed and no local PDF claimed. Team account, not independent causal audit."
+    },
+    {
+      "id": "Erlic2016IncreasingReturns",
+      "source_keys": [
+        "Erlic2016IncreasingReturns"
+      ],
+      "citation": "Erlic, M. Increasing Returns and the New World of Hindsight. Medium, September 18, 2016.",
+      "links": [
+        {
+          "label": "Published essay",
+          "url": "https://medium.com/@SeloSlav/increasing-returns-and-the-new-world-of-hindsight-a7cc6fa5db2a"
+        }
+      ],
+      "cited_in": [
+        "book/manuscript/01-introduction.md"
+      ],
+      "canonical_v5_reference": false,
+      "role": "Autobiographical record of an earlier question; not evidence for the current theorem or the essay's wider empirical claims."
+    },
+    {
+      "id": "Mueller2011ExtraVirginity",
+      "source_keys": [
+        "Mueller2011ExtraVirginity",
+        "Mueller2011FreshAir"
+      ],
+      "citation": "Mueller, T. Extra Virginity: The Sublime and Scandalous World of Olive Oil. W. W. Norton, 2011. Losing 'Virginity': Olive Oil's 'Scandalous' Fraud, interview by Terry Gross, Fresh Air, December 12, 2011.",
+      "links": [
+        {
+          "label": "Book",
+          "url": "https://www.tommueller.co/extravirginigy"
+        },
+        {
+          "label": "Interview transcript",
+          "url": "https://freshairarchive.org/segments/losing-virginity-olive-oils-scandalous-fraud"
+        }
+      ],
+      "cited_in": [
+        "book/manuscript/02-the-winner-and-the-explanation.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "FDAFoodFraud",
+      "source_keys": [
+        "FDAFoodFraud"
+      ],
+      "citation": "U.S. Food and Drug Administration. Economically Motivated Adulteration (Food Fraud).",
+      "links": [
+        {
+          "label": "Agency account",
+          "url": "https://www.fda.gov/food/compliance-enforcement-food/economically-motivated-adulteration-food-fraud"
+        }
+      ],
+      "cited_in": [
+        "book/manuscript/02-the-winner-and-the-explanation.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "WhiteHouse2025ReciprocalTariffFactSheet",
+      "source_keys": [
+        "WhiteHouse2025ReciprocalTariffFactSheet"
+      ],
+      "citation": "The White House. Fact Sheet: President Donald J. Trump Modifies the Scope of Reciprocal Tariffs and Establishes Procedures for Implementing Trade Deals. September 5, 2025.",
+      "links": [
+        {
+          "label": "Fact sheet",
+          "url": "https://www.whitehouse.gov/fact-sheets/2025/09/fact-sheet-president-donald-j-trump-modifies-the-scope-of-reciprocal-tariffs-and-establishes-procedures-for-implementing-trade-deals/"
+        }
+      ],
+      "cited_in": [
+        "book/manuscript/02-the-winner-and-the-explanation.md"
+      ],
+      "canonical_v5_reference": false
     }
   ]
 }

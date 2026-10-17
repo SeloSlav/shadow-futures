@@ -2,6 +2,18 @@
 
 ## The evidence success leaves behind
 
+### The lives I did not live
+
+I have spent an unreasonable amount of time thinking about the lives I did not live.
+
+I studied economics at the University of Victoria in Canada and took a route through door-to-door sales, landscaping, and software development. I have worked on cloud infrastructure and deployments. I never pursued an academic career. In several of those worlds I felt that I had arrived by the wrong entrance and never quite belonged.
+
+There are choices I still resent having made. A different investment, a business begun earlier, a career pursued more consistently: hindsight makes it easy to furnish another life. It supplies the outcome I want and leaves out the decisions I would have faced along the way.
+
+In computing, simulated annealing lets a search move away from its current solution in pursuit of a better one. I have done rather too much of the personal equivalent. Changing direction can reveal something worth finding. It can also keep you from building on what you have found.
+
+My regrets kept returning me to a larger question. I could remember some of the opportunities I had missed. What about the opportunities that never became available to anyone? How could a market learn about a business that nobody could get started?
+
 ### The advertisement that got the credit
 
 A customer searches for eBay, clicks an advertisement for eBay, and buys something on eBay. For the advertiser, the journey looks reassuringly complete. There was an ad, then a click, then a sale. Each step can be recorded. Money went out to attract the customer; money came back when the customer bought. Here, apparently, is an unusually clean account of a contribution.
@@ -12,7 +24,7 @@ Economists Thomas Blake, Chris Nosko, and Steven Tadelis studied large advertisi
 
 One brand-keyword test stopped eBay advertising on Yahoo and Microsoft's search platform while retaining Google advertising as a comparison. Almost all the lost paid-search traffic and attributed sales reappeared through unpaid links. Customers had another route to the shop. Closing the paid route revealed how many sales the advertising ledger had mistakenly credited.[^i1]
 
-The advertisements existed. Someone designed them, arranged their placement, and paid for them. Some were useful to some customers. The difficult question was the difference they made to a specified outcome. Counting activity was an excellent way to establish activity. Establishing contribution required something more.
+The advertisements existed. People designed them, placed them, and paid for them. Some helped customers. Counting that activity did not establish how much it changed purchases.
 
 For the shopper who wanted eBay, the alternative was close at hand: another link on a search page. In other settings, the alternative is much harder to recover. It might be another business that never attracted a first customer, another worker who never received an assignment, or another technology that never developed a record of successful use. We can study what happened in great detail while remaining uncertain about what those alternatives would have revealed.
 
@@ -32,7 +44,7 @@ Consider a platform that sends more tasks to workers with longer records. The fe
 
 I use contribution uncertainty for uncertainty about the effect of productive inputs on rewards in a specified economic setting. The inputs might include effort, quality, investment, or risk-bearing. The question concerns how an outcome would change if an input changed, while the relevant economic rules continued to apply. A result can be valuable, and the work behind it entirely real, while the size of that effect remains difficult to recover.[^i2]
 
-Increasing visits to a website differs from increasing purchases. Attracting a new customer differs from giving an existing customer a more convenient route. A short-term experiment may leave longer-term effects unresolved. Contribution has a specific outcome, comparison, and time horizon.
+Visits, purchases, and longer-term customer relationships are different outcomes. Contribution concerns a specified outcome, comparison, and time horizon.
 
 Lockdown's two rankings raise a related question with a different design. MusicLab preserved independently developing markets for the same songs. The song's first-place finish and its fortieth-place finish were both outcomes of listeners choosing. They tell us that one observed ranking cannot be treated as a complete account of what that recording was capable of achieving. They do not calculate the value of every rehearsal or assign a percentage of the song's success to talent.[^i3]
 
@@ -66,6 +78,12 @@ eBay could change where advertising appeared and observe what followed. Its adve
 
 ### Other possible histories
 
+Melanie Mitchell, Douglas Hofstadter, and M. Mitchell Waldrop first drew me into complexity through their popular writing. I went on to read W. Brian Arthur, Stuart Kauffman, Eric Beinhocker, and John Holland, alongside economists such as Kenneth Arrow. I even traveled to Washington, D.C., for a Santa Fe Institute short course. Economics had become a way of asking how a world makes things that nobody planned.
+
+There was something almost spiritual in the thought that the world held possibilities no one had yet imagined. There was something unforgiving about it too. We would live only some of them.
+
+In September 2016, I published a Medium essay called “Increasing Returns and the New World of Hindsight.” I was already asking how a company's growth could strengthen its confidence in a history that left its alternatives unseen.[^i19] The comparison budget came later. The question had been following me for years.
+
 The seed of this book's name was a phrase in Steven Johnson's account of Stuart A. Kauffman's adjacent possible. Kauffman, author of *At Home in the Universe*, explored self-organization and complexity. The adjacent possible describes possibilities reachable from what already exists. Johnson called it “a kind of shadow future.” Existing materials and discoveries put some next steps within reach; taking them can make further combinations possible.[^i12]
 
 Think of Bell's transistor. An invention can become a component in devices its inventors never built. Who can work with it matters to which possibilities are explored. Johnson's image made me ask an economic question: what happens to possibilities that depend on opportunities going to someone who never gets them?
@@ -80,7 +98,7 @@ The comparison budget connects those missing paths to the paper's impossibility 
 
 That is why I chose a phrase about unrealized futures for a result about knowledge. A path we do not observe can contain a comparison we need to explain the one we do. Another order for the winner adds to its history. It need not tell us what the rival would have learned, built, or earned if an earlier order had gone the other way.
 
-This book is itself a product of the adjacent possible. Kauffman's work, Johnson's image, and the economic literature made a further question available to me. Its future will depend on who encounters it and what they can do with it. A professional economist may give these ideas a larger audience, sooner than I can. Credentials, an established readership, and access to the right conversations can open doors that an argument alone cannot. That is another way opportunity can shape an idea's reception.
+This book is itself a product of the adjacent possible. Those writers gave me questions I could carry into jobs and ventures they knew nothing about. Its future will depend on who encounters it and what they can do with it. A professional economist may give these ideas a larger audience, sooner than I can. Credentials, readers, and access to the right conversations help an idea find people able to develop it.
 
 If someone else tests the idea more rigorously, explains it better, or helps more people use it, I will be content with that outcome. Credit matters, as does the freedom to challenge a claim. What I do not want is an epistemic monopoly over an idea that could benefit humanity. I want the comparison to remain open, including when an alternative to my account proves better. I cannot ask readers to take shadow futures seriously and then assume that the history giving me the most recognition must be the best one.
 
@@ -163,3 +181,5 @@ A complete record of the eBay customer's paid click could have encouraged a conf
 [^i17]: Zahra Meghani, “Regulations Matter: Epistemic Monopoly, Domination, Patents, and the Public Interest,” *Philosophy & Technology* 34 (2021): 1449–1474, introduction and Section 6, [article](https://link.springer.com/article/10.1007/s13347-021-00467-2).
 
 [^i18]: U.S. Department of Justice and Federal Trade Commission, [*2023 Merger Guidelines*](https://www.justice.gov/atr/media/1329301/dl), overview and Guidelines 2, 3, and 10.
+
+[^i19]: Martin Erlic, [“Increasing Returns and the New World of Hindsight”](https://medium.com/@SeloSlav/increasing-returns-and-the-new-world-of-hindsight-a7cc6fa5db2a), *Medium*, September 18, 2016.

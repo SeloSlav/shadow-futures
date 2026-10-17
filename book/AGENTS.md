@@ -84,7 +84,7 @@ existence do not certify that a chapter or the whole book has passed review.
 - Distinguish the single-history finite-budget result from the hidden-position
   observational-equivalence argument. Keep attribution, moral desert, contractual
   entitlement, and incentives separate.
-- The only reader-facing self-citation is the original Shadow Futures paper at
+- The only reader-facing theory self-citation is the original Shadow Futures paper at
   https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994. Cite it once in
   the introduction and once in the bibliography. Never publish internal version
   labels, companion-paper citations, local research paths, or references to the
@@ -93,6 +93,11 @@ existence do not certify that a chapter or the whole book has passed review.
   source establishes a result, explain a conditional example or proposal without
   presenting it as a sourced theorem. Never relabel a companion result as a result
   from the SSRN paper or attribute it to a replacement author.
+  The author's 18 October 2026 personal-history request also authorizes one
+  autobiographical citation to his published 18 September 2016 Medium essay,
+  "Increasing Returns and the New World of Hindsight." Use it to document the
+  earlier question, not to establish the current theorem or the essay's wider
+  empirical claims. It is not an exception for other theory drafts or papers.
 - Write reader-facing endnotes as ordinary citations: author, title, publication,
   date, page or section, and link. Put necessary assumptions and distinctions
   naturally in the body at the relevant claim. Keep editorial instructions,

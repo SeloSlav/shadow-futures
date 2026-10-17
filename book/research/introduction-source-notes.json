@@ -4,8 +4,8 @@
   "checked_on": "2026-10-16",
   "status": "drafted",
   "target_main_words": 3500,
-  "body_words": 3174,
-  "draft_sha256": "6cef653760ced9b2a62db529041933801717bd4943b29c74b13a258c7f017674",
+  "body_words": 3477,
+  "draft_sha256": "1e0c04e182ffc2a38d2558f1b3f563104ef8bb708ae2de150180d79219d0e4a9",
   "source_checks": "Relevant full-source passages checked. Where publisher access failed, the identified author working-paper version or indexed full-source sections were checked; no independent proof or priority certification is claimed.",
   "sources": [
     {
@@ -298,6 +298,17 @@
       "v5_reference": false,
       "local_cache": ".tmp/book-research/merger-guidelines-2023.pdf",
       "verification_reuse": "Unchanged relevant claim-specific passage check reused from chapter-10-source-notes.json"
+    },
+    {
+      "key": "Erlic2016IncreasingReturns",
+      "note": "i19",
+      "source": "https://medium.com/@SeloSlav/increasing-returns-and-the-new-world-of-hindsight-a7cc6fa5db2a",
+      "locator": "Title, byline, September 18 2016 publication date; opening and increasing-returns/hindsight passages.",
+      "full_text_checked": true,
+      "claims": [
+        "The author published a related question about growth, hindsight and unseen alternatives in 2016."
+      ],
+      "boundary": "Autobiographical context, not evidence for the current theorem, a scholarly priority finding, or adoption of the essay's other claims."
     }
   ],
   "original_examples": [
@@ -343,7 +354,7 @@
     "continuity": "Affected explanations and neighboring transitions reviewed; chapter openings/endings checked across the book.",
     "historical_records": "Earlier narrative and review entries remain historical; current reader wording is authoritative."
   },
-  "note_words": 642,
+  "note_words": 657,
   "quick_style_revision": {
     "date": "2026-10-17",
     "manuscript_sha256": "6da80894d0aa25019e8677c9157e9a098dd59b80e9fb5bf09b6c84983f22bf25",
@@ -379,5 +390,11 @@
     "publication": "Manuscript-only; editions and push await explicit authorization.",
     "manuscript_sha256": "6cef653760ced9b2a62db529041933801717bd4943b29c74b13a258c7f017674",
     "continuity": "Changed passages and immediate neighbors reviewed once; duplicated productive-development explanation and repeated closing qualification removed; Alchian extension kept explicitly conditional."
+  },
+  "personal_history_revision": {
+    "date": "2026-10-18",
+    "record": "book/research/origin-source-notes.json#personal_thread_revision",
+    "scope": "Opening personal stakes, intellectual influences, course attendance and published 2016 antecedent; existing Johnson/Kauffman origin and formal conditions retained.",
+    "review": "Changed passages and neighbors reviewed once. Introduction remains within 3500-word allowance. Markdown assembly passed; publication editions remain unchanged."
   }
 }

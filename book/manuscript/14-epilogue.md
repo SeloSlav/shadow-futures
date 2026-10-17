@@ -8,6 +8,10 @@ Give every plot the same treatment, and the field might produce more wheat. It w
 
 Someone has to keep making room for it. Soil must be tended, samples preserved, records understood. The experiment has changed as agricultural methods and scientific questions have changed. The knowledge available to later researchers depends on work that earlier generations chose to do.
 
+After the olive-oil business failed, I began putting more of my attention into local production, networks, and relationships. I wanted to build from opportunities close enough to act on, with people I could come to know. Years spent imagining a better past had made the next small beginning feel more valuable.
+
+I still think about the paths I did not take. But another life cannot answer an email, make a delivery, or help a neighbor begin something. Those things have to happen in this one.
+
 A market leaves a different kind of field behind it. Orders, wages, investments, and download counts record where activity went. They can tell us a great deal about the businesses and people who received those opportunities. The rejected application usually leaves a thinner file.
 
 For a beginner, an assignment can bring pay, practice, a reference, and something to show the next employer. Turn someone down for lack of experience, and the decision can help perpetuate the very lack it cites. Another year of work by the experienced applicant will not reveal what the beginner would have learned. To find that out, someone has to offer a beginning.
