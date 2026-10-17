@@ -4,9 +4,9 @@
   "checked_on": "2026-10-16",
   "status": "reviewed",
   "target_main_words": 6000,
-  "body_words": 5199,
-  "note_words": 595,
-  "draft_sha256": "24ab9f8b357d84c35de23538a5a291ce30214a7a98ecb127b2677da71aea1218",
+  "body_words": 5074,
+  "note_words": 334,
+  "draft_sha256": "fbc20b397bafd2c584df06c4b3f1df85155f6afc20a6d167fe43cf4d2edd943b",
   "source_checks": "Relevant full passages checked in published economics papers, the December 2015 Rothschild–Scheuer author version, Nakamura Nobel lecture, Nichia company statement, DARPA institutional records, and previously checked MusicLab, Merton, Kickstarter and Google sources. Named version/access boundaries are retained. This is a chapter claim check, not independent proof certification or a completed whole-book review.",
   "sources": [
     {
@@ -247,5 +247,22 @@
     "source_checks": "Existing claim-specific checks reused for unchanged facts and published model results. No new interviews, reported trial, welfare estimate or proof certification.",
     "continuity": "Affected explanations and neighboring transitions reviewed; chapter openings/endings checked across the book.",
     "historical_records": "Earlier narrative and review entries remain historical; current reader wording is authoritative."
+  },
+  "editorial_commentary_revision": {
+    "date": "2026-10-17",
+    "manuscript_sha256": "fbc20b397bafd2c584df06c4b3f1df85155f6afc20a6d167fe43cf4d2edd943b",
+    "body_groups": 4,
+    "notes_rewritten": [
+      "c6-2",
+      "c6-3",
+      "c6-5",
+      "c6-8",
+      "c6-10",
+      "c6-12"
+    ],
+    "scope": "Manuscript appraisal and defensive source/novelty commentary replaced by direct economic statements and ordinary citations. Origin explanation links the chosen name to alternative histories, comparison budget and the original impossibility result.",
+    "source_checks": "Existing claim-specific passages reused; no new externally reported experiment, historical scene, legal status or independently certified theorem. Source conditions and four earlier original-passage flags remain internal.",
+    "qualifications_retained": "Observed outcomes, study settings and dates, nonrandomized associations, hypothetical status, proposal ownership and limits of the observation model retained in plain body language.",
+    "review": "Changed prose and relevant neighbors reviewed once. The origin statement expresses the author-requested intellectual connection, not a newly reported biographical event."
   }
 }

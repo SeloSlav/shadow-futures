@@ -44,7 +44,7 @@ This prevents explanations from becoming stories chosen after the outcome. Impro
 
 There is a striking predecessor involving an animal with no procurement department. Line Chloé Le Goff and Philippe Soulier studied reinforced choice using Argentine ants. In their laboratory setup, an ant entered a fork, chose a branch, and was removed. Another ant followed. The maze began without a pheromone trail. A trial ended after one hundred choices; the researchers recorded fifty trials.[^c3-4]
 
-Earlier passages could influence later choices through deposited pheromone. The authors considered a model in which the response to the accumulated trail depended on unknown settings. They studied estimation from repeated trials and the limits of estimation from a single sequence. Their paper already connected reinforcement with difficulties recovering parameters, even from an indefinitely extended path. That problem predates this book and my comparison-budget argument.[^c3-4]
+Earlier passages could influence later choices through deposited pheromone. The authors considered a model in which the response to the accumulated trail depended on unknown settings. They studied estimation from repeated trials and the limits of estimation from a single sequence. Their paper connected reinforcement with difficulties recovering parameters, even from an indefinitely extended path.[^c3-4]
 
 The ants expose a statistical temptation common to reinforced processes: a longer record of the established route seems to promise an eventual explanation of why it prevailed. Yet continuing that route differs from observing the process begin again.
 
@@ -70,9 +70,9 @@ The complete experiment must be specified. Awards alone supply one information s
 
 In the model, the information limit concerns a specified family of candidate explanations for how productive inputs affect allocation. A candidate explanation is not an arbitrary story about the company. It supplies probabilities for the recorded outcomes at each stage. Two such explanations can disagree about engineering's importance while using the same purchasing procedure and the same rules for how suppliers respond to earlier contracts.
 
-The comparison budget then asks how much conditional allocation chance accumulates outside the current favorite. The favorite can change as the purchasing history moves forward. As Chapter 2 showed, a small chance can persist long enough to accumulate without limit. The strongest result concerns the more demanding case in which the lifetime total is finite. It also requires restrictions on how different explanations separate as those chances diminish. Those restrictions carry real work in the argument.[^c3-1]
+The comparison budget then asks how much conditional allocation chance accumulates outside the current favorite. The favorite can change as the purchasing history moves forward. As Chapter 2 showed, a small chance can persist long enough to accumulate without limit. The strongest result concerns the more demanding case in which the lifetime total is finite. It also requires restrictions on how different explanations separate as those chances diminish. Those restrictions specify how far the next-award probabilities can differ between candidate explanations.[^c3-1]
 
-An ant route, a song chart, or a supplier's market share cannot establish these requirements merely by looking concentrated. Each supplies a reason to investigate the process. None permits us to read an infinite future from a photograph of its present. The theorem is useful because it identifies what must be established, including where an attractive empirical story would fall short.
+To apply the result, an investigator needs to establish the feedback rules and the chances they leave for alternatives. Ant traffic, song charts, and market shares describe outcomes. Establishing a lasting learning limit also requires evidence about how the process generates them.
 
 ### When waiting cannot finish the job
 
@@ -82,7 +82,7 @@ Second, the candidate explanations retain the same possible next recipients afte
 
 Think again of the coin. Both fixed biases permit heads and tails at every toss, yet the biases can be distinguished in the long run. Shared possible outcomes therefore do not suffice. Third, the model requires the separation between candidate next-award distributions to be controlled by the remaining chance outside the favorite, in each direction of the comparison. As opportunities diminish, the experiment's ability to separate those explanations diminishes with them.
 
-For the bounded input differences in my specified allocation model, this control can be established. It is not a license to disregard a rare result of unlimited diagnostic power. If a new instrument would reveal engineering's effect directly, its information must enter the analysis. The allocation budget cannot constrain information that the investigator has simply left outside the recorded experiment.[^c3-1]
+For the bounded input differences in this allocation model, the required control can be established. A separate engineering measurement could nevertheless reveal an input's effect directly. Such evidence must be counted; the allocation record is only one potential source of information.[^c3-1]
 
 Fourth, under each candidate explanation the cumulative lifetime chance outside the favorite must remain finite, apart from events assigned probability zero. A dominant observed share or several years of declining rival chances cannot establish that property of the whole process.
 
@@ -108,7 +108,7 @@ MusicLab showed substantial variation across worlds without finding that musical
 
 Execution, predictability, and attribution deserve separate judgments. Demonstrating that work was completed, correctly predicting who receives the next reward, and estimating how much an input changes that reward are different achievements. Strong evidence for the first two can coexist with uncertainty about the third.
 
-We also should not turn a limitation across candidate explanations into a claim about the exact amount of uncertainty every observer must feel today. An observer's prior information may favor a narrow range. A separate engineering test may rule out some candidates. A practical decision may be insensitive to what remains. The theorem concerns a specified experiment and target, not a command to suspend all economic judgment until the entire past can be replayed.
+Prior information can narrow the range of plausible explanations. A separate engineering test may rule out others. A buyer may also have enough evidence to choose a supplier while remaining uncertain about why the business succeeded. The information needed for that decision can be less demanding than a complete account of contribution.
 
 That uncertainty matters through the decisions it could change. An organization may have enough evidence to renew a reliable service despite unresolved attribution, while an investor assessing a different technology needs the missing input effect. Complete explanation is not a prerequisite for every practical choice.
 
@@ -138,7 +138,7 @@ Forecasting follows the process already in motion. Contribution asks what an int
 
 Predictive agreement alone does not establish an attribution problem. Return to the coin with a fixed but unknown bias. Imagine two observers who begin with different reasonable probability distributions over possible biases. Watching the same independent tosses can bring their forecasts together while the observed frequency also reveals the bias. Their growing predictive agreement is perfectly compatible with successful parameter learning.
 
-That example prevents a tempting shortcut. We cannot look at forecasters who agree, observe that they tell different stories, and declare a permanent learning failure. In the coin example, the fixed half-heads and three-quarters-heads explanations can be distinguished by a sufficiently long record. The observers' initial mixtures over possible biases and the laws generated by those two fixed biases are different objects. The market result needs its own stronger reasoning.[^c3-1]
+In the coin example, the fixed half-heads and three-quarters-heads explanations can be distinguished by a sufficiently long record. The observers' initial mixtures over possible biases and the laws generated by those two fixed biases are different objects.[^c3-1]
 
 Imagine a forecasting competition that rewards only predictions of the next supplier. It might identify who best anticipates the purchasing process. It would not automatically identify who best understands the effect of an extra engineering month. Those are separate tests. A forecast score becomes evidence about contribution only when the design establishes the relevant connection, rather than assuming that good prediction must explain every cause of the outcome.
 
@@ -198,7 +198,7 @@ Repetition must still provide the relevant variation. If measured input profiles
 
 Nor does a repeated experiment have to answer every question. A trial could identify short-run reliability while leaving the consequences of years of accumulated experience unresolved. A buyer might deliberately choose that limited question because it is useful and affordable. The appropriate response is to state the horizon and scope, then use the evidence for what it supports. Modest, interpretable knowledge can improve a decision substantially.
 
-Le Goff and Soulier's contrast between a single reinforced sequence and repeated trials makes this constructive possibility concrete. A learning limit tied to one observation scheme does not forbid learning through another. Their work and my argument both require attention to how experiments are organized. The response to an impoverished record can be to change what evidence is produced, while recognizing that the new design needs its own justification.
+Le Goff and Soulier compared what could be learned from one reinforced sequence with what could be learned from repeated trials. Changing the observation scheme can make a previously unresolved question answerable. In an economic setting, a new test or another measured outcome may supply evidence that ordinary transactions leave out.
 
 ### The histories that get a chance
 
@@ -218,7 +218,7 @@ The economic task is to identify which comparisons can teach us something valuab
 
 [^c3-3]: Erik Brynjolfsson, Danielle Li, and Lindsey R. Raymond, “Generative AI at Work,” *Quarterly Journal of Economics* 140 (2025): 889–942, [published article](https://academic.oup.com/qje/article/140/2/889/7990658), abstract and Sections I and IV. This is the published 5,172-agent study, rather than an earlier working-paper sample. The staggered introduction informs workplace productivity in its studied setting; it is not a decomposition of individual desert or a general employment forecast.
 
-[^c3-4]: Line Chloé Le Goff and Philippe Soulier, “Parameter Estimation of a Two-Colored Urn Model Class,” *International Journal of Biostatistics* 13 (2017), article 20160029, [doi:10.1515/ijb-2016-0029](https://doi.org/10.1515/ijb-2016-0029). See [author preprint, version 2](https://arxiv.org/pdf/1405.2322), posted October 4, 2016: Sections 3.2–3.3, pp. 14–15, and Sections 4.1–4.2, pp. 19–20. The chapter credits its single-path estimation analysis and repeated-trial design; the ant model is not offered as evidence for economic contribution claims.
+[^c3-4]: Line Chloé Le Goff and Philippe Soulier, “Parameter Estimation of a Two-Colored Urn Model Class,” *International Journal of Biostatistics* 13 (2017), article 20160029, [doi:10.1515/ijb-2016-0029](https://doi.org/10.1515/ijb-2016-0029); [author preprint, version 2](https://arxiv.org/pdf/1405.2322), October 4, 2016, Sections 3.2–3.3, pp. 14–15, and Sections 4.1–4.2, pp. 19–20.
 
 [^c3-5]: Lihong Li, Wei Chu, John Langford, and Robert E. Schapire, “A Contextual-Bandit Approach to Personalized News Article Recommendation,” *WWW 2010*, 661–670, [author version 2](https://arxiv.org/pdf/1003.0146), Sections 2.1, 4, and 5.2.1. Randomized logging, recorded click responses, and the assumptions of offline evaluation matter. Its replay method is distinct from observing complete counterfactual economic histories.
 

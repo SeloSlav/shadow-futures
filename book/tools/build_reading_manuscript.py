@@ -18,7 +18,7 @@ MANIFEST = ROOT / "book/research/reading-manuscript-manifest.json"
 
 
 def validate_reader_citations(text):
-    """Keep internal source/version records out of the published reader."""
+    """Keep internal records and known editorial holdovers out of the reader."""
     forbidden = (
         r"\bv5\b|\bunpublished\b|\bcompanion (?:paper|draft|study|manuscript)s?\b"
         r"|\b(?:tax|policy|measurement|institutional) draft\b|\bsame draft\b"
@@ -29,10 +29,13 @@ def validate_reader_citations(text):
         r"|Taxing Lost Comparison: Decision Information"
         r"|browser research tool|terminal download|retrieval failed|no local (?:copy|full-text copy)"
         r"|\b(?:Aster|Birch)\b|\b(?:fictional|our) councils?\b"
+        r"|the book['’]s argument leaves open|what this book need not claim"
+        r"|Economics did not begin thinking|embarrassing exception|firm is a colou?red ball"
+        r"|was not waiting for the comparison budget|earns its place beside the Netflix"
     )
     match = re.search(forbidden, text, re.I)
     if match:
-        raise ValueError(f"Internal or companion source reference in reader: {match.group(0)}")
+        raise ValueError(f"Internal source reference or editorial holdover in reader: {match.group(0)}")
 
 
 def digest(path):

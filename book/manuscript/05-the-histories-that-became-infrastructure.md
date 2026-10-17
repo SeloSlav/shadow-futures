@@ -6,7 +6,7 @@
 
 A market can grow while the number of independent places to try again shrinks.
 
-Imagine a carpenter who disappoints a buyer in one town. Another town might offer a different buyer, unfamiliar with the dispute and willing to commission a small job. Now imagine that both towns purchase through one platform, which carries the carpenter's ranking from one to the other. The second town is still there. The second judgment may have disappeared. These are thought experiments, but the difference between them is the historical question of this chapter.
+Imagine a carpenter who disappoints a buyer in one town. Another town might offer a different buyer, unfamiliar with the dispute and willing to commission a small job. Now imagine that both towns purchase through one platform, which carries the carpenter's ranking from one to the other. The second town is still there. The second judgment may have disappeared. The carpenter's ability to start again depends on whether another buyer can make a fresh assessment.
 
 Adam Smith began his account of the division of labor with a pin workshop. Specialization raised what its workers could produce together. Its reach still depended on finding buyers. In his chapter on the extent of the market, Smith contrasted the narrow opportunities of scattered settlements with the commerce made possible by water transport. A larger reachable market could support work that a small village could not.[^c4-smith]
 
@@ -18,7 +18,7 @@ Nor did formidable scale begin with software. By 1920, the Supreme Court's Unite
 
 The question is how far a common selection system can reach, and what remains outside it. One intermediary serving ten towns may offer customers more choice than ten isolated villages ever had. It may also carry one exclusion across all ten. Increased scale changes the institutional problem when the route to a fresh evaluation disappears.
 
-In 1972, the physicist Philip Anderson called an essay “More Is Different.” New levels of scale and complexity could require new explanations. Anderson worked at Bell Laboratories. His argument was about physics, not a demonstration of economic monopoly, but his title gives us a useful question: when does an increase in reach change the kind of independence an economy can sustain?[^c4-anderson]
+In 1972, the physicist Philip Anderson called an essay “More Is Different.” Anderson worked at Bell Laboratories, and his subject was how new levels of physical scale and complexity could require new explanations. His title raises a useful economic question: when does an increase in reach change the kind of independence an economy can sustain?[^c4-anderson]
 
 Consider what is being scaled. A bigger furnace changes the cost of producing steel. A railway changes where steel can be sold. A shared admissions rule changes which producer can reach those buyers at all. These changes can reinforce one another, but they are not interchangeable. The transition to digital markets adds another possibility: an evaluation can travel with the seller and be reproduced across transactions at very little cost. The important change is not that physical limits have vanished. AI's power supplies and computing clusters make those limits conspicuous. It is that physical reach, distribution, and judgment can become organized at different scales, with one ranking governing opportunities across a much wider network.
 
@@ -64,7 +64,7 @@ Hush-A-Phone was a cup-like attachment that fitted onto a telephone. It was inte
 
 The telephone companies' tariffs prohibited attachments they had not supplied. They claimed the right to suspend or terminate service for violations. Vendors and users were told that Hush-A-Phone could not be used, and some distributors stopped selling it. The independent maker's ability to build a cup had not secured its customers' ability to use one.
 
-The Federal Communications Commission had upheld the restriction. The appeals court examined the distinction between effects on the conversation and harm to the system. Using the cup for maximum privacy could reduce the clarity and volume heard by the other party. But the court saw no findings supporting the claimed injury to the telephone system generally. It set aside the Commission's order and sent the case back.[^c4-4]
+The Federal Communications Commission had upheld the restriction. The appeals court examined the distinction between effects on the conversation and harm to the system. Using the cup for maximum privacy could reduce the clarity and volume heard by the other party. But the court saw no findings supporting the claimed injury to the telephone system generally. It set aside the Commission's order and sent the case back, leaving the antitrust questions open.[^c4-4]
 
 This was a dispute about a mundane object, which is precisely why it is useful. We do not need to settle whether Hush-A-Phone was destined to transform communications. Its claim could be considered at the level of what the device did and whom it affected. A privacy aid might involve a trade-off that the two people in a conversation were capable of choosing for themselves.
 
@@ -72,7 +72,7 @@ A subscriber could cup a hand around the mouthpiece to seek privacy. The court a
 
 A general network cannot function if every user is free to damage everyone else's service. That concern deserves a technical answer. The question is whether a particular restriction follows from a demonstrated harm, a reasonable precaution, or a blanket preference for equipment supplied by the operator. Those possibilities lead to different rules. They should not be made indistinguishable by calling all of them protection of the system.
 
-The informational consequence is my interpretation of the dispute. When a customer cannot use an independently supplied device, the market produces less experience of that use. Fewer people learn whether it is worth the inconvenience, whether a different design works better, or whether another application is possible. A prohibition can affect the record of performance as well as the maker's immediate sales.
+When a customer cannot use an independently supplied device, the market produces less experience of that use. Fewer people learn whether it is worth the inconvenience, whether a different design works better, or whether another application is possible. A prohibition can affect the record of performance as well as the maker's immediate sales.
 
 The maker had already sold devices; this was no wholly untested invention. Its complaint went to the FCC in December 1948. Hearings followed in 1950, oral argument in 1951, and a final Commission decision only in December 1955. The appeals court noted the four-year delay after argument. Permission was a question about time as well as principle: an independent producer waited while the established system continued to operate. The court's record supports that chronology, not a calculation of the sales or discoveries the delay prevented.[^c4-4]
 
@@ -90,7 +90,7 @@ The contrast points to a practical question: can a business actually use the kno
 
 This does not establish that every obstacle to entry should disappear. A buyer may have sound reasons to require reliability, security, and compatibility. A supplier may fail those requirements even with full access to the underlying knowledge. The valuable distinction is between testing whether an alternative satisfies the requirements and making its failure inevitable through a rule that prevents the test.
 
-Nor does the study calculate Bell's comparison budget. Its intervention, outcome measure, and historical identification strategy are its own. My argument asks an additional question about the opportunities such institutions produce for learning. It would take further empirical work to connect those opportunities to modeled allocation probabilities and to the particular input effects we want to recover.
+Bell's study measures follow-on patenting after a licensing intervention. To investigate the opportunities behind that result, we would also need to know which teams gained access, what work they attempted, and how their chances of reaching users changed.
 
 The decree was an intervention in the economy's rules. It was not a replay of Bell's earlier history with a different lucky first award. That distinction helps explain what its evidence can do. It can inform our understanding of a change in access. It cannot show us every other route the same unchanged economy might have taken, or give each later inventor an exact share of credit for the resulting industry.
 
@@ -102,7 +102,7 @@ One reason these choices matter is that success can improve the thing that succe
 
 Suppose, in a thought experiment, a widely used software system has trained operators, tested connectors, and a large collection of fixes. A rival's underlying design might be promising, yet the established system can be the practical choice today. Its accumulated advantages are services users actually value. The argument for examining its history does not require pretending those services vanish when we recognize how they developed.
 
-The separate question is whether another history would have developed a better set of capabilities. Arthur's framework gives that question an established economic lineage. It also reminds us that changing a price at the end may not recreate the development that did not happen along the way. A later subsidy can alter incentives; it does not automatically supply years of missing experience.
+Could another history have developed a better set of capabilities? Changing a price at the end may not recreate the development that never happened along the way. A later subsidy can alter incentives; it does not automatically supply years of missing experience.
 
 Bell's technology sharing makes the constructive side visible. Accumulated knowledge can become an input for other people's work. A strong incumbent need not keep every improvement inside its own boundary. An institution may preserve the benefits of a developed technology while allowing others to learn from and extend it. Whether a particular rule achieves that depends on its practical terms.
 
@@ -126,7 +126,7 @@ Friedrich Hayek put discovery at the center of his account of competition. In a 
 
 One outside learner was Tokyo Tsushin Kogyo, later renamed Sony. Its corporate history describes engineers studying a technical book and reports Kazuo Iwama sent from a 1954 visit to Western Electric. The team had to develop its own manufacturing equipment. Acquiring rights had not delivered a finished factory.[^c4-sony]
 
-Hayek's discovery argument and this book's attribution question fit together without becoming identical. A process can reveal a usable new product. Whether its resulting rewards precisely measure the effects of each contributor's inputs is another matter. Discovering that something works does not automatically recover everything that caused its maker to become the one who could offer it.
+Discovering a useful product and measuring each input's contribution to its maker's rewards are different tasks. A market can show that something works while leaving us uncertain about how its producer became the one able to offer it.
 
 Licensing had not delivered a saleable radio. Sony's account describes a prototype, the TR-52, whose housing warped as the weather warmed in 1955. Plans to sell it were abandoned; the redesigned TR-55 reached the market later that year. A working transistor had left a practical problem unresolved.[^c4-sony]
 
@@ -208,7 +208,7 @@ An experiment useful for future decisions can still be expensive for present use
 
 There are costs on the innovation side as well. A policy that makes existing knowledge easier to use can affect the rewards expected from producing knowledge in the first place. That is a prospective incentive question. It requires attention to how research is financed and how the rule changes behavior. The usefulness of follow-on work does not remove it from the evaluation.
 
-The Bell study's evidence concerns a historical licensing intervention with particular surrounding institutions. It gives us more than a theoretical guess, but it does not identify the best licensing rule for every industry. Nor can my comparison-budget result supply the missing welfare calculation. Applying that result to a policy requires identifying the affected information, the decisions it could improve, and the costs of preserving or replacing it.
+Bell's licensing intervention produced different innovation outcomes inside and outside telecommunications. A proposed policy in another industry needs to identify the knowledge at stake, the decisions it could improve, and the costs of preserving or replacing it.
 
 The benefit is the improvement in decisions supported by additional evidence. An independent evaluation or better logging may answer the question more cheaply; an adequate result may already exist. Some uncertainty will be too costly to resolve.
 
@@ -234,29 +234,29 @@ New technologies need feasible routes to development, delivery, and evaluation. 
 
 [^c4-3]: Computer History Museum, [“1952: Bell Labs Licenses Transistor Technology”](https://www.computerhistory.org/siliconengine/bell-labs-licenses-transistor-technology/), symposium and manufacturing-visit account, with proceedings and collection references. The stated $25,000 fee and nine-day event predate the 1956 decree. This distinction prevents attributing the beginning of outside transistor development to the later settlement.
 
-[^c4-4]: *Hush-A-Phone Corp. v. United States*, 238 F.2d 266 (D.C. Cir. 1956), November 8, 1956, [full opinion](https://law.justia.com/cases/federal/appellate-courts/F2/238/266/247909/), pp. 267–269 and notes 8–12. The court supplies the device, sales/use figure, tariff, distributor effects, cupped-hand comparison and free hand, and 1948–1955 procedural chronology. It set aside the FCC order and remanded. The opinion did not decide the antitrust issues it expressly left open. The chapter's inference about comparison production is an economic interpretation, not the holding.
+[^c4-4]: *Hush-A-Phone Corp. v. United States*, 238 F.2d 266 (D.C. Cir. 1956), November 8, 1956, [opinion](https://law.justia.com/cases/federal/appellate-courts/F2/238/266/247909/), pp. 267–269 and notes 8–12.
 
 [^c4-5]: Martin Watzinger, Thomas A. Fackler, Markus Nagler, and Monika Schnitzer, “How Antitrust Enforcement Can Spur Innovation: Bell Labs and the 1956 Consent Decree,” *American Economic Journal: Economic Policy* 12 (2020): 328–359, [published record](https://www.aeaweb.org/articles?id=10.1257/pol.20190086). See the [June 9, 2017 author paper](https://www.uoc.gr/files/items/6/6537/watzinger_et_al.pdf), introduction, institutional background, and empirical design/results. The published abstract confirms the matching design and contrasting sector findings. No effect size is taken from earlier working-paper versions. Patent-based follow-on innovation is not total welfare or an estimated comparison budget.
 
 [^c4-6]: W. Brian Arthur, “Competing Technologies, Increasing Returns, and Lock-In by Historical Events,” *Economic Journal* 99 (1989): 116–131, [full published paper](https://www.rochelleterman.com/ir/sites/default/files/arthur%201989.pdf), pp. 116–118 and 128. The adoption mechanism and possible historical selection are prior work. Increasing returns alone does not establish a finite lifetime comparison budget.
 
-[^c4-7]: Paul A. David, “Clio and the Economics of QWERTY,” *American Economic Review* 75 (1985): 332–337, [full paper](https://faculty.econ.ucsb.edu/~tedb/Courses/Ec100C/DavidQwerty.pdf), pp. 332 and 335–336. S. J. Liebowitz and Stephen E. Margolis, “The Fable of the Keys,” *Journal of Law and Economics* 33 (1990): 1–25, [author text](https://www.fioravante.patrone.name/mat/TdG/corsi/TdG_Borromeo_2011_12/Liebowitz_Margolis.pdf), introduction and discussion of typing studies. Their empirical dispute is acknowledged; the book does not resolve it or use the keyboard as proof of inefficient lock-in.
+[^c4-7]: Paul A. David, “Clio and the Economics of QWERTY,” *American Economic Review* 75 (1985): 332–337, [full paper](https://faculty.econ.ucsb.edu/~tedb/Courses/Ec100C/DavidQwerty.pdf), pp. 332 and 335–336. S. J. Liebowitz and Stephen E. Margolis, “The Fable of the Keys,” *Journal of Law and Economics* 33 (1990): 1–25, [author text](https://www.fioravante.patrone.name/mat/TdG/corsi/TdG_Borromeo_2011_12/Liebowitz_Margolis.pdf), introduction and discussion of typing studies.
 
-[^c4-8]: F. A. Hayek, “Competition as a Discovery Procedure,” translated by Marcellus S. Snow, *Quarterly Journal of Austrian Economics* 5 (2002): 9–23, [full translation](https://ppe.isi.org/wp-content/uploads/2017/12/Lesson-9-Reading-Competition-as-a-Discovery-Process.pdf), pp. 9–11. This is a 2002 translation of the 1968 Kiel lecture. The chapter draws on the discovery argument, not an assumption that all relevant input effects are identified by realized market rewards.
+[^c4-8]: F. A. Hayek, “Competition as a Discovery Procedure,” translated by Marcellus S. Snow, *Quarterly Journal of Austrian Economics* 5 (2002): 9–23, [full translation](https://ppe.isi.org/wp-content/uploads/2017/12/Lesson-9-Reading-Competition-as-a-Discovery-Process.pdf), pp. 9–11. This is a 2002 translation of the 1968 Kiel lecture.
 
 [^c4-9]: Robert K. Merton, “The Matthew Effect in Science,” *Science* 159 (1968): 56–63, especially 56–57. [Article](https://garfield.library.upenn.edu/merton/matthew1.pdf).
 
 [^c4-10]: Arnout van de Rijt, Soong Moon Kang, Michael Restivo, and Akshay Patil, “Field Experiments of Success-Breeds-Success Dynamics,” *PNAS* 111 (2014): 6934–6939, [full paper](https://www.eui.eu/Documents/DepartmentsCentres/SPS/Profiles/Van-de-Rijt/PNAS-2014-van-de-Rijt-6934-9-11.pdf), pp. 6934–6937. Subsequent third-party support differs from meeting a Kickstarter target; larger treatment effects were not unbounded or proportional.
 
-[^c4-11]: Armen A. Alchian, “Uncertainty, Evolution, and Economic Theory,” *Journal of Political Economy* 58 (1950): 211–221, pp. 213–214. Selection through profit does not require universal foresight. The institutional application here is the book's interpretation.
+[^c4-11]: Armen A. Alchian, “Uncertainty, Evolution, and Economic Theory,” *Journal of Political Economy* 58 (1950): 211–221, pp. 213–214.
 
-[^c4-12]: FCC, *Use of the Carterfone Device in Message Toll Telephone Service*, 13 FCC 2d 420 (1968), adopted June 26, 1968, [full decision in Commissioner Nicholas Johnson's archive](https://www.nicholasjohnson.org/FCCOps/1968/13F2-420.html), pp. 420–425. The decision describes the device and rejects the blanket rule while allowing reasonable protective standards, including revisions and owners' responsibility to rebuild or discontinue noncompliant devices (p. 424). The chapter does not infer quantified downstream benefits or universal permission for harmful connections.
+[^c4-12]: FCC, *Use of the Carterfone Device in Message Toll Telephone Service*, 13 FCC 2d 420 (1968), adopted June 26, 1968, [decision](https://www.nicholasjohnson.org/FCCOps/1968/13F2-420.html), pp. 420–425, especially p. 424.
 
 [^c4-14]: AT&T, *Annual Report 1955*, [original report scan](https://www.telephonearchive.com/uploads/papers/pdfs/att1955.pdf), printed pp. 13 and 16, PDF pp. 15 and 18. Americus equipment and solar-power trials are described on p. 13; the company's account of integration, decree terms, and expected business consequences is on p. 16. These are attributed corporate descriptions and predictions, not independently established policy effects.
 
 [^c4-smith]: Adam Smith, *An Inquiry into the Nature and Causes of the Wealth of Nations* (1776), Book I, Chapters I and III (pins, specialization, market extent and water carriage), and Chapter X, Part II (corporation and settlement restrictions). [Original text, Project Gutenberg](https://www.gutenberg.org/files/3300/3300-h/3300-h.htm). The carpenter and two towns are thought experiments. Geographic separation does not establish independent selection or freer historical markets.
 
-[^c4-steel]: *United States v. United States Steel Corp.*, 251 U.S. 417 (1920), pp. 438–439, recounting the lower court judges' differing explanations of industrial combination. [Opinion](https://supreme.justia.com/cases/federal/us/251/417/). The contrast is part of the judicial record, not a claim that physical integration always requires monopoly or that this decision supplies present legal authority.
+[^c4-steel]: *United States v. United States Steel Corp.*, 251 U.S. 417 (1920), [opinion](https://supreme.justia.com/cases/federal/us/251/417/), pp. 438–439.
 
 [^c4-anderson]: P. W. Anderson, “More Is Different,” *Science* 177, no. 4047 (1972): 393–396, opening page and Bell Telephone Laboratories affiliation. [Published article](https://www.rpgroup.caltech.edu/embl_pboc_2023/assets/pdfs/anderson1972.pdf). The economic use is an analogy. The proposed centuries-long economic progression remains a historical hypothesis; Anderson supplies a physical analogy.
 

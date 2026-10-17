@@ -4,8 +4,8 @@
   "checked_on": "2026-10-16",
   "status": "editorial_reviewed_sources_pending",
   "target_main_words": 6000,
-  "body_words": 4560,
-  "draft_sha256": "2d4efd04d6bd600c8dffa5b58f824cfdb6c707fa63417f96e2a420e7611ea065",
+  "body_words": 4444,
+  "draft_sha256": "062560852eb743fd2e7a15e426231a3f261a7b787274f32b202dd26272fdc190",
   "source_checks": "Substantive main-text source passages and v5 conditions checked. Four technical-lineage entries have explicit partial/original-access boundaries and remain on final source audit queue. No independent proof or established priority certification.",
   "sources": [
     {
@@ -331,7 +331,7 @@
       "result": "Publisher preview/metadata and edition confirmed; relevant full chapter passages not obtained. No substitute edition or unverified third-party upload used."
     }
   ],
-  "note_words": 804,
+  "note_words": 780,
   "final_prose_revision": {
     "checked_on": "2026-10-16",
     "status": "completed_for_changed_passages",
@@ -350,5 +350,17 @@
     "source_checks": "Existing claim-specific checks reused for unchanged facts and published model results. No new interviews, reported trial, welfare estimate or proof certification.",
     "continuity": "Affected explanations and neighboring transitions reviewed; chapter openings/endings checked across the book.",
     "historical_records": "Earlier narrative and review entries remain historical; current reader wording is authoritative."
+  },
+  "editorial_commentary_revision": {
+    "date": "2026-10-17",
+    "manuscript_sha256": "062560852eb743fd2e7a15e426231a3f261a7b787274f32b202dd26272fdc190",
+    "body_groups": 6,
+    "notes_rewritten": [
+      "c3-4"
+    ],
+    "scope": "Manuscript appraisal and defensive source/novelty commentary replaced by direct economic statements and ordinary citations. Origin explanation links the chosen name to alternative histories, comparison budget and the original impossibility result.",
+    "source_checks": "Existing claim-specific passages reused; no new externally reported experiment, historical scene, legal status or independently certified theorem. Source conditions and four earlier original-passage flags remain internal.",
+    "qualifications_retained": "Observed outcomes, study settings and dates, nonrandomized associations, hypothetical status, proposal ownership and limits of the observation model retained in plain body language.",
+    "review": "Changed prose and relevant neighbors reviewed once. The origin statement expresses the author-requested intellectual connection, not a newly reported biographical event."
   }
 }

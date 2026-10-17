@@ -90,6 +90,12 @@ existence do not certify that a chapter or the whole book has passed review.
   internal research records. Cite published findings where they enter the prose;
   a citation beside an original example must not imply that its source proves
   the book's proposed policy.
+- State necessary qualifications as limits of the evidence or conditions of the
+  economic claim, in plain language. Avoid manuscript appraisal such as “what
+  the book's argument leaves open,” defensive novelty disclaimers, claims that
+  an example “belongs” in the theory, or comments about what a chapter uses or
+  proves. Give predecessor credit directly where the idea enters. Preserve the
+  author's intentional origin story and clearly stated political values.
 - AI, corrective taxes, and remedy design require additional empirical, causal,
   welfare, and legal premises.
   Include scale benefits, private experimentation, implementation costs, testing

@@ -128,7 +128,7 @@ Competition policy already reaches beyond prices. The United States' 2023 Merger
 
 Here is the policy position I favor. When a gatekeeper controls an indispensable route to useful independent evaluation, and there is credible evidence that closing it would be hard to reverse, the presumption should favor keeping a workable route open. Waiting for the last effective challenger to disappear can destroy the evidence needed to appraise the decision. The burden should then fall on the proposed restriction to demonstrate why a narrower arrangement cannot protect legitimate interests.
 
-That is a precautionary rule with a defined task: preserve a valuable, feasible option to learn before it becomes prohibitively costly to recover. It is not a promise that every option deserves preservation. Arrow and Anthony Fisher's work on uncertainty and irreversibility provides an antecedent. When experience can inform a later choice, acting irreversibly now can sacrifice that option. They explicitly retained cost-benefit appraisal; irreversibility alone does not forbid investment.[^c10-precaution]
+Keeping an option to learn has a cost, as does losing it. Arrow and Anthony Fisher examined how waiting for more information can affect the choice to make an irreversible investment. Their analysis treats that future information as part of a cost-benefit appraisal.[^c10-precaution]
 
 The rule could require documented interfaces, workable interoperability, voluntary data portability, or access to specified knowledge needed for a credible test. Requirements should follow the obstruction. Search data access cannot supply a missing electricity connection; model access cannot repair a dishonest outcome measure. A regulator should identify what the entrant could actually do under the proposed terms.
 
@@ -140,7 +140,7 @@ For AI, an obligation might concern an interface or a secure evaluation route ra
 
 The public authority also needs limits. It should specify the affected decision, plausible lost comparison, legal power, expected benefit, costs, and less burdensome substitutes. A secure audit may suffice where existing evidence answers the question. Prospective trials matter when no file can contain the missing contrast. My proposed time-limited evaluation power would require legislation wherever existing authority is insufficient, along with challenge and review.[^c10-11]
 
-These duties preserve private ownership while limiting control over other people's routes to discovery. The owner can retain a return on invention without receiving an unlimited right to decide which alternatives may become knowable. That is a normative commitment, supported where the additional causal and welfare case holds. It is not a theorem about what property must mean.
+I favor property rights that reward invention while leaving competitors a workable route to test and develop their own ideas. Access duties should be justified by the comparisons they enable, the decisions they improve, and their costs.
 
 Government can also become the single judge. A mandatory benchmark, favored consultant, or official platform could synchronize mistakes across an economy. Independent appeal, alternative methods, and revision must constrain the evaluator as well as the evaluated. Precaution should keep discovery possible on both sides of the public-private boundary.
 
@@ -222,7 +222,7 @@ The next chapter asks whether taxation could address conduct that removes useful
 
 [^c10-5]: Zahra Meghani, “Regulations Matter: Epistemic Monopoly, Domination, Patents, and the Public Interest,” *Philosophy & Technology* 34 (2021): 1449–1474, introduction and section 6. [Article](https://link.springer.com/article/10.1007/s13347-021-00467-2).
 
-[^c10-6]: CMA, *Roadmap Completion Decision*, paragraphs 2.1–2.6 and 4.3–4.5. Read-only service-quality data and Read/Write current-account records are distinguished. The ambiguous-label example is hypothetical: its difficulty comes from an unknown interpretation, so records and verified definitions must be considered together.
+[^c10-6]: CMA, *Roadmap Completion Decision*, paragraphs 2.1–2.6 and 4.3–4.5.
 
 [^c10-7]: Kasy and Sautmann, [“Adaptive Treatment Assignment in Experiments for Policy Choice”](https://maxkasy.github.io/home/files/papers/adaptiveexperimentspolicy.pdf), 2021, pp. 113–114, 122–123, Table II. June 3 start, 10,000 numbers, 17 waves, six options; assignments 3,931 versus 366. Reported 0.754 optimality probability uses the stated uniform-prior model. Outcome: five recruitment answers. Read with [November 2021 correction](https://maxkasy.github.io/home/files/papers/correction_adaptiveexperimentspolicy.pdf); corrected original regret-rate claim is not used. Counts are not comparison budgets.
 
@@ -238,7 +238,7 @@ The next chapter asks whether taxation could address conduct that removes useful
 
 [^c10-13]: Ipsos, [“Personal Banking Service Quality – Great Britain”](https://www.ipsos.com/en-uk/personal-banking-service-quality-great-britain-february-2026), February 16, 2026, methodology. Fieldwork January–December 2025; recommendation questions, not randomized assignment or a current provider recommendation.
 
-[^c10-precaution]: Arrow and Fisher, [“Environmental Preservation, Uncertainty, and Irreversibility”](https://doi.org/10.2307/1883074), 1974, pp. 316–319; [article copy](https://www.u-cursos.cl/derecho/2019/1/DDAL23/1/material_docente/bajar?bajar=1&id=2589976). Option-preservation antecedent retaining cost-benefit appraisal. AI irreversibility and the proposed access presumption require separate evidence and legal authority.
+[^c10-precaution]: Kenneth J. Arrow and Anthony C. Fisher, “Environmental Preservation, Uncertainty, and Irreversibility,” 1974, pp. 316–319, [doi:10.2307/1883074](https://doi.org/10.2307/1883074), [article copy](https://www.u-cursos.cl/derecho/2019/1/DDAL23/1/material_docente/bajar?bajar=1&id=2589976).
 
 [^c10-dma]: [DMA, Regulation 2022/1925](https://eur-lex.europa.eu/eli/reg/2022/1925/oj/eng), Articles 7(1)–(3), 7(6)–(7), 6(11). Requested messaging functions, phased deadlines, security, exceptional extensions and user choice; distinct search-data terms. These clauses do not establish an automatic AI duty or demonstrate implementation success.
 
@@ -248,7 +248,7 @@ The next chapter asks whether taxation could address conduct that removes useful
 
 [^c10-america]: White House, [*America's AI Action Plan*](https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf), July 2025, printed pp. 3–5, deregulation/open-model/access recommendations. Objectives, not established effects or universal model-license terms.
 
-[^c10-nairr]: NSF, [NAIRR operations-center announcement](https://www.nsf.gov/cise/updates/nsf-establishes-operations-center-national-artificial), September 1, 2026, substantive announcement. Agency account of organization and intended functions; no independent additionality estimate or general commercial entitlement.
+[^c10-nairr]: NSF, [NAIRR operations-center announcement](https://www.nsf.gov/cise/updates/nsf-establishes-operations-center-national-artificial), September 1, 2026.
 
 [^c10-ftc]: FTC Office of Technology staff, [*Partnerships Between Cloud Service Providers and AI Developers*](https://www.ftc.gov/system/files/ftc_gov/pdf/p246201_aipartnerships6breport_redacted.pdf), January 2025, pp. 1–3, 29–30, 32–34. Respondents' information through September 2024 plus public information through January 2025; potential concerns, no illegality determination or current contract audit.
 

@@ -1,0 +1,470 @@
+{
+  "date": "2026-10-17",
+  "base_commit": "dcee3e4",
+  "scope": "Targeted editorial-commentary pass across reader bodies and notes plus author-requested explanation of the name and theorem connection.",
+  "files": [
+    {
+      "file": "book/manuscript/00-prologue.md",
+      "before_body_words": 2485,
+      "after_body_words": 2469,
+      "before_note_words": 820,
+      "after_note_words": 670,
+      "after_sha256": "02e3aeaf37d2e5ff6a3cdc7e25da2053d4ad4d1b780f825c1b49a22af9f0eb75",
+      "body_groups": [
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        }
+      ],
+      "notes_rewritten": [
+        "6",
+        "8"
+      ]
+    },
+    {
+      "file": "book/manuscript/01-introduction.md",
+      "before_body_words": 3169,
+      "after_body_words": 3407,
+      "before_note_words": 706,
+      "after_note_words": 581,
+      "after_sha256": "bbd3364cc15d7c134a39e4e940e9e3e2e5c9a4fcec8f0db8355a9d95e4f836be",
+      "body_groups": [
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 6
+        },
+        {
+          "kind": "delete",
+          "old_paragraphs": 2,
+          "new_paragraphs": 0
+        }
+      ],
+      "notes_rewritten": [
+        "i3",
+        "i11",
+        "i12"
+      ]
+    },
+    {
+      "file": "book/manuscript/02-the-winner-and-the-explanation.md",
+      "before_body_words": 5626,
+      "after_body_words": 5531,
+      "before_note_words": 722,
+      "after_note_words": 683,
+      "after_sha256": "48f600b756e892621737dd6f100707c362d1b165f11731964a3e1677fbb2f5e8",
+      "body_groups": [
+        {
+          "kind": "replace",
+          "old_paragraphs": 2,
+          "new_paragraphs": 2
+        },
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        },
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        }
+      ],
+      "notes_rewritten": [
+        "c1-3",
+        "c1-5"
+      ]
+    },
+    {
+      "file": "book/manuscript/03-the-comparison-budget.md",
+      "before_body_words": 5288,
+      "after_body_words": 5044,
+      "before_note_words": 565,
+      "after_note_words": 463,
+      "after_sha256": "9cf4cc1bad80f74109469964c3f76bd5f7ac2a33cdfe7592a8dc614ef013d40c",
+      "body_groups": [
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        },
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        },
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        },
+        {
+          "kind": "replace",
+          "old_paragraphs": 2,
+          "new_paragraphs": 2
+        },
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        },
+        {
+          "kind": "replace",
+          "old_paragraphs": 2,
+          "new_paragraphs": 2
+        },
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        }
+      ],
+      "notes_rewritten": [
+        "c2-1",
+        "c2-7",
+        "c2-9"
+      ]
+    },
+    {
+      "file": "book/manuscript/04-shadow-futures.md",
+      "before_body_words": 4560,
+      "after_body_words": 4444,
+      "before_note_words": 804,
+      "after_note_words": 780,
+      "after_sha256": "062560852eb743fd2e7a15e426231a3f261a7b787274f32b202dd26272fdc190",
+      "body_groups": [
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        },
+        {
+          "kind": "replace",
+          "old_paragraphs": 2,
+          "new_paragraphs": 2
+        },
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        },
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        },
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        },
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        }
+      ],
+      "notes_rewritten": [
+        "c3-4"
+      ]
+    },
+    {
+      "file": "book/manuscript/05-the-histories-that-became-infrastructure.md",
+      "before_body_words": 5688,
+      "after_body_words": 5590,
+      "before_note_words": 919,
+      "after_note_words": 729,
+      "after_sha256": "7c89ad1c2b36af318157f7c4285f18fe9da48cb18070c1a100df4914de297b71",
+      "body_groups": [
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        },
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        },
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        },
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        },
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        },
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        },
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        },
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        }
+      ],
+      "notes_rewritten": [
+        "c4-4",
+        "c4-7",
+        "c4-8",
+        "c4-11",
+        "c4-12",
+        "c4-steel"
+      ]
+    },
+    {
+      "file": "book/manuscript/06-who-gets-to-be-tested.md",
+      "before_body_words": 5498,
+      "after_body_words": 5494,
+      "before_note_words": 674,
+      "after_note_words": 509,
+      "after_sha256": "15db5074976c35892c56bd86c837ea31ed5911746876a666ecc49903e03f2055",
+      "body_groups": [
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        },
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        }
+      ],
+      "notes_rewritten": [
+        "c5-3",
+        "c5-6",
+        "c5-11",
+        "c5-12",
+        "c5-14",
+        "c5-16",
+        "c5-preemption"
+      ]
+    },
+    {
+      "file": "book/manuscript/07-who-deserves-the-winnings.md",
+      "before_body_words": 5199,
+      "after_body_words": 5074,
+      "before_note_words": 595,
+      "after_note_words": 334,
+      "after_sha256": "fbc20b397bafd2c584df06c4b3f1df85155f6afc20a6d167fe43cf4d2edd943b",
+      "body_groups": [
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        },
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        },
+        {
+          "kind": "delete",
+          "old_paragraphs": 1,
+          "new_paragraphs": 0
+        },
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        }
+      ],
+      "notes_rewritten": [
+        "c6-2",
+        "c6-3",
+        "c6-5",
+        "c6-8",
+        "c6-10",
+        "c6-12"
+      ]
+    },
+    {
+      "file": "book/manuscript/08-the-intelligence-factory.md",
+      "before_body_words": 5209,
+      "after_body_words": 5209,
+      "before_note_words": 852,
+      "after_note_words": 632,
+      "after_sha256": "8bb5ebbb55a9ef3ccc1fe67b97fd9a681d1b28c31a4ad31ec9ca043afb172c73",
+      "body_groups": [],
+      "notes_rewritten": [
+        "c7-2",
+        "c7-3",
+        "c7-5",
+        "c7-12",
+        "c7-13",
+        "c7-14"
+      ]
+    },
+    {
+      "file": "book/manuscript/09-a-billion-answers.md",
+      "before_body_words": 5042,
+      "after_body_words": 5004,
+      "before_note_words": 705,
+      "after_note_words": 466,
+      "after_sha256": "4de5a0d06ce60a32b76f8e8a3d7572630f15a2388260952c6c6a2c3adfced415",
+      "body_groups": [
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        },
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        },
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        },
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        }
+      ],
+      "notes_rewritten": [
+        "c8-1",
+        "c8-3",
+        "c8-10",
+        "c8-11",
+        "c8-12",
+        "c8-13"
+      ]
+    },
+    {
+      "file": "book/manuscript/10-the-first-rung.md",
+      "before_body_words": 4578,
+      "after_body_words": 4544,
+      "before_note_words": 737,
+      "after_note_words": 572,
+      "after_sha256": "248f5854d165cd954b9ad0eca99a6289eee482eded84821e76c1121085ef1278",
+      "body_groups": [
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        },
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        }
+      ],
+      "notes_rewritten": [
+        "c9-1",
+        "c9-6",
+        "c9-7",
+        "c9-portability"
+      ]
+    },
+    {
+      "file": "book/manuscript/11-competition-for-future-evidence.md",
+      "before_body_words": 4466,
+      "after_body_words": 4418,
+      "before_note_words": 705,
+      "after_note_words": 645,
+      "after_sha256": "6a193c4c25449c0472d7228a011fe1b13683aa0c2e73ff3068b1d82a69454403",
+      "body_groups": [
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        },
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        }
+      ],
+      "notes_rewritten": [
+        "c10-6",
+        "c10-precaution",
+        "c10-nairr"
+      ]
+    },
+    {
+      "file": "book/manuscript/12-taxing-lost-comparison.md",
+      "before_body_words": 2275,
+      "after_body_words": 2253,
+      "before_note_words": 273,
+      "after_note_words": 273,
+      "after_sha256": "ac1861c2639e634a81b6b2f80718135c300afe1d73d1353c9ef5b01608720362",
+      "body_groups": [
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        }
+      ],
+      "notes_rewritten": []
+    },
+    {
+      "file": "book/manuscript/13-an-economics-of-possible-worlds.md",
+      "before_body_words": 4151,
+      "after_body_words": 4121,
+      "before_note_words": 472,
+      "after_note_words": 441,
+      "after_sha256": "2e1fe0550ecf75b33590b5a02fa38de784bfbf2940ae48d826bdfcb47305c074",
+      "body_groups": [
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        },
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        }
+      ],
+      "notes_rewritten": [
+        "c12-3",
+        "c12-5"
+      ]
+    },
+    {
+      "file": "book/manuscript/91-acknowledgments.md",
+      "before_body_words": 110,
+      "after_body_words": 80,
+      "before_note_words": 0,
+      "after_note_words": 0,
+      "after_sha256": "d577aee194f1f47aa3e450ae3f0e07b6dd11ac83de4080857d6c0708b2e5d8ba",
+      "body_groups": [
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        }
+      ],
+      "notes_rewritten": []
+    }
+  ],
+  "body_change_groups": 45,
+  "notes_rewritten": 51,
+  "main_words_cut_net": 632,
+  "note_words_cut": 1771,
+  "acknowledgment_words_cut": 30,
+  "expected_main_words": 63366,
+  "expected_backmatter_words": 10608,
+  "residual_review": "Remaining self-reference concerns introductory framing, the intentional origin story, explicit model scope and authorial values. The identified manuscript-appraisal formulations are removed.",
+  "name_and_theorem": "Johnson and Kauffman credit retained. Same-rule alternative histories distinguished from learning which contribution effect generated the observed record; finite lifetime comparison is connected conditionally to the original impossibility result.",
+  "boundary": "No new bibliography entries or source audit; original SSRN remains the sole self-citation; approved epilogue untouched."
+}

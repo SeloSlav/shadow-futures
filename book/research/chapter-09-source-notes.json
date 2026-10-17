@@ -4,9 +4,9 @@
   "checked_on": "2026-10-16",
   "status": "reviewed",
   "target_main_words": 6000,
-  "body_words": 4578,
-  "note_words": 737,
-  "draft_sha256": "d352ea3912b8907ef2b7578f49b371d9a52635ee447dd5570cbe3fb8fc736925",
+  "body_words": 4544,
+  "note_words": 572,
+  "draft_sha256": "248f5854d165cd954b9ad0eca99a6289eee482eded84821e76c1121085ef1278",
   "source_checks": "Relevant full primary passages checked for measured outcomes, designs and limits. Published final customer-support record distinguished from author version; learning long version, dated METR studies, published Autor text and robot proof versions explicitly identified. Relevant original Bessen ATM paragraphs were additionally read in indexed publisher text; failed direct fetches, absence of full-PDF inspection and no raw-data replication remain explicit. Agent/capital revision: Original saved Korinek–Suh March 2024 passages checked; theoretical scenarios and hypothetical assets/ownership distinguished.",
   "sources": [
     {
@@ -302,5 +302,20 @@
     ],
     "source_checks": "Existing claim-specific checks reused. No new reported result, historical scene, policy implementation claim or proof certification.",
     "review": "Changed passages and immediate neighbors read once; substantive model conditions, other informative observations, source correction, policy costs and the distinction between proposals and findings retained."
+  },
+  "editorial_commentary_revision": {
+    "date": "2026-10-17",
+    "manuscript_sha256": "248f5854d165cd954b9ad0eca99a6289eee482eded84821e76c1121085ef1278",
+    "body_groups": 2,
+    "notes_rewritten": [
+      "c9-1",
+      "c9-6",
+      "c9-7",
+      "c9-portability"
+    ],
+    "scope": "Manuscript appraisal and defensive source/novelty commentary replaced by direct economic statements and ordinary citations. Origin explanation links the chosen name to alternative histories, comparison budget and the original impossibility result.",
+    "source_checks": "Existing claim-specific passages reused; no new externally reported experiment, historical scene, legal status or independently certified theorem. Source conditions and four earlier original-passage flags remain internal.",
+    "qualifications_retained": "Observed outcomes, study settings and dates, nonrandomized associations, hypothetical status, proposal ownership and limits of the observation model retained in plain body language.",
+    "review": "Changed prose and relevant neighbors reviewed once. The origin statement expresses the author-requested intellectual connection, not a newly reported biographical event."
   }
 }

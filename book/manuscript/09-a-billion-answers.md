@@ -42,7 +42,7 @@ Yann Dubois and colleagues tested how an automatic judge responds to presentatio
 
 Each response faced a reference answer to the same instruction. The judge's preference supplied the score. It was a measure of which answer the evaluator favored, rather than an independent check against a separately established correct solution.[^c8-12]
 
-This is a different evaluation procedure from Arena's direct user votes. The distinction prevents a lazy conclusion that every human judgment is merely a preference for long answers. The study examines a particular automatic judge and an adjustment to its measurements. It gives us a concrete example of how the apparatus of evaluation can influence the result.
+Arena records users' comparisons of two answers. AlpacaEval uses the judgment of a particular automatic evaluator. An adjustment to that evaluator's scores tells us about its measurements; human voting needs evidence of its own.
 
 Think of the deadline in the purchase order. One service returns the date and identifies the relevant passage. Another returns the same date inside a long explanation of the document. A buyer might prefer either presentation for a legitimate reason. An evaluation intended to measure the extraction task should nevertheless understand how much of its ranking depends on the surrounding prose.
 
@@ -82,7 +82,7 @@ A predicted seventy percent chance of producing the preferred answer is not a se
 
 A different rule could deliberately randomize some assignments. Its allocation probabilities would describe that design, while its predicted performance scores would describe the selector's expectations. Both can be recorded. Their relationship matters to the analysis, but they are not interchangeable numbers simply because both can be expressed as percentages.
 
-Deterministic selection does not make observed outcomes uninformative. Checking answers reveals performance on encountered tasks; independent evaluation can supply information about alternatives. Ignoring those measurements would misdescribe the experiment to which the allocation-history bound applies.
+Checking answers reveals performance on the tasks a system encounters; independent evaluation can supply information about alternatives. Those measurements belong alongside the assignment record when we assess what can be learned.
 
 The work of checking also has a production process. Someone may need to open an amendment, resolve an ambiguous field, or determine which document version governs the task. AI could assist with that work, but an automated score remains something to validate against the relevant standard. A service can lower the cost of producing an answer while leaving costly uncertainty about whether the answer is useful.
 
@@ -184,7 +184,7 @@ There is a more encouraging route from generation to evidence when a proposed an
 
 One application concerned scheduling jobs in Google's data centers. A machine can have spare computing capacity but be unable to take another job because another resource, such as memory, is already exhausted. The report describes searching for a better rule for assigning work to available machines. This is the factory's coordination problem turned into an object of automated investigation.
 
-The researchers used a simulator based on historical workloads, tested on unseen recent data, and then measured operation after deployment. They reported recovering an average of 0.7 percent of fleet-wide computing resources that would otherwise have been stranded. This is a developer-reported result about their operation, rather than an independently audited economy-wide benefit.
+The researchers used a simulator based on historical workloads, tested on unseen recent data, and then measured operation after deployment. They reported recovering an average of 0.7 percent of fleet-wide computing resources that would otherwise have been stranded. That measures available computing capacity, rather than an equivalent reduction in electricity use.
 
 The sequence matters as much as the headline. A proposal entered a test with a defined outcome. A promising simulated result faced another check. Deployment supplied further observations. The program was not considered better simply because another language model produced a fluent explanation of why it ought to work.
 
@@ -220,7 +220,7 @@ The constructive choice is to identify a valuable uncertainty and the observatio
 
 ## The person at the other end
 
-At the beginning of this chapter, the worker asked for a date. By the end, that small request has connected a computing facility to a model, a selection rule, an evaluation procedure, and a future procurement decision. The person remains part of the chain.
+A date in a report depends on more than the model that supplied it. The computing, service selection, evaluation, and person checking the answer all help determine whether the date can be trusted and used.
 
 Someone supplied examples used in development. Someone expressed a preference in an evaluation, prepared a document, checked an answer, or corrected an error. Arena's paired votes make one such contribution visible. In a workplace, the corresponding judgments can be less conspicuous, folded into the ordinary activity of getting a task done.
 
@@ -230,11 +230,11 @@ The next chapter asks what happens to the worker. Its subject is the work behind
 
 ## Notes
 
-[^c8-1]: Wei-Lin Chiang and colleagues, “Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference,” *ICML*, PMLR 235 (2024), 8359–8388, [published paper](https://raw.githubusercontent.com/mlresearch/v235/main/assets/chiang24b/chiang24b.pdf), PDF pp. 1–3, Figure 1 and Section 3.1. Model-pair sampling can be deliberately nonuniform; randomized does not mean every pair has equal probability. The chapter describes the published design, not a verified current platform implementation, universal truth metric, or representative census of workplace demand.
+[^c8-1]: Wei-Lin Chiang and colleagues, “Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference,” *ICML*, PMLR 235 (2024): 8359–8388, [published paper](https://raw.githubusercontent.com/mlresearch/v235/main/assets/chiang24b/chiang24b.pdf), PDF pp. 1–3, Figure 1 and Section 3.1.
 
 [^c8-2]: Isaac Ong and colleagues, “RouteLLM: Learning to Route LLMs with Preference Data,” *ICLR* (2025), sections 3–5 and limitations. [Version 4, February 23, 2025](https://arxiv.org/pdf/2406.18665v4), 3–7 and 10.
 
-[^c8-3]: Lingjiao Chen, Matei Zaharia, and James Zou, “FrugalGPT: How to Use Large Language Models While Reducing Cost and Improving Performance,” *TMLR*, December 2024, [published paper](https://lingjiaochen.com/papers/2024_FrugalGPT_TMLR.pdf), Section 4, pp. 4–5; experiments and Figure 3, pp. 6–10. Its main historical experiments use March 2023 models/prices, with a November 2024 extension. The chapter uses the cascade/scorer/stopping design and recorded extra-call limitation, not current prices or a universal savings estimate.
+[^c8-3]: Lingjiao Chen, Matei Zaharia, and James Zou, [“FrugalGPT: How to Use Large Language Models While Reducing Cost and Improving Performance”](https://lingjiaochen.com/papers/2024_FrugalGPT_TMLR.pdf), *TMLR*, December 2024, Section 4, pp. 4–5, and experiments and Figure 3, pp. 6–10.
 
 [^c8-4]: Lihong Li, Wei Chu, John Langford, and Xuanhui Wang, “Unbiased Offline Evaluation of Contextual-bandit-based News Article Recommendation Algorithms,” *WSDM* 2011, 297–306, DOI 10.1145/1935826.1935878; [author version 2](https://arxiv.org/pdf/1003.5956v2), March 1, 2012, Sections 3–4, especially Theorem 1 and the Yahoo study. The theorem assumes independent identically distributed events and uniformly randomized logging; modifications require corresponding conditions. A finite-stream ratio and concentration for arbitrary adaptive algorithms need additional care. Logged policy evaluation differs from a structural replay of economic development.
 
@@ -246,12 +246,12 @@ The next chapter asks what happens to the worker. Its subject is the work behind
 
 [^c8-8]: Hao Zhang, “Inconsistent Estimation and Asymptotically Equal Interpolations in Model-Based Geostatistics,” *JASA* 99 (2004), 250–261, [full paper](https://www.stat.purdue.edu/~zhanghao/Paper/JASA2004.pdf), introduction and Section 3, pp. 250–253. Fixed-domain infill can leave individual covariance parameters inconsistent while an identifiable combination supports prediction. This is a prior statistical result, not evidence that any particular AI supplier's contribution is unknowable or that accurate prediction lacks value.
 
-[^c8-10]: Joon Sung Park and colleagues, “Generative Agents: Interactive Simulacra of Human Behavior,” *UIST* 2023, [author version 2](https://arxiv.org/pdf/2304.03442v2), August 6, 2023, Sections 3, 6.5.2, 7 and 8.2, PDF pp. 5 and 15–17. Party coordination and the mistaken Adam Smith biography occur among software characters. The study evaluates believability and architecture, not predictive validity for real economic policy. No author interview, observed real-world town, consciousness claim or validated tax simulation is implied.
+[^c8-10]: Joon Sung Park and colleagues, “Generative Agents: Interactive Simulacra of Human Behavior,” *UIST* 2023, [author version 2](https://arxiv.org/pdf/2304.03442v2), August 6, 2023, Sections 3, 6.5.2, 7 and 8.2, PDF pp. 5 and 15–17.
 
-[^c8-11]: Stanford HAI, *AI Index Report 2026*, [full report](https://hai.stanford.edu/assets/files/ai_index_report_2026.pdf), Section 1.4, inference subsection, printed p. 36. The chapter uses the distinction between developing a model and repeatedly serving it. It adopts no model-specific energy estimate, current usage count, or inference from energy consumption to the comparison budget.
+[^c8-11]: Stanford HAI, [*AI Index Report 2026*](https://hai.stanford.edu/assets/files/ai_index_report_2026.pdf), Section 1.4, inference subsection, printed p. 36.
 
-[^c8-12]: Yann Dubois, Balázs Galambosi, Percy Liang, and Tatsunori B. Hashimoto, “Length-Controlled AlpacaEval: A Simple Way to Debias Automatic Evaluators,” first released 2024, [author version 2](https://arxiv.org/pdf/2404.04475v2), March 10, 2025, pp. 1–4, Section 4.1 and Figure 3, p. 6, limitations p. 9. Section 4.1 reports gpt4_1106_preview win rates of 22.9%–64.3% under verbosity prompts, reduced to 41.9%–51.6% with length control. Scores aggregate the automatic judge's preference probabilities against reference outputs, not independently checked correct-answer rates. Prompting also changes the actual answers; the study does not hold all answer quality fixed. The adjustment assumes a same-length comparison is desired and does not remove every judge bias. No universal correction or current ranking is adopted.
+[^c8-12]: Yann Dubois, Balázs Galambosi, Percy Liang, and Tatsunori B. Hashimoto, “Length-Controlled AlpacaEval: A Simple Way to Debias Automatic Evaluators,” first released 2024, [author version 2](https://arxiv.org/pdf/2404.04475v2), March 10, 2025, pp. 1–4, Section 4.1 and Figure 3, p. 6, and limitations, p. 9.
 
-[^c8-13]: Alexander Novikov and colleagues, *AlphaEvolve: A Coding Agent for Scientific and Algorithmic Discovery*, [2025 white paper](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/AlphaEvolve.pdf), pp. 1–3 and data-center scheduling discussion pp. 13–14; Google DeepMind, [May 14, 2025 account](https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/). Reported resource recovery is not an equivalent percentage electricity saving or proof of overall welfare. Simulation, held-out testing and post-deployment measurement are distinct stages; developer report, not independent causal audit.
+[^c8-13]: Alexander Novikov and colleagues, *AlphaEvolve: A Coding Agent for Scientific and Algorithmic Discovery*, [2025 white paper](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/AlphaEvolve.pdf), pp. 1–3 and data-center scheduling discussion pp. 13–14; Google DeepMind, [May 14, 2025 account](https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/).
 
 [^c8-agents]: Nicholas Carlini, [“Building a C Compiler with a Team of Parallel Claudes,”](https://www.anthropic.com/engineering/building-c-compiler) February 5, 2026, sections “Make Parallelism Easy” and “Evaluation.” Anthropic, [“How We Built Our Multi-Agent Research System,”](https://www.anthropic.com/engineering/multi-agent-research-system) June 13, 2025, section “Architecture Overview.”

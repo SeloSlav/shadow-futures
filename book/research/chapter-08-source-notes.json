@@ -4,9 +4,9 @@
   "checked_on": "2026-10-16",
   "status": "reviewed",
   "target_main_words": 6000,
-  "body_words": 5042,
-  "note_words": 705,
-  "draft_sha256": "ec3999b44189642cc54d7729f2e8122052daaf190bbe61545480606742fe95e6",
+  "body_words": 5004,
+  "note_words": 466,
+  "draft_sha256": "4de5a0d06ce60a32b76f8e8a3d7572630f15a2388260952c6c6a2c3adfced415",
   "source_checks": "Relevant full primary passages checked in published/versioned research papers, original predecessor papers and attributed developer report. Versions, assumptions, measured objectives, author interpretations, simulations and hypotheticals remain distinct. Agent/capital revision: Original Carlini and June 2025 Anthropic architecture passages checked; developer reports and hypothetical contracts distinguished.",
   "sources": [
     {
@@ -343,5 +343,22 @@
     ],
     "source_checks": "Existing claim-specific checks reused. No new reported result, historical scene, policy implementation claim or proof certification.",
     "review": "Changed passages and immediate neighbors read once; substantive model conditions, other informative observations, source correction, policy costs and the distinction between proposals and findings retained."
+  },
+  "editorial_commentary_revision": {
+    "date": "2026-10-17",
+    "manuscript_sha256": "4de5a0d06ce60a32b76f8e8a3d7572630f15a2388260952c6c6a2c3adfced415",
+    "body_groups": 4,
+    "notes_rewritten": [
+      "c8-1",
+      "c8-3",
+      "c8-10",
+      "c8-11",
+      "c8-12",
+      "c8-13"
+    ],
+    "scope": "Manuscript appraisal and defensive source/novelty commentary replaced by direct economic statements and ordinary citations. Origin explanation links the chosen name to alternative histories, comparison budget and the original impossibility result.",
+    "source_checks": "Existing claim-specific passages reused; no new externally reported experiment, historical scene, legal status or independently certified theorem. Source conditions and four earlier original-passage flags remain internal.",
+    "qualifications_retained": "Observed outcomes, study settings and dates, nonrandomized associations, hypothetical status, proposal ownership and limits of the observation model retained in plain body language.",
+    "review": "Changed prose and relevant neighbors reviewed once. The origin statement expresses the author-requested intellectual connection, not a newly reported biographical event."
   }
 }

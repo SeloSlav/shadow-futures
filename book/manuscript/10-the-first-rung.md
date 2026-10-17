@@ -36,7 +36,7 @@ The students practiced, then took an assessment without the tool. During practic
 
 The researchers had measured two different achievements. One was getting through the problem with help. The other was being able to solve a related problem afterward. A completed worksheet could look like evidence of either. The assessment made the distinction visible.
 
-This was a short-run educational experiment, not a forecast of the working lives of those students. It also involved particular tools and a particular design. Its lesson is more useful than a general verdict on whether AI helps or hurts learning. The way assistance was organized changed what students could do when it was withdrawn.
+The experiment measured short-run learning with particular tools and tasks. How assistance was organized changed what students could do when it was withdrawn. Following their later working lives would require a different study.
 
 The tutor's design required human work. Teachers supplied problem-specific information, correct solutions, and guidance about common mistakes. The assistant was instructed to ask for the student's attempt and respond to the difficulty. Behind the apparently effortless exchange stood a choice about what the student should still have to do.
 
@@ -68,7 +68,7 @@ METR collected screen recordings and examined a subset in detail. The records ma
 
 Set this study beside the customer-support deployment. One finds substantial average gains, especially for novices. The other finds a slowdown among experienced developers in familiar repositories. The interesting question becomes which workers, tasks, tools, and working arrangements produce which result. A single number for the effect of AI would conceal the decisions an employer actually has to make.
 
-METR then encountered a problem that connects directly to this book. In its February 24, 2026 account of a follow-up effort, the organization reported difficulty obtaining a trustworthy comparison. Some developers disliked the prospect of being assigned to work without AI. Some tasks were kept out of the experiment. The available observations were changing along with adoption.[^c9-7]
+In its February 24, 2026 account of a follow-up effort, METR reported difficulty obtaining a trustworthy comparison. Some developers disliked the prospect of being assigned to work without AI. Some tasks were kept out of the experiment. The available observations were changing along with adoption.[^c9-7]
 
 One participant's published comment included the simple explanation, “I really like using AI!” That is an ordinary preference. It is also a research problem. If a developer avoids entering the experiment because a particularly suitable task might land in the no-AI condition, the measured comparison no longer represents the full set of tasks the researcher hoped to study.
 
@@ -196,7 +196,7 @@ These choices depend on institutions as well as contracts. Investment can coexis
 
 ## Notes
 
-[^c9-1]: Brynjolfsson, Li, and Raymond, [“Generative AI at Work”](https://academic.oup.com/qje/article/140/2/889/7990658), *Quarterly Journal of Economics* 140(2), 2025, 889–942, Section VI.B and Figure VII. The published account identifies the September 10, 2020 load-test outage. This chapter describes the public record; it invents no worker's experience or dialogue. The paper's publication date is distinct from the earlier deployment records.
+[^c9-1]: Erik Brynjolfsson, Danielle Li, and Lindsey Raymond, [“Generative AI at Work”](https://academic.oup.com/qje/article/140/2/889/7990658), *The Quarterly Journal of Economics* 140(2) (2025): 889–942, Section VI.B and Figure VII.
 
 [^c9-2]: Brynjolfsson, Li, and Raymond, abstract, Sections III and V. Use the published 5,172-agent sample and 15 percent average gain in issues resolved per hour; older working-paper headlines used different figures. The setting is text-based support for business software. Effects vary by prior performance and experience. Suggestions were optional, and the human agent remained responsible for the interaction.
 
@@ -206,9 +206,9 @@ These choices depend on institutions as well as contracts. Investment can coexis
 
 [^c9-5]: Hamsa Bastani, Osbert Bastani, Alp Sungu, Haosen Ge, Özge Kabakcı, and Rei Mariman, [“Generative AI without Guardrails Can Harm Learning”](https://doi.org/10.1073/pnas.2422633122), *PNAS* 122(26), 2025, e2422633122. Relevant full author version: [education_llm.pdf](https://hamsabastani.github.io/education_llm.pdf), pp. 4–11 for design/results and pp. 13–18, Section 4, for message/error analyses. The authors interpret asking-for-answer and engagement patterns as consistent with reliance on supplied solutions; these analyses do not separately randomize each safeguard or establish a unique mediator. Classroom allocation uses the school's random student assignment plus constrained classroom assignment. Individual laptop use was not independently randomized. The outcome is short-run assessment performance. GPT Tutor's unassisted advantage was not statistically established. The August 2025 correction, DOI 10.1073/pnas.2518204122, concerns an affiliation production error, not the results.
 
-[^c9-6]: Joel Becker, Nate Rush, Beth Barnes, and David Rein, [“Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity”](https://metr.org/Early_2025_AI_Experienced_OS_Devs_Study-paper.pdf), 2025, abstract and Sections 1–2. Sixteen developers, 246 tasks; task definition preceded assignment. Tools and repositories are dated and specific. The 19 percent estimate concerns longer completion time, not an identical percentage reduction in output. Forecasts and retrospective perceptions are distinct from measured time. No universal or current-tool effect is claimed.
+[^c9-6]: Joel Becker, Nate Rush, Beth Barnes, and David Rein, [“Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity”](https://metr.org/Early_2025_AI_Experienced_OS_Devs_Study-paper.pdf), 2025, abstract and Sections 1–2.
 
-[^c9-7]: METR, [“We Are Changing Our Developer Productivity Experiment Design”](https://metr.org/blog/2026-02-24-uplift-update/), February 24, 2026. The account describes selection, withheld tasks, study pay falling from USD150/hour to USD50/hour, attrition, concurrent-agent time measurement, and interpretation. The five-word participant excerpt is reproduced from METR's published account, not an interview conducted for this book. Neither its stated belief about newer tools nor the selected follow-up results establish a clean causal reversal of the original estimate.
+[^c9-7]: METR, [“We Are Changing Our Developer Productivity Experiment Design”](https://metr.org/blog/2026-02-24-uplift-update/), February 24, 2026, sections on wider adoption, recruitment, time measurement, and interpretation.
 
 [^c9-9]: David H. Autor, [“Why Are There Still So Many Jobs? The History and Future of Workplace Automation”](https://economics.mit.edu/sites/default/files/publications/why%20are%20there%20still%20jobs%202014.pdf), *Journal of Economic Perspectives* 29(3), 2015, 3–30, especially pp. 5–7. See also James Bessen, [“Toil and Technology”](https://www.imf.org/external/pubs/ft/fandd/2015/03/bessen.htm), *Finance & Development* 52(1), March 2015, 16–19, ATM discussion. The figures concern average US urban branches in the stated historical window. Autor also identifies deregulation. These accounts do not isolate an ATM treatment effect or describe current bank employment.
 
@@ -216,6 +216,6 @@ These choices depend on institutions as well as contracts. Investment can coexis
 
 [^c9-platform]: International Labour Organization, *World Employment and Social Outlook 2021: The Role of Digital Labour Platforms in Transforming the World of Work* (2021), Chapter 4 conclusion, printed p. 192 (PDF p. 194), and deactivation discussion/footnote 7, printed p. 182 (PDF p. 184). [Full report](https://www.ilo.org/sites/default/files/wcmsp5/groups/public/%40dgreports/%40dcomm/%40publ/documents/publication/wcms_771749.pdf). Reported conditions and surveyed workers, not a current universal sole-platform diagnosis. Footnote 7 explicitly records alternative-platform use after permanent deactivation. The moving driver and shared-ranking scenario are hypothetical.
 
-[^c9-portability]: Directive (EU) 2024/2831, Article 9(6), portability including ratings/reviews; Article 29(1), transposition by December 2, 2026. [Official consolidated text, November 11, 2024](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A02024L2831-20241111), PDF pp. 9–10 and 19. Checked October 16, 2026; no claim all Member States have implemented it. The broader proposed combination of contextual correction, independent assessment, and portability is the author's recommendation, not a description of every directive entitlement.
+[^c9-portability]: Directive (EU) 2024/2831, Article 9(6) and Article 29(1), [official consolidated text, November 11, 2024](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A02024L2831-20241111), PDF pp. 9–10 and 19.
 
 [^c9-capital]: Anton Korinek and Donghyun Suh, [*Scenarios for the Transition to AGI*](https://cdn.governance.ai/AGI_Scenarios.pdf), March 2024, sections 3 and 4.1, 22–27, and conclusion, 36–37.

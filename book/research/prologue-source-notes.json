@@ -2,9 +2,9 @@
   "manuscript": "book/manuscript/00-prologue.md",
   "title": "The other life of a song",
   "checked_on": "2026-10-16",
-  "body_words": 2499,
+  "body_words": 2469,
   "word_count_method": "Whitespace-separated main-prose words after removing headings and footnote markers; notes are additional.",
-  "draft_sha256": "61b3292450e5f0efb92be7aa7ec20695854f0c77b1a8f50d93023533c5be6cac",
+  "draft_sha256": "02e3aeaf37d2e5ff6a3cdc7e25da2053d4ad4d1b780f825c1b49a22af9f0eb75",
   "status": "revised_draft",
   "revision": 3,
   "revision_intent": "Preserve the revised case-led structure and restore the 2500-word target with the documented AI outage comparison and its implications for learning.",
@@ -191,5 +191,19 @@
     ],
     "main_text_changed": false
   },
-  "latest_revision": "Origin-of-name attribution to Johnson and Kauffman; existing factual checks reused, new checks in origin-source-notes.json. Reviewed once within the word budget."
+  "latest_revision": "Origin-of-name attribution to Johnson and Kauffman; existing factual checks reused, new checks in origin-source-notes.json. Reviewed once within the word budget.",
+  "note_words": 670,
+  "editorial_commentary_revision": {
+    "date": "2026-10-17",
+    "manuscript_sha256": "02e3aeaf37d2e5ff6a3cdc7e25da2053d4ad4d1b780f825c1b49a22af9f0eb75",
+    "body_groups": 1,
+    "notes_rewritten": [
+      "6",
+      "8"
+    ],
+    "scope": "Manuscript appraisal and defensive source/novelty commentary replaced by direct economic statements and ordinary citations. Origin explanation links the chosen name to alternative histories, comparison budget and the original impossibility result.",
+    "source_checks": "Existing claim-specific passages reused; no new externally reported experiment, historical scene, legal status or independently certified theorem. Source conditions and four earlier original-passage flags remain internal.",
+    "qualifications_retained": "Observed outcomes, study settings and dates, nonrandomized associations, hypothetical status, proposal ownership and limits of the observation model retained in plain body language.",
+    "review": "Changed prose and relevant neighbors reviewed once. The origin statement expresses the author-requested intellectual connection, not a newly reported biographical event."
+  }
 }

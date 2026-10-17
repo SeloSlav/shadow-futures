@@ -4,7 +4,7 @@
 
 Sweden introduced its nitrogen-oxide charge in 1992. Covered energy-production facilities paid for emissions, while receipts were returned in relation to useful energy output. The design separated a harmful by-product from the productive activity that generated it.[^c11-5]
 
-That distinction makes a useful starting point for an informational tax argument. A business decision can improve current production while removing opportunities to discover alternatives. My proposal is to examine whether the resulting loss of useful comparative evidence creates a cost that the decision maker does not bear. Establishing that cost requires more than observing a large firm, high profits, or a concentrated market.
+A business decision can improve current production while closing a route to discovering alternatives. A case for taxation would need to show that losing that route imposes a cost on others, and that a tax is a useful way to address it.
 
 There are two tax questions here. One asks how confidently income can be divided between productive contribution and historical position. The other asks whether particular conduct imposes an external cost by preventing valuable comparison. Explaining a fortune and changing future incentives are different tasks.
 

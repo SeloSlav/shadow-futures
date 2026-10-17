@@ -50,7 +50,7 @@ The wheat archive also cautions against treating old records as self-explanatory
 
 A final success label can discard the original input and the correction needed to diagnose a failure. Retaining those records may enable re-evaluation, subject to reliable checks, relevance, privacy, and reproducible software versions. A useful archive preserves enough context for a justified question.
 
-This is one constructive implication of shadow futures. The argument does not say that only literal repetitions can teach us anything. Additional outcomes, archives, natural variation, and designed experiments can all supply useful evidence under their own assumptions. The task is to identify the target and explain how the available observations bear on it.
+Archives, natural variation, additional measured outcomes, and designed experiments can all supply evidence about an alternative. Each route depends on a connection between the observations available and the question being asked.
 
 ## The arrangement makes a difference
 
@@ -84,7 +84,7 @@ An experiment observing paired outcomes contains more information than an alloca
 
 Kasy and Sautmann's agricultural recruitment application supplies a documented example of matching experimentation to policy choice. Six recruitment options were tested through an adaptive calling design with 10,000 numbers over seventeen waves. The outcome was completion of five recruitment questions, rather than later agricultural income.[^c12-9]
 
-The design links an observed response to a subsequent choice. It also makes the scope visible: evidence about recruitment cannot establish every benefit of the agricultural service. An application of the comparison-budget framework needs an equally explicit target and observation process.
+The call experiment measured recruitment. To assess the agricultural service's effects on yields or income, researchers would need to follow those outcomes as well. What gets recorded determines which decisions the evidence can support.
 
 A useful study would distinguish assignment chances, observed outcomes, and the effect being estimated. It would ask what can be learned from allocations alone, how checked outcomes change the answer, and how sensitive the conclusion is to plausible feedback rules.
 
@@ -194,11 +194,11 @@ The value of another comparison lies in the choice it can improve. Economics sho
 
 [^c12-2]: Rothamsted Research, [“Why Do We Make Changes to the Long-Term Experiments?”](https://www.rothamsted.ac.uk/news/why-do-we-make-changes-long-term-experiments-rothamsted), January 17, 2024; A. J. Macdonald, ed., *Guide to the Classical and Other Long-Term Experiments, Datasets and Sample Archive*, 2018, reprinted 2019, pp. 5–7 and Broadbalk plan.
 
-[^c12-3]: Electronic Rothamsted Archive, [Rothamsted Sample Archive](https://www.era.rothamsted.ac.uk/asset/rsa), overview and documented applications; *Guide*, p. 6. Samples, metadata and treatment contrasts are distinct assets. No claim that every retained record is worth its cost or that an archive creates an unobserved treatment outcome.
+[^c12-3]: Electronic Rothamsted Archive, [Rothamsted Sample Archive](https://www.era.rothamsted.ac.uk/asset/rsa), overview and documented applications; A. J. Macdonald, ed., *Guide to the Classical and Other Long-Term Experiments, Datasets and Sample Archive*, 2018, reprinted 2019, p. 6.
 
 [^c12-4]: Bearchell, Fraaije, Shaw, and Fitt, [“Wheat Archive Links Long-Term Fungal Pathogen Population Dynamics to Air Pollution”](https://pmc.ncbi.nlm.nih.gov/articles/PMC556271/), *PNAS* 102(15) (2005): 5438–5442, Materials and Methods, “Sample Selection,” “DNA Extraction,” “PCR Assay Development,” and “Validity of PCR Data,” and pathogen-abundance results.
 
-[^c12-5]: R. A. Fisher, [“The Arrangement of Field Experiments”](https://pdixon.stat.iastate.edu/stat571/readings/Fisher%201926.pdf), 1926, original pp. 503–508, reproduced pp. 84–89, particularly replication and randomization. The chapter credits methodological precedent without adopting every historical significance-testing convention or claiming all Rothamsted experiments were randomized.
+[^c12-5]: R. A. Fisher, [“The Arrangement of Field Experiments”](https://pdixon.stat.iastate.edu/stat571/readings/Fisher%201926.pdf), 1926, original pp. 503–508, reproduced pp. 84–89.
 
 [^c12-7]: Tim P. Morris, Ian R. White, and Michael J. Crowther, “Using Simulation Studies to Evaluate Statistical Methods,” *Statistics in Medicine* 38 (2019): 2074–2102, Sections 3.1–3.2 and Table 1, [doi:10.1002/sim.8086](https://doi.org/10.1002/sim.8086). The authors organize simulation design around aims, data-generating mechanisms, estimands, methods, and performance measures. The market example is a proposed application; successful recovery in specified simulated scenarios does not establish that a real market follows those rules.
 

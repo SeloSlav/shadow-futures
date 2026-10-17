@@ -4,9 +4,9 @@
   "checked_on": "2026-10-16",
   "status": "reviewed",
   "target_main_words": 6000,
-  "body_words": 2275,
+  "body_words": 2253,
   "note_words": 273,
-  "draft_sha256": "43ad288827f8f868e92ae50898b3cc1ca9cf4077549e5df756d9870e0c1745da",
+  "draft_sha256": "ac1861c2639e634a81b6b2f80718135c300afe1d73d1353c9ef5b01608720362",
   "source_checks": "Current expanded unpublished tax manuscript and canonical v5 hidden-position passage read directly. Relevant primary predecessor, Swedish agency, CMA order and CEC project/program passages checked with historical dates and version/access boundaries. Public provision additionality and real-company corrective rates not presumed. Sequential review rechecked v5 Section5/E.2 and tax Sections3-7, refreshed Swedish guidance, and read converter/outage passages in directly accessible original CEC PDF via web research.",
   "sources": [
     {
@@ -348,5 +348,15 @@
     "source_checks": "Existing claim-specific checks reused for unchanged facts and published model results. No new interviews, reported trial, welfare estimate or proof certification.",
     "continuity": "Affected explanations and neighboring transitions reviewed; chapter openings/endings checked across the book.",
     "historical_records": "Earlier narrative and review entries remain historical; current reader wording is authoritative."
+  },
+  "editorial_commentary_revision": {
+    "date": "2026-10-17",
+    "manuscript_sha256": "ac1861c2639e634a81b6b2f80718135c300afe1d73d1353c9ef5b01608720362",
+    "body_groups": 1,
+    "notes_rewritten": [],
+    "scope": "Manuscript appraisal and defensive source/novelty commentary replaced by direct economic statements and ordinary citations. Origin explanation links the chosen name to alternative histories, comparison budget and the original impossibility result.",
+    "source_checks": "Existing claim-specific passages reused; no new externally reported experiment, historical scene, legal status or independently certified theorem. Source conditions and four earlier original-passage flags remain internal.",
+    "qualifications_retained": "Observed outcomes, study settings and dates, nonrandomized associations, hypothetical status, proposal ownership and limits of the observation model retained in plain body language.",
+    "review": "Changed prose and relevant neighbors reviewed once. The origin statement expresses the author-requested intellectual connection, not a newly reported biographical event."
   }
 }

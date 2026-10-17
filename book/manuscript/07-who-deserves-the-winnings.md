@@ -48,7 +48,7 @@ For the hypothetical laboratory, the relevant replacement might be an available 
 
 This is why shadow futures need discipline. Replaying history under the same underlying conditions and response rules lets us examine how outcomes vary. Removing an inventor, changing a financing arrangement, or replacing a technology is a separate intervention. We cannot establish the effect of removing a person merely by imagining a less fortunate version of that person's career.[^c6-4]
 
-The LED case also shows what the book's argument leaves open. Detailed technical evidence may establish that a particular change solved a particular obstacle. It may do so convincingly. The harder question of dividing the entire commercial and social return among inventors, employers, predecessors, suppliers, and later producers does not disappear as a result.
+Technical evidence can show that a reactor modification solved a production problem. Dividing the invention's full commercial and social returns among inventors, employers, suppliers and predecessors is a separate question.
 
 The distinction protects the inventor as well as the company. If the original employment payment were low, that fact alone would not show a small contribution. If a later settlement were large, its size alone would not measure the contribution either. Actual payment cannot serve as the evidence for deserved payment without making every existing arrangement certify itself.
 
@@ -78,7 +78,7 @@ Suppose a new contest promised a reward too small to cover even a credible attem
 
 In 2007, the task changed again. DARPA's Urban Challenge required vehicles to negotiate a staged city, deal with other moving traffic, and obey traffic rules. Six of eleven finalists completed it; Carnegie Mellon's Tartan Racing team placed first. A desert finish had not settled performance in traffic. Changing the test could expose a different set of capabilities and produce another winner. The institution kept asking questions beyond who had won its previous prize.[^c6-5]
 
-The comparison budget gives the allocation question a precise meaning in the book's allocation model. It adds the modeled chances of opportunities going outside the current favorite. A cash prize is not itself that budget. A million dollars can reward a contest with many informative attempts, or a demonstration whose outcome was effectively settled in advance.
+The comparison budget adds the modeled chances of opportunities going outside the current favorite. A cash prize is not itself that budget. A million dollars can reward a contest with many informative attempts, or a demonstration whose outcome was effectively settled in advance.
 
 The races left more than a winner's name. How far did a vehicle travel? Did it complete the course within the limit? Could it handle traffic under the new rules? Those observations distinguish failed attempts and successful ones more finely than the payment account does. Any application of the information argument must count that evidence. Discarding it would create an ignorance the actual test did not impose.
 
@@ -136,8 +136,6 @@ Resources devoted to useful engineering can respond differently to tax policy fr
 
 Other participants may change their behavior too. Altered returns can make productive work more attractive, or encourage new attempts to capture privileges. A description of waste alone cannot determine which response dominates.
 
-The tax papers deserve credit for confronting these distinctions. Economics did not begin thinking about productive and unproductive returns when I introduced the comparison budget. The contribution uncertainty argument targets a stronger confidence: the belief that a realized market record must eventually identify the contribution behind every reward with arbitrary precision.
-
 Chapter 3 explains when an expanding allocation record can remain insufficient for universally reliable contribution recovery. A revenue chart cannot establish those conditions. Public finance can still analyze policy without settling every part of an income's history.
 
 The practical implication is to state what information a proposal actually needs. An income-insurance rule might need earnings and eligibility records. A policy encouraging experiments might need evidence about costs and responses. An exact retrospective division of a fortune into contribution and position asks for something more demanding. These projects should not be treated as though they must all pass the same impossible examination.
@@ -176,7 +174,7 @@ The risk argument becomes more constructive once it stops serving as a badge att
 
 ## What I mean by deserving
 
-At some point, evidence leaves us with a choice about what we value. No amount of careful counting can relieve me of stating mine. I favor substantial rewards for useful work and for making valuable experiments possible. I also favor a level of security that lets people survive failure, and practical routes by which capable alternatives can obtain a hearing. Those commitments require argument; they are not findings hidden inside a probability theorem.
+I favor substantial rewards for useful work and for making valuable experiments possible. I also favor a level of security that lets people survive failure, and practical routes by which capable alternatives can obtain a hearing.
 
 For Lockdown, they mean I can admire the recording without believing that its position in one market determines the worth of its makers. I can respect a payment promised under an agreement without insisting that the agreement measured every contribution perfectly. I can want a system that encourages more music while admitting that its winners will not form an exact ranking of effort.
 
@@ -214,22 +212,22 @@ That is the task ahead. Follow the actual inputs, follow what is tested, and dis
 
 [^c6-1]: Matthew J. Salganik, Peter Sheridan Dodds, and Duncan J. Watts, “Experimental Study of Inequality and Unpredictability in an Artificial Cultural Market,” *Science* 311 (2006), 854–856, [full paper](https://www.princeton.edu/~mjs3/salganik_dodds_watts06_full.pdf), pp. 854–855 and Figures 1–3. The particular first-place and fortieth-place rankings come from Salganik's [*Bit by Bit*, Section 4.6.1](https://www.bitbybitbook.com/en/running-experiments/exp-advice/zero-variable-cost/). The study compares markets with different listeners, not cloned people. These ranks do not document musician income, working hours, or personal reactions.
 
-[^c6-2]: Shuji Nakamura, “Background Story of the Invention of Efficient Blue InGaN Light Emitting Diodes,” [Nobel lecture, December 8, 2014](https://www.nobelprize.org/uploads/2018/06/nakamura-lecture.pdf), printed pp. 70 and 72–75, especially the commercial-reactor mismatch, modifications, two-flow design and two-inch growth on pp. 73–74. This is the inventor's retrospective account, with references to technical publications. The chapter attributes the account and uses no invented laboratory scene. The remarks about measurements and attribution are this book's interpretation; the allocation-history result does not erase additional physical evidence.
+[^c6-2]: Shuji Nakamura, [“Background Story of the Invention of Efficient Blue InGaN Light Emitting Diodes”](https://www.nobelprize.org/uploads/2018/06/nakamura-lecture.pdf), Nobel lecture, December 8, 2014, printed pp. 70 and 72–75, especially pp. 73–74.
 
-[^c6-3]: Nichia Corporation, January 11, 2005, [“Nichia Settled with Former Employee over ‘Reasonable Remuneration’”](https://www.nichia.co.jp/en/newsroom/2005/2005_011101.html), opening, settlement scope, payment paragraphs, and company statements 2–4. Announced amounts are JPY608,570,000 remuneration plus JPY235,340,000 interest damages, totaling JPY843,910,000. The company described 191 registered patents, four utility models, 112 pending applications, foreign counterparts, and know-how not disclosed publicly. Its views on risk and contribution are attributed party positions. No independent causal percentage, original trial-award account, or current Japanese-law guidance is claimed.
+[^c6-3]: Nichia Corporation, [“Nichia Settled with Former Employee over ‘Reasonable Remuneration’”](https://www.nichia.co.jp/en/newsroom/2005/2005_011101.html), January 11, 2005, opening, settlement scope and payment paragraphs, and company statements 2–4.
 
 [^c6-4]: Replays preserve parameters, starting conditions, and input and state response rules; interventions change a specified input or policy. A contribution claim therefore requires a defined intervention and horizon, together with assumptions about how the system responds. See Chapter 3.
 
-[^c6-5]: DARPA, [“Grand Challenge” institutional timeline](https://www.darpa.mil/about/innovation-timeline/grand-challenge), first three paragraphs; and [“The DARPA Grand Challenge: Ten Years Later”](https://www.darpa.mil/news/2014/grand-challenge-ten-years-later), March 13, 2014, opening through the 2007 Urban Challenge. The retrospective reports fifteen 2004 starters, a best distance of 7.5 miles, the next-day announcement of another challenge, and the 2007 task and finishers. The courses differed between years. DARPA is the organizer and describes its own program. The chapter uses dated event results, not its broader causal claims about later autonomous driving, and makes no estimated prize-size effect or comparison-budget claim.
+[^c6-5]: DARPA, [“Grand Challenge”](https://www.darpa.mil/about/innovation-timeline/grand-challenge), institutional timeline, first three paragraphs; [“The DARPA Grand Challenge: Ten Years Later”](https://www.darpa.mil/news/2014/grand-challenge-ten-years-later), March 13, 2014, opening through the 2007 Urban Challenge.
 
 [^c6-6]: William R. Kerr, Ramana Nanda, and Matthew Rhodes-Kropf, “Entrepreneurship as Experimentation,” *Journal of Economic Perspectives* 28, no. 3 (2014): 25–48, especially 27–32 and 43–44. [doi:10.1257/jep.28.3.25](https://doi.org/10.1257/jep.28.3.25).
 
 [^c6-7]: Thomas Piketty, Emmanuel Saez, and Stefanie Stantcheva, “Optimal Taxation of Top Labor Incomes: A Tale of Three Elasticities,” *American Economic Journal: Economic Policy* 6, no. 1 (2014): 230–271, especially 230–235. [doi:10.1257/pol.6.1.230](https://doi.org/10.1257/pol.6.1.230).
 
-[^c6-8]: Casey Rothschild and Florian Scheuer, “Optimal Taxation with Rent-Seeking,” *Review of Economic Studies* 83(3) (2016), 1225–1262, DOI [10.1093/restud/rdw017](https://doi.org/10.1093/restud/rdw017). See the [December 2015 author version](https://www.econ.uzh.ch/dam/jcr:e4a3ed75-0645-497b-a7a7-5015f58a15c0/rent_seeking.pdf), abstract and introduction, printed pp. 1–4; the publisher's abstract corroborates the framework and informational warning. Effects depend on substitution and relative returns, including within-activity and across-activity externalities. The chapter offers no tax calibration or empirical classification of a profession.
+[^c6-8]: Casey Rothschild and Florian Scheuer, “Optimal Taxation with Rent-Seeking,” *Review of Economic Studies* 83(3) (2016): 1225–1262, [doi:10.1093/restud/rdw017](https://doi.org/10.1093/restud/rdw017); [December 2015 author version](https://www.econ.uzh.ch/dam/jcr:e4a3ed75-0645-497b-a7a7-5015f58a15c0/rent_seeking.pdf), abstract and introduction, printed pp. 1–4.
 
-[^c6-10]: Robert K. Merton, “The Matthew Effect in Science,” *Science* 159 (1968), 56–63, [full paper](https://garfield.library.upenn.edu/merton/matthew1.pdf), pp. 56–57. Merton credits Harriet Zuckerman's interviews; this book conducted none. Cumulative recognition is an established mechanism. The account does not establish any particular inventor's exact deserved payment. The chapter's security, reward, and opportunity commitments are the author's normative judgments.
+[^c6-10]: Robert K. Merton, “The Matthew Effect in Science,” *Science* 159 (1968): 56–63, [full paper](https://garfield.library.upenn.edu/merton/matthew1.pdf), pp. 56–57.
 
 [^c6-11]: Arnout van de Rijt, Soong Moon Kang, Michael Restivo, and Akshay Patil, “Field Experiments of Success-Breeds-Success Dynamics,” *PNAS* 111 (2014): 6934–6939, especially 6934–6935 and Figure 1. [Article](https://www.eui.eu/Documents/DepartmentsCentres/SPS/Profiles/Van-de-Rijt/PNAS-2014-van-de-Rijt-6934-9-11.pdf).
 
-[^c6-12]: Amit P. Mehta, *United States v. Google*, [liability opinion, August 5, 2024](https://fingfx.thomsonreuters.com/gfx/legaldocs/gdpzmaxjxvw/United%20States%20v%20Google%2020240805.pdf), p. 49, paragraphs 136–137, on the Bing comparison and Project Folly. Chapter 5 supplies the distribution analysis and source boundaries. No budget estimate is inferred.
+[^c6-12]: Amit P. Mehta, *United States v. Google*, [liability opinion, August 5, 2024](https://fingfx.thomsonreuters.com/gfx/legaldocs/gdpzmaxjxvw/United%20States%20v%20Google%2020240805.pdf), p. 49, paragraphs 136–137.

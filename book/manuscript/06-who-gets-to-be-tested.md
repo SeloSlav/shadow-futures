@@ -82,7 +82,7 @@ This is why an information argument should begin with a question rather than a l
 
 ### The product on the bench
 
-Meghani's discussion has a physical counterpart to the search record: a product that outside scientists need to study. Her paper examined a dispute over the regulation of dicamba herbicides. The underlying court opinion, issued in June 2020, described Monsanto's field studies in support of an initial 2016 registration. The company had tested its reformulated herbicide in Georgia and Texas. At that time, it had not made the herbicide available for independent studies.[^c5-16]
+Meghani's discussion has a physical counterpart to the search record: a product that outside scientists need to study. Her paper examined a dispute over the regulation of dicamba herbicides. The underlying court opinion, issued in June 2020, described Monsanto's field studies in support of an initial 2016 registration. The company had tested its reformulated herbicide in Georgia and Texas. At that time, it had not made the herbicide available for independent studies. The court's decision to vacate the registration rested on its assessment of risk.[^c5-16]
 
 There were results, then, and there were experiments. The problem was not an empty file. A developer had produced evidence about its own product, while another route to producing evidence was unavailable. That is different from saying the developer's measurements must have been false. It asks what could be learned by investigators able to choose and carry out their own tests.
 
@@ -204,7 +204,7 @@ Matthew's Gospel tells a brutal story of preemption. Herod hears of a child desc
 
 That question already has an economic literature. Colleen Cunningham, Florian Ederer, and Song Ma studied pharmaceutical acquisitions and subsequent project development. Acquired projects overlapping the buyer's existing drugs were less likely to continue development; the pattern was stronger where competitive pressure was weak. Their research investigates a mechanism through which buying a potential competitor can prevent competition from arriving. These are empirical findings with identification assumptions, not a randomized test of every acquisition.[^c5-preemption]
 
-An acquisition can also finance development that would otherwise stop. The finding is not that buying an entrant always kills a rival. It is that counting today's competing products can miss a consequential decision about tomorrow's possibilities. Preemptive exclusion is an established concern; this book's additional question is what evidence disappears when an alternative loses the chance to develop.
+An acquisition can also finance development that would otherwise stop. Counting today's competing products can miss the consequences of either decision: continued funding may let a project mature, while closure may remove a chance to learn what the entrant could have built.
 
 The Google record must stand on its own findings about distribution and competition. The pharmaceutical study supplies no finding about Google's motives. But it helps state the timing problem: demanding that every prospective rival first produce a mature superior service can be circular when the challenged restriction concerns the route through which that service could mature.
 
@@ -224,11 +224,11 @@ Rewards also carry personal consequences. What does a documented achievement est
 
 [^c5-2]: Mehta, August 2024 opinion, pp. 115–117, especially paragraphs 337–339. The Firefox–Yahoo switch, query-share changes, advertising pressure, and reversal are the court's account. This observed intervention is not an investigator-randomized experiment or an estimate of an invariant default effect.
 
-[^c5-3]: Mehta, August 2024 opinion, pp. 34–39, especially paragraphs 86–93. Query and click feedback can improve service. No claim is made that extra observations are uniformly uninformative or that these data measure the comparison budget.
+[^c5-3]: Mehta, August 2024 opinion, pp. 34–39, especially paragraphs 86–93.
 
 [^c5-5]: Mehta, August 2024 opinion, p. 49, paragraphs 136–137. Human-rated comparisons and the Bing latency comparison supplied internal learning; Project Folly concerns the particular speed-improvement effort described in the record, not every aspect of search quality.
 
-[^c5-6]: Zahra Meghani, “Regulations Matter: Epistemic Monopoly, Domination, Patents, and the Public Interest,” *Philosophy & Technology* 34 (2021): 1449–1474, [full published text](https://link.springer.com/article/10.1007/s13347-021-00467-2), introduction and Section 6. Her governance argument and prior terminology are distinct from the allocation bound; no claim to coinage is made.
+[^c5-6]: Zahra Meghani, “Regulations Matter: Epistemic Monopoly, Domination, Patents, and the Public Interest,” *Philosophy & Technology* 34 (2021): 1449–1474, [published text](https://link.springer.com/article/10.1007/s13347-021-00467-2), introduction and Section 6.
 
 [^c5-7]: *United States v. Google*, [final judgment](https://www.justice.gov/atr/media/1421546/dl?inline=), December 5, 2025, Sections III–V and IX.V, pp. 2–10 and 32–33; Mehta, [remedies opinion](https://docs.justia.com/cases/federal/district-courts/district-of-columbia/dcdce/1%3A2020cv03010/223205/1436), September 2, 2025, introduction and remedy-specific conclusions. The judgment specifies conditional contracts, datasets, syndication, eligibility, safeguards, and tapering. It does not require divestiture of Chrome or ban all search payments.
 
@@ -238,18 +238,18 @@ Rewards also carry personal consequences. What does a documented achievement est
 
 [^c5-10]: Mehta, September 2025 remedies opinion, payment-ban discussion, printed pp. 119–128. Requested relief, anticipated consequences, and ordered relief are distinct. The plaintiffs subsequently challenged rejection of the payment ban on cross-appeal.
 
-[^c5-11]: F. A. Hayek, “Competition as a Discovery Procedure,” 2002 English translation of the 1968 lecture, [full translation](https://ppe.isi.org/wp-content/uploads/2017/12/Lesson-9-Reading-Competition-as-a-Discovery-Process.pdf), pp. 9–11. See Chapter 4 for its lineage and scope.
+[^c5-11]: F. A. Hayek, [“Competition as a Discovery Procedure”](https://ppe.isi.org/wp-content/uploads/2017/12/Lesson-9-Reading-Competition-as-a-Discovery-Process.pdf), 2002 English translation of the 1968 lecture, pp. 9–11.
 
-[^c5-12]: Mehta, September 2025 remedies opinion, user-side data discussion, especially pp. 163–164; December final judgment, Sections IV.B–C. Privacy protections and dataset documentation are substantive parts of access. The book does not assert that every disclosed dataset remains equally useful after safeguards.
+[^c5-12]: Mehta, September 2025 remedies opinion, user-side data discussion, especially pp. 163–164; December final judgment, Sections IV.B–C.
 
 [^c5-13]: Jesper Akesson, Michael Luca, Gemma Petrie, and Kush Amlani, *Can Browser Choice Screens Be Effective?* (2023), [full report](https://research.mozilla.org/files/2023/09/Can-browser-choice-screens-be-effective_-Mozilla-experiment-report.pdf), acknowledgments, executive summary, and experimental design, PDF pp. 2–5, 22–25 and 38–40, especially Table 2 and the T3/T4 comparison. Mozilla commissioned the compensated research. Rounded shares: 11% and 19%; reported difference: 8.2 percentage points. Timing was randomized; the click mechanism is interpretation. Long-run use was not observed.
 
-[^c5-14]: Plaintiffs, [second compliance and enforcement status report](https://www.justice.gov/atr/media/1461926/dl?inline=), September 17, 2026, pp. 2–3 and 10–12. This is a party report, not judicial certification. Scheduled October actions are not evidence of completed filings or delivery. The [public case index](https://www.justice.gov/atr/case/us-and-plaintiff-states-v-google-llc) was checked October 16, 2026.
+[^c5-14]: Plaintiffs, [second compliance and enforcement status report](https://www.justice.gov/atr/media/1461926/dl?inline=), September 17, 2026, pp. 2–3 and 10–12; [public case index](https://www.justice.gov/atr/case/us-and-plaintiff-states-v-google-llc), accessed October 16, 2026.
 
 [^c5-15]: Lee-Anne Mulholland, [Google's appeal statement](https://blog.google/company-news/outreach-and-initiatives/public-policy/why-were-appealing-the-doj-search-distribution-case/), January 16, 2026; plaintiffs, [response and opening cross-appeal brief](https://www.justice.gov/atr/media/1454586/dl?inline=), July 28, 2026, introduction, issues, and cross-appeal. These establish opposing arguments at those dates, not an appellate ruling.
 
-[^c5-16]: *National Family Farm Coalition v. EPA*, June 3, 2020, No. 19-70115, [full court opinion](https://www.govinfo.gov/content/pkg/USCOURTS-ca9-19-70115/pdf/USCOURTS-ca9-19-70115-0.pdf), pp. 5–7 and 27–32. The account of unavailable independent studies concerns Monsanto's pre-2016-registration testing. The court did not resolve the satisfactory-data element; its vacatur rested on the risk assessment. No current product status or general chemical-safety conclusion is inferred.
+[^c5-16]: *National Family Farm Coalition v. EPA*, June 3, 2020, No. 19-70115, [opinion](https://www.govinfo.gov/content/pkg/USCOURTS-ca9-19-70115/pdf/USCOURTS-ca9-19-70115-0.pdf), pp. 5–7 and 27–32.
 
 [^c5-herod]: Matthew 2:1–18, [King James Version](https://www.biblegateway.com/passage/?search=Matthew%202%3A1-18&version=KJV).
 
-[^c5-preemption]: Colleen Cunningham, Florian Ederer, and Song Ma, “Killer Acquisitions,” *Journal of Political Economy* 129, no. 3 (2021): 649–702, especially introduction pp. 649–653 for findings and identification strategy. [Published article](https://www.antitrustinstitute.org/wp-content/uploads/2022/05/0265-Killer-Acquisitions-129-J.-Pol.-Econ.-649-2021.pdf); [DOI](https://doi.org/10.1086/712506). Pharmaceutical setting; no claim all acquisitions suppress development, no imported estimate for technology firms, and no proof of any named technology firm's intent.
+[^c5-preemption]: Colleen Cunningham, Florian Ederer, and Song Ma, “Killer Acquisitions,” *Journal of Political Economy* 129, no. 3 (2021): 649–702, especially pp. 649–653, [published article](https://www.antitrustinstitute.org/wp-content/uploads/2022/05/0265-Killer-Acquisitions-129-J.-Pol.-Econ.-649-2021.pdf), [doi:10.1086/712506](https://doi.org/10.1086/712506).

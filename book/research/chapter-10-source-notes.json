@@ -4,9 +4,9 @@
   "checked_on": "2026-10-16",
   "status": "reviewed",
   "target_main_words": 6000,
-  "body_words": 4466,
-  "note_words": 705,
-  "draft_sha256": "6944a33bca9bdf77ceed0be99822029e3b06ffb657ffd9af9973b562adf998ab",
+  "body_words": 4418,
+  "note_words": 645,
+  "draft_sha256": "6a193c4c25449c0472d7228a011fe1b13683aa0c2e73ff3068b1d82a69454403",
   "source_checks": "Relevant primary passages checked for stated claims. Original Blackwell1953 source gap closed in cross-book audit: publisher scan saved and read, with exact relevant pages recorded; de Oliveira2017 remains separately checked. Prior case checks/version boundaries retained. Current unpublished expanded policy draft read rather than earlier short version. Comparative revision: nine new dated primary records, relevant complete original passages checked; announced objectives, formal terms and actual outcomes separated.",
   "sources": [
     {
@@ -508,5 +508,19 @@
     ],
     "source_checks": "Existing claim-specific checks reused. No new reported result, historical scene, policy implementation claim or proof certification.",
     "review": "Changed passages and immediate neighbors read once; substantive model conditions, other informative observations, source correction, policy costs and the distinction between proposals and findings retained."
+  },
+  "editorial_commentary_revision": {
+    "date": "2026-10-17",
+    "manuscript_sha256": "6a193c4c25449c0472d7228a011fe1b13683aa0c2e73ff3068b1d82a69454403",
+    "body_groups": 2,
+    "notes_rewritten": [
+      "c10-6",
+      "c10-precaution",
+      "c10-nairr"
+    ],
+    "scope": "Manuscript appraisal and defensive source/novelty commentary replaced by direct economic statements and ordinary citations. Origin explanation links the chosen name to alternative histories, comparison budget and the original impossibility result.",
+    "source_checks": "Existing claim-specific passages reused; no new externally reported experiment, historical scene, legal status or independently certified theorem. Source conditions and four earlier original-passage flags remain internal.",
+    "qualifications_retained": "Observed outcomes, study settings and dates, nonrandomized associations, hypothetical status, proposal ownership and limits of the observation model retained in plain body language.",
+    "review": "Changed prose and relevant neighbors reviewed once. The origin statement expresses the author-requested intellectual connection, not a newly reported biographical event."
   }
 }
