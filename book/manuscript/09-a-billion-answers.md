@@ -74,7 +74,7 @@ FrugalGPT's paper includes cases where additional calls are made even though the
 
 For a buyer, an economical cascade might lower the cost of trying alternative services. It might also make comparisons less visible if the final interface reports only one answer and one brand. We should inspect what the system actually records. A useful comparison can occur behind a simple interface, while an interface displaying several logos can conceal dependence on the same underlying service.
 
-The two research programs give AI a positive role in this book's argument. Software can help direct scarce resources toward useful tests and useful service. More expensive machinery need not mean every opportunity becomes more expensive. Better selection and cheaper evaluation can change what is feasible.
+Routing and cascades can make it cheaper to compare services as well as to use them. A buyer who can afford only one expensive answer may be able to check several cheaper ones. Whether that happens depends on what the selection system tests and records.
 
 One distinction is essential before we try to measure a comparison budget. A router's estimate that one model will produce the preferred answer differs from the chance that the request will actually be assigned to that model. RouteLLM uses a predicted preference and a threshold to make its selection. The prediction and the assignment rule do different jobs.
 
@@ -130,7 +130,7 @@ The same caution applies to repeated answers from one system. New requests and n
 
 But generating a thousand responses without a new check does not create a thousand independent confirmations of the underlying claim. If the uncertainty concerns the actual delivery date, the order and its amendments remain relevant evidence. A longer conversation among programs might help interpret them. It cannot make an unread amendment irrelevant by agreeing without it.
 
-Yaneer Bar-Yam's discussion of moving from big data to important information provides a predecessor to this way of asking the question. Detailed records and information useful for understanding an intervention are different. His multiscale framework is not my allocation theorem, but the warning against treating the quantity of detail as an answer to every consequential question belongs in the lineage.[^c8-6]
+Yaneer Bar-Yam's “From Big Data to Important Information” distinguishes detailed records from information useful for understanding an intervention.[^c8-6] For the delivery order, the decisive detail may be an amendment that thousands of generated answers have never checked.
 
 The workplace can act on that warning. It can measure whether the extracted date is correct, whether the answer helped a worker complete the task, and whether a different service changes the result. Each measurement has a purpose. We gain clarity by naming those purposes before admiring the size of the resulting database.
 
@@ -138,13 +138,11 @@ The workplace can act on that warning. It can measure whether the extracted date
 
 Forecasts of the next allocation can converge while explanations of productive contribution remain different. Chapter 3 states the conditions under which that distinction persists.
 
-The statistical distinction is older than this book. David Blackwell and Lester Dubins showed in 1962 how conditional forecasts can merge under an appropriate relationship between probability laws. Hao Zhang later established a different example in spatial statistics where some underlying parameters cannot be consistently recovered even though important prediction can remain effective. Both deserve credit.[^c8-7][^c8-8]
+David Blackwell and Lester Dubins showed in 1962 how conditional forecasts can merge under an appropriate relationship between probability laws. Hao Zhang later established an example in spatial statistics where some underlying parameters cannot be consistently recovered even though important prediction can remain effective.[^c8-7][^c8-8]
 
-That result concerns prediction of a modeled allocation process. Evaluating the truth of an AI answer needs evidence about the answer itself. The two tasks must not be conflated.
+Forecasting which supplier wins an allocation is a different task from checking whether an AI answer is true. The answer needs evidence of its own.
 
 Acceptance, correctness, and causal contribution are separate targets. Predicting that a user accepts an answer does not establish that it is accurate, or identify which investment caused the capability. A common interface does not make the underlying inference identical.
-
-We should also resist reversing the theorem into a general celebration of ignorance. An accurately checked answer teaches us something. A well-designed comparison can identify a performance difference. Some input effects may be learned from additional measurements. The finite-budget result concerns a particular obstacle under particular conditions, rather than a rule that economic evidence must always fail.
 
 For the buyer, the next action could be straightforward. If errors matter, check a suitable sample against the original orders. If supplier choice matters, preserve a meaningful comparison. If a historical attribution claim matters, identify the intervention, horizon, and evidence that could support it. The inquiry becomes more useful as it becomes more specific.
 
@@ -240,11 +238,11 @@ The next chapter asks what happens to the worker. Its subject is the work behind
 
 [^c8-4]: Lihong Li, Wei Chu, John Langford, and Xuanhui Wang, “Unbiased Offline Evaluation of Contextual-bandit-based News Article Recommendation Algorithms,” *WSDM* 2011, 297–306, DOI 10.1145/1935826.1935878; [author version 2](https://arxiv.org/pdf/1003.5956v2), March 1, 2012, Sections 3–4, especially Theorem 1 and the Yahoo study. The theorem assumes independent identically distributed events and uniformly randomized logging; modifications require corresponding conditions. A finite-stream ratio and concentration for arbitrary adaptive algorithms need additional care. Logged policy evaluation differs from a structural replay of economic development.
 
-[^c8-5]: Llama Team, AI at Meta, *The Llama 3 Herd of Models*, [version 3](https://arxiv.org/pdf/2407.21783v3), November 23, 2024, p. 2, paragraph on the flagship model improving smaller models during post-training. The paper's language results concern Llama 3.1. Shared development does not establish identical errors, useless downstream tests, or statistical independence of outputs. Our three storefronts and document-parser examples are explicit illustrations.
+[^c8-5]: Llama Team, AI at Meta, *The Llama 3 Herd of Models*, [version 3](https://arxiv.org/pdf/2407.21783v3), November 23, 2024, p. 2, paragraph on the flagship Llama 3.1 model improving smaller models during post-training.
 
-[^c8-6]: Yaneer Bar-Yam, “From Big Data to Important Information,” *Complexity* 21(S2) (2016), 73–98, DOI 10.1002/cplx.21785; [April 2016 author preprint](https://arxiv.org/pdf/1604.00976), abstract and Sections I–II, pp. 1–3. Credit concerns detail, scale and intervention-relevant information. His framework is an antecedent, not the comparison-budget bound or a general rejection of large datasets.
+[^c8-6]: Yaneer Bar-Yam, “From Big Data to Important Information,” *Complexity* 21(S2) (2016): 73–98, DOI 10.1002/cplx.21785; [April 2016 author preprint](https://arxiv.org/pdf/1604.00976), abstract and Sections I–II, pp. 1–3.
 
-[^c8-7]: David Blackwell and Lester Dubins, “Merging of Opinions with Increasing Information,” *Annals of Mathematical Statistics* 33 (1962), 882–886, [DOI](https://doi.org/10.1214/aoms/1177704456), pp. 882–883 and main theorem. Under the specified absolute-continuity relationship, conditional future laws merge almost surely under the relevant law. This does not establish accurate chatbot statements, agreement of arbitrary observers, or nonlearning of parameters by itself. Chapter 3 explains why predictive merging and contribution identification are different questions.
+[^c8-7]: David Blackwell and Lester Dubins, “Merging of Opinions with Increasing Information,” *Annals of Mathematical Statistics* 33 (1962): 882–886, [doi:10.1214/aoms/1177704456](https://doi.org/10.1214/aoms/1177704456), pp. 882–883 and main theorem.
 
 [^c8-8]: Hao Zhang, “Inconsistent Estimation and Asymptotically Equal Interpolations in Model-Based Geostatistics,” *JASA* 99 (2004), 250–261, [full paper](https://www.stat.purdue.edu/~zhanghao/Paper/JASA2004.pdf), introduction and Section 3, pp. 250–253. Fixed-domain infill can leave individual covariance parameters inconsistent while an identifiable combination supports prediction. This is a prior statistical result, not evidence that any particular AI supplier's contribution is unknowable or that accurate prediction lacks value.
 

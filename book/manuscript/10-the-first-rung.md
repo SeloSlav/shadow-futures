@@ -88,7 +88,7 @@ Staged introduction, comparison of assisted training methods, and assessment on 
 
 Here the distinction between activity and informative opportunity becomes tangible. A company might accumulate millions of AI-assisted edits while losing the practical ability to recruit a comparable group for a particular no-AI trial. The edits could be useful evidence about errors, quality, and day-to-day performance. Their number would not, by itself, answer the missing question about the alternative arrangement.
 
-METR's design difficulty is not an empirical demonstration of my lifetime theorem. No finite comparison budget has been measured here, and the study observes much more than a sequence of winners. It supplies a concrete institutional mechanism: adopting a technology can change which subsequent tests people are willing and able to undertake.
+Adoption can make a tool more useful while making a particular experiment harder to run. METR had to redesign its study because the way developers worked had changed.
 
 ## From tasks to jobs
 
@@ -134,9 +134,9 @@ A portable reputation can help a good worker leave without starting from nothing
 
 Independent assessment, correction of disputed ratings, and context-sensitive records can make reputation contestable. Each costs something, and an existing score may often be useful. The relevant freedom is a workable way to challenge the evidence and obtain another meaningful observation.
 
-For the model's allocation question, the comparison budget adds the chances of assignments outside the current favorite. It counts neither all finished reports nor actual rival wins. Supervisor assessments, practice outcomes, and other informative observations must also enter any application. A shadow future preserves starting conditions and response rules while opportunities unfold differently; a changed training policy is an intervention.
+A supervisor's assessment, a practice task, or a second employer's trial can supply evidence missing from the original rating. A reputation system should leave room for those observations to change its verdict.
 
-The employer still needs deadlines met and people paid. It need not solve perfect merit before organizing work. It can, however, ask whether its selection system permits a meaningful second assessment. The first rung can disappear because a task was automated. It can also disappear because one institution's early verdict travels farther than the worker's practical ability to find another judge.
+The employer still needs deadlines met and people paid. It need not solve perfect merit before organizing work. The first rung can disappear because a task was automated. It can also disappear because one institution's early verdict travels farther than the worker's practical ability to find another judge.
 
 ## Buying a future workforce
 
@@ -202,7 +202,7 @@ These choices depend on institutions as well as contracts. Investment can coexis
 
 [^c9-3]: Same paper, Section VI.B, Figure VII. Chat-level outage analysis measures handling duration, not resolution outcomes unavailable at that granularity. Outages varied in duration and coverage. The authors discuss noisy estimates and possible differences in chat composition. Retained improvements are evidence consistent with learning, rather than proof that all assistance gains persist or that outages randomly assigned a training intervention.
 
-[^c9-4]: Same paper, Section VIII. No compensation data or estimated long-run equilibrium employment response. Demand, hours, staffing, and pay examples are possible responses, not measured findings. The discussion of credit for expert practices raises an attribution and incentive question; it supplies no quantified division of their contribution.
+[^c9-4]: Erik Brynjolfsson, Danielle Li, and Lindsey Raymond, “Generative AI at Work,” *The Quarterly Journal of Economics* 140(2) (2025): 889–942, Section VIII, [doi:10.1093/qje/qjae044](https://doi.org/10.1093/qje/qjae044).
 
 [^c9-5]: Hamsa Bastani, Osbert Bastani, Alp Sungu, Haosen Ge, Özge Kabakcı, and Rei Mariman, [“Generative AI without Guardrails Can Harm Learning”](https://doi.org/10.1073/pnas.2422633122), *PNAS* 122(26), 2025, e2422633122. Relevant full author version: [education_llm.pdf](https://hamsabastani.github.io/education_llm.pdf), pp. 4–11 for design/results and pp. 13–18, Section 4, for message/error analyses. The authors interpret asking-for-answer and engagement patterns as consistent with reliance on supplied solutions; these analyses do not separately randomize each safeguard or establish a unique mediator. Classroom allocation uses the school's random student assignment plus constrained classroom assignment. Individual laptop use was not independently randomized. The outcome is short-run assessment performance. GPT Tutor's unassisted advantage was not statistically established. The August 2025 correction, DOI 10.1073/pnas.2518204122, concerns an affiliation production error, not the results.
 

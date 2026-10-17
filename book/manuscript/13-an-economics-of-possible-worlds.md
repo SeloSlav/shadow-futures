@@ -22,7 +22,7 @@ AI evaluation faces a similar continuity problem. An unchanged benchmark can bec
 
 Broadbalk's plan distinguishes cropping and management histories across treatment strips. The name alone does not identify the ground, treatment, or period producing an observation. The same discipline applies to software: a service label can survive changes in models, interfaces, and review procedures. Version history helps separate those changes from differences in assigned work.
 
-Rothamsted's fields are not a demonstration of my finite-budget theorem. The experiments deliberately observe crop outcomes and many other measurements. The relevant methods and assumptions must fit those observations. What the fields demonstrate institutionally is a willingness to organize production partly around the continued supply of useful evidence.
+The fields yield crops and measurements: harvests, soil conditions, and changes across treated plots. Maintaining those comparisons is part of Rothamsted's productive work. Keeping an experiment going can make questions answerable that an ordinary harvest would leave unresolved.
 
 The future of economics needs more attention to that supply. We already study how resources produce goods and services, how incentives influence behavior, and how uncertainty affects choices. We should also investigate which arrangements let consequential alternatives develop interpretable records, and what is lost when those arrangements disappear.
 
@@ -66,11 +66,11 @@ The remedy is more specific than asking for more data. Which requests entered? H
 
 Fisher's question about apparently similar ground remains useful for economics: what would justify attributing an observed difference to a treatment rather than the allocation process? Designed experiments, credible existing variation, and structural restrictions offer different routes. Counting an outcome accurately does not identify its cause.
 
-Economics has developed extensive methods for such problems. Experimental design, causal inference, structural modeling, sequential learning, and partial identification already treat counterfactual questions seriously. My proposal should enter that conversation with a defined addition, rather than announce the discovery that observed outcomes need explanations.
+Experimental design, causal inference, structural modeling, sequential learning, and partial identification already provide ways to study counterfactual questions. The comparison budget focuses attention on one part of the evidence supply: the accumulated chances that an allocation goes outside the current favorite.
 
-The comparison budget is that addition in the allocation model: the cumulative modeled chance that the next allocation goes outside the current favorite. It bounds specified statistical information under the conditions explained in Chapter 3. The lifetime result requires further assumptions and supplies a particular limit on universally reliable contribution recovery. The object and bound are more precise claims than the general observation that history matters.
+Under the model's conditions explained in Chapter 3, those chances limit how precisely productive contribution can be recovered from the allocation history. A researcher can then ask whether the real market supplies other observations that overcome that limit.
 
-The distinction gives a researcher several ways to challenge the work. Check the proof. Check the observation model. Investigate whether the probabilities can be justified. Ask whether another measured outcome supplies information missing from the allocation record. Examine whether the economic interpretation survives an intervention. These are substantive tests, rather than a choice between believing every market reward and dismissing all of them.
+An application should start with the available records. Does the analyst know the assignment probabilities? Are customer outcomes, independent tests, or other measurements available? Those observations determine whether the model describes the actual information problem.
 
 An empirical study need not begin by claiming that an industry's lifetime budget is finite. A finite record cannot establish that conclusion merely because comparison appears to be slowing. It can investigate a defined horizon, assess uncertainty about the allocation mechanism, and compare feasible ways of producing evidence. That would already be useful progress.
 
@@ -178,35 +178,25 @@ There is a corresponding possibility on the other side. A seemingly efficient ar
 
 ## The record we choose to leave
 
-Rothamsted brings the future back into focus. Its experiments have value because generations of people preserved particular differences and records while making considered changes. The archive later supplied material for questions that did not exist in their modern form at the first harvest. Neither achievement arose from the passage of time alone.
+At Rothamsted, someone had to preserve the samples, label them, and keep the treatment records intelligible. Later researchers could put new questions to that material. An archive that had been discarded could not have answered them.
 
-Markets also leave records. Some emerge from transactions undertaken for immediate profit. Others come from tests, public procurement, independent laboratories, or maintained alternatives. Economics should examine how those arrangements interact, and how current choices change what a later observer will be able to learn.
+Markets leave records too. Some come from ordinary sales; others from deliberate tests. A customer database, a trial's assignment log, and an independent evaluation can help answer different questions. Economics should investigate what each costs to produce and which decisions it can improve.
 
-The comparison budget adds up the modeled chances that an opportunity goes to someone other than the current favorite. Shadow futures follow different histories from the same starting conditions, with the same underlying input effects and response rules. Together, they help us ask what the winner's record can reveal about the work behind it.
+MusicLab gave the same recordings more than one opportunity to develop a following. Lockdown finished first in one world and fortieth in another.[^c12-14] Seeing both charts changes the explanation we can give. An account built around the winning result has to accommodate the other outcome too.
 
-Economists have long studied how early advantages compound. The comparison budget connects that process to the evidence it leaves behind. In the model developed here, the chances remaining outside the favorite limit how precisely productive contribution can be measured. Whether a particular market fits that model requires investigation.
+To judge an institution, follow a decision. A buyer considering a new supplier should be able to use a trial's result. A training program should be able to change when a different method helps beginners. Keeping records, arranging access, and checking outcomes matter when they give someone a workable reason to act.
 
-The practical question is whether another comparison would improve a decision enough to justify its cost. A buyer might fund a pilot, open an interface, use an existing test, or decide that no further experiment is worth buying. The result should be allowed to change what happens next.
-
-We began with Lockdown because its two rankings were visible. Salganik, Dodds, and Watts built separate experimental markets in which the same songs could encounter different social histories. Salganik's account identifies the recording that finished first in one world and fortieth in another. The additional chart was an observation, not an economist's imagined consolation prize.[^c12-14]
-
-That does not tell us the correct price of the song, its musicians' deserved income, or which future market would have been best. It gives us evidence against an explanation that treats one realized ranking as the complete account of what the song could achieve. The useful contrast changes the inference.
-
-Economic institutions can follow this discipline without reproducing MusicLab. A bounded experiment or an existing reliable record can support a narrower, useful decision without settling every contribution. Its value depends on what the evidence changes.
-
-The important future is not always the one in which the underdog wins. It is one in which an alternative can receive a credible hearing when the value of finding out justifies the cost. Production and investigation can then support each other. A successful economy can make things better while leaving a record that helps us understand what better means.
-
-Lockdown's second chart survived because the experiment gave it a place. For the economic choices that remain ahead, the question is which comparisons we will make possible, and which conclusions we will be entitled to draw from the history we choose to leave.
+The value of another comparison lies in the choice it can improve. Economics should help us find where that value is greatest, and how to obtain it.
 
 ## Notes
 
 [^c12-1]: Rothamsted Research, A. J. Macdonald, editor, [*Guide to the Classical and Other Long-Term Experiments, Datasets and Sample Archive*](https://www.rothamsted.ac.uk/sites/default/files/national-capability/long-term-experiments/Web_LTE%20Guidebook_2019%20Final2.pdf), 2018, reprinted 2019, pp. 4–9, especially p. 7. Autumn 1843 sowing and 1844 first harvest distinguished. Treatments varied in the first years; a scheme established in 1852 largely persisted until 1968. Original Broadbalk layout is not described as a modern randomized design.
 
-[^c12-2]: Rothamsted, [“Why Do We Make Changes to the Long-Term Experiments?”](https://www.rothamsted.ac.uk/news/why-do-we-make-changes-long-term-experiments-rothamsted), January 17, 2024, full substantive account; *Guide*, pp. 5–7 and Broadbalk plan. Guide p. 5 distinguishes the late-1940s nitrogen-source comparison problem, Agdell's club-root/turnip problem and 1951 modification, and subsequent liming of arable experiments. Broadbalk's 1968 cultivar/cropping changes appear on p. 7. These are distinct experiments and changes, not a claim that one plot underwent every event. Historical institutional case, not a test of the lifetime information limit.
+[^c12-2]: Rothamsted Research, [“Why Do We Make Changes to the Long-Term Experiments?”](https://www.rothamsted.ac.uk/news/why-do-we-make-changes-long-term-experiments-rothamsted), January 17, 2024; A. J. Macdonald, ed., *Guide to the Classical and Other Long-Term Experiments, Datasets and Sample Archive*, 2018, reprinted 2019, pp. 5–7 and Broadbalk plan.
 
 [^c12-3]: Electronic Rothamsted Archive, [Rothamsted Sample Archive](https://www.era.rothamsted.ac.uk/asset/rsa), overview and documented applications; *Guide*, p. 6. Samples, metadata and treatment contrasts are distinct assets. No claim that every retained record is worth its cost or that an archive creates an unobserved treatment outcome.
 
-[^c12-4]: Bearchell, Fraaije, Shaw, and Fitt, [“Wheat Archive Links Long-Term Fungal Pathogen Population Dynamics to Air Pollution”](https://pmc.ncbi.nlm.nih.gov/articles/PMC556271/), *PNAS* 102(15), 2005, 5438–5442. Materials and Methods, “Sample Selection,” “DNA Extraction” and “PCR Assay Development,” plus “Validity of PCR Data” and pathogen-abundance results: chopped leaf/stem material, liquid-nitrogen powdering, short targets for degraded DNA, plot 10/plot 8 periods and overlap checks. Gaps and exclusions remain; no complete annually sampled single plot is claimed. Sulfur-dioxide association does not establish randomized causal attribution; no disease-control advice.
+[^c12-4]: Bearchell, Fraaije, Shaw, and Fitt, [“Wheat Archive Links Long-Term Fungal Pathogen Population Dynamics to Air Pollution”](https://pmc.ncbi.nlm.nih.gov/articles/PMC556271/), *PNAS* 102(15) (2005): 5438–5442, Materials and Methods, “Sample Selection,” “DNA Extraction,” “PCR Assay Development,” and “Validity of PCR Data,” and pathogen-abundance results.
 
 [^c12-5]: R. A. Fisher, [“The Arrangement of Field Experiments”](https://pdixon.stat.iastate.edu/stat571/readings/Fisher%201926.pdf), 1926, original pp. 503–508, reproduced pp. 84–89, particularly replication and randomization. The chapter credits methodological precedent without adopting every historical significance-testing convention or claiming all Rothamsted experiments were randomized.
 
@@ -216,12 +206,12 @@ Lockdown's second chart survived because the experiment gave it a place. For the
 
 [^c12-10]: James M. Buchanan and Yong J. Yoon, “Symmetric Tragedies: Commons and Anticommons,” *Journal of Law and Economics* 43, no. 1 (2000): 1–13, especially 1–6. [Article](https://faculty.econ.ucsb.edu/~tedb/Courses/UCSBpf/readings/BuchananYoon.pdf).
 
-[^c12-11]: Blackwell and Dubins, [“Merging of Opinions with Increasing Information”](http://www.dklevine.com/archive/refs4565.pdf), 1962, theorem pp. 882–883. Absolute continuity and the relevant observed history matter. Merging alone can coexist with parameter learning in other settings; no theorem about chatbot truth or automatic causal identification.
+[^c12-11]: Blackwell and Dubins, [“Merging of Opinions with Increasing Information”](http://www.dklevine.com/archive/refs4565.pdf), 1962, main theorem, pp. 882–883.
 
-[^c12-12]: Blackwell, [“Equivalent Comparisons of Experiments”](https://doi.org/10.1214/aoms/1177729032), 1953, original pp. 265–267, decision-loss formulation and Theorems 3, 5–6; Section 4 extends the comparison beyond finite outcomes. For the corresponding finite-setting theorem and proof, see de Oliveira’s [November 2017 author paper](https://henriquedeoliveira.com/wp-content/uploads/2020/12/blackwells-informativeness-theorem-using-diagrams.pdf), pp. 1–5, published 2018. Gross decision information differs from net welfare after costs, incentives and interpretation.
+[^c12-12]: David Blackwell, [“Equivalent Comparisons of Experiments”](https://doi.org/10.1214/aoms/1177729032), 1953, pp. 265–267, Theorems 3, 5–6, and Section 4; Henrique de Oliveira, [“Blackwell's Informativeness Theorem Using Diagrams”](https://henriquedeoliveira.com/wp-content/uploads/2020/12/blackwells-informativeness-theorem-using-diagrams.pdf), November 2017 author paper, published 2018, pp. 1–5.
 
 [^c12-13]: Hayek, [“Competition as a Discovery Procedure”](https://ppe.isi.org/wp-content/uploads/2017/12/Lesson-9-Reading-Competition-as-a-Discovery-Process.pdf), 2002 translation by Marcellus S. Snow of the 1968 lecture, pp. 9–11. Prior discovery argument credited; it is not a guarantee of contribution identification or every intervention's benefit.
 
-[^c12-14]: Salganik, Dodds, and Watts, [“Experimental Study of Inequality and Unpredictability in an Artificial Cultural Market”](https://doi.org/10.1126/science.1121066), 2006, pp. 854–856; Salganik, [*Bit by Bit*, Section 4.6.1](https://www.bitbybitbook.com/en/running-experiments/exp-advice/zero-variable-cost/), for Lockdown's first and fortieth ranks. Same recordings across separate experimental markets; neither a reward-income decomposition nor an empirical proof of the lifetime theorem.
+[^c12-14]: Salganik, Dodds, and Watts, [“Experimental Study of Inequality and Unpredictability in an Artificial Cultural Market”](https://doi.org/10.1126/science.1121066), 2006, pp. 854–856; Salganik, [*Bit by Bit*, Section 4.6.1](https://www.bitbybitbook.com/en/running-experiments/exp-advice/zero-variable-cost/), open review edition, n.d.
 
-[^c12-arrow1963]: Kenneth J. Arrow, [“Uncertainty and the Welfare Economics of Medical Care”](https://assets.aeaweb.org/asset-server/files/9442.pdf), *American Economic Review* 53(5), 1963, 941–973, especially pp. 941, 947–951. Historical theoretical account of informational differences, professional expectations and institutional adaptation; not a present medical recommendation, a claim that norms always govern actual behavior, or an application of the comparison-budget theorem.
+[^c12-arrow1963]: Kenneth J. Arrow, [“Uncertainty and the Welfare Economics of Medical Care”](https://assets.aeaweb.org/asset-server/files/9442.pdf), *American Economic Review* 53(5) (1963): 941–973, especially pp. 941, 947–951.

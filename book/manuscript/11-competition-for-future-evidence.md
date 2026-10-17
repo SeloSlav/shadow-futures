@@ -116,7 +116,7 @@ Saying that markets clear does not answer this. Clearing concerns offers that ca
 
 A concentrated future should be evaluated through identifiable mechanisms, reversibility, and feasible safeguards. If independent evaluation could become prohibitively costly, waiting until lost skills and institutions must be rebuilt can itself be consequential. That possibility requires evidence rather than dismissal or assumption.
 
-Hayek's competition as discovery already tells us why unfamiliar possibilities matter. My narrower contribution concerns what a specified allocation history can reveal about productive effects.[^c10-9] The comparison-budget theorem does not prove a centuries-long transition, measure the AI market, or establish that a platform has a finite lifetime comparison budget. It gives us a precise object; the historical and policy extensions need their own evidence.
+Hayek treated competition as a way to discover facts that could not be known in advance.[^c10-9] The question now is how a rival obtains the computing, customers, and tests through which something unexpected can be discovered.
 
 Bell's experience shows why the route has stages. Opening patents supported follow-on innovation outside telecommunications, while the study found a different result within the sector. Permission to use knowledge was not the entire route to a customer.[^c10-8] Publishing an incumbent's records and allowing an entrant to generate new records can therefore accomplish different things. A thousand copies of one history remain copies of one history.
 
@@ -158,7 +158,7 @@ These terms allow publicly supported computing and private ownership of resultin
 
 An access program's value also depends on whether work can continue after an allocation ends. Reproducible tests, transferable records, waiting time, support costs, and displaced private purchases help determine whether it enables additional useful experimentation.
 
-This arrangement does not require Europe to abandon property. Article 17 of the EU Charter protects possessions and intellectual property while allowing regulation of use under specified conditions. Its text supplies neither an automatic license to compel access nor a comparative enforcement score.[^c10-property] The question is which particular rights and duties sustain investment and entry together. Nor is the EU one government: common institutions and member states must still make different parts of an arrangement work.
+Property protection leaves choices about how resources may be used. Article 17 of the EU Charter protects possessions and intellectual property while allowing regulation of use under specified conditions.[^c10-property] The practical choices concern who can use a resource, on what terms, and how investment and entry can continue. Common institutions and member states must still make the different parts of an arrangement work.
 
 America provides a useful challenge to the claim that commitment to private enterprise leaves a state unable to act. The July 2025 AI Action Plan advocates deregulation, but also encourages open models and wider access to computing. It identifies long commitments to large cloud suppliers as an obstacle for many startups and academics, and recommends developing computing markets and the National AI Research Resource, or NAIRR. These are policy recommendations, not proof that the obstacle has disappeared.[^c10-america]
 
@@ -178,7 +178,7 @@ Patient capital and shared computing could support redesign before commercializa
 
 There is a further boundary. China's 2023 interim generative-AI measures encourage innovation and shared infrastructure, while imposing political content requirements on covered services offered to the mainland public. Their scope expressly excludes development and applications that do not provide such public services. That distinction prevents us from treating every private research activity as governed by the same provision. It also prevents us from treating support for computing as equivalent to unrestricted public inquiry.[^c10-china-rules]
 
-An economy could make it easier to try competing industrial designs while restricting which politically unwelcome conclusions a public service may generate. These are different dimensions of discovery. For the book's institutional proposal, independent checking must include the possibility that a commercially or officially favored system fails. Public support for experiments loses part of its value when the resulting evidence cannot be used to challenge the sponsor's preferred conclusion.
+An economy could make it easier to try competing industrial designs while restricting which politically unwelcome conclusions a public service may generate. A test earns little independence if its commercial or public sponsor can suppress an inconvenient result. Researchers need to be able to report that the favored system failed.
 
 An excluded applicant's rights and the ability to report failure therefore belong in the comparison alongside computing and finance. Europe and China cannot be grouped into one alternative to America simply because both may intervene. Nor does a larger public budget settle the question. Follow the attempted product, its tests, and the grounds on which somebody can refuse the next step.
 
@@ -228,7 +228,7 @@ The next chapter asks whether taxation could address conduct that removes useful
 
 [^c10-8]: Watzinger et al., [“How Antitrust Enforcement Can Spur Innovation”](https://www.aeaweb.org/articles?id=10.1257/pol.20190086), 2020; full [June 2017 author version](https://www.uoc.gr/files/items/6/6537/watzinger_et_al.pdf), introduction and institutional/empirical-design sections. Outside-sector finding and telecommunications contrast; patent proxies do not measure total welfare or Bell's comparison budget.
 
-[^c10-9]: Hayek, [“Competition as a Discovery Procedure”](https://ppe.isi.org/wp-content/uploads/2017/12/Lesson-9-Reading-Competition-as-a-Discovery-Process.pdf), 2002, pp. 9–11, Snow translation of the 1968 lecture. Discovery antecedent, not a guarantee of contribution recovery.
+[^c10-9]: F. A. Hayek, [“Competition as a Discovery Procedure”](https://ppe.isi.org/wp-content/uploads/2017/12/Lesson-9-Reading-Competition-as-a-Discovery-Process.pdf), 2002 English translation by Marcellus S. Snow of the 1968 lecture, pp. 9–11.
 
 [^c10-10]: DOJ/FTC, [2023 Merger Guidelines](https://www.justice.gov/atr/media/1329301/dl), overview and Guidelines 2, 3 (observability), 10. Nonprice analysis predates this proposal. Agency guidance, not legislation or particular liability; comparison deficits alone do not meet applicable legal tests.
 
@@ -244,7 +244,7 @@ The next chapter asks whether taxation could address conduct that removes useful
 
 [^c10-europe]: EuroHPC, [Playground call](https://www.eurohpc-ju.europa.eu/playground-access-ai-factories_en), April 9, 2025, Description/capacity notice; [access modes](https://www.eurohpc-ju.europa.eu/ai-factories/ai-factories-access-modes_en), Industrial Innovation; [Terms of Reference](https://www.eurohpc-ju.europa.eu/document/download/bd7aa666-bdf3-4436-b5ec-0b34a781e817_en?filename=Terms+of+Reference+-+AIF+Access+Calls.pdf), V3, March 31, 2026, Sections 1.3–1.4, 2–3.1. Published terms, not delivered capacity or demonstrated additional entry.
 
-[^c10-property]: [EU Charter, Article 17(1)–(2)](https://fra.europa.eu/en/eu-charter/charter/article/17-right-property) and explanations. Formal property protection and qualified regulation; no remedy-specific legal conclusion or comparative enforcement ranking.
+[^c10-property]: [Charter of Fundamental Rights of the European Union, Article 17(1)–(2)](https://fra.europa.eu/en/eu-charter/charter/article/17-right-property), and accompanying explanations.
 
 [^c10-america]: White House, [*America's AI Action Plan*](https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf), July 2025, printed pp. 3–5, deregulation/open-model/access recommendations. Objectives, not established effects or universal model-license terms.
 

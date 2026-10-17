@@ -12,7 +12,7 @@ Nor can the phrase data center tell us what a facility will accomplish. A buildi
 
 In its April report, the IEA estimated that all data centers together consumed about 485 terawatt-hours of electricity in 2025. A terawatt-hour is a billion kilowatt-hours, the unit familiar from electricity bills. Its central projection put consumption at roughly 950 terawatt-hours in 2030. That is an outlook, not an observation from the future, and both totals cover more than AI alone. The seemingly weightless answer occupies a material economy.
 
-We have reached that economy from an argument about rewards. The previous chapter asked how an inventor, a financier, and a worker might have different claims arising from the same achievement. AI gives the question a new scale. Someone must obtain chips, install them, keep them working, and finance the interval before a useful product earns anything.
+Someone must obtain the chips, install them, keep them working, and finance the interval before a useful AI product earns anything.
 
 There are strong reasons for some of that work to occur in large organizations. There are also reasons to ask whether the resulting arrangements let other approaches demonstrate what they can do. Understanding both requires following the power cable into the building.
 
@@ -76,9 +76,7 @@ The listed projects include William Collins's work on large ensembles of weather
 
 INCITE's policy document distinguishes technical readiness from scientific impact. Readiness alone is insufficient for an award. A proposal that needs preparation can be considered for preliminary access through another program. The distinction recognizes a practical problem: a team may need experience with the resource before it can demonstrate readiness to use a large allocation well.
 
-There are choices to evaluate here, rather than a guarantee supplied by public ownership. Reviewers can make mistakes; preparing applications takes effort; access remains scarce. The program's existence does not establish the best selection rule or a measured comparison budget. It shows how sharing one physical operation and preserving several undertakings can be parts of the same institutional design.
-
-Financing an entire facility and qualifying to use an existing one are different barriers to entry. Each selects projects differently and distributes the cost of infrastructure differently. Their effects must be assessed at the relevant layer.
+Shared access replaces one expensive hurdle with another, smaller one: a team can apply for time instead of financing an entire facility. Applications still take work, reviewers can make mistakes, and capacity is scarce. The practical question is which promising projects can now be attempted.
 
 Llama's interruption record also counters an easy version of the information argument. The company plainly learned about its own operation. A failing component, a useful recovery method, or a bottleneck in communication can generate actionable evidence inside one organization. Calling the organization large cannot make that learning disappear.
 

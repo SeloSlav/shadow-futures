@@ -4,9 +4,9 @@
   "checked_on": "2026-10-16",
   "status": "reviewed",
   "target_main_words": 6000,
-  "body_words": 4506,
-  "note_words": 651,
-  "draft_sha256": "33d6861b63fa1969158bfe767a3ac8bf41ee26d13b01a29c27ad6b81de163bc5",
+  "body_words": 4151,
+  "note_words": 472,
+  "draft_sha256": "dbdda655800d063b50d037792abc5c09e30191c863da2cde688778a45630e5ea",
   "source_checks": "Relevant primary passages and direct scanned pages checked with exact version/access boundaries. Earlier substantive checks retained by claim; Blackwell1953 original scan now saved and relevant passages checked in cross-book audit. All council design choices/results fictional. Guide printedpp4-8 re-read; Rothamsted January2024 substantive account refreshed; indexed original Bearchell methods/results rechecked after direct PMC challenge.",
   "sources": [
     {
@@ -387,5 +387,21 @@
     "source_checks": "Existing claim-specific checks reused for unchanged facts and published model results. No new interviews, reported trial, welfare estimate or proof certification.",
     "continuity": "Affected explanations and neighboring transitions reviewed; chapter openings/endings checked across the book.",
     "historical_records": "Earlier narrative and review entries remain historical; current reader wording is authoritative."
+  },
+  "quick_style_revision": {
+    "date": "2026-10-17",
+    "manuscript_sha256": "dbdda655800d063b50d037792abc5c09e30191c863da2cde688778a45630e5ea",
+    "scope": "Worst dense recaps, excessive caveat lists and editorial meta lines rewritten in context; selected notes made ordinary citations.",
+    "body_changes": 3,
+    "notes_rewritten": [
+      "c12-2",
+      "c12-4",
+      "c12-11",
+      "c12-12",
+      "c12-14",
+      "c12-arrow1963"
+    ],
+    "source_checks": "Existing claim-specific checks reused. No new reported result, historical scene, policy implementation claim or proof certification.",
+    "review": "Changed passages and immediate neighbors read once; substantive model conditions, other informative observations, source correction, policy costs and the distinction between proposals and findings retained."
   }
 }

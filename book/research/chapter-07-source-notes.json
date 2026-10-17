@@ -4,9 +4,9 @@
   "checked_on": "2026-10-16",
   "status": "reviewed",
   "target_main_words": 6000,
-  "body_words": 5295,
+  "body_words": 5209,
   "note_words": 852,
-  "draft_sha256": "659382f4b7b3bff9f60684722772b20f99cfd7c17efcc65f1bc74b60e10ebeb6",
+  "draft_sha256": "0eb8cfa44c6f289143201c557cf246a0e2514fcd5852d04ff375abdc2010c0ca",
   "source_checks": "Relevant full primary passages checked in dated reports, versioned technical papers, institutional/operator accounts and original economics. Forecasts, developer/operator statements, allocated opportunities, interpretations and illustrations remain distinct.",
   "sources": [
     {
@@ -283,5 +283,14 @@
     "source_checks": "Existing claim-specific checks reused for unchanged facts and published model results. No new interviews, reported trial, welfare estimate or proof certification.",
     "continuity": "Affected explanations and neighboring transitions reviewed; chapter openings/endings checked across the book.",
     "historical_records": "Earlier narrative and review entries remain historical; current reader wording is authoritative."
+  },
+  "quick_style_revision": {
+    "date": "2026-10-17",
+    "manuscript_sha256": "0eb8cfa44c6f289143201c557cf246a0e2514fcd5852d04ff375abdc2010c0ca",
+    "scope": "Worst dense recaps, excessive caveat lists and editorial meta lines rewritten in context; selected notes made ordinary citations.",
+    "body_changes": 2,
+    "notes_rewritten": [],
+    "source_checks": "Existing claim-specific checks reused. No new reported result, historical scene, policy implementation claim or proof certification.",
+    "review": "Changed passages and immediate neighbors read once; substantive model conditions, other informative observations, source correction, policy costs and the distinction between proposals and findings retained."
   }
 }

@@ -4,9 +4,9 @@
   "checked_on": "2026-10-16",
   "status": "reviewed",
   "target_main_words": 6000,
-  "body_words": 4526,
-  "note_words": 714,
-  "draft_sha256": "de8a762ba93c8ef51cefb9b056c48e9372a2eae4e8f368a0de47e1c76b85f4f2",
+  "body_words": 4466,
+  "note_words": 705,
+  "draft_sha256": "6944a33bca9bdf77ceed0be99822029e3b06ffb657ffd9af9973b562adf998ab",
   "source_checks": "Relevant primary passages checked for stated claims. Original Blackwell1953 source gap closed in cross-book audit: publisher scan saved and read, with exact relevant pages recorded; de Oliveira2017 remains separately checked. Prior case checks/version boundaries retained. Current unpublished expanded policy draft read rather than earlier short version. Comparative revision: nine new dated primary records, relevant complete original passages checked; announced objectives, formal terms and actual outcomes separated.",
   "sources": [
     {
@@ -496,5 +496,17 @@
     "source_checks": "Existing claim-specific checks reused for unchanged facts and published model results. No new interviews, reported trial, welfare estimate or proof certification.",
     "continuity": "Affected explanations and neighboring transitions reviewed; chapter openings/endings checked across the book.",
     "historical_records": "Earlier narrative and review entries remain historical; current reader wording is authoritative."
+  },
+  "quick_style_revision": {
+    "date": "2026-10-17",
+    "manuscript_sha256": "6944a33bca9bdf77ceed0be99822029e3b06ffb657ffd9af9973b562adf998ab",
+    "scope": "Worst dense recaps, excessive caveat lists and editorial meta lines rewritten in context; selected notes made ordinary citations.",
+    "body_changes": 3,
+    "notes_rewritten": [
+      "c10-9",
+      "c10-property"
+    ],
+    "source_checks": "Existing claim-specific checks reused. No new reported result, historical scene, policy implementation claim or proof certification.",
+    "review": "Changed passages and immediate neighbors read once; substantive model conditions, other informative observations, source correction, policy costs and the distinction between proposals and findings retained."
   }
 }

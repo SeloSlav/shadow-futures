@@ -4,8 +4,8 @@
   "checked_on": "2026-10-16",
   "status": "reviewed",
   "target_main_words": 6000,
-  "body_words": 5342,
-  "draft_sha256": "24844ce0ab8579604c7561b1d5c54931837efd3952bc4bb581e4601bbe43ef1d",
+  "body_words": 5288,
+  "draft_sha256": "7822a1e061c08695483153db371f0c28c93e882a4ea7814d3584722c580ccc61",
   "source_checks": "Claim-specific full-source passages checked in identified published or author versions. Kasy-Sautmann correction checked; no independent proof or priority certification claimed.",
   "sources": [
     {
@@ -199,5 +199,16 @@
     "continuity": "Affected explanations and neighboring transitions reviewed; chapter openings/endings checked across the book.",
     "historical_records": "Earlier narrative and review entries remain historical; current reader wording is authoritative."
   },
-  "note_words": 600
+  "note_words": 565,
+  "quick_style_revision": {
+    "date": "2026-10-17",
+    "manuscript_sha256": "7822a1e061c08695483153db371f0c28c93e882a4ea7814d3584722c580ccc61",
+    "scope": "Worst dense recaps, excessive caveat lists and editorial meta lines rewritten in context; selected notes made ordinary citations.",
+    "body_changes": 2,
+    "notes_rewritten": [
+      "c2-6"
+    ],
+    "source_checks": "Existing claim-specific checks reused. No new reported result, historical scene, policy implementation claim or proof certification.",
+    "review": "Changed passages and immediate neighbors read once; substantive model conditions, other informative observations, source correction, policy costs and the distinction between proposals and findings retained."
+  }
 }

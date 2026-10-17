@@ -1,0 +1,290 @@
+{
+  "date": "2026-10-17",
+  "base_commit": "663b411",
+  "scope": "One focused search-led style pass; selected passages and their neighbors, not a repeated whole-book source audit.",
+  "files": [
+    {
+      "file": "book/manuscript/01-introduction.md",
+      "before_sha256": "0930c263801e701694d0497e5e4abcb8af0015fcc4bb30027cd7c6dde79b21fd",
+      "after_sha256": "6da80894d0aa25019e8677c9157e9a098dd59b80e9fb5bf09b6c84983f22bf25",
+      "before_main_words": 3250,
+      "after_main_words": 3169,
+      "before_note_words": 733,
+      "after_note_words": 706,
+      "body_changes": [
+        {
+          "kind": "delete",
+          "old_paragraphs": 1,
+          "new_paragraphs": 0
+        },
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        }
+      ],
+      "notes_rewritten": [
+        "i8"
+      ]
+    },
+    {
+      "file": "book/manuscript/02-the-winner-and-the-explanation.md",
+      "before_sha256": "d9a2225b9fa7d9ed952a05d79aa67f88fba9be911bccca24bf4a4d52ff3a64e2",
+      "after_sha256": "0b6c3ae79a498570086b9bada8850d38a4bb44f6789029d7e85a3461c14d112b",
+      "before_main_words": 5648,
+      "after_main_words": 5626,
+      "before_note_words": 754,
+      "after_note_words": 722,
+      "body_changes": [
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        }
+      ],
+      "notes_rewritten": [
+        "c1-alchian"
+      ]
+    },
+    {
+      "file": "book/manuscript/03-the-comparison-budget.md",
+      "before_sha256": "24844ce0ab8579604c7561b1d5c54931837efd3952bc4bb581e4601bbe43ef1d",
+      "after_sha256": "7822a1e061c08695483153db371f0c28c93e882a4ea7814d3584722c580ccc61",
+      "before_main_words": 5342,
+      "after_main_words": 5288,
+      "before_note_words": 600,
+      "after_note_words": 565,
+      "body_changes": [
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        },
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        }
+      ],
+      "notes_rewritten": [
+        "c2-6"
+      ]
+    },
+    {
+      "file": "book/manuscript/06-who-gets-to-be-tested.md",
+      "before_sha256": "3619ae7a40f374ec91a9a50d09136ddeb88d8fe274659ca63311414ccc27ba0e",
+      "after_sha256": "d4ef58e56cae35a2f4006615f561041b667c800ca90e351d44d05e1e2fcff73c",
+      "before_main_words": 5779,
+      "after_main_words": 5498,
+      "before_note_words": 700,
+      "after_note_words": 674,
+      "body_changes": [
+        {
+          "kind": "replace",
+          "old_paragraphs": 3,
+          "new_paragraphs": 2
+        },
+        {
+          "kind": "delete",
+          "old_paragraphs": 1,
+          "new_paragraphs": 0
+        },
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        },
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        },
+        {
+          "kind": "delete",
+          "old_paragraphs": 1,
+          "new_paragraphs": 0
+        }
+      ],
+      "notes_rewritten": [
+        "c5-herod"
+      ]
+    },
+    {
+      "file": "book/manuscript/08-the-intelligence-factory.md",
+      "before_sha256": "659382f4b7b3bff9f60684722772b20f99cfd7c17efcc65f1bc74b60e10ebeb6",
+      "after_sha256": "0eb8cfa44c6f289143201c557cf246a0e2514fcd5852d04ff375abdc2010c0ca",
+      "before_main_words": 5295,
+      "after_main_words": 5209,
+      "before_note_words": 852,
+      "after_note_words": 852,
+      "body_changes": [
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        },
+        {
+          "kind": "replace",
+          "old_paragraphs": 2,
+          "new_paragraphs": 1
+        }
+      ],
+      "notes_rewritten": []
+    },
+    {
+      "file": "book/manuscript/09-a-billion-answers.md",
+      "before_sha256": "48f7fe4a3cc6c0c0bc76cf487ab3b22423c07be6f4861a9b1166a0f6f56d4773",
+      "after_sha256": "ec3999b44189642cc54d7729f2e8122052daaf190bbe61545480606742fe95e6",
+      "before_main_words": 5139,
+      "after_main_words": 5042,
+      "before_note_words": 801,
+      "after_note_words": 705,
+      "body_changes": [
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        },
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        },
+        {
+          "kind": "replace",
+          "old_paragraphs": 2,
+          "new_paragraphs": 2
+        },
+        {
+          "kind": "delete",
+          "old_paragraphs": 1,
+          "new_paragraphs": 0
+        }
+      ],
+      "notes_rewritten": [
+        "c8-5",
+        "c8-6",
+        "c8-7"
+      ]
+    },
+    {
+      "file": "book/manuscript/10-the-first-rung.md",
+      "before_sha256": "130a28f712867d0ba44a0da5c4b2d66a248f77a3d530ba60442f7542e7ca26bf",
+      "after_sha256": "d352ea3912b8907ef2b7578f49b371d9a52635ee447dd5570cbe3fb8fc736925",
+      "before_main_words": 4643,
+      "after_main_words": 4578,
+      "before_note_words": 761,
+      "after_note_words": 737,
+      "body_changes": [
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        },
+        {
+          "kind": "replace",
+          "old_paragraphs": 2,
+          "new_paragraphs": 2
+        }
+      ],
+      "notes_rewritten": [
+        "c9-4"
+      ]
+    },
+    {
+      "file": "book/manuscript/11-competition-for-future-evidence.md",
+      "before_sha256": "de8a762ba93c8ef51cefb9b056c48e9372a2eae4e8f368a0de47e1c76b85f4f2",
+      "after_sha256": "6944a33bca9bdf77ceed0be99822029e3b06ffb657ffd9af9973b562adf998ab",
+      "before_main_words": 4526,
+      "after_main_words": 4466,
+      "before_note_words": 714,
+      "after_note_words": 705,
+      "body_changes": [
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        },
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        },
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        }
+      ],
+      "notes_rewritten": [
+        "c10-9",
+        "c10-property"
+      ]
+    },
+    {
+      "file": "book/manuscript/13-an-economics-of-possible-worlds.md",
+      "before_sha256": "33d6861b63fa1969158bfe767a3ac8bf41ee26d13b01a29c27ad6b81de163bc5",
+      "after_sha256": "dbdda655800d063b50d037792abc5c09e30191c863da2cde688778a45630e5ea",
+      "before_main_words": 4506,
+      "after_main_words": 4151,
+      "before_note_words": 651,
+      "after_note_words": 472,
+      "body_changes": [
+        {
+          "kind": "replace",
+          "old_paragraphs": 1,
+          "new_paragraphs": 1
+        },
+        {
+          "kind": "replace",
+          "old_paragraphs": 3,
+          "new_paragraphs": 3
+        },
+        {
+          "kind": "replace",
+          "old_paragraphs": 10,
+          "new_paragraphs": 5
+        }
+      ],
+      "notes_rewritten": [
+        "c12-2",
+        "c12-4",
+        "c12-11",
+        "c12-12",
+        "c12-14",
+        "c12-arrow1963"
+      ]
+    }
+  ],
+  "body_change_groups": 24,
+  "notes_rewritten": 16,
+  "main_words_cut": 1101,
+  "note_words_cut": 428,
+  "boundary": "The prologue, newly approved epilogue, formal conditions and bibliography are unchanged. Four existing original theorem-passage verification flags remain internal.",
+  "publication": {
+    "main_words": 63998,
+    "backmatter_words": 12409,
+    "endnotes": 185,
+    "references": 133,
+    "reading_pdf_pages": 269,
+    "paperback_pages": 268,
+    "epubcheck": {
+      "version": "5.3.0",
+      "errors": 0,
+      "warnings": 0,
+      "sha256": "1224548c971cf6541858694c2fde4ea3d399fcf20946713bf722565e0be4a247"
+    },
+    "pdf_integrity": {
+      "status": "passed",
+      "pages": 269,
+      "source_paragraphs_present_in_full": 1508,
+      "internal_links": 502,
+      "external_links": 422,
+      "fonts_embedded": true,
+      "pdf_sha256": "be7e24850c52ec48f3c88031a3f1ccc8dcfb20b2e44774fa952c722420f8691b",
+      "boundary": "Text/geometry/link integrity, not source truth or print approval."
+    },
+    "visual_review": "All twenty changed/adjacent-page previews inspected in three contact sheets; no visible layout defects. Existing unchanged EPUB and cover-layout checks reused.",
+    "reading_pdf_sha256": "be7e24850c52ec48f3c88031a3f1ccc8dcfb20b2e44774fa952c722420f8691b"
+  }
+}

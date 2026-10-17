@@ -4,9 +4,9 @@
   "checked_on": "2026-10-16",
   "status": "reviewed",
   "target_main_words": 6000,
-  "body_words": 4643,
-  "note_words": 761,
-  "draft_sha256": "130a28f712867d0ba44a0da5c4b2d66a248f77a3d530ba60442f7542e7ca26bf",
+  "body_words": 4578,
+  "note_words": 737,
+  "draft_sha256": "d352ea3912b8907ef2b7578f49b371d9a52635ee447dd5570cbe3fb8fc736925",
   "source_checks": "Relevant full primary passages checked for measured outcomes, designs and limits. Published final customer-support record distinguished from author version; learning long version, dated METR studies, published Autor text and robot proof versions explicitly identified. Relevant original Bessen ATM paragraphs were additionally read in indexed publisher text; failed direct fetches, absence of full-PDF inspection and no raw-data replication remain explicit. Agent/capital revision: Original saved Korinek–Suh March 2024 passages checked; theoretical scenarios and hypothetical assets/ownership distinguished.",
   "sources": [
     {
@@ -291,5 +291,16 @@
     "source_checks": "Existing claim-specific checks reused for unchanged facts and published model results. No new interviews, reported trial, welfare estimate or proof certification.",
     "continuity": "Affected explanations and neighboring transitions reviewed; chapter openings/endings checked across the book.",
     "historical_records": "Earlier narrative and review entries remain historical; current reader wording is authoritative."
+  },
+  "quick_style_revision": {
+    "date": "2026-10-17",
+    "manuscript_sha256": "d352ea3912b8907ef2b7578f49b371d9a52635ee447dd5570cbe3fb8fc736925",
+    "scope": "Worst dense recaps, excessive caveat lists and editorial meta lines rewritten in context; selected notes made ordinary citations.",
+    "body_changes": 2,
+    "notes_rewritten": [
+      "c9-4"
+    ],
+    "source_checks": "Existing claim-specific checks reused. No new reported result, historical scene, policy implementation claim or proof certification.",
+    "review": "Changed passages and immediate neighbors read once; substantive model conditions, other informative observations, source correction, policy costs and the distinction between proposals and findings retained."
   }
 }

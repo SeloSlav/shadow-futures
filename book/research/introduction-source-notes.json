@@ -4,8 +4,8 @@
   "checked_on": "2026-10-16",
   "status": "drafted",
   "target_main_words": 3500,
-  "body_words": 3250,
-  "draft_sha256": "0930c263801e701694d0497e5e4abcb8af0015fcc4bb30027cd7c6dde79b21fd",
+  "body_words": 3169,
+  "draft_sha256": "6da80894d0aa25019e8677c9157e9a098dd59b80e9fb5bf09b6c84983f22bf25",
   "source_checks": "Relevant full-source passages checked. Where publisher access failed, the identified author working-paper version or indexed full-source sections were checked; no independent proof or priority certification is claimed.",
   "sources": [
     {
@@ -220,5 +220,16 @@
     "continuity": "Affected explanations and neighboring transitions reviewed; chapter openings/endings checked across the book.",
     "historical_records": "Earlier narrative and review entries remain historical; current reader wording is authoritative."
   },
-  "note_words": 733
+  "note_words": 706,
+  "quick_style_revision": {
+    "date": "2026-10-17",
+    "manuscript_sha256": "6da80894d0aa25019e8677c9157e9a098dd59b80e9fb5bf09b6c84983f22bf25",
+    "scope": "Worst dense recaps, excessive caveat lists and editorial meta lines rewritten in context; selected notes made ordinary citations.",
+    "body_changes": 2,
+    "notes_rewritten": [
+      "i8"
+    ],
+    "source_checks": "Existing claim-specific checks reused. No new reported result, historical scene, policy implementation claim or proof certification.",
+    "review": "Changed passages and immediate neighbors read once; substantive model conditions, other informative observations, source correction, policy costs and the distinction between proposals and findings retained."
+  }
 }
