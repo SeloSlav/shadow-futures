@@ -18,7 +18,7 @@ The engineers also asked what happens when an image changes between visits. A me
 
 Getting somebody to press play was not enough, either. A striking picture could attract an audience that soon abandoned the film. The engineers described using the quality of engagement when labeling their observations, to avoid rewarding that kind of clickbait. Now the record needed to connect the member, title, image, and subsequent response. A million presentations would be less revealing if the file lost those connections.[^c2-1]
 
-The comparison budget names one feature of the process producing such records: accumulated allocation chance outside the current favorite. Brief probability examples will make that accounting concrete before the documented systems show what an application additionally requires.[^c2-2]
+The comparison budget names one feature of the process producing such records: accumulated allocation chance outside the current favorite. Brief probability examples will make that accounting concrete before the documented systems show what an application additionally requires.
 
 ### What we add up
 
@@ -36,13 +36,13 @@ Calling this a budget does not mean that somebody deposited a fixed fund of expe
 
 With three alternatives, an eight-in-ten chance for the favorite leaves a combined two-in-ten chance outside it. Adding another name changes nothing if it receives no chance and the existing probabilities remain the same. A longer directory is not itself a larger comparison budget.
 
-Conversely, a company can preserve a variety of informative trials while remaining a single company. Netflix's account of artwork experimentation illustrates the institutional possibility. A legal organization and an alternative being tested are different units of description. Before counting, we must specify which allocations and which alternatives are relevant to the question. The number of corporate registrations cannot perform that work for us.
+A company can preserve a variety of informative trials while remaining a single company, as Netflix's artwork experiments show. For image selection, the relevant alternatives are the pictures users could see. Counting corporate registrations would count something else.
 
-The definition is intentionally narrower than a general index of competition. It does not put the quality of a service, its price, a worker's income, and a consumer's enjoyment into one score. Those things may matter greatly. The comparison budget describes a feature of the opportunities through which evidence can emerge. To evaluate the consequences of changing it, we need to connect those opportunities with useful information and consequential decisions.
+The comparison budget describes opportunities through which evidence can emerge. It leaves service quality, price, workers' incomes, and consumers' enjoyment to be assessed separately. Its economic value depends on what those opportunities reveal and which decisions the evidence improves.
 
 The allocation needs a consistent unit. For a study of image selection, candidate images could be the alternatives and a presentation the allocated opportunity. Whether somebody subsequently plays the film is an additional outcome. For a procurement study, suppliers and contracts could take those roles instead. We cannot count presentations for one question, switch to completed plays for another, and call the resulting total the same budget. The definition becomes useful by fixing the economic question and the process before counting.
 
-In the models underlying this book, that connection takes a precise form. When verified productive inputs enter the allocation rule in the specified way, and their differences remain within the stated bounds, the comparison budget places an upper limit on the information the allocation history provides about their effects. The scarcity of outside chances can therefore limit how precisely contribution can be recovered from the record. A large budget, by itself, provides no matching guarantee.[^c2-2]
+When verified productive inputs enter the allocation rule in my model, and their differences remain within the stated bounds, the comparison budget places an upper limit on the information the allocation history provides about their effects. Scarce outside chances can therefore limit how precisely contribution can be recovered from the record. A large budget can still leave attribution unresolved if the trials never distinguish the relevant inputs.
 
 ### The news story that was not shown
 
@@ -78,13 +78,13 @@ By varying connection recommendations and following later employment outcomes, L
 
 What made a tie weak? The researchers used both the number of mutual connections and the intensity of bilateral messaging. These measures describe different relationships: knowing few of the same people and rarely exchanging messages need not coincide. Moderately weak ties did best by the mutual-connections measure; the weakest ties did best by interaction intensity. Even the practical meaning of trying a different connection depended on the measurement.[^c2-8]
 
-The authors also examined the risk that treating one member could affect another member's outcomes. Networked experiments face this problem because people are connected. We should not call two routes independent simply because different people or different accounts appear on them. Their relationship is part of what the design must investigate. This caution applies just as readily when several suppliers depend on a common distribution channel.[^c2-8]
+The authors also examined the risk that treating one member could affect another member's outcomes. Connected people can affect one another even when their accounts appear separately in the data. Suppliers sharing a distribution channel can likewise share influences that a comparison has to account for.[^c2-8]
 
 A network can improve access to opportunities while complicating attribution of their causes. References, connections, and observed performance need to be distinguished in an account of how the next allocation occurs.
 
 ### Two long futures
 
-Suppose the chance outside the favorite stays at one in a thousand at every allocation. Each opportunity adds a thousandth to the budget. A thousand opportunities add one; another thousand add another one. The process is heavily concentrated, but its accumulated outside chance keeps growing.[^c2-2]
+Suppose the chance outside the favorite stays at one in a thousand at every allocation. Each opportunity adds a thousandth to the budget. A thousand opportunities add one; another thousand add another one. The process is heavily concentrated, but its accumulated outside chance keeps growing.
 
 Concentration and a finite lifetime comparison budget are therefore different properties. A tiny chance that persists differs from a chance that vanishes quickly enough for its total to remain bounded. Nor does either calculation promise that awards arrive on schedule or reveal an informative input contrast.
 
@@ -98,11 +98,11 @@ The halving schedule is an accounting illustration, not a fitted model of a name
 
 The schedules expose a distinction ordinary language can blur. A very small chance may feel equivalent to none when deciding whether to make one costly attempt. For what an indefinitely long record can reveal, persistence matters: a long sequence can accumulate what each opportunity adds only in a tiny amount.
 
-The relevant time horizon matters too. A business, worker, or policymaker may need an answer long before an indefinitely accumulating process becomes helpful. An infinite lifetime budget could coexist with painfully little relevant opportunity over five years. The finite-record limit is therefore important in its own right. We should ask what can be learned in time for the decision, rather than using an eventual possibility as a reason to dismiss present ignorance.
+A business, worker, or policymaker may need an answer long before an indefinitely accumulating process becomes helpful. An infinite lifetime budget could coexist with painfully little relevant opportunity over five years. A trial available after the purchasing decision cannot inform that purchase.
 
 Nor can the opposite inference be made automatically. A finite amount of opportunity need not leave every practical question unresolved. A buyer might already have enough evidence to choose a service sensibly. The stronger issue is a promise of reliable, increasingly precise attribution throughout the admissible explanations of the model. That is a more demanding promise than choosing an option that works well with the information currently available.
 
-For Netflix's illustration, the immediate decision might be which image to show a particular member. For the public procurement example, it might be whether another supplier merits a pilot. We should specify that decision before evaluating whether the available comparison is adequate. A budget is an input to the inquiry. It does not tell us that every uncertainty deserves to be eliminated before anybody may act.
+Netflix might need to choose an image for a member; a public buyer might need to decide whether another supplier merits a pilot. Each can act with some uncertainty remaining. The useful comparison is one that could improve the decision enough to justify its cost.
 
 ### How a lead can close a contest
 
@@ -110,13 +110,13 @@ There is a long mathematical history behind the difference between feedback that
 
 The urn isolates a feedback rule: an earlier draw changes the chances of later draws. Changing that rule can change how the sequence develops, even when every version can be described casually as success breeding success.
 
-In the familiar version, adding a ball of the drawn color can change the long-run proportions while other colors continue to appear. The history can become unequal and still keep producing comparisons. To find out whether those chances have a finite lifetime total, we need to examine how the rule changes them after each draw.
+In the familiar urn, adding a ball of the drawn color can change long-run proportions while other colors continue to appear. Unequal histories can still keep producing comparisons. The rule governing each addition determines whether the outside chances have a finite lifetime total.
 
 A stronger version gives accumulated success a much more powerful effect on the next selection. For a simple example, imagine weights that grow with the square of the accumulated score: doubling a score quadruples its weight. Research on appropriate strong-feedback models establishes a striking outcome. After some finite, random point, a single alternative receives every subsequent allocation. The result depends on the specified reinforcement conditions, not merely on a large lead.[^c2-5]
 
 Roberto Oliveira studied the onset of such dominance, building on earlier monopoly results. Thomas Gottfried and Stefan Grosskinsky later distinguished several feedback regimes, including strong and weaker forms of monopoly. Their results explain how different reinforcement rules can produce different forms of dominance.[^c2-5]
 
-What the comparison budget adds is an information question about the resulting record. In the strong-feedback model developed here, the remaining chances outside the eventual winner are summable. The budget stays finite. Under the other conditions of the attribution result, indefinitely extending that single allocation record cannot supply a universally reliable recovery of the contribution effect. The prior dominance result and the information interpretation do different jobs.[^c2-2]
+What the comparison budget adds is an information question about the resulting record. In the strong-feedback model developed here, the remaining chances outside the eventual winner are summable. The budget stays finite. Under the other conditions of the attribution result, indefinitely extending that single allocation record cannot supply a universally reliable recovery of the contribution effect. The prior dominance result and the information interpretation do different jobs.
 
 There is a feature here worth holding onto. An alternative can retain a positive chance at every finite stage, yet receive no further awards along the realized history. A positive chance is not a promise of an eventual event. When those chances get small quickly enough, their continuing existence need not create an endless supply of informative deviations. Nominal eligibility and sustained practical contestability can therefore diverge within a precisely specified model.
 
@@ -146,7 +146,7 @@ An institution can therefore preserve comparison while making increasingly selec
 
 ### What a large budget cannot buy
 
-Equal chances at every allocation would make the budget grow, but still need not identify an input effect. If the measured input is identical across the alternatives, reallocating awards changes the recipient without creating the contrast needed to learn that input's effect.[^c2-2]
+Equal chances at every allocation would make the budget grow, but still need not identify an input effect. If the measured input is identical across the alternatives, reallocating awards changes the recipient without creating the contrast needed to learn that input's effect.
 
 For a less abstract picture, imagine testing two artwork files that display exactly the same image. More exposures can help estimate how that image performs with particular audiences. They cannot reveal the difference between the two visual treatments because the treatments do not differ. A system can create a great deal of nominal variation while leaving the intended comparison untouched. Counting chances is necessary for one bound; it is insufficient for a guarantee.
 
@@ -156,7 +156,7 @@ Yaneer Bar-Yam's distinction between large quantities of detailed data and infor
 
 Yahoo's article evaluation depended on randomized logging and observed responses. The farmer calls depended on the measured completion outcome and adaptive assignment. In each case, the record's usefulness followed from how it was generated, rather than its size alone.
 
-Suppose the buyer can obtain an independent performance test without awarding another full contract. That test belongs in the analysis. If it distinguishes effects the award history leaves uncertain, the observer now has a different experiment from the allocation-only record. Applying an information limit while excluding the new test would manufacture a conclusion about ignorance by removing evidence from consideration.
+A buyer might obtain an independent performance test without awarding another full contract. If that test distinguishes effects the award history leaves uncertain, it adds information to the record. The allocation-only limit then describes only part of what the buyer can observe.
 
 Likewise, known selection probabilities can be useful information, not merely quantities an analyst may assume into existence. A designed experiment may log them. An ordinary market may require estimates based on observed rules and behavior. If obtaining those estimates supplies additional information about contribution, that information has to be counted. An empirically defensible budget needs a defensible observation model alongside it.
 
@@ -170,11 +170,11 @@ Microsoft's Bing supplies a particularly direct challenge to the idea that the n
 
 One example involved adding links within advertisements so people could navigate directly to parts of an advertiser's site. The initial version increased revenue but worsened user metrics and page-loading time. Adjusting the presentation, including how many main advertisements appeared, changed that balance. The investigators were tracking more than a single increase in a commercial total. A result that looked attractive on one outcome still needed interpretation alongside others.[^c2-9]
 
-That example gives a practical meaning to a question we have repeatedly asked of the supplier record. Which outcome was measured? If we keep only a revenue increase, we lose part of what the experiment revealed. If we keep only the existence of a large company, we lose the comparisons it arranged. The informative object is the combination of the intervention, assignment, recorded responses, and decision, rather than a favorable statistic standing alone.
+Keeping only the revenue increase would lose part of what Bing's experiment revealed. Keeping only the company's size would lose the comparisons it arranged. The useful evidence combined an intervention, assignment, recorded responses, and a decision about which outcomes mattered.
 
-It also illustrates the difference between a proposed improvement and an improvement demonstrated on relevant outcomes. The extra links offered a plausible convenience. Testing allowed the organization to discover consequences that the proposal's rationale had not settled. A company can have skilled designers and still benefit from creating occasions on which their expectations meet a comparison. The trial does not diminish their skill; it helps direct it.
+The extra links offered a plausible convenience. Testing revealed consequences the designers had not settled in advance. Their skill helped create the proposal; comparison helped decide how to improve it.
 
-The public question remains broader. An experiment inside a company can be valuable for its chosen decision while leaving questions about market access or independent suppliers unresolved. We should credit the first accomplishment without pretending it answers the second. A business may preserve many comparisons concerning its own product and few concerning alternative economic arrangements. Each claim must identify the question and the information set to which it refers.
+A business can test many changes to its own product while leaving independent suppliers little opportunity to demonstrate theirs. Bing's internal trials can improve Bing without answering how another provider would perform with a route to users.
 
 Sometimes the missing comparison calls for another supplier. Sometimes a company can learn more cheaply by changing its own trial or using records it already keeps. The question is which route will reveal something useful about the decision at hand, and what it will cost.
 
@@ -194,24 +194,22 @@ Learning can strengthen the case for an incumbent. An artwork experiment can con
 
 The comparison budget measures the accumulated allocation chance outside the current favorite. What those chances reveal depends on the inputs, observed outcomes, and response rules. Preserving more comparison is worthwhile when the resulting evidence improves decisions enough to justify its cost.
 
-The next chapter examines the histories left unrealized. Holding underlying conditions and response rules fixed makes it possible to distinguish variation in outcomes from the effect of changing the economy itself. That distinction is essential to explaining a reward.
+A different early award could produce another history under the same rules. Changing those rules could produce a different economy. Explaining a reward requires knowing which comparison is being made.
 
 ## Notes
 
 [^c2-1]: Ashok Chandrashekar, Fernando Amat, Justin Basilico, and Tony Jebara, [“Artwork Personalization at Netflix”](https://netflixtechblog.com/artwork-personalization-c589f074ad76), Netflix TechBlog, December 7, 2017, sections “Challenges,” “Contextual bandits approach,” and “Performance evaluation.”
 
-[^c2-2]: The information bound uses a conditional-logit allocation model with bounded differences in input profiles. The lifetime limit additionally requires common predictable design, local equivalence, comparison-dominated separation, and an almost-surely finite comparison budget. All informative observed outcomes must be included. An infinite budget alone need not identify contribution, and almost-sure finiteness does not imply finite expectation. Chapter 3 explains these distinctions. The supplier probabilities and halving schedule are hypothetical.
+[^c2-3]: Lihong Li, Wei Chu, John Langford, and Robert E. Schapire, “A Contextual-Bandit Approach to Personalized News Article Recommendation,” *Proceedings of WWW 2010*: 661–670, [doi:10.1145/1772690.1772758](https://doi.org/10.1145/1772690.1772758). See arXiv version 2 (2012), Sections 2.1, 4, and 5.2.1, [full paper](https://arxiv.org/pdf/1003.0146).
 
-[^c2-3]: Lihong Li, Wei Chu, John Langford, and Robert E. Schapire, “A Contextual-Bandit Approach to Personalized News Article Recommendation,” *Proceedings of WWW 2010*: 661–670, [doi:10.1145/1772690.1772758](https://doi.org/10.1145/1772690.1772758). See arXiv version 2 (2012), Sections 2.1, 4, and 5.2.1, [full paper](https://arxiv.org/pdf/1003.0146). Offline replay assumes the stated encounter distribution and randomized logging; the experiment records click outcomes as well as selection. It is distinct from replaying a reinforced economic history under unchanged starting conditions and response rules.
+[^c2-4]: Robin Pemantle, “A Survey of Random Processes with Reinforcement,” *Probability Surveys* 4 (2007): 1–79, [doi:10.1214/07-PS094](https://doi.org/10.1214/07-PS094). See Section 2.1, especially pp. 3–5, for the classical urn and its variants, [full survey](https://arxiv.org/pdf/math/0610076).
 
-[^c2-4]: Robin Pemantle, “A Survey of Random Processes with Reinforcement,” *Probability Surveys* 4 (2007): 1–79, [doi:10.1214/07-PS094](https://doi.org/10.1214/07-PS094). See Section 2.1, especially pp. 3–5, for the classical urn and its variants, [full survey](https://arxiv.org/pdf/math/0610076). The elementary urn is a credited mathematical thought experiment, not an empirical description of a procurement market.
-
-[^c2-5]: Roberto Imbuzeiro Oliveira, “The Onset of Dominance in Balls-in-Bins Processes with Feedback,” *Random Structures & Algorithms* 34 (2009): 454–477, [doi:10.1002/rsa.20261](https://doi.org/10.1002/rsa.20261). The author preprint's introduction and Theorem 1, pp. 1–2, credit earlier monopoly results, [full preprint](https://arxiv.org/pdf/math/0510415). Thomas Gottfried and Stefan Grosskinsky, “Asymptotics of Generalized Pólya Urns with Non-Linear Feedback,” *Electronic Journal of Probability* 29 (2024): 1–56, [doi:10.1214/24-EJP1157](https://doi.org/10.1214/24-EJP1157); see arXiv version 3, Sections 2.1–2.3, especially Theorem 2.2, [full preprint](https://arxiv.org/pdf/2303.01210). Strong and weak monopoly are distinct. The contribution result in Chapter 3 requires further information assumptions.
+[^c2-5]: Roberto Imbuzeiro Oliveira, “The Onset of Dominance in Balls-in-Bins Processes with Feedback,” *Random Structures & Algorithms* 34 (2009): 454–477, [doi:10.1002/rsa.20261](https://doi.org/10.1002/rsa.20261). The author preprint's introduction and Theorem 1, pp. 1–2, credit earlier monopoly results, [full preprint](https://arxiv.org/pdf/math/0510415). Thomas Gottfried and Stefan Grosskinsky, “Asymptotics of Generalized Pólya Urns with Non-Linear Feedback,” *Electronic Journal of Probability* 29 (2024): 1–56, [doi:10.1214/24-EJP1157](https://doi.org/10.1214/24-EJP1157); see arXiv version 3, Sections 2.1–2.3, especially Theorem 2.2, [full preprint](https://arxiv.org/pdf/2303.01210).
 
 [^c2-6]: Maximilian Kasy and Anja Sautmann, “Adaptive Treatment Assignment in Experiments for Policy Choice,” *Econometrica* 89 (2021): 113–132, [doi:10.3982/ECTA17527](https://doi.org/10.3982/ECTA17527), pp. 113–114 and Section 6, pp. 122–123, [full published paper](https://maxkasy.github.io/home/files/papers/adaptiveexperimentspolicy.pdf); authors' [November 10, 2021 correction](https://maxkasy.github.io/home/files/papers/correction_adaptiveexperimentspolicy.pdf), especially corrected Theorem 1.
 
 [^c2-7]: Yaneer Bar-Yam, “From Big Data to Important Information,” *Complexity* 21, supplement 2 (2016): 73–98, [doi:10.1002/cplx.21785](https://doi.org/10.1002/cplx.21785), abstract and Sections I–II; [author preprint](https://arxiv.org/pdf/1604.00976).
 
-[^c2-8]: Karthik Rajkumar, Guillaume Saint-Jacques, Iavor Bojinov, Erik Brynjolfsson, and Sinan Aral, “A Causal Test of the Strength of Weak Ties,” *Science* 377 (2022): 1304–1310, [doi:10.1126/science.abl4476](https://doi.org/10.1126/science.abl4476). See design and main results, pp. 1304–1309; tie-strength definitions, pp. 1305–1306; and interference discussion, pp. 1309–1310, [full paper hosted by MIT](https://ide.mit.edu/wp-content/uploads/2022/09/abl4476.pdf). The different hypothetical career record is an illustration. Observed jobs in the experimental population are not all jobs caused by the experiment.
+[^c2-8]: Karthik Rajkumar, Guillaume Saint-Jacques, Iavor Bojinov, Erik Brynjolfsson, and Sinan Aral, “A Causal Test of the Strength of Weak Ties,” *Science* 377 (2022): 1304–1310, [doi:10.1126/science.abl4476](https://doi.org/10.1126/science.abl4476). See design and main results, pp. 1304–1309; tie-strength definitions, pp. 1305–1306; and interference discussion, pp. 1309–1310, [full paper hosted by MIT](https://ide.mit.edu/wp-content/uploads/2022/09/abl4476.pdf).
 
 [^c2-9]: Ron Kohavi, Alex Deng, Brian Frasca, Toby Walker, Ya Xu, and Nils Pohlmann, “Online Controlled Experiments at Large Scale,” *Proceedings of KDD 2013*: 1168–1176, [doi:10.1145/2487575.2488217](https://doi.org/10.1145/2487575.2488217); [author version](https://www.exp-platform.com/Documents/2013%20controlledExperimentsAtScale.pdf), introduction and Section 1.1, pp. 1–2.

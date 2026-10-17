@@ -20,9 +20,9 @@ There are strong reasons for some of that work to occur in large organizations. 
 
 At Oak Ridge National Laboratory, preparations for the Frontier supercomputer involved a cooling plant, elaborate piping, and foundations capable of carrying cabinets weighing four tons apiece. The laboratory's published construction account records a failed joint in a large pipe during a pressure test. Water poured out; the team identified the failed weld and repaired it. Before the computer could do its work, the building had to survive the plumbing.[^c7-2]
 
-The failed weld belongs in the account of the machine. Buying processors had not completed the job; the supporting systems had to pass their own tests. The pressurized pipe offered a plain measure: a joint had to hold before the planned operation could proceed. Acknowledging that work does not require calculating the crew's share of every future scientific discovery the computer will support.
+Buying processors had not completed the job. The supporting systems had to pass their own tests. A joint in a pressurized pipe had to hold before the planned operation could proceed. Its usefulness was clear long before anyone could divide the value of the discoveries the machine might support.
 
-Frontier is a scientific supercomputer with that proper name. When people call an AI model a frontier model, they mean something different: a system near the leading edge of relevant capabilities at a particular time. The distinction is worth making before the language conceals the machinery. A leading model is produced and operated on physical systems; it is not the building itself.
+Frontier is a scientific supercomputer with that proper name. A frontier AI model is a system near the leading edge of relevant capabilities at a particular time. Such a model is produced and operated on physical systems; it is not the building itself.
 
 Begin with the chips. An accelerator is a processor designed to carry out suitable computations efficiently, often by performing many operations in parallel. Graphics processing units, or GPUs, became central tools for this work. A collection of them does not automatically behave like one enormous, dependable computer. They need data, memory, connections, and software that assigns and coordinates the work.
 
@@ -36,7 +36,7 @@ At LUMI, the European supercomputer in Kajaani, Finland, the operator describes 
 
 The important feature is the connection between activities. A facility in one place may be near a usable heat network; another may have no comparable outlet. A household's demand for heating can vary with the season while the computer's workload follows a different schedule. Evaluating the arrangement requires following those actual uses and alternatives.
 
-The LUMI example therefore makes location more than a choice about cheap land. There must be a practical way to move useful heat to people who need it. We should ask what heating it replaces and what equipment and operating costs the transfer requires. The operator's description establishes a particular use; the wider economic judgment needs a wider account.
+LUMI's location offers a practical route for moving waste heat to people who need it. Its wider economic benefit depends on the heating it replaces and the equipment and operating costs of the transfer.
 
 That is relevant to a comparison of AI factories even when they offer similar services. Their private accounts can omit different benefits and costs falling outside their walls. A meter reading alone does not identify those effects. Neither does a claim that all computation is virtual. The heat has to go somewhere, and in Kajaani some of it goes into homes.
 
@@ -44,7 +44,7 @@ Counting processors can miss those differences. Counting electricity can miss wh
 
 The Oak Ridge construction record makes the missing work visible. Someone had to discover the defect during testing and correct it. That is a contribution we can describe concretely. We do not need an exact division of the supercomputer's lifetime scientific value to acknowledge that preventing a failed pipe from interrupting operation is useful.
 
-The same lesson applies to AI facilities. Engineering competence can be real and consequential even when we cannot infer its entire economic contribution from the winning company's market position. Respect for physical accomplishment and caution about retrospective attribution belong together.
+Engineering competence can determine whether an AI facility works. Its share in the winning company's eventual fortune is harder to recover. The operating machine demonstrates an accomplishment; explaining the income requires further evidence.
 
 ## Keeping the chips working
 
@@ -54,7 +54,7 @@ The two facts belong together. Reporting the interruptions alone would make the 
 
 A single failed GPU could require the entire training job to restart. A processor that still worked but ran slowly could hold back thousands of others. Meta's report describes tools for finding those stragglers. The coordination problem was physical: many expensive processors depended on the pace and reliability of the components around them. Their number alone did not establish the useful work they could perform.[^c7-4]
 
-The Llama team reported significant manual intervention was needed only three times during that period; automation handled the other issues. That is an operational claim with a specified boundary. An entrant renting well-run computing might purchase the benefit of such procedures without developing them afresh. The institutional question is whether the service lets the entrant investigate a different product, rather than whether every entrant owns its own maintenance operation.[^c7-4]
+The Llama team reported significant manual intervention was needed only three times during that period; automation handled the other issues. An entrant renting well-run computing might obtain the benefit of those procedures without developing them afresh. The service would still need to permit the experiments its product requires.[^c7-4]
 
 Scale can help in several different ways. The work of developing a useful system can be spread across many uses, provided the resulting service remains useful to those users. An operating team can support more than one project. A costly improvement in diagnosis may pay off repeatedly, rather than needing to be rediscovered for every customer.
 
@@ -64,7 +64,7 @@ Centralizing production need not make downstream services identical. Shared infr
 
 Renting access to well-run computing can reduce the need to duplicate physical infrastructure before attempting a product. The provider's expertise can make more projects feasible. Access terms determine which of those projects can actually proceed.
 
-Now imagine requiring each supplier to reproduce the entire cooling plant, network, maintenance system, and staff before it may offer a service. That would create organizational independence at a considerable resource cost. We should not assume the resulting duplication produces enough useful information to justify itself. A desire for comparison is not a reason to ignore engineering economics.
+Requiring each supplier to reproduce the entire cooling plant, network, maintenance system, and staff would buy organizational independence at a considerable resource cost. The extra comparison would have to improve decisions enough to justify that duplication.
 
 An exclusive capacity arrangement can restrict downstream experiments while preserving useful operating expertise. The productive value of a facility and the informational consequences of its allocation rules therefore require separate assessment.
 
@@ -72,13 +72,13 @@ We would want to examine the reason for the reservation. A long commitment might
 
 Large shared computing is more than a hypothetical possibility. For 2026, the Department of Energy's INCITE program allocated access to seventy-five computational science projects at Argonne and Oak Ridge. Its published account describes scientific peer review alongside assessments of whether proposed work is technically ready for the machines. The organization operating the facility and the teams using it need not be identical.[^c7-14]
 
-The listed projects include William Collins's work on large ensembles of weather extremes using machine learning and research on foundation models for materials. These are allocations for proposed work, not evidence that every promised result was achieved. They make the institutional possibility concrete: a costly shared machine can support distinct questions chosen by different teams.
+The allocations proposed distinct uses of the shared machines, including William Collins's large ensembles of weather extremes using machine learning and research on foundation models for materials. Different teams could apply for resources to pursue different questions; completed results would come later.
 
-INCITE's policy document distinguishes technical readiness from scientific impact. Readiness alone is insufficient for an award. A proposal that needs preparation can be considered for preliminary access through another program. The distinction recognizes a practical problem: a team may need experience with the resource before it can demonstrate readiness to use a large allocation well.
+INCITE's policy document distinguishes technical readiness from scientific impact. Readiness alone is insufficient for an award. A proposal needing preparation can be considered for preliminary access through another program. A team can need experience with the resource before it can demonstrate readiness for a large allocation.
 
 Shared access replaces one expensive hurdle with another, smaller one: a team can apply for time instead of financing an entire facility. Applications still take work, reviewers can make mistakes, and capacity is scarce. The practical question is which promising projects can now be attempted.
 
-Llama's interruption record also counters an easy version of the information argument. The company plainly learned about its own operation. A failing component, a useful recovery method, or a bottleneck in communication can generate actionable evidence inside one organization. Calling the organization large cannot make that learning disappear.
+The Llama team learned about its own operation. A failing component, a useful recovery method, or a bottleneck in communication could generate actionable evidence inside the company. Those internal tests improved the operation while leaving other questions about competing products unresolved.
 
 The more demanding question is which question the learning answers. An improved recovery procedure can establish how to keep this cluster operating. It does not, without further work, establish what a differently financed rival would have built or which product a buyer would prefer after a fair trial. A factory can become better understood while its place in the wider economy remains harder to explain.
 
@@ -122,7 +122,7 @@ Neither description can be inferred from the electricity meter. The meter tells 
 
 Chinchilla also changed how its settings were adjusted, how text was divided into units, and the proportions drawn from different parts of the training dataset. The paper records those differences. Its result therefore compares two training packages; it does not isolate model size as the sole cause. The productive lesson is the researchers' ability to investigate a prevailing recipe. Future data, hardware, and uses could make another recipe preferable.[^c7-8]
 
-Measured performance across competing services belongs in the evidence. The allocation-only limit cannot be applied by retaining the award record while discarding informative trials conducted before it.
+Tests conducted before an award can reveal differences the award history alone leaves unresolved. Their measurements add to the evidence available about competing services.
 
 Where deployment mainly reproduces the record of an established service, the questions concern how alternatives obtain use, which outcomes are checked, and whether tasks are comparable. A market share cannot answer those questions.
 
@@ -142,7 +142,7 @@ Published methods can reduce the cost of reproducing a successful approach. That
 
 Incomplete methods, unavailable data, and different operating conditions can still require fresh experiments. An expenditure figure in a research report does not, by itself, establish the cost at which another organization can reproduce the capability.
 
-The same caution applies in the opposite direction. A company may spend heavily on research that does not improve its final product. We should not assume that every dollar in a large research program was necessary merely because the company later succeeded. To assess necessity, we need comparisons or other evidence about alternatives, rather than either accepting or dismissing the entire bill.
+A company may spend heavily on research that never improves its final product. Later commercial success cannot show which of those expenses were necessary. Comparing development routes can help distinguish indispensable work from costly attempts that added little.
 
 Kerr, Nanda, and Rhodes-Kropf's account of entrepreneurship supplies the established economic starting point. Early tests can inform later commitments, and the option to stop can matter. Bringing that account into AI asks us to examine the sequence of experiments and financing decisions. It does not give the final winner exclusive ownership of the concept of experimentation.[^c7-10]
 
@@ -162,11 +162,11 @@ Suppose instead that our question concerns the training process itself: would an
 
 That is why independence needs an object. Independence of ownership, computing provider, model ancestry, task assignment, or evaluation can each matter differently. Demanding independence in every respect could be prohibitively expensive. Assuming it exists because a storefront has a new name could be equally misleading.
 
-Arrow's appropriation problem also gives an incumbent a serious argument. If immediate unrestricted access prevents it from recovering the costs of valuable research, some research might not occur. We need to examine that possibility. An argument for preserving comparison becomes incomplete when it treats the creation of the thing being compared as somebody else's concern.
+Arrow's appropriation problem applies here. If immediate unrestricted access prevents recovery of the costs of valuable research, some research may never be undertaken. A route for later experiments is valuable only if the knowledge and equipment those experiments need also get produced.
 
 The incentive argument still requires a comparison of feasible arrangements. Terms permitting returns and downstream experiments can differ from terms closing a customer route without enabling additional research. Both can be described as protecting investment while having different consequences.
 
-We should compare feasible arrangements rather than compare an actual factory with an imaginary world in which discovery, equipment, and coordination cost nothing. Public support, contractual access, released artifacts, and competing private facilities can have different strengths and costs. Which is useful depends on the problem we want to solve.
+Public support, contractual access, released artifacts, and competing private facilities all require resources. Each can make some experiments feasible and others expensive. The useful choice depends on the research or service being developed, including the cost of creating its inputs.
 
 The terms attached to a model, a dataset, or a computing service help determine which later experiments are feasible. A release can make a new application possible while leaving another training strategy beyond reach. The factory creates possibilities. Its institutional arrangements determine who can act on them.
 
@@ -220,43 +220,43 @@ That choice connects the contract back to the engineers. Recovery procedures, st
 
 We need evidence to distinguish those cases. A large electricity demand is not inherently a social loss. Nor does calling the demand innovative establish that every associated cost ought to be paid by others. The public question concerns useful output, displaced uses, environmental effects, and the allocation of risk as well as the private business plan.
 
-The information question can also enter, but it must be specified separately. If a valuable pilot uses scarce capacity, it competes with other uses. The value of learning is part of the comparison, alongside electricity, equipment, labor, and the service forgone. Preserving evidence should not become a phrase that makes physical resources free.
+A pilot using scarce capacity competes with other uses of the machines. What it might teach has to be worth the electricity, equipment, labor, and service forgone. A smaller test or a suitable existing record may answer the question at lower cost.
 
-Long commitments can support investment while restricting access to scarce capacity. The institutional question is whether a feasible arrangement retains the financing benefit and preserves useful independent experiments. Their costs can exceed their benefits; that possibility belongs in the appraisal.
+Long commitments can finance investment while restricting access to scarce capacity. A different arrangement could retain the financing benefit and preserve useful independent experiments. Whether it improves on the commitment depends on the experiments' value and the costs of making room for them.
 
 This is the tension that a price or concentration statistic alone cannot resolve. A low price today can coexist with a poor route to testing tomorrow's alternative. A large producer can supply the very capacity that makes new experiments affordable. The economic task is to trace the mechanisms rather than assign one moral meaning to size.
 
 ## Leaving the factory
 
-The physical story has carried us from a grid connection to a model ready for use. Along the way, there were pipes to test, interruptions to overcome, training choices to investigate, and costs to define. These are productive activities. The argument about missing comparisons gains nothing by pretending otherwise.
+A working facility has overcome physical obstacles: pipes that could fail, interrupted training runs, equipment shortages, and difficult design choices. Those achievements make the next request possible.
 
 But the completed training run is a beginning for the economic story. A model can be served repeatedly, incorporated into different products, evaluated on changing tasks, and routed toward some users rather than others. Those arrangements affect which observations accumulate and which alternatives develop a usable record.
 
 Follow the next request. Someone chooses a system, the machines produce an answer, and a person or another program does something with it. Does that sequence teach us what we need to know? Does it improve the next decision? Can it reveal when a different system would work better?
 
-The factory has made an answer possible. The next chapter asks what we learn when there are a billion of them.
+One answer becomes a million, then a billion. Each can be useful. How many of them tell us whether a different system would work better?
 
 ## Notes
 
-[^c7-1]: IEA, *Key Questions on Energy and AI* (2026), [full report](https://iea.blob.core.windows.net/assets/3179f7f8-01f6-4dd6-bffa-c9f7b73f1dc9/KeyQuestionsonEnergyandAI.pdf), published April 16, 2026; executive summary, pp. 9–11; physical bottlenecks, p. 21; demand outlook and accelerator definitions, pp. 24–26. The summary rounds 2030 consumption to 950 TWh. These are total data-center estimates/projections, not AI-only consumption or observed future demand. Wait times vary across jurisdictions.
+[^c7-1]: IEA, *Key Questions on Energy and AI* (2026), [full report](https://iea.blob.core.windows.net/assets/3179f7f8-01f6-4dd6-bffa-c9f7b73f1dc9/KeyQuestionsonEnergyandAI.pdf), published April 16, 2026; executive summary, pp. 9–11; physical bottlenecks, p. 21; demand outlook and accelerator definitions, pp. 24–26.
 
 [^c7-2]: Matt Lakin, ORNL, [“Super Construction at Super Scale: How ORNL Built a New Home for Frontier”](https://www.ornl.gov/news/super-construction-super-scale-how-ornl-built-new-home-frontier/), November 14, 2023, construction account from cooling plant and piping through foundations and the pressure test.
 
 [^c7-3]: ORNL, [“Computer Engineers at ORNL Pioneer Approaches to Energy Efficient Supercomputing”](https://www.ornl.gov/news/computer-engineers-ornl-pioneer-approaches-energy-efficient-supercomputing/), section on David Grant’s cooling-system work and the transition from Titan to Frontier.
 
-[^c7-4]: Llama Team, AI at Meta, *The Llama 3 Herd of Models*, [arXiv version 3](https://arxiv.org/pdf/2407.21783v3), November 23, 2024, Section 3.3.4, pp. 13–14 and Table 5. The reported fifty-four-day snapshot contains 466 interruptions: 47 planned and 419 unexpected. More than 90 percent effective training time concerns the reported operation; it is not a measurement of economic efficiency or a claim that the whole training run lasted fifty-four days. The same section reports single-GPU restart risk, slow stragglers affecting thousands of GPUs, and significant manual intervention only three times in the snapshot. Developer self-report, not an independent operational audit.
+[^c7-4]: Llama Team, AI at Meta, *The Llama 3 Herd of Models*, [arXiv version 3](https://arxiv.org/pdf/2407.21783v3), November 23, 2024, Section 3.3.4, pp. 13–14 and Table 5.
 
 [^c7-5]: Llama Team, *The Llama 3 Herd of Models*, introduction, p. 1; Section 3, training infrastructure; Section 4, pre-training and post-training, p. 15.
 
-[^c7-6]: DeepSeek-AI, *DeepSeek-V3 Technical Report*, [arXiv version 2](https://arxiv.org/pdf/2412.19437v2), February 18, 2025, p. 5, Table 1 and accompanying paragraphs. The calculation values 2.788 million H800 GPU hours at an assumed USD2 per hour, yielding USD5.576 million across the specified official training stages. The report explicitly excludes prior research and ablations. It is an attributed developer calculation, not a total company spending figure, audited invoice, or cost-equivalent comparison with another model or firm. The original report appeared in December 2024.
+[^c7-6]: DeepSeek-AI, *DeepSeek-V3 Technical Report*, [arXiv version 2](https://arxiv.org/pdf/2412.19437v2), February 18, 2025, p. 5, Table 1 and accompanying paragraphs.
 
-[^c7-7]: Stanford HAI, *Artificial Intelligence Index Report 2026*, [full report](https://hai.stanford.edu/assets/files/ai_index_report_2026.pdf), Section 1.1, printed pp. 16–18, particularly p. 18 and Figure 1.1.4. Industry's reported share is 91.2 percent. The Epoch AI dataset is manually curated for notability; the report records an April 22, 2026 snapshot. This is neither all-model market share nor a causal estimate of exclusion, and a model's sector differs from an application's ownership or its users' options.
+[^c7-7]: Stanford HAI, *Artificial Intelligence Index Report 2026*, [full report](https://hai.stanford.edu/assets/files/ai_index_report_2026.pdf), Section 1.1, printed pp. 16–18, particularly p. 18 and Figure 1.1.4.
 
-[^c7-8]: Jordan Hoffmann and colleagues, “Training Compute-Optimal Large Language Models,” *NeurIPS* 2022, [published paper](https://papers.nips.cc/paper_files/paper/2022/file/c1e2faff6f588870935f114ebe04a3e5-Paper-Conference.pdf), abstract, pp. 1–2, Section 4 and Section 4.1, p. 7. The same-compute comparison is Chinchilla versus Gopher, not a universal constant across architectures, dates, or objectives. Section 4.1 records additional optimizer, tokenizer and data-mix changes; no isolated randomized model-size effect is claimed. The [authors' April 12, 2022 account](https://deepmind.google/blog/an-empirical-analysis-of-compute-optimal-large-language-model-training/) corroborates the qualitative result.
+[^c7-8]: Jordan Hoffmann and colleagues, “Training Compute-Optimal Large Language Models,” *NeurIPS* 2022, [published paper](https://papers.nips.cc/paper_files/paper/2022/file/c1e2faff6f588870935f114ebe04a3e5-Paper-Conference.pdf), abstract, pp. 1–2, Section 4 and Section 4.1, p. 7. [Authors' April 12, 2022 account](https://deepmind.google/blog/an-empirical-analysis-of-compute-optimal-large-language-model-training/).
 
-[^c7-10]: William R. Kerr, Ramana Nanda, and Matthew Rhodes-Kropf, “Entrepreneurship as Experimentation,” *JEP* 28(3) (2014), 25–48, [published paper](https://www.hbs.edu/faculty/Shared%20Documents/conferences/2014-strategy-research/Entrepreneruship%20as%20Experimentation.pdf), pp. 27–30 and 43–44. Chapter 6 develops its role and boundaries. A staged experiment's value and stopping option are prior ideas; the comparison-budget bound is a different proposed contribution.
+[^c7-10]: William R. Kerr, Ramana Nanda, and Matthew Rhodes-Kropf, “Entrepreneurship as Experimentation,” *JEP* 28(3) (2014), 25–48, [published paper](https://www.hbs.edu/faculty/Shared%20Documents/conferences/2014-strategy-research/Entrepreneruship%20as%20Experimentation.pdf), pp. 27–30 and 43–44.
 
-[^c7-11]: Kenneth J. Arrow, “Economic Welfare and the Allocation of Resources for Invention,” in *The Rate and Direction of Inventive Activity* (1962), 609–626, [NBER chapter](https://www.nber.org/system/files/chapters/c2144/c2144.pdf), pp. 609 and 614–617, especially pp. 615 and 617. Arrow supplies the established uncertainty, use and appropriation problem. No particular AI access or intellectual-property rule follows automatically from it.
+[^c7-11]: Kenneth J. Arrow, “Economic Welfare and the Allocation of Resources for Invention,” in *The Rate and Direction of Inventive Activity* (1962), 609–626, [NBER chapter](https://www.nber.org/system/files/chapters/c2144/c2144.pdf), pp. 609 and 614–617, especially pp. 615 and 617.
 
 [^c7-12]: IEA, [*Powering Artificial Intelligence: Strategies for Integrating Data Centres into Electricity Systems*](https://www.iea.org/reports/powering-artificial-intelligence), October 14, 2026, [full PDF](https://iea.blob.core.windows.net/assets/cd360a30-aaef-43cd-84e6-a125c3a0bc67/PoweringArtificialIntelligence.pdf), pp. 7–10 and 52–57, especially the AEP Ohio entry on p. 57.
 

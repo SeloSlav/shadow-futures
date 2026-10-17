@@ -6,7 +6,7 @@ On September 10, 2020, an engineer ran a load test and an AI assistant stopped m
 
 Usually, a company wants to know whether its new tool works. Does it resolve more complaints? Does it shorten the queue? Does the customer leave satisfied? An outage raises another question. Has the worker acquired something that can survive the disappearance of the machine?
 
-That question belongs near the center of the argument about AI and employment. A worker and a computer can become a more productive team without the worker becoming more capable alone. They can also become a more productive team because the worker learns from the computer. The difference is easy to miss while both are working.
+A worker and a computer can become a more productive team without the worker becoming more capable alone. They can also become a more productive team because the worker learns from the computer. The difference is easy to miss while both are working.
 
 The customer-support study supplies a hopeful case. Erik Brynjolfsson, Danielle Li, and Lindsey Raymond examined the introduction of a generative assistant among 5,172 agents. In the published study, access raised issues resolved per hour by an average of 15 percent. The gains were concentrated among workers with less experience and lower initial performance. Experienced, highly skilled workers gained much less; some quality measures deteriorated slightly for the strongest workers.[^c9-2]
 
@@ -26,7 +26,7 @@ The missing wage record matters for a second reason. Suppose a beginner's improv
 
 A narrowing performance gap can mean useful knowledge travels farther. Experts might still be crucial for diagnosing unusual failures, developing practices, or improving the system that distributes the old ones. The strongest support workers' smaller gains concern that deployment. They do not establish that a business can dispense with the expertise on which future assistance may depend. A firm needs to examine that continuing work before turning the average gain into a staffing plan.
 
-We should carry both observations forward. A machine can create real value and improve human learning. The reward history of the resulting workplace can still leave important contributions unresolved. Neither observation cancels the other.
+The machine can create real value and improve human learning while the workplace's reward history leaves the contribution of each input unresolved.
 
 ## The answer and the ability
 
@@ -34,7 +34,7 @@ A mathematics classroom offers a sharper separation between successful assistanc
 
 The students practiced, then took an assessment without the tool. During practice, both assisted groups performed better than the group using ordinary resources. Once assistance was removed, the students assigned the standard assistant performed worse than the control group. The tutor designed around learning largely avoided that harm. Its striking practice gains did not translate into a clearly established advantage on the subsequent unassisted assessment.
 
-The researchers had measured two different achievements. One was getting through the problem with help. The other was being able to solve a related problem afterward. A completed worksheet could look like evidence of either. The assessment made the distinction visible.
+Getting through a problem with help and solving a related problem afterward are different achievements. A completed worksheet can look like evidence of either. Testing without the assistant made the students' independent performance visible.
 
 The experiment measured short-run learning with particular tools and tasks. How assistance was organized changed what students could do when it was withdrawn. Following their later working lives would require a different study.
 
@@ -72,7 +72,7 @@ In its February 24, 2026 account of a follow-up effort, METR reported difficulty
 
 One participant's published comment included the simple explanation, “I really like using AI!” That is an ordinary preference. It is also a research problem. If a developer avoids entering the experiment because a particularly suitable task might land in the no-AI condition, the measured comparison no longer represents the full set of tasks the researcher hoped to study.
 
-Random assignment cannot recover a task that never enters the pool. It can make the allowed and disallowed conditions comparable among eligible, submitted tasks. The researcher must still ask why these tasks were submitted and what happened to the rest. The boundary around the experiment is part of the evidence.
+Random assignment can compare tool use among eligible, submitted tasks. Tasks kept out of the experiment remain absent. If developers submit only work they are willing to do without AI, the results describe that selected work.
 
 Study pay also fell from $150 to $50 an hour, potentially altering participation. Developers could run agents concurrently, complicating the meaning of time spent on a task. Unfinished work and differences in task selection created further difficulties. These were reasons to reconsider the design, rather than declare that the original slowdown had cleanly reversed into a precisely measured speedup.
 
@@ -86,7 +86,7 @@ Adoption can change what a later comparison means. Users develop habits, forget 
 
 Staged introduction, comparison of assisted training methods, and assessment on new tasks can still supply evidence. Each answers a different question. More observations of the adopted workflow cannot automatically recover every earlier comparison.
 
-Here the distinction between activity and informative opportunity becomes tangible. A company might accumulate millions of AI-assisted edits while losing the practical ability to recruit a comparable group for a particular no-AI trial. The edits could be useful evidence about errors, quality, and day-to-day performance. Their number would not, by itself, answer the missing question about the alternative arrangement.
+A company might accumulate millions of AI-assisted edits while losing the practical ability to recruit a comparable group for a particular no-AI trial. The edits could reveal errors, quality, and day-to-day performance while leaving the alternative working arrangement untested.
 
 Adoption can make a tool more useful while making a particular experiment harder to run. METR had to redesign its study because the way developers worked had changed.
 
@@ -100,9 +100,9 @@ Autor's argument concerns relationships among tasks. Automation can increase the
 
 There is harder evidence on the other side. Daron Acemoglu and Pascual Restrepo studied exposure to industrial robots across American labor markets over 1990–2007. They found adverse effects on employment and wages in more exposed places. A machine's productivity benefits did not ensure that the affected local workers would gain.[^c9-10]
 
-Their setting involved industrial robots performing work such as assembly, welding, and painting. Their analysis used differences in local exposure based on industry composition and robot adoption, rather than randomly distributing robots among towns. The causal interpretation requires assumptions and checks about other forces affecting those places. It is serious evidence about a historical adjustment, with a defined design and a defined scope.
+Acemoglu and Restrepo studied industrial robots performing work such as assembly, welding, and painting. Their analysis used differences in local exposure based on industry composition and robot adoption. Its causal interpretation depends on accounting for other forces that could affect employment in those places.
 
-Notice what this research can accomplish without rerunning the whole American economy. Places entered the period with different industrial structures, making their exposure to robot adoption different. The researchers used that variation and investigated competing explanations. Their estimates remain conditional on the design, but the absence of a literal parallel America does not make historical evidence useless. Shadow futures sharpen the demand to specify which alternative is being studied and where the information comes from. They should not become an excuse to dismiss a carefully constructed comparison merely because it occurs within one history. Here the relevant contrast is supplied by differences across labor markets, with the design's assumptions carrying part of the inferential burden.
+Places entered the period with different industrial structures, making their exposure to robot adoption different. The researchers used that variation and investigated competing explanations. Comparisons across labor markets supplied evidence within one American history, under the assumptions of their design.
 
 The teller account and the robot study should make us impatient with easy reassurance as well as easy catastrophe. Automation can reduce the labor needed for particular work. Lower costs and new activities can create demand elsewhere. The balance, location, timing, and distribution of those responses matter. An aggregate gain can coexist with a damaging local loss.
 
@@ -126,7 +126,7 @@ Platform work provides documented evidence of selection through a record. The In
 
 Geographic mobility offers less independence when the same ranking system governs work across locations. If practical alternatives are also unavailable or reuse the same record, moving does not create a new evaluator. This is a hypothesis about dependence, rather than a description of every platform worker.
 
-That last condition matters. The ILO report also records surveyed workers using another platform after permanent deactivation from one. Platforms can open distant demand, and workers can have alternatives. The concern is the situation in which those alternatives become impractical or rely on the same record. We should investigate that dependence rather than assume every worker already faces it.[^c9-platform]
+The ILO report also records surveyed workers using another platform after permanent deactivation from one. Platforms can open distant demand as well as close accounts. A worker's ability to recover depends on whether another platform offers usable work and how much it relies on the same record.[^c9-platform]
 
 Europe's 2024 Platform Work Directive addresses one part of the problem. It provides for portability of personal data generated through platform work in automated monitoring and decision systems, including ratings and reviews. Its national transposition deadline is December 2, 2026. At the time of writing, the deadline remains ahead; the existence of the directive is not evidence of uniform implementation or successful remedies.[^c9-portability]
 
@@ -176,13 +176,13 @@ Workers can benefit through wages, ownership claims, and cheaper goods or servic
 
 Investment can expand the capacity to attempt new projects or strengthen exclusive control of routes through which others must be tested. Both may involve productive expenditure. Their consequences for future comparison depend on what the resulting assets permit.
 
-A feedback between automated production and reinvestment could help entrants develop or help well-financed incumbents advance faster. Demand, financing, competition, resource constraints, and checking costs determine its strength. A successful agent experiment does not demonstrate an autonomously expanding firm.
+Automated production and reinvestment could help entrants develop or let well-financed incumbents advance faster. Expansion still needs customers, finance, scarce resources, and reliable checks. A successful agent experiment supplies one part of that process.
 
 Accumulation also faces depreciation, imitation, failures, and rivals. Productive integration can improve services while making independence harder. The relevant assessment includes both those benefits and the feasibility of another development route.
 
 Anton Korinek and Donghyun Suh examine automation and capital accumulation together in their March 2024 scenario model. Investment can complement work that remains with people. Its pace relative to automation and the assumed range of human tasks can produce very different wage paths. Their model also separates reproducible capital, including compute, from fixed scarce factors. It gives no unconditional forecast that wages or monopoly profits must move in one direction.[^c9-capital]
 
-Software cannot instantly create an electricity connection or manufacture servers. Scarcity can constrain expansion, but temporary shortage alone does not establish permanent gatekeeping. The stronger claim needs an identifiable obstruction and evidence about feasible alternatives.
+Software cannot instantly create an electricity connection or manufacture servers. A shortage can delay every supplier; control over access can prevent particular rivals from developing. Increasing capacity addresses the first problem. The second also depends on who can obtain and use it.
 
 If machines perform more of the work, access to the assets behind that work becomes a more consequential route to income. Employee ownership, jointly financed equipment, and broadly held investment funds can distribute a claim on future output. Public computing access and independent testing facilities can give people resources with which to develop something different. Broader ownership and access should be assessed by who can actually use them and what they enable.
 
@@ -192,29 +192,29 @@ The same requirement applies to public provision. A computing facility with one 
 
 The future of work includes the future of assets built through work: who can retain them, redirect them, and use them to attempt something new. Affordable tools and usable routes to demonstrate judgment can change together or move in opposite directions.
 
-These choices depend on institutions as well as contracts. Investment can coexist with closed access, while publicly financed access can become another gate. The next chapter examines the rules governing the practical ability to compete.
+Investment can coexist with closed access, while publicly financed access can become another gate. The terms governing a computing allocation, a work record, or an interface determine who can turn a promising design into a credible competitor.
 
 ## Notes
 
 [^c9-1]: Erik Brynjolfsson, Danielle Li, and Lindsey Raymond, [“Generative AI at Work”](https://academic.oup.com/qje/article/140/2/889/7990658), *The Quarterly Journal of Economics* 140(2) (2025): 889–942, Section VI.B and Figure VII.
 
-[^c9-2]: Brynjolfsson, Li, and Raymond, abstract, Sections III and V. Use the published 5,172-agent sample and 15 percent average gain in issues resolved per hour; older working-paper headlines used different figures. The setting is text-based support for business software. Effects vary by prior performance and experience. Suggestions were optional, and the human agent remained responsible for the interaction.
+[^c9-2]: Brynjolfsson, Li, and Raymond, abstract, Sections III and V.
 
-[^c9-3]: Same paper, Section VI.B, Figure VII. Chat-level outage analysis measures handling duration, not resolution outcomes unavailable at that granularity. Outages varied in duration and coverage. The authors discuss noisy estimates and possible differences in chat composition. Retained improvements are evidence consistent with learning, rather than proof that all assistance gains persist or that outages randomly assigned a training intervention.
+[^c9-3]: Same paper, Section VI.B, Figure VII.
 
 [^c9-4]: Erik Brynjolfsson, Danielle Li, and Lindsey Raymond, “Generative AI at Work,” *The Quarterly Journal of Economics* 140(2) (2025): 889–942, Section VIII, [doi:10.1093/qje/qjae044](https://doi.org/10.1093/qje/qjae044).
 
-[^c9-5]: Hamsa Bastani, Osbert Bastani, Alp Sungu, Haosen Ge, Özge Kabakcı, and Rei Mariman, [“Generative AI without Guardrails Can Harm Learning”](https://doi.org/10.1073/pnas.2422633122), *PNAS* 122(26), 2025, e2422633122. Relevant full author version: [education_llm.pdf](https://hamsabastani.github.io/education_llm.pdf), pp. 4–11 for design/results and pp. 13–18, Section 4, for message/error analyses. The authors interpret asking-for-answer and engagement patterns as consistent with reliance on supplied solutions; these analyses do not separately randomize each safeguard or establish a unique mediator. Classroom allocation uses the school's random student assignment plus constrained classroom assignment. Individual laptop use was not independently randomized. The outcome is short-run assessment performance. GPT Tutor's unassisted advantage was not statistically established. The August 2025 correction, DOI 10.1073/pnas.2518204122, concerns an affiliation production error, not the results.
+[^c9-5]: Hamsa Bastani, Osbert Bastani, Alp Sungu, Haosen Ge, Özge Kabakcı, and Rei Mariman, [“Generative AI without Guardrails Can Harm Learning”](https://doi.org/10.1073/pnas.2422633122), *PNAS* 122(26), 2025, e2422633122. Author version: [education_llm.pdf](https://hamsabastani.github.io/education_llm.pdf), pp. 4–11 for design/results and pp. 13–18, Section 4, for message/error analyses.
 
 [^c9-6]: Joel Becker, Nate Rush, Beth Barnes, and David Rein, [“Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity”](https://metr.org/Early_2025_AI_Experienced_OS_Devs_Study-paper.pdf), 2025, abstract and Sections 1–2.
 
 [^c9-7]: METR, [“We Are Changing Our Developer Productivity Experiment Design”](https://metr.org/blog/2026-02-24-uplift-update/), February 24, 2026, sections on wider adoption, recruitment, time measurement, and interpretation.
 
-[^c9-9]: David H. Autor, [“Why Are There Still So Many Jobs? The History and Future of Workplace Automation”](https://economics.mit.edu/sites/default/files/publications/why%20are%20there%20still%20jobs%202014.pdf), *Journal of Economic Perspectives* 29(3), 2015, 3–30, especially pp. 5–7. See also James Bessen, [“Toil and Technology”](https://www.imf.org/external/pubs/ft/fandd/2015/03/bessen.htm), *Finance & Development* 52(1), March 2015, 16–19, ATM discussion. The figures concern average US urban branches in the stated historical window. Autor also identifies deregulation. These accounts do not isolate an ATM treatment effect or describe current bank employment.
+[^c9-9]: David H. Autor, [“Why Are There Still So Many Jobs? The History and Future of Workplace Automation”](https://economics.mit.edu/sites/default/files/publications/why%20are%20there%20still%20jobs%202014.pdf), *Journal of Economic Perspectives* 29(3), 2015, 3–30, especially pp. 5–7. See also James Bessen, [“Toil and Technology”](https://www.imf.org/external/pubs/ft/fandd/2015/03/bessen.htm), *Finance & Development* 52(1), March 2015, 16–19, ATM discussion.
 
-[^c9-10]: Daron Acemoglu and Pascual Restrepo, [“Robots and Jobs: Evidence from US Labor Markets”](https://economics.mit.edu/sites/default/files/publications/Robots%20and%20Jobs%20-%20Evidence%20from%20US%20Labor%20Markets.p.pdf), *Journal of Political Economy* 128(6), 2020, 2188–2244; author-hosted journal-format proof, PDF pp. 1–4. Historical local exposure design, including European adoption as an instrument, differs from random robot assignment. No local coefficient is presented as an unconditional national or generative-AI forecast.
+[^c9-10]: Daron Acemoglu and Pascual Restrepo, [“Robots and Jobs: Evidence from US Labor Markets”](https://economics.mit.edu/sites/default/files/publications/Robots%20and%20Jobs%20-%20Evidence%20from%20US%20Labor%20Markets.p.pdf), *Journal of Political Economy* 128(6), 2020, 2188–2244; author-hosted journal-format proof, PDF pp. 1–4.
 
-[^c9-platform]: International Labour Organization, *World Employment and Social Outlook 2021: The Role of Digital Labour Platforms in Transforming the World of Work* (2021), Chapter 4 conclusion, printed p. 192 (PDF p. 194), and deactivation discussion/footnote 7, printed p. 182 (PDF p. 184). [Full report](https://www.ilo.org/sites/default/files/wcmsp5/groups/public/%40dgreports/%40dcomm/%40publ/documents/publication/wcms_771749.pdf). Reported conditions and surveyed workers, not a current universal sole-platform diagnosis. Footnote 7 explicitly records alternative-platform use after permanent deactivation. The moving driver and shared-ranking scenario are hypothetical.
+[^c9-platform]: International Labour Organization, *World Employment and Social Outlook 2021: The Role of Digital Labour Platforms in Transforming the World of Work* (2021), Chapter 4 conclusion, printed p. 192 (PDF p. 194), and deactivation discussion/footnote 7, printed p. 182 (PDF p. 184). [Full report](https://www.ilo.org/sites/default/files/wcmsp5/groups/public/%40dgreports/%40dcomm/%40publ/documents/publication/wcms_771749.pdf).
 
 [^c9-portability]: Directive (EU) 2024/2831, Article 9(6) and Article 29(1), [official consolidated text, November 11, 2024](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A02024L2831-20241111), PDF pp. 9–10 and 19.
 

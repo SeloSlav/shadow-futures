@@ -57,17 +57,17 @@ Notice what an observer arriving afterward would see. Some projects had attracte
 
 The researchers also tested larger initial advantages. Their effects showed diminishing returns: more manufactured success did not produce proportionately more subsequent success.[^prologue-3] An initial boost mattered, but increasing it did not keep buying the same additional response.
 
-What it does establish is already uncomfortable. People can respond sensibly to a record of success while helping create the next success in that record. The later backers' money is real. The project may put it to excellent use. Yet counting those backers does not tell us how much support the project would have received without its experimental head start.
+People can respond sensibly to a record of success while helping create the next success in that record. The later backers' money is real. The project may put it to excellent use. Yet counting those backers does not tell us how much support the project would have received without its experimental head start.
 
 Return to Lockdown. Add another thousand listeners to the world where it finished first. We might learn much more about that audience's enjoyment. Those additional listeners would not recreate the world where the song finished fortieth. More observations of one history and more chances to compare histories are different things.
 
-That difference is the starting point of this book. Markets do more than distribute money and attention. They help determine which alternatives get tried, which improve through use, and which produce a record anyone can inspect. A market can become very busy while leaving a particular question poorly answered: how much did productive work, rather than the path of earlier rewards, contribute to this success?
+Markets do more than distribute money and attention. They help determine which alternatives get tried, which improve through use, and which produce a record anyone can inspect. A market can become very busy while leaving a particular question poorly answered: how much did productive work, rather than the path of earlier rewards, contribute to this success?
 
 I call the cumulative chance of rewards going somewhere other than the current favorite the comparison budget. At each opportunity, take the chance that someone else receives the reward, then add those chances across opportunities. The favorite can change. This counts chances, rather than actual rival victories; it does not make every purchase or download an independent experiment. The question is how much opportunity the allocation process leaves for informative comparison.
 
 MusicLab makes the distinction tangible. Forty-eight song titles can remain on a screen even while attention flows mainly toward a few. Keeping the titles available is different from getting the recordings heard. A long list of alternatives can coexist with a thin record of what they can do.
 
-The comparison budget is the economic object I propose for studying that scarcity. In the models behind this book, it limits how precisely a reward history can reveal the effects of work, quality, and investment. Under specified conditions, opportunities outside the favorite can dwindle fast enough that even an indefinitely growing record cannot reliably settle attribution. A small chance that persists can still accumulate; concentration alone does not establish the result.
+In my allocation models, the comparison budget limits how precisely a reward history can reveal the effects of work, quality, and investment. Under specified conditions, opportunities outside the favorite can dwindle fast enough that even an indefinitely growing record cannot reliably settle attribution. A small chance that persists can still accumulate. The way those chances change over time matters, alongside their size today.
 
 Success breeding success is an old idea. Robert Merton described how recognition could bring scientists resources for further work. Armen Alchian explained market selection under uncertainty decades before MusicLab.[^prologue-5] My question concerns the evidence left behind by that selection: when does an economy stop producing enough comparison to explain the rewards it continues to distribute?
 
@@ -105,19 +105,19 @@ METR began redesigning its experiments. When developers change how they work, re
 
 The same practical question runs from the programmer's desk to the data center. Training a model, running it to produce answers, and comparing it with another system are different activities. Running a trained model is called inference. A service can generate an enormous record of answers while leaving unanswered whether a different model, supplier, or organization of work would serve us better. AI can also make those comparisons cheaper. Which possibility prevails depends on how we deploy it.
 
-Then the argument reaches the pay packet. Think again of the customer-support worker resolving more problems with AI assistance. The worker is doing useful work. So are the people who built the tool. The employer supplies an organization in which both can operate. Measuring the productivity improvement helps us understand what changed. It does not, on its own, tell us how to divide the additional income among them.
+The consequences reach the pay packet. Think again of the customer-support worker resolving more problems with AI assistance. The worker is doing useful work. So are the people who built the tool. The employer supplies an organization in which both can operate. Measuring the productivity improvement helps us understand what changed. It does not, on its own, tell us how to divide the additional income among them.
 
 Now remember the Kickstarter projects. Their later support was influenced by a donation the researchers deliberately assigned. In ordinary business, we rarely have such a clearly marked intervention. We see the revenues after customers, reputation, investment, and opportunity have acted on one another. That makes the familiar claim that someone deserves precisely what the market paid them much harder to establish than the claim that they created something valuable.
 
 Taxation enters here because governments must choose rules even when contribution cannot be divided neatly from position. Incentives matter; promises and legitimate entitlements matter. Uncertainty about a fortune's origins supplies no tax rate. It does require us to explain our tax rules without pretending that every pound or dollar arrives with a reliable account of who caused it.
 
-There is also a separate question about conduct that removes valuable comparisons. When closing a route to customers prevents other people from learning something useful, could part of the cost fall outside the business making that choice? If so, might access rules, public trials, or a carefully justified tax address it? We will need evidence of the loss and the costs of a remedy. The size of the winning business cannot answer those questions for us.
+When closing a route to customers prevents other people from learning something useful, part of the cost may fall outside the business making that choice. Access rules, public trials, or a carefully justified tax could address that loss. Their justification depends on what people have lost the chance to learn, how it affects their decisions, and whether the remedy is worth its costs.
 
 We already know how to treat some comparisons as worth maintaining. At Rothamsted in England, agricultural experiments begun in 1843 have preserved differences in how plots are treated across generations. Soil and plant samples have been kept for more than 180 years. Some plots have received particular fertilizer or manure treatments since the beginning, apart from fallow periods. Methods have also changed to keep the experiments useful.[^prologue-9]
 
 Those fields are productive in two senses. They grow crops, and their maintained differences help produce knowledge. Maximizing this year's harvest on every plot would answer a different question from the one the continuing experiments make possible. Someone has to value the comparison enough to keep it alive.
 
-That is the journey ahead: from a song to a first donation, from patents to AI, from the opportunities people receive to the rewards we decide they deserve. We will follow both what an economy produces and what it allows us to learn.
+A song, a first donation, a patent, an AI assistant: each produces something people can value. Each also changes what happens next. The economy's rewards help decide which possibilities become familiar and which remain out of sight.
 
 Lockdown finished first. Lockdown finished fortieth. The second chart survived because somebody built a place for it. The harder question is what happens to the futures for which we never make room.
 
@@ -139,11 +139,11 @@ Economists Thomas Blake, Chris Nosko, and Steven Tadelis studied large advertisi
 
 One brand-keyword test stopped eBay advertising on Yahoo and Microsoft's search platform while retaining Google advertising as a comparison. Almost all the lost paid-search traffic and attributed sales reappeared through unpaid links. Customers had another route to the shop. Closing the paid route revealed how many sales the advertising ledger had mistakenly credited.[^introduction-i1]
 
-This is a useful place to begin because it requires no quarrel about whether businesspeople work hard or whether customers know what they want. The advertisements existed. Someone designed them, arranged their placement, and paid for them. Some were useful to some customers. The difficult question was the difference they made to a specified outcome. Counting activity was an excellent way to establish activity. Establishing contribution required something more.
+The advertisements existed. Someone designed them, arranged their placement, and paid for them. Some were useful to some customers. The difficult question was the difference they made to a specified outcome. Counting activity was an excellent way to establish activity. Establishing contribution required something more.
 
 For the shopper who wanted eBay, the alternative was close at hand: another link on a search page. In other settings, the alternative is much harder to recover. It might be another business that never attracted a first customer, another worker who never received an assignment, or another technology that never developed a record of successful use. We can study what happened in great detail while remaining uncertain about what those alternatives would have revealed.
 
-This book concerns that uncertainty, and a way markets themselves can help create it. An early reward can affect the opportunity to earn the next reward. When that happens, the market is also helping select the evidence that later observers will use to explain its success. The economy we inhabit is partly a system for producing things and partly a system for deciding which possibilities become observable.
+An early reward can affect the opportunity to earn the next reward. When that happens, the market is also helping select the evidence that later observers will use to explain its success. The economy we inhabit is partly a system for producing things and partly a system for deciding which possibilities become observable.
 
 Go back to the eBay search page. To discover the advertisement's short-term contribution, the researchers needed customers who could arrive without it. A manager looking only at the completed sequence of paid clicks and purchases would face a different task. More accurate recording of that sequence would not recreate the missing comparison. The distinction will matter whenever we hear that enough data should eventually explain everything.
 
@@ -151,7 +151,7 @@ Go back to the eBay search page. To discover the advertisement's short-term cont
 
 I use contribution uncertainty for uncertainty about the effect of productive inputs on rewards in a specified economic setting. The inputs might include effort, quality, investment, or risk-bearing. The question concerns how an outcome would change if an input changed, while the relevant economic rules continued to apply. A result can be valuable, and the work behind it entirely real, while the size of that effect remains difficult to recover.[^introduction-i2]
 
-The advertising example also reveals why the outcome must be specified. Increasing visits to a website is different from increasing purchases. Attracting a new customer is different from giving an existing customer a more convenient route. A short-term experiment may leave longer-term effects unresolved. Before asking how much something contributed, we need to say what it contributed to, compared with what, and over which period.
+Increasing visits to a website differs from increasing purchases. Attracting a new customer differs from giving an existing customer a more convenient route. A short-term experiment may leave longer-term effects unresolved. Contribution has a specific outcome, comparison, and time horizon.
 
 Lockdown's two rankings raise a related question with a different design. MusicLab preserved independently developing markets for the same songs. The song's first-place finish and its fortieth-place finish were both outcomes of listeners choosing. They tell us that one observed ranking cannot be treated as a complete account of what that recording was capable of achieving. They do not calculate the value of every rehearsal or assign a percentage of the song's success to talent.[^introduction-i3]
 
@@ -177,15 +177,15 @@ A list of awards and rejections does not, by itself, tell us those chances. The 
 
 MusicLab helps us see why a catalogue is insufficient. A title remaining on a list does not mean listeners encounter it on comparable terms. Conversely, a single business can arrange useful tests of alternatives, as eBay did with advertising. Counting organizations and counting informative opportunities are different inquiries. Institutional design can matter as much as the number of logos on the screen.
 
-In my allocation models, the comparison budget limits the information the reward record can provide about productive input effects. Under further conditions, it can remain finite over the whole future of a market. Then adding transactions need not let an observer reliably settle attribution. This is a conditional result about a specified experiment, including its information and rules. It is not a declaration that a dominant company is permanently inexplicable.[^introduction-i2]
+In my allocation models, the comparison budget limits the information the reward record can provide about productive input effects. Under further conditions, it can remain finite over the whole future of a market. Then adding transactions need not let an observer reliably settle attribution. The limit depends on the experiment's information and rules; independent tests or different access arrangements can change what can be learned.[^introduction-i2]
 
-The small word "finite" does substantial work. A tiny but persistent chance of selecting an outsider can keep accumulating. A shrinking chance can also accumulate without limit if it shrinks slowly enough. Even then, comparisons must distinguish the input effects we care about. We will investigate both possibilities before using the result to discuss actual institutions.
+A tiny but persistent chance of selecting an outsider can keep accumulating. A shrinking chance can also accumulate without limit if it shrinks slowly enough. Even then, comparisons must distinguish the input effects we care about. A trial that never varies the relevant engineering tells us little about its contribution, however often it runs.
 
 Another transaction can demonstrate that an established service continues to work well while revealing little about an untested alternative. Commercial value and information about a particular comparison are separate properties of the same event.
 
 Useful evidence may exist elsewhere: a field experiment, an independent technical evaluation, or measured outcomes beyond the award itself. If those observations distinguish the contribution explanations, they belong in the inquiry.
 
-eBay's experiments illustrate this constructive response. The company could change where advertising appeared and observe what followed. Its advertising ledger did not have to remain the last word. Before declaring an attribution problem intractable, we should ask what a feasible intervention could reveal. The comparison budget helps diagnose a specified record; it does not forbid investigators from improving their experiment.
+eBay could change where advertising appeared and observe what followed. Its advertising ledger did not have to remain the last word. A feasible intervention could supply the comparison that the existing record lacked.
 
 ### Other possible histories
 
@@ -211,9 +211,9 @@ An imagined better outcome is not evidence. We need a feasible route and a defen
 
 A simulation needs the same discipline. Programmed markets reveal consequences of their assumptions; explaining an actual buyer requires evidence that those assumptions fit.
 
-There is another distinction we will need: predicting what comes next and explaining why the outcome has the shape it does. In Lockdown's winning world, an observer who expects more listeners to choose an already popular song could make useful forecasts. Those forecasts would not reveal the other world's chart. Getting the next choice right does not itself account for the song's lead.
+Predicting what comes next and explaining why the outcome has the shape it does answer different questions. In Lockdown's winning world, an observer who expects more listeners to choose an already popular song could make useful forecasts. Those forecasts would not reveal the other world's chart. Getting the next choice right does not itself account for the song's lead.
 
-Blackwell and Dubins's work helps make the statistical distinction precise: forecasts can converge under specified conditions. Whether the same record identifies productive contribution is another question. We will examine the circumstances in which the two inquiries diverge.[^introduction-i2]
+Blackwell and Dubins showed that, under specified conditions, observers' forecasts converge as evidence accumulates. Whether the same record identifies productive contribution is another question.[^introduction-i2]
 
 Merton described how scientific recognition could bring resources for further work. Alchian examined economic selection without perfect foresight. Research on increasing returns, reinforced processes, and statistical learning helps explain how a history of rewards develops. The comparison-budget bound is my proposed way of connecting those processes to the precision with which contribution can be measured.[^introduction-i6]
 
@@ -223,13 +223,13 @@ The research proposal that never reaches another panel leaves a different kind o
 
 ### From evidence to institutions
 
-At the customer-support desk studied by Brynjolfsson, Li, and Raymond, AI assistance helped workers resolve more issues per hour on average. The gains were particularly strong among less experienced and lower-skilled workers. That is evidence of useful capability reaching people who could benefit from it. It should count in any serious discussion of the technology.[^introduction-i7]
+At the customer-support desk studied by Brynjolfsson, Li, and Raymond, AI assistance helped workers resolve more issues per hour on average. The gains were particularly strong among less experienced and lower-skilled workers. Useful capability was reaching people who could benefit from it.[^introduction-i7]
 
 But suppose we want to know how organizations should train future workers. Measuring the gain from an assistant available today does not finish the inquiry. We would need to compare arrangements that affect which tasks beginners attempt, what guidance they receive, and what they learn over time. A service that solves the current customer's problem and an institution that develops tomorrow's expertise can be evaluated together, provided we actually preserve evidence about both.
 
 METR's developer research exposes one difficulty. As programmers became less willing to do certain work without AI, the research team found that participation and task selection made its follow-up estimates difficult to interpret. The work being studied was changing which comparisons people would supply. The team responded by reconsidering its design. Learning about the technology required attention to the institutions producing evidence about it.[^introduction-i8]
 
-This is one reason the future of economics belongs in a book about AI. More computing can make some experiments cheaper and some records easier to analyze. It can also make one system so convenient that its alternatives are rarely tried. A larger stream of answers may reveal much about current use while leaving important alternatives unresolved. What we learn will depend on questions, access, and design as well as on processing power.
+AI changes the production of economic evidence as well as goods and services. More computing can make some experiments cheaper and some records easier to analyze. It can also make one system so convenient that its alternatives are rarely tried. A larger stream of answers may reveal much about current use while leaving important alternatives unresolved. What we learn will depend on questions, access, and design as well as on processing power.
 
 Bell's 1956 settlement provides a historical warning against treating access as a slogan. Opening existing patents to royalty-free licensing was followed by greater innovation outside telecommunications. The study did not find the same result inside the sector, where barriers to reaching customers remained. A policy can loosen one constraint while leaving another in place. An entrant needs a usable route from permission to performance.[^introduction-i9]
 
@@ -247,11 +247,9 @@ At Rothamsted, continuing agricultural experiments make the value of maintained 
 
 An economy cannot turn every field into an experiment or give every rejected supplier a second chance. Nor should it. The interesting question is where preserving an alternative would teach us enough to improve what comes next. Sometimes the answer will be an independent route into a market. Sometimes it will be an experiment inside a large organization. Sometimes it will be a better measurement, and sometimes the available evidence will support doing nothing.
 
-We will begin with the explanations attached to winners, then examine the comparison budget and shadow futures more closely. The historical chapters ask how opportunities harden into infrastructure and who controls access to a test. The AI chapters follow the investment that makes a model possible, its repeated use, and the workers whose abilities develop alongside it. The final chapters consider what competition policy and taxation can reasonably do with the argument.
+A first customer can finance a better product. A patent license can open a field of work. A distribution agreement can close it again. These decisions help determine whose ability gets demonstrated, how capital accumulates, and what competition policy and taxation can change.
 
-Throughout, a winner will remain a winner. Lockdown attracted listeners in the world where it finished first. The AI-assisted customer-support workers resolved problems. What changes is the inference we draw from an outcome: how far it explains itself, which further comparisons would matter, and which institutional choices can be justified with the knowledge available.
-
-The eBay customer gives us a modest version of that discipline. A complete record of the paid click could have encouraged a confident story about the advertisement. Making another route observable changed the explanation. In more consequential settings, we should be equally interested in the route that never became a record. The first task is to notice when the winner's evidence has become the only evidence we allow ourselves to see.
+A complete record of the eBay customer's paid click could have encouraged a confident story about the advertisement. Making another route observable changed the explanation. In more consequential settings, the missing route may be a business that never reaches a customer. Its absence from the record is precisely what makes it easy to overlook.
 
 ---
 
@@ -265,7 +263,7 @@ The eBay customer gives us a modest version of that discipline. A complete recor
 
 Put Lockdown at the top of the chart and imagine that the other chart has disappeared. The first thing we know is that listeners selected it. The next thing we may want to know is what made them do so. We could listen for a memorable passage, compare the song with its competitors, and form a view about the audience. A good explanation might begin with something that really is in the recording. The trouble starts when we decide that the ranking has told us how much that feature mattered.
 
-The song's fortieth-place finish makes that leap visible. It does not make every judgment about the recording false. It changes the kind of explanation a judgment can support. A quality capable of helping the song in both worlds cannot, without something further, account for the difference between the worlds. We need to understand how that quality met the sequence of attention, choices, and displayed popularity in each one.[^chapter_01-c1-1]
+Lockdown's fortieth-place finish exposes the gap between a recording's appeal and its rank. Appeal could help the song in both worlds. The different rankings also depended on the sequence of attention, choices, and displayed popularity it met in each one.[^chapter_01-c1-1]
 
 Follow a MusicLab listener. The website offered unfamiliar songs by unfamiliar bands. A participant chose a recording, listened, and was asked to rate it on a scale from one star to five. Afterward came an opportunity to download it. Downloading was optional. The experiment recorded several steps between a title appearing on a screen and a song acquiring another mark of popularity.[^chapter_01-c1-1]
 
@@ -285,7 +283,7 @@ Ordinary economic success comes with a similar invitation. We see the company th
 
 The Kickstarter researchers did something direct about beginnings. They intervened before selected projects had raised any money. The projects already had proposals, ambitions, and creators. The researchers did not change those proposals. They changed whether an early visitor encountered a project with a first donation or a project still waiting for one. This allowed later support to be compared with a difference in initial success deliberately introduced by the research design.[^chapter_01-c1-2]
 
-The distinction between those two kinds of change matters. Improving a pitch and adding its first backer could both increase subsequent funding. Without the experimental assignment, an observer might mistake the second mechanism for the first. A creator could offer a polished explanation of why a successful pitch worked, and much of that explanation might be sensible. It would still need to account for the advantage that came from already having support.
+Improving a pitch and adding its first backer could both increase subsequent funding. Without the experimental assignment, an observer might mistake the second mechanism for the first. A creator could offer a polished explanation of why a successful pitch worked, and much of that explanation might be sensible. It would still need to account for the advantage that came from already having support.
 
 The experiment found that projects given an initial donation were more likely to attract subsequent backing. Later support was counted separately from the researchers' donation. It was not enough to announce that the treated projects finished with more money, since the researchers had put money into them. The revealing result concerned what other people did afterward. The design separated the initial gift from the additional support that followed it.
 
@@ -313,7 +311,7 @@ Here the productive object is unusually easy to hold in view. The comment did no
 
 The study's site did not order comments by their popularity. That is a useful detail because it stops us from explaining the whole result as the familiar consequence of being moved higher on a ranked page. The displayed score was tied to the comment when people evaluated it. Social information could affect the subsequent rating even without that particular route through a popularity ranking.[^chapter_01-c1-3]
 
-It would be a mistake to hear the result as a reason to abolish ratings. A comment score can still help a reader find something useful. The problem is what we ask the score to prove. A device that assists selection need not provide an uncontaminated measure of the selected item's contribution. We can value the convenience of aggregated opinions while investigating how those opinions were produced.
+A comment score can help a reader find something useful while also reflecting the votes earlier readers happened to see. Its convenience and its reliability as a measure of quality depend on different features of the rating process.
 
 Negative votes behaved differently. Readers tended to correct the artificial negative treatment, leaving final mean ratings without a statistically detectable difference from controls. The upward and downward nudges were not symmetrical.[^chapter_01-c1-3]
 
@@ -327,7 +325,7 @@ What they establish is specific enough to be useful. An early signal can affect 
 
 In his account of scientific recognition, Robert Merton used the image of a forty-first chair. The French Academy had forty places, but the history of French thought contained distinguished people who never occupied one. Merton's examples included Descartes, Molière, and Proust. An institution with a fixed number of honors cannot turn the boundary between its members and everyone else into a complete ranking of achievement.[^chapter_01-c1-4]
 
-The point is easy to appreciate when the chairs are literal. There are forty available places. An outstanding person can remain outside without anyone needing to conclude that the work was poor. A prize can be prestigious because its recipients are excellent, while failing to include everyone of comparable excellence. The quality of the winners and the completeness of the distinction are separate properties.
+There are forty available chairs. An outstanding person can remain outside without anyone needing to conclude that the work was poor. A prize can be prestigious because its recipients are excellent, while failing to include everyone of comparable excellence. The quality of the winners and the completeness of the distinction are separate properties.
 
 Merton went further. Recognition could become a resource for future research. Eminent scientists could receive disproportionate credit for contributions, and credit could help bring facilities for further work. His argument drew in part on Harriet Zuckerman's interviews with Nobel laureates. The honor was both an account of earlier achievement and a possible influence on what the scientist could do next.[^chapter_01-c1-4]
 
@@ -343,7 +341,7 @@ A scientist can stop applying, a supplier can stop bidding, and a musician can s
 
 There are several possible practical responses, and they need different evidence. Helping promising unsuccessful applicants reapply would address participation. Giving a reviewer a clearer account of how close a prior decision was might affect the interpretation of a failure. Funding everyone would involve a much larger commitment with different costs. The study makes a mechanism visible; choosing a response requires asking which change would improve the institution's work.
 
-We should also distinguish subsequent funding from the underlying scientific achievement we hope funding makes possible. A grant is an input and an award, not a direct measure of every discovery it supports. More money might permit important work, but it is not itself proof that the resulting work contributes more. An institution can create a gap in resources and a gap in recognition without those gaps carrying identical information about scientific value.
+Subsequent funding gives a scientist resources for further work. The discoveries made with those resources are another outcome. More money might permit important research, but the size of the grant cannot tell us how much scientific value it produced. An institution can create a gap in resources and a gap in recognition without those gaps carrying identical information about achievement.
 
 The comparison with the online comment is instructive. An artificial vote changes the evaluation of fixed words. A grant can help change the future words, experiments, and projects themselves. Both involve feedback, but the productive consequences need not be the same. Understanding cumulative advantage requires following what the reward does after it is received, rather than treating attention, money, equipment, and achievement as interchangeable quantities.
 
@@ -351,9 +349,9 @@ The comparison with the online comment is instructive. An artificial vote change
 
 A story about early advantage should be able to survive an encounter with a successful loser. In a 2019 study, Yang Wang, Benjamin Jones, and Dashun Wang compared junior scientists whose applications narrowly received or missed US National Institutes of Health funding. Early rejection was associated with greater departure from the NIH system. Among those who remained active, however, near-misses subsequently produced work with greater citation impact than narrow winners.[^chapter_01-c1-6]
 
-The result creates two stories that are tempting to tell separately. One concerns people pushed out by an early failure. The other concerns people who continued and later did distinguished work. An institution evaluating only the second group could congratulate itself on the power of adversity. Someone looking only at departures could describe failure as a straightforward destruction of promise. To understand the process, we need to keep track of who is included in each outcome.
+Among those who stayed, some did distinguished work after an early rejection. Others left the funding system. Judging the setback only by the survivors would omit those departures; judging it only by departures would omit the later achievements. Both groups were part of the original applicant pool.
 
-For a scientist still submitting proposals, the ability to continue may be part of what distinguishes that person from someone who stops. Later success among survivors does not by itself show that giving everyone the same early setback would improve scientific work. The researchers investigated whether selection alone could explain their findings and argued that it did not fully do so. Their interpretation deserves examination alongside the distinction between the survivors and the original applicant pool.[^chapter_01-c1-6]
+For a scientist still submitting proposals, the ability to continue may be part of what distinguishes that person from someone who stops. Later success among survivors does not by itself show that giving everyone the same early setback would improve scientific work. The researchers investigated whether selection alone could explain their findings and argued that it did not fully do so.[^chapter_01-c1-6]
 
 Imagine reading a shelf of papers by researchers who overcame rejection. The papers are real achievements. The biographies might offer useful accounts of persistence. But the shelf contains no place for papers that were never written by people who lacked the resources, inclination, or opportunity to continue. Admiring the work on the shelf and evaluating the institution's treatment of the original applicants are different tasks. One requires attention to achievements; the other also requires attention to absences.
 
@@ -377,7 +375,7 @@ Alchian was illustrating how an environment could select surviving behavior with
 
 The travelers help clarify what is at stake in a record of winners. Progress along the fueled road is a real outcome. It would be absurd to say that the travelers had not moved merely because their initial route was chosen randomly. But observing that progress would not establish that their original decisions were unusually well informed. The fact to explain and the explanation attached to it remain distinct.
 
-In the grant studies, continued participation has a similarly consequential role without being reducible to Alchian's deliberately simple setup. The scientist who keeps applying remains eligible for later awards. The one who stops no longer appears in the same competition. We need to investigate what changed their choices and opportunities. The mere fact that one is still visible cannot establish the whole account of why the other disappeared.
+In the grant studies, the scientist who keeps applying remains eligible for later awards. The one who stops no longer appears in the same competition. Their continued presence or absence says little on its own about the earlier experiences that changed their choices and opportunities.
 
 The thought experiment also reveals a possible abuse of skepticism. An observer could insist that the successful travelers were only lucky and therefore dismiss everything they did afterward. That would explain too little if, in a richer example, continuing the journey allowed them to acquire knowledge and develop skills. An early advantage can create conditions for later productive activity. The existence of the advantage does not make that later activity unreal.
 
@@ -409,7 +407,7 @@ This is where a familiar response to disputes about success reaches its limit. S
 
 In MusicLab, everyone could in principle inspect the same recording. The result did not require one world to receive a secretly defective version. The experimental setting separates the song from some of the history through which listeners encounter it. A recording can therefore be known and its possible market outcomes still varied. This is the observed-input question in a form that does not depend on concealing the product.
 
-For economic arguments about merit, the distinction is consequential. Demonstrating a useful product can defeat the claim that nothing valuable was made. It does not necessarily establish the precise size of the reward attributable to making it. These claims should not be forced into a single contest in which proving the first automatically wins the second. We can respect the achievement and continue investigating the explanation of the income attached to it.
+Making a useful product establishes an achievement. Measuring how much of its maker's income that achievement caused requires a further comparison. Respect for the work can coexist with uncertainty about the size of the reward attributable to it.
 
 ### What success makes possible
 
@@ -435,7 +433,7 @@ Salganik and Watts devised a particularly revealing challenge to the idea that a
 
 The swap could be remarkably concrete. Before inversion, She Said by Parker Theory had 128 downloads and Florence by Post Break Tragedy had nine. In the altered displays, their apparent counts were exchanged. No band needed to improve a recording for the screen to give later listeners a different account of its success. The researchers had changed the history people believed they were entering.[^chapter_01-c1-11]
 
-This was a different question from the first MusicLab experiment. Independent histories under unchanged arrangements help reveal how outcomes can vary. Deliberately altering the popularity record tests a response to an intervention. Both designs are useful, but we should keep their jobs distinct. The altered chart does not become an ordinary replay merely because the same recordings remain available.
+The first MusicLab experiment followed independently developing histories under unchanged arrangements. The later experiment deliberately altered the popularity record to test how people responded. It changed the chart that listeners saw, even though the recordings stayed the same.
 
 Some apparent popularity became self-fulfilling. Yet the inversion did not permanently reverse the market as a whole. The songs with the greatest independent appeal tended to recover their popularity. The manipulation also reduced overall downloads. The result supports influence while showing that influence encounters preferences and can affect how much people take from the market, as well as which song receives their attention.[^chapter_01-c1-11]
 
@@ -471,7 +469,7 @@ The engineers also asked what happens when an image changes between visits. A me
 
 Getting somebody to press play was not enough, either. A striking picture could attract an audience that soon abandoned the film. The engineers described using the quality of engagement when labeling their observations, to avoid rewarding that kind of clickbait. Now the record needed to connect the member, title, image, and subsequent response. A million presentations would be less revealing if the file lost those connections.[^chapter_02-c2-1]
 
-The comparison budget names one feature of the process producing such records: accumulated allocation chance outside the current favorite. Brief probability examples will make that accounting concrete before the documented systems show what an application additionally requires.[^chapter_02-c2-2]
+The comparison budget names one feature of the process producing such records: accumulated allocation chance outside the current favorite. Brief probability examples will make that accounting concrete before the documented systems show what an application additionally requires.
 
 ### What we add up
 
@@ -489,13 +487,13 @@ Calling this a budget does not mean that somebody deposited a fixed fund of expe
 
 With three alternatives, an eight-in-ten chance for the favorite leaves a combined two-in-ten chance outside it. Adding another name changes nothing if it receives no chance and the existing probabilities remain the same. A longer directory is not itself a larger comparison budget.
 
-Conversely, a company can preserve a variety of informative trials while remaining a single company. Netflix's account of artwork experimentation illustrates the institutional possibility. A legal organization and an alternative being tested are different units of description. Before counting, we must specify which allocations and which alternatives are relevant to the question. The number of corporate registrations cannot perform that work for us.
+A company can preserve a variety of informative trials while remaining a single company, as Netflix's artwork experiments show. For image selection, the relevant alternatives are the pictures users could see. Counting corporate registrations would count something else.
 
-The definition is intentionally narrower than a general index of competition. It does not put the quality of a service, its price, a worker's income, and a consumer's enjoyment into one score. Those things may matter greatly. The comparison budget describes a feature of the opportunities through which evidence can emerge. To evaluate the consequences of changing it, we need to connect those opportunities with useful information and consequential decisions.
+The comparison budget describes opportunities through which evidence can emerge. It leaves service quality, price, workers' incomes, and consumers' enjoyment to be assessed separately. Its economic value depends on what those opportunities reveal and which decisions the evidence improves.
 
 The allocation needs a consistent unit. For a study of image selection, candidate images could be the alternatives and a presentation the allocated opportunity. Whether somebody subsequently plays the film is an additional outcome. For a procurement study, suppliers and contracts could take those roles instead. We cannot count presentations for one question, switch to completed plays for another, and call the resulting total the same budget. The definition becomes useful by fixing the economic question and the process before counting.
 
-In the models underlying this book, that connection takes a precise form. When verified productive inputs enter the allocation rule in the specified way, and their differences remain within the stated bounds, the comparison budget places an upper limit on the information the allocation history provides about their effects. The scarcity of outside chances can therefore limit how precisely contribution can be recovered from the record. A large budget, by itself, provides no matching guarantee.[^chapter_02-c2-2]
+When verified productive inputs enter the allocation rule in my model, and their differences remain within the stated bounds, the comparison budget places an upper limit on the information the allocation history provides about their effects. Scarce outside chances can therefore limit how precisely contribution can be recovered from the record. A large budget can still leave attribution unresolved if the trials never distinguish the relevant inputs.
 
 ### The news story that was not shown
 
@@ -531,13 +529,13 @@ By varying connection recommendations and following later employment outcomes, L
 
 What made a tie weak? The researchers used both the number of mutual connections and the intensity of bilateral messaging. These measures describe different relationships: knowing few of the same people and rarely exchanging messages need not coincide. Moderately weak ties did best by the mutual-connections measure; the weakest ties did best by interaction intensity. Even the practical meaning of trying a different connection depended on the measurement.[^chapter_02-c2-8]
 
-The authors also examined the risk that treating one member could affect another member's outcomes. Networked experiments face this problem because people are connected. We should not call two routes independent simply because different people or different accounts appear on them. Their relationship is part of what the design must investigate. This caution applies just as readily when several suppliers depend on a common distribution channel.[^chapter_02-c2-8]
+The authors also examined the risk that treating one member could affect another member's outcomes. Connected people can affect one another even when their accounts appear separately in the data. Suppliers sharing a distribution channel can likewise share influences that a comparison has to account for.[^chapter_02-c2-8]
 
 A network can improve access to opportunities while complicating attribution of their causes. References, connections, and observed performance need to be distinguished in an account of how the next allocation occurs.
 
 ### Two long futures
 
-Suppose the chance outside the favorite stays at one in a thousand at every allocation. Each opportunity adds a thousandth to the budget. A thousand opportunities add one; another thousand add another one. The process is heavily concentrated, but its accumulated outside chance keeps growing.[^chapter_02-c2-2]
+Suppose the chance outside the favorite stays at one in a thousand at every allocation. Each opportunity adds a thousandth to the budget. A thousand opportunities add one; another thousand add another one. The process is heavily concentrated, but its accumulated outside chance keeps growing.
 
 Concentration and a finite lifetime comparison budget are therefore different properties. A tiny chance that persists differs from a chance that vanishes quickly enough for its total to remain bounded. Nor does either calculation promise that awards arrive on schedule or reveal an informative input contrast.
 
@@ -551,11 +549,11 @@ The halving schedule is an accounting illustration, not a fitted model of a name
 
 The schedules expose a distinction ordinary language can blur. A very small chance may feel equivalent to none when deciding whether to make one costly attempt. For what an indefinitely long record can reveal, persistence matters: a long sequence can accumulate what each opportunity adds only in a tiny amount.
 
-The relevant time horizon matters too. A business, worker, or policymaker may need an answer long before an indefinitely accumulating process becomes helpful. An infinite lifetime budget could coexist with painfully little relevant opportunity over five years. The finite-record limit is therefore important in its own right. We should ask what can be learned in time for the decision, rather than using an eventual possibility as a reason to dismiss present ignorance.
+A business, worker, or policymaker may need an answer long before an indefinitely accumulating process becomes helpful. An infinite lifetime budget could coexist with painfully little relevant opportunity over five years. A trial available after the purchasing decision cannot inform that purchase.
 
 Nor can the opposite inference be made automatically. A finite amount of opportunity need not leave every practical question unresolved. A buyer might already have enough evidence to choose a service sensibly. The stronger issue is a promise of reliable, increasingly precise attribution throughout the admissible explanations of the model. That is a more demanding promise than choosing an option that works well with the information currently available.
 
-For Netflix's illustration, the immediate decision might be which image to show a particular member. For the public procurement example, it might be whether another supplier merits a pilot. We should specify that decision before evaluating whether the available comparison is adequate. A budget is an input to the inquiry. It does not tell us that every uncertainty deserves to be eliminated before anybody may act.
+Netflix might need to choose an image for a member; a public buyer might need to decide whether another supplier merits a pilot. Each can act with some uncertainty remaining. The useful comparison is one that could improve the decision enough to justify its cost.
 
 ### How a lead can close a contest
 
@@ -563,13 +561,13 @@ There is a long mathematical history behind the difference between feedback that
 
 The urn isolates a feedback rule: an earlier draw changes the chances of later draws. Changing that rule can change how the sequence develops, even when every version can be described casually as success breeding success.
 
-In the familiar version, adding a ball of the drawn color can change the long-run proportions while other colors continue to appear. The history can become unequal and still keep producing comparisons. To find out whether those chances have a finite lifetime total, we need to examine how the rule changes them after each draw.
+In the familiar urn, adding a ball of the drawn color can change long-run proportions while other colors continue to appear. Unequal histories can still keep producing comparisons. The rule governing each addition determines whether the outside chances have a finite lifetime total.
 
 A stronger version gives accumulated success a much more powerful effect on the next selection. For a simple example, imagine weights that grow with the square of the accumulated score: doubling a score quadruples its weight. Research on appropriate strong-feedback models establishes a striking outcome. After some finite, random point, a single alternative receives every subsequent allocation. The result depends on the specified reinforcement conditions, not merely on a large lead.[^chapter_02-c2-5]
 
 Roberto Oliveira studied the onset of such dominance, building on earlier monopoly results. Thomas Gottfried and Stefan Grosskinsky later distinguished several feedback regimes, including strong and weaker forms of monopoly. Their results explain how different reinforcement rules can produce different forms of dominance.[^chapter_02-c2-5]
 
-What the comparison budget adds is an information question about the resulting record. In the strong-feedback model developed here, the remaining chances outside the eventual winner are summable. The budget stays finite. Under the other conditions of the attribution result, indefinitely extending that single allocation record cannot supply a universally reliable recovery of the contribution effect. The prior dominance result and the information interpretation do different jobs.[^chapter_02-c2-2]
+What the comparison budget adds is an information question about the resulting record. In the strong-feedback model developed here, the remaining chances outside the eventual winner are summable. The budget stays finite. Under the other conditions of the attribution result, indefinitely extending that single allocation record cannot supply a universally reliable recovery of the contribution effect. The prior dominance result and the information interpretation do different jobs.
 
 There is a feature here worth holding onto. An alternative can retain a positive chance at every finite stage, yet receive no further awards along the realized history. A positive chance is not a promise of an eventual event. When those chances get small quickly enough, their continuing existence need not create an endless supply of informative deviations. Nominal eligibility and sustained practical contestability can therefore diverge within a precisely specified model.
 
@@ -599,7 +597,7 @@ An institution can therefore preserve comparison while making increasingly selec
 
 ### What a large budget cannot buy
 
-Equal chances at every allocation would make the budget grow, but still need not identify an input effect. If the measured input is identical across the alternatives, reallocating awards changes the recipient without creating the contrast needed to learn that input's effect.[^chapter_02-c2-2]
+Equal chances at every allocation would make the budget grow, but still need not identify an input effect. If the measured input is identical across the alternatives, reallocating awards changes the recipient without creating the contrast needed to learn that input's effect.
 
 For a less abstract picture, imagine testing two artwork files that display exactly the same image. More exposures can help estimate how that image performs with particular audiences. They cannot reveal the difference between the two visual treatments because the treatments do not differ. A system can create a great deal of nominal variation while leaving the intended comparison untouched. Counting chances is necessary for one bound; it is insufficient for a guarantee.
 
@@ -609,7 +607,7 @@ Yaneer Bar-Yam's distinction between large quantities of detailed data and infor
 
 Yahoo's article evaluation depended on randomized logging and observed responses. The farmer calls depended on the measured completion outcome and adaptive assignment. In each case, the record's usefulness followed from how it was generated, rather than its size alone.
 
-Suppose the buyer can obtain an independent performance test without awarding another full contract. That test belongs in the analysis. If it distinguishes effects the award history leaves uncertain, the observer now has a different experiment from the allocation-only record. Applying an information limit while excluding the new test would manufacture a conclusion about ignorance by removing evidence from consideration.
+A buyer might obtain an independent performance test without awarding another full contract. If that test distinguishes effects the award history leaves uncertain, it adds information to the record. The allocation-only limit then describes only part of what the buyer can observe.
 
 Likewise, known selection probabilities can be useful information, not merely quantities an analyst may assume into existence. A designed experiment may log them. An ordinary market may require estimates based on observed rules and behavior. If obtaining those estimates supplies additional information about contribution, that information has to be counted. An empirically defensible budget needs a defensible observation model alongside it.
 
@@ -623,11 +621,11 @@ Microsoft's Bing supplies a particularly direct challenge to the idea that the n
 
 One example involved adding links within advertisements so people could navigate directly to parts of an advertiser's site. The initial version increased revenue but worsened user metrics and page-loading time. Adjusting the presentation, including how many main advertisements appeared, changed that balance. The investigators were tracking more than a single increase in a commercial total. A result that looked attractive on one outcome still needed interpretation alongside others.[^chapter_02-c2-9]
 
-That example gives a practical meaning to a question we have repeatedly asked of the supplier record. Which outcome was measured? If we keep only a revenue increase, we lose part of what the experiment revealed. If we keep only the existence of a large company, we lose the comparisons it arranged. The informative object is the combination of the intervention, assignment, recorded responses, and decision, rather than a favorable statistic standing alone.
+Keeping only the revenue increase would lose part of what Bing's experiment revealed. Keeping only the company's size would lose the comparisons it arranged. The useful evidence combined an intervention, assignment, recorded responses, and a decision about which outcomes mattered.
 
-It also illustrates the difference between a proposed improvement and an improvement demonstrated on relevant outcomes. The extra links offered a plausible convenience. Testing allowed the organization to discover consequences that the proposal's rationale had not settled. A company can have skilled designers and still benefit from creating occasions on which their expectations meet a comparison. The trial does not diminish their skill; it helps direct it.
+The extra links offered a plausible convenience. Testing revealed consequences the designers had not settled in advance. Their skill helped create the proposal; comparison helped decide how to improve it.
 
-The public question remains broader. An experiment inside a company can be valuable for its chosen decision while leaving questions about market access or independent suppliers unresolved. We should credit the first accomplishment without pretending it answers the second. A business may preserve many comparisons concerning its own product and few concerning alternative economic arrangements. Each claim must identify the question and the information set to which it refers.
+A business can test many changes to its own product while leaving independent suppliers little opportunity to demonstrate theirs. Bing's internal trials can improve Bing without answering how another provider would perform with a route to users.
 
 Sometimes the missing comparison calls for another supplier. Sometimes a company can learn more cheaply by changing its own trial or using records it already keeps. The question is which route will reveal something useful about the decision at hand, and what it will cost.
 
@@ -647,7 +645,7 @@ Learning can strengthen the case for an incumbent. An artwork experiment can con
 
 The comparison budget measures the accumulated allocation chance outside the current favorite. What those chances reveal depends on the inputs, observed outcomes, and response rules. Preserving more comparison is worthwhile when the resulting evidence improves decisions enough to justify its cost.
 
-The next chapter examines the histories left unrealized. Holding underlying conditions and response rules fixed makes it possible to distinguish variation in outcomes from the effect of changing the economy itself. That distinction is essential to explaining a reward.
+A different early award could produce another history under the same rules. Changing those rules could produce a different economy. Explaining a reward requires knowing which comparison is being made.
 
 ---
 
@@ -669,7 +667,7 @@ Holding every later input fixed would describe another exercise. If success norm
 
 A different early allocation need not permanently reverse the outcome. An initial lead can fade, be overcome, or compound. A model must allow the original rules and their uncertainties to determine which follows. Otherwise its preferred alternative has been written into the conclusion.
 
-A shadow future is a feasible allocation history over a stated horizon under the same underlying input effects, starting conditions, and response rules. Different events can produce different subsequent behavior under unchanged rules. The object describes histories the modeled economy can generate, including those it never realizes.[^chapter_03-c3-1]
+A shadow future is a feasible allocation history over a stated horizon under the same underlying input effects, starting conditions, and response rules. Different events can produce different subsequent behavior under unchanged rules. The object describes histories the modeled economy can generate, including those it never realizes.
 
 MusicLab's groups contained different listeners rather than identical people sent down cloned lives. Its observable parallel markets therefore illustrate historical variation without constituting literal independent reruns of every feature of an economy.[^chapter_03-c3-2]
 
@@ -713,19 +711,19 @@ The statistical question is how much opportunity the process retains to distingu
 
 ### A million entries are not a million beginnings
 
-Before considering the strongest result, take a familiar example that goes the other way. Imagine an ordinary coin with an unknown, fixed tendency to land heads. One explanation says heads occurs half the time. Another says it occurs three quarters of the time. Any particular finite sequence of heads and tails is possible under both explanations. Shared possibilities do not make the explanations equally persuasive.
+Imagine an ordinary coin with an unknown, fixed tendency to land heads. One explanation says heads occurs half the time. Another says it occurs three quarters of the time. Any particular finite sequence of heads and tails is possible under both explanations. Shared possibilities do not make the explanations equally persuasive.
 
 A long sequence containing about three heads for every tail will increasingly favor the second explanation. Under the usual assumption that the tosses are independent with an unchanged bias, the proportion of heads supplies information that keeps accumulating. We do not need to watch every imaginable coin sequence. The one we observe can become enough to distinguish the two fixed biases reliably as the number of tosses grows.
 
-An unobserved possible history does not establish a lasting attribution limit. A coin has other possible histories too. The issue is whether observations along the actual process separate the relevant explanations sufficiently as the record grows.
+A coin has unobserved possible histories too. One observed sequence can nevertheless distinguish its bias. A lasting attribution limit arises only when the actual process fails to separate the relevant explanations sufficiently as the record grows.
 
-Return to Yahoo's news experiment from the previous chapter. Its randomized article displays and recorded clicks were designed to support a particular evaluation. The logging mechanism mattered because the researchers did not observe how the same encounter would have responded to every other article. Their analysis used the opportunities the design actually generated, with assumptions about those encounters and the evaluation procedure.[^chapter_03-c3-5]
+Yahoo's randomized article displays and recorded clicks were designed to support a particular evaluation. The logging mechanism mattered because the researchers did not observe how the same encounter would have responded to every other article. Their analysis used the opportunities the design actually generated, with assumptions about those encounters and the evaluation procedure.[^chapter_03-c3-5]
 
 The complete experiment must be specified. Awards alone supply one information set; measured reliability and independent tests can supply another. A laboratory result directly informative about the input effect cannot be excluded when evaluating what the record reveals.
 
 In the model, the information limit concerns a specified family of candidate explanations for how productive inputs affect allocation. A candidate explanation is not an arbitrary story about the company. It supplies probabilities for the recorded outcomes at each stage. Two such explanations can disagree about engineering's importance while using the same purchasing procedure and the same rules for how suppliers respond to earlier contracts.
 
-The comparison budget then asks how much conditional allocation chance accumulates outside the current favorite. The favorite can change as the purchasing history moves forward. As Chapter 2 showed, a small chance can persist long enough to accumulate without limit. The strongest result concerns the more demanding case in which the lifetime total is finite. It also requires restrictions on how different explanations separate as those chances diminish. Those restrictions specify how far the next-award probabilities can differ between candidate explanations.[^chapter_03-c3-1]
+The comparison budget then asks how much conditional allocation chance accumulates outside the current favorite. The favorite can change as the purchasing history moves forward. As Chapter 2 showed, a small chance can persist long enough to accumulate without limit. The strongest result concerns the more demanding case in which the lifetime total is finite. It also requires restrictions on how different explanations separate as those chances diminish. Those restrictions specify how far the next-award probabilities can differ between candidate explanations.
 
 To apply the result, an investigator needs to establish the feedback rules and the chances they leave for alternatives. Ant traffic, song charts, and market shares describe outcomes. Establishing a lasting learning limit also requires evidence about how the process generates them.
 
@@ -737,7 +735,7 @@ Second, the candidate explanations retain the same possible next recipients afte
 
 Think again of the coin. Both fixed biases permit heads and tails at every toss, yet the biases can be distinguished in the long run. Shared possible outcomes therefore do not suffice. Third, the model requires the separation between candidate next-award distributions to be controlled by the remaining chance outside the favorite, in each direction of the comparison. As opportunities diminish, the experiment's ability to separate those explanations diminishes with them.
 
-For the bounded input differences in this allocation model, the required control can be established. A separate engineering measurement could nevertheless reveal an input's effect directly. Such evidence must be counted; the allocation record is only one potential source of information.[^chapter_03-c3-1]
+For the bounded input differences in this allocation model, the required control can be established. A separate engineering measurement could nevertheless reveal an input's effect directly. Such evidence must be counted; the allocation record is only one potential source of information.
 
 Fourth, under each candidate explanation the cumulative lifetime chance outside the favorite must remain finite, apart from events assigned probability zero. A dominant observed share or several years of declining rival chances cannot establish that property of the whole process.
 
@@ -785,15 +783,15 @@ An economy need not reproduce its entire past to learn a causal effect. It needs
 
 Two explanations can converge on the same prediction for the next allocation while assigning different roles to productive inputs and accumulated advantage. Agreement about what comes next need not settle why the process took its present form.
 
-David Blackwell and Lester Dubins established a classical result in 1962 about conditional forecasts coming together as information accumulates. Under an absolute-continuity condition relating the observers' probability laws, their conditional distributions for the future merge. This is a precise result with assumptions, rather than a general claim that everyone who watches the same facts must eventually agree.[^chapter_03-c3-7]
+David Blackwell and Lester Dubins established a classical result in 1962 about conditional forecasts coming together as information accumulates. When the observers' probability laws satisfy their absolute-continuity condition, their conditional distributions for the future merge.[^chapter_03-c3-7]
 
-In my finite-budget setting, the required relationship between the fixed candidate history laws is established by the preceding argument. Blackwell and Dubins's result then applies: conditional forecasts of the future allocation sequence merge, even though a universally reliable recovery of the differing contribution values remains impossible. Both pieces matter. Forecast agreement follows from classical work; its coexistence with this attribution limit follows from the specified market model.
+In my finite-budget setting, the fixed candidate history laws have the relationship that Blackwell and Dubins require. Their classical result then applies: forecasts of the future allocation sequence merge, while the differing contribution values remain impossible to recover reliably under every candidate explanation.
 
 Forecasting follows the process already in motion. Contribution asks what an intervention would change within a defensible account of that process. Each can be useful without answering the other's question.
 
 Predictive agreement alone does not establish an attribution problem. Return to the coin with a fixed but unknown bias. Imagine two observers who begin with different reasonable probability distributions over possible biases. Watching the same independent tosses can bring their forecasts together while the observed frequency also reveals the bias. Their growing predictive agreement is perfectly compatible with successful parameter learning.
 
-In the coin example, the fixed half-heads and three-quarters-heads explanations can be distinguished by a sufficiently long record. The observers' initial mixtures over possible biases and the laws generated by those two fixed biases are different objects.[^chapter_03-c3-1]
+In the coin example, the fixed half-heads and three-quarters-heads explanations can be distinguished by a sufficiently long record. The observers' initial mixtures over possible biases and the laws generated by those two fixed biases are different objects.
 
 Imagine a forecasting competition that rewards only predictions of the next supplier. It might identify who best anticipates the purchasing process. It would not automatically identify who best understands the effect of an extra engineering month. Those are separate tests. A forecast score becomes evidence about contribution only when the design establishes the relevant connection, rather than assuming that good prediction must explain every cause of the outcome.
 
@@ -813,17 +811,17 @@ Consider an AI buyer comparing forecasts of its current system's responses with 
 
 ### What a simulation can supply
 
-Simulation makes this distinction concrete. Specify starting resources, allocation rules, input effects, and responses to success, then run the modeled process repeatedly. The distribution of histories reveals what those assumptions permit.
+Repeated runs of a simulation can produce different histories from specified starting resources, allocation rules, input effects, and responses to success. Their distribution reveals what those assumptions permit.
 
 A simulation can expose contradictions, show that an imagined outcome is rare under the chosen rules, or compare the implications of persistent and diminishing exploration. Its conclusions remain conditional on the rules and effects entered into it.
 
 The MusicLab researchers could compare actual recorded outcomes across their experimental worlds. A simulated procurement market does not acquire the same evidential status merely because it contains eight worlds, eight hundred, or eight million. Increasing the number of runs can reduce uncertainty about what the simulator implies. It does not independently validate the simulator's account of how engineering affects contract awards.
 
-Take the attribution problem directly. Suppose two candidate input effects remain compatible with the evidence. Run the simulation under one and it supplies one distribution of shadow futures. Run it under the other and it supplies another. A precise average inside either simulation does not tell us which candidate governs the real procurement process. That is exactly the distinction the attribution question asks us to resolve.
+Suppose two candidate input effects remain compatible with the evidence. Run the simulation under one and it supplies one distribution of shadow futures. Run it under the other and it supplies another. A precise average inside either simulation leaves the original uncertainty intact: which candidate governs the real procurement process?
 
 Disagreement between defensible models can identify a useful experiment. Similar recommended actions may instead show that a decision is robust to unresolved attribution. Sharply different recommendations make that uncertainty material; displaying only a preferred simulation conceals it.
 
-Yahoo's offline evaluation illustrates a disciplined use of an existing record. Its researchers specified a logging process and assumptions that allowed that record to evaluate another article-selection policy. The word “replay” there refers to an evaluation method using logged encounters. It does not mean that a complete alternative economic history was observed. What can be learned depends on the design and the question.[^chapter_03-c3-5]
+Yahoo's researchers specified a logging process and assumptions that allowed an existing record to evaluate another article-selection policy. Their replay method used logged encounters to estimate performance. It could answer that question without observing a complete alternative economic history.[^chapter_03-c3-5]
 
 Simulation should distinguish historical variation, input interventions, and institutional changes. All three can be investigated, but their interpretations differ. Shadow futures first specify the economy being replayed.
 
@@ -831,7 +829,7 @@ Simulation should distinguish historical variation, input interventions, and ins
 
 An unobserved alternative could have been superior, ordinary, or unsuccessful. A missing comparison leaves uncertainty among those possibilities. It supplies no presumption that the unrealized outcome would have been better.
 
-The eBay advertising experiments provide a concrete corrective. As the introduction described, shutting off brand-search advertisements largely shifted traffic to unpaid search results in that setting, undermining a simple interpretation of paid clicks as additional customers. The same research found a different picture for some other searches and users. The experimental comparison refined the claim rather than making all advertising equally valuable or equally wasteful.[^chapter_03-c3-9]
+When eBay shut off brand-search advertisements, traffic largely shifted to unpaid search results in that setting. Paid clicks had overstated the number of additional customers the advertisements brought. Results for some other searches and users differed, giving the company reasons to change where it spent its advertising money.[^chapter_03-c3-9]
 
 An informative experiment must be capable of disappointing the person who requested it. Results can strengthen an established arrangement or reveal costs that demonstrations concealed. A test designed to vindicate a predetermined winner cannot perform that role.
 
@@ -861,7 +859,7 @@ A productive economy can generate different histories, with real work and achiev
 
 Existing evidence, additional measurements, new experiments, and redesigned allocation rules can support different decisions. The comparison budget describes a constraint within a specified process; shadow futures define histories left outside its realized record.
 
-The next chapters examine institutions governing actual routes into markets. Bell's 1956 patent decree changed access to existing inventions under a public rule. Its consequences can be studied through historical evidence, without assuming every previously excluded inventor would have succeeded.[^chapter_03-c3-11]
+Bell's 1956 patent decree changed who could use existing inventions. The historical record lets us follow what happened after that opening, including which other barriers entrants still faced.[^chapter_03-c3-11]
 
 The economic task is to identify which comparisons can teach us something valuable, how to preserve them, and when their benefits justify the cost. That task begins before the next winner is known.
 
@@ -913,7 +911,7 @@ Between those events lie two questions that are easy to collapse. How did a rema
 
 The semiconductor story makes that distinction tangible. A transistor on a laboratory bench is not yet a reliable supply of components, an affordable radio, or a workable design in someone else's product. Moving between those stages requires further decisions and further learning. Whoever gets to undertake that work can discover things the original inventors did not yet know. Whoever cannot undertake it leaves fewer results for later observers to examine.
 
-This is one way a history becomes infrastructure. Earlier work leaves designs, machines, procedures, and skills that make some later projects easier. It can also leave permissions and restrictions that determine who may try them. The resulting advantage can be productive. Engineers using an established body of knowledge may work better because somebody has already paid to develop it. A serious account of opportunity must include that benefit.
+Accumulated work leaves equipment, procedures, and skills that make some later projects easier. It can also leave permissions and restrictions that determine who may try them. Engineers using an established body of knowledge may work better because somebody has already paid to develop it.
 
 Bell's records let us follow both routes. A technology could leave the laboratory through a license and a training program. A finished attachment could reach a shop yet remain barred from a customer's telephone. The invention, the right to build on it, and the right to use the result were separate economic opportunities.
 
@@ -961,11 +959,11 @@ Decades later, Martin Watzinger, Thomas Fackler, Markus Nagler, and Monika Schni
 
 The design matters because a simple before-and-after count would be difficult to interpret. Semiconductor and other technologies were developing for many reasons. A comparison group provides a way to ask whether the patents affected by the licensing change developed differently from otherwise comparable patents. The credibility of that inference depends on the matching, the timing, and the absence of other differences that would account for the result.
 
-The study's measure also has a scope. Follow-on patents and their connections to earlier patents are evidence about a particular dimension of invention. They do not put a monetary value on every resulting product, measure every improvement that went unpatented, or reveal what every unrealized company would have achieved. We can take the finding seriously without turning a patent measure into a complete account of social welfare.
+Follow-on patents and their connections to earlier patents capture one dimension of invention. Products that went unpatented, their value to customers, and the achievements of companies that never developed remain outside that measure.
 
 The contrast points to a practical question: can a business actually use the knowledge it is allowed to obtain? A patent license may be worth little if the route to customers remains closed. The Hush-A-Phone dispute makes the telephone network's rules about use tangible.
 
-This does not establish that every obstacle to entry should disappear. A buyer may have sound reasons to require reliability, security, and compatibility. A supplier may fail those requirements even with full access to the underlying knowledge. The valuable distinction is between testing whether an alternative satisfies the requirements and making its failure inevitable through a rule that prevents the test.
+A buyer may have sound reasons to require reliability, security, and compatibility. A supplier may fail those requirements even with full access to the underlying knowledge. Testing whether an alternative meets a requirement produces evidence; barring the test leaves its performance unknown.
 
 Bell's study measures follow-on patenting after a licensing intervention. To investigate the opportunities behind that result, we would also need to know which teams gained access, what work they attempted, and how their chances of reaching users changed.
 
@@ -977,7 +975,7 @@ A list of patents is a record of inventions already made. A route to a customer 
 
 One reason these choices matter is that success can improve the thing that succeeds. W. Brian Arthur's 1989 account of competing technologies made this mechanism explicit. Adoption can bring experience and improvement, attracting further adoption. Under the specified increasing-returns conditions, historical events can help select a durable technological outcome that need not have been the best available development path.[^chapter_04-c4-6]
 
-Suppose, in a thought experiment, a widely used software system has trained operators, tested connectors, and a large collection of fixes. A rival's underlying design might be promising, yet the established system can be the practical choice today. Its accumulated advantages are services users actually value. The argument for examining its history does not require pretending those services vanish when we recognize how they developed.
+Suppose, in a thought experiment, a widely used software system has trained operators, tested connectors, and a large collection of fixes. A rival's underlying design might be promising, yet the established system can be the practical choice today. Its accumulated advantages are services users actually value.
 
 Could another history have developed a better set of capabilities? Changing a price at the end may not recreate the development that never happened along the way. A later subsidy can alter incentives; it does not automatically supply years of missing experience.
 
@@ -1007,7 +1005,7 @@ Discovering a useful product and measuring each input's contribution to its make
 
 Licensing had not delivered a saleable radio. Sony's account describes a prototype, the TR-52, whose housing warped as the weather warmed in 1955. Plans to sell it were abandoned; the redesigned TR-55 reached the market later that year. A working transistor had left a practical problem unresolved.[^chapter_04-c4-sony]
 
-The distinction is visible in the objects: a licensed invention, manufacturing equipment, a failed casing, a redesigned product. An opportunity to develop can generate problems nobody has yet priced into a finished offer. Solving them takes further work.
+A licensed invention still needs manufacturing equipment, a casing that works, and a product someone can use. Development can uncover problems nobody priced into the original offer. Solving them takes further work.
 
 At Hush-A-Phone's scale, a user could learn whether the privacy benefit justified the effect on a conversation. At a laboratory's scale, a company could learn how to turn a semiconductor technique into a product. These are different forms of discovery. Preserving the opportunity for them does not require a planner who already knows all the answers. It requires rules under which relevant answers can be produced and used.
 
@@ -1015,7 +1013,7 @@ There is no reason to expect that process to be costless or universally successf
 
 ### Who gets to accumulate a record
 
-Merton's account of cumulative advantage in science connects recognition to the resources and attention that support later work. The advantage can change what a researcher is able to do next. It need not consist solely of an audience mistaking an unchanged piece of work for a better one. This is why a serious explanation of unequal success has to allow capability itself to develop along the way.[^chapter_04-c4-9]
+Merton described how scientific recognition brings resources and attention for later work. An early advantage can change what a researcher becomes able to do. The later achievement may be better because recognition helped make the improvement possible.[^chapter_04-c4-9]
 
 Opportunity can produce the evidence used to allocate the next opportunity. Paid work finances development, exposes practical problems, and establishes a record. A weaker later application can therefore be both a consequence of earlier exclusion and a reason for another rejection.
 
@@ -1031,13 +1029,13 @@ Selection and institutional analysis belong together. Success can reflect skillf
 
 ### Discovery inside the large organization
 
-Bell's own laboratory supplies the other side. Bardeen described a field-effect proposal that initially failed. Investigating the failure directed research toward semiconductor surfaces; the point-contact transistor emerged from that program. The large organization could pursue an unpromising result until it opened another route. Productive internal discovery belongs beside the outside opportunities in this history.[^chapter_04-c4-1]
+Bardeen described a field-effect proposal that initially failed. Investigating the failure directed research toward semiconductor surfaces; the point-contact transistor emerged from that program. Bell's laboratory could pursue an unpromising result until it opened another route.[^chapter_04-c4-1]
 
 A patent list would not have performed that investigation. It required materials, instruments, theory, and people able to work together. Breaking those capacities apart might have made the experiment harder. Their value helps explain why opening a boundary and dismantling an organization are different proposals. The telephone attachment could be assessed without pretending the laboratory supplied nothing worth preserving.
 
 The 1952 symposium adds a second dimension. Knowledge developed inside a large organization could also be transmitted beyond it. Internal research and outside experimentation can be complements. The question is how the arrangement connects them: what is shared, which uses are feasible, what costs are covered, and whether someone outside can produce a result that the larger organization would not have produced itself.
 
-The relevant information set remains crucial. Internal experiments that reveal the input effect under investigation must be counted. An outsider's inability to inspect those experiments raises questions of access and verification; it does not establish that the evidence was never produced. The next chapter examines that distinction.
+An internal experiment may reveal the input effect an outsider wants to understand. Its confidentiality can prevent that outsider from checking or using the result even though the evidence exists. Producing knowledge and making it accessible require different arrangements.
 
 Likewise, an outside supplier is not automatically a fresh, independent history. It may use the same underlying components, draw on the same training, or depend on the same route to customers. These connections can be efficient. They also affect what a comparison can distinguish. Counting company names without examining the underlying experiment would give the institutional arrangement an informational meaning it has not yet earned.
 
@@ -1049,7 +1047,7 @@ AT&T's annual report for 1955 described an experiment in Americus, Georgia. Equi
 
 The report made the company's argument for integration explicit: the people designing equipment, manufacturing and installing it, and operating the service belonged to a unified organization. In discussing the decree, it welcomed the preservation of those relationships. It predicted that major services would continue and that revenues and earnings would not be appreciably affected. Those were the company's contemporary claims and expectations, rather than a later independent evaluation.[^chapter_04-c4-14]
 
-The Americus example gives the argument something concrete to rest on. Coordinating a new component, its power supply, and an operating service can require several kinds of expertise. The case for an integrated organization should therefore be examined as a claim about how work gets done. Dismissing it merely because the organization benefits from integration would leave the productive mechanism unexplored.
+The Americus trials required a new component, its power supply, and an operating service to work together. Combining those kinds of expertise can make an integrated organization productive. An access rule has to preserve that capacity where it is valuable while allowing others to test work the organization would exclude.
 
 At the same time, successful coordination inside an organization cannot establish that every outside restriction is necessary to achieve it. A test of rural equipment and a rule barring a telephone attachment concern different activities. Evidence that the first worked does not settle the second. Following the actual activity keeps a broad institutional defense from standing in for the narrower comparison a particular decision needs.
 
@@ -1057,7 +1055,7 @@ Integration and specialization create empirical tradeoffs. An interface may intr
 
 Requiring proof that an entire replacement system works before permitting a component test can make that test prohibitively costly. Such a requirement needs a technical or economic justification, particularly when the component can be evaluated safely on its own.
 
-There is a matching mistake in treating the component's success as proof that the whole system could be replaced cheaply. A successful limited pilot can supply useful evidence about that pilot. It may say little about coordination at a larger scale. Advocates of access need to respect this boundary as much as advocates of integration need to respect the limits of evidence for their own arrangement.
+A component's successful pilot can reveal little about the cost of replacing a whole system. Coordination that works in a limited test may become harder at a larger scale. Moving from one component to an entire service adds work the pilot never attempted.
 
 The company's report therefore belongs beside the patent study and the attachment cases. Each speaks to a different question. A claim about productive coordination, evidence about follow-on invention, and a judgment about a particular restriction should be allowed to inform one another. They should not be collapsed into a vote on whether the entire institution deserves praise or blame.
 
@@ -1091,13 +1089,13 @@ The benefit is the improvement in decisions supported by additional evidence. An
 
 Timing can alter those costs. Once infrastructure is organized around a single approach, an alternative can become expensive to test. Preserving a limited route earlier may retain an option difficult to recreate later.
 
-The proposal remains conditional. Early pilots can be badly chosen, poorly measured, or retained after they stop helping. An institution committed to learning should be able to close an unproductive program as well as open a useful one. Preserving comparisons is a means to better decisions. It is not an instruction to maintain every experiment indefinitely or to declare every participant entitled to continued support.
+A pilot can be badly chosen, poorly measured, or retained after it stops helping. Closing an unproductive program releases money and people for better uses. The reason to preserve an experiment lasts only as long as the prospective value of what it can teach.
 
 ### The histories inside the system
 
-Bell's transistor, its technology-sharing program, the patent decree, and the attachment disputes belong in one account because they concern successive stages of economic possibility. Research produced something new. Licensing affected who could build on it. Rules about use affected who could reach an actual customer. At each stage, productive organization and institutional permission helped shape what happened next.
+Bell's transistor, its technology-sharing program, the patent decree, and the attachment disputes trace successive stages of economic possibility. Research produced something new. Licensing affected who could build on it. Rules about use affected who could reach an actual customer. At each stage, productive organization and institutional permission helped shape what happened next.
 
-The resulting history contains real achievements. It also leaves questions about routes that were harder to pursue. We can investigate those questions through actual interventions and comparisons, as the patent study did. We can use shadow futures to state what remains unobserved. We should keep the evidence for an intervention distinct from the imagined histories that help formulate the attribution problem.
+The patent study followed an actual change in access and the invention that came afterward. A shadow future asks instead what another history could have produced under unchanged rules. Historical interventions supply evidence about changing an institution; the unrealized histories identify the alternatives missing from its ordinary record.
 
 The cup and the cradle bring us back to the carpenter and the two towns. A boundary can let an independent invention reach an established network. It can also make the network owner the judge of what everyone connected to it may try. Digital markets extend that question: how many apparent destinations still lead to the same decision about who deserves a chance?
 
@@ -1127,7 +1125,7 @@ That possibility should make the question more interesting, not easier. If an en
 
 The phone also brings us back to Bell. A route to the customer can govern which alternatives produce a record. For the telephone attachment, the route involved permission to use a device. For a search engine, it can involve the place where a question first arrives. The technologies and legal cases differ. The economic question travels: who gets a meaningful opportunity to be used, improved, and evaluated?
 
-An answer requires more than counting search engines. We need to follow the question through the system. Which service receives it? Which service generates the results? Who observes the response? Who can use that response to improve? Different arrangements can give different answers, even when the screen offers the same number of brand names.
+A query passes through several decisions. Which service receives it? Which service generates the results? Who observes the response? Who can use that response to improve? The answers can differ even when the screen offers the same number of brand names.
 
 ### Firefox tries another default
 
@@ -1139,7 +1137,7 @@ This was an observed change in an actual browser, rather than a clean randomized
 
 What it does give us is a concrete contrast. A statement that Google received most Firefox queries has a different meaning once we know that changing the preselected engine changed the shares. The outcome reflects an arrangement as well as individual responses within it. A responsible explanation should investigate both.
 
-There is another lesson in the reversal. An opportunity to reach users can expose weaknesses in the service that receives it. Yahoo's place in the story does not establish that giving a rival distribution necessarily produces a superior product. The additional use can reveal a problem, finance an improvement, or change the commercial pressure on the provider. Preserving an informative opportunity does not dictate which of those results should emerge.
+Reaching users can expose a service's weaknesses. The additional use may reveal a problem, finance an improvement, or increase commercial pressure on the provider. Giving a rival a trial leaves room for it to disappoint as well as improve.
 
 A successful experiment can strengthen the case for an incumbent. Conversely, a change of supplier can follow a poorly designed trial. The identity of the eventual winner cannot establish whether useful learning occurred. That requires examining the test, its outcomes, and the decision it informed.
 
@@ -1157,7 +1155,7 @@ A search result also reflects several decisions. The provider has chosen which p
 
 That unevenness gives the word “data” too much work to do. A catalogue of pages, a sequence of user interactions, and results produced by another company's engine are different resources. Each can help a competitor in a different way. Handing over one does not automatically hand over the capability to generate the others. The remedy proceedings eventually had to address these distinctions in practical detail.
 
-Our comparison budget asks a narrower allocation question: how much modeled chance accumulates outside the current favorite? It does not count queries, bytes, or people. Applying the model would require a defined allocation unit, a contribution target, justified probabilities, and an account of all informative observations. The court's search record is not an estimate of that budget, and a large search share does not establish that its lifetime total is finite.
+Search share records where queries went. The comparison budget would accumulate their conditional chance of going outside the favorite, using a defined allocation unit and justified probabilities. Measuring contribution would also require a target and all informative observations. The court's search-share figures alone supply neither those probabilities nor their lifetime total.
 
 The favorite here is the alternative most likely to receive the next allocation under the model. It can change with history. A service's share of past searches is an outcome, not that conditional probability; turning one into the other would require separately justified evidence and assumptions.
 
@@ -1167,15 +1165,15 @@ The historical mechanism and the model can nevertheless direct attention to a co
 
 The court record includes a particularly useful complication for a book about missing comparisons. Google evaluated its search quality against other engines using human-rated, side-by-side studies. It also compared its speed with Bing's. A 2017 comparison found a latency disadvantage and helped prompt Project Folly, an effort to reduce delays. The court described the project as successful.[^chapter_05-c5-5]
 
-This is evidence of comparison inside the dominant organization. The provider could identify a weakness, examine a rival's performance, and improve. We should not discard that activity because the organization was large, profitable, or later found liable for unlawful conduct. Those are different facts about the same institution. An account of what it knows has to include the tests it actually conducts.
+Inside the dominant organization, engineers could identify a weakness, examine a rival's performance, and improve. The same institution could produce useful comparisons internally while restricting competitors' access to queries.
 
-The example sharpens the question for outsiders. A test of search speed can answer a useful question about search speed. It need not reveal how another provider would develop after several years of different distribution. Nor does it automatically establish the contribution of every input to Google's accumulated rewards. The comparison should receive credit for what it investigates, while leaving other questions open.
+A test of search speed can reveal how quickly a page loads. It leaves another provider's development under years of different distribution untested. Useful answers to the first question can coexist with missing evidence about the second.
 
 For a user waiting for results, a faster response is a real improvement. For a potential entrant, a public demonstration of a faster prototype may still fall short of obtaining a route to users. Both perspectives matter. A system can support productive internal learning while making some kinds of external development difficult. That combination is more informative than a choice between declaring the incumbent all-knowing and declaring that it learns nothing.
 
 Project Folly offers a more useful test than a count of experiments. Google's comparison identified a concrete disadvantage, and work followed to reduce it. An outsider appraising that evidence should ask whether latency is the uncertainty affecting the decision. If so, the test matters. If the question concerns another provider's development under different distribution, measuring response time cannot answer it alone.
 
-We should also distinguish a test's existence from access to its results. A private organization can possess useful evidence that a buyer, researcher, or public authority cannot examine. That can create problems of verification, incentives, or dependence. It does not justify pretending the evidence was never generated. The next step is to specify who needs to know what, and why.
+A private organization can possess useful evidence that a buyer, researcher, or public authority cannot examine. The test exists, but others may be unable to verify the result or act on it. Opening the relevant evidence could resolve that dependence without requiring a new experiment.
 
 ### A name for control over knowledge
 
@@ -1183,7 +1181,7 @@ Zahra Meghani called this kind of control an “epistemic monopoly.” Her 2021 
 
 For a particular question about contribution, epistemic monopoly means control over the opportunities needed to compare alternatives. An actor that controls who gets tested and who can inspect the results can help determine which explanations of the rewards will ever receive a hearing.
 
-The distinction helps us ask something precise about the search case. Distribution contracts can affect who receives queries. Data terms can affect who learns from an existing record. A test's confidentiality can affect who can check the evidence. These controls can overlap, but they are not the same control. Each needs to be connected to the particular uncertainty under investigation.
+Distribution contracts can affect who receives queries. Data terms can affect who learns from an existing record. Confidentiality can affect who checks a test. These controls can overlap while obstructing different steps in an outsider's work.
 
 Verifying invoices, hours, and completed work establishes inputs and execution. Identifying their effects requires suitable comparisons. Access to an existing informative experiment is a different problem from arranging an experiment that has never occurred. Those obstacles call for different responses.
 
@@ -1199,7 +1197,7 @@ The court later vacated the challenged 2018 registrations on grounds concerning 
 
 A scientist with permission to read a company's white paper and a scientist with permission to test the product have different opportunities. The first can examine what the reported study says. The second can investigate another condition, reproduce a result, or find that the first study left a consequential question unanswered. The work may confirm the developer's conclusion. Independence matters because it permits a relevant inquiry, including one the developer did not select.
 
-The example also shows why disclosure and access should be connected. Without enough information about methods, an outside scientist may struggle to reproduce a study. Without the product, a detailed method may remain something that cannot be attempted. An effective arrangement has to follow the practical requirements of the investigation. The existence of published pages does not establish that every important question can be checked.
+Without enough information about methods, an outside scientist may struggle to reproduce a study. Without the product, a detailed method may remain impossible to try. Disclosure and access have to meet the practical requirements of the investigation together.
 
 Disclosure is useful when the existing record answers the question. Releasing another copy of a performance report cannot replace a failure condition that was never tested. The first task is to identify whether the missing element is access, interpretation, or another observation.
 
@@ -1215,7 +1213,7 @@ Search syndication gives this distinction a real institutional form. A service c
 
 The reverse possibility matters too. A single operator might maintain genuinely informative trials of different approaches. Project Folly is a reminder that a large provider can learn through comparison, although its particular tests do not answer every question. Counting organizations could miss that activity just as counting storefronts could exaggerate the independence of their underlying systems.
 
-None of this makes organizational structure irrelevant. Separate firms can bring different incentives, technical judgments, and routes to users. Common ownership can make some questions less attractive to investigate. The point is to establish which differences produce the evidence we need, rather than assuming that every legal boundary creates another informative history or that every internal boundary destroys one.
+Separate firms can bring different incentives, technical judgments, and routes to users. Common ownership can make some questions less attractive to investigate. What a comparison reveals depends on those differences and on the tests the organizations actually conduct.
 
 For a regulator or buyer, the useful map therefore follows functions. Who develops the service? Who distributes it? Who records outcomes? Who can change the experiment? Who can examine the result? The same company name can appear in several boxes. Different names can lead back to the same underlying process. The map tells us more than a count of badges on a screen.
 
@@ -1249,7 +1247,7 @@ The position is economically intelligible. A browser is the software through whi
 
 The court considered the risk that a broad payment ban would harm distributors or leave them using Google without receiving revenue. It declined to impose the requested blanket ban. That conclusion did not mean every distribution restriction was acceptable. It meant the remedy had to be assessed in the system where its effects would unfold.[^chapter_05-c5-10]
 
-For a comparison policy, the lesson is that one route can support another. Removing a financial tie might open a search opportunity while weakening a browser through which alternatives reach users. Keeping the tie might preserve that browser while maintaining incentives unfavorable to rival search providers. Describing either move as an unqualified increase in competition would skip the interaction that makes the choice difficult.
+Removing a financial tie might open a search opportunity while weakening a browser through which alternatives reach users. Keeping the tie might preserve that browser while maintaining incentives unfavorable to rival search providers. One route into a market can depend on another, making the terms of access matter as much as their apparent openness.
 
 A remedy can also remove useful experimentation financed by an incumbent's existing business. Any appraisal must count evidence lost as well as gained, alongside changes in production, financing, and access.
 
@@ -1263,7 +1261,7 @@ These requirements belong inside the informational analysis. Data made safer to 
 
 The judgment's definition of a qualified competitor also involved more than asking for a copy. It included approved data-security standards, privacy and security audits, and a sufficient plan to invest and compete in or with the specified markets. Access was an administered relationship with obligations. It was not a public download button available to anyone who described themselves as a challenger.[^chapter_05-c5-7]
 
-Such conditions can make a remedy safer and more purposeful. They can also affect who can use it. A small organization may lack the capacity to meet requirements that a large rival can satisfy. That possibility does not prove the requirements are wrong. It tells the designer to examine whether they are necessary and proportionate, and whether a less costly arrangement could preserve their function.
+Conditions can make a remedy safer while raising the cost of using it. A small organization may struggle with requirements a large rival can easily satisfy. The workable standard is one that protects the required security or quality without imposing avoidable barriers to a credible attempt.
 
 Mozilla's response raised a related concern: data remedies should avoid simply transferring power from one major technology company to another. That was a stakeholder's warning about design. It deserves consideration alongside the potential benefit of making useful resources available. The name of the recipient cannot substitute for examining what the recipient will be able to test and how others will benefit.[^chapter_05-c5-9]
 
@@ -1271,7 +1269,7 @@ For a public evaluator, access to a test and access to its results are likewise 
 
 A published pass score may conceal performance on rare but costly failures. Detailed results could resolve that uncertainty without exposing every line of code. If the relevant condition was never tested, however, fuller disclosure cannot produce the missing result.
 
-That distinction separates two forms of control that often travel together. One governs what happens and therefore what evidence is generated. The other governs who can inspect the evidence afterward. An institution can open its files while restricting new inquiry, or permit inquiry while keeping useful results difficult to check. A serious account of epistemic power must follow both.
+Control over what gets tried determines which evidence can be generated. Control over the resulting files determines who can inspect it. An institution can open its files while restricting new inquiry, or permit inquiry while keeping useful results difficult to check.
 
 ### A screen that can be tested
 
@@ -1283,7 +1281,7 @@ Chrome was an alternative here. Timing could favor a position occupied by anothe
 
 These simulated choices do not establish sustained browser use or independent search capability. A remedy's sequence can nevertheless affect its immediate outcome.
 
-The study changed a rule and observed responses. It therefore supplies evidence about an intervention. A shadow future would preserve the old rules while outcomes unfolded differently. The distinction keeps us from asking one experiment to settle both how a screen works and how a whole competitive history would have developed.
+The choice-screen study changed a rule and observed responses. A shadow future would preserve the old rules while outcomes unfolded differently. The study supplies evidence about the intervention; a whole competitive history under other early events remains unobserved.
 
 There is a constructive implication for the institution imposing a remedy. It can ask how to learn whether the remedy works. Which outcomes would show that a meaningful opportunity had opened? Which would indicate that users were merely clicking through another screen? What evidence would distinguish a temporary shift from a sustained improvement? Those questions should influence the record collected as the remedy operates.
 
@@ -1299,7 +1297,7 @@ A deadline in a status report is a plan, not a completed exchange. The proposed 
 
 The legal dispute continued beyond the district court's decision. Google publicly announced an appeal in January 2026 and argued that the ruling discounted user preference, product quality, and competition. It also objected to the data and syndication requirements. In July, the plaintiffs' appellate brief defended relief and challenged the rejection of a payment ban. These were opposing parties' arguments, rather than an appellate resolution.[^chapter_05-c5-15]
 
-That continuing disagreement matters for interpretation. We should not describe a contested remedy as a completed experiment whose results are already known. We can examine the theory of what it is intended to change, the terms actually ordered, and the evidence produced as it operates. Later results could support, complicate, or undermine expectations on either side.
+The ordered remedy sets terms under which later evidence can emerge. As it operates, entrants' access, costs, and performance could support or undermine the expectations behind it. The parties' competing forecasts remain forecasts until then.
 
 A formal promise of access becomes economically meaningful through specifications, a budget, security arrangements, usable records, and a way to interpret outcomes. Those implementation requirements help determine whether comparison actually occurs.
 
@@ -1337,7 +1335,7 @@ Return to the address bar. The question you type reaches an engine, and the engi
 
 For a buyer or public authority, the task is to make that question practical. Identify a decision worth improving. Find the comparison that could improve it. Ask who can produce and check the evidence, what doing so costs, and what existing knowledge can already resolve. Sometimes another route to users matters. Sometimes better access to a record or a well-designed internal trial supplies what is needed.
 
-Rewards also carry personal consequences. What does a documented achievement establish about what its makers deserve? Before turning to AI's factories and workplaces, we need to separate evidence about contribution from the moral and practical reasons for rewarding it.
+Rewards also carry personal consequences. A documented achievement can establish that someone made something valuable. How much they contributed, what they were promised, and what society has reason to reward remain separate questions.
 
 ---
 
@@ -1363,7 +1361,7 @@ The temptation is to find one number that settles all four. Profit is a convenie
 
 Because an account records what was paid under particular arrangements. Explaining what would have happened under different arrangements is a further task. Deciding which arrangements we ought to choose adds another. We can value the first record while asking the other questions.
 
-In the previous chapter, the question was who gets an opportunity to demonstrate what they can do. Here it is what follows once someone succeeds. The distinction becomes easier to see beside a light bulb and a vehicle that can drive itself. In both cases there was a real achievement. In neither does acknowledging the achievement finish the economics of its reward.
+The blue LED and the driverless vehicle were real achievements. Recognizing the ingenuity behind them still leaves a question about the reward. How much does making something valuable tell us about what its makers should receive?
 
 ## The inventor and the bill
 
@@ -1391,13 +1389,13 @@ Replace the operator with whom? Replace the machine at what cost? Allow how long
 
 For the hypothetical laboratory, the relevant replacement might be an available machine from another supplier. For a historical invention, it might be another research team pursuing a different route. The word contribution can sound exact while quietly moving between those alternatives. A responsible calculation must say what changes and what stays in place.
 
-This is why shadow futures need discipline. Replaying history under the same underlying conditions and response rules lets us examine how outcomes vary. Removing an inventor, changing a financing arrangement, or replacing a technology is a separate intervention. We cannot establish the effect of removing a person merely by imagining a less fortunate version of that person's career.[^chapter_06-c6-4]
+This is why shadow futures need discipline. Replaying history under the same underlying conditions and response rules lets us examine how outcomes vary. Removing an inventor, changing a financing arrangement, or replacing a technology is a separate intervention. We cannot establish the effect of removing a person merely by imagining a less fortunate version of that person's career.
 
 Technical evidence can show that a reactor modification solved a production problem. Dividing the invention's full commercial and social returns among inventors, employers, suppliers and predecessors is a separate question.
 
-The distinction protects the inventor as well as the company. If the original employment payment were low, that fact alone would not show a small contribution. If a later settlement were large, its size alone would not measure the contribution either. Actual payment cannot serve as the evidence for deserved payment without making every existing arrangement certify itself.
+Neither the original wage nor the later settlement can, by its size alone, measure an inventor's contribution. Letting actual payment establish deserved payment would allow every existing arrangement to certify itself.
 
-With Lockdown, the two rankings expose a gap between a fixed recording and its reception. With a blue LED, measurements can narrow important technical gaps while leaving broader questions of credit and reward. There is no single level of uncertainty that applies to every claim about an achievement. We need to know which claim is being made.
+Lockdown's two rankings expose a gap between a fixed recording and its reception. Measurements of a blue LED can settle important technical questions while leaving credit and reward unresolved. The uncertainty depends on the question: whether the device works, who helped make it, or what payment would be justified.
 
 ## A prize waiting in the desert
 
@@ -1409,7 +1407,7 @@ Stanley's finishing time established something specific about performance on tha
 
 There is no contradiction here. The prize organizer needs an administrable rule. The competitors need to know what qualifies. Paying the winner according to the announced rule can be justified by the value of a credible promise. The rule need not claim to reproduce a complete moral history of the technology.
 
-Return to the first race. Nobody collected the million dollars. If the only evidence of worthwhile activity were a payment to a winner, the official prize account would show nothing to praise. But that is a property of the payment rule. It tells us that the specified threshold was not reached. It does not establish that no participant learned anything useful.
+Nobody collected the first race's million dollars. The prize account recorded that no vehicle met the required threshold. What the teams learned along the way would have to be found in their tests and engineering records.
 
 Equally, failure should not receive an automatic certificate of social usefulness. A vehicle that stops in the desert may reveal an important limitation or merely repeat a mistake that was already understood. Whether the attempt generated valuable knowledge depends on what it tested, what was recorded, and who could use the result. Failure is an outcome to investigate, not an achievement by definition.
 
@@ -1439,7 +1437,7 @@ That observation gives capital a role more interesting than waiting for luck. So
 
 Staged finance distributes the cost of discovery. Equity, customer-funded development, and grants can each support an initial test before a larger commitment becomes sensible. Their consequences depend on what is learned and how the parties share its costs and benefits.
 
-Kerr and his coauthors also examine the difficulty of prediction within venture capital. In data from one successful firm, the initial partner scores did not clearly distinguish its later spectacular successes from weaker outcomes. This concerns ventures the firm had already chosen to finance. It does not establish that investors lack skill at selecting or developing investments, or that every rejected idea would have been equally good.
+Kerr and his coauthors also examined prediction within venture capital. In data from one successful firm, the initial partner scores did not clearly distinguish its later spectacular successes from weaker outcomes. All these ventures had already passed the firm's selection process. The comparison left the value of rejected ideas and the effects of later help from investors unresolved.
 
 The successive races show why those abilities differ. A team unable to finish in 2004 might return with a better vehicle; a desert winner still faced a new task in a city. A backer could help make that development possible without knowing the final ranking. Requiring foreknowledge as a condition of financing would defeat much of the purpose of financing an experiment.
 
@@ -1451,7 +1449,7 @@ That defense has limits of its own. A contract can settle what its signatories p
 
 The same financial share can have different economic explanations. Compensation for bearing risk differs from returns obtained through exclusive control of an indispensable route to customers. Investigating alternatives and behavior is necessary to distinguish them.
 
-The experimental view of entrepreneurship also gives us a reason to look beyond the conspicuous winner. Useful tests may occur inside a large company, at a small entrant, or through a publicly supported project. The label on the organization does not reveal whether it asks an informative question. We learned that in the previous chapter when private experiments at Google generated improvements while separate questions arose about access to distribution.[^chapter_06-c6-12]
+Useful tests may occur inside a large company, at a small entrant, or through a publicly supported project. Google's private experiments improved its service while restrictions on distribution affected what rivals could try.[^chapter_06-c6-12]
 
 A defensible experiment specifies the uncertainty, the measured outcome, and the decision that follows. Hidden, uninterpretable, or irrelevant results are difficult to justify as public learning. A useful negative result can be valuable without producing a successful company.
 
@@ -1489,7 +1487,7 @@ The practical implication is to state what information a proposal actually needs
 
 Risk falls on more than investors. Researchers commit time they cannot recover; employees depend on continued work; competing projects may lose support. Counting only capital exposure can settle a moral argument by excluding other consequences before examining them.
 
-We should nevertheless distinguish them. Losing an investment and losing a job are not interchangeable experiences, and an investor may have claims arising from an explicit financing agreement. The point is to ask who bears which consequence. A complete argument about deserving cannot count the winner's uncertain capital while treating everyone else's uncertainty as background scenery.
+An investor can lose capital; a worker can lose a livelihood. Their exposure differs, as do the promises made to them. A judgment about rewards has to consider whose consequences are being counted, including the people whose risks appear nowhere in the winner's investment account.
 
 The DARPA contest supplies a clean separation. A prize offers an upside for reaching a defined objective. It need not fully insure every entrant against failure. If we were designing another contest, we might consider grants for qualified attempts, shared testing facilities, or different prizes at intermediate milestones. Those are proposals to compare, with costs and possible distortions. They are not conclusions established by Stanley's victory.
 
@@ -1499,7 +1497,7 @@ The Kickstarter experiment from Chapter 1 provides a useful check on our intuiti
 
 Now imagine using such a result to design a program supporting new projects. We would want to know which projects the program brings forward, what they produce, and whether the additional donations finance useful work. A finding about subsequent support does not answer all those questions. It gives us a reason to investigate a mechanism that a simple comparison of successful and unsuccessful fundraisers could miss.
 
-It also separates two ways of defending the first payment. One defense says the recipient had already earned it through superior work. Another says the payment could help a worthwhile undertaking become feasible. The second can be persuasive even when we cannot establish the first. Conversely, evidence that a donation attracts other donors does not establish that public money ought to supply every project's first donation.
+One defense of a first payment is that the recipient has already earned it through superior work. Another is that the payment could make a worthwhile undertaking feasible. The second can be persuasive even when the first is uncertain. A public subsidy would still need a worthwhile project and an advantage over other uses of the money.
 
 The value of a proposed experiment is prospective. It should be judged using the information reasonably available when it was funded, including what failure could teach. Later commercial success alone cannot answer whether the original test was worth attempting.
 
@@ -1513,7 +1511,7 @@ Nakamura's account separates the purchases from the learning. The reactor existe
 
 There is also a difference between bearing uncertainty and creating it for someone else. In an illustrative procurement system, a supplier might invest in reliability and accept the chance that buyers will prefer a rival. Or it might arrange to make rivals' performance impossible for buyers to assess. Both activities can involve expense. Expense by itself does not establish equal social usefulness.
 
-This distinction will matter in the taxation chapter. A possible charge for destroying valuable comparison would need evidence of an external cost and an effective instrument. It would address conduct and consequences. It could not be justified simply by observing that the successful supplier is wealthy, or by treating every obstacle encountered by a rival as socially wasteful.
+A charge for destroying valuable comparison would address conduct and its external costs. Its justification would depend on the loss caused and the instrument's effects, rather than the successful supplier's wealth or a rival's complaint alone.
 
 Decent treatment and an entitlement to a contract remain different matters. An opportunity can be humane to preserve yet too unsafe, uninformative, or costly to purchase. Respect for workers includes taking the needs of those relying on the service seriously.
 
@@ -1529,7 +1527,7 @@ Income support can protect households without generating evidence about their wo
 
 A popular musician or creator can earn a great deal without controlling anyone else's access to an audience. A platform that decides which creators receive meaningful exposure occupies a different position. The extreme tail of an income distribution does not identify that difference. The relevant question is who can prevent another person's work from receiving a credible hearing.
 
-This does not mean we should revise every contract after discovering an inconvenient shadow future. Arbitrarily changing promises after people have relied on them can damage the possibility of future cooperation. A better starting point is to design terms prospectively, explain which obligations survive, and evaluate changes openly. Uncertainty about contribution calls for responsible rules, not permission to improvise against whomever happens to win.
+Changing promises after people have relied on them can damage future cooperation. Prospective rules let investors and workers know which obligations attach to the returns they seek. They also allow the costs and benefits of a change to be assessed before people commit their resources.
 
 Credit needs similar care. Robert Merton's account of the Matthew effect showed how recognition can accumulate around already eminent scientists. Recognizing that mechanism does not require denying the accomplishments of eminent people. It invites us to examine how acknowledgment is assigned and how accumulated standing affects access to further work. His analysis is a predecessor to these questions, not a discovery made here.[^chapter_06-c6-10]
 
@@ -1537,9 +1535,9 @@ In the LED story, accurate acknowledgment can name particular advances and their
 
 A similar restraint helps with criticism. A disappointing reward can be evidence of bad rules, weak bargaining power, an unfortunate sequence, poor performance, or several of these together. The possibility of a shadow future does not tell us which explanation fits a particular person. It asks us to investigate before translating low earnings into a verdict on character.
 
-An objection remains. If we loosen the connection between income and merit, do we weaken the motivation to do difficult things? That is a serious prospective question. We should examine how people respond to particular changes in rewards, rather than answer it by insisting on a claim about past attribution that the evidence cannot support. A useful incentive can be defended as useful.
+Would loosening the connection between income and merit weaken the motivation to do difficult things? The answer depends on how people respond to a particular change in rewards. A payment can be worth promising because it encourages useful work, even when the eventual income cannot measure exactly how much its recipient contributed.
 
-The driverless-car prize makes that defense ordinary. We do not need to believe that the winner authored the entire technology in order to promise payment for completing a demanding course. We need a credible reason to think the arrangement is worth its costs. The burden becomes harder when the proposed reward includes control over future testing, because we must assess what learning that control permits or prevents.
+The driverless-car prize promised payment for completing a demanding course. It did not require a belief that the winner authored the entire technology. The question was whether the incentive was worth its costs. A reward that also grants control over future testing adds another cost: the learning that control can prevent.
 
 Another objection points toward equality. If the rankings could have differed, why not give everyone the same reward? Because the premise does not establish equal contributions, equal costs, equal needs, or identical responses to incentives. Lockdown's divergent rankings unsettle an easy inference from outcome to worth. They do not hand us a complete theory of distributive justice.
 
@@ -1549,13 +1547,13 @@ Agreement about each person's exact contribution may remain beyond our evidence.
 
 ## From the prize to the power cable
 
-The next wave of this argument will arrive with a very large electricity bill. An AI supplier can do valuable engineering and commit substantial capital while its eventual rewards also depend on which systems get deployed first, which users encounter them, and which alternatives can afford a credible trial. These possibilities belong in the same inquiry.
+An AI supplier can do valuable engineering and commit substantial capital while its eventual rewards also depend on which systems get deployed first, which users encounter them, and which alternatives can afford a credible trial.
 
-The distinction between a prize and a contribution matters before a computing facility is built. Investors need some expectation of returns. Workers need compensation. Customers need a service that performs. Society may benefit from capabilities that no single payment fully captures. None of those needs makes construction free, and none makes the size of the eventual fortune a complete explanation of what caused it.
+Before a computing facility is built, investors need an expectation of returns, workers need compensation, and customers need a service that performs. Society may benefit from capabilities no single payment fully captures. Those needs give reasons to finance construction without making the eventual fortune a complete measure of what caused it.
 
 Keep the light bulb in view. Whatever we decide about the division of credit, semiconductor material still has to be produced and a useful device still has to work. Keep Stanley in view as well. Whatever we decide about the prize, a vehicle still has to complete the course. An economics attentive to possible histories must remain attentive to physical accomplishment.
 
-That is the task ahead. Follow the actual inputs, follow what is tested, and distinguish the reward promised from the contribution we hope to learn. For artificial intelligence, the argument about deserving begins among chips, cooling systems, and power cables, long before it reaches a debate about who should keep the winnings.
+The economics of an AI fortune begins among chips, cooling systems, and power cables. Long before anyone debates the winnings, someone must build a machine that works.
 
 ---
 
@@ -1583,9 +1581,9 @@ There are strong reasons for some of that work to occur in large organizations. 
 
 At Oak Ridge National Laboratory, preparations for the Frontier supercomputer involved a cooling plant, elaborate piping, and foundations capable of carrying cabinets weighing four tons apiece. The laboratory's published construction account records a failed joint in a large pipe during a pressure test. Water poured out; the team identified the failed weld and repaired it. Before the computer could do its work, the building had to survive the plumbing.[^chapter_07-c7-2]
 
-The failed weld belongs in the account of the machine. Buying processors had not completed the job; the supporting systems had to pass their own tests. The pressurized pipe offered a plain measure: a joint had to hold before the planned operation could proceed. Acknowledging that work does not require calculating the crew's share of every future scientific discovery the computer will support.
+Buying processors had not completed the job. The supporting systems had to pass their own tests. A joint in a pressurized pipe had to hold before the planned operation could proceed. Its usefulness was clear long before anyone could divide the value of the discoveries the machine might support.
 
-Frontier is a scientific supercomputer with that proper name. When people call an AI model a frontier model, they mean something different: a system near the leading edge of relevant capabilities at a particular time. The distinction is worth making before the language conceals the machinery. A leading model is produced and operated on physical systems; it is not the building itself.
+Frontier is a scientific supercomputer with that proper name. A frontier AI model is a system near the leading edge of relevant capabilities at a particular time. Such a model is produced and operated on physical systems; it is not the building itself.
 
 Begin with the chips. An accelerator is a processor designed to carry out suitable computations efficiently, often by performing many operations in parallel. Graphics processing units, or GPUs, became central tools for this work. A collection of them does not automatically behave like one enormous, dependable computer. They need data, memory, connections, and software that assigns and coordinates the work.
 
@@ -1599,7 +1597,7 @@ At LUMI, the European supercomputer in Kajaani, Finland, the operator describes 
 
 The important feature is the connection between activities. A facility in one place may be near a usable heat network; another may have no comparable outlet. A household's demand for heating can vary with the season while the computer's workload follows a different schedule. Evaluating the arrangement requires following those actual uses and alternatives.
 
-The LUMI example therefore makes location more than a choice about cheap land. There must be a practical way to move useful heat to people who need it. We should ask what heating it replaces and what equipment and operating costs the transfer requires. The operator's description establishes a particular use; the wider economic judgment needs a wider account.
+LUMI's location offers a practical route for moving waste heat to people who need it. Its wider economic benefit depends on the heating it replaces and the equipment and operating costs of the transfer.
 
 That is relevant to a comparison of AI factories even when they offer similar services. Their private accounts can omit different benefits and costs falling outside their walls. A meter reading alone does not identify those effects. Neither does a claim that all computation is virtual. The heat has to go somewhere, and in Kajaani some of it goes into homes.
 
@@ -1607,7 +1605,7 @@ Counting processors can miss those differences. Counting electricity can miss wh
 
 The Oak Ridge construction record makes the missing work visible. Someone had to discover the defect during testing and correct it. That is a contribution we can describe concretely. We do not need an exact division of the supercomputer's lifetime scientific value to acknowledge that preventing a failed pipe from interrupting operation is useful.
 
-The same lesson applies to AI facilities. Engineering competence can be real and consequential even when we cannot infer its entire economic contribution from the winning company's market position. Respect for physical accomplishment and caution about retrospective attribution belong together.
+Engineering competence can determine whether an AI facility works. Its share in the winning company's eventual fortune is harder to recover. The operating machine demonstrates an accomplishment; explaining the income requires further evidence.
 
 ## Keeping the chips working
 
@@ -1617,7 +1615,7 @@ The two facts belong together. Reporting the interruptions alone would make the 
 
 A single failed GPU could require the entire training job to restart. A processor that still worked but ran slowly could hold back thousands of others. Meta's report describes tools for finding those stragglers. The coordination problem was physical: many expensive processors depended on the pace and reliability of the components around them. Their number alone did not establish the useful work they could perform.[^chapter_07-c7-4]
 
-The Llama team reported significant manual intervention was needed only three times during that period; automation handled the other issues. That is an operational claim with a specified boundary. An entrant renting well-run computing might purchase the benefit of such procedures without developing them afresh. The institutional question is whether the service lets the entrant investigate a different product, rather than whether every entrant owns its own maintenance operation.[^chapter_07-c7-4]
+The Llama team reported significant manual intervention was needed only three times during that period; automation handled the other issues. An entrant renting well-run computing might obtain the benefit of those procedures without developing them afresh. The service would still need to permit the experiments its product requires.[^chapter_07-c7-4]
 
 Scale can help in several different ways. The work of developing a useful system can be spread across many uses, provided the resulting service remains useful to those users. An operating team can support more than one project. A costly improvement in diagnosis may pay off repeatedly, rather than needing to be rediscovered for every customer.
 
@@ -1627,7 +1625,7 @@ Centralizing production need not make downstream services identical. Shared infr
 
 Renting access to well-run computing can reduce the need to duplicate physical infrastructure before attempting a product. The provider's expertise can make more projects feasible. Access terms determine which of those projects can actually proceed.
 
-Now imagine requiring each supplier to reproduce the entire cooling plant, network, maintenance system, and staff before it may offer a service. That would create organizational independence at a considerable resource cost. We should not assume the resulting duplication produces enough useful information to justify itself. A desire for comparison is not a reason to ignore engineering economics.
+Requiring each supplier to reproduce the entire cooling plant, network, maintenance system, and staff would buy organizational independence at a considerable resource cost. The extra comparison would have to improve decisions enough to justify that duplication.
 
 An exclusive capacity arrangement can restrict downstream experiments while preserving useful operating expertise. The productive value of a facility and the informational consequences of its allocation rules therefore require separate assessment.
 
@@ -1635,13 +1633,13 @@ We would want to examine the reason for the reservation. A long commitment might
 
 Large shared computing is more than a hypothetical possibility. For 2026, the Department of Energy's INCITE program allocated access to seventy-five computational science projects at Argonne and Oak Ridge. Its published account describes scientific peer review alongside assessments of whether proposed work is technically ready for the machines. The organization operating the facility and the teams using it need not be identical.[^chapter_07-c7-14]
 
-The listed projects include William Collins's work on large ensembles of weather extremes using machine learning and research on foundation models for materials. These are allocations for proposed work, not evidence that every promised result was achieved. They make the institutional possibility concrete: a costly shared machine can support distinct questions chosen by different teams.
+The allocations proposed distinct uses of the shared machines, including William Collins's large ensembles of weather extremes using machine learning and research on foundation models for materials. Different teams could apply for resources to pursue different questions; completed results would come later.
 
-INCITE's policy document distinguishes technical readiness from scientific impact. Readiness alone is insufficient for an award. A proposal that needs preparation can be considered for preliminary access through another program. The distinction recognizes a practical problem: a team may need experience with the resource before it can demonstrate readiness to use a large allocation well.
+INCITE's policy document distinguishes technical readiness from scientific impact. Readiness alone is insufficient for an award. A proposal needing preparation can be considered for preliminary access through another program. A team can need experience with the resource before it can demonstrate readiness for a large allocation.
 
 Shared access replaces one expensive hurdle with another, smaller one: a team can apply for time instead of financing an entire facility. Applications still take work, reviewers can make mistakes, and capacity is scarce. The practical question is which promising projects can now be attempted.
 
-Llama's interruption record also counters an easy version of the information argument. The company plainly learned about its own operation. A failing component, a useful recovery method, or a bottleneck in communication can generate actionable evidence inside one organization. Calling the organization large cannot make that learning disappear.
+The Llama team learned about its own operation. A failing component, a useful recovery method, or a bottleneck in communication could generate actionable evidence inside the company. Those internal tests improved the operation while leaving other questions about competing products unresolved.
 
 The more demanding question is which question the learning answers. An improved recovery procedure can establish how to keep this cluster operating. It does not, without further work, establish what a differently financed rival would have built or which product a buyer would prefer after a fair trial. A factory can become better understood while its place in the wider economy remains harder to explain.
 
@@ -1685,7 +1683,7 @@ Neither description can be inferred from the electricity meter. The meter tells 
 
 Chinchilla also changed how its settings were adjusted, how text was divided into units, and the proportions drawn from different parts of the training dataset. The paper records those differences. Its result therefore compares two training packages; it does not isolate model size as the sole cause. The productive lesson is the researchers' ability to investigate a prevailing recipe. Future data, hardware, and uses could make another recipe preferable.[^chapter_07-c7-8]
 
-Measured performance across competing services belongs in the evidence. The allocation-only limit cannot be applied by retaining the award record while discarding informative trials conducted before it.
+Tests conducted before an award can reveal differences the award history alone leaves unresolved. Their measurements add to the evidence available about competing services.
 
 Where deployment mainly reproduces the record of an established service, the questions concern how alternatives obtain use, which outcomes are checked, and whether tasks are comparable. A market share cannot answer those questions.
 
@@ -1705,7 +1703,7 @@ Published methods can reduce the cost of reproducing a successful approach. That
 
 Incomplete methods, unavailable data, and different operating conditions can still require fresh experiments. An expenditure figure in a research report does not, by itself, establish the cost at which another organization can reproduce the capability.
 
-The same caution applies in the opposite direction. A company may spend heavily on research that does not improve its final product. We should not assume that every dollar in a large research program was necessary merely because the company later succeeded. To assess necessity, we need comparisons or other evidence about alternatives, rather than either accepting or dismissing the entire bill.
+A company may spend heavily on research that never improves its final product. Later commercial success cannot show which of those expenses were necessary. Comparing development routes can help distinguish indispensable work from costly attempts that added little.
 
 Kerr, Nanda, and Rhodes-Kropf's account of entrepreneurship supplies the established economic starting point. Early tests can inform later commitments, and the option to stop can matter. Bringing that account into AI asks us to examine the sequence of experiments and financing decisions. It does not give the final winner exclusive ownership of the concept of experimentation.[^chapter_07-c7-10]
 
@@ -1725,11 +1723,11 @@ Suppose instead that our question concerns the training process itself: would an
 
 That is why independence needs an object. Independence of ownership, computing provider, model ancestry, task assignment, or evaluation can each matter differently. Demanding independence in every respect could be prohibitively expensive. Assuming it exists because a storefront has a new name could be equally misleading.
 
-Arrow's appropriation problem also gives an incumbent a serious argument. If immediate unrestricted access prevents it from recovering the costs of valuable research, some research might not occur. We need to examine that possibility. An argument for preserving comparison becomes incomplete when it treats the creation of the thing being compared as somebody else's concern.
+Arrow's appropriation problem applies here. If immediate unrestricted access prevents recovery of the costs of valuable research, some research may never be undertaken. A route for later experiments is valuable only if the knowledge and equipment those experiments need also get produced.
 
 The incentive argument still requires a comparison of feasible arrangements. Terms permitting returns and downstream experiments can differ from terms closing a customer route without enabling additional research. Both can be described as protecting investment while having different consequences.
 
-We should compare feasible arrangements rather than compare an actual factory with an imaginary world in which discovery, equipment, and coordination cost nothing. Public support, contractual access, released artifacts, and competing private facilities can have different strengths and costs. Which is useful depends on the problem we want to solve.
+Public support, contractual access, released artifacts, and competing private facilities all require resources. Each can make some experiments feasible and others expensive. The useful choice depends on the research or service being developed, including the cost of creating its inputs.
 
 The terms attached to a model, a dataset, or a computing service help determine which later experiments are feasible. A release can make a new application possible while leaving another training strategy beyond reach. The factory creates possibilities. Its institutional arrangements determine who can act on them.
 
@@ -1783,21 +1781,21 @@ That choice connects the contract back to the engineers. Recovery procedures, st
 
 We need evidence to distinguish those cases. A large electricity demand is not inherently a social loss. Nor does calling the demand innovative establish that every associated cost ought to be paid by others. The public question concerns useful output, displaced uses, environmental effects, and the allocation of risk as well as the private business plan.
 
-The information question can also enter, but it must be specified separately. If a valuable pilot uses scarce capacity, it competes with other uses. The value of learning is part of the comparison, alongside electricity, equipment, labor, and the service forgone. Preserving evidence should not become a phrase that makes physical resources free.
+A pilot using scarce capacity competes with other uses of the machines. What it might teach has to be worth the electricity, equipment, labor, and service forgone. A smaller test or a suitable existing record may answer the question at lower cost.
 
-Long commitments can support investment while restricting access to scarce capacity. The institutional question is whether a feasible arrangement retains the financing benefit and preserves useful independent experiments. Their costs can exceed their benefits; that possibility belongs in the appraisal.
+Long commitments can finance investment while restricting access to scarce capacity. A different arrangement could retain the financing benefit and preserve useful independent experiments. Whether it improves on the commitment depends on the experiments' value and the costs of making room for them.
 
 This is the tension that a price or concentration statistic alone cannot resolve. A low price today can coexist with a poor route to testing tomorrow's alternative. A large producer can supply the very capacity that makes new experiments affordable. The economic task is to trace the mechanisms rather than assign one moral meaning to size.
 
 ## Leaving the factory
 
-The physical story has carried us from a grid connection to a model ready for use. Along the way, there were pipes to test, interruptions to overcome, training choices to investigate, and costs to define. These are productive activities. The argument about missing comparisons gains nothing by pretending otherwise.
+A working facility has overcome physical obstacles: pipes that could fail, interrupted training runs, equipment shortages, and difficult design choices. Those achievements make the next request possible.
 
 But the completed training run is a beginning for the economic story. A model can be served repeatedly, incorporated into different products, evaluated on changing tasks, and routed toward some users rather than others. Those arrangements affect which observations accumulate and which alternatives develop a usable record.
 
 Follow the next request. Someone chooses a system, the machines produce an answer, and a person or another program does something with it. Does that sequence teach us what we need to know? Does it improve the next decision? Can it reveal when a different system would work better?
 
-The factory has made an answer possible. The next chapter asks what we learn when there are a billion of them.
+One answer becomes a million, then a billion. Each can be useful. How many of them tell us whether a different system would work better?
 
 ---
 
@@ -1811,7 +1809,7 @@ Inference turns a trained model into a stream of outputs. Each interaction can a
 
 The records can include the request, selected model, answer, time taken, and a user's acceptance. A check against an independently known outcome adds another observation. These records answer different questions because they arise from different measurement choices.
 
-The trained model need not change its numerical settings during this exchange. A later development process might use collected examples to update it. The service could also retrieve a newer document or apply a different instruction without retraining the underlying model. We should keep those changes distinct when asking what another successful answer teaches us: the learning can occur in the model, in the surrounding software, or in the people evaluating the result.
+The trained model need not change its numerical settings during this exchange. A later development process might use collected examples to update it. The service could also retrieve a newer document or apply a different instruction without retraining the underlying model. Improvement can occur in the model, the surrounding software, or the people evaluating the result.
 
 Now repeat the exchange a billion times across many workplaces and tasks. The records can become immensely useful. They can expose recurring mistakes, reveal delays, and help developers improve a service. But the number of completed requests does not, by itself, tell us which questions the resulting evidence can answer.
 
@@ -1875,9 +1873,9 @@ Lingjiao Chen, Matei Zaharia, and James Zou explore a related route in FrugalGPT
 
 In the workplace illustration, the system might first ask a cheaper model to extract the deadline. If its assessment of that response is unfavorable, it could ask another model. This differs from selecting once before seeing an answer. It also differs from obtaining an independent human check of correctness. The assessment mechanism itself needs evaluation.
 
-FrugalGPT's paper includes cases where additional calls are made even though the models' answers agree. Its discussion treats this as room for improvement: the selector's uncertainty can cause extra expense. The example makes an important point about automation. Delegating the decision to a model does not remove the decision problem; it creates a system whose judgment about when to continue has consequences.
+FrugalGPT's paper includes cases where additional calls are made even though the models' answers agree. Its discussion identifies the selector's uncertainty as a source of avoidable expense. Delegating a decision to a model leaves another judgment to evaluate: when does that model decide to stop?
 
-For a buyer, an economical cascade might lower the cost of trying alternative services. It might also make comparisons less visible if the final interface reports only one answer and one brand. We should inspect what the system actually records. A useful comparison can occur behind a simple interface, while an interface displaying several logos can conceal dependence on the same underlying service.
+An economical cascade might lower the cost of trying alternative services. If the interface reports only one answer and one brand, the buyer may be unable to inspect those comparisons. Several logos can conceal dependence on one underlying service; a simple interface can conceal useful tests of several.
 
 Routing and cascades can make it cheaper to compare services as well as to use them. A buyer who can afford only one expensive answer may be able to check several cheaper ones. Whether that happens depends on what the selection system tests and records.
 
@@ -1901,7 +1899,7 @@ Long before today's language models, a news page posed a related problem. The Ya
 
 Their work used records gathered through randomized article selection. Under their stated conditions, an evaluator can retain suitable events where a proposed rule would have selected the article that was actually shown. The retained record then includes a real response to that choice. The researchers compared offline evaluations with online results in the Yahoo application.
 
-This is an instructive answer to the claim that one history must leave every alternative forever beyond reach. A historical record can contain deliberately created variation. The variation can support questions that the institution operating the system did not answer by simply repeating its current favorite. Collecting the right record changes the possibilities for later analysis.
+A historical record can contain deliberately created variation. It can then support questions that simply repeating the current favorite would leave unanswered. Collecting the right record expands what later analysis can discover.
 
 Randomized request logs with checked outcomes can support evaluation of another selection rule under the relevant coverage and identification assumptions. A literal parallel economy is not required for every counterfactual question.
 
@@ -1915,7 +1913,7 @@ The same record can nevertheless be valuable. If it supports a better procuremen
 
 This gives us a practical reason to preserve details that a success count omits. Which alternatives were available? Why was this one selected? What was measured afterward? A usable assignment record and meaningful outcome can make a small pilot worth more, for a specific decision, than a much larger archive lacking those features.
 
-The pilot also has costs. Someone receives the less suitable answer when the comparison goes badly. Someone checks the outcome. Some data may be inappropriate to retain or share. The Yahoo research illustrates an opportunity created by deliberate observation; it does not imply that the opportunity is free or that every problem meets its assumptions.
+The pilot also has costs. Someone receives the less suitable answer when the comparison goes badly. Someone checks the outcome. Some data may be inappropriate to retain or share. Useful evaluation requires an observation design that fits the task and evidence worth those costs.
 
 ## The same ancestor
 
@@ -1931,7 +1929,7 @@ Imagine that our three services extract the same wrong date because the underlyi
 
 These are illustrative cases, but they identify an empirical task. Follow the chain far enough to understand which components are common, which vary, and where the outcome is measured. Independence is valuable relative to a question. It should not be a ceremonial word attached to a company name.
 
-The same caution applies to repeated answers from one system. New requests and new checks can provide fresh information about that system's performance. Repeating a model call is not automatically repeating the same observation. A thousand carefully checked orders can expose failure patterns that one order could not reveal.
+A thousand carefully checked orders can expose failure patterns that one order could not reveal. New requests and new checks can add information about a system even when the same model handles them all.
 
 But generating a thousand responses without a new check does not create a thousand independent confirmations of the underlying claim. If the uncertainty concerns the actual delivery date, the order and its amendments remain relevant evidence. A longer conversation among programs might help interpret them. It cannot make an unread amendment irrelevant by agreeing without it.
 
@@ -1969,7 +1967,7 @@ Failed attempts can matter as much as final outputs. Preserving their records ma
 
 Control of tools and records can make switching expensive even when software generation becomes cheap. This is an institutional question about portability and ownership, distinct from the capability demonstrated by an agent experiment.
 
-Ownership alone also cannot establish validity. Carlini's account illustrates useful checking within one firm using related models. A legally independent project can still use a defective test. The analysis follows the route from a proposed design to feedback capable of exposing its errors.
+Carlini's account describes checks within one firm using related models. A legally independent project could still use a defective test. Validity depends on feedback that can expose an error, wherever the test is organized.
 
 A thousand agents can reproduce one mistaken interpretation; a single check against a relevant document can reveal it. Abundant software labor can multiply attempts faster than it produces trustworthy judgments of their results.
 
@@ -1993,7 +1991,7 @@ The researchers used a simulator based on historical workloads, tested on unseen
 
 The sequence matters as much as the headline. A proposal entered a test with a defined outcome. A promising simulated result faced another check. Deployment supplied further observations. The program was not considered better simply because another language model produced a fluent explanation of why it ought to work.
 
-Compare that with the simulated party. Smallville can show what its agents do under its rules. A scheduling simulation can also be wrong about a real system. In the AlphaEvolve account, subsequent measurements provided an additional connection to actual operation. We should examine the quality of that connection while recognizing why it adds something that another unvalidated simulation would not.
+Smallville's party unfolds under programmed rules. A scheduling simulation can also misrepresent a real system. In the AlphaEvolve account, measurements from subsequent operation provided a way to check the simulated gains against actual performance.
 
 For software generation, useful evidence comes from executed programs and checked outcomes. Candidate code can help organize a search, but its correctness needs testing beyond the model's ability to produce it.
 
@@ -2001,7 +1999,7 @@ The test set still needs attention. A program might exploit a quirk of the examp
 
 This possibility strengthens the constructive part of the comparison argument. An AI system can help us propose and assess alternatives at a cost that changes which experiments are worth attempting. It can do so inside a large firm or in a smaller undertaking. The organizational label does not tell us whether the tests are informative.
 
-The information also has a boundary. Evidence that a scheduling rule uses machines better can justify adopting that rule. It does not, by itself, measure the contribution of every earlier investor or determine whether another ownership arrangement would have produced a superior computing industry. A successful local experiment deserves its success without being asked to answer every historical question.
+Evidence that a scheduling rule uses machines better can justify adopting that rule. The experiment compares ways to schedule the available machines. It leaves the contributions of earlier investors and the effects of alternative ownership arrangements to other evidence.
 
 Generated proposals can help us test ambitious ideas when we can define an outcome that establishes improvement. The question is how to connect each proposal to evidence that can distinguish success from a plausible story. That connection lets us use AI's capabilities while examining whether the resulting system accomplishes its purpose.
 
@@ -2031,7 +2029,7 @@ Someone supplied examples used in development. Someone expressed a preference in
 
 If an AI service improves the worker's performance, that is a real possibility worth measuring. If it changes which tasks the worker gets to attempt, how expertise develops, or what an employer can observe about ability, those are further questions. An answer that helps finish today's task can also change the conditions under which tomorrow's worker learns.
 
-The next chapter asks what happens to the worker. Its subject is the work behind the answers, the work changed by them, and the first opportunities through which people develop a record of their own.
+Behind the answers are people doing work, people whose work is changing, and beginners still waiting for a first assignment. The system that handles today's task also helps determine who gets to learn tomorrow's job.
 
 ---
 
@@ -2045,7 +2043,7 @@ On September 10, 2020, an engineer ran a load test and an AI assistant stopped m
 
 Usually, a company wants to know whether its new tool works. Does it resolve more complaints? Does it shorten the queue? Does the customer leave satisfied? An outage raises another question. Has the worker acquired something that can survive the disappearance of the machine?
 
-That question belongs near the center of the argument about AI and employment. A worker and a computer can become a more productive team without the worker becoming more capable alone. They can also become a more productive team because the worker learns from the computer. The difference is easy to miss while both are working.
+A worker and a computer can become a more productive team without the worker becoming more capable alone. They can also become a more productive team because the worker learns from the computer. The difference is easy to miss while both are working.
 
 The customer-support study supplies a hopeful case. Erik Brynjolfsson, Danielle Li, and Lindsey Raymond examined the introduction of a generative assistant among 5,172 agents. In the published study, access raised issues resolved per hour by an average of 15 percent. The gains were concentrated among workers with less experience and lower initial performance. Experienced, highly skilled workers gained much less; some quality measures deteriorated slightly for the strongest workers.[^chapter_09-c9-2]
 
@@ -2065,7 +2063,7 @@ The missing wage record matters for a second reason. Suppose a beginner's improv
 
 A narrowing performance gap can mean useful knowledge travels farther. Experts might still be crucial for diagnosing unusual failures, developing practices, or improving the system that distributes the old ones. The strongest support workers' smaller gains concern that deployment. They do not establish that a business can dispense with the expertise on which future assistance may depend. A firm needs to examine that continuing work before turning the average gain into a staffing plan.
 
-We should carry both observations forward. A machine can create real value and improve human learning. The reward history of the resulting workplace can still leave important contributions unresolved. Neither observation cancels the other.
+The machine can create real value and improve human learning while the workplace's reward history leaves the contribution of each input unresolved.
 
 ## The answer and the ability
 
@@ -2073,7 +2071,7 @@ A mathematics classroom offers a sharper separation between successful assistanc
 
 The students practiced, then took an assessment without the tool. During practice, both assisted groups performed better than the group using ordinary resources. Once assistance was removed, the students assigned the standard assistant performed worse than the control group. The tutor designed around learning largely avoided that harm. Its striking practice gains did not translate into a clearly established advantage on the subsequent unassisted assessment.
 
-The researchers had measured two different achievements. One was getting through the problem with help. The other was being able to solve a related problem afterward. A completed worksheet could look like evidence of either. The assessment made the distinction visible.
+Getting through a problem with help and solving a related problem afterward are different achievements. A completed worksheet can look like evidence of either. Testing without the assistant made the students' independent performance visible.
 
 The experiment measured short-run learning with particular tools and tasks. How assistance was organized changed what students could do when it was withdrawn. Following their later working lives would require a different study.
 
@@ -2111,7 +2109,7 @@ In its February 24, 2026 account of a follow-up effort, METR reported difficulty
 
 One participant's published comment included the simple explanation, “I really like using AI!” That is an ordinary preference. It is also a research problem. If a developer avoids entering the experiment because a particularly suitable task might land in the no-AI condition, the measured comparison no longer represents the full set of tasks the researcher hoped to study.
 
-Random assignment cannot recover a task that never enters the pool. It can make the allowed and disallowed conditions comparable among eligible, submitted tasks. The researcher must still ask why these tasks were submitted and what happened to the rest. The boundary around the experiment is part of the evidence.
+Random assignment can compare tool use among eligible, submitted tasks. Tasks kept out of the experiment remain absent. If developers submit only work they are willing to do without AI, the results describe that selected work.
 
 Study pay also fell from $150 to $50 an hour, potentially altering participation. Developers could run agents concurrently, complicating the meaning of time spent on a task. Unfinished work and differences in task selection created further difficulties. These were reasons to reconsider the design, rather than declare that the original slowdown had cleanly reversed into a precisely measured speedup.
 
@@ -2125,7 +2123,7 @@ Adoption can change what a later comparison means. Users develop habits, forget 
 
 Staged introduction, comparison of assisted training methods, and assessment on new tasks can still supply evidence. Each answers a different question. More observations of the adopted workflow cannot automatically recover every earlier comparison.
 
-Here the distinction between activity and informative opportunity becomes tangible. A company might accumulate millions of AI-assisted edits while losing the practical ability to recruit a comparable group for a particular no-AI trial. The edits could be useful evidence about errors, quality, and day-to-day performance. Their number would not, by itself, answer the missing question about the alternative arrangement.
+A company might accumulate millions of AI-assisted edits while losing the practical ability to recruit a comparable group for a particular no-AI trial. The edits could reveal errors, quality, and day-to-day performance while leaving the alternative working arrangement untested.
 
 Adoption can make a tool more useful while making a particular experiment harder to run. METR had to redesign its study because the way developers worked had changed.
 
@@ -2139,9 +2137,9 @@ Autor's argument concerns relationships among tasks. Automation can increase the
 
 There is harder evidence on the other side. Daron Acemoglu and Pascual Restrepo studied exposure to industrial robots across American labor markets over 1990–2007. They found adverse effects on employment and wages in more exposed places. A machine's productivity benefits did not ensure that the affected local workers would gain.[^chapter_09-c9-10]
 
-Their setting involved industrial robots performing work such as assembly, welding, and painting. Their analysis used differences in local exposure based on industry composition and robot adoption, rather than randomly distributing robots among towns. The causal interpretation requires assumptions and checks about other forces affecting those places. It is serious evidence about a historical adjustment, with a defined design and a defined scope.
+Acemoglu and Restrepo studied industrial robots performing work such as assembly, welding, and painting. Their analysis used differences in local exposure based on industry composition and robot adoption. Its causal interpretation depends on accounting for other forces that could affect employment in those places.
 
-Notice what this research can accomplish without rerunning the whole American economy. Places entered the period with different industrial structures, making their exposure to robot adoption different. The researchers used that variation and investigated competing explanations. Their estimates remain conditional on the design, but the absence of a literal parallel America does not make historical evidence useless. Shadow futures sharpen the demand to specify which alternative is being studied and where the information comes from. They should not become an excuse to dismiss a carefully constructed comparison merely because it occurs within one history. Here the relevant contrast is supplied by differences across labor markets, with the design's assumptions carrying part of the inferential burden.
+Places entered the period with different industrial structures, making their exposure to robot adoption different. The researchers used that variation and investigated competing explanations. Comparisons across labor markets supplied evidence within one American history, under the assumptions of their design.
 
 The teller account and the robot study should make us impatient with easy reassurance as well as easy catastrophe. Automation can reduce the labor needed for particular work. Lower costs and new activities can create demand elsewhere. The balance, location, timing, and distribution of those responses matter. An aggregate gain can coexist with a damaging local loss.
 
@@ -2165,7 +2163,7 @@ Platform work provides documented evidence of selection through a record. The In
 
 Geographic mobility offers less independence when the same ranking system governs work across locations. If practical alternatives are also unavailable or reuse the same record, moving does not create a new evaluator. This is a hypothesis about dependence, rather than a description of every platform worker.
 
-That last condition matters. The ILO report also records surveyed workers using another platform after permanent deactivation from one. Platforms can open distant demand, and workers can have alternatives. The concern is the situation in which those alternatives become impractical or rely on the same record. We should investigate that dependence rather than assume every worker already faces it.[^chapter_09-c9-platform]
+The ILO report also records surveyed workers using another platform after permanent deactivation from one. Platforms can open distant demand as well as close accounts. A worker's ability to recover depends on whether another platform offers usable work and how much it relies on the same record.[^chapter_09-c9-platform]
 
 Europe's 2024 Platform Work Directive addresses one part of the problem. It provides for portability of personal data generated through platform work in automated monitoring and decision systems, including ratings and reviews. Its national transposition deadline is December 2, 2026. At the time of writing, the deadline remains ahead; the existence of the directive is not evidence of uniform implementation or successful remedies.[^chapter_09-c9-portability]
 
@@ -2215,13 +2213,13 @@ Workers can benefit through wages, ownership claims, and cheaper goods or servic
 
 Investment can expand the capacity to attempt new projects or strengthen exclusive control of routes through which others must be tested. Both may involve productive expenditure. Their consequences for future comparison depend on what the resulting assets permit.
 
-A feedback between automated production and reinvestment could help entrants develop or help well-financed incumbents advance faster. Demand, financing, competition, resource constraints, and checking costs determine its strength. A successful agent experiment does not demonstrate an autonomously expanding firm.
+Automated production and reinvestment could help entrants develop or let well-financed incumbents advance faster. Expansion still needs customers, finance, scarce resources, and reliable checks. A successful agent experiment supplies one part of that process.
 
 Accumulation also faces depreciation, imitation, failures, and rivals. Productive integration can improve services while making independence harder. The relevant assessment includes both those benefits and the feasibility of another development route.
 
 Anton Korinek and Donghyun Suh examine automation and capital accumulation together in their March 2024 scenario model. Investment can complement work that remains with people. Its pace relative to automation and the assumed range of human tasks can produce very different wage paths. Their model also separates reproducible capital, including compute, from fixed scarce factors. It gives no unconditional forecast that wages or monopoly profits must move in one direction.[^chapter_09-c9-capital]
 
-Software cannot instantly create an electricity connection or manufacture servers. Scarcity can constrain expansion, but temporary shortage alone does not establish permanent gatekeeping. The stronger claim needs an identifiable obstruction and evidence about feasible alternatives.
+Software cannot instantly create an electricity connection or manufacture servers. A shortage can delay every supplier; control over access can prevent particular rivals from developing. Increasing capacity addresses the first problem. The second also depends on who can obtain and use it.
 
 If machines perform more of the work, access to the assets behind that work becomes a more consequential route to income. Employee ownership, jointly financed equipment, and broadly held investment funds can distribute a claim on future output. Public computing access and independent testing facilities can give people resources with which to develop something different. Broader ownership and access should be assessed by who can actually use them and what they enable.
 
@@ -2231,7 +2229,7 @@ The same requirement applies to public provision. A computing facility with one 
 
 The future of work includes the future of assets built through work: who can retain them, redirect them, and use them to attempt something new. Affordable tools and usable routes to demonstrate judgment can change together or move in opposite directions.
 
-These choices depend on institutions as well as contracts. Investment can coexist with closed access, while publicly financed access can become another gate. The next chapter examines the rules governing the practical ability to compete.
+Investment can coexist with closed access, while publicly financed access can become another gate. The terms governing a computing allocation, a work record, or an interface determine who can turn a promising design into a credible competitor.
 
 ---
 
@@ -2241,13 +2239,13 @@ These choices depend on institutions as well as contracts. Investment can coexis
 
 ## Competition for future evidence
 
-In January 2023, Britain's Competition and Markets Authority announced that six major banking providers had completed the remaining items in its Open Banking roadmap. This was an achievement with a qualification. Common standards had to remain usable. Performance and availability still needed monitoring. Completing implementation did not complete the obligation.[^chapter_10-c10-1]
+In January 2023, Britain's Competition and Markets Authority announced that six major banking providers had completed the remaining items in its Open Banking roadmap. The common standards still had to remain usable, with continuing monitoring of performance and availability. Completing implementation did not complete the obligation.[^chapter_10-c10-1]
 
 Open Banking let customers share account information securely with authorized third parties and initiate payments through new services. Banks had to support common interfaces through which other businesses could actually use permitted information. An administrative right had to become a working connection.
 
 Receiving your records in a form another service can interpret is more useful than an unexplained file. Being able to use that service reliably is another achievement again. A box marked data access can conceal a working route to an alternative or an interface that fails when needed.
 
-The banks themselves had been required to create and fund the organization maintaining the standards. Completion left those funding duties in place. These were concrete obligations in a dated decision; their existence alone does not establish Open Banking's total economic benefit.[^chapter_10-c10-1]
+The banks had been required to create and fund the organization maintaining the standards. Those duties continued after implementation was declared complete. Access depended on an institution someone remained responsible for maintaining.[^chapter_10-c10-1]
 
 Open Banking illustrates a broader question for competition policy: can a feasible access arrangement improve what participants are able to discover, while preserving productive benefits and protecting sensitive information?
 
@@ -2281,7 +2279,7 @@ Protocols matter alongside results: eligibility, task selection, withheld cases,
 
 Google's December 2025 search judgment makes this practical concern visible. Its specified data-sharing provisions required enough information for qualified competitors to understand the datasets, including descriptions of contents, sampling, and privacy-related transformations. It did not simply order delivery of an unexplained pile of records.[^chapter_10-c10-4]
 
-This dated provision does not establish that implementation has succeeded. It highlights why interpretation can be part of access. A million query records and an explanation of how they were selected are different assets whose usefulness can depend on receiving both.
+A million query records and an explanation of how they were selected are different assets. An entrant may need both to interpret the data it receives. The order specifies that access; its usefulness depends on what recipients can do with it in practice.
 
 A record limited to accepted outputs describes that selection, rather than performance on rejected outputs or tasks never encountered. An audit can identify the gap or establish that existing evidence is adequate. The analysis must be capable of supporting no further intervention.
 
@@ -2313,13 +2311,13 @@ What survives migration should therefore be specified: category definitions, cor
 
 Interoperability concerns whether services can connect to the systems and users needed for a relevant test. A bounded interface may suffice. Security, maintenance, capacity, and changes to integration costs determine what scope is feasible and who should bear the burden.
 
-Compatibility can bring security, capacity, and maintenance costs and alter investment incentives. The appraisal must retain these consequences and the benefits of integration. An entrant's need does not establish that someone else should bear every cost it requests.
+Compatibility can require security work, additional capacity, and continuing maintenance. It can also alter incentives to invest in an integrated service. A workable access duty has to assign those costs and preserve the productive benefits the connection relies on.
 
 ## Making the missing comparison
 
 An audit cannot recover an outcome never observed. If that outcome matters sufficiently, a designed experiment is needed, with comparable tasks, documented assignments, checked results, and records of missing observations.
 
-Assignments can interact through shared resources and participants' responses. A design may need to compare periods or groups, or model those interactions explicitly. Balanced assignment alone does not establish an interpretable operational comparison.
+Assignments can interact through shared resources and participants' responses. Giving one supplier a task may change another supplier's capacity or behavior. Comparing periods or groups, or modeling those interactions, can make the outcomes interpretable where balanced assignment alone cannot.
 
 On June 3, 2019, a field experiment began calling rice farmers in India. Precision Agriculture for Development wanted to choose how to recruit farmers to its telephone service. Maximilian Kasy and Anja Sautmann helped compare six combinations: morning or evening automated calls, with no text alert, an alert an hour ahead, or one a day ahead. From a government partner's list, the service set aside ten thousand valid numbers outside the do-not-disturb register. Seventeen waves of calls followed, with assignment changing as results arrived.[^chapter_10-c10-7]
 
@@ -2451,7 +2449,7 @@ Both incumbents and entrants have interests in the design of a remedy. A trial c
 
 Open Banking's continuing obligations provide the concluding reference: a route maintained after the formal opening. Competition policy concerned with discovery must assess whether usable records and workable access allow meaningful comparisons over time.
 
-The next chapter asks whether taxation could address conduct that removes useful comparison and leaves costs outside the actor's account. Before discussing a rate, we need to identify the behavior, the affected decision, and evidence for the claimed social cost.
+Closing a useful route to comparison can leave costs with the people who needed the evidence. Taxation could make the actor bear some of that loss. Such a charge needs a causal link between conduct and harm, an affected decision worth improving, and a practicable way to measure and address the cost.
 
 ---
 
@@ -2607,7 +2605,7 @@ The long record also makes a difficulty visible. An experiment cannot remain use
 
 By the late 1940s, some plots had become so acidic that comparing two nitrogen fertilizers no longer answered the intended question. In the separate Agdell experiment, acidity favored a disease that depressed turnip yields; the experiment required extensive modification in 1951. Researchers applied chalk to correct acidity. Broadbalk later received shorter-strawed wheat varieties and a revised cropping arrangement in 1968. Preserving a useful experiment required changing what happened on the ground.[^chapter_12-c12-2]
 
-The guide describes another consequence of persistence. Repeated applications of manure and fertilizer altered the soils themselves, leaving different stores of nutrients and organic matter. Later investigations could study those reserves and their effects. Yesterday's treatment had become part of today's condition. This is a productive reason to keep the history, rather than assume every harvest starts with identical ground. It also limits a careless reading of the result: a difference after many years can reflect the accumulated consequences of earlier management as well as the immediate application. The relevant comparison depends on whether the question concerns this year's input, a sustained practice, or a change from the inherited state.
+Repeated applications of manure and fertilizer altered the soils themselves, leaving different stores of nutrients and organic matter. Later investigations could study those reserves and their effects. Yesterday's treatment had become part of today's condition. A difference after many years can reflect the accumulated consequences of earlier management as well as the immediate application. Comparing this year's input, a sustained practice, or a change from the inherited state asks different questions.
 
 A field trial compares treatments with accumulated histories. It cannot erase their earlier development. Likewise, evaluating available technologies and estimating how different early opportunities would have changed their development are different questions, with different evidence requirements.
 
@@ -2619,19 +2617,19 @@ Broadbalk's plan distinguishes cropping and management histories across treatmen
 
 The fields yield crops and measurements: harvests, soil conditions, and changes across treated plots. Maintaining those comparisons is part of Rothamsted's productive work. Keeping an experiment going can make questions answerable that an ordinary harvest would leave unresolved.
 
-The future of economics needs more attention to that supply. We already study how resources produce goods and services, how incentives influence behavior, and how uncertainty affects choices. We should also investigate which arrangements let consequential alternatives develop interpretable records, and what is lost when those arrangements disappear.
+Economics studies how resources produce goods and services, how incentives influence behavior, and how uncertainty affects choices. The arrangements that let alternatives develop interpretable records deserve the same attention. Losing those arrangements changes what an economy can know about its own possibilities.
 
 ## A second use for the harvest
 
-Rothamsted's sample archive gives this argument an unexpected extension. Material retained from earlier harvests can be examined with methods unavailable when it was collected. The preserved record includes physical samples, not only numbers in a table. A later researcher can sometimes ask the material a new question.[^chapter_12-c12-3]
+Rothamsted's archived samples can be examined with methods unavailable when they were collected. The record includes physical material, not only numbers in a table. A later researcher can sometimes ask that material a new question.[^chapter_12-c12-3]
 
 Sarah Bearchell and colleagues took small portions of old leaves and stems from archive containers, powdered them using liquid nitrogen, and extracted DNA. They looked for short DNA sequences to accommodate damage in the old material. Their 2005 study examined two wheat pathogens in samples spanning 1844–2003. Gaps in the archive required combining material from two plots, after checks of comparability. Changes in the pathogens' relative abundance were associated with sulfur-dioxide emissions. The researchers considered other correlated factors; they had not randomized atmospheric pollution.[^chapter_12-c12-4]
 
 The useful surprise is the question made possible. Harvest material retained for one scientific purpose could contain evidence relevant to another. The archive connected a modern laboratory method with a sequence of older observations. It did not manufacture those earlier samples after discovering that they would be useful.
 
-This gives preservation a potential value that cannot always be specified completely in advance. Someone designing a record for today's decision may not know every future question. Keeping suitable material and documentation can make later investigation possible. The archive supplies a real example, rather than a promise that every retained dataset will eventually justify its storage bill.
+Someone designing a record for today's decision may not know every future question. Keeping suitable material and documentation can make later investigation possible, as Rothamsted's samples did. That potential benefit must still justify the resources used to maintain the archive.
 
-The distinction between storage and comparison remains essential. A sample can reveal another measurement of a harvest that occurred. It cannot supply the harvest from a treatment that was never applied to that ground. Preserving material expands the observations available from a history; preserving treatment contrasts helps create a different part of the evidence.
+A preserved sample can supply another measurement of a harvest that occurred. It cannot supply the harvest from a treatment never applied to that ground. Material preserves observations from one history; maintained treatment contrasts create evidence from differences in what was done.
 
 Digital records likewise differ in what they preserve. Requests, versions, outputs, corrections, and checked outcomes can support more questions than a success total. They still cannot invent an unobserved alternative's response to a task.
 
@@ -2641,7 +2639,7 @@ Preservation has an option value and a cost. Retention policies should specify p
 
 The institutional task is to make those tradeoffs reviewable. A preservation decision should identify the anticipated use, likely costs, permissions, review date, and consequences of deletion. Some judgments will prove mistaken as technology changes. A documented reason for the original choice gives later decision makers a basis for revision. At Rothamsted, the connection between retained material and recorded management allows new questions to reach backward. In software procurement, a comparable ambition is a protected record that remains intelligible after an interface, model, or contractor changes. Neither ambition requires promising that every future question will be answerable.
 
-The wheat archive also cautions against treating old records as self-explanatory. Researchers had to use methods suited to aged material and check what their measurements meant. An economist recovering old procurement logs would likewise need to understand missing entries, changing definitions, and the process that created the archive. Historical depth is valuable when it remains interpretable.
+Aged material requires suitable methods and checks on what the measurements mean. Old procurement logs present a similar problem: missing entries, changing definitions, and forgotten selection rules can obstruct interpretation. A long history helps when later investigators can understand how it was made.
 
 A final success label can discard the original input and the correction needed to diagnose a failure. Retaining those records may enable re-evaluation, subject to reliable checks, relevance, privacy, and reproducible software versions. A useful archive preserves enough context for a justified question.
 
@@ -2683,7 +2681,7 @@ The call experiment measured recruitment. To assess the agricultural service's e
 
 A useful study would distinguish assignment chances, observed outcomes, and the effect being estimated. It would ask what can be learned from allocations alone, how checked outcomes change the answer, and how sensitive the conclusion is to plausible feedback rules.
 
-Dependence belongs in that account. Repeated records from the same underlying event, common shocks, and shared evaluation errors cannot be treated as fresh independent evidence without justification. Recording versions, exclusions, and failures makes those judgments inspectable.
+Repeated records from one event, common shocks, and shared evaluation errors can make observations dependent. Recording versions, exclusions, and failures helps later investigators judge how much independent evidence the record contains.
 
 Feasibility includes power to detect a consequential difference, the cost of supervision, privacy protection, and what action the result can change. A spending limit controls expenditure; it does not by itself establish adequate information or net social value.
 
@@ -2743,7 +2741,7 @@ It would also distinguish statistical information from decision value. A measure
 
 A precise but tiny contrast may leave an action unchanged; uncertainty about a costly failure may justify a targeted test. The report must identify the consequential decision rather than substitute a larger comparison budget for a value argument.
 
-Finally, the report would state which counterfactual it is evaluating. A shadow replay holds underlying effects, initial conditions, and response rules fixed while allowing the realized history to differ. A new access rule or training policy changes the institution. Estimating the consequences requires assumptions about behavior under that intervention. The two operations should not slide into each other halfway through the argument.
+Finally, the report would state which counterfactual it is evaluating. A shadow replay holds underlying effects, initial conditions, and response rules fixed while allowing the realized history to differ. A new access rule or training policy changes the institution. Its estimated effects depend on how people would respond under the changed rules.
 
 A useful procurement report can be brief: what question did the buyer ask, which services were compared, what happened, what remains uncertain, and what decision follows? The methods and records should be available for anyone authorized to check them.
 
@@ -2775,7 +2773,7 @@ An economy committed to independent discovery has reason to reward useful work w
 
 Start with a gatekeeper controlling an indispensable route to evaluation. If closing it threatens a lasting loss of useful comparison, protecting access preserves the possibility of discovering which supplier deserves the next contract. Documented interfaces, voluntary portability, secure evaluation access, and independently reviewed terms can make an enforceable duty concrete. The obligation should follow the actual obstruction, with privacy, security, resource costs, and investment included in its design. When useful private evidence already answers the affected decision, duplicating the experiment may buy nothing.
 
-Act while the alternative can still develop. A team cannot be required to demonstrate years of learning before obtaining the customers through whom that learning would occur. Before closure becomes difficult to reverse, the question is whether there is a credible attempt worth keeping possible. Preserving that route gives the claim a chance to encounter evidence. It promises neither a contract nor permanent support for an unsuccessful rival.
+Act while the alternative can still develop. A team cannot be required to demonstrate years of learning before obtaining the customers through whom that learning would occur. Before closure becomes difficult to reverse, a credible attempt needs a route to its first test. Keeping that route open lets customers judge the result without promising the entrant a contract or permanent support.
 
 Where restrictive conduct prevents valuable learning and imposes a cost on others, leaving that cost outside the decision rewards too much restriction. An access duty may prevent the loss. A corrective charge may address a remaining external harm. Its justification depends on the missing comparison, the decisions affected, and what feasible replacement would achieve. A large profit supplies neither a damage meter nor a reason to ignore a demonstrated obstruction.
 
@@ -2845,45 +2843,45 @@ An economy should reward its winners without giving them ownership of everyone e
 
 ## The other life of a song
 
-[^prologue-1]: Matthew J. Salganik, *Bit by Bit: Social Research in the Digital Age*, online open review edition, section 4.6.1, “Create zero variable cost data,” especially figures 4.20–4.21 and the paragraph reporting Lockdown's rankings. Source for first and fortieth place, separate worlds with different participants, and the grid and ranked-list presentations. [Author's account](https://www.bitbybitbook.com/en/running-experiments/exp-advice/zero-variable-cost/).
+[^prologue-1]: Matthew J. Salganik, *Bit by Bit: Social Research in the Digital Age*, online open review edition, section 4.6.1, “Create zero variable cost data,” especially figures 4.20–4.21 and the paragraph reporting Lockdown's rankings. [Author's account](https://www.bitbybitbook.com/en/running-experiments/exp-advice/zero-variable-cost/).
 
-[^prologue-2]: Matthew J. Salganik, Peter Sheridan Dodds, and Duncan J. Watts, “Experimental Study of Inequality and Unpredictability in an Artificial Cultural Market,” *Science* 311, no. 5762 (2006): 854–856, [doi:10.1126/science.1121066](https://doi.org/10.1126/science.1121066). Design, participant count, and zero initial downloads: p. 854. Inequality, variation across worlds, and the continuing role of independently assessed appeal: pp. 854–855, figures 1–3. The later thousand-listener extension is an explicitly imagined illustration, not another experimental finding. [Original article and supporting materials](https://www.princeton.edu/~mjs3/salganik_dodds_watts06_full.pdf).
+[^prologue-2]: Matthew J. Salganik, Peter Sheridan Dodds, and Duncan J. Watts, “Experimental Study of Inequality and Unpredictability in an Artificial Cultural Market,” *Science* 311, no. 5762 (2006): 854–856, [doi:10.1126/science.1121066](https://doi.org/10.1126/science.1121066). Design, participant count, and zero initial downloads: p. 854. Inequality, variation across worlds, and the continuing role of independently assessed appeal: pp. 854–855, figures 1–3. [Original article and supporting materials](https://www.princeton.edu/~mjs3/salganik_dodds_watts06_full.pdf).
 
-[^prologue-3]: Arnout van de Rijt, Soong Moon Kang, Michael Restivo, and Akshay Patil, “Field Experiments of Success-Breeds-Success Dynamics,” *Proceedings of the National Academy of Sciences* 111, no. 19 (2014): 6934–6939, [doi:10.1073/pnas.1316836111](https://doi.org/10.1073/pnas.1316836111). Kickstarter sample and random assignment: pp. 6934–6935; 39 versus 70 percent receiving subsequent third-party funding: p. 6935, figure 1. Diminishing marginal returns to larger initial treatments: pp. 6936–6937, figure 3. The 70 percent is not the proportion achieving their funding target. The initial experiment selected projects with funding goals up to $1,000; methods and the later treatment comparison are on p. 6937. [Full paper hosted by the European University Institute](https://www.eui.eu/Documents/DepartmentsCentres/SPS/Profiles/Van-de-Rijt/PNAS-2014-van-de-Rijt-6934-9-11.pdf).
+[^prologue-3]: Arnout van de Rijt, Soong Moon Kang, Michael Restivo, and Akshay Patil, “Field Experiments of Success-Breeds-Success Dynamics,” *Proceedings of the National Academy of Sciences* 111, no. 19 (2014): 6934–6939, [doi:10.1073/pnas.1316836111](https://doi.org/10.1073/pnas.1316836111). Kickstarter sample and random assignment: pp. 6934–6935; 39 versus 70 percent receiving subsequent third-party funding: p. 6935, figure 1. Diminishing marginal returns to larger initial treatments: pp. 6936–6937, figure 3. [Full paper hosted by the European University Institute](https://www.eui.eu/Documents/DepartmentsCentres/SPS/Profiles/Van-de-Rijt/PNAS-2014-van-de-Rijt-6934-9-11.pdf).
 
-[^prologue-5]: Robert K. Merton, “The Matthew Effect in Science,” *Science* 159, no. 3810 (1968): 56–63, especially pp. 56–57, [doi:10.1126/science.159.3810.56](https://doi.org/10.1126/science.159.3810.56). Merton's account draws in part on Harriet Zuckerman's interviews with Nobel laureates; p. 57 connects recognition with resources for further research. [Original article](https://garfield.library.upenn.edu/merton/matthew1.pdf). Armen A. Alchian, “Uncertainty, Evolution, and Economic Theory,” *Journal of Political Economy* 58, no. 3 (1950): 211–221, especially pp. 211–213, [doi:10.1086/256940](https://doi.org/10.1086/256940), treats profit-based selection without requiring optimal individual foresight. Fuller credit for reinforcement, estimation failure, and predictive merging belongs in Chapters 2–3.
+[^prologue-5]: Robert K. Merton, “The Matthew Effect in Science,” *Science* 159, no. 3810 (1968): 56–63, especially pp. 56–57, [doi:10.1126/science.159.3810.56](https://doi.org/10.1126/science.159.3810.56). [Original article](https://garfield.library.upenn.edu/merton/matthew1.pdf). Armen A. Alchian, “Uncertainty, Evolution, and Economic Theory,” *Journal of Political Economy* 58, no. 3 (1950): 211–221, especially pp. 211–213, [doi:10.1086/256940](https://doi.org/10.1086/256940).
 
 [^prologue-6]: Martin Watzinger, Thomas A. Fackler, Markus Nagler, and Monika Schnitzer, “How Antitrust Enforcement Can Spur Innovation: Bell Labs and the 1956 Consent Decree,” *American Economic Journal: Economic Policy* 12, no. 4 (2020): 328–359, [doi:10.1257/pol.20190086](https://doi.org/10.1257/pol.20190086), abstract; [June 9, 2017 author working paper](https://www.uoc.gr/files/items/6/6537/watzinger_et_al.pdf), pp. 1–4 and 6–8.
 
-[^prologue-7]: Erik Brynjolfsson, Danielle Li, and Lindsey Raymond, “Generative AI at Work,” *The Quarterly Journal of Economics* 140, no. 2 (2025): 889–942, [doi:10.1093/qje/qjae044](https://doi.org/10.1093/qje/qjae044). See the abstract and Section I for the 5,172-agent sample and average 15 percent gain; Sections III and VI.A for agents' control over suggestions; Sections V.B and VI.B for heterogeneity and learning. The study follows a staggered rollout at one firm; it does not establish economy-wide employment or wage effects. See also the corresponding November 2024 working paper, pp. 1–3. [Published article](https://academic.oup.com/qje/article/140/2/889/7990658); [author working paper](https://arxiv.org/abs/2304.11771). Earlier working-paper figures of 5,179 agents and 14 percent are not used here.
+[^prologue-7]: Erik Brynjolfsson, Danielle Li, and Lindsey Raymond, “Generative AI at Work,” *The Quarterly Journal of Economics* 140, no. 2 (2025): 889–942, [doi:10.1093/qje/qjae044](https://doi.org/10.1093/qje/qjae044). Abstract and Sections I, III, V.B, and VI. [Published article](https://academic.oup.com/qje/article/140/2/889/7990658); [November 2024 working paper](https://arxiv.org/abs/2304.11771), pp. 1-3.
 
 [^prologue-8]: Joel Becker, Nate Rush, Beth Barnes, and David Rein, [“Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity”](https://metr.org/Early_2025_AI_Experienced_OS_Devs_Study-paper.pdf), 2025, abstract and pp. 1–5; Joel Becker, Nate Rush, Tom Cunningham, David Rein, and Khalid Mahamud, [“We Are Changing Our Developer Productivity Experiment Design”](https://metr.org/blog/2026-02-24-uplift-update/), METR, February 24, 2026, sections “Wider adoption of AI has made it more difficult to measure task-level productivity” and “Other means of measuring productivity.”
 
-[^prologue-9]: Rothamsted Research, “Why Do We Make Changes to the Long-Term Experiments at Rothamsted?”, January 17, 2024, opening paragraphs and the Broadbalk discussion. Source for experiments begun from 1843 by John Lawes and Henry Gilbert, retained soil and plant samples, continuing treatments, and changes in methods. The institution also cautions that small-plot findings do not automatically generalize to farming at landscape scale. [Institutional account](https://www.rothamsted.ac.uk/news/why-do-we-make-changes-long-term-experiments-rothamsted). The harvest-versus-comparison discussion is an interpretation of experimental design, not a measured claim about forgone yields.
+[^prologue-9]: Rothamsted Research, “Why Do We Make Changes to the Long-Term Experiments at Rothamsted?”, January 17, 2024, opening paragraphs and the Broadbalk discussion. [Institutional account](https://www.rothamsted.ac.uk/news/why-do-we-make-changes-long-term-experiments-rothamsted).
 
-[^prologue-10]: The name's inspiration is Steven Johnson's description of Stuart A. Kauffman's adjacent possible. See Johnson, “The Genius of the Tinkerer,” *The Wall Street Journal*, September 25, 2010, adapted from *Where Good Ideas Come From: The Natural History of Innovation*, [archived print view](https://www.pickardlaws.com/myleadership/myfiles/rtdocs/free/TheGeniusOfTheTinkerer.pdf), PDF p. 2, paragraphs introducing Kauffman and the expanding-house analogy. The introduction explains the connection and the narrower economic use developed here.
+[^prologue-10]: Steven Johnson, “The Genius of the Tinkerer,” *The Wall Street Journal*, September 25, 2010, adapted from *Where Good Ideas Come From: The Natural History of Innovation*, [archived print view](https://www.pickardlaws.com/myleadership/myfiles/rtdocs/free/TheGeniusOfTheTinkerer.pdf), PDF p. 2, paragraphs introducing Kauffman and the expanding-house analogy.
 
 ## The evidence success leaves behind
 
-[^introduction-i1]: Thomas Blake, Chris Nosko, and Steven Tadelis, “Consumer Heterogeneity and Paid Search Effectiveness: A Large-Scale Field Experiment,” *Econometrica* 83, no. 1 (2015): 155–174, [doi:10.3982/ECTA12423](https://doi.org/10.3982/ECTA12423). See the authors’ May 2014 NBER working paper 20171, printed pp. 1–5 and the brand-keyword experiment in Section 3. The findings concern the studied company, campaigns, populations, and short-term outcomes. [Full working paper](https://www.nber.org/system/files/working_papers/w20171/w20171.pdf). The opening customer journey is an illustration of the documented attribution problem, not a reconstructed individual customer.
+[^introduction-i1]: Thomas Blake, Chris Nosko, and Steven Tadelis, “Consumer Heterogeneity and Paid Search Effectiveness: A Large-Scale Field Experiment,” *Econometrica* 83, no. 1 (2015): 155–174, [doi:10.3982/ECTA12423](https://doi.org/10.3982/ECTA12423). See the authors’ May 2014 NBER working paper 20171, printed pp. 1–5 and the brand-keyword experiment in Section 3. [Full working paper](https://www.nber.org/system/files/working_papers/w20171/w20171.pdf).
 
-[^introduction-i2]: Martin Erlic, “Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market,” [SSRN 6003994](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994). The original formulation of the comparison budget and contribution-uncertainty argument; the model and its conditions are explained in Chapters 2–3.
+[^introduction-i2]: Martin Erlic, “Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market,” [SSRN 6003994](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994).
 
 [^introduction-i3]: Salganik, Dodds, and Watts, “Experimental Study of Inequality and Unpredictability in an Artificial Cultural Market,” *Science* 311 (2006): 854–856, especially pp. 854–855, [original article](https://www.princeton.edu/~mjs3/salganik_dodds_watts06_full.pdf). Lockdown's specific ranks are reported in Salganik's *Bit by Bit*, open review edition, [section 4.6.1](https://www.bitbybitbook.com/en/running-experiments/exp-advice/zero-variable-cost/).
 
-[^introduction-i4]: George A. Akerlof, “The Market for ‘Lemons’: Quality Uncertainty and the Market Mechanism,” *The Quarterly Journal of Economics* 84, no. 3 (1970): 488–500, especially pp. 488–490. The used-car example is an explicitly simplifying model in the original paper. [Original paper](https://www.sfu.ca/~allen/Ackerlof.pdf). It concerns information asymmetry and selection; the observed-input attribution question here is a distinct problem that can coexist with it.
+[^introduction-i4]: George A. Akerlof, “The Market for ‘Lemons’: Quality Uncertainty and the Market Mechanism,” *The Quarterly Journal of Economics* 84, no. 3 (1970): 488–500, especially pp. 488–490. [Original paper](https://www.sfu.ca/~allen/Ackerlof.pdf).
 
 [^introduction-i5]: Arnout van de Rijt, Soong Moon Kang, Michael Restivo, and Akshay Patil, “Field Experiments of Success-Breeds-Success Dynamics,” *PNAS* 111 (2014): 6934–6939, especially 6934–6937. [doi:10.1073/pnas.1316836111](https://doi.org/10.1073/pnas.1316836111).
 
-[^introduction-i6]: Robert K. Merton, “The Matthew Effect in Science,” *Science* 159 (1968): 56–63, especially pp. 56–57, [original paper](https://garfield.library.upenn.edu/merton/matthew1.pdf); Armen A. Alchian, “Uncertainty, Evolution, and Economic Theory,” *Journal of Political Economy* 58 (1950): 211–221, especially pp. 211–213, [doi:10.1086/256940](https://doi.org/10.1086/256940). Detailed attribution of increasing returns, reinforcement, estimation failure, and predictive merging follows in Chapters 2–4.
+[^introduction-i6]: Robert K. Merton, “The Matthew Effect in Science,” *Science* 159 (1968): 56–63, especially pp. 56–57, [original paper](https://garfield.library.upenn.edu/merton/matthew1.pdf); Armen A. Alchian, “Uncertainty, Evolution, and Economic Theory,” *Journal of Political Economy* 58 (1950): 211–221, especially pp. 211–213, [doi:10.1086/256940](https://doi.org/10.1086/256940).
 
-[^introduction-i7]: Erik Brynjolfsson, Danielle Li, and Lindsey Raymond, “Generative AI at Work,” *The Quarterly Journal of Economics* 140 (2025): 889–942, abstract and Sections I, V.B, and VI, [doi:10.1093/qje/qjae044](https://doi.org/10.1093/qje/qjae044). This is the published 5,172-agent study used in the prologue. Its measured productivity and learning results do not settle economy-wide employment, wage allocation, or alternative long-term training arrangements.
+[^introduction-i7]: Erik Brynjolfsson, Danielle Li, and Lindsey Raymond, “Generative AI at Work,” *The Quarterly Journal of Economics* 140 (2025): 889–942, abstract and Sections I, V.B, and VI, [doi:10.1093/qje/qjae044](https://doi.org/10.1093/qje/qjae044).
 
 [^introduction-i8]: Joel Becker, Nate Rush, Tom Cunningham, David Rein, and Khalid Mahamud, “We Are Changing Our Developer Productivity Experiment Design,” METR, February 24, 2026, sections on wider adoption and alternative measurement designs, [research team's account](https://metr.org/blog/2026-02-24-uplift-update/).
 
-[^introduction-i9]: Martin Watzinger, Thomas A. Fackler, Markus Nagler, and Monika Schnitzer, “How Antitrust Enforcement Can Spur Innovation: Bell Labs and the 1956 Consent Decree,” *American Economic Journal: Economic Policy* 12 (2020): 328–359, [published record](https://www.aeaweb.org/articles?id=10.1257/pol.20190086). For the historical and foreclosure analysis, see the June 2017 author working paper, pp. 1–4 and 7–8, [full text](https://www.uoc.gr/files/items/6/6537/watzinger_et_al.pdf). The study's innovation estimates do not measure a comparison budget.
+[^introduction-i9]: Martin Watzinger, Thomas A. Fackler, Markus Nagler, and Monika Schnitzer, “How Antitrust Enforcement Can Spur Innovation: Bell Labs and the 1956 Consent Decree,” *American Economic Journal: Economic Policy* 12 (2020): 328–359, [published record](https://www.aeaweb.org/articles?id=10.1257/pol.20190086). For the historical and foreclosure analysis, see the June 2017 author working paper, pp. 1–4 and 7–8, [full text](https://www.uoc.gr/files/items/6/6537/watzinger_et_al.pdf).
 
-[^introduction-i10]: Rothamsted Research, “Why Do We Make Changes to the Long-Term Experiments at Rothamsted?”, January 17, 2024, opening and Broadbalk discussion, [institutional account](https://www.rothamsted.ac.uk/news/why-do-we-make-changes-long-term-experiments-rothamsted). Maintained treatments coexist with changes in cultivars and methods; plot-scale findings have limits when applied to farming at wider scales.
+[^introduction-i10]: Rothamsted Research, “Why Do We Make Changes to the Long-Term Experiments at Rothamsted?”, January 17, 2024, opening and Broadbalk discussion, [institutional account](https://www.rothamsted.ac.uk/news/why-do-we-make-changes-long-term-experiments-rothamsted).
 
 [^introduction-i11]: Thijs Bol, Mathijs de Vaan, and Arnout van de Rijt, “The Matthew Effect in Science Funding,” *PNAS* 115, no. 19 (2018): 4887–4890, especially pp. 4888–4889, figures 1 and 3, [doi:10.1073/pnas.1719557115](https://doi.org/10.1073/pnas.1719557115). [Full paper](https://www.eui.eu/Documents/DepartmentsCentres/SPS/Profiles/Van-de-Rijt/boletal-2018.pdf).
 
@@ -2891,89 +2889,85 @@ An economy should reward its winners without giving them ownership of everyone e
 
 ## The winner and the explanation
 
-[^chapter_01-c1-1]: Matthew J. Salganik, Peter Sheridan Dodds, and Duncan J. Watts, “Experimental Study of Inequality and Unpredictability in an Artificial Cultural Market,” *Science* 311 (2006): 854–856, especially pp. 854–855 and figures 1–3, [full article](https://www.princeton.edu/~mjs3/salganik_dodds_watts06_full.pdf). Lockdown's ranks are reported in Salganik's *Bit by Bit*, open review edition, [section 4.6.1](https://www.bitbybitbook.com/en/running-experiments/exp-advice/zero-variable-cost/). The retrospective critic and missing-chart exercise are illustrations, not reported individual reactions.
+[^chapter_01-c1-1]: Matthew J. Salganik, Peter Sheridan Dodds, and Duncan J. Watts, “Experimental Study of Inequality and Unpredictability in an Artificial Cultural Market,” *Science* 311 (2006): 854–856, especially pp. 854–855 and figures 1–3, [full article](https://www.princeton.edu/~mjs3/salganik_dodds_watts06_full.pdf). Lockdown's ranks are reported in Salganik's *Bit by Bit*, open review edition, [section 4.6.1](https://www.bitbybitbook.com/en/running-experiments/exp-advice/zero-variable-cost/).
 
-[^chapter_01-c1-2]: Arnout van de Rijt, Soong Moon Kang, Michael Restivo, and Akshay Patil, “Field Experiments of Success-Breeds-Success Dynamics,” *PNAS* 111 (2014): 6934–6939, [doi:10.1073/pnas.1316836111](https://doi.org/10.1073/pnas.1316836111). Intervention design and four settings: pp. 6934–6935; marginal returns: pp. 6936–6937 and figure 3; matching, sampling, and procedures: p. 6937. [Full text](https://www.eui.eu/Documents/DepartmentsCentres/SPS/Profiles/Van-de-Rijt/PNAS-2014-van-de-Rijt-6934-9-11.pdf). The study establishes intervention effects; discussion of specific donor reasoning is a possible mechanism, not an observed private motive.
+[^chapter_01-c1-2]: Arnout van de Rijt, Soong Moon Kang, Michael Restivo, and Akshay Patil, “Field Experiments of Success-Breeds-Success Dynamics,” *PNAS* 111 (2014): 6934–6939, [doi:10.1073/pnas.1316836111](https://doi.org/10.1073/pnas.1316836111). Intervention design and four settings: pp. 6934–6935; marginal returns: pp. 6936–6937 and figure 3; matching, sampling, and procedures: p. 6937. [Full text](https://www.eui.eu/Documents/DepartmentsCentres/SPS/Profiles/Van-de-Rijt/PNAS-2014-van-de-Rijt-6934-9-11.pdf).
 
 [^chapter_01-c1-3]: Lev Muchnik, Sinan Aral, and Sean J. Taylor, “Social Influence Bias: A Randomized Experiment,” *Science* 341, no. 6146 (2013): 647–651, [doi:10.1126/science.1240466](https://doi.org/10.1126/science.1240466). Design, site ordering, and sample: pp. 647–648; first-viewer effects and final scores: pp. 648–649, figure 1; negative-treatment correction: p. 649. [Full paper](https://static1.squarespace.com/static/5e680023bf798b61525c7831/t/5ed0fd6c8c3f6405dc66235d/1590754668534/social-influence-bias.pdf).
 
-[^chapter_01-c1-4]: Robert K. Merton, “The Matthew Effect in Science,” *Science* 159 (1968): 56–63, [doi:10.1126/science.159.3810.56](https://doi.org/10.1126/science.159.3810.56). Forty-first chair and named examples: p. 56; recognition as access to resources: p. 57; credit for Harriet Zuckerman's interviews: opening. [Original article](https://garfield.library.upenn.edu/merton/matthew1.pdf). The fixed number of honors and the subsequent feedback from an honor are analytically distinct.
+[^chapter_01-c1-4]: Robert K. Merton, “The Matthew Effect in Science,” *Science* 159 (1968): 56–63, [doi:10.1126/science.159.3810.56](https://doi.org/10.1126/science.159.3810.56). Forty-first chair and named examples: p. 56; recognition as access to resources: p. 57; credit for Harriet Zuckerman's interviews: opening. [Original article](https://garfield.library.upenn.edu/merton/matthew1.pdf).
 
 [^chapter_01-c1-5]: Thijs Bol, Mathijs de Vaan, and Arnout van de Rijt, “The Matthew Effect in Science Funding,” *PNAS* 115 (2018): 4887–4890, [doi:10.1073/pnas.1719557115](https://doi.org/10.1073/pnas.1719557115). Threshold design: p. 4888; participation, output measures, and further funding excluding the initial grant: p. 4889, figures 1–3; institutional discussion: p. 4890. [Full paper](https://www.eui.eu/Documents/DepartmentsCentres/SPS/Profiles/Van-de-Rijt/boletal-2018.pdf).
 
-[^chapter_01-c1-6]: Yang Wang, Benjamin F. Jones, and Dashun Wang, “Early-Career Setback and Future Career Impact,” *Nature Communications* 10 (2019), article 4331, [doi:10.1038/s41467-019-12189-3](https://doi.org/10.1038/s41467-019-12189-3). See “Future career impact,” analyses of screening, and the Discussion. The higher-impact comparison is conditional on remaining active in the NIH system. The authors investigate and argue against screening as a complete explanation; the text does not present screening as their settled conclusion. [Full article](https://www.nature.com/articles/s41467-019-12189-3).
+[^chapter_01-c1-6]: Yang Wang, Benjamin F. Jones, and Dashun Wang, “Early-Career Setback and Future Career Impact,” *Nature Communications* 10 (2019), article 4331, [doi:10.1038/s41467-019-12189-3](https://doi.org/10.1038/s41467-019-12189-3). See “Future career impact,” analyses of screening, and the Discussion. [Full article](https://www.nature.com/articles/s41467-019-12189-3).
 
-[^chapter_01-c1-7]: Vincent Traag, Emer Brady, Philippe Vincent-Lamarre, Flavie Bidel, Cindy Lopes-Bento, Jens Peter Andersen, and Carter Bloch, “The Matthew Effect and Early-Career Setbacks in Research Funding—a Replication Study,” *eLife*, reviewed preprint version 1, October 13, 2025, [doi:10.7554/eLife.109042.1](https://doi.org/10.7554/eLife.109042.1). Abstract, Sections 2–4, and Appendix A describe scope, robustness, reapplication, and selection. Generalization beyond near-threshold comparisons uses additional modeling assumptions. [Full reviewed preprint](https://elifesciences.org/reviewed-preprints/109042).
+[^chapter_01-c1-7]: Vincent Traag, Emer Brady, Philippe Vincent-Lamarre, Flavie Bidel, Cindy Lopes-Bento, Jens Peter Andersen, and Carter Bloch, “The Matthew Effect and Early-Career Setbacks in Research Funding—a Replication Study,” *eLife*, reviewed preprint version 1, October 13, 2025, [doi:10.7554/eLife.109042.1](https://doi.org/10.7554/eLife.109042.1). Abstract, Sections 2-4, and Appendix A. [Full reviewed preprint](https://elifesciences.org/reviewed-preprints/109042).
 
 [^chapter_01-c1-alchian]: Armen A. Alchian, “Uncertainty, Evolution, and Economic Theory,” *Journal of Political Economy* 58 (1950): 211–221, [doi:10.1086/256940](https://doi.org/10.1086/256940), pp. 213–214.
 
-[^chapter_01-c1-8]: George A. Akerlof, “The Market for ‘Lemons’: Quality Uncertainty and the Market Mechanism,” *The Quarterly Journal of Economics* 84 (1970): 488–500, especially pp. 488–490, [full paper](https://www.sfu.ca/~allen/Ackerlof.pdf). Used cars are a simplifying model. The inspection, dealership, and salesperson extensions here are labeled thought experiments rather than empirical claims made by Akerlof.
+[^chapter_01-c1-8]: George A. Akerlof, “The Market for ‘Lemons’: Quality Uncertainty and the Market Mechanism,” *The Quarterly Journal of Economics* 84 (1970): 488–500, especially pp. 488–490, [full paper](https://www.sfu.ca/~allen/Ackerlof.pdf).
 
-[^chapter_01-c1-9]: Thomas Blake, Chris Nosko, and Steven Tadelis, “Consumer Heterogeneity and Paid Search Effectiveness: A Large-Scale Field Experiment,” *Econometrica* 83 (2015): 155–174, [doi:10.3982/ECTA12423](https://doi.org/10.3982/ECTA12423). See the May 2014 NBER working paper, pp. 1–5, Section 3 and Section 4.1, printed p. 11, [full working paper](https://www.nber.org/system/files/working_papers/w20171/w20171.pdf). The geographic test used 68 areas without nonbrand ads, 65 matched controls and 77 remaining controls. Random selection of candidate areas was followed by historical-sales matching; this was not pure individual randomization. The sixty-day duration is stated on p. 4. See the introduction for the distinction between brand and nonbrand results.
+[^chapter_01-c1-9]: Thomas Blake, Chris Nosko, and Steven Tadelis, “Consumer Heterogeneity and Paid Search Effectiveness: A Large-Scale Field Experiment,” *Econometrica* 83 (2015): 155–174, [doi:10.3982/ECTA12423](https://doi.org/10.3982/ECTA12423). See the May 2014 NBER working paper, pp. 1–5, Section 3 and Section 4.1, printed p. 11, [full working paper](https://www.nber.org/system/files/working_papers/w20171/w20171.pdf).
 
-[^chapter_01-c1-10]: Martin Watzinger, Thomas A. Fackler, Markus Nagler, and Monika Schnitzer, “How Antitrust Enforcement Can Spur Innovation: Bell Labs and the 1956 Consent Decree,” *American Economic Journal: Economic Policy* 12 (2020): 328–359, [published record](https://www.aeaweb.org/articles?id=10.1257/pol.20190086). For the historical and foreclosure analysis, see the June 2017 author working paper, pp. 1–4 and 7–8, [full working paper](https://www.uoc.gr/files/items/6/6537/watzinger_et_al.pdf). No actual supplier's comparison budget is estimated here.
+[^chapter_01-c1-10]: Martin Watzinger, Thomas A. Fackler, Markus Nagler, and Monika Schnitzer, “How Antitrust Enforcement Can Spur Innovation: Bell Labs and the 1956 Consent Decree,” *American Economic Journal: Economic Policy* 12 (2020): 328–359, [published record](https://www.aeaweb.org/articles?id=10.1257/pol.20190086). For the historical and foreclosure analysis, see the June 2017 author working paper, pp. 1–4 and 7–8, [full working paper](https://www.uoc.gr/files/items/6/6537/watzinger_et_al.pdf).
 
-[^chapter_01-c1-11]: Matthew J. Salganik and Duncan J. Watts, “Leading the Herd Astray: An Experimental Study of Self-Fulfilling Prophecies in an Artificial Cultural Market,” *Social Psychology Quarterly* 71 (2008): 338–355, [doi:10.1177/019027250807100404](https://doi.org/10.1177/019027250807100404). Inversion design and the two named songs: pp. 341–343, table 2; appeal, recovery, and downloads: pp. 349–351, figures 8–9. [Original article](https://www.princeton.edu/~mjs3/salganik_watts08.pdf). The deliberate inversion is an intervention, distinct from independently evolving histories under unchanged rules.
+[^chapter_01-c1-11]: Matthew J. Salganik and Duncan J. Watts, “Leading the Herd Astray: An Experimental Study of Self-Fulfilling Prophecies in an Artificial Cultural Market,” *Social Psychology Quarterly* 71 (2008): 338–355, [doi:10.1177/019027250807100404](https://doi.org/10.1177/019027250807100404). Inversion design and the two named songs: pp. 341–343, table 2; appeal, recovery, and downloads: pp. 349–351, figures 8–9. [Original article](https://www.princeton.edu/~mjs3/salganik_watts08.pdf).
 
 ## The comparison budget
 
 [^chapter_02-c2-1]: Ashok Chandrashekar, Fernando Amat, Justin Basilico, and Tony Jebara, [“Artwork Personalization at Netflix”](https://netflixtechblog.com/artwork-personalization-c589f074ad76), Netflix TechBlog, December 7, 2017, sections “Challenges,” “Contextual bandits approach,” and “Performance evaluation.”
 
-[^chapter_02-c2-2]: The information bound uses a conditional-logit allocation model with bounded differences in input profiles. The lifetime limit additionally requires common predictable design, local equivalence, comparison-dominated separation, and an almost-surely finite comparison budget. All informative observed outcomes must be included. An infinite budget alone need not identify contribution, and almost-sure finiteness does not imply finite expectation. Chapter 3 explains these distinctions. The supplier probabilities and halving schedule are hypothetical.
+[^chapter_02-c2-3]: Lihong Li, Wei Chu, John Langford, and Robert E. Schapire, “A Contextual-Bandit Approach to Personalized News Article Recommendation,” *Proceedings of WWW 2010*: 661–670, [doi:10.1145/1772690.1772758](https://doi.org/10.1145/1772690.1772758). See arXiv version 2 (2012), Sections 2.1, 4, and 5.2.1, [full paper](https://arxiv.org/pdf/1003.0146).
 
-[^chapter_02-c2-3]: Lihong Li, Wei Chu, John Langford, and Robert E. Schapire, “A Contextual-Bandit Approach to Personalized News Article Recommendation,” *Proceedings of WWW 2010*: 661–670, [doi:10.1145/1772690.1772758](https://doi.org/10.1145/1772690.1772758). See arXiv version 2 (2012), Sections 2.1, 4, and 5.2.1, [full paper](https://arxiv.org/pdf/1003.0146). Offline replay assumes the stated encounter distribution and randomized logging; the experiment records click outcomes as well as selection. It is distinct from replaying a reinforced economic history under unchanged starting conditions and response rules.
+[^chapter_02-c2-4]: Robin Pemantle, “A Survey of Random Processes with Reinforcement,” *Probability Surveys* 4 (2007): 1–79, [doi:10.1214/07-PS094](https://doi.org/10.1214/07-PS094). See Section 2.1, especially pp. 3–5, for the classical urn and its variants, [full survey](https://arxiv.org/pdf/math/0610076).
 
-[^chapter_02-c2-4]: Robin Pemantle, “A Survey of Random Processes with Reinforcement,” *Probability Surveys* 4 (2007): 1–79, [doi:10.1214/07-PS094](https://doi.org/10.1214/07-PS094). See Section 2.1, especially pp. 3–5, for the classical urn and its variants, [full survey](https://arxiv.org/pdf/math/0610076). The elementary urn is a credited mathematical thought experiment, not an empirical description of a procurement market.
-
-[^chapter_02-c2-5]: Roberto Imbuzeiro Oliveira, “The Onset of Dominance in Balls-in-Bins Processes with Feedback,” *Random Structures & Algorithms* 34 (2009): 454–477, [doi:10.1002/rsa.20261](https://doi.org/10.1002/rsa.20261). The author preprint's introduction and Theorem 1, pp. 1–2, credit earlier monopoly results, [full preprint](https://arxiv.org/pdf/math/0510415). Thomas Gottfried and Stefan Grosskinsky, “Asymptotics of Generalized Pólya Urns with Non-Linear Feedback,” *Electronic Journal of Probability* 29 (2024): 1–56, [doi:10.1214/24-EJP1157](https://doi.org/10.1214/24-EJP1157); see arXiv version 3, Sections 2.1–2.3, especially Theorem 2.2, [full preprint](https://arxiv.org/pdf/2303.01210). Strong and weak monopoly are distinct. The contribution result in Chapter 3 requires further information assumptions.
+[^chapter_02-c2-5]: Roberto Imbuzeiro Oliveira, “The Onset of Dominance in Balls-in-Bins Processes with Feedback,” *Random Structures & Algorithms* 34 (2009): 454–477, [doi:10.1002/rsa.20261](https://doi.org/10.1002/rsa.20261). The author preprint's introduction and Theorem 1, pp. 1–2, credit earlier monopoly results, [full preprint](https://arxiv.org/pdf/math/0510415). Thomas Gottfried and Stefan Grosskinsky, “Asymptotics of Generalized Pólya Urns with Non-Linear Feedback,” *Electronic Journal of Probability* 29 (2024): 1–56, [doi:10.1214/24-EJP1157](https://doi.org/10.1214/24-EJP1157); see arXiv version 3, Sections 2.1–2.3, especially Theorem 2.2, [full preprint](https://arxiv.org/pdf/2303.01210).
 
 [^chapter_02-c2-6]: Maximilian Kasy and Anja Sautmann, “Adaptive Treatment Assignment in Experiments for Policy Choice,” *Econometrica* 89 (2021): 113–132, [doi:10.3982/ECTA17527](https://doi.org/10.3982/ECTA17527), pp. 113–114 and Section 6, pp. 122–123, [full published paper](https://maxkasy.github.io/home/files/papers/adaptiveexperimentspolicy.pdf); authors' [November 10, 2021 correction](https://maxkasy.github.io/home/files/papers/correction_adaptiveexperimentspolicy.pdf), especially corrected Theorem 1.
 
 [^chapter_02-c2-7]: Yaneer Bar-Yam, “From Big Data to Important Information,” *Complexity* 21, supplement 2 (2016): 73–98, [doi:10.1002/cplx.21785](https://doi.org/10.1002/cplx.21785), abstract and Sections I–II; [author preprint](https://arxiv.org/pdf/1604.00976).
 
-[^chapter_02-c2-8]: Karthik Rajkumar, Guillaume Saint-Jacques, Iavor Bojinov, Erik Brynjolfsson, and Sinan Aral, “A Causal Test of the Strength of Weak Ties,” *Science* 377 (2022): 1304–1310, [doi:10.1126/science.abl4476](https://doi.org/10.1126/science.abl4476). See design and main results, pp. 1304–1309; tie-strength definitions, pp. 1305–1306; and interference discussion, pp. 1309–1310, [full paper hosted by MIT](https://ide.mit.edu/wp-content/uploads/2022/09/abl4476.pdf). The different hypothetical career record is an illustration. Observed jobs in the experimental population are not all jobs caused by the experiment.
+[^chapter_02-c2-8]: Karthik Rajkumar, Guillaume Saint-Jacques, Iavor Bojinov, Erik Brynjolfsson, and Sinan Aral, “A Causal Test of the Strength of Weak Ties,” *Science* 377 (2022): 1304–1310, [doi:10.1126/science.abl4476](https://doi.org/10.1126/science.abl4476). See design and main results, pp. 1304–1309; tie-strength definitions, pp. 1305–1306; and interference discussion, pp. 1309–1310, [full paper hosted by MIT](https://ide.mit.edu/wp-content/uploads/2022/09/abl4476.pdf).
 
 [^chapter_02-c2-9]: Ron Kohavi, Alex Deng, Brian Frasca, Toby Walker, Ya Xu, and Nils Pohlmann, “Online Controlled Experiments at Large Scale,” *Proceedings of KDD 2013*: 1168–1176, [doi:10.1145/2487575.2488217](https://doi.org/10.1145/2487575.2488217); [author version](https://www.exp-platform.com/Documents/2013%20controlledExperimentsAtScale.pdf), introduction and Section 1.1, pp. 1–2.
 
 ## Shadow futures
 
-[^chapter_03-c3-1]: The comparison budget sums conditional allocation probability outside the current favorite. The lifetime result requires a common predictable design, local equivalence, comparison-dominated separation in both directions, and an almost-surely finite lifetime budget at every parameter. Additional informative observations must be included. Replays preserve the parameter, initial state, and response rules. Intervention effects require those rules to remain valid under the specified change. The observed-input setting differs from Akerlof’s hidden-quality model, discussed in Chapter 1; the reinforcement results of Pemantle (2007), Oliveira (2009), and Gottfried and Grosskinsky (2024) are discussed in Chapter 2.
+[^chapter_03-c3-2]: Matthew J. Salganik, Peter Sheridan Dodds, and Duncan J. Watts, “Experimental Study of Inequality and Unpredictability in an Artificial Cultural Market,” *Science* 311 (2006): 854–856, [full paper](https://www.princeton.edu/~mjs3/salganik_dodds_watts06_full.pdf), pp. 854–855 and figures 1–3. Lockdown's specific rankings are reported in Salganik's [*Bit by Bit*, Section 4.6.1](https://www.bitbybitbook.com/en/running-experiments/exp-advice/zero-variable-cost/).
 
-[^chapter_03-c3-2]: Matthew J. Salganik, Peter Sheridan Dodds, and Duncan J. Watts, “Experimental Study of Inequality and Unpredictability in an Artificial Cultural Market,” *Science* 311 (2006): 854–856, [full paper](https://www.princeton.edu/~mjs3/salganik_dodds_watts06_full.pdf), pp. 854–855 and figures 1–3. Lockdown's specific rankings are reported in Salganik's [*Bit by Bit*, Section 4.6.1](https://www.bitbybitbook.com/en/running-experiments/exp-advice/zero-variable-cost/). Separate randomized listener groups supplied observed parallel markets, not literal replications of identical individuals or a test of the lifetime information limit.
-
-[^chapter_03-c3-3]: Erik Brynjolfsson, Danielle Li, and Lindsey R. Raymond, “Generative AI at Work,” *Quarterly Journal of Economics* 140 (2025): 889–942, [published article](https://academic.oup.com/qje/article/140/2/889/7990658), abstract and Sections I and IV. This is the published 5,172-agent study, rather than an earlier working-paper sample. The staggered introduction informs workplace productivity in its studied setting; it is not a decomposition of individual desert or a general employment forecast.
+[^chapter_03-c3-3]: Erik Brynjolfsson, Danielle Li, and Lindsey R. Raymond, “Generative AI at Work,” *Quarterly Journal of Economics* 140 (2025): 889–942, [published article](https://academic.oup.com/qje/article/140/2/889/7990658), abstract and Sections I and IV.
 
 [^chapter_03-c3-4]: Line Chloé Le Goff and Philippe Soulier, “Parameter Estimation of a Two-Colored Urn Model Class,” *International Journal of Biostatistics* 13 (2017), article 20160029, [doi:10.1515/ijb-2016-0029](https://doi.org/10.1515/ijb-2016-0029); [author preprint, version 2](https://arxiv.org/pdf/1405.2322), October 4, 2016, Sections 3.2–3.3, pp. 14–15, and Sections 4.1–4.2, pp. 19–20.
 
 [^chapter_03-c3-5]: Lihong Li, Wei Chu, John Langford, and Robert E. Schapire, “A Contextual-Bandit Approach to Personalized News Article Recommendation,” *WWW 2010*, 661–670, [author version 2](https://arxiv.org/pdf/1003.0146), Sections 2.1, 4, and 5.2.1. Randomized logging, recorded click responses, and the assumptions of offline evaluation matter. Its replay method is distinct from observing complete counterfactual economic histories.
 
-[^chapter_03-c3-6]: Shizuo Kakutani, “On Equivalence of Infinite Product Measures,” *Annals of Mathematics* 49 (1948): 214–224, [doi:10.2307/1969123](https://doi.org/10.2307/1969123), treats product measures. Yu. M. Kabanov, R. Sh. Liptser, and A. N. Shiryaev, “On the Question of Absolute Continuity and Singularity of Probability Measures,” *Mathematics of the USSR-Sbornik* 33 (1977): 203–221, [doi](https://doi.org/10.1070/SM1977v033n02ABEH002421), extends the analysis to general sequences. Jean Jacod and Albert N. Shiryaev, *Limit Theorems for Stochastic Processes*, second edition (2003), [Chapter IV](https://doi.org/10.1007/978-3-662-05265-5_4), and S. S. Gabriyelyan (2011), [author version 4](https://arxiv.org/pdf/0802.0385), Theorem 1, supply filtered-space continuity criteria. Lucien Le Cam and Grace Lo Yang, *Asymptotics in Statistics*, second edition (2000), [Chapter 2](https://doi.org/10.1007/978-1-4612-1166-2_2), provide experiment-comparison foundations for precision limits. These credits distinguish the proposed economic bound from its inherited machinery.
+[^chapter_03-c3-6]: Shizuo Kakutani, “On Equivalence of Infinite Product Measures,” *Annals of Mathematics* 49 (1948): 214–224, [doi:10.2307/1969123](https://doi.org/10.2307/1969123). Yu. M. Kabanov, R. Sh. Liptser, and A. N. Shiryaev, “On the Question of Absolute Continuity and Singularity of Probability Measures,” *Mathematics of the USSR-Sbornik* 33 (1977): 203–221, [doi](https://doi.org/10.1070/SM1977v033n02ABEH002421). Jean Jacod and Albert N. Shiryaev, *Limit Theorems for Stochastic Processes*, second edition (2003), [Chapter IV](https://doi.org/10.1007/978-3-662-05265-5_4), and S. S. Gabriyelyan (2011), [author version 4](https://arxiv.org/pdf/0802.0385), Theorem 1. Lucien Le Cam and Grace Lo Yang, *Asymptotics in Statistics*, second edition (2000), [Chapter 2](https://doi.org/10.1007/978-1-4612-1166-2_2).
 
-[^chapter_03-c3-7]: David Blackwell and Lester Dubins, “Merging of Opinions with Increasing Information,” *Annals of Mathematical Statistics* 33 (1962): 882–886, [doi:10.1214/aoms/1177704456](https://doi.org/10.1214/aoms/1177704456), main theorem, p. 883. Merging concerns conditional future distributions under its hypotheses. The application here combines that result with the equivalence of history laws at different fixed contribution parameters. Predictive merging by itself does not rule out parameter learning.
+[^chapter_03-c3-7]: David Blackwell and Lester Dubins, “Merging of Opinions with Increasing Information,” *Annals of Mathematical Statistics* 33 (1962): 882–886, [doi:10.1214/aoms/1177704456](https://doi.org/10.1214/aoms/1177704456), main theorem, p. 883.
 
-[^chapter_03-c3-8]: Hao Zhang, “Inconsistent Estimation and Asymptotically Equal Interpolations in Model-Based Geostatistics,” *Journal of the American Statistical Association* 99 (2004): 250–261, [full published paper](https://www.stat.purdue.edu/~zhanghao/Paper/JASA2004.pdf), introduction, Section 3, Theorem 2, Corollaries 1–2, and Theorem 3, pp. 250–253. Fixed-domain sampling, model conditions, and the distinction between individual parameters and an estimable combination are essential. The soil field is an illustration, not a reported dataset.
+[^chapter_03-c3-8]: Hao Zhang, “Inconsistent Estimation and Asymptotically Equal Interpolations in Model-Based Geostatistics,” *Journal of the American Statistical Association* 99 (2004): 250–261, [full published paper](https://www.stat.purdue.edu/~zhanghao/Paper/JASA2004.pdf), introduction, Section 3, Theorem 2, Corollaries 1–2, and Theorem 3, pp. 250–253.
 
-[^chapter_03-c3-9]: Thomas Blake, Chris Nosko, and Steven Tadelis, “Consumer Heterogeneity and Paid Search Effectiveness: A Large-Scale Field Experiment,” *Econometrica* 83 (2015): 155–174, [May 2014 author working paper](https://www.nber.org/system/files/working_papers/w20171/w20171.pdf), introduction and Section 3. Brand-search substitution and nonbrand heterogeneity should not be generalized to all advertising or long-run brand investment.
+[^chapter_03-c3-9]: Thomas Blake, Chris Nosko, and Steven Tadelis, “Consumer Heterogeneity and Paid Search Effectiveness: A Large-Scale Field Experiment,” *Econometrica* 83 (2015): 155–174, [May 2014 author working paper](https://www.nber.org/system/files/working_papers/w20171/w20171.pdf), introduction and Section 3.
 
-[^chapter_03-c3-10]: Line Chloé Le Goff and Philippe Soulier, “Parameter Estimation of a Two-Colored Urn Model Class,” *International Journal of Biostatistics* 13(1) (2017), article 20160029, Sections 2 and 3.2, [doi:10.1515/ijb-2016-0029](https://doi.org/10.1515/ijb-2016-0029). Their repeated-experiment estimation framework distinguishes independent repetitions from extending one reinforced path. Consistency requires identification and the relevant regularity conditions; separate organizational units do not automatically supply independent experiments.
+[^chapter_03-c3-10]: Line Chloé Le Goff and Philippe Soulier, “Parameter Estimation of a Two-Colored Urn Model Class,” *International Journal of Biostatistics* 13(1) (2017), article 20160029, Sections 2 and 3.2, [doi:10.1515/ijb-2016-0029](https://doi.org/10.1515/ijb-2016-0029).
 
-[^chapter_03-c3-11]: Martin Watzinger, Thomas A. Fackler, Markus Nagler, and Monika Schnitzer, “How Antitrust Enforcement Can Spur Innovation: Bell Labs and the 1956 Consent Decree,” *American Economic Journal: Economic Policy* 12 (2020): 328–359, [published record](https://www.aeaweb.org/articles?id=10.1257/pol.20190086); [June 2017 author paper](https://www.uoc.gr/files/items/6/6537/watzinger_et_al.pdf), introduction and institutional background. The decree and subsequent innovation evidence are developed in Chapter 4; this is the 1956 licensing intervention.
+[^chapter_03-c3-11]: Martin Watzinger, Thomas A. Fackler, Markus Nagler, and Monika Schnitzer, “How Antitrust Enforcement Can Spur Innovation: Bell Labs and the 1956 Consent Decree,” *American Economic Journal: Economic Policy* 12 (2020): 328–359, [published record](https://www.aeaweb.org/articles?id=10.1257/pol.20190086); [June 2017 author paper](https://www.uoc.gr/files/items/6/6537/watzinger_et_al.pdf), introduction and institutional background.
 
-[^chapter_03-c3-12]: John Snow, *On the Mode of Communication of Cholera*, second edition (London: John Churchill, 1855), Part 3, especially the discussions of Lambeth's new supply, intermingled customers, and the inquiry into household supplies; [full section transcribed by UCLA](https://epi-snow.ph.ucla.edu/Stream3_GrandExperiment_a.html). The historical comparison was not investigator-randomized. The discussion here concerns its inferential design; it does not identify two companies with a measured comparison budget.
+[^chapter_03-c3-12]: John Snow, *On the Mode of Communication of Cholera*, second edition (London: John Churchill, 1855), Part 3, especially the discussions of Lambeth's new supply, intermingled customers, and the inquiry into household supplies; [full section transcribed by UCLA](https://epi-snow.ph.ucla.edu/Stream3_GrandExperiment_a.html).
 
 ## The histories that became infrastructure
 
-[^chapter_04-c4-1]: John Bardeen, “Semiconductor Research Leading to the Point Contact Transistor,” Nobel lecture, December 11, 1956, [full lecture](https://www.nobelprize.org/uploads/2018/06/bardeen-lecture.pdf), pp. 318–321: research program, earlier theory, materials, complementary contributions and the failed field-effect proposal directing surface research. For the December 1947 device, see the Computer History Museum's [collection account](https://www.computerhistory.org/siliconengine/invention-of-the-point-contact-transistor/), with original logbook and publication references. This documents an achievement; it does not estimate the causal benefit of Bell's organizational structure.
+[^chapter_04-c4-1]: John Bardeen, “Semiconductor Research Leading to the Point Contact Transistor,” Nobel lecture, December 11, 1956, [full lecture](https://www.nobelprize.org/uploads/2018/06/bardeen-lecture.pdf), pp. 318–321: research program, earlier theory, materials, complementary contributions and the failed field-effect proposal directing surface research. For the December 1947 device, see the Computer History Museum's [collection account](https://www.computerhistory.org/siliconengine/invention-of-the-point-contact-transistor/), with original logbook and publication references.
 
-[^chapter_04-c4-2]: U.S. Department of Justice, *United States Attorneys' Bulletin*, February 17, 1956, vol. 4, no. 4, [full issue](https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0404.pdf), Antitrust Division, p. 119. The contemporary summary records licensing, technical-information, patent-list, and other requirements. Licensing included exceptions and reciprocal arrangements; this was not a general abolition of patents. Reported portfolio counts differ by source and definition, so the narrative uses “thousands.” The 1956 settlement is distinct from the later Bell breakup.
+[^chapter_04-c4-2]: U.S. Department of Justice, *United States Attorneys' Bulletin*, February 17, 1956, vol. 4, no. 4, [full issue](https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0404.pdf), Antitrust Division, p. 119.
 
-[^chapter_04-c4-3]: Computer History Museum, [“1952: Bell Labs Licenses Transistor Technology”](https://www.computerhistory.org/siliconengine/bell-labs-licenses-transistor-technology/), symposium and manufacturing-visit account, with proceedings and collection references. The stated $25,000 fee and nine-day event predate the 1956 decree. This distinction prevents attributing the beginning of outside transistor development to the later settlement.
+[^chapter_04-c4-3]: Computer History Museum, [“1952: Bell Labs Licenses Transistor Technology”](https://www.computerhistory.org/siliconengine/bell-labs-licenses-transistor-technology/), symposium and manufacturing-visit account, with proceedings and collection references.
 
 [^chapter_04-c4-4]: *Hush-A-Phone Corp. v. United States*, 238 F.2d 266 (D.C. Cir. 1956), November 8, 1956, [opinion](https://law.justia.com/cases/federal/appellate-courts/F2/238/266/247909/), pp. 267–269 and notes 8–12.
 
-[^chapter_04-c4-5]: Martin Watzinger, Thomas A. Fackler, Markus Nagler, and Monika Schnitzer, “How Antitrust Enforcement Can Spur Innovation: Bell Labs and the 1956 Consent Decree,” *American Economic Journal: Economic Policy* 12 (2020): 328–359, [published record](https://www.aeaweb.org/articles?id=10.1257/pol.20190086). See the [June 9, 2017 author paper](https://www.uoc.gr/files/items/6/6537/watzinger_et_al.pdf), introduction, institutional background, and empirical design/results. The published abstract confirms the matching design and contrasting sector findings. No effect size is taken from earlier working-paper versions. Patent-based follow-on innovation is not total welfare or an estimated comparison budget.
+[^chapter_04-c4-5]: Martin Watzinger, Thomas A. Fackler, Markus Nagler, and Monika Schnitzer, “How Antitrust Enforcement Can Spur Innovation: Bell Labs and the 1956 Consent Decree,” *American Economic Journal: Economic Policy* 12 (2020): 328–359, [published record](https://www.aeaweb.org/articles?id=10.1257/pol.20190086). See the [June 9, 2017 author paper](https://www.uoc.gr/files/items/6/6537/watzinger_et_al.pdf), introduction, institutional background, and empirical design/results.
 
-[^chapter_04-c4-6]: W. Brian Arthur, “Competing Technologies, Increasing Returns, and Lock-In by Historical Events,” *Economic Journal* 99 (1989): 116–131, [full published paper](https://www.rochelleterman.com/ir/sites/default/files/arthur%201989.pdf), pp. 116–118 and 128. The adoption mechanism and possible historical selection are prior work. Increasing returns alone does not establish a finite lifetime comparison budget.
+[^chapter_04-c4-6]: W. Brian Arthur, “Competing Technologies, Increasing Returns, and Lock-In by Historical Events,” *Economic Journal* 99 (1989): 116–131, [full published paper](https://www.rochelleterman.com/ir/sites/default/files/arthur%201989.pdf), pp. 116–118 and 128.
 
 [^chapter_04-c4-7]: Paul A. David, “Clio and the Economics of QWERTY,” *American Economic Review* 75 (1985): 332–337, [full paper](https://faculty.econ.ucsb.edu/~tedb/Courses/Ec100C/DavidQwerty.pdf), pp. 332 and 335–336. S. J. Liebowitz and Stephen E. Margolis, “The Fable of the Keys,” *Journal of Law and Economics* 33 (1990): 1–25, [author text](https://www.fioravante.patrone.name/mat/TdG/corsi/TdG_Borromeo_2011_12/Liebowitz_Margolis.pdf), introduction and discussion of typing studies.
 
@@ -2981,19 +2975,19 @@ An economy should reward its winners without giving them ownership of everyone e
 
 [^chapter_04-c4-9]: Robert K. Merton, “The Matthew Effect in Science,” *Science* 159 (1968): 56–63, especially 56–57. [Article](https://garfield.library.upenn.edu/merton/matthew1.pdf).
 
-[^chapter_04-c4-10]: Arnout van de Rijt, Soong Moon Kang, Michael Restivo, and Akshay Patil, “Field Experiments of Success-Breeds-Success Dynamics,” *PNAS* 111 (2014): 6934–6939, [full paper](https://www.eui.eu/Documents/DepartmentsCentres/SPS/Profiles/Van-de-Rijt/PNAS-2014-van-de-Rijt-6934-9-11.pdf), pp. 6934–6937. Subsequent third-party support differs from meeting a Kickstarter target; larger treatment effects were not unbounded or proportional.
+[^chapter_04-c4-10]: Arnout van de Rijt, Soong Moon Kang, Michael Restivo, and Akshay Patil, “Field Experiments of Success-Breeds-Success Dynamics,” *PNAS* 111 (2014): 6934–6939, [full paper](https://www.eui.eu/Documents/DepartmentsCentres/SPS/Profiles/Van-de-Rijt/PNAS-2014-van-de-Rijt-6934-9-11.pdf), pp. 6934–6937.
 
 [^chapter_04-c4-11]: Armen A. Alchian, “Uncertainty, Evolution, and Economic Theory,” *Journal of Political Economy* 58 (1950): 211–221, pp. 213–214.
 
 [^chapter_04-c4-12]: FCC, *Use of the Carterfone Device in Message Toll Telephone Service*, 13 FCC 2d 420 (1968), adopted June 26, 1968, [decision](https://www.nicholasjohnson.org/FCCOps/1968/13F2-420.html), pp. 420–425, especially p. 424.
 
-[^chapter_04-c4-14]: AT&T, *Annual Report 1955*, [original report scan](https://www.telephonearchive.com/uploads/papers/pdfs/att1955.pdf), printed pp. 13 and 16, PDF pp. 15 and 18. Americus equipment and solar-power trials are described on p. 13; the company's account of integration, decree terms, and expected business consequences is on p. 16. These are attributed corporate descriptions and predictions, not independently established policy effects.
+[^chapter_04-c4-14]: AT&T, *Annual Report 1955*, [original report scan](https://www.telephonearchive.com/uploads/papers/pdfs/att1955.pdf), printed pp. 13 and 16, PDF pp. 15 and 18. Americus equipment and solar-power trials are described on p. 13; the company's account of integration, decree terms, and expected business consequences is on p. 16.
 
-[^chapter_04-c4-smith]: Adam Smith, *An Inquiry into the Nature and Causes of the Wealth of Nations* (1776), Book I, Chapters I and III (pins, specialization, market extent and water carriage), and Chapter X, Part II (corporation and settlement restrictions). [Original text, Project Gutenberg](https://www.gutenberg.org/files/3300/3300-h/3300-h.htm). The carpenter and two towns are thought experiments. Geographic separation does not establish independent selection or freer historical markets.
+[^chapter_04-c4-smith]: Adam Smith, *An Inquiry into the Nature and Causes of the Wealth of Nations* (1776), Book I, Chapters I and III (pins, specialization, market extent and water carriage), and Chapter X, Part II (corporation and settlement restrictions). [Original text, Project Gutenberg](https://www.gutenberg.org/files/3300/3300-h/3300-h.htm).
 
 [^chapter_04-c4-steel]: *United States v. United States Steel Corp.*, 251 U.S. 417 (1920), [opinion](https://supreme.justia.com/cases/federal/us/251/417/), pp. 438–439.
 
-[^chapter_04-c4-anderson]: P. W. Anderson, “More Is Different,” *Science* 177, no. 4047 (1972): 393–396, opening page and Bell Telephone Laboratories affiliation. [Published article](https://www.rpgroup.caltech.edu/embl_pboc_2023/assets/pdfs/anderson1972.pdf). The economic use is an analogy. The proposed centuries-long economic progression remains a historical hypothesis; Anderson supplies a physical analogy.
+[^chapter_04-c4-anderson]: P. W. Anderson, “More Is Different,” *Science* 177, no. 4047 (1972): 393–396, opening page and Bell Telephone Laboratories affiliation. [Published article](https://www.rpgroup.caltech.edu/embl_pboc_2023/assets/pdfs/anderson1972.pdf).
 
 [^chapter_04-c4-sony]: Sony Group History, Volume 1, Chapter 3, [“Developing the Transistor Radio”](https://www.sony.com/en/SonyInfo/CorporateInfo/History/SonyHistory/1-03.html), Part 2. Corporate retrospective; reports, equipment and TR-52/TR-55 chronology are attributed. No reconstructed dialogue, motives, or precise launch month is used; these events predate the 1956 decree.
 
@@ -3001,33 +2995,33 @@ An economy should reward its winners without giving them ownership of everyone e
 
 [^chapter_05-c5-thiel]: Peter Thiel, with Blake Masters, *Zero to One: Notes on Startups, or How to Build the Future* (Crown Business, 2014); Peter Thiel, ["Competition Is for Losers,"](https://www.wsj.com/articles/peter-thiel-competition-is-for-losers-1410535536) *The Wall Street Journal*, September 12, 2014, [university-hosted article copy](https://www.csun.edu/~vcact00f/497CapStone/Peter%20Thiel_%20Competition%20Is%20for%20Losers%20-%20WSJ.pdf), pp. 5-6.
 
-[^chapter_05-c5-1]: Amit P. Mehta, *United States v. Google*, memorandum opinion, August 5, 2024, [full court opinion](https://fingfx.thomsonreuters.com/gfx/legaldocs/gdpzmaxjxvw/United%20States%20v%20Google%2020240805.pdf), printed pp. 1–4. Quality findings, default arrangements, 2021 payments, and liability are dated findings, not descriptions of current shares or an appellate disposition. The search case is distinct from the separate ad-tech litigation.
+[^chapter_05-c5-1]: Amit P. Mehta, *United States v. Google*, memorandum opinion, August 5, 2024, [full court opinion](https://fingfx.thomsonreuters.com/gfx/legaldocs/gdpzmaxjxvw/United%20States%20v%20Google%2020240805.pdf), printed pp. 1–4.
 
-[^chapter_05-c5-2]: Mehta, August 2024 opinion, pp. 115–117, especially paragraphs 337–339. The Firefox–Yahoo switch, query-share changes, advertising pressure, and reversal are the court's account. This observed intervention is not an investigator-randomized experiment or an estimate of an invariant default effect.
+[^chapter_05-c5-2]: Mehta, August 2024 opinion, pp. 115–117, especially paragraphs 337–339.
 
 [^chapter_05-c5-3]: Mehta, August 2024 opinion, pp. 34–39, especially paragraphs 86–93.
 
-[^chapter_05-c5-5]: Mehta, August 2024 opinion, p. 49, paragraphs 136–137. Human-rated comparisons and the Bing latency comparison supplied internal learning; Project Folly concerns the particular speed-improvement effort described in the record, not every aspect of search quality.
+[^chapter_05-c5-5]: Mehta, August 2024 opinion, p. 49, paragraphs 136–137.
 
 [^chapter_05-c5-6]: Zahra Meghani, “Regulations Matter: Epistemic Monopoly, Domination, Patents, and the Public Interest,” *Philosophy & Technology* 34 (2021): 1449–1474, [published text](https://link.springer.com/article/10.1007/s13347-021-00467-2), introduction and Section 6.
 
-[^chapter_05-c5-7]: *United States v. Google*, [final judgment](https://www.justice.gov/atr/media/1421546/dl?inline=), December 5, 2025, Sections III–V and IX.V, pp. 2–10 and 32–33; Mehta, [remedies opinion](https://docs.justia.com/cases/federal/district-courts/district-of-columbia/dcdce/1%3A2020cv03010/223205/1436), September 2, 2025, introduction and remedy-specific conclusions. The judgment specifies conditional contracts, datasets, syndication, eligibility, safeguards, and tapering. It does not require divestiture of Chrome or ban all search payments.
+[^chapter_05-c5-7]: *United States v. Google*, [final judgment](https://www.justice.gov/atr/media/1421546/dl?inline=), December 5, 2025, Sections III–V and IX.V, pp. 2–10 and 32–33; Mehta, [remedies opinion](https://docs.justia.com/cases/federal/district-courts/district-of-columbia/dcdce/1%3A2020cv03010/223205/1436), September 2, 2025, introduction and remedy-specific conclusions.
 
-[^chapter_05-c5-8]: Mehta, August 2024 opinion, p. 116, paragraph 335. The payment and budget share concern 2021. They are not current Mozilla financial estimates or a complete causal measure of the payments' welfare effect.
+[^chapter_05-c5-8]: Mehta, August 2024 opinion, p. 116, paragraph 335.
 
-[^chapter_05-c5-9]: Laura Chambers, [“Defending an Open Web: What the Google Search Ruling Means for the Future”](https://blog.mozilla.org/en/mozilla/internet-policy/defending-an-open-web/), September 8, 2025. Mozilla's funding, flexibility, implementation, privacy, and concentration arguments are attributed stakeholder positions.
+[^chapter_05-c5-9]: Laura Chambers, [“Defending an Open Web: What the Google Search Ruling Means for the Future”](https://blog.mozilla.org/en/mozilla/internet-policy/defending-an-open-web/), September 8, 2025.
 
-[^chapter_05-c5-10]: Mehta, September 2025 remedies opinion, payment-ban discussion, printed pp. 119–128. Requested relief, anticipated consequences, and ordered relief are distinct. The plaintiffs subsequently challenged rejection of the payment ban on cross-appeal.
+[^chapter_05-c5-10]: Mehta, September 2025 remedies opinion, payment-ban discussion, printed pp. 119–128.
 
 [^chapter_05-c5-11]: F. A. Hayek, [“Competition as a Discovery Procedure”](https://ppe.isi.org/wp-content/uploads/2017/12/Lesson-9-Reading-Competition-as-a-Discovery-Process.pdf), 2002 English translation of the 1968 lecture, pp. 9–11.
 
 [^chapter_05-c5-12]: Mehta, September 2025 remedies opinion, user-side data discussion, especially pp. 163–164; December final judgment, Sections IV.B–C.
 
-[^chapter_05-c5-13]: Jesper Akesson, Michael Luca, Gemma Petrie, and Kush Amlani, *Can Browser Choice Screens Be Effective?* (2023), [full report](https://research.mozilla.org/files/2023/09/Can-browser-choice-screens-be-effective_-Mozilla-experiment-report.pdf), acknowledgments, executive summary, and experimental design, PDF pp. 2–5, 22–25 and 38–40, especially Table 2 and the T3/T4 comparison. Mozilla commissioned the compensated research. Rounded shares: 11% and 19%; reported difference: 8.2 percentage points. Timing was randomized; the click mechanism is interpretation. Long-run use was not observed.
+[^chapter_05-c5-13]: Jesper Akesson, Michael Luca, Gemma Petrie, and Kush Amlani, *Can Browser Choice Screens Be Effective?* (2023), [full report](https://research.mozilla.org/files/2023/09/Can-browser-choice-screens-be-effective_-Mozilla-experiment-report.pdf), acknowledgments, executive summary, and experimental design, PDF pp. 2–5, 22–25 and 38–40, especially Table 2 and the T3/T4 comparison.
 
 [^chapter_05-c5-14]: Plaintiffs, [second compliance and enforcement status report](https://www.justice.gov/atr/media/1461926/dl?inline=), September 17, 2026, pp. 2–3 and 10–12; [public case index](https://www.justice.gov/atr/case/us-and-plaintiff-states-v-google-llc), accessed October 16, 2026.
 
-[^chapter_05-c5-15]: Lee-Anne Mulholland, [Google's appeal statement](https://blog.google/company-news/outreach-and-initiatives/public-policy/why-were-appealing-the-doj-search-distribution-case/), January 16, 2026; plaintiffs, [response and opening cross-appeal brief](https://www.justice.gov/atr/media/1454586/dl?inline=), July 28, 2026, introduction, issues, and cross-appeal. These establish opposing arguments at those dates, not an appellate ruling.
+[^chapter_05-c5-15]: Lee-Anne Mulholland, [Google's appeal statement](https://blog.google/company-news/outreach-and-initiatives/public-policy/why-were-appealing-the-doj-search-distribution-case/), January 16, 2026; plaintiffs, [response and opening cross-appeal brief](https://www.justice.gov/atr/media/1454586/dl?inline=), July 28, 2026, introduction, issues, and cross-appeal.
 
 [^chapter_05-c5-16]: *National Family Farm Coalition v. EPA*, June 3, 2020, No. 19-70115, [opinion](https://www.govinfo.gov/content/pkg/USCOURTS-ca9-19-70115/pdf/USCOURTS-ca9-19-70115-0.pdf), pp. 5–7 and 27–32.
 
@@ -3037,13 +3031,11 @@ An economy should reward its winners without giving them ownership of everyone e
 
 ## Who deserves the winnings
 
-[^chapter_06-c6-1]: Matthew J. Salganik, Peter Sheridan Dodds, and Duncan J. Watts, “Experimental Study of Inequality and Unpredictability in an Artificial Cultural Market,” *Science* 311 (2006), 854–856, [full paper](https://www.princeton.edu/~mjs3/salganik_dodds_watts06_full.pdf), pp. 854–855 and Figures 1–3. The particular first-place and fortieth-place rankings come from Salganik's [*Bit by Bit*, Section 4.6.1](https://www.bitbybitbook.com/en/running-experiments/exp-advice/zero-variable-cost/). The study compares markets with different listeners, not cloned people. These ranks do not document musician income, working hours, or personal reactions.
+[^chapter_06-c6-1]: Matthew J. Salganik, Peter Sheridan Dodds, and Duncan J. Watts, “Experimental Study of Inequality and Unpredictability in an Artificial Cultural Market,” *Science* 311 (2006), 854–856, [full paper](https://www.princeton.edu/~mjs3/salganik_dodds_watts06_full.pdf), pp. 854–855 and Figures 1–3. The particular first-place and fortieth-place rankings come from Salganik's [*Bit by Bit*, Section 4.6.1](https://www.bitbybitbook.com/en/running-experiments/exp-advice/zero-variable-cost/).
 
 [^chapter_06-c6-2]: Shuji Nakamura, [“Background Story of the Invention of Efficient Blue InGaN Light Emitting Diodes”](https://www.nobelprize.org/uploads/2018/06/nakamura-lecture.pdf), Nobel lecture, December 8, 2014, printed pp. 70 and 72–75, especially pp. 73–74.
 
 [^chapter_06-c6-3]: Nichia Corporation, [“Nichia Settled with Former Employee over ‘Reasonable Remuneration’”](https://www.nichia.co.jp/en/newsroom/2005/2005_011101.html), January 11, 2005, opening, settlement scope and payment paragraphs, and company statements 2–4.
-
-[^chapter_06-c6-4]: Replays preserve parameters, starting conditions, and input and state response rules; interventions change a specified input or policy. A contribution claim therefore requires a defined intervention and horizon, together with assumptions about how the system responds. See Chapter 3.
 
 [^chapter_06-c6-5]: DARPA, [“Grand Challenge”](https://www.darpa.mil/about/innovation-timeline/grand-challenge), institutional timeline, first three paragraphs; [“The DARPA Grand Challenge: Ten Years Later”](https://www.darpa.mil/news/2014/grand-challenge-ten-years-later), March 13, 2014, opening through the 2007 Urban Challenge.
 
@@ -3061,25 +3053,25 @@ An economy should reward its winners without giving them ownership of everyone e
 
 ## The intelligence factory
 
-[^chapter_07-c7-1]: IEA, *Key Questions on Energy and AI* (2026), [full report](https://iea.blob.core.windows.net/assets/3179f7f8-01f6-4dd6-bffa-c9f7b73f1dc9/KeyQuestionsonEnergyandAI.pdf), published April 16, 2026; executive summary, pp. 9–11; physical bottlenecks, p. 21; demand outlook and accelerator definitions, pp. 24–26. The summary rounds 2030 consumption to 950 TWh. These are total data-center estimates/projections, not AI-only consumption or observed future demand. Wait times vary across jurisdictions.
+[^chapter_07-c7-1]: IEA, *Key Questions on Energy and AI* (2026), [full report](https://iea.blob.core.windows.net/assets/3179f7f8-01f6-4dd6-bffa-c9f7b73f1dc9/KeyQuestionsonEnergyandAI.pdf), published April 16, 2026; executive summary, pp. 9–11; physical bottlenecks, p. 21; demand outlook and accelerator definitions, pp. 24–26.
 
 [^chapter_07-c7-2]: Matt Lakin, ORNL, [“Super Construction at Super Scale: How ORNL Built a New Home for Frontier”](https://www.ornl.gov/news/super-construction-super-scale-how-ornl-built-new-home-frontier/), November 14, 2023, construction account from cooling plant and piping through foundations and the pressure test.
 
 [^chapter_07-c7-3]: ORNL, [“Computer Engineers at ORNL Pioneer Approaches to Energy Efficient Supercomputing”](https://www.ornl.gov/news/computer-engineers-ornl-pioneer-approaches-energy-efficient-supercomputing/), section on David Grant’s cooling-system work and the transition from Titan to Frontier.
 
-[^chapter_07-c7-4]: Llama Team, AI at Meta, *The Llama 3 Herd of Models*, [arXiv version 3](https://arxiv.org/pdf/2407.21783v3), November 23, 2024, Section 3.3.4, pp. 13–14 and Table 5. The reported fifty-four-day snapshot contains 466 interruptions: 47 planned and 419 unexpected. More than 90 percent effective training time concerns the reported operation; it is not a measurement of economic efficiency or a claim that the whole training run lasted fifty-four days. The same section reports single-GPU restart risk, slow stragglers affecting thousands of GPUs, and significant manual intervention only three times in the snapshot. Developer self-report, not an independent operational audit.
+[^chapter_07-c7-4]: Llama Team, AI at Meta, *The Llama 3 Herd of Models*, [arXiv version 3](https://arxiv.org/pdf/2407.21783v3), November 23, 2024, Section 3.3.4, pp. 13–14 and Table 5.
 
 [^chapter_07-c7-5]: Llama Team, *The Llama 3 Herd of Models*, introduction, p. 1; Section 3, training infrastructure; Section 4, pre-training and post-training, p. 15.
 
-[^chapter_07-c7-6]: DeepSeek-AI, *DeepSeek-V3 Technical Report*, [arXiv version 2](https://arxiv.org/pdf/2412.19437v2), February 18, 2025, p. 5, Table 1 and accompanying paragraphs. The calculation values 2.788 million H800 GPU hours at an assumed USD2 per hour, yielding USD5.576 million across the specified official training stages. The report explicitly excludes prior research and ablations. It is an attributed developer calculation, not a total company spending figure, audited invoice, or cost-equivalent comparison with another model or firm. The original report appeared in December 2024.
+[^chapter_07-c7-6]: DeepSeek-AI, *DeepSeek-V3 Technical Report*, [arXiv version 2](https://arxiv.org/pdf/2412.19437v2), February 18, 2025, p. 5, Table 1 and accompanying paragraphs.
 
-[^chapter_07-c7-7]: Stanford HAI, *Artificial Intelligence Index Report 2026*, [full report](https://hai.stanford.edu/assets/files/ai_index_report_2026.pdf), Section 1.1, printed pp. 16–18, particularly p. 18 and Figure 1.1.4. Industry's reported share is 91.2 percent. The Epoch AI dataset is manually curated for notability; the report records an April 22, 2026 snapshot. This is neither all-model market share nor a causal estimate of exclusion, and a model's sector differs from an application's ownership or its users' options.
+[^chapter_07-c7-7]: Stanford HAI, *Artificial Intelligence Index Report 2026*, [full report](https://hai.stanford.edu/assets/files/ai_index_report_2026.pdf), Section 1.1, printed pp. 16–18, particularly p. 18 and Figure 1.1.4.
 
-[^chapter_07-c7-8]: Jordan Hoffmann and colleagues, “Training Compute-Optimal Large Language Models,” *NeurIPS* 2022, [published paper](https://papers.nips.cc/paper_files/paper/2022/file/c1e2faff6f588870935f114ebe04a3e5-Paper-Conference.pdf), abstract, pp. 1–2, Section 4 and Section 4.1, p. 7. The same-compute comparison is Chinchilla versus Gopher, not a universal constant across architectures, dates, or objectives. Section 4.1 records additional optimizer, tokenizer and data-mix changes; no isolated randomized model-size effect is claimed. The [authors' April 12, 2022 account](https://deepmind.google/blog/an-empirical-analysis-of-compute-optimal-large-language-model-training/) corroborates the qualitative result.
+[^chapter_07-c7-8]: Jordan Hoffmann and colleagues, “Training Compute-Optimal Large Language Models,” *NeurIPS* 2022, [published paper](https://papers.nips.cc/paper_files/paper/2022/file/c1e2faff6f588870935f114ebe04a3e5-Paper-Conference.pdf), abstract, pp. 1–2, Section 4 and Section 4.1, p. 7. [Authors' April 12, 2022 account](https://deepmind.google/blog/an-empirical-analysis-of-compute-optimal-large-language-model-training/).
 
-[^chapter_07-c7-10]: William R. Kerr, Ramana Nanda, and Matthew Rhodes-Kropf, “Entrepreneurship as Experimentation,” *JEP* 28(3) (2014), 25–48, [published paper](https://www.hbs.edu/faculty/Shared%20Documents/conferences/2014-strategy-research/Entrepreneruship%20as%20Experimentation.pdf), pp. 27–30 and 43–44. Chapter 6 develops its role and boundaries. A staged experiment's value and stopping option are prior ideas; the comparison-budget bound is a different proposed contribution.
+[^chapter_07-c7-10]: William R. Kerr, Ramana Nanda, and Matthew Rhodes-Kropf, “Entrepreneurship as Experimentation,” *JEP* 28(3) (2014), 25–48, [published paper](https://www.hbs.edu/faculty/Shared%20Documents/conferences/2014-strategy-research/Entrepreneruship%20as%20Experimentation.pdf), pp. 27–30 and 43–44.
 
-[^chapter_07-c7-11]: Kenneth J. Arrow, “Economic Welfare and the Allocation of Resources for Invention,” in *The Rate and Direction of Inventive Activity* (1962), 609–626, [NBER chapter](https://www.nber.org/system/files/chapters/c2144/c2144.pdf), pp. 609 and 614–617, especially pp. 615 and 617. Arrow supplies the established uncertainty, use and appropriation problem. No particular AI access or intellectual-property rule follows automatically from it.
+[^chapter_07-c7-11]: Kenneth J. Arrow, “Economic Welfare and the Allocation of Resources for Invention,” in *The Rate and Direction of Inventive Activity* (1962), 609–626, [NBER chapter](https://www.nber.org/system/files/chapters/c2144/c2144.pdf), pp. 609 and 614–617, especially pp. 615 and 617.
 
 [^chapter_07-c7-12]: IEA, [*Powering Artificial Intelligence: Strategies for Integrating Data Centres into Electricity Systems*](https://www.iea.org/reports/powering-artificial-intelligence), October 14, 2026, [full PDF](https://iea.blob.core.windows.net/assets/cd360a30-aaef-43cd-84e6-a125c3a0bc67/PoweringArtificialIntelligence.pdf), pp. 7–10 and 52–57, especially the AEP Ohio entry on p. 57.
 
@@ -3095,7 +3087,7 @@ An economy should reward its winners without giving them ownership of everyone e
 
 [^chapter_08-c8-3]: Lingjiao Chen, Matei Zaharia, and James Zou, [“FrugalGPT: How to Use Large Language Models While Reducing Cost and Improving Performance”](https://lingjiaochen.com/papers/2024_FrugalGPT_TMLR.pdf), *TMLR*, December 2024, Section 4, pp. 4–5, and experiments and Figure 3, pp. 6–10.
 
-[^chapter_08-c8-4]: Lihong Li, Wei Chu, John Langford, and Xuanhui Wang, “Unbiased Offline Evaluation of Contextual-bandit-based News Article Recommendation Algorithms,” *WSDM* 2011, 297–306, DOI 10.1145/1935826.1935878; [author version 2](https://arxiv.org/pdf/1003.5956v2), March 1, 2012, Sections 3–4, especially Theorem 1 and the Yahoo study. The theorem assumes independent identically distributed events and uniformly randomized logging; modifications require corresponding conditions. A finite-stream ratio and concentration for arbitrary adaptive algorithms need additional care. Logged policy evaluation differs from a structural replay of economic development.
+[^chapter_08-c8-4]: Lihong Li, Wei Chu, John Langford, and Xuanhui Wang, “Unbiased Offline Evaluation of Contextual-bandit-based News Article Recommendation Algorithms,” *WSDM* 2011, 297–306, DOI 10.1145/1935826.1935878; [author version 2](https://arxiv.org/pdf/1003.5956v2), March 1, 2012, Sections 3–4, especially Theorem 1 and the Yahoo study.
 
 [^chapter_08-c8-5]: Llama Team, AI at Meta, *The Llama 3 Herd of Models*, [version 3](https://arxiv.org/pdf/2407.21783v3), November 23, 2024, p. 2, paragraph on the flagship Llama 3.1 model improving smaller models during post-training.
 
@@ -3103,7 +3095,7 @@ An economy should reward its winners without giving them ownership of everyone e
 
 [^chapter_08-c8-7]: David Blackwell and Lester Dubins, “Merging of Opinions with Increasing Information,” *Annals of Mathematical Statistics* 33 (1962): 882–886, [doi:10.1214/aoms/1177704456](https://doi.org/10.1214/aoms/1177704456), pp. 882–883 and main theorem.
 
-[^chapter_08-c8-8]: Hao Zhang, “Inconsistent Estimation and Asymptotically Equal Interpolations in Model-Based Geostatistics,” *JASA* 99 (2004), 250–261, [full paper](https://www.stat.purdue.edu/~zhanghao/Paper/JASA2004.pdf), introduction and Section 3, pp. 250–253. Fixed-domain infill can leave individual covariance parameters inconsistent while an identifiable combination supports prediction. This is a prior statistical result, not evidence that any particular AI supplier's contribution is unknowable or that accurate prediction lacks value.
+[^chapter_08-c8-8]: Hao Zhang, “Inconsistent Estimation and Asymptotically Equal Interpolations in Model-Based Geostatistics,” *JASA* 99 (2004), 250–261, [full paper](https://www.stat.purdue.edu/~zhanghao/Paper/JASA2004.pdf), introduction and Section 3, pp. 250–253.
 
 [^chapter_08-c8-10]: Joon Sung Park and colleagues, “Generative Agents: Interactive Simulacra of Human Behavior,” *UIST* 2023, [author version 2](https://arxiv.org/pdf/2304.03442v2), August 6, 2023, Sections 3, 6.5.2, 7 and 8.2, PDF pp. 5 and 15–17.
 
@@ -3119,23 +3111,23 @@ An economy should reward its winners without giving them ownership of everyone e
 
 [^chapter_09-c9-1]: Erik Brynjolfsson, Danielle Li, and Lindsey Raymond, [“Generative AI at Work”](https://academic.oup.com/qje/article/140/2/889/7990658), *The Quarterly Journal of Economics* 140(2) (2025): 889–942, Section VI.B and Figure VII.
 
-[^chapter_09-c9-2]: Brynjolfsson, Li, and Raymond, abstract, Sections III and V. Use the published 5,172-agent sample and 15 percent average gain in issues resolved per hour; older working-paper headlines used different figures. The setting is text-based support for business software. Effects vary by prior performance and experience. Suggestions were optional, and the human agent remained responsible for the interaction.
+[^chapter_09-c9-2]: Brynjolfsson, Li, and Raymond, abstract, Sections III and V.
 
-[^chapter_09-c9-3]: Same paper, Section VI.B, Figure VII. Chat-level outage analysis measures handling duration, not resolution outcomes unavailable at that granularity. Outages varied in duration and coverage. The authors discuss noisy estimates and possible differences in chat composition. Retained improvements are evidence consistent with learning, rather than proof that all assistance gains persist or that outages randomly assigned a training intervention.
+[^chapter_09-c9-3]: Same paper, Section VI.B, Figure VII.
 
 [^chapter_09-c9-4]: Erik Brynjolfsson, Danielle Li, and Lindsey Raymond, “Generative AI at Work,” *The Quarterly Journal of Economics* 140(2) (2025): 889–942, Section VIII, [doi:10.1093/qje/qjae044](https://doi.org/10.1093/qje/qjae044).
 
-[^chapter_09-c9-5]: Hamsa Bastani, Osbert Bastani, Alp Sungu, Haosen Ge, Özge Kabakcı, and Rei Mariman, [“Generative AI without Guardrails Can Harm Learning”](https://doi.org/10.1073/pnas.2422633122), *PNAS* 122(26), 2025, e2422633122. Relevant full author version: [education_llm.pdf](https://hamsabastani.github.io/education_llm.pdf), pp. 4–11 for design/results and pp. 13–18, Section 4, for message/error analyses. The authors interpret asking-for-answer and engagement patterns as consistent with reliance on supplied solutions; these analyses do not separately randomize each safeguard or establish a unique mediator. Classroom allocation uses the school's random student assignment plus constrained classroom assignment. Individual laptop use was not independently randomized. The outcome is short-run assessment performance. GPT Tutor's unassisted advantage was not statistically established. The August 2025 correction, DOI 10.1073/pnas.2518204122, concerns an affiliation production error, not the results.
+[^chapter_09-c9-5]: Hamsa Bastani, Osbert Bastani, Alp Sungu, Haosen Ge, Özge Kabakcı, and Rei Mariman, [“Generative AI without Guardrails Can Harm Learning”](https://doi.org/10.1073/pnas.2422633122), *PNAS* 122(26), 2025, e2422633122. Author version: [education_llm.pdf](https://hamsabastani.github.io/education_llm.pdf), pp. 4–11 for design/results and pp. 13–18, Section 4, for message/error analyses.
 
 [^chapter_09-c9-6]: Joel Becker, Nate Rush, Beth Barnes, and David Rein, [“Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity”](https://metr.org/Early_2025_AI_Experienced_OS_Devs_Study-paper.pdf), 2025, abstract and Sections 1–2.
 
 [^chapter_09-c9-7]: METR, [“We Are Changing Our Developer Productivity Experiment Design”](https://metr.org/blog/2026-02-24-uplift-update/), February 24, 2026, sections on wider adoption, recruitment, time measurement, and interpretation.
 
-[^chapter_09-c9-9]: David H. Autor, [“Why Are There Still So Many Jobs? The History and Future of Workplace Automation”](https://economics.mit.edu/sites/default/files/publications/why%20are%20there%20still%20jobs%202014.pdf), *Journal of Economic Perspectives* 29(3), 2015, 3–30, especially pp. 5–7. See also James Bessen, [“Toil and Technology”](https://www.imf.org/external/pubs/ft/fandd/2015/03/bessen.htm), *Finance & Development* 52(1), March 2015, 16–19, ATM discussion. The figures concern average US urban branches in the stated historical window. Autor also identifies deregulation. These accounts do not isolate an ATM treatment effect or describe current bank employment.
+[^chapter_09-c9-9]: David H. Autor, [“Why Are There Still So Many Jobs? The History and Future of Workplace Automation”](https://economics.mit.edu/sites/default/files/publications/why%20are%20there%20still%20jobs%202014.pdf), *Journal of Economic Perspectives* 29(3), 2015, 3–30, especially pp. 5–7. See also James Bessen, [“Toil and Technology”](https://www.imf.org/external/pubs/ft/fandd/2015/03/bessen.htm), *Finance & Development* 52(1), March 2015, 16–19, ATM discussion.
 
-[^chapter_09-c9-10]: Daron Acemoglu and Pascual Restrepo, [“Robots and Jobs: Evidence from US Labor Markets”](https://economics.mit.edu/sites/default/files/publications/Robots%20and%20Jobs%20-%20Evidence%20from%20US%20Labor%20Markets.p.pdf), *Journal of Political Economy* 128(6), 2020, 2188–2244; author-hosted journal-format proof, PDF pp. 1–4. Historical local exposure design, including European adoption as an instrument, differs from random robot assignment. No local coefficient is presented as an unconditional national or generative-AI forecast.
+[^chapter_09-c9-10]: Daron Acemoglu and Pascual Restrepo, [“Robots and Jobs: Evidence from US Labor Markets”](https://economics.mit.edu/sites/default/files/publications/Robots%20and%20Jobs%20-%20Evidence%20from%20US%20Labor%20Markets.p.pdf), *Journal of Political Economy* 128(6), 2020, 2188–2244; author-hosted journal-format proof, PDF pp. 1–4.
 
-[^chapter_09-c9-platform]: International Labour Organization, *World Employment and Social Outlook 2021: The Role of Digital Labour Platforms in Transforming the World of Work* (2021), Chapter 4 conclusion, printed p. 192 (PDF p. 194), and deactivation discussion/footnote 7, printed p. 182 (PDF p. 184). [Full report](https://www.ilo.org/sites/default/files/wcmsp5/groups/public/%40dgreports/%40dcomm/%40publ/documents/publication/wcms_771749.pdf). Reported conditions and surveyed workers, not a current universal sole-platform diagnosis. Footnote 7 explicitly records alternative-platform use after permanent deactivation. The moving driver and shared-ranking scenario are hypothetical.
+[^chapter_09-c9-platform]: International Labour Organization, *World Employment and Social Outlook 2021: The Role of Digital Labour Platforms in Transforming the World of Work* (2021), Chapter 4 conclusion, printed p. 192 (PDF p. 194), and deactivation discussion/footnote 7, printed p. 182 (PDF p. 184). [Full report](https://www.ilo.org/sites/default/files/wcmsp5/groups/public/%40dgreports/%40dcomm/%40publ/documents/publication/wcms_771749.pdf).
 
 [^chapter_09-c9-portability]: Directive (EU) 2024/2831, Article 9(6) and Article 29(1), [official consolidated text, November 11, 2024](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A02024L2831-20241111), PDF pp. 9–10 and 19.
 
@@ -3143,11 +3135,11 @@ An economy should reward its winners without giving them ownership of everyone e
 
 ## Competition for future evidence
 
-[^chapter_10-c10-1]: CMA, [“Roadmap Completion Decision”](https://assets.publishing.service.gov.uk/media/63bed8958fa8f513b40f866c/BANKING_PROVIDERS_Roadmap_Completion_Decision_.pdf), January 2023, paragraphs 1.1–1.4, 2.1–2.6, 4.4–4.9. Six providers' completion, continuing funding and monitoring; dated obligations, not a welfare estimate or current implementation audit.
+[^chapter_10-c10-1]: CMA, [“Roadmap Completion Decision”](https://assets.publishing.service.gov.uk/media/63bed8958fa8f513b40f866c/BANKING_PROVIDERS_Roadmap_Completion_Decision_.pdf), January 2023, paragraphs 1.1–1.4, 2.1–2.6, 4.4–4.9.
 
 [^chapter_10-c10-2]: Kenneth J. Arrow, “Economic Welfare and the Allocation of Resources for Invention,” in *The Rate and Direction of Inventive Activity* (1962), 614–617. [Chapter](https://www.nber.org/system/files/chapters/c2144/c2144.pdf).
 
-[^chapter_10-c10-3]: Blackwell, [“Equivalent Comparisons of Experiments”](https://doi.org/10.1214/aoms/1177729032), 1953, original pp. 265–267, decision losses and Theorems 3, 5–6; Section 4, pp. 268–269, extends beyond finite outcomes. Earlier Sherman–Stein result credited. De Oliveira, [November 2017 author paper](https://henriquedeoliveira.com/wp-content/uploads/2020/12/blackwells-informativeness-theorem-using-diagrams.pdf), pp. 1–5, published 2018. Fixed decision setting, known interpretation and state-independent garbling matter; gross value excludes collection costs.
+[^chapter_10-c10-3]: Blackwell, [“Equivalent Comparisons of Experiments”](https://doi.org/10.1214/aoms/1177729032), 1953, original pp. 265–267, decision losses and Theorems 3, 5–6; Section 4, pp. 268–269. De Oliveira, [November 2017 author paper](https://henriquedeoliveira.com/wp-content/uploads/2020/12/blackwells-informativeness-theorem-using-diagrams.pdf), pp. 1–5, published 2018.
 
 [^chapter_10-c10-4]: *United States v. Google*, [Final Judgment](https://www.justice.gov/atr/media/1421546/dl?inline=), December 5, 2025, ECF 1462, Section IV.B–C, pp. 6–7.
 
@@ -3155,9 +3147,9 @@ An economy should reward its winners without giving them ownership of everyone e
 
 [^chapter_10-c10-6]: CMA, *Roadmap Completion Decision*, paragraphs 2.1–2.6 and 4.3–4.5.
 
-[^chapter_10-c10-7]: Kasy and Sautmann, [“Adaptive Treatment Assignment in Experiments for Policy Choice”](https://maxkasy.github.io/home/files/papers/adaptiveexperimentspolicy.pdf), 2021, pp. 113–114, 122–123, Table II. June 3 start, 10,000 numbers, 17 waves, six options; assignments 3,931 versus 366. Reported 0.754 optimality probability uses the stated uniform-prior model. Outcome: five recruitment answers. Read with [November 2021 correction](https://maxkasy.github.io/home/files/papers/correction_adaptiveexperimentspolicy.pdf); corrected original regret-rate claim is not used. Counts are not comparison budgets.
+[^chapter_10-c10-7]: Kasy and Sautmann, [“Adaptive Treatment Assignment in Experiments for Policy Choice”](https://maxkasy.github.io/home/files/papers/adaptiveexperimentspolicy.pdf), 2021, pp. 113–114, 122–123, Table II. [November 10, 2021 correction](https://maxkasy.github.io/home/files/papers/correction_adaptiveexperimentspolicy.pdf), corrected Theorem 1.
 
-[^chapter_10-c10-8]: Watzinger et al., [“How Antitrust Enforcement Can Spur Innovation”](https://www.aeaweb.org/articles?id=10.1257/pol.20190086), 2020; full [June 2017 author version](https://www.uoc.gr/files/items/6/6537/watzinger_et_al.pdf), introduction and institutional/empirical-design sections. Outside-sector finding and telecommunications contrast; patent proxies do not measure total welfare or Bell's comparison budget.
+[^chapter_10-c10-8]: Watzinger et al., [“How Antitrust Enforcement Can Spur Innovation”](https://www.aeaweb.org/articles?id=10.1257/pol.20190086), 2020; full [June 2017 author version](https://www.uoc.gr/files/items/6/6537/watzinger_et_al.pdf), introduction and institutional/empirical-design sections.
 
 [^chapter_10-c10-9]: F. A. Hayek, [“Competition as a Discovery Procedure”](https://ppe.isi.org/wp-content/uploads/2017/12/Lesson-9-Reading-Competition-as-a-Discovery-Process.pdf), 2002 English translation by Marcellus S. Snow of the 1968 lecture, pp. 9–11.
 
@@ -3165,7 +3157,7 @@ An economy should reward its winners without giving them ownership of everyone e
 
 [^chapter_10-c10-12]: David Blackwell, “Equivalent Comparisons of Experiments,” *Annals of Mathematical Statistics* 24 (1953): 265–272, especially 265–267. [doi:10.1214/aoms/1177729032](https://doi.org/10.1214/aoms/1177729032).
 
-[^chapter_10-c10-13]: Ipsos, [“Personal Banking Service Quality – Great Britain”](https://www.ipsos.com/en-uk/personal-banking-service-quality-great-britain-february-2026), February 16, 2026, methodology. Fieldwork January–December 2025; recommendation questions, not randomized assignment or a current provider recommendation.
+[^chapter_10-c10-13]: Ipsos, [“Personal Banking Service Quality – Great Britain”](https://www.ipsos.com/en-uk/personal-banking-service-quality-great-britain-february-2026), February 16, 2026, methodology.
 
 [^chapter_10-c10-precaution]: Kenneth J. Arrow and Anthony C. Fisher, “Environmental Preservation, Uncertainty, and Irreversibility,” 1974, pp. 316–319, [doi:10.2307/1883074](https://doi.org/10.2307/1883074), [article copy](https://www.u-cursos.cl/derecho/2019/1/DDAL23/1/material_docente/bajar?bajar=1&id=2589976).
 
@@ -3251,7 +3243,7 @@ An economy should reward its winners without giving them ownership of everyone e
 
 # References
 
-Acemoglu, D., and P. Restrepo. 2020. Robots and jobs: Evidence from US labor markets. Journal of Political Economy 128:2188–2244. Author-hosted proof used. [Source](https://economics.mit.edu/sites/default/files/publications/Robots%20and%20Jobs%20-%20Evidence%20from%20US%20Labor%20Markets.p.pdf)
+Acemoglu, D., and P. Restrepo. 2020. Robots and jobs: Evidence from US labor markets. Journal of Political Economy 128:2188–2244. [Source](https://economics.mit.edu/sites/default/files/publications/Robots%20and%20Jobs%20-%20Evidence%20from%20US%20Labor%20Markets.p.pdf)
 
 Akerlof, G. A. (1970). The market for “lemons”: Quality uncertainty and the market mechanism. The Quarterly Journal of Economics, 84(3), 488-500. [Source](https://www.sfu.ca/~allen/Ackerlof.pdf)
 
@@ -3279,7 +3271,7 @@ Bar-Yam, Y. (2016). From big data to important information. Complexity, 21(S2), 
 
 Bardeen, J. 1956. Semiconductor research leading to the point contact transistor. Nobel lecture, December 11. [Source](https://www.nobelprize.org/uploads/2018/06/bardeen-lecture.pdf)
 
-Bastani, H., O. Bastani, A. Sungu, H. Ge, Ö. Kabakcı, and R. Mariman. 2025. Generative AI without guardrails can harm learning: Evidence from high school mathematics. PNAS 122:e2422633122. Author version distinguished in the notes. [Source](https://doi.org/10.1073/pnas.2422633122)
+Bastani, H., O. Bastani, A. Sungu, H. Ge, Ö. Kabakcı, and R. Mariman. 2025. Generative AI without guardrails can harm learning: Evidence from high school mathematics. PNAS 122:e2422633122. [Source](https://doi.org/10.1073/pnas.2422633122)
 
 Bearchell, S. J., B. A. Fraaije, M. W. Shaw, and B. D. L. Fitt. 2005. Wheat archive links long-term fungal pathogen population dynamics to air pollution. PNAS 102:5438–5442. [Source](https://doi.org/10.1073/pnas.0501596102)
 
@@ -3291,11 +3283,11 @@ Blackwell, D. 1953. Equivalent comparisons of experiments. Annals of Mathematica
 
 Blackwell, D., and Dubins, L. (1962). Merging of opinions with increasing information. The Annals of Mathematical Statistics, 33(3), 882-886. doi:10.1214/aoms/1177704456. [Source](https://doi.org/10.1214/aoms/1177704456)
 
-Blake, T., C. Nosko, and S. Tadelis. 2015. Consumer heterogeneity and paid search effectiveness: A large-scale field experiment. Econometrica 83:155–174. May 2014 working version identified in the notes. [Source](https://doi.org/10.3982/ECTA12423) [2014 working paper](https://www.nber.org/system/files/working_papers/w20171/w20171.pdf)
+Blake, T., C. Nosko, and S. Tadelis. 2015. Consumer heterogeneity and paid search effectiveness: A large-scale field experiment. Econometrica 83:155–174. [Source](https://doi.org/10.3982/ECTA12423) [2014 working paper](https://www.nber.org/system/files/working_papers/w20171/w20171.pdf)
 
 Bol, T., M. de Vaan, and A. van de Rijt. 2018. The Matthew effect in science funding. Proceedings of the National Academy of Sciences 115:4887–4890. [Source](https://doi.org/10.1073/pnas.1719557115)
 
-Brynjolfsson, E., D. Li, and L. R. Raymond. 2025. Generative AI at work. Quarterly Journal of Economics 140:889–942. Published version, with earlier author version distinguished in the notes. [Source](https://doi.org/10.1093/qje/qjae044)
+Brynjolfsson, E., D. Li, and L. R. Raymond. 2025. Generative AI at work. Quarterly Journal of Economics 140:889–942. [Source](https://doi.org/10.1093/qje/qjae044)
 
 Buchanan, J. M., and Y. J. Yoon. 2000. Symmetric Tragedies: Commons and Anticommons. Journal of Law and Economics 43(1):1–13. [Published paper](https://faculty.econ.ucsb.edu/~tedb/Courses/UCSBpf/readings/BuchananYoon.pdf)
 
@@ -3327,7 +3319,7 @@ Cyberspace Administration of China and six ministries. 2023. Interim measures fo
 
 David, P. A. (1985). Clio and the economics of QWERTY. American Economic Review, 75(2), 332-337. [Source](https://faculty.econ.ucsb.edu/~tedb/Courses/Ec100C/DavidQwerty.pdf)
 
-de Oliveira, H. 2018. Blackwell's informativeness theorem using diagrams. Games and Economic Behavior 109:126–131. November 30, 2017 author version used. [Source](https://henriquedeoliveira.com/wp-content/uploads/2020/12/blackwells-informativeness-theorem-using-diagrams.pdf)
+de Oliveira, H. 2018. Blackwell's informativeness theorem using diagrams. Games and Economic Behavior 109:126–131. [Source](https://henriquedeoliveira.com/wp-content/uploads/2020/12/blackwells-informativeness-theorem-using-diagrams.pdf)
 
 DeepSeek-AI. 2025. DeepSeek-V3 Technical Report. arXiv:2412.19437, version 2, February 18; first released 2024. [Source](https://arxiv.org/pdf/2412.19437v2)
 
@@ -3345,7 +3337,7 @@ EuroHPC Joint Undertaking. 2025. Playground access to AI factories. Call opened 
 
 EuroHPC Joint Undertaking. 2026. AI factories industrial innovation access: Terms of reference. V3, March 31. [Source](https://www.eurohpc-ju.europa.eu/document/download/bd7aa666-bdf3-4436-b5ec-0b34a781e817_en?filename=Terms+of+Reference+-+AIF+Access+Calls.pdf)
 
-EuroHPC Joint Undertaking. AI factories access modes. Industrial Innovation; checked October 2026. [Source](https://www.eurohpc-ju.europa.eu/ai-factories/ai-factories-access-modes_en)
+EuroHPC Joint Undertaking. AI factories access modes. Industrial Innovation; accessed October 2026. [Source](https://www.eurohpc-ju.europa.eu/ai-factories/ai-factories-access-modes_en)
 
 European Parliament and Council. 2022. Regulation (EU) 2022/1925, Digital Markets Act. Articles 6(11) and 7. [Source](https://eur-lex.europa.eu/eli/reg/2022/1925/oj/eng)
 
@@ -3395,7 +3387,7 @@ Kasy, M., and A. Sautmann. 2021. Correction regarding Adaptive Treatment Assignm
 
 Kasy, M., and Sautmann, A. (2021). Adaptive treatment assignment in experiments for policy choice. Econometrica, 89(1), 113-132. doi:10.3982/ECTA17527. [Source](https://doi.org/10.3982/ECTA17527)
 
-Kauffman, S. A. 1995. At Home in the Universe: The Search for the Laws of Self-Organization and Complexity. Oxford University Press. Publication record and broad subject identified; not a verified first occurrence of the adjacent-possible term. [Source](https://books.google.com/books?id=o-Owb5IDkSQC)
+Kauffman, S. A. 1995. At Home in the Universe: The Search for the Laws of Self-Organization and Complexity. Oxford University Press. [Source](https://books.google.com/books?id=o-Owb5IDkSQC)
 
 Kauffman, S. A. 2003. The Adjacent Possible. Edge, November 9. [Source](https://www.edge.org/conversation/stuart_a_kauffman-the-adjacent-possible)
 
@@ -3411,7 +3403,7 @@ Le Cam, L., and Yang, G. L. (2000). Asymptotics in Statistics: Some Basic Concep
 
 Le Goff, L. C., and Soulier, P. (2017). Parameter estimation of a two-colored urn model class. The International Journal of Biostatistics, 13(1), Article 20160029. [Source](https://doi.org/10.1515/ijb-2016-0029)
 
-Li, L., W. Chu, J. Langford, and R. E. Schapire. 2010. A contextual-bandit approach to personalized news article recommendation. Proceedings of WWW:661–670. Author version identified in the notes. [Source](https://doi.org/10.1145/1772690.1772758)
+Li, L., W. Chu, J. Langford, and R. E. Schapire. 2010. A contextual-bandit approach to personalized news article recommendation. Proceedings of WWW:661–670. [Source](https://doi.org/10.1145/1772690.1772758)
 
 Li, L., W. Chu, J. Langford, and X. Wang. 2011. Unbiased offline evaluation of contextual-bandit-based news article recommendation algorithms. WSDM:297–306. Author version 2, March 1, 2012. [Source](https://arxiv.org/pdf/1003.5956v2)
 
@@ -3479,7 +3471,7 @@ Snow, J. 1855. On the Mode of Communication of Cholera. Second edition. London: 
 
 Sony Group. n.d. Developing the Transistor Radio. Sony Group History, Volume 1, Chapter 3. Part 2. [Source](https://www.sony.com/en/SonyInfo/CorporateInfo/History/SonyHistory/1-03.html)
 
-Stanford Institute for Human-Centered Artificial Intelligence. 2026. Artificial Intelligence Index Report 2026. Research and Development chapter and dataset qualifications. [Source](https://hai.stanford.edu/assets/files/ai_index_report_2026.pdf)
+Stanford Institute for Human-Centered Artificial Intelligence. 2026. Artificial Intelligence Index Report 2026. Section 1.1, pp. 16-18. [Source](https://hai.stanford.edu/assets/files/ai_index_report_2026.pdf)
 
 State Council, China. 2025. Opinion on implementing the AI Plus initiative. Dated August 21; published August 26. Original Chinese. [Source](https://www.nda.gov.cn/sjj/swdt/xwfb/0826/20250826173046592282838_mobile.html)
 
@@ -3515,7 +3507,7 @@ van de Rijt, A., Kang, S. M., Restivo, M., and Patil, A. (2014). Field experimen
 
 Wang, Y., B. F. Jones, and D. Wang. 2019. Early-career setback and future career impact. Nature Communications 10:4331. [Source](https://www.nature.com/articles/s41467-019-12189-3)
 
-Watzinger, M., T. A. Fackler, M. Nagler, and M. Schnitzer. 2020. How antitrust enforcement can spur innovation: Bell Labs and the 1956 consent decree. American Economic Journal: Economic Policy 12:328–359. June 2017 author version identified in the notes. [Source](https://www.aeaweb.org/articles?id=10.1257/pol.20190086) [2017 author version](https://www.uoc.gr/files/items/6/6537/watzinger_et_al.pdf)
+Watzinger, M., T. A. Fackler, M. Nagler, and M. Schnitzer. 2020. How antitrust enforcement can spur innovation: Bell Labs and the 1956 consent decree. American Economic Journal: Economic Policy 12:328–359. [Source](https://www.aeaweb.org/articles?id=10.1257/pol.20190086) [2017 author version](https://www.uoc.gr/files/items/6/6537/watzinger_et_al.pdf)
 
 White House. 2025. America's AI action plan. July. [Source](https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf)
 

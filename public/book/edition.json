@@ -6,8 +6,8 @@
   "date": "2026-10-16",
   "pdf": "/book/shadow-futures.pdf",
   "cover": "/book/shadow-futures-cover.png",
-  "pages": 273,
-  "pdf_bytes": 4401907,
+  "pages": 261,
+  "pdf_bytes": 4367400,
   "contents": [
     {
       "label": "The other life of a song",
@@ -22,67 +22,67 @@
     {
       "label": "The winner and the explanation",
       "section": "Chapter 1",
-      "page": 25
+      "page": 24
     },
     {
       "label": "The comparison budget",
       "section": "Chapter 2",
-      "page": 43
+      "page": 42
     },
     {
       "label": "Shadow futures",
       "section": "Chapter 3",
-      "page": 60
+      "page": 59
     },
     {
       "label": "The histories that became infrastructure",
       "section": "Chapter 4",
-      "page": 77
+      "page": 76
     },
     {
       "label": "Who gets to be tested",
       "section": "Chapter 5",
-      "page": 98
+      "page": 96
     },
     {
       "label": "Who deserves the winnings",
       "section": "Chapter 6",
-      "page": 119
+      "page": 116
     },
     {
       "label": "The intelligence factory",
       "section": "Chapter 7",
-      "page": 137
+      "page": 133
     },
     {
       "label": "A billion answers",
       "section": "Chapter 8",
-      "page": 157
+      "page": 151
     },
     {
       "label": "The first rung",
       "section": "Chapter 9",
-      "page": 175
+      "page": 169
     },
     {
       "label": "Competition for future evidence",
       "section": "Chapter 10",
-      "page": 192
+      "page": 185
     },
     {
       "label": "Taxing lost comparison",
       "section": "Chapter 11",
-      "page": 209
+      "page": 202
     },
     {
       "label": "An economics of possible worlds",
       "section": "Chapter 12",
-      "page": 221
+      "page": 214
     },
     {
       "label": "The next opportunity",
       "section": "Epilogue",
-      "page": 238
+      "page": 230
     }
   ]
 }

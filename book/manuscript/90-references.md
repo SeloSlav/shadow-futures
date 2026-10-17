@@ -1,6 +1,6 @@
 # References
 
-Acemoglu, D., and P. Restrepo. 2020. Robots and jobs: Evidence from US labor markets. Journal of Political Economy 128:2188–2244. Author-hosted proof used. [Source](https://economics.mit.edu/sites/default/files/publications/Robots%20and%20Jobs%20-%20Evidence%20from%20US%20Labor%20Markets.p.pdf)
+Acemoglu, D., and P. Restrepo. 2020. Robots and jobs: Evidence from US labor markets. Journal of Political Economy 128:2188–2244. [Source](https://economics.mit.edu/sites/default/files/publications/Robots%20and%20Jobs%20-%20Evidence%20from%20US%20Labor%20Markets.p.pdf)
 
 Akerlof, G. A. (1970). The market for “lemons”: Quality uncertainty and the market mechanism. The Quarterly Journal of Economics, 84(3), 488-500. [Source](https://www.sfu.ca/~allen/Ackerlof.pdf)
 
@@ -28,7 +28,7 @@ Bar-Yam, Y. (2016). From big data to important information. Complexity, 21(S2), 
 
 Bardeen, J. 1956. Semiconductor research leading to the point contact transistor. Nobel lecture, December 11. [Source](https://www.nobelprize.org/uploads/2018/06/bardeen-lecture.pdf)
 
-Bastani, H., O. Bastani, A. Sungu, H. Ge, Ö. Kabakcı, and R. Mariman. 2025. Generative AI without guardrails can harm learning: Evidence from high school mathematics. PNAS 122:e2422633122. Author version distinguished in the notes. [Source](https://doi.org/10.1073/pnas.2422633122)
+Bastani, H., O. Bastani, A. Sungu, H. Ge, Ö. Kabakcı, and R. Mariman. 2025. Generative AI without guardrails can harm learning: Evidence from high school mathematics. PNAS 122:e2422633122. [Source](https://doi.org/10.1073/pnas.2422633122)
 
 Bearchell, S. J., B. A. Fraaije, M. W. Shaw, and B. D. L. Fitt. 2005. Wheat archive links long-term fungal pathogen population dynamics to air pollution. PNAS 102:5438–5442. [Source](https://doi.org/10.1073/pnas.0501596102)
 
@@ -40,11 +40,11 @@ Blackwell, D. 1953. Equivalent comparisons of experiments. Annals of Mathematica
 
 Blackwell, D., and Dubins, L. (1962). Merging of opinions with increasing information. The Annals of Mathematical Statistics, 33(3), 882-886. doi:10.1214/aoms/1177704456. [Source](https://doi.org/10.1214/aoms/1177704456)
 
-Blake, T., C. Nosko, and S. Tadelis. 2015. Consumer heterogeneity and paid search effectiveness: A large-scale field experiment. Econometrica 83:155–174. May 2014 working version identified in the notes. [Source](https://doi.org/10.3982/ECTA12423) [2014 working paper](https://www.nber.org/system/files/working_papers/w20171/w20171.pdf)
+Blake, T., C. Nosko, and S. Tadelis. 2015. Consumer heterogeneity and paid search effectiveness: A large-scale field experiment. Econometrica 83:155–174. [Source](https://doi.org/10.3982/ECTA12423) [2014 working paper](https://www.nber.org/system/files/working_papers/w20171/w20171.pdf)
 
 Bol, T., M. de Vaan, and A. van de Rijt. 2018. The Matthew effect in science funding. Proceedings of the National Academy of Sciences 115:4887–4890. [Source](https://doi.org/10.1073/pnas.1719557115)
 
-Brynjolfsson, E., D. Li, and L. R. Raymond. 2025. Generative AI at work. Quarterly Journal of Economics 140:889–942. Published version, with earlier author version distinguished in the notes. [Source](https://doi.org/10.1093/qje/qjae044)
+Brynjolfsson, E., D. Li, and L. R. Raymond. 2025. Generative AI at work. Quarterly Journal of Economics 140:889–942. [Source](https://doi.org/10.1093/qje/qjae044)
 
 Buchanan, J. M., and Y. J. Yoon. 2000. Symmetric Tragedies: Commons and Anticommons. Journal of Law and Economics 43(1):1–13. [Published paper](https://faculty.econ.ucsb.edu/~tedb/Courses/UCSBpf/readings/BuchananYoon.pdf)
 
@@ -76,7 +76,7 @@ Cyberspace Administration of China and six ministries. 2023. Interim measures fo
 
 David, P. A. (1985). Clio and the economics of QWERTY. American Economic Review, 75(2), 332-337. [Source](https://faculty.econ.ucsb.edu/~tedb/Courses/Ec100C/DavidQwerty.pdf)
 
-de Oliveira, H. 2018. Blackwell's informativeness theorem using diagrams. Games and Economic Behavior 109:126–131. November 30, 2017 author version used. [Source](https://henriquedeoliveira.com/wp-content/uploads/2020/12/blackwells-informativeness-theorem-using-diagrams.pdf)
+de Oliveira, H. 2018. Blackwell's informativeness theorem using diagrams. Games and Economic Behavior 109:126–131. [Source](https://henriquedeoliveira.com/wp-content/uploads/2020/12/blackwells-informativeness-theorem-using-diagrams.pdf)
 
 DeepSeek-AI. 2025. DeepSeek-V3 Technical Report. arXiv:2412.19437, version 2, February 18; first released 2024. [Source](https://arxiv.org/pdf/2412.19437v2)
 
@@ -94,7 +94,7 @@ EuroHPC Joint Undertaking. 2025. Playground access to AI factories. Call opened 
 
 EuroHPC Joint Undertaking. 2026. AI factories industrial innovation access: Terms of reference. V3, March 31. [Source](https://www.eurohpc-ju.europa.eu/document/download/bd7aa666-bdf3-4436-b5ec-0b34a781e817_en?filename=Terms+of+Reference+-+AIF+Access+Calls.pdf)
 
-EuroHPC Joint Undertaking. AI factories access modes. Industrial Innovation; checked October 2026. [Source](https://www.eurohpc-ju.europa.eu/ai-factories/ai-factories-access-modes_en)
+EuroHPC Joint Undertaking. AI factories access modes. Industrial Innovation; accessed October 2026. [Source](https://www.eurohpc-ju.europa.eu/ai-factories/ai-factories-access-modes_en)
 
 European Parliament and Council. 2022. Regulation (EU) 2022/1925, Digital Markets Act. Articles 6(11) and 7. [Source](https://eur-lex.europa.eu/eli/reg/2022/1925/oj/eng)
 
@@ -144,7 +144,7 @@ Kasy, M., and A. Sautmann. 2021. Correction regarding Adaptive Treatment Assignm
 
 Kasy, M., and Sautmann, A. (2021). Adaptive treatment assignment in experiments for policy choice. Econometrica, 89(1), 113-132. doi:10.3982/ECTA17527. [Source](https://doi.org/10.3982/ECTA17527)
 
-Kauffman, S. A. 1995. At Home in the Universe: The Search for the Laws of Self-Organization and Complexity. Oxford University Press. Publication record and broad subject identified; not a verified first occurrence of the adjacent-possible term. [Source](https://books.google.com/books?id=o-Owb5IDkSQC)
+Kauffman, S. A. 1995. At Home in the Universe: The Search for the Laws of Self-Organization and Complexity. Oxford University Press. [Source](https://books.google.com/books?id=o-Owb5IDkSQC)
 
 Kauffman, S. A. 2003. The Adjacent Possible. Edge, November 9. [Source](https://www.edge.org/conversation/stuart_a_kauffman-the-adjacent-possible)
 
@@ -160,7 +160,7 @@ Le Cam, L., and Yang, G. L. (2000). Asymptotics in Statistics: Some Basic Concep
 
 Le Goff, L. C., and Soulier, P. (2017). Parameter estimation of a two-colored urn model class. The International Journal of Biostatistics, 13(1), Article 20160029. [Source](https://doi.org/10.1515/ijb-2016-0029)
 
-Li, L., W. Chu, J. Langford, and R. E. Schapire. 2010. A contextual-bandit approach to personalized news article recommendation. Proceedings of WWW:661–670. Author version identified in the notes. [Source](https://doi.org/10.1145/1772690.1772758)
+Li, L., W. Chu, J. Langford, and R. E. Schapire. 2010. A contextual-bandit approach to personalized news article recommendation. Proceedings of WWW:661–670. [Source](https://doi.org/10.1145/1772690.1772758)
 
 Li, L., W. Chu, J. Langford, and X. Wang. 2011. Unbiased offline evaluation of contextual-bandit-based news article recommendation algorithms. WSDM:297–306. Author version 2, March 1, 2012. [Source](https://arxiv.org/pdf/1003.5956v2)
 
@@ -228,7 +228,7 @@ Snow, J. 1855. On the Mode of Communication of Cholera. Second edition. London: 
 
 Sony Group. n.d. Developing the Transistor Radio. Sony Group History, Volume 1, Chapter 3. Part 2. [Source](https://www.sony.com/en/SonyInfo/CorporateInfo/History/SonyHistory/1-03.html)
 
-Stanford Institute for Human-Centered Artificial Intelligence. 2026. Artificial Intelligence Index Report 2026. Research and Development chapter and dataset qualifications. [Source](https://hai.stanford.edu/assets/files/ai_index_report_2026.pdf)
+Stanford Institute for Human-Centered Artificial Intelligence. 2026. Artificial Intelligence Index Report 2026. Section 1.1, pp. 16-18. [Source](https://hai.stanford.edu/assets/files/ai_index_report_2026.pdf)
 
 State Council, China. 2025. Opinion on implementing the AI Plus initiative. Dated August 21; published August 26. Original Chinese. [Source](https://www.nda.gov.cn/sjj/swdt/xwfb/0826/20250826173046592282838_mobile.html)
 
@@ -264,7 +264,7 @@ van de Rijt, A., Kang, S. M., Restivo, M., and Patil, A. (2014). Field experimen
 
 Wang, Y., B. F. Jones, and D. Wang. 2019. Early-career setback and future career impact. Nature Communications 10:4331. [Source](https://www.nature.com/articles/s41467-019-12189-3)
 
-Watzinger, M., T. A. Fackler, M. Nagler, and M. Schnitzer. 2020. How antitrust enforcement can spur innovation: Bell Labs and the 1956 consent decree. American Economic Journal: Economic Policy 12:328–359. June 2017 author version identified in the notes. [Source](https://www.aeaweb.org/articles?id=10.1257/pol.20190086) [2017 author version](https://www.uoc.gr/files/items/6/6537/watzinger_et_al.pdf)
+Watzinger, M., T. A. Fackler, M. Nagler, and M. Schnitzer. 2020. How antitrust enforcement can spur innovation: Bell Labs and the 1956 consent decree. American Economic Journal: Economic Policy 12:328–359. [Source](https://www.aeaweb.org/articles?id=10.1257/pol.20190086) [2017 author version](https://www.uoc.gr/files/items/6/6537/watzinger_et_al.pdf)
 
 White House. 2025. America's AI action plan. July. [Source](https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf)
 

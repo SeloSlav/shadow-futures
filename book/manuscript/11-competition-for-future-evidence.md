@@ -2,13 +2,13 @@
 
 ## Competition for future evidence
 
-In January 2023, Britain's Competition and Markets Authority announced that six major banking providers had completed the remaining items in its Open Banking roadmap. This was an achievement with a qualification. Common standards had to remain usable. Performance and availability still needed monitoring. Completing implementation did not complete the obligation.[^c10-1]
+In January 2023, Britain's Competition and Markets Authority announced that six major banking providers had completed the remaining items in its Open Banking roadmap. The common standards still had to remain usable, with continuing monitoring of performance and availability. Completing implementation did not complete the obligation.[^c10-1]
 
 Open Banking let customers share account information securely with authorized third parties and initiate payments through new services. Banks had to support common interfaces through which other businesses could actually use permitted information. An administrative right had to become a working connection.
 
 Receiving your records in a form another service can interpret is more useful than an unexplained file. Being able to use that service reliably is another achievement again. A box marked data access can conceal a working route to an alternative or an interface that fails when needed.
 
-The banks themselves had been required to create and fund the organization maintaining the standards. Completion left those funding duties in place. These were concrete obligations in a dated decision; their existence alone does not establish Open Banking's total economic benefit.[^c10-1]
+The banks had been required to create and fund the organization maintaining the standards. Those duties continued after implementation was declared complete. Access depended on an institution someone remained responsible for maintaining.[^c10-1]
 
 Open Banking illustrates a broader question for competition policy: can a feasible access arrangement improve what participants are able to discover, while preserving productive benefits and protecting sensitive information?
 
@@ -42,7 +42,7 @@ Protocols matter alongside results: eligibility, task selection, withheld cases,
 
 Google's December 2025 search judgment makes this practical concern visible. Its specified data-sharing provisions required enough information for qualified competitors to understand the datasets, including descriptions of contents, sampling, and privacy-related transformations. It did not simply order delivery of an unexplained pile of records.[^c10-4]
 
-This dated provision does not establish that implementation has succeeded. It highlights why interpretation can be part of access. A million query records and an explanation of how they were selected are different assets whose usefulness can depend on receiving both.
+A million query records and an explanation of how they were selected are different assets. An entrant may need both to interpret the data it receives. The order specifies that access; its usefulness depends on what recipients can do with it in practice.
 
 A record limited to accepted outputs describes that selection, rather than performance on rejected outputs or tasks never encountered. An audit can identify the gap or establish that existing evidence is adequate. The analysis must be capable of supporting no further intervention.
 
@@ -74,13 +74,13 @@ What survives migration should therefore be specified: category definitions, cor
 
 Interoperability concerns whether services can connect to the systems and users needed for a relevant test. A bounded interface may suffice. Security, maintenance, capacity, and changes to integration costs determine what scope is feasible and who should bear the burden.
 
-Compatibility can bring security, capacity, and maintenance costs and alter investment incentives. The appraisal must retain these consequences and the benefits of integration. An entrant's need does not establish that someone else should bear every cost it requests.
+Compatibility can require security work, additional capacity, and continuing maintenance. It can also alter incentives to invest in an integrated service. A workable access duty has to assign those costs and preserve the productive benefits the connection relies on.
 
 ## Making the missing comparison
 
 An audit cannot recover an outcome never observed. If that outcome matters sufficiently, a designed experiment is needed, with comparable tasks, documented assignments, checked results, and records of missing observations.
 
-Assignments can interact through shared resources and participants' responses. A design may need to compare periods or groups, or model those interactions explicitly. Balanced assignment alone does not establish an interpretable operational comparison.
+Assignments can interact through shared resources and participants' responses. Giving one supplier a task may change another supplier's capacity or behavior. Comparing periods or groups, or modeling those interactions, can make the outcomes interpretable where balanced assignment alone cannot.
 
 On June 3, 2019, a field experiment began calling rice farmers in India. Precision Agriculture for Development wanted to choose how to recruit farmers to its telephone service. Maximilian Kasy and Anja Sautmann helped compare six combinations: morning or evening automated calls, with no text alert, an alert an hour ahead, or one a day ahead. From a government partner's list, the service set aside ten thousand valid numbers outside the do-not-disturb register. Seventeen waves of calls followed, with assignment changing as results arrived.[^c10-7]
 
@@ -212,15 +212,15 @@ Both incumbents and entrants have interests in the design of a remedy. A trial c
 
 Open Banking's continuing obligations provide the concluding reference: a route maintained after the formal opening. Competition policy concerned with discovery must assess whether usable records and workable access allow meaningful comparisons over time.
 
-The next chapter asks whether taxation could address conduct that removes useful comparison and leaves costs outside the actor's account. Before discussing a rate, we need to identify the behavior, the affected decision, and evidence for the claimed social cost.
+Closing a useful route to comparison can leave costs with the people who needed the evidence. Taxation could make the actor bear some of that loss. Such a charge needs a causal link between conduct and harm, an affected decision worth improving, and a practicable way to measure and address the cost.
 
 ## Notes
 
-[^c10-1]: CMA, [“Roadmap Completion Decision”](https://assets.publishing.service.gov.uk/media/63bed8958fa8f513b40f866c/BANKING_PROVIDERS_Roadmap_Completion_Decision_.pdf), January 2023, paragraphs 1.1–1.4, 2.1–2.6, 4.4–4.9. Six providers' completion, continuing funding and monitoring; dated obligations, not a welfare estimate or current implementation audit.
+[^c10-1]: CMA, [“Roadmap Completion Decision”](https://assets.publishing.service.gov.uk/media/63bed8958fa8f513b40f866c/BANKING_PROVIDERS_Roadmap_Completion_Decision_.pdf), January 2023, paragraphs 1.1–1.4, 2.1–2.6, 4.4–4.9.
 
 [^c10-2]: Kenneth J. Arrow, “Economic Welfare and the Allocation of Resources for Invention,” in *The Rate and Direction of Inventive Activity* (1962), 614–617. [Chapter](https://www.nber.org/system/files/chapters/c2144/c2144.pdf).
 
-[^c10-3]: Blackwell, [“Equivalent Comparisons of Experiments”](https://doi.org/10.1214/aoms/1177729032), 1953, original pp. 265–267, decision losses and Theorems 3, 5–6; Section 4, pp. 268–269, extends beyond finite outcomes. Earlier Sherman–Stein result credited. De Oliveira, [November 2017 author paper](https://henriquedeoliveira.com/wp-content/uploads/2020/12/blackwells-informativeness-theorem-using-diagrams.pdf), pp. 1–5, published 2018. Fixed decision setting, known interpretation and state-independent garbling matter; gross value excludes collection costs.
+[^c10-3]: Blackwell, [“Equivalent Comparisons of Experiments”](https://doi.org/10.1214/aoms/1177729032), 1953, original pp. 265–267, decision losses and Theorems 3, 5–6; Section 4, pp. 268–269. De Oliveira, [November 2017 author paper](https://henriquedeoliveira.com/wp-content/uploads/2020/12/blackwells-informativeness-theorem-using-diagrams.pdf), pp. 1–5, published 2018.
 
 [^c10-4]: *United States v. Google*, [Final Judgment](https://www.justice.gov/atr/media/1421546/dl?inline=), December 5, 2025, ECF 1462, Section IV.B–C, pp. 6–7.
 
@@ -228,9 +228,9 @@ The next chapter asks whether taxation could address conduct that removes useful
 
 [^c10-6]: CMA, *Roadmap Completion Decision*, paragraphs 2.1–2.6 and 4.3–4.5.
 
-[^c10-7]: Kasy and Sautmann, [“Adaptive Treatment Assignment in Experiments for Policy Choice”](https://maxkasy.github.io/home/files/papers/adaptiveexperimentspolicy.pdf), 2021, pp. 113–114, 122–123, Table II. June 3 start, 10,000 numbers, 17 waves, six options; assignments 3,931 versus 366. Reported 0.754 optimality probability uses the stated uniform-prior model. Outcome: five recruitment answers. Read with [November 2021 correction](https://maxkasy.github.io/home/files/papers/correction_adaptiveexperimentspolicy.pdf); corrected original regret-rate claim is not used. Counts are not comparison budgets.
+[^c10-7]: Kasy and Sautmann, [“Adaptive Treatment Assignment in Experiments for Policy Choice”](https://maxkasy.github.io/home/files/papers/adaptiveexperimentspolicy.pdf), 2021, pp. 113–114, 122–123, Table II. [November 10, 2021 correction](https://maxkasy.github.io/home/files/papers/correction_adaptiveexperimentspolicy.pdf), corrected Theorem 1.
 
-[^c10-8]: Watzinger et al., [“How Antitrust Enforcement Can Spur Innovation”](https://www.aeaweb.org/articles?id=10.1257/pol.20190086), 2020; full [June 2017 author version](https://www.uoc.gr/files/items/6/6537/watzinger_et_al.pdf), introduction and institutional/empirical-design sections. Outside-sector finding and telecommunications contrast; patent proxies do not measure total welfare or Bell's comparison budget.
+[^c10-8]: Watzinger et al., [“How Antitrust Enforcement Can Spur Innovation”](https://www.aeaweb.org/articles?id=10.1257/pol.20190086), 2020; full [June 2017 author version](https://www.uoc.gr/files/items/6/6537/watzinger_et_al.pdf), introduction and institutional/empirical-design sections.
 
 [^c10-9]: F. A. Hayek, [“Competition as a Discovery Procedure”](https://ppe.isi.org/wp-content/uploads/2017/12/Lesson-9-Reading-Competition-as-a-Discovery-Process.pdf), 2002 English translation by Marcellus S. Snow of the 1968 lecture, pp. 9–11.
 
@@ -238,7 +238,7 @@ The next chapter asks whether taxation could address conduct that removes useful
 
 [^c10-12]: David Blackwell, “Equivalent Comparisons of Experiments,” *Annals of Mathematical Statistics* 24 (1953): 265–272, especially 265–267. [doi:10.1214/aoms/1177729032](https://doi.org/10.1214/aoms/1177729032).
 
-[^c10-13]: Ipsos, [“Personal Banking Service Quality – Great Britain”](https://www.ipsos.com/en-uk/personal-banking-service-quality-great-britain-february-2026), February 16, 2026, methodology. Fieldwork January–December 2025; recommendation questions, not randomized assignment or a current provider recommendation.
+[^c10-13]: Ipsos, [“Personal Banking Service Quality – Great Britain”](https://www.ipsos.com/en-uk/personal-banking-service-quality-great-britain-february-2026), February 16, 2026, methodology.
 
 [^c10-precaution]: Kenneth J. Arrow and Anthony C. Fisher, “Environmental Preservation, Uncertainty, and Irreversibility,” 1974, pp. 316–319, [doi:10.2307/1883074](https://doi.org/10.2307/1883074), [article copy](https://www.u-cursos.cl/derecho/2019/1/DDAL23/1/material_docente/bajar?bajar=1&id=2589976).
 

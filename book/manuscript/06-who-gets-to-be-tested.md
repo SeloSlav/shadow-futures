@@ -18,7 +18,7 @@ That possibility should make the question more interesting, not easier. If an en
 
 The phone also brings us back to Bell. A route to the customer can govern which alternatives produce a record. For the telephone attachment, the route involved permission to use a device. For a search engine, it can involve the place where a question first arrives. The technologies and legal cases differ. The economic question travels: who gets a meaningful opportunity to be used, improved, and evaluated?
 
-An answer requires more than counting search engines. We need to follow the question through the system. Which service receives it? Which service generates the results? Who observes the response? Who can use that response to improve? Different arrangements can give different answers, even when the screen offers the same number of brand names.
+A query passes through several decisions. Which service receives it? Which service generates the results? Who observes the response? Who can use that response to improve? The answers can differ even when the screen offers the same number of brand names.
 
 ### Firefox tries another default
 
@@ -30,7 +30,7 @@ This was an observed change in an actual browser, rather than a clean randomized
 
 What it does give us is a concrete contrast. A statement that Google received most Firefox queries has a different meaning once we know that changing the preselected engine changed the shares. The outcome reflects an arrangement as well as individual responses within it. A responsible explanation should investigate both.
 
-There is another lesson in the reversal. An opportunity to reach users can expose weaknesses in the service that receives it. Yahoo's place in the story does not establish that giving a rival distribution necessarily produces a superior product. The additional use can reveal a problem, finance an improvement, or change the commercial pressure on the provider. Preserving an informative opportunity does not dictate which of those results should emerge.
+Reaching users can expose a service's weaknesses. The additional use may reveal a problem, finance an improvement, or increase commercial pressure on the provider. Giving a rival a trial leaves room for it to disappoint as well as improve.
 
 A successful experiment can strengthen the case for an incumbent. Conversely, a change of supplier can follow a poorly designed trial. The identity of the eventual winner cannot establish whether useful learning occurred. That requires examining the test, its outcomes, and the decision it informed.
 
@@ -48,7 +48,7 @@ A search result also reflects several decisions. The provider has chosen which p
 
 That unevenness gives the word “data” too much work to do. A catalogue of pages, a sequence of user interactions, and results produced by another company's engine are different resources. Each can help a competitor in a different way. Handing over one does not automatically hand over the capability to generate the others. The remedy proceedings eventually had to address these distinctions in practical detail.
 
-Our comparison budget asks a narrower allocation question: how much modeled chance accumulates outside the current favorite? It does not count queries, bytes, or people. Applying the model would require a defined allocation unit, a contribution target, justified probabilities, and an account of all informative observations. The court's search record is not an estimate of that budget, and a large search share does not establish that its lifetime total is finite.
+Search share records where queries went. The comparison budget would accumulate their conditional chance of going outside the favorite, using a defined allocation unit and justified probabilities. Measuring contribution would also require a target and all informative observations. The court's search-share figures alone supply neither those probabilities nor their lifetime total.
 
 The favorite here is the alternative most likely to receive the next allocation under the model. It can change with history. A service's share of past searches is an outcome, not that conditional probability; turning one into the other would require separately justified evidence and assumptions.
 
@@ -58,15 +58,15 @@ The historical mechanism and the model can nevertheless direct attention to a co
 
 The court record includes a particularly useful complication for a book about missing comparisons. Google evaluated its search quality against other engines using human-rated, side-by-side studies. It also compared its speed with Bing's. A 2017 comparison found a latency disadvantage and helped prompt Project Folly, an effort to reduce delays. The court described the project as successful.[^c5-5]
 
-This is evidence of comparison inside the dominant organization. The provider could identify a weakness, examine a rival's performance, and improve. We should not discard that activity because the organization was large, profitable, or later found liable for unlawful conduct. Those are different facts about the same institution. An account of what it knows has to include the tests it actually conducts.
+Inside the dominant organization, engineers could identify a weakness, examine a rival's performance, and improve. The same institution could produce useful comparisons internally while restricting competitors' access to queries.
 
-The example sharpens the question for outsiders. A test of search speed can answer a useful question about search speed. It need not reveal how another provider would develop after several years of different distribution. Nor does it automatically establish the contribution of every input to Google's accumulated rewards. The comparison should receive credit for what it investigates, while leaving other questions open.
+A test of search speed can reveal how quickly a page loads. It leaves another provider's development under years of different distribution untested. Useful answers to the first question can coexist with missing evidence about the second.
 
 For a user waiting for results, a faster response is a real improvement. For a potential entrant, a public demonstration of a faster prototype may still fall short of obtaining a route to users. Both perspectives matter. A system can support productive internal learning while making some kinds of external development difficult. That combination is more informative than a choice between declaring the incumbent all-knowing and declaring that it learns nothing.
 
 Project Folly offers a more useful test than a count of experiments. Google's comparison identified a concrete disadvantage, and work followed to reduce it. An outsider appraising that evidence should ask whether latency is the uncertainty affecting the decision. If so, the test matters. If the question concerns another provider's development under different distribution, measuring response time cannot answer it alone.
 
-We should also distinguish a test's existence from access to its results. A private organization can possess useful evidence that a buyer, researcher, or public authority cannot examine. That can create problems of verification, incentives, or dependence. It does not justify pretending the evidence was never generated. The next step is to specify who needs to know what, and why.
+A private organization can possess useful evidence that a buyer, researcher, or public authority cannot examine. The test exists, but others may be unable to verify the result or act on it. Opening the relevant evidence could resolve that dependence without requiring a new experiment.
 
 ### A name for control over knowledge
 
@@ -74,7 +74,7 @@ Zahra Meghani called this kind of control an “epistemic monopoly.” Her 2021 
 
 For a particular question about contribution, epistemic monopoly means control over the opportunities needed to compare alternatives. An actor that controls who gets tested and who can inspect the results can help determine which explanations of the rewards will ever receive a hearing.
 
-The distinction helps us ask something precise about the search case. Distribution contracts can affect who receives queries. Data terms can affect who learns from an existing record. A test's confidentiality can affect who can check the evidence. These controls can overlap, but they are not the same control. Each needs to be connected to the particular uncertainty under investigation.
+Distribution contracts can affect who receives queries. Data terms can affect who learns from an existing record. Confidentiality can affect who checks a test. These controls can overlap while obstructing different steps in an outsider's work.
 
 Verifying invoices, hours, and completed work establishes inputs and execution. Identifying their effects requires suitable comparisons. Access to an existing informative experiment is a different problem from arranging an experiment that has never occurred. Those obstacles call for different responses.
 
@@ -90,7 +90,7 @@ The court later vacated the challenged 2018 registrations on grounds concerning 
 
 A scientist with permission to read a company's white paper and a scientist with permission to test the product have different opportunities. The first can examine what the reported study says. The second can investigate another condition, reproduce a result, or find that the first study left a consequential question unanswered. The work may confirm the developer's conclusion. Independence matters because it permits a relevant inquiry, including one the developer did not select.
 
-The example also shows why disclosure and access should be connected. Without enough information about methods, an outside scientist may struggle to reproduce a study. Without the product, a detailed method may remain something that cannot be attempted. An effective arrangement has to follow the practical requirements of the investigation. The existence of published pages does not establish that every important question can be checked.
+Without enough information about methods, an outside scientist may struggle to reproduce a study. Without the product, a detailed method may remain impossible to try. Disclosure and access have to meet the practical requirements of the investigation together.
 
 Disclosure is useful when the existing record answers the question. Releasing another copy of a performance report cannot replace a failure condition that was never tested. The first task is to identify whether the missing element is access, interpretation, or another observation.
 
@@ -106,7 +106,7 @@ Search syndication gives this distinction a real institutional form. A service c
 
 The reverse possibility matters too. A single operator might maintain genuinely informative trials of different approaches. Project Folly is a reminder that a large provider can learn through comparison, although its particular tests do not answer every question. Counting organizations could miss that activity just as counting storefronts could exaggerate the independence of their underlying systems.
 
-None of this makes organizational structure irrelevant. Separate firms can bring different incentives, technical judgments, and routes to users. Common ownership can make some questions less attractive to investigate. The point is to establish which differences produce the evidence we need, rather than assuming that every legal boundary creates another informative history or that every internal boundary destroys one.
+Separate firms can bring different incentives, technical judgments, and routes to users. Common ownership can make some questions less attractive to investigate. What a comparison reveals depends on those differences and on the tests the organizations actually conduct.
 
 For a regulator or buyer, the useful map therefore follows functions. Who develops the service? Who distributes it? Who records outcomes? Who can change the experiment? Who can examine the result? The same company name can appear in several boxes. Different names can lead back to the same underlying process. The map tells us more than a count of badges on a screen.
 
@@ -140,7 +140,7 @@ The position is economically intelligible. A browser is the software through whi
 
 The court considered the risk that a broad payment ban would harm distributors or leave them using Google without receiving revenue. It declined to impose the requested blanket ban. That conclusion did not mean every distribution restriction was acceptable. It meant the remedy had to be assessed in the system where its effects would unfold.[^c5-10]
 
-For a comparison policy, the lesson is that one route can support another. Removing a financial tie might open a search opportunity while weakening a browser through which alternatives reach users. Keeping the tie might preserve that browser while maintaining incentives unfavorable to rival search providers. Describing either move as an unqualified increase in competition would skip the interaction that makes the choice difficult.
+Removing a financial tie might open a search opportunity while weakening a browser through which alternatives reach users. Keeping the tie might preserve that browser while maintaining incentives unfavorable to rival search providers. One route into a market can depend on another, making the terms of access matter as much as their apparent openness.
 
 A remedy can also remove useful experimentation financed by an incumbent's existing business. Any appraisal must count evidence lost as well as gained, alongside changes in production, financing, and access.
 
@@ -154,7 +154,7 @@ These requirements belong inside the informational analysis. Data made safer to 
 
 The judgment's definition of a qualified competitor also involved more than asking for a copy. It included approved data-security standards, privacy and security audits, and a sufficient plan to invest and compete in or with the specified markets. Access was an administered relationship with obligations. It was not a public download button available to anyone who described themselves as a challenger.[^c5-7]
 
-Such conditions can make a remedy safer and more purposeful. They can also affect who can use it. A small organization may lack the capacity to meet requirements that a large rival can satisfy. That possibility does not prove the requirements are wrong. It tells the designer to examine whether they are necessary and proportionate, and whether a less costly arrangement could preserve their function.
+Conditions can make a remedy safer while raising the cost of using it. A small organization may struggle with requirements a large rival can easily satisfy. The workable standard is one that protects the required security or quality without imposing avoidable barriers to a credible attempt.
 
 Mozilla's response raised a related concern: data remedies should avoid simply transferring power from one major technology company to another. That was a stakeholder's warning about design. It deserves consideration alongside the potential benefit of making useful resources available. The name of the recipient cannot substitute for examining what the recipient will be able to test and how others will benefit.[^c5-9]
 
@@ -162,7 +162,7 @@ For a public evaluator, access to a test and access to its results are likewise 
 
 A published pass score may conceal performance on rare but costly failures. Detailed results could resolve that uncertainty without exposing every line of code. If the relevant condition was never tested, however, fuller disclosure cannot produce the missing result.
 
-That distinction separates two forms of control that often travel together. One governs what happens and therefore what evidence is generated. The other governs who can inspect the evidence afterward. An institution can open its files while restricting new inquiry, or permit inquiry while keeping useful results difficult to check. A serious account of epistemic power must follow both.
+Control over what gets tried determines which evidence can be generated. Control over the resulting files determines who can inspect it. An institution can open its files while restricting new inquiry, or permit inquiry while keeping useful results difficult to check.
 
 ### A screen that can be tested
 
@@ -174,7 +174,7 @@ Chrome was an alternative here. Timing could favor a position occupied by anothe
 
 These simulated choices do not establish sustained browser use or independent search capability. A remedy's sequence can nevertheless affect its immediate outcome.
 
-The study changed a rule and observed responses. It therefore supplies evidence about an intervention. A shadow future would preserve the old rules while outcomes unfolded differently. The distinction keeps us from asking one experiment to settle both how a screen works and how a whole competitive history would have developed.
+The choice-screen study changed a rule and observed responses. A shadow future would preserve the old rules while outcomes unfolded differently. The study supplies evidence about the intervention; a whole competitive history under other early events remains unobserved.
 
 There is a constructive implication for the institution imposing a remedy. It can ask how to learn whether the remedy works. Which outcomes would show that a meaningful opportunity had opened? Which would indicate that users were merely clicking through another screen? What evidence would distinguish a temporary shift from a sustained improvement? Those questions should influence the record collected as the remedy operates.
 
@@ -190,7 +190,7 @@ A deadline in a status report is a plan, not a completed exchange. The proposed 
 
 The legal dispute continued beyond the district court's decision. Google publicly announced an appeal in January 2026 and argued that the ruling discounted user preference, product quality, and competition. It also objected to the data and syndication requirements. In July, the plaintiffs' appellate brief defended relief and challenged the rejection of a payment ban. These were opposing parties' arguments, rather than an appellate resolution.[^c5-15]
 
-That continuing disagreement matters for interpretation. We should not describe a contested remedy as a completed experiment whose results are already known. We can examine the theory of what it is intended to change, the terms actually ordered, and the evidence produced as it operates. Later results could support, complicate, or undermine expectations on either side.
+The ordered remedy sets terms under which later evidence can emerge. As it operates, entrants' access, costs, and performance could support or undermine the expectations behind it. The parties' competing forecasts remain forecasts until then.
 
 A formal promise of access becomes economically meaningful through specifications, a budget, security arrangements, usable records, and a way to interpret outcomes. Those implementation requirements help determine whether comparison actually occurs.
 
@@ -228,39 +228,39 @@ Return to the address bar. The question you type reaches an engine, and the engi
 
 For a buyer or public authority, the task is to make that question practical. Identify a decision worth improving. Find the comparison that could improve it. Ask who can produce and check the evidence, what doing so costs, and what existing knowledge can already resolve. Sometimes another route to users matters. Sometimes better access to a record or a well-designed internal trial supplies what is needed.
 
-Rewards also carry personal consequences. What does a documented achievement establish about what its makers deserve? Before turning to AI's factories and workplaces, we need to separate evidence about contribution from the moral and practical reasons for rewarding it.
+Rewards also carry personal consequences. A documented achievement can establish that someone made something valuable. How much they contributed, what they were promised, and what society has reason to reward remain separate questions.
 
 ## Notes
 
 [^c5-thiel]: Peter Thiel, with Blake Masters, *Zero to One: Notes on Startups, or How to Build the Future* (Crown Business, 2014); Peter Thiel, ["Competition Is for Losers,"](https://www.wsj.com/articles/peter-thiel-competition-is-for-losers-1410535536) *The Wall Street Journal*, September 12, 2014, [university-hosted article copy](https://www.csun.edu/~vcact00f/497CapStone/Peter%20Thiel_%20Competition%20Is%20for%20Losers%20-%20WSJ.pdf), pp. 5-6.
 
-[^c5-1]: Amit P. Mehta, *United States v. Google*, memorandum opinion, August 5, 2024, [full court opinion](https://fingfx.thomsonreuters.com/gfx/legaldocs/gdpzmaxjxvw/United%20States%20v%20Google%2020240805.pdf), printed pp. 1–4. Quality findings, default arrangements, 2021 payments, and liability are dated findings, not descriptions of current shares or an appellate disposition. The search case is distinct from the separate ad-tech litigation.
+[^c5-1]: Amit P. Mehta, *United States v. Google*, memorandum opinion, August 5, 2024, [full court opinion](https://fingfx.thomsonreuters.com/gfx/legaldocs/gdpzmaxjxvw/United%20States%20v%20Google%2020240805.pdf), printed pp. 1–4.
 
-[^c5-2]: Mehta, August 2024 opinion, pp. 115–117, especially paragraphs 337–339. The Firefox–Yahoo switch, query-share changes, advertising pressure, and reversal are the court's account. This observed intervention is not an investigator-randomized experiment or an estimate of an invariant default effect.
+[^c5-2]: Mehta, August 2024 opinion, pp. 115–117, especially paragraphs 337–339.
 
 [^c5-3]: Mehta, August 2024 opinion, pp. 34–39, especially paragraphs 86–93.
 
-[^c5-5]: Mehta, August 2024 opinion, p. 49, paragraphs 136–137. Human-rated comparisons and the Bing latency comparison supplied internal learning; Project Folly concerns the particular speed-improvement effort described in the record, not every aspect of search quality.
+[^c5-5]: Mehta, August 2024 opinion, p. 49, paragraphs 136–137.
 
 [^c5-6]: Zahra Meghani, “Regulations Matter: Epistemic Monopoly, Domination, Patents, and the Public Interest,” *Philosophy & Technology* 34 (2021): 1449–1474, [published text](https://link.springer.com/article/10.1007/s13347-021-00467-2), introduction and Section 6.
 
-[^c5-7]: *United States v. Google*, [final judgment](https://www.justice.gov/atr/media/1421546/dl?inline=), December 5, 2025, Sections III–V and IX.V, pp. 2–10 and 32–33; Mehta, [remedies opinion](https://docs.justia.com/cases/federal/district-courts/district-of-columbia/dcdce/1%3A2020cv03010/223205/1436), September 2, 2025, introduction and remedy-specific conclusions. The judgment specifies conditional contracts, datasets, syndication, eligibility, safeguards, and tapering. It does not require divestiture of Chrome or ban all search payments.
+[^c5-7]: *United States v. Google*, [final judgment](https://www.justice.gov/atr/media/1421546/dl?inline=), December 5, 2025, Sections III–V and IX.V, pp. 2–10 and 32–33; Mehta, [remedies opinion](https://docs.justia.com/cases/federal/district-courts/district-of-columbia/dcdce/1%3A2020cv03010/223205/1436), September 2, 2025, introduction and remedy-specific conclusions.
 
-[^c5-8]: Mehta, August 2024 opinion, p. 116, paragraph 335. The payment and budget share concern 2021. They are not current Mozilla financial estimates or a complete causal measure of the payments' welfare effect.
+[^c5-8]: Mehta, August 2024 opinion, p. 116, paragraph 335.
 
-[^c5-9]: Laura Chambers, [“Defending an Open Web: What the Google Search Ruling Means for the Future”](https://blog.mozilla.org/en/mozilla/internet-policy/defending-an-open-web/), September 8, 2025. Mozilla's funding, flexibility, implementation, privacy, and concentration arguments are attributed stakeholder positions.
+[^c5-9]: Laura Chambers, [“Defending an Open Web: What the Google Search Ruling Means for the Future”](https://blog.mozilla.org/en/mozilla/internet-policy/defending-an-open-web/), September 8, 2025.
 
-[^c5-10]: Mehta, September 2025 remedies opinion, payment-ban discussion, printed pp. 119–128. Requested relief, anticipated consequences, and ordered relief are distinct. The plaintiffs subsequently challenged rejection of the payment ban on cross-appeal.
+[^c5-10]: Mehta, September 2025 remedies opinion, payment-ban discussion, printed pp. 119–128.
 
 [^c5-11]: F. A. Hayek, [“Competition as a Discovery Procedure”](https://ppe.isi.org/wp-content/uploads/2017/12/Lesson-9-Reading-Competition-as-a-Discovery-Process.pdf), 2002 English translation of the 1968 lecture, pp. 9–11.
 
 [^c5-12]: Mehta, September 2025 remedies opinion, user-side data discussion, especially pp. 163–164; December final judgment, Sections IV.B–C.
 
-[^c5-13]: Jesper Akesson, Michael Luca, Gemma Petrie, and Kush Amlani, *Can Browser Choice Screens Be Effective?* (2023), [full report](https://research.mozilla.org/files/2023/09/Can-browser-choice-screens-be-effective_-Mozilla-experiment-report.pdf), acknowledgments, executive summary, and experimental design, PDF pp. 2–5, 22–25 and 38–40, especially Table 2 and the T3/T4 comparison. Mozilla commissioned the compensated research. Rounded shares: 11% and 19%; reported difference: 8.2 percentage points. Timing was randomized; the click mechanism is interpretation. Long-run use was not observed.
+[^c5-13]: Jesper Akesson, Michael Luca, Gemma Petrie, and Kush Amlani, *Can Browser Choice Screens Be Effective?* (2023), [full report](https://research.mozilla.org/files/2023/09/Can-browser-choice-screens-be-effective_-Mozilla-experiment-report.pdf), acknowledgments, executive summary, and experimental design, PDF pp. 2–5, 22–25 and 38–40, especially Table 2 and the T3/T4 comparison.
 
 [^c5-14]: Plaintiffs, [second compliance and enforcement status report](https://www.justice.gov/atr/media/1461926/dl?inline=), September 17, 2026, pp. 2–3 and 10–12; [public case index](https://www.justice.gov/atr/case/us-and-plaintiff-states-v-google-llc), accessed October 16, 2026.
 
-[^c5-15]: Lee-Anne Mulholland, [Google's appeal statement](https://blog.google/company-news/outreach-and-initiatives/public-policy/why-were-appealing-the-doj-search-distribution-case/), January 16, 2026; plaintiffs, [response and opening cross-appeal brief](https://www.justice.gov/atr/media/1454586/dl?inline=), July 28, 2026, introduction, issues, and cross-appeal. These establish opposing arguments at those dates, not an appellate ruling.
+[^c5-15]: Lee-Anne Mulholland, [Google's appeal statement](https://blog.google/company-news/outreach-and-initiatives/public-policy/why-were-appealing-the-doj-search-distribution-case/), January 16, 2026; plaintiffs, [response and opening cross-appeal brief](https://www.justice.gov/atr/media/1454586/dl?inline=), July 28, 2026, introduction, issues, and cross-appeal.
 
 [^c5-16]: *National Family Farm Coalition v. EPA*, June 3, 2020, No. 19-70115, [opinion](https://www.govinfo.gov/content/pkg/USCOURTS-ca9-19-70115/pdf/USCOURTS-ca9-19-70115-0.pdf), pp. 5–7 and 27–32.
 

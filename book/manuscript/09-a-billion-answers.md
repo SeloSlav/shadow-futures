@@ -6,7 +6,7 @@ Inference turns a trained model into a stream of outputs. Each interaction can a
 
 The records can include the request, selected model, answer, time taken, and a user's acceptance. A check against an independently known outcome adds another observation. These records answer different questions because they arise from different measurement choices.
 
-The trained model need not change its numerical settings during this exchange. A later development process might use collected examples to update it. The service could also retrieve a newer document or apply a different instruction without retraining the underlying model. We should keep those changes distinct when asking what another successful answer teaches us: the learning can occur in the model, in the surrounding software, or in the people evaluating the result.
+The trained model need not change its numerical settings during this exchange. A later development process might use collected examples to update it. The service could also retrieve a newer document or apply a different instruction without retraining the underlying model. Improvement can occur in the model, the surrounding software, or the people evaluating the result.
 
 Now repeat the exchange a billion times across many workplaces and tasks. The records can become immensely useful. They can expose recurring mistakes, reveal delays, and help developers improve a service. But the number of completed requests does not, by itself, tell us which questions the resulting evidence can answer.
 
@@ -70,9 +70,9 @@ Lingjiao Chen, Matei Zaharia, and James Zou explore a related route in FrugalGPT
 
 In the workplace illustration, the system might first ask a cheaper model to extract the deadline. If its assessment of that response is unfavorable, it could ask another model. This differs from selecting once before seeing an answer. It also differs from obtaining an independent human check of correctness. The assessment mechanism itself needs evaluation.
 
-FrugalGPT's paper includes cases where additional calls are made even though the models' answers agree. Its discussion treats this as room for improvement: the selector's uncertainty can cause extra expense. The example makes an important point about automation. Delegating the decision to a model does not remove the decision problem; it creates a system whose judgment about when to continue has consequences.
+FrugalGPT's paper includes cases where additional calls are made even though the models' answers agree. Its discussion identifies the selector's uncertainty as a source of avoidable expense. Delegating a decision to a model leaves another judgment to evaluate: when does that model decide to stop?
 
-For a buyer, an economical cascade might lower the cost of trying alternative services. It might also make comparisons less visible if the final interface reports only one answer and one brand. We should inspect what the system actually records. A useful comparison can occur behind a simple interface, while an interface displaying several logos can conceal dependence on the same underlying service.
+An economical cascade might lower the cost of trying alternative services. If the interface reports only one answer and one brand, the buyer may be unable to inspect those comparisons. Several logos can conceal dependence on one underlying service; a simple interface can conceal useful tests of several.
 
 Routing and cascades can make it cheaper to compare services as well as to use them. A buyer who can afford only one expensive answer may be able to check several cheaper ones. Whether that happens depends on what the selection system tests and records.
 
@@ -96,7 +96,7 @@ Long before today's language models, a news page posed a related problem. The Ya
 
 Their work used records gathered through randomized article selection. Under their stated conditions, an evaluator can retain suitable events where a proposed rule would have selected the article that was actually shown. The retained record then includes a real response to that choice. The researchers compared offline evaluations with online results in the Yahoo application.
 
-This is an instructive answer to the claim that one history must leave every alternative forever beyond reach. A historical record can contain deliberately created variation. The variation can support questions that the institution operating the system did not answer by simply repeating its current favorite. Collecting the right record changes the possibilities for later analysis.
+A historical record can contain deliberately created variation. It can then support questions that simply repeating the current favorite would leave unanswered. Collecting the right record expands what later analysis can discover.
 
 Randomized request logs with checked outcomes can support evaluation of another selection rule under the relevant coverage and identification assumptions. A literal parallel economy is not required for every counterfactual question.
 
@@ -110,7 +110,7 @@ The same record can nevertheless be valuable. If it supports a better procuremen
 
 This gives us a practical reason to preserve details that a success count omits. Which alternatives were available? Why was this one selected? What was measured afterward? A usable assignment record and meaningful outcome can make a small pilot worth more, for a specific decision, than a much larger archive lacking those features.
 
-The pilot also has costs. Someone receives the less suitable answer when the comparison goes badly. Someone checks the outcome. Some data may be inappropriate to retain or share. The Yahoo research illustrates an opportunity created by deliberate observation; it does not imply that the opportunity is free or that every problem meets its assumptions.
+The pilot also has costs. Someone receives the less suitable answer when the comparison goes badly. Someone checks the outcome. Some data may be inappropriate to retain or share. Useful evaluation requires an observation design that fits the task and evidence worth those costs.
 
 ## The same ancestor
 
@@ -126,7 +126,7 @@ Imagine that our three services extract the same wrong date because the underlyi
 
 These are illustrative cases, but they identify an empirical task. Follow the chain far enough to understand which components are common, which vary, and where the outcome is measured. Independence is valuable relative to a question. It should not be a ceremonial word attached to a company name.
 
-The same caution applies to repeated answers from one system. New requests and new checks can provide fresh information about that system's performance. Repeating a model call is not automatically repeating the same observation. A thousand carefully checked orders can expose failure patterns that one order could not reveal.
+A thousand carefully checked orders can expose failure patterns that one order could not reveal. New requests and new checks can add information about a system even when the same model handles them all.
 
 But generating a thousand responses without a new check does not create a thousand independent confirmations of the underlying claim. If the uncertainty concerns the actual delivery date, the order and its amendments remain relevant evidence. A longer conversation among programs might help interpret them. It cannot make an unread amendment irrelevant by agreeing without it.
 
@@ -164,7 +164,7 @@ Failed attempts can matter as much as final outputs. Preserving their records ma
 
 Control of tools and records can make switching expensive even when software generation becomes cheap. This is an institutional question about portability and ownership, distinct from the capability demonstrated by an agent experiment.
 
-Ownership alone also cannot establish validity. Carlini's account illustrates useful checking within one firm using related models. A legally independent project can still use a defective test. The analysis follows the route from a proposed design to feedback capable of exposing its errors.
+Carlini's account describes checks within one firm using related models. A legally independent project could still use a defective test. Validity depends on feedback that can expose an error, wherever the test is organized.
 
 A thousand agents can reproduce one mistaken interpretation; a single check against a relevant document can reveal it. Abundant software labor can multiply attempts faster than it produces trustworthy judgments of their results.
 
@@ -188,7 +188,7 @@ The researchers used a simulator based on historical workloads, tested on unseen
 
 The sequence matters as much as the headline. A proposal entered a test with a defined outcome. A promising simulated result faced another check. Deployment supplied further observations. The program was not considered better simply because another language model produced a fluent explanation of why it ought to work.
 
-Compare that with the simulated party. Smallville can show what its agents do under its rules. A scheduling simulation can also be wrong about a real system. In the AlphaEvolve account, subsequent measurements provided an additional connection to actual operation. We should examine the quality of that connection while recognizing why it adds something that another unvalidated simulation would not.
+Smallville's party unfolds under programmed rules. A scheduling simulation can also misrepresent a real system. In the AlphaEvolve account, measurements from subsequent operation provided a way to check the simulated gains against actual performance.
 
 For software generation, useful evidence comes from executed programs and checked outcomes. Candidate code can help organize a search, but its correctness needs testing beyond the model's ability to produce it.
 
@@ -196,7 +196,7 @@ The test set still needs attention. A program might exploit a quirk of the examp
 
 This possibility strengthens the constructive part of the comparison argument. An AI system can help us propose and assess alternatives at a cost that changes which experiments are worth attempting. It can do so inside a large firm or in a smaller undertaking. The organizational label does not tell us whether the tests are informative.
 
-The information also has a boundary. Evidence that a scheduling rule uses machines better can justify adopting that rule. It does not, by itself, measure the contribution of every earlier investor or determine whether another ownership arrangement would have produced a superior computing industry. A successful local experiment deserves its success without being asked to answer every historical question.
+Evidence that a scheduling rule uses machines better can justify adopting that rule. The experiment compares ways to schedule the available machines. It leaves the contributions of earlier investors and the effects of alternative ownership arrangements to other evidence.
 
 Generated proposals can help us test ambitious ideas when we can define an outcome that establishes improvement. The question is how to connect each proposal to evidence that can distinguish success from a plausible story. That connection lets us use AI's capabilities while examining whether the resulting system accomplishes its purpose.
 
@@ -226,7 +226,7 @@ Someone supplied examples used in development. Someone expressed a preference in
 
 If an AI service improves the worker's performance, that is a real possibility worth measuring. If it changes which tasks the worker gets to attempt, how expertise develops, or what an employer can observe about ability, those are further questions. An answer that helps finish today's task can also change the conditions under which tomorrow's worker learns.
 
-The next chapter asks what happens to the worker. Its subject is the work behind the answers, the work changed by them, and the first opportunities through which people develop a record of their own.
+Behind the answers are people doing work, people whose work is changing, and beginners still waiting for a first assignment. The system that handles today's task also helps determine who gets to learn tomorrow's job.
 
 ## Notes
 
@@ -236,7 +236,7 @@ The next chapter asks what happens to the worker. Its subject is the work behind
 
 [^c8-3]: Lingjiao Chen, Matei Zaharia, and James Zou, [“FrugalGPT: How to Use Large Language Models While Reducing Cost and Improving Performance”](https://lingjiaochen.com/papers/2024_FrugalGPT_TMLR.pdf), *TMLR*, December 2024, Section 4, pp. 4–5, and experiments and Figure 3, pp. 6–10.
 
-[^c8-4]: Lihong Li, Wei Chu, John Langford, and Xuanhui Wang, “Unbiased Offline Evaluation of Contextual-bandit-based News Article Recommendation Algorithms,” *WSDM* 2011, 297–306, DOI 10.1145/1935826.1935878; [author version 2](https://arxiv.org/pdf/1003.5956v2), March 1, 2012, Sections 3–4, especially Theorem 1 and the Yahoo study. The theorem assumes independent identically distributed events and uniformly randomized logging; modifications require corresponding conditions. A finite-stream ratio and concentration for arbitrary adaptive algorithms need additional care. Logged policy evaluation differs from a structural replay of economic development.
+[^c8-4]: Lihong Li, Wei Chu, John Langford, and Xuanhui Wang, “Unbiased Offline Evaluation of Contextual-bandit-based News Article Recommendation Algorithms,” *WSDM* 2011, 297–306, DOI 10.1145/1935826.1935878; [author version 2](https://arxiv.org/pdf/1003.5956v2), March 1, 2012, Sections 3–4, especially Theorem 1 and the Yahoo study.
 
 [^c8-5]: Llama Team, AI at Meta, *The Llama 3 Herd of Models*, [version 3](https://arxiv.org/pdf/2407.21783v3), November 23, 2024, p. 2, paragraph on the flagship Llama 3.1 model improving smaller models during post-training.
 
@@ -244,7 +244,7 @@ The next chapter asks what happens to the worker. Its subject is the work behind
 
 [^c8-7]: David Blackwell and Lester Dubins, “Merging of Opinions with Increasing Information,” *Annals of Mathematical Statistics* 33 (1962): 882–886, [doi:10.1214/aoms/1177704456](https://doi.org/10.1214/aoms/1177704456), pp. 882–883 and main theorem.
 
-[^c8-8]: Hao Zhang, “Inconsistent Estimation and Asymptotically Equal Interpolations in Model-Based Geostatistics,” *JASA* 99 (2004), 250–261, [full paper](https://www.stat.purdue.edu/~zhanghao/Paper/JASA2004.pdf), introduction and Section 3, pp. 250–253. Fixed-domain infill can leave individual covariance parameters inconsistent while an identifiable combination supports prediction. This is a prior statistical result, not evidence that any particular AI supplier's contribution is unknowable or that accurate prediction lacks value.
+[^c8-8]: Hao Zhang, “Inconsistent Estimation and Asymptotically Equal Interpolations in Model-Based Geostatistics,” *JASA* 99 (2004), 250–261, [full paper](https://www.stat.purdue.edu/~zhanghao/Paper/JASA2004.pdf), introduction and Section 3, pp. 250–253.
 
 [^c8-10]: Joon Sung Park and colleagues, “Generative Agents: Interactive Simulacra of Human Behavior,” *UIST* 2023, [author version 2](https://arxiv.org/pdf/2304.03442v2), August 6, 2023, Sections 3, 6.5.2, 7 and 8.2, PDF pp. 5 and 15–17.
 

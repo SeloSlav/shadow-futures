@@ -18,7 +18,7 @@ The temptation is to find one number that settles all four. Profit is a convenie
 
 Because an account records what was paid under particular arrangements. Explaining what would have happened under different arrangements is a further task. Deciding which arrangements we ought to choose adds another. We can value the first record while asking the other questions.
 
-In the previous chapter, the question was who gets an opportunity to demonstrate what they can do. Here it is what follows once someone succeeds. The distinction becomes easier to see beside a light bulb and a vehicle that can drive itself. In both cases there was a real achievement. In neither does acknowledging the achievement finish the economics of its reward.
+The blue LED and the driverless vehicle were real achievements. Recognizing the ingenuity behind them still leaves a question about the reward. How much does making something valuable tell us about what its makers should receive?
 
 ## The inventor and the bill
 
@@ -46,13 +46,13 @@ Replace the operator with whom? Replace the machine at what cost? Allow how long
 
 For the hypothetical laboratory, the relevant replacement might be an available machine from another supplier. For a historical invention, it might be another research team pursuing a different route. The word contribution can sound exact while quietly moving between those alternatives. A responsible calculation must say what changes and what stays in place.
 
-This is why shadow futures need discipline. Replaying history under the same underlying conditions and response rules lets us examine how outcomes vary. Removing an inventor, changing a financing arrangement, or replacing a technology is a separate intervention. We cannot establish the effect of removing a person merely by imagining a less fortunate version of that person's career.[^c6-4]
+This is why shadow futures need discipline. Replaying history under the same underlying conditions and response rules lets us examine how outcomes vary. Removing an inventor, changing a financing arrangement, or replacing a technology is a separate intervention. We cannot establish the effect of removing a person merely by imagining a less fortunate version of that person's career.
 
 Technical evidence can show that a reactor modification solved a production problem. Dividing the invention's full commercial and social returns among inventors, employers, suppliers and predecessors is a separate question.
 
-The distinction protects the inventor as well as the company. If the original employment payment were low, that fact alone would not show a small contribution. If a later settlement were large, its size alone would not measure the contribution either. Actual payment cannot serve as the evidence for deserved payment without making every existing arrangement certify itself.
+Neither the original wage nor the later settlement can, by its size alone, measure an inventor's contribution. Letting actual payment establish deserved payment would allow every existing arrangement to certify itself.
 
-With Lockdown, the two rankings expose a gap between a fixed recording and its reception. With a blue LED, measurements can narrow important technical gaps while leaving broader questions of credit and reward. There is no single level of uncertainty that applies to every claim about an achievement. We need to know which claim is being made.
+Lockdown's two rankings expose a gap between a fixed recording and its reception. Measurements of a blue LED can settle important technical questions while leaving credit and reward unresolved. The uncertainty depends on the question: whether the device works, who helped make it, or what payment would be justified.
 
 ## A prize waiting in the desert
 
@@ -64,7 +64,7 @@ Stanley's finishing time established something specific about performance on tha
 
 There is no contradiction here. The prize organizer needs an administrable rule. The competitors need to know what qualifies. Paying the winner according to the announced rule can be justified by the value of a credible promise. The rule need not claim to reproduce a complete moral history of the technology.
 
-Return to the first race. Nobody collected the million dollars. If the only evidence of worthwhile activity were a payment to a winner, the official prize account would show nothing to praise. But that is a property of the payment rule. It tells us that the specified threshold was not reached. It does not establish that no participant learned anything useful.
+Nobody collected the first race's million dollars. The prize account recorded that no vehicle met the required threshold. What the teams learned along the way would have to be found in their tests and engineering records.
 
 Equally, failure should not receive an automatic certificate of social usefulness. A vehicle that stops in the desert may reveal an important limitation or merely repeat a mistake that was already understood. Whether the attempt generated valuable knowledge depends on what it tested, what was recorded, and who could use the result. Failure is an outcome to investigate, not an achievement by definition.
 
@@ -94,7 +94,7 @@ That observation gives capital a role more interesting than waiting for luck. So
 
 Staged finance distributes the cost of discovery. Equity, customer-funded development, and grants can each support an initial test before a larger commitment becomes sensible. Their consequences depend on what is learned and how the parties share its costs and benefits.
 
-Kerr and his coauthors also examine the difficulty of prediction within venture capital. In data from one successful firm, the initial partner scores did not clearly distinguish its later spectacular successes from weaker outcomes. This concerns ventures the firm had already chosen to finance. It does not establish that investors lack skill at selecting or developing investments, or that every rejected idea would have been equally good.
+Kerr and his coauthors also examined prediction within venture capital. In data from one successful firm, the initial partner scores did not clearly distinguish its later spectacular successes from weaker outcomes. All these ventures had already passed the firm's selection process. The comparison left the value of rejected ideas and the effects of later help from investors unresolved.
 
 The successive races show why those abilities differ. A team unable to finish in 2004 might return with a better vehicle; a desert winner still faced a new task in a city. A backer could help make that development possible without knowing the final ranking. Requiring foreknowledge as a condition of financing would defeat much of the purpose of financing an experiment.
 
@@ -106,7 +106,7 @@ That defense has limits of its own. A contract can settle what its signatories p
 
 The same financial share can have different economic explanations. Compensation for bearing risk differs from returns obtained through exclusive control of an indispensable route to customers. Investigating alternatives and behavior is necessary to distinguish them.
 
-The experimental view of entrepreneurship also gives us a reason to look beyond the conspicuous winner. Useful tests may occur inside a large company, at a small entrant, or through a publicly supported project. The label on the organization does not reveal whether it asks an informative question. We learned that in the previous chapter when private experiments at Google generated improvements while separate questions arose about access to distribution.[^c6-12]
+Useful tests may occur inside a large company, at a small entrant, or through a publicly supported project. Google's private experiments improved its service while restrictions on distribution affected what rivals could try.[^c6-12]
 
 A defensible experiment specifies the uncertainty, the measured outcome, and the decision that follows. Hidden, uninterpretable, or irrelevant results are difficult to justify as public learning. A useful negative result can be valuable without producing a successful company.
 
@@ -144,7 +144,7 @@ The practical implication is to state what information a proposal actually needs
 
 Risk falls on more than investors. Researchers commit time they cannot recover; employees depend on continued work; competing projects may lose support. Counting only capital exposure can settle a moral argument by excluding other consequences before examining them.
 
-We should nevertheless distinguish them. Losing an investment and losing a job are not interchangeable experiences, and an investor may have claims arising from an explicit financing agreement. The point is to ask who bears which consequence. A complete argument about deserving cannot count the winner's uncertain capital while treating everyone else's uncertainty as background scenery.
+An investor can lose capital; a worker can lose a livelihood. Their exposure differs, as do the promises made to them. A judgment about rewards has to consider whose consequences are being counted, including the people whose risks appear nowhere in the winner's investment account.
 
 The DARPA contest supplies a clean separation. A prize offers an upside for reaching a defined objective. It need not fully insure every entrant against failure. If we were designing another contest, we might consider grants for qualified attempts, shared testing facilities, or different prizes at intermediate milestones. Those are proposals to compare, with costs and possible distortions. They are not conclusions established by Stanley's victory.
 
@@ -154,7 +154,7 @@ The Kickstarter experiment from Chapter 1 provides a useful check on our intuiti
 
 Now imagine using such a result to design a program supporting new projects. We would want to know which projects the program brings forward, what they produce, and whether the additional donations finance useful work. A finding about subsequent support does not answer all those questions. It gives us a reason to investigate a mechanism that a simple comparison of successful and unsuccessful fundraisers could miss.
 
-It also separates two ways of defending the first payment. One defense says the recipient had already earned it through superior work. Another says the payment could help a worthwhile undertaking become feasible. The second can be persuasive even when we cannot establish the first. Conversely, evidence that a donation attracts other donors does not establish that public money ought to supply every project's first donation.
+One defense of a first payment is that the recipient has already earned it through superior work. Another is that the payment could make a worthwhile undertaking feasible. The second can be persuasive even when the first is uncertain. A public subsidy would still need a worthwhile project and an advantage over other uses of the money.
 
 The value of a proposed experiment is prospective. It should be judged using the information reasonably available when it was funded, including what failure could teach. Later commercial success alone cannot answer whether the original test was worth attempting.
 
@@ -168,7 +168,7 @@ Nakamura's account separates the purchases from the learning. The reactor existe
 
 There is also a difference between bearing uncertainty and creating it for someone else. In an illustrative procurement system, a supplier might invest in reliability and accept the chance that buyers will prefer a rival. Or it might arrange to make rivals' performance impossible for buyers to assess. Both activities can involve expense. Expense by itself does not establish equal social usefulness.
 
-This distinction will matter in the taxation chapter. A possible charge for destroying valuable comparison would need evidence of an external cost and an effective instrument. It would address conduct and consequences. It could not be justified simply by observing that the successful supplier is wealthy, or by treating every obstacle encountered by a rival as socially wasteful.
+A charge for destroying valuable comparison would address conduct and its external costs. Its justification would depend on the loss caused and the instrument's effects, rather than the successful supplier's wealth or a rival's complaint alone.
 
 Decent treatment and an entitlement to a contract remain different matters. An opportunity can be humane to preserve yet too unsafe, uninformative, or costly to purchase. Respect for workers includes taking the needs of those relying on the service seriously.
 
@@ -184,7 +184,7 @@ Income support can protect households without generating evidence about their wo
 
 A popular musician or creator can earn a great deal without controlling anyone else's access to an audience. A platform that decides which creators receive meaningful exposure occupies a different position. The extreme tail of an income distribution does not identify that difference. The relevant question is who can prevent another person's work from receiving a credible hearing.
 
-This does not mean we should revise every contract after discovering an inconvenient shadow future. Arbitrarily changing promises after people have relied on them can damage the possibility of future cooperation. A better starting point is to design terms prospectively, explain which obligations survive, and evaluate changes openly. Uncertainty about contribution calls for responsible rules, not permission to improvise against whomever happens to win.
+Changing promises after people have relied on them can damage future cooperation. Prospective rules let investors and workers know which obligations attach to the returns they seek. They also allow the costs and benefits of a change to be assessed before people commit their resources.
 
 Credit needs similar care. Robert Merton's account of the Matthew effect showed how recognition can accumulate around already eminent scientists. Recognizing that mechanism does not require denying the accomplishments of eminent people. It invites us to examine how acknowledgment is assigned and how accumulated standing affects access to further work. His analysis is a predecessor to these questions, not a discovery made here.[^c6-10]
 
@@ -192,9 +192,9 @@ In the LED story, accurate acknowledgment can name particular advances and their
 
 A similar restraint helps with criticism. A disappointing reward can be evidence of bad rules, weak bargaining power, an unfortunate sequence, poor performance, or several of these together. The possibility of a shadow future does not tell us which explanation fits a particular person. It asks us to investigate before translating low earnings into a verdict on character.
 
-An objection remains. If we loosen the connection between income and merit, do we weaken the motivation to do difficult things? That is a serious prospective question. We should examine how people respond to particular changes in rewards, rather than answer it by insisting on a claim about past attribution that the evidence cannot support. A useful incentive can be defended as useful.
+Would loosening the connection between income and merit weaken the motivation to do difficult things? The answer depends on how people respond to a particular change in rewards. A payment can be worth promising because it encourages useful work, even when the eventual income cannot measure exactly how much its recipient contributed.
 
-The driverless-car prize makes that defense ordinary. We do not need to believe that the winner authored the entire technology in order to promise payment for completing a demanding course. We need a credible reason to think the arrangement is worth its costs. The burden becomes harder when the proposed reward includes control over future testing, because we must assess what learning that control permits or prevents.
+The driverless-car prize promised payment for completing a demanding course. It did not require a belief that the winner authored the entire technology. The question was whether the incentive was worth its costs. A reward that also grants control over future testing adds another cost: the learning that control can prevent.
 
 Another objection points toward equality. If the rankings could have differed, why not give everyone the same reward? Because the premise does not establish equal contributions, equal costs, equal needs, or identical responses to incentives. Lockdown's divergent rankings unsettle an easy inference from outcome to worth. They do not hand us a complete theory of distributive justice.
 
@@ -204,23 +204,21 @@ Agreement about each person's exact contribution may remain beyond our evidence.
 
 ## From the prize to the power cable
 
-The next wave of this argument will arrive with a very large electricity bill. An AI supplier can do valuable engineering and commit substantial capital while its eventual rewards also depend on which systems get deployed first, which users encounter them, and which alternatives can afford a credible trial. These possibilities belong in the same inquiry.
+An AI supplier can do valuable engineering and commit substantial capital while its eventual rewards also depend on which systems get deployed first, which users encounter them, and which alternatives can afford a credible trial.
 
-The distinction between a prize and a contribution matters before a computing facility is built. Investors need some expectation of returns. Workers need compensation. Customers need a service that performs. Society may benefit from capabilities that no single payment fully captures. None of those needs makes construction free, and none makes the size of the eventual fortune a complete explanation of what caused it.
+Before a computing facility is built, investors need an expectation of returns, workers need compensation, and customers need a service that performs. Society may benefit from capabilities no single payment fully captures. Those needs give reasons to finance construction without making the eventual fortune a complete measure of what caused it.
 
 Keep the light bulb in view. Whatever we decide about the division of credit, semiconductor material still has to be produced and a useful device still has to work. Keep Stanley in view as well. Whatever we decide about the prize, a vehicle still has to complete the course. An economics attentive to possible histories must remain attentive to physical accomplishment.
 
-That is the task ahead. Follow the actual inputs, follow what is tested, and distinguish the reward promised from the contribution we hope to learn. For artificial intelligence, the argument about deserving begins among chips, cooling systems, and power cables, long before it reaches a debate about who should keep the winnings.
+The economics of an AI fortune begins among chips, cooling systems, and power cables. Long before anyone debates the winnings, someone must build a machine that works.
 
 ## Notes
 
-[^c6-1]: Matthew J. Salganik, Peter Sheridan Dodds, and Duncan J. Watts, “Experimental Study of Inequality and Unpredictability in an Artificial Cultural Market,” *Science* 311 (2006), 854–856, [full paper](https://www.princeton.edu/~mjs3/salganik_dodds_watts06_full.pdf), pp. 854–855 and Figures 1–3. The particular first-place and fortieth-place rankings come from Salganik's [*Bit by Bit*, Section 4.6.1](https://www.bitbybitbook.com/en/running-experiments/exp-advice/zero-variable-cost/). The study compares markets with different listeners, not cloned people. These ranks do not document musician income, working hours, or personal reactions.
+[^c6-1]: Matthew J. Salganik, Peter Sheridan Dodds, and Duncan J. Watts, “Experimental Study of Inequality and Unpredictability in an Artificial Cultural Market,” *Science* 311 (2006), 854–856, [full paper](https://www.princeton.edu/~mjs3/salganik_dodds_watts06_full.pdf), pp. 854–855 and Figures 1–3. The particular first-place and fortieth-place rankings come from Salganik's [*Bit by Bit*, Section 4.6.1](https://www.bitbybitbook.com/en/running-experiments/exp-advice/zero-variable-cost/).
 
 [^c6-2]: Shuji Nakamura, [“Background Story of the Invention of Efficient Blue InGaN Light Emitting Diodes”](https://www.nobelprize.org/uploads/2018/06/nakamura-lecture.pdf), Nobel lecture, December 8, 2014, printed pp. 70 and 72–75, especially pp. 73–74.
 
 [^c6-3]: Nichia Corporation, [“Nichia Settled with Former Employee over ‘Reasonable Remuneration’”](https://www.nichia.co.jp/en/newsroom/2005/2005_011101.html), January 11, 2005, opening, settlement scope and payment paragraphs, and company statements 2–4.
-
-[^c6-4]: Replays preserve parameters, starting conditions, and input and state response rules; interventions change a specified input or policy. A contribution claim therefore requires a defined intervention and horizon, together with assumptions about how the system responds. See Chapter 3.
 
 [^c6-5]: DARPA, [“Grand Challenge”](https://www.darpa.mil/about/innovation-timeline/grand-challenge), institutional timeline, first three paragraphs; [“The DARPA Grand Challenge: Ten Years Later”](https://www.darpa.mil/news/2014/grand-challenge-ten-years-later), March 13, 2014, opening through the 2007 Urban Challenge.
 

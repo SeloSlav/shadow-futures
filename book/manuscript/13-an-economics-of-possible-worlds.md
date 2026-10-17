@@ -12,7 +12,7 @@ The long record also makes a difficulty visible. An experiment cannot remain use
 
 By the late 1940s, some plots had become so acidic that comparing two nitrogen fertilizers no longer answered the intended question. In the separate Agdell experiment, acidity favored a disease that depressed turnip yields; the experiment required extensive modification in 1951. Researchers applied chalk to correct acidity. Broadbalk later received shorter-strawed wheat varieties and a revised cropping arrangement in 1968. Preserving a useful experiment required changing what happened on the ground.[^c12-2]
 
-The guide describes another consequence of persistence. Repeated applications of manure and fertilizer altered the soils themselves, leaving different stores of nutrients and organic matter. Later investigations could study those reserves and their effects. Yesterday's treatment had become part of today's condition. This is a productive reason to keep the history, rather than assume every harvest starts with identical ground. It also limits a careless reading of the result: a difference after many years can reflect the accumulated consequences of earlier management as well as the immediate application. The relevant comparison depends on whether the question concerns this year's input, a sustained practice, or a change from the inherited state.
+Repeated applications of manure and fertilizer altered the soils themselves, leaving different stores of nutrients and organic matter. Later investigations could study those reserves and their effects. Yesterday's treatment had become part of today's condition. A difference after many years can reflect the accumulated consequences of earlier management as well as the immediate application. Comparing this year's input, a sustained practice, or a change from the inherited state asks different questions.
 
 A field trial compares treatments with accumulated histories. It cannot erase their earlier development. Likewise, evaluating available technologies and estimating how different early opportunities would have changed their development are different questions, with different evidence requirements.
 
@@ -24,19 +24,19 @@ Broadbalk's plan distinguishes cropping and management histories across treatmen
 
 The fields yield crops and measurements: harvests, soil conditions, and changes across treated plots. Maintaining those comparisons is part of Rothamsted's productive work. Keeping an experiment going can make questions answerable that an ordinary harvest would leave unresolved.
 
-The future of economics needs more attention to that supply. We already study how resources produce goods and services, how incentives influence behavior, and how uncertainty affects choices. We should also investigate which arrangements let consequential alternatives develop interpretable records, and what is lost when those arrangements disappear.
+Economics studies how resources produce goods and services, how incentives influence behavior, and how uncertainty affects choices. The arrangements that let alternatives develop interpretable records deserve the same attention. Losing those arrangements changes what an economy can know about its own possibilities.
 
 ## A second use for the harvest
 
-Rothamsted's sample archive gives this argument an unexpected extension. Material retained from earlier harvests can be examined with methods unavailable when it was collected. The preserved record includes physical samples, not only numbers in a table. A later researcher can sometimes ask the material a new question.[^c12-3]
+Rothamsted's archived samples can be examined with methods unavailable when they were collected. The record includes physical material, not only numbers in a table. A later researcher can sometimes ask that material a new question.[^c12-3]
 
 Sarah Bearchell and colleagues took small portions of old leaves and stems from archive containers, powdered them using liquid nitrogen, and extracted DNA. They looked for short DNA sequences to accommodate damage in the old material. Their 2005 study examined two wheat pathogens in samples spanning 1844–2003. Gaps in the archive required combining material from two plots, after checks of comparability. Changes in the pathogens' relative abundance were associated with sulfur-dioxide emissions. The researchers considered other correlated factors; they had not randomized atmospheric pollution.[^c12-4]
 
 The useful surprise is the question made possible. Harvest material retained for one scientific purpose could contain evidence relevant to another. The archive connected a modern laboratory method with a sequence of older observations. It did not manufacture those earlier samples after discovering that they would be useful.
 
-This gives preservation a potential value that cannot always be specified completely in advance. Someone designing a record for today's decision may not know every future question. Keeping suitable material and documentation can make later investigation possible. The archive supplies a real example, rather than a promise that every retained dataset will eventually justify its storage bill.
+Someone designing a record for today's decision may not know every future question. Keeping suitable material and documentation can make later investigation possible, as Rothamsted's samples did. That potential benefit must still justify the resources used to maintain the archive.
 
-The distinction between storage and comparison remains essential. A sample can reveal another measurement of a harvest that occurred. It cannot supply the harvest from a treatment that was never applied to that ground. Preserving material expands the observations available from a history; preserving treatment contrasts helps create a different part of the evidence.
+A preserved sample can supply another measurement of a harvest that occurred. It cannot supply the harvest from a treatment never applied to that ground. Material preserves observations from one history; maintained treatment contrasts create evidence from differences in what was done.
 
 Digital records likewise differ in what they preserve. Requests, versions, outputs, corrections, and checked outcomes can support more questions than a success total. They still cannot invent an unobserved alternative's response to a task.
 
@@ -46,7 +46,7 @@ Preservation has an option value and a cost. Retention policies should specify p
 
 The institutional task is to make those tradeoffs reviewable. A preservation decision should identify the anticipated use, likely costs, permissions, review date, and consequences of deletion. Some judgments will prove mistaken as technology changes. A documented reason for the original choice gives later decision makers a basis for revision. At Rothamsted, the connection between retained material and recorded management allows new questions to reach backward. In software procurement, a comparable ambition is a protected record that remains intelligible after an interface, model, or contractor changes. Neither ambition requires promising that every future question will be answerable.
 
-The wheat archive also cautions against treating old records as self-explanatory. Researchers had to use methods suited to aged material and check what their measurements meant. An economist recovering old procurement logs would likewise need to understand missing entries, changing definitions, and the process that created the archive. Historical depth is valuable when it remains interpretable.
+Aged material requires suitable methods and checks on what the measurements mean. Old procurement logs present a similar problem: missing entries, changing definitions, and forgotten selection rules can obstruct interpretation. A long history helps when later investigators can understand how it was made.
 
 A final success label can discard the original input and the correction needed to diagnose a failure. Retaining those records may enable re-evaluation, subject to reliable checks, relevance, privacy, and reproducible software versions. A useful archive preserves enough context for a justified question.
 
@@ -88,7 +88,7 @@ The call experiment measured recruitment. To assess the agricultural service's e
 
 A useful study would distinguish assignment chances, observed outcomes, and the effect being estimated. It would ask what can be learned from allocations alone, how checked outcomes change the answer, and how sensitive the conclusion is to plausible feedback rules.
 
-Dependence belongs in that account. Repeated records from the same underlying event, common shocks, and shared evaluation errors cannot be treated as fresh independent evidence without justification. Recording versions, exclusions, and failures makes those judgments inspectable.
+Repeated records from one event, common shocks, and shared evaluation errors can make observations dependent. Recording versions, exclusions, and failures helps later investigators judge how much independent evidence the record contains.
 
 Feasibility includes power to detect a consequential difference, the cost of supervision, privacy protection, and what action the result can change. A spending limit controls expenditure; it does not by itself establish adequate information or net social value.
 
@@ -148,7 +148,7 @@ It would also distinguish statistical information from decision value. A measure
 
 A precise but tiny contrast may leave an action unchanged; uncertainty about a costly failure may justify a targeted test. The report must identify the consequential decision rather than substitute a larger comparison budget for a value argument.
 
-Finally, the report would state which counterfactual it is evaluating. A shadow replay holds underlying effects, initial conditions, and response rules fixed while allowing the realized history to differ. A new access rule or training policy changes the institution. Estimating the consequences requires assumptions about behavior under that intervention. The two operations should not slide into each other halfway through the argument.
+Finally, the report would state which counterfactual it is evaluating. A shadow replay holds underlying effects, initial conditions, and response rules fixed while allowing the realized history to differ. A new access rule or training policy changes the institution. Its estimated effects depend on how people would respond under the changed rules.
 
 A useful procurement report can be brief: what question did the buyer ask, which services were compared, what happened, what remains uncertain, and what decision follows? The methods and records should be available for anyone authorized to check them.
 
@@ -180,7 +180,7 @@ An economy committed to independent discovery has reason to reward useful work w
 
 Start with a gatekeeper controlling an indispensable route to evaluation. If closing it threatens a lasting loss of useful comparison, protecting access preserves the possibility of discovering which supplier deserves the next contract. Documented interfaces, voluntary portability, secure evaluation access, and independently reviewed terms can make an enforceable duty concrete. The obligation should follow the actual obstruction, with privacy, security, resource costs, and investment included in its design. When useful private evidence already answers the affected decision, duplicating the experiment may buy nothing.
 
-Act while the alternative can still develop. A team cannot be required to demonstrate years of learning before obtaining the customers through whom that learning would occur. Before closure becomes difficult to reverse, the question is whether there is a credible attempt worth keeping possible. Preserving that route gives the claim a chance to encounter evidence. It promises neither a contract nor permanent support for an unsuccessful rival.
+Act while the alternative can still develop. A team cannot be required to demonstrate years of learning before obtaining the customers through whom that learning would occur. Before closure becomes difficult to reverse, a credible attempt needs a route to its first test. Keeping that route open lets customers judge the result without promising the entrant a contract or permanent support.
 
 Where restrictive conduct prevents valuable learning and imposes a cost on others, leaving that cost outside the decision rewards too much restriction. An access duty may prevent the loss. A corrective charge may address a remaining external harm. Its justification depends on the missing comparison, the decisions affected, and what feasible replacement would achieve. A large profit supplies neither a damage meter nor a reason to ignore a demonstrated obstruction.
 

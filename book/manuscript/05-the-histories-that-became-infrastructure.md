@@ -42,7 +42,7 @@ Between those events lie two questions that are easy to collapse. How did a rema
 
 The semiconductor story makes that distinction tangible. A transistor on a laboratory bench is not yet a reliable supply of components, an affordable radio, or a workable design in someone else's product. Moving between those stages requires further decisions and further learning. Whoever gets to undertake that work can discover things the original inventors did not yet know. Whoever cannot undertake it leaves fewer results for later observers to examine.
 
-This is one way a history becomes infrastructure. Earlier work leaves designs, machines, procedures, and skills that make some later projects easier. It can also leave permissions and restrictions that determine who may try them. The resulting advantage can be productive. Engineers using an established body of knowledge may work better because somebody has already paid to develop it. A serious account of opportunity must include that benefit.
+Accumulated work leaves equipment, procedures, and skills that make some later projects easier. It can also leave permissions and restrictions that determine who may try them. Engineers using an established body of knowledge may work better because somebody has already paid to develop it.
 
 Bell's records let us follow both routes. A technology could leave the laboratory through a license and a training program. A finished attachment could reach a shop yet remain barred from a customer's telephone. The invention, the right to build on it, and the right to use the result were separate economic opportunities.
 
@@ -90,11 +90,11 @@ Decades later, Martin Watzinger, Thomas Fackler, Markus Nagler, and Monika Schni
 
 The design matters because a simple before-and-after count would be difficult to interpret. Semiconductor and other technologies were developing for many reasons. A comparison group provides a way to ask whether the patents affected by the licensing change developed differently from otherwise comparable patents. The credibility of that inference depends on the matching, the timing, and the absence of other differences that would account for the result.
 
-The study's measure also has a scope. Follow-on patents and their connections to earlier patents are evidence about a particular dimension of invention. They do not put a monetary value on every resulting product, measure every improvement that went unpatented, or reveal what every unrealized company would have achieved. We can take the finding seriously without turning a patent measure into a complete account of social welfare.
+Follow-on patents and their connections to earlier patents capture one dimension of invention. Products that went unpatented, their value to customers, and the achievements of companies that never developed remain outside that measure.
 
 The contrast points to a practical question: can a business actually use the knowledge it is allowed to obtain? A patent license may be worth little if the route to customers remains closed. The Hush-A-Phone dispute makes the telephone network's rules about use tangible.
 
-This does not establish that every obstacle to entry should disappear. A buyer may have sound reasons to require reliability, security, and compatibility. A supplier may fail those requirements even with full access to the underlying knowledge. The valuable distinction is between testing whether an alternative satisfies the requirements and making its failure inevitable through a rule that prevents the test.
+A buyer may have sound reasons to require reliability, security, and compatibility. A supplier may fail those requirements even with full access to the underlying knowledge. Testing whether an alternative meets a requirement produces evidence; barring the test leaves its performance unknown.
 
 Bell's study measures follow-on patenting after a licensing intervention. To investigate the opportunities behind that result, we would also need to know which teams gained access, what work they attempted, and how their chances of reaching users changed.
 
@@ -106,7 +106,7 @@ A list of patents is a record of inventions already made. A route to a customer 
 
 One reason these choices matter is that success can improve the thing that succeeds. W. Brian Arthur's 1989 account of competing technologies made this mechanism explicit. Adoption can bring experience and improvement, attracting further adoption. Under the specified increasing-returns conditions, historical events can help select a durable technological outcome that need not have been the best available development path.[^c4-6]
 
-Suppose, in a thought experiment, a widely used software system has trained operators, tested connectors, and a large collection of fixes. A rival's underlying design might be promising, yet the established system can be the practical choice today. Its accumulated advantages are services users actually value. The argument for examining its history does not require pretending those services vanish when we recognize how they developed.
+Suppose, in a thought experiment, a widely used software system has trained operators, tested connectors, and a large collection of fixes. A rival's underlying design might be promising, yet the established system can be the practical choice today. Its accumulated advantages are services users actually value.
 
 Could another history have developed a better set of capabilities? Changing a price at the end may not recreate the development that never happened along the way. A later subsidy can alter incentives; it does not automatically supply years of missing experience.
 
@@ -136,7 +136,7 @@ Discovering a useful product and measuring each input's contribution to its make
 
 Licensing had not delivered a saleable radio. Sony's account describes a prototype, the TR-52, whose housing warped as the weather warmed in 1955. Plans to sell it were abandoned; the redesigned TR-55 reached the market later that year. A working transistor had left a practical problem unresolved.[^c4-sony]
 
-The distinction is visible in the objects: a licensed invention, manufacturing equipment, a failed casing, a redesigned product. An opportunity to develop can generate problems nobody has yet priced into a finished offer. Solving them takes further work.
+A licensed invention still needs manufacturing equipment, a casing that works, and a product someone can use. Development can uncover problems nobody priced into the original offer. Solving them takes further work.
 
 At Hush-A-Phone's scale, a user could learn whether the privacy benefit justified the effect on a conversation. At a laboratory's scale, a company could learn how to turn a semiconductor technique into a product. These are different forms of discovery. Preserving the opportunity for them does not require a planner who already knows all the answers. It requires rules under which relevant answers can be produced and used.
 
@@ -144,7 +144,7 @@ There is no reason to expect that process to be costless or universally successf
 
 ### Who gets to accumulate a record
 
-Merton's account of cumulative advantage in science connects recognition to the resources and attention that support later work. The advantage can change what a researcher is able to do next. It need not consist solely of an audience mistaking an unchanged piece of work for a better one. This is why a serious explanation of unequal success has to allow capability itself to develop along the way.[^c4-9]
+Merton described how scientific recognition brings resources and attention for later work. An early advantage can change what a researcher becomes able to do. The later achievement may be better because recognition helped make the improvement possible.[^c4-9]
 
 Opportunity can produce the evidence used to allocate the next opportunity. Paid work finances development, exposes practical problems, and establishes a record. A weaker later application can therefore be both a consequence of earlier exclusion and a reason for another rejection.
 
@@ -160,13 +160,13 @@ Selection and institutional analysis belong together. Success can reflect skillf
 
 ### Discovery inside the large organization
 
-Bell's own laboratory supplies the other side. Bardeen described a field-effect proposal that initially failed. Investigating the failure directed research toward semiconductor surfaces; the point-contact transistor emerged from that program. The large organization could pursue an unpromising result until it opened another route. Productive internal discovery belongs beside the outside opportunities in this history.[^c4-1]
+Bardeen described a field-effect proposal that initially failed. Investigating the failure directed research toward semiconductor surfaces; the point-contact transistor emerged from that program. Bell's laboratory could pursue an unpromising result until it opened another route.[^c4-1]
 
 A patent list would not have performed that investigation. It required materials, instruments, theory, and people able to work together. Breaking those capacities apart might have made the experiment harder. Their value helps explain why opening a boundary and dismantling an organization are different proposals. The telephone attachment could be assessed without pretending the laboratory supplied nothing worth preserving.
 
 The 1952 symposium adds a second dimension. Knowledge developed inside a large organization could also be transmitted beyond it. Internal research and outside experimentation can be complements. The question is how the arrangement connects them: what is shared, which uses are feasible, what costs are covered, and whether someone outside can produce a result that the larger organization would not have produced itself.
 
-The relevant information set remains crucial. Internal experiments that reveal the input effect under investigation must be counted. An outsider's inability to inspect those experiments raises questions of access and verification; it does not establish that the evidence was never produced. The next chapter examines that distinction.
+An internal experiment may reveal the input effect an outsider wants to understand. Its confidentiality can prevent that outsider from checking or using the result even though the evidence exists. Producing knowledge and making it accessible require different arrangements.
 
 Likewise, an outside supplier is not automatically a fresh, independent history. It may use the same underlying components, draw on the same training, or depend on the same route to customers. These connections can be efficient. They also affect what a comparison can distinguish. Counting company names without examining the underlying experiment would give the institutional arrangement an informational meaning it has not yet earned.
 
@@ -178,7 +178,7 @@ AT&T's annual report for 1955 described an experiment in Americus, Georgia. Equi
 
 The report made the company's argument for integration explicit: the people designing equipment, manufacturing and installing it, and operating the service belonged to a unified organization. In discussing the decree, it welcomed the preservation of those relationships. It predicted that major services would continue and that revenues and earnings would not be appreciably affected. Those were the company's contemporary claims and expectations, rather than a later independent evaluation.[^c4-14]
 
-The Americus example gives the argument something concrete to rest on. Coordinating a new component, its power supply, and an operating service can require several kinds of expertise. The case for an integrated organization should therefore be examined as a claim about how work gets done. Dismissing it merely because the organization benefits from integration would leave the productive mechanism unexplored.
+The Americus trials required a new component, its power supply, and an operating service to work together. Combining those kinds of expertise can make an integrated organization productive. An access rule has to preserve that capacity where it is valuable while allowing others to test work the organization would exclude.
 
 At the same time, successful coordination inside an organization cannot establish that every outside restriction is necessary to achieve it. A test of rural equipment and a rule barring a telephone attachment concern different activities. Evidence that the first worked does not settle the second. Following the actual activity keeps a broad institutional defense from standing in for the narrower comparison a particular decision needs.
 
@@ -186,7 +186,7 @@ Integration and specialization create empirical tradeoffs. An interface may intr
 
 Requiring proof that an entire replacement system works before permitting a component test can make that test prohibitively costly. Such a requirement needs a technical or economic justification, particularly when the component can be evaluated safely on its own.
 
-There is a matching mistake in treating the component's success as proof that the whole system could be replaced cheaply. A successful limited pilot can supply useful evidence about that pilot. It may say little about coordination at a larger scale. Advocates of access need to respect this boundary as much as advocates of integration need to respect the limits of evidence for their own arrangement.
+A component's successful pilot can reveal little about the cost of replacing a whole system. Coordination that works in a limited test may become harder at a larger scale. Moving from one component to an entire service adds work the pilot never attempted.
 
 The company's report therefore belongs beside the patent study and the attachment cases. Each speaks to a different question. A claim about productive coordination, evidence about follow-on invention, and a judgment about a particular restriction should be allowed to inform one another. They should not be collapsed into a vote on whether the entire institution deserves praise or blame.
 
@@ -220,13 +220,13 @@ The benefit is the improvement in decisions supported by additional evidence. An
 
 Timing can alter those costs. Once infrastructure is organized around a single approach, an alternative can become expensive to test. Preserving a limited route earlier may retain an option difficult to recreate later.
 
-The proposal remains conditional. Early pilots can be badly chosen, poorly measured, or retained after they stop helping. An institution committed to learning should be able to close an unproductive program as well as open a useful one. Preserving comparisons is a means to better decisions. It is not an instruction to maintain every experiment indefinitely or to declare every participant entitled to continued support.
+A pilot can be badly chosen, poorly measured, or retained after it stops helping. Closing an unproductive program releases money and people for better uses. The reason to preserve an experiment lasts only as long as the prospective value of what it can teach.
 
 ### The histories inside the system
 
-Bell's transistor, its technology-sharing program, the patent decree, and the attachment disputes belong in one account because they concern successive stages of economic possibility. Research produced something new. Licensing affected who could build on it. Rules about use affected who could reach an actual customer. At each stage, productive organization and institutional permission helped shape what happened next.
+Bell's transistor, its technology-sharing program, the patent decree, and the attachment disputes trace successive stages of economic possibility. Research produced something new. Licensing affected who could build on it. Rules about use affected who could reach an actual customer. At each stage, productive organization and institutional permission helped shape what happened next.
 
-The resulting history contains real achievements. It also leaves questions about routes that were harder to pursue. We can investigate those questions through actual interventions and comparisons, as the patent study did. We can use shadow futures to state what remains unobserved. We should keep the evidence for an intervention distinct from the imagined histories that help formulate the attribution problem.
+The patent study followed an actual change in access and the invention that came afterward. A shadow future asks instead what another history could have produced under unchanged rules. Historical interventions supply evidence about changing an institution; the unrealized histories identify the alternatives missing from its ordinary record.
 
 The cup and the cradle bring us back to the carpenter and the two towns. A boundary can let an independent invention reach an established network. It can also make the network owner the judge of what everyone connected to it may try. Digital markets extend that question: how many apparent destinations still lead to the same decision about who deserves a chance?
 
@@ -234,17 +234,17 @@ New technologies need feasible routes to development, delivery, and evaluation. 
 
 ## Notes
 
-[^c4-1]: John Bardeen, “Semiconductor Research Leading to the Point Contact Transistor,” Nobel lecture, December 11, 1956, [full lecture](https://www.nobelprize.org/uploads/2018/06/bardeen-lecture.pdf), pp. 318–321: research program, earlier theory, materials, complementary contributions and the failed field-effect proposal directing surface research. For the December 1947 device, see the Computer History Museum's [collection account](https://www.computerhistory.org/siliconengine/invention-of-the-point-contact-transistor/), with original logbook and publication references. This documents an achievement; it does not estimate the causal benefit of Bell's organizational structure.
+[^c4-1]: John Bardeen, “Semiconductor Research Leading to the Point Contact Transistor,” Nobel lecture, December 11, 1956, [full lecture](https://www.nobelprize.org/uploads/2018/06/bardeen-lecture.pdf), pp. 318–321: research program, earlier theory, materials, complementary contributions and the failed field-effect proposal directing surface research. For the December 1947 device, see the Computer History Museum's [collection account](https://www.computerhistory.org/siliconengine/invention-of-the-point-contact-transistor/), with original logbook and publication references.
 
-[^c4-2]: U.S. Department of Justice, *United States Attorneys' Bulletin*, February 17, 1956, vol. 4, no. 4, [full issue](https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0404.pdf), Antitrust Division, p. 119. The contemporary summary records licensing, technical-information, patent-list, and other requirements. Licensing included exceptions and reciprocal arrangements; this was not a general abolition of patents. Reported portfolio counts differ by source and definition, so the narrative uses “thousands.” The 1956 settlement is distinct from the later Bell breakup.
+[^c4-2]: U.S. Department of Justice, *United States Attorneys' Bulletin*, February 17, 1956, vol. 4, no. 4, [full issue](https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0404.pdf), Antitrust Division, p. 119.
 
-[^c4-3]: Computer History Museum, [“1952: Bell Labs Licenses Transistor Technology”](https://www.computerhistory.org/siliconengine/bell-labs-licenses-transistor-technology/), symposium and manufacturing-visit account, with proceedings and collection references. The stated $25,000 fee and nine-day event predate the 1956 decree. This distinction prevents attributing the beginning of outside transistor development to the later settlement.
+[^c4-3]: Computer History Museum, [“1952: Bell Labs Licenses Transistor Technology”](https://www.computerhistory.org/siliconengine/bell-labs-licenses-transistor-technology/), symposium and manufacturing-visit account, with proceedings and collection references.
 
 [^c4-4]: *Hush-A-Phone Corp. v. United States*, 238 F.2d 266 (D.C. Cir. 1956), November 8, 1956, [opinion](https://law.justia.com/cases/federal/appellate-courts/F2/238/266/247909/), pp. 267–269 and notes 8–12.
 
-[^c4-5]: Martin Watzinger, Thomas A. Fackler, Markus Nagler, and Monika Schnitzer, “How Antitrust Enforcement Can Spur Innovation: Bell Labs and the 1956 Consent Decree,” *American Economic Journal: Economic Policy* 12 (2020): 328–359, [published record](https://www.aeaweb.org/articles?id=10.1257/pol.20190086). See the [June 9, 2017 author paper](https://www.uoc.gr/files/items/6/6537/watzinger_et_al.pdf), introduction, institutional background, and empirical design/results. The published abstract confirms the matching design and contrasting sector findings. No effect size is taken from earlier working-paper versions. Patent-based follow-on innovation is not total welfare or an estimated comparison budget.
+[^c4-5]: Martin Watzinger, Thomas A. Fackler, Markus Nagler, and Monika Schnitzer, “How Antitrust Enforcement Can Spur Innovation: Bell Labs and the 1956 Consent Decree,” *American Economic Journal: Economic Policy* 12 (2020): 328–359, [published record](https://www.aeaweb.org/articles?id=10.1257/pol.20190086). See the [June 9, 2017 author paper](https://www.uoc.gr/files/items/6/6537/watzinger_et_al.pdf), introduction, institutional background, and empirical design/results.
 
-[^c4-6]: W. Brian Arthur, “Competing Technologies, Increasing Returns, and Lock-In by Historical Events,” *Economic Journal* 99 (1989): 116–131, [full published paper](https://www.rochelleterman.com/ir/sites/default/files/arthur%201989.pdf), pp. 116–118 and 128. The adoption mechanism and possible historical selection are prior work. Increasing returns alone does not establish a finite lifetime comparison budget.
+[^c4-6]: W. Brian Arthur, “Competing Technologies, Increasing Returns, and Lock-In by Historical Events,” *Economic Journal* 99 (1989): 116–131, [full published paper](https://www.rochelleterman.com/ir/sites/default/files/arthur%201989.pdf), pp. 116–118 and 128.
 
 [^c4-7]: Paul A. David, “Clio and the Economics of QWERTY,” *American Economic Review* 75 (1985): 332–337, [full paper](https://faculty.econ.ucsb.edu/~tedb/Courses/Ec100C/DavidQwerty.pdf), pp. 332 and 335–336. S. J. Liebowitz and Stephen E. Margolis, “The Fable of the Keys,” *Journal of Law and Economics* 33 (1990): 1–25, [author text](https://www.fioravante.patrone.name/mat/TdG/corsi/TdG_Borromeo_2011_12/Liebowitz_Margolis.pdf), introduction and discussion of typing studies.
 
@@ -252,18 +252,18 @@ New technologies need feasible routes to development, delivery, and evaluation. 
 
 [^c4-9]: Robert K. Merton, “The Matthew Effect in Science,” *Science* 159 (1968): 56–63, especially 56–57. [Article](https://garfield.library.upenn.edu/merton/matthew1.pdf).
 
-[^c4-10]: Arnout van de Rijt, Soong Moon Kang, Michael Restivo, and Akshay Patil, “Field Experiments of Success-Breeds-Success Dynamics,” *PNAS* 111 (2014): 6934–6939, [full paper](https://www.eui.eu/Documents/DepartmentsCentres/SPS/Profiles/Van-de-Rijt/PNAS-2014-van-de-Rijt-6934-9-11.pdf), pp. 6934–6937. Subsequent third-party support differs from meeting a Kickstarter target; larger treatment effects were not unbounded or proportional.
+[^c4-10]: Arnout van de Rijt, Soong Moon Kang, Michael Restivo, and Akshay Patil, “Field Experiments of Success-Breeds-Success Dynamics,” *PNAS* 111 (2014): 6934–6939, [full paper](https://www.eui.eu/Documents/DepartmentsCentres/SPS/Profiles/Van-de-Rijt/PNAS-2014-van-de-Rijt-6934-9-11.pdf), pp. 6934–6937.
 
 [^c4-11]: Armen A. Alchian, “Uncertainty, Evolution, and Economic Theory,” *Journal of Political Economy* 58 (1950): 211–221, pp. 213–214.
 
 [^c4-12]: FCC, *Use of the Carterfone Device in Message Toll Telephone Service*, 13 FCC 2d 420 (1968), adopted June 26, 1968, [decision](https://www.nicholasjohnson.org/FCCOps/1968/13F2-420.html), pp. 420–425, especially p. 424.
 
-[^c4-14]: AT&T, *Annual Report 1955*, [original report scan](https://www.telephonearchive.com/uploads/papers/pdfs/att1955.pdf), printed pp. 13 and 16, PDF pp. 15 and 18. Americus equipment and solar-power trials are described on p. 13; the company's account of integration, decree terms, and expected business consequences is on p. 16. These are attributed corporate descriptions and predictions, not independently established policy effects.
+[^c4-14]: AT&T, *Annual Report 1955*, [original report scan](https://www.telephonearchive.com/uploads/papers/pdfs/att1955.pdf), printed pp. 13 and 16, PDF pp. 15 and 18. Americus equipment and solar-power trials are described on p. 13; the company's account of integration, decree terms, and expected business consequences is on p. 16.
 
-[^c4-smith]: Adam Smith, *An Inquiry into the Nature and Causes of the Wealth of Nations* (1776), Book I, Chapters I and III (pins, specialization, market extent and water carriage), and Chapter X, Part II (corporation and settlement restrictions). [Original text, Project Gutenberg](https://www.gutenberg.org/files/3300/3300-h/3300-h.htm). The carpenter and two towns are thought experiments. Geographic separation does not establish independent selection or freer historical markets.
+[^c4-smith]: Adam Smith, *An Inquiry into the Nature and Causes of the Wealth of Nations* (1776), Book I, Chapters I and III (pins, specialization, market extent and water carriage), and Chapter X, Part II (corporation and settlement restrictions). [Original text, Project Gutenberg](https://www.gutenberg.org/files/3300/3300-h/3300-h.htm).
 
 [^c4-steel]: *United States v. United States Steel Corp.*, 251 U.S. 417 (1920), [opinion](https://supreme.justia.com/cases/federal/us/251/417/), pp. 438–439.
 
-[^c4-anderson]: P. W. Anderson, “More Is Different,” *Science* 177, no. 4047 (1972): 393–396, opening page and Bell Telephone Laboratories affiliation. [Published article](https://www.rpgroup.caltech.edu/embl_pboc_2023/assets/pdfs/anderson1972.pdf). The economic use is an analogy. The proposed centuries-long economic progression remains a historical hypothesis; Anderson supplies a physical analogy.
+[^c4-anderson]: P. W. Anderson, “More Is Different,” *Science* 177, no. 4047 (1972): 393–396, opening page and Bell Telephone Laboratories affiliation. [Published article](https://www.rpgroup.caltech.edu/embl_pboc_2023/assets/pdfs/anderson1972.pdf).
 
 [^c4-sony]: Sony Group History, Volume 1, Chapter 3, [“Developing the Transistor Radio”](https://www.sony.com/en/SonyInfo/CorporateInfo/History/SonyHistory/1-03.html), Part 2. Corporate retrospective; reports, equipment and TR-52/TR-55 chronology are attributed. No reconstructed dialogue, motives, or precise launch month is used; these events predate the 1956 decree.
