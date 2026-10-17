@@ -4,9 +4,9 @@
   "checked_on": "2026-10-16",
   "status": "reviewed",
   "target_main_words": 6000,
-  "body_words": 3496,
+  "body_words": 3578,
   "note_words": 365,
-  "draft_sha256": "25ac7b8d77522dd47d5dafef9864467fa8408e16b12e3501abbcd83f9d3802b2",
+  "draft_sha256": "35df8b849cce3252c64220b658a0c903edb79cae7c4935545119d6a3f6117b9c",
   "source_checks": "Current expanded unpublished tax manuscript and canonical v5 hidden-position passage read directly. Relevant primary predecessor, Swedish agency, CMA order and CEC project/program passages checked with historical dates and version/access boundaries. Public provision additionality and real-company corrective rates not presumed. Sequential review rechecked v5 Section5/E.2 and tax Sections3-7, refreshed Swedish guidance, and read converter/outage passages in directly accessible original CEC PDF via web research.",
   "sources": [
     {
@@ -364,5 +364,12 @@
     "record": "book/research/developmental-review-2026-10-18.json",
     "scope": "Thesis, chapter contribution and conclusion; subsequent explicit UBI steering integrated where relevant. Existing claim-specific source checks reused; no whole-book proof certification.",
     "publication": "Manuscript only; exports and push await an explicit request."
+  },
+  "shared_entitlement_revision": {
+    "date": "2026-10-18",
+    "manuscript_sha256": "35df8b849cce3252c64220b658a0c903edb79cae7c4935545119d6a3f6117b9c",
+    "scope": "Shared economic possibility, reciprocal public claim when practical development routes close, and membership-based universal entitlement made explicit in the tax chapter and conclusion.",
+    "source_checks": "Existing unchanged Paine, Van Parijs, Alaska and Arrow passage checks reused. No new empirical or historical claim, no expanded theorem, no added source or endnote. The shared-entitlement principle is the author's proposed institutional settlement.",
+    "review": "Changed passages and neighboring fiscal/access paragraphs read once. Concrete worker, founder and caregiver consequences clarify universality; repeated hypothetical-loss disclaimers reduced. Existing finance and access conditions retained without adding caveats."
   }
 }

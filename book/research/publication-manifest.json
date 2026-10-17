@@ -8,7 +8,7 @@
   "cover": "/book/shadow-futures-cover.png",
   "pages": 265,
   "interior_pages": 264,
-  "pdf_bytes": 4392060,
+  "pdf_bytes": 4392693,
   "notes": 198,
   "contents": [
     {
@@ -109,7 +109,7 @@
     1536
   ],
   "production_note": "KDP-size exports are provided. Generated artwork is natively 1024×1536; 300-dpi raster exports are resampled, not added native detail. Check a print proof; higher-resolution original art is recommended before commercial print upload.",
-  "manuscript_sha256": "52cb16e1f3529f0dc03ca161df301ce6d5d7380d23e65438746bca8df4b18f83",
+  "manuscript_sha256": "1393714c77c08e022c450e0023ef7036de6b5a38226c75f545b3570bc21d9724",
   "inputs": [
     {
       "file": "book/manuscript/00-prologue.md",
@@ -161,11 +161,11 @@
     },
     {
       "file": "book/manuscript/12-taxing-lost-comparison.md",
-      "sha256": "25ac7b8d77522dd47d5dafef9864467fa8408e16b12e3501abbcd83f9d3802b2"
+      "sha256": "35df8b849cce3252c64220b658a0c903edb79cae7c4935545119d6a3f6117b9c"
     },
     {
       "file": "book/manuscript/13-an-economics-of-possible-worlds.md",
-      "sha256": "92ff6de2e19074c2ca1668a5cdfaa5045aa9646329afc41b3f3e6cf0b1368e45"
+      "sha256": "89d8be0bb5799a76d5c35516fb840d6a77a39420bbae213b377af42e93e80ab9"
     },
     {
       "file": "book/manuscript/14-epilogue.md",
@@ -180,7 +180,7 @@
       "sha256": "d577aee194f1f47aa3e450ae3f0e07b6dd11ac83de4080857d6c0708b2e5d8ba"
     }
   ],
-  "pdf_sha256": "07374b08dafd2de896c52ca958a858df2e12402657706c4b758b284f9ca722c9",
+  "pdf_sha256": "552ea0db3d3656496addf03ba117cf19d5f973fa4a66f71c11143cc2e7e6f7ec",
   "kdp_sources": [
     "https://kdp.amazon.com/en_US/help/topic/G201953020",
     "https://kdp.amazon.com/en_US/help/topic/G6GTK3T3NUHKLEFX",

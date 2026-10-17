@@ -1,7 +1,7 @@
 {
   "status": "complete_draft_assembly_review_pending",
   "file": "book/drafts/Shadow_Futures_Complete_Manuscript.md",
-  "sha256": "52cb16e1f3529f0dc03ca161df301ce6d5d7380d23e65438746bca8df4b18f83",
+  "sha256": "1393714c77c08e022c450e0023ef7036de6b5a38226c75f545b3570bc21d9724",
   "inputs": [
     {
       "file": "book/manuscript/00-prologue.md",
@@ -53,11 +53,11 @@
     },
     {
       "file": "book/manuscript/12-taxing-lost-comparison.md",
-      "sha256": "25ac7b8d77522dd47d5dafef9864467fa8408e16b12e3501abbcd83f9d3802b2"
+      "sha256": "35df8b849cce3252c64220b658a0c903edb79cae7c4935545119d6a3f6117b9c"
     },
     {
       "file": "book/manuscript/13-an-economics-of-possible-worlds.md",
-      "sha256": "92ff6de2e19074c2ca1668a5cdfaa5045aa9646329afc41b3f3e6cf0b1368e45"
+      "sha256": "89d8be0bb5799a76d5c35516fb840d6a77a39420bbae213b377af42e93e80ab9"
     },
     {
       "file": "book/manuscript/14-epilogue.md",
@@ -73,7 +73,7 @@
     }
   ],
   "bibliography_input_sha256": "05cd5960933e98e9d6bc84e53b5ef93b533dfb0df0ef78508726ec0cd8ab4bff",
-  "main_words": 64141,
+  "main_words": 64284,
   "back_matter_words": 8680,
   "reference_entries": 144,
   "endnote_count": 198,

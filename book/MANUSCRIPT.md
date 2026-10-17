@@ -1,6 +1,6 @@
 # Shadow Futures manuscript
 
-Martin Erlic · Working manuscript · 64,141 of 80,000 main-text words
+Martin Erlic · Working manuscript · 64,284 of 80,000 main-text words
 
 The approved budget is 2,500 words for the prologue, 3,500 for the introduction, twelve chapters averaging 6,000 words (72,000 combined), and a 2,000-word epilogue. Notes, references, and acknowledgments have a separate 10,000–15,000-word allowance.
 
@@ -20,8 +20,8 @@ Counts below come from the current chapter files. Drafted sections still require
 | [A billion answers](manuscript/09-a-billion-answers.md) | 6,000 | 4,788 | reviewed |
 | [The first rung](manuscript/10-the-first-rung.md) | 6,000 | 4,550 | reviewed |
 | [Competition for future evidence](manuscript/11-competition-for-future-evidence.md) | 6,000 | 4,532 | reviewed |
-| [Taxing lost comparison](manuscript/12-taxing-lost-comparison.md) | 6,000 | 3,496 | reviewed |
-| [An economics of possible worlds](manuscript/13-an-economics-of-possible-worlds.md) | 6,000 | 3,741 | reviewed |
+| [Taxing lost comparison](manuscript/12-taxing-lost-comparison.md) | 6,000 | 3,578 | reviewed |
+| [An economics of possible worlds](manuscript/13-an-economics-of-possible-worlds.md) | 6,000 | 3,802 | reviewed |
 | [The next opportunity](manuscript/14-epilogue.md) | 2,000 | 1,208 | reviewed |
 
 Current back matter: 8,680 words, including chapter notes.

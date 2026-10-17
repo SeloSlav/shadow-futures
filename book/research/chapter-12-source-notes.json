@@ -4,9 +4,9 @@
   "checked_on": "2026-10-16",
   "status": "reviewed",
   "target_main_words": 6000,
-  "body_words": 3741,
+  "body_words": 3802,
   "note_words": 410,
-  "draft_sha256": "92ff6de2e19074c2ca1668a5cdfaa5045aa9646329afc41b3f3e6cf0b1368e45",
+  "draft_sha256": "89d8be0bb5799a76d5c35516fb840d6a77a39420bbae213b377af42e93e80ab9",
   "source_checks": "Relevant primary passages and direct scanned pages checked with exact version/access boundaries. Earlier substantive checks retained by claim; Blackwell1953 original scan now saved and relevant passages checked in cross-book audit. All council design choices/results fictional. Guide printedpp4-8 re-read; Rothamsted January2024 substantive account refreshed; indexed original Bearchell methods/results rechecked after direct PMC challenge.",
   "sources": [
     {
@@ -422,5 +422,12 @@
     "record": "book/research/developmental-review-2026-10-18.json",
     "scope": "Thesis, chapter contribution and conclusion; subsequent explicit UBI steering integrated where relevant. Existing claim-specific source checks reused; no whole-book proof certification.",
     "publication": "Manuscript only; exports and push await an explicit request."
+  },
+  "shared_entitlement_revision": {
+    "date": "2026-10-18",
+    "manuscript_sha256": "89d8be0bb5799a76d5c35516fb840d6a77a39420bbae213b377af42e93e80ab9",
+    "scope": "Shared economic possibility, reciprocal public claim when practical development routes close, and membership-based universal entitlement made explicit in the tax chapter and conclusion.",
+    "source_checks": "Existing unchanged Paine, Van Parijs, Alaska and Arrow passage checks reused. No new empirical or historical claim, no expanded theorem, no added source or endnote. The shared-entitlement principle is the author's proposed institutional settlement.",
+    "review": "Changed passages and neighboring fiscal/access paragraphs read once. Concrete worker, founder and caregiver consequences clarify universality; repeated hypothetical-loss disclaimers reduced. Existing finance and access conditions retained without adding caveats."
   }
 }
