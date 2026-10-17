@@ -1,15 +1,17 @@
 ---
 name: shadow-futures-publication
-description: Refresh Shadow Futures manuscript edits into the website PDF, Kindle EPUB, and paperback KDP files using its cached publication pipeline. Use when updated editions or upload files are requested; deployment requires the user's authorization.
+description: Refresh Shadow Futures into the website PDF, Kindle EPUB, and paperback KDP files when the user explicitly requests regenerated editions or upload files. Ordinary manuscript edits do not authorize exports; deployment requires the user's authorization.
 ---
 
 # Shadow Futures publication
 
 Work in `C:/WebProjects/shadow-futures-app`. Read `book/AGENTS.md` and use the bounded book-writing workflow for prose. Keep this skill's tracked copy in `book/tools/skills/shadow-futures-publication/` synchronized with the installed copy when changing its instructions.
 
+Publication is a separate user-requested step. Do not run PDF, EPUB, cover, upload-bundle builders or change website edition metadata merely because manuscript edits are complete. A short prompt such as "regenerate all three" authorizes the build without another confirmation. Authorization for a previous batch does not carry into later editing turns, and a request to commit or push alone does not authorize generation. For manuscript-only work, allow Markdown reader assembly and word/citation checks, record that editions are pending, and stop before export.
+
 Settle the requested prose and relevant source notes before exporting. Research only changed factual claims. Reuse unchanged source checks, cover artwork, formatting, and known KDP specifications. Preserve the 80,000-word main-text cap and separate 15,000-word back-matter cap; make room by tightening repetition in the affected passage. Personal hopes are the author's account, not predictions or evidence of scholarly priority.
 
-Run this once after edits:
+After the explicit publication request, run this once after settling the edits:
 
 ```powershell
 npm run book:refresh -- --preview "a distinctive phrase from the changed passage"

@@ -2561,6 +2561,51 @@
       "bibliographic_check": "Relevant primary passages inspected for the recorded claim; access/interpretation boundaries in chapter source ledger."
     },
     {
+      "id": "Thiel2014Competition",
+      "source_keys": [
+        "Thiel2014Competition"
+      ],
+      "citation": "Thiel, P. 2014. Competition is for losers. The Wall Street Journal, September 12. Adapted from Zero to One, with Blake Masters.",
+      "links": [
+        {
+          "label": "Article",
+          "url": "https://www.wsj.com/articles/peter-thiel-competition-is-for-losers-1410535536"
+        },
+        {
+          "label": "Article copy",
+          "url": "https://www.csun.edu/~vcact00f/497CapStone/Peter%20Thiel_%20Competition%20Is%20for%20Losers%20-%20WSJ.pdf"
+        }
+      ],
+      "known_locations": [
+        "https://www.wsj.com/articles/peter-thiel-competition-is-for-losers-1410535536",
+        "https://www.csun.edu/~vcact00f/497CapStone/Peter%20Thiel_%20Competition%20Is%20for%20Losers%20-%20WSJ.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/06-who-gets-to-be-tested.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "ThielMasters2014ZeroToOne",
+      "source_keys": [
+        "ThielMasters2014ZeroToOne"
+      ],
+      "citation": "Thiel, P., with B. Masters. 2014. Zero to One: Notes on Startups, or How to Build the Future. Crown Business.",
+      "links": [
+        {
+          "label": "Publisher",
+          "url": "https://www.penguinrandomhouse.ca/books/234730/zero-to-one-by-peter-thiel-with-blake-masters/9780804139298/excerpt"
+        }
+      ],
+      "known_locations": [
+        "https://www.penguinrandomhouse.ca/books/234730/zero-to-one-by-peter-thiel-with-blake-masters/9780804139298/excerpt"
+      ],
+      "cited_in": [
+        "book/manuscript/06-who-gets-to-be-tested.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
       "id": "TraagEtAl2025",
       "source_keys": [
         "TraagEtAl2025"

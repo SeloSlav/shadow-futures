@@ -893,6 +893,12 @@ In 1972, the physicist Philip Anderson called an essay “More Is Different.” 
 
 Consider what is being scaled. A bigger furnace changes the cost of producing steel. A railway changes where steel can be sold. A shared admissions rule changes which producer can reach those buyers at all. These changes can reinforce one another, but they are not interchangeable. The transition to digital markets adds another possibility: an evaluation can travel with the seller and be reproduced across transactions at very little cost. The important change is not that physical limits have vanished. AI's power supplies and computing clusters make those limits conspicuous. It is that physical reach, distribution, and judgment can become organized at different scales, with one ranking governing opportunities across a much wider network.
 
+Imagine a rival network that needs users before it becomes useful. Those users already communicate through the established network. If the two cannot connect, the entrant may have to assemble a very large customer base before it can offer its first customers a worthwhile service. A network that would work well once established need not have a feasible route from a small beginning. Under those arrangements, a possible competitor can remain economically unreachable. Interconnection could change the arrangements and make a beginning possible.
+
+Increasing returns can give early adoption a lasting influence over which technology develops, as W. Brian Arthur showed.[^chapter_04-c4-6] The question then extends beyond how much cheaper a large producer becomes. How long can its advantage keep compounding before an alternative receives a meaningful test? Where a network's reach also governs access, a successful position can last because the route to challenging it has become harder to build.
+
+That changes what a continuing return tells us. An owner may keep improving the service and also benefit from the absence of a feasible starting point for rivals. No executive needs to cancel a competing project for that structural barrier to work. Capital earns another return, the return finances further expansion, and the alternatives that might have tested the arrangement never acquire a record. The history becomes richer on one side while remaining unwritten on the other.
+
 Bell gives that question a physical object: a telephone attachment that a customer could buy, yet risk losing service by using.
 
 ### An invention leaves the laboratory
@@ -1309,9 +1315,21 @@ That question already has an economic literature. Colleen Cunningham, Florian Ed
 
 An acquisition can also finance development that would otherwise stop. Counting today's competing products can miss the consequences of either decision: continued funding may let a project mature, while closure may remove a chance to learn what the entrant could have built.
 
-The Google record must stand on its own findings about distribution and competition. The pharmaceutical study supplies no finding about Google's motives. But it helps state the timing problem: demanding that every prospective rival first produce a mature superior service can be circular when the challenged restriction concerns the route through which that service could mature.
+Peter Thiel makes a forceful case for monopoly in *Zero to One*, written with Blake Masters. In an essay adapted from the book, he compares competitive equilibrium to the "heat death of the universe." Durable monopoly profits, he argues, support ambitious research and long-term plans. His account anticipates new innovators replacing established monopolists.[^chapter_05-c5-thiel]
 
-If a rival needs access in order to develop, what would it mean to demand a mature product before granting access? The rule would protect the very condition preventing the rival from qualifying. Exclusive terms that close such an indispensable route should face a presumption against enforcement, subject to evidence that a narrower arrangement cannot protect legitimate interests. Existing antitrust already considers innovation and exclusion; an information-based remedy still needs an identified lost comparison, a useful decision it could inform, and benefits worth the remedy's costs. Legal liability depends on the applicable law and evidence.
+The difficulty begins with the route to becoming that replacement. A company can finance useful research while controlling the customers, interfaces, or tests a different research program needs. Its next invention will be visible. The rival's unrealized invention will not appear beside it in the accounts. How would we know whether protecting one laboratory accelerated discovery overall if the same protection prevented another laboratory from getting started?
+
+Google's Project Folly makes the visible side concrete. A comparison exposed a speed disadvantage, and engineering work reduced it.[^chapter_05-c5-5] That improvement matters to users. It does not answer what a different supplier might have learned from a workable route to customers. The two developments could have occurred together, or access could have imposed costs large enough to change the research undertaken. Deciding between those arrangements requires a comparison that counts both development routes.
+
+The mistake is to compare a funded innovator with a world of firms doing identical work on vanishing margins, then treat those as the available choices. An economy can preserve substantial rewards for an invention while requiring interconnection or bounded access that lets someone develop a different one. Commercial breathing room and authority over who may become a competitor are separable parts of the arrangement.
+
+We can follow the dominant firm's research decades into the future and still leave a rival's possible development out of the calculation. The incumbent's acceleration then looks like the whole gain. A slower beginning for one large project might preserve several useful attempts; duplicated effort might also waste resources. The relevant comparison includes those costs and the independent learning they purchase.
+
+A succession of innovators needs a route through which a successor can emerge. When the current winner controls that route, its freedom from competition can erode the process invoked to justify it. The decisive question is whether the next generation can acquire evidence strong enough to challenge the present one.
+
+The pharmaceutical study concerns acquired drug projects; the Google judgment concerns search distribution agreements. Assessing either practice requires evidence about the development route affected, the benefits supplied, and the costs of a feasible alternative. A finding about one practice cannot establish another company's motives.
+
+Requiring a mature product before granting the access needed to develop it protects the very condition preventing the rival from qualifying. Exclusive terms that close such an indispensable route should face a presumption against enforcement, subject to evidence that a narrower arrangement cannot protect legitimate interests. Existing antitrust already considers innovation and exclusion; an information-based remedy still needs an identified lost comparison, a useful decision it could inform, and benefits worth the remedy's costs. Legal liability depends on the applicable law and evidence.
 
 ### Whose future is missing?
 
@@ -1716,6 +1734,14 @@ We should compare feasible arrangements rather than compare an actual factory wi
 The point is neither to award all knowledge to its first producer nor to require every producer to give everything away. It is to investigate how the terms of producing and using knowledge affect later useful attempts. The factory creates possibilities. Its institutional arrangements determine who can act on them.
 
 ## From computing access to a useful comparison
+
+Suppose a team has a different model design and enough money for a useful small trial. It still needs suitable computing, permission to connect its system to the intended service, and access to tasks whose results a customer will accept. If the only provider of an indispensable route refuses that use, the team can fail before its model produces a result worth comparing. The missing company is then absent from the market-share table as well as the performance table.
+
+That absence can be structural. The resources needed to get started may depend on customers who will arrive only after the entrant reaches a scale it cannot finance. A new entrant could be viable once established while lacking a feasible path to establishment under the current rules. Interoperability, shared infrastructure, or different financing can change that path. The question is which change enables a credible attempt at a worthwhile cost.
+
+AI scaling laws and this institutional problem concern different relationships. Evidence that a larger training run improves a measured capability does not establish that independent entry is impossible. The stronger concern arises when scale advantages combine with control over the resources, distribution, and evaluation needed to challenge them. An incumbent can then reinvest returns while rivals cannot reach the stage at which their work would generate useful evidence.
+
+The duration of that advantage matters. A return protected by a development bottleneck can continue after an initial research investment has paid off. Its persistence may reflect continued invention, control of the starting conditions for competitors, or both. To understand the income, follow what the next investment enables and whose experiment the access rules prevent.
 
 Computing access is one stage in producing evidence. A system must also reach relevant tasks, return interpretable outcomes, and permit those outcomes to affect a decision. These requirements connect infrastructure to discovery.
 
@@ -2327,6 +2353,8 @@ The service might be excellent and cheap. Its owners might have invested wisely 
 
 Saying that markets clear does not answer this. Clearing concerns offers that can be made under existing conditions. It does not guarantee that an undeveloped supplier acquires the inputs, customers, or evidence needed to make a competitive offer. Nor do a million agents necessarily provide a million independent judgments if access to all of them passes through the same gate.
 
+The urgent question is who controls the chance to become a competitor. A merger, a default contract, or an infrastructure license can help determine which alternatives are ever developed enough to be compared. When the incumbent controls an indispensable route to that development, a low price and a satisfied customer leave a further question unanswered: what could another supplier have become? Competition policy should protect workable routes to answering it, including routes a challenger cannot create entirely on its own.
+
 A concentrated future should be evaluated through identifiable mechanisms, reversibility, and feasible safeguards. If independent evaluation could become prohibitively costly, waiting until lost skills and institutions must be rebuilt can itself be consequential. That possibility requires evidence rather than dismissal or assumption.
 
 Hayek treated competition as a way to discover facts that could not be known in advance.[^chapter_10-c10-9] The question now is how a rival obtains the computing, customers, and tests through which something unexpected can be discovered.
@@ -2741,6 +2769,8 @@ An economy makes a similar choice whenever it allocates another opportunity. It 
 
 The comparison budget gives that choice a precise statistical dimension. Under the allocation model's conditions, a finite lifetime total of chances outside the current favorite can leave contribution unresolved even as the reward record grows indefinitely. The practical concern is the opportunity to generate the missing evidence. A larger file of the incumbent's awards cannot always supply it.
 
+At network scale, that difficulty can begin before there is a rival to count. A possible supplier may need customers, resources, and independent evaluation that the prevailing arrangement gives it no feasible way to obtain. The incumbent's returns can keep financing expansion while the challenge that might test those returns never develops. What looks like an indefinitely repeated endorsement can partly reflect a closed route to comparison. To preserve discovery, policy has to examine the conditions for creating an alternative as well as the treatment of alternatives already established.
+
 An economy committed to independent discovery has reason to reward useful work while preserving routes to challenge it. A substantial return can finance the next invention. Giving its recipient authority over whether anyone else can attempt one adds a different power, with different consequences. The payment and the power should be judged separately.
 
 Start with a gatekeeper controlling an indispensable route to evaluation. If closing it threatens a lasting loss of useful comparison, protecting access preserves the possibility of discovering which supplier deserves the next contract. Documented interfaces, voluntary portability, secure evaluation access, and independently reviewed terms can make an enforceable duty concrete. The obligation should follow the actual obstruction, with privacy, security, resource costs, and investment included in its design. When useful private evidence already answers the affected decision, duplicating the experiment may buy nothing.
@@ -2968,6 +2998,8 @@ An economy should reward its winners without giving them ownership of everyone e
 [^chapter_04-c4-sony]: Sony Group History, Volume 1, Chapter 3, [“Developing the Transistor Radio”](https://www.sony.com/en/SonyInfo/CorporateInfo/History/SonyHistory/1-03.html), Part 2. Corporate retrospective; reports, equipment and TR-52/TR-55 chronology are attributed. No reconstructed dialogue, motives, or precise launch month is used; these events predate the 1956 decree.
 
 ## Who gets to be tested
+
+[^chapter_05-c5-thiel]: Peter Thiel, with Blake Masters, *Zero to One: Notes on Startups, or How to Build the Future* (Crown Business, 2014); Peter Thiel, ["Competition Is for Losers,"](https://www.wsj.com/articles/peter-thiel-competition-is-for-losers-1410535536) *The Wall Street Journal*, September 12, 2014, [university-hosted article copy](https://www.csun.edu/~vcact00f/497CapStone/Peter%20Thiel_%20Competition%20Is%20for%20Losers%20-%20WSJ.pdf), pp. 5-6.
 
 [^chapter_05-c5-1]: Amit P. Mehta, *United States v. Google*, memorandum opinion, August 5, 2024, [full court opinion](https://fingfx.thomsonreuters.com/gfx/legaldocs/gdpzmaxjxvw/United%20States%20v%20Google%2020240805.pdf), printed pp. 1–4. Quality findings, default arrangements, 2021 payments, and liability are dated findings, not descriptions of current shares or an appellate disposition. The search case is distinct from the separate ad-tech litigation.
 
@@ -3458,6 +3490,10 @@ Swedish Environmental Protection Agency. 2003. Reducing NOx Emissions: An Evalua
 Swedish Environmental Protection Agency. n.d. Nitrogen oxides: Charge, measurement and administration guidance. Accessed October 16, 2026. [Source](https://www.naturvardsverket.se/en/guidance/air-and-climate/nitrogen-oxides/)
 
 The Bible. Matthew 2:1–18. King James Version. [Source](https://www.biblegateway.com/passage/?search=Matthew%202%3A1-18&version=KJV)
+
+Thiel, P. 2014. Competition is for losers. The Wall Street Journal, September 12. Adapted from Zero to One, with Blake Masters. [Article](https://www.wsj.com/articles/peter-thiel-competition-is-for-losers-1410535536) [Article copy](https://www.csun.edu/~vcact00f/497CapStone/Peter%20Thiel_%20Competition%20Is%20for%20Losers%20-%20WSJ.pdf)
+
+Thiel, P., with B. Masters. 2014. Zero to One: Notes on Startups, or How to Build the Future. Crown Business. [Publisher](https://www.penguinrandomhouse.ca/books/234730/zero-to-one-by-peter-thiel-with-blake-masters/9780804139298/excerpt)
 
 Traag, V., E. Brady, P. Vincent-Lamarre, F. Bidel, C. Lopes-Bento, J. P. Andersen, and C. Bloch. 2025. The Matthew effect and early-career setbacks in research funding—a replication study. eLife reviewed preprint, version 1, October 13. [Source](https://doi.org/10.7554/eLife.109042.1)
 

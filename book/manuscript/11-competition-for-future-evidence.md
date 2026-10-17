@@ -114,6 +114,8 @@ The service might be excellent and cheap. Its owners might have invested wisely 
 
 Saying that markets clear does not answer this. Clearing concerns offers that can be made under existing conditions. It does not guarantee that an undeveloped supplier acquires the inputs, customers, or evidence needed to make a competitive offer. Nor do a million agents necessarily provide a million independent judgments if access to all of them passes through the same gate.
 
+The urgent question is who controls the chance to become a competitor. A merger, a default contract, or an infrastructure license can help determine which alternatives are ever developed enough to be compared. When the incumbent controls an indispensable route to that development, a low price and a satisfied customer leave a further question unanswered: what could another supplier have become? Competition policy should protect workable routes to answering it, including routes a challenger cannot create entirely on its own.
+
 A concentrated future should be evaluated through identifiable mechanisms, reversibility, and feasible safeguards. If independent evaluation could become prohibitively costly, waiting until lost skills and institutions must be rebuilt can itself be consequential. That possibility requires evidence rather than dismissal or assumption.
 
 Hayek treated competition as a way to discover facts that could not be known in advance.[^c10-9] The question now is how a rival obtains the computing, customers, and tests through which something unexpected can be discovered.

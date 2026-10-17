@@ -238,6 +238,10 @@ Swedish Environmental Protection Agency. n.d. Nitrogen oxides: Charge, measureme
 
 The Bible. Matthew 2:1–18. King James Version. [Source](https://www.biblegateway.com/passage/?search=Matthew%202%3A1-18&version=KJV)
 
+Thiel, P. 2014. Competition is for losers. The Wall Street Journal, September 12. Adapted from Zero to One, with Blake Masters. [Article](https://www.wsj.com/articles/peter-thiel-competition-is-for-losers-1410535536) [Article copy](https://www.csun.edu/~vcact00f/497CapStone/Peter%20Thiel_%20Competition%20Is%20for%20Losers%20-%20WSJ.pdf)
+
+Thiel, P., with B. Masters. 2014. Zero to One: Notes on Startups, or How to Build the Future. Crown Business. [Publisher](https://www.penguinrandomhouse.ca/books/234730/zero-to-one-by-peter-thiel-with-blake-masters/9780804139298/excerpt)
+
 Traag, V., E. Brady, P. Vincent-Lamarre, F. Bidel, C. Lopes-Bento, J. P. Andersen, and C. Bloch. 2025. The Matthew effect and early-career setbacks in research funding—a replication study. eLife reviewed preprint, version 1, October 13. [Source](https://doi.org/10.7554/eLife.109042.1)
 
 U.S. Department of Justice and Federal Trade Commission. 2023. Merger Guidelines. December 18. [Source](https://www.justice.gov/atr/media/1329301/dl)

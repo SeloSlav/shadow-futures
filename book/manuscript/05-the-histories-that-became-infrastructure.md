@@ -22,6 +22,12 @@ In 1972, the physicist Philip Anderson called an essay “More Is Different.” 
 
 Consider what is being scaled. A bigger furnace changes the cost of producing steel. A railway changes where steel can be sold. A shared admissions rule changes which producer can reach those buyers at all. These changes can reinforce one another, but they are not interchangeable. The transition to digital markets adds another possibility: an evaluation can travel with the seller and be reproduced across transactions at very little cost. The important change is not that physical limits have vanished. AI's power supplies and computing clusters make those limits conspicuous. It is that physical reach, distribution, and judgment can become organized at different scales, with one ranking governing opportunities across a much wider network.
 
+Imagine a rival network that needs users before it becomes useful. Those users already communicate through the established network. If the two cannot connect, the entrant may have to assemble a very large customer base before it can offer its first customers a worthwhile service. A network that would work well once established need not have a feasible route from a small beginning. Under those arrangements, a possible competitor can remain economically unreachable. Interconnection could change the arrangements and make a beginning possible.
+
+Increasing returns can give early adoption a lasting influence over which technology develops, as W. Brian Arthur showed.[^c4-6] The question then extends beyond how much cheaper a large producer becomes. How long can its advantage keep compounding before an alternative receives a meaningful test? Where a network's reach also governs access, a successful position can last because the route to challenging it has become harder to build.
+
+That changes what a continuing return tells us. An owner may keep improving the service and also benefit from the absence of a feasible starting point for rivals. No executive needs to cancel a competing project for that structural barrier to work. Capital earns another return, the return finances further expansion, and the alternatives that might have tested the arrangement never acquire a record. The history becomes richer on one side while remaining unwritten on the other.
+
 Bell gives that question a physical object: a telephone attachment that a customer could buy, yet risk losing service by using.
 
 ### An invention leaves the laboratory

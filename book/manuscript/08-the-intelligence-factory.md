@@ -172,6 +172,14 @@ The point is neither to award all knowledge to its first producer nor to require
 
 ## From computing access to a useful comparison
 
+Suppose a team has a different model design and enough money for a useful small trial. It still needs suitable computing, permission to connect its system to the intended service, and access to tasks whose results a customer will accept. If the only provider of an indispensable route refuses that use, the team can fail before its model produces a result worth comparing. The missing company is then absent from the market-share table as well as the performance table.
+
+That absence can be structural. The resources needed to get started may depend on customers who will arrive only after the entrant reaches a scale it cannot finance. A new entrant could be viable once established while lacking a feasible path to establishment under the current rules. Interoperability, shared infrastructure, or different financing can change that path. The question is which change enables a credible attempt at a worthwhile cost.
+
+AI scaling laws and this institutional problem concern different relationships. Evidence that a larger training run improves a measured capability does not establish that independent entry is impossible. The stronger concern arises when scale advantages combine with control over the resources, distribution, and evaluation needed to challenge them. An incumbent can then reinvest returns while rivals cannot reach the stage at which their work would generate useful evidence.
+
+The duration of that advantage matters. A return protected by a development bottleneck can continue after an initial research investment has paid off. Its persistence may reflect continued invention, control of the starting conditions for competitors, or both. To understand the income, follow what the next investment enables and whose experiment the access rules prevent.
+
 Computing access is one stage in producing evidence. A system must also reach relevant tasks, return interpretable outcomes, and permit those outcomes to affect a decision. These requirements connect infrastructure to discovery.
 
 Task selection, comparable difficulty, valid outcome measures, privacy, and operational risk determine whether a service comparison is useful. The evaluation design has to justify its cost.

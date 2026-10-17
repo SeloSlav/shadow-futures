@@ -36,6 +36,8 @@ For an inaccessible work, make one direct attempt and at most one credible alter
 
 ## Close once
 
+For Shadow Futures, publication is separate from manuscript revision. Unless the user explicitly requests new editions, assemble only the Markdown reading copy and run word/citation checks. Leave the website PDF, Kindle EPUB, paperback PDFs/covers, upload ZIP and edition metadata unchanged, and record pending exports. A short prompt such as "regenerate all three" is enough to authorize that later step without reconfirmation; a previous batch or a request to commit/push does not authorize another build.
+
 Run the established assembly and integrity checks once after the edits. Correct an actual failure and rerun only affected checks. Do not build a second audit framework or new test suite for ordinary prose edits. Mechanical checks do not certify originality, proofs, factual completeness, or publication readiness.
 
 Update one concise handoff or review record with the affected files/version, outcome, unresolved claims, and next action. Reconcile stale completion labels where they would mislead. Save or commit using the project's established workflow and existing authorization.

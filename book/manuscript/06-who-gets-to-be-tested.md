@@ -206,9 +206,21 @@ That question already has an economic literature. Colleen Cunningham, Florian Ed
 
 An acquisition can also finance development that would otherwise stop. Counting today's competing products can miss the consequences of either decision: continued funding may let a project mature, while closure may remove a chance to learn what the entrant could have built.
 
-The Google record must stand on its own findings about distribution and competition. The pharmaceutical study supplies no finding about Google's motives. But it helps state the timing problem: demanding that every prospective rival first produce a mature superior service can be circular when the challenged restriction concerns the route through which that service could mature.
+Peter Thiel makes a forceful case for monopoly in *Zero to One*, written with Blake Masters. In an essay adapted from the book, he compares competitive equilibrium to the "heat death of the universe." Durable monopoly profits, he argues, support ambitious research and long-term plans. His account anticipates new innovators replacing established monopolists.[^c5-thiel]
 
-If a rival needs access in order to develop, what would it mean to demand a mature product before granting access? The rule would protect the very condition preventing the rival from qualifying. Exclusive terms that close such an indispensable route should face a presumption against enforcement, subject to evidence that a narrower arrangement cannot protect legitimate interests. Existing antitrust already considers innovation and exclusion; an information-based remedy still needs an identified lost comparison, a useful decision it could inform, and benefits worth the remedy's costs. Legal liability depends on the applicable law and evidence.
+The difficulty begins with the route to becoming that replacement. A company can finance useful research while controlling the customers, interfaces, or tests a different research program needs. Its next invention will be visible. The rival's unrealized invention will not appear beside it in the accounts. How would we know whether protecting one laboratory accelerated discovery overall if the same protection prevented another laboratory from getting started?
+
+Google's Project Folly makes the visible side concrete. A comparison exposed a speed disadvantage, and engineering work reduced it.[^c5-5] That improvement matters to users. It does not answer what a different supplier might have learned from a workable route to customers. The two developments could have occurred together, or access could have imposed costs large enough to change the research undertaken. Deciding between those arrangements requires a comparison that counts both development routes.
+
+The mistake is to compare a funded innovator with a world of firms doing identical work on vanishing margins, then treat those as the available choices. An economy can preserve substantial rewards for an invention while requiring interconnection or bounded access that lets someone develop a different one. Commercial breathing room and authority over who may become a competitor are separable parts of the arrangement.
+
+We can follow the dominant firm's research decades into the future and still leave a rival's possible development out of the calculation. The incumbent's acceleration then looks like the whole gain. A slower beginning for one large project might preserve several useful attempts; duplicated effort might also waste resources. The relevant comparison includes those costs and the independent learning they purchase.
+
+A succession of innovators needs a route through which a successor can emerge. When the current winner controls that route, its freedom from competition can erode the process invoked to justify it. The decisive question is whether the next generation can acquire evidence strong enough to challenge the present one.
+
+The pharmaceutical study concerns acquired drug projects; the Google judgment concerns search distribution agreements. Assessing either practice requires evidence about the development route affected, the benefits supplied, and the costs of a feasible alternative. A finding about one practice cannot establish another company's motives.
+
+Requiring a mature product before granting the access needed to develop it protects the very condition preventing the rival from qualifying. Exclusive terms that close such an indispensable route should face a presumption against enforcement, subject to evidence that a narrower arrangement cannot protect legitimate interests. Existing antitrust already considers innovation and exclusion; an information-based remedy still needs an identified lost comparison, a useful decision it could inform, and benefits worth the remedy's costs. Legal liability depends on the applicable law and evidence.
 
 ### Whose future is missing?
 
@@ -219,6 +231,8 @@ For a buyer or public authority, the task is to make that question practical. Id
 Rewards also carry personal consequences. What does a documented achievement establish about what its makers deserve? Before turning to AI's factories and workplaces, we need to separate evidence about contribution from the moral and practical reasons for rewarding it.
 
 ## Notes
+
+[^c5-thiel]: Peter Thiel, with Blake Masters, *Zero to One: Notes on Startups, or How to Build the Future* (Crown Business, 2014); Peter Thiel, ["Competition Is for Losers,"](https://www.wsj.com/articles/peter-thiel-competition-is-for-losers-1410535536) *The Wall Street Journal*, September 12, 2014, [university-hosted article copy](https://www.csun.edu/~vcact00f/497CapStone/Peter%20Thiel_%20Competition%20Is%20for%20Losers%20-%20WSJ.pdf), pp. 5-6.
 
 [^c5-1]: Amit P. Mehta, *United States v. Google*, memorandum opinion, August 5, 2024, [full court opinion](https://fingfx.thomsonreuters.com/gfx/legaldocs/gdpzmaxjxvw/United%20States%20v%20Google%2020240805.pdf), printed pp. 1–4. Quality findings, default arrangements, 2021 payments, and liability are dated findings, not descriptions of current shares or an appellate disposition. The search case is distinct from the separate ad-tech litigation.
 

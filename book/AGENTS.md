@@ -6,7 +6,17 @@ The user requested economical, finite passes. Start with the latest handoff;
 reuse unchanged source checks and stop after the agreed pass. Preserve precise
 unresolved flags instead of restarting source-access or whole-book audit loops.
 
-For requested edition updates, use `npm run book:refresh -- --preview "changed phrase"`
+Keep manuscript revision separate from publication. Regenerate the website PDF,
+Kindle EPUB, paperback PDFs/covers, upload ZIP, and site edition metadata only
+when the user explicitly requests updated publication files. A short request
+such as "regenerate all three" is sufficient; proceed without reconfirmation.
+Earlier export authorization applies to that batch, not to later editing turns.
+Committing or pushing manuscript changes does not itself authorize a rebuild.
+Markdown reading-copy assembly, citation matching, and word counts may still run
+after edits. Record pending edition changes in the handoff instead of claiming
+that the existing publication files contain the revised manuscript.
+
+For explicitly requested edition updates, use `npm run book:refresh -- --preview "changed phrase"`
 once after settling the prose. It builds and validates the website PDF, Kindle
 EPUB, and paperback files together, with hash-based reuse when unchanged. Follow
 `tools/skills/shadow-futures-publication/SKILL.md`; do not manually rerun all the
