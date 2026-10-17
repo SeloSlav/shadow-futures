@@ -1,18 +1,18 @@
 {
   "date": "2026-10-16",
-  "manuscript_sha256": "9dcdae9820bf811098c8c9961e619dbd24685b1c7e8aa37a5dc2f9b680ebfecf",
+  "manuscript_sha256": "52cb16e1f3529f0dc03ca161df301ce6d5d7380d23e65438746bca8df4b18f83",
   "epub_integrity": {
-    "source_paragraphs_present_in_full": 1580,
-    "internal_links_checked": 562,
+    "source_paragraphs_present_in_full": 1584,
+    "internal_links_checked": 572,
     "xml_files_checked": 24,
     "status": "passed"
   },
-  "endnotes": 193,
+  "endnotes": 198,
   "paperback": {
     "paper": "black ink / white paper",
-    "spine_inches": 0.590024,
+    "spine_inches": 0.5945280000000001,
     "wrap_inches": [
-      12.840024,
+      12.844528,
       9.25
     ],
     "bleed_inches": 0.125
@@ -20,8 +20,8 @@
   "files": [
     {
       "file": "output/kdp/shadow-futures-kindle.epub",
-      "bytes": 1020923,
-      "sha256": "63b334c13e7dcc07d3758082c1d0a249d12cc051dc45399a4a50f4f3a9dc8eab"
+      "bytes": 1021831,
+      "sha256": "f5a2385ca4164822f5c087939075e922c38d4adc5c94bf851d7935a574715def"
     },
     {
       "file": "output/kdp/shadow-futures-kindle-cover.jpg",
@@ -30,18 +30,18 @@
     },
     {
       "file": "output/kdp/shadow-futures-paperback-interior.pdf",
-      "bytes": 904276,
-      "sha256": "61560091c1ad30e2273445e2fd7ff68cf41548c151b00459e7991e0b7fead995"
+      "bytes": 925804,
+      "sha256": "d0dc1a8d0f0f54e0b1f5f111a58b2f92937bdb056a365c1479831f3eb50ddc76"
     },
     {
       "file": "output/kdp/shadow-futures-paperback-cover.pdf",
-      "bytes": 3548723,
-      "sha256": "0b6fca14edd4d3034bc37cf8f9f58138a713c0abf50b455415f57603880f6dcb"
+      "bytes": 3548721,
+      "sha256": "591ea2d624501c3541b65dc8b10a8f80fe7072442c5af72d9c0fd6b248e8ff10"
     },
     {
       "file": "output/kdp/UPLOAD-INSTRUCTIONS.txt",
       "bytes": 2175,
-      "sha256": "4f5f5158f235d31e5ad4b5e6106c64236aa25e9cab834fba131ac456bbaee295"
+      "sha256": "098b7130535104e4708299f8fb18464edd17a3697c22e83f133b3fca916b64af"
     },
     {
       "file": "output/kdp/amazon-listing.md",
@@ -50,8 +50,8 @@
     },
     {
       "file": "output/kdp/shadow-futures-kdp-upload.zip",
-      "bytes": 5277806,
-      "sha256": "2c6a41e3014e2538c6d9f706d57f2f3a200e8ef895bfba7a499c933bdec04bd3"
+      "bytes": 5295283,
+      "sha256": "03dd37cb09af6204ce484b3b4712edf0b1bd8c18ff089a62fefef8524d959464"
     }
   ],
   "boundary": "Upload formats and mechanical checks; KDP Previewer and print proof remain author publication steps.",
@@ -59,6 +59,6 @@
     "version": "5.3.0",
     "errors": 0,
     "warnings": 0,
-    "sha256": "63b334c13e7dcc07d3758082c1d0a249d12cc051dc45399a4a50f4f3a9dc8eab"
+    "sha256": "f5a2385ca4164822f5c087939075e922c38d4adc5c94bf851d7935a574715def"
   }
 }
