@@ -18,21 +18,29 @@ A rival listed on a website has permission to exist. Getting its work into an ev
 
 We can spend heavily on producing answers while spending little on discovering whether we are asking the right system. We can reward experience while closing the routes through which someone else could acquire it. A busy economy can keep repeating a choice without getting much better at explaining it.
 
-The practical response begins with something tangible. A buyer can put a rival through a useful test. A shared computing facility can let a researcher attempt a different design. An interface can let customers try another service without abandoning everything they have already built. Each proposal needs a reason to justify its cost. But the value of finding out belongs in that calculation alongside the value of the next completed job.
+The next AI company should have a workable route to demonstrate that it can do better. A worker rejected by one platform should have somewhere else to establish what they can do. A researcher should be able to investigate a dominant system without giving its owner authority over the findings.
 
-A well-designed comparison can confirm that the established supplier is still the best choice. It can also expose a better method, a neglected skill, or a mistake shared by everyone using the same system. Its purpose is to let what happens in the test change what happens afterward.
+If the only route to a credible test belongs to the company being challenged, who gets to decide whether the challenge is heard? Leaving that decision entirely with the owner gives it authority over the evidence of its own superiority. An enforceable access duty can keep a useful route open. The rival may need a secure interface, the worker an independent assessment, the researcher access to a credible test. Those arrangements should preserve privacy, safety, and useful investment while making the challenge possible. Their costs belong in the decision, alongside the value of finding out.
+
+We should act while an alternative still has a route to development. Asking for a finished rival after closing the means of building one makes success a condition for obtaining the opportunity to succeed. A credible attempt should be able to reach a test before its absence becomes another reason to dismiss it.
+
+A team still needs resources after the gate opens. Capital income and inheritance taxation can help finance independent experimentation and broaden ownership of productive assets. A shared computing facility can let that team attempt a different design. A grant can pay for a first demonstration. A share in productive capital can let more people benefit from the work machines perform. Funding should follow usable opportunities and results, with costs, investment effects, and displaced private efforts counted. An economy that relies on discovery has a reason to help pay for the means of making it happen.
+
+When a restriction prevents valuable learning, its author should face the cost imposed on others. Opening the route may accomplish more than collecting money after closing it. Financing common capabilities need not wait for the treasury to measure the unearned portion of every fortune.
+
+Public institutions must remain open to challenge themselves. A laboratory should be able to publish an inconvenient finding. A team refused access should have a meaningful appeal. Money for discovery should leave room for different methods, and for evidence that the established supplier remains best. The purpose is to let what happens in the test change what happens afterward.
 
 At MusicLab, that possibility was built into the experiment. The same forty-eight recordings entered separate worlds. Listeners made choices, those choices became visible to later listeners, and the charts developed differently. Lockdown finished first in one world and fortieth in another.[^e-2]
 
 Imagine having only the first chart. We could play the winning recording, examine its qualities, and write a persuasive account of why it deserved to lead. With only the other chart, we could do the same for its failure. The second history makes both explanations harder to deliver with such confidence.
 
-That discomfort is useful. It gives us room to admire an achievement without treating its reward as the final word on everyone else's ability. It asks us to look again at the applicant, the business, or the idea whose thin record may partly reflect the opportunities it never received.
+We can admire an achievement without treating its reward as the final word on everyone else's ability. The applicant, the business, or the idea with a thin record may have needed an opportunity before there could be much to record. A society that wants to discover what people can do has to make some of those beginnings possible.
 
-Most shadow futures will leave no second chart. We cannot recover every missed opportunity or run every possible experiment. We can, however, make room for comparisons that might change an important choice. What seems inevitable after success can still be open before the next decision.
+Most shadow futures will leave no second chart. We cannot recover every missed opportunity or run every possible experiment. We can choose rules that reward useful investment, finance credible alternatives, and prevent an essential gateway from becoming its owner's permanent power over other people's beginnings. Agreement about those rules can guide us even when agreement about each person's exact contribution remains beyond our evidence.
 
 Lockdown's other chart existed because someone made room for another history. The recording was ready. The opportunity had to be built.
 
-The chart tells us what won. What gets a chance next is still up to us.
+An economy should reward its winners without giving them ownership of everyone else's chance.
 
 ## Notes
 

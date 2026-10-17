@@ -2375,6 +2375,27 @@
       "canonical_v5_reference": true
     },
     {
+      "id": "ScheuerSlemrod2021Wealth",
+      "source_keys": [
+        "ScheuerSlemrod2021Wealth"
+      ],
+      "citation": "Scheuer, F., and J. Slemrod. 2021. Taxing our wealth. Journal of Economic Perspectives 35(1):207-230.",
+      "links": [
+        {
+          "label": "Article",
+          "url": "https://doi.org/10.1257/jep.35.1.207"
+        }
+      ],
+      "known_locations": [
+        "https://www.aeaweb.org/articles?id=10.1257/jep.35.1.207",
+        "https://www.econ.uzh.ch/dam/jcr:432c4c17-c113-4bf6-97dc-33818e30d45b/wealth%20tax.pdf"
+      ],
+      "cited_in": [
+        "book/manuscript/12-taxing-lost-comparison.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
       "id": "Smith1776",
       "source_keys": [
         "Smith1776"

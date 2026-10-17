@@ -233,9 +233,11 @@ This is one reason the future of economics belongs in a book about AI. More comp
 
 Bell's 1956 settlement provides a historical warning against treating access as a slogan. Opening existing patents to royalty-free licensing was followed by greater innovation outside telecommunications. The study did not find the same result inside the sector, where barriers to reaching customers remained. A policy can loosen one constraint while leaving another in place. An entrant needs a usable route from permission to performance.[^introduction-i9]
 
-For antitrust, that suggests an inquiry into what a restriction prevents other people from learning. The relevant harm could extend beyond a higher price today if lost comparisons impair valuable decisions tomorrow. Existing competition policy already considers innovation and other dimensions of competition. My proposal concerns the evidence produced through access, with the practical costs of preserving or replacing it included in the judgment.
+For antitrust, the question is what a restriction prevents other people from learning. Lost comparisons can impair valuable decisions even when today's price is low. Existing competition policy already considers innovation and exclusion. When a gatekeeper controls an indispensable route to useful independent evaluation, waiting until that route has disappeared may destroy the evidence needed to judge the loss. Credible threats of lasting closure should therefore trigger a presumption for keeping a workable route open. Ownership can reward invention while leaving others a meaningful chance to develop and test their own ideas.
 
-For taxation, two questions must remain distinct. One concerns the confidence with which a reward can be divided into contribution and positional advantage. Another concerns whether an action that removes useful comparisons imposes costs on others. The first limits a claim about exact attribution. The second could support a corrective policy only with additional evidence about consequences, incentives, and feasible instruments. Neither question supplies a tax schedule by itself.[^introduction-i2]
+For taxation, explaining an income and changing future incentives are different tasks. The reward record may fail to settle how much contribution produced a fortune. Conduct that prevents useful comparison may also impose costs on others. Establishing those costs can justify a corrective charge. Financing shared research and wider access to productive capital provides a further reason for taxation, without first proving that particular recipients were morally undeserving.
+
+Consider a capable team that cannot afford its first credible trial while existing owners use their returns to consolidate the routes to customers. Leaving both positions untouched is a choice about the next opportunity. Using part of capital income and large inheritances to finance shared research and broader access to assets is another. The second can support an economy with room for new judgments and new owners. Its tax rates and spending choices must be assessed through investment, avoidance, administration, and the benefits people actually receive.
 
 Policy must compare feasible arrangements. An independent test, better access to existing records, and a change in market rules produce different evidence at different costs. A feasible alternative, a probable improvement, and a worthwhile policy are different judgments. Taking an alternative seriously includes allowing evidence to defeat our hopes for it.
 
@@ -1111,7 +1113,7 @@ Open a browser on a new device and enter a question into its address bar. Unless
 
 In the Google search case, that apparently ordinary sequence became the subject of an extraordinary record. Browser developers, device manufacturers, and wireless carriers had agreements governing default search placement. Google's payments for distribution exceeded $26 billion in 2021, according to the district court's findings. Default access was valuable enough to command an enormous price even when a user paid nothing to enter a query.[^chapter_05-c5-1]
 
-The court did not explain Google's success by dismissing its product. Its August 2024 opinion credited skilled engineers, continuing innovation, and high search quality. It also found that Google had unlawfully maintained monopolies in general search services and general search text advertising through exclusive distribution agreements. Product accomplishment and unlawful exclusion appeared in the same account. Neither made the other disappear.[^chapter_05-c5-1]
+The court's August 2024 opinion credited Google's skilled engineers, continuing innovation, and high search quality. It also found that Google had unlawfully maintained monopolies in general search services and general search text advertising through exclusive distribution agreements.[^chapter_05-c5-1] Building a useful service and controlling a rival's route to customers are different activities. We can reward the first while restricting the second.
 
 Distribution also shapes what a search engine gets to learn. A query is an opportunity to serve someone. It can also generate information about what people want and how well the service responds. A distribution arrangement can therefore influence both today's allocation of attention and the evidence available for tomorrow's improvement. The advantage does not have to remain a matter of habit. It can help make the favored service better.
 
@@ -1309,7 +1311,7 @@ An acquisition can also finance development that would otherwise stop. Counting 
 
 The Google record must stand on its own findings about distribution and competition. The pharmaceutical study supplies no finding about Google's motives. But it helps state the timing problem: demanding that every prospective rival first produce a mature superior service can be circular when the challenged restriction concerns the route through which that service could mature.
 
-This proposed information rationale requires a causal account of the lost trial, a valuable decision it would inform, and a remedy worth its costs. Existing antitrust already considers innovation and exclusion. Shadow futures sharpen a question about the record we will inherit; they do not by themselves establish illegality.
+If a rival needs access in order to develop, what would it mean to demand a mature product before granting access? The rule would protect the very condition preventing the rival from qualifying. Exclusive terms that close such an indispensable route should face a presumption against enforcement, subject to evidence that a narrower arrangement cannot protect legitimate interests. Existing antitrust already considers innovation and exclusion; an information-based remedy still needs an identified lost comparison, a useful decision it could inform, and benefits worth the remedy's costs. Legal liability depends on the applicable law and evidence.
 
 ### Whose future is missing?
 
@@ -1485,7 +1487,9 @@ The value of a proposed experiment is prospective. It should be judged using the
 
 Security can affect participation in experimentation. People unable to meet ordinary expenses after failure may decline a promising attempt. Whether a particular insurance arrangement makes useful experimentation more feasible depends on its financing and behavioral effects.
 
-Claims about risk-bearing deserve equally specific evidence: what was financed, which losses were possible, which alternatives existed, and what behavior the terms induced. The size of a final fortune does not settle those questions.
+Claims about risk-bearing deserve specific evidence: what was financed, which losses were possible, which alternatives existed, and what behavior the terms induced. An investment can be genuinely risky at the beginning and later benefit from an arrangement that makes challengers hard to develop. The initial exposure does not establish how competitive every subsequent return remains.
+
+A risk taken once cannot, by itself, justify permanent control over the opportunities future competitors need. A promise of payment can be kept without giving its beneficiary authority to close indispensable routes to independent evaluation. An incentive to attempt the first experiment should leave room for someone else to attempt the next.
 
 Nakamura's account separates the purchases from the learning. The reactor existed before it could grow the material he needed. Its owner financed an uncertain undertaking; modifying it required work that the original purchase did not supply. Nichia's statement emphasizes employer risk, while the lecture describes technical changes. Putting the two documents together makes each claim more concrete without making their eventual settlement a scientific measurement.
 
@@ -1497,15 +1501,15 @@ Decent treatment and an entitlement to a contract remain different matters. An o
 
 The risk argument becomes more constructive once it stops serving as a badge attached only to winners. We can investigate arrangements that enable useful attempts, allocate losses tolerably, and preserve reasons to work well. We can abandon arrangements that perform badly. The choice is between particular institutions with particular consequences, rather than between reverence for a fortune and indifference to enterprise.
 
-## What I mean by deserving
+## What a reward should do
 
-I favor substantial rewards for useful work and for making valuable experiments possible. I also favor a level of security that lets people survive failure, and practical routes by which capable alternatives can obtain a hearing.
+What should a reward accomplish? It can encourage useful work, compensate investment, and make a valuable experiment possible. Security against ruin can help someone attempt that work in the first place. A system can pursue those aims while keeping practical routes open for the next capable alternative.
 
-For Lockdown, they mean I can admire the recording without believing that its position in one market determines the worth of its makers. I can respect a payment promised under an agreement without insisting that the agreement measured every contribution perfectly. I can want a system that encourages more music while admitting that its winners will not form an exact ranking of effort.
+Lockdown can be admired without treating its position in one market as a measure of its makers' worth. A payment promised under an agreement can be respected without insisting that the agreement measured every contribution perfectly. A system that encourages more music need not produce an exact ranking of effort among its winners.
 
 Income support can protect households without generating evidence about their work. An experiment can generate evidence without protecting their incomes. Identifying the intended purpose prevents one benefit from being treated as if it automatically supplies the other.
 
-A substantial reward can compensate investment without necessarily granting permanent control over the routes future competitors need to establish themselves. The role, duration, and alternatives to exclusivity deserve their own analysis.
+A popular musician or creator can earn a great deal without controlling anyone else's access to an audience. A platform that decides which creators receive meaningful exposure occupies a different position. The extreme tail of an income distribution does not identify that difference. The relevant question is who can prevent another person's work from receiving a credible hearing.
 
 This does not mean we should revise every contract after discovering an inconvenient shadow future. Arbitrarily changing promises after people have relied on them can damage the possibility of future cooperation. A better starting point is to design terms prospectively, explain which obligations survive, and evaluate changes openly. Uncertainty about contribution calls for responsible rules, not permission to improvise against whomever happens to win.
 
@@ -1521,7 +1525,9 @@ The driverless-car prize makes that defense ordinary. We do not need to believe 
 
 Another objection points toward equality. If the rankings could have differed, why not give everyone the same reward? Because the premise does not establish equal contributions, equal costs, equal needs, or identical responses to incentives. Lockdown's divergent rankings unsettle an easy inference from outcome to worth. They do not hand us a complete theory of distributive justice.
 
-We still have to choose. I would rather make that choice with the uncertainty visible than hide it beneath an accounting entry. That stance leaves room for enterprise, contractual reliability, redistribution, and disagreement about their proper balance. It rules out the comforting shortcut that the realized economy must already contain the evidence needed to certify all its rewards.
+Substantial incentives, reliable contracts, and redistribution that gives people security and access to productive assets can be judged by what they make possible. The relevant questions are whether useful work continues, whether people can survive a failed attempt, and whether a capable outsider can acquire the means to begin. None requires an exact moral calibration of the existing income distribution.
+
+Agreement about each person's exact contribution may remain beyond our evidence. Agreement about the next opportunity is still possible. We can choose rules under which accumulated rewards help finance further attempts, while limiting their owners' ability to decide who is allowed to challenge them.
 
 ## From the prize to the power cable
 
@@ -2191,11 +2197,11 @@ Anton Korinek and Donghyun Suh examine automation and capital accumulation toget
 
 Software cannot instantly create an electricity connection or manufacture servers. Scarcity can constrain expansion, but temporary shortage alone does not establish permanent gatekeeping. The stronger claim needs an identifiable obstruction and evidence about feasible alternatives.
 
-Employee ownership, jointly financed equipment, and public computing access distribute claims and authority differently. Their ability to support independent development depends on financing, operation, and evaluation as well as legal ownership.
+If machines perform more of the work, access to the assets behind that work becomes a more consequential route to income. Employee ownership, jointly financed equipment, and broadly held investment funds can distribute a claim on future output. Public computing access and independent testing facilities can give people resources with which to develop something different. Broader ownership and access should be assessed by who can actually use them and what they enable.
 
-Broader ownership does not automatically create independent discovery. A cooperative can depend on one provider's records, while a private owner can finance useful tests. Claims on income and control over learning belong in the same analysis without becoming the same question.
+A dividend from an incumbent and the means to challenge it accomplish different things. A worker might own shares in an AI supplier while lacking the money, computing, or customer access to start another business. An ownership policy should therefore be accompanied by workable entry routes, voluntary portability, and opportunities for independent assessment.
 
-Similarly, income distribution and entrepreneurial opportunity can diverge. Holding a stake in an existing firm does not ensure the ability to start another business, obtain inputs, reach customers, or challenge an inherited evaluation.
+The same requirement applies to public provision. A computing facility with one official evaluator can become another gate. Published eligibility rules, more than one credible route to assessment, and appeal against exclusion make access answerable to a challenge. Financing an alternative should buy an opportunity to demonstrate useful work; continued support should respond to what that work shows.
 
 The future of work includes the future of assets built through work: who can retain them, redirect them, and use them to attempt something new. Affordable tools and usable routes to demonstrate judgment can change together or move in opposite directions.
 
@@ -2333,7 +2339,9 @@ Scale also supplies research, reliability, and lower costs. One large supplier c
 
 Competition policy already reaches beyond prices. The United States' 2023 Merger Guidelines discuss products, features, innovation, wages, benefits, and research competition. The proposed information rationale adds a question about future evidence; it does not discover nonprice antitrust or dispense with statutory requirements.[^chapter_10-c10-10]
 
-Here is the policy position I favor. When a gatekeeper controls an indispensable route to useful independent evaluation, and there is credible evidence that closing it would be hard to reverse, the presumption should favor keeping a workable route open. Waiting for the last effective challenger to disappear can destroy the evidence needed to appraise the decision. The burden should then fall on the proposed restriction to demonstrate why a narrower arrangement cannot protect legitimate interests.
+Who should bear the burden when closing a route could destroy the evidence needed to judge that closure? Requiring the excluded challenger to supply the missing demonstration makes the obstruction its own defense. When a gatekeeper controls an indispensable route to useful independent evaluation, and credible evidence shows that closure would be hard to reverse, access should therefore be protected by an enforceable, rebuttable duty. The party seeking the restriction should have to demonstrate why a narrower arrangement cannot protect legitimate interests. A challenge to the gatekeeper's own judgment must be assessable by someone other than the gatekeeper.
+
+The timing matters. Requiring a challenger to arrive with a mature product can protect the very restriction preventing it from developing one. The evidence needed at this stage concerns a credible development route, the obstruction to it, and the value of keeping it available. Waiting for the last effective challenger to disappear can destroy the evidence needed to appraise the decision.
 
 Keeping an option to learn has a cost, as does losing it. Arrow and Anthony Fisher examined how waiting for more information can affect the choice to make an irreversible investment. Their analysis treats that future information as part of a cost-benefit appraisal.[^chapter_10-c10-precaution]
 
@@ -2347,7 +2355,7 @@ For AI, an obligation might concern an interface or a secure evaluation route ra
 
 The public authority also needs limits. It should specify the affected decision, plausible lost comparison, legal power, expected benefit, costs, and less burdensome substitutes. A secure audit may suffice where existing evidence answers the question. Prospective trials matter when no file can contain the missing contrast. My proposed time-limited evaluation power would require legislation wherever existing authority is insufficient, along with challenge and review.[^chapter_10-c10-11]
 
-I favor property rights that reward invention while leaving competitors a workable route to test and develop their own ideas. Access duties should be justified by the comparisons they enable, the decisions they improve, and their costs.
+Property rights should reward invention while leaving competitors a workable route to test and develop their own ideas. Where those routes depend on essential infrastructure, the owner should face a duty to provide appropriately bounded access on workable terms. An incumbent's private tests can satisfy a particular information need when their evidence is usable by the affected decision makers. They do not settle whether an excluded entrant could develop a capability those tests never allow it to attempt.
 
 Government can also become the single judge. A mandatory benchmark, favored consultant, or official platform could synchronize mistakes across an economy. Independent appeal, alternative methods, and revision must constrain the evaluator as well as the evaluated. Precaution should keep discovery possible on both sides of the public-private boundary.
 
@@ -2427,7 +2435,7 @@ The next chapter asks whether taxation could address conduct that removes useful
 
 Sweden introduced its nitrogen-oxide charge in 1992. Covered energy-production facilities paid for emissions, while receipts were returned in relation to useful energy output. The design separated a harmful by-product from the productive activity that generated it.[^chapter_11-c11-5]
 
-A business decision can improve current production while closing a route to discovering alternatives. A case for taxation would need to show that losing that route imposes a cost on others, and that a tax is a useful way to address it.
+A business decision can improve current production while closing a route to discovering alternatives. If that closure prevents useful learning that others cannot replace, its private return omits a cost borne elsewhere. Making the decision maker face that cost changes the incentive to close the route. A corrective charge is one instrument. An access obligation may preserve the comparison more directly.
 
 There are two tax questions here. One asks how confidently income can be divided between productive contribution and historical position. The other asks whether particular conduct imposes an external cost by preventing valuable comparison. Explaining a fortune and changing future incentives are different tasks.
 
@@ -2519,7 +2527,27 @@ Public provision has an opportunity cost as well. Money and expertise used for e
 
 Verification is part of that expense. Repetitive easy tasks can inflate a test count, and selective cases can flatter an entrant. Relevant task selection, checked outcomes, version records, and independent scrutiny help establish what evidence was actually produced. A nominally cheap substitute can be costly once those safeguards are included.
 
-## Before choosing a rate
+## Who pays for the next attempt?
+
+Suppose a dominant AI supplier controls the only practical interface through which an available rival could be evaluated. If a restrictive term prevents a useful test, the first question is whether an access duty can restore it. A charge that leaves the rival locked out may raise money without fixing the obstruction. Where a bounded, secure arrangement can restore the route at a justified cost, opening it addresses the problem directly.
+
+Where conduct still imposes a measurable external loss, a corrective charge should reflect that loss after feasible replacement and private responses are counted. Revenues could support independent evaluation or access. Spending the money well is a separate obligation: the public laboratory has to produce usable evidence, and affected people must be able to act on it. The firm's wealth alone supplies no estimate of the damage.
+
+Now consider a team that could use the interface but cannot finance the work needed to reach a credible trial. Access rules alone leave it outside. Shared research and wider access to productive assets require financing, and relying entirely on existing owners lets their willingness to fund a challenge decide which challenges occur. Progressive taxation of capital income and large inheritances can supply part of that financing and spread ownership beyond its current holders. Its justification is the productive participation and independent discovery it makes possible. No verdict about each taxpayer's moral desert is needed.
+
+Florian Scheuer and Joel Slemrod's review of wealth taxation examines the choice of tax base, valuation, avoidance, enforcement, and behavioral responses. Those choices change what a tax collects and how people respond.[^chapter_11-c11-wealth] A tax on annual wealth, a tax on capital income, and an inheritance tax reach different things. Workable capital income and inheritance taxation offer routes to financing broader participation; their investment and financing effects determine the terms. Uncertainty about contribution alone supplies neither a preferred instrument nor a tax rate.
+
+The uses of the revenue should be concrete. A shared computing facility could let a qualified team attempt a different model. An independently governed laboratory could test failures that no supplier has an incentive to disclose. Grants could finance credible first demonstrations. Broadly held funds or employee ownership could distribute claims on productive assets beyond their existing owners. These are proposals for widening the means to attempt and benefit from economic activity; their performance has to be measured against their costs.
+
+A payment to a household can make it easier to survive a failed attempt or to acquire training. It can also serve the straightforward purpose of protecting income. It need not generate a comparison to be worthwhile. But a policy advertised as restoring contestability has to reach the missing resource or permission: cash cannot, by itself, open a closed interface.
+
+The public funder should publish qualification rules, allow competing methods, and provide appeal against exclusion. A grant recipient should be able to report failure without concealing it to protect the program. Continuing support should depend on what is learned and on the credible value of further work. Public finance should create alternatives to private gatekeeping while remaining answerable to independent judgment itself.
+
+These fiscal purposes should remain visible in the accounts. A conduct-based charge seeks to change a harmful incentive. General taxation finances shared capabilities and broader participation. Pooling their revenues may be convenient, but financing a valuable laboratory does not establish that every contributor caused an equivalent informational loss. Nor should the same harm be charged twice through overlapping instruments.
+
+Capital can finance the equipment, time, and risk that discovery requires. It can also accumulate around a route whose owner decides who else may enter. Capital income and large inheritances should help finance the shared capabilities through which other people can become productive owners. The terms must preserve reasons to invest. Leaving accumulated returns entirely outside that responsibility allows a successful position to pass to the next generation together with the power to prevent its challengers from developing.
+
+## Choosing rules before knowing every contribution
 
 A defensible charge needs a causal chain: identified conduct, changed comparative evidence, affected decisions and beneficiaries, and an assessed loss after private responses and feasible replacement. It must then improve the attainable outcome after productive benefits, financing, enforcement, and entry are counted.
 
@@ -2527,11 +2555,11 @@ The time horizon must match on both sides. Software changes can make some findin
 
 Participation can change too. Qualification costs may deter useful entrants; predictable obligations may support investment. Warnings about reduced innovation need investigation, rather than automatic acceptance or dismissal. These are responses affecting the case for a particular instrument.
 
-The evidence may favor access duties, payment for verified testing, public provision, or existing private arrangements. Where plausible accounts disagree about the direction of the welfare effect, a precise positive rate has not been established. A narrower intervention or a limited study may be the useful next step.
+Access duties, payments for verified testing, public provision, and existing private arrangements have to be compared on those terms. Where the evidence cannot support a precise corrective rate, a narrower access remedy or a limited trial can establish what works. General financing choices can still proceed through an explicit public judgment about benefits, burdens, and incentives.
 
-The contribution of shadow futures here is to make the production of comparison an economic concern. The comparison budget identifies a statistical constraint; public finance adds the causal and welfare analysis required for policy. Uncertainty about income's origins, financing shared knowledge, and correcting an external cost remain distinct arguments.
+We do not need agreement about the exact share of every fortune attributable to its owner before choosing a tax system. We need agreement about what that system should make possible, how its costs will be borne, and how its results can be challenged. A reward record that cannot settle contribution should not be asked to certify the rules protecting its own distribution.
 
-The next chapter asks how economics can study those institutions more directly. A successful history records real achievement. It can also change which alternatives remain discoverable. Understanding that interaction requires evidence about both the outcome and the arrangements producing opportunities to learn.
+A settlement that rewards useful investment, broadens ownership, and finances independent routes to discovery gives enterprise a future beyond its current owners. A successful business can earn substantial returns while contributing to the resources through which another business might demonstrate a better way. The next task is to make those opportunities observable in the institutions economics studies.
 
 ---
 
@@ -2691,41 +2719,45 @@ Finally, the report would state which counterfactual it is evaluating. A shadow 
 
 A useful procurement report can be brief: what question did the buyer ask, which services were compared, what happened, what remains uncertain, and what decision follows? The methods and records should be available for anyone authorized to check them.
 
-## A research program with room to fail
+## Economics should test the rules
 
-The comparison budget is not a ready-made ranking of economies. Application requires a specified allocation process, justified conditional probabilities, relevant alternatives, and a target the available observations can distinguish.
+An economist could begin with one purchase. Record which suppliers were eligible, how the buyer selected them, what the buyer learned about their work, and whether another test changed the next decision. Establish the assignment probabilities from the actual process, with uncertainty where they must be estimated. Compare the information in the award record with the information added by checked outcomes. That would give the comparison budget a specified empirical setting instead of treating market shares as its measure.
 
-A first useful project could reconstruct a procurement process with known assignment rules and checked outcomes. It would ask how much the allocation record alone reveals, what the additional outcomes contribute, and how conclusions change under plausible feedback mechanisms. An estimate that changes sharply when a reasonable mechanism is altered should be reported as sensitive, rather than polished into false certainty.
+The next step is to compare practical ways of learning more. A buyer could extend the existing contract, retain more useful records, evaluate an available rival on suitable tasks, or purchase an independent assessment. Costs, shared errors, and what each supplier has already learned belong in the design. A fresh group of tasks does not erase shared state or make observations independent by declaration.
 
-A second could compare feasible evaluation designs within that process. Extend one history, create a fresh task cohort, retain a previous measurement, or buy another source of evidence. The aim would be to discover which option improves a defined inference or purchasing decision at acceptable cost. Calling a cohort fresh would not establish independence if it retains the same suppliers' learned state and shared shocks.
+Then examine the rules supplying access. If a rival cannot reach the trial, identify the missing permission or resource. Change a bounded part of the arrangement where feasible, observe what new work becomes possible, and assess whether the result improves a consequential choice. Count private testing that public provision displaces. A remedy that adds expense without adding usable evidence should be revised or ended.
 
-A third could investigate the institution supplying access. Which permissions, costs, and incentives prevent a useful test? Can a contract solve the problem? Do public tests replace private ones? Does a narrow interface preserve scale benefits while making a missing outcome observable? These are questions for evidence, and their answers could weaken as well as strengthen a case for intervention.
+Hayek described competition as a way to discover facts that were not known or used beforehand.[^chapter_12-c12-13] Economics should make the institutions performing that discovery a subject of sustained investigation. The relevant outcome includes whether a capable alternative can obtain a credible test, whether its findings reach the people who need them, and whether those people can act on what they learn.
 
-A useful next study could begin with one purchase. Record which alternatives were eligible, how they were selected, which outcomes reached the buyer, and what additional test changed the decision. That would not measure an entire economy’s lost possibilities. It could establish something more modest and actionable: whether a specific institution could learn more, at a cost worth paying.
+For AI, computing capacity, power connections, skilled staff, and working systems are real constraints. An applicant with no feasible development route cannot be made competitive by a paper right to access. But a team capable of a bounded evaluation need not reproduce an entire frontier training operation. The economist should identify the smallest workable arrangement that answers the useful question, then compare its benefits with its full costs.
 
-Hayek described competition as a way to discover facts that were not known or used beforehand.[^chapter_12-c12-13] We can investigate where that discovery works, which questions it answers, and whether another arrangement would produce more useful evidence at acceptable cost.
-
-Likewise, acknowledging the costs of duplicated production should not end the inquiry before considering duplicated evaluation. Several firms need not each build a complete frontier training operation to contribute useful tests of deployed services. Some comparisons can occur within an integrated organization; others may need independent access. The capability, cost, and information questions must each be examined.
-
-The physical AI economy makes this separation consequential. Computing capacity, power connections, skilled staff, and working systems are productive constraints. Preserving a hypothetical competitor with no feasible route to meeting them is not an experiment. A bounded test of an available alternative might be. The researcher must specify the alternative well enough for somebody to attempt it.
-
-The prospect of failure is part of the program's value.
-
-A convincing first application should therefore be small enough to inspect. An observation inventory, an auditable allocation rule, a set of checked outcomes, and a plainly stated decision would be more valuable than an industry ranking built from convenient public shares. Other researchers could then examine the same target under a different mechanism, add an omitted measurement, or run a feasible replication. If replacing a lost comparison costs little, a dramatic damage story weakens. If a proposed intervention destroys more productive value than its evidence can recover, the recommendation should change.
-
-There is a corresponding possibility on the other side. A seemingly efficient arrangement may omit the only feasible route through which an alternative can demonstrate a consequential capability. Discovering that fact could justify a well-targeted institutional change. The policy case becomes stronger when the missing comparison and the attainable improvement are shown, rather than merely imagined.
+These studies would give policy a means to improve. Publish the allocation rules, relevant outcomes, and grounds for changing a decision so that other investigators can check them. Retain room for a result showing that the incumbent remains best, that a private contract already supplies the necessary evidence, or that a public intervention costs more than it achieves. A commitment to discovery has to permit those findings too.
 
 ## The record we choose to leave
 
 At Rothamsted, someone had to preserve the samples, label them, and keep the treatment records intelligible. Later researchers could put new questions to that material. An archive that had been discarded could not have answered them.
 
-Markets leave records too. Some come from ordinary sales; others from deliberate tests. A customer database, a trial's assignment log, and an independent evaluation can help answer different questions. Economics should investigate what each costs to produce and which decisions it can improve.
+An economy makes a similar choice whenever it allocates another opportunity. It can support the established supplier and also preserve an independent route through which someone else could demonstrate a better method. It can distribute a share of capital's returns more widely and give people resources with which to attempt something new. Or it can let control over the next attempt accumulate with control over the last reward.
 
-MusicLab gave the same recordings more than one opportunity to develop a following. Lockdown finished first in one world and fortieth in another.[^chapter_12-c12-14] Seeing both charts changes the explanation we can give. An account built around the winning result has to accommodate the other outcome too.
+The comparison budget gives that choice a precise statistical dimension. Under the allocation model's conditions, a finite lifetime total of chances outside the current favorite can leave contribution unresolved even as the reward record grows indefinitely. The practical concern is the opportunity to generate the missing evidence. A larger file of the incumbent's awards cannot always supply it.
 
-To judge an institution, follow a decision. A buyer considering a new supplier should be able to use a trial's result. A training program should be able to change when a different method helps beginners. Keeping records, arranging access, and checking outcomes matter when they give someone a workable reason to act.
+An economy committed to independent discovery has reason to reward useful work while preserving routes to challenge it. A substantial return can finance the next invention. Giving its recipient authority over whether anyone else can attempt one adds a different power, with different consequences. The payment and the power should be judged separately.
 
-The value of another comparison lies in the choice it can improve. Economics should help us find where that value is greatest, and how to obtain it.
+Start with a gatekeeper controlling an indispensable route to evaluation. If closing it threatens a lasting loss of useful comparison, protecting access preserves the possibility of discovering which supplier deserves the next contract. Documented interfaces, voluntary portability, secure evaluation access, and independently reviewed terms can make an enforceable duty concrete. The obligation should follow the actual obstruction, with privacy, security, resource costs, and investment included in its design. When useful private evidence already answers the affected decision, duplicating the experiment may buy nothing.
+
+Act while the alternative can still develop. A team cannot be required to demonstrate years of learning before obtaining the customers through whom that learning would occur. Before closure becomes difficult to reverse, the question is whether there is a credible attempt worth keeping possible. Preserving that route gives the claim a chance to encounter evidence. It promises neither a contract nor permanent support for an unsuccessful rival.
+
+Where restrictive conduct prevents valuable learning and imposes a cost on others, leaving that cost outside the decision rewards too much restriction. An access duty may prevent the loss. A corrective charge may address a remaining external harm. Its justification depends on the missing comparison, the decisions affected, and what feasible replacement would achieve. A large profit supplies neither a damage meter nor a reason to ignore a demonstrated obstruction.
+
+Opening a gate accomplishes little for someone unable to afford the attempt. Capital income and inheritance taxation can help finance independent experimentation and broader ownership of productive assets. A shared computing facility, a credible first demonstration, or a stake in a broadly held fund can put a different means of economic participation within reach. Such financing has to preserve useful investment and account for avoidance, administration, and the benefits actually delivered. It need not wait for an impossible audit of every taxpayer's exact contribution.
+
+Ownership and entry require attention together. A dividend can spread income while leaving the recipient dependent on one supplier's permission. Public computing can support another development route while its admission rules exclude inconvenient challengers. Broader capital ownership needs independent evaluation, published eligibility rules, and appeal alongside it. Government should be as open to a challenge to its preferred answer as a private gatekeeper is required to be.
+
+MusicLab gave the same recordings more than one opportunity to develop a following. Lockdown finished first in one world and fortieth in another.[^chapter_12-c12-14] Its success was real in one history. Its neglect was real in the other. Neither chart could tell the whole story by itself.
+
+We will rarely have both charts for an economy. We still have to choose how its rewards are taxed, which rights accompany ownership, and what opportunities remain available to people whose work has not yet acquired a record. The choice can rest on shared aims and practical evidence about institutions. It need not rest on a claim that today's distribution has finally established who deserves everything they received.
+
+A successful economy needs reasons to keep producing and the means for other people to begin. Protecting investment, financing useful challenges, and limiting the power to close an essential gate serve those purposes together. Success can earn a reward. The next opportunity must remain open to a different answer.
 
 ---
 
@@ -2751,21 +2783,29 @@ A rival listed on a website has permission to exist. Getting its work into an ev
 
 We can spend heavily on producing answers while spending little on discovering whether we are asking the right system. We can reward experience while closing the routes through which someone else could acquire it. A busy economy can keep repeating a choice without getting much better at explaining it.
 
-The practical response begins with something tangible. A buyer can put a rival through a useful test. A shared computing facility can let a researcher attempt a different design. An interface can let customers try another service without abandoning everything they have already built. Each proposal needs a reason to justify its cost. But the value of finding out belongs in that calculation alongside the value of the next completed job.
+The next AI company should have a workable route to demonstrate that it can do better. A worker rejected by one platform should have somewhere else to establish what they can do. A researcher should be able to investigate a dominant system without giving its owner authority over the findings.
 
-A well-designed comparison can confirm that the established supplier is still the best choice. It can also expose a better method, a neglected skill, or a mistake shared by everyone using the same system. Its purpose is to let what happens in the test change what happens afterward.
+If the only route to a credible test belongs to the company being challenged, who gets to decide whether the challenge is heard? Leaving that decision entirely with the owner gives it authority over the evidence of its own superiority. An enforceable access duty can keep a useful route open. The rival may need a secure interface, the worker an independent assessment, the researcher access to a credible test. Those arrangements should preserve privacy, safety, and useful investment while making the challenge possible. Their costs belong in the decision, alongside the value of finding out.
+
+We should act while an alternative still has a route to development. Asking for a finished rival after closing the means of building one makes success a condition for obtaining the opportunity to succeed. A credible attempt should be able to reach a test before its absence becomes another reason to dismiss it.
+
+A team still needs resources after the gate opens. Capital income and inheritance taxation can help finance independent experimentation and broaden ownership of productive assets. A shared computing facility can let that team attempt a different design. A grant can pay for a first demonstration. A share in productive capital can let more people benefit from the work machines perform. Funding should follow usable opportunities and results, with costs, investment effects, and displaced private efforts counted. An economy that relies on discovery has a reason to help pay for the means of making it happen.
+
+When a restriction prevents valuable learning, its author should face the cost imposed on others. Opening the route may accomplish more than collecting money after closing it. Financing common capabilities need not wait for the treasury to measure the unearned portion of every fortune.
+
+Public institutions must remain open to challenge themselves. A laboratory should be able to publish an inconvenient finding. A team refused access should have a meaningful appeal. Money for discovery should leave room for different methods, and for evidence that the established supplier remains best. The purpose is to let what happens in the test change what happens afterward.
 
 At MusicLab, that possibility was built into the experiment. The same forty-eight recordings entered separate worlds. Listeners made choices, those choices became visible to later listeners, and the charts developed differently. Lockdown finished first in one world and fortieth in another.[^epilogue-e-2]
 
 Imagine having only the first chart. We could play the winning recording, examine its qualities, and write a persuasive account of why it deserved to lead. With only the other chart, we could do the same for its failure. The second history makes both explanations harder to deliver with such confidence.
 
-That discomfort is useful. It gives us room to admire an achievement without treating its reward as the final word on everyone else's ability. It asks us to look again at the applicant, the business, or the idea whose thin record may partly reflect the opportunities it never received.
+We can admire an achievement without treating its reward as the final word on everyone else's ability. The applicant, the business, or the idea with a thin record may have needed an opportunity before there could be much to record. A society that wants to discover what people can do has to make some of those beginnings possible.
 
-Most shadow futures will leave no second chart. We cannot recover every missed opportunity or run every possible experiment. We can, however, make room for comparisons that might change an important choice. What seems inevitable after success can still be open before the next decision.
+Most shadow futures will leave no second chart. We cannot recover every missed opportunity or run every possible experiment. We can choose rules that reward useful investment, finance credible alternatives, and prevent an essential gateway from becoming its owner's permanent power over other people's beginnings. Agreement about those rules can guide us even when agreement about each person's exact contribution remains beyond our evidence.
 
 Lockdown's other chart existed because someone made room for another history. The recording was ready. The opportunity had to be built.
 
-The chart tells us what won. What gets a chance next is still up to us.
+An economy should reward its winners without giving them ownership of everyone else's chance.
 
 ---
 
@@ -3117,6 +3157,8 @@ The chart tells us what won. What gets a chance next is still up to us.
 
 ## Taxing lost comparison
 
+[^chapter_11-c11-wealth]: Florian Scheuer and Joel Slemrod, "Taxing Our Wealth," *Journal of Economic Perspectives* 35, no. 1 (2021): 207–230. [doi:10.1257/jep.35.1.207](https://doi.org/10.1257/jep.35.1.207).
+
 [^chapter_11-c11-3]: Thomas Piketty, Emmanuel Saez, and Stefanie Stantcheva, “Optimal Taxation of Top Labor Incomes: A Tale of Three Elasticities,” *American Economic Journal: Economic Policy* 6, no. 1 (2014): 230–271, especially 230–235. [Article](https://eml.berkeley.edu/~saez/piketty-saez-stantchevaAEJ14.pdf).
 
 [^chapter_11-c11-4]: Casey Rothschild and Florian Scheuer, “Optimal Taxation with Rent-Seeking,” *Review of Economic Studies* 83, no. 3 (2016): 1225–1262. [doi:10.1093/restud/rdw017](https://doi.org/10.1093/restud/rdw017). See also the [December 2015 author version](https://www.econ.uzh.ch/dam/jcr:e4a3ed75-0645-497b-a7a7-5015f58a15c0/rent_seeking.pdf), 1–4.
@@ -3398,6 +3440,8 @@ Salganik, M. J. n.d. Bit by Bit: Social Research in the Digital Age. Open review
 Salganik, M. J., and D. J. Watts. 2008. Leading the herd astray: An experimental study of self-fulfilling prophecies in an artificial cultural market. Social Psychology Quarterly 71:338–355. [Source](https://doi.org/10.1177/019027250807100404)
 
 Salganik, M. J., Dodds, P. S., and Watts, D. J. (2006). Experimental study of inequality and unpredictability in an artificial cultural market. Science, 311(5762), 854-856. [Source](https://doi.org/10.1126/science.1121066)
+
+Scheuer, F., and J. Slemrod. 2021. Taxing our wealth. Journal of Economic Perspectives 35(1):207-230. [Article](https://doi.org/10.1257/jep.35.1.207)
 
 Smith, A. 1776. An Inquiry into the Nature and Causes of the Wealth of Nations. Book I, Chapters I, III and X, Part II. [Source](https://www.gutenberg.org/files/3300/3300-h/3300-h.htm)
 

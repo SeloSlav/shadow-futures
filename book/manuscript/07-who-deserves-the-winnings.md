@@ -160,7 +160,9 @@ The value of a proposed experiment is prospective. It should be judged using the
 
 Security can affect participation in experimentation. People unable to meet ordinary expenses after failure may decline a promising attempt. Whether a particular insurance arrangement makes useful experimentation more feasible depends on its financing and behavioral effects.
 
-Claims about risk-bearing deserve equally specific evidence: what was financed, which losses were possible, which alternatives existed, and what behavior the terms induced. The size of a final fortune does not settle those questions.
+Claims about risk-bearing deserve specific evidence: what was financed, which losses were possible, which alternatives existed, and what behavior the terms induced. An investment can be genuinely risky at the beginning and later benefit from an arrangement that makes challengers hard to develop. The initial exposure does not establish how competitive every subsequent return remains.
+
+A risk taken once cannot, by itself, justify permanent control over the opportunities future competitors need. A promise of payment can be kept without giving its beneficiary authority to close indispensable routes to independent evaluation. An incentive to attempt the first experiment should leave room for someone else to attempt the next.
 
 Nakamura's account separates the purchases from the learning. The reactor existed before it could grow the material he needed. Its owner financed an uncertain undertaking; modifying it required work that the original purchase did not supply. Nichia's statement emphasizes employer risk, while the lecture describes technical changes. Putting the two documents together makes each claim more concrete without making their eventual settlement a scientific measurement.
 
@@ -172,15 +174,15 @@ Decent treatment and an entitlement to a contract remain different matters. An o
 
 The risk argument becomes more constructive once it stops serving as a badge attached only to winners. We can investigate arrangements that enable useful attempts, allocate losses tolerably, and preserve reasons to work well. We can abandon arrangements that perform badly. The choice is between particular institutions with particular consequences, rather than between reverence for a fortune and indifference to enterprise.
 
-## What I mean by deserving
+## What a reward should do
 
-I favor substantial rewards for useful work and for making valuable experiments possible. I also favor a level of security that lets people survive failure, and practical routes by which capable alternatives can obtain a hearing.
+What should a reward accomplish? It can encourage useful work, compensate investment, and make a valuable experiment possible. Security against ruin can help someone attempt that work in the first place. A system can pursue those aims while keeping practical routes open for the next capable alternative.
 
-For Lockdown, they mean I can admire the recording without believing that its position in one market determines the worth of its makers. I can respect a payment promised under an agreement without insisting that the agreement measured every contribution perfectly. I can want a system that encourages more music while admitting that its winners will not form an exact ranking of effort.
+Lockdown can be admired without treating its position in one market as a measure of its makers' worth. A payment promised under an agreement can be respected without insisting that the agreement measured every contribution perfectly. A system that encourages more music need not produce an exact ranking of effort among its winners.
 
 Income support can protect households without generating evidence about their work. An experiment can generate evidence without protecting their incomes. Identifying the intended purpose prevents one benefit from being treated as if it automatically supplies the other.
 
-A substantial reward can compensate investment without necessarily granting permanent control over the routes future competitors need to establish themselves. The role, duration, and alternatives to exclusivity deserve their own analysis.
+A popular musician or creator can earn a great deal without controlling anyone else's access to an audience. A platform that decides which creators receive meaningful exposure occupies a different position. The extreme tail of an income distribution does not identify that difference. The relevant question is who can prevent another person's work from receiving a credible hearing.
 
 This does not mean we should revise every contract after discovering an inconvenient shadow future. Arbitrarily changing promises after people have relied on them can damage the possibility of future cooperation. A better starting point is to design terms prospectively, explain which obligations survive, and evaluate changes openly. Uncertainty about contribution calls for responsible rules, not permission to improvise against whomever happens to win.
 
@@ -196,7 +198,9 @@ The driverless-car prize makes that defense ordinary. We do not need to believe 
 
 Another objection points toward equality. If the rankings could have differed, why not give everyone the same reward? Because the premise does not establish equal contributions, equal costs, equal needs, or identical responses to incentives. Lockdown's divergent rankings unsettle an easy inference from outcome to worth. They do not hand us a complete theory of distributive justice.
 
-We still have to choose. I would rather make that choice with the uncertainty visible than hide it beneath an accounting entry. That stance leaves room for enterprise, contractual reliability, redistribution, and disagreement about their proper balance. It rules out the comforting shortcut that the realized economy must already contain the evidence needed to certify all its rewards.
+Substantial incentives, reliable contracts, and redistribution that gives people security and access to productive assets can be judged by what they make possible. The relevant questions are whether useful work continues, whether people can survive a failed attempt, and whether a capable outsider can acquire the means to begin. None requires an exact moral calibration of the existing income distribution.
+
+Agreement about each person's exact contribution may remain beyond our evidence. Agreement about the next opportunity is still possible. We can choose rules under which accumulated rewards help finance further attempts, while limiting their owners' ability to decide who is allowed to challenge them.
 
 ## From the prize to the power cable
 

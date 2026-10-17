@@ -1,7 +1,7 @@
 {
   "status": "complete_draft_assembly_review_pending",
   "file": "book/drafts/Shadow_Futures_Complete_Manuscript.md",
-  "sha256": "367da3a3a21180a677b82fb42e3b580922437640bab2bc05178ae317d57cbd9b",
+  "sha256": "19721c45c59333c14de16fc56837be2099d7feb18628ae78ad0e5bd3e48bc5ed",
   "inputs": [
     {
       "file": "book/manuscript/00-prologue.md",
@@ -9,7 +9,7 @@
     },
     {
       "file": "book/manuscript/01-introduction.md",
-      "sha256": "b3bfc34822f4cd21ac757dca7710415f2d95b517ad8eae338d08f2ba9cc4b154"
+      "sha256": "36c1ed92c27e5e0a448e506a9da084ffff925484196fa8a890bad850d666f179"
     },
     {
       "file": "book/manuscript/02-the-winner-and-the-explanation.md",
@@ -29,11 +29,11 @@
     },
     {
       "file": "book/manuscript/06-who-gets-to-be-tested.md",
-      "sha256": "92701672de1abe3bd96ae25bba3c8d6fee7bd41d79e3b14470a476c9d704c920"
+      "sha256": "2db1f63c4396e6d1b2f363fd7ed06a63e99fb6b38bdab518aca9da7419604c17"
     },
     {
       "file": "book/manuscript/07-who-deserves-the-winnings.md",
-      "sha256": "fbc20b397bafd2c584df06c4b3f1df85155f6afc20a6d167fe43cf4d2edd943b"
+      "sha256": "6e81f8e290c2af605d17d4a59da95dfdada0f42fb22cae274b0aedeebd240563"
     },
     {
       "file": "book/manuscript/08-the-intelligence-factory.md",
@@ -45,38 +45,38 @@
     },
     {
       "file": "book/manuscript/10-the-first-rung.md",
-      "sha256": "248f5854d165cd954b9ad0eca99a6289eee482eded84821e76c1121085ef1278"
+      "sha256": "a15851227097d8e7429323aad249f11cebe909ed749b2bb86383cd43c192b223"
     },
     {
       "file": "book/manuscript/11-competition-for-future-evidence.md",
-      "sha256": "6a193c4c25449c0472d7228a011fe1b13683aa0c2e73ff3068b1d82a69454403"
+      "sha256": "94eccbe2566a7c2a5cfee9d2aa87daff2a1fad93e2ab75c05bbbb18fa6872df5"
     },
     {
       "file": "book/manuscript/12-taxing-lost-comparison.md",
-      "sha256": "ac1861c2639e634a81b6b2f80718135c300afe1d73d1353c9ef5b01608720362"
+      "sha256": "945f689a34e48be78937d173ab06c4edffd3931f39efa2d4c53ca65b53502644"
     },
     {
       "file": "book/manuscript/13-an-economics-of-possible-worlds.md",
-      "sha256": "83af3da538be65b6f04c5c0fe9e4d6556db10130f807ef22c8769cb920bd3f95"
+      "sha256": "4f5d1afd11c64da1449d30df8c6415ea80be2672a5b7c81c0435f5bb799be2e5"
     },
     {
       "file": "book/manuscript/14-epilogue.md",
-      "sha256": "036840057ce2dd736f7abea3f134e571a5249ee6d4edf895e4e4765ff75ac381"
+      "sha256": "1cc4e9256047e4b0586de8931ba65036b888022395e8375647debe109e55b7e1"
     },
     {
       "file": "book/manuscript/90-references.md",
-      "sha256": "9909dcdb30b5a2f27aa93b178f6fbb43e5b2eca996bde3c075897e2ae576ab9f"
+      "sha256": "6ebef8f64fac6845a978a9fd9e41e0eacf7ac3f913a28e69918e2188538ffe17"
     },
     {
       "file": "book/manuscript/91-acknowledgments.md",
       "sha256": "d577aee194f1f47aa3e450ae3f0e07b6dd11ac83de4080857d6c0708b2e5d8ba"
     }
   ],
-  "bibliography_input_sha256": "d1fd1deeb9efee06d66a3e5121edfe64e973c065a5f06e466143a216ae244d2c",
-  "main_words": 63283,
-  "back_matter_words": 10608,
-  "reference_entries": 133,
-  "endnote_count": 185,
+  "bibliography_input_sha256": "c9bc9c9d596b6793c62208d924304e8a6e1c3be2f94df55711407da438ecf40e",
+  "main_words": 65169,
+  "back_matter_words": 10642,
+  "reference_entries": 134,
+  "endnote_count": 186,
   "notes_namespaced": true,
   "interpretation": "Assembly, counts, hashes and note matching do not certify facts, proofs, prose quality or completion of the book review."
 }

@@ -184,11 +184,11 @@ Anton Korinek and Donghyun Suh examine automation and capital accumulation toget
 
 Software cannot instantly create an electricity connection or manufacture servers. Scarcity can constrain expansion, but temporary shortage alone does not establish permanent gatekeeping. The stronger claim needs an identifiable obstruction and evidence about feasible alternatives.
 
-Employee ownership, jointly financed equipment, and public computing access distribute claims and authority differently. Their ability to support independent development depends on financing, operation, and evaluation as well as legal ownership.
+If machines perform more of the work, access to the assets behind that work becomes a more consequential route to income. Employee ownership, jointly financed equipment, and broadly held investment funds can distribute a claim on future output. Public computing access and independent testing facilities can give people resources with which to develop something different. Broader ownership and access should be assessed by who can actually use them and what they enable.
 
-Broader ownership does not automatically create independent discovery. A cooperative can depend on one provider's records, while a private owner can finance useful tests. Claims on income and control over learning belong in the same analysis without becoming the same question.
+A dividend from an incumbent and the means to challenge it accomplish different things. A worker might own shares in an AI supplier while lacking the money, computing, or customer access to start another business. An ownership policy should therefore be accompanied by workable entry routes, voluntary portability, and opportunities for independent assessment.
 
-Similarly, income distribution and entrepreneurial opportunity can diverge. Holding a stake in an existing firm does not ensure the ability to start another business, obtain inputs, reach customers, or challenge an inherited evaluation.
+The same requirement applies to public provision. A computing facility with one official evaluator can become another gate. Published eligibility rules, more than one credible route to assessment, and appeal against exclusion make access answerable to a challenge. Financing an alternative should buy an opportunity to demonstrate useful work; continued support should respond to what that work shows.
 
 The future of work includes the future of assets built through work: who can retain them, redirect them, and use them to attempt something new. Affordable tools and usable routes to demonstrate judgment can change together or move in opposite directions.
 

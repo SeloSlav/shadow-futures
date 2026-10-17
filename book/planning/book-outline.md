@@ -132,7 +132,7 @@ Judge remedies by attainable decision improvement, implementation costs, scale b
 
 Make a roughly 1,600-word comparative section, “Who can keep the next entrant possible?”, the anchor for the new revision. Follow one explicitly fictional small team's access problem through three documented arrangements: EuroHPC's actual eligibility/technical-assessment route; the US AI Action Plan's deregulation alongside open-model and computing-access objectives, plus NAIRR; China's AI Plus support for agent services, shared computing, open source and patient capital alongside the public-service scope and political requirements of the 2023 generative-AI measures. These records establish policies and terms, not successful outcomes. Ask the same questions about resources, customers, independent checks, inconvenient findings, switching, and appeal in each setting. Test the possibility that intervention preserves more usable competition than protection of a bottleneck. Retain the reverse possibility of regulatory exclusion, national-champion protection, and an official monopoly over judgment. EU property protection and US public-access initiatives rule out a simple property-belief or state-capacity ranking. No prediction that the EU or China will outperform the US.
 
-V5 citations: Meghani (2021); Hayek (2002); Kasy and Sautmann (2021). Added foundation: Blackwell (1953). Policy extension: Erlic's unpublished Competition Policy for Informative Market Access draft. Added legal source: DOJ 2023 Merger Guidelines, Guideline 2.
+V5 citations: Meghani (2021); Hayek (2002); Kasy and Sautmann (2021). Added foundation: Blackwell (1953). Access obligations are the book's normative proposal, with Arrow and Fisher supplying the option-preservation antecedent. Added legal source: DOJ 2023 Merger Guidelines, Guideline 2.
 
 ## 11 Taxing lost comparison
 
@@ -144,7 +144,9 @@ Compare access, verified testing payments and shared evaluation using Arrow, Col
 
 Use about 150 replacement words to return to the agent owner's assets. Broader ownership, taxing income, preserving access, and correcting a measured loss of decision-relevant evidence solve different problems. An inherited or concentrated asset does not by itself measure information destruction. Preserve the separate normative grounds for distribution and additional premises for corrective taxation.
 
-V5 citations: Piketty, Saez, and Stantcheva (2014); Rothschild and Scheuer (2016); Kerr, Nanda, and Rhodes-Kropf (2014). Added foundation: Arrow (1962). Extension: Erlic's unpublished Taxing Lost Comparison draft, whose additional model assumptions must be stated.
+End with concrete fiscal prescriptions. Prefer restoring a missing evaluation route when an access duty is the better remedy; use a corrective charge only for demonstrated external loss after replacement and private responses. Capital income and inheritance taxation can separately finance shared capabilities, first demonstrations and broader productive ownership. State the public objective, investment and administrative costs, and independent review of public funders. Do not require an individual desert audit or imply that the theorem sets a tax rate. Let choices and consequences carry the recommendation instead of preference announcements.
+
+V5 citations: Piketty, Saez, and Stantcheva (2014); Rothschild and Scheuer (2016); Kerr, Nanda, and Rhodes-Kropf (2014). Added foundation: Arrow (1962). Added published tax-design source: Scheuer and Slemrod (2021). The fiscal program is the book's normative argument.
 
 ## 12 An economics of possible worlds
 
@@ -152,7 +154,9 @@ Open at Rothamsted's documented long-term agricultural experiments. Explain the 
 
 Use Rothamsted, Fisher, simulation design, and adaptive experimentation to explain a testable empirical program. Specify targets, observations, uncertainty, costs and decision consequences without an invented trial, spending cap or sample size.
 
-The epilogue opens with Rothamsted's wheat plots and the work of keeping a comparison alive. Move into brief anonymous illustrations of a beginner needing an assignment and a rival AI system needing suitable work. Show practical ways to test alternatives without repeating the definitions or chapter-by-chapter qualifications. End with Lockdown's observed alternative charts and the next opportunity still open to choice. No fictional evaluation is presented as the book’s resolution.
+Build the final section from the information limit to a chosen public objective of independent discovery. Bring access duties, action before lasting foreclosure, corrective charges, and capital income/inheritance financing into one institutional conclusion. Distinguish a dividend from entry, a fiscal objective from measured damages, and public capacity from independent judgment. Retain costs and meaningful tests of proposed remedies.
+
+The epilogue opens with Rothamsted's wheat plots and the work of keeping a comparison alive. Move into brief anonymous illustrations of a beginner needing an assignment and a rival AI system needing suitable work. Make the prescriptions tangible for a worker, an AI entrant and a researcher, using consequences and a limited number of questions rather than preference announcements. Return to Lockdown's observed alternative charts. End: "An economy should reward its winners without giving them ownership of everyone else's chance." No fictional evaluation is presented as the book's resolution.
 
 Define robustness as discovering and adopting workable alternatives after failure at acceptable cost. Specify evidence capable of defeating the hypothesis, including unusable access, common errors, displaced tests, excessive cost and suppression of inconvenient findings. Return to Lockdown and its documented alternative chart.
 

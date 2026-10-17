@@ -4,7 +4,7 @@
 
 Sweden introduced its nitrogen-oxide charge in 1992. Covered energy-production facilities paid for emissions, while receipts were returned in relation to useful energy output. The design separated a harmful by-product from the productive activity that generated it.[^c11-5]
 
-A business decision can improve current production while closing a route to discovering alternatives. A case for taxation would need to show that losing that route imposes a cost on others, and that a tax is a useful way to address it.
+A business decision can improve current production while closing a route to discovering alternatives. If that closure prevents useful learning that others cannot replace, its private return omits a cost borne elsewhere. Making the decision maker face that cost changes the incentive to close the route. A corrective charge is one instrument. An access obligation may preserve the comparison more directly.
 
 There are two tax questions here. One asks how confidently income can be divided between productive contribution and historical position. The other asks whether particular conduct imposes an external cost by preventing valuable comparison. Explaining a fortune and changing future incentives are different tasks.
 
@@ -96,7 +96,27 @@ Public provision has an opportunity cost as well. Money and expertise used for e
 
 Verification is part of that expense. Repetitive easy tasks can inflate a test count, and selective cases can flatter an entrant. Relevant task selection, checked outcomes, version records, and independent scrutiny help establish what evidence was actually produced. A nominally cheap substitute can be costly once those safeguards are included.
 
-## Before choosing a rate
+## Who pays for the next attempt?
+
+Suppose a dominant AI supplier controls the only practical interface through which an available rival could be evaluated. If a restrictive term prevents a useful test, the first question is whether an access duty can restore it. A charge that leaves the rival locked out may raise money without fixing the obstruction. Where a bounded, secure arrangement can restore the route at a justified cost, opening it addresses the problem directly.
+
+Where conduct still imposes a measurable external loss, a corrective charge should reflect that loss after feasible replacement and private responses are counted. Revenues could support independent evaluation or access. Spending the money well is a separate obligation: the public laboratory has to produce usable evidence, and affected people must be able to act on it. The firm's wealth alone supplies no estimate of the damage.
+
+Now consider a team that could use the interface but cannot finance the work needed to reach a credible trial. Access rules alone leave it outside. Shared research and wider access to productive assets require financing, and relying entirely on existing owners lets their willingness to fund a challenge decide which challenges occur. Progressive taxation of capital income and large inheritances can supply part of that financing and spread ownership beyond its current holders. Its justification is the productive participation and independent discovery it makes possible. No verdict about each taxpayer's moral desert is needed.
+
+Florian Scheuer and Joel Slemrod's review of wealth taxation examines the choice of tax base, valuation, avoidance, enforcement, and behavioral responses. Those choices change what a tax collects and how people respond.[^c11-wealth] A tax on annual wealth, a tax on capital income, and an inheritance tax reach different things. Workable capital income and inheritance taxation offer routes to financing broader participation; their investment and financing effects determine the terms. Uncertainty about contribution alone supplies neither a preferred instrument nor a tax rate.
+
+The uses of the revenue should be concrete. A shared computing facility could let a qualified team attempt a different model. An independently governed laboratory could test failures that no supplier has an incentive to disclose. Grants could finance credible first demonstrations. Broadly held funds or employee ownership could distribute claims on productive assets beyond their existing owners. These are proposals for widening the means to attempt and benefit from economic activity; their performance has to be measured against their costs.
+
+A payment to a household can make it easier to survive a failed attempt or to acquire training. It can also serve the straightforward purpose of protecting income. It need not generate a comparison to be worthwhile. But a policy advertised as restoring contestability has to reach the missing resource or permission: cash cannot, by itself, open a closed interface.
+
+The public funder should publish qualification rules, allow competing methods, and provide appeal against exclusion. A grant recipient should be able to report failure without concealing it to protect the program. Continuing support should depend on what is learned and on the credible value of further work. Public finance should create alternatives to private gatekeeping while remaining answerable to independent judgment itself.
+
+These fiscal purposes should remain visible in the accounts. A conduct-based charge seeks to change a harmful incentive. General taxation finances shared capabilities and broader participation. Pooling their revenues may be convenient, but financing a valuable laboratory does not establish that every contributor caused an equivalent informational loss. Nor should the same harm be charged twice through overlapping instruments.
+
+Capital can finance the equipment, time, and risk that discovery requires. It can also accumulate around a route whose owner decides who else may enter. Capital income and large inheritances should help finance the shared capabilities through which other people can become productive owners. The terms must preserve reasons to invest. Leaving accumulated returns entirely outside that responsibility allows a successful position to pass to the next generation together with the power to prevent its challengers from developing.
+
+## Choosing rules before knowing every contribution
 
 A defensible charge needs a causal chain: identified conduct, changed comparative evidence, affected decisions and beneficiaries, and an assessed loss after private responses and feasible replacement. It must then improve the attainable outcome after productive benefits, financing, enforcement, and entry are counted.
 
@@ -104,13 +124,15 @@ The time horizon must match on both sides. Software changes can make some findin
 
 Participation can change too. Qualification costs may deter useful entrants; predictable obligations may support investment. Warnings about reduced innovation need investigation, rather than automatic acceptance or dismissal. These are responses affecting the case for a particular instrument.
 
-The evidence may favor access duties, payment for verified testing, public provision, or existing private arrangements. Where plausible accounts disagree about the direction of the welfare effect, a precise positive rate has not been established. A narrower intervention or a limited study may be the useful next step.
+Access duties, payments for verified testing, public provision, and existing private arrangements have to be compared on those terms. Where the evidence cannot support a precise corrective rate, a narrower access remedy or a limited trial can establish what works. General financing choices can still proceed through an explicit public judgment about benefits, burdens, and incentives.
 
-The contribution of shadow futures here is to make the production of comparison an economic concern. The comparison budget identifies a statistical constraint; public finance adds the causal and welfare analysis required for policy. Uncertainty about income's origins, financing shared knowledge, and correcting an external cost remain distinct arguments.
+We do not need agreement about the exact share of every fortune attributable to its owner before choosing a tax system. We need agreement about what that system should make possible, how its costs will be borne, and how its results can be challenged. A reward record that cannot settle contribution should not be asked to certify the rules protecting its own distribution.
 
-The next chapter asks how economics can study those institutions more directly. A successful history records real achievement. It can also change which alternatives remain discoverable. Understanding that interaction requires evidence about both the outcome and the arrangements producing opportunities to learn.
+A settlement that rewards useful investment, broadens ownership, and finances independent routes to discovery gives enterprise a future beyond its current owners. A successful business can earn substantial returns while contributing to the resources through which another business might demonstrate a better way. The next task is to make those opportunities observable in the institutions economics studies.
 
 ## Notes
+
+[^c11-wealth]: Florian Scheuer and Joel Slemrod, "Taxing Our Wealth," *Journal of Economic Perspectives* 35, no. 1 (2021): 207–230. [doi:10.1257/jep.35.1.207](https://doi.org/10.1257/jep.35.1.207).
 
 [^c11-3]: Thomas Piketty, Emmanuel Saez, and Stefanie Stantcheva, “Optimal Taxation of Top Labor Incomes: A Tale of Three Elasticities,” *American Economic Journal: Economic Policy* 6, no. 1 (2014): 230–271, especially 230–235. [Article](https://eml.berkeley.edu/~saez/piketty-saez-stantchevaAEJ14.pdf).
 

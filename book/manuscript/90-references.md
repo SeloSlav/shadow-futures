@@ -220,6 +220,8 @@ Salganik, M. J., and D. J. Watts. 2008. Leading the herd astray: An experimental
 
 Salganik, M. J., Dodds, P. S., and Watts, D. J. (2006). Experimental study of inequality and unpredictability in an artificial cultural market. Science, 311(5762), 854-856. [Source](https://doi.org/10.1126/science.1121066)
 
+Scheuer, F., and J. Slemrod. 2021. Taxing our wealth. Journal of Economic Perspectives 35(1):207-230. [Article](https://doi.org/10.1257/jep.35.1.207)
+
 Smith, A. 1776. An Inquiry into the Nature and Causes of the Wealth of Nations. Book I, Chapters I, III and X, Part II. [Source](https://www.gutenberg.org/files/3300/3300-h/3300-h.htm)
 
 Snow, J. 1855. On the Mode of Communication of Cholera. Second edition. London: John Churchill. Part 3; UCLA transcription. [Source](https://epi-snow.ph.ucla.edu/Stream3_GrandExperiment_a.html)

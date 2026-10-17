@@ -10,7 +10,7 @@ Open a browser on a new device and enter a question into its address bar. Unless
 
 In the Google search case, that apparently ordinary sequence became the subject of an extraordinary record. Browser developers, device manufacturers, and wireless carriers had agreements governing default search placement. Google's payments for distribution exceeded $26 billion in 2021, according to the district court's findings. Default access was valuable enough to command an enormous price even when a user paid nothing to enter a query.[^c5-1]
 
-The court did not explain Google's success by dismissing its product. Its August 2024 opinion credited skilled engineers, continuing innovation, and high search quality. It also found that Google had unlawfully maintained monopolies in general search services and general search text advertising through exclusive distribution agreements. Product accomplishment and unlawful exclusion appeared in the same account. Neither made the other disappear.[^c5-1]
+The court's August 2024 opinion credited Google's skilled engineers, continuing innovation, and high search quality. It also found that Google had unlawfully maintained monopolies in general search services and general search text advertising through exclusive distribution agreements.[^c5-1] Building a useful service and controlling a rival's route to customers are different activities. We can reward the first while restricting the second.
 
 Distribution also shapes what a search engine gets to learn. A query is an opportunity to serve someone. It can also generate information about what people want and how well the service responds. A distribution arrangement can therefore influence both today's allocation of attention and the evidence available for tomorrow's improvement. The advantage does not have to remain a matter of habit. It can help make the favored service better.
 
@@ -208,7 +208,7 @@ An acquisition can also finance development that would otherwise stop. Counting 
 
 The Google record must stand on its own findings about distribution and competition. The pharmaceutical study supplies no finding about Google's motives. But it helps state the timing problem: demanding that every prospective rival first produce a mature superior service can be circular when the challenged restriction concerns the route through which that service could mature.
 
-This proposed information rationale requires a causal account of the lost trial, a valuable decision it would inform, and a remedy worth its costs. Existing antitrust already considers innovation and exclusion. Shadow futures sharpen a question about the record we will inherit; they do not by themselves establish illegality.
+If a rival needs access in order to develop, what would it mean to demand a mature product before granting access? The rule would protect the very condition preventing the rival from qualifying. Exclusive terms that close such an indispensable route should face a presumption against enforcement, subject to evidence that a narrower arrangement cannot protect legitimate interests. Existing antitrust already considers innovation and exclusion; an information-based remedy still needs an identified lost comparison, a useful decision it could inform, and benefits worth the remedy's costs. Legal liability depends on the applicable law and evidence.
 
 ### Whose future is missing?
 

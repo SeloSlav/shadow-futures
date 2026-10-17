@@ -6,8 +6,8 @@
   "date": "2026-10-16",
   "pdf": "/book/shadow-futures.pdf",
   "cover": "/book/shadow-futures-cover.png",
-  "pages": 263,
-  "pdf_bytes": 4379426,
+  "pages": 269,
+  "pdf_bytes": 4394656,
   "contents": [
     {
       "label": "The other life of a song",
@@ -52,37 +52,37 @@
     {
       "label": "The intelligence factory",
       "section": "Chapter 7",
-      "page": 133
+      "page": 134
     },
     {
       "label": "A billion answers",
       "section": "Chapter 8",
-      "page": 152
+      "page": 153
     },
     {
       "label": "The first rung",
       "section": "Chapter 9",
-      "page": 170
+      "page": 171
     },
     {
       "label": "Competition for future evidence",
       "section": "Chapter 10",
-      "page": 186
+      "page": 188
     },
     {
       "label": "Taxing lost comparison",
       "section": "Chapter 11",
-      "page": 203
+      "page": 205
     },
     {
       "label": "An economics of possible worlds",
       "section": "Chapter 12",
-      "page": 212
+      "page": 217
     },
     {
       "label": "The next opportunity",
       "section": "Epilogue",
-      "page": 228
+      "page": 234
     }
   ]
 }

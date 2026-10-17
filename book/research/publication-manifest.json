@@ -6,10 +6,10 @@
   "date": "2026-10-16",
   "pdf": "/book/shadow-futures.pdf",
   "cover": "/book/shadow-futures-cover.png",
-  "pages": 263,
-  "interior_pages": 262,
-  "pdf_bytes": 4379426,
-  "notes": 185,
+  "pages": 269,
+  "interior_pages": 268,
+  "pdf_bytes": 4394656,
+  "notes": 186,
   "contents": [
     {
       "label": "The other life of a song",
@@ -54,37 +54,37 @@
     {
       "label": "The intelligence factory",
       "section": "Chapter 7",
-      "page": 133
+      "page": 134
     },
     {
       "label": "A billion answers",
       "section": "Chapter 8",
-      "page": 152
+      "page": 153
     },
     {
       "label": "The first rung",
       "section": "Chapter 9",
-      "page": 170
+      "page": 171
     },
     {
       "label": "Competition for future evidence",
       "section": "Chapter 10",
-      "page": 186
+      "page": 188
     },
     {
       "label": "Taxing lost comparison",
       "section": "Chapter 11",
-      "page": 203
+      "page": 205
     },
     {
       "label": "An economics of possible worlds",
       "section": "Chapter 12",
-      "page": 212
+      "page": 217
     },
     {
       "label": "The next opportunity",
       "section": "Epilogue",
-      "page": 228
+      "page": 234
     }
   ],
   "trim_inches": [
@@ -97,9 +97,9 @@
   ],
   "paperback": {
     "paper": "black ink / white paper",
-    "spine_inches": 0.590024,
+    "spine_inches": 0.6035360000000001,
     "wrap_inches": [
-      12.840024,
+      12.853536,
       9.25
     ],
     "bleed_inches": 0.125
@@ -109,7 +109,7 @@
     1536
   ],
   "production_note": "KDP-size exports are provided. Generated artwork is natively 1024×1536; 300-dpi raster exports are resampled, not added native detail. Check a print proof; higher-resolution original art is recommended before commercial print upload.",
-  "manuscript_sha256": "367da3a3a21180a677b82fb42e3b580922437640bab2bc05178ae317d57cbd9b",
+  "manuscript_sha256": "19721c45c59333c14de16fc56837be2099d7feb18628ae78ad0e5bd3e48bc5ed",
   "inputs": [
     {
       "file": "book/manuscript/00-prologue.md",
@@ -117,7 +117,7 @@
     },
     {
       "file": "book/manuscript/01-introduction.md",
-      "sha256": "b3bfc34822f4cd21ac757dca7710415f2d95b517ad8eae338d08f2ba9cc4b154"
+      "sha256": "36c1ed92c27e5e0a448e506a9da084ffff925484196fa8a890bad850d666f179"
     },
     {
       "file": "book/manuscript/02-the-winner-and-the-explanation.md",
@@ -137,11 +137,11 @@
     },
     {
       "file": "book/manuscript/06-who-gets-to-be-tested.md",
-      "sha256": "92701672de1abe3bd96ae25bba3c8d6fee7bd41d79e3b14470a476c9d704c920"
+      "sha256": "2db1f63c4396e6d1b2f363fd7ed06a63e99fb6b38bdab518aca9da7419604c17"
     },
     {
       "file": "book/manuscript/07-who-deserves-the-winnings.md",
-      "sha256": "fbc20b397bafd2c584df06c4b3f1df85155f6afc20a6d167fe43cf4d2edd943b"
+      "sha256": "6e81f8e290c2af605d17d4a59da95dfdada0f42fb22cae274b0aedeebd240563"
     },
     {
       "file": "book/manuscript/08-the-intelligence-factory.md",
@@ -153,34 +153,34 @@
     },
     {
       "file": "book/manuscript/10-the-first-rung.md",
-      "sha256": "248f5854d165cd954b9ad0eca99a6289eee482eded84821e76c1121085ef1278"
+      "sha256": "a15851227097d8e7429323aad249f11cebe909ed749b2bb86383cd43c192b223"
     },
     {
       "file": "book/manuscript/11-competition-for-future-evidence.md",
-      "sha256": "6a193c4c25449c0472d7228a011fe1b13683aa0c2e73ff3068b1d82a69454403"
+      "sha256": "94eccbe2566a7c2a5cfee9d2aa87daff2a1fad93e2ab75c05bbbb18fa6872df5"
     },
     {
       "file": "book/manuscript/12-taxing-lost-comparison.md",
-      "sha256": "ac1861c2639e634a81b6b2f80718135c300afe1d73d1353c9ef5b01608720362"
+      "sha256": "945f689a34e48be78937d173ab06c4edffd3931f39efa2d4c53ca65b53502644"
     },
     {
       "file": "book/manuscript/13-an-economics-of-possible-worlds.md",
-      "sha256": "83af3da538be65b6f04c5c0fe9e4d6556db10130f807ef22c8769cb920bd3f95"
+      "sha256": "4f5d1afd11c64da1449d30df8c6415ea80be2672a5b7c81c0435f5bb799be2e5"
     },
     {
       "file": "book/manuscript/14-epilogue.md",
-      "sha256": "036840057ce2dd736f7abea3f134e571a5249ee6d4edf895e4e4765ff75ac381"
+      "sha256": "1cc4e9256047e4b0586de8931ba65036b888022395e8375647debe109e55b7e1"
     },
     {
       "file": "book/manuscript/90-references.md",
-      "sha256": "9909dcdb30b5a2f27aa93b178f6fbb43e5b2eca996bde3c075897e2ae576ab9f"
+      "sha256": "6ebef8f64fac6845a978a9fd9e41e0eacf7ac3f913a28e69918e2188538ffe17"
     },
     {
       "file": "book/manuscript/91-acknowledgments.md",
       "sha256": "d577aee194f1f47aa3e450ae3f0e07b6dd11ac83de4080857d6c0708b2e5d8ba"
     }
   ],
-  "pdf_sha256": "5e97c66f36afe810e85cb45a834b3fb8c189a5d5dd9c5efcc70b149782ef425d",
+  "pdf_sha256": "6f566e8ff9827df0f1243db715c27c702dcf749514c8c2d8b5d3d7b08f300bd9",
   "kdp_sources": [
     "https://kdp.amazon.com/en_US/help/topic/G201953020",
     "https://kdp.amazon.com/en_US/help/topic/G6GTK3T3NUHKLEFX",

@@ -126,7 +126,9 @@ Scale also supplies research, reliability, and lower costs. One large supplier c
 
 Competition policy already reaches beyond prices. The United States' 2023 Merger Guidelines discuss products, features, innovation, wages, benefits, and research competition. The proposed information rationale adds a question about future evidence; it does not discover nonprice antitrust or dispense with statutory requirements.[^c10-10]
 
-Here is the policy position I favor. When a gatekeeper controls an indispensable route to useful independent evaluation, and there is credible evidence that closing it would be hard to reverse, the presumption should favor keeping a workable route open. Waiting for the last effective challenger to disappear can destroy the evidence needed to appraise the decision. The burden should then fall on the proposed restriction to demonstrate why a narrower arrangement cannot protect legitimate interests.
+Who should bear the burden when closing a route could destroy the evidence needed to judge that closure? Requiring the excluded challenger to supply the missing demonstration makes the obstruction its own defense. When a gatekeeper controls an indispensable route to useful independent evaluation, and credible evidence shows that closure would be hard to reverse, access should therefore be protected by an enforceable, rebuttable duty. The party seeking the restriction should have to demonstrate why a narrower arrangement cannot protect legitimate interests. A challenge to the gatekeeper's own judgment must be assessable by someone other than the gatekeeper.
+
+The timing matters. Requiring a challenger to arrive with a mature product can protect the very restriction preventing it from developing one. The evidence needed at this stage concerns a credible development route, the obstruction to it, and the value of keeping it available. Waiting for the last effective challenger to disappear can destroy the evidence needed to appraise the decision.
 
 Keeping an option to learn has a cost, as does losing it. Arrow and Anthony Fisher examined how waiting for more information can affect the choice to make an irreversible investment. Their analysis treats that future information as part of a cost-benefit appraisal.[^c10-precaution]
 
@@ -140,7 +142,7 @@ For AI, an obligation might concern an interface or a secure evaluation route ra
 
 The public authority also needs limits. It should specify the affected decision, plausible lost comparison, legal power, expected benefit, costs, and less burdensome substitutes. A secure audit may suffice where existing evidence answers the question. Prospective trials matter when no file can contain the missing contrast. My proposed time-limited evaluation power would require legislation wherever existing authority is insufficient, along with challenge and review.[^c10-11]
 
-I favor property rights that reward invention while leaving competitors a workable route to test and develop their own ideas. Access duties should be justified by the comparisons they enable, the decisions they improve, and their costs.
+Property rights should reward invention while leaving competitors a workable route to test and develop their own ideas. Where those routes depend on essential infrastructure, the owner should face a duty to provide appropriately bounded access on workable terms. An incumbent's private tests can satisfy a particular information need when their evidence is usable by the affected decision makers. They do not settle whether an excluded entrant could develop a capability those tests never allow it to attempt.
 
 Government can also become the single judge. A mandatory benchmark, favored consultant, or official platform could synchronize mistakes across an economy. Independent appeal, alternative methods, and revision must constrain the evaluator as well as the evaluated. Precaution should keep discovery possible on both sides of the public-private boundary.
 

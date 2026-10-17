@@ -152,41 +152,45 @@ Finally, the report would state which counterfactual it is evaluating. A shadow 
 
 A useful procurement report can be brief: what question did the buyer ask, which services were compared, what happened, what remains uncertain, and what decision follows? The methods and records should be available for anyone authorized to check them.
 
-## A research program with room to fail
+## Economics should test the rules
 
-The comparison budget is not a ready-made ranking of economies. Application requires a specified allocation process, justified conditional probabilities, relevant alternatives, and a target the available observations can distinguish.
+An economist could begin with one purchase. Record which suppliers were eligible, how the buyer selected them, what the buyer learned about their work, and whether another test changed the next decision. Establish the assignment probabilities from the actual process, with uncertainty where they must be estimated. Compare the information in the award record with the information added by checked outcomes. That would give the comparison budget a specified empirical setting instead of treating market shares as its measure.
 
-A first useful project could reconstruct a procurement process with known assignment rules and checked outcomes. It would ask how much the allocation record alone reveals, what the additional outcomes contribute, and how conclusions change under plausible feedback mechanisms. An estimate that changes sharply when a reasonable mechanism is altered should be reported as sensitive, rather than polished into false certainty.
+The next step is to compare practical ways of learning more. A buyer could extend the existing contract, retain more useful records, evaluate an available rival on suitable tasks, or purchase an independent assessment. Costs, shared errors, and what each supplier has already learned belong in the design. A fresh group of tasks does not erase shared state or make observations independent by declaration.
 
-A second could compare feasible evaluation designs within that process. Extend one history, create a fresh task cohort, retain a previous measurement, or buy another source of evidence. The aim would be to discover which option improves a defined inference or purchasing decision at acceptable cost. Calling a cohort fresh would not establish independence if it retains the same suppliers' learned state and shared shocks.
+Then examine the rules supplying access. If a rival cannot reach the trial, identify the missing permission or resource. Change a bounded part of the arrangement where feasible, observe what new work becomes possible, and assess whether the result improves a consequential choice. Count private testing that public provision displaces. A remedy that adds expense without adding usable evidence should be revised or ended.
 
-A third could investigate the institution supplying access. Which permissions, costs, and incentives prevent a useful test? Can a contract solve the problem? Do public tests replace private ones? Does a narrow interface preserve scale benefits while making a missing outcome observable? These are questions for evidence, and their answers could weaken as well as strengthen a case for intervention.
+Hayek described competition as a way to discover facts that were not known or used beforehand.[^c12-13] Economics should make the institutions performing that discovery a subject of sustained investigation. The relevant outcome includes whether a capable alternative can obtain a credible test, whether its findings reach the people who need them, and whether those people can act on what they learn.
 
-A useful next study could begin with one purchase. Record which alternatives were eligible, how they were selected, which outcomes reached the buyer, and what additional test changed the decision. That would not measure an entire economy’s lost possibilities. It could establish something more modest and actionable: whether a specific institution could learn more, at a cost worth paying.
+For AI, computing capacity, power connections, skilled staff, and working systems are real constraints. An applicant with no feasible development route cannot be made competitive by a paper right to access. But a team capable of a bounded evaluation need not reproduce an entire frontier training operation. The economist should identify the smallest workable arrangement that answers the useful question, then compare its benefits with its full costs.
 
-Hayek described competition as a way to discover facts that were not known or used beforehand.[^c12-13] We can investigate where that discovery works, which questions it answers, and whether another arrangement would produce more useful evidence at acceptable cost.
-
-Likewise, acknowledging the costs of duplicated production should not end the inquiry before considering duplicated evaluation. Several firms need not each build a complete frontier training operation to contribute useful tests of deployed services. Some comparisons can occur within an integrated organization; others may need independent access. The capability, cost, and information questions must each be examined.
-
-The physical AI economy makes this separation consequential. Computing capacity, power connections, skilled staff, and working systems are productive constraints. Preserving a hypothetical competitor with no feasible route to meeting them is not an experiment. A bounded test of an available alternative might be. The researcher must specify the alternative well enough for somebody to attempt it.
-
-The prospect of failure is part of the program's value.
-
-A convincing first application should therefore be small enough to inspect. An observation inventory, an auditable allocation rule, a set of checked outcomes, and a plainly stated decision would be more valuable than an industry ranking built from convenient public shares. Other researchers could then examine the same target under a different mechanism, add an omitted measurement, or run a feasible replication. If replacing a lost comparison costs little, a dramatic damage story weakens. If a proposed intervention destroys more productive value than its evidence can recover, the recommendation should change.
-
-There is a corresponding possibility on the other side. A seemingly efficient arrangement may omit the only feasible route through which an alternative can demonstrate a consequential capability. Discovering that fact could justify a well-targeted institutional change. The policy case becomes stronger when the missing comparison and the attainable improvement are shown, rather than merely imagined.
+These studies would give policy a means to improve. Publish the allocation rules, relevant outcomes, and grounds for changing a decision so that other investigators can check them. Retain room for a result showing that the incumbent remains best, that a private contract already supplies the necessary evidence, or that a public intervention costs more than it achieves. A commitment to discovery has to permit those findings too.
 
 ## The record we choose to leave
 
 At Rothamsted, someone had to preserve the samples, label them, and keep the treatment records intelligible. Later researchers could put new questions to that material. An archive that had been discarded could not have answered them.
 
-Markets leave records too. Some come from ordinary sales; others from deliberate tests. A customer database, a trial's assignment log, and an independent evaluation can help answer different questions. Economics should investigate what each costs to produce and which decisions it can improve.
+An economy makes a similar choice whenever it allocates another opportunity. It can support the established supplier and also preserve an independent route through which someone else could demonstrate a better method. It can distribute a share of capital's returns more widely and give people resources with which to attempt something new. Or it can let control over the next attempt accumulate with control over the last reward.
 
-MusicLab gave the same recordings more than one opportunity to develop a following. Lockdown finished first in one world and fortieth in another.[^c12-14] Seeing both charts changes the explanation we can give. An account built around the winning result has to accommodate the other outcome too.
+The comparison budget gives that choice a precise statistical dimension. Under the allocation model's conditions, a finite lifetime total of chances outside the current favorite can leave contribution unresolved even as the reward record grows indefinitely. The practical concern is the opportunity to generate the missing evidence. A larger file of the incumbent's awards cannot always supply it.
 
-To judge an institution, follow a decision. A buyer considering a new supplier should be able to use a trial's result. A training program should be able to change when a different method helps beginners. Keeping records, arranging access, and checking outcomes matter when they give someone a workable reason to act.
+An economy committed to independent discovery has reason to reward useful work while preserving routes to challenge it. A substantial return can finance the next invention. Giving its recipient authority over whether anyone else can attempt one adds a different power, with different consequences. The payment and the power should be judged separately.
 
-The value of another comparison lies in the choice it can improve. Economics should help us find where that value is greatest, and how to obtain it.
+Start with a gatekeeper controlling an indispensable route to evaluation. If closing it threatens a lasting loss of useful comparison, protecting access preserves the possibility of discovering which supplier deserves the next contract. Documented interfaces, voluntary portability, secure evaluation access, and independently reviewed terms can make an enforceable duty concrete. The obligation should follow the actual obstruction, with privacy, security, resource costs, and investment included in its design. When useful private evidence already answers the affected decision, duplicating the experiment may buy nothing.
+
+Act while the alternative can still develop. A team cannot be required to demonstrate years of learning before obtaining the customers through whom that learning would occur. Before closure becomes difficult to reverse, the question is whether there is a credible attempt worth keeping possible. Preserving that route gives the claim a chance to encounter evidence. It promises neither a contract nor permanent support for an unsuccessful rival.
+
+Where restrictive conduct prevents valuable learning and imposes a cost on others, leaving that cost outside the decision rewards too much restriction. An access duty may prevent the loss. A corrective charge may address a remaining external harm. Its justification depends on the missing comparison, the decisions affected, and what feasible replacement would achieve. A large profit supplies neither a damage meter nor a reason to ignore a demonstrated obstruction.
+
+Opening a gate accomplishes little for someone unable to afford the attempt. Capital income and inheritance taxation can help finance independent experimentation and broader ownership of productive assets. A shared computing facility, a credible first demonstration, or a stake in a broadly held fund can put a different means of economic participation within reach. Such financing has to preserve useful investment and account for avoidance, administration, and the benefits actually delivered. It need not wait for an impossible audit of every taxpayer's exact contribution.
+
+Ownership and entry require attention together. A dividend can spread income while leaving the recipient dependent on one supplier's permission. Public computing can support another development route while its admission rules exclude inconvenient challengers. Broader capital ownership needs independent evaluation, published eligibility rules, and appeal alongside it. Government should be as open to a challenge to its preferred answer as a private gatekeeper is required to be.
+
+MusicLab gave the same recordings more than one opportunity to develop a following. Lockdown finished first in one world and fortieth in another.[^c12-14] Its success was real in one history. Its neglect was real in the other. Neither chart could tell the whole story by itself.
+
+We will rarely have both charts for an economy. We still have to choose how its rewards are taxed, which rights accompany ownership, and what opportunities remain available to people whose work has not yet acquired a record. The choice can rest on shared aims and practical evidence about institutions. It need not rest on a claim that today's distribution has finally established who deserves everything they received.
+
+A successful economy needs reasons to keep producing and the means for other people to begin. Protecting investment, financing useful challenges, and limiting the power to close an essential gate serve those purposes together. Success can earn a reward. The next opportunity must remain open to a different answer.
 
 ## Notes
 
