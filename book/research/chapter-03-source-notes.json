@@ -4,8 +4,8 @@
   "checked_on": "2026-10-16",
   "status": "editorial_reviewed_sources_pending",
   "target_main_words": 6000,
-  "body_words": 4444,
-  "draft_sha256": "062560852eb743fd2e7a15e426231a3f261a7b787274f32b202dd26272fdc190",
+  "body_words": 4293,
+  "draft_sha256": "0c72ff385e9ab28ee604587145e58983eaa14ef8a2d3d78a73b465f9f87a003b",
   "source_checks": "Substantive main-text source passages and v5 conditions checked. Four technical-lineage entries have explicit partial/original-access boundaries and remain on final source audit queue. No independent proof or established priority certification.",
   "sources": [
     {
@@ -331,7 +331,7 @@
       "result": "Publisher preview/metadata and edition confirmed; relevant full chapter passages not obtained. No substitute edition or unverified third-party upload used."
     }
   ],
-  "note_words": 780,
+  "note_words": 430,
   "final_prose_revision": {
     "checked_on": "2026-10-16",
     "status": "completed_for_changed_passages",
@@ -362,5 +362,11 @@
     "source_checks": "Existing claim-specific passages reused; no new externally reported experiment, historical scene, legal status or independently certified theorem. Source conditions and four earlier original-passage flags remain internal.",
     "qualifications_retained": "Observed outcomes, study settings and dates, nonrandomized associations, hypothetical status, proposal ownership and limits of the observation model retained in plain body language.",
     "review": "Changed prose and relevant neighbors reviewed once. The origin statement expresses the author-requested intellectual connection, not a newly reported biographical event."
+  },
+  "developmental_revision": {
+    "date": "2026-10-18",
+    "record": "book/research/developmental-review-2026-10-18.json",
+    "scope": "Thesis, chapter contribution and conclusion; subsequent explicit UBI steering integrated where relevant. Existing claim-specific source checks reused; no whole-book proof certification.",
+    "publication": "Manuscript only; exports and push await an explicit request."
   }
 }

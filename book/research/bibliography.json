@@ -168,7 +168,8 @@
       "cited_in": [
         "book/manuscript/08-the-intelligence-factory.md",
         "book/manuscript/11-competition-for-future-evidence.md",
-        "book/manuscript/12-taxing-lost-comparison.md"
+        "book/manuscript/12-taxing-lost-comparison.md",
+        "book/manuscript/13-an-economics-of-possible-worlds.md"
       ],
       "canonical_v5_reference": false
     },
@@ -1610,7 +1611,8 @@
         "https://www.edge.org/conversation/stuart_a_kauffman-the-adjacent-possible"
       ],
       "cited_in": [
-        "book/manuscript/01-introduction.md"
+        "book/manuscript/01-introduction.md",
+        "book/manuscript/13-an-economics-of-possible-worlds.md"
       ],
       "canonical_v5_reference": false
     },
@@ -3038,6 +3040,61 @@
       ],
       "cited_in": [
         "book/manuscript/02-the-winner-and-the-explanation.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "PaineAgrarianJustice",
+      "source_keys": [
+        "PaineAgrarianJustice"
+      ],
+      "citation": "Paine, T. Agrarian Justice. Thomas Paine Historical Association transcription.",
+      "links": [
+        {
+          "label": "Primary text",
+          "url": "https://thomaspaine.org/major-works/agrarian-justice/"
+        }
+      ],
+      "cited_in": [
+        "book/manuscript/12-taxing-lost-comparison.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "VanParijs1991Surfers",
+      "source_keys": [
+        "VanParijs1991Surfers"
+      ],
+      "citation": "Van Parijs, P. 1991. Why Surfers Should Be Fed: The Liberal Case for an Unconditional Basic Income. Philosophy & Public Affairs 20(2):101-131.",
+      "links": [
+        {
+          "label": "Published article",
+          "url": "https://research.dial.uclouvain.be/bitstreams/1cc90052-87df-4c3e-95fe-cbbe3d31c54b/download"
+        },
+        {
+          "label": "University publication record",
+          "url": "https://research.dial.uclouvain.be/entities/publication/534c7134-40b6-4992-a63e-62348da4af63"
+        }
+      ],
+      "cited_in": [
+        "book/manuscript/12-taxing-lost-comparison.md"
+      ],
+      "canonical_v5_reference": false
+    },
+    {
+      "id": "APFCFundStructure",
+      "source_keys": [
+        "APFCFundStructure"
+      ],
+      "citation": "Alaska Permanent Fund Corporation. Fund Structure.",
+      "links": [
+        {
+          "label": "Fund account",
+          "url": "https://apfc.org/the-fund/fund-structure/"
+        }
+      ],
+      "cited_in": [
+        "book/manuscript/12-taxing-lost-comparison.md"
       ],
       "canonical_v5_reference": false
     }

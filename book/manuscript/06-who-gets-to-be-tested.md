@@ -78,7 +78,7 @@ Distribution contracts can affect who receives queries. Data terms can affect wh
 
 Verifying invoices, hours, and completed work establishes inputs and execution. Identifying their effects requires suitable comparisons. Access to an existing informative experiment is a different problem from arranging an experiment that has never occurred. Those obstacles call for different responses.
 
-This is why an information argument should begin with a question rather than a label. Which contribution are we trying to understand? Which observations could distinguish the relevant explanations? Who controls the route through which those observations would arise? The term becomes useful when it organizes that investigation. It becomes an accusation without content when it merely replaces “large technology company” with a more alarming phrase.
+A firm that controls access to the relevant test can control whether a claim of superiority meets a serious challenge. The practical power lies in deciding which alternatives reach users, which outcomes are recorded, and who may inspect them. Concentration makes that power worth investigating; the actual routes to comparison determine whether another supplier can challenge it.
 
 ### The product on the bench
 

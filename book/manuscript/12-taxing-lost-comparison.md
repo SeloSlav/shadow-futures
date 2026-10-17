@@ -6,7 +6,7 @@ Sweden introduced its nitrogen-oxide charge in 1992. Covered energy-production f
 
 A business decision can improve current production while closing a route to discovering alternatives. If that closure prevents useful learning that others cannot replace, its private return omits a cost borne elsewhere. Making the decision maker face that cost changes the incentive to close the route. A corrective charge is one instrument. An access obligation may preserve the comparison more directly.
 
-There are two tax questions here. One asks how confidently income can be divided between productive contribution and historical position. The other asks whether particular conduct imposes an external cost by preventing valuable comparison. Explaining a fortune and changing future incentives are different tasks.
+Taxation can address a demonstrated cost of closing comparison. It can also finance shared capabilities that let other people attempt something new. The first purpose concerns an actor's harmful conduct; the second concerns how society pays for discovery and broadens productive ownership. Neither requires treating a fortune as an exact measurement of its owner's contribution.
 
 ## Income and its explanation
 
@@ -20,7 +20,7 @@ Taxation can proceed without an exact retrospective causal audit of every reward
 
 Casey Rothschild and Florian Scheuer analyze taxation when income combines productive and rent-seeking activities that the authority cannot separately observe for each person. Changing a tax can alter relative returns across activities, strengthening or weakening a direct correction. Averaging the hidden components does not automatically produce the right rate.[^c11-4]
 
-These approaches assess consequences using assumptions about behavior and welfare. They leave room for observable bases and plausible ranges without requiring exact knowledge of individual merit. The comparison-budget argument challenges a stronger confidence in what a reward record must eventually reveal; it does not make public finance impossible.
+These approaches assess consequences using assumptions about behavior and welfare. Observable tax bases and evidence about responses let policy proceed without an exact division of income into individual merit and historical position. The public decision concerns which rules improve the attainable economy, including the effects on productive work, avoidance, investment, and entry.
 
 Moral desert and contractual entitlement require further judgments. A valid promise of payment can matter while its recipient's complete causal contribution remains uncertain. Security against income loss, rewards for valuable investment, and practical routes into new work pursue different aims. Evidence about alternative histories does not turn them into one policy or dictate equal incomes.
 
@@ -108,13 +108,31 @@ Florian Scheuer and Joel Slemrod's review of wealth taxation examines the choice
 
 The uses of the revenue should be concrete. A shared computing facility could let a qualified team attempt a different model. An independently governed laboratory could test failures that no supplier has an incentive to disclose. Grants could finance credible first demonstrations. Broadly held funds or employee ownership could distribute claims on productive assets beyond their existing owners. These are proposals for widening the means to attempt and benefit from economic activity; their performance has to be measured against their costs.
 
-A payment to a household can make it easier to survive a failed attempt or to acquire training. It can also serve the straightforward purpose of protecting income. It need not generate a comparison to be worthwhile. But a policy advertised as restoring contestability has to reach the missing resource or permission: cash cannot, by itself, open a closed interface.
-
-The public funder should publish qualification rules, allow competing methods, and provide appeal against exclusion. A grant recipient should be able to report failure without concealing it to protect the program. Continuing support should depend on what is learned and on the credible value of further work. Public finance should create alternatives to private gatekeeping while remaining answerable to independent judgment itself.
+Public project funders should publish qualification rules, allow competing methods, and provide appeal against exclusion. A grant recipient should be able to report failure without concealing it to protect the program. Continuing project support should depend on what is learned and on the credible value of further work. Public finance should create alternatives to private gatekeeping while remaining answerable to independent judgment itself.
 
 These fiscal purposes should remain visible in the accounts. A conduct-based charge seeks to change a harmful incentive. General taxation finances shared capabilities and broader participation. Pooling their revenues may be convenient, but financing a valuable laboratory does not establish that every contributor caused an equivalent informational loss. Nor should the same harm be charged twice through overlapping instruments.
 
 Capital can finance the equipment, time, and risk that discovery requires. It can also accumulate around a route whose owner decides who else may enter. Capital income and large inheritances should help finance the shared capabilities through which other people can become productive owners. The terms must preserve reasons to invest. Leaving accumulated returns entirely outside that responsibility allows a successful position to pass to the next generation together with the power to prevent its challengers from developing.
+
+## A dividend for the futures that never began
+
+Imagine that a few AI and robotics companies come to supply much of society's productive capacity. Their systems work, their owners keep investing, and alternatives have no feasible route through the networks, customers, and evaluations needed to develop. Another year of successful production deepens the incumbents' record. It does not supply the missing histories of the challengers that never got started.
+
+Who could apply for compensation? A person would have to show that they might have built a rival, acquired the relevant skills, or found a different market. The evidence might depend on the very opportunities that disappeared. Requiring proof of the unrealized enterprise would let the missing history defeat the claim before it could be heard.
+
+The shared loss is the capacity to find out, not a list of imaginary profits. When private systems close practical routes through a common economic future, society should retain a claim on their returns for everyone. That claim gives a universal basic income an economic purpose beyond relief after unemployment. It compensates the public for accepting an arrangement in which some opportunities can no longer become independently testable histories.
+
+Thomas Paine made a related distinction about land. Private improvement could deserve protection while the community retained a claim for the natural inheritance absorbed by ownership. His proposed fund would make a payment at adulthood and provide an older-age income, with entitlement extending to rich and poor.[^c11-ubi-paine] Philippe Van Parijs later defended an unconditional basic income through real freedom and access to resources, extending his account to the rents attached to scarce jobs.[^c11-ubi-parijs] A universal claim on part of an economy's returns has an intellectual history. The loss of opportunities to develop and test alternatives gives that claim another economic basis.
+
+A universal basic income should be a regular, unconditional payment. No employment test, failed-startup certificate, or demonstration of hypothetical genius should be required. Universality governs the payment; progressivity governs contributions to finance it. Capital income and inheritance taxation should help fund it, alongside returns on broadly held productive assets. People with large economic claims should contribute more to the settlement, even while receiving the same basic entitlement.
+
+Alaska offers a practical reference for sharing returns. Its Permanent Fund receives mineral revenues, invests, and helps finance payments to eligible residents as well as public services.[^c11-ubi-alaska] An annual resource dividend is smaller in ambition than an adequate income floor, and natural resources differ from an AI company. The institution demonstrates that a cash claim can attach to membership rather than to a recipient's work for the enterprises producing the returns.
+
+An income floor has to be financed from actual resources. Its level must account for durable revenues, investment, work incentives, and the public services people still need. A dividend cannot certify what each person lost in a history that never occurred. It gives people an equal basic claim under a shared settlement instead of asking an administrator to rank their unknowable counterfactual careers.
+
+For someone who never starts a company, the payment is still due. A person can use it to care for someone, study, refuse a bad bargain, or live with greater security. Participation in prosperity should not depend on persuading an institution that one's next project will be commercially valuable. That is the universal part of the claim.
+
+The dividend must accompany access duties and independent routes to discovery. Paying people while leaving a closed gateway untouched would share some income while preserving the obstruction. A dividend is no license to close the next gate.
 
 ## Choosing rules before knowing every contribution
 
@@ -155,3 +173,9 @@ A settlement that rewards useful investment, broadens ownership, and finances in
 [^c11-12]: David Blackwell, “Equivalent Comparisons of Experiments,” *Annals of Mathematical Statistics* 24 (1953): 265–272, especially 265–267. [doi:10.1214/aoms/1177729032](https://doi.org/10.1214/aoms/1177729032).
 
 [^c11-13]: Competition and Markets Authority, [*Retail Banking Market Investigation Order 2017*](https://www.gov.uk/government/publications/retail-banking-market-investigation-order-2017/the-retail-banking-market-investigation-order-2017), Part 2 and Part 3, Article 16.
+
+[^c11-ubi-paine]: Thomas Paine, [*Agrarian Justice*](https://thomaspaine.org/major-works/agrarian-justice/), “Agrarian Justice” section, paragraphs on ground rent, the proposed national fund, and payments to rich and poor; Thomas Paine Historical Association transcription.
+
+[^c11-ubi-parijs]: Philippe Van Parijs, “Why Surfers Should Be Fed: The Liberal Case for an Unconditional Basic Income,” *Philosophy & Public Affairs* 20, no. 2 (1991): 101–131, especially 102–105 and 124–127, [published article](https://research.dial.uclouvain.be/bitstreams/1cc90052-87df-4c3e-95fe-cbbe3d31c54b/download).
+
+[^c11-ubi-alaska]: Alaska Permanent Fund Corporation, [“Fund Structure”](https://apfc.org/the-fund/fund-structure/), “Principal,” “Earnings Reserve Account,” and “Fund Earnings.”

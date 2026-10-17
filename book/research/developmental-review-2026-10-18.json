@@ -1,0 +1,148 @@
+{
+  "date": "2026-10-18",
+  "baseline_commit": "4b495c1",
+  "scope": "One developmental structural/argument pass plus the author's subsequent explicit request for a firm universal-basic-income position. Chapter openings, architecture, endings, targeted applications, core conditions and concluding sequence assessed. Not a fresh line-by-line review of the complete book.",
+  "editorial_assessment": "book/planning/developmental-review-2026-10-18.md",
+  "thesis": "Success can close the comparisons needed to explain success; the specified comparison budget links allocation chances to an information/precision limit on productive attribution.",
+  "novelty_boundary": "Distinctive proposed economic formulation, bound and attribution interpretation; no claim that incomplete learning, reinforcement, counterfactual thought, epistemic monopoly or UBI are newly discovered. Bounded search does not certify mathematical or historical priority.",
+  "policy_bridge": "Independent discovery and shared productive participation are public objectives. Access duties address threatened closure; corrective charges need demonstrated external costs; capability finance addresses missing resources; universal income rests on an explicit equal shared claim rather than proof of equal individual counterfactual damages.",
+  "ubi_boundary": "Hyperscale and concentration alone do not establish a finite civilization-wide comparison budget. UBI is a firm authorial institutional prescription, not a theorem-derived entitlement schedule. It complements access, project finance, public services and investment; no payment amount or guaranteed tax yield is asserted.",
+  "source_checks": [
+    {
+      "key": "Kauffman2003Adjacent",
+      "url": "https://www.edge.org/conversation/stuart_a_kauffman-the-adjacent-possible",
+      "checked": "2003 account, introductory quotation on candidate general tendencies and exploration as rapidly as organization can sustain; web lines 33-34.",
+      "supports": "An explicitly conjectural account of expanding possible next states subject to organizational survival.",
+      "boundary": "Not an established thermodynamic law, not verification of the entire recollection about the 1995 book, and not the economic attribution theorem."
+    },
+    {
+      "key": "Arrow1962",
+      "url": "https://www.nber.org/system/files/chapters/c2144/c2144.pdf",
+      "checked": "Reused unchanged relevant passage check, chapter-11-source-notes.json, printed pp.609 and 614-617.",
+      "supports": "Private appropriability and information benefits beyond the paying party.",
+      "boundary": "Not support for a uniquely derived UBI, tax rate or specific current AI-market diagnosis."
+    },
+    {
+      "key": "PaineAgrarianJustice",
+      "url": "https://thomaspaine.org/major-works/agrarian-justice/",
+      "checked": "Primary text transcription: improvement versus natural inheritance, community ground rent, proposed fund, adulthood payment and age-50 annuity, entitlement of rich and poor; web lines 88-112.",
+      "supports": "Historical compensation/common-inheritance argument and age-based universal entitlements.",
+      "boundary": "Not modern all-age UBI or a comparison-budget result. Transcription edition/date labels vary; no precise first-publication-date claim made."
+    },
+    {
+      "key": "VanParijs1991Surfers",
+      "url": "https://research.dial.uclouvain.be/bitstreams/1cc90052-87df-4c3e-95fe-cbbe3d31c54b/download",
+      "checked": "University-hosted published 32-page article; relevant definition/real-freedom discussion printed pp.102-105, scarce jobs/employment rents printed pp.124-127; particularly web lines 49-55 and 733-788. Metadata checked in university record.",
+      "supports": "A normative case for substantial unconditional income and extension of resource-sharing reasoning to employment rents.",
+      "boundary": "Not the author's proposed social compensation for foreclosed development possibilities; no automatic adequate payment from AI revenues is established."
+    },
+    {
+      "key": "APFCFundStructure",
+      "url": "https://apfc.org/the-fund/fund-structure/",
+      "checked": "Official fund account, Principal/Earnings Reserve/Fund Earnings: mineral revenues, invested assets, dividends to eligible residents and public services; web lines 60-83 and 105-131.",
+      "supports": "An actual institution combines shared asset returns and payments based on eligibility rather than work for fund enterprises.",
+      "boundary": "Not an adequate national UBI, unconditional eligibility for every person, or evidence about the financing capacity of AI companies. No current numerical draw, returns or dividend amount used."
+    }
+  ],
+  "priority_search_limits": {
+    "SSRN": "Official title/abstract identifiable in search; direct page retrieval failed. Existing local canonical document's contribution statement and current manuscript conditions read. Current posted PDF not independently certified.",
+    "Rothschild1974": "Publisher citation metadata/DOI identified; direct publisher route 403 and API alternate inaccessible. No new checked body claim introduced.",
+    "BrezziLai2002": "Publisher-indexed relevant incomplete-learning passage and university technical-report metadata identified. Full retrieval via publisher/repository unsuccessful. Close comparison recorded for a later dedicated scholarly priority assessment, not represented as full-source verification."
+  },
+  "remaining_original_technical_flags": "The four prior original-passage checks remain unchanged; not reopened or declared resolved.",
+  "changed_components": [
+    {
+      "id": "introduction",
+      "file": "book/manuscript/01-introduction.md",
+      "main_words": 3461,
+      "note_words": 657,
+      "sha256": "c057ea967a985197e2f52a46a5a0d76cdde1a057ac614a3e28f0d66383d53045"
+    },
+    {
+      "id": "chapter_01",
+      "file": "book/manuscript/02-the-winner-and-the-explanation.md",
+      "main_words": 5419,
+      "note_words": 585,
+      "sha256": "0f46d32c777ccf69f07541b40f27a23b6db53df6d6232cf6db71a7b999d75735"
+    },
+    {
+      "id": "chapter_02",
+      "file": "book/manuscript/03-the-comparison-budget.md",
+      "main_words": 4801,
+      "note_words": 294,
+      "sha256": "00f160d7e1ce029126e284486c26499aff7d39469ec1d77fdd21ec86c613e7a8"
+    },
+    {
+      "id": "chapter_03",
+      "file": "book/manuscript/04-shadow-futures.md",
+      "main_words": 4293,
+      "note_words": 430,
+      "sha256": "0c72ff385e9ab28ee604587145e58983eaa14ef8a2d3d78a73b465f9f87a003b"
+    },
+    {
+      "id": "chapter_05",
+      "file": "book/manuscript/06-who-gets-to-be-tested.md",
+      "main_words": 5486,
+      "note_words": 344,
+      "sha256": "d7f60ab4c999be9670d95de9447fe1e6a964476e633b1915f4b7bd3bce87ec8a"
+    },
+    {
+      "id": "chapter_07",
+      "file": "book/manuscript/08-the-intelligence-factory.md",
+      "main_words": 5314,
+      "note_words": 345,
+      "sha256": "d9ecda6b0dbb1020a9c9dbf3d095fb3cf336fbfa84881499d9371d50416f87ee"
+    },
+    {
+      "id": "chapter_08",
+      "file": "book/manuscript/09-a-billion-answers.md",
+      "main_words": 4788,
+      "note_words": 392,
+      "sha256": "207b289825c50266c517ad8fb8537a95b30babf346c8190397c6e4bdcaa52a31"
+    },
+    {
+      "id": "chapter_09",
+      "file": "book/manuscript/10-the-first-rung.md",
+      "main_words": 4550,
+      "note_words": 310,
+      "sha256": "d2ac4325618c392094dd5f6cfbabfdf0d823f8685ed840d332ca09b450102fa7"
+    },
+    {
+      "id": "chapter_10",
+      "file": "book/manuscript/11-competition-for-future-evidence.md",
+      "main_words": 4532,
+      "note_words": 377,
+      "sha256": "b964a826c97ccb3e20ac8ecd21fc26798e82586d9bf419b6143552bfa0a3df7b"
+    },
+    {
+      "id": "chapter_11",
+      "file": "book/manuscript/12-taxing-lost-comparison.md",
+      "main_words": 3496,
+      "note_words": 365,
+      "sha256": "25ac7b8d77522dd47d5dafef9864467fa8408e16b12e3501abbcd83f9d3802b2"
+    },
+    {
+      "id": "chapter_12",
+      "file": "book/manuscript/13-an-economics-of-possible-worlds.md",
+      "main_words": 3741,
+      "note_words": 410,
+      "sha256": "92ff6de2e19074c2ca1668a5cdfaa5045aa9646329afc41b3f3e6cf0b1368e45"
+    },
+    {
+      "id": "epilogue",
+      "file": "book/manuscript/14-epilogue.md",
+      "main_words": 1208,
+      "note_words": 83,
+      "sha256": "5498f622f14a671851fc4309da4775505a7d9bab87438096457dde8311022c15"
+    }
+  ],
+  "verification": {
+    "main_words": 64141,
+    "back_matter_words": 8680,
+    "endnotes": 198,
+    "references": 144,
+    "assembly": "passed",
+    "continuity": "Changed passages and neighbors read once; expected decision value, productive-expansion wording, apprenticeship inference and duplicated concluding recaps corrected.",
+    "publications": "Existing files unchanged; no export or push authorized."
+  }
+}

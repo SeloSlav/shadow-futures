@@ -4,8 +4,8 @@
   "checked_on": "2026-10-16",
   "status": "reviewed",
   "target_main_words": 6000,
-  "body_words": 5466,
-  "draft_sha256": "92701672de1abe3bd96ae25bba3c8d6fee7bd41d79e3b14470a476c9d704c920",
+  "body_words": 5486,
+  "draft_sha256": "d7f60ab4c999be9670d95de9447fe1e6a964476e633b1915f4b7bd3bce87ec8a",
   "source_checks": "Relevant full primary-source passages checked in dated court records, published Meghani text, stakeholder statements and original research report. Some primary text read through indexed full sources after terminal download failure; exact access boundaries retained. No independent proof/priority certification.",
   "sources": [
     {
@@ -212,7 +212,7 @@
     "Index fields, third-party IP boundary and 40% initial syndication cap/tapering taken from actual judgment; no implementation success inferred."
   ],
   "whole_book_review": "Sequential chapter review completed for saved draft and recorded claims. Final cross-book continuity, dated-litigation refresh and completion audit remain required; no independent proof/priority certification.",
-  "note_words": 509,
+  "note_words": 344,
   "historical_scale_revision": {
     "checked_on": "2026-10-16",
     "scope": "Earlier targeted historical-scale revision, subsequently included in the complete sequential chapter review recorded in sequential_review.",
@@ -278,5 +278,11 @@
     "source_checks": "Existing claim-specific passages reused; no new externally reported experiment, historical scene, legal status or independently certified theorem. Source conditions and four earlier original-passage flags remain internal.",
     "qualifications_retained": "Observed outcomes, study settings and dates, nonrandomized associations, hypothetical status, proposal ownership and limits of the observation model retained in plain body language.",
     "review": "Changed prose and relevant neighbors reviewed once. The origin statement expresses the author-requested intellectual connection, not a newly reported biographical event."
+  },
+  "developmental_revision": {
+    "date": "2026-10-18",
+    "record": "book/research/developmental-review-2026-10-18.json",
+    "scope": "Thesis, chapter contribution and conclusion; subsequent explicit UBI steering integrated where relevant. Existing claim-specific source checks reused; no whole-book proof certification.",
+    "publication": "Manuscript only; exports and push await an explicit request."
   }
 }

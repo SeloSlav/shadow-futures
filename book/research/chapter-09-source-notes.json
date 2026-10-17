@@ -4,9 +4,9 @@
   "checked_on": "2026-10-16",
   "status": "reviewed",
   "target_main_words": 6000,
-  "body_words": 4544,
-  "note_words": 572,
-  "draft_sha256": "248f5854d165cd954b9ad0eca99a6289eee482eded84821e76c1121085ef1278",
+  "body_words": 4550,
+  "note_words": 310,
+  "draft_sha256": "d2ac4325618c392094dd5f6cfbabfdf0d823f8685ed840d332ca09b450102fa7",
   "source_checks": "Relevant full primary passages checked for measured outcomes, designs and limits. Published final customer-support record distinguished from author version; learning long version, dated METR studies, published Autor text and robot proof versions explicitly identified. Relevant original Bessen ATM paragraphs were additionally read in indexed publisher text; failed direct fetches, absence of full-PDF inspection and no raw-data replication remain explicit. Agent/capital revision: Original saved Korinek–Suh March 2024 passages checked; theoretical scenarios and hypothetical assets/ownership distinguished.",
   "sources": [
     {
@@ -317,5 +317,11 @@
     "source_checks": "Existing claim-specific passages reused; no new externally reported experiment, historical scene, legal status or independently certified theorem. Source conditions and four earlier original-passage flags remain internal.",
     "qualifications_retained": "Observed outcomes, study settings and dates, nonrandomized associations, hypothetical status, proposal ownership and limits of the observation model retained in plain body language.",
     "review": "Changed prose and relevant neighbors reviewed once. The origin statement expresses the author-requested intellectual connection, not a newly reported biographical event."
+  },
+  "developmental_revision": {
+    "date": "2026-10-18",
+    "record": "book/research/developmental-review-2026-10-18.json",
+    "scope": "Thesis, chapter contribution and conclusion; subsequent explicit UBI steering integrated where relevant. Existing claim-specific source checks reused; no whole-book proof certification.",
+    "publication": "Manuscript only; exports and push await an explicit request."
   }
 }

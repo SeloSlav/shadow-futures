@@ -18,7 +18,7 @@ The engineers also asked what happens when an image changes between visits. A me
 
 Getting somebody to press play was not enough, either. A striking picture could attract an audience that soon abandoned the film. The engineers described using the quality of engagement when labeling their observations, to avoid rewarding that kind of clickbait. Now the record needed to connect the member, title, image, and subsequent response. A million presentations would be less revealing if the file lost those connections.[^c2-1]
 
-The comparison budget names one feature of the process producing such records: accumulated allocation chance outside the current favorite. Brief probability examples will make that accounting concrete before the documented systems show what an application additionally requires.
+The comparison budget counts accumulated allocation chance outside the current favorite. It connects the distribution of opportunities to the evidence those opportunities can produce. Two services with equally busy transaction logs can leave very different scope for learning about productive contribution.
 
 ### What we add up
 
@@ -116,7 +116,7 @@ A stronger version gives accumulated success a much more powerful effect on the 
 
 Roberto Oliveira studied the onset of such dominance, building on earlier monopoly results. Thomas Gottfried and Stefan Grosskinsky later distinguished several feedback regimes, including strong and weaker forms of monopoly. Their results explain how different reinforcement rules can produce different forms of dominance.[^c2-5]
 
-What the comparison budget adds is an information question about the resulting record. In the strong-feedback model developed here, the remaining chances outside the eventual winner are summable. The budget stays finite. Under the other conditions of the attribution result, indefinitely extending that single allocation record cannot supply a universally reliable recovery of the contribution effect. The prior dominance result and the information interpretation do different jobs.
+In the strong-feedback model developed here, the remaining chances outside the eventual winner have a finite total. The comparison budget therefore stays finite. Under the other conditions of the attribution result, the same process that concentrates awards also limits what their history can reveal about productive contribution. Dominance describes who keeps winning. The information bound concerns what those wins allow an observer to learn.
 
 There is a feature here worth holding onto. An alternative can retain a positive chance at every finite stage, yet receive no further awards along the realized history. A positive chance is not a promise of an eventual event. When those chances get small quickly enough, their continuing existence need not create an endless supply of informative deviations. Nominal eligibility and sustained practical contestability can therefore diverge within a precisely specified model.
 
@@ -192,9 +192,9 @@ The order matters. Start with the question, identify a comparison capable of ans
 
 Learning can strengthen the case for an incumbent. An artwork experiment can confirm that the established image works better for the relevant audience. An informative test must allow a result to change our view, including by increasing justified confidence in an existing choice.
 
-The comparison budget measures the accumulated allocation chance outside the current favorite. What those chances reveal depends on the inputs, observed outcomes, and response rules. Preserving more comparison is worthwhile when the resulting evidence improves decisions enough to justify its cost.
+A trial earns its cost when the expected value of a better decision exceeds the resources it uses. The allocation chances, input differences, and checked outcomes determine what it can teach. A busy market that repeatedly confirms its favorite can leave a consequential alternative unresolved, while a smaller, well-designed test can answer the question that matters.
 
-A different early award could produce another history under the same rules. Changing those rules could produce a different economy. Explaining a reward requires knowing which comparison is being made.
+That makes the production of evidence an economic choice. Another award to the favorite buys work now. A relevant trial of a rival can buy work and information for the next decision. The value of those purchases depends on which possible histories the existing record can distinguish.
 
 ## Notes
 

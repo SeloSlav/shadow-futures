@@ -132,7 +132,7 @@ Where deployment mainly reproduces the record of an established service, the que
 
 A million generated answers can reveal performance on encountered tasks without supplying the missing comparison. Applying Chapter 3's result requires specifying the observation process and counting every additional informative outcome and independent test.
 
-Putting the two budgets beside one another helps us ask a constructive question. Can we use some of the computing resource to produce a more informative comparison at tolerable cost? Chinchilla shows the importance of technical experiments. A buyer's pilot might address a different uncertainty about practical performance. Neither requires treating useful scale as a mistake.
+Computing can make an established system more capable or make a competing design testable. Chinchilla demonstrates the productive value of varying the recipe. A buyer's pilot can test a different uncertainty about practical performance. The economic choice is how much capacity to devote to current production and how much to learning which approach is worth expanding.
 
 ## The five-million-dollar number
 

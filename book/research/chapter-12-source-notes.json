@@ -4,9 +4,9 @@
   "checked_on": "2026-10-16",
   "status": "reviewed",
   "target_main_words": 6000,
-  "body_words": 4104,
-  "note_words": 441,
-  "draft_sha256": "83af3da538be65b6f04c5c0fe9e4d6556db10130f807ef22c8769cb920bd3f95",
+  "body_words": 3741,
+  "note_words": 410,
+  "draft_sha256": "92ff6de2e19074c2ca1668a5cdfaa5045aa9646329afc41b3f3e6cf0b1368e45",
   "source_checks": "Relevant primary passages and direct scanned pages checked with exact version/access boundaries. Earlier substantive checks retained by claim; Blackwell1953 original scan now saved and relevant passages checked in cross-book audit. All council design choices/results fictional. Guide printedpp4-8 re-read; Rothamsted January2024 substantive account refreshed; indexed original Bearchell methods/results rechecked after direct PMC challenge.",
   "sources": [
     {
@@ -416,5 +416,11 @@
     "source_checks": "Existing claim-specific passages reused; no new externally reported experiment, historical scene, legal status or independently certified theorem. Source conditions and four earlier original-passage flags remain internal.",
     "qualifications_retained": "Observed outcomes, study settings and dates, nonrandomized associations, hypothetical status, proposal ownership and limits of the observation model retained in plain body language.",
     "review": "Changed prose and relevant neighbors reviewed once. The origin statement expresses the author-requested intellectual connection, not a newly reported biographical event."
+  },
+  "developmental_revision": {
+    "date": "2026-10-18",
+    "record": "book/research/developmental-review-2026-10-18.json",
+    "scope": "Thesis, chapter contribution and conclusion; subsequent explicit UBI steering integrated where relevant. Existing claim-specific source checks reused; no whole-book proof certification.",
+    "publication": "Manuscript only; exports and push await an explicit request."
   }
 }

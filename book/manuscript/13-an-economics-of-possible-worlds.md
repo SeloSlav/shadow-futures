@@ -6,7 +6,7 @@ The winter wheat planted at Broadbalk in autumn 1843 was harvested in 1844. The 
 
 An ordinary commercial field might sensibly receive whatever treatment its owner expects to work best. Broadbalk had another purpose. Some ground continued receiving treatments whose value could be assessed against other ground. Giving every strip the apparently best treatment would have changed what the field could teach.
 
-That does not make the experiment an argument against productive farming. It makes its second product visible. A harvest is an outcome. A maintained comparison helps investigate an explanation. The labor, land, records, and organization required to preserve that explanation have costs and possible benefits of their own.
+The field has two products: grain and evidence. Producing the second requires land, labor, records, and arrangements that preserve useful differences. The harvest serves one purpose; the knowledge can benefit people who never buy its wheat.
 
 The long record also makes a difficulty visible. An experiment cannot remain useful simply by refusing to change. Weeds, soil acidity, new varieties, and changing farming practices can alter the question a comparison answers. Rothamsted's account of its experiments describes considered modifications alongside preserved treatment differences.[^c12-2]
 
@@ -28,57 +28,31 @@ Economics studies how resources produce goods and services, how incentives influ
 
 ## A second use for the harvest
 
-Rothamsted's archived samples can be examined with methods unavailable when they were collected. The record includes physical material, not only numbers in a table. A later researcher can sometimes ask that material a new question.[^c12-3]
+Rothamsted's archived samples can be examined with methods unavailable when they were collected. Physical material preserves possibilities that a table of old measurements alone cannot supply.[^c12-3]
 
-Sarah Bearchell and colleagues took small portions of old leaves and stems from archive containers, powdered them using liquid nitrogen, and extracted DNA. They looked for short DNA sequences to accommodate damage in the old material. Their 2005 study examined two wheat pathogens in samples spanning 1844–2003. Gaps in the archive required combining material from two plots, after checks of comparability. Changes in the pathogens' relative abundance were associated with sulfur-dioxide emissions. The researchers considered other correlated factors; they had not randomized atmospheric pollution.[^c12-4]
+Sarah Bearchell and colleagues powdered old leaves and stems using liquid nitrogen and extracted short DNA sequences, allowing for damage in the aged material. Their 2005 study examined two wheat pathogens in samples spanning 1844–2003. Gaps required combining material from two plots after checks of comparability. Changes in relative pathogen abundance were associated with sulfur-dioxide emissions. The researchers considered other correlated factors; atmospheric pollution had not been randomized.[^c12-4]
 
-The useful surprise is the question made possible. Harvest material retained for one scientific purpose could contain evidence relevant to another. The archive connected a modern laboratory method with a sequence of older observations. It did not manufacture those earlier samples after discovering that they would be useful.
+Someone had kept the samples before knowing that a future laboratory could ask them this question. The archive connected a new method to observations that could no longer be collected afresh. It could preserve material from a harvest that occurred. It could not supply the harvest from a treatment never applied to that ground.
 
-Someone designing a record for today's decision may not know every future question. Keeping suitable material and documentation can make later investigation possible, as Rothamsted's samples did. That potential benefit must still justify the resources used to maintain the archive.
+Digital records have the same distinction. Requests, versions, outputs, corrections, and checked outcomes can support more questions than a success count. They cannot manufacture the response of an alternative that was never tried.
 
-A preserved sample can supply another measurement of a harvest that occurred. It cannot supply the harvest from a treatment never applied to that ground. Material preserves observations from one history; maintained treatment contrasts create evidence from differences in what was done.
+Preservation costs money and can expose sensitive information. A useful record retains the context needed for authorized questions, with limits on access and a reason for keeping it. Missing entries, forgotten selection rules, and changing definitions can make even a large archive hard to interpret. Keeping everything indiscriminately can burden people without helping a consequential decision.
 
-Digital records likewise differ in what they preserve. Requests, versions, outputs, corrections, and checked outcomes can support more questions than a success total. They still cannot invent an unobserved alternative's response to a task.
-
-Neither statement is a reason to collect everything. Residents' records can contain sensitive information. Storage, documentation, security, and authorized access consume resources. The institution must choose what to preserve for justified purposes and how to protect it. A comparison worth maintaining may need a carefully limited record rather than unrestricted retention.
-
-Preservation has an option value and a cost. Retention policies should specify permitted uses, provenance, exclusions, and limits on later claims while protecting the people whose data make investigation possible. The future researcher is one beneficiary among others.
-
-The institutional task is to make those tradeoffs reviewable. A preservation decision should identify the anticipated use, likely costs, permissions, review date, and consequences of deletion. Some judgments will prove mistaken as technology changes. A documented reason for the original choice gives later decision makers a basis for revision. At Rothamsted, the connection between retained material and recorded management allows new questions to reach backward. In software procurement, a comparable ambition is a protected record that remains intelligible after an interface, model, or contractor changes. Neither ambition requires promising that every future question will be answerable.
-
-Aged material requires suitable methods and checks on what the measurements mean. Old procurement logs present a similar problem: missing entries, changing definitions, and forgotten selection rules can obstruct interpretation. A long history helps when later investigators can understand how it was made.
-
-A final success label can discard the original input and the correction needed to diagnose a failure. Retaining those records may enable re-evaluation, subject to reliable checks, relevance, privacy, and reproducible software versions. A useful archive preserves enough context for a justified question.
-
-Archives, natural variation, additional measured outcomes, and designed experiments can all supply evidence about an alternative. Each route depends on a connection between the observations available and the question being asked.
+The durable resource is the connection among the task, the choice, and what happened afterward. Later investigators can revisit that connection as their methods improve. Where the needed event never occurred, someone must create a new comparison.
 
 ## The arrangement makes a difference
 
-Ronald Fisher's 1926 paper on field experiments began with a familiar agricultural difficulty: apparently similar ground can yield differently. A treatment's success cannot be assessed solely by weighing the crop accurately. The arrangement of the comparison affects what the difference means.[^c12-5]
+Ronald Fisher's 1926 paper on field experiments began with a familiar difficulty: apparently similar ground can yield differently. Weighing the crop accurately does not establish how much a treatment caused the difference. The arrangement of the plots affects what the result means.[^c12-5]
 
-His discussion moved from replication to the way plots were allocated. A collection of treatment labels arranged systematically could produce a misleading estimate of error. Random arrangements, including appropriate restrictions that the analysis respects, could support a different inferential claim. The method depended on how the experiment was generated, rather than the appearance of its final diagram alone.
+Fisher examined how allocation and replication affect estimates of error. Appropriate random arrangements could support an inference that a systematic pattern of treatment labels could undermine. Broadbalk's original plots were not a modern randomized trial; its evidence comes from maintained contrasts, subsequent changes, and accumulated observations. Each record has to be understood through the process that made it.
 
-Broadbalk's original plots were not laid out as a modern randomized trial. Its evidence comes from maintained treatment contrasts, subsequent changes, and accumulated observations. Fisher's paper concerns experimental design and the uncertainty calculations appropriate to it. Interpreting each record depends on how its comparisons were made.
+A service comparison likewise needs tasks of known difficulty, suitable assignment, and trustworthy checks. A shared faulty reference can make several systems agree on a wrong answer. Repeating the evaluation does not repair that common error.
 
-The same design issues recur in service evaluation. Different task difficulty, inconsistent judgment, or a shared faulty reference can distort apparently balanced comparisons. Repetition alone does not repair a common measurement error.
+The comparison budget adds a specific quantity to this account of evidence: cumulative allocation chance outside the current favorite. Under the Chapter 3 conditions, it limits information about productive input effects in the allocation history. Customer outcomes, independent tests, or other informative measurements can supply evidence beyond that history.
 
-The remedy is more specific than asking for more data. Which requests entered? How were they allocated? Which outcomes were independently checked? Which service version produced them? What could the system retain or learn between requests? The answers describe the experiment that the analyst actually has.
+An empirical application can examine a defined period without asserting that a market's lifetime budget is finite. Assignment probabilities need a documented basis and uncertainty where they are estimated. Completed-work shares cannot substitute for them. Paired performance measurements contain more information than a list of allocation winners, and the analysis must count it.
 
-Fisher's question about apparently similar ground remains useful for economics: what would justify attributing an observed difference to a treatment rather than the allocation process? Designed experiments, credible existing variation, and structural restrictions offer different routes. Counting an outcome accurately does not identify its cause.
-
-Experimental design, causal inference, structural modeling, sequential learning, and partial identification already provide ways to study counterfactual questions. The comparison budget focuses attention on one part of the evidence supply: the accumulated chances that an allocation goes outside the current favorite.
-
-Under the model's conditions explained in Chapter 3, those chances limit how precisely productive contribution can be recovered from the allocation history. A researcher can then ask whether the real market supplies other observations that overcome that limit.
-
-An application should start with the available records. Does the analyst know the assignment probabilities? Are customer outcomes, independent tests, or other measurements available? Those observations determine whether the model describes the actual information problem.
-
-An empirical study need not begin by claiming that an industry's lifetime budget is finite. A finite record cannot establish that conclusion merely because comparison appears to be slowing. It can investigate a defined horizon, assess uncertainty about the allocation mechanism, and compare feasible ways of producing evidence. That would already be useful progress.
-
-Simulation offers a narrower test. Build an artificial market whose rules are known, run the proposed estimator, and check whether it recovers what was put in. Tim Morris, Ian White, and Michael Crowther explain why a simulation study must state its aims, data-generating mechanisms, and measures of performance. A method can work in that artificial world while failing in a real market whose feedback rules are different.[^c12-7]
-
-A credible account of an allocation process records eligibility, assignment, internal testing, rejected cases, and checked outcomes. Known probabilities should have a documented basis; estimated probabilities need uncertainty. Completed-work shares cannot substitute for them.
-
-An experiment observing paired outcomes contains more information than an allocation-winner record. Its number of cases is not automatically a comparison budget. Applying an allocation-only limit while ignoring checked responses misstates the observation scheme. Designing additional informative outcomes can change what is learnable even when production remains concentrated.
+Simulation can test a method in an artificial market whose rules are known. Morris, White, and Crowther explain how explicit aims, data-generating mechanisms, and performance measures make such a study interpretable.[^c12-7] Connecting its findings to an actual economy requires evidence about that economy's rules. A successful recovery of an artificial parameter tests the method in that setting; a well-designed field comparison tests the real decision.
 
 ## What an empirical test would need
 
@@ -130,41 +104,39 @@ Subsidized computing that produces unusable results still consumes money, equipm
 
 Faster recovery in one country could reflect better equipment, a deeper pool of engineers, or other institutions alongside the access policy. Those differences belong in the explanation. So do the applicants turned away and the findings kept from public view. A list of successful recipients leaves out the people who never reached a test.
 
-## What an economist should report
+## The evidence behind a recommendation
 
-An economic account of a widely used service should establish its costs, accuracy, and reach, then explain what its operating arrangement permits participants to learn about alternatives. Productive improvement and comparative learning can move together or apart.
+An economic account of a widely used service should establish its costs, performance, and reach, then examine who can challenge it. The decisive questions concern a specified contribution, an observation process, and an action the evidence might change.
 
-An informative report would state its target. Is it estimating the value of a supplier's recommendation, the effect of access on entry, the effect of a training design on workers, or the effect of an input on winning rewards? These questions can be connected, but a success on one is not an answer to all the others.
+A buyer predicting tomorrow's workload has a different problem from one estimating the benefit of changing suppliers. Blackwell and Dubins showed how forecasts can merge under specified assumptions. In the allocation model, such agreement can coexist with unresolved productive contribution.[^c12-11] Agreement about the next winner does not establish why the winner wins.
 
-It would identify the observation process. The routing rule, the outcomes retained, internal experiments, and external tests can all matter. A conclusion drawn from allocation winners alone should say so. If more information exists, the analyst should explain what changes when it is included.
+Decision value matters as well as statistical precision. Blackwell's decision perspective supplies a foundation for asking what information enables a person to do.[^c12-12] A precisely measured tiny difference may leave a purchase unchanged. Uncertainty about a rare, costly failure may justify a targeted test. Collection costs, incentives, and usable access determine whether that test is worth buying.
 
-It would report the relevant uncertainty about the mechanism. Two histories with the same market shares may have different assignment processes. Two models can forecast the observed process similarly while disagreeing about how an intervention would work. Precise estimates under one maintained explanation should not conceal uncertainty about that explanation.
+The report must also identify which alternative it studies. A shadow replay preserves underlying effects, initial conditions, and response rules while events unfold differently. Changing an access rule or a training policy changes the institution. Its effects depend on how people respond under the new arrangement.
 
-Blackwell and Dubins show how conditional forecasts can merge under specified assumptions. In the allocation model, that agreement can coexist with unresolved contribution. Accurate prediction of the next winner does not automatically identify the input effect behind the process.[^c12-11]
-
-Forecasts of workload and inference about a different technology answer different questions. Each can be valuable when its evidence and assumptions fit the intended use.
-
-It would also distinguish statistical information from decision value. A measured contrast could be precise but economically trivial. Another could remain uncertain while affecting a consequential choice. Blackwell's decision perspective supplies a foundation; collection costs, interpretation, incentives, and legal feasibility still determine whether obtaining the evidence is worthwhile.[^c12-12]
-
-A precise but tiny difference may leave the purchase unchanged; uncertainty about a costly failure may justify a targeted test. The value of more comparison depends on the decision it can improve.
-
-Finally, the report would state which counterfactual it is evaluating. A shadow replay holds underlying effects, initial conditions, and response rules fixed while allowing the realized history to differ. A new access rule or training policy changes the institution. Its estimated effects depend on how people would respond under the changed rules.
-
-A useful procurement report can be brief: what question did the buyer ask, which services were compared, what happened, what remains uncertain, and what decision follows? The methods and records should be available for anyone authorized to check them.
+A usable account can be brief: what was compared, how it was assigned and checked, what remains uncertain, and what decision follows. Detailed methods and authorized access to records let others challenge the answer.
 
 ## Economics should test the rules
 
-An economist could begin with one purchase. Record which suppliers were eligible, how the buyer selected them, what the buyer learned about their work, and whether another test changed the next decision. Establish the assignment probabilities from the actual process, with uncertainty where they must be estimated. Compare the information in the award record with the information added by checked outcomes. That would give the comparison budget a specified empirical setting instead of treating market shares as its measure.
+A procurement study can follow one purchase: who was eligible, how the supplier was chosen, what was checked, and what the buyer learned. Comparing the information in the award record with the information added by performance checks gives the comparison budget a real empirical setting.
 
-The next step is to compare practical ways of learning more. A buyer could extend the existing contract, retain more useful records, evaluate an available rival on suitable tasks, or purchase an independent assessment. Costs, shared errors, and what each supplier has already learned belong in the design. A fresh group of tasks does not erase shared state or make observations independent by declaration.
+Then examine the route to another test. A buyer might retain better records, evaluate a rival on suitable tasks, or purchase an independent assessment. If an alternative cannot reach the trial, identify the missing permission or resource. A bounded change in access can reveal whether new work becomes feasible and whether it improves the decision. Private testing displaced by a public experiment belongs in the cost.
 
-Then examine the rules supplying access. If a rival cannot reach the trial, identify the missing permission or resource. Change a bounded part of the arrangement where feasible, observe what new work becomes possible, and assess whether the result improves a consequential choice. Count private testing that public provision displaces. A remedy that adds expense without adding usable evidence should be revised or ended.
+Hayek described competition as a way to discover facts not previously known or used.[^c12-13] That makes the institutions supplying discovery part of the economy's productive equipment. They determine whether a capable alternative reaches a test, whether findings reach the people who need them, and whether those people can act.
 
-Hayek described competition as a way to discover facts that were not known or used beforehand.[^c12-13] Economics should make the institutions performing that discovery a subject of sustained investigation. The relevant outcome includes whether a capable alternative can obtain a credible test, whether its findings reach the people who need them, and whether those people can act on what they learn.
+For AI, the missing resource could be computing, a power connection, skilled staff, or suitable tasks. A team capable of a useful evaluation need not reproduce an entire frontier training operation. The smallest workable comparison can be worth more than a nominal right to enter a market it cannot reach.
 
-For AI, computing capacity, power connections, skilled staff, and working systems are real constraints. An applicant with no feasible development route cannot be made competitive by a paper right to access. But a team capable of a bounded evaluation need not reproduce an entire frontier training operation. The economist should identify the smallest workable arrangement that answers the useful question, then compare its benefits with its full costs.
+Public support must be answerable to those outcomes. A remedy that adds expense without usable evidence should change or end. A private test that already resolves the uncertainty should count. The result may favor the incumbent; an institution committed to discovery has to let that finding change its decisions too.
 
-These studies would give policy a means to improve. Publish the allocation rules, relevant outcomes, and grounds for changing a decision so that other investigators can check them. Retain room for a result showing that the incumbent remains best, that a private contract already supplies the necessary evidence, or that a public intervention costs more than it achieves. A commitment to discovery has to permit those findings too.
+## Growth without a way to find out
+
+Kauffman asked whether biospheres tend to expand the possibilities available to them as rapidly as their organization can sustain. This was a conjecture about the creation of new possibilities.[^c12-15] Once a possibility exists, an economy faces a further task: giving it a route to development and learning from what happens.
+
+A service can become more capable while independent ways to test its alternatives become harder to sustain. Its owner's next investment improves the visible product. A rival without a route to customers cannot build the record that would reveal whether a different investment could do better. Growth in productive capacity and growth in the capacity to judge alternatives can come apart.
+
+The comparison budget puts a defined part of that process into the information account. It connects chances outside the favorite to limits on what a reward history can reveal about productive input effects. The conditions in Chapter 3 identify a case where continuing that history cannot finish the attribution job. Evidence from another source can matter precisely because more of the same is insufficient.
+
+At network scale, preventing a challenger from beginning can remove a future comparison before a conventional performance test is even available. Preserving discovery therefore means protecting feasible development routes as well as comparing finished products. A right to start that cannot be exercised leaves the established result in command of the next result.
 
 ## The record we choose to leave
 
@@ -172,9 +144,7 @@ At Rothamsted, someone had to preserve the samples, label them, and keep the tre
 
 An economy makes a similar choice whenever it allocates another opportunity. It can support the established supplier and also preserve an independent route through which someone else could demonstrate a better method. It can distribute a share of capital's returns more widely and give people resources with which to attempt something new. Or it can let control over the next attempt accumulate with control over the last reward.
 
-The comparison budget gives that choice a precise statistical dimension. Under the allocation model's conditions, a finite lifetime total of chances outside the current favorite can leave contribution unresolved even as the reward record grows indefinitely. The practical concern is the opportunity to generate the missing evidence. A larger file of the incumbent's awards cannot always supply it.
-
-At network scale, that difficulty can begin before there is a rival to count. A possible supplier may need customers, resources, and independent evaluation that the prevailing arrangement gives it no feasible way to obtain. The incumbent's returns can keep financing expansion while the challenge that might test those returns never develops. What looks like an indefinitely repeated endorsement can partly reflect a closed route to comparison. To preserve discovery, policy has to examine the conditions for creating an alternative as well as the treatment of alternatives already established.
+The choice concerns who can produce evidence that the existing record does not supply. A potential challenger needs a workable beginning before there can be a finished product to compare.
 
 An economy committed to independent discovery has reason to reward useful work while preserving routes to challenge it. A substantial return can finance the next invention. Giving its recipient authority over whether anyone else can attempt one adds a different power, with different consequences. The payment and the power should be judged separately.
 
@@ -184,9 +154,13 @@ Act while the alternative can still develop. A team cannot be required to demons
 
 Where restrictive conduct prevents valuable learning and imposes a cost on others, leaving that cost outside the decision rewards too much restriction. An access duty may prevent the loss. A corrective charge may address a remaining external harm. Its justification depends on the missing comparison, the decisions affected, and what feasible replacement would achieve. A large profit supplies neither a damage meter nor a reason to ignore a demonstrated obstruction.
 
-Opening a gate accomplishes little for someone unable to afford the attempt. Capital income and inheritance taxation can help finance independent experimentation and broader ownership of productive assets. A shared computing facility, a credible first demonstration, or a stake in a broadly held fund can put a different means of economic participation within reach. Such financing has to preserve useful investment and account for avoidance, administration, and the benefits actually delivered. It need not wait for an impossible audit of every taxpayer's exact contribution.
+Opening a gate accomplishes little for someone unable to afford the attempt. Independent learning can benefit people beyond the buyer paying for it, leaving that buyer too little reason to meet its whole cost.[^c12-16] Financing shared capabilities spreads the bill for discovery and gives more people the means to participate. Capital income and inheritance taxation can support a shared computing facility, a first demonstration, or broader ownership of productive assets. The case rests on the opportunities those arrangements create. Investment effects, avoidance, administration, and the benefits delivered determine workable terms. An exact retrospective division of each fortune into merit and position is unnecessary for choosing them.
 
-Ownership and entry require attention together. A dividend can spread income while leaving the recipient dependent on one supplier's permission. Public computing can support another development route while its admission rules exclude inconvenient challengers. Broader capital ownership needs independent evaluation, published eligibility rules, and appeal alongside it. Government should be as open to a challenge to its preferred answer as a private gatekeeper is required to be.
+A universal basic income should make that shared claim unconditional. Where a common gateway closes development routes, the people who might have taken them cannot be identified by inspecting the winners' records. A universal social dividend avoids making a person prove the enterprise, skill, or invention that an inaccessible opportunity might have allowed them to develop. The public should receive part of the returns without first winning a competition for the right to participate in prosperity.
+
+This is compensation for a shared loss of economic possibility, rather than payment of each person's imagined counterfactual earnings. The equal basic claim comes from a public settlement about who shares the returns of the arrangement. Its payment should be universal; the tax contributions financing it should be progressive. An adequate income floor requires sustainable funding, useful public services, and investment in the production on which the payment depends.
+
+Ownership and entry require attention together. A dividend secures an income claim; workable access preserves a chance to challenge the arrangement producing it. Public computing can also become a gate if one official evaluator controls admission. Shared ownership, independent evaluation, published project-eligibility rules, and appeal should operate together. Government should be as open to a challenge to its preferred answer as a private gatekeeper is required to be.
 
 MusicLab gave the same recordings more than one opportunity to develop a following. Lockdown finished first in one world and fortieth in another.[^c12-14] Its success was real in one history. Its neglect was real in the other. Neither chart could tell the whole story by itself.
 
@@ -221,3 +195,7 @@ A successful economy needs reasons to keep producing and the means for other peo
 [^c12-14]: Salganik, Dodds, and Watts, [“Experimental Study of Inequality and Unpredictability in an Artificial Cultural Market”](https://doi.org/10.1126/science.1121066), 2006, pp. 854–856; Salganik, [*Bit by Bit*, Section 4.6.1](https://www.bitbybitbook.com/en/running-experiments/exp-advice/zero-variable-cost/), open review edition, n.d.
 
 [^c12-arrow1963]: Kenneth J. Arrow, [“Uncertainty and the Welfare Economics of Medical Care”](https://assets.aeaweb.org/asset-server/files/9442.pdf), *American Economic Review* 53(5) (1963): 941–973, especially pp. 941, 947–951.
+
+[^c12-15]: Stuart A. Kauffman, [“The Adjacent Possible”](https://www.edge.org/conversation/stuart_a_kauffman-the-adjacent-possible), *Edge*, November 9, 2003, introductory quotation on candidate laws and sustainable exploration.
+
+[^c12-16]: Kenneth J. Arrow, “Economic Welfare and the Allocation of Resources for Invention,” in *The Rate and Direction of Inventive Activity: Economic and Social Factors* (Princeton University Press and NBER, 1962), 609–626, especially 609 and 614–617, [chapter](https://www.nber.org/system/files/chapters/c2144/c2144.pdf).

@@ -126,7 +126,7 @@ Scale also supplies research, reliability, and lower costs. One large supplier c
 
 ## Precaution without closing discovery
 
-Competition policy already reaches beyond prices. The United States' 2023 Merger Guidelines discuss products, features, innovation, wages, benefits, and research competition.[^c10-10] Control over future evidence gives those concerns another practical dimension: an entrant can lose the chance to demonstrate an improvement before customers can judge it. Any legal remedy still has to meet the applicable statutory requirements.
+An entrant can lose its chance to demonstrate an improvement before customers ever see a product to compare. Protecting discovery therefore requires attention to the development route, while there is still time to preserve it. The United States' 2023 Merger Guidelines already consider innovation, product features, wages, benefits, and research competition.[^c10-10] The additional information question is who will remain able to generate evidence of a better alternative. Legal remedies must meet the applicable statutory requirements.
 
 Who should bear the burden when closing a route could destroy the evidence needed to judge that closure? Requiring the excluded challenger to supply the missing demonstration makes the obstruction its own defense. When a gatekeeper controls an indispensable route to useful independent evaluation, and credible evidence shows that closure would be hard to reverse, access should therefore be protected by an enforceable, rebuttable duty. The party seeking the restriction should have to demonstrate why a narrower arrangement cannot protect legitimate interests. A challenge to the gatekeeper's own judgment must be assessable by someone other than the gatekeeper.
 

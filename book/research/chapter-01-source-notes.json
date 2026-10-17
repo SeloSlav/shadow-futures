@@ -4,8 +4,8 @@
   "checked_on": "2026-10-16",
   "status": "drafted",
   "target_main_words": 6000,
-  "body_words": 5531,
-  "draft_sha256": "48f600b756e892621737dd6f100707c362d1b165f11731964a3e1677fbb2f5e8",
+  "body_words": 5419,
+  "draft_sha256": "0f46d32c777ccf69f07541b40f27a23b6db53df6d6232cf6db71a7b999d75735",
   "source_checks": "Relevant full-source passages checked. Where publisher access failed, the identified author working-paper version or indexed full-source sections were checked; no independent proof or priority certification is claimed.",
   "sources": [
     {
@@ -219,7 +219,7 @@
     "continuity": "Affected explanations and neighboring transitions reviewed; chapter openings/endings checked across the book.",
     "historical_records": "Earlier narrative and review entries remain historical; current reader wording is authoritative."
   },
-  "note_words": 683,
+  "note_words": 585,
   "quick_style_revision": {
     "date": "2026-10-17",
     "manuscript_sha256": "0b6c3ae79a498570086b9bada8850d38a4bb44f6789029d7e85a3461c14d112b",
@@ -243,5 +243,11 @@
     "source_checks": "Existing claim-specific passages reused; no new externally reported experiment, historical scene, legal status or independently certified theorem. Source conditions and four earlier original-passage flags remain internal.",
     "qualifications_retained": "Observed outcomes, study settings and dates, nonrandomized associations, hypothetical status, proposal ownership and limits of the observation model retained in plain body language.",
     "review": "Changed prose and relevant neighbors reviewed once. The origin statement expresses the author-requested intellectual connection, not a newly reported biographical event."
+  },
+  "developmental_revision": {
+    "date": "2026-10-18",
+    "record": "book/research/developmental-review-2026-10-18.json",
+    "scope": "Thesis, chapter contribution and conclusion; subsequent explicit UBI steering integrated where relevant. Existing claim-specific source checks reused; no whole-book proof certification.",
+    "publication": "Manuscript only; exports and push await an explicit request."
   }
 }

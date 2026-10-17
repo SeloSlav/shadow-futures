@@ -196,9 +196,9 @@ That recovery is an important part of the ending. The best songs were not helple
 
 The lower download total raises a separate question about the whole market. A band could benefit from a favorable display while listeners collectively found less music they wanted to keep. An individual's rank and an audience's total enjoyment need not move together. The experiment measures downloads rather than every aspect of welfare, but it makes clear why explaining who wins is different from evaluating the outcome for everyone affected.
 
-For Lockdown's first chart, we now have several warnings against explaining too much from the ending. Initial support can attract further support. A positive vote can influence later evaluation. A grant can change who applies again. A manipulated chart can divert attention, and strong preferences can also resist it. The evidence gives us several mechanisms, rather than a single principle under which every winner is either inevitable or arbitrary.
+An early donation, a positive vote, and a research grant do more than change a score. They can change who receives attention, who improves, and who tries again. The later ranking records those consequences together with the qualities people originally brought to the contest.
 
-The next step is to ask what the record itself can teach us once those mechanisms are operating. Suppose another thousand choices arrive. They might test something new, or repeat a route already strongly favored by the existing history. We need an account of the opportunities for informative comparison inside that sequence. Counting transactions is an appealing place to start, but it cannot be the end of the inquiry.
+Another thousand choices will not necessarily separate those causes. They could give another candidate a serious trial, or keep sending opportunities down the route already favored. A record of transactions counts what happened. Explaining success also requires an account of the comparisons those transactions made possible.
 
 ## Notes
 

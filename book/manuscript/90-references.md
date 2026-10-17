@@ -281,3 +281,9 @@ Mueller, T. Extra Virginity: The Sublime and Scandalous World of Olive Oil. W. W
 U.S. Food and Drug Administration. Economically Motivated Adulteration (Food Fraud). [Agency account](https://www.fda.gov/food/compliance-enforcement-food/economically-motivated-adulteration-food-fraud)
 
 The White House. Fact Sheet: President Donald J. Trump Modifies the Scope of Reciprocal Tariffs and Establishes Procedures for Implementing Trade Deals. September 5, 2025. [Fact sheet](https://www.whitehouse.gov/fact-sheets/2025/09/fact-sheet-president-donald-j-trump-modifies-the-scope-of-reciprocal-tariffs-and-establishes-procedures-for-implementing-trade-deals/)
+
+Paine, T. Agrarian Justice. Thomas Paine Historical Association transcription. [Primary text](https://thomaspaine.org/major-works/agrarian-justice/)
+
+Van Parijs, P. 1991. Why Surfers Should Be Fed: The Liberal Case for an Unconditional Basic Income. Philosophy & Public Affairs 20(2):101-131. [Published article](https://research.dial.uclouvain.be/bitstreams/1cc90052-87df-4c3e-95fe-cbbe3d31c54b/download) [University publication record](https://research.dial.uclouvain.be/entities/publication/534c7134-40b6-4992-a63e-62348da4af63)
+
+Alaska Permanent Fund Corporation. Fund Structure. [Fund account](https://apfc.org/the-fund/fund-structure/)

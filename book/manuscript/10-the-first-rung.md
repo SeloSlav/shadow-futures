@@ -112,7 +112,7 @@ Preserving obsolete manual work solely because it once trained beginners can be 
 
 A simulation might provide repeated practice without risking a customer's records. A supervised assignment could expose a beginner to a more demanding diagnosis sooner. The classroom tutor offers a real example of deliberately changing assistance around learning. The customer-support deployment offers evidence consistent with skills spreading through assistance. These possibilities deserve trials alongside the fear that the entry route will disappear.
 
-It is possible, however, for an employer to discover that it can buy experienced judgment elsewhere more cheaply than it can cultivate it. If many employers make that choice, the next generation's opportunities may change. That is a hypothesis about incentives and collective adjustment. It requires evidence about hiring, training, mobility, and demand. It cannot be established by pointing to a machine that writes a good report.
+If an employer can buy experienced judgment more cheaply than it can cultivate it, training a beginner becomes harder to justify on its own accounts. If many employers make that choice, a sensible purchase for each could weaken the routes through which the next generation learns. The response of hiring, training, mobility, and demand determines whether new routes replace the old ones. Today's completed report records the work accomplished. It does not record what a beginner would have learned by doing it.
 
 ## Who gets the difficult assignment?
 
@@ -186,7 +186,9 @@ Software cannot instantly create an electricity connection or manufacture server
 
 If machines perform more of the work, access to the assets behind that work becomes a more consequential route to income. Employee ownership, jointly financed equipment, and broadly held investment funds can distribute a claim on future output. Public computing access and independent testing facilities can give people resources with which to develop something different. Broader ownership and access should be assessed by who can actually use them and what they enable.
 
-A dividend from an incumbent and the means to challenge it accomplish different things. A worker might own shares in an AI supplier while lacking the money, computing, or customer access to start another business. An ownership policy should therefore be accompanied by workable entry routes, voluntary portability, and opportunities for independent assessment.
+A universal basic income would give everyone a regular claim on a share of the output, including people who never establish a firm or win an evaluation. If a few AI and robotics systems come to perform much of society's production, an ordinary person's income should not depend entirely on being hired by their owners or being selected for a business grant. Shared ownership and taxation can turn part of the returns into an unconditional social dividend.
+
+That dividend and the means to challenge an incumbent accomplish different things. A worker could receive a payment while lacking the computing or customer access to start another business. A universal income should therefore accompany workable entry routes, voluntary portability, and opportunities for independent assessment. Sharing the returns must leave room to challenge the arrangement producing them.
 
 The same requirement applies to public provision. A computing facility with one official evaluator can become another gate. Published eligibility rules, more than one credible route to assessment, and appeal against exclusion make access answerable to a challenge. Financing an alternative should buy an opportunity to demonstrate useful work; continued support should respond to what that work shows.
 

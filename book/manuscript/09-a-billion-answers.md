@@ -198,7 +198,7 @@ This possibility strengthens the constructive part of the comparison argument. A
 
 Evidence that a scheduling rule uses machines better can justify adopting that rule. The experiment compares ways to schedule the available machines. It leaves the contributions of earlier investors and the effects of alternative ownership arrangements to other evidence.
 
-Generated proposals can help us test ambitious ideas when we can define an outcome that establishes improvement. The question is how to connect each proposal to evidence that can distinguish success from a plausible story. That connection lets us use AI's capabilities while examining whether the resulting system accomplishes its purpose.
+AI can lower the cost of producing a proposal and, where independent checks work, the cost of finding out whether it succeeds. That expands the practical room for discovery. When every proposal instead inherits the same untested assumption, multiplying outputs leaves that assumption in place. The decisive resource is the route from a candidate answer to a result capable of overturning it.
 
 ## What the billion requests leave behind
 

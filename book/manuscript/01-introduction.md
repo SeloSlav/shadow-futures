@@ -28,7 +28,7 @@ The advertisements existed. People designed them, placed them, and paid for them
 
 For the shopper who wanted eBay, the alternative was close at hand: another link on a search page. In other settings, the alternative is much harder to recover. It might be another business that never attracted a first customer, another worker who never received an assignment, or another technology that never developed a record of successful use. We can study what happened in great detail while remaining uncertain about what those alternatives would have revealed.
 
-An early reward can affect the opportunity to earn the next reward. When that happens, the market is also helping select the evidence that later observers will use to explain its success. The economy we inhabit is partly a system for producing things and partly a system for deciding which possibilities become observable.
+Success can close the comparisons needed to explain success. An early reward changes who gets the next serious opportunity, and therefore what later observers can learn. The economy produces goods and services while selecting which alternatives acquire a history. More transactions can deepen the record of a winner without settling how much its productive work caused the lead.
 
 To measure the advertisement's short-term contribution, eBay needed customers who could arrive without it. Recording the paid clicks more accurately would not recreate that comparison.
 
@@ -41,6 +41,8 @@ Network science offers another familiar mechanism. In preferential attachment, a
 Consider a platform that sends more tasks to workers with longer records. The feedback can widen their lead and get useful work done. It also determines what anyone can learn about workers who rarely receive a task. A thousand completed jobs for the favorite might reveal little about someone never hired. The problem concerns the production of evidence, before any judgment about whether the winner deserves the income.
 
 ### The work and the difference it made
+
+I developed this question in a research paper, *Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market*, available on SSRN. It introduces the comparison budget and shows how opportunities outside the favorite constrain what an allocation record can reveal about productive contribution.[^i2]
 
 I use contribution uncertainty for uncertainty about the effect of productive inputs on rewards in a specified economic setting. The inputs might include effort, quality, investment, or risk-bearing. The question concerns how an outcome would change if an input changed, while the relevant economic rules continued to apply. A result can be valuable, and the work behind it entirely real, while the size of that effect remains difficult to recover.[^i2]
 
@@ -60,13 +62,13 @@ Kickstarter's experimental first donations helped some projects attract subseque
 
 Each choice does two things: it allocates resources now and helps determine what the next observer will be able to inspect. An expanding record of success can therefore coexist with fewer opportunities to evaluate alternatives.
 
-For each allocation, given the history so far, identify the candidate with the greatest chance of receiving the reward. Take the chance that someone else receives it instead. Accumulate those chances across the opportunities under study. This total is the comparison budget. The favorite can change. The total concerns the chances offered to alternatives, rather than the number of times an outsider actually wins.[^i2]
+For each allocation, given the history so far, identify the candidate with the greatest chance of receiving the reward. Take the chance that someone else receives it instead. Accumulate those chances across the opportunities under study. I call this economic quantity the comparison budget. The favorite can change. The total concerns the chances offered to alternatives, rather than the number of times an outsider actually wins.[^i2]
 
 A list of awards and rejections does not, by itself, tell us those chances. The budget is not a count of winners or the number of firms on a website. To apply the idea empirically, we need evidence about the allocation process: which alternatives are eligible, what changes their prospects, and what is recorded beyond the award. The quantities cannot be read straight from market shares.
 
 MusicLab helps us see why a catalogue is insufficient. A title remaining on a list does not mean listeners encounter it on comparable terms. Conversely, a single business can arrange useful tests of alternatives, as eBay did with advertising. Counting organizations and counting informative opportunities are different inquiries. Institutional design can matter as much as the number of logos on the screen.
 
-Reinforcement had already been connected to estimation failure in urn models by Line Chloé Le Goff and Philippe Soulier.[^i14] In my allocation models, the comparison budget places an upper bound on the information the reward record supplies about productive input effects. Under further conditions, a finite lifetime budget prevents any one method from reliably recovering contribution across every explanation the model allows. Independent measurements can change the available evidence.[^i2]
+Line Chloé Le Goff and Philippe Soulier had already connected reinforcement to estimation failure in urn models.[^i14] The comparison budget connects the remaining allocation chances to a limit on information about productive input effects. In my models it bounds how much information the reward record supplies. Under the additional conditions developed in Chapter 3, a finite lifetime budget prevents any method from reliably recovering contribution across every explanation the model allows. Independent measurements change the available evidence.[^i2]
 
 A tiny but persistent chance of selecting an outsider can keep accumulating. A shrinking chance can also accumulate without limit if it shrinks slowly enough. Even then, comparisons must distinguish the input effects we care about. A trial that never varies the relevant engineering tells us little about its contribution, however often it runs.
 
@@ -93,8 +95,6 @@ I chose *shadow futures* because the phrase holds together two views of the same
 I use the term for feasible alternative allocation histories with the same starting conditions, underlying productive effects, and rules for how people respond. The first customer can change; so can the later investment financed by that first sale. The rules stay fixed while events unfold differently. Kauffman's adjacent possible concerns the opening of new possibilities. My question concerns what we can learn when only one of the available paths becomes observable.
 
 MusicLab makes the idea visible. Lockdown could finish first or fortieth without becoming a different recording. The researchers kept the other chart. An ordinary business rarely gets an equivalent record of the opportunities it missed ten years ago.
-
-The comparison budget connects those missing paths to the paper's impossibility result. It adds the chances of awards going outside the current favorite. Under the model's rules for how productive work affects those chances, a finite lifetime total can leave different accounts of contribution impossible to distinguish reliably from the reward record. Even watching that record grow indefinitely cannot provide a method that recovers the right contribution across every explanation the model allows.[^i2]
 
 That is why I chose a phrase about unrealized futures for a result about knowledge. A path we do not observe can contain a comparison we need to explain the one we do. Another order for the winner adds to its history. It need not tell us what the rival would have learned, built, or earned if an earlier order had gone the other way.
 
@@ -130,7 +130,7 @@ Lost comparison can impose a cost that never appears on the customer's bill. A g
 
 For such a market, waiting for a price increase can mean waiting until an alternative has lost its feasible beginning. Existing competition policy considers innovation and exclusion as well as prices.[^i18] Protecting a workable route to independent evaluation gives those concerns an earlier point of action. Credible threats of lasting closure should trigger a presumption for keeping that route open, with security, investment, and the costs of access included in its terms.
 
-For taxation, explaining an income and changing future incentives are different tasks. The reward record may fail to settle how much contribution produced a fortune. Conduct that prevents useful comparison may also impose costs on others. Establishing those costs can justify a corrective charge. Financing shared research and wider access to productive capital provides a further reason for taxation, without first proving that particular recipients were morally undeserving.
+For taxation, explaining an income and changing future incentives are different tasks. Conduct that prevents useful comparison can impose costs on others, justifying a corrective charge where those costs are established. Shared research, broader ownership, and a universal basic income can give the public a stake in the returns while preserving the capacity to begin again. Their case need not depend on proving that particular recipients were morally undeserving.
 
 Consider a capable team that cannot afford its first credible trial while existing owners use their returns to consolidate the routes to customers. Leaving both positions untouched is a choice about the next opportunity. Using part of capital income and large inheritances to finance shared research and broader access to assets is another. The second can support an economy with room for new judgments and new owners. Its tax rates and spending choices must be assessed through investment, avoidance, administration, and the benefits people actually receive.
 

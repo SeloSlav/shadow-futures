@@ -4,9 +4,9 @@
   "checked_on": "2026-10-16",
   "status": "reviewed",
   "target_main_words": 6000,
-  "body_words": 2253,
-  "note_words": 273,
-  "draft_sha256": "ac1861c2639e634a81b6b2f80718135c300afe1d73d1353c9ef5b01608720362",
+  "body_words": 3496,
+  "note_words": 365,
+  "draft_sha256": "25ac7b8d77522dd47d5dafef9864467fa8408e16b12e3501abbcd83f9d3802b2",
   "source_checks": "Current expanded unpublished tax manuscript and canonical v5 hidden-position passage read directly. Relevant primary predecessor, Swedish agency, CMA order and CEC project/program passages checked with historical dates and version/access boundaries. Public provision additionality and real-company corrective rates not presumed. Sequential review rechecked v5 Section5/E.2 and tax Sections3-7, refreshed Swedish guidance, and read converter/outage passages in directly accessible original CEC PDF via web research.",
   "sources": [
     {
@@ -358,5 +358,11 @@
     "source_checks": "Existing claim-specific passages reused; no new externally reported experiment, historical scene, legal status or independently certified theorem. Source conditions and four earlier original-passage flags remain internal.",
     "qualifications_retained": "Observed outcomes, study settings and dates, nonrandomized associations, hypothetical status, proposal ownership and limits of the observation model retained in plain body language.",
     "review": "Changed prose and relevant neighbors reviewed once. The origin statement expresses the author-requested intellectual connection, not a newly reported biographical event."
+  },
+  "developmental_revision": {
+    "date": "2026-10-18",
+    "record": "book/research/developmental-review-2026-10-18.json",
+    "scope": "Thesis, chapter contribution and conclusion; subsequent explicit UBI steering integrated where relevant. Existing claim-specific source checks reused; no whole-book proof certification.",
+    "publication": "Manuscript only; exports and push await an explicit request."
   }
 }

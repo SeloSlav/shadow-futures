@@ -4,9 +4,9 @@
   "checked_on": "2026-10-16",
   "status": "reviewed",
   "target_main_words": 6000,
-  "body_words": 5004,
-  "note_words": 466,
-  "draft_sha256": "4de5a0d06ce60a32b76f8e8a3d7572630f15a2388260952c6c6a2c3adfced415",
+  "body_words": 4788,
+  "note_words": 392,
+  "draft_sha256": "207b289825c50266c517ad8fb8537a95b30babf346c8190397c6e4bdcaa52a31",
   "source_checks": "Relevant full primary passages checked in published/versioned research papers, original predecessor papers and attributed developer report. Versions, assumptions, measured objectives, author interpretations, simulations and hypotheticals remain distinct. Agent/capital revision: Original Carlini and June 2025 Anthropic architecture passages checked; developer reports and hypothetical contracts distinguished.",
   "sources": [
     {
@@ -360,5 +360,11 @@
     "source_checks": "Existing claim-specific passages reused; no new externally reported experiment, historical scene, legal status or independently certified theorem. Source conditions and four earlier original-passage flags remain internal.",
     "qualifications_retained": "Observed outcomes, study settings and dates, nonrandomized associations, hypothetical status, proposal ownership and limits of the observation model retained in plain body language.",
     "review": "Changed prose and relevant neighbors reviewed once. The origin statement expresses the author-requested intellectual connection, not a newly reported biographical event."
+  },
+  "developmental_revision": {
+    "date": "2026-10-18",
+    "record": "book/research/developmental-review-2026-10-18.json",
+    "scope": "Thesis, chapter contribution and conclusion; subsequent explicit UBI steering integrated where relevant. Existing claim-specific source checks reused; no whole-book proof certification.",
+    "publication": "Manuscript only; exports and push await an explicit request."
   }
 }

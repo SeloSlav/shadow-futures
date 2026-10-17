@@ -32,6 +32,8 @@ A team still needs resources after the gate opens. Capital income and inheritanc
 
 When a restriction prevents valuable learning, its author should face the cost imposed on others. Opening the route may accomplish more than collecting money after closing it. Financing common capabilities need not wait for the treasury to measure the unearned portion of every fortune.
 
+A universal basic income should give everyone a regular stake in the prosperity these systems produce. Someone whose opportunity never reached a trial should not have to prove the career they might have had before sharing in the returns. The payment should be unconditional. The routes to work, ownership, and invention should remain open as well.
+
 Public institutions must remain open to challenge themselves. A laboratory should be able to publish an inconvenient finding. A team refused access should have a meaningful appeal. Money for discovery should leave room for different methods, and for evidence that the established supplier remains best. The purpose is to let what happens in the test change what happens afterward.
 
 At MusicLab, that possibility was built into the experiment. The same forty-eight recordings entered separate worlds. Listeners made choices, those choices became visible to later listeners, and the charts developed differently. Lockdown finished first in one world and fortieth in another.[^e-2]

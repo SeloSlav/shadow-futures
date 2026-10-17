@@ -96,7 +96,7 @@ Under the theorem's conditions, continuing the specified history cannot deliver 
 
 The result also reaches an apparently modest alternative: avoid estimating a precise number and simply decide which of two different contribution values is correct. Under the same conditions, there is no sequence of such tests for which both kinds of mistake vanish. One cannot escape the attribution problem merely by replacing a detailed merit calculation with a binary verdict.
 
-This is a conditional statement about a class of economic histories, supported by classical probability tools. It is not a finding that actual markets always exhaust their comparisons. The ambitious part is the connection between a defined allocation quantity and a persistent limit on learning input effects. Keeping the conditions visible makes that connection stronger, because it shows what evidence would be needed to apply or challenge it.
+The obstacle is in the opportunities the process supplies. Under these conditions, even an indefinitely long reward record leaves an attribution problem that better calculation cannot solve. A different experiment could change the answer: independent measurements, informative input variation, or a workable route to rival trials. Waiting for more of the same record cannot substitute for those changes.
 
 ### What the record still reveals
 

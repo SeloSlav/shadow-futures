@@ -4,8 +4,8 @@
   "checked_on": "2026-10-16",
   "status": "drafted",
   "target_main_words": 3500,
-  "body_words": 3477,
-  "draft_sha256": "1e0c04e182ffc2a38d2558f1b3f563104ef8bb708ae2de150180d79219d0e4a9",
+  "body_words": 3461,
+  "draft_sha256": "c057ea967a985197e2f52a46a5a0d76cdde1a057ac614a3e28f0d66383d53045",
   "source_checks": "Relevant full-source passages checked. Where publisher access failed, the identified author working-paper version or indexed full-source sections were checked; no independent proof or priority certification is claimed.",
   "sources": [
     {
@@ -396,5 +396,11 @@
     "record": "book/research/origin-source-notes.json#personal_thread_revision",
     "scope": "Opening personal stakes, intellectual influences, course attendance and published 2016 antecedent; existing Johnson/Kauffman origin and formal conditions retained.",
     "review": "Changed passages and neighbors reviewed once. Introduction remains within 3500-word allowance. Markdown assembly passed; publication editions remain unchanged."
+  },
+  "developmental_revision": {
+    "date": "2026-10-18",
+    "record": "book/research/developmental-review-2026-10-18.json",
+    "scope": "Thesis, chapter contribution and conclusion; subsequent explicit UBI steering integrated where relevant. Existing claim-specific source checks reused; no whole-book proof certification.",
+    "publication": "Manuscript only; exports and push await an explicit request."
   }
 }

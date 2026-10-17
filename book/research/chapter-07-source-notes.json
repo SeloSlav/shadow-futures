@@ -4,9 +4,9 @@
   "checked_on": "2026-10-16",
   "status": "reviewed",
   "target_main_words": 6000,
-  "body_words": 5209,
-  "note_words": 632,
-  "draft_sha256": "8bb5ebbb55a9ef3ccc1fe67b97fd9a681d1b28c31a4ad31ec9ca043afb172c73",
+  "body_words": 5314,
+  "note_words": 345,
+  "draft_sha256": "d9ecda6b0dbb1020a9c9dbf3d095fb3cf336fbfa84881499d9371d50416f87ee",
   "source_checks": "Relevant full primary passages checked in dated reports, versioned technical papers, institutional/operator accounts and original economics. Forecasts, developer/operator statements, allocated opportunities, interpretations and illustrations remain distinct.",
   "sources": [
     {
@@ -309,5 +309,11 @@
     "source_checks": "Existing claim-specific passages reused; no new externally reported experiment, historical scene, legal status or independently certified theorem. Source conditions and four earlier original-passage flags remain internal.",
     "qualifications_retained": "Observed outcomes, study settings and dates, nonrandomized associations, hypothetical status, proposal ownership and limits of the observation model retained in plain body language.",
     "review": "Changed prose and relevant neighbors reviewed once. The origin statement expresses the author-requested intellectual connection, not a newly reported biographical event."
+  },
+  "developmental_revision": {
+    "date": "2026-10-18",
+    "record": "book/research/developmental-review-2026-10-18.json",
+    "scope": "Thesis, chapter contribution and conclusion; subsequent explicit UBI steering integrated where relevant. Existing claim-specific source checks reused; no whole-book proof certification.",
+    "publication": "Manuscript only; exports and push await an explicit request."
   }
 }

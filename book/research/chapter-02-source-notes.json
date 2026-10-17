@@ -4,8 +4,8 @@
   "checked_on": "2026-10-16",
   "status": "reviewed",
   "target_main_words": 6000,
-  "body_words": 5044,
-  "draft_sha256": "9cf4cc1bad80f74109469964c3f76bd5f7ac2a33cdfe7592a8dc614ef013d40c",
+  "body_words": 4801,
+  "draft_sha256": "00f160d7e1ce029126e284486c26499aff7d39469ec1d77fdd21ec86c613e7a8",
   "source_checks": "Claim-specific full-source passages checked in identified published or author versions. Kasy-Sautmann correction checked; no independent proof or priority certification claimed.",
   "sources": [
     {
@@ -199,7 +199,7 @@
     "continuity": "Affected explanations and neighboring transitions reviewed; chapter openings/endings checked across the book.",
     "historical_records": "Earlier narrative and review entries remain historical; current reader wording is authoritative."
   },
-  "note_words": 463,
+  "note_words": 294,
   "quick_style_revision": {
     "date": "2026-10-17",
     "manuscript_sha256": "7822a1e061c08695483153db371f0c28c93e882a4ea7814d3584722c580ccc61",
@@ -224,5 +224,11 @@
     "source_checks": "Existing claim-specific passages reused; no new externally reported experiment, historical scene, legal status or independently certified theorem. Source conditions and four earlier original-passage flags remain internal.",
     "qualifications_retained": "Observed outcomes, study settings and dates, nonrandomized associations, hypothetical status, proposal ownership and limits of the observation model retained in plain body language.",
     "review": "Changed prose and relevant neighbors reviewed once. The origin statement expresses the author-requested intellectual connection, not a newly reported biographical event."
+  },
+  "developmental_revision": {
+    "date": "2026-10-18",
+    "record": "book/research/developmental-review-2026-10-18.json",
+    "scope": "Thesis, chapter contribution and conclusion; subsequent explicit UBI steering integrated where relevant. Existing claim-specific source checks reused; no whole-book proof certification.",
+    "publication": "Manuscript only; exports and push await an explicit request."
   }
 }

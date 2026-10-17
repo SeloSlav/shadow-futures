@@ -4,9 +4,9 @@
   "checked_on": "2026-10-17",
   "status": "reviewed",
   "target_main_words": 2000,
-  "body_words": 764,
+  "body_words": 1208,
   "note_words": 83,
-  "draft_sha256": "036840057ce2dd736f7abea3f134e571a5249ee6d4edf895e4e4765ff75ac381",
+  "draft_sha256": "5498f622f14a671851fc4309da4775505a7d9bab87438096457dde8311022c15",
   "source_checks": "Existing claim-specific MusicLab and Rothamsted passage checks reused. The revised ending makes no new reported empirical result. Earlier narrative and sequential-review records are historical.",
   "sources": [
     {
@@ -121,5 +121,11 @@
     "scope": "Replace dense recap with concrete closing arc and stronger final image; remove editorial note clauses.",
     "source_checks": "Unchanged relevant published passages reused; no new source audit.",
     "boundary": "Existing original theorem-passage flags elsewhere remain unchanged."
+  },
+  "developmental_revision": {
+    "date": "2026-10-18",
+    "record": "book/research/developmental-review-2026-10-18.json",
+    "scope": "Thesis, chapter contribution and conclusion; subsequent explicit UBI steering integrated where relevant. Existing claim-specific source checks reused; no whole-book proof certification.",
+    "publication": "Manuscript only; exports and push await an explicit request."
   }
 }
