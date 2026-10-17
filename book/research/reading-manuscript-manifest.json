@@ -1,7 +1,7 @@
 {
   "status": "complete_draft_assembly_review_pending",
   "file": "book/drafts/Shadow_Futures_Complete_Manuscript.md",
-  "sha256": "937a612393f84f90656ec519c626705eaea5c54de7807239aa5306600314548e",
+  "sha256": "40eea69d33161cc623ef44a61aba3c5e654d1307e8d6c4c19fa01bbefa32f056",
   "inputs": [
     {
       "file": "book/manuscript/00-prologue.md",
@@ -17,15 +17,15 @@
     },
     {
       "file": "book/manuscript/03-the-comparison-budget.md",
-      "sha256": "524870b17b77e01e7302069143a269b6efdd9c77f44db9aeaa6cd0bed6028806"
+      "sha256": "1d181dbbf3f3c164d11e3b6667808e0ef1cdea3c9a282251557ad22a4a50cdc3"
     },
     {
       "file": "book/manuscript/04-shadow-futures.md",
-      "sha256": "fddfc565f4e7bc0bd441b4238d822c163fe5cc8c6533bdfd226e059dd286d588"
+      "sha256": "17495ea58e8e2c69419754bd441344e783e4595597f6c46dbee1e96c3dd1706f"
     },
     {
       "file": "book/manuscript/05-the-histories-that-became-infrastructure.md",
-      "sha256": "5c4e2b14a4e858712de65a076bc7be9b2acb816760a47d5a28ad177628c3e8bc"
+      "sha256": "9bc0399cf9103a9e9abddd068e429d07a29b83aeb9b0b83d0f99e88bb1bc70cb"
     },
     {
       "file": "book/manuscript/06-who-gets-to-be-tested.md",
@@ -74,7 +74,7 @@
   ],
   "bibliography_input_sha256": "4ecb587762c1892791181a14f98febc881231a70aa77210859ea59751e7a4523",
   "main_words": 63660,
-  "back_matter_words": 8134,
+  "back_matter_words": 8078,
   "reference_entries": 136,
   "endnote_count": 183,
   "notes_namespaced": true,

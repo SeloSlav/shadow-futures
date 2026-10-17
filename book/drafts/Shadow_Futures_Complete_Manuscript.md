@@ -2921,7 +2921,7 @@ An economy should reward its winners without giving them ownership of everyone e
 
 [^chapter_02-c2-4]: Robin Pemantle, “A Survey of Random Processes with Reinforcement,” *Probability Surveys* 4 (2007): 1–79, [doi:10.1214/07-PS094](https://doi.org/10.1214/07-PS094). See Section 2.1, especially pp. 3–5, for the classical urn and its variants, [full survey](https://arxiv.org/pdf/math/0610076).
 
-[^chapter_02-c2-5]: Roberto Imbuzeiro Oliveira, “The Onset of Dominance in Balls-in-Bins Processes with Feedback,” *Random Structures & Algorithms* 34 (2009): 454–477, [doi:10.1002/rsa.20261](https://doi.org/10.1002/rsa.20261). The author preprint's introduction and Theorem 1, pp. 1–2, credit earlier monopoly results, [full preprint](https://arxiv.org/pdf/math/0510415). Thomas Gottfried and Stefan Grosskinsky, “Asymptotics of Generalized Pólya Urns with Non-Linear Feedback,” *Electronic Journal of Probability* 29 (2024): 1–56, [doi:10.1214/24-EJP1157](https://doi.org/10.1214/24-EJP1157); see arXiv version 3, Sections 2.1–2.3, especially Theorem 2.2, [full preprint](https://arxiv.org/pdf/2303.01210).
+[^chapter_02-c2-5]: Roberto Imbuzeiro Oliveira, “The Onset of Dominance in Balls-in-Bins Processes with Feedback,” *Random Structures & Algorithms* 34 (2009): 454–477, [doi:10.1002/rsa.20261](https://doi.org/10.1002/rsa.20261); [author preprint](https://arxiv.org/pdf/math/0510415), introduction and Theorem 1, pp. 1–2. Thomas Gottfried and Stefan Grosskinsky, “Asymptotics of Generalized Pólya Urns with Non-Linear Feedback,” *Electronic Journal of Probability* 29 (2024): 1–56, [doi:10.1214/24-EJP1157](https://doi.org/10.1214/24-EJP1157); [arXiv version 3](https://arxiv.org/pdf/2303.01210), Sections 2.1–2.3, especially Theorem 2.2.
 
 [^chapter_02-c2-6]: Maximilian Kasy and Anja Sautmann, “Adaptive Treatment Assignment in Experiments for Policy Choice,” *Econometrica* 89 (2021): 113–132, [doi:10.3982/ECTA17527](https://doi.org/10.3982/ECTA17527), pp. 113–114 and Section 6, pp. 122–123, [full published paper](https://maxkasy.github.io/home/files/papers/adaptiveexperimentspolicy.pdf); authors' [November 10, 2021 correction](https://maxkasy.github.io/home/files/papers/correction_adaptiveexperimentspolicy.pdf), especially corrected Theorem 1.
 
@@ -2939,7 +2939,7 @@ An economy should reward its winners without giving them ownership of everyone e
 
 [^chapter_03-c3-4]: Line Chloé Le Goff and Philippe Soulier, “Parameter Estimation of a Two-Colored Urn Model Class,” *International Journal of Biostatistics* 13 (2017), article 20160029, [doi:10.1515/ijb-2016-0029](https://doi.org/10.1515/ijb-2016-0029); [author preprint, version 2](https://arxiv.org/pdf/1405.2322), October 4, 2016, Sections 3.2–3.3, pp. 14–15, and Sections 4.1–4.2, pp. 19–20.
 
-[^chapter_03-c3-5]: Lihong Li, Wei Chu, John Langford, and Robert E. Schapire, “A Contextual-Bandit Approach to Personalized News Article Recommendation,” *WWW 2010*, 661–670, [author version 2](https://arxiv.org/pdf/1003.0146), Sections 2.1, 4, and 5.2.1. Randomized logging, recorded click responses, and the assumptions of offline evaluation matter. Its replay method is distinct from observing complete counterfactual economic histories.
+[^chapter_03-c3-5]: Lihong Li, Wei Chu, John Langford, and Robert E. Schapire, “A Contextual-Bandit Approach to Personalized News Article Recommendation,” *WWW 2010*, 661–670, [author version 2](https://arxiv.org/pdf/1003.0146), Sections 2.1, 4, and 5.2.1.
 
 [^chapter_03-c3-6]: Shizuo Kakutani, “On Equivalence of Infinite Product Measures,” *Annals of Mathematics* 49 (1948): 214–224, [doi:10.2307/1969123](https://doi.org/10.2307/1969123). Yu. M. Kabanov, R. Sh. Liptser, and A. N. Shiryaev, “On the Question of Absolute Continuity and Singularity of Probability Measures,” *Mathematics of the USSR-Sbornik* 33 (1977): 203–221, [doi](https://doi.org/10.1070/SM1977v033n02ABEH002421). Jean Jacod and Albert N. Shiryaev, *Limit Theorems for Stochastic Processes*, second edition (2003), [Chapter IV](https://doi.org/10.1007/978-3-662-05265-5_4), and S. S. Gabriyelyan (2011), [author version 4](https://arxiv.org/pdf/0802.0385), Theorem 1. Lucien Le Cam and Grace Lo Yang, *Asymptotics in Statistics*, second edition (2000), [Chapter 2](https://doi.org/10.1007/978-1-4612-1166-2_2).
 
@@ -2989,7 +2989,7 @@ An economy should reward its winners without giving them ownership of everyone e
 
 [^chapter_04-c4-anderson]: P. W. Anderson, “More Is Different,” *Science* 177, no. 4047 (1972): 393–396, opening page and Bell Telephone Laboratories affiliation. [Published article](https://www.rpgroup.caltech.edu/embl_pboc_2023/assets/pdfs/anderson1972.pdf).
 
-[^chapter_04-c4-sony]: Sony Group History, Volume 1, Chapter 3, [“Developing the Transistor Radio”](https://www.sony.com/en/SonyInfo/CorporateInfo/History/SonyHistory/1-03.html), Part 2. Corporate retrospective; reports, equipment and TR-52/TR-55 chronology are attributed. No reconstructed dialogue, motives, or precise launch month is used; these events predate the 1956 decree.
+[^chapter_04-c4-sony]: Sony Group, *Sony Group History*, Volume 1, Chapter 3, [“Developing the Transistor Radio”](https://www.sony.com/en/SonyInfo/CorporateInfo/History/SonyHistory/1-03.html), Part 2.
 
 ## Who gets to be tested
 

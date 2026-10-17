@@ -37,6 +37,7 @@ def validate_reader_citations(text):
         r"|policies open (?:this|that) inquiry|the hypothesis must be able to lose"
         r"|let the institutional argument risk an answer against itself"
         r"|our job is to preserve it|does not discover nonprice antitrust"
+        r"|Use the published 5,172-agent sample|No reconstructed dialogue, motives"
     )
     match = re.search(forbidden, text, re.I)
     if match:

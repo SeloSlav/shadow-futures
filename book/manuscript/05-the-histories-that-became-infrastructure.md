@@ -266,4 +266,4 @@ New technologies need feasible routes to development, delivery, and evaluation. 
 
 [^c4-anderson]: P. W. Anderson, “More Is Different,” *Science* 177, no. 4047 (1972): 393–396, opening page and Bell Telephone Laboratories affiliation. [Published article](https://www.rpgroup.caltech.edu/embl_pboc_2023/assets/pdfs/anderson1972.pdf).
 
-[^c4-sony]: Sony Group History, Volume 1, Chapter 3, [“Developing the Transistor Radio”](https://www.sony.com/en/SonyInfo/CorporateInfo/History/SonyHistory/1-03.html), Part 2. Corporate retrospective; reports, equipment and TR-52/TR-55 chronology are attributed. No reconstructed dialogue, motives, or precise launch month is used; these events predate the 1956 decree.
+[^c4-sony]: Sony Group, *Sony Group History*, Volume 1, Chapter 3, [“Developing the Transistor Radio”](https://www.sony.com/en/SonyInfo/CorporateInfo/History/SonyHistory/1-03.html), Part 2.

@@ -1,6 +1,6 @@
 {
   "date": "2026-10-16",
-  "manuscript_sha256": "937a612393f84f90656ec519c626705eaea5c54de7807239aa5306600314548e",
+  "manuscript_sha256": "40eea69d33161cc623ef44a61aba3c5e654d1307e8d6c4c19fa01bbefa32f056",
   "epub_integrity": {
     "source_paragraphs_present_in_full": 1544,
     "internal_links_checked": 543,
@@ -20,8 +20,8 @@
   "files": [
     {
       "file": "output/kdp/shadow-futures-kindle.epub",
-      "bytes": 1017920,
-      "sha256": "38c57519824d7763f0817d5fb63f14626ebe2e755c5fa7e8b2eb937daf932fe0"
+      "bytes": 1017686,
+      "sha256": "748ca6a3c610b33a43abd02c5de04d2b4fbd0856cd4a0ef566b1618a7a2077e9"
     },
     {
       "file": "output/kdp/shadow-futures-kindle-cover.jpg",
@@ -30,13 +30,13 @@
     },
     {
       "file": "output/kdp/shadow-futures-paperback-interior.pdf",
-      "bytes": 901144,
-      "sha256": "d26a52bc6c9b9037b76dfe86184d9ba899b2253c392f074684e5c52549137b2b"
+      "bytes": 901098,
+      "sha256": "3cafb127daa183855d59aafcf53513bef6be20d5c77dee016db9ffbc468ff8dd"
     },
     {
       "file": "output/kdp/shadow-futures-paperback-cover.pdf",
       "bytes": 3548722,
-      "sha256": "8c8e2eb045236263759481502109c72316a95bc12f2f264ce17d39a0396e34d0"
+      "sha256": "ce4e6c30cceb557df8f32bc790b9f3513d3d0e18e0458ccc1d2e39f7ec930988"
     },
     {
       "file": "output/kdp/UPLOAD-INSTRUCTIONS.txt",
@@ -50,8 +50,8 @@
     },
     {
       "file": "output/kdp/shadow-futures-kdp-upload.zip",
-      "bytes": 5282195,
-      "sha256": "19a265de095906d37e9119e334ac7c039672eedb8e349a72feeb770b420d2bab"
+      "bytes": 5281575,
+      "sha256": "bd23aa46c3c689e327fb686925dc68fc13f241e58eac7dacf732dd95ea0e9c7e"
     }
   ],
   "boundary": "Upload formats and mechanical checks; KDP Previewer and print proof remain author publication steps.",
@@ -59,6 +59,6 @@
     "version": "5.3.0",
     "errors": 0,
     "warnings": 0,
-    "sha256": "38c57519824d7763f0817d5fb63f14626ebe2e755c5fa7e8b2eb937daf932fe0"
+    "sha256": "748ca6a3c610b33a43abd02c5de04d2b4fbd0856cd4a0ef566b1618a7a2077e9"
   }
 }
