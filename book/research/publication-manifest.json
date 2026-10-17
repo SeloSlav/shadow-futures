@@ -6,10 +6,10 @@
   "date": "2026-10-16",
   "pdf": "/book/shadow-futures.pdf",
   "cover": "/book/shadow-futures-cover.png",
-  "pages": 259,
-  "interior_pages": 258,
-  "pdf_bytes": 4372046,
-  "notes": 189,
+  "pages": 263,
+  "interior_pages": 262,
+  "pdf_bytes": 4385653,
+  "notes": 193,
   "contents": [
     {
       "label": "The other life of a song",
@@ -24,67 +24,67 @@
     {
       "label": "The winner and the explanation",
       "section": "Chapter 1",
-      "page": 24
+      "page": 25
     },
     {
       "label": "The comparison budget",
       "section": "Chapter 2",
-      "page": 42
+      "page": 43
     },
     {
       "label": "Shadow futures",
       "section": "Chapter 3",
-      "page": 59
+      "page": 60
     },
     {
       "label": "The histories that became infrastructure",
       "section": "Chapter 4",
-      "page": 76
+      "page": 77
     },
     {
       "label": "Who gets to be tested",
       "section": "Chapter 5",
-      "page": 96
+      "page": 97
     },
     {
       "label": "Who deserves the winnings",
       "section": "Chapter 6",
-      "page": 116
+      "page": 117
     },
     {
       "label": "The intelligence factory",
       "section": "Chapter 7",
-      "page": 133
+      "page": 135
     },
     {
       "label": "A billion answers",
       "section": "Chapter 8",
-      "page": 151
+      "page": 154
     },
     {
       "label": "The first rung",
       "section": "Chapter 9",
-      "page": 168
+      "page": 171
     },
     {
       "label": "Competition for future evidence",
       "section": "Chapter 10",
-      "page": 184
+      "page": 187
     },
     {
       "label": "Taxing lost comparison",
       "section": "Chapter 11",
-      "page": 201
+      "page": 204
     },
     {
       "label": "An economics of possible worlds",
       "section": "Chapter 12",
-      "page": 213
+      "page": 216
     },
     {
       "label": "The next opportunity",
       "section": "Epilogue",
-      "page": 229
+      "page": 232
     }
   ],
   "trim_inches": [
@@ -97,9 +97,9 @@
   ],
   "paperback": {
     "paper": "black ink / white paper",
-    "spine_inches": 0.581016,
+    "spine_inches": 0.590024,
     "wrap_inches": [
-      12.831016,
+      12.840024,
       9.25
     ],
     "bleed_inches": 0.125
@@ -109,7 +109,7 @@
     1536
   ],
   "production_note": "KDP-size exports are provided. Generated artwork is natively 1024×1536; 300-dpi raster exports are resampled, not added native detail. Check a print proof; higher-resolution original art is recommended before commercial print upload.",
-  "manuscript_sha256": "80c378483d30276f73b98fdaf8a233fdec1d41f39d04d674da984648f9a421de",
+  "manuscript_sha256": "9dcdae9820bf811098c8c9961e619dbd24685b1c7e8aa37a5dc2f9b680ebfecf",
   "inputs": [
     {
       "file": "book/manuscript/00-prologue.md",
@@ -117,11 +117,11 @@
     },
     {
       "file": "book/manuscript/01-introduction.md",
-      "sha256": "6cef653760ced9b2a62db529041933801717bd4943b29c74b13a258c7f017674"
+      "sha256": "1e0c04e182ffc2a38d2558f1b3f563104ef8bb708ae2de150180d79219d0e4a9"
     },
     {
       "file": "book/manuscript/02-the-winner-and-the-explanation.md",
-      "sha256": "a48363dd1913bb4a5e83976acd43200409fa2760d79bdb8f75870347b6917259"
+      "sha256": "2cb2348793e2bb5575d90ea5870a5a2e535d767167204746fb481f1c977870d5"
     },
     {
       "file": "book/manuscript/03-the-comparison-budget.md",
@@ -141,11 +141,11 @@
     },
     {
       "file": "book/manuscript/07-who-deserves-the-winnings.md",
-      "sha256": "519539df65dac04e69ab2938ad083f3213a8d1e095a16ea4e3fa7f2651bf56b7"
+      "sha256": "7fe2ab6759f76d7bca6ada08dcc74eba48829e7a572c800dae630fd2942d5f5e"
     },
     {
       "file": "book/manuscript/08-the-intelligence-factory.md",
-      "sha256": "35d0dc68bbd03f5f7262eb75058dbd097bf32b222f0f99e3637c98815d71707d"
+      "sha256": "7d3d3f0be5981c1023e2c0e4b4cb532d53c81653209d0b3739d6efbe3048d3b3"
     },
     {
       "file": "book/manuscript/09-a-billion-answers.md",
@@ -169,18 +169,18 @@
     },
     {
       "file": "book/manuscript/14-epilogue.md",
-      "sha256": "1cc4e9256047e4b0586de8931ba65036b888022395e8375647debe109e55b7e1"
+      "sha256": "41c81dbd344eeffc21f8a7161e3e00f87ade934a53b66b9718ddb7adef259fd8"
     },
     {
       "file": "book/manuscript/90-references.md",
-      "sha256": "7a7e52a7b6d6b71fd4466e1942d884135e33359aa6cb3d6f5fbe9611b0f851c3"
+      "sha256": "e94d9948530e09ed6f510d9f53bab629a37f9e8dc05d8d6ca419a7ee003fa219"
     },
     {
       "file": "book/manuscript/91-acknowledgments.md",
       "sha256": "d577aee194f1f47aa3e450ae3f0e07b6dd11ac83de4080857d6c0708b2e5d8ba"
     }
   ],
-  "pdf_sha256": "592563d18ebf4baf1cb48dd5e19037c698b112f0722e7673ee779a2241ae6941",
+  "pdf_sha256": "8f0f07cdb334d2168ba113a67e292cd017fa71951800e81b9c19fcdafc10e259",
   "kdp_sources": [
     "https://kdp.amazon.com/en_US/help/topic/G201953020",
     "https://kdp.amazon.com/en_US/help/topic/G6GTK3T3NUHKLEFX",
