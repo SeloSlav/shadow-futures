@@ -126,7 +126,7 @@ Scale also supplies research, reliability, and lower costs. One large supplier c
 
 ## Precaution without closing discovery
 
-Competition policy already reaches beyond prices. The United States' 2023 Merger Guidelines discuss products, features, innovation, wages, benefits, and research competition. The proposed information rationale adds a question about future evidence; it does not discover nonprice antitrust or dispense with statutory requirements.[^c10-10]
+Competition policy already reaches beyond prices. The United States' 2023 Merger Guidelines discuss products, features, innovation, wages, benefits, and research competition.[^c10-10] Control over future evidence gives those concerns another practical dimension: an entrant can lose the chance to demonstrate an improvement before customers can judge it. Any legal remedy still has to meet the applicable statutory requirements.
 
 Who should bear the burden when closing a route could destroy the evidence needed to judge that closure? Requiring the excluded challenger to supply the missing demonstration makes the obstruction its own defense. When a gatekeeper controls an indispensable route to useful independent evaluation, and credible evidence shows that closure would be hard to reverse, access should therefore be protected by an enforceable, rebuttable duty. The party seeking the restriction should have to demonstrate why a narrower arrangement cannot protect legitimate interests. A challenge to the gatekeeper's own judgment must be assessable by someone other than the gatekeeper.
 
@@ -142,7 +142,7 @@ That is an obligation to build and maintain connections between privately owned 
 
 For AI, an obligation might concern an interface or a secure evaluation route rather than publication of every model weight or training record. Fees may be justified; privacy, security, research incentives, and genuine technical constraints matter. Claims of unavoidable harm should receive independent scrutiny. Letting the gatekeeper alone decide whether a competing test is safe would make the safeguard depend on the permission it is intended to examine.
 
-The public authority also needs limits. It should specify the affected decision, plausible lost comparison, legal power, expected benefit, costs, and less burdensome substitutes. A secure audit may suffice where existing evidence answers the question. Prospective trials matter when no file can contain the missing contrast. My proposed time-limited evaluation power would require legislation wherever existing authority is insufficient, along with challenge and review.[^c10-11]
+The public authority also needs limits. It should specify the affected decision, plausible lost comparison, legal power, expected benefit, costs, and less burdensome substitutes. A secure audit may suffice where existing evidence answers the question. Prospective trials matter when no file can contain the missing contrast. A time-limited evaluation power would require legislation wherever existing authority is insufficient, with a defined scope, an evidentiary threshold, and rights of challenge and review.
 
 Property rights should reward invention while leaving competitors a workable route to test and develop their own ideas. Where those routes depend on essential infrastructure, the owner should face a duty to provide appropriately bounded access on workable terms. An incumbent's private tests can satisfy a particular information need when their evidence is usable by the affected decision makers. They do not settle whether an excluded entrant could develop a capability those tests never allow it to attempt.
 
@@ -152,35 +152,35 @@ Government can also become the single judge. A mandatory benchmark, favored cons
 
 The rise of agent production makes access more consequential. Cheaper software work can still depend on computing, usable records, distribution, and credible evaluation. Ownership of generated output does not automatically provide those complements.
 
-European computing access, an American research initiative, and China's industrial policy provide three documented institutional approaches. Their stated terms identify what qualifying participants may use, retain, and test. Announced objectives and formal entitlements still need to be distinguished from outcomes in practice.
+EuroHPC offers computing allocations, NAIRR organizes access to research resources, and China's AI Plus policy calls for coordinated computing and investment. For an applicant, the differences appear in practical decisions: who can qualify, what work is permitted, and what can be done with the results.
 
 EuroHPC's Playground call, opened in April 2025, offers an entry route for European startups and smaller businesses with limited computing needs. Applications arrive in order, with eligibility and technical checks rather than a competitive ranking. Allocations last one, two, or three months on a single system. The published call also warns that demand can leave particular capacity unavailable. The door has a procedure and a queue.[^c10-europe]
 
 Its Industrial Innovation modes offer eligible AI small businesses free computing for innovation. Crucially, the March 2026 terms say generated data and models remain the user's property and can be commercially exploited. They also require publication of results outside confidential portions and a final report. Public provision and private accumulation coexist in these stated terms.[^c10-europe]
 
-These terms allow publicly supported computing and private ownership of resulting assets to coexist. They do not establish that a product reaches customers, uses appropriate data, or succeeds in practice. Those are subsequent stages in development and evaluation.
+For a team building a business, a finished allocation is still some distance from a finished product. Appropriate data, continued testing, and access to customers determine whether its retained model can become part of a viable service.
 
 An access program's value also depends on whether work can continue after an allocation ends. Reproducible tests, transferable records, waiting time, support costs, and displaced private purchases help determine whether it enables additional useful experimentation.
 
 Property protection leaves choices about how resources may be used. Article 17 of the EU Charter protects possessions and intellectual property while allowing regulation of use under specified conditions.[^c10-property] The practical choices concern who can use a resource, on what terms, and how investment and entry can continue. Common institutions and member states must still make the different parts of an arrangement work.
 
-America provides a useful challenge to the claim that commitment to private enterprise leaves a state unable to act. The July 2025 AI Action Plan advocates deregulation, but also encourages open models and wider access to computing. It identifies long commitments to large cloud suppliers as an obstacle for many startups and academics, and recommends developing computing markets and the National AI Research Resource, or NAIRR. These are policy recommendations, not proof that the obstacle has disappeared.[^c10-america]
+Support for private enterprise leaves room for public provision of research infrastructure. The July 2025 AI Action Plan advocates deregulation, but also encourages open models and wider access to computing. It identifies long commitments to large cloud suppliers as an obstacle for many startups and academics, and recommends developing computing markets and the National AI Research Resource, or NAIRR.[^c10-america]
 
-In September 2026, the National Science Foundation announced an operations center for NAIRR, the public-private research initiative. The center would coordinate providers, integrate computing and other resources, operate a portal, and support users. A researcher could potentially reach resources through an organized public route rather than negotiate every component alone. The announcement establishes an institutional undertaking; it does not measure how many otherwise impossible competitors it creates.[^c10-nairr]
+In September 2026, the National Science Foundation announced an operations center for NAIRR, the public-private research initiative. The center would coordinate providers, integrate computing and other resources, operate a portal, and support users. A researcher could reach resources through an organized public route rather than negotiate every component alone.[^c10-nairr]
 
 Research access and commercial entry remain different routes. Eligibility, permitted use, and portability of results determine how far a research initiative can support later independent development. A portal can simplify access without removing dependence on its participating providers.
 
-American authorities have also examined the private arrangements. In January 2025, FTC staff reported on partnerships between major cloud suppliers and AI developers. The report identified potential concerns involving input access, contractual and technical switching costs, and privileged information. It explicitly made no determination of illegality. Its historical scope matters: these were findings from a dated inquiry, not an audit of every contract now available.[^c10-ftc]
+American authorities have also examined the private arrangements. In January 2025, FTC staff reported on partnerships between major cloud suppliers and AI developers. The report identified potential concerns involving input access, contractual and technical switching costs, and privileged information, without making a determination of illegality.[^c10-ftc]
 
-Such partnerships can finance valuable capabilities. Their terms can also shape switching and future development. Evaluating those consequences requires the agreement and feasible substitutes. The documented American initiatives show instruments available to the state; their adequacy depends on institutions in operation.
+Such partnerships can finance valuable capabilities. A developer may obtain the computing it needs while accepting terms that make a later move expensive. An access initiative has to leave a workable route beyond the initial allocation if it is to support an independent business.
 
 Deregulation and access protection can affect different constraints. Removing an unnecessary permit can support entry, while leaving an indispensable interface at one provider's discretion can preserve a bottleneck. A count of regulations removed does not measure the ability to conduct an independent test.
 
-China's August 2025 AI Plus policy starts from a more explicit program of coordination. It calls for shared and interconnected computing, agent services, open-source development, and patient capital. It addresses new forms of work and employment risks as well as industrial adoption. These are announced objectives. They do not establish that an unaffiliated firm actually receives resources or that the policy improves long-run adaptation.[^c10-china]
+China's August 2025 AI Plus policy starts from a more explicit program of coordination. It calls for shared and interconnected computing, agent services, open-source development, and patient capital. It addresses new forms of work and employment risks as well as industrial adoption.[^c10-china]
 
 Patient capital and shared computing could support redesign before commercialization. Their usefulness still depends on admission rules and the ability to try unfamiliar approaches. Coordinated resources can coexist with a common gate that rejects departures from an established method.
 
-There is a further boundary. China's 2023 interim generative-AI measures encourage innovation and shared infrastructure, while imposing political content requirements on covered services offered to the mainland public. Their scope expressly excludes development and applications that do not provide such public services. That distinction prevents us from treating every private research activity as governed by the same provision. It also prevents us from treating support for computing as equivalent to unrestricted public inquiry.[^c10-china-rules]
+China's 2023 interim generative-AI measures encourage innovation and shared infrastructure, while imposing political content requirements on covered services offered to the mainland public. Their scope expressly excludes development and applications that do not provide such public services.[^c10-china-rules]
 
 An economy could make it easier to try competing industrial designs while restricting which politically unwelcome conclusions a public service may generate. A test earns little independence if its commercial or public sponsor can suppress an inconvenient result. Researchers need to be able to report that the favored system failed.
 
@@ -192,7 +192,7 @@ Public intervention can create a gate of its own. Certification costs may exclud
 
 To choose between arrangements, return to the same sequence. Can a qualified outsider obtain resources? Can it reach customers and receive informative work? Can someone check the outcomes independently? Can useful records travel? Can an exclusion or a failed official test be challenged? The answers must survive ordinary use. A published entitlement that nobody can exercise is the institutional equivalent of the exported file nobody can read.
 
-The society with the first leading model need not be the society best able to recover from a mistake in it. Conversely, a generous access program might absorb scarce engineers and money while producing little useful knowledge. The long-run hypothesis is about preserving workable alternatives at acceptable cost. We will return to how to test it in the final chapter. These dated policies open that inquiry; they do not settle which society will prevail.
+The society with the first leading model need not be the society best able to recover from a mistake in it. When the established system fails, a rival needs a route to computing, customers, and independent testing. Public resources can keep that route available, or absorb scarce engineers and money without producing usable alternatives. Recovery depends on what another team can actually investigate, demonstrate, and put into service.
 
 ## The price of finding out
 
@@ -222,7 +222,7 @@ The next chapter asks whether taxation could address conduct that removes useful
 
 [^c10-3]: Blackwell, [“Equivalent Comparisons of Experiments”](https://doi.org/10.1214/aoms/1177729032), 1953, original pp. 265–267, decision losses and Theorems 3, 5–6; Section 4, pp. 268–269, extends beyond finite outcomes. Earlier Sherman–Stein result credited. De Oliveira, [November 2017 author paper](https://henriquedeoliveira.com/wp-content/uploads/2020/12/blackwells-informativeness-theorem-using-diagrams.pdf), pp. 1–5, published 2018. Fixed decision setting, known interpretation and state-independent garbling matter; gross value excludes collection costs.
 
-[^c10-4]: *United States v. Google*, [Final Judgment](https://www.justice.gov/atr/media/1421546/dl?inline=), December 5, 2025, ECF 1462, Section IV.B–C, pp. 6–7. Qualified competitors, specified user-side data, documentation, safeguards and exclusions including algorithms, ranking signals and post-trained LLMs. Dated ordered terms; no delivery, success or appellate-disposition finding here.
+[^c10-4]: *United States v. Google*, [Final Judgment](https://www.justice.gov/atr/media/1421546/dl?inline=), December 5, 2025, ECF 1462, Section IV.B–C, pp. 6–7.
 
 [^c10-5]: Zahra Meghani, “Regulations Matter: Epistemic Monopoly, Domination, Patents, and the Public Interest,” *Philosophy & Technology* 34 (2021): 1449–1474, introduction and section 6. [Article](https://link.springer.com/article/10.1007/s13347-021-00467-2).
 
@@ -234,9 +234,7 @@ The next chapter asks whether taxation could address conduct that removes useful
 
 [^c10-9]: F. A. Hayek, [“Competition as a Discovery Procedure”](https://ppe.isi.org/wp-content/uploads/2017/12/Lesson-9-Reading-Competition-as-a-Discovery-Process.pdf), 2002 English translation by Marcellus S. Snow of the 1968 lecture, pp. 9–11.
 
-[^c10-10]: DOJ/FTC, [2023 Merger Guidelines](https://www.justice.gov/atr/media/1329301/dl), overview and Guidelines 2, 3 (observability), 10. Nonprice analysis predates this proposal. Agency guidance, not legislation or particular liability; comparison deficits alone do not meet applicable legal tests.
-
-[^c10-11]: The proposed evaluation power would require legislation specifying its scope, evidentiary threshold, rights of challenge, and review. Procurement, antitrust, and digital regulation have distinct legal requirements; an information concern alone supplies no existing legal authority.
+[^c10-10]: DOJ/FTC, [2023 Merger Guidelines](https://www.justice.gov/atr/media/1329301/dl), overview and Guidelines 2, 3 (observability), 10.
 
 [^c10-12]: David Blackwell, “Equivalent Comparisons of Experiments,” *Annals of Mathematical Statistics* 24 (1953): 265–272, especially 265–267. [doi:10.1214/aoms/1177729032](https://doi.org/10.1214/aoms/1177729032).
 
@@ -244,18 +242,18 @@ The next chapter asks whether taxation could address conduct that removes useful
 
 [^c10-precaution]: Kenneth J. Arrow and Anthony C. Fisher, “Environmental Preservation, Uncertainty, and Irreversibility,” 1974, pp. 316–319, [doi:10.2307/1883074](https://doi.org/10.2307/1883074), [article copy](https://www.u-cursos.cl/derecho/2019/1/DDAL23/1/material_docente/bajar?bajar=1&id=2589976).
 
-[^c10-dma]: [DMA, Regulation 2022/1925](https://eur-lex.europa.eu/eli/reg/2022/1925/oj/eng), Articles 7(1)–(3), 7(6)–(7), 6(11). Requested messaging functions, phased deadlines, security, exceptional extensions and user choice; distinct search-data terms. These clauses do not establish an automatic AI duty or demonstrate implementation success.
+[^c10-dma]: [DMA, Regulation 2022/1925](https://eur-lex.europa.eu/eli/reg/2022/1925/oj/eng), Articles 7(1)–(3), 7(6)–(7), 6(11).
 
-[^c10-europe]: EuroHPC, [Playground call](https://www.eurohpc-ju.europa.eu/playground-access-ai-factories_en), April 9, 2025, Description/capacity notice; [access modes](https://www.eurohpc-ju.europa.eu/ai-factories/ai-factories-access-modes_en), Industrial Innovation; [Terms of Reference](https://www.eurohpc-ju.europa.eu/document/download/bd7aa666-bdf3-4436-b5ec-0b34a781e817_en?filename=Terms+of+Reference+-+AIF+Access+Calls.pdf), V3, March 31, 2026, Sections 1.3–1.4, 2–3.1. Published terms, not delivered capacity or demonstrated additional entry.
+[^c10-europe]: EuroHPC, [Playground call](https://www.eurohpc-ju.europa.eu/playground-access-ai-factories_en), April 9, 2025, Description/capacity notice; [access modes](https://www.eurohpc-ju.europa.eu/ai-factories/ai-factories-access-modes_en), Industrial Innovation; [Terms of Reference](https://www.eurohpc-ju.europa.eu/document/download/bd7aa666-bdf3-4436-b5ec-0b34a781e817_en?filename=Terms+of+Reference+-+AIF+Access+Calls.pdf), V3, March 31, 2026, Sections 1.3–1.4, 2–3.1.
 
 [^c10-property]: [Charter of Fundamental Rights of the European Union, Article 17(1)–(2)](https://fra.europa.eu/en/eu-charter/charter/article/17-right-property), and accompanying explanations.
 
-[^c10-america]: White House, [*America's AI Action Plan*](https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf), July 2025, printed pp. 3–5, deregulation/open-model/access recommendations. Objectives, not established effects or universal model-license terms.
+[^c10-america]: White House, [*America's AI Action Plan*](https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf), July 2025, printed pp. 3–5, deregulation/open-model/access recommendations.
 
 [^c10-nairr]: NSF, [NAIRR operations-center announcement](https://www.nsf.gov/cise/updates/nsf-establishes-operations-center-national-artificial), September 1, 2026.
 
-[^c10-ftc]: FTC Office of Technology staff, [*Partnerships Between Cloud Service Providers and AI Developers*](https://www.ftc.gov/system/files/ftc_gov/pdf/p246201_aipartnerships6breport_redacted.pdf), January 2025, pp. 1–3, 29–30, 32–34. Respondents' information through September 2024 plus public information through January 2025; potential concerns, no illegality determination or current contract audit.
+[^c10-ftc]: FTC Office of Technology staff, [*Partnerships Between Cloud Service Providers and AI Developers*](https://www.ftc.gov/system/files/ftc_gov/pdf/p246201_aipartnerships6breport_redacted.pdf), January 2025, pp. 1–3, 29–30, 32–34. Company information through September 2024; public information through January 2025.
 
-[^c10-china]: State Council, [AI Plus opinion](https://www.nda.gov.cn/sjj/swdt/xwfb/0826/20250826173046592282838_mobile.html), dated August 21, published August 26, 2025, Sections II(2), II(4), III(9)–(13). Author's paraphrase of original Chinese; announced objectives, not achieved outcomes.
+[^c10-china]: State Council, [AI Plus opinion](https://www.nda.gov.cn/sjj/swdt/xwfb/0826/20250826173046592282838_mobile.html), dated August 21, published August 26, 2025, Sections II(2), II(4), III(9)–(13).
 
-[^c10-china-rules]: CAC and six ministries, [*Interim Measures for Generative AI Services*](https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm), published July 13, effective August 15, 2023, Articles 2, 4–6. Author's paraphrase of enacted Chinese text, distinct from consultation draft; not a comprehensive October 2026 legal audit.
+[^c10-china-rules]: CAC and six ministries, [*Interim Measures for Generative AI Services*](https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm), published July 13, effective August 15, 2023, Articles 2, 4–6.

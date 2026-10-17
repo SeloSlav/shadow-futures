@@ -34,6 +34,9 @@ def validate_reader_citations(text):
         r"|was not waiting for the comparison budget|earns its place beside the Netflix"
         r"|This is not an argument that|A serious extension should"
         r"|An argument about missing evidence would be worthless"
+        r"|policies open (?:this|that) inquiry|the hypothesis must be able to lose"
+        r"|let the institutional argument risk an answer against itself"
+        r"|our job is to preserve it|does not discover nonprice antitrust"
     )
     match = re.search(forbidden, text, re.I)
     if match:

@@ -116,19 +116,19 @@ An experiment must permit a result favoring the incumbent. An institution whose 
 
 Credibility also requires stable criteria, recorded revisions, and relevant rights of challenge. Independent review can test whether the evidence supports a conclusion; the institution acting on it remains responsible for its decision.
 
-The same principle applies to the researcher. A study of comparison opportunities should preserve evidence that a market already generates useful tests or that no practical alternative meets the requirements. Negative findings help distinguish a mechanism from a slogan. They can show where the comparison-budget perspective adds little to an existing explanation.
+An existing internal test may already resolve the buyer's uncertainty. Paying for a duplicate study would then spend resources without changing the decision. A missing alternative warrants further investigation when a feasible comparison could supply useful evidence.
 
 ## When the leading arrangement fails
 
-The country comparison proposes a question about robustness: can an economy discover and adopt workable alternatives after a technological, commercial, or policy failure, at acceptable cost? A large computing fleet alone cannot answer it.
+After a leading system fails, another team needs resources to investigate, permission to test a different approach, and freedom to report what it finds. Public computing can support that work while admission rules or restrictions on publication obstruct it. What matters is whether a workable alternative can get through those steps and into use.
 
 A failure can be isolated by independent tests or reproduced across many services sharing a common checklist and restricted evaluation route. The number of brands says little about which situation applies. Robustness concerns the practical ability to expose the failure and develop a workable alternative.
 
-Track the route from discovering the problem to putting a better arrangement into service: permissions, time, expense, mistaken decisions, and productive capacity lost. Ask whether a dormant supplier's retained records helped, whether existing private tests supplied the answer, and whether a cheaper substitute was available. Then investigate whether public access, an enforceable interface, or transferable records improved recovery. Differences between countries would also require attention to their resources and other institutions; a faster recovery by itself would not identify the cause. Record unsuccessful applications too; successful recipients alone cannot describe the access system.
+An available rival is little help if a buyer cannot transfer the records needed to test it. A dormant supplier's records can shorten recovery when they remain usable. Existing private tests or a cheaper substitute may already provide the answer. Waiting time, permissions, expense, and lost productive capacity determine whether a new access arrangement improves on those routes.
 
-The hypothesis must be able to lose. Subsidized computing might produce unusable results. Official checks might suppress failures or spread a common error. Compliance burdens might deter the investment an alternative needs. Count displaced private experiments and the benefits of faster initial development as well as recovery. The relevant time horizon and consequences must be stated.
+Subsidized computing that produces unusable results still consumes money, equipment, and skilled work. Official checks can spread a common error or suppress a finding that would embarrass the sponsor. A costly application process can exclude the team that needs the resources. The value of keeping an alternative available has to exceed those costs, including displaced private experiments and slower initial development.
 
-Announced American, European, and Chinese policies open this inquiry; they cannot settle it. Begin with comparable decisions and observable routes through failure. Ask who could challenge the accepted explanation, what evidence they obtained, and whether acting on it improved the outcome. Those questions let the institutional argument risk an answer against itself.
+Faster recovery in one country could reflect better equipment, a deeper pool of engineers, or other institutions alongside the access policy. Those differences belong in the explanation. So do the applicants turned away and the findings kept from public view. A list of successful recipients leaves out the people who never reached a test.
 
 ## What an economist should report
 
@@ -196,7 +196,7 @@ A successful economy needs reasons to keep producing and the means for other peo
 
 ## Notes
 
-[^c12-1]: Rothamsted Research, A. J. Macdonald, editor, [*Guide to the Classical and Other Long-Term Experiments, Datasets and Sample Archive*](https://www.rothamsted.ac.uk/sites/default/files/national-capability/long-term-experiments/Web_LTE%20Guidebook_2019%20Final2.pdf), 2018, reprinted 2019, pp. 4–9, especially p. 7. Autumn 1843 sowing and 1844 first harvest distinguished. Treatments varied in the first years; a scheme established in 1852 largely persisted until 1968. Original Broadbalk layout is not described as a modern randomized design.
+[^c12-1]: Rothamsted Research, A. J. Macdonald, editor, [*Guide to the Classical and Other Long-Term Experiments, Datasets and Sample Archive*](https://www.rothamsted.ac.uk/sites/default/files/national-capability/long-term-experiments/Web_LTE%20Guidebook_2019%20Final2.pdf), 2018, reprinted 2019, pp. 4–9, especially p. 7.
 
 [^c12-2]: Rothamsted Research, [“Why Do We Make Changes to the Long-Term Experiments?”](https://www.rothamsted.ac.uk/news/why-do-we-make-changes-long-term-experiments-rothamsted), January 17, 2024; A. J. Macdonald, ed., *Guide to the Classical and Other Long-Term Experiments, Datasets and Sample Archive*, 2018, reprinted 2019, pp. 5–7 and Broadbalk plan.
 
@@ -206,7 +206,7 @@ A successful economy needs reasons to keep producing and the means for other peo
 
 [^c12-5]: R. A. Fisher, [“The Arrangement of Field Experiments”](https://pdixon.stat.iastate.edu/stat571/readings/Fisher%201926.pdf), 1926, original pp. 503–508, reproduced pp. 84–89.
 
-[^c12-7]: Tim P. Morris, Ian R. White, and Michael J. Crowther, “Using Simulation Studies to Evaluate Statistical Methods,” *Statistics in Medicine* 38 (2019): 2074–2102, Sections 3.1–3.2 and Table 1, [doi:10.1002/sim.8086](https://doi.org/10.1002/sim.8086). The authors organize simulation design around aims, data-generating mechanisms, estimands, methods, and performance measures. The market example is a proposed application; successful recovery in specified simulated scenarios does not establish that a real market follows those rules.
+[^c12-7]: Tim P. Morris, Ian R. White, and Michael J. Crowther, “Using Simulation Studies to Evaluate Statistical Methods,” *Statistics in Medicine* 38 (2019): 2074–2102, Sections 3.1–3.2 and Table 1, [doi:10.1002/sim.8086](https://doi.org/10.1002/sim.8086).
 
 [^c12-9]: Maximilian Kasy and Anja Sautmann, [“Adaptive Treatment Assignment in Experiments for Policy Choice,”](https://maxkasy.github.io/home/files/papers/adaptiveexperimentspolicy.pdf) *Econometrica* 89 (2021): 113–132, especially 113–114 and 122–123. See the [November 10, 2021 correction](https://maxkasy.github.io/home/files/papers/correction_adaptiveexperimentspolicy.pdf).
 
@@ -216,7 +216,7 @@ A successful economy needs reasons to keep producing and the means for other peo
 
 [^c12-12]: David Blackwell, [“Equivalent Comparisons of Experiments”](https://doi.org/10.1214/aoms/1177729032), 1953, pp. 265–267, Theorems 3, 5–6, and Section 4; Henrique de Oliveira, [“Blackwell's Informativeness Theorem Using Diagrams”](https://henriquedeoliveira.com/wp-content/uploads/2020/12/blackwells-informativeness-theorem-using-diagrams.pdf), November 2017 author paper, published 2018, pp. 1–5.
 
-[^c12-13]: Hayek, [“Competition as a Discovery Procedure”](https://ppe.isi.org/wp-content/uploads/2017/12/Lesson-9-Reading-Competition-as-a-Discovery-Process.pdf), 2002 translation by Marcellus S. Snow of the 1968 lecture, pp. 9–11. Prior discovery argument credited; it is not a guarantee of contribution identification or every intervention's benefit.
+[^c12-13]: Hayek, [“Competition as a Discovery Procedure”](https://ppe.isi.org/wp-content/uploads/2017/12/Lesson-9-Reading-Competition-as-a-Discovery-Process.pdf), 2002 translation by Marcellus S. Snow of the 1968 lecture, pp. 9–11.
 
 [^c12-14]: Salganik, Dodds, and Watts, [“Experimental Study of Inequality and Unpredictability in an Artificial Cultural Market”](https://doi.org/10.1126/science.1121066), 2006, pp. 854–856; Salganik, [*Bit by Bit*, Section 4.6.1](https://www.bitbybitbook.com/en/running-experiments/exp-advice/zero-variable-cost/), open review edition, n.d.
 

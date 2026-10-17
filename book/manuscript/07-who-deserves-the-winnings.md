@@ -98,7 +98,7 @@ Kerr and his coauthors also examine the difficulty of prediction within venture 
 
 The successive races show why those abilities differ. A team unable to finish in 2004 might return with a better vehicle; a desert winner still faced a new task in a city. A backer could help make that development possible without knowing the final ranking. Requiring foreknowledge as a condition of financing would defeat much of the purpose of financing an experiment.
 
-The incentive argument is prospective: expected returns can change which uncertain projects get funded. Its strength depends on how people respond, which attempts disappear under different terms, and whether alternative financing would support them. The word incentive begins that inquiry.
+Expected returns can change which uncertain projects get funded. The effects depend on how people respond, which attempts disappear under different terms, and whether alternative financing would support them.
 
 Contractual entitlement has another basis. Investors and workers can act under agreed terms, complete the promised work, and acquire a claim to payment even when every causal contribution cannot be reconstructed. Reliable promises help people coordinate before outcomes are known.
 

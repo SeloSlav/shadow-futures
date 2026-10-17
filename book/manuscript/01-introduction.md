@@ -44,7 +44,7 @@ A first success can change the opportunities available afterward. The Kickstarte
 
 Each choice does two things: it allocates resources now and helps determine what the next observer will be able to inspect. An expanding record of success can therefore coexist with fewer opportunities to evaluate alternatives.
 
-The comparison budget gives that inquiry a defined object. At each allocation, given the history so far, identify the candidate with the greatest chance of receiving the reward. Take the chance that someone else receives it instead. Accumulate those chances across the opportunities under study. The favorite can change. This measures the allocation chances left outside the current favorite, rather than the number of times an outsider actually wins.[^i2]
+For each allocation, given the history so far, identify the candidate with the greatest chance of receiving the reward. Take the chance that someone else receives it instead. Accumulate those chances across the opportunities under study. This total is the comparison budget. The favorite can change. The total concerns the chances offered to alternatives, rather than the number of times an outsider actually wins.[^i2]
 
 A list of awards and rejections does not, by itself, tell us those chances. The budget is not a count of winners or the number of firms on a website. To apply the idea empirically, we need evidence about the allocation process: which alternatives are eligible, what changes their prospects, and what is recorded beyond the award. The quantities cannot be read straight from market shares.
 

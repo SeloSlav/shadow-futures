@@ -146,7 +146,7 @@ The same caution applies in the opposite direction. A company may spend heavily 
 
 Kerr, Nanda, and Rhodes-Kropf's account of entrepreneurship supplies the established economic starting point. Early tests can inform later commitments, and the option to stop can matter. Bringing that account into AI asks us to examine the sequence of experiments and financing decisions. It does not give the final winner exclusive ownership of the concept of experimentation.[^c7-10]
 
-DeepSeek's table is useful because it defines its boundary. Our job is to preserve it. A quoted training cost should tell us which work is included, how resources were valued, and which comparison the figure permits. Without that discipline, a number intended to explain production becomes a rhetorical device for whatever conclusion we already favored.
+DeepSeek's table covers a specified part of the work. Comparing its figure with another budget requires matching the activities included and the way computing time is valued. The cost of one completed training pipeline and the cost of developing the organization that produced it answer different questions.
 
 ## What can be copied
 
@@ -168,7 +168,7 @@ The incentive argument still requires a comparison of feasible arrangements. Ter
 
 We should compare feasible arrangements rather than compare an actual factory with an imaginary world in which discovery, equipment, and coordination cost nothing. Public support, contractual access, released artifacts, and competing private facilities can have different strengths and costs. Which is useful depends on the problem we want to solve.
 
-The point is neither to award all knowledge to its first producer nor to require every producer to give everything away. It is to investigate how the terms of producing and using knowledge affect later useful attempts. The factory creates possibilities. Its institutional arrangements determine who can act on them.
+The terms attached to a model, a dataset, or a computing service help determine which later experiments are feasible. A release can make a new application possible while leaving another training strategy beyond reach. The factory creates possibilities. Its institutional arrangements determine who can act on them.
 
 ## From computing access to a useful comparison
 
@@ -186,7 +186,7 @@ Task selection, comparable difficulty, valid outcome measures, privacy, and oper
 
 Distribution can close the route even when computing is available. A default that receives nearly every request can accumulate a record while alternatives obtain little ordinary-use evidence. Availability of an input does not guarantee access to an informative use.
 
-This resembles the distinction between Bell's patent access and customer access, and between search technology and the distribution arrangements examined in Chapter 5. Possessing a useful input is a stage in the process. A practical route to being tried is another. We should not announce that the second problem has been solved merely because the first input is for sale.
+Bell's patents and search distribution expose the same gap. A firm can possess a useful input while lacking a practical route to a customer. Computing for sale does little for an entrant barred from the tasks through which its service could be evaluated.
 
 Performance can nevertheless justify a strong default. An investigation must include measured quality, actual switching, available comparisons, and the costs of alternatives. Access-dependent evidence is something to interpret carefully, rather than to dismiss.
 
@@ -196,7 +196,7 @@ The comparison budget prescribes no universal spending ratio. Small persistent c
 
 Discovery also needs a route to action. A demonstration has less practical value if its result cannot influence subsequent adoption. Switching terms and interoperability help determine whether learning can change an economic arrangement.
 
-At the factory level, this inquiry asks about available capacity and access terms. At the service level, it asks about routing and usable performance evidence. At the level of research, it asks whether another training strategy can be attempted. A single statement that AI is concentrated cannot answer all three.
+An alternative training strategy needs capacity and permission to use it. An alternative service needs tasks and credible outcome checks. A buyer needs evidence relevant to the purchase. Several firms can depend on the same provider at one of those stages while remaining independent at another.
 
 Nor does having many firms guarantee that all three are open. Several services could depend on the same model and the same route to users. They could still innovate meaningfully in their own domains. The useful question is what uncertainty their differences can resolve, and what important uncertainty remains outside their experiments.
 

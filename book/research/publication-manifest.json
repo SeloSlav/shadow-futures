@@ -8,8 +8,8 @@
   "cover": "/book/shadow-futures-cover.png",
   "pages": 273,
   "interior_pages": 272,
-  "pdf_bytes": 4405516,
-  "notes": 187,
+  "pdf_bytes": 4401907,
+  "notes": 186,
   "contents": [
     {
       "label": "The other life of a song",
@@ -109,7 +109,7 @@
     1536
   ],
   "production_note": "KDP-size exports are provided. Generated artwork is natively 1024×1536; 300-dpi raster exports are resampled, not added native detail. Check a print proof; higher-resolution original art is recommended before commercial print upload.",
-  "manuscript_sha256": "5c635fe1035c1ab8c6ed5371984ce2087c844e09e145449a8c8d1a765bcbe985",
+  "manuscript_sha256": "a49bae1b124b33946735837e7551737d9441183d5e69f24ec68b2f3cfb702630",
   "inputs": [
     {
       "file": "book/manuscript/00-prologue.md",
@@ -117,7 +117,7 @@
     },
     {
       "file": "book/manuscript/01-introduction.md",
-      "sha256": "36c1ed92c27e5e0a448e506a9da084ffff925484196fa8a890bad850d666f179"
+      "sha256": "37ce2215c5b909db88516f0bf729fb8feff51172fbd097b81d95df2bacec2a7b"
     },
     {
       "file": "book/manuscript/02-the-winner-and-the-explanation.md",
@@ -141,11 +141,11 @@
     },
     {
       "file": "book/manuscript/07-who-deserves-the-winnings.md",
-      "sha256": "6e81f8e290c2af605d17d4a59da95dfdada0f42fb22cae274b0aedeebd240563"
+      "sha256": "9d862a14020f2bb64adac8baad7b1218764b85f71cc42386c9f4123936d07eeb"
     },
     {
       "file": "book/manuscript/08-the-intelligence-factory.md",
-      "sha256": "69554e29d8e8d86d8505c415d8f496b7f45301f437c281399e936711a11fee35"
+      "sha256": "5bb0397e649f45a67955388181bdd073fe6e45a702d2c31a5408cc9239442f0b"
     },
     {
       "file": "book/manuscript/09-a-billion-answers.md",
@@ -157,7 +157,7 @@
     },
     {
       "file": "book/manuscript/11-competition-for-future-evidence.md",
-      "sha256": "d03461596b01594979051c8292c282bf4513f16eb139ec5b0466ba21091b6c9e"
+      "sha256": "2c2bca8fa9ad8adddc11a3288cd3c126eba4444d0399ce2b5df49203a503ca26"
     },
     {
       "file": "book/manuscript/12-taxing-lost-comparison.md",
@@ -165,7 +165,7 @@
     },
     {
       "file": "book/manuscript/13-an-economics-of-possible-worlds.md",
-      "sha256": "935770ef7d9186288aa6e7388f80f0be5c7d6e6d7badc9ecb9e63cea5d04cb30"
+      "sha256": "e4d093750df1fdb0bfc33d26664d5a4eb026838d9cedd9d18d6c6e1c224f09a7"
     },
     {
       "file": "book/manuscript/14-epilogue.md",
@@ -180,7 +180,7 @@
       "sha256": "d577aee194f1f47aa3e450ae3f0e07b6dd11ac83de4080857d6c0708b2e5d8ba"
     }
   ],
-  "pdf_sha256": "0dca3256b3f6b1f8307bb8043fe4a899a43ab1273c3495b4908deac418166969",
+  "pdf_sha256": "332e3e11400154ac4b753fc0577a0e8d3e7acd079345bc581a5451a6c76abf9f",
   "kdp_sources": [
     "https://kdp.amazon.com/en_US/help/topic/G201953020",
     "https://kdp.amazon.com/en_US/help/topic/G6GTK3T3NUHKLEFX",

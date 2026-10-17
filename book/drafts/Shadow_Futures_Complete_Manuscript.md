@@ -171,7 +171,7 @@ A first success can change the opportunities available afterward. The Kickstarte
 
 Each choice does two things: it allocates resources now and helps determine what the next observer will be able to inspect. An expanding record of success can therefore coexist with fewer opportunities to evaluate alternatives.
 
-The comparison budget gives that inquiry a defined object. At each allocation, given the history so far, identify the candidate with the greatest chance of receiving the reward. Take the chance that someone else receives it instead. Accumulate those chances across the opportunities under study. The favorite can change. This measures the allocation chances left outside the current favorite, rather than the number of times an outsider actually wins.[^introduction-i2]
+For each allocation, given the history so far, identify the candidate with the greatest chance of receiving the reward. Take the chance that someone else receives it instead. Accumulate those chances across the opportunities under study. This total is the comparison budget. The favorite can change. The total concerns the chances offered to alternatives, rather than the number of times an outsider actually wins.[^introduction-i2]
 
 A list of awards and rejections does not, by itself, tell us those chances. The budget is not a count of winners or the number of firms on a website. To apply the idea empirically, we need evidence about the allocation process: which alternatives are eligible, what changes their prospects, and what is recorded beyond the award. The quantities cannot be read straight from market shares.
 
@@ -1443,7 +1443,7 @@ Kerr and his coauthors also examine the difficulty of prediction within venture 
 
 The successive races show why those abilities differ. A team unable to finish in 2004 might return with a better vehicle; a desert winner still faced a new task in a city. A backer could help make that development possible without knowing the final ranking. Requiring foreknowledge as a condition of financing would defeat much of the purpose of financing an experiment.
 
-The incentive argument is prospective: expected returns can change which uncertain projects get funded. Its strength depends on how people respond, which attempts disappear under different terms, and whether alternative financing would support them. The word incentive begins that inquiry.
+Expected returns can change which uncertain projects get funded. The effects depend on how people respond, which attempts disappear under different terms, and whether alternative financing would support them.
 
 Contractual entitlement has another basis. Investors and workers can act under agreed terms, complete the promised work, and acquire a claim to payment even when every causal contribution cannot be reconstructed. Reliable promises help people coordinate before outcomes are known.
 
@@ -1709,7 +1709,7 @@ The same caution applies in the opposite direction. A company may spend heavily 
 
 Kerr, Nanda, and Rhodes-Kropf's account of entrepreneurship supplies the established economic starting point. Early tests can inform later commitments, and the option to stop can matter. Bringing that account into AI asks us to examine the sequence of experiments and financing decisions. It does not give the final winner exclusive ownership of the concept of experimentation.[^chapter_07-c7-10]
 
-DeepSeek's table is useful because it defines its boundary. Our job is to preserve it. A quoted training cost should tell us which work is included, how resources were valued, and which comparison the figure permits. Without that discipline, a number intended to explain production becomes a rhetorical device for whatever conclusion we already favored.
+DeepSeek's table covers a specified part of the work. Comparing its figure with another budget requires matching the activities included and the way computing time is valued. The cost of one completed training pipeline and the cost of developing the organization that produced it answer different questions.
 
 ## What can be copied
 
@@ -1731,7 +1731,7 @@ The incentive argument still requires a comparison of feasible arrangements. Ter
 
 We should compare feasible arrangements rather than compare an actual factory with an imaginary world in which discovery, equipment, and coordination cost nothing. Public support, contractual access, released artifacts, and competing private facilities can have different strengths and costs. Which is useful depends on the problem we want to solve.
 
-The point is neither to award all knowledge to its first producer nor to require every producer to give everything away. It is to investigate how the terms of producing and using knowledge affect later useful attempts. The factory creates possibilities. Its institutional arrangements determine who can act on them.
+The terms attached to a model, a dataset, or a computing service help determine which later experiments are feasible. A release can make a new application possible while leaving another training strategy beyond reach. The factory creates possibilities. Its institutional arrangements determine who can act on them.
 
 ## From computing access to a useful comparison
 
@@ -1749,7 +1749,7 @@ Task selection, comparable difficulty, valid outcome measures, privacy, and oper
 
 Distribution can close the route even when computing is available. A default that receives nearly every request can accumulate a record while alternatives obtain little ordinary-use evidence. Availability of an input does not guarantee access to an informative use.
 
-This resembles the distinction between Bell's patent access and customer access, and between search technology and the distribution arrangements examined in Chapter 5. Possessing a useful input is a stage in the process. A practical route to being tried is another. We should not announce that the second problem has been solved merely because the first input is for sale.
+Bell's patents and search distribution expose the same gap. A firm can possess a useful input while lacking a practical route to a customer. Computing for sale does little for an entrant barred from the tasks through which its service could be evaluated.
 
 Performance can nevertheless justify a strong default. An investigation must include measured quality, actual switching, available comparisons, and the costs of alternatives. Access-dependent evidence is something to interpret carefully, rather than to dismiss.
 
@@ -1759,7 +1759,7 @@ The comparison budget prescribes no universal spending ratio. Small persistent c
 
 Discovery also needs a route to action. A demonstration has less practical value if its result cannot influence subsequent adoption. Switching terms and interoperability help determine whether learning can change an economic arrangement.
 
-At the factory level, this inquiry asks about available capacity and access terms. At the service level, it asks about routing and usable performance evidence. At the level of research, it asks whether another training strategy can be attempted. A single statement that AI is concentrated cannot answer all three.
+An alternative training strategy needs capacity and permission to use it. An alternative service needs tasks and credible outcome checks. A buyer needs evidence relevant to the purchase. Several firms can depend on the same provider at one of those stages while remaining independent at another.
 
 Nor does having many firms guarantee that all three are open. Several services could depend on the same model and the same route to users. They could still innovate meaningfully in their own domains. The useful question is what uncertainty their differences can resolve, and what important uncertainty remains outside their experiments.
 
@@ -2365,7 +2365,7 @@ Scale also supplies research, reliability, and lower costs. One large supplier c
 
 ## Precaution without closing discovery
 
-Competition policy already reaches beyond prices. The United States' 2023 Merger Guidelines discuss products, features, innovation, wages, benefits, and research competition. The proposed information rationale adds a question about future evidence; it does not discover nonprice antitrust or dispense with statutory requirements.[^chapter_10-c10-10]
+Competition policy already reaches beyond prices. The United States' 2023 Merger Guidelines discuss products, features, innovation, wages, benefits, and research competition.[^chapter_10-c10-10] Control over future evidence gives those concerns another practical dimension: an entrant can lose the chance to demonstrate an improvement before customers can judge it. Any legal remedy still has to meet the applicable statutory requirements.
 
 Who should bear the burden when closing a route could destroy the evidence needed to judge that closure? Requiring the excluded challenger to supply the missing demonstration makes the obstruction its own defense. When a gatekeeper controls an indispensable route to useful independent evaluation, and credible evidence shows that closure would be hard to reverse, access should therefore be protected by an enforceable, rebuttable duty. The party seeking the restriction should have to demonstrate why a narrower arrangement cannot protect legitimate interests. A challenge to the gatekeeper's own judgment must be assessable by someone other than the gatekeeper.
 
@@ -2381,7 +2381,7 @@ That is an obligation to build and maintain connections between privately owned 
 
 For AI, an obligation might concern an interface or a secure evaluation route rather than publication of every model weight or training record. Fees may be justified; privacy, security, research incentives, and genuine technical constraints matter. Claims of unavoidable harm should receive independent scrutiny. Letting the gatekeeper alone decide whether a competing test is safe would make the safeguard depend on the permission it is intended to examine.
 
-The public authority also needs limits. It should specify the affected decision, plausible lost comparison, legal power, expected benefit, costs, and less burdensome substitutes. A secure audit may suffice where existing evidence answers the question. Prospective trials matter when no file can contain the missing contrast. My proposed time-limited evaluation power would require legislation wherever existing authority is insufficient, along with challenge and review.[^chapter_10-c10-11]
+The public authority also needs limits. It should specify the affected decision, plausible lost comparison, legal power, expected benefit, costs, and less burdensome substitutes. A secure audit may suffice where existing evidence answers the question. Prospective trials matter when no file can contain the missing contrast. A time-limited evaluation power would require legislation wherever existing authority is insufficient, with a defined scope, an evidentiary threshold, and rights of challenge and review.
 
 Property rights should reward invention while leaving competitors a workable route to test and develop their own ideas. Where those routes depend on essential infrastructure, the owner should face a duty to provide appropriately bounded access on workable terms. An incumbent's private tests can satisfy a particular information need when their evidence is usable by the affected decision makers. They do not settle whether an excluded entrant could develop a capability those tests never allow it to attempt.
 
@@ -2391,35 +2391,35 @@ Government can also become the single judge. A mandatory benchmark, favored cons
 
 The rise of agent production makes access more consequential. Cheaper software work can still depend on computing, usable records, distribution, and credible evaluation. Ownership of generated output does not automatically provide those complements.
 
-European computing access, an American research initiative, and China's industrial policy provide three documented institutional approaches. Their stated terms identify what qualifying participants may use, retain, and test. Announced objectives and formal entitlements still need to be distinguished from outcomes in practice.
+EuroHPC offers computing allocations, NAIRR organizes access to research resources, and China's AI Plus policy calls for coordinated computing and investment. For an applicant, the differences appear in practical decisions: who can qualify, what work is permitted, and what can be done with the results.
 
 EuroHPC's Playground call, opened in April 2025, offers an entry route for European startups and smaller businesses with limited computing needs. Applications arrive in order, with eligibility and technical checks rather than a competitive ranking. Allocations last one, two, or three months on a single system. The published call also warns that demand can leave particular capacity unavailable. The door has a procedure and a queue.[^chapter_10-c10-europe]
 
 Its Industrial Innovation modes offer eligible AI small businesses free computing for innovation. Crucially, the March 2026 terms say generated data and models remain the user's property and can be commercially exploited. They also require publication of results outside confidential portions and a final report. Public provision and private accumulation coexist in these stated terms.[^chapter_10-c10-europe]
 
-These terms allow publicly supported computing and private ownership of resulting assets to coexist. They do not establish that a product reaches customers, uses appropriate data, or succeeds in practice. Those are subsequent stages in development and evaluation.
+For a team building a business, a finished allocation is still some distance from a finished product. Appropriate data, continued testing, and access to customers determine whether its retained model can become part of a viable service.
 
 An access program's value also depends on whether work can continue after an allocation ends. Reproducible tests, transferable records, waiting time, support costs, and displaced private purchases help determine whether it enables additional useful experimentation.
 
 Property protection leaves choices about how resources may be used. Article 17 of the EU Charter protects possessions and intellectual property while allowing regulation of use under specified conditions.[^chapter_10-c10-property] The practical choices concern who can use a resource, on what terms, and how investment and entry can continue. Common institutions and member states must still make the different parts of an arrangement work.
 
-America provides a useful challenge to the claim that commitment to private enterprise leaves a state unable to act. The July 2025 AI Action Plan advocates deregulation, but also encourages open models and wider access to computing. It identifies long commitments to large cloud suppliers as an obstacle for many startups and academics, and recommends developing computing markets and the National AI Research Resource, or NAIRR. These are policy recommendations, not proof that the obstacle has disappeared.[^chapter_10-c10-america]
+Support for private enterprise leaves room for public provision of research infrastructure. The July 2025 AI Action Plan advocates deregulation, but also encourages open models and wider access to computing. It identifies long commitments to large cloud suppliers as an obstacle for many startups and academics, and recommends developing computing markets and the National AI Research Resource, or NAIRR.[^chapter_10-c10-america]
 
-In September 2026, the National Science Foundation announced an operations center for NAIRR, the public-private research initiative. The center would coordinate providers, integrate computing and other resources, operate a portal, and support users. A researcher could potentially reach resources through an organized public route rather than negotiate every component alone. The announcement establishes an institutional undertaking; it does not measure how many otherwise impossible competitors it creates.[^chapter_10-c10-nairr]
+In September 2026, the National Science Foundation announced an operations center for NAIRR, the public-private research initiative. The center would coordinate providers, integrate computing and other resources, operate a portal, and support users. A researcher could reach resources through an organized public route rather than negotiate every component alone.[^chapter_10-c10-nairr]
 
 Research access and commercial entry remain different routes. Eligibility, permitted use, and portability of results determine how far a research initiative can support later independent development. A portal can simplify access without removing dependence on its participating providers.
 
-American authorities have also examined the private arrangements. In January 2025, FTC staff reported on partnerships between major cloud suppliers and AI developers. The report identified potential concerns involving input access, contractual and technical switching costs, and privileged information. It explicitly made no determination of illegality. Its historical scope matters: these were findings from a dated inquiry, not an audit of every contract now available.[^chapter_10-c10-ftc]
+American authorities have also examined the private arrangements. In January 2025, FTC staff reported on partnerships between major cloud suppliers and AI developers. The report identified potential concerns involving input access, contractual and technical switching costs, and privileged information, without making a determination of illegality.[^chapter_10-c10-ftc]
 
-Such partnerships can finance valuable capabilities. Their terms can also shape switching and future development. Evaluating those consequences requires the agreement and feasible substitutes. The documented American initiatives show instruments available to the state; their adequacy depends on institutions in operation.
+Such partnerships can finance valuable capabilities. A developer may obtain the computing it needs while accepting terms that make a later move expensive. An access initiative has to leave a workable route beyond the initial allocation if it is to support an independent business.
 
 Deregulation and access protection can affect different constraints. Removing an unnecessary permit can support entry, while leaving an indispensable interface at one provider's discretion can preserve a bottleneck. A count of regulations removed does not measure the ability to conduct an independent test.
 
-China's August 2025 AI Plus policy starts from a more explicit program of coordination. It calls for shared and interconnected computing, agent services, open-source development, and patient capital. It addresses new forms of work and employment risks as well as industrial adoption. These are announced objectives. They do not establish that an unaffiliated firm actually receives resources or that the policy improves long-run adaptation.[^chapter_10-c10-china]
+China's August 2025 AI Plus policy starts from a more explicit program of coordination. It calls for shared and interconnected computing, agent services, open-source development, and patient capital. It addresses new forms of work and employment risks as well as industrial adoption.[^chapter_10-c10-china]
 
 Patient capital and shared computing could support redesign before commercialization. Their usefulness still depends on admission rules and the ability to try unfamiliar approaches. Coordinated resources can coexist with a common gate that rejects departures from an established method.
 
-There is a further boundary. China's 2023 interim generative-AI measures encourage innovation and shared infrastructure, while imposing political content requirements on covered services offered to the mainland public. Their scope expressly excludes development and applications that do not provide such public services. That distinction prevents us from treating every private research activity as governed by the same provision. It also prevents us from treating support for computing as equivalent to unrestricted public inquiry.[^chapter_10-c10-china-rules]
+China's 2023 interim generative-AI measures encourage innovation and shared infrastructure, while imposing political content requirements on covered services offered to the mainland public. Their scope expressly excludes development and applications that do not provide such public services.[^chapter_10-c10-china-rules]
 
 An economy could make it easier to try competing industrial designs while restricting which politically unwelcome conclusions a public service may generate. A test earns little independence if its commercial or public sponsor can suppress an inconvenient result. Researchers need to be able to report that the favored system failed.
 
@@ -2431,7 +2431,7 @@ Public intervention can create a gate of its own. Certification costs may exclud
 
 To choose between arrangements, return to the same sequence. Can a qualified outsider obtain resources? Can it reach customers and receive informative work? Can someone check the outcomes independently? Can useful records travel? Can an exclusion or a failed official test be challenged? The answers must survive ordinary use. A published entitlement that nobody can exercise is the institutional equivalent of the exported file nobody can read.
 
-The society with the first leading model need not be the society best able to recover from a mistake in it. Conversely, a generous access program might absorb scarce engineers and money while producing little useful knowledge. The long-run hypothesis is about preserving workable alternatives at acceptable cost. We will return to how to test it in the final chapter. These dated policies open that inquiry; they do not settle which society will prevail.
+The society with the first leading model need not be the society best able to recover from a mistake in it. When the established system fails, a rival needs a route to computing, customers, and independent testing. Public resources can keep that route available, or absorb scarce engineers and money without producing usable alternatives. Recovery depends on what another team can actually investigate, demonstrate, and put into service.
 
 ## The price of finding out
 
@@ -2711,19 +2711,19 @@ An experiment must permit a result favoring the incumbent. An institution whose 
 
 Credibility also requires stable criteria, recorded revisions, and relevant rights of challenge. Independent review can test whether the evidence supports a conclusion; the institution acting on it remains responsible for its decision.
 
-The same principle applies to the researcher. A study of comparison opportunities should preserve evidence that a market already generates useful tests or that no practical alternative meets the requirements. Negative findings help distinguish a mechanism from a slogan. They can show where the comparison-budget perspective adds little to an existing explanation.
+An existing internal test may already resolve the buyer's uncertainty. Paying for a duplicate study would then spend resources without changing the decision. A missing alternative warrants further investigation when a feasible comparison could supply useful evidence.
 
 ## When the leading arrangement fails
 
-The country comparison proposes a question about robustness: can an economy discover and adopt workable alternatives after a technological, commercial, or policy failure, at acceptable cost? A large computing fleet alone cannot answer it.
+After a leading system fails, another team needs resources to investigate, permission to test a different approach, and freedom to report what it finds. Public computing can support that work while admission rules or restrictions on publication obstruct it. What matters is whether a workable alternative can get through those steps and into use.
 
 A failure can be isolated by independent tests or reproduced across many services sharing a common checklist and restricted evaluation route. The number of brands says little about which situation applies. Robustness concerns the practical ability to expose the failure and develop a workable alternative.
 
-Track the route from discovering the problem to putting a better arrangement into service: permissions, time, expense, mistaken decisions, and productive capacity lost. Ask whether a dormant supplier's retained records helped, whether existing private tests supplied the answer, and whether a cheaper substitute was available. Then investigate whether public access, an enforceable interface, or transferable records improved recovery. Differences between countries would also require attention to their resources and other institutions; a faster recovery by itself would not identify the cause. Record unsuccessful applications too; successful recipients alone cannot describe the access system.
+An available rival is little help if a buyer cannot transfer the records needed to test it. A dormant supplier's records can shorten recovery when they remain usable. Existing private tests or a cheaper substitute may already provide the answer. Waiting time, permissions, expense, and lost productive capacity determine whether a new access arrangement improves on those routes.
 
-The hypothesis must be able to lose. Subsidized computing might produce unusable results. Official checks might suppress failures or spread a common error. Compliance burdens might deter the investment an alternative needs. Count displaced private experiments and the benefits of faster initial development as well as recovery. The relevant time horizon and consequences must be stated.
+Subsidized computing that produces unusable results still consumes money, equipment, and skilled work. Official checks can spread a common error or suppress a finding that would embarrass the sponsor. A costly application process can exclude the team that needs the resources. The value of keeping an alternative available has to exceed those costs, including displaced private experiments and slower initial development.
 
-Announced American, European, and Chinese policies open this inquiry; they cannot settle it. Begin with comparable decisions and observable routes through failure. Ask who could challenge the accepted explanation, what evidence they obtained, and whether acting on it improved the outcome. Those questions let the institutional argument risk an answer against itself.
+Faster recovery in one country could reflect better equipment, a deeper pool of engineers, or other institutions alongside the access policy. Those differences belong in the explanation. So do the applicants turned away and the findings kept from public view. A list of successful recipients leaves out the people who never reached a test.
 
 ## What an economist should report
 
@@ -3149,7 +3149,7 @@ An economy should reward its winners without giving them ownership of everyone e
 
 [^chapter_10-c10-3]: Blackwell, [“Equivalent Comparisons of Experiments”](https://doi.org/10.1214/aoms/1177729032), 1953, original pp. 265–267, decision losses and Theorems 3, 5–6; Section 4, pp. 268–269, extends beyond finite outcomes. Earlier Sherman–Stein result credited. De Oliveira, [November 2017 author paper](https://henriquedeoliveira.com/wp-content/uploads/2020/12/blackwells-informativeness-theorem-using-diagrams.pdf), pp. 1–5, published 2018. Fixed decision setting, known interpretation and state-independent garbling matter; gross value excludes collection costs.
 
-[^chapter_10-c10-4]: *United States v. Google*, [Final Judgment](https://www.justice.gov/atr/media/1421546/dl?inline=), December 5, 2025, ECF 1462, Section IV.B–C, pp. 6–7. Qualified competitors, specified user-side data, documentation, safeguards and exclusions including algorithms, ranking signals and post-trained LLMs. Dated ordered terms; no delivery, success or appellate-disposition finding here.
+[^chapter_10-c10-4]: *United States v. Google*, [Final Judgment](https://www.justice.gov/atr/media/1421546/dl?inline=), December 5, 2025, ECF 1462, Section IV.B–C, pp. 6–7.
 
 [^chapter_10-c10-5]: Zahra Meghani, “Regulations Matter: Epistemic Monopoly, Domination, Patents, and the Public Interest,” *Philosophy & Technology* 34 (2021): 1449–1474, introduction and section 6. [Article](https://link.springer.com/article/10.1007/s13347-021-00467-2).
 
@@ -3161,9 +3161,7 @@ An economy should reward its winners without giving them ownership of everyone e
 
 [^chapter_10-c10-9]: F. A. Hayek, [“Competition as a Discovery Procedure”](https://ppe.isi.org/wp-content/uploads/2017/12/Lesson-9-Reading-Competition-as-a-Discovery-Process.pdf), 2002 English translation by Marcellus S. Snow of the 1968 lecture, pp. 9–11.
 
-[^chapter_10-c10-10]: DOJ/FTC, [2023 Merger Guidelines](https://www.justice.gov/atr/media/1329301/dl), overview and Guidelines 2, 3 (observability), 10. Nonprice analysis predates this proposal. Agency guidance, not legislation or particular liability; comparison deficits alone do not meet applicable legal tests.
-
-[^chapter_10-c10-11]: The proposed evaluation power would require legislation specifying its scope, evidentiary threshold, rights of challenge, and review. Procurement, antitrust, and digital regulation have distinct legal requirements; an information concern alone supplies no existing legal authority.
+[^chapter_10-c10-10]: DOJ/FTC, [2023 Merger Guidelines](https://www.justice.gov/atr/media/1329301/dl), overview and Guidelines 2, 3 (observability), 10.
 
 [^chapter_10-c10-12]: David Blackwell, “Equivalent Comparisons of Experiments,” *Annals of Mathematical Statistics* 24 (1953): 265–272, especially 265–267. [doi:10.1214/aoms/1177729032](https://doi.org/10.1214/aoms/1177729032).
 
@@ -3171,21 +3169,21 @@ An economy should reward its winners without giving them ownership of everyone e
 
 [^chapter_10-c10-precaution]: Kenneth J. Arrow and Anthony C. Fisher, “Environmental Preservation, Uncertainty, and Irreversibility,” 1974, pp. 316–319, [doi:10.2307/1883074](https://doi.org/10.2307/1883074), [article copy](https://www.u-cursos.cl/derecho/2019/1/DDAL23/1/material_docente/bajar?bajar=1&id=2589976).
 
-[^chapter_10-c10-dma]: [DMA, Regulation 2022/1925](https://eur-lex.europa.eu/eli/reg/2022/1925/oj/eng), Articles 7(1)–(3), 7(6)–(7), 6(11). Requested messaging functions, phased deadlines, security, exceptional extensions and user choice; distinct search-data terms. These clauses do not establish an automatic AI duty or demonstrate implementation success.
+[^chapter_10-c10-dma]: [DMA, Regulation 2022/1925](https://eur-lex.europa.eu/eli/reg/2022/1925/oj/eng), Articles 7(1)–(3), 7(6)–(7), 6(11).
 
-[^chapter_10-c10-europe]: EuroHPC, [Playground call](https://www.eurohpc-ju.europa.eu/playground-access-ai-factories_en), April 9, 2025, Description/capacity notice; [access modes](https://www.eurohpc-ju.europa.eu/ai-factories/ai-factories-access-modes_en), Industrial Innovation; [Terms of Reference](https://www.eurohpc-ju.europa.eu/document/download/bd7aa666-bdf3-4436-b5ec-0b34a781e817_en?filename=Terms+of+Reference+-+AIF+Access+Calls.pdf), V3, March 31, 2026, Sections 1.3–1.4, 2–3.1. Published terms, not delivered capacity or demonstrated additional entry.
+[^chapter_10-c10-europe]: EuroHPC, [Playground call](https://www.eurohpc-ju.europa.eu/playground-access-ai-factories_en), April 9, 2025, Description/capacity notice; [access modes](https://www.eurohpc-ju.europa.eu/ai-factories/ai-factories-access-modes_en), Industrial Innovation; [Terms of Reference](https://www.eurohpc-ju.europa.eu/document/download/bd7aa666-bdf3-4436-b5ec-0b34a781e817_en?filename=Terms+of+Reference+-+AIF+Access+Calls.pdf), V3, March 31, 2026, Sections 1.3–1.4, 2–3.1.
 
 [^chapter_10-c10-property]: [Charter of Fundamental Rights of the European Union, Article 17(1)–(2)](https://fra.europa.eu/en/eu-charter/charter/article/17-right-property), and accompanying explanations.
 
-[^chapter_10-c10-america]: White House, [*America's AI Action Plan*](https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf), July 2025, printed pp. 3–5, deregulation/open-model/access recommendations. Objectives, not established effects or universal model-license terms.
+[^chapter_10-c10-america]: White House, [*America's AI Action Plan*](https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf), July 2025, printed pp. 3–5, deregulation/open-model/access recommendations.
 
 [^chapter_10-c10-nairr]: NSF, [NAIRR operations-center announcement](https://www.nsf.gov/cise/updates/nsf-establishes-operations-center-national-artificial), September 1, 2026.
 
-[^chapter_10-c10-ftc]: FTC Office of Technology staff, [*Partnerships Between Cloud Service Providers and AI Developers*](https://www.ftc.gov/system/files/ftc_gov/pdf/p246201_aipartnerships6breport_redacted.pdf), January 2025, pp. 1–3, 29–30, 32–34. Respondents' information through September 2024 plus public information through January 2025; potential concerns, no illegality determination or current contract audit.
+[^chapter_10-c10-ftc]: FTC Office of Technology staff, [*Partnerships Between Cloud Service Providers and AI Developers*](https://www.ftc.gov/system/files/ftc_gov/pdf/p246201_aipartnerships6breport_redacted.pdf), January 2025, pp. 1–3, 29–30, 32–34. Company information through September 2024; public information through January 2025.
 
-[^chapter_10-c10-china]: State Council, [AI Plus opinion](https://www.nda.gov.cn/sjj/swdt/xwfb/0826/20250826173046592282838_mobile.html), dated August 21, published August 26, 2025, Sections II(2), II(4), III(9)–(13). Author's paraphrase of original Chinese; announced objectives, not achieved outcomes.
+[^chapter_10-c10-china]: State Council, [AI Plus opinion](https://www.nda.gov.cn/sjj/swdt/xwfb/0826/20250826173046592282838_mobile.html), dated August 21, published August 26, 2025, Sections II(2), II(4), III(9)–(13).
 
-[^chapter_10-c10-china-rules]: CAC and six ministries, [*Interim Measures for Generative AI Services*](https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm), published July 13, effective August 15, 2023, Articles 2, 4–6. Author's paraphrase of enacted Chinese text, distinct from consultation draft; not a comprehensive October 2026 legal audit.
+[^chapter_10-c10-china-rules]: CAC and six ministries, [*Interim Measures for Generative AI Services*](https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm), published July 13, effective August 15, 2023, Articles 2, 4–6.
 
 ## Taxing lost comparison
 
@@ -3215,7 +3213,7 @@ An economy should reward its winners without giving them ownership of everyone e
 
 ## An economics of possible worlds
 
-[^chapter_12-c12-1]: Rothamsted Research, A. J. Macdonald, editor, [*Guide to the Classical and Other Long-Term Experiments, Datasets and Sample Archive*](https://www.rothamsted.ac.uk/sites/default/files/national-capability/long-term-experiments/Web_LTE%20Guidebook_2019%20Final2.pdf), 2018, reprinted 2019, pp. 4–9, especially p. 7. Autumn 1843 sowing and 1844 first harvest distinguished. Treatments varied in the first years; a scheme established in 1852 largely persisted until 1968. Original Broadbalk layout is not described as a modern randomized design.
+[^chapter_12-c12-1]: Rothamsted Research, A. J. Macdonald, editor, [*Guide to the Classical and Other Long-Term Experiments, Datasets and Sample Archive*](https://www.rothamsted.ac.uk/sites/default/files/national-capability/long-term-experiments/Web_LTE%20Guidebook_2019%20Final2.pdf), 2018, reprinted 2019, pp. 4–9, especially p. 7.
 
 [^chapter_12-c12-2]: Rothamsted Research, [“Why Do We Make Changes to the Long-Term Experiments?”](https://www.rothamsted.ac.uk/news/why-do-we-make-changes-long-term-experiments-rothamsted), January 17, 2024; A. J. Macdonald, ed., *Guide to the Classical and Other Long-Term Experiments, Datasets and Sample Archive*, 2018, reprinted 2019, pp. 5–7 and Broadbalk plan.
 
@@ -3225,7 +3223,7 @@ An economy should reward its winners without giving them ownership of everyone e
 
 [^chapter_12-c12-5]: R. A. Fisher, [“The Arrangement of Field Experiments”](https://pdixon.stat.iastate.edu/stat571/readings/Fisher%201926.pdf), 1926, original pp. 503–508, reproduced pp. 84–89.
 
-[^chapter_12-c12-7]: Tim P. Morris, Ian R. White, and Michael J. Crowther, “Using Simulation Studies to Evaluate Statistical Methods,” *Statistics in Medicine* 38 (2019): 2074–2102, Sections 3.1–3.2 and Table 1, [doi:10.1002/sim.8086](https://doi.org/10.1002/sim.8086). The authors organize simulation design around aims, data-generating mechanisms, estimands, methods, and performance measures. The market example is a proposed application; successful recovery in specified simulated scenarios does not establish that a real market follows those rules.
+[^chapter_12-c12-7]: Tim P. Morris, Ian R. White, and Michael J. Crowther, “Using Simulation Studies to Evaluate Statistical Methods,” *Statistics in Medicine* 38 (2019): 2074–2102, Sections 3.1–3.2 and Table 1, [doi:10.1002/sim.8086](https://doi.org/10.1002/sim.8086).
 
 [^chapter_12-c12-9]: Maximilian Kasy and Anja Sautmann, [“Adaptive Treatment Assignment in Experiments for Policy Choice,”](https://maxkasy.github.io/home/files/papers/adaptiveexperimentspolicy.pdf) *Econometrica* 89 (2021): 113–132, especially 113–114 and 122–123. See the [November 10, 2021 correction](https://maxkasy.github.io/home/files/papers/correction_adaptiveexperimentspolicy.pdf).
 
@@ -3235,7 +3233,7 @@ An economy should reward its winners without giving them ownership of everyone e
 
 [^chapter_12-c12-12]: David Blackwell, [“Equivalent Comparisons of Experiments”](https://doi.org/10.1214/aoms/1177729032), 1953, pp. 265–267, Theorems 3, 5–6, and Section 4; Henrique de Oliveira, [“Blackwell's Informativeness Theorem Using Diagrams”](https://henriquedeoliveira.com/wp-content/uploads/2020/12/blackwells-informativeness-theorem-using-diagrams.pdf), November 2017 author paper, published 2018, pp. 1–5.
 
-[^chapter_12-c12-13]: Hayek, [“Competition as a Discovery Procedure”](https://ppe.isi.org/wp-content/uploads/2017/12/Lesson-9-Reading-Competition-as-a-Discovery-Process.pdf), 2002 translation by Marcellus S. Snow of the 1968 lecture, pp. 9–11. Prior discovery argument credited; it is not a guarantee of contribution identification or every intervention's benefit.
+[^chapter_12-c12-13]: Hayek, [“Competition as a Discovery Procedure”](https://ppe.isi.org/wp-content/uploads/2017/12/Lesson-9-Reading-Competition-as-a-Discovery-Process.pdf), 2002 translation by Marcellus S. Snow of the 1968 lecture, pp. 9–11.
 
 [^chapter_12-c12-14]: Salganik, Dodds, and Watts, [“Experimental Study of Inequality and Unpredictability in an Artificial Cultural Market”](https://doi.org/10.1126/science.1121066), 2006, pp. 854–856; Salganik, [*Bit by Bit*, Section 4.6.1](https://www.bitbybitbook.com/en/running-experiments/exp-advice/zero-variable-cost/), open review edition, n.d.
 
