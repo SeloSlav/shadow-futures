@@ -1,13 +1,13 @@
 {
   "manuscript": "book/manuscript/14-epilogue.md",
   "title": "The next opportunity",
-  "checked_on": "2026-10-16",
+  "checked_on": "2026-10-17",
   "status": "reviewed",
   "target_main_words": 2000,
-  "body_words": 945,
-  "note_words": 94,
-  "draft_sha256": "877acffe777c6627238e7c144959e6876806d62cd412122938735c5c5d21f28f",
-  "source_checks": "Relevant primary passages and direct scanned pages checked with exact version/access boundaries. Earlier substantive checks retained by claim. Cross-book source queue is recorded separately; this epilogue cites Rothamsted and MusicLab. All council design choices/results fictional.",
+  "body_words": 764,
+  "note_words": 83,
+  "draft_sha256": "036840057ce2dd736f7abea3f134e571a5249ee6d4edf895e4e4765ff75ac381",
+  "source_checks": "Existing claim-specific MusicLab and Rothamsted passage checks reused. The revised ending makes no new reported empirical result. Earlier narrative and sequential-review records are historical.",
   "sources": [
     {
       "key": "SalganikDoddsWatts2006",
@@ -63,20 +63,12 @@
       "note": "e-3"
     }
   ],
-  "illustrations": [
-    {
-      "name": "Stipulated council trial results and continuation",
-      "status": "explicit fiction and conditional institution choice",
-      "note": "e-1",
-      "purpose": "Aster retained ordinarywork; Birch earns limited live trial on prespecified incomplete requests; sixweeks,120requests,£12,000 cashcap; humanchecks, costs and review; not executed data or empirical recommendation"
-    }
-  ],
   "narrative_checks": [
-    "Concrete purchasing decision resolves throughline without automaticunder dogvictory or permanentprotection.",
-    "All outcomes, numbers and maintenanceexamples stipulated; no real participants/interviews/results.",
-    "Achievement, explanation and institution choice remain distinct.",
-    "Tax/antitrust premise gap, existing evidence, feasiblecost and productivebenefits retained.",
-    "2000mainwords; sourcecredit retained for MusicLab and Rothamsted."
+    "One concrete arc from Rothamsted to practical opportunities and back to MusicLab.",
+    "No definition-by-definition recap, invented reporting, or recurring fictional institution.",
+    "Two endnotes are bibliographic citations only; no editorial qualifications.",
+    "Testing is proposed subject to cost; no actual tax rate, policy effect or theorem application asserted.",
+    "Changed prose read once for continuity, accessibility, repetition and ending."
   ],
   "whole_book_review": "Sequential component review completed for recorded claims. Original-source queue and final cross-book continuity, repetition, factual, conceptual, citation and budget audit remain separate and open.",
   "sequential_review": {
@@ -102,5 +94,32 @@
     "source_checks": "Existing claim-specific checks reused for unchanged facts and published model results. No new interviews, reported trial, welfare estimate or proof certification.",
     "continuity": "Affected explanations and neighboring transitions reviewed; chapter openings/endings checked across the book.",
     "historical_records": "Earlier narrative and review entries remain historical; current reader wording is authoritative."
+  },
+  "superseded_illustrations": [
+    {
+      "name": "Stipulated council trial results and continuation",
+      "status": "explicit fiction and conditional institution choice",
+      "note": "e-1",
+      "purpose": "Aster retained ordinarywork; Birch earns limited live trial on prespecified incomplete requests; sixweeks,120requests,£12,000 cashcap; humanchecks, costs and review; not executed data or empirical recommendation"
+    }
+  ],
+  "illustrations": [
+    {
+      "name": "Uniform field treatment",
+      "status": "Conditional explanation",
+      "purpose": "Explains the loss of a continuing treatment comparison without estimating forgone yield."
+    },
+    {
+      "name": "Beginner and incumbent AI system",
+      "status": "Brief anonymous conditional illustrations",
+      "purpose": "Shows how an assignment or suitable evaluation can supply evidence missing from repeated incumbent work; no reported hiring or AI productivity finding."
+    }
+  ],
+  "epilogue_style_revision": {
+    "date": "2026-10-17",
+    "manuscript_sha256": "036840057ce2dd736f7abea3f134e571a5249ee6d4edf895e4e4765ff75ac381",
+    "scope": "Replace dense recap with concrete closing arc and stronger final image; remove editorial note clauses.",
+    "source_checks": "Unchanged relevant published passages reused; no new source audit.",
+    "boundary": "Existing original theorem-passage flags elsewhere remain unchanged."
   }
 }

@@ -1,7 +1,7 @@
 {
   "status": "complete_draft_assembly_review_pending",
   "file": "book/drafts/Shadow_Futures_Complete_Manuscript.md",
-  "sha256": "b796d8c00ae2e868b4462f1dcdd51c7a7d772ef134b5fa96cbf7c665cf3c98ae",
+  "sha256": "edb68ee4d7889cd33f3dee258438014640f05a198635996ce03c5144b87d3a9b",
   "inputs": [
     {
       "file": "book/manuscript/00-prologue.md",
@@ -61,7 +61,7 @@
     },
     {
       "file": "book/manuscript/14-epilogue.md",
-      "sha256": "877acffe777c6627238e7c144959e6876806d62cd412122938735c5c5d21f28f"
+      "sha256": "036840057ce2dd736f7abea3f134e571a5249ee6d4edf895e4e4765ff75ac381"
     },
     {
       "file": "book/manuscript/90-references.md",
@@ -73,8 +73,8 @@
     }
   ],
   "bibliography_input_sha256": "d1fd1deeb9efee06d66a3e5121edfe64e973c065a5f06e466143a216ae244d2c",
-  "main_words": 65280,
-  "back_matter_words": 12848,
+  "main_words": 65099,
+  "back_matter_words": 12837,
   "reference_entries": 133,
   "endnote_count": 185,
   "notes_namespaced": true,

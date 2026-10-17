@@ -2753,41 +2753,37 @@ Lockdown's second chart survived because the experiment gave it a place. For the
 
 ## The next opportunity
 
-Lockdown finished first in one MusicLab world and fortieth in another. The recording’s craftsmanship did not change between those charts. Separate groups of listeners encountered the same music through different developing histories of social influence. The experiment preserved more than one chart, making the contrast observable.[^epilogue-e-2]
+At Rothamsted in England, wheat grows in an experiment begun in 1843. Across its plots, researchers have compared mineral fertilizers, manure, and no fertilizer. They have kept records and saved samples of crops and soil. Generations of researchers have inherited both the harvests and the differences that help explain them.[^epilogue-e-3]
 
-That additional chart does not supply a deserved royalty or a complete theory of musical quality. It does defeat a particular shortcut: treating one realized ranking as the full account of what the recordings could achieve. The result is evidence about how success develops, rather than consolation invented for an unsuccessful alternative.
+Give every plot the same treatment, and the field might produce more wheat. It would also stop producing that continuing comparison. An untreated plot can look like wasted ground when this year's crop is all that counts. Its value changes when we count what it helps people learn.
 
-Most economic life has no adjacent chart. The grant not awarded, the idea never tested, and the beginner denied responsibility may leave no comparable observation. Describing their possible development is easier than establishing it. The useful work is to identify which contrast matters and whether a feasible investigation can produce the missing evidence.
+Someone has to keep making room for it. Soil must be tended, samples preserved, records understood. The experiment has changed as agricultural methods and scientific questions have changed. The knowledge available to later researchers depends on work that earlier generations chose to do.
 
-The comparison budget gives one feature of that process a name: the cumulative modeled chance that an allocation goes outside its current favorite. Under specified conditions, it limits the information a reward history supplies about productive inputs. A large budget does not guarantee identification; a small chance can accumulate without limit. The object earns its place through the precision of those distinctions and the evidence with which applications are assessed.
+A market leaves a different kind of field behind it. Orders, wages, investments, and download counts record where activity went. They can tell us a great deal about the businesses and people who received those opportunities. The rejected application usually leaves a thinner file.
 
-Shadow futures describe feasible histories under the same underlying effects, starting conditions, and response rules. Their outcomes can differ while real work occurs along each path. They let us consider historical variation without quietly changing the economy until an imagined favorite wins.
+For a beginner, an assignment can bring pay, practice, a reference, and something to show the next employer. Turn someone down for lack of experience, and the decision can help perpetuate the very lack it cites. Another year of work by the experienced applicant will not reveal what the beginner would have learned. To find that out, someone has to offer a beginning.
 
-Epistemic monopoly concerns control over the comparisons needed to discover and evaluate alternatives. It can involve preventing a test, controlling access to a result, or imposing a shared standard that cannot be meaningfully challenged. Large scale alone establishes none of these conditions. An integrated firm can conduct excellent experiments, while numerous nominal competitors can inherit one blind spot.
+The same difficulty can arise when software does the work. A company might send thousands of tasks to AI agents using one model and build an impressive record of completed jobs. To discover whether another system would perform better, it needs suitable tasks, access to that system, and a way to compare results. Another million completions by the incumbent do not automatically provide that comparison.
 
-The historical progression matters because the reach of an evaluation can expand. An earlier local rejection could leave other places to try. A common gate spanning markets can transmit a judgment much farther. Whether practical independent routes remain is an institutional question. The benefits of broad networks and productive scale belong in the same assessment as their effects on those routes.
+A rival listed on a website has permission to exist. Getting its work into an evaluation, its product in front of customers, or its findings into a decision is a further step. When a gatekeeper controls those routes, it can help decide which alternatives acquire evidence and which remain promises. That is where epistemic monopoly reaches into everyday economic life.
 
-The AI economy makes the question consequential. Training, deployment, and automated attempts can expand at extraordinary scale while evidence about a different development path remains scarce. AI can also make alternatives cheaper to construct and test. Agents, computing, and records acquire economic meaning through the arrangements that connect them to trustworthy feedback and decisions.
+We can spend heavily on producing answers while spending little on discovering whether we are asking the right system. We can reward experience while closing the routes through which someone else could acquire it. A busy economy can keep repeating a choice without getting much better at explaining it.
 
-The book's workplace studies make that need for evidence concrete. Immediate output, retained skill, preferences about tools, hiring, and wages are different outcomes. A finding about one cannot silently stand for the rest. Capital accumulation and ownership add further questions about which assets persist, who controls them, and whether those assets support another independent attempt.
+The practical response begins with something tangible. A buyer can put a rival through a useful test. A shared computing facility can let a researcher attempt a different design. An interface can let customers try another service without abandoning everything they have already built. Each proposal needs a reason to justify its cost. But the value of finding out belongs in that calculation alongside the value of the next completed job.
 
-Taking uncertainty seriously leaves achievement intact. A working technology works. A completed task was completed. Productive investment can deserve substantial prospective rewards, and a valid contract can create obligations despite incomplete causal attribution. What the record may fail to provide is an exact account of every cause of the reward attached to that achievement.
+A well-designed comparison can confirm that the established supplier is still the best choice. It can also expose a better method, a neglected skill, or a mistake shared by everyone using the same system. Its purpose is to let what happens in the test change what happens afterward.
 
-Nor does uncertainty settle distribution. Insurance against ruin, rewards for valuable experiments, and workable routes into new activity require principles and behavioral evidence of their own. Different histories do not establish equal contributions or prescribe equal incomes. They require care before translating earnings into a complete judgment about worth.
+At MusicLab, that possibility was built into the experiment. The same forty-eight recordings entered separate worlds. Listeners made choices, those choices became visible to later listeners, and the charts developed differently. Lockdown finished first in one world and fortieth in another.[^epilogue-e-2]
 
-Competition policy and taxation enter through similarly specific questions. Would access preserve a useful comparison? Does conduct impose a wider cost that private incentives miss? Can a payment, an interface, or a shared evaluation service improve the feasible outcome after productive benefits and implementation costs are counted? The framework must allow answers against intervention as well as for it.
+Imagine having only the first chart. We could play the winning recording, examine its qualities, and write a persuasive account of why it deserved to lead. With only the other chart, we could do the same for its failure. The second history makes both explanations harder to deliver with such confidence.
 
-A cheap private test can be better than a new public laboratory. Shared infrastructure can make an independent attempt affordable. A narrow access obligation can preserve what a broader restructuring would obtain at excessive cost. Another case can reveal that none of those arrangements produces valuable additional evidence. Names for new objects do not relieve us of choosing among real alternatives.
+That discomfort is useful. It gives us room to admire an achievement without treating its reward as the final word on everyone else's ability. It asks us to look again at the applicant, the business, or the idea whose thin record may partly reflect the opportunities it never received.
 
-At Rothamsted, maintained treatment differences and preserved material made later scientific questions possible. Continuity required work, and sometimes useful continuity required changes in the experiment. An archive was valuable because its provenance and differences remained interpretable, rather than because time had passed.[^epilogue-e-3]
+Most shadow futures will leave no second chart. We cannot recover every missed opportunity or run every possible experiment. We can, however, make room for comparisons that might change an important choice. What seems inevitable after success can still be open before the next decision.
 
-An economy's comparison institutions deserve the same attention. They include records, experimental design, contracts, interfaces, funding, and practical routes through which a result can alter an action. They need not preserve every unsuccessful venture. They need to distinguish an opportunity worth maintaining from an expensive attempt that teaches little.
+Lockdown's other chart existed because someone made room for another history. The recording was ready. The opportunity had to be built.
 
-The people affected will still have different interests. Owners seek returns, workers seek livelihoods and opportunity, users seek reliable services, and researchers seek evidence. Facts can clarify those disagreements without deciding every value question. Institutions must state their purposes and accept responsibility for their choices rather than conceal a moral conclusion beneath a performance score.
-
-A successful economy can produce well and learn about feasible alternatives. The question is whether the arrangements that deliver today's achievements also permit us to discover a different way of doing things when finding out is worth the cost. The comparison must remain capable of changing the conclusion, including the conclusions offered in this book.
-
-Lockdown's other chart was there to be read. Most economic alternatives have no such page. Some of the pages that will exist next depend on choices we are making now.
+The chart tells us what won. What gets a chance next is still up to us.
 
 ---
 
@@ -3191,9 +3187,9 @@ Lockdown's other chart was there to be read. Most economic alternatives have no 
 
 ## The next opportunity
 
-[^epilogue-e-2]: Salganik, Dodds, and Watts, [“Experimental Study of Inequality and Unpredictability in an Artificial Cultural Market”](https://doi.org/10.1126/science.1121066), 2006, pp. 854–856; Salganik, [*Bit by Bit*, Section 4.6.1](https://www.bitbybitbook.com/en/running-experiments/exp-advice/zero-variable-cost/), for the specific ranks. Neither personal biography nor income or contractual treatment of the musicians is inferred.
+[^epilogue-e-2]: Matthew J. Salganik, Peter Sheridan Dodds, and Duncan J. Watts, “Experimental Study of Inequality and Unpredictability in an Artificial Cultural Market,” *Science* 311 (2006): 854–856, [doi:10.1126/science.1121066](https://doi.org/10.1126/science.1121066); Matthew J. Salganik, [*Bit by Bit: Social Research in the Digital Age*, Section 4.6.1](https://www.bitbybitbook.com/en/running-experiments/exp-advice/zero-variable-cost/), open review edition, n.d.
 
-[^epilogue-e-3]: Rothamsted, [“Why Do We Make Changes to the Long-Term Experiments?”](https://www.rothamsted.ac.uk/news/why-do-we-make-changes-long-term-experiments-rothamsted), January 17, 2024; A. J. Macdonald, ed., *Guide to the Classical and Other Long-Term Experiments, Datasets and Sample Archive*, 2018, reprinted 2019, pp. 5–7. Institutional example, not a test of the lifetime information limit or a recommendation for indefinite economic experimentation.
+[^epilogue-e-3]: A. J. Macdonald, ed., [*Guide to the Classical and Other Long-Term Experiments, Datasets and Sample Archive*](https://www.rothamsted.ac.uk/sites/default/files/national-capability/long-term-experiments/Web_LTE%20Guidebook_2019%20Final2.pdf), Rothamsted Research, 2018, reprinted 2019, pp. 5–7; Rothamsted Research, [“Why Do We Make Changes to the Long-Term Experiments?”](https://www.rothamsted.ac.uk/news/why-do-we-make-changes-long-term-experiments-rothamsted), January 17, 2024.
 
 ---
 
