@@ -2,9 +2,9 @@
   "manuscript": "book/manuscript/00-prologue.md",
   "title": "The other life of a song",
   "checked_on": "2026-10-16",
-  "body_words": 2419,
+  "body_words": 2467,
   "word_count_method": "Whitespace-separated main-prose words after removing headings and footnote markers; notes are additional.",
-  "draft_sha256": "d720c357f69d3216146a350ecf9b51cf0eb7399a469e5f533e4ce6ee64cc289b",
+  "draft_sha256": "6ab8352f7b8e3e18244936e3e4d1bd3cb1f114cb91cbbef1972f319b7e79bb04",
   "status": "revised_draft",
   "revision": 3,
   "revision_intent": "Preserve the revised case-led structure and restore the 2500-word target with the documented AI outage comparison and its implications for learning.",
@@ -191,7 +191,7 @@
     ],
     "main_text_changed": false
   },
-  "latest_revision": "Introduced the author's models as research undertaken to investigate the preceding question before stating the comparison-budget result. Existing source checks and theoretical conditions retained.",
+  "latest_revision": "Explained artificial intelligence (AI) model, model training and inference in ordinary language before distinguishing those activities from comparing alternatives. Earlier research-introduction bridge retained.",
   "note_words": 424,
   "editorial_commentary_revision": {
     "date": "2026-10-17",
@@ -212,5 +212,15 @@
     "scope": "Replaced the abrupt opening In my allocation models with two sentences establishing the purpose and ownership of the models. Full personal background and titled research-paper introduction remain in the introduction.",
     "source_checks": "Unchanged model claim and conditions; existing recorded checks reused. No new external factual claim or source added.",
     "review": "Changed paragraph and its neighbors read once for continuity, accessibility and preservation of the conditional result."
+  },
+  "ai_terminology_revision": {
+    "date": "2026-10-19",
+    "manuscript_sha256": "6ab8352f7b8e3e18244936e3e4d1bd3cb1f114cb91cbbef1972f319b7e79bb04",
+    "scope": "Expanded the prologue's data-center transition to specify training an AI model, define the model using learned patterns, explain training as adjustment of internal settings using examples, and define inference as use of a trained model. Separated the service/comparison consequence into its own paragraph.",
+    "source": "https://developers.google.com/machine-learning/glossary",
+    "source_checked_on": "2026-10-19",
+    "locator": "Entries model, training, inference and language model. Model: structure/parameters mapping inputs to predictions, automated parameter learning. Training: examples and gradual parameter adjustment. Inference: applying trained models, including generating a response. Language model: probabilities of text tokens/sequences.",
+    "boundary": "Plain-language terminology for the learned AI systems under discussion. Predicting the next piece of text is an example of a training task, not a claim that every AI model or every training phase uses that objective. Running a model is not presented as automatic retraining.",
+    "review": "Changed paragraphs and neighbors read once for clarity, continuity and accessibility. Existing empirical and theoretical source checks reused; no additional experiment, economic result or novelty claim."
   }
 }

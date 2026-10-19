@@ -103,7 +103,9 @@ Think of a task the programmer keeps out of the study. It may be exactly the tas
 
 METR began redesigning its experiments. When developers change how they work, researchers have to change how they measure it. The question is how to preserve useful comparisons without asking people to abandon the tools they now rely on.
 
-The same practical question runs from the programmer's desk to the data center. Training a model, running it to produce answers, and comparing it with another system are different activities. Running a trained model is called inference. A service can generate an enormous record of answers while leaving unanswered whether a different model, supplier, or organization of work would serve us better. AI can also make those comparisons cheaper. Which possibility prevails depends on how we deploy it.
+The same practical question runs from the programmer's desk to the data center. An artificial intelligence (AI) model is a computer system that uses patterns learned from data to make predictions or generate material such as text. Training an AI model means adjusting its internal settings using examples to improve its performance at a task, such as predicting the next piece of text. Running the trained model to produce an answer is called inference. Training, inference, and comparing one model with another are different activities.
+
+A service can generate an enormous record of answers while leaving unanswered whether a different model, supplier, or organization of work would serve us better. AI can also make those comparisons cheaper. Which possibility prevails depends on how we deploy it.
 
 The consequences reach the pay packet. Think again of the customer-support worker resolving more problems with AI assistance. The worker is doing useful work. So are the people who built the tool. The employer supplies an organization in which both can operate. Measuring the productivity improvement helps us understand what changed. It does not, on its own, tell us how to divide the additional income among them.
 

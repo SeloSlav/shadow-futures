@@ -1,6 +1,6 @@
 # Shadow Futures manuscript
 
-Martin Erlic · Working manuscript · 64,295 of 80,000 main-text words
+Martin Erlic · Working manuscript · 64,343 of 80,000 main-text words
 
 The approved budget is 2,500 words for the prologue, 3,500 for the introduction, twelve chapters averaging 6,000 words (72,000 combined), and a 2,000-word epilogue. Notes, references, and acknowledgments have a separate 10,000–15,000-word allowance.
 
@@ -8,7 +8,7 @@ Counts below come from the current chapter files. Drafted sections still require
 
 | Component | Target | Written | Stage |
 | --- | ---: | ---: | --- |
-| [The other life of a song](manuscript/00-prologue.md) | 2,500 | 2,419 | reviewed |
+| [The other life of a song](manuscript/00-prologue.md) | 2,500 | 2,467 | reviewed |
 | [The evidence success leaves behind](manuscript/01-introduction.md) | 3,500 | 3,461 | reviewed |
 | [The winner and the explanation](manuscript/02-the-winner-and-the-explanation.md) | 6,000 | 5,419 | reviewed |
 | [The comparison budget](manuscript/03-the-comparison-budget.md) | 6,000 | 4,801 | reviewed |
