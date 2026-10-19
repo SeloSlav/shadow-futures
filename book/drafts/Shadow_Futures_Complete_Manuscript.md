@@ -67,7 +67,7 @@ I call the cumulative chance of rewards going somewhere other than the current f
 
 MusicLab makes the distinction tangible. Forty-eight song titles can remain on a screen even while attention flows mainly toward a few. Keeping the titles available is different from getting the recordings heard. A long list of alternatives can coexist with a thin record of what they can do.
 
-In my allocation models, the comparison budget limits how precisely a reward history can reveal the effects of work, quality, and investment. Under specified conditions, opportunities outside the favorite can dwindle fast enough that even an indefinitely growing record cannot reliably settle attribution. A small chance that persists can still accumulate. The way those chances change over time matters, alongside their size today.
+To investigate this question, I developed models of how markets distribute rewards. In these models, the comparison budget limits how precisely a reward history can reveal the effects of work, quality, and investment. Under specified conditions, opportunities outside the favorite can dwindle fast enough that even an indefinitely growing record cannot reliably settle attribution. A small chance that persists can still accumulate. The way those chances change over time matters, alongside their size today.
 
 Success breeding success is an old idea. Robert Merton described how recognition could bring scientists resources for further work. Armen Alchian explained market selection under uncertainty decades before MusicLab.[^prologue-5] A lead can keep growing while opportunities to check its causes disappear. The growing reward and the shrinking capacity to explain it can be consequences of the same process.
 

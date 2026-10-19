@@ -2,9 +2,9 @@
   "manuscript": "book/manuscript/00-prologue.md",
   "title": "The other life of a song",
   "checked_on": "2026-10-16",
-  "body_words": 2469,
+  "body_words": 2419,
   "word_count_method": "Whitespace-separated main-prose words after removing headings and footnote markers; notes are additional.",
-  "draft_sha256": "02e3aeaf37d2e5ff6a3cdc7e25da2053d4ad4d1b780f825c1b49a22af9f0eb75",
+  "draft_sha256": "d720c357f69d3216146a350ecf9b51cf0eb7399a469e5f533e4ce6ee64cc289b",
   "status": "revised_draft",
   "revision": 3,
   "revision_intent": "Preserve the revised case-led structure and restore the 2500-word target with the documented AI outage comparison and its implications for learning.",
@@ -191,8 +191,8 @@
     ],
     "main_text_changed": false
   },
-  "latest_revision": "Origin-of-name attribution to Johnson and Kauffman; existing factual checks reused, new checks in origin-source-notes.json. Reviewed once within the word budget.",
-  "note_words": 670,
+  "latest_revision": "Introduced the author's models as research undertaken to investigate the preceding question before stating the comparison-budget result. Existing source checks and theoretical conditions retained.",
+  "note_words": 424,
   "editorial_commentary_revision": {
     "date": "2026-10-17",
     "manuscript_sha256": "02e3aeaf37d2e5ff6a3cdc7e25da2053d4ad4d1b780f825c1b49a22af9f0eb75",
@@ -205,5 +205,12 @@
     "source_checks": "Existing claim-specific passages reused; no new externally reported experiment, historical scene, legal status or independently certified theorem. Source conditions and four earlier original-passage flags remain internal.",
     "qualifications_retained": "Observed outcomes, study settings and dates, nonrandomized associations, hypothetical status, proposal ownership and limits of the observation model retained in plain body language.",
     "review": "Changed prose and relevant neighbors reviewed once. The origin statement expresses the author-requested intellectual connection, not a newly reported biographical event."
+  },
+  "opening_bridge_revision": {
+    "date": "2026-10-19",
+    "manuscript_sha256": "d720c357f69d3216146a350ecf9b51cf0eb7399a469e5f533e4ce6ee64cc289b",
+    "scope": "Replaced the abrupt opening In my allocation models with two sentences establishing the purpose and ownership of the models. Full personal background and titled research-paper introduction remain in the introduction.",
+    "source_checks": "Unchanged model claim and conditions; existing recorded checks reused. No new external factual claim or source added.",
+    "review": "Changed paragraph and its neighbors read once for continuity, accessibility and preservation of the conditional result."
   }
 }

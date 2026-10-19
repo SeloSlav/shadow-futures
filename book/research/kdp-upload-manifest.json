@@ -1,6 +1,6 @@
 {
   "date": "2026-10-16",
-  "manuscript_sha256": "1393714c77c08e022c450e0023ef7036de6b5a38226c75f545b3570bc21d9724",
+  "manuscript_sha256": "6b1b681e371195128501e92caa157db87fc99c35160868d05d6397285192df2c",
   "epub_integrity": {
     "source_paragraphs_present_in_full": 1587,
     "internal_links_checked": 572,
@@ -20,8 +20,8 @@
   "files": [
     {
       "file": "output/kdp/shadow-futures-kindle.epub",
-      "bytes": 1022141,
-      "sha256": "6340564e3bdf4f1209f5c3c71851821c0ffdf7efc8aaff630d13b9bc19023d3f"
+      "bytes": 1022164,
+      "sha256": "832e6b9366c00ec8a1ffa41ba735957892cc29eb314b49eea07127e264d9cde6"
     },
     {
       "file": "output/kdp/shadow-futures-kindle-cover.jpg",
@@ -30,13 +30,13 @@
     },
     {
       "file": "output/kdp/shadow-futures-paperback-interior.pdf",
-      "bytes": 926437,
-      "sha256": "0d43e131d84162ca6eb0085fd3fedb51a517780da3d0543682576eb3ccadf342"
+      "bytes": 926534,
+      "sha256": "c4d403dbf82f3e89eba1ac6bf5590f1c1a17910fc0d17bf22aead870428b77d7"
     },
     {
       "file": "output/kdp/shadow-futures-paperback-cover.pdf",
       "bytes": 3548721,
-      "sha256": "8af484cfe2e86c3b315a2a1021486339a016dc2ec89c82581c639b16ffdd910f"
+      "sha256": "4ae90d917835c07e70046dc7ab9080a913c81fbb6c7d5e632caf12dabf71111d"
     },
     {
       "file": "output/kdp/UPLOAD-INSTRUCTIONS.txt",
@@ -50,8 +50,8 @@
     },
     {
       "file": "output/kdp/shadow-futures-kdp-upload.zip",
-      "bytes": 5296287,
-      "sha256": "296ae75a228e2bc946905d94feec2a85f7e87079373c16643540bdc26ce46f5d"
+      "bytes": 5296368,
+      "sha256": "04d02179bf81cf2fee2d17a0f3873ce850be76a6b1735166108e26088c7d1473"
     }
   ],
   "boundary": "Upload formats and mechanical checks; KDP Previewer and print proof remain author publication steps.",
@@ -59,6 +59,6 @@
     "version": "5.3.0",
     "errors": 0,
     "warnings": 0,
-    "sha256": "6340564e3bdf4f1209f5c3c71851821c0ffdf7efc8aaff630d13b9bc19023d3f"
+    "sha256": "832e6b9366c00ec8a1ffa41ba735957892cc29eb314b49eea07127e264d9cde6"
   }
 }

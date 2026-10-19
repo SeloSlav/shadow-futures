@@ -8,7 +8,7 @@
   "cover": "/book/shadow-futures-cover.png",
   "pages": 265,
   "interior_pages": 264,
-  "pdf_bytes": 4392693,
+  "pdf_bytes": 4392790,
   "notes": 198,
   "contents": [
     {
@@ -109,11 +109,11 @@
     1536
   ],
   "production_note": "KDP-size exports are provided. Generated artwork is natively 1024×1536; 300-dpi raster exports are resampled, not added native detail. Check a print proof; higher-resolution original art is recommended before commercial print upload.",
-  "manuscript_sha256": "1393714c77c08e022c450e0023ef7036de6b5a38226c75f545b3570bc21d9724",
+  "manuscript_sha256": "6b1b681e371195128501e92caa157db87fc99c35160868d05d6397285192df2c",
   "inputs": [
     {
       "file": "book/manuscript/00-prologue.md",
-      "sha256": "dcfbef7b19f0ca49e8b7574090519af7673b364aff8702f9a9d0fe8acbe7992e"
+      "sha256": "d720c357f69d3216146a350ecf9b51cf0eb7399a469e5f533e4ce6ee64cc289b"
     },
     {
       "file": "book/manuscript/01-introduction.md",
@@ -180,7 +180,7 @@
       "sha256": "d577aee194f1f47aa3e450ae3f0e07b6dd11ac83de4080857d6c0708b2e5d8ba"
     }
   ],
-  "pdf_sha256": "552ea0db3d3656496addf03ba117cf19d5f973fa4a66f71c11143cc2e7e6f7ec",
+  "pdf_sha256": "5492cd0c992897851dbf4c5160b54ca8f709ba91a1c03658e5abbdea280cbfde",
   "kdp_sources": [
     "https://kdp.amazon.com/en_US/help/topic/G201953020",
     "https://kdp.amazon.com/en_US/help/topic/G6GTK3T3NUHKLEFX",
