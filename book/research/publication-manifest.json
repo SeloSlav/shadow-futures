@@ -8,7 +8,7 @@
   "cover": "/book/shadow-futures-cover.png",
   "pages": 263,
   "interior_pages": 262,
-  "pdf_bytes": 4391925,
+  "pdf_bytes": 4392190,
   "notes": 198,
   "contents": [
     {
@@ -109,7 +109,7 @@
     1536
   ],
   "production_note": "KDP-size exports are provided. Generated artwork is natively 1024×1536; 300-dpi raster exports are resampled, not added native detail. Check a print proof; higher-resolution original art is recommended before commercial print upload.",
-  "manuscript_sha256": "320a1ffad06ce13c124c493d7023765d2e6519afbe1e8f88a96771a784c32930",
+  "manuscript_sha256": "c75ae5eaa13eed87ca47c06f3384ee73dafac4953b8535d403dc72a183651525",
   "inputs": [
     {
       "file": "book/manuscript/00-prologue.md",
@@ -117,7 +117,7 @@
     },
     {
       "file": "book/manuscript/01-introduction.md",
-      "sha256": "3554d908b2f206c245cb32b0e3a1c6f86088147a5085fdf426a6db2d621bcbd4"
+      "sha256": "28d66f78b529380db86f9605504d339a5fc7095df182b4c3c0a2dba6536f5ef4"
     },
     {
       "file": "book/manuscript/02-the-winner-and-the-explanation.md",
@@ -180,7 +180,7 @@
       "sha256": "d577aee194f1f47aa3e450ae3f0e07b6dd11ac83de4080857d6c0708b2e5d8ba"
     }
   ],
-  "pdf_sha256": "7f4e00ba034ecd5cd938f03f3db2c4fbb53aace4bdc7b737bddbbcd3deda4d5f",
+  "pdf_sha256": "62716a1c703bb52aab853430ef7da64c913d7aae86f6bb6cbce19a285c8c6a20",
   "kdp_sources": [
     "https://kdp.amazon.com/en_US/help/topic/G201953020",
     "https://kdp.amazon.com/en_US/help/topic/G6GTK3T3NUHKLEFX",

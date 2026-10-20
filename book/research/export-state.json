@@ -1,7 +1,7 @@
 {
   "inputs": {
     "book/manuscript/00-prologue.md": "6ab8352f7b8e3e18244936e3e4d1bd3cb1f114cb91cbbef1972f319b7e79bb04",
-    "book/manuscript/01-introduction.md": "3554d908b2f206c245cb32b0e3a1c6f86088147a5085fdf426a6db2d621bcbd4",
+    "book/manuscript/01-introduction.md": "28d66f78b529380db86f9605504d339a5fc7095df182b4c3c0a2dba6536f5ef4",
     "book/manuscript/02-the-winner-and-the-explanation.md": "0f46d32c777ccf69f07541b40f27a23b6db53df6d6232cf6db71a7b999d75735",
     "book/manuscript/03-the-comparison-budget.md": "00f160d7e1ce029126e284486c26499aff7d39469ec1d77fdd21ec86c613e7a8",
     "book/manuscript/04-shadow-futures.md": "0c72ff385e9ab28ee604587145e58983eaa14ef8a2d3d78a73b465f9f87a003b",
@@ -32,7 +32,7 @@
     "book/research/chapter-11-source-notes.json": "26b6b9b26002d7b896de5b6cfe8c688aa43d722ae13611c42024fad5a8dda4c9",
     "book/research/chapter-12-source-notes.json": "2d9f21e80fa7e4234e59a8c4109a488ee2097ede5e25c7a0c38a6a7aa2c73334",
     "book/research/epilogue-source-notes.json": "2530c7b0f3bd4e6142c38829da8821b4d5f64fbc962d21c8250b6a27ba57304f",
-    "book/research/introduction-source-notes.json": "4965969fc5da1a281f04d54a75f78e97b2db74a2a1f20add4960eff2a5c14f96",
+    "book/research/introduction-source-notes.json": "a5dd36c12da48b7ebea2d9d124946997d239836dea1ff514fdff35ebef32ef2d",
     "book/research/origin-source-notes.json": "ca7be833f76917a05c162fedf1813312ad2b8b6188d3998f76ce0c8e74e2490c",
     "book/research/prologue-source-notes.json": "a8b584462332bf71e416bfe39b85f6f4bfcdad9b7f0646028c5765f59ee05621",
     "book/tools/build_kdp_uploads.py": "67ccdbd957db06b08743d1aae487e80ab45596b539042d20f08084ae157a7418",
@@ -45,34 +45,34 @@
     "scripts/refresh-book.mjs": "8c29b8fdbd39d7edd6889c5ddb7d47e9f7c6b38b2503dca4a8cb987273a42abb"
   },
   "outputs": {
-    "book/drafts/Shadow_Futures_Complete_Manuscript.md": "320a1ffad06ce13c124c493d7023765d2e6519afbe1e8f88a96771a784c32930",
+    "book/drafts/Shadow_Futures_Complete_Manuscript.md": "c75ae5eaa13eed87ca47c06f3384ee73dafac4953b8535d403dc72a183651525",
     "book/manuscript/90-references.md": "3eba08b1cda6d96ffc54a3bc50db601a3df80e313b5818b38332db7d4748c13f",
-    "book/MANUSCRIPT.md": "5d577d5567d87d1db628f36e7b03e7d4260a750cfaafcca81869d2c16f57bd78",
-    "book/research/kdp-upload-manifest.json": "2fb55254a2998c8c8545329099d3c1e89f762c889f5e33f37b52869788c12e62",
-    "book/research/manuscript-progress.json": "3c0c19921b0c9fa062e467d59773bf78ffa523ddd9d9139947b062b49a24bb21",
-    "book/research/publication-manifest.json": "06979a94d217701d9e8a5eb46fe6f9338a0b7b23b85bdd940e087b5bd5aa705d",
-    "book/research/reading-manuscript-manifest.json": "4b2fa6151a530688b6dab8e6a5e477ea22713907f479910c9f1e8cd16e15ecb6",
+    "book/MANUSCRIPT.md": "81c0c6f56be4e562692ccd3fb5ec5bef122b1c613893622c426ce17a39fbeb62",
+    "book/research/kdp-upload-manifest.json": "1c770467817d14c7da7f13271ff2f0bc899cdce0ca233319e2dccfd0b0e3faae",
+    "book/research/manuscript-progress.json": "125da57ecf8142e202bd9831a6e10357ae0fe60ba7bc28f8ec2000f1f8bc59ad",
+    "book/research/publication-manifest.json": "fa55b88563827f7382a9bd8be33c1dfc70063884e8642a23f44fbc62e92dcdfe",
+    "book/research/reading-manuscript-manifest.json": "dadc14174314903c4c787b4151b70ad4c3041e5b8298deb1beca8d71cf5a733c",
     "output/kdp/amazon-listing.md": "1de403967debf4ad6e39cb61d00b766148b6fd5e13dc46f34c3a7115f134f490",
-    "output/kdp/shadow-futures-kdp-upload.zip": "e9ceb7acf7de07e3b2cad512ed20345dfd53454872d4d44bff495cff2d4a5c28",
+    "output/kdp/shadow-futures-kdp-upload.zip": "45c23af4666dd9c990467e7303ec4fa1303c6c8d0d8d52dde7c697d994c43e20",
     "output/kdp/shadow-futures-kindle-cover.jpg": "9ecc0b9acde0d19a2c0ce87dffcfa9cac833bd6840d865724421f9f9d2e6509b",
-    "output/kdp/shadow-futures-kindle.epub": "960ab4b3c9a55a8b29d8019bd4fb3c3490ae84773094b39912b98d4d62daa16e",
-    "output/kdp/shadow-futures-paperback-cover.pdf": "8252a0f3a27c406b2ff30bfbcb9656f69b6eb4ad321540ef96846c16e5e0860a",
-    "output/kdp/shadow-futures-paperback-interior.pdf": "482a402078e3664586c61d16ec5493167898668e8706a189097662e25a97c494",
+    "output/kdp/shadow-futures-kindle.epub": "87155452d779222e77a61ce7dfd67fefb9604d0fcb1e46270f6e197c43dfdb15",
+    "output/kdp/shadow-futures-paperback-cover.pdf": "ab97e8528fe9e11f98e277a5dc66d4c0128979ca954e7635ae29792ea3da1a58",
+    "output/kdp/shadow-futures-paperback-interior.pdf": "51d4796621a6ff74eace36d5921220d4de669b25387ec5c8cce4a7e4d8e23acd",
     "output/kdp/UPLOAD-INSTRUCTIONS.txt": "4f5f5158f235d31e5ad4b5e6106c64236aa25e9cab834fba131ac456bbaee295",
-    "output/pdf/shadow-futures-front-cover.pdf": "67c1ac26c05fcc44acfff339d6c10b8c81c4857043f136fa32509ad3c9f580ed",
-    "output/pdf/shadow-futures-interior-6x9.pdf": "482a402078e3664586c61d16ec5493167898668e8706a189097662e25a97c494",
-    "output/pdf/shadow-futures-kdp-paperback-cover.pdf": "8252a0f3a27c406b2ff30bfbcb9656f69b6eb4ad321540ef96846c16e5e0860a",
+    "output/pdf/shadow-futures-front-cover.pdf": "43906319925a2f9adde1c43f2fcf78c7168ddcbfa686689d40f64ce4a8606684",
+    "output/pdf/shadow-futures-interior-6x9.pdf": "51d4796621a6ff74eace36d5921220d4de669b25387ec5c8cce4a7e4d8e23acd",
+    "output/pdf/shadow-futures-kdp-paperback-cover.pdf": "ab97e8528fe9e11f98e277a5dc66d4c0128979ca954e7635ae29792ea3da1a58",
     "output/pdf/shadow-futures-print-front-300dpi.jpg": "f6e06961339d4c3f912ef69cb11cee81efcd1c0aa0a979e5858585ebf93660ca",
-    "output/pdf/shadow-futures.pdf": "7f4e00ba034ecd5cd938f03f3db2c4fbb53aace4bdc7b737bddbbcd3deda4d5f",
-    "public/book/edition.json": "9c4dc18ce62f79ad19e1ab54bc4400c42a632647bc1737fd3f30d8b474440c56",
+    "output/pdf/shadow-futures.pdf": "62716a1c703bb52aab853430ef7da64c913d7aae86f6bb6cbce19a285c8c6a20",
+    "public/book/edition.json": "c5064c21615e1fead9d489d8b8dfbfe3105331d89abcfc26172f2d84d7a18eba",
     "public/book/shadow-futures-kindle-cover.jpg": "9ecc0b9acde0d19a2c0ce87dffcfa9cac833bd6840d865724421f9f9d2e6509b",
-    "public/book/shadow-futures.pdf": "7f4e00ba034ecd5cd938f03f3db2c4fbb53aace4bdc7b737bddbbcd3deda4d5f"
+    "public/book/shadow-futures.pdf": "62716a1c703bb52aab853430ef7da64c913d7aae86f6bb6cbce19a285c8c6a20"
   },
   "epubcheck": {
     "version": "5.3.0",
     "errors": 0,
     "warnings": 0,
-    "sha256": "960ab4b3c9a55a8b29d8019bd4fb3c3490ae84773094b39912b98d4d62daa16e"
+    "sha256": "87155452d779222e77a61ce7dfd67fefb9604d0fcb1e46270f6e197c43dfdb15"
   },
   "pdf_integrity": {
     "status": "passed",
@@ -81,20 +81,13 @@
     "internal_links": 523,
     "external_links": 475,
     "fonts_embedded": true,
-    "pdf_sha256": "7f4e00ba034ecd5cd938f03f3db2c4fbb53aace4bdc7b737bddbbcd3deda4d5f",
+    "pdf_sha256": "62716a1c703bb52aab853430ef7da64c913d7aae86f6bb6cbce19a285c8c6a20",
     "boundary": "Text/geometry/link integrity, not source truth or print approval."
   },
   "previews_generated": [
-    ".tmp/book-publication/refresh-preview-page-13.png",
     ".tmp/book-publication/refresh-preview-page-14.png",
-    ".tmp/book-publication/refresh-preview-page-15.png",
-    ".tmp/book-publication/refresh-preview-page-16.png",
-    ".tmp/book-publication/refresh-preview-page-17.png",
-    ".tmp/book-publication/refresh-preview-page-19.png",
-    ".tmp/book-publication/refresh-preview-page-20.png",
-    ".tmp/book-publication/refresh-preview-page-128.png",
-    ".tmp/book-publication/refresh-preview-page-129.png"
+    ".tmp/book-publication/refresh-preview-page-15.png"
   ],
-  "elapsed_seconds": 12.6,
+  "elapsed_seconds": 10.24,
   "boundary": "Mechanical export checks. Inspect changed-page previews; no scholarly or KDP acceptance certification."
 }

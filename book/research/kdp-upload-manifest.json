@@ -1,6 +1,6 @@
 {
   "date": "2026-10-16",
-  "manuscript_sha256": "320a1ffad06ce13c124c493d7023765d2e6519afbe1e8f88a96771a784c32930",
+  "manuscript_sha256": "c75ae5eaa13eed87ca47c06f3384ee73dafac4953b8535d403dc72a183651525",
   "epub_integrity": {
     "source_paragraphs_present_in_full": 1583,
     "internal_links_checked": 574,
@@ -20,8 +20,8 @@
   "files": [
     {
       "file": "output/kdp/shadow-futures-kindle.epub",
-      "bytes": 1021878,
-      "sha256": "960ab4b3c9a55a8b29d8019bd4fb3c3490ae84773094b39912b98d4d62daa16e"
+      "bytes": 1021996,
+      "sha256": "87155452d779222e77a61ce7dfd67fefb9604d0fcb1e46270f6e197c43dfdb15"
     },
     {
       "file": "output/kdp/shadow-futures-kindle-cover.jpg",
@@ -30,13 +30,13 @@
     },
     {
       "file": "output/kdp/shadow-futures-paperback-interior.pdf",
-      "bytes": 910093,
-      "sha256": "482a402078e3664586c61d16ec5493167898668e8706a189097662e25a97c494"
+      "bytes": 910401,
+      "sha256": "51d4796621a6ff74eace36d5921220d4de669b25387ec5c8cce4a7e4d8e23acd"
     },
     {
       "file": "output/kdp/shadow-futures-paperback-cover.pdf",
       "bytes": 3548723,
-      "sha256": "8252a0f3a27c406b2ff30bfbcb9656f69b6eb4ad321540ef96846c16e5e0860a"
+      "sha256": "ab97e8528fe9e11f98e277a5dc66d4c0128979ca954e7635ae29792ea3da1a58"
     },
     {
       "file": "output/kdp/UPLOAD-INSTRUCTIONS.txt",
@@ -50,8 +50,8 @@
     },
     {
       "file": "output/kdp/shadow-futures-kdp-upload.zip",
-      "bytes": 5280644,
-      "sha256": "e9ceb7acf7de07e3b2cad512ed20345dfd53454872d4d44bff495cff2d4a5c28"
+      "bytes": 5280998,
+      "sha256": "45c23af4666dd9c990467e7303ec4fa1303c6c8d0d8d52dde7c697d994c43e20"
     }
   ],
   "boundary": "Upload formats and mechanical checks; KDP Previewer and print proof remain author publication steps.",
@@ -59,6 +59,6 @@
     "version": "5.3.0",
     "errors": 0,
     "warnings": 0,
-    "sha256": "960ab4b3c9a55a8b29d8019bd4fb3c3490ae84773094b39912b98d4d62daa16e"
+    "sha256": "87155452d779222e77a61ce7dfd67fefb9604d0fcb1e46270f6e197c43dfdb15"
   }
 }
