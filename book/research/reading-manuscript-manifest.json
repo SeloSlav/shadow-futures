@@ -1,7 +1,7 @@
 {
   "status": "complete_draft_assembly_review_pending",
   "file": "book/drafts/Shadow_Futures_Complete_Manuscript.md",
-  "sha256": "320a1ffad06ce13c124c493d7023765d2e6519afbe1e8f88a96771a784c32930",
+  "sha256": "c75ae5eaa13eed87ca47c06f3384ee73dafac4953b8535d403dc72a183651525",
   "inputs": [
     {
       "file": "book/manuscript/00-prologue.md",
@@ -9,7 +9,7 @@
     },
     {
       "file": "book/manuscript/01-introduction.md",
-      "sha256": "3554d908b2f206c245cb32b0e3a1c6f86088147a5085fdf426a6db2d621bcbd4"
+      "sha256": "28d66f78b529380db86f9605504d339a5fc7095df182b4c3c0a2dba6536f5ef4"
     },
     {
       "file": "book/manuscript/02-the-winner-and-the-explanation.md",
@@ -73,7 +73,7 @@
     }
   ],
   "bibliography_input_sha256": "05cd5960933e98e9d6bc84e53b5ef93b533dfb0df0ef78508726ec0cd8ab4bff",
-  "main_words": 64195,
+  "main_words": 64250,
   "back_matter_words": 8680,
   "reference_entries": 144,
   "endnote_count": 198,

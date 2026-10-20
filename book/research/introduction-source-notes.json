@@ -4,8 +4,8 @@
   "checked_on": "2026-10-16",
   "status": "drafted",
   "target_main_words": 3500,
-  "body_words": 3445,
-  "draft_sha256": "3554d908b2f206c245cb32b0e3a1c6f86088147a5085fdf426a6db2d621bcbd4",
+  "body_words": 3500,
+  "draft_sha256": "28d66f78b529380db86f9605504d339a5fc7095df182b4c3c0a2dba6536f5ef4",
   "source_checks": "Relevant full-source passages checked. Where publisher access failed, the identified author working-paper version or indexed full-source sections were checked; no independent proof or priority certification is claimed.",
   "sources": [
     {
@@ -409,5 +409,13 @@
     "scope": "Moved the documented economics background, practical work, intellectual influences, short-course attendance, dated 2016 essay and titled SSRN paper to the opening. Related Arthur and Kauffman to their ideas, replaced the regret-led opening with purpose and a reader promise, and removed the anticipatory credential comparison. The personal reflection and Johnson/Kauffman naming account continue later without repeating the chronology.",
     "source_checks": "Existing checked personal-account, 2016 essay, Arthur and Johnson/Kauffman passages reused. No new qualification, affiliation, endorsement, interview, empirical finding or theorem claim introduced.",
     "review": "Changed prose and neighboring transitions read once. All source-note identities and theoretical qualifications retained; no new bibliography entry."
+  },
+  "research_explanation_revision": {
+    "date": "2026-10-20",
+    "manuscript_sha256": "28d66f78b529380db86f9605504d339a5fc7095df182b4c3c0a2dba6536f5ef4",
+    "scope": "Replaced the opening research-summary paragraph with the modeled reinforcement mechanism, conditional lifetime attribution finding, plain-language cumulative comparison-budget definition, and relevance to judgments about earnings, ability and desert.",
+    "source_checks": "Existing original-paper and theorem-condition checks reused. Model setting and additional conditions explicit; no universal market law or mathematical conclusion about moral desert asserted.",
+    "review": "Changed paragraph and immediate neighbors read once; existing citation retained. Introduction stays within its 3500-word allowance.",
+    "publication": "Manuscript-only revision. Publication files require a new explicit regeneration request."
   }
 }

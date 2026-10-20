@@ -141,7 +141,7 @@ Melanie Mitchell, Douglas Hofstadter, and M. Mitchell Waldrop drew me into compl
 
 In September 2016, I published a Medium essay called “Increasing Returns and the New World of Hindsight.” I was already asking how a company's growth could strengthen its confidence in a history that left its alternatives unseen.[^introduction-i19] The comparison budget came later. The question had been following me for years.
 
-I developed this question in a research paper, *Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market*, available on SSRN. It introduces the comparison budget and shows how opportunities outside the favorite constrain what an allocation record can reveal about productive contribution.[^introduction-i2]
+My research paper, *Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market*, available on SSRN, studies models of markets where early success brings more opportunities to the same winners. I found that, under specified conditions, if chances to try alternatives dwindle fast enough, an ever-growing record cannot reliably settle how much work, quality, or investment caused the rewards. The comparison budget adds up the chances given to alternatives. That matters when we use earnings to judge people's ability or what they deserve: a market can keep rewarding its winners without producing enough evidence to explain their lead.[^introduction-i2]
 
 This book follows that question through experiments, economic history, and the emerging AI economy. I want to show what we can learn about productive work, where the evidence runs out, and how we can preserve opportunities to discover something different. An advertisement credited with a sale offers a useful place to begin.
 
