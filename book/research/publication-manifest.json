@@ -8,8 +8,8 @@
   "cover": "/book/shadow-futures-cover.png",
   "pages": 263,
   "interior_pages": 262,
-  "pdf_bytes": 4392190,
-  "notes": 198,
+  "pdf_bytes": 4391440,
+  "notes": 197,
   "contents": [
     {
       "label": "The other life of a song",
@@ -109,15 +109,15 @@
     1536
   ],
   "production_note": "KDP-size exports are provided. Generated artwork is natively 1024×1536; 300-dpi raster exports are resampled, not added native detail. Check a print proof; higher-resolution original art is recommended before commercial print upload.",
-  "manuscript_sha256": "c75ae5eaa13eed87ca47c06f3384ee73dafac4953b8535d403dc72a183651525",
+  "manuscript_sha256": "f8ab3f4c53dcd8ddbc322b59e7105665f3a897b6abbec2d9d4ca18af1bee1e84",
   "inputs": [
     {
       "file": "book/manuscript/00-prologue.md",
-      "sha256": "6ab8352f7b8e3e18244936e3e4d1bd3cb1f114cb91cbbef1972f319b7e79bb04"
+      "sha256": "cc86a3f706413e08814399f085ff67af17ea44a86600fe3d3701d48e42c30e42"
     },
     {
       "file": "book/manuscript/01-introduction.md",
-      "sha256": "28d66f78b529380db86f9605504d339a5fc7095df182b4c3c0a2dba6536f5ef4"
+      "sha256": "ceec13db36cec1ae7d5a9c8e5590dd7fc0f42fe5e8aaad26accaf34661ce7f4a"
     },
     {
       "file": "book/manuscript/02-the-winner-and-the-explanation.md",
@@ -129,7 +129,7 @@
     },
     {
       "file": "book/manuscript/04-shadow-futures.md",
-      "sha256": "0c72ff385e9ab28ee604587145e58983eaa14ef8a2d3d78a73b465f9f87a003b"
+      "sha256": "31b6f1512757b8a50521d85cfc7d6ab521a393dff0cf22f06de8dc1455e62602"
     },
     {
       "file": "book/manuscript/05-the-histories-that-became-infrastructure.md",
@@ -165,7 +165,7 @@
     },
     {
       "file": "book/manuscript/13-an-economics-of-possible-worlds.md",
-      "sha256": "89d8be0bb5799a76d5c35516fb840d6a77a39420bbae213b377af42e93e80ab9"
+      "sha256": "7e98ac3ced99cf2a50d28df3f0d248e0a104467c3f1457d8e7997d58dbea3c0f"
     },
     {
       "file": "book/manuscript/14-epilogue.md",
@@ -180,7 +180,7 @@
       "sha256": "d577aee194f1f47aa3e450ae3f0e07b6dd11ac83de4080857d6c0708b2e5d8ba"
     }
   ],
-  "pdf_sha256": "62716a1c703bb52aab853430ef7da64c913d7aae86f6bb6cbce19a285c8c6a20",
+  "pdf_sha256": "d710b60b74b47936def9c535a8ad7a652c1f896d23762ce3c874523da4b55d59",
   "kdp_sources": [
     "https://kdp.amazon.com/en_US/help/topic/G201953020",
     "https://kdp.amazon.com/en_US/help/topic/G6GTK3T3NUHKLEFX",
