@@ -2,9 +2,9 @@
   "manuscript": "book/manuscript/00-prologue.md",
   "title": "The other life of a song",
   "checked_on": "2026-10-16",
-  "body_words": 2477,
+  "body_words": 2428,
   "word_count_method": "Whitespace-separated main-prose words after removing headings and footnote markers; notes are additional.",
-  "draft_sha256": "cc86a3f706413e08814399f085ff67af17ea44a86600fe3d3701d48e42c30e42",
+  "draft_sha256": "64afaa9f5b1ea5945165f4bd242ee75c55730a2f413348244d2ac40e27df5106",
   "status": "revised_draft",
   "revision": 3,
   "revision_intent": "Preserve the revised case-led structure and restore the 2500-word target with the documented AI outage comparison and its implications for learning.",
@@ -224,7 +224,7 @@
     ],
     "main_text_changed": false
   },
-  "latest_revision": "Moved the replacement reinforcement/learning lineage acknowledgment before the first comparison-budget definition. Expanded existing note 5 to Arthur, Barabasi/Albert, Pemantle and Le Goff/Soulier. Replaced the later Merton/Alchian summary; their substantive credit remains in the introduction. Johnson/Kauffman attribution is unchanged.",
+  "latest_revision": "Shortened the acknowledgment and removed its anticipatory comparison-budget summary. Defined the budget once by accumulating outside-favorite chances, then retained the changing favorite and chance-versus-win/independent-experiment distinctions. The separate model-result paragraph remains unchanged.",
   "note_words": 474,
   "editorial_commentary_revision": {
     "date": "2026-10-17",
@@ -264,5 +264,13 @@
     "novelty_boundary": "Credits established reinforcement and prior urn estimation limits while locating the book's contribution in its comparison-budget bound and market attribution interpretation. No independent priority certification.",
     "review": "Changed passages and immediate neighbors reviewed once; story/case development and theoretical conditions retained.",
     "publication": "Manuscript only. Publication files remain unchanged pending explicit regeneration."
+  },
+  "acknowledgment_definition_tightening": {
+    "date": "2026-10-20",
+    "manuscript_sha256": "64afaa9f5b1ea5945165f4bd242ee75c55730a2f413348244d2ac40e27df5106",
+    "scope": "Shortened the acknowledgment and removed its anticipatory comparison-budget summary. Defined the budget once by accumulating outside-favorite chances, then retained the changing favorite and chance-versus-win/independent-experiment distinctions. The separate model-result paragraph remains unchanged.",
+    "source_checks": "Existing lineage checks and note 5 retained without factual changes. Named Le Goff/Soulier urn-setting attribution unchanged.",
+    "review": "Read revised paragraphs with the preceding economic question and following MusicLab/model-result transitions. No new source, claim or note.",
+    "publication": "Manuscript only; publication files remain unchanged pending explicit regeneration."
   }
 }

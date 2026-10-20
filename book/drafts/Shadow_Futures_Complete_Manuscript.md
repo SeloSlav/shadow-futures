@@ -63,9 +63,9 @@ Return to Lockdown. Add another thousand listeners to the world where it finishe
 
 Markets do more than distribute money and attention. They help determine which alternatives get tried, which improve through use, and which produce a record anyone can inspect. A market can become very busy while leaving a particular question poorly answered: how much did productive work, rather than the path of earlier rewards, contribute to this success?
 
-Increasing returns, preferential attachment, and Pólya urn models belong to a long history of studying how advantage reinforces itself. Le Goff and Soulier also showed limits to recovering a reinforced urn model's unknown settings from one unfolding history.[^prologue-5] The comparison budget builds on that work by connecting the chances left for alternatives to a limit on what a market's reward history can reveal about work, quality, and investment.
+Work on increasing returns, preferential attachment, and Pólya urns explains how advantage can reinforce itself. Le Goff and Soulier also showed limits to recovering a reinforced urn model's unknown settings from one unfolding history.[^prologue-5]
 
-I call the cumulative chance of rewards going somewhere other than the current favorite the comparison budget. At each opportunity, take the chance that someone else receives the reward, then add those chances across opportunities. The favorite can change. This counts chances, rather than actual rival victories; it does not make every purchase or download an independent experiment. The question is how much opportunity the allocation process leaves for informative comparison.
+To measure the opportunity left for comparison, I add up the chance, at each step, that a reward goes to someone other than the current favorite. I call this total the comparison budget. The favorite can change. It counts chances rather than actual rival wins, and does not make every purchase or download an independent experiment.
 
 MusicLab makes the distinction tangible. Forty-eight song titles can remain on a screen even while attention flows mainly toward a few. Keeping the titles available is different from getting the recordings heard. A long list of alternatives can coexist with a thin record of what they can do.
 
