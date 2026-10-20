@@ -1,7 +1,7 @@
 {
   "status": "complete_draft_assembly_review_pending",
   "file": "book/drafts/Shadow_Futures_Complete_Manuscript.md",
-  "sha256": "c75ae5eaa13eed87ca47c06f3384ee73dafac4953b8535d403dc72a183651525",
+  "sha256": "d647bf40a4fc10c9baecb32b50997608050b8c6581bb0551754b193a0f9eb007",
   "inputs": [
     {
       "file": "book/manuscript/00-prologue.md",
@@ -57,7 +57,7 @@
     },
     {
       "file": "book/manuscript/13-an-economics-of-possible-worlds.md",
-      "sha256": "89d8be0bb5799a76d5c35516fb840d6a77a39420bbae213b377af42e93e80ab9"
+      "sha256": "7e98ac3ced99cf2a50d28df3f0d248e0a104467c3f1457d8e7997d58dbea3c0f"
     },
     {
       "file": "book/manuscript/14-epilogue.md",
@@ -73,7 +73,7 @@
     }
   ],
   "bibliography_input_sha256": "05cd5960933e98e9d6bc84e53b5ef93b533dfb0df0ef78508726ec0cd8ab4bff",
-  "main_words": 64250,
+  "main_words": 64282,
   "back_matter_words": 8680,
   "reference_entries": 144,
   "endnote_count": 198,

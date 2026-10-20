@@ -4,9 +4,9 @@
   "checked_on": "2026-10-16",
   "status": "reviewed",
   "target_main_words": 6000,
-  "body_words": 3802,
+  "body_words": 3834,
   "note_words": 410,
-  "draft_sha256": "89d8be0bb5799a76d5c35516fb840d6a77a39420bbae213b377af42e93e80ab9",
+  "draft_sha256": "7e98ac3ced99cf2a50d28df3f0d248e0a104467c3f1457d8e7997d58dbea3c0f",
   "source_checks": "Relevant primary passages and direct scanned pages checked with exact version/access boundaries. Earlier substantive checks retained by claim; Blackwell1953 original scan now saved and relevant passages checked in cross-book audit. All council design choices/results fictional. Guide printedpp4-8 re-read; Rothamsted January2024 substantive account refreshed; indexed original Bearchell methods/results rechecked after direct PMC challenge.",
   "sources": [
     {
@@ -429,5 +429,13 @@
     "scope": "Shared economic possibility, reciprocal public claim when practical development routes close, and membership-based universal entitlement made explicit in the tax chapter and conclusion.",
     "source_checks": "Existing unchanged Paine, Van Parijs, Alaska and Arrow passage checks reused. No new empirical or historical claim, no expanded theorem, no added source or endnote. The shared-entitlement principle is the author's proposed institutional settlement.",
     "review": "Changed passages and neighboring fiscal/access paragraphs read once. Concrete worker, founder and caregiver consequences clarify universality; repeated hypothetical-loss disclaimers reduced. Existing finance and access conditions retained without adding caveats."
+  },
+  "information_limit_explanation_revision": {
+    "date": "2026-10-20",
+    "manuscript_sha256": "7e98ac3ced99cf2a50d28df3f0d248e0a104467c3f1457d8e7997d58dbea3c0f",
+    "scope": "Replaced the Chapter 3 callback and abstract productive-input-effects shorthand with a job-allocation explanation of what winners reveal, why another win may add little evidence, and how checked outcomes or independent tests supplement that record. Condensed the adjacent repeated performance-measurement sentence.",
+    "source_checks": "Existing model and measurement checks reused. Information ceiling remains restricted to the allocation model; no finite lifetime budget inferred from current concentration, and additional informative observations remain in the analysis.",
+    "review": "Changed paragraph and immediate neighbors read once; citation identities retained. No new factual finding, source or theorem claim.",
+    "publication": "Manuscript only; publication files remain unchanged pending an explicit regeneration request."
   }
 }
