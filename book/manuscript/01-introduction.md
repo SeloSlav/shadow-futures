@@ -2,17 +2,19 @@
 
 ## The evidence success leaves behind
 
-### The lives I did not live
+### Why I wrote this book
 
-I have spent an unreasonable amount of time thinking about the lives I did not live.
+The question that brought me to this book is how a market can become better at producing things while losing the evidence needed to explain the rewards it distributes.
 
-I studied economics at the University of Victoria in Canada and took a route through door-to-door sales, landscaping, and software development. I have worked on cloud infrastructure and deployments. I never pursued an academic career. In several of those worlds I felt that I had arrived by the wrong entrance and never quite belonged.
+I studied economics at the University of Victoria in Canada and worked in door-to-door sales, landscaping, and software development. I have worked on cloud infrastructure and deployments and tried to build an olive-oil business. Those experiences kept bringing me back to the distance between doing useful work, persuading someone to try it, and receiving a reward. A good product still needs a route to a customer who can recognize its quality. Working software has to reach the systems and people who can use it.
 
-There are choices I still resent having made. A different investment, a business begun earlier, a career pursued more consistently: hindsight makes it easy to furnish another life. It supplies the outcome I want and leaves out the decisions I would have faced along the way.
+Melanie Mitchell, Douglas Hofstadter, and M. Mitchell Waldrop drew me into complexity through their popular writing. I went on to read W. Brian Arthur, Stuart A. Kauffman, Eric Beinhocker, John Holland, and Kenneth Arrow, and traveled to Washington, D.C., for a Santa Fe Institute short course. Arthur's increasing returns offered a way to think about advantages that grow through use.[^i6] Kauffman's adjacent possible directed my attention toward the possibilities an existing world puts within reach.[^i12] I wanted to understand what happens to alternatives that never get the opportunity to develop.
 
-In computing, simulated annealing lets a search move away from its current solution in pursuit of a better one. I have done rather too much of the personal equivalent. Changing direction can reveal something worth finding. It can also keep you from building on what you have found.
+In September 2016, I published a Medium essay called “Increasing Returns and the New World of Hindsight.” I was already asking how a company's growth could strengthen its confidence in a history that left its alternatives unseen.[^i19] The comparison budget came later. The question had been following me for years.
 
-My regrets kept returning me to a larger question. I could remember some of the opportunities I had missed. What about the opportunities that never became available to anyone? How could a market learn about a business that nobody could get started?
+I developed this question in a research paper, *Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market*, available on SSRN. It introduces the comparison budget and shows how opportunities outside the favorite constrain what an allocation record can reveal about productive contribution.[^i2]
+
+This book follows that question through experiments, economic history, and the emerging AI economy. I want to show what we can learn about productive work, where the evidence runs out, and how we can preserve opportunities to discover something different. An advertisement credited with a sale offers a useful place to begin.
 
 ### The advertisement that got the credit
 
@@ -41,8 +43,6 @@ Network science offers another familiar mechanism. In preferential attachment, a
 Consider a platform that sends more tasks to workers with longer records. The feedback can widen their lead and get useful work done. It also determines what anyone can learn about workers who rarely receive a task. A thousand completed jobs for the favorite might reveal little about someone never hired. The problem concerns the production of evidence, before any judgment about whether the winner deserves the income.
 
 ### The work and the difference it made
-
-I developed this question in a research paper, *Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market*, available on SSRN. It introduces the comparison budget and shows how opportunities outside the favorite constrain what an allocation record can reveal about productive contribution.[^i2]
 
 I use contribution uncertainty for uncertainty about the effect of productive inputs on rewards in a specified economic setting. The inputs might include effort, quality, investment, or risk-bearing. The question concerns how an outcome would change if an input changed, while the relevant economic rules continued to apply. A result can be valuable, and the work behind it entirely real, while the size of that effect remains difficult to recover.[^i2]
 
@@ -80,11 +80,7 @@ eBay could change where advertising appeared and observe what followed. Its adve
 
 ### Other possible histories
 
-Melanie Mitchell, Douglas Hofstadter, and M. Mitchell Waldrop first drew me into complexity through their popular writing. I went on to read W. Brian Arthur, Stuart Kauffman, Eric Beinhocker, and John Holland, alongside economists such as Kenneth Arrow. I even traveled to Washington, D.C., for a Santa Fe Institute short course. Economics had become a way of asking how a world makes things that nobody planned.
-
-There was something almost spiritual in the thought that the world held possibilities no one had yet imagined. There was something unforgiving about it too. We would live only some of them.
-
-In September 2016, I published a Medium essay called “Increasing Returns and the New World of Hindsight.” I was already asking how a company's growth could strengthen its confidence in a history that left its alternatives unseen.[^i19] The comparison budget came later. The question had been following me for years.
+I have spent an unreasonable amount of time thinking about the lives I did not live. A business begun earlier or a career pursued more consistently: hindsight makes it easy to furnish another life. It supplies the outcome I want and leaves out the decisions I would have faced along the way. The harder question concerns the possibilities that never became available to anyone.
 
 The seed of this book's name was a phrase in Steven Johnson's account of Stuart A. Kauffman's adjacent possible. Kauffman, author of *At Home in the Universe*, explored self-organization and complexity. The adjacent possible describes possibilities reachable from what already exists. Johnson called it “a kind of shadow future.” Existing materials and discoveries put some next steps within reach; taking them can make further combinations possible.[^i12]
 
@@ -98,7 +94,7 @@ MusicLab makes the idea visible. Lockdown could finish first or fortieth without
 
 That is why I chose a phrase about unrealized futures for a result about knowledge. A path we do not observe can contain a comparison we need to explain the one we do. Another order for the winner adds to its history. It need not tell us what the rival would have learned, built, or earned if an earlier order had gone the other way.
 
-This book is itself a product of the adjacent possible. Those writers gave me questions I could carry into jobs and ventures they knew nothing about. Its future will depend on who encounters it and what they can do with it. A professional economist may give these ideas a larger audience, sooner than I can. Credentials, readers, and access to the right conversations help an idea find people able to develop it.
+This book is itself a product of the adjacent possible. Those writers gave me questions I could carry into jobs and ventures they knew nothing about. Its future will depend on who encounters it and what they can do with it.
 
 If someone else tests the idea more rigorously, explains it better, or helps more people use it, I will be content with that outcome. Credit matters, as does the freedom to challenge a claim. What I do not want is an epistemic monopoly over an idea that could benefit humanity. I want the comparison to remain open, including when an alternative to my account proves better. I cannot ask readers to take shadow futures seriously and then assume that the history giving me the most recognition must be the best one.
 

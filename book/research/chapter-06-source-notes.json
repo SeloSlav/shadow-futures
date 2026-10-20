@@ -4,9 +4,9 @@
   "checked_on": "2026-10-16",
   "status": "reviewed",
   "target_main_words": 6000,
-  "body_words": 5074,
-  "note_words": 334,
-  "draft_sha256": "fbc20b397bafd2c584df06c4b3f1df85155f6afc20a6d167fe43cf4d2edd943b",
+  "body_words": 4979,
+  "note_words": 272,
+  "draft_sha256": "9d164a2befa53d4a5d4221061161af0f74f5ee5a7fad4eb7b28039d5632d88f0",
   "source_checks": "Relevant full passages checked in published economics papers, the December 2015 Rothschild–Scheuer author version, Nakamura Nobel lecture, Nichia company statement, DARPA institutional records, and previously checked MusicLab, Merton, Kickstarter and Google sources. Named version/access boundaries are retained. This is a chapter claim check, not independent proof certification or a completed whole-book review.",
   "sources": [
     {
@@ -264,5 +264,12 @@
     "source_checks": "Existing claim-specific passages reused; no new externally reported experiment, historical scene, legal status or independently certified theorem. Source conditions and four earlier original-passage flags remain internal.",
     "qualifications_retained": "Observed outcomes, study settings and dates, nonrandomized associations, hypothetical status, proposal ownership and limits of the observation model retained in plain body language.",
     "review": "Changed prose and relevant neighbors reviewed once. The origin statement expresses the author-requested intellectual connection, not a newly reported biographical event."
+  },
+  "author_positioning_revision": {
+    "date": "2026-10-20",
+    "manuscript_sha256": "9d164a2befa53d4a5d4221061161af0f74f5ee5a7fad4eb7b28039d5632d88f0",
+    "scope": "Removed the entire personal trading, missed-opportunity and connected health-aftermath passage at the author's request. Restored continuity with a short general account of prospective risk before the existing treatment of investor, worker, researcher and contest risks.",
+    "source_checks": "Existing checked personal-account, 2016 essay, Arthur and Johnson/Kauffman passages reused. No new qualification, affiliation, endorsement, interview, empirical finding or theorem claim introduced.",
+    "review": "Changed prose and neighboring transitions read once. All source-note identities and theoretical qualifications retained; no new bibliography entry."
   }
 }

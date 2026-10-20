@@ -98,6 +98,12 @@ existence do not certify that a chapter or the whole book has passed review.
   "Increasing Returns and the New World of Hindsight." Use it to document the
   earlier question, not to establish the current theorem or the essay's wider
   empirical claims. It is not an exception for other theory drafts or papers.
+- The author's 20 October 2026 revision removes the personal cryptocurrency,
+  missed-Bitcoin and connected aftermath account from reader-facing editions.
+  Do not restore it from historical notes. Use the olive-oil business, software
+  work, intellectual influences and published research for the personal thread.
+  The introduction should establish those connections early. Course attendance
+  and reading do not imply an academic appointment, collaboration or endorsement.
 - Write reader-facing endnotes as ordinary citations: author, title, publication,
   date, page or section, and link. Put necessary assumptions and distinctions
   naturally in the body at the relevant claim. Keep editorial instructions,

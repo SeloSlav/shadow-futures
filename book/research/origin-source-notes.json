@@ -42,7 +42,7 @@
     "date": "2026-10-18",
     "scope": "Introduction, Chapters 1, 6 and 7, epilogue; manuscript only.",
     "author_account": "The author supplied the economics degree at University of Victoria, varied work including sales/landscaping/software/cloud deployments, feelings of not fitting in, counterfactual regret, complexity-reading influences, and a Washington DC Santa Fe Institute short course. No exact course title/date, academic affiliation, employer, private dialogue or detailed scene is invented.",
-    "finance_and_health": "COVID-period crypto holdings reaching millions in value, eventual net loss, a 2012 newsletter offering free bitcoin through faucets, and subsequent digestive problems, stress, palpitations and years reading about vitamin A/gut health are the author's account. No Gmail access, trading-record review, clinical verification, medical causal inference, treatment recommendation or invented recovery is claimed.",
+    "finance_and_health": "This personal account was withdrawn from reader-facing editions at the author's request on 20 October 2026. Historical source notes do not authorize restoring it.",
     "olive_oil": "Author requested company anonymity and described 2026 failure after US tariffs, fuel-related freight and fulfillment last-mile costs, premium pricing/tight margins, sustained cost-reduction efforts and an advertising burden linked to establishing quality. Personal cost/failure accounts are not independently audited. No specific competitor is accused. No claim that most oil is adulterated, honest businesses cannot scale, or enforcement does not exist is made. Current local production/relationships are an orientation; no new product or customer is invented.",
     "conceptual_boundary": "Life regret and missed wealth explain motivation, not an empirical proof of finite comparison budgets or a policy entitlement. Olive-oil quality uncertainty is linked to Akerlof before returning to contribution uncertainty that can remain with known quality.",
     "self_citation_exception": "The current request authorizes one ordinary citation and bibliography entry for the published 2016 personal essay. The original SSRN remains the only theory paper self-cited; no internal/companion paper is added.",
@@ -97,6 +97,17 @@
       "book/manuscript/07-who-deserves-the-winnings.md": "7fe2ab6759f76d7bca6ada08dcc74eba48829e7a572c800dae630fd2942d5f5e",
       "book/manuscript/08-the-intelligence-factory.md": "7d3d3f0be5981c1023e2c0e4b4cb532d53c81653209d0b3739d6efbe3048d3b3",
       "book/manuscript/14-epilogue.md": "41c81dbd344eeffc21f8a7161e3e00f87ade934a53b66b9718ddb7adef259fd8"
+    }
+  },
+  "author_positioning_revision": {
+    "date": "2026-10-20",
+    "scope": "Introduction opening and Chapter 6 risk section, with corresponding active author/planning instructions. The prologue, Chapter 1 olive-oil story and epilogue remain unchanged.",
+    "author_account": "Previously supplied economics degree, practical work, olive-oil venture, complexity reading, Washington DC short-course attendance and 2016 essay. No new employer, collaboration, credential, course date/title or endorsement.",
+    "source_reuse": "Existing Arthur increasing-returns and Johnson/Kauffman adjacent-possible checks, plus the dated 2016 essay check. The essay documents an earlier question rather than certifying the later theorem.",
+    "decision": "Retained the personal/intellectual material but brought its strongest relevance and the authored research to the opening. Removed the personal trading and connected aftermath passage and its restoration instructions.",
+    "manuscript_hashes": {
+      "book/manuscript/01-introduction.md": "3554d908b2f206c245cb32b0e3a1c6f86088147a5085fdf426a6db2d621bcbd4",
+      "book/manuscript/07-who-deserves-the-winnings.md": "9d164a2befa53d4a5d4221061161af0f74f5ee5a7fad4eb7b28039d5632d88f0"
     }
   }
 }

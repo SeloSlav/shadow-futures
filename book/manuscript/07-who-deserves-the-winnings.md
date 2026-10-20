@@ -142,13 +142,7 @@ The practical implication is to state what information a proposal actually needs
 
 ## The risk that gets counted
 
-During the COVID period, the value of my cryptocurrency holdings ran into millions. I gave those gains back and finished with a net loss. The rising balance had offered one account of my judgment. The falling balance offered another.
-
-Afterward came severe digestive problems, stress, and heart palpitations. I spent years reading about vitamin A and gut health, trying to understand what was happening to me. The account balance could change in a second. My life took longer to absorb it.
-
-In my email I can still find a newsletter from 2012 offering free bitcoins through what were called faucets. Looking back, the arithmetic is irresistible. Take the coins, keep them, wait. But that gives my younger self knowledge he did not have. It also assumes he would have held on through every later temptation to sell. My actual trading gives me reasons to question that assumption.
-
-The money I lost was real. The fortune I imagine keeping belongs to a history whose other decisions I do not know. Risk is lived before the result is available to explain it.
+Risk is taken before the outcome is known. A later gain can make a decision look inspired, and a loss can make the same kind of decision look foolish. Judging the choice requires asking what the decision maker could know and what alternatives were available at the time.
 
 Risk falls on more than investors. Researchers commit time they cannot recover; employees depend on continued work; competing projects may lose support. Counting only capital exposure can settle a moral argument by excluding other consequences before examining them.
 

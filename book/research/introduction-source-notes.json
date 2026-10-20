@@ -4,8 +4,8 @@
   "checked_on": "2026-10-16",
   "status": "drafted",
   "target_main_words": 3500,
-  "body_words": 3461,
-  "draft_sha256": "c057ea967a985197e2f52a46a5a0d76cdde1a057ac614a3e28f0d66383d53045",
+  "body_words": 3445,
+  "draft_sha256": "3554d908b2f206c245cb32b0e3a1c6f86088147a5085fdf426a6db2d621bcbd4",
   "source_checks": "Relevant full-source passages checked. Where publisher access failed, the identified author working-paper version or indexed full-source sections were checked; no independent proof or priority certification is claimed.",
   "sources": [
     {
@@ -402,5 +402,12 @@
     "record": "book/research/developmental-review-2026-10-18.json",
     "scope": "Thesis, chapter contribution and conclusion; subsequent explicit UBI steering integrated where relevant. Existing claim-specific source checks reused; no whole-book proof certification.",
     "publication": "Manuscript only; exports and push await an explicit request."
+  },
+  "author_positioning_revision": {
+    "date": "2026-10-20",
+    "manuscript_sha256": "3554d908b2f206c245cb32b0e3a1c6f86088147a5085fdf426a6db2d621bcbd4",
+    "scope": "Moved the documented economics background, practical work, intellectual influences, short-course attendance, dated 2016 essay and titled SSRN paper to the opening. Related Arthur and Kauffman to their ideas, replaced the regret-led opening with purpose and a reader promise, and removed the anticipatory credential comparison. The personal reflection and Johnson/Kauffman naming account continue later without repeating the chronology.",
+    "source_checks": "Existing checked personal-account, 2016 essay, Arthur and Johnson/Kauffman passages reused. No new qualification, affiliation, endorsement, interview, empirical finding or theorem claim introduced.",
+    "review": "Changed prose and neighboring transitions read once. All source-note identities and theoretical qualifications retained; no new bibliography entry."
   }
 }
