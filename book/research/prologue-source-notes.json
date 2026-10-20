@@ -2,9 +2,9 @@
   "manuscript": "book/manuscript/00-prologue.md",
   "title": "The other life of a song",
   "checked_on": "2026-10-16",
-  "body_words": 2467,
+  "body_words": 2477,
   "word_count_method": "Whitespace-separated main-prose words after removing headings and footnote markers; notes are additional.",
-  "draft_sha256": "6ab8352f7b8e3e18244936e3e4d1bd3cb1f114cb91cbbef1972f319b7e79bb04",
+  "draft_sha256": "cc86a3f706413e08814399f085ff67af17ea44a86600fe3d3701d48e42c30e42",
   "status": "revised_draft",
   "revision": 3,
   "revision_intent": "Preserve the revised case-led structure and restore the 2500-word target with the documented AI outage comparison and its implications for learning.",
@@ -59,27 +59,6 @@
         "Shadow futures preserve parameter, initial state, and input and state response rules; distinguish from policy interventions",
         "Hidden-position tax decomposition argument is separate from finite-budget theorem",
         "Tax and antitrust proposals need additional causal and welfare premises"
-      ],
-      "v5_reference": false
-    },
-    {
-      "key": "Merton1968",
-      "note": "5",
-      "source": "https://garfield.library.upenn.edu/merton/matthew1.pdf",
-      "locator": "Printed pp. 56-57; opening credits Zuckerman; research resources on p. 57",
-      "claims": [
-        "Prior Matthew effect account of recognition and subsequent research resources",
-        "Merton credits Harriet Zuckerman interviews"
-      ],
-      "v5_reference": true
-    },
-    {
-      "key": "Alchian1950",
-      "note": "5",
-      "source": "book/sources/classics/Alchian_1950_Uncertainty_Evolution_and_Economic_Theory.pdf",
-      "locator": "Printed pp. 211-213",
-      "claims": [
-        "Prior account of profit-based market selection under uncertainty without individually optimal foresight"
       ],
       "v5_reference": false
     },
@@ -154,6 +133,60 @@
         "Methods adapted to preserve relevance; small-plot results have external-validity limits"
       ],
       "v5_reference": false
+    },
+    {
+      "key": "Arthur1989",
+      "note": "5",
+      "source": "https://doi.org/10.2307/2234208",
+      "full_text_checked": "https://www.rochelleterman.com/ir/sites/default/files/arthur%201989.pdf",
+      "locator": "Published pp. 116-118, introduction/model; p. 128, conclusion",
+      "claims": [
+        "Adoption, improvement and possible durable historical selection; not necessarily superior development path"
+      ],
+      "boundary": "Prior mechanism credited. Model differs from v5; increasing returns alone does not imply finite lifetime comparison budget. Fictional software capabilities are book illustration.",
+      "v5_reference": true,
+      "verification_reuse": "Existing claim-specific checks reused; the single-path urn limitation was rechecked against the primary author text on 20 October 2026."
+    },
+    {
+      "key": "BarabasiAlbert1999",
+      "note": "5",
+      "source": "https://doi.org/10.1126/science.286.5439.509",
+      "full_text_checked": "https://barabasi.com/media/Emergence-Barabasi-1999_gN74Tws.pdf",
+      "locator": "Published pp. 509-511: abstract and the growth/preferential-attachment construction.",
+      "claims": [
+        "Network growth combined with attachment favoring already connected vertices produces a power-law distribution in the stated model."
+      ],
+      "boundary": "The article is credited for its network mechanism. The distinction between a link distribution and contribution-identifying comparisons is this manuscript's argument. No claim that all networks follow power laws, or that this paper establishes finite comparison budgets, economic prevalence, or optimal antitrust policy.",
+      "checked_on": "2026-10-17",
+      "v5_reference": false,
+      "verification_reuse": "Existing claim-specific checks reused; the single-path urn limitation was rechecked against the primary author text on 20 October 2026."
+    },
+    {
+      "key": "Pemantle2007",
+      "note": "5",
+      "source": "See canonical v5 reference register and earlier chapter source ledger",
+      "locator": "Section 2.1, pp. 3-5, Theorem 2.1",
+      "claims": [
+        "Conceptual predecessor recalled in technical note"
+      ],
+      "boundary": "Previously checked relevant passages retained; no new unverified extension claimed.",
+      "v5_reference": true,
+      "verification_reuse": "Existing claim-specific checks reused; the single-path urn limitation was rechecked against the primary author text on 20 October 2026."
+    },
+    {
+      "key": "LeGoffSoulier2017",
+      "note": "5",
+      "source": "https://doi.org/10.1515/ijb-2016-0029",
+      "full_text_checked": "https://arxiv.org/html/1405.2322v2",
+      "version_boundary": "arXiv version 2 posted October 4, 2016; rendered cover dated January 29, 2018; published 2017 record used for bibliography.",
+      "locator": "Section 3.3, Theorem 8 and following interpretation; introduction and abstract for single-path versus repeated-path distinction.",
+      "claims": [
+        "Model-specific limits on learning unknown urn settings from a single growing history; Theorem 8 includes bounded Fisher information for c at alpha=1 and asymptotic single-path likelihood results in other regimes."
+      ],
+      "boundary": "Urn parameter-estimation antecedent. Does not supply the comparison-budget quantity, its market input-effects bound or its economic attribution interpretation. No claim that all parameters in all reinforcement regimes are unlearnable, and no independent certification of all estimators.",
+      "v5_reference": true,
+      "sequential_recheck": "Full author preprint Section 4.1 and 4.2, pp. 19-20, re-read for apparatus, protocol and observed paths; Sections 3.2-3.3 rechecked for distinction between repeated paths and extending one path.",
+      "verification_reuse": "Existing claim-specific checks reused; the single-path urn limitation was rechecked against the primary author text on 20 October 2026."
     }
   ],
   "documented_cases": [
@@ -191,8 +224,8 @@
     ],
     "main_text_changed": false
   },
-  "latest_revision": "Explained artificial intelligence (AI) model, model training and inference in ordinary language before distinguishing those activities from comparing alternatives. Earlier research-introduction bridge retained.",
-  "note_words": 424,
+  "latest_revision": "Moved the replacement reinforcement/learning lineage acknowledgment before the first comparison-budget definition. Expanded existing note 5 to Arthur, Barabasi/Albert, Pemantle and Le Goff/Soulier. Replaced the later Merton/Alchian summary; their substantive credit remains in the introduction. Johnson/Kauffman attribution is unchanged.",
+  "note_words": 474,
   "editorial_commentary_revision": {
     "date": "2026-10-17",
     "manuscript_sha256": "02e3aeaf37d2e5ff6a3cdc7e25da2053d4ad4d1b780f825c1b49a22af9f0eb75",
@@ -222,5 +255,14 @@
     "locator": "Entries model, training, inference and language model. Model: structure/parameters mapping inputs to predictions, automated parameter learning. Training: examples and gradual parameter adjustment. Inference: applying trained models, including generating a response. Language model: probabilities of text tokens/sequences.",
     "boundary": "Plain-language terminology for the learned AI systems under discussion. Predicting the next piece of text is an example of a training task, not a claim that every AI model or every training phase uses that objective. Running a model is not presented as automatic retraining.",
     "review": "Changed paragraphs and neighbors read once for clarity, continuity and accessibility. Existing empirical and theoretical source checks reused; no additional experiment, economic result or novelty claim."
+  },
+  "early_lineage_revision": {
+    "date": "2026-10-20",
+    "manuscript_sha256": "cc86a3f706413e08814399f085ff67af17ea44a86600fe3d3701d48e42c30e42",
+    "scope": "Moved the replacement reinforcement/learning lineage acknowledgment before the first comparison-budget definition. Expanded existing note 5 to Arthur, Barabasi/Albert, Pemantle and Le Goff/Soulier. Replaced the later Merton/Alchian summary; their substantive credit remains in the introduction. Johnson/Kauffman attribution is unchanged.",
+    "source_checks": "Existing Arthur, Barabasi/Albert and Pemantle source passages reused. Rechecked primary Le Goff/Soulier author preprint Section 3.3/Theorem 8 on the author's question; narrowed wording to the named urn-model antecedent rather than generic learning impossibility.",
+    "novelty_boundary": "Credits established reinforcement and prior urn estimation limits while locating the book's contribution in its comparison-budget bound and market attribution interpretation. No independent priority certification.",
+    "review": "Changed passages and immediate neighbors reviewed once; story/case development and theoretical conditions retained.",
+    "publication": "Manuscript only. Publication files remain unchanged pending explicit regeneration."
   }
 }

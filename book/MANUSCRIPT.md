@@ -1,6 +1,6 @@
 # Shadow Futures manuscript
 
-Martin Erlic · Working manuscript · 64,282 of 80,000 main-text words
+Martin Erlic · Working manuscript · 64,232 of 80,000 main-text words
 
 The approved budget is 2,500 words for the prologue, 3,500 for the introduction, twelve chapters averaging 6,000 words (72,000 combined), and a 2,000-word epilogue. Notes, references, and acknowledgments have a separate 10,000–15,000-word allowance.
 
@@ -8,11 +8,11 @@ Counts below come from the current chapter files. Drafted sections still require
 
 | Component | Target | Written | Stage |
 | --- | ---: | ---: | --- |
-| [The other life of a song](manuscript/00-prologue.md) | 2,500 | 2,467 | reviewed |
-| [The evidence success leaves behind](manuscript/01-introduction.md) | 3,500 | 3,500 | reviewed |
+| [The other life of a song](manuscript/00-prologue.md) | 2,500 | 2,477 | reviewed |
+| [The evidence success leaves behind](manuscript/01-introduction.md) | 3,500 | 3,466 | reviewed |
 | [The winner and the explanation](manuscript/02-the-winner-and-the-explanation.md) | 6,000 | 5,419 | reviewed |
 | [The comparison budget](manuscript/03-the-comparison-budget.md) | 6,000 | 4,801 | reviewed |
-| [Shadow futures](manuscript/04-shadow-futures.md) | 6,000 | 4,293 | editorial reviewed sources pending |
+| [Shadow futures](manuscript/04-shadow-futures.md) | 6,000 | 4,267 | editorial reviewed sources pending |
 | [The histories that became infrastructure](manuscript/05-the-histories-that-became-infrastructure.md) | 6,000 | 5,533 | reviewed |
 | [Who gets to be tested](manuscript/06-who-gets-to-be-tested.md) | 6,000 | 5,486 | reviewed |
 | [Who deserves the winnings](manuscript/07-who-deserves-the-winnings.md) | 6,000 | 4,979 | reviewed |
@@ -24,7 +24,7 @@ Counts below come from the current chapter files. Drafted sections still require
 | [An economics of possible worlds](manuscript/13-an-economics-of-possible-worlds.md) | 6,000 | 3,834 | reviewed |
 | [The next opportunity](manuscript/14-epilogue.md) | 2,000 | 1,208 | reviewed |
 
-Current back matter: 8,680 words, including chapter notes.
+Current back matter: 8,697 words, including chapter notes.
 
 | Back matter | Written | Stage |
 | --- | ---: | --- |

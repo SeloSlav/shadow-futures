@@ -52,7 +52,7 @@ The fork was carved into white PVC and partly covered by Plexiglas. No food was 
 
 The resulting paths did not all look settled. In fewer than ten of the fifty trials, the researchers described a branch as appearing to have been selected. In the others, selection was not obvious after one hundred passages. The same protocol had produced visibly different histories. Those finite records gave the researchers something that continuing traffic down one established branch could not: repeated observations of how a path developed from its beginning.[^c3-4]
 
-Le Goff and Soulier had already shown that a long history of reinforced choices need not reveal the forces behind those choices. In a market, that raises a further question: can the opportunities left open to rivals tell us how much we can learn about why the winner won? The comparison budget gives those opportunities a precise meaning and connects them to the problem of measuring contribution.
+For a market, the question is how the opportunities left open to rivals affect what we can learn about why the winner won. The comparison budget gives those opportunities a precise meaning and connects them to the problem of measuring contribution.
 
 The statistical question is how much opportunity the process retains to distinguish input effects. A shorter record can contain substantial relevant variation while a much longer one follows an established route. The design, assignment chances, and measured outcomes determine the difference.
 

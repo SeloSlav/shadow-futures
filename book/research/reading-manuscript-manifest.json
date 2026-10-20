@@ -1,15 +1,15 @@
 {
   "status": "complete_draft_assembly_review_pending",
   "file": "book/drafts/Shadow_Futures_Complete_Manuscript.md",
-  "sha256": "d647bf40a4fc10c9baecb32b50997608050b8c6581bb0551754b193a0f9eb007",
+  "sha256": "f8ab3f4c53dcd8ddbc322b59e7105665f3a897b6abbec2d9d4ca18af1bee1e84",
   "inputs": [
     {
       "file": "book/manuscript/00-prologue.md",
-      "sha256": "6ab8352f7b8e3e18244936e3e4d1bd3cb1f114cb91cbbef1972f319b7e79bb04"
+      "sha256": "cc86a3f706413e08814399f085ff67af17ea44a86600fe3d3701d48e42c30e42"
     },
     {
       "file": "book/manuscript/01-introduction.md",
-      "sha256": "28d66f78b529380db86f9605504d339a5fc7095df182b4c3c0a2dba6536f5ef4"
+      "sha256": "ceec13db36cec1ae7d5a9c8e5590dd7fc0f42fe5e8aaad26accaf34661ce7f4a"
     },
     {
       "file": "book/manuscript/02-the-winner-and-the-explanation.md",
@@ -21,7 +21,7 @@
     },
     {
       "file": "book/manuscript/04-shadow-futures.md",
-      "sha256": "0c72ff385e9ab28ee604587145e58983eaa14ef8a2d3d78a73b465f9f87a003b"
+      "sha256": "31b6f1512757b8a50521d85cfc7d6ab521a393dff0cf22f06de8dc1455e62602"
     },
     {
       "file": "book/manuscript/05-the-histories-that-became-infrastructure.md",
@@ -73,10 +73,10 @@
     }
   ],
   "bibliography_input_sha256": "05cd5960933e98e9d6bc84e53b5ef93b533dfb0df0ef78508726ec0cd8ab4bff",
-  "main_words": 64282,
-  "back_matter_words": 8680,
+  "main_words": 64232,
+  "back_matter_words": 8697,
   "reference_entries": 144,
-  "endnote_count": 198,
+  "endnote_count": 197,
   "notes_namespaced": true,
   "interpretation": "Assembly, counts, hashes and note matching do not certify facts, proofs, prose quality or completion of the book review."
 }

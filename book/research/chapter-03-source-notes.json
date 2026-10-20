@@ -4,8 +4,8 @@
   "checked_on": "2026-10-16",
   "status": "editorial_reviewed_sources_pending",
   "target_main_words": 6000,
-  "body_words": 4293,
-  "draft_sha256": "0c72ff385e9ab28ee604587145e58983eaa14ef8a2d3d78a73b465f9f87a003b",
+  "body_words": 4267,
+  "draft_sha256": "31b6f1512757b8a50521d85cfc7d6ab521a393dff0cf22f06de8dc1455e62602",
   "source_checks": "Substantive main-text source passages and v5 conditions checked. Four technical-lineage entries have explicit partial/original-access boundaries and remain on final source audit queue. No independent proof or established priority certification.",
   "sources": [
     {
@@ -368,5 +368,14 @@
     "record": "book/research/developmental-review-2026-10-18.json",
     "scope": "Thesis, chapter contribution and conclusion; subsequent explicit UBI steering integrated where relevant. Existing claim-specific source checks reused; no whole-book proof certification.",
     "publication": "Manuscript only; exports and push await an explicit request."
+  },
+  "early_lineage_revision": {
+    "date": "2026-10-20",
+    "manuscript_sha256": "31b6f1512757b8a50521d85cfc7d6ab521a393dff0cf22f06de8dc1455e62602",
+    "scope": "Removed the repeated Le Goff/Soulier precedence announcement after the ant case; moved directly to the market application. The ant experiment, estimation discussion and original source citations remain unchanged.",
+    "source_checks": "Existing Arthur, Barabasi/Albert and Pemantle source passages reused. Rechecked primary Le Goff/Soulier author preprint Section 3.3/Theorem 8 on the author's question; narrowed wording to the named urn-model antecedent rather than generic learning impossibility.",
+    "novelty_boundary": "Credits established reinforcement and prior urn estimation limits while locating the book's contribution in its comparison-budget bound and market attribution interpretation. No independent priority certification.",
+    "review": "Changed passages and immediate neighbors reviewed once; story/case development and theoretical conditions retained.",
+    "publication": "Manuscript only. Publication files remain unchanged pending explicit regeneration."
   }
 }

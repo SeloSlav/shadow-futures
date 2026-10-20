@@ -4,8 +4,8 @@
   "checked_on": "2026-10-16",
   "status": "drafted",
   "target_main_words": 3500,
-  "body_words": 3500,
-  "draft_sha256": "28d66f78b529380db86f9605504d339a5fc7095df182b4c3c0a2dba6536f5ef4",
+  "body_words": 3466,
+  "draft_sha256": "ceec13db36cec1ae7d5a9c8e5590dd7fc0f42fe5e8aaad26accaf34661ce7f4a",
   "source_checks": "Relevant full-source passages checked. Where publisher access failed, the identified author working-paper version or indexed full-source sections were checked; no independent proof or priority certification is claimed.",
   "sources": [
     {
@@ -203,23 +203,6 @@
       "verification_reuse": "Unchanged relevant claim-specific passage check reused from chapter-04-source-notes.json"
     },
     {
-      "key": "LeGoffSoulier2017",
-      "note": "i14",
-      "source": "https://doi.org/10.1515/ijb-2016-0029",
-      "full_text_checked": "https://arxiv.org/pdf/1405.2322",
-      "version_boundary": "arXiv version 2 posted October 4, 2016; rendered cover dated January 29, 2018; published 2017 record used for bibliography.",
-      "locator": "Sections 3.2-3.3, preprint pp. 14-15; Sections 4.1-4.2, pp. 19-20.",
-      "claims": [
-        "Prior single-path estimation analysis; repeated finite trials; one hundred ant choices per trial, fifty trials; blank initial trail and removal after branch choice",
-        "White PVC fork partly covered by Plexiglas; no food, one ant at a time, removal prevented returning.",
-        "In fewer than ten of fifty 100-choice paths a branch appeared selected; most paths did not have obvious branch selection at that horizon."
-      ],
-      "boundary": "No inference from ants to economic causal contribution. Does not claim every reinforcement regime prevents every parameter from being estimated.",
-      "v5_reference": true,
-      "sequential_recheck": "Full author preprint Section 4.1 and 4.2, pp. 19-20, re-read for apparatus, protocol and observed paths; Sections 3.2-3.3 rechecked for distinction between repeated paths and extending one path.",
-      "verification_reuse": "Unchanged relevant claim-specific passage check reused from chapter-03-source-notes.json"
-    },
-    {
       "key": "BlackwellDubins1962",
       "note": "i15",
       "source": "https://doi.org/10.1214/aoms/1177704456",
@@ -354,7 +337,7 @@
     "continuity": "Affected explanations and neighboring transitions reviewed; chapter openings/endings checked across the book.",
     "historical_records": "Earlier narrative and review entries remain historical; current reader wording is authoritative."
   },
-  "note_words": 657,
+  "note_words": 624,
   "quick_style_revision": {
     "date": "2026-10-17",
     "manuscript_sha256": "6da80894d0aa25019e8677c9157e9a098dd59b80e9fb5bf09b6c84983f22bf25",
@@ -417,5 +400,14 @@
     "source_checks": "Existing original-paper and theorem-condition checks reused. Model setting and additional conditions explicit; no universal market law or mathematical conclusion about moral desert asserted.",
     "review": "Changed paragraph and immediate neighbors read once; existing citation retained. Introduction stays within its 3500-word allowance.",
     "publication": "Manuscript-only revision. Publication files require a new explicit regeneration request."
+  },
+  "early_lineage_revision": {
+    "date": "2026-10-20",
+    "manuscript_sha256": "ceec13db36cec1ae7d5a9c8e5590dd7fc0f42fe5e8aaad26accaf34661ce7f4a",
+    "scope": "Removed generic announcements that success-breeds-success is established and that preferential attachment is another familiar mechanism. Removed the repeated Le Goff/Soulier acknowledgment and note i14, whose citation now appears in prologue note 5. Actual Alchian, Merton, Arthur and Barabasi/Albert explanations and citations retained.",
+    "source_checks": "Existing Arthur, Barabasi/Albert and Pemantle source passages reused. Rechecked primary Le Goff/Soulier author preprint Section 3.3/Theorem 8 on the author's question; narrowed wording to the named urn-model antecedent rather than generic learning impossibility.",
+    "novelty_boundary": "Credits established reinforcement and prior urn estimation limits while locating the book's contribution in its comparison-budget bound and market attribution interpretation. No independent priority certification.",
+    "review": "Changed passages and immediate neighbors reviewed once; story/case development and theoretical conditions retained.",
+    "publication": "Manuscript only. Publication files remain unchanged pending explicit regeneration."
   }
 }
