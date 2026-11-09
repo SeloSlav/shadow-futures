@@ -150,15 +150,21 @@ function NoveltyBridge() {
         <span className="panel__meta">The literature gap, stated carefully</span>
         <div className="novelty-boundary__copy">
           <p>
-            The paper doesn’t claim that lock-in or cumulative advantage is new. Arthur&apos;s
+            The paper doesn’t claim that competition’s discovery role, cumulative advantage or
+            lock-in is new. Hayek&apos;s
+            {" "}
+            <cite>Competition as a Discovery Procedure</cite>
+            {" "}
+            (1968 lecture; English translation 2002) gives competition its familiar discovery
+            role. Merton&apos;s <cite>The Matthew Effect in Science</cite>
+            {" "}
+            (1968), David&apos;s <cite>Clio and the Economics of QWERTY</cite>
+            {" "}
+            (1985), and Arthur&apos;s
             {" "}
             <cite>Competing Technologies, Increasing Returns, and Lock-In by Historical Events</cite>
             {" "}
-            (1989), David&apos;s <cite>Clio and the Economics of QWERTY</cite>
-            {" "}
-            (1985), and Merton&apos;s <cite>The Matthew Effect in Science</cite>
-            {" "}
-            (1968) establish those foundations.
+            (1989) establish the cumulative-advantage and lock-in foundations.
           </p>
           <p>
             Pemantle&apos;s <cite>A Survey of Random Processes with Reinforcement</cite>
@@ -178,13 +184,6 @@ function NoveltyBridge() {
             (2016)
             {" "}
             distinguishes abundant records from the information needed to evaluate interventions.
-            Hayek&apos;s
-            {" "}
-            <cite>Competition as a Discovery Procedure</cite>
-            {" "}
-            (2002)
-            {" "}
-            gives competition its familiar discovery role.
           </p>
           <p>
             The closest statistical precedent is Le Goff and Soulier&apos;s
