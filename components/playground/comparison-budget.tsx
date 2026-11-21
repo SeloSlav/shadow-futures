@@ -64,7 +64,7 @@ function MarketAssumptions({ market }: { market: MarketPreset }) {
 }
 
 export function ComparisonBudget() {
-  const [market, setMarket] = useState(MARKET_PRESETS[0]);
+  const [market, setMarket] = useState(() => MARKET_PRESETS.find(preset => preset.name === "AI")!);
   const [comparison, setComparison] = useState<MarketPreset | null>(() => MARKET_PRESETS.find(preset => preset.name === "Commodities") ?? null);
   const [rotate, setRotate] = useState(false);
   const [sales, setSales] = useState(TOTAL_SALES);
