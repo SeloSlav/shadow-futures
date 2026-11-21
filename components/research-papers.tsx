@@ -12,25 +12,36 @@ import styles from "@/components/research-papers.module.css";
 
 function PaperActions({ paper }: { paper: ResearchPaper }) {
   return (
-    <div className={styles.actions}>
-      <a
-        className={styles.viewLink}
-        href={paper.pdfPath}
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label={`View PDF: ${paper.title}`}
-      >
-        View PDF <span aria-hidden="true">↗</span>
-      </a>
-      <a
-        className={styles.downloadLink}
-        href={paper.pdfPath}
-        download
-        aria-label={`Download PDF: ${paper.title}`}
-      >
-        Download <span aria-hidden="true">↓</span>
-      </a>
-    </div>
+    <>
+      <div className={styles.actions}>
+        <a
+          className={styles.viewLink}
+          href={paper.pdfPath}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={`View PDF: ${paper.title}`}
+        >
+          View PDF <span aria-hidden="true">↗</span>
+        </a>
+        <a
+          className={styles.downloadLink}
+          href={paper.pdfPath}
+          download
+          aria-label={`Download PDF: ${paper.title}`}
+        >
+          Download <span aria-hidden="true">↓</span>
+        </a>
+      </div>
+      {paper.supplements && (
+        <div className={styles.supplements}>
+          {paper.supplements.map(({ label, path }) => (
+            <a className={styles.detailsLink} href={path} download key={path}>
+              {label} <span aria-hidden="true">↓</span>
+            </a>
+          ))}
+        </div>
+      )}
+    </>
   );
 }
 
@@ -60,7 +71,7 @@ export function CompanionPaperList() {
       {COMPANION_PAPERS.map((paper, index) => (
         <article className={styles.card} id={paper.id} key={paper.id}>
           <div className={styles.cardMeta}>
-            <span className={styles.number}>{String(index + 1).padStart(2, "0")}</span>
+            <span className={styles.number}>{String(index).padStart(2, "0")}</span>
             <span className={styles.focus}>{paper.focus}</span>
           </div>
           <h3>{paper.title}</h3>
@@ -87,12 +98,11 @@ export function ResearchPapers() {
           </div>
           <div className={styles.sectionIntro}>
             <p>
-              Six companion papers develop the institutional, statistical and policy questions
-              opened by Shadow Futures: who can enter, what can be learned, and when a comparison
-              is worth creating.
+              The companion papers examine who can enter a market, what competition teaches us,
+              and when it is worth creating new opportunities for comparison.
             </p>
             <p className={styles.byline}>
-              <Link href={AUTHOR.path}>{RESEARCH_AUTHOR}</Link> · {RESEARCH_REVISION} research drafts
+              <Link href={AUTHOR.path}>{RESEARCH_AUTHOR}</Link> · Updated {RESEARCH_REVISION}
             </p>
             <Link className={styles.catalogueLink} href="/papers">
               See all papers <span aria-hidden="true">→</span>

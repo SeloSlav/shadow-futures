@@ -6,15 +6,15 @@ import {
   COMPANION_PAPERS,
   MAIN_RESEARCH_PAPER,
   RESEARCH_AUTHOR,
-  RESEARCH_PUBLISHED_DATE,
   RESEARCH_REVISION,
+  RESEARCH_UPDATED_DATE,
 } from "@/lib/papers";
 import { AUTHOR } from "@/lib/paper/citation";
 import { SITE_ORIGIN } from "@/lib/site";
 import styles from "@/app/papers/page.module.css";
 
 const description =
-  "Read Shadow Futures and six companion research drafts on contestability, measurement, counterfactuals, institutions, competition policy and corrective instruments.";
+  "Read Shadow Futures and its companion research drafts on contestability, measurement, competition policy, and independent experimentation after software acquisitions.";
 
 export const metadata: Metadata = {
   title: "Research papers",
@@ -46,7 +46,7 @@ export default function PapersPage() {
     url: `${SITE_ORIGIN}/papers`,
     name: "Shadow Futures research papers",
     description,
-    dateModified: RESEARCH_PUBLISHED_DATE,
+    dateModified: RESEARCH_UPDATED_DATE,
     author: {
       "@type": "Person",
       name: RESEARCH_AUTHOR,
@@ -97,11 +97,11 @@ export default function PapersPage() {
               By <Link href={AUTHOR.path}>{RESEARCH_AUTHOR}</Link> · {RESEARCH_REVISION}
             </p>
             <p className={styles.note}>
-              The original paper and six companion manuscripts are available below. The
+              The original paper and {COMPANION_PAPERS.length} companion manuscripts are available below. The
               companions are research drafts, published on this site for scholarly review.
             </p>
             <a className={styles.jumpLink} href="#companion-papers">
-              Explore the six companion papers <span aria-hidden="true">↓</span>
+              Explore the companion papers <span aria-hidden="true">↓</span>
             </a>
             <p className={styles.note}>
               <a href="/papers.md">Research collection in Markdown</a> · The general-audience
@@ -114,7 +114,7 @@ export default function PapersPage() {
           <section id="companion-papers" className={styles.companions} aria-labelledby="companions-title">
             <div className={styles.companionHeader}>
               <h2 id="companions-title">Companion papers</h2>
-              <p>October 2026 research drafts · PDFs to read or download</p>
+              <p>Research drafts · PDFs to read or download</p>
             </div>
             <CompanionPaperList />
           </section>

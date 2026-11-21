@@ -8,10 +8,13 @@ export type ResearchPaper = {
   pdfPath: string;
   pages: number;
   status: string;
+  publishedDate?: string;
+  supplements?: readonly { label: string; path: string }[];
 };
 
-export const RESEARCH_REVISION = "October 2026";
 export const RESEARCH_PUBLISHED_DATE = "2026-10-09";
+export const RESEARCH_UPDATED_DATE = "2026-11-21";
+export const RESEARCH_REVISION = "November 2026";
 export const RESEARCH_AUTHOR = AUTHOR.name;
 
 export const MAIN_RESEARCH_PAPER: ResearchPaper = {
@@ -88,5 +91,26 @@ export const COMPANION_PAPERS: readonly ResearchPaper[] = [
     pdfPath: "/papers/taxing-lost-comparison.pdf",
     pages: 25,
     status: "Research draft",
+  },
+  {
+    id: "product-continuation-and-independent-experimentation",
+    title: "Product Continuation and Independent Experimentation after Software Acquisitions",
+    focus: "Acquisitions and experimentation",
+    description:
+      "Traces which products kept shipping across 22 software and digital marketplace deals reviewed by the UK Competition and Markets Authority. The study distinguishes continued shipment from who can authorize the next release and proposes a direct test of independent experimentation.",
+    pdfPath: "/papers/product-continuation-and-independent-experimentation.pdf",
+    pages: 27,
+    status: "Research draft",
+    publishedDate: RESEARCH_UPDATED_DATE,
+    supplements: [
+      {
+        label: "Evidence ledger (JSON)",
+        path: "/papers/product-continuation-and-independent-experimentation/acquisition-pilot-evidence.json",
+      },
+      {
+        label: "Replication code (Python)",
+        path: "/papers/product-continuation-and-independent-experimentation/summarize-acquisition-pilot.py",
+      },
+    ],
   },
 ];

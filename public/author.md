@@ -18,7 +18,7 @@ Martin Erlic is the author of "Shadow Futures: How Markets Choose Winners—and 
 Martin Erlic is the author of "Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market," first posted in December 2025 and revised in October 2026.
 
 - Paper: https://shadow-futures.vercel.app/paper
-- Original paper and six companion research drafts: https://shadow-futures.vercel.app/papers
+- Original paper and companion research drafts: https://shadow-futures.vercel.app/papers
 - DOI: https://doi.org/10.2139/ssrn.6003994
 
 The book and the original paper have different subtitles and are distinct works. The DOI identifies the original paper, not the book or companion drafts.

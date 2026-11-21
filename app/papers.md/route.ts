@@ -12,7 +12,7 @@ export function GET() {
     `Revision: ${RESEARCH_REVISION}`,
     `Canonical collection: ${SITE_ORIGIN}/papers`,
     "",
-    "The collection contains the original Shadow Futures paper and six companion research drafts. The companions develop additional models and assumptions; their results are distinct from the original paper’s theorem.",
+    `The collection contains the original Shadow Futures paper and ${COMPANION_PAPERS.length} companion research drafts. Each companion states its evidence and assumptions.`,
     "",
     ...[MAIN_RESEARCH_PAPER, ...COMPANION_PAPERS].flatMap((paper) => [
       `## ${paper.title}`,
@@ -24,6 +24,9 @@ export function GET() {
       paper.description,
       "",
       `[Read the PDF](${SITE_ORIGIN}${paper.pdfPath})`,
+      ...(paper.supplements
+        ? ["", ...paper.supplements.map(({ label, path }) => `- [${label}](${SITE_ORIGIN}${path})`)]
+        : []),
       "",
     ]),
     "## Original paper citation",

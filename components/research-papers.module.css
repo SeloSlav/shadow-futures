@@ -146,10 +146,14 @@
   font-size: 0.75rem;
 }
 
-.actions {
+.actions,
+.supplements {
   display: flex;
   flex-wrap: wrap;
   gap: 0.25rem 1.65rem;
+}
+
+.actions {
   margin-top: 0.75rem;
 }
 

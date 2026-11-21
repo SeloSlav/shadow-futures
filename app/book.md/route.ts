@@ -37,7 +37,7 @@ export function GET() {
     "",
     `- Original paper: ${SITE_ORIGIN}${PAPER.landingPath}`,
     `- Paper DOI: ${PAPER.doiUrl}`,
-    `- Research collection and six companion drafts: ${SITE_ORIGIN}/papers`,
+    `- Research collection: ${SITE_ORIGIN}/papers`,
     `- Questions and answers: ${SITE_ORIGIN}/faq`,
     `- Author: ${SITE_ORIGIN}/author/martin-erlic`,
     "",
