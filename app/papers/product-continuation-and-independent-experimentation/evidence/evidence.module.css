@@ -161,7 +161,8 @@
 }
 
 .controls label,
-.comparisonHeader label {
+.comparisonHeader label,
+.nameSearch {
   display: grid;
   gap: 0.45rem;
   font-size: 0.85rem;
@@ -169,7 +170,8 @@
 }
 
 .controls select,
-.comparisonHeader select {
+.comparisonHeader select,
+.nameSearch input {
   min-width: 0;
   min-height: 2.75rem;
   border: 1px solid var(--rule);
@@ -179,6 +181,16 @@
   background: var(--ink);
   color-scheme: dark;
   font: inherit;
+}
+
+.nameSearch {
+  max-width: 26rem;
+  margin: 0 0 1.5rem;
+}
+
+.nameSearch input {
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 .legend,

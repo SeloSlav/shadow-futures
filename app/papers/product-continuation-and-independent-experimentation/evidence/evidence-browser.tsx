@@ -29,9 +29,10 @@ type LedgerFilters = {
   overlap: "all" | keyof typeof overlapLabels;
   deal: "all" | keyof typeof dealLabels;
   shipment: "all" | keyof typeof outcomeLabels;
+  q: string;
 };
 
-const allFilters: LedgerFilters = { overlap: "all", deal: "all", shipment: "all" };
+const allFilters: LedgerFilters = { overlap: "all", deal: "all", shipment: "all", q: "" };
 const dealOutcomes = Object.keys(dealLabels) as (keyof typeof dealLabels)[];
 const overlapTypes = Object.keys(overlapLabels) as (keyof typeof overlapLabels)[];
 const shipmentOutcomes = Object.keys(outcomeLabels) as (keyof typeof outcomeLabels)[];
@@ -43,9 +44,15 @@ function readFilter<T extends string>(value: string | null, options: readonly T[
 
 function viewHref(pathname: string, query: string, filters: Partial<LedgerFilters>, hash: string) {
   const params = new URLSearchParams(query);
-  for (const [key, value] of Object.entries(filters)) {
+  const { q, ...options } = filters;
+  for (const [key, value] of Object.entries(options)) {
     if (value === "all") params.delete(key);
     else params.set(key, value.replaceAll(" ", "-"));
+  }
+  if (q !== undefined) {
+    const trimmed = q.trim();
+    if (trimmed) params.set("q", trimmed);
+    else params.delete("q");
   }
   const search = params.toString();
   return `${pathname}${search ? `?${search}` : ""}${hash}`;
@@ -204,6 +211,7 @@ function ResultActions({ href, rows }: { href: string; rows: AcquisitionEvidence
 export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow[] }) {
   const pathname = usePathname();
   const searchParams = useSearchParams();
+  const [nameSearch, setNameSearch] = useState(() => searchParams.get("q") ?? "");
   const query = searchParams.toString();
   const availableShipments = shipmentOutcomes.filter((outcome) =>
     rows.some((row) => row.outcome === outcome),
@@ -211,11 +219,16 @@ export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow
   const overlap = readFilter(searchParams.get("overlap"), overlapTypes);
   const deal = readFilter(searchParams.get("deal"), dealOutcomes);
   const shipment = readFilter(searchParams.get("shipment"), availableShipments);
-  const shareHref = viewHref(pathname, "", { overlap, deal, shipment }, resultsHash);
+  const shareHref = viewHref(pathname, "", { overlap, deal, shipment, q: nameSearch }, resultsHash);
   const resultCountRef = useRef<HTMLParagraphElement>(null);
   const pendingJump = useRef<string | null>(null);
-  const overlapRows = overlap === "all" ? rows : rows.filter((row) => row.overlap === overlap);
-  const visibleRows = overlapRows.filter(
+  const searchTerms = nameSearch.toLowerCase().match(/\S+/g) ?? [];
+  const matchingRows = rows.filter((row) => {
+    if (overlap !== "all" && row.overlap !== overlap) return false;
+    const names = `${row.product} ${row.deal.name}`.toLowerCase();
+    return searchTerms.every((term) => names.includes(term));
+  });
+  const visibleRows = matchingRows.filter(
     (row) =>
       (deal === "all" || row.deal.original_outcome === deal) &&
       (shipment === "all" || row.outcome === shipment),
@@ -224,6 +237,14 @@ export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow
 
   useEffect(() => {
     if (window.location.hash === resultsHash) jumpToResults(resultCountRef.current);
+
+    function restoreNameSearch() {
+      const params = new URLSearchParams(window.location.search);
+      setNameSearch(params.get("q") ?? "");
+    }
+
+    window.addEventListener("popstate", restoreNameSearch);
+    return () => window.removeEventListener("popstate", restoreNameSearch);
   }, []);
 
   useEffect(() => {
@@ -239,6 +260,14 @@ export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow
     window.history.pushState(null, "", viewHref(pathname, search, filters, hash));
   }
 
+  function changeNameSearch(value: string) {
+    setNameSearch(value);
+    pendingJump.current = null;
+    const { pathname, search, hash } = window.location;
+    const href = viewHref(pathname, search, { q: value }, hash);
+    if (href !== `${pathname}${search}${hash}`) window.history.replaceState(null, "", href);
+  }
+
   function openShipmentView(href: string) {
     const destination = new URL(href, window.location.href);
     const nextQuery = destination.searchParams.toString();
@@ -249,6 +278,16 @@ export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow
 
   return (
     <>
+      <label className={styles.nameSearch}>
+        Search by product or deal name
+        <input
+          type="search"
+          value={nameSearch}
+          onChange={(event) => changeNameSearch(event.target.value)}
+          autoComplete="off"
+          spellCheck={false}
+        />
+      </label>
       <section className={styles.comparison} aria-labelledby="shipment-comparison-title">
         <div className={styles.comparisonHeader}>
           <h2 id="shipment-comparison-title">Confirmed shipments</h2>
@@ -267,10 +306,15 @@ export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow
         </div>
         <dl className={styles.comparisonCounts} aria-live="polite" aria-atomic="true">
           {dealOutcomes.map((outcome) => {
-            const cohort = overlapRows.filter((row) => row.deal.original_outcome === outcome);
+            const cohort = matchingRows.filter((row) => row.deal.original_outcome === outcome);
             const shipped = countConfirmedShipments(cohort);
             const count = cohort.length > 0 ? `${shipped} of ${cohort.length}` : "No product lines";
-            const href = viewHref(pathname, query, { overlap, deal: outcome, shipment: "confirmed shipment" }, resultsHash);
+            const href = viewHref(pathname, query, {
+              overlap,
+              deal: outcome,
+              shipment: "confirmed shipment",
+              q: nameSearch,
+            }, resultsHash);
             return (
               <div key={outcome}>
                 <dt>{dealLabels[outcome]}</dt>
@@ -296,7 +340,7 @@ export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow
           })}
         </dl>
         <p className={styles.legend}>
-          Totals include all tracked product lines in the selected overlap group.
+          Totals reflect the name search and overlap filter.
           Select a shipment count to jump to the matching products.
         </p>
       </section>
@@ -343,7 +387,10 @@ export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow
             <p>No product lines match these filters.</p>
             <button
               type="button"
-              onClick={() => changeFilters(allFilters, "")}
+              onClick={() => {
+                setNameSearch("");
+                changeFilters(allFilters, "");
+              }}
             >
               Clear filters
             </button>
