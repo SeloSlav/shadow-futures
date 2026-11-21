@@ -24,10 +24,10 @@ export function GET() {
       paper.description,
       "",
       `[Read the PDF](${SITE_ORIGIN}${paper.pdfPath})`,
-      ...(paper.supplements
-        ? ["", ...paper.supplements.map(({ label, path }) => `- [${label}](${SITE_ORIGIN}${path})`)]
-        : []),
       "",
+      ...(paper.evidencePath ? [`- [Browse evidence ledger](${SITE_ORIGIN}${paper.evidencePath})`] : []),
+      ...(paper.supplements ?? []).map(({ label, path }) => `- [${label}](${SITE_ORIGIN}${path})`),
+      ...(paper.evidencePath || paper.supplements ? [""] : []),
     ]),
     "## Original paper citation",
     "",

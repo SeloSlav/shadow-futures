@@ -1,0 +1,240 @@
+.page {
+  min-height: 100svh;
+  padding: clamp(7.5rem, 10vw, 10rem) clamp(1rem, 5vw, 5rem) 5rem;
+  background: var(--ink);
+  color: var(--paper);
+  --muted-text: color-mix(in srgb, var(--paper) 72%, transparent);
+  --rule: color-mix(in srgb, var(--paper) 23%, transparent);
+}
+
+.inner {
+  max-width: 74rem;
+  margin: 0 auto;
+}
+
+.header {
+  margin-bottom: clamp(2rem, 4vw, 3.5rem);
+}
+
+.backLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  min-height: 2.75rem;
+  margin-bottom: 1rem;
+  color: var(--rust-soft);
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+
+.header h1 {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: clamp(2.9rem, 7vw, 6rem);
+  font-weight: 520;
+  letter-spacing: -0.06em;
+  line-height: 1;
+}
+
+.header p {
+  max-width: 66ch;
+  margin: 1.4rem 0 0.7rem;
+  color: var(--muted-text);
+  line-height: 1.65;
+}
+
+.page a:not(.backLink) {
+  text-decoration: none;
+  text-underline-offset: 0.22em;
+}
+
+.page a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.22em;
+}
+
+.links,
+.sourceList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 1.5rem;
+  color: var(--rust-soft);
+  font-size: 0.85rem;
+}
+
+.links a,
+.sourceList a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  min-height: 2.75rem;
+}
+
+.controls {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 15rem));
+  gap: 0.9rem 1.25rem;
+  border-top: 1px solid var(--rule);
+  padding-top: 1.5rem;
+}
+
+.controls label {
+  display: grid;
+  gap: 0.45rem;
+  font-size: 0.85rem;
+  font-weight: 650;
+}
+
+.controls select {
+  min-width: 0;
+  min-height: 2.75rem;
+  border: 1px solid var(--rule);
+  border-radius: 0.2rem;
+  padding: 0.45rem 0.65rem;
+  color: var(--paper);
+  background: var(--ink);
+  color-scheme: dark;
+  font: inherit;
+}
+
+.legend,
+.resultCount {
+  line-height: 1.55;
+}
+
+.legend {
+  margin: 1rem 0;
+  color: var(--muted-text);
+  font-size: 0.85rem;
+}
+
+.resultCount {
+  margin: 1.4rem 0 0.7rem;
+  font-size: 0.9rem;
+  font-weight: 650;
+  font-variant-numeric: tabular-nums;
+}
+
+.results {
+  border-top: 1px solid var(--rule);
+}
+
+.row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.55fr);
+  gap: clamp(1.5rem, 4vw, 3.5rem);
+  padding: 1.65rem 0;
+  border-bottom: 1px solid var(--rule);
+  overflow-wrap: anywhere;
+}
+
+.product h2 {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: clamp(1.55rem, 2.5vw, 2rem);
+  font-weight: 520;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+}
+
+.dealName {
+  margin: 0.55rem 0;
+  font-size: 0.9rem;
+  color: var(--muted-text);
+}
+
+.meta,
+.outcomeMeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 0.65rem;
+  margin: 0;
+  color: var(--muted-text);
+  font-size: 0.8rem;
+}
+
+.meta strong,
+.outcomeMeta strong {
+  color: var(--paper);
+}
+
+.outcomeMeta .shipped {
+  color: var(--rust-soft);
+}
+
+.evidence {
+  margin: 0.6rem 0 0;
+  line-height: 1.6;
+}
+
+.details {
+  margin: 0.15rem 0 0;
+  color: var(--muted-text);
+  font-size: 0.88rem;
+  line-height: 1.6;
+}
+
+.details summary {
+  width: fit-content;
+  min-height: 2.75rem;
+  padding: 0.6rem 0;
+  cursor: pointer;
+}
+
+.details p {
+  margin: 0 0 0.65rem;
+}
+
+.sourceList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.empty {
+  padding: 1.5rem 0;
+}
+
+.empty p {
+  margin: 0 0 0.75rem;
+}
+
+.empty button {
+  min-height: 2.75rem;
+  padding: 0.45rem 0.8rem;
+  border: 1px solid var(--rule);
+  border-radius: 0.2rem;
+  background: transparent;
+  color: var(--paper);
+  font: inherit;
+  cursor: pointer;
+}
+
+@media (max-width: 45rem) {
+  .page {
+    padding-top: 5.5rem;
+  }
+
+  .header {
+    margin-bottom: 1.5rem;
+  }
+
+  .backLink {
+    margin-bottom: 0.5rem;
+  }
+
+  .header p {
+    margin-top: 1rem;
+  }
+
+  .row {
+    grid-template-columns: 1fr;
+    gap: 0.85rem;
+  }
+}
+
+@media (max-width: 26rem) {
+  .controls {
+    grid-template-columns: 1fr;
+  }
+}

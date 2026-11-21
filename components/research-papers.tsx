@@ -32,9 +32,14 @@ function PaperActions({ paper }: { paper: ResearchPaper }) {
           Download <span aria-hidden="true">↓</span>
         </a>
       </div>
-      {paper.supplements && (
+      {(paper.evidencePath || paper.supplements) && (
         <div className={styles.supplements}>
-          {paper.supplements.map(({ label, path }) => (
+          {paper.evidencePath && (
+            <Link className={styles.viewLink} href={paper.evidencePath}>
+              Browse evidence ledger <span aria-hidden="true">→</span>
+            </Link>
+          )}
+          {paper.supplements?.map(({ label, path }) => (
             <a className={styles.detailsLink} href={path} download key={path}>
               {label} <span aria-hidden="true">↓</span>
             </a>
