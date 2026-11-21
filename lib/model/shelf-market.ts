@@ -15,15 +15,21 @@ export const MARKET_PRESETS = [
   { name: "Airlines", qualityEdge: 0.3, reinforcement: 0.8, description: "Two airlines serve the same route. Frequent-flyer loyalty favors the busier carrier, while travelers can still switch flights." },
   { name: "Restaurants", qualityEdge: 0.3, reinforcement: 0.4, description: "Two restaurants compete for diners. Yesterday’s crowd draws some attention, but tonight’s diners still give both menus a look." },
   { name: "Commodities", qualityEdge: 0.1, reinforcement: 0.1, description: "Two suppliers sell similar grades of wheat. Buyers can switch easily, so the last order gives its seller little advantage on the next one." },
+  { name: "Singularity", singleFirm: true as const, description: "Gold is the only firm in the economy. It supplies everything and receives every sale from the outset." },
 ];
 
 export type MarketPreset = (typeof MARKET_PRESETS)[number];
 const products = { inputs: [[1], [0]], initialPositions: [0, 0], baseline: 1 };
 
-export function goldOddsAtFullRanking(market: MarketPreset, goldSales: number, tealSales: number) {
+function saleOdds(market: MarketPreset, counts: number[], rankingStrength: number) {
+  if (market.singleFirm) return [1, 0];
   return allocationProbabilities({
-    ...products, counts: [goldSales, tealSales], beta: [market.qualityEdge], rho: market.reinforcement,
-  })[0];
+    ...products, counts, beta: [market.qualityEdge], rho: rankingStrength * market.reinforcement,
+  });
+}
+
+export function goldOddsAtFullRanking(market: MarketPreset, goldSales: number, tealSales: number) {
+  return saleOdds(market, [goldSales, tealSales], 1)[0];
 }
 
 type ShelfRule = { market: MarketPreset; rotate?: boolean; equalShelf?: boolean };
@@ -31,8 +37,7 @@ type ShelfRule = { market: MarketPreset; rotate?: boolean; equalShelf?: boolean 
 function oddsForNextSale(counts: number[], sales: number, { market, rotate, equalShelf }: ShelfRule) {
   const ramp = Math.max(0, Math.min(1, (sales - 150) / 1_050));
   const rotating = rotate && sales >= ROTATION_START && sales < ROTATION_START + ROTATION_LENGTH;
-  const rho = equalShelf || rotating ? 0 : market.reinforcement * ramp;
-  return allocationProbabilities({ ...products, counts, beta: [market.qualityEdge], rho });
+  return saleOdds(market, counts, equalShelf || rotating ? 0 : ramp);
 }
 
 export function shelfHistory(seed: number, rule: ShelfRule = { market: MARKET_PRESETS[0] }) {

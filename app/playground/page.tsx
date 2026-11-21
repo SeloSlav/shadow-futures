@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { ComparisonBudget } from "@/components/playground/comparison-budget";
 
 const title = "Comparison Budget Playground";
-const description = "Compare any two of six markets on one chart. Replay the same 4,000 sales to see how their comparison budgets grow under each shelf rule.";
+const description = "Compare market setups from a single-firm economy to commodities on one chart. Replay the same 4,000 sales to see how their comparison budgets grow under each shelf rule.";
 
 export const metadata: Metadata = {
   title,

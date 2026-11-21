@@ -41,6 +41,7 @@ function FuturePanel({ setup, sales, rotate, seed }: {
         <div><dt>Chance the rival wins next</dt><dd>{formatChance(frame.nextPoint)}</dd></div>
         <div><dt>Chance of a lit five-sale path</dt><dd>{formatChance(litProbability)}</dd></div>
       </dl>
+      {market.singleFirm && <p className={styles.singleFirmFutures}>Every strip shows the same five Gold sales. With one firm, the chance of a rival win in five sales is 1 − 1⁵ = 0.</p>}
     </section>
   );
 }
@@ -67,7 +68,12 @@ export function ShadowFutures({ first, second, sales, rotate, seed }: {
         <p><Equation block={false} latex={String.raw`\varepsilon_t = 1 - \max_i p_{i,t}`} /> gives the rival’s chance before each sale. At 99–1 odds the sale adds 0.01 points to the chart. At 55–45 it adds 0.45. The chart sums those chances, <Equation block={false} latex={String.raw`B_T=\sum_{t=0}^{T-1}\varepsilon_t`} />. The strips show who actually wins in each sampled future.</p>
         <details>
           <summary>How shelf position changes the odds</summary>
-          <p><Equation block={false} latex={String.raw`p_{i,t}\propto e^{\beta x_i}(1+n_{i,t})^{\rho_t}`} />. Here <i>x</i> is product quality, <i>n</i> is past sales, and <i>ρ</i> controls how strongly a lead feeds back into the next sale. At full ranking strength, ρ is {first.market.reinforcement} for {first.market.name} and {second.equalShelf ? 0 : second.market.reinforcement} for {second.equalShelf ? "equal shelf space" : second.market.name}. Rotating the shelf temporarily sets ρ to zero.</p>
+          <p><Equation block={false} latex={String.raw`p_{i,t}\propto e^{\beta x_i}(1+n_{i,t})^{\rho_t}`} />. Here <i>x</i> is product quality, <i>n</i> is past sales, and <i>ρ</i> controls how strongly a lead feeds back into the next sale. Rotating the shelf temporarily sets ρ to zero.
+            {[first, second].filter(setup => !setup.market.singleFirm).map(({ market, equalShelf }) => equalShelf
+              ? " With equal shelf space, ρ stays at zero."
+              : ` At full ranking strength, ρ is ${market.reinforcement} for ${market.name}.`)}
+            {(first.market.singleFirm || second.market.singleFirm) && " In Singularity, Gold is the only firm in the sum of weights, so its probability is 1 at every ranking strength."}
+          </p>
           <p>To calculate the five-sale probability, follow the path where the favorite wins every time. Update the odds after each win and multiply those five winning probabilities together. Subtract that product from one to get the chance that a path lights up. Resampling changes the strips while these probabilities stay fixed.</p>
         </details>
       </div>

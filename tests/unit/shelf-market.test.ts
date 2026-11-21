@@ -11,7 +11,7 @@ describe("shelf comparison budget", () => {
     }
   });
 
-  it.each(MARKET_PRESETS)("uses the $name settings for ranking, equal placement, and the 300-sale rotation", market => {
+  it.each(MARKET_PRESETS.filter(market => !market.singleFirm))("uses the $name settings for ranking, equal placement, and the 300-sale rotation", market => {
     const ranked = shelfHistory(42, { market });
     const rotated = shelfHistory(42, { market, rotate: true });
     const openRate = 1 / (1 + Math.exp(market.qualityEdge));
@@ -25,6 +25,17 @@ describe("shelf comparison budget", () => {
     expect(rotated[end].nextPoint).toBeLessThan(openRate);
   });
 
+  it.each([{}, { rotate: true }, { equalShelf: true }])("gives every sale to one firm in Singularity under rule %j", shelf => {
+    const market = MARKET_PRESETS.find(preset => preset.name === "Singularity")!;
+    const rule = { market, ...shelf };
+    const history = shelfHistory(42, rule);
+    expect(history).toHaveLength(TOTAL_SALES + 1);
+    expect(history.every((frame, sales) => frame.goldSales === sales && frame.goldOdds === 1 && frame.nextPoint === 0 && frame.budget === 0)).toBe(true);
+    const futures = shadowFutures(13, ROTATION_START, ROTATION_START, rule);
+    expect(futures.litProbability).toBe(0);
+    expect(futures.paths.flat().every(sale => sale.winner === 0 && !sale.rivalWon)).toBe(true);
+  });
+
   it("produces distinct budgets for each preset with identical draws", () => {
     const budgets = MARKET_PRESETS.map(market => shelfHistory(42, { market })[TOTAL_SALES].budget);
     expect(new Set(budgets).size).toBe(MARKET_PRESETS.length);
@@ -35,7 +46,7 @@ describe("shelf comparison budget", () => {
       name: market.name,
       budget: shelfHistory(42, { market, rotate })[TOTAL_SALES].budget,
     })).sort((a, b) => a.budget - b.budget);
-    expect(ranked.map(run => run.name)).toEqual(["AI", "Big Tech", "Bestsellers", "Airlines", "Restaurants", "Commodities"]);
+    expect(ranked.map(run => run.name)).toEqual(["Singularity", "AI", "Big Tech", "Bestsellers", "Airlines", "Restaurants", "Commodities"]);
   });
 
   it("uses each market’s current counts and updates its favorite before every branch sale", () => {

@@ -60,7 +60,7 @@ function BudgetChart({ lines, sales, rotate }: { lines: BudgetLine[]; sales: num
 }
 
 function MarketAssumptions({ market }: { market: MarketPreset }) {
-  return <p><strong>{market.name}.</strong> {market.description} A 20–10 sales lead at full ranking strength gives Gold a {formatChance(goldOddsAtFullRanking(market, 20, 10))} chance of the next sale.</p>;
+  return <p><strong>{market.name}.</strong> {market.description}{!market.singleFirm && <> A 20–10 sales lead at full ranking strength gives Gold a {formatChance(goldOddsAtFullRanking(market, 20, 10))} chance of the next sale.</>}</p>;
 }
 
 export function ComparisonBudget() {
@@ -115,7 +115,7 @@ export function ComparisonBudget() {
     <main id="main-content" className={styles.page}>
       <header className={styles.intro}>
         <h1>Comparison budget playground</h1>
-        <p>Compare two markets over the same 4,000 sales. In each, <strong>Gold</strong> has a small quality edge over <strong>Teal</strong>. Each sale adds the less likely rival’s chance of winning to that market’s comparison budget.</p>
+        <p>Compare two markets over the same 4,000 sales. In markets with two firms, <strong>Gold</strong> has a small quality edge over <strong>Teal</strong>. Each sale adds the rival’s chance of beating the favorite to that market’s comparison budget.</p>
       </header>
       <section className={styles.exhibit} aria-labelledby="chart-title">
         <div className={styles.marketSetup}>
@@ -151,7 +151,7 @@ export function ComparisonBudget() {
           <details className={styles.assumptions}>
             <summary>About these setups</summary>
             <MarketAssumptions market={market} />
-            {comparison ? <MarketAssumptions market={comparison} /> : <p><strong>Equal shelf space.</strong> The two products keep the {market.name} quality difference. Past sales have no effect on placement.</p>}
+            {comparison ? <MarketAssumptions market={comparison} /> : <p><strong>Equal shelf space.</strong> {market.singleFirm ? "Gold still occupies the whole shelf because it is the only supplier." : `The two products keep the ${market.name} quality difference. Past sales have no effect on placement.`}</p>}
           </details>
         </div>
         <div className={styles.exhibitHead}>
@@ -177,9 +177,12 @@ export function ComparisonBudget() {
                 onChange={e => { setPlayFrom(null); setSales(Number(e.target.value)); }} />
               <span>{count.format(sales)} {sales === 1 ? "sale" : "sales"}</span>
             </div>
-            <p className={styles.caption}>{rotate
-              ? "In the shaded interval, sales 3,001–3,300, both products get equal shelf space in each ranked market. Ranking then resumes."
-              : "The products start on equal shelves. After 150 sales, past wins gradually begin to buy better placement in each ranked market."}</p>
+            <p className={styles.caption}>
+              {!(market.singleFirm && equalShelf) && (rotate
+                ? "In the shaded interval, sales 3,001–3,300, competing products get equal shelf space. Ranking then resumes."
+                : "Competing products start on equal shelves. After 150 sales, past wins gradually begin to buy better placement.")}
+              {(market.singleFirm || comparison?.singleFirm) && " In Singularity, Gold makes every sale under either shelf rule. Each sale adds 1 − 1 = 0 comparison points."}
+            </p>
           </div>
           <aside className={styles.readout} aria-label="Budget at the selected sale">
             <h3>Budget gap</h3>
