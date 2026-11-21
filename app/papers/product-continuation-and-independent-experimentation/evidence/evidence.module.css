@@ -116,12 +116,41 @@
 }
 
 .comparisonCounts dd {
+  display: flex;
+  align-items: center;
+  min-height: 2.75rem;
   margin: 0.25rem 0 0;
   color: var(--rust-soft);
   font-size: clamp(1.1rem, 2.5vw, 1.65rem);
   font-weight: 650;
   font-variant-numeric: tabular-nums;
   line-height: 1.2;
+}
+
+.countAction {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  min-height: 2.75rem;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+
+.countAction span:first-child {
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
+.countAction span[aria-hidden] {
+  font-size: 0.9rem;
+}
+
+.countAction:hover {
+  color: var(--paper);
 }
 
 .controls {
@@ -165,6 +194,7 @@
 
 .resultCount {
   margin: 1.4rem 0 0.7rem;
+  scroll-margin-top: 5.75rem;
   font-size: 0.9rem;
   font-weight: 650;
   font-variant-numeric: tabular-nums;

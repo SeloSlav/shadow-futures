@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 
 import type { AcquisitionEvidenceRow } from "@/lib/acquisition-evidence";
 import styles from "./evidence.module.css";
@@ -21,9 +21,12 @@ const overlapLabels = {
   "no direct overlap established": "No direct overlap established",
 };
 
-type DealFilter = "all" | keyof typeof dealLabels;
+type DealOutcome = keyof typeof dealLabels;
+type DealFilter = "all" | DealOutcome;
 type ShipmentFilter = "all" | keyof typeof outcomeLabels;
 type OverlapFilter = "all" | keyof typeof overlapLabels;
+
+const dealOutcomes = Object.keys(dealLabels) as DealOutcome[];
 
 const monthFormat = new Intl.DateTimeFormat("en-GB", {
   month: "short",
@@ -132,6 +135,7 @@ export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow
   const [overlap, setOverlap] = useState<OverlapFilter>("all");
   const [deal, setDeal] = useState<DealFilter>("all");
   const [shipment, setShipment] = useState<ShipmentFilter>("all");
+  const resultCountRef = useRef<HTMLParagraphElement>(null);
   const overlapRows = overlap === "all" ? rows : rows.filter((row) => row.overlap === overlap);
   const visibleRows = overlapRows.filter(
     (row) =>
@@ -139,6 +143,16 @@ export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow
       (shipment === "all" || row.outcome === shipment),
   );
   const shipmentCount = countConfirmedShipments(visibleRows);
+
+  function showConfirmedShipments(outcome: DealOutcome) {
+    setDeal(outcome);
+    setShipment("confirmed shipment");
+    requestAnimationFrame(() => {
+      const resultCount = resultCountRef.current;
+      resultCount?.focus({ preventScroll: true });
+      resultCount?.scrollIntoView({ behavior: "instant", block: "start" });
+    });
+  }
 
   return (
     <>
@@ -156,15 +170,25 @@ export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow
           </label>
         </div>
         <dl className={styles.comparisonCounts} aria-live="polite" aria-atomic="true">
-          {Object.entries(dealLabels).map(([value, label]) => {
-            const cohort = overlapRows.filter((row) => row.deal.original_outcome === value);
+          {dealOutcomes.map((outcome) => {
+            const cohort = overlapRows.filter((row) => row.deal.original_outcome === outcome);
+            const shipped = countConfirmedShipments(cohort);
+            const count = cohort.length > 0 ? `${shipped} of ${cohort.length}` : "No product lines";
             return (
-              <div key={value}>
-                <dt>{label}</dt>
+              <div key={outcome}>
+                <dt>{dealLabels[outcome]}</dt>
                 <dd>
-                  {cohort.length > 0
-                    ? `${countConfirmedShipments(cohort)} of ${cohort.length}`
-                    : "No product lines"}
+                  {shipped > 0 ? (
+                    <button
+                      type="button"
+                      className={styles.countAction}
+                      aria-label={`${count} product lines with confirmed shipments for deals that ${outcome}. View matching products.`}
+                      onClick={() => showConfirmedShipments(outcome)}
+                    >
+                      <span>{count}</span>
+                      <span aria-hidden="true">↓</span>
+                    </button>
+                  ) : count}
                 </dd>
               </div>
             );
@@ -172,7 +196,7 @@ export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow
         </dl>
         <p className={styles.legend}>
           Totals include all tracked product lines in the selected overlap group.
-          Deal and product outcome filters apply to the list below.
+          Select a shipment count to jump to the matching products.
         </p>
       </section>
       <div className={styles.controls}>
@@ -180,8 +204,8 @@ export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow
           Deal outcome
           <select value={deal} onChange={(event) => setDeal(event.target.value as DealFilter)}>
             <option value="all">All deals</option>
-            {Object.entries(dealLabels).map(([value, label]) => (
-              <option key={value} value={value}>{label}</option>
+            {dealOutcomes.map((outcome) => (
+              <option key={outcome} value={outcome}>{dealLabels[outcome]}</option>
             ))}
           </select>
         </label>
@@ -202,7 +226,7 @@ export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow
         <strong>Active only</strong> means continued use or maintenance was documented.
         A material release or rollout remains unverified.
       </p>
-      <p className={styles.resultCount} role="status">
+      <p className={styles.resultCount} role="status" ref={resultCountRef} tabIndex={-1}>
         Showing {visibleRows.length} of {rows.length} product lines
         {" · "}{shipmentCount} confirmed {shipmentCount === 1 ? "shipment" : "shipments"}
       </p>
