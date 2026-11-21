@@ -7,11 +7,11 @@ import {
   goldOddsAtFullRanking, shelfHistory, type MarketPreset,
 } from "@/lib/model/shelf-market";
 import { ShadowFutures } from "./shadow-futures";
+import { formatChance } from "./format-chance";
 import styles from "./comparison-budget.module.css";
 
 const count = new Intl.NumberFormat("en-US");
 const points = new Intl.NumberFormat("en-US", { minimumFractionDigits: 1, maximumFractionDigits: 1 });
-const percent = (probability: number) => (100 * probability).toFixed(1) + "%";
 const seed = 42;
 const yMax = TOTAL_SALES / 2;
 const xTicks = [0, 1000, 2000, 3000, TOTAL_SALES];
@@ -60,7 +60,7 @@ function BudgetChart({ lines, sales, rotate }: { lines: BudgetLine[]; sales: num
 }
 
 function MarketAssumptions({ market }: { market: MarketPreset }) {
-  return <p><strong>{market.name}.</strong> {market.description} A 20–10 sales lead at full ranking strength gives Gold a {percent(goldOddsAtFullRanking(market, 20, 10))} chance of the next sale.</p>;
+  return <p><strong>{market.name}.</strong> {market.description} A 20–10 sales lead at full ranking strength gives Gold a {formatChance(goldOddsAtFullRanking(market, 20, 10))} chance of the next sale.</p>;
 }
 
 export function ComparisonBudget() {
@@ -69,10 +69,16 @@ export function ComparisonBudget() {
   const [rotate, setRotate] = useState(false);
   const [sales, setSales] = useState(TOTAL_SALES);
   const [playFrom, setPlayFrom] = useState<number | null>(null);
-  const history = useMemo(() => shelfHistory(seed, { market, rotate }), [market, rotate]);
+  const rankedRuns = useMemo(() => MARKET_PRESETS.map(preset => {
+    const history = shelfHistory(seed, { market: preset, rotate });
+    return { preset, history, budget: history[TOTAL_SALES].budget };
+  }).sort((a, b) => a.budget - b.budget), [rotate]);
+  const history = rankedRuns.find(run => run.preset === market)!.history;
   const otherMarket = comparison ?? market;
   const equalShelf = comparison === null;
-  const otherHistory = useMemo(() => shelfHistory(seed, { market: otherMarket, rotate, equalShelf }), [otherMarket, rotate, equalShelf]);
+  const otherHistory = useMemo(() => comparison
+    ? rankedRuns.find(run => run.preset === comparison)!.history
+    : shelfHistory(seed, { market, equalShelf: true }), [rankedRuns, comparison, market]);
   const firstLine = budgetLine(market.name, history, sales);
   const otherLine = budgetLine(comparison?.name ?? "Equal shelf space", otherHistory, sales, equalShelf);
   const lines = [firstLine, otherLine];
@@ -113,24 +119,31 @@ export function ComparisonBudget() {
       </header>
       <section className={styles.exhibit} aria-labelledby="chart-title">
         <div className={styles.marketSetup}>
+          <fieldset className={styles.firstMarket} aria-describedby="market-order">
+            <legend>First market</legend>
+            <p id="market-order">Comparison points after 4,000 sales, lowest to highest</p>
+            <div className={styles.marketTabs}>
+              {rankedRuns.map(({ preset, budget }) => (
+                <label key={preset.name}>
+                  <input type="radio" name="first-market" aria-label={preset.name}
+                    aria-describedby={`budget-${preset.name.replaceAll(" ", "-")}`}
+                    checked={market === preset} onChange={() => {
+                      setPlayFrom(null);
+                      if (preset === comparison) setComparison(market);
+                      setMarket(preset);
+                    }} />
+                  <span className={styles.tabFace}><strong>{preset.name}</strong><small id={`budget-${preset.name.replaceAll(" ", "-")}`}>{points.format(budget)} pts</small></span>
+                </label>
+              ))}
+            </div>
+          </fieldset>
           <div className={styles.pickers}>
-            <label>First market
-              <select value={market.name} onChange={e => {
-                const selected = MARKET_PRESETS.find(preset => preset.name === e.target.value);
-                if (!selected) return;
-                setPlayFrom(null);
-                if (selected === comparison) setComparison(market);
-                setMarket(selected);
-              }}>
-                {MARKET_PRESETS.map(preset => <option key={preset.name}>{preset.name}</option>)}
-              </select>
-            </label>
             <label>Compare with
               <select value={comparison?.name ?? ""} onChange={e => {
                 setPlayFrom(null);
                 setComparison(MARKET_PRESETS.find(preset => preset.name === e.target.value) ?? null);
               }}>
-                {MARKET_PRESETS.map(preset => <option key={preset.name} disabled={preset === market}>{preset.name}</option>)}
+                {rankedRuns.map(({ preset }) => <option key={preset.name} disabled={preset === market}>{preset.name}</option>)}
                 <optgroup label="Benchmark"><option value="">Equal shelf space</option></optgroup>
               </select>
             </label>
@@ -180,9 +193,9 @@ export function ComparisonBudget() {
               <summary>Chance of the next sale</summary>
               {lines.map(line => <div key={line.name}>
                 <h4>{line.name}</h4>
-                <div className={styles.odds}><span style={{ width: percent(line.goldOdds) }} /></div>
-                <div className={styles.oddsLabels}><span>Gold <b>{percent(line.goldOdds)}</b></span><span>Teal <b>{percent(1 - line.goldOdds)}</b></span></div>
-                <p>Next sale adds <strong>{line.nextPoint.toFixed(3)} points</strong>.</p>
+                <div className={styles.odds}><span style={{ width: formatChance(line.goldOdds) }} /></div>
+                <div className={styles.oddsLabels}><span>Gold <b>{formatChance(line.goldOdds)}</b></span><span>Teal <b>{formatChance(1 - line.goldOdds)}</b></span></div>
+                <p>Next sale adds <strong>{line.nextPoint.toFixed(line.nextPoint < 0.001 ? 5 : 3)} points</strong>.</p>
               </div>)}
             </details>
           </aside>

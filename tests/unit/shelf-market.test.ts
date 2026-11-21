@@ -30,6 +30,14 @@ describe("shelf comparison budget", () => {
     expect(new Set(budgets).size).toBe(MARKET_PRESETS.length);
   });
 
+  it.each([false, true])("ranks AI below Big Tech and commodities highest at 4,000 sales (rotation %s)", rotate => {
+    const ranked = MARKET_PRESETS.map(market => ({
+      name: market.name,
+      budget: shelfHistory(42, { market, rotate })[TOTAL_SALES].budget,
+    })).sort((a, b) => a.budget - b.budget);
+    expect(ranked.map(run => run.name)).toEqual(["AI", "Big Tech", "Bestsellers", "Airlines", "Restaurants", "Commodities"]);
+  });
+
   it("uses each market’s current counts and updates its favorite before every branch sale", () => {
     for (const market of MARKET_PRESETS) {
       const { goldSales } = shelfHistory(42, { market })[TOTAL_SALES];

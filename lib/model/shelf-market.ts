@@ -10,7 +10,7 @@ export const SHADOW_RUNS = 24;
 
 export const MARKET_PRESETS = [
   { name: "Big Tech", qualityEdge: 0.3, reinforcement: 2.4, description: "Two search engines compete to be the default. A larger user base helps the leader secure the next placement." },
-  { name: "AI", qualityEdge: 0.3, reinforcement: 1.6, description: "Two AI assistants compete for teams. Existing integrations and familiar workflows give the more widely adopted assistant an edge with the next team." },
+  { name: "AI", qualityEdge: 0.3, reinforcement: 3.2, description: "This preset assumes an AI assistant can roll out each improvement across its installed base. As adoption grows, that reach and existing integrations give the leader a stronger advantage with the next team than in the Big Tech preset." },
   { name: "Bestsellers", qualityEdge: 0.5, reinforcement: 1.1, description: "Two books compete for readers. A place on the bestseller list puts a book in front of more shoppers." },
   { name: "Airlines", qualityEdge: 0.3, reinforcement: 0.8, description: "Two airlines serve the same route. Frequent-flyer loyalty favors the busier carrier, while travelers can still switch flights." },
   { name: "Restaurants", qualityEdge: 0.3, reinforcement: 0.4, description: "Two restaurants compete for diners. Yesterday’s crowd draws some attention, but tonight’s diners still give both menus a look." },

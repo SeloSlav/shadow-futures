@@ -22,9 +22,21 @@
 .intro strong:last-child { color: #27675e; }
 .exhibit { border: 1px solid var(--fine-line); border-radius: 14px; background: #fffdf7; box-shadow: 0 8px 28px #262c2d09; }
 .marketSetup { padding: 1.15rem 1.65rem; background: #f3f3ea; border-radius: 14px 14px 0 0; border-bottom: 1px solid var(--fine-line); }
-.pickers { display: grid; grid-template-columns: repeat(2, minmax(0, 17rem)); gap: 1rem; }
-.pickers label { display: grid; gap: .25rem; font-size: .9rem; font-weight: 650; }
-.pickers select { width: 100%; min-width: 0; padding: .5rem .7rem; border: 1px solid #a9b3ac; border-radius: 6px; background-color: #fffdf7; color: var(--ink); font-size: 1rem; cursor: pointer; }
+.firstMarket { min-inline-size: 0; border: 0; margin: 0; padding: 0; }
+.firstMarket legend, .pickers label { padding: 0; font-size: .95rem; font-weight: 650; }
+.firstMarket p { margin: .15rem 0 .45rem; color: #43524d; font-size: .9rem; }
+.marketTabs { display: grid; grid-template-columns: repeat(6, minmax(7rem, 1fr)); gap: .35rem; overflow-x: auto; padding: .2rem .18rem .4rem; }
+.marketTabs label { position: relative; cursor: pointer; }
+.marketTabs input { position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; opacity: 0; cursor: pointer; }
+.tabFace { display: grid; gap: .1rem; padding: .55rem .7rem; border: 1px solid #b7c1b8; border-radius: 6px; background: #fffdf7; color: #314b45; }
+.tabFace strong { font-size: .95rem; }
+.tabFace small { font-size: .85rem; }
+.marketTabs label:hover .tabFace { border-color: var(--budget); }
+.marketTabs input:checked + .tabFace { background: var(--budget); color: white; border-color: var(--budget); }
+.marketTabs input:focus-visible + .tabFace { outline: 2px solid var(--focus); outline-offset: 1px; }
+.pickers { margin-top: .6rem; }
+.pickers label { display: inline-flex; align-items: center; flex-wrap: wrap; gap: .55rem; }
+.pickers select { padding: .4rem .65rem; border: 1px solid #a9b3ac; border-radius: 6px; background-color: #fffdf7; color: var(--ink); font-size: 1rem; cursor: pointer; }
 .assumptions, .next { color: #43524d; }
 .assumptions { margin-top: .65rem; }
 .assumptions summary, .next summary { width: fit-content; cursor: pointer; font-size: .9rem; font-weight: 650; }
@@ -131,7 +143,7 @@
   .page { width: calc(100% - 2rem); padding-top: 6rem; }
   .intro { margin-bottom: 1.25rem; }
   .marketSetup, .exhibitHead, .chartColumn, .readout { padding: 1rem; }
-  .pickers { gap: .65rem; }
+  .marketTabs { grid-template-columns: repeat(6, minmax(6.75rem, 1fr)); }
   .switcher { width: 100%; }
   .switcher button { flex: 1; }
   .plot { margin-left: 2.6rem; margin-right: .95rem; }

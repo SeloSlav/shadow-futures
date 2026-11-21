@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import { Math as Equation } from "@/components/ui/math";
 import { SHADOW_RUNS, SHADOW_STEPS, shadowFutures, type MarketPreset } from "@/lib/model/shelf-market";
+import { formatChance } from "./format-chance";
 import styles from "./comparison-budget.module.css";
 
 type ShadowSetup = {
@@ -10,8 +11,6 @@ type ShadowSetup = {
   frame: { goldSales: number; nextPoint: number };
   equalShelf?: boolean;
 };
-
-const percent = (value: number) => (100 * value).toFixed(1) + "%";
 
 function FuturePanel({ setup, sales, rotate, seed }: {
   setup: ShadowSetup; sales: number; rotate: boolean; seed: number;
@@ -39,8 +38,8 @@ function FuturePanel({ setup, sales, rotate, seed }: {
         })}
       </ol>
       <dl className={styles.futureOdds}>
-        <div><dt>Chance the rival wins next</dt><dd>{percent(frame.nextPoint)}</dd></div>
-        <div><dt>Chance of a lit five-sale path</dt><dd>{percent(litProbability)}</dd></div>
+        <div><dt>Chance the rival wins next</dt><dd>{formatChance(frame.nextPoint)}</dd></div>
+        <div><dt>Chance of a lit five-sale path</dt><dd>{formatChance(litProbability)}</dd></div>
       </dl>
     </section>
   );
