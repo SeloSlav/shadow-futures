@@ -170,7 +170,6 @@ export function ComparisonBudget() {
       <ShadowFutures />
       <footer className={styles.footer}>
         <Link href="/math">Explore the mathematics</Link>
-        <a href="https://www.spawn.co/@metalhorse233/the-complexity-science-museum">Visit the original museum exhibit</a>
       </footer>
     </main>
   );
