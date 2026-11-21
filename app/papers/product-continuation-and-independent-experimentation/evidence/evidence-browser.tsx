@@ -42,7 +42,7 @@ type LedgerFilters = {
 type LedgerSort = keyof typeof sortLabels;
 type LedgerView = LedgerFilters & { sort: LedgerSort };
 
-const allFilters: LedgerFilters = { overlap: "all", deal: "all", shipment: "all", q: "" };
+const defaultView: LedgerView = { overlap: "all", deal: "all", shipment: "all", q: "", sort: "ledger" };
 const dealOutcomes = Object.keys(dealLabels) as (keyof typeof dealLabels)[];
 const overlapTypes = Object.keys(overlapLabels) as (keyof typeof overlapLabels)[];
 const shipmentOutcomes = Object.keys(outcomeLabels) as (keyof typeof outcomeLabels)[];
@@ -202,7 +202,15 @@ const sortComparators = {
   "evidence-date-asc": (a, b) => compareEvidenceDates(a, b, true),
 } satisfies Record<Exclude<LedgerSort, "ledger">, (a: AcquisitionEvidenceRow, b: AcquisitionEvidenceRow) => number>;
 
-function ResultActions({ href, rows }: { href: string; rows: AcquisitionEvidenceRow[] }) {
+function ResultActions({
+  href,
+  rows,
+  onReset,
+}: {
+  href: string;
+  rows: AcquisitionEvidenceRow[];
+  onReset?: () => void;
+}) {
   const [result, setResult] = useState<{ copied: true } | { copied: false; url: string } | null>(null);
 
   async function copyLink() {
@@ -225,6 +233,14 @@ function ResultActions({ href, rows }: { href: string; rows: AcquisitionEvidence
           onClick={() => downloadText("acquisition-evidence.csv", evidenceCsv(rows), "text/csv;charset=utf-8")}
         >
           Download CSV
+        </button>
+        <button
+          type="button"
+          className={styles.resultButton}
+          onClick={onReset}
+          disabled={!onReset}
+        >
+          Reset view
         </button>
         <span className={styles.copyNotice} aria-live="polite">
           {result && (result.copied ? "Link copied" : "Select and copy the link below.")}
@@ -258,6 +274,7 @@ export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow
   const requestedSort = searchParams.get("sort");
   const sort = sortOptions.find((option) => option === requestedSort) ?? "ledger";
   const shareHref = viewHref(pathname, "", { overlap, deal, shipment, q: nameSearch, sort }, resultsHash);
+  const canReset = nameSearch !== "" || Object.keys(defaultView).some((key) => searchParams.has(key));
   const resultCountRef = useRef<HTMLParagraphElement>(null);
   const pendingJump = useRef<string | null>(null);
   const searchTerms = nameSearch.toLowerCase().match(/\S+/g) ?? [];
@@ -295,8 +312,15 @@ export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow
 
   function changeView(view: Partial<LedgerView>, hash = window.location.hash) {
     pendingJump.current = null;
-    const { pathname, search } = window.location;
-    window.history.pushState(null, "", viewHref(pathname, search, view, hash));
+    const { pathname, search, hash: currentHash } = window.location;
+    const href = viewHref(pathname, search, view, hash);
+    if (href !== `${pathname}${search}${currentHash}`) window.history.pushState(null, "", href);
+  }
+
+  function resetView() {
+    setNameSearch(defaultView.q);
+    changeView(defaultView, "");
+    resultCountRef.current?.focus({ preventScroll: true });
   }
 
   function changeNameSearch(value: string) {
@@ -427,21 +451,17 @@ export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow
           Showing {visibleRows.length} of {rows.length} product lines
           {" · "}{shipmentCount} confirmed {shipmentCount === 1 ? "shipment" : "shipments"}
         </p>
-        <ResultActions key={shareHref} href={shareHref} rows={visibleRows} />
+        <ResultActions
+          key={shareHref}
+          href={shareHref}
+          rows={visibleRows}
+          onReset={canReset ? resetView : undefined}
+        />
       </div>
       <div className={styles.results}>
         {visibleRows.length === 0 ? (
           <div className={styles.empty}>
             <p>No product lines match these filters.</p>
-            <button
-              type="button"
-              onClick={() => {
-                setNameSearch("");
-                changeView(allFilters, "");
-              }}
-            >
-              Clear filters
-            </button>
           </div>
         ) : visibleRows.map((row) => <EvidenceRow key={row.id} row={row} />)}
       </div>

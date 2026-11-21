@@ -234,8 +234,13 @@
   font-weight: 650;
 }
 
-.resultButton:hover {
+.resultButton:not(:disabled):hover {
   border-color: var(--rust-soft);
+}
+
+.resultButton:disabled {
+  color: var(--muted-text);
+  cursor: default;
 }
 
 .copyNotice {
@@ -334,10 +339,9 @@
 }
 
 .empty p {
-  margin: 0 0 0.75rem;
+  margin: 0;
 }
 
-.empty button,
 .resultButton {
   min-height: 2.75rem;
   padding: 0.45rem 0.8rem;
@@ -345,11 +349,6 @@
   border-radius: 0.2rem;
   background: transparent;
   cursor: pointer;
-}
-
-.empty button {
-  color: var(--paper);
-  font: inherit;
 }
 
 @media (max-width: 45rem) {
