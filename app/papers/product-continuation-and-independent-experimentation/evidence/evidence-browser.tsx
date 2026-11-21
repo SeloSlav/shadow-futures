@@ -24,6 +24,13 @@ const overlapLabels = {
   potential: "Potential overlap",
   "no direct overlap established": "No direct overlap established",
 };
+const sortLabels = {
+  ledger: "Ledger order",
+  "product-name": "Product name (A–Z)",
+  "product-name-desc": "Product name (Z–A)",
+  "evidence-date": "Evidence date (newest first)",
+  "evidence-date-asc": "Evidence date (oldest first)",
+};
 
 type LedgerFilters = {
   overlap: "all" | keyof typeof overlapLabels;
@@ -32,13 +39,14 @@ type LedgerFilters = {
   q: string;
 };
 
-type LedgerSort = "ledger" | "product-name" | "evidence-date";
+type LedgerSort = keyof typeof sortLabels;
 type LedgerView = LedgerFilters & { sort: LedgerSort };
 
 const allFilters: LedgerFilters = { overlap: "all", deal: "all", shipment: "all", q: "" };
 const dealOutcomes = Object.keys(dealLabels) as (keyof typeof dealLabels)[];
 const overlapTypes = Object.keys(overlapLabels) as (keyof typeof overlapLabels)[];
 const shipmentOutcomes = Object.keys(outcomeLabels) as (keyof typeof outcomeLabels)[];
+const sortOptions = Object.keys(sortLabels) as LedgerSort[];
 const resultsHash = "#results";
 
 function readFilter<T extends string>(value: string | null, options: readonly T[]): T | "all" {
@@ -177,10 +185,22 @@ function compareProductNames(a: AcquisitionEvidenceRow, b: AcquisitionEvidenceRo
   return productNameOrder.compare(a.product, b.product);
 }
 
-function compareEvidenceDates(a: AcquisitionEvidenceRow, b: AcquisitionEvidenceRow) {
-  // ISO dates put month-only records after exact dates in the same month.
-  return (b.evidence_date ?? "").localeCompare(a.evidence_date ?? "", "en-GB") || compareProductNames(a, b);
+function compareEvidenceDates(a: AcquisitionEvidenceRow, b: AcquisitionEvidenceRow, oldestFirst: boolean) {
+  const aDate = a.evidence_date;
+  const bDate = b.evidence_date;
+  if (aDate === bDate) return compareProductNames(a, b);
+  if (aDate === null) return 1;
+  if (bDate === null) return -1;
+  const dateOrder = aDate < bDate ? -1 : 1;
+  return oldestFirst ? dateOrder : -dateOrder;
 }
+
+const sortComparators = {
+  "product-name": compareProductNames,
+  "product-name-desc": (a, b) => compareProductNames(b, a),
+  "evidence-date": (a, b) => compareEvidenceDates(a, b, false),
+  "evidence-date-asc": (a, b) => compareEvidenceDates(a, b, true),
+} satisfies Record<Exclude<LedgerSort, "ledger">, (a: AcquisitionEvidenceRow, b: AcquisitionEvidenceRow) => number>;
 
 function ResultActions({ href, rows }: { href: string; rows: AcquisitionEvidenceRow[] }) {
   const [result, setResult] = useState<{ copied: true } | { copied: false; url: string } | null>(null);
@@ -236,7 +256,7 @@ export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow
   const deal = readFilter(searchParams.get("deal"), dealOutcomes);
   const shipment = readFilter(searchParams.get("shipment"), availableShipments);
   const requestedSort = searchParams.get("sort");
-  const sort = requestedSort === "product-name" || requestedSort === "evidence-date" ? requestedSort : "ledger";
+  const sort = sortOptions.find((option) => option === requestedSort) ?? "ledger";
   const shareHref = viewHref(pathname, "", { overlap, deal, shipment, q: nameSearch, sort }, resultsHash);
   const resultCountRef = useRef<HTMLParagraphElement>(null);
   const pendingJump = useRef<string | null>(null);
@@ -251,7 +271,7 @@ export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow
       (deal === "all" || row.deal.original_outcome === deal) &&
       (shipment === "all" || row.outcome === shipment),
   );
-  if (sort !== "ledger") visibleRows.sort(sort === "product-name" ? compareProductNames : compareEvidenceDates);
+  if (sort !== "ledger") visibleRows.sort(sortComparators[sort]);
   const shipmentCount = countConfirmedShipments(visibleRows);
 
   useEffect(() => {
@@ -392,9 +412,9 @@ export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow
         <label className={styles.sortControl}>
           Sort by
           <select value={sort} onChange={(event) => changeView({ sort: event.target.value as LedgerSort })}>
-            <option value="ledger">Ledger order</option>
-            <option value="product-name">Product name (A–Z)</option>
-            <option value="evidence-date">Evidence date (newest first)</option>
+            {sortOptions.map((option) => (
+              <option key={option} value={option}>{sortLabels[option]}</option>
+            ))}
           </select>
         </label>
       </div>
