@@ -28,7 +28,7 @@ The book and the paper are distinct works. DOI 10.2139/ssrn.6003994 identifies t
 
 ## Tools
 
-- [Comparison Playground](https://shadow-futures.vercel.app/playground): An interactive simulation of reinforced allocation and disappearing comparison.
+- [The comparison budget](https://shadow-futures.vercel.app/playground) charts a two-product market and lets readers rotate the shelf to restore comparison.
 
 ## Machine-readable resources
 

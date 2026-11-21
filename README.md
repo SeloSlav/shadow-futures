@@ -58,7 +58,7 @@ firms. Its simulations let you:
 For the formal route, see the
 [methodology](https://shadow-futures.vercel.app/methodology),
 [mathematics](https://shadow-futures.vercel.app/math), and
-[comparison playground](https://shadow-futures.vercel.app/playground).
+[interactive comparison budget chart](https://shadow-futures.vercel.app/playground).
 
 ## The comparison budget
 

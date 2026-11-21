@@ -1,26 +1,27 @@
 import type { Metadata } from "next";
 
-import { ShadowPlayground } from "@/components/playground/shadow-playground";
+import { ComparisonBudget } from "@/components/playground/comparison-budget";
+
+const title = "The Comparison Budget";
+const description = "Watch two products compete for 4,000 sales. Rotate the shelf to see how giving a rival a chance changes what those sales can teach us.";
 
 export const metadata: Metadata = {
-  title: "Five-Company Competition Playground",
-  description:
-    "Follow five companies competing for 360 customers and see how product quality, self-reinforcement, and guaranteed challenger discovery change the market.",
+  title,
+  description,
   alternates: { canonical: "/playground" },
   openGraph: {
     type: "website",
-    title: "Shadow Futures Five-Company Competition Playground",
-    description:
-      "Follow five companies competing for 360 customers and watch early wins reshape later chances.",
+    title,
+    description,
     url: "/playground",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Shadow Futures Five-Company Competition Playground",
-    description: "Follow five companies competing for 360 customers and watch early wins reshape later chances.",
+    title,
+    description,
   },
 };
 
-export default function PlaygroundPage() {
-  return <ShadowPlayground />;
+export default function ComparisonBudgetPage() {
+  return <ComparisonBudget />;
 }

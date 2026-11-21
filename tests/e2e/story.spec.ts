@@ -107,115 +107,42 @@ test.describe("interactive essay", () => {
     await expect(page.getByText("Apply the finite-budget condition")).toBeVisible();
   });
 
-  test("runs the central equation in the comparison playground", async ({ page, isMobile }) => {
-    test.skip(isMobile, "covered by the desktop playground journey");
-    await page.goto("/playground");
-
-    await expect(
-      page.getByRole("heading", { name: "The Comparison Playground" }),
-    ).toBeVisible();
-    const surface = page.getByTestId("playground-surface");
-    await expect(surface).toBeVisible();
-    await expect(page.getByRole("banner")).toHaveCount(0);
-    await expect(page.getByRole("link", { name: "Back to story" })).toHaveAttribute("href", "/");
-    await expect(page.getByLabel("How much winning helps you win again (ρ)")).toHaveValue(
-      "1.25",
-    );
-    await expect(page.locator(".playground-intro__dek")).toContainText(
-      "Five companies—A through E—compete for 360 customers.",
-    );
-    await expect(page.getByRole("button", { name: /Competitive Market/ })).toBeVisible();
-    await expect(
-      page.getByRole("button", {
-        name: "Big Tech Winning helps you win again.",
-      }),
-    ).toBeVisible();
-    await expect(page.getByRole("button", { name: /Big Tech with Regulation/ })).toBeVisible();
-
-    const viewport = page.viewportSize();
-    const labBounds = await page.locator(".playground-lab").boundingBox();
-    expect(viewport).not.toBeNull();
-    expect(labBounds).not.toBeNull();
-    expect((labBounds?.y ?? 0) + (labBounds?.height ?? 0)).toBeLessThanOrEqual(
-      (viewport?.height ?? 0) + 1,
-    );
-
-    await surface.hover();
-    const scrollBeforeZoom = await page.evaluate(() => window.scrollY);
-    const viewBeforeZoom = await surface.getAttribute("data-view");
-    await page.mouse.wheel(0, 240);
-    await expect(surface).not.toHaveAttribute("data-view", viewBeforeZoom ?? "");
-    expect(await page.evaluate(() => window.scrollY)).toBe(scrollBeforeZoom);
-
-    const surfaceBounds = await surface.boundingBox();
-    expect(surfaceBounds).not.toBeNull();
-    const panStartX = (surfaceBounds?.x ?? 0) + (surfaceBounds?.width ?? 0) * 0.55;
-    const panStartY = (surfaceBounds?.y ?? 0) + (surfaceBounds?.height ?? 0) * 0.55;
-    const viewBeforeHorizontalOrbit = (await surface.getAttribute("data-view"))
-      ?.split(":")
-      .map(Number);
-    await page.mouse.move(panStartX, panStartY);
-    await page.mouse.down({ button: "left" });
-    await page.mouse.move(panStartX + 52, panStartY, { steps: 4 });
-    await page.mouse.up({ button: "left" });
-    const viewAfterHorizontalOrbit = (await surface.getAttribute("data-view"))
-      ?.split(":")
-      .map(Number);
-    expect(viewAfterHorizontalOrbit?.[0]).toBeGreaterThan(viewBeforeHorizontalOrbit?.[0] ?? 0);
-    expect(viewAfterHorizontalOrbit?.[1]).toBe(viewBeforeHorizontalOrbit?.[1]);
-
-    await page.mouse.move(panStartX, panStartY);
-    await page.mouse.down({ button: "left" });
-    await page.mouse.move(panStartX, panStartY + 34, { steps: 4 });
-    await page.mouse.up({ button: "left" });
-    const viewAfterVerticalOrbit = (await surface.getAttribute("data-view"))
-      ?.split(":")
-      .map(Number);
-    expect(viewAfterVerticalOrbit?.[0]).toBe(viewAfterHorizontalOrbit?.[0]);
-    expect(viewAfterVerticalOrbit?.[1]).toBeGreaterThan(viewAfterHorizontalOrbit?.[1] ?? 0);
-
-    const viewBeforePan = (await surface.getAttribute("data-view"))
-      ?.split(":")
-      .map(Number);
-    await page.mouse.move(panStartX, panStartY);
-    await page.mouse.down({ button: "right" });
-    await page.mouse.move(panStartX + 52, panStartY, { steps: 4 });
-    await page.mouse.up({ button: "right" });
-    const viewAfterHorizontalPan = (await surface.getAttribute("data-view"))
-      ?.split(":")
-      .map(Number);
-    expect(viewAfterHorizontalPan?.[0]).toBe(viewBeforePan?.[0]);
-    expect(viewAfterHorizontalPan?.[1]).toBe(viewBeforePan?.[1]);
-    expect(viewAfterHorizontalPan?.[3]).toBeLessThan(viewBeforePan?.[3] ?? 0);
-
-    await page.mouse.move(panStartX, panStartY);
-    await page.mouse.down({ button: "right" });
-    await page.mouse.move(panStartX, panStartY + 34, { steps: 4 });
-    await page.mouse.up({ button: "right" });
-    const viewAfterVerticalPan = (await surface.getAttribute("data-view"))
-      ?.split(":")
-      .map(Number);
-    expect(viewAfterVerticalPan?.[4]).toBeGreaterThan(viewAfterHorizontalPan?.[4] ?? 0);
-
-    const canvasWidth = await surface.getAttribute("width");
-    const canvasHeight = await surface.getAttribute("height");
-    await page
-      .getByRole("button", {
-        name: "Big Tech with Regulation Challengers keep getting real chances.",
-      })
-      .click();
-    await expect(page.getByLabel("How much winning helps you win again (ρ)")).toHaveValue("0.9");
-    await expect(page.getByLabel("Guaranteed chances for challengers (η)")).toHaveValue("0.08");
-    await expect(surface).toHaveAttribute("width", canvasWidth ?? "");
-    await expect(surface).toHaveAttribute("height", canvasHeight ?? "");
-
-    await page.locator("#playground-round").press("End");
-    await expect(
-      page.getByText("How much of the contest is still alive", { exact: true }),
-    ).toBeVisible();
-    await expect(
-      page.getByText("How unevenly customers were divided", { exact: true }),
-    ).toBeVisible();
+  test("explores the comparison budget and rotates the shelf", async ({ page, isMobile }) => {
+    const hydrationErrors: string[] = [];
+    page.on("console", message => {
+      if (/hydrat/i.test(message.text()) && message.type() === "error") hydrationErrors.push(message.text());
+    });
+    await page.goto("/");
+    if (isMobile) await page.getByRole("button", { name: "Explore", exact: true }).click();
+    await page.getByRole("link", { name: /comparison budget/i }).first().click();
+    await expect(page).toHaveURL(/\/playground$/);
+    await page.reload();
+    await expect(page.getByRole("heading", { name: "The comparison budget", exact: true })).toBeVisible();
+    const chart = page.getByRole("img", { name: /^After .* sales? the comparison budget/ });
+    const slider = page.getByRole("slider", { name: "Sales completed" });
+    await expect(chart).toBeVisible();
+    await expect(slider).toHaveValue("4000");
+    const baseline = await chart.getAttribute("aria-label");
+    await page.getByRole("button", { name: "Rotate the shelf" }).click();
+    await expect(chart).not.toHaveAttribute("aria-label", baseline!);
+    await expect(page.getByText(/In the shaded interval/)).toBeVisible();
+    await page.getByRole("button", { name: "Rank by sales" }).click();
+    await expect(chart).toHaveAttribute("aria-label", baseline!);
+    await slider.press("Home");
+    await expect(chart).toHaveAttribute("aria-label", /^After 0 sales the comparison budget is 0.0 points/);
+    await slider.press("ArrowRight");
+    await expect(chart).toHaveAttribute("aria-label", /^After 1 sale the comparison budget is 0.4 points/);
+    await page.getByRole("button", { name: "Play sales" }).click();
+    await expect.poll(async () => Number(await slider.inputValue())).toBeGreaterThan(1);
+    await page.getByRole("button", { name: "Pause" }).click();
+    await slider.press("End");
+    await expect(chart).toHaveAttribute("aria-label", baseline!);
+    const markets = page.getByRole("img", { name: /^Twenty-four simulated outcomes/ });
+    const firstBatch = await markets.innerHTML();
+    await page.getByRole("button", { name: /Rerun the 24 markets/ }).click();
+    await expect.poll(() => markets.innerHTML()).not.toBe(firstBatch);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBeTruthy();
+    expect(hydrationErrors).toEqual([]);
   });
 
   test("the operating system reduced-motion setting is respected", async ({ page, isMobile }) => {

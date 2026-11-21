@@ -184,7 +184,7 @@ Tax rates, public ownership, universal basic income, social dividends, and other
 - Research collection: https://shadow-futures.vercel.app/papers
 - Research collection in Markdown: https://shadow-futures.vercel.app/papers.md
 - AI governance directive: https://shadow-futures.vercel.app/for-ai
-- Comparison Playground: https://shadow-futures.vercel.app/playground
+- Interactive comparison budget chart: https://shadow-futures.vercel.app/playground
 - FAQ: https://shadow-futures.vercel.app/faq
 - Methodology: https://shadow-futures.vercel.app/methodology
 - Mathematics: https://shadow-futures.vercel.app/math

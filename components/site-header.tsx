@@ -11,7 +11,7 @@ const navigation = [
     links: [
       { href: "/book", title: "The free book", description: "Read online or download the PDF." },
       { href: "/#novelty", title: "Explore the idea", description: "An interactive guide to shadow futures." },
-      { href: "/playground", title: "The playground", description: "Experiment with self-reinforcing markets." },
+      { href: "/playground", title: "The comparison budget", description: "See what 4,000 sales can teach us about two products." },
     ],
   },
   {
@@ -80,7 +80,7 @@ export function SiteHeader() {
         <nav className={styles.nav} aria-label="Primary navigation">
           <Link className={styles.bookLink} href="/book" onClick={() => setIsOpen(false)}>Free book</Link>
           <Link className={styles.playgroundLink} href="/playground" onClick={() => setIsOpen(false)}>
-            <span aria-hidden="true">✦</span> Playground
+            Comparison budget
           </Link>
           <button
             className={styles.toggle}

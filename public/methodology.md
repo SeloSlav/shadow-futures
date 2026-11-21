@@ -89,4 +89,4 @@ Model and information: sections 2–3, Proposition 1, Appendices A–C. Single-h
 - [Paper landing page](https://shadow-futures.vercel.app/paper)
 - [Paper PDF](https://shadow-futures.vercel.app/paper.pdf)
 - [Mathematics](https://shadow-futures.vercel.app/math)
-- [Comparison Playground](https://shadow-futures.vercel.app/playground)
+- [Interactive comparison budget chart](https://shadow-futures.vercel.app/playground)

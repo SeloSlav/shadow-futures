@@ -1,0 +1,1545 @@
+{
+  "study_date": "2026-11-21",
+  "selection": "Register screen of UK CMA merger inquiries with a first dated substantive Phase 2 disposition from 2019-01-01 to 2023-12-31 inclusive. Included deals sought control of a target with customer-facing software or a digitally delivered marketplace material to the CMA's competitive assessment. The product traces cover publicly identifiable relevant lines, with at least one target line per included deal. Minorities without control transfer, equipment or infrastructure systems, and ordinary online retail channels are outside the group.",
+  "window": "From anchor through its second calendar anniversary inclusive. Dated evidence can be an event date or the date of a primary record documenting it. The Smartfeed record has month precision.",
+  "unit": "Named target offering or separately identifiable line of development. Multi-product deals share a decision cluster. Sales channels or tiers of the same technology are not separate unless the user-facing tools and task differ.",
+  "deals": {
+    "vmware": {
+      "name": "Broadcom and VMware",
+      "original_outcome": "closed",
+      "anchor_date": "2023-11-22",
+      "anchor_source": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-completes-acquisition-vmware",
+      "case_source": "https://www.gov.uk/cma-cases/broadcom-slash-vmware-merger-inquiry",
+      "ownership_and_remedies": "Original buyer retained the two tracked lines through the window.",
+      "ownership_sources": [],
+      "cma_first_phase2_disposition": "2023-08-21",
+      "structural_path": null
+    },
+    "avast": {
+      "name": "NortonLifeLock and Avast",
+      "original_outcome": "closed",
+      "anchor_date": "2022-09-12",
+      "anchor_source": "https://www.sec.gov/Archives/edgar/data/849399/000110465922099111/tm2225494d3_ex99-01.htm",
+      "case_source": "https://www.gov.uk/cma-cases/nortonlifelock-inc-slash-avast-plc-merger-inquiry",
+      "ownership_and_remedies": "Closed under common ownership, later called Gen Digital.",
+      "ownership_sources": [],
+      "cma_first_phase2_disposition": "2022-09-02",
+      "structural_path": null
+    },
+    "emis": {
+      "name": "UnitedHealth and EMIS",
+      "original_outcome": "closed",
+      "anchor_date": "2023-10-27",
+      "anchor_source": "https://www.optum.co.uk/content/dam/optumUK/PDFs/Announcement-of-Scheme-becoming-effective.pdf",
+      "case_source": "https://www.gov.uk/cma-cases/unitedhealth-group-slash-emis-merger-inquiry",
+      "ownership_and_remedies": "EMIS remained under Optum during follow-up.",
+      "ownership_sources": [],
+      "cma_first_phase2_disposition": "2023-09-29",
+      "structural_path": null
+    },
+    "figma": {
+      "name": "Adobe and Figma",
+      "original_outcome": "fell through",
+      "anchor_date": "2023-12-18",
+      "anchor_source": "https://www.sec.gov/Archives/edgar/data/796343/000079634323000254/adbedecember182023pressrel.htm",
+      "case_source": "https://www.gov.uk/cma-cases/adobe-slash-figma-merger-inquiry",
+      "ownership_and_remedies": "No sale to Adobe. Figma subsequently completed an IPO in the window.",
+      "ownership_sources": [
+        "https://www.sec.gov/Archives/edgar/data/1579878/000162828026009228/R10.htm"
+      ],
+      "cma_first_phase2_disposition": "2023-12-18",
+      "structural_path": null
+    },
+    "outbrain": {
+      "name": "Taboola and Outbrain",
+      "original_outcome": "fell through",
+      "anchor_date": "2020-09-14",
+      "anchor_source": "https://www.gov.uk/government/news/digital-advertising-merger-to-be-abandoned-during-cma-investigation",
+      "case_source": "https://www.gov.uk/cma-cases/taboola-outbrain-merger-inquiry",
+      "ownership_and_remedies": "Anchor is the CMA public abandonment notice, consistent with the earlier pilot. Taboola's account appeared on 10 September and the agreement expired on 3 October. None of the two outcomes changes with those anchors.",
+      "ownership_sources": [
+        "https://www.taboola.com/wp-content/uploads/2021/05/taboola-form-f-4.pdf"
+      ],
+      "cma_first_phase2_disposition": "2020-09-23",
+      "structural_path": null
+    },
+    "farelogix": {
+      "name": "Sabre and Farelogix",
+      "original_outcome": "fell through",
+      "anchor_date": "2020-05-01",
+      "anchor_source": "https://www.justice.gov/archives/opa/pr/statement-assistant-attorney-general-makan-delrahim-sabre-and-farelogix-decision-abandon",
+      "case_source": "https://www.gov.uk/cma-cases/sabre-farelogix-merger-inquiry",
+      "ownership_and_remedies": "Accelya acquired Farelogix on 27 July 2020 and combined the portfolios in the FLX Platform by September 2021.",
+      "ownership_sources": [
+        "https://w3.accelya.com/resources/press-releases/accelya-completes-acquisition-of-farelogix/",
+        "https://w3.accelya.com/resources/blogs/a-single-stronger-accelya-for-greater-flexibility-and-choice/"
+      ],
+      "cma_first_phase2_disposition": "2020-04-09",
+      "structural_path": "alternative buyer"
+    },
+    "giphy": {
+      "name": "Facebook and Giphy",
+      "original_outcome": "closed",
+      "anchor_date": "2020-05-15",
+      "anchor_source": "https://assets.publishing.service.gov.uk/media/61a4bfa2e90e07044a559d57/Facebook_GIPHY_-_Summary_of_Final_Report.pdf",
+      "case_source": "https://www.gov.uk/cma-cases/facebook-inc-giphy-inc-merger-inquiry",
+      "ownership_and_remedies": "The parties were formally held separate from 9 June 2020. Meta sold Giphy to Shutterstock on 23 June 2023, outside the window. Paid Alignment was stopped at closing, before the hold-separate order.",
+      "ownership_sources": [
+        "https://assets.publishing.service.gov.uk/media/649d86f245b6a2000c3d458e/Meta-GIPHY_case_closure_summary.pdf"
+      ],
+      "cma_first_phase2_disposition": "2021-11-30",
+      "structural_path": "target company divested"
+    },
+    "epg": {
+      "name": "Bottomline and Experian Payments Gateway",
+      "original_outcome": "closed",
+      "anchor_date": "2019-03-06",
+      "anchor_source": "https://assets.publishing.service.gov.uk/media/5dc43a11e5274a4f21cc6402/bottomline_experian_full_text_decision.pdf",
+      "case_source": "https://www.gov.uk/cma-cases/bottomline-technologies-de-inc-experian-limited-merger-inquiry",
+      "ownership_and_remedies": "An asset sale. The CMA issued an initial enforcement order in May 2019 before clearing the deal in March 2020.",
+      "ownership_sources": [],
+      "cma_first_phase2_disposition": "2020-03-17",
+      "structural_path": null
+    },
+    "capita": {
+      "name": "NEC and Capita Secure Solutions and Services",
+      "original_outcome": "closed",
+      "anchor_date": "2022-01-03",
+      "anchor_source": "https://assets.publishing.service.gov.uk/media/64d0bcb7e5491a00134b5905/NEC_SSS_Case_closure_summary__.pdf",
+      "case_source": "https://www.gov.uk/cma-cases/nec-software-solutions-uk-slash-capita-secure-solutions-and-services-merger-inquiry",
+      "ownership_and_remedies": "NEC retained the target lines studied here. Codan bought the divestiture businesses on 1 August 2023. These included NEC's competing ICCS line and its CARM duties software.",
+      "ownership_sources": [
+        "https://www.gov.uk/government/news/sale-of-emergency-service-software-businesses-required-to-protect-uk-taxpayers",
+        "https://www.london.gov.uk/programmes-strategies/mayors-office-policing-and-crime-mopac/mopac-governance-and-decision-making/mopac-decisions/pcd-1576-carm-novation"
+      ],
+      "cma_first_phase2_disposition": "2022-12-01",
+      "structural_path": "buyer product divested"
+    },
+    "izettle": {
+      "name": "PayPal and iZettle",
+      "original_outcome": "closed",
+      "anchor_date": "2018-09-20",
+      "anchor_source": "https://assets.publishing.service.gov.uk/media/5cc819d0ed915d5dc2b6be16/paypal_izettle_provisional_findings_summary.pdf",
+      "case_source": "https://www.gov.uk/cma-cases/paypal-holdings-inc-izettle-ab-merger-inquiry",
+      "ownership_and_remedies": "CMA cleared the completed deal in June 2019 after initial enforcement restrictions.",
+      "ownership_sources": [],
+      "cma_first_phase2_disposition": "2019-06-12",
+      "structural_path": null
+    },
+    "quidco": {
+      "name": "TopCashback and Quidco",
+      "original_outcome": "fell through",
+      "anchor_date": "2019-03-21",
+      "anchor_source": "https://www.gov.uk/cma-cases/topcashback-quidco-merger-inquiry",
+      "case_source": "https://www.gov.uk/cma-cases/topcashback-quidco-merger-inquiry",
+      "ownership_and_remedies": "MoneySuperMarket acquired Quidco on 1 November 2021, outside the two-year window.",
+      "ownership_sources": [
+        "https://www.monygroup.com/application/files/4517/1319/6419/fy22-prelims-results-statement.pdf"
+      ],
+      "cma_first_phase2_disposition": "2019-03-21",
+      "structural_path": null
+    },
+    "clearscore": {
+      "name": "Experian and ClearScore",
+      "original_outcome": "fell through",
+      "anchor_date": "2019-02-27",
+      "anchor_source": "https://www.gov.uk/government/news/abandonment-of-credit-score-checking-merger",
+      "case_source": "https://www.gov.uk/cma-cases/experian-limited-credit-laser-holdings-clearscore",
+      "ownership_and_remedies": "ClearScore continued operating separately from Experian.",
+      "ownership_sources": [],
+      "cma_first_phase2_disposition": "2019-02-27",
+      "structural_path": null
+    },
+    "gbst": {
+      "name": "FNZ and GBST",
+      "original_outcome": "closed",
+      "anchor_date": "2019-11-05",
+      "anchor_source": "https://assets.publishing.service.gov.uk/media/5f2bde6ad3bf7f1b1b53e7ea/Provisional_findings.pdf",
+      "case_source": "https://www.gov.uk/cma-cases/fnz-gbst-merger-inquiry",
+      "ownership_and_remedies": "The deployment was observed under an interim order while FNZ held GBST. Divestiture to Anchorage closed 22 December 2021, after the two-year window.",
+      "ownership_sources": [
+        "https://gbst.com/news/fnz-completes-the-sale-of-gbst-to-anchorage-capital-partners-with-fnz-to-reacquire-gbsts-capital-markets-division/"
+      ],
+      "cma_first_phase2_disposition": "2020-11-05",
+      "structural_path": "target company divested"
+    },
+    "activision": {
+      "name": "Microsoft and Activision Blizzard",
+      "short_name": "Microsoft / Activision Blizzard",
+      "original_outcome": "closed",
+      "anchor_date": "2023-10-13",
+      "anchor_source": "https://microsoft.gcs-web.com/static-files/c341aabc-d0d9-4608-89e1-906895fd0e45",
+      "ownership_and_remedies": "The CMA blocked the original transaction. The same buyer acquired the company under a revised transaction, with cloud rights outside the EEA transferred to Ubisoft. This is one transaction family with a restructured close.",
+      "ownership_sources": [
+        "https://www.gov.uk/cma-cases/microsoft-slash-activision-blizzard-ex-cloud-streaming-rights-merger-inquiry"
+      ],
+      "case_source": "https://www.gov.uk/cma-cases/microsoft-slash-activision-blizzard-merger-inquiry",
+      "cma_first_phase2_disposition": "2023-04-26",
+      "structural_path": "restructured transaction"
+    },
+    "stubhub": {
+      "name": "viagogo and StubHub",
+      "short_name": "viagogo / StubHub",
+      "original_outcome": "closed",
+      "anchor_date": "2020-02-13",
+      "anchor_source": "https://assets.publishing.service.gov.uk/media/61379adfe90e07044435c8d0/Viagogo_StubHub_Case_closure_summary.pdf",
+      "ownership_and_remedies": "Interim restrictions applied. The UK-facing international business was divested to Digital Fuel in September 2021, during follow-up.",
+      "ownership_sources": [
+        "https://digitalfuelcapital.com/news/stubhub-international-gains-independence"
+      ],
+      "case_source": "https://www.gov.uk/cma-cases/viagogo-stubhub-merger-inquiry",
+      "cma_first_phase2_disposition": "2021-02-02",
+      "structural_path": "target product divested"
+    },
+    "tmgroup": {
+      "name": "Dye & Durham and TM Group",
+      "short_name": "Dye & Durham / TM Group",
+      "original_outcome": "closed",
+      "anchor_date": "2021-07-08",
+      "anchor_source": "https://www.newswire.ca/news-releases/dye-amp-durham-acquires-tm-group-uk-limited-894880832.html",
+      "ownership_and_remedies": "The CMA required separation and sale. Aurelius acquired TM Group on 3 August 2023, shortly after follow-up ended.",
+      "ownership_sources": [
+        "https://www.gov.uk/government/news/cma-requires-dye-durham-to-sell-tm-group",
+        "https://www.gov.uk/cma-cases/dye-and-durham-uk-limited-slash-tm-group-uk-limited-merger-inquiry"
+      ],
+      "case_source": "https://www.gov.uk/cma-cases/dye-and-durham-uk-limited-slash-tm-group-uk-limited-merger-inquiry",
+      "cma_first_phase2_disposition": "2022-08-03",
+      "structural_path": "target company divested"
+    },
+    "quantile": {
+      "name": "London Stock Exchange Group and Quantile",
+      "short_name": "LSEG / Quantile",
+      "original_outcome": "closed",
+      "anchor_date": "2022-11-30",
+      "anchor_source": "https://www.lseg.com/content/dam/lseg/en_us/documents/investor-relations/financial-results/preliminary-results/rns/lseg-preliminary-results-fy2022-rns-02mar2023.pdf",
+      "ownership_and_remedies": "Quantile continued as part of LSEG Post Trade.",
+      "ownership_sources": [],
+      "case_source": "https://www.gov.uk/cma-cases/london-stock-exchange-group-plc-slash-quantile-group-limited-merger-inquiry",
+      "cma_first_phase2_disposition": "2022-10-26",
+      "structural_path": null
+    },
+    "smartbox": {
+      "name": "Tobii and Smartbox Assistive Technology",
+      "short_name": "Tobii / Smartbox",
+      "original_outcome": "closed",
+      "anchor_date": "2018-10-01",
+      "anchor_source": "https://assets.publishing.service.gov.uk/media/5f8036f1e90e07741264a0f2/Tobii-SB_Case_Closure_Summary__9_Oct_20_.pdf",
+      "ownership_and_remedies": "The deal closed and was subject to interim constraints. The CMA required divestiture. CareTech bought Smartbox on 6 October 2020, just beyond follow-up.",
+      "ownership_sources": [
+        "https://www.gov.uk/government/news/cma-breaks-up-assistive-communication-technology-merger"
+      ],
+      "case_source": "https://www.gov.uk/cma-cases/tobii-ab-smartbox-assistive-technology-limited-and-sensory-software-international-ltd-merger-inquiry",
+      "cma_first_phase2_disposition": "2019-08-15",
+      "structural_path": "target company divested"
+    },
+    "awal": {
+      "name": "Sony Music and Kobalt's AWAL and neighbouring rights businesses",
+      "short_name": "Sony Music / AWAL",
+      "original_outcome": "closed",
+      "anchor_date": "2021-05-18",
+      "anchor_source": "https://www.sony.com/en/SonyInfo/IR/news/20210519_E.pdf",
+      "ownership_and_remedies": "Sony retained AWAL. An interim enforcement order was in place before clearance.",
+      "ownership_sources": [],
+      "case_source": "https://www.gov.uk/cma-cases/sony-music-entertainment-slash-kobalt-music-group-merger-inquiry",
+      "cma_first_phase2_disposition": "2022-03-16",
+      "structural_path": null
+    },
+    "cengage": {
+      "name": "McGraw-Hill and Cengage",
+      "short_name": "McGraw-Hill / Cengage",
+      "original_outcome": "fell through",
+      "anchor_date": "2020-05-04",
+      "anchor_source": "https://www.justice.gov/archives/opa/pr/cengage-and-mcgraw-hill-terminate-merger-agreement-response-antitrust-concerns",
+      "ownership_and_remedies": "The merger agreement was terminated. Cengage offered the product during follow-up.",
+      "ownership_sources": [],
+      "case_source": "https://www.gov.uk/cma-cases/mcgraw-hill-education-cengage-learning-holdings-merger-inquiry",
+      "cma_first_phase2_disposition": "2020-05-05",
+      "structural_path": null
+    },
+    "euroauctions": {
+      "name": "Ritchie Bros. and Euro Auctions",
+      "short_name": "Ritchie Bros. / Euro Auctions",
+      "original_outcome": "fell through",
+      "anchor_date": "2022-04-29",
+      "anchor_source": "https://mkt.rbauction.com/blog/announcing-the-discontinuation-of-our-euro-auctions-acquisition",
+      "ownership_and_remedies": "Ritchie Bros. announced it was discontinuing the acquisition. Euro Auctions continued operating.",
+      "ownership_sources": [],
+      "case_source": "https://www.gov.uk/cma-cases/ritchie-bros-auctioneers-incorporated-slash-euro-auctions-group-merger-inquiry",
+      "cma_first_phase2_disposition": "2022-05-03",
+      "structural_path": null
+    },
+    "seedrs": {
+      "name": "Crowdcube and Seedrs",
+      "short_name": "Crowdcube / Seedrs",
+      "original_outcome": "fell through",
+      "anchor_date": "2021-03-25",
+      "anchor_source": "https://www.gov.uk/government/news/crowdcube-and-seedrs-abandon-merger-during-cma-investigation",
+      "ownership_and_remedies": "The Crowdcube deal was abandoned. Republic completed its subsequent purchase of Seedrs during follow-up.",
+      "ownership_sources": [
+        "https://republic.com/insights/republic/a-letter-from-the-seedrs-ceo-jeff-kelisky"
+      ],
+      "case_source": "https://www.gov.uk/cma-cases/crowdcube-seedrs-merger-inquiry",
+      "cma_first_phase2_disposition": "2021-03-25",
+      "structural_path": "alternative buyer"
+    }
+  },
+  "projects": [
+    {
+      "deal": "vmware",
+      "product": "vSphere server virtualisation",
+      "overlap": "no direct overlap established",
+      "overlap_reason": "The CMA examined VMware virtualisation and Broadcom hardware as complements. Its separate horizontal software concerns do not establish overlap for vSphere.",
+      "overlap_source": "https://assets.publishing.service.gov.uk/media/6454ea952226ee000c0ae3a1/Full_Text.pdf",
+      "outcome": "confirmed shipment",
+      "evidence_date": "2025-06-17",
+      "evidence": "vSphere Foundation 9.0 became available. Broadcom separately ended new perpetual licences in December 2023.",
+      "outcome_source": "https://blogs.vmware.com/cloud-foundation/2025/06/17/now-available-vmware-vsphere-foundation-9-0/",
+      "additional_source": "https://www.broadcom.com/company/news/articles/cloud/vmware-by-broadcom-business-transformation",
+      "path": "Product family continued in a changed licensing and packaging structure."
+    },
+    {
+      "deal": "vmware",
+      "product": "Carbon Black Cloud Endpoint Standard",
+      "overlap": "direct",
+      "overlap_reason": "VMware and Symantec sold enterprise endpoint protection before the deal. This is a product-level functional match, corroborated by the CMA's broader security-software finding.",
+      "overlap_source": "https://www.vmware.com/docs/vmwcb-datasheet-endpoint-standard",
+      "outcome": "confirmed shipment",
+      "evidence_date": "2024-01-31",
+      "evidence": "Broadcom's developer portal documented new customer-facing configuration in Endpoint Standard.",
+      "outcome_source": "https://developer.carbonblack.com/blog",
+      "additional_source": "https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/ReleaseAnnouncements/General-Availability-Announcement-for-Symantec-Endpoint-Protection-14-3-RU5--Windows-and-Mac-/20735",
+      "path": "Carbon Black line shipped under the common owner."
+    },
+    {
+      "deal": "avast",
+      "product": "Avast consumer antivirus",
+      "overlap": "direct",
+      "overlap_reason": "Avast and Norton supplied consumer endpoint protection. Free and paid tiers are treated as one product line.",
+      "overlap_source": "https://assets.publishing.service.gov.uk/media/62825356e90e071f5c9b130a/Phase_1_Decision._A.pdf",
+      "outcome": "confirmed shipment",
+      "evidence_date": "2024-03-05",
+      "evidence": "Version 24.2 shipped with a firewall in new free installations and separate installers.",
+      "outcome_source": "https://community.avast.com/t/new-avast-version-24-2/773530",
+      "additional_source": null,
+      "path": "Avast-branded product shipped under Gen."
+    },
+    {
+      "deal": "avast",
+      "product": "Avast SecureLine VPN",
+      "overlap": "direct",
+      "overlap_reason": "CMA observed overlapping consumer VPN products. Avast named SecureLine in its pre-close results.",
+      "overlap_source": "https://assets.publishing.service.gov.uk/media/62825356e90e071f5c9b130a/Phase_1_Decision._A.pdf",
+      "outcome": "active only",
+      "evidence_date": "2023-11-15",
+      "evidence": "Avast's iOS release history dates several maintenance updates to the window. The same version history shows device pairing before closing. Avast's regulatory filing reports a pre-close WireGuard beta and the dated post-close user reports do not date a distinct new rollout.",
+      "outcome_source": "https://apps.apple.com/us/app/avast-vpn-secure-fast/id793096595?ls=1",
+      "additional_source": "https://data.fca.org.uk/artefacts/NSM/Portal/NI-000057014/NI-000057014.pdf",
+      "path": "Maintenance verified under common ownership. A new capability or rollout remains unverified.",
+      "original_pilot_outcome": "unresolved",
+      "review_note": "Established in-window maintenance. The shipment endpoint stays unknown."
+    },
+    {
+      "deal": "emis",
+      "product": "EMIS Web primary care records",
+      "overlap": "no direct overlap established",
+      "overlap_reason": "The CMA treated EMIS Web as an input and interoperability point for other clinical software and population health services.",
+      "overlap_source": "https://assets.publishing.service.gov.uk/media/6516ca296dfda6000d8e38dc/Final_report___.pdf",
+      "outcome": "active only",
+      "evidence_date": "2025-01-14",
+      "evidence": "A procurement notice confirmed 42 practices already used EMIS Web and described a planned migration. It did not verify completion of that migration.",
+      "outcome_source": "https://www.find-tender.service.gov.uk/Notice/001183-2025",
+      "additional_source": null,
+      "path": "Existing customer use documented."
+    },
+    {
+      "deal": "figma",
+      "product": "Figma Design",
+      "overlap": "direct",
+      "overlap_reason": "Figma Design and Adobe XD supplied all-in-one screen design. The CMA reviewed XD's reduced investment separately.",
+      "overlap_source": "https://assets.publishing.service.gov.uk/media/656f3c941104cf000dfa7563/Provisional_findings_report_3.pdf",
+      "outcome": "confirmed shipment",
+      "evidence_date": "2025-05",
+      "evidence": "Figma's Help Center dates introduction of Grid auto layout to May 2025. Its 7 May Config announcement described the incoming rollout, so the ledger uses month precision for availability.",
+      "outcome_source": "https://help.figma.com/hc/en-us/articles/31351261703063-FD4B-Auto-layout-fundamentals",
+      "additional_source": "https://www.figma.com/blog/config-2025-press-release/",
+      "path": "Target remained separate from Adobe."
+    },
+    {
+      "deal": "figma",
+      "product": "FigJam whiteboarding",
+      "overlap": "no direct overlap established",
+      "overlap_reason": "The CMA identified FigJam as an online whiteboard. The primary same-task overlap documented for the selected target lines concerns Figma Design and XD.",
+      "overlap_source": "https://assets.publishing.service.gov.uk/media/656f3c941104cf000dfa7563/Provisional_findings_report_3.pdf",
+      "outcome": "confirmed shipment",
+      "evidence_date": "2025-12-10",
+      "evidence": "Figma documented availability of new image editing tools in FigJam.",
+      "outcome_source": "https://www.figma.com/blog/introducing-three-new-tools-for-precise-image-editing-in-figma/",
+      "additional_source": null,
+      "path": "Target remained separate from Adobe."
+    },
+    {
+      "deal": "outbrain",
+      "product": "Smartfeed publisher recommendations",
+      "overlap": "direct",
+      "overlap_reason": "Both firms supplied publisher-facing content recommendations. Outbrain's 2018 Smartfeed was the relevant publisher product.",
+      "overlap_source": "https://assets.publishing.service.gov.uk/media/5f16bacae90e075e8947b3f9/Full_text_decision.pdf",
+      "outcome": "confirmed shipment",
+      "evidence_date": "2022-01",
+      "evidence": "An Outbrain case report archived under January 2022 describes deployment of Smartlogic on Smartfeed at Prisma Media. Date precision is the archive month.",
+      "outcome_source": "https://www.outbrain.com/blog/wp-content/uploads/2022/01/78715_OB-Case-Prisma-Media_EN_D1-1.pdf",
+      "additional_source": "https://www.outbrain.com/blog/taking-the-recommendation-experience-to-the-next-level-with-smartlogic/",
+      "path": "Separate from Taboola. Publisher-facing side of a two-sided business."
+    },
+    {
+      "deal": "outbrain",
+      "product": "Amplify advertiser platform",
+      "overlap": "direct",
+      "overlap_reason": "Both companies offered advertiser-side content recommendation and display services. This is same-task supply, even where the CMA found weak competitive effects in the broader advertiser market.",
+      "overlap_source": "https://assets.publishing.service.gov.uk/media/5f16bacae90e075e8947b3f9/Full_text_decision.pdf",
+      "outcome": "confirmed shipment",
+      "evidence_date": "2022-08-23",
+      "evidence": "Release log records full availability of live campaign reporting in the advertiser product.",
+      "outcome_source": "https://www.outbrain.com/help/product-releases/?wtime=0s",
+      "additional_source": "https://www.outbrain.com/blog/introducing-our-new-and-improved-amplify-dashboard/",
+      "path": "Separate from Taboola. Shares infrastructure and firm with Smartfeed."
+    },
+    {
+      "deal": "farelogix",
+      "product": "FLX Open Connect and NDC distribution",
+      "overlap": "direct",
+      "overlap_reason": "The CMA identified overlap between Farelogix's distribution tools and Sabre's distribution services. Open Connect and the NDC API count once.",
+      "overlap_source": "https://assets.publishing.service.gov.uk/media/5e8f17e4d3bf7f4120cb1881/Final_Report_-_Sabre_Farelogix.pdf",
+      "outcome": "confirmed shipment",
+      "evidence_date": "2021-09-16",
+      "evidence": "Accelya reported completion of its customer-facing integrated FLX platform, combining the product portfolios. Its January 2022 update documents actual NDC transactions processed through FLX.",
+      "outcome_source": "https://w3.accelya.com/resources/blogs/a-single-stronger-accelya-for-greater-flexibility-and-choice/",
+      "additional_source": "https://w3.accelya.com/resources/press-releases/record-breaking-2021-ndc-growth-for-accelya-confirms-ndc-is-now-mainstream/",
+      "path": "Combined successor under a different buyer. Code uncertain in the strict lineage sensitivity.",
+      "combined_successor": true
+    },
+    {
+      "deal": "farelogix",
+      "product": "FLX Merchandise rules engine",
+      "overlap": "direct",
+      "overlap_reason": "The CMA identified competition between the two parties' airline merchandising modules and named FLX Merchandise.",
+      "overlap_source": "https://assets.publishing.service.gov.uk/media/5e8f17e4d3bf7f4120cb1881/Final_Report_-_Sabre_Farelogix.pdf",
+      "outcome": "active only",
+      "evidence_date": "2021-02-16",
+      "evidence": "Hawaiian Airlines already used the engine. Air France-KLM selected it in March 2021, but its announcement described future rollout. No completed incremental deployment or material release was confirmed for this named engine.",
+      "outcome_source": "https://w3.accelya.com/resources/press-releases/accelya-partners-with-hawaiian-airlines-for-ndc-enabled-retailing-capabilities/",
+      "additional_source": "https://w3.accelya.com/resources/press-releases/accelya-partners-with-air-france-klm-to-deliver-personalized-dynamic-and-bundled-offers/",
+      "path": "Observed operating under an alternative owner.",
+      "original_pilot_outcome": "active only",
+      "review_source": "https://www.atriis.com/wp-content/uploads/2022/12/Air-France-and-KLM-partner-with-Atriis-for-Seat-Bundle.pdf",
+      "review_note": "Accelya named the engine in its March 2021 Air France-KLM rollout plan. The joint Atriis and airline release dated 7 December 2022 describes a recently introduced seat bundle, too late to verify shipment by 1 May 2022."
+    },
+    {
+      "deal": "giphy",
+      "product": "Paid Alignment advertising",
+      "overlap": "potential",
+      "overlap_reason": "Giphy sold paid branded GIF placements. The CMA identified potential competition with Facebook display advertising, especially through prospective UK expansion. Current global supply and a potential UK constraint are distinct.",
+      "overlap_source": "https://assets.publishing.service.gov.uk/media/635017428fa8f53463dcb9f2/Final_Report_Meta.GIPHY.pdf",
+      "outcome": "documented cessation",
+      "evidence_date": "2020-05-15",
+      "evidence": "The CMA found the advertising service stopped at the time of the merger. The date is the legal closing date used to locate the cessation.",
+      "outcome_source": "https://www.gov.uk/government/news/cma-directs-facebook-to-sell-giphy",
+      "additional_source": "https://assets.publishing.service.gov.uk/media/60927a498fa8f51b909ca199/Facebook_GIPHY_-_P1Decision_to_refer_unless_undertakings_accepted.pdf",
+      "path": "The Giphy brand and core API continued. Later sale outside the window."
+    },
+    {
+      "deal": "giphy",
+      "product": "GIF search and embedding tools",
+      "overlap": "no direct overlap established",
+      "overlap_reason": "The CMA analysed Giphy's GIF tools primarily as an input to social platforms and a potential foreclosure concern. This code is for the named line, irrespective of Meta's overlaps elsewhere.",
+      "overlap_source": "https://assets.publishing.service.gov.uk/media/635017428fa8f53463dcb9f2/Final_Report_Meta.GIPHY.pdf",
+      "outcome": "confirmed shipment",
+      "evidence_date": "2022-02-01",
+      "evidence": "The Giphy developer SDK release 1.5.0 added inline previews and new contextual actions for media in the integration grid.",
+      "outcome_source": "https://github.com/Giphy/giphy-react-native-sdk/blob/main/CHANGELOG.md#150-2022-02-01",
+      "additional_source": null,
+      "path": "Shipped while legally owned by Meta and subject to hold-separate restrictions."
+    },
+    {
+      "deal": "epg",
+      "product": "Experian Payments Gateway",
+      "overlap": "direct",
+      "overlap_reason": "CMA identified overlapping payment submissions software for Bacs and Faster Payments. The two payment rails share one gateway and count once.",
+      "overlap_source": "https://assets.publishing.service.gov.uk/media/5dc43a11e5274a4f21cc6402/bottomline_experian_full_text_decision.pdf",
+      "outcome": "active only",
+      "evidence_date": "2020-03-17",
+      "evidence": "CMA final report identifies EPG as a maintained gateway and examines the service to existing customers. The checked records do not pin down a new post-close release.",
+      "outcome_source": "https://assets.publishing.service.gov.uk/media/5e7211cee90e070ac30a9580/Bottomline_Experian_final_report.pdf",
+      "additional_source": "https://assets.publishing.service.gov.uk/media/5e553a65d3bf7f39392d6b95/Derogation_letter_HSM_supply_final_20200219_redacted.pdf",
+      "path": "EPG business acquired by Bottomline. Product development endpoint unresolved.",
+      "original_pilot_outcome": "active only",
+      "review_note": "The CMA's February 2020 derogation concerns supplying hardware security modules to existing EPG customers. Neither that authority nor the final report verifies a product launch or completed rollout."
+    },
+    {
+      "deal": "capita",
+      "product": "SSS DS3000 control room communications",
+      "overlap": "direct",
+      "overlap_reason": "SSS and NEC supplied integrated control-room communications. NEC's original overlapping assets, including Cortex, were sold under the remedy.",
+      "overlap_source": "https://www.gov.uk/government/news/sale-of-emergency-service-software-businesses-required-to-protect-uk-taxpayers",
+      "outcome": "active only",
+      "evidence_date": "2023-12-14",
+      "evidence": "Thames Valley Fire Control committee records identify DS3000 in use. The proposed installation expenditure does not establish a completed new release or rollout.",
+      "outcome_source": "https://mycouncil.oxfordshire.gov.uk/documents/g7343/Public%20reports%20pack%20Thursday%2014-Dec-2023%2014.00%20Thames%20Valley%20Fire%20Control%20Joint%20Committee.pdf?T=10",
+      "additional_source": "https://glostext.gloucestershire.gov.uk/ieDecisionDetails.aspx?ID=1486",
+      "path": "Target line retained. Competing buyer line divested during follow-up.",
+      "original_pilot_outcome": "active only",
+      "review_source": "https://mfra.merseyfire.gov.uk/documents/g2606/Public%20reports%20pack%2027th-Jul-2023%2013.00%20Policy%20and%20Resources%20Committee.pdf?T=10",
+      "review_additional_source": "https://www.northwalesfire.gov.wales/media/0y0aobwk/annual-performance-assessment-2021-22-authority-version-english.pdf",
+      "review_note": "A 2023 Merseyside plan identifies DS3000. The committee minutes confirm a technical refresh and that the new DCS connection was available for testing, with the test stage still to be completed and the national programme paused. North Wales installed its Capita ICCS in May and June 2021, before the deal. Neither record establishes a material in-window DS3000 go-live."
+    },
+    {
+      "deal": "capita",
+      "product": "SSS Origin duties management",
+      "overlap": "direct",
+      "overlap_reason": "CMA named Origin and NEC CARM as competing shift and rota software. CARM was novated to Zetron after remedy implementation.",
+      "overlap_source": "https://assets.publishing.service.gov.uk/media/62a8546cd3bf7f0372734808/Phase_1_decision_NEC_Capita.pdf",
+      "outcome": "confirmed shipment",
+      "evidence_date": "2023-11",
+      "evidence": "Staffordshire Police disclosed that Origin's Duty Management System was implemented in November 2023, corroborating the separate procurement record.",
+      "outcome_source": "https://www.staffordshire.police.uk/SysSiteAssets/foi-media/staffordshire/2024-published-foi-requests/june/foi-16579-systems-used-by-the-force.pdf",
+      "additional_source": "https://staffordshire-pfcc.gov.uk/document/police-and-crime-005-award-of-contracts-for-erp-system-origin-and-finance-system-integra/",
+      "path": "Target line retained. Competing buyer line divested during follow-up.",
+      "original_pilot_outcome": "active only",
+      "review_note": "Direct documentary evidence of the specific duties module going live by the end of follow-up."
+    },
+    {
+      "deal": "izettle",
+      "product": "iZettle mobile point of sale",
+      "overlap": "direct",
+      "overlap_reason": "The CMA matched iZettle Reader with PayPal Here in offline payments for merchants.",
+      "overlap_source": "https://assets.publishing.service.gov.uk/media/5cc819d0ed915d5dc2b6be16/paypal_izettle_provisional_findings_summary.pdf",
+      "outcome": "confirmed shipment",
+      "evidence_date": "2020-09-03",
+      "evidence": "PayPal launched iZettle Food & Drink, a vertical extension of the point-of-sale line. The later December QR launch is outside this window.",
+      "outcome_source": "https://newsroom.uk.paypal-corp.com/paypal-launches-izettle-food-and-drink",
+      "additional_source": null,
+      "path": "Target line shipped under original buyer."
+    },
+    {
+      "deal": "quidco",
+      "product": "Quidco cashback marketplace",
+      "overlap": "direct",
+      "overlap_reason": "TopCashback and Quidco both operated UK cashback sites for shoppers and retailers.",
+      "overlap_source": "https://www.gov.uk/government/news/abandonment-of-cashback-websites-merger",
+      "outcome": "confirmed shipment",
+      "evidence_date": "2020-03-05",
+      "evidence": "Points International's filing identifies a live white-label Quidco hotel booking and cashback launch.",
+      "outcome_source": "https://www.sec.gov/Archives/edgar/data/1204413/000106299320001662/exhibit99-1.htm",
+      "additional_source": null,
+      "path": "Separate from TopCashback. Different buyer after window."
+    },
+    {
+      "deal": "clearscore",
+      "product": "ClearScore consumer credit checking",
+      "overlap": "direct",
+      "overlap_reason": "Experian and ClearScore both supplied free credit checking. Experian's separately paid service is outside this match.",
+      "overlap_source": "https://assets.publishing.service.gov.uk/media/5c065b8140f0b6705f11cf17/experian_clearscore_provisional_findings.pdf",
+      "outcome": "confirmed shipment",
+      "evidence_date": "2020-05-07",
+      "evidence": "ClearScore launched Protect, a dark web monitoring feature for users of its existing consumer service.",
+      "outcome_source": "https://www.clearscore.com/learn/protect/dark-web-monitoring-with-clearscore-protect-for-you-for-free-forever",
+      "additional_source": null,
+      "path": "Separate from Experian."
+    },
+    {
+      "deal": "gbst",
+      "product": "GBST Composer wealth administration",
+      "overlap": "direct",
+      "overlap_reason": "Composer and FNZ supplied retail investment platform technology. The observed follow-up deployment was in the wealth line, in an undisclosed jurisdiction.",
+      "overlap_source": "https://assets.publishing.service.gov.uk/media/60bdf95c8fa8f57ceec3c82b/Final_Report_2_-_FNZ_GBST__.pdf",
+      "outcome": "confirmed shipment",
+      "evidence_date": "2021-07-25",
+      "evidence": "GBST reported an existing investment bank client completed a material migration to the latest cloud version of Composer.",
+      "outcome_source": "https://gbst.com/news/tier-1-global-investment-bank-completes-successful-cloud-deployment-on-gbsts-composer-platform/",
+      "additional_source": null,
+      "path": "Shipment under interim order. Composer went to Anchorage in the later divestiture."
+    },
+    {
+      "deal": "activision",
+      "product": "Call of Duty PC and console series",
+      "overlap": "direct",
+      "overlap_reason": "Both published PC and console games. Activision's Call of Duty and Microsoft's Halo supplied first-person shooting games. The European Commission found horizontal overlaps in game publishing; the CMA's dispositive theory concerned downstream cloud gaming.",
+      "overlap_source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=oj%3AJOC_2023_285_R_0005",
+      "outcome": "confirmed shipment",
+      "evidence_date": "2024-10-25",
+      "evidence": "Black Ops 6 released for PC and consoles, including rival PlayStation hardware, with day-one access through certain Game Pass tiers.",
+      "outcome_source": "https://www.activision.com/games/call-of-duty/call-of-duty-black-ops-6",
+      "additional_source": "https://news.xbox.com/en-us/2024/10/22/biggest-things-need-to-know-call-of-duty-black-ops-6/",
+      "path": "Product development under Microsoft. A distinct owner controls specified cloud licensing rights."
+    },
+    {
+      "deal": "stubhub",
+      "product": "StubHub UK-facing resale marketplace",
+      "overlap": "direct",
+      "overlap_reason": "Both parties provided online secondary ticketing to UK buyers and sellers.",
+      "overlap_source": "https://assets.publishing.service.gov.uk/media/601940a6d3bf7f70c3a495d1/v_sh_finalreport_.pdf",
+      "outcome": "active only",
+      "evidence_date": "2021-09-08",
+      "evidence": "The remedy buyer described a working marketplace. Separation, store reorganisation and changed ownership do not establish a material in-window release for this line.",
+      "outcome_source": "https://digitalfuelcapital.com/news/stubhub-international-gains-independence",
+      "additional_source": "https://support.stubhub.co.uk/en/support/solutions/articles/80000695369-stubhub-business-separation-site-downtime-updates",
+      "path": "Target line under interim restrictions, subsequently divested during follow-up."
+    },
+    {
+      "deal": "tmgroup",
+      "product": "tmConvey property and conveyancing workflow",
+      "overlap": "direct",
+      "overlap_reason": "The CMA found both firms supplied online property search services to UK conveyancers. tmConvey is the target's online transaction workflow.",
+      "overlap_source": "https://www.gov.uk/government/news/cma-requires-dye-durham-to-sell-tm-group",
+      "outcome": "confirmed shipment",
+      "evidence_date": "2022-09-22",
+      "evidence": "TM Group and CDS reported live additions to tmConvey's digital AP1 submissions to HM Land Registry, including new submission fields and workflow options. The dated release is carried by a trade outlet.",
+      "outcome_source": "https://todaysconveyancer.co.uk/tmgroup-cds-enhance-digital-ap1-service-ahead-hmlrs-november-deadline/",
+      "additional_source": "https://www.tmgroup.co.uk/news-insights/tmgroup-celebrates-record-ap1-applications-on-its-post-completion-service-2/",
+      "path": "Target under interim restrictions, then divested after follow-up."
+    },
+    {
+      "deal": "quantile",
+      "product": "Quantile OTC interest-rate compression",
+      "overlap": "no direct overlap established",
+      "overlap_reason": "CMA examined LSEG's SwapClear as a clearing input for Quantile and rival multilateral compression suppliers.",
+      "overlap_source": "https://www.gov.uk/government/news/cma-clears-lseg-quantile-merger",
+      "outcome": "active only",
+      "evidence_date": "2024-10-01",
+      "evidence": "LSEG's post-trade investor presentation identifies the live offering. A 2025 LSEG statement dates the first EUR/USD SwapAgent compression to 2024 without a month, so it cannot establish launch by the November cutoff.",
+      "outcome_source": "https://www.lseg.com/content/dam/lseg/en_us/documents/investor-relations/events/presentation/lseg-post-trade-investor-webinar-01oct2024.pdf",
+      "additional_source": "https://www.lseg.com/en/insights/post-trade/post-trade-solutions-now-offers-cross-currency-compression-for-gbp-usd",
+      "path": "Existing compression offering under LSEG."
+    },
+    {
+      "deal": "smartbox",
+      "product": "Grid augmentative communication software",
+      "overlap": "direct",
+      "overlap_reason": "CMA identified overlapping communication software used by people who cannot communicate easily through speech.",
+      "overlap_source": "https://www.gov.uk/government/news/cma-breaks-up-assistive-communication-technology-merger",
+      "outcome": "confirmed shipment",
+      "evidence_date": "2020-06-01",
+      "evidence": "Smartbox's Grid update 53 introduced redesigned PODD vocabularies and availability in Grid for iPad. A dated Smartbox demonstration documents how customers could edit those communication grids on iPad.",
+      "outcome_source": "https://www.youtube.com/watch?v=BuJt07yK6Is",
+      "additional_source": "https://hub.smartboxaac.com/knowledgebase/grid-release-notes/",
+      "path": "Grid shipped under interim constraints. CareTech later bought the target."
+    },
+    {
+      "deal": "awal",
+      "product": "AWAL digital distribution and artist portal",
+      "overlap": "direct",
+      "overlap_reason": "CMA found overlap in artist and label services and assessed AWAL and Sony's The Orchard as distribution options for artists.",
+      "overlap_source": "https://assets.publishing.service.gov.uk/media/6231d78dd3bf7f5a8a6955f4/Sony_AWAL_-_Final_Report.pdf",
+      "outcome": "active only",
+      "evidence_date": "2022-03-16",
+      "evidence": "The CMA identified an operating online intake and distribution service. The confirmed AWAL rollout into India and South Asia on 27 June 2023 was after the two-year cutoff.",
+      "outcome_source": "https://assets.publishing.service.gov.uk/media/6231d78dd3bf7f5a8a6955f4/Sony_AWAL_-_Final_Report.pdf",
+      "additional_source": "https://www.sonymusic.com/sonymusic/awal-launches-in-india-and-south-asia/",
+      "path": "Existing distribution route continued under Sony. A dated geographic expansion falls outside follow-up."
+    },
+    {
+      "deal": "cengage",
+      "product": "Cengage Unlimited digital courseware",
+      "overlap": "direct",
+      "overlap_reason": "Both companies sold digital materials and graded coursework tools to higher-education instructors and students. The anchor is the failed deal, and the identified product is the pre-existing Cengage Unlimited offering.",
+      "overlap_source": "https://www.gov.uk/government/news/publishing-merger-abandoned-after-cma-investigation",
+      "outcome": "confirmed shipment",
+      "evidence_date": "2021-10-14",
+      "evidence": "Cengage launched Infuse, embedding content and auto-graded assessment in campus learning management systems. Infuse was available in the existing Unlimited subscription as well as separately.",
+      "outcome_source": "https://www.cengagegroup.com/news/press-releases/2021/announcing-cengage-infuse/",
+      "additional_source": "https://www.cengagegroup.com/news/press-releases/2018/cengage-finishes-2018-fiscal-year-strong-ahead-of-cengage-unlimited-launch/",
+      "path": "New courseware capability for Cengage customers after abandonment."
+    },
+    {
+      "deal": "euroauctions",
+      "product": "Euro Auctions online equipment marketplace",
+      "overlap": "direct",
+      "overlap_reason": "Euro Auctions supplied online machinery sales, including its Daily Marketplace. Ritchie offered online heavy equipment sales through IronPlanet and Marketplace-E.",
+      "overlap_source": "https://assets.publishing.service.gov.uk/media/62580caa8fa8f54a85c7b984/220402_Ritchie_Bros_Euro_Auctions_Final_Decision.pdf",
+      "outcome": "confirmed shipment",
+      "evidence_date": "2023-03-03",
+      "evidence": "Equipment Sales, a pre-deal sales operation included in the proposed acquisition, launched an online listing and search service for the same machinery categories in March 2023. The row tracks Euro Auctions Group's online marketplace offering across channels.",
+      "outcome_source": "https://www.agg-net.com/news/equipment-sales-launch-new-listing-website",
+      "additional_source": "https://www.euroauctions.com/en/news/2023/25-years-of-euro-auctions",
+      "path": "Broader group-level route to market, not a release to the specific Daily Marketplace website.",
+      "group_level_extension": true
+    },
+    {
+      "deal": "seedrs",
+      "product": "Seedrs private equity marketplace",
+      "overlap": "direct",
+      "overlap_reason": "Both firms operated online equity crowdfunding platforms connecting private companies to investors.",
+      "overlap_source": "https://assets.publishing.service.gov.uk/media/6061ddb9d3bf7f5ceaca0d82/Provisional_Findings_Crowdcube_Seedrs.pdf",
+      "outcome": "confirmed shipment",
+      "evidence_date": "2022-01-12",
+      "evidence": "A contemporaneous Seedrs newsletter records its 2021 launch of the Private Deal Room. Seedrs describes early-stage, fund and pre-emption offers as live on that channel.",
+      "outcome_source": "https://milled.com/seedrs/2021-year-in-review-2esVTEL24O0JEouD",
+      "additional_source": "https://europe.republic.com/insights/blog/welcome-to-seedrs-private-deal-room",
+      "path": "New channel on the existing platform, visible before the subsequent Republic acquisition."
+    }
+  ],
+  "screening": {
+    "register_url": "https://www.gov.uk/api/search.json?filter_document_type=cma_case&filter_case_type=mergers",
+    "register_count": 2002,
+    "candidate_filter": "Keep a Phase 2 outcome label or a missing outcome if the public index dates intersect 2019–2023. Missing dates are treated as open bounds. Inspect the individual case record for an actual referral and first dated final merits decision or terminal cancellation. Later remedies or remittal do not move the date.",
+    "disposition_window": [
+      "2019-01-01",
+      "2023-12-31"
+    ],
+    "candidate_records": [
+      {
+        "name": "Vodafone / CK Hutchison JV merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/vodafone-slash-ck-hutchison-jv-merger-inquiry",
+        "index_opened": "2023-10-11",
+        "index_closed": "2025-06-02",
+        "index_outcome": "mergers-phase-2-clearance-with-remedies",
+        "decision": "outside disposition window",
+        "first_phase2_disposition": "2024-12-05",
+        "reason": "The first Phase 2 final report was in 2024."
+      },
+      {
+        "name": "Spreadex / Sporting Index merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/spreadex-slash-sporting-index-merger-inquiry",
+        "index_opened": "2023-12-28",
+        "index_closed": null,
+        "index_outcome": null,
+        "decision": "outside disposition window",
+        "first_phase2_disposition": "2024-11-22",
+        "reason": "The first Phase 2 final report was in 2024. The online betting product falls outside the study by date."
+      },
+      {
+        "name": "Microsoft / Activision Blizzard merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/microsoft-slash-activision-blizzard-merger-inquiry",
+        "index_opened": "2022-07-06",
+        "index_closed": "2023-11-20",
+        "index_outcome": "mergers-phase-2-prohibition",
+        "decision": "included",
+        "deal": "activision",
+        "first_phase2_disposition": "2023-04-26",
+        "reason": "Video games and cloud-game licensing. The same parties later closed a restructured deal."
+      },
+      {
+        "name": "J Sainsbury PLC / Asda Group Ltd merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/j-sainsbury-plc-asda-group-ltd-merger-inquiry",
+        "index_opened": "2018-05-18",
+        "index_closed": "2019-07-09",
+        "index_outcome": "mergers-phase-2-prohibition",
+        "decision": "outside product scope",
+        "reason": "Physical supermarket and fuel retail. Grocery websites were sales channels for retailers."
+      },
+      {
+        "name": "Amazon / Deliveroo merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/amazon-deliveroo-merger-inquiry",
+        "index_opened": "2019-07-05",
+        "index_closed": "2020-09-07",
+        "index_outcome": "mergers-phase-2-clearance",
+        "decision": "minority investment",
+        "first_phase2_disposition": "2020-08-04",
+        "reason": "Amazon bought a 16% minority interest and certain rights in a digital marketplace. The treatment is acquisition of control of the product business."
+      },
+      {
+        "name": "JD Sports Fashion plc / Footasylum plc merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/jd-sports-fashion-plc-footasylum-plc-merger-inquiry",
+        "index_opened": "2019-05-17",
+        "index_closed": "2022-08-08",
+        "index_outcome": "mergers-phase-2-prohibition",
+        "decision": "outside product scope",
+        "reason": "Sports fashion retail. The parties' web shops served their own retail operations."
+      },
+      {
+        "name": "Facebook, Inc (now Meta Platforms, Inc) / Giphy, Inc merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/facebook-inc-giphy-inc-merger-inquiry",
+        "index_opened": "2020-06-11",
+        "index_closed": "2023-06-30",
+        "index_outcome": "mergers-phase-2-prohibition",
+        "decision": "included",
+        "deal": "giphy",
+        "first_phase2_disposition": "2021-11-30",
+        "reason": "GIF search and distribution tools, with a potential digital advertising overlap."
+      },
+      {
+        "name": "Hitachi / Thales merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/hitachi-slash-thales-merger-inquiry",
+        "index_opened": "2022-10-14",
+        "index_closed": "2024-07-31",
+        "index_outcome": "mergers-phase-2-clearance-with-remedies",
+        "decision": "outside product scope",
+        "reason": "Digital rail signalling is supplied as part of installed infrastructure systems and related works. The reviewed market was for those systems."
+      },
+      {
+        "name": "FNZ / GBST merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/fnz-gbst-merger-inquiry",
+        "index_opened": "2019-11-18",
+        "index_closed": "2022-01-18",
+        "index_outcome": "mergers-phase-2-clearance-with-remedies",
+        "decision": "included",
+        "deal": "gbst",
+        "first_phase2_disposition": "2020-11-05",
+        "reason": "Wealth administration software."
+      },
+      {
+        "name": "Korean Air / Asiana Airlines merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/korean-air-slash-asiana-airlines-merger-inquiry",
+        "index_opened": "2022-09-16",
+        "index_closed": "2023-03-01",
+        "index_outcome": null,
+        "decision": "no Phase 2",
+        "reason": "The CMA accepted Phase 1 undertakings in lieu of referral for passenger air transport."
+      },
+      {
+        "name": "Adobe / Figma merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/adobe-slash-figma-merger-inquiry",
+        "index_opened": "2023-05-03",
+        "index_closed": "2023-12-19",
+        "index_outcome": "mergers-phase-2-cancellation",
+        "decision": "included",
+        "deal": "figma",
+        "first_phase2_disposition": "2023-12-18",
+        "reason": "Digital design and collaboration software."
+      },
+      {
+        "name": "Cérélia / Jus-Rol merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/cerelia-slash-jus-rol-merger-inquiry",
+        "index_opened": "2022-02-04",
+        "index_closed": "2025-03-03",
+        "index_outcome": "mergers-phase-2-prohibition",
+        "decision": "outside product scope",
+        "reason": "Packaged dough products."
+      },
+      {
+        "name": "Veolia / Suez merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/veolia-slash-suez-merger-inquiry",
+        "index_opened": "2021-02-05",
+        "index_closed": "2023-02-22",
+        "index_outcome": null,
+        "decision": "outside product scope",
+        "reason": "Waste and water services. Actual Phase 2 referral despite the missing index outcome."
+      },
+      {
+        "name": "viagogo / StubHub merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/viagogo-stubhub-merger-inquiry",
+        "index_opened": "2019-12-13",
+        "index_closed": "2021-09-08",
+        "index_outcome": "mergers-phase-2-clearance-with-remedies",
+        "decision": "included",
+        "deal": "stubhub",
+        "first_phase2_disposition": "2021-02-02",
+        "reason": "Online secondary ticket marketplace."
+      },
+      {
+        "name": "CHC / Babcock merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/chc-slash-babcock-merger-inquiry",
+        "index_opened": "2021-05-26",
+        "index_closed": "2023-04-28",
+        "index_outcome": "mergers-phase-2-clearance-with-remedies",
+        "decision": "outside product scope",
+        "reason": "Offshore helicopter services."
+      },
+      {
+        "name": "Independent Vetcare Limited (IVC) / multiple independent veterinary businesses merger inquiries",
+        "case_source": "https://www.gov.uk/cma-cases/independent-vetcare-limited-ivc-slash-multiple-independent-veterinary-businesses-merger-inquiries",
+        "index_opened": "2022-11-23",
+        "index_closed": null,
+        "index_outcome": null,
+        "decision": "no Phase 2",
+        "reason": "The veterinary roll-up record reports Phase 1 cases only."
+      },
+      {
+        "name": "Cellnex / CK Hutchison UK towers merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/cellnex-slash-ck-hutchison-uk-towers-merger-inquiry",
+        "index_opened": "2021-04-21",
+        "index_closed": "2022-11-24",
+        "index_outcome": "mergers-phase-2-clearance-with-remedies",
+        "decision": "outside product scope",
+        "reason": "Mobile tower infrastructure."
+      },
+      {
+        "name": "Morrisons / McColl's merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/morrisons-slash-mccolls-merger-inquiry",
+        "index_opened": "2022-05-30",
+        "index_closed": null,
+        "index_outcome": null,
+        "decision": "no Phase 2",
+        "reason": "The initial grocery retail case ended in Phase 1 with undertakings in lieu of referral."
+      },
+      {
+        "name": "Viasat / Inmarsat merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/viasat-slash-inmarsat-merger-inquiry",
+        "index_opened": "2022-07-25",
+        "index_closed": null,
+        "index_outcome": "mergers-phase-2-clearance",
+        "decision": "outside product scope",
+        "reason": "Satellite connectivity services. The competition issue concerned supply of in-flight broadband over satellite networks."
+      },
+      {
+        "name": "NVIDIA / Arm merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/nvidia-slash-arm-merger-inquiry",
+        "index_opened": "2021-01-06",
+        "index_closed": "2022-02-08",
+        "index_outcome": "mergers-phase-2-cancellation",
+        "decision": "outside product scope",
+        "reason": "Semiconductor designs and processor IP licensing. The competitive inputs at issue were chip technology."
+      },
+      {
+        "name": "Noble Corporation / Maersk Drilling merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/noble-corporation-slash-maersk-drilling-merger-inquiry",
+        "index_opened": "2022-02-24",
+        "index_closed": "2022-10-05",
+        "index_outcome": null,
+        "decision": "no Phase 2",
+        "reason": "The drilling deal ended in Phase 1 with undertakings in lieu of referral."
+      },
+      {
+        "name": "Lindab / HAS-Vent merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/lindab-slash-has-vent-merger-inquiry",
+        "index_opened": "2023-11-13",
+        "index_closed": "2025-07-03",
+        "index_outcome": "mergers-phase-2-clearance-with-remedies",
+        "decision": "outside disposition window",
+        "first_phase2_disposition": "2024-10-15",
+        "reason": "The first Phase 2 final report was in 2024."
+      },
+      {
+        "name": "Dye & Durham (UK) Limited / TM Group (UK) Limited merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/dye-and-durham-uk-limited-slash-tm-group-uk-limited-merger-inquiry",
+        "index_opened": "2021-09-01",
+        "index_closed": "2023-08-10",
+        "index_outcome": "mergers-phase-2-prohibition",
+        "decision": "included",
+        "deal": "tmgroup",
+        "first_phase2_disposition": "2022-08-03",
+        "reason": "Online property search and conveyancing workflows."
+      },
+      {
+        "name": "ForFarmers / Boparan JV merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/forfarmers-slash-boparan-jv-merger-inquiry",
+        "index_opened": "2022-10-26",
+        "index_closed": "2023-02-15",
+        "index_outcome": "mergers-phase-2-cancellation",
+        "decision": "outside product scope",
+        "reason": "Animal feed production and supply."
+      },
+      {
+        "name": "Hunter Douglas N.V. / 247 Home Furnishings Ltd merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/hunter-douglas-n-v-247-home-furnishings-ltd-merger-inquiry",
+        "index_opened": "2019-11-21",
+        "index_closed": "2021-08-03",
+        "index_outcome": "mergers-phase-2-clearance-with-remedies",
+        "decision": "outside product scope",
+        "reason": "Window coverings and custom blind retail. Online storefronts sold the parties' own inventory."
+      },
+      {
+        "name": "London Stock Exchange Group PLC / Quantile Group Limited merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/london-stock-exchange-group-plc-slash-quantile-group-limited-merger-inquiry",
+        "index_opened": "2022-03-03",
+        "index_closed": "2022-10-26",
+        "index_outcome": "mergers-phase-2-clearance",
+        "decision": "included",
+        "deal": "quantile",
+        "first_phase2_disposition": "2022-10-26",
+        "reason": "Online OTC derivatives portfolio compression and risk optimisation."
+      },
+      {
+        "name": "Menzies Aviation  (UK) Limited / Airline Services Limited merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/menzies-aviation-uk-limited-airline-services-limited-merger-inquiry",
+        "index_opened": "2018-04-23",
+        "index_closed": "2019-02-18",
+        "index_outcome": "mergers-phase-2-clearance",
+        "decision": "outside product scope",
+        "reason": "Physical airport de-icing and ground handling."
+      },
+      {
+        "name": "NortonLifeLock Inc. / Avast plc merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/nortonlifelock-inc-slash-avast-plc-merger-inquiry",
+        "index_opened": "2022-01-18",
+        "index_closed": "2022-09-02",
+        "index_outcome": "mergers-phase-2-clearance",
+        "decision": "included",
+        "deal": "avast",
+        "first_phase2_disposition": "2022-09-02",
+        "reason": "Consumer antivirus and online privacy software."
+      },
+      {
+        "name": "PayPal Holdings, Inc / iZettle AB merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/paypal-holdings-inc-izettle-ab-merger-inquiry",
+        "index_opened": "2018-09-20",
+        "index_closed": "2019-06-12",
+        "index_outcome": "mergers-phase-2-clearance",
+        "decision": "included",
+        "deal": "izettle",
+        "first_phase2_disposition": "2019-06-12",
+        "reason": "Mobile point-of-sale and payments software."
+      },
+      {
+        "name": "Tobii AB / Smartbox Assistive Technology Limited and Sensory Software International Ltd merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/tobii-ab-smartbox-assistive-technology-limited-and-sensory-software-international-ltd-merger-inquiry",
+        "index_opened": "2018-10-03",
+        "index_closed": "2020-10-14",
+        "index_outcome": "mergers-phase-2-prohibition",
+        "decision": "included",
+        "deal": "smartbox",
+        "first_phase2_disposition": "2019-08-15",
+        "reason": "Augmentative and alternative communication software available with or separately from dedicated hardware."
+      },
+      {
+        "name": "UnitedHealth Group / EMIS merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/unitedhealth-group-slash-emis-merger-inquiry",
+        "index_opened": "2023-01-20",
+        "index_closed": "2023-09-29",
+        "index_outcome": "mergers-phase-2-clearance",
+        "decision": "included",
+        "deal": "emis",
+        "first_phase2_disposition": "2023-09-29",
+        "reason": "GP electronic patient record software."
+      },
+      {
+        "name": "Copart / Hills Motors merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/copart-slash-hills-motors-merger-inquiry",
+        "index_opened": "2022-08-09",
+        "index_closed": "2022-12-14",
+        "index_outcome": "mergers-phase-2-clearance",
+        "decision": "outside product scope",
+        "reason": "Target was an in-person salvage, dismantling and used-parts operator. Online auctions were central to the buyer's operations. No independently supplied target marketplace was established."
+      },
+      {
+        "name": "Liberty Global plc / Telefónica S.A. merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/liberty-global-plc-telefonica-s-a-merger-inquiry",
+        "index_opened": "2020-10-08",
+        "index_closed": "2021-05-20",
+        "index_outcome": "mergers-phase-2-clearance",
+        "decision": "outside product scope",
+        "reason": "Wholesale mobile services and network connectivity."
+      },
+      {
+        "name": "Mzuri Group Ltd / Shuttercraft Holdings Limited merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/mzuri-group-ltd-slash-shuttercraft-holdings-limited-merger-inquiry",
+        "index_opened": "2022-10-04",
+        "index_closed": "2022-11-29",
+        "index_outcome": null,
+        "decision": "no Phase 2",
+        "reason": "Phase 1 inquiry into plantation shutters."
+      },
+      {
+        "name": "Imprivata, Inc. / Isosec Limited merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/imprivata-inc-slash-isosec-limited-merger-inquiry",
+        "index_opened": "2021-03-02",
+        "index_closed": "2021-06-02",
+        "index_outcome": null,
+        "decision": "no Phase 2",
+        "reason": "The healthcare authentication deal ended after the Phase 1 investigation. The CMA decided against a referral."
+      },
+      {
+        "name": "Sabre / Farelogix merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/sabre-farelogix-merger-inquiry",
+        "index_opened": "2019-06-11",
+        "index_closed": "2021-03-21",
+        "index_outcome": "mergers-phase-2-prohibition",
+        "decision": "included",
+        "deal": "farelogix",
+        "first_phase2_disposition": "2020-04-09",
+        "reason": "Airline merchandising and distribution software."
+      },
+      {
+        "name": "Amazon / iRobot merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/amazon-slash-irobot-merger-inquiry",
+        "index_opened": "2023-04-06",
+        "index_closed": null,
+        "index_outcome": null,
+        "decision": "no Phase 2",
+        "reason": "The CMA cleared the robotics deal in Phase 1. The subsequent global termination is outside the UK Phase 2 frame."
+      },
+      {
+        "name": "Yorkshire Purchasing Organisation / Findel Education merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/yorkshire-purchasing-findel-education-merger-inquiry",
+        "index_opened": "2020-03-31",
+        "index_closed": "2020-11-02",
+        "index_outcome": "mergers-phase-2-cancellation",
+        "decision": "outside product scope",
+        "reason": "Educational supplies distribution."
+      },
+      {
+        "name": "Calisen / MapleCo merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/calisen-slash-mapleco-merger-inquiry",
+        "index_opened": "2023-03-13",
+        "index_closed": null,
+        "index_outcome": null,
+        "decision": "no Phase 2",
+        "reason": "The metering deal ended in Phase 1."
+      },
+      {
+        "name": "Bauer Media Group merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/bauer-media-group-merger-inquiry",
+        "index_opened": "2019-08-05",
+        "index_closed": "2020-06-01",
+        "index_outcome": "mergers-phase-2-clearance-with-remedies",
+        "decision": "outside product scope",
+        "reason": "Broadcast radio stations and radio advertising inventory. Digital transmission and station apps supported broadcasting."
+      },
+      {
+        "name": "Arçelik / Whirlpool EMEA merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/arcelik-slash-whirlpool-emea-merger-inquiry",
+        "index_opened": "2023-07-11",
+        "index_closed": "2024-03-07",
+        "index_outcome": "mergers-phase-2-clearance",
+        "decision": "outside disposition window",
+        "first_phase2_disposition": "2024-03-07",
+        "reason": "The first Phase 2 final report was in 2024."
+      },
+      {
+        "name": "Fedrigoni S.p.A. / Arjowiggins Group Limited merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/fedrigoni-spa-slash-arjowiggins-group-limited-merger-inquiry",
+        "index_opened": "2022-11-30",
+        "index_closed": "2022-11-30",
+        "index_outcome": null,
+        "decision": "no Phase 2",
+        "reason": "Phase 1 specialty paper inquiry."
+      },
+      {
+        "name": "Cobham / Ultra Electronics merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/cobham-slash-ultra-electronics-merger-inquiry",
+        "index_opened": "2021-08-19",
+        "index_closed": null,
+        "index_outcome": null,
+        "decision": "no Phase 2",
+        "reason": "Phase 1 national security inquiry ending with undertakings."
+      },
+      {
+        "name": "Circle Health / BMI Healthcare merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/circle-health-bmi-healthcare-merger-inquiry",
+        "index_opened": null,
+        "index_closed": "2024-05-08",
+        "index_outcome": null,
+        "decision": "no Phase 2",
+        "reason": "The private hospital deal ended in Phase 1 with undertakings in lieu."
+      },
+      {
+        "name": "Cargotec Corporation / Konecranes Plc Merger Inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/cargotec-corporation-slash-konecranes-plc-merger-inquiry",
+        "index_opened": "2021-05-28",
+        "index_closed": "2022-04-01",
+        "index_outcome": "mergers-phase-2-prohibition",
+        "decision": "outside product scope",
+        "reason": "Container handling equipment."
+      },
+      {
+        "name": "NEC Software Solutions UK / Capita Secure Solutions and Services merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/nec-software-solutions-uk-slash-capita-secure-solutions-and-services-merger-inquiry",
+        "index_opened": "2022-01-05",
+        "index_closed": "2023-08-01",
+        "index_outcome": "mergers-phase-2-clearance-with-remedies",
+        "decision": "included",
+        "deal": "capita",
+        "first_phase2_disposition": "2022-12-01",
+        "reason": "Emergency-services control-room and duties software."
+      },
+      {
+        "name": "Ausurus Group/Metal & Waste Recycling merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/european-metal-recycling-metal-waste-recycling-merger-inquiry",
+        "index_opened": "2017-09-12",
+        "index_closed": "2019-05-29",
+        "index_outcome": "mergers-phase-2-clearance-with-remedies",
+        "decision": "outside disposition window",
+        "first_phase2_disposition": "2018-08-14",
+        "reason": "The first Phase 2 final report was in 2018. Remedies extended into the study window."
+      },
+      {
+        "name": "Experian Limited / Credit Laser Holdings (Clearscore)",
+        "case_source": "https://www.gov.uk/cma-cases/experian-limited-credit-laser-holdings-clearscore",
+        "index_opened": "2018-05-25",
+        "index_closed": "2019-02-27",
+        "index_outcome": "mergers-phase-2-cancellation",
+        "decision": "included",
+        "deal": "clearscore",
+        "first_phase2_disposition": "2019-02-27",
+        "reason": "Online consumer credit checking and comparison."
+      },
+      {
+        "name": "HSH Cold Stores / Associated Cold Stores & Transport",
+        "case_source": "https://www.gov.uk/cma-cases/hsh-cold-stores-slash-associated-cold-stores-and-transport",
+        "index_opened": "2023-03-23",
+        "index_closed": null,
+        "index_outcome": null,
+        "decision": "no Phase 2",
+        "reason": "Phase 1 cold storage inquiry."
+      },
+      {
+        "name": "Anglo American plc / Lafarge S.A. merger inquiry (CC)",
+        "case_source": "https://www.gov.uk/cma-cases/anglo-american-plc-lafarge-s-a-merger-inquiry",
+        "index_opened": "2011-09-11",
+        "index_closed": null,
+        "index_outcome": "mergers-phase-2-prohibition",
+        "decision": "outside disposition window",
+        "first_phase2_disposition": null,
+        "reason": "The Competition Commission final report on this historical case predated 2019."
+      },
+      {
+        "name": "Bestway Panacea Holdings Limited / Lexon UK Holdings and Asurex merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/bestway-panacea-holdings-limited-slash-lexon-uk-holdings-and-asurex-merger-inquiry",
+        "index_opened": "2023-04-17",
+        "index_closed": null,
+        "index_outcome": null,
+        "decision": "no Phase 2",
+        "reason": "Phase 1 pharmaceutical wholesale and retail inquiry."
+      },
+      {
+        "name": "Bottomline Technologies (de), Inc / Experian Limited merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/bottomline-technologies-de-inc-experian-limited-merger-inquiry",
+        "index_opened": "2019-05-23",
+        "index_closed": "2020-03-18",
+        "index_outcome": "mergers-phase-2-clearance",
+        "decision": "included",
+        "deal": "epg",
+        "first_phase2_disposition": "2020-03-17",
+        "reason": "Electronic payments gateway software. The public merits decision summary preceded publication of the full report by one day."
+      },
+      {
+        "name": "Broadcom / VMware merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/broadcom-slash-vmware-merger-inquiry",
+        "index_opened": "2022-11-21",
+        "index_closed": "2023-08-21",
+        "index_outcome": "mergers-phase-2-clearance",
+        "decision": "included",
+        "deal": "vmware",
+        "first_phase2_disposition": "2023-08-21",
+        "reason": "Enterprise virtualisation and endpoint software."
+      },
+      {
+        "name": "TopCashback / Quidco merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/topcashback-quidco-merger-inquiry",
+        "index_opened": "2018-11-07",
+        "index_closed": "2019-03-21",
+        "index_outcome": "mergers-phase-2-cancellation",
+        "decision": "included",
+        "deal": "quidco",
+        "first_phase2_disposition": "2019-03-21",
+        "reason": "Online consumer cashback marketplace."
+      },
+      {
+        "name": "Sony Music Entertainment / AWAL and Kobalt Neighbouring Rights businesses merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/sony-music-entertainment-slash-kobalt-music-group-merger-inquiry",
+        "index_opened": "2021-05-18",
+        "index_closed": "2022-04-25",
+        "index_outcome": "mergers-phase-2-clearance",
+        "decision": "included",
+        "deal": "awal",
+        "first_phase2_disposition": "2022-03-16",
+        "reason": "Digital music distribution and associated artist services. The human-led collection of neighbouring rights is outside the product scope."
+      },
+      {
+        "name": "Vanilla Group / Washstation merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/vanilla-group-washstation-merger-inquiry",
+        "index_opened": "2017-12-14",
+        "index_closed": "2019-06-06",
+        "index_outcome": "mergers-phase-2-prohibition",
+        "decision": "outside disposition window",
+        "first_phase2_disposition": "2018-10-11",
+        "reason": "The first Phase 2 final report was in 2018. Remedies extended into the study window."
+      },
+      {
+        "name": "Rentokil Initial / Cannon Hygiene merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/rentokil-initial-cannon-hygiene-merger-inquiry",
+        "index_opened": "2018-02-05",
+        "index_closed": "2019-10-11",
+        "index_outcome": "mergers-phase-2-clearance-with-remedies",
+        "decision": "outside product scope",
+        "reason": "Washroom hygiene services."
+      },
+      {
+        "name": "Sika AG / MBCC Group merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/sika-ag-slash-mbcc-group-merger-inquiry",
+        "index_opened": "2022-04-19",
+        "index_closed": "2023-05-11",
+        "index_outcome": "mergers-phase-2-clearance-with-remedies",
+        "decision": "outside product scope",
+        "reason": "Construction chemicals."
+      },
+      {
+        "name": "Morrisons / McColl's merger Inquiry: Review of undertakings",
+        "case_source": "https://www.gov.uk/cma-cases/morrisons-slash-mccolls-merger-inquiry-review-of-undertakings",
+        "index_opened": "2023-07-20",
+        "index_closed": "2023-10-31",
+        "index_outcome": null,
+        "decision": "no Phase 2",
+        "reason": "Review of existing supermarket undertakings."
+      },
+      {
+        "name": "McGraw-Hill Education / Cengage Learning Holdings merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/mcgraw-hill-education-cengage-learning-holdings-merger-inquiry",
+        "index_opened": "2019-11-14",
+        "index_closed": "2020-05-05",
+        "index_outcome": "mergers-phase-2-cancellation",
+        "decision": "included",
+        "deal": "cengage",
+        "first_phase2_disposition": "2020-05-05",
+        "reason": "Higher-education digital courseware and assessment, alongside print publishing."
+      },
+      {
+        "name": "Motor industry merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/motor-industry-merger-inquiry",
+        "index_opened": "2020-11-23",
+        "index_closed": "2020-11-23",
+        "index_outcome": null,
+        "decision": "no Phase 2",
+        "reason": "Announcement concerning vehicle salvage merger activity without a Phase 2 referral or disposition."
+      },
+      {
+        "name": "Illumina, Inc. / Pacific Biosciences of California, Inc. merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/illumina-inc-pacific-biosciences-of-california-inc-merger-inquiry",
+        "index_opened": "2019-04-17",
+        "index_closed": "2020-01-06",
+        "index_outcome": "mergers-phase-2-cancellation",
+        "decision": "outside product scope",
+        "reason": "DNA sequencing instruments, consumables and associated pipelines. The alleged overlap centred on sequencing systems."
+      },
+      {
+        "name": "Kingspan Holdings (Panels) Limited / Building Solutions (National) Limited merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/kingspan-holdings-panels-limited-building-solutions-national-limited-merger-inquiry",
+        "index_opened": "2020-02-06",
+        "index_closed": "2020-05-21",
+        "index_outcome": "mergers-phase-2-cancellation",
+        "decision": "outside product scope",
+        "reason": "Insulated construction panels."
+      },
+      {
+        "name": "Rentokil Initial plc / MPCL Limited (formerly Mitie Pest Control Limited) merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/rentokil-initial-plc-mpcl-limited-formerly-mitie-pest-control-limited-merger-inquiry",
+        "index_opened": "2018-10-12",
+        "index_closed": "2019-10-11",
+        "index_outcome": null,
+        "decision": "no Phase 2",
+        "reason": "Phase 1 pest-control inquiry."
+      },
+      {
+        "name": "Severn Trent / Andigestion merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/severn-trent-slash-andigestion-merger-inquiry",
+        "index_opened": "2023-06-19",
+        "index_closed": null,
+        "index_outcome": null,
+        "decision": "no Phase 2",
+        "reason": "Phase 1 food waste treatment inquiry."
+      },
+      {
+        "name": "Ritchie Bros Auctioneers Incorporated / Euro Auctions Group merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/ritchie-bros-auctioneers-incorporated-slash-euro-auctions-group-merger-inquiry",
+        "index_opened": "2021-12-13",
+        "index_closed": "2022-05-03",
+        "index_outcome": "mergers-phase-2-cancellation",
+        "decision": "included",
+        "deal": "euroauctions",
+        "first_phase2_disposition": "2022-05-03",
+        "reason": "Online and in-person equipment auctions. The acquired business also supplied a public online equipment marketplace."
+      },
+      {
+        "name": "Qualcomm Incorporated / Autotalks Ltd merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/qualcomm-incorporated-slash-autotalks-ltd-merger-inquiry",
+        "index_opened": "2023-09-29",
+        "index_closed": "2024-03-25",
+        "index_outcome": null,
+        "decision": "no Phase 2",
+        "reason": "Phase 1 semiconductor inquiry. Parties abandoned before referral."
+      },
+      {
+        "name": "Prosafe SE / Floatel International Limited merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/prosafe-se-floatel-international-limited-merger-inquiry",
+        "index_opened": null,
+        "index_closed": "2020-02-24",
+        "index_outcome": "mergers-phase-2-cancellation",
+        "decision": "outside product scope",
+        "reason": "Offshore accommodation vessels."
+      },
+      {
+        "name": "Electro Rent Corporation / Test Equipment Asset Management and Microlease merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/electro-rent-corporation-test-equipment-asset-management-and-microlease-merger-inquiry",
+        "index_opened": "2017-02-02",
+        "index_closed": "2019-02-21",
+        "index_outcome": "mergers-phase-2-clearance-with-remedies",
+        "decision": "outside disposition window",
+        "first_phase2_disposition": "2018-05-17",
+        "reason": "The first Phase 2 final report was in 2018. Remedies extended into the study window."
+      },
+      {
+        "name": "Crowdcube / Seedrs merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/crowdcube-seedrs-merger-inquiry",
+        "index_opened": "2020-10-23",
+        "index_closed": "2021-03-25",
+        "index_outcome": "mergers-phase-2-cancellation",
+        "decision": "included",
+        "deal": "seedrs",
+        "first_phase2_disposition": "2021-03-25",
+        "reason": "Online equity crowdfunding marketplace."
+      },
+      {
+        "name": "Warner Bros. Discovery, Inc. / BT Group plc",
+        "case_source": "https://www.gov.uk/cma-cases/warner-bros-discovery-inc-slash-bt-group-plc",
+        "index_opened": "2022-06-01",
+        "index_closed": null,
+        "index_outcome": null,
+        "decision": "no Phase 2",
+        "reason": "Phase 1 inquiry into the proposed sports broadcasting joint venture."
+      },
+      {
+        "name": "Shanghai Kington Technology Limited and others / Perpetuus merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/taurus-international-ltd-and-others-slash-perpetuus-merger-inquiry",
+        "index_opened": "2021-09-06",
+        "index_closed": null,
+        "index_outcome": "mergers-phase-2-cancellation",
+        "decision": "outside product scope",
+        "reason": "Graphene materials."
+      },
+      {
+        "name": "Ecolab Inc / The Holchem Group Limited merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/ecolab-inc-the-holchem-group-limited",
+        "index_opened": "2018-12-27",
+        "index_closed": "2020-06-05",
+        "index_outcome": "mergers-phase-2-clearance-with-remedies",
+        "decision": "outside product scope",
+        "reason": "Cleaning chemicals and hygiene services."
+      },
+      {
+        "name": "Scala Radio/ Wireless Group merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/scala-radio-wireless-group-merger-inquiry",
+        "index_opened": "2019-03-05",
+        "index_closed": "2019-08-07",
+        "index_outcome": null,
+        "decision": "outside product scope",
+        "reason": "Broadcast radio station assets. Related cases were considered in the Bauer inquiry."
+      },
+      {
+        "name": "Carpenter Co. / Recticel NV/SA merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/carpenter-co-slash-recticel-nv-slash-sa-merger-inquiry",
+        "index_opened": "2022-05-05",
+        "index_closed": null,
+        "index_outcome": "mergers-phase-2-clearance-with-remedies",
+        "decision": "outside product scope",
+        "reason": "Polyurethane foam."
+      },
+      {
+        "name": "Nasdaq, Inc. / Cinnober Financial Technology AB merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/nasdaq-inc-cinnober-financial-technology-ab-merger-inquiry",
+        "index_opened": "2018-11-23",
+        "index_closed": "2019-02-07",
+        "index_outcome": null,
+        "decision": "no Phase 2",
+        "reason": "Phase 1 inquiry over financial technology. There was no statutory Phase 2 referral."
+      },
+      {
+        "name": "ByBox / Pelipod merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/bybox-slash-pelipod-merger-inquiry",
+        "index_opened": "2023-02-20",
+        "index_closed": null,
+        "index_outcome": null,
+        "decision": "no Phase 2",
+        "reason": "Phase 1 clearance of parcel collection locker transaction."
+      },
+      {
+        "name": "Tronox Holdings plc / TiZir Titanium and Iron merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/tronox-holdings-plc-tizir-titanium-and-iron-merger-inquiry",
+        "index_opened": "2020-11-02",
+        "index_closed": "2021-01-18",
+        "index_outcome": null,
+        "decision": "no Phase 2",
+        "reason": "Phase 1 titanium feedstock inquiry."
+      },
+      {
+        "name": "Cochlear / Oticon merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/cochlear-slash-oticon-merger-inquiry",
+        "index_opened": "2022-10-11",
+        "index_closed": "2024-05-29",
+        "index_outcome": "mergers-phase-2-clearance-with-remedies",
+        "decision": "outside product scope",
+        "reason": "Hearing implants and processors. The CMA assessed the installed medical device system."
+      },
+      {
+        "name": "Gardner Aerospace Holdings Limited / Impcross Limited merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/gardner-aerospace-holdings-limited-impcross-limited-merger-inquiry",
+        "index_opened": "2019-12-06",
+        "index_closed": "2020-09-09",
+        "index_outcome": null,
+        "decision": "no Phase 2",
+        "reason": "Phase 1 aerospace components inquiry."
+      },
+      {
+        "name": "TVS Europe Distribution Limited / 3G Truck & Trailer Parts merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/universal-components-3g-truck-trailer-parts-merger-inquiry",
+        "index_opened": "2020-02-12",
+        "index_closed": "2021-07-12",
+        "index_outcome": "mergers-phase-2-prohibition",
+        "decision": "outside product scope",
+        "reason": "Physical aftermarket vehicle parts distribution."
+      },
+      {
+        "name": "Aerostar / Mettis merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/aerostar-mettis-merger-inquiry",
+        "index_opened": "2019-12-20",
+        "index_closed": "2020-02-26",
+        "index_outcome": null,
+        "decision": "no Phase 2",
+        "reason": "Phase 1 aerospace components inquiry."
+      },
+      {
+        "name": "Taboola / Outbrain merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/taboola-outbrain-merger-inquiry",
+        "index_opened": "2020-04-15",
+        "index_closed": "2020-09-23",
+        "index_outcome": "mergers-phase-2-cancellation",
+        "decision": "included",
+        "deal": "outbrain",
+        "first_phase2_disposition": "2020-09-23",
+        "reason": "Digital content recommendation and native advertising."
+      },
+      {
+        "name": "Circle Health / BMI Healthcare: Review of undertakings",
+        "case_source": "https://www.gov.uk/cma-cases/circle-health-slash-bmi-healthcare-review-of-undertakings",
+        "index_opened": "2021-08-02",
+        "index_closed": "2024-05-08",
+        "index_outcome": null,
+        "decision": "no Phase 2",
+        "reason": "Review of existing hospital undertakings."
+      },
+      {
+        "name": "Thermo Fisher Scientific / Roper Technologies merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/thermo-fisher-scientific-roper-technologies-merger-inquiry",
+        "index_opened": "2018-10-24",
+        "index_closed": "2019-06-10",
+        "index_outcome": "mergers-phase-2-cancellation",
+        "decision": "outside product scope",
+        "reason": "Microscopy cameras and accessories, and integrated microscope systems. The focal market concerned physical instrument inputs."
+      },
+      {
+        "name": "Admiral Taverns / Hampden Pub Estate merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/admiral-taverns-slash-hampden-pub-estate-merger-inquiry",
+        "index_opened": "2021-09-28",
+        "index_closed": "2022-06-20",
+        "index_outcome": null,
+        "decision": "no Phase 2",
+        "reason": "Phase 1 pub estate inquiry."
+      },
+      {
+        "name": "LN-Gaiety Holdings / MCD Productions merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/ln-gaiety-holdings-mcd-productions-merger-inquiry",
+        "index_opened": "2019-05-15",
+        "index_closed": "2019-12-19",
+        "index_outcome": "mergers-phase-2-clearance",
+        "decision": "outside product scope",
+        "reason": "Live music promotion and venues."
+      },
+      {
+        "name": "Iconex LLC/ Hansol Denmark ApS and R+S Group GmbH",
+        "case_source": "https://www.gov.uk/cma-cases/iconex-llc-hansol-denmark-aps-and-r-s-group-gmbh",
+        "index_opened": "2019-02-27",
+        "index_closed": "2019-07-08",
+        "index_outcome": null,
+        "decision": "no Phase 2",
+        "reason": "Phase 1 inquiry into thermal paper products."
+      },
+      {
+        "name": "Minority acquisition by IMC of Lebedev Holdings Limited and Scalable LP of IDMN merger inquiry",
+        "case_source": "https://www.gov.uk/cma-cases/minority-acquisition-by-imc-of-lebedev-holdings-limited-and-scalable-lp-of-idmn-merger-inquiry",
+        "index_opened": "2019-06-13",
+        "index_closed": "2019-10-17",
+        "index_outcome": null,
+        "decision": "no Phase 2",
+        "reason": "Public-interest investigation into newspaper holdings. There was no Phase 2 software or marketplace merger."
+      }
+    ]
+  }
+}

@@ -18,7 +18,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_ORIGIN}/paper`, lastModified: catalogueModified },
     { url: `${SITE_ORIGIN}/papers`, lastModified: catalogueModified },
     { url: `${SITE_ORIGIN}${ACQUISITION_PAPER.evidencePath}`, lastModified: catalogueModified },
-    { url: `${SITE_ORIGIN}/playground`, lastModified: new Date("2026-08-10T00:00:00.000Z") },
+    { url: `${SITE_ORIGIN}/playground`, lastModified: new Date("2026-11-21T00:00:00.000Z") },
     { url: `${SITE_ORIGIN}/for-ai`, lastModified: directiveModified },
     { url: `${SITE_ORIGIN}/faq`, lastModified: new Date("2026-10-08T00:00:00.000Z") },
     { url: `${SITE_ORIGIN}/math`, lastModified: new Date("2026-10-08T00:00:00.000Z") },
