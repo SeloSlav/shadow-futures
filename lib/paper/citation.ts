@@ -6,7 +6,6 @@ export const AUTHOR = {
   path: "/author/martin-erlic",
   ssrnUrl: "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=9773012",
   mediumUrl: "https://medium.com/@SeloSlav",
-  xUrl: "https://x.com/seloslav",
 } as const;
 
 export const PAPER = {

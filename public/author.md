@@ -27,4 +27,3 @@ The book and the original paper have different subtitles and are distinct works.
 
 - SSRN author page: https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=9773012
 - Medium: https://medium.com/@SeloSlav
-- X: https://x.com/seloslav

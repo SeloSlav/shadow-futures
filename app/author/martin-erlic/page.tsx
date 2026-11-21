@@ -49,7 +49,7 @@ export default function MartinErlicPage() {
         url: pageUrl,
         description:
           "Independent author and researcher writing about systems, economics, self-reinforcing markets, and the future.",
-        sameAs: [AUTHOR.ssrnUrl, AUTHOR.mediumUrl, AUTHOR.xUrl],
+        sameAs: [AUTHOR.ssrnUrl, AUTHOR.mediumUrl],
       },
       BOOK_SCHEMA,
       {
@@ -138,9 +138,6 @@ export default function MartinErlicPage() {
             </a>
             <a href={AUTHOR.mediumUrl} target="_blank" rel="noreferrer">
               Medium <span aria-hidden="true">↗</span>
-            </a>
-            <a href={AUTHOR.xUrl} target="_blank" rel="noreferrer">
-              X <span aria-hidden="true">↗</span>
             </a>
           </div>
         </section>

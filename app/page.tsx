@@ -41,7 +41,7 @@ export default function HomePage() {
         "@id": `${SITE_ORIGIN}${AUTHOR.path}#person`,
         name: AUTHOR.name,
         url: `${SITE_ORIGIN}${AUTHOR.path}`,
-        sameAs: [AUTHOR.ssrnUrl, AUTHOR.mediumUrl, AUTHOR.xUrl],
+        sameAs: [AUTHOR.ssrnUrl, AUTHOR.mediumUrl],
       },
       BOOK_SCHEMA,
       {
