@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { connection } from "next/server";
 
 import { loadAcquisitionEvidence } from "@/lib/acquisition-evidence";
 import { ACQUISITION_PAPER } from "@/lib/papers";
@@ -15,7 +16,8 @@ export const metadata: Metadata = {
   alternates: { canonical: ACQUISITION_PAPER.evidencePath },
 };
 
-export default function AcquisitionEvidencePage() {
+export default async function AcquisitionEvidencePage() {
+  await connection();
   const { rows, dealCount } = loadAcquisitionEvidence();
 
   return (
