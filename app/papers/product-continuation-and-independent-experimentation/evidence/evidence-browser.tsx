@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname, useSearchParams } from "next/navigation";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
 
 import type { AcquisitionEvidenceRow } from "@/lib/acquisition-evidence";
 import { downloadText } from "@/lib/download-text";
@@ -71,9 +71,9 @@ function viewHref(pathname: string, query: string, view: Partial<LedgerView>, ha
   return `${pathname}${search ? `?${search}` : ""}${hash}`;
 }
 
-function jumpToResults(target: HTMLParagraphElement | null) {
-  target?.focus({ preventScroll: true });
-  target?.scrollIntoView({ behavior: "instant", block: "start" });
+function jumpToResults(results: HTMLDivElement | null, count: HTMLParagraphElement | null) {
+  count?.focus({ preventScroll: true });
+  results?.scrollIntoView({ behavior: "instant", block: "start" });
 }
 
 const monthFormat = new Intl.DateTimeFormat("en-GB", {
@@ -282,6 +282,8 @@ export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow
     { key: "shipment", label: "Product outcome", value: shipment === "all" ? "" : outcomeLabels[shipment] },
     { key: "sort", label: "Sort", value: sort === "ledger" ? "" : sortLabels[sort] },
   ] as const).filter(({ value }) => value !== "");
+  const resultsRef = useRef<HTMLDivElement>(null);
+  const summaryRef = useRef<HTMLDivElement>(null);
   const resultCountRef = useRef<HTMLParagraphElement>(null);
   const pendingJump = useRef<string | null>(null);
   const searchTerms = nameSearch.toLowerCase().match(/\S+/g) ?? [];
@@ -298,8 +300,28 @@ export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow
   if (sort !== "ledger") visibleRows.sort(sortComparators[sort]);
   const shipmentCount = countConfirmedShipments(visibleRows);
 
+  useLayoutEffect(() => {
+    const results = resultsRef.current;
+    const summary = summaryRef.current;
+    const siteHeader = document.querySelector(".site-header");
+    if (!results || !summary || !siteHeader) return;
+
+    const updateOffsets = () => {
+      const headerHeight = siteHeader.getBoundingClientRect().height;
+      const summaryHeight = summary.getBoundingClientRect().height;
+      results.style.setProperty("--ledger-header-height", `${headerHeight}px`);
+      results.style.setProperty("--ledger-summary-height", `${summaryHeight}px`);
+    };
+
+    updateOffsets();
+    const observer = new ResizeObserver(updateOffsets);
+    observer.observe(siteHeader, { box: "border-box" });
+    observer.observe(summary, { box: "border-box" });
+    return () => observer.disconnect();
+  }, []);
+
   useEffect(() => {
-    if (window.location.hash === resultsHash) jumpToResults(resultCountRef.current);
+    if (window.location.hash === resultsHash) jumpToResults(resultsRef.current, resultCountRef.current);
 
     function restoreNameSearch() {
       const params = new URLSearchParams(window.location.search);
@@ -313,7 +335,7 @@ export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow
   useEffect(() => {
     if (pendingJump.current === query) {
       pendingJump.current = null;
-      jumpToResults(resultCountRef.current);
+      jumpToResults(resultsRef.current, resultCountRef.current);
     }
   }, [query]);
 
@@ -333,7 +355,9 @@ export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow
   function removeChip(key: keyof LedgerView, button: HTMLButtonElement) {
     const item = button.parentElement;
     const neighbor = item?.nextElementSibling ?? item?.previousElementSibling;
-    (neighbor?.querySelector("button") ?? resultCountRef.current)?.focus({ preventScroll: true });
+    const nextButton = neighbor?.querySelector("button");
+    if (nextButton) nextButton.focus();
+    else resultCountRef.current?.focus({ preventScroll: true });
 
     if (key === "q") setNameSearch(defaultView.q);
     changeView({ [key]: defaultView[key] });
@@ -352,7 +376,7 @@ export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow
     const nextQuery = destination.searchParams.toString();
     pendingJump.current = nextQuery === query ? null : nextQuery;
     if (destination.href !== window.location.href) window.history.pushState(null, "", href);
-    if (pendingJump.current === null) jumpToResults(resultCountRef.current);
+    if (pendingJump.current === null) jumpToResults(resultsRef.current, resultCountRef.current);
   }
 
   return (
@@ -462,45 +486,49 @@ export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow
         <strong>Active only</strong> means continued use or maintenance was documented.
         A material release or rollout remains unverified.
       </p>
-      <div className={styles.resultHeader}>
-        <p id={resultsHash.slice(1)} className={styles.resultCount} role="status" ref={resultCountRef} tabIndex={-1}>
-          Showing {visibleRows.length} of {rows.length} product lines
-          {" · "}{shipmentCount} confirmed {shipmentCount === 1 ? "shipment" : "shipments"}
-        </p>
-        <ResultActions
-          key={shareHref}
-          href={shareHref}
-          rows={visibleRows}
-          onReset={canReset ? resetView : undefined}
-        />
-      </div>
-      {activeChips.length > 0 && (
-        <ul className={styles.activeChips} role="list" aria-label="Active view settings">
-          {activeChips.map(({ key, label, value }) => {
-            const description = `${label}: ${value}`;
-            return (
-              <li key={key}>
-                <button
-                  type="button"
-                  className={styles.viewChip}
-                  aria-label={`Remove ${description}`}
-                  title={description}
-                  onClick={(event) => removeChip(key, event.currentTarget)}
-                >
-                  <span className={styles.chipText}><span>{label}: </span>{value}</span>
-                  <span className={styles.chipRemove} aria-hidden="true">×</span>
-                </button>
-              </li>
-            );
-          })}
-        </ul>
-      )}
-      <div className={styles.results}>
-        {visibleRows.length === 0 ? (
-          <div className={styles.empty}>
-            <p>No product lines match these filters.</p>
-          </div>
-        ) : visibleRows.map((row) => <EvidenceRow key={row.id} row={row} />)}
+      <div id={resultsHash.slice(1)} className={styles.resultSection} ref={resultsRef}>
+        <div className={styles.resultSummary} ref={summaryRef}>
+          <p className={styles.resultCount} role="status" ref={resultCountRef} tabIndex={-1}>
+            Showing {visibleRows.length} of {rows.length} product lines
+            {" · "}{shipmentCount} confirmed {shipmentCount === 1 ? "shipment" : "shipments"}
+          </p>
+          {activeChips.length > 0 && (
+            <ul className={styles.activeChips} role="list" aria-label="Active view settings">
+              {activeChips.map(({ key, label, value }) => {
+                const description = `${label}: ${value}`;
+                return (
+                  <li key={key}>
+                    <button
+                      type="button"
+                      className={styles.viewChip}
+                      aria-label={`Remove ${description}`}
+                      title={description}
+                      onClick={(event) => removeChip(key, event.currentTarget)}
+                    >
+                      <span className={styles.chipText}><span>{label}: </span>{value}</span>
+                      <span className={styles.chipRemove} aria-hidden="true">×</span>
+                    </button>
+                  </li>
+                );
+              })}
+            </ul>
+          )}
+        </div>
+        <div className={styles.resultTools}>
+          <ResultActions
+            key={shareHref}
+            href={shareHref}
+            rows={visibleRows}
+            onReset={canReset ? resetView : undefined}
+          />
+        </div>
+        <div className={styles.results}>
+          {visibleRows.length === 0 ? (
+            <div className={styles.empty}>
+              <p>No product lines match these filters.</p>
+            </div>
+          ) : visibleRows.map((row) => <EvidenceRow key={row.id} row={row} />)}
+        </div>
       </div>
     </>
   );
