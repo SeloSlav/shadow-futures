@@ -3,8 +3,8 @@
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import {
-  OPEN_SHELF_RATE, ROTATION_LENGTH, ROTATION_START, SHADOW_SALES, TOTAL_SALES,
-  shadowSales, shelfHistory,
+  MARKET_PRESETS, ROTATION_LENGTH, ROTATION_START, SHADOW_SALES, TOTAL_SALES,
+  goldOddsAtFullRanking, shadowSales, shelfHistory, type MarketPreset,
 } from "@/lib/model/shelf-market";
 import styles from "./comparison-budget.module.css";
 
@@ -22,13 +22,14 @@ function BudgetChart({ history, sales, rotate }: {
   rotate: boolean;
 }) {
   const frame = history[sales];
+  const openBudget = sales * history[0].nextPoint;
   const coords = (t: number) => `${t},${(yMax - history[t].budget).toFixed(2)}`;
   const vertices = ["M" + coords(0)];
   for (let t = 25; t < sales; t += 25) vertices.push("L" + coords(t));
   vertices.push("L" + coords(sales));
   const curve = vertices.join(" ");
   return (
-    <div className={styles.figure} role="img" aria-label={`After ${count.format(sales)} ${sales === 1 ? "sale" : "sales"} the comparison budget is ${points.format(frame.budget)} points. With equal shelf space throughout it would be ${points.format(sales * OPEN_SHELF_RATE)}.`}>
+    <div className={styles.figure} role="img" aria-label={`After ${count.format(sales)} ${sales === 1 ? "sale" : "sales"} the comparison budget is ${points.format(frame.budget)} points. With equal shelf space throughout it would be ${points.format(openBudget)}.`}>
       <div className={styles.axisTitle}>Comparison points</div>
       <div className={styles.plot}>
         {yTicks.map(tick => (
@@ -39,11 +40,11 @@ function BudgetChart({ history, sales, rotate }: {
         {rotate && <div className={styles.rotationBand} style={{ left: `${100 * ROTATION_START / TOTAL_SALES}%`, width: `${100 * ROTATION_LENGTH / TOTAL_SALES}%` }} />}
         <svg viewBox={`0 0 ${TOTAL_SALES} ${yMax}`} preserveAspectRatio="none" aria-hidden="true">
           <path className={styles.area} d={`${curve} L${sales},${yMax} Z`} />
-          <path className={styles.reference} d={`M0,${yMax} L${sales},${(yMax - sales * OPEN_SHELF_RATE).toFixed(2)}`} />
+          <path className={styles.reference} d={`M0,${yMax} L${sales},${(yMax - openBudget).toFixed(2)}`} />
           <path className={styles.curve} d={curve} />
         </svg>
         <i className={styles.endPoint} style={{ left: `${100 * sales / TOTAL_SALES}%`, bottom: `${(100 * frame.budget / yMax).toFixed(3)}%` }} />
-        {sales >= 2_500 && <span className={styles.chartNote} style={{ left: `${100 * sales / TOTAL_SALES}%`, bottom: `${(100 * frame.budget / yMax).toFixed(3)}%` }}>
+        {sales >= 2_500 && <span className={styles.chartNote} data-near-top={frame.budget > 0.85 * yMax} style={{ left: `${100 * sales / TOTAL_SALES}%`, bottom: `${(100 * frame.budget / yMax).toFixed(3)}%` }}>
           +{points.format(frame.budget - history[sales - 1000].budget)} in the last 1,000 sales
         </span>}
         {xTicks.map(tick => <span key={tick} className={styles.xTick} style={{ left: `${100 * tick / TOTAL_SALES}%` }}>{count.format(tick)}</span>)}
@@ -53,16 +54,16 @@ function BudgetChart({ history, sales, rotate }: {
   );
 }
 
-function ShadowFutures() {
+function ShadowFutures({ market }: { market: MarketPreset }) {
   const [batch, setBatch] = useState(0);
-  const markets = useMemo(() => shadowSales(seed + batch), [batch]);
+  const markets = useMemo(() => shadowSales(seed + batch, market), [batch, market]);
   const goldWins = markets.filter(sales => sales > SHADOW_SALES / 2).length;
   const ties = markets.filter(sales => sales === SHADOW_SALES / 2).length;
   return (
     <section className={styles.shadows} aria-labelledby="shadows-title">
       <div>
         <h2 id="shadows-title">The histories one shelf never shows</h2>
-        <p>Give Gold the same small edge in 24 separate markets. This time, past sales count toward shelf position from the first customer. Only the sequence of customer choices changes between markets.</p>
+        <p>Run the <strong>{market.name}</strong> setup 24 times with the same two rivals. Here, shelf ranking starts at full strength with the first customer. Only the sequence of customer choices changes between runs.</p>
         <button type="button" className={styles.textButton} onClick={() => setBatch(value => value + 1)}>Rerun the 24 markets <span aria-hidden="true">↻</span></button>
       </div>
       <div className={styles.markets}>
@@ -82,10 +83,12 @@ function ShadowFutures() {
 }
 
 export function ComparisonBudget() {
+  const [market, setMarket] = useState(MARKET_PRESETS[0]);
   const [rotate, setRotate] = useState(false);
   const [sales, setSales] = useState(TOTAL_SALES);
   const [playFrom, setPlayFrom] = useState<number | null>(null);
-  const history = useMemo(() => shelfHistory(seed, { rotate }), [rotate]);
+  const history = useMemo(() => shelfHistory(seed, { market, rotate }), [market, rotate]);
+  const exampleOdds = useMemo(() => goldOddsAtFullRanking(market, 20, 10), [market]);
   const frame = history[sales];
   const windowSize = Math.min(sales, 1_000);
   const recentBudget = frame.budget - history[sales - windowSize].budget;
@@ -119,10 +122,25 @@ export function ComparisonBudget() {
   return (
     <main id="main-content" className={styles.page}>
       <header className={styles.intro}>
-        <h1>The comparison budget</h1>
-        <p><strong>Gold</strong> is slightly better than <strong>Teal</strong>. Both start at the front of the shelf. As sales move the bestseller into the best spot, the other product gets fewer chances. The comparison budget is the sum of those chances.</p>
+        <h1>Comparison budget playground</h1>
+        <p><strong>Gold</strong> has a small quality edge over <strong>Teal</strong>. Each sale adds the less likely rival’s chance of winning to the comparison budget. Try different markets with the same 4,000 simulated customers.</p>
       </header>
       <section className={styles.exhibit} aria-labelledby="chart-title">
+        <div className={styles.marketSetup}>
+          <fieldset className={styles.presets}>
+            <legend>Choose a market</legend>
+            {MARKET_PRESETS.map(preset => (
+              <label key={preset.name}>
+                <input type="radio" name="market" checked={market === preset}
+                  onChange={() => { setPlayFrom(null); setMarket(preset); }} />
+                <span>{preset.name}</span>
+              </label>
+            ))}
+          </fieldset>
+          <p className={styles.marketDescription} aria-live="polite">
+            {market.description} In this example, once ranking reaches full strength, a 20–10 sales lead gives Gold a <strong>{percent(exampleOdds)}</strong> chance of the next sale.
+          </p>
+        </div>
         <div className={styles.exhibitHead}>
           <h2 id="chart-title">How much comparison survives?</h2>
           <div className={styles.switcher} role="group" aria-label="Shelf rule">
@@ -167,7 +185,7 @@ export function ComparisonBudget() {
         </div>
       </section>
       <div className={styles.definition}><span aria-hidden="true">Σ</span><p><strong>How to read one point.</strong> At 90–10 odds, each sale adds 0.10 points. Ten sales at those odds add one point. The budget adds up the chances a rival had each time a customer chose.</p></div>
-      <ShadowFutures />
+      <ShadowFutures market={market} />
       <footer className={styles.footer}>
         <Link href="/math">Explore the mathematics</Link>
       </footer>

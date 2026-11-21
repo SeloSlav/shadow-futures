@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { OPEN_SHELF_RATE, ROTATION_LENGTH, ROTATION_START, shelfHistory } from "../../lib/model/shelf-market";
+import { MARKET_PRESETS, ROTATION_LENGTH, ROTATION_START, TOTAL_SALES, goldOddsAtFullRanking, shadowSales, shelfHistory } from "../../lib/model/shelf-market";
 
 describe("shelf comparison budget", () => {
   it("credits the probability before each sale, including the last one", () => {
@@ -11,14 +11,24 @@ describe("shelf comparison budget", () => {
     }
   });
 
-  it("keeps the shared history and removes shelf advantage for exactly 300 sales", () => {
-    const ranked = shelfHistory(42);
-    const rotated = shelfHistory(42, { rotate: true });
+  it.each(MARKET_PRESETS)("uses the $name settings for ranking, equal placement, and the 300-sale rotation", market => {
+    const ranked = shelfHistory(42, { market });
+    const rotated = shelfHistory(42, { market, rotate: true });
+    const openRate = 1 / (1 + Math.exp(market.qualityEdge));
     const end = ROTATION_START + ROTATION_LENGTH;
     expect(rotated.slice(0, ROTATION_START)).toEqual(ranked.slice(0, ROTATION_START));
     expect(rotated[ROTATION_START].budget).toBe(ranked[ROTATION_START].budget);
-    expect(rotated[ROTATION_START].nextPoint).toBe(OPEN_SHELF_RATE);
-    expect(rotated[end].budget - rotated[ROTATION_START].budget).toBeCloseTo(ROTATION_LENGTH * OPEN_SHELF_RATE, 8);
-    expect(rotated[end].nextPoint).toBeLessThan(OPEN_SHELF_RATE);
+    expect(rotated[ROTATION_START].nextPoint).toBeCloseTo(openRate, 10);
+    expect(rotated[end].budget - rotated[ROTATION_START].budget).toBeCloseTo(ROTATION_LENGTH * openRate, 8);
+    const gold = ranked[TOTAL_SALES].goldSales;
+    expect(ranked[TOTAL_SALES].goldOdds).toBeCloseTo(goldOddsAtFullRanking(market, gold, TOTAL_SALES - gold), 10);
+    expect(rotated[end].nextPoint).toBeLessThan(openRate);
+  });
+
+  it("produces distinct budgets and shadow histories for each preset with identical draws", () => {
+    const budgets = MARKET_PRESETS.map(market => shelfHistory(42, { market })[TOTAL_SALES].budget);
+    expect(new Set(budgets).size).toBe(MARKET_PRESETS.length);
+    const batches = MARKET_PRESETS.map(market => shadowSales(42, market).join(","));
+    expect(new Set(batches).size).toBe(MARKET_PRESETS.length);
   });
 });

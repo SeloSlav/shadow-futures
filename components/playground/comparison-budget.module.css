@@ -8,7 +8,7 @@
   padding: clamp(7rem, 12vh, 9rem) 0 3rem;
   font-variant-numeric: tabular-nums;
 }
-.intro { max-width: 50rem; margin-bottom: 2rem; }
+.intro { margin-bottom: 1.6rem; }
 .intro h1, .exhibit h2, .shadows h2 {
   margin: 0;
   font-family: var(--font-serif);
@@ -20,6 +20,16 @@
 .intro strong:first-child { color: #83601e; }
 .intro strong:last-child { color: #27675e; }
 .exhibit { border: 1px solid var(--fine-line); border-radius: 14px; background: #fffdf7; box-shadow: 0 8px 28px #262c2d09; }
+.marketSetup { padding: 1.15rem 1.65rem; background: #f3f3ea; border-radius: 14px 14px 0 0; border-bottom: 1px solid var(--fine-line); }
+.presets { display: flex; flex-wrap: wrap; gap: .4rem; padding: 0; border: 0; min-width: 0; margin: 0; }
+.presets legend { margin-bottom: .5rem; padding: 0; color: var(--ink); font-size: 1rem; font-weight: 650; }
+.presets label { position: relative; cursor: pointer; }
+.presets input { position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; opacity: 0; cursor: pointer; }
+.presets span { display: block; padding: .55rem .9rem; border: 1px solid #c7ccc0; border-radius: 6px; background: #fffdf7; color: #314d48; font-size: .95rem; line-height: 1.45; }
+.presets label:hover span { border-color: #5b756e; }
+.presets input:checked + span { border-color: #284e47; background: #284e47; color: white; }
+.presets input:focus-visible + span { outline: 3px solid var(--focus); outline-offset: 2px; }
+.marketDescription { max-width: 63rem; margin: .65rem 0 0; color: #43524d; }
 .exhibitHead { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; padding: 1.2rem 1.65rem; border-bottom: 1px solid var(--fine-line); }
 .exhibit h2, .shadows h2 { font-size: clamp(1.55rem, 2.7vw, 2.25rem); letter-spacing: -.035em; }
 .switcher { display: inline-flex; gap: .2rem; padding: .22rem; background: #eeece3; border: 1px solid #d9d6ca; border-radius: 8px; }
@@ -52,6 +62,7 @@
 .reference { stroke: #75867f; stroke-width: 2px; stroke-dasharray: 6 5; }
 .endPoint { position: absolute; width: .65rem; height: .65rem; border-radius: 50%; background: var(--budget); border: 2px solid #fffdf7; transform: translate(-50%, 50%); }
 .chartNote { position: absolute; transform: translate(-100%, -.55rem); white-space: nowrap; color: #55366c; background: #fffdf7ed; border-radius: 3px; padding: .1rem .28rem; font-size: .82rem; font-weight: 650; }
+.chartNote[data-near-top="true"] { transform: translate(-100%, calc(100% + .4rem)); }
 .transport { display: grid; grid-template-columns: auto minmax(2rem, 1fr) 6.4rem; align-items: center; gap: 1rem; padding: .85rem 0; border-block: 1px solid var(--fine-line); }
 .play { display: inline-flex; justify-content: center; align-items: center; gap: .5rem; min-width: 7.4rem; min-height: 2.65rem; background: #eeecf1; border: 1px solid #cdc4d3; border-radius: 6px; color: #4a355d; }
 .play:hover { background: #e4dfea; }
@@ -95,7 +106,8 @@
 @media (max-width: 540px) {
   .page { width: calc(100% - 2rem); padding-top: 6rem; }
   .intro { margin-bottom: 1.25rem; }
-  .exhibitHead, .chartColumn, .readout { padding: 1rem; }
+  .marketSetup, .exhibitHead, .chartColumn, .readout { padding: 1rem; }
+  .presets span { padding: .5rem .7rem; }
   .switcher { width: 100%; }
   .switcher button { flex: 1; }
   .plot { margin-left: 2.6rem; margin-right: .95rem; }

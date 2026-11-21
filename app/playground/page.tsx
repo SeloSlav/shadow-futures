@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 
 import { ComparisonBudget } from "@/components/playground/comparison-budget";
 
-const title = "The Comparison Budget";
-const description = "Watch two products compete for 4,000 sales. Rotate the shelf to see how giving a rival a chance changes what those sales can teach us.";
+const title = "Comparison Budget Playground";
+const description = "Try six markets, from AI to restaurants. Watch two rivals compete for 4,000 sales and see how the comparison budget changes when you rotate the shelf.";
 
 export const metadata: Metadata = {
   title,

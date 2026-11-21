@@ -114,15 +114,26 @@ test.describe("interactive essay", () => {
     });
     await page.goto("/");
     if (isMobile) await page.getByRole("button", { name: "Explore", exact: true }).click();
-    await page.getByRole("link", { name: /comparison budget/i }).first().click();
+    await page.getByRole("link", { name: /^Playground/ }).click();
     await expect(page).toHaveURL(/\/playground$/);
     await page.reload();
-    await expect(page.getByRole("heading", { name: "The comparison budget", exact: true })).toBeVisible();
+    await expect(page.getByRole("heading", { name: "Comparison budget playground", exact: true })).toBeVisible();
     const chart = page.getByRole("img", { name: /^After .* sales? the comparison budget/ });
     const slider = page.getByRole("slider", { name: "Sales completed" });
     await expect(chart).toBeVisible();
     await expect(slider).toHaveValue("4000");
     const baseline = await chart.getAttribute("aria-label");
+    const marketPicker = page.getByRole("group", { name: "Choose a market" });
+    await expect(marketPicker.getByRole("radio", { name: "Big Tech" })).toBeChecked();
+    const budgets = new Set([baseline]);
+    for (const market of ["AI", "Commodities", "Restaurants", "Airlines", "Bestsellers"]) {
+      await marketPicker.getByRole("radio", { name: market, exact: true }).check();
+      await expect(chart).not.toHaveAttribute("aria-label", baseline!);
+      budgets.add(await chart.getAttribute("aria-label"));
+    }
+    expect(budgets.size).toBe(6);
+    await marketPicker.getByRole("radio", { name: "Big Tech" }).check();
+    await expect(chart).toHaveAttribute("aria-label", baseline!);
     await page.getByRole("button", { name: "Rotate the shelf" }).click();
     await expect(chart).not.toHaveAttribute("aria-label", baseline!);
     await expect(page.getByText(/In the shaded interval/)).toBeVisible();
@@ -143,6 +154,8 @@ test.describe("interactive essay", () => {
     await expect.poll(() => markets.innerHTML()).not.toBe(firstBatch);
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBeTruthy();
     expect(hydrationErrors).toEqual([]);
+    await page.goto("/comparison-budget");
+    await expect(page).toHaveURL(/\/playground$/);
   });
 
   test("the operating system reduced-motion setting is respected", async ({ page, isMobile }) => {
