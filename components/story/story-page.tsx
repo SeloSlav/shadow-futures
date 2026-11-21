@@ -20,6 +20,7 @@ import {
 } from "@/components/story/visuals";
 import { Math as EquationMath } from "@/components/ui/math";
 import { RangeControl } from "@/components/ui/range-control";
+import { downloadText } from "@/lib/download-text";
 import { PAPER } from "@/lib/paper/citation";
 import { simulateScenario } from "@/lib/model/simulation";
 import { SCENARIO_PRESETS } from "@/lib/scenarios/presets";
@@ -28,17 +29,6 @@ import {
   serializeScenario,
 } from "@/lib/scenarios/serialization";
 import { useMarketStore } from "@/lib/store/market-store";
-
-function downloadText(filename: string, contents: string, type: string) {
-  const url = URL.createObjectURL(new Blob([contents], { type }));
-  const anchor = document.createElement("a");
-  anchor.href = url;
-  anchor.download = filename;
-  document.body.appendChild(anchor);
-  anchor.click();
-  anchor.remove();
-  URL.revokeObjectURL(url);
-}
 
 function ChapterIntro({
   number,

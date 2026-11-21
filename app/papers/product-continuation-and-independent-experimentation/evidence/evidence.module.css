@@ -209,7 +209,7 @@
   font-variant-numeric: tabular-nums;
 }
 
-.resultCopy {
+.resultActions {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -217,12 +217,12 @@
   font-size: 0.85rem;
 }
 
-.copyLink {
+.resultButton {
   color: var(--rust-soft);
   font-weight: 650;
 }
 
-.copyLink:hover {
+.resultButton:hover {
   border-color: var(--rust-soft);
 }
 
@@ -326,7 +326,7 @@
 }
 
 .empty button,
-.copyLink {
+.resultButton {
   min-height: 2.75rem;
   padding: 0.45rem 0.8rem;
   border: 1px solid var(--rule);

@@ -5,6 +5,8 @@ import { usePathname, useSearchParams } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 
 import type { AcquisitionEvidenceRow } from "@/lib/acquisition-evidence";
+import { downloadText } from "@/lib/download-text";
+import { evidenceCsv } from "./evidence-csv";
 import styles from "./evidence.module.css";
 
 const dealLabels = {
@@ -157,7 +159,7 @@ function countConfirmedShipments(rows: AcquisitionEvidenceRow[]) {
   return rows.filter((row) => row.outcome === "confirmed shipment").length;
 }
 
-function CopyViewLink({ href }: { href: string }) {
+function ResultActions({ href, rows }: { href: string; rows: AcquisitionEvidenceRow[] }) {
   const [result, setResult] = useState<{ copied: true } | { copied: false; url: string } | null>(null);
 
   async function copyLink() {
@@ -172,8 +174,15 @@ function CopyViewLink({ href }: { href: string }) {
 
   return (
     <>
-      <div className={styles.resultCopy}>
-        <button type="button" className={styles.copyLink} onClick={copyLink}>Copy link</button>
+      <div className={styles.resultActions}>
+        <button type="button" className={styles.resultButton} onClick={copyLink}>Copy link</button>
+        <button
+          type="button"
+          className={styles.resultButton}
+          onClick={() => downloadText("acquisition-evidence.csv", evidenceCsv(rows), "text/csv;charset=utf-8")}
+        >
+          Download CSV
+        </button>
         <span className={styles.copyNotice} aria-live="polite">
           {result && (result.copied ? "Link copied" : "Select and copy the link below.")}
         </span>
@@ -326,7 +335,7 @@ export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow
           Showing {visibleRows.length} of {rows.length} product lines
           {" · "}{shipmentCount} confirmed {shipmentCount === 1 ? "shipment" : "shipments"}
         </p>
-        <CopyViewLink key={shareHref} href={shareHref} />
+        <ResultActions key={shareHref} href={shareHref} rows={visibleRows} />
       </div>
       <div className={styles.results}>
         {visibleRows.length === 0 ? (
