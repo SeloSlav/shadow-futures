@@ -32,6 +32,9 @@ type LedgerFilters = {
   q: string;
 };
 
+type LedgerSort = "ledger" | "product-name" | "evidence-date";
+type LedgerView = LedgerFilters & { sort: LedgerSort };
+
 const allFilters: LedgerFilters = { overlap: "all", deal: "all", shipment: "all", q: "" };
 const dealOutcomes = Object.keys(dealLabels) as (keyof typeof dealLabels)[];
 const overlapTypes = Object.keys(overlapLabels) as (keyof typeof overlapLabels)[];
@@ -42,9 +45,9 @@ function readFilter<T extends string>(value: string | null, options: readonly T[
   return options.find((option) => option.replaceAll(" ", "-") === value) ?? "all";
 }
 
-function viewHref(pathname: string, query: string, filters: Partial<LedgerFilters>, hash: string) {
+function viewHref(pathname: string, query: string, view: Partial<LedgerView>, hash: string) {
   const params = new URLSearchParams(query);
-  const { q, ...options } = filters;
+  const { q, sort, ...options } = view;
   for (const [key, value] of Object.entries(options)) {
     if (value === "all") params.delete(key);
     else params.set(key, value.replaceAll(" ", "-"));
@@ -54,6 +57,8 @@ function viewHref(pathname: string, query: string, filters: Partial<LedgerFilter
     if (trimmed) params.set("q", trimmed);
     else params.delete("q");
   }
+  if (sort === "ledger") params.delete("sort");
+  else if (sort) params.set("sort", sort);
   const search = params.toString();
   return `${pathname}${search ? `?${search}` : ""}${hash}`;
 }
@@ -166,6 +171,17 @@ function countConfirmedShipments(rows: AcquisitionEvidenceRow[]) {
   return rows.filter((row) => row.outcome === "confirmed shipment").length;
 }
 
+const productNameOrder = new Intl.Collator("en-GB", { sensitivity: "base", numeric: true });
+
+function compareProductNames(a: AcquisitionEvidenceRow, b: AcquisitionEvidenceRow) {
+  return productNameOrder.compare(a.product, b.product);
+}
+
+function compareEvidenceDates(a: AcquisitionEvidenceRow, b: AcquisitionEvidenceRow) {
+  // ISO dates put month-only records after exact dates in the same month.
+  return (b.evidence_date ?? "").localeCompare(a.evidence_date ?? "", "en-GB") || compareProductNames(a, b);
+}
+
 function ResultActions({ href, rows }: { href: string; rows: AcquisitionEvidenceRow[] }) {
   const [result, setResult] = useState<{ copied: true } | { copied: false; url: string } | null>(null);
 
@@ -219,7 +235,9 @@ export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow
   const overlap = readFilter(searchParams.get("overlap"), overlapTypes);
   const deal = readFilter(searchParams.get("deal"), dealOutcomes);
   const shipment = readFilter(searchParams.get("shipment"), availableShipments);
-  const shareHref = viewHref(pathname, "", { overlap, deal, shipment, q: nameSearch }, resultsHash);
+  const requestedSort = searchParams.get("sort");
+  const sort = requestedSort === "product-name" || requestedSort === "evidence-date" ? requestedSort : "ledger";
+  const shareHref = viewHref(pathname, "", { overlap, deal, shipment, q: nameSearch, sort }, resultsHash);
   const resultCountRef = useRef<HTMLParagraphElement>(null);
   const pendingJump = useRef<string | null>(null);
   const searchTerms = nameSearch.toLowerCase().match(/\S+/g) ?? [];
@@ -233,6 +251,7 @@ export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow
       (deal === "all" || row.deal.original_outcome === deal) &&
       (shipment === "all" || row.outcome === shipment),
   );
+  if (sort !== "ledger") visibleRows.sort(sort === "product-name" ? compareProductNames : compareEvidenceDates);
   const shipmentCount = countConfirmedShipments(visibleRows);
 
   useEffect(() => {
@@ -254,10 +273,10 @@ export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow
     }
   }, [query]);
 
-  function changeFilters(filters: Partial<LedgerFilters>, hash = window.location.hash) {
+  function changeView(view: Partial<LedgerView>, hash = window.location.hash) {
     pendingJump.current = null;
     const { pathname, search } = window.location;
-    window.history.pushState(null, "", viewHref(pathname, search, filters, hash));
+    window.history.pushState(null, "", viewHref(pathname, search, view, hash));
   }
 
   function changeNameSearch(value: string) {
@@ -295,7 +314,7 @@ export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow
             Overlap
             <select
               value={overlap}
-              onChange={(event) => changeFilters({ overlap: event.target.value as LedgerFilters["overlap"] })}
+              onChange={(event) => changeView({ overlap: event.target.value as LedgerFilters["overlap"] })}
             >
               <option value="all">All overlap types</option>
               {overlapTypes.map((value) => (
@@ -314,6 +333,7 @@ export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow
               deal: outcome,
               shipment: "confirmed shipment",
               q: nameSearch,
+              sort,
             }, resultsHash);
             return (
               <div key={outcome}>
@@ -349,7 +369,7 @@ export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow
           Deal outcome
           <select
             value={deal}
-            onChange={(event) => changeFilters({ deal: event.target.value as LedgerFilters["deal"] })}
+            onChange={(event) => changeView({ deal: event.target.value as LedgerFilters["deal"] })}
           >
             <option value="all">All deals</option>
             {dealOutcomes.map((outcome) => (
@@ -361,12 +381,20 @@ export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow
           Product outcome
           <select
             value={shipment}
-            onChange={(event) => changeFilters({ shipment: event.target.value as LedgerFilters["shipment"] })}
+            onChange={(event) => changeView({ shipment: event.target.value as LedgerFilters["shipment"] })}
           >
             <option value="all">All product outcomes</option>
             {availableShipments.map((value) => (
               <option key={value} value={value}>{outcomeLabels[value]}</option>
             ))}
+          </select>
+        </label>
+        <label className={styles.sortControl}>
+          Sort by
+          <select value={sort} onChange={(event) => changeView({ sort: event.target.value as LedgerSort })}>
+            <option value="ledger">Ledger order</option>
+            <option value="product-name">Product name (A–Z)</option>
+            <option value="evidence-date">Evidence date (newest first)</option>
           </select>
         </label>
       </div>
@@ -389,7 +417,7 @@ export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow
               type="button"
               onClick={() => {
                 setNameSearch("");
-                changeFilters(allFilters, "");
+                changeView(allFilters, "");
               }}
             >
               Clear filters
