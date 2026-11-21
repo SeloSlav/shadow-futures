@@ -5,7 +5,8 @@ import { deriveSeed, mulberry32 } from "./prng";
 export const TOTAL_SALES = 4_000;
 export const ROTATION_START = 3_000;
 export const ROTATION_LENGTH = 300;
-export const SHADOW_SALES = 1_000;
+export const SHADOW_STEPS = 5;
+export const SHADOW_RUNS = 24;
 
 export const MARKET_PRESETS = [
   { name: "Big Tech", qualityEdge: 0.3, reinforcement: 2.4, description: "Two search engines compete to be the default. A larger user base helps the leader secure the next placement." },
@@ -25,31 +26,54 @@ export function goldOddsAtFullRanking(market: MarketPreset, goldSales: number, t
   })[0];
 }
 
-export function shelfHistory(seed: number, { market = MARKET_PRESETS[0], rotate = false, rankFromStart = false } = {}) {
+type ShelfRule = { market: MarketPreset; rotate?: boolean; equalShelf?: boolean };
+
+function oddsForNextSale(counts: number[], sales: number, { market, rotate, equalShelf }: ShelfRule) {
+  const ramp = Math.max(0, Math.min(1, (sales - 150) / 1_050));
+  const rotating = rotate && sales >= ROTATION_START && sales < ROTATION_START + ROTATION_LENGTH;
+  const rho = equalShelf || rotating ? 0 : market.reinforcement * ramp;
+  return allocationProbabilities({ ...products, counts, beta: [market.qualityEdge], rho });
+}
+
+export function shelfHistory(seed: number, rule: ShelfRule = { market: MARKET_PRESETS[0] }) {
   const random = mulberry32(seed);
   const counts = [0, 0];
-  const inputs = { ...products, counts, beta: [market.qualityEdge] };
   const frames = [];
-  const horizon = rankFromStart ? SHADOW_SALES : TOTAL_SALES;
   let budget = 0;
 
   // Each frame describes completed sales and the odds BEFORE the next sale.
-  for (let t = 0; t <= horizon; t++) {
-    const ramp = rankFromStart ? 1 : Math.max(0, Math.min(1, (t - 150) / 1_050));
-    const rotating = rotate && t >= ROTATION_START && t < ROTATION_START + ROTATION_LENGTH;
-    const odds = allocationProbabilities({ ...inputs, rho: rotating ? 0 : market.reinforcement * ramp });
+  for (let t = 0; t <= TOTAL_SALES; t++) {
+    const odds = oddsForNextSale(counts, t, rule);
     const nextPoint = residualContestability(odds);
     frames.push({ budget, nextPoint, goldOdds: odds[0], goldSales: counts[0] });
-    if (t === horizon) break;
+    if (t === TOTAL_SALES) break;
     budget += nextPoint;
     counts[drawRecipient(odds, random())]++;
   }
   return frames;
 }
 
-export function shadowSales(seed: number, market: MarketPreset) {
-  return Array.from({ length: 24 }, (_, i) => {
-    const history = shelfHistory(deriveSeed(seed, i), { market, rankFromStart: true });
-    return history[SHADOW_SALES].goldSales;
+export function shadowFutures(seed: number, sales: number, goldSales: number, rule: ShelfRule) {
+  const start = [goldSales, sales - goldSales];
+  // The complement of a lit path is the single path where each successive favorite wins.
+  const favoriteCounts = [...start];
+  let allFavoritesProbability = 1;
+  for (let step = 0; step < SHADOW_STEPS; step++) {
+    const odds = oddsForNextSale(favoriteCounts, sales + step, rule);
+    const favorite = odds[0] >= odds[1] ? 0 : 1;
+    allFavoritesProbability *= odds[favorite];
+    favoriteCounts[favorite]++;
+  }
+  const paths = Array.from({ length: SHADOW_RUNS }, (_, index) => {
+    const random = mulberry32(deriveSeed(seed, index));
+    const counts = [...start];
+    return Array.from({ length: SHADOW_STEPS }, (_, step) => {
+      const odds = oddsForNextSale(counts, sales + step, rule);
+      const winner = drawRecipient(odds, random());
+      const favorite = odds[0] >= odds[1] ? 0 : 1;
+      counts[winner]++;
+      return { winner, rivalWon: winner !== favorite };
+    });
   });
+  return { paths, litProbability: 1 - allFavoritesProbability };
 }

@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { MARKET_PRESETS, ROTATION_LENGTH, ROTATION_START, TOTAL_SALES, goldOddsAtFullRanking, shadowSales, shelfHistory } from "../../lib/model/shelf-market";
+import { MARKET_PRESETS, ROTATION_LENGTH, ROTATION_START, SHADOW_RUNS, SHADOW_STEPS, TOTAL_SALES, goldOddsAtFullRanking, shadowFutures, shelfHistory } from "../../lib/model/shelf-market";
 
 describe("shelf comparison budget", () => {
   it("credits the probability before each sale, including the last one", () => {
@@ -25,10 +25,44 @@ describe("shelf comparison budget", () => {
     expect(rotated[end].nextPoint).toBeLessThan(openRate);
   });
 
-  it("produces distinct budgets and shadow histories for each preset with identical draws", () => {
+  it("produces distinct budgets for each preset with identical draws", () => {
     const budgets = MARKET_PRESETS.map(market => shelfHistory(42, { market })[TOTAL_SALES].budget);
     expect(new Set(budgets).size).toBe(MARKET_PRESETS.length);
-    const batches = MARKET_PRESETS.map(market => shadowSales(42, market).join(","));
-    expect(new Set(batches).size).toBe(MARKET_PRESETS.length);
+  });
+
+  it("uses each market’s current counts and updates its favorite before every branch sale", () => {
+    for (const market of MARKET_PRESETS) {
+      const { goldSales } = shelfHistory(42, { market })[TOTAL_SALES];
+      const { paths } = shadowFutures(42, TOTAL_SALES, goldSales, { market });
+      expect(paths).toHaveLength(SHADOW_RUNS);
+      for (const path of paths) {
+        let gold = goldSales;
+        let teal = TOTAL_SALES - gold;
+        expect(path).toHaveLength(SHADOW_STEPS);
+        for (const sale of path) {
+          const favorite = goldOddsAtFullRanking(market, gold, teal) >= 0.5 ? 0 : 1;
+          expect(sale.rivalWon).toBe(sale.winner !== favorite);
+          if (sale.winner === 0) gold++;
+          else teal++;
+        }
+      }
+    }
+  });
+
+  it("uses equal-placement odds through a rotation and updates them when ranking resumes", () => {
+    const market = MARKET_PRESETS[0];
+    const fullRule = { market, rotate: true };
+    const lastRotatedSale = ROTATION_START + ROTATION_LENGTH - 1;
+    const { goldSales, goldOdds } = shelfHistory(42, fullRule)[lastRotatedSale];
+    const equal = shadowFutures(42, lastRotatedSale, goldSales, { market, equalShelf: true });
+    expect(equal.litProbability).toBeCloseTo(1 - goldOdds ** SHADOW_STEPS, 10);
+    const during = shadowFutures(42, ROTATION_START, 2500, fullRule);
+    expect(during).toEqual(equal);
+    const crossing = shadowFutures(42, lastRotatedSale, goldSales, fullRule);
+    let allFavorite = goldOdds;
+    for (let step = 1; step < SHADOW_STEPS; step++) {
+      allFavorite *= goldOddsAtFullRanking(market, goldSales + step, lastRotatedSale - goldSales);
+    }
+    expect(crossing.litProbability).toBeCloseTo(1 - allFavorite, 10);
   });
 });

@@ -3,9 +3,10 @@
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import {
-  MARKET_PRESETS, ROTATION_LENGTH, ROTATION_START, SHADOW_SALES, TOTAL_SALES,
-  goldOddsAtFullRanking, shadowSales, shelfHistory, type MarketPreset,
+  MARKET_PRESETS, ROTATION_LENGTH, ROTATION_START, TOTAL_SALES,
+  goldOddsAtFullRanking, shelfHistory, type MarketPreset,
 } from "@/lib/model/shelf-market";
+import { ShadowFutures } from "./shadow-futures";
 import styles from "./comparison-budget.module.css";
 
 const count = new Intl.NumberFormat("en-US");
@@ -62,34 +63,6 @@ function MarketAssumptions({ market }: { market: MarketPreset }) {
   return <p><strong>{market.name}.</strong> {market.description} A 20–10 sales lead at full ranking strength gives Gold a {percent(goldOddsAtFullRanking(market, 20, 10))} chance of the next sale.</p>;
 }
 
-function ShadowFutures({ market }: { market: MarketPreset }) {
-  const [batch, setBatch] = useState(0);
-  const markets = useMemo(() => shadowSales(seed + batch, market), [batch, market]);
-  const goldWins = markets.filter(sales => sales > SHADOW_SALES / 2).length;
-  const ties = markets.filter(sales => sales === SHADOW_SALES / 2).length;
-  return (
-    <section className={styles.shadows} aria-labelledby="shadows-title">
-      <div>
-        <h2 id="shadows-title">The histories one shelf never shows</h2>
-        <p>Run the <strong>{market.name}</strong> setup 24 times with the same two rivals. Here, shelf ranking starts at full strength with the first customer. Only the sequence of customer choices changes between runs.</p>
-        <button type="button" className={styles.textButton} onClick={() => setBatch(value => value + 1)}>Rerun the 24 markets <span aria-hidden="true">↻</span></button>
-      </div>
-      <div className={styles.markets}>
-        <h3>Who sold more after 1,000 sales?</h3>
-        <div className={styles.marketGrid} role="img" aria-label={`Twenty-four simulated outcomes. Gold leads in ${goldWins}, Teal in ${markets.length - goldWins - ties}, and ${ties} are tied.`}>
-          {markets.map((sales, i) => (
-            <div key={i} className={styles.market} title={`Market ${i + 1} · Gold ${sales}, Teal ${SHADOW_SALES - sales}`}>
-              <span style={{ width: percent(sales / SHADOW_SALES) }} />
-            </div>
-          ))}
-        </div>
-        <p className={styles.winners} aria-live="polite"><span><i className={styles.goldDot} /> Gold leads in <b>{goldWins}</b></span><span><i className={styles.tealDot} /> Teal leads in <b>{markets.length - goldWins - ties}</b></span>{ties > 0 && <span>{ties} tied</span>}</p>
-        <p className={styles.note}>Each bar shows how one market’s sales split between the two products.</p>
-      </div>
-    </section>
-  );
-}
-
 export function ComparisonBudget() {
   const [market, setMarket] = useState(MARKET_PRESETS[0]);
   const [comparison, setComparison] = useState<MarketPreset | null>(() => MARKET_PRESETS.find(preset => preset.name === "Commodities") ?? null);
@@ -97,11 +70,11 @@ export function ComparisonBudget() {
   const [sales, setSales] = useState(TOTAL_SALES);
   const [playFrom, setPlayFrom] = useState<number | null>(null);
   const history = useMemo(() => shelfHistory(seed, { market, rotate }), [market, rotate]);
-  const otherHistory = useMemo(() => comparison && shelfHistory(seed, { market: comparison, rotate }), [comparison, rotate]);
+  const otherMarket = comparison ?? market;
+  const equalShelf = comparison === null;
+  const otherHistory = useMemo(() => shelfHistory(seed, { market: otherMarket, rotate, equalShelf }), [otherMarket, rotate, equalShelf]);
   const firstLine = budgetLine(market.name, history, sales);
-  const otherLine = comparison && otherHistory
-    ? budgetLine(comparison.name, otherHistory, sales)
-    : budgetLine("Equal shelf space", history, sales, true);
+  const otherLine = budgetLine(comparison?.name ?? "Equal shelf space", otherHistory, sales, equalShelf);
   const lines = [firstLine, otherLine];
   const gap = Math.abs(firstLine.budget - otherLine.budget);
   const larger = firstLine.budget >= otherLine.budget ? firstLine.name : otherLine.name;
@@ -216,7 +189,8 @@ export function ComparisonBudget() {
         </div>
       </section>
       <div className={styles.definition}><span aria-hidden="true">Σ</span><p><strong>How to read one point.</strong> At 90–10 odds, each sale adds 0.10 points. Ten sales at those odds add one point. The budget adds up the chances a rival had each time a customer chose.</p></div>
-      <ShadowFutures market={market} />
+      <ShadowFutures first={{ market, frame: history[sales] }} second={{ market: otherMarket, frame: otherHistory[sales], equalShelf }}
+        sales={sales} rotate={rotate} seed={seed} />
       <footer className={styles.footer}>
         <Link href="/math">Explore the mathematics</Link>
       </footer>
