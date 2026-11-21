@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname, useSearchParams } from "next/navigation";
-import { useEffect, useLayoutEffect, useRef, useState } from "react";
+import { useEffect, useId, useLayoutEffect, useRef, useState } from "react";
 
 import type { AcquisitionEvidenceRow } from "@/lib/acquisition-evidence";
 import { downloadText } from "@/lib/download-text";
@@ -212,8 +212,44 @@ function ResultActions({
   onReset?: () => void;
 }) {
   const [result, setResult] = useState<{ copied: true } | { copied: false; url: string } | null>(null);
+  const [actionsOpen, setActionsOpen] = useState(false);
+  const actionsId = useId();
+  const toolsRef = useRef<HTMLDivElement>(null);
+  const toggleRef = useRef<HTMLButtonElement>(null);
+  const copyRef = useRef<HTMLButtonElement>(null);
+
+  useEffect(() => {
+    if (!actionsOpen && !result) return;
+
+    function dismissOutside(event: PointerEvent) {
+      if (event.target instanceof Node && toolsRef.current?.contains(event.target)) return;
+      setActionsOpen(false);
+      setResult(null);
+    }
+
+    document.addEventListener("pointerdown", dismissOutside);
+    return () => document.removeEventListener("pointerdown", dismissOutside);
+  }, [actionsOpen, result]);
+
+  useEffect(() => {
+    if (!result?.copied) return;
+    const timer = window.setTimeout(() => setResult(null), 4000);
+    return () => window.clearTimeout(timer);
+  }, [result]);
+
+  function focusActions() {
+    const toggle = toggleRef.current;
+    const button = toggle?.getClientRects().length ? toggle : copyRef.current;
+    button?.focus({ preventScroll: true });
+  }
+
+  function closeActions() {
+    if (actionsOpen) focusActions();
+    setActionsOpen(false);
+  }
 
   async function copyLink() {
+    closeActions();
     const url = new URL(href, window.location.origin).href;
     try {
       await navigator.clipboard.writeText(url);
@@ -224,39 +260,76 @@ function ResultActions({
   }
 
   return (
-    <>
-      <div className={styles.resultActions}>
-        <button type="button" className={styles.resultButton} onClick={copyLink}>Copy link</button>
+    <div
+      className={styles.resultTools}
+      ref={toolsRef}
+      onBlur={(event) => {
+        if (event.relatedTarget instanceof Node && !event.currentTarget.contains(event.relatedTarget)) {
+          setActionsOpen(false);
+        }
+      }}
+      onKeyDown={(event) => {
+        if (event.key !== "Escape" || (!actionsOpen && !result)) return;
+        event.preventDefault();
+        event.stopPropagation();
+        focusActions();
+        setActionsOpen(false);
+        setResult(null);
+      }}
+    >
+      <button
+        type="button"
+        className={`${styles.resultButton} ${styles.actionsToggle}`}
+        ref={toggleRef}
+        aria-controls={actionsId}
+        aria-expanded={actionsOpen}
+        onClick={() => {
+          setResult(null);
+          setActionsOpen(!actionsOpen);
+        }}
+      >Actions <span aria-hidden="true">▾</span></button>
+      <div id={actionsId} className={styles.resultActions} data-open={actionsOpen}>
+        <button type="button" className={styles.resultButton} ref={copyRef} onClick={copyLink}>Copy link</button>
         <button
           type="button"
           className={styles.resultButton}
-          onClick={() => downloadText("acquisition-evidence.csv", evidenceCsv(rows), "text/csv;charset=utf-8")}
+          onClick={() => {
+            downloadText("acquisition-evidence.csv", evidenceCsv(rows), "text/csv;charset=utf-8");
+            setResult(null);
+            closeActions();
+          }}
         >
           Download CSV
         </button>
         <button
           type="button"
           className={styles.resultButton}
-          onClick={onReset}
+          onClick={() => {
+            setResult(null);
+            setActionsOpen(false);
+            onReset?.();
+          }}
           disabled={!onReset}
         >
           Reset view
         </button>
-        <span className={styles.copyNotice} aria-live="polite">
+      </div>
+      <div className={styles.copyFeedback} data-visible={result !== null}>
+        <span aria-live="polite">
           {result && (result.copied ? "Link copied" : "Select and copy the link below.")}
         </span>
+        {result?.copied === false && (
+          <input
+            className={styles.manualLink}
+            type="url"
+            aria-label="Link to these results"
+            readOnly
+            value={result.url}
+            onFocus={(event) => event.currentTarget.select()}
+          />
+        )}
       </div>
-      {result?.copied === false && (
-        <input
-          className={styles.manualLink}
-          type="url"
-          aria-label="Link to these results"
-          readOnly
-          value={result.url}
-          onFocus={(event) => event.currentTarget.select()}
-        />
-      )}
-    </>
+    </div>
   );
 }
 
@@ -488,10 +561,18 @@ export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow
       </p>
       <div id={resultsHash.slice(1)} className={styles.resultSection} ref={resultsRef}>
         <div className={styles.resultSummary} ref={summaryRef}>
-          <p className={styles.resultCount} role="status" ref={resultCountRef} tabIndex={-1}>
-            Showing {visibleRows.length} of {rows.length} product lines
-            {" · "}{shipmentCount} confirmed {shipmentCount === 1 ? "shipment" : "shipments"}
-          </p>
+          <div className={styles.resultTop}>
+            <p className={styles.resultCount} role="status" ref={resultCountRef} tabIndex={-1}>
+              Showing {visibleRows.length} of {rows.length} product lines
+              {" · "}{shipmentCount} confirmed {shipmentCount === 1 ? "shipment" : "shipments"}
+            </p>
+            <ResultActions
+              key={shareHref}
+              href={shareHref}
+              rows={visibleRows}
+              onReset={canReset ? resetView : undefined}
+            />
+          </div>
           {activeChips.length > 0 && (
             <ul className={styles.activeChips} role="list" aria-label="Active view settings">
               {activeChips.map(({ key, label, value }) => {
@@ -513,14 +594,6 @@ export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow
               })}
             </ul>
           )}
-        </div>
-        <div className={styles.resultTools}>
-          <ResultActions
-            key={shareHref}
-            href={shareHref}
-            rows={visibleRows}
-            onReset={canReset ? resetView : undefined}
-          />
         </div>
         <div className={styles.results}>
           {visibleRows.length === 0 ? (
