@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname, useSearchParams } from "next/navigation";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
 import type { AcquisitionEvidenceRow } from "@/lib/acquisition-evidence";
 import styles from "./evidence.module.css";
@@ -157,6 +157,41 @@ function countConfirmedShipments(rows: AcquisitionEvidenceRow[]) {
   return rows.filter((row) => row.outcome === "confirmed shipment").length;
 }
 
+function CopyViewLink({ href }: { href: string }) {
+  const [result, setResult] = useState<{ copied: true } | { copied: false; url: string } | null>(null);
+
+  async function copyLink() {
+    const url = new URL(href, window.location.origin).href;
+    try {
+      await navigator.clipboard.writeText(url);
+      setResult({ copied: true });
+    } catch {
+      setResult({ copied: false, url });
+    }
+  }
+
+  return (
+    <>
+      <div className={styles.resultCopy}>
+        <button type="button" className={styles.copyLink} onClick={copyLink}>Copy link</button>
+        <span className={styles.copyNotice} aria-live="polite">
+          {result && (result.copied ? "Link copied" : "Select and copy the link below.")}
+        </span>
+      </div>
+      {result?.copied === false && (
+        <input
+          className={styles.manualLink}
+          type="url"
+          aria-label="Link to these results"
+          readOnly
+          value={result.url}
+          onFocus={(event) => event.currentTarget.select()}
+        />
+      )}
+    </>
+  );
+}
+
 export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow[] }) {
   const pathname = usePathname();
   const searchParams = useSearchParams();
@@ -167,6 +202,7 @@ export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow
   const overlap = readFilter(searchParams.get("overlap"), overlapTypes);
   const deal = readFilter(searchParams.get("deal"), dealOutcomes);
   const shipment = readFilter(searchParams.get("shipment"), availableShipments);
+  const shareHref = viewHref(pathname, "", { overlap, deal, shipment }, resultsHash);
   const resultCountRef = useRef<HTMLParagraphElement>(null);
   const pendingJump = useRef<string | null>(null);
   const overlapRows = overlap === "all" ? rows : rows.filter((row) => row.overlap === overlap);
@@ -252,7 +288,7 @@ export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow
         </dl>
         <p className={styles.legend}>
           Totals include all tracked product lines in the selected overlap group.
-          Select a shipment count to jump to the matching products. Copy the address to share the view.
+          Select a shipment count to jump to the matching products.
         </p>
       </section>
       <div className={styles.controls}>
@@ -285,10 +321,13 @@ export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow
         <strong>Active only</strong> means continued use or maintenance was documented.
         A material release or rollout remains unverified.
       </p>
-      <p id={resultsHash.slice(1)} className={styles.resultCount} role="status" ref={resultCountRef} tabIndex={-1}>
-        Showing {visibleRows.length} of {rows.length} product lines
-        {" · "}{shipmentCount} confirmed {shipmentCount === 1 ? "shipment" : "shipments"}
-      </p>
+      <div className={styles.resultHeader}>
+        <p id={resultsHash.slice(1)} className={styles.resultCount} role="status" ref={resultCountRef} tabIndex={-1}>
+          Showing {visibleRows.length} of {rows.length} product lines
+          {" · "}{shipmentCount} confirmed {shipmentCount === 1 ? "shipment" : "shipments"}
+        </p>
+        <CopyViewLink key={shareHref} href={shareHref} />
+      </div>
       <div className={styles.results}>
         {visibleRows.length === 0 ? (
           <div className={styles.empty}>
