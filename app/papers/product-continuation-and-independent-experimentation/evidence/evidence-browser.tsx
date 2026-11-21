@@ -275,6 +275,13 @@ export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow
   const sort = sortOptions.find((option) => option === requestedSort) ?? "ledger";
   const shareHref = viewHref(pathname, "", { overlap, deal, shipment, q: nameSearch, sort }, resultsHash);
   const canReset = nameSearch !== "" || Object.keys(defaultView).some((key) => searchParams.has(key));
+  const activeChips = ([
+    { key: "q", label: "Search", value: nameSearch.trim() },
+    { key: "overlap", label: "Overlap", value: overlap === "all" ? "" : overlapLabels[overlap] },
+    { key: "deal", label: "Deal outcome", value: deal === "all" ? "" : dealLabels[deal] },
+    { key: "shipment", label: "Product outcome", value: shipment === "all" ? "" : outcomeLabels[shipment] },
+    { key: "sort", label: "Sort", value: sort === "ledger" ? "" : sortLabels[sort] },
+  ] as const).filter(({ value }) => value !== "");
   const resultCountRef = useRef<HTMLParagraphElement>(null);
   const pendingJump = useRef<string | null>(null);
   const searchTerms = nameSearch.toLowerCase().match(/\S+/g) ?? [];
@@ -321,6 +328,15 @@ export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow
     setNameSearch(defaultView.q);
     changeView(defaultView, "");
     resultCountRef.current?.focus({ preventScroll: true });
+  }
+
+  function removeChip(key: keyof LedgerView, button: HTMLButtonElement) {
+    const item = button.parentElement;
+    const neighbor = item?.nextElementSibling ?? item?.previousElementSibling;
+    (neighbor?.querySelector("button") ?? resultCountRef.current)?.focus({ preventScroll: true });
+
+    if (key === "q") setNameSearch(defaultView.q);
+    changeView({ [key]: defaultView[key] });
   }
 
   function changeNameSearch(value: string) {
@@ -458,6 +474,27 @@ export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow
           onReset={canReset ? resetView : undefined}
         />
       </div>
+      {activeChips.length > 0 && (
+        <ul className={styles.activeChips} role="list" aria-label="Active view settings">
+          {activeChips.map(({ key, label, value }) => {
+            const description = `${label}: ${value}`;
+            return (
+              <li key={key}>
+                <button
+                  type="button"
+                  className={styles.viewChip}
+                  aria-label={`Remove ${description}`}
+                  title={description}
+                  onClick={(event) => removeChip(key, event.currentTarget)}
+                >
+                  <span className={styles.chipText}><span>{label}: </span>{value}</span>
+                  <span className={styles.chipRemove} aria-hidden="true">×</span>
+                </button>
+              </li>
+            );
+          })}
+        </ul>
+      )}
       <div className={styles.results}>
         {visibleRows.length === 0 ? (
           <div className={styles.empty}>
