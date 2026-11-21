@@ -23,6 +23,7 @@ const overlapLabels = {
 
 type DealFilter = "all" | keyof typeof dealLabels;
 type ShipmentFilter = "all" | keyof typeof outcomeLabels;
+type OverlapFilter = "all" | keyof typeof overlapLabels;
 
 const monthFormat = new Intl.DateTimeFormat("en-GB", {
   month: "short",
@@ -123,18 +124,57 @@ function EvidenceRow({ row }: { row: AcquisitionEvidenceRow }) {
   );
 }
 
+function countConfirmedShipments(rows: AcquisitionEvidenceRow[]) {
+  return rows.filter((row) => row.outcome === "confirmed shipment").length;
+}
+
 export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow[] }) {
+  const [overlap, setOverlap] = useState<OverlapFilter>("all");
   const [deal, setDeal] = useState<DealFilter>("all");
   const [shipment, setShipment] = useState<ShipmentFilter>("all");
-  const visibleRows = rows.filter(
+  const overlapRows = overlap === "all" ? rows : rows.filter((row) => row.overlap === overlap);
+  const visibleRows = overlapRows.filter(
     (row) =>
       (deal === "all" || row.deal.original_outcome === deal) &&
       (shipment === "all" || row.outcome === shipment),
   );
-  const shipmentCount = visibleRows.filter((row) => row.outcome === "confirmed shipment").length;
+  const shipmentCount = countConfirmedShipments(visibleRows);
 
   return (
     <>
+      <section className={styles.comparison} aria-labelledby="shipment-comparison-title">
+        <div className={styles.comparisonHeader}>
+          <h2 id="shipment-comparison-title">Confirmed shipments</h2>
+          <label>
+            Overlap
+            <select value={overlap} onChange={(event) => setOverlap(event.target.value as OverlapFilter)}>
+              <option value="all">All overlap types</option>
+              {Object.entries(overlapLabels).map(([value, label]) => (
+                <option key={value} value={value}>{label}</option>
+              ))}
+            </select>
+          </label>
+        </div>
+        <dl className={styles.comparisonCounts} aria-live="polite" aria-atomic="true">
+          {Object.entries(dealLabels).map(([value, label]) => {
+            const cohort = overlapRows.filter((row) => row.deal.original_outcome === value);
+            return (
+              <div key={value}>
+                <dt>{label}</dt>
+                <dd>
+                  {cohort.length > 0
+                    ? `${countConfirmedShipments(cohort)} of ${cohort.length}`
+                    : "No product lines"}
+                </dd>
+              </div>
+            );
+          })}
+        </dl>
+        <p className={styles.legend}>
+          Totals include all tracked product lines in the selected overlap group.
+          Deal and product outcome filters apply to the list below.
+        </p>
+      </section>
       <div className={styles.controls}>
         <label>
           Deal outcome
@@ -170,7 +210,14 @@ export default function EvidenceBrowser({ rows }: { rows: AcquisitionEvidenceRow
         {visibleRows.length === 0 ? (
           <div className={styles.empty}>
             <p>No product lines match these filters.</p>
-            <button type="button" onClick={() => { setDeal("all"); setShipment("all"); }}>
+            <button
+              type="button"
+              onClick={() => {
+                setOverlap("all");
+                setDeal("all");
+                setShipment("all");
+              }}
+            >
               Clear filters
             </button>
           </div>
