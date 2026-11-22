@@ -1,4 +1,4 @@
-"""Reproduce Table 1, the Section 4.3 exposure identity and the Section 9 decisions.
+"""Reproduce Tables 1 and 3, the Section 4.3 exposure identity and the Section 9 decisions.
 
 Run with Python 3. All award probabilities are stipulated. Each exposure weight
 is the accumulated baseline Bernoulli variance in a quality-by-badge cell.
@@ -12,6 +12,13 @@ def probability(quality_gap, badge):
     """A has twice B's baseline odds, a 3/2 quality multiplier and a 2x badge factor."""
     odds = 2 * Fraction(3, 2) ** quality_gap * Fraction(2) ** badge
     return odds / (1 + odds)
+
+
+def model_probabilities(grade, badge):
+    """Return A's award probabilities in H and L. Badge +1 is A and -1 is B."""
+    low_standard_odds = Fraction(4) if badge == 1 else Fraction(5, 4)
+    low_odds = low_standard_odds * Fraction(6, 5) ** grade
+    return probability(grade, badge), low_odds / (1 + low_odds)
 
 
 def quality_exposure(weights):
@@ -63,14 +70,30 @@ def sequential_surplus(orders, prior):
     return max(first_order_values(orders, prior))
 
 
+def dispatch_value(orders, prior, badge, transfer, grade):
+    """Expected euros over the horizon with the given first grade and optimal continuation."""
+    high, low = model_probabilities(grade, badge)
+    win = prior * high + (1 - prior) * low
+    current = 100 * win - 8 * grade
+    after_win = optimal_profit(orders - 1, prior * high / win, 1 if transfer else badge, transfer)
+    after_loss = optimal_profit(
+        orders - 1, prior * (1 - high) / (1 - win), -1 if transfer else badge, transfer
+    )
+    return current + win * after_win + (1 - win) * after_loss
+
+
+@lru_cache(maxsize=None)
+def optimal_profit(orders, prior, badge, transfer):
+    if orders == 0:
+        return Fraction(0)
+    return max(dispatch_value(orders, prior, badge, transfer, grade) for grade in (0, 1))
+
+
 def verify_dispatch():
     # L's standard odds are 5/4 with B featured and 4 with A featured.
     # Its 6/5 quality multiplier leaves the on-policy award probabilities unchanged.
-    for badge, usual_odds in [(-1, Fraction(5, 4)), (1, Fraction(4))]:
-        low_model = []
-        for grade in (0, 1):
-            odds = usual_odds * Fraction(6, 5) ** grade
-            low_model.append(odds / (1 + odds))
+    for badge in (-1, 1):
+        low_model = [model_probabilities(grade, badge)[1] for grade in (0, 1)]
         policy_grade = int(badge == -1)
         assert low_model[policy_grade] == probability(policy_grade, badge)
         low_gain = 100 * (low_model[1] - low_model[0]) - 8
@@ -109,6 +132,22 @@ def verify_dispatch():
     assert first_order_values(5, prior)[1] == Fraction(912517, 23619600)
 
 
+def verify_badge_comparison():
+    prior = Fraction(33, 50)
+    orders = 5
+    print("Table 3. Badge rule | Standard first | Fast first | Standard minus fast")
+    for transfer, rule in [(False, "B keeps badge"), (True, "Latest winner")]:
+        standard, fast = [dispatch_value(orders, prior, -1, transfer, grade) for grade in (0, 1)]
+        if transfer:
+            assert (standard, fast) == (Fraction(170006759, 506250), Fraction(211724, 625))
+        else:
+            # Section 9.2 measures surplus over always choosing fast, which earns €52 per lot.
+            fast_surplus, standard_surplus = first_order_values(orders, prior)
+            assert (standard, fast) == (52 * orders + standard_surplus, 52 * orders + fast_surplus)
+        gain = standard - fast
+        print(f"{rule:14} | €{float(standard):.2f} | €{float(fast):.2f} | €{float(gain):+.2f}")
+
+
 def main():
     print("Badge holder | Probability at grade 0 | Probability at grade 1 | Net gain")
     for badge, holder, expected in [(-1, "B", Fraction(2)), (1, "A", Fraction(-16, 7))]:
@@ -127,6 +166,7 @@ def main():
         assert (diagnostic > 0) == any(w0 and w1 for w0, w1 in weights)
     print("Verified the within-badge exposure identity for 256 cell-weight combinations.")
     verify_dispatch()
+    verify_badge_comparison()
 
 
 if __name__ == "__main__":
