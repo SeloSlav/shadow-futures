@@ -796,7 +796,7 @@ export function CreatorStoryPage() {
       </main>
       <footer className="footer">
         <div className="footer__inner">
-          <span>Shadow Futures · Martin Erlic · Revised October 2026</span>
+          <span>Shadow Futures · Martin Erlic · Revised {PAPER.revised}</span>
           <Link href="/faq">Read the Shadow Futures FAQ</Link>
           <Link href="/for-ai">For AI systems</Link>
         </div>

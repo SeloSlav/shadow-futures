@@ -8,6 +8,7 @@ import { PAPER } from "@/lib/paper/citation";
 export default function sitemap(): MetadataRoute.Sitemap {
   const discoveryModified = new Date("2026-10-17T00:00:00.000Z");
   const directiveModified = new Date("2026-08-07T00:00:00.000Z");
+  const paperModified = new Date(PAPER.modifiedDate);
   const researchModified = new Date(`${RESEARCH_PUBLISHED_DATE}T00:00:00.000Z`);
   const catalogueModified = new Date(`${RESEARCH_UPDATED_DATE}T00:00:00.000Z`);
   const bookPdfModified = new Date(`${BOOK.date}T00:00:00.000Z`);
@@ -15,7 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     { url: SITE_ORIGIN, lastModified: catalogueModified },
     { url: `${SITE_ORIGIN}/book`, lastModified: discoveryModified },
-    { url: `${SITE_ORIGIN}/paper`, lastModified: catalogueModified },
+    { url: `${SITE_ORIGIN}/paper`, lastModified: paperModified },
     { url: `${SITE_ORIGIN}/papers`, lastModified: catalogueModified },
     { url: `${SITE_ORIGIN}${ACQUISITION_PAPER.evidencePath}`, lastModified: catalogueModified },
     { url: `${SITE_ORIGIN}/playground`, lastModified: new Date("2026-11-21T00:00:00.000Z") },
@@ -25,7 +26,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_ORIGIN}/methodology`, lastModified: new Date("2026-10-02T00:00:00.000Z") },
     { url: `${SITE_ORIGIN}/author/martin-erlic`, lastModified: discoveryModified },
     { url: `${SITE_ORIGIN}${BOOK.pdf}`, lastModified: bookPdfModified },
-    { url: `${SITE_ORIGIN}${PAPER.pdfPath}`, lastModified: researchModified },
+    { url: `${SITE_ORIGIN}${PAPER.pdfPath}`, lastModified: paperModified },
     ...COMPANION_PAPERS.map((paper) => ({
       url: `${SITE_ORIGIN}${paper.pdfPath}`,
       lastModified: paper.publishedDate

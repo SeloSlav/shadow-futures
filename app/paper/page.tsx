@@ -228,6 +228,15 @@ export default function PaperPage() {
             </div>
           </section>
 
+          <section className="paper-section" aria-labelledby="paper-ai-disclosure">
+            <div className="paper-section__label">
+              <h2 id="paper-ai-disclosure">Disclosure of AI assistance</h2>
+            </div>
+            <div className="paper-section__content">
+              <p>{PAPER.aiDisclosure}</p>
+            </div>
+          </section>
+
           <section className="paper-section paper-section--last" aria-labelledby="paper-citation">
             <div className="paper-section__label">
               <span>Citation</span>

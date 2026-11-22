@@ -776,7 +776,7 @@ export function StoryPage() {
       </main>
       <footer className="footer">
         <div className="footer__inner">
-          <span>Shadow Futures · Martin Erlic · Revised October 2026</span>
+          <span>Shadow Futures · Martin Erlic · Revised {PAPER.revised}</span>
           <span>
             Interactive model for explanation, not empirical estimation or policy advice.
           </span>

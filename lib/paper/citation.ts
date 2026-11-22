@@ -12,11 +12,13 @@ export const PAPER = {
   title: "Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market",
   author: AUTHOR.name,
   firstPosted: "December 2025",
-  revised: "October 2026",
+  revised: "November 2026",
   publishedDate: "2025-12",
-  modifiedDate: "2026-10",
+  modifiedDate: "2026-11-22",
   abstract:
     "Can a market observe productive inputs perfectly yet fail to learn their effects on reward? I study markets where inputs affect reward odds and past rewards shape future exposure. The comparison budget sums, across allocations, the probabilities that someone other than the current favorite wins. In a conditional logit model with bounded input differences, this budget bounds Fisher information about input effects. If the lifetime budget is almost surely finite under every parameter, a single market history cannot distinguish competing effects with vanishing error. Yet models that disagree about those effects converge in their forecasts of future allocations.",
+  aiDisclosure:
+    "My interest in how monopoly shapes the production of economic knowledge dates to at least 2016. After an extensive literature review, I chose to formalize the question of what a market’s allocation history can reveal about the effects of productive inputs on rewards. I used large language models to help develop the mathematical formulation and OpenAI Codex to help draft the revised abstract and the two-seller example in Section 2. I take responsibility for the analysis and any errors.",
   keywords: [
     "comparison budget",
     "increasing returns",
@@ -34,7 +36,7 @@ export const PAPER = {
   ssrnUrl: SSRN_URL,
   url: process.env.NEXT_PUBLIC_PAPER_URL ?? SSRN_URL,
   citation:
-    'Erlic, Martin. "Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market." First posted December 2025; revised October 2026. SSRN abstract 6003994. https://doi.org/10.2139/ssrn.6003994.',
+    'Erlic, Martin. "Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market." First posted December 2025; revised November 2026. SSRN abstract 6003994. https://doi.org/10.2139/ssrn.6003994.',
   bibtex: `@article{erlic2025shadow,
   title={Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market},
   author={Erlic, Martin},
@@ -42,6 +44,6 @@ export const PAPER = {
   month={December},
   doi={10.2139/ssrn.6003994},
   url={https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994},
-  note={Revised October 2026}
+  note={Revised November 2026}
 }`,
 } as const;

@@ -3,7 +3,7 @@
 Author: [Martin Erlic](https://shadow-futures.vercel.app/author/martin-erlic)
 
 - First posted: December 2025
-- Revised: October 2026
+- Revised: November 2026
 - DOI: [10.2139/ssrn.6003994](https://doi.org/10.2139/ssrn.6003994)
 - SSRN: [Abstract 6003994](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6003994)
 - PDF: [Download the full paper](https://shadow-futures.vercel.app/paper.pdf)
@@ -34,6 +34,10 @@ Strong reinforcement is one sharp corollary because it can exhaust the compariso
 
 The posted Lean statement has been typechecked. This establishes that the proposition is well formed; proof verification and review of its correspondence to the paper are separate checks.
 
+## Disclosure of AI assistance
+
+My interest in how monopoly shapes the production of economic knowledge dates to at least 2016. After an extensive literature review, I chose to formalize the question of what a market’s allocation history can reveal about the effects of productive inputs on rewards. I used large language models to help develop the mathematical formulation and OpenAI Codex to help draft the revised abstract and the two-seller example in Section 2. I take responsibility for the analysis and any errors.
+
 ## Citation
 
-Erlic, Martin. "Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market." First posted December 2025; revised October 2026. SSRN abstract 6003994. https://doi.org/10.2139/ssrn.6003994.
+Erlic, Martin. "Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market." First posted December 2025; revised November 2026. SSRN abstract 6003994. https://doi.org/10.2139/ssrn.6003994.
