@@ -133,13 +133,13 @@ export const COMPANION_PAPERS: readonly ResearchPaper[] = [
     title: "Learning Contribution from One Market History",
     focus: "Learning from adaptive allocations",
     description:
-      "Can a vendor learn what faster delivery buys when its brand already helps it win? One procurement history identifies the return to quality when both delivery grades keep receiving effective exposure within a common badge position. With a fixed quality gap, sales fluctuations can separate reinforcement from the combined seller premium.",
+      "When the rival holds the badge, fast dispatch earns €2.00 per order in one model and loses €3.56 in another that fits the same awards. At a 66% prior probability of the first model, a trial pays with ten later orders booked together or four when dispatch can be revised after each award. The paper shows when repeated comparisons identify the return to quality apart from brand.",
     pdfPath: "/papers/learning-contribution-from-one-market-history.pdf",
-    pages: 28,
+    pages: 30,
     status: "Research draft",
     publishedDate: "2026-11-22",
     supplements: [
-      { label: "Procurement calculations and Table 1 (Python)", path: "/papers/learning-contribution-from-one-market-history/procurement-calculations.py" },
+      { label: "Dispatch decisions and Table 1 (Python)", path: "/papers/learning-contribution-from-one-market-history/procurement-calculations.py" },
       { label: "AI review of the earlier full-memory proof", path: "/papers/learning-contribution-from-one-market-history/mathematical-review.md" },
       {
         label: "Badge calculations and Table 2 (Python)",
