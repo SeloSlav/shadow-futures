@@ -344,6 +344,80 @@ def deviation_gains(badge, prize, contract):
                  for p in contract.probabilities(1 - usual, badge))
 
 
+def first_trial_bound(orders, badge, prior, contract):
+    """Bound all trial-first plans by the posterior range i awards can reach."""
+    ratios = []
+    for b, grade in product((-1, 1), (0, 1)):
+        h, l = contract.probabilities(grade, b)
+        ratios.extend((h / l, (1 - h) / (1 - l)))
+    low, high = min(ratios), max(ratios)
+
+    def mean_gain(m, b, likelihood_ratio):
+        p = prior * likelihood_ratio / (1 - prior + prior * likelihood_ratio)
+        h, l = deviation_gains(b, badge_prize(m - 1, contract), contract)
+        return p * h + (1 - p) * l
+
+    bound = mean_gain(orders, badge, 1)
+    for i in range(1, orders):
+        possible = (mean_gain(orders - i, b, ratio**i)
+                    for b in (-1, 1) for ratio in (low, high))
+        bound += max(0, *possible)
+    return bound
+
+
+def verify_original_horizons():
+    q0 = Fraction(16, 25)
+    for n in range(1, 9):
+        for m, b in [(n, -1), *product(range(1, n), (-1, 1))]:
+            bound = first_trial_bound(m, b, q0, TABLE_3)
+            if (m, b) == (1, -1):
+                assert bound == 0
+            else:
+                assert bound < 0
+            assert first_trial_bound(m, b, Fraction(1), TABLE_3) < 0
+    # At length nine the analytic sufficient condition becomes inconclusive.
+    assert first_trial_bound(8, 1, q0, TABLE_3) > 0
+    upper = Fraction(9584041984, 14247436759)
+    # Any fixed plan forced to try now has strictly negative H surplus and
+    # earns d_L E_L[K] > 0 in L. Its expected surplus falls strictly with q.
+    assert first_order_values(8, upper) == (0, 0)
+    assert first_order_values(8, Fraction(33, 50))[1] > 0
+    print(f"Section 9.5: posterior-range bounds certify horizons 1–8. At eight "
+          f"orders strict elimination spans {100*float(upper-q0):.2f} percentage points.")
+
+    # Under a stationary rule with win rates a and b at the two positions,
+    # the stationary probability of holding the badge is b/(1-a+b).
+    for model, expected_rate, pair_chance in [(0, Fraction(500, 7), Fraction(1, 10)),
+                                               (1, Fraction(1250, 17), Fraction(1, 9))]:
+        a = model_probabilities(0, 1)[model]
+        b = model_probabilities(0, -1)[model]
+        usual_b = model_probabilities(1, -1)[model]
+        stationary_a = usual_b / (1 - a + usual_b)
+        assert stationary_a * (100 * a) + (1 - stationary_a) * (100 * usual_b - 8) == 73
+        assert 100 * b / (1 - a + b) == expected_rate
+        assert b * (1 - a) == pair_chance
+    assert Fraction(500, 7) - 73 == -Fraction(11, 7)
+    assert Fraction(1250, 17) - 73 == Fraction(9, 17)
+    # At 66%, check one finite screen with positive long-run gain, and check
+    # its slope independently by iterating the two-state reward recursion.
+    q = Fraction(33, 50)
+    k = 18
+    slope = (1 - q) * Fraction(1, 9)**k * Fraction(9, 17) - q * Fraction(1, 10)**k * Fraction(11, 7)
+    assert slope > 0
+    gain = 0
+    for model, weight in enumerate((q, 1-q)):
+        def last_reward(grade_b):
+            a = model_probabilities(0, 1)[model]
+            b = model_probabilities(grade_b, -1)[model]
+            featured = Fraction(0)
+            for _ in range(80):
+                featured = featured * a + (1 - featured) * b
+            return featured * 100 * a + (1 - featured) * (100 * b - 8 * grade_b)
+        pair = model_probabilities(0, -1)[model] * (1 - model_probabilities(0, 1)[model])
+        gain += weight * pair**k * (last_reward(0) - last_reward(1))
+    assert abs(gain - slope) < slope / 10**12
+
+
 def policy_gains(orders, badge, transfer, contract):
     """Enumerate short decision trees. Keep a deviating plan even if its two gains are zero."""
     if orders == 0:
@@ -489,6 +563,7 @@ def main():
     no_learning_cutoff = verify_five_order_no_learning_range()
     verify_trial_elimination(no_learning_cutoff, fixed_cutoff)
     verify_general_contracts()
+    verify_original_horizons()
 
 
 if __name__ == "__main__":
