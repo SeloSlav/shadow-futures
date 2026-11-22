@@ -1,10 +1,12 @@
-"""Estimate quality and sublinear reinforcement from chronological binary awards.
+"""Estimate the permanent seller premium and sublinear reinforcement from awards.
 
 Section 5 of Learning Contribution from One Market History. Initial counts are
 zero, counts are never discounted, and 1 denotes a win for seller A. Example:
 
     echo 110010101001 | python full-memory-estimator.py
 
+With a fixed one-unit quality gap the seller premium combines quality and brand.
+The legacy output key "quality" is an alias for "seller_premium".
 The terminal share anchors a one-dimensional likelihood on a growing prefix.
 The estimator establishes consistency; its output is not a confidence interval.
 """
@@ -54,8 +56,9 @@ def fit(winners):
             else:
                 high = middle
         alpha = (low + high) / 2
+    premium = (1 - alpha) * anchor
     return {"awards": horizon, "prefix": prefix, "log_odds_anchor": anchor,
-            "reinforcement": alpha, "quality": (1 - alpha) * anchor}
+            "reinforcement": alpha, "seller_premium": premium, "quality": premium}
 
 
 if __name__ == "__main__":

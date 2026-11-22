@@ -1,6 +1,7 @@
 """Reproduce the two-state badge calculations in Learning Contribution from One Market History.
 
-Run with Python 3. No external packages, observations, or random seeds are required.
+Run with Python 3. Table 2 uses the permanent seller premium, called beta in
+this script. At a fixed one-unit quality gap it includes the brand advantage.
 """
 from math import exp, fsum, log
 from itertools import product
