@@ -133,9 +133,9 @@ export const COMPANION_PAPERS: readonly ResearchPaper[] = [
     title: "Learning Contribution from One Market History",
     focus: "Learning from adaptive allocations",
     description:
-      "Two models fit the same procurement awards and disagree about whether faster delivery pays. With five orders, trying standard first gains €0.04 when the rival keeps the badge and loses €2.94 when the latest winner takes it. Under the transferable badge, five optimal dispatch choices leave the vendor’s 66% belief in the high-return model unchanged on all 32 award sequences. The paper shows when an award history can identify the return to quality apart from brand.",
+      "Two models fit the same procurement awards and disagree about whether faster delivery pays. With five orders and the rival initially holding the badge, a vendor chooses standard delivery first under a fixed badge and fast delivery first under a transferable badge for priors between about 26.864% and 66.298% on the high-return model. At 66%, all 32 possible award sequences leave its belief unchanged under transfer. The paper shows when an award history can identify the return to quality apart from brand.",
     pdfPath: "/papers/learning-contribution-from-one-market-history.pdf",
-    pages: 31,
+    pages: 32,
     status: "Research draft",
     publishedDate: "2026-11-22",
     supplements: [

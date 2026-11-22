@@ -182,6 +182,64 @@ def verify_transferable_badge_histories():
     print("Transferable badge: verified 31 strict dispatch choices and a 66% posterior on all 32 histories.")
 
 
+def first_grade_gap(orders, prior, badge, transfer):
+    """Expected total profit with standard first minus profit with fast first."""
+    standard = dispatch_value(orders, prior, badge, transfer, 0)
+    fast = dispatch_value(orders, prior, badge, transfer, 1)
+    return standard - fast
+
+
+@lru_cache(maxsize=None)
+def prior_partition(orders, badge, transfer):
+    """Partition [0, 1] where both first-grade values and their maximum are affine."""
+    boundaries = {Fraction(0), Fraction(1)}
+    if orders == 0:
+        return tuple(sorted(boundaries))
+
+    for grade in (0, 1):
+        high, low = model_probabilities(grade, badge)
+        for prob_h, prob_l, winner in [(high, low, 1), (1 - high, 1 - low, -1)]:
+            next_badge = winner if transfer else badge
+            for posterior in prior_partition(orders - 1, next_badge, transfer):
+                # Invert Bayes' rule to find the prior that reaches this boundary.
+                prior = posterior * prob_l / ((1 - posterior) * prob_h + posterior * prob_l)
+                boundaries.add(prior)
+
+    # Between these boundaries each outcome probability times its continuation
+    # value is affine. A strict sign change therefore has one exact linear root.
+    knots = sorted(boundaries)
+    gaps = [first_grade_gap(orders, q, badge, transfer) for q in knots]
+    for left, right, g_left, g_right in zip(knots, knots[1:], gaps, gaps[1:]):
+        if g_left * g_right < 0:
+            root = left - (right - left) * g_left / (g_right - g_left)
+            boundaries.add(root)
+    return tuple(sorted(boundaries))
+
+
+def verify_prior_range():
+    # Every gap is affine on each partition interval. Its signs at all the
+    # boundaries certify the ordering everywhere, including zero and one.
+    fixed_cutoff = Fraction(4065536, 6132251)
+    transfer_cutoff = Fraction(5366848, 19978195)
+    rules = [(False, fixed_cutoff, 472392, "Fixed"), (True, transfer_cutoff, 3280500, "Transferable")]
+    for transfer, expected_cutoff, scale, label in rules:
+        knots = prior_partition(5, -1, transfer)
+        gaps = {q: first_grade_gap(5, q, -1, transfer) for q in knots}
+        ties = [q for q, gap in gaps.items() if gap == 0]
+        assert knots[0] == 0 and knots[-1] == 1 and ties == [expected_cutoff]
+        cutoff = ties[0]
+        assert all(gap * (cutoff - q) > 0 for q, gap in gaps.items() if q != cutoff)
+        # Verify the two adjacent pieces against the local euro formula in Section 9.3.
+        i = knots.index(cutoff)
+        for q in (knots[i-1], knots[i+1]):
+            assert gaps[q] == (cutoff.numerator - cutoff.denominator * q) / scale
+        print(f"{label} badge: a unique tie on the first order at {cutoff} ({100 * float(cutoff):.6f}%).")
+    assert transfer_cutoff < Fraction(16, 25) < Fraction(33, 50) < fixed_cutoff
+    assert fast_gain(Fraction(16, 25)) == 0
+    print("Strict reversal (standard first with a fixed badge, fast first under transfer): "
+          f"{transfer_cutoff} < prior < {fixed_cutoff}.")
+
+
 def main():
     print("Badge holder | Probability at grade 0 | Probability at grade 1 | Net gain")
     for badge, holder, expected in [(-1, "B", Fraction(2)), (1, "A", Fraction(-16, 7))]:
@@ -202,6 +260,7 @@ def main():
     verify_dispatch()
     verify_badge_comparison()
     verify_transferable_badge_histories()
+    verify_prior_range()
 
 
 if __name__ == "__main__":
