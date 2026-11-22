@@ -26,6 +26,7 @@ export const ACQUISITION_PAPER = {
   pdfPath: `${acquisitionPaperPath}.pdf`,
   evidencePath: `${acquisitionPaperPath}/evidence`,
   ledgerPath: `${acquisitionPaperPath}/acquisition-pilot-evidence.json`,
+  reviewPath: `${acquisitionPaperPath}/acquisition-independent-review.json`,
 };
 
 export const MAIN_RESEARCH_PAPER: ResearchPaper = {
@@ -45,9 +46,9 @@ export const COMPANION_PAPERS: readonly ResearchPaper[] = [
     title: "Institutions for Comparative Discovery in Scaling Markets",
     focus: "Institutions and governance",
     description:
-      "Examines how contracts, procurement, independent testing and shared infrastructure can assemble a worthwhile comparative experiment. A joint-permission model distinguishes participation, financing and coordination when separately controlled inputs are informative together.",
+      "The National Oncologic PET Registry shows how a payer, imaging facilities and referring physicians assembled evidence under conditional coverage. A joint-permission model explains when a sponsor can finance the necessary coordination.",
     pdfPath: "/papers/institutions-for-comparative-discovery.pdf",
-    pages: 23,
+    pages: 24,
     status: "Research draft",
   },
   {
@@ -56,9 +57,9 @@ export const COMPANION_PAPERS: readonly ResearchPaper[] = [
       "Endogenous Contestability and Technological Scale: Entry, Selection, and the Value of Comparison",
     focus: "Entry and technological scale",
     description:
-      "Models entry and access alongside productive scale. More entry need not produce more useful information: the analysis separates qualified challengers’ entry incentives, the value of their allocation signal, and the policy margins needed to preserve informative comparison.",
+      "When applicants privately know their prospects, entry itself conveys information. The paper derives its decision value and shows when tightening access lowers entry while raising the value of the comparisons that remain.",
     pdfPath: "/papers/endogenous-contestability-and-technological-scale.pdf",
-    pages: 23,
+    pages: 25,
     status: "Research draft",
   },
   {
@@ -67,19 +68,20 @@ export const COMPANION_PAPERS: readonly ResearchPaper[] = [
       "Measuring Comparison Opportunities in Adaptive Markets: Finite-Horizon Inference and Experimental Design",
     focus: "Measurement and experimental design",
     description:
-      "Develops a finite-horizon reporting and design protocol for comparison budgets, parameter information and discrimination. Reproducible synthetic experiments evaluate replications, response channels and reset persistence, with inference conditional on a declared model and nuisance class.",
+      "Two quality and reinforcement pairs yield the same long-run share. At 8,192 sales an optimal classifier still errs about 19% of the time under equal priors. A separate MusicLab application checks next-download forecasts in seven held-out worlds.",
     pdfPath: "/papers/measuring-comparison-opportunities.pdf",
-    pages: 29,
+    pages: 31,
     status: "Research draft",
+    supplements: [{ label: "Replication package (ZIP)", path: "/papers/measuring-comparison-opportunities/replication.zip" }],
   },
   {
     id: "forecast-agreement-and-counterfactual-warrant",
     title: "Forecast Agreement and Counterfactual Warrant in Adaptive Markets",
     focus: "Counterfactuals and methodology",
     description:
-      "Explains why agreeing forecasts can coexist with unresolved attribution. An evidence contract connects a claim to its intervention, observation channels, model restrictions and decision stakes, including a worked AI-procurement example that separates performance from contribution attribution.",
+      "A randomized procurement trial can justify buying a service while leaving its producer’s contribution to market rewards unresolved. A worked example specifies the outcomes, assumptions and evidence each claim requires.",
     pdfPath: "/papers/forecast-agreement-and-counterfactual-warrant.pdf",
-    pages: 24,
+    pages: 14,
     status: "Research draft",
   },
   {
@@ -87,20 +89,20 @@ export const COMPANION_PAPERS: readonly ResearchPaper[] = [
     title: "Competition Policy for Informative Market Access",
     focus: "Competition policy",
     description:
-      "Evaluates costed access remedies using a common decision rule across plausible models. Robust certificates and a hypothetical procurement comparison connect information to welfare, while retaining the statutory conditions of European competition and digital regulation.",
+      "A hypothetical fifteen-trial procurement pilot certifies a €103,207 gain under the stated signal law. Allowing 15% arbitrary contamination lowers the guarantee to −€3,024. The paper derives the accuracy and cost bounds needed to defend the decision.",
     pdfPath: "/papers/competition-policy-for-informative-market-access.pdf",
-    pages: 30,
+    pages: 29,
     status: "Research draft",
   },
   {
     id: "taxing-lost-comparison",
     title:
-      "Taxing Lost Comparison: Decision Information, Private Testing, and Costed Corrective Instruments",
+      "The Value of Replacing Lost Market Experiments",
     focus: "Corrective instruments and public testing",
     description:
-      "Derives a conditional corrective margin from a valued decision experiment. The model separates activity and private-testing incentives, shows when public testing crowds out private trials, and uses available replacement testing to cap the marginal welfare cost of lost organic comparison.",
+      "When an equivalent independent trial can replace lost market evidence, its resource cost caps the marginal loss. A drinking-water assay illustrates how to test decision equivalence and measure full replacement costs.",
     pdfPath: "/papers/taxing-lost-comparison.pdf",
-    pages: 25,
+    pages: 26,
     status: "Research draft",
   },
   {
@@ -108,13 +110,14 @@ export const COMPANION_PAPERS: readonly ResearchPaper[] = [
     title: "Product Continuation and Independent Experimentation after Software Acquisitions",
     focus: "Acquisitions and experimentation",
     description:
-      "Traces which products kept shipping across 22 software and digital marketplace deals reviewed by the UK Competition and Markets Authority. The study distinguishes continued shipment from who can authorize the next release and proposes a direct test of independent experimentation.",
+      "Tracks 29 product lines across 22 UK merger cases. A second AI coding pass agreed on 27 shipment classifications. The revised study traces interim restrictions and substitute owners, and distinguishes evidence of a release from evidence of who authorized it.",
     pdfPath: ACQUISITION_PAPER.pdfPath,
     evidencePath: ACQUISITION_PAPER.evidencePath,
-    pages: 27,
+    pages: 28,
     status: "Research draft",
     publishedDate: ACQUISITION_PAPER.publishedDate,
     supplements: [
+      { label: "Second AI coding and reconciliation (JSON)", path: ACQUISITION_PAPER.reviewPath },
       {
         label: "Evidence ledger (JSON)",
         path: ACQUISITION_PAPER.ledgerPath,
@@ -132,10 +135,11 @@ export const COMPANION_PAPERS: readonly ResearchPaper[] = [
     description:
       "A permanent winner’s badge and a transferable badge can yield identical comparison budgets and expected information. Only transfer lets one market learn both quality and rank. The paper characterizes which comparisons identify quality and proves that, when rankings retain every sale with sublinear reinforcement, fluctuations around the limiting share reveal both effects.",
     pdfPath: "/papers/learning-contribution-from-one-market-history.pdf",
-    pages: 25,
+    pages: 26,
     status: "Research draft",
     publishedDate: "2026-11-22",
     supplements: [
+      { label: "Independent AI mathematical review", path: "/papers/learning-contribution-from-one-market-history/mathematical-review.md" },
       {
         label: "Badge calculations and Table 1 (Python)",
         path: "/papers/learning-contribution-from-one-market-history/badge-calculations.py",

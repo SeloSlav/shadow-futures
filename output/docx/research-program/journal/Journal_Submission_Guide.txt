@@ -1,3 +1,13 @@
+SHADOW FUTURES JOURNAL AUTHOR VERSIONS
+Current revision, 22 November 2026
+
+The public collection contains the foundational paper and eight companion manuscripts. Current titles, abstracts, pagination and supplements are available at https://shadow-futures.vercel.app/papers. The replacement-cost paper is now titled The Value of Replacing Lost Market Experiments. Its original filename is retained for compatibility.
+
+The measurement supplement includes the same-share study, the earlier simulation and calibration experiments, and a MusicLab application. Listening totals are available by condition and downloads by event. Two separate AI agents performed the Appendix D review and the second acquisition coding. Their reports describe the scope and limitations of the reviews. Neither is external human peer review.
+
+OCTOBER 2026 SUBMISSION NOTES
+The following historical notes record the six original companion versions, their contemporary lengths and proposed journal fits.
+
 SHADOW FUTURES: JOURNAL ARTICLE AUTHOR VERSIONS
 Prepared 9 October 2026
 Author: Martin Erlic. No institutional affiliation.

@@ -170,6 +170,45 @@ def descriptive_checks(rows):
     return {"equal deal weights": deal_weighted, "omit one deal": omit_one, "strict reversal": tipping}
 
 
+def summarize_independent_review(rows, review_path):
+    review = json.loads(review_path.read_text(encoding="utf-8"))
+    baseline = {(row["deal"], row["product"]): row for row in rows}
+    reviewed = review["products"]
+    identifiers = [(row["deal"], row["product"]) for row in reviewed]
+    if len(set(identifiers)) != len(identifiers) or set(identifiers) != set(baseline):
+        raise ValueError("The independent review must cover every pilot line exactly once")
+    for key, row in zip(identifiers, reviewed):
+        first = baseline[key]
+        if (row["original_code"], row["original_overlap"], row["original_deal_route"]) != (
+            first["outcome"], first["overlap"], first["deal_outcome"]
+        ):
+            raise ValueError(f"Original coding differs between supplements: {key}")
+        for code, dated in (("second_ai_code", "second_ai_evidence_date"),
+                            ("reconciled_code", "reconciled_evidence_date")):
+            if row[code] not in {SHIP, STOP, *UNCERTAIN}:
+                raise ValueError(f"Unknown review state: {key}")
+            if row[code] != "unresolved":
+                lo, hi = evidence_interval(row[dated])
+                if not date.fromisoformat(row["anchor"]) <= lo <= hi <= date.fromisoformat(row["window_end"]):
+                    raise ValueError(f"Review evidence outside follow-up: {key}")
+    summary = review["comparison_summary"]
+    agreement = sum(row["original_code"] == row["second_ai_code"] for row in reviewed)
+    if summary["same_shipment_state"] != agreement or summary["rows"] != len(reviewed):
+        raise ValueError("Independent agreement count does not match the rows")
+    print(f"\nIndependent AI review: {agreement}/{len(reviewed)} exact outcome matches")
+    for field, label in (("original_code", "original"), ("second_ai_code", "second_ai"),
+                         ("reconciled_code", "reconciled")):
+        counts = Counter(row[field] for row in reviewed)
+        if any(counts[state] != count for state, count in summary[label].items()):
+            raise ValueError(f"Review summary differs from underlying rows: {label}")
+        print(f"{label}: {dict(counts)}")
+        for group in ("all", "direct"):
+            for route in (CLOSED, FELL_THROUGH):
+                subset = [r for r in reviewed if r["original_deal_route"] == route
+                          and (group == "all" or r["original_overlap"] == group)]
+                print(f"  {group}, {route}: {sum(r[field] == SHIP for r in subset)}/{len(subset)} confirmed")
+
+
 if __name__ == "__main__":
     screen = load_ledger()["screening"]
     cases = screen["candidate_records"]
@@ -188,3 +227,6 @@ if __name__ == "__main__":
               f"{100 * float(diff_lower):.1f} to {100 * float(diff_upper):.1f} pp")
     print("\nAdditional descriptive checks")
     print(json.dumps(descriptive_checks(rows), default=str, indent=2))
+    review_path = PATH.with_name("acquisition-independent-review.json")
+    if review_path.exists():
+        summarize_independent_review(rows, review_path)

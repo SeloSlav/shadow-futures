@@ -1,0 +1,119 @@
+{
+  "source_files": {
+    "1": {
+      "sha256": "ce864f8f562a4e46aa52da26210ad68569c06dfa3b470948493dc694766246f5",
+      "downloads": 657,
+      "unmarked_rows": 2
+    },
+    "2": {
+      "sha256": "aec431cf9582ea4db103907cb012009fdc62a484f4cc14c5e839877d4e37c6a0",
+      "downloads": 834,
+      "unmarked_rows": 0
+    },
+    "3": {
+      "sha256": "2ea86d66c7511ae56121babeadfee7046078713f8481673ff118398a71101fa0",
+      "downloads": 732,
+      "unmarked_rows": 1
+    },
+    "4": {
+      "sha256": "940aadbe2d3d53975ab61e82ed7853e17e406846135c000bd4d0160491852475",
+      "downloads": 871,
+      "unmarked_rows": 0
+    },
+    "5": {
+      "sha256": "3061d5145691c6ee94c7cd034ee9470886a258b7ddf0b7c7a1f9248134ff255c",
+      "downloads": 755,
+      "unmarked_rows": 0
+    },
+    "6": {
+      "sha256": "2174f56b6272b445547d70c9b3b79c27d6bfe705a520ac3497512612bc0a857c",
+      "downloads": 944,
+      "unmarked_rows": 0
+    },
+    "7": {
+      "sha256": "ef64b1691b4e3a0533f4df8484f265ea456f434f73a21d309cf96d89ee495db1",
+      "downloads": 1013,
+      "unmarked_rows": 0
+    },
+    "8": {
+      "sha256": "2974cf35f2b4fc7681ef1021c3bf45707a43700d42f17045e35ccc3b3eb06977",
+      "downloads": 819,
+      "unmarked_rows": 0
+    },
+    "9": {
+      "sha256": "bf67bdc8b042f4093da5d36228e218a5da8cd972341c070c2362886305c90392",
+      "downloads": 1578,
+      "unmarked_rows": 0
+    }
+  },
+  "alpha_world1": 0.3,
+  "world_scores": [
+    {
+      "world": 1,
+      "n": 657,
+      "score_gain_nats": 7.955193991539545,
+      "fitted_budget": 614.8792052318494,
+      "fixed_budget": 625.4833948339482
+    },
+    {
+      "world": 2,
+      "n": 834,
+      "score_gain_nats": 32.91208342499658,
+      "fitted_budget": 772.074212699978,
+      "fixed_budget": 793.9926199261989
+    },
+    {
+      "world": 3,
+      "n": 732,
+      "score_gain_nats": 34.9741922574467,
+      "fitted_budget": 682.8323602194819,
+      "fixed_budget": 696.8856088560883
+    },
+    {
+      "world": 4,
+      "n": 871,
+      "score_gain_nats": 19.038085137523467,
+      "fitted_budget": 819.1743565455938,
+      "fixed_budget": 829.2177121771215
+    },
+    {
+      "world": 5,
+      "n": 755,
+      "score_gain_nats": 26.123145891945114,
+      "fitted_budget": 700.9253829187916,
+      "fixed_budget": 718.7822878228781
+    },
+    {
+      "world": 6,
+      "n": 944,
+      "score_gain_nats": 2.25232943069841,
+      "fitted_budget": 891.1097674807208,
+      "fixed_budget": 898.7158671586712
+    },
+    {
+      "world": 7,
+      "n": 1013,
+      "score_gain_nats": 10.754519564334714,
+      "fitted_budget": 956.4246717061137,
+      "fixed_budget": 964.4059040590403
+    },
+    {
+      "world": 8,
+      "n": 819,
+      "score_gain_nats": 9.20375557597572,
+      "fitted_budget": 773.6187976180236,
+      "fixed_budget": 779.712177121771
+    }
+  ],
+  "held_out_downloads": 5968,
+  "held_out_score_gain": 135.2581112829207,
+  "published_experiment_1_listens": {
+    "social": 21971,
+    "independent": 5394
+  },
+  "published_experiment_1_downloads": {
+    "social": 6626,
+    "independent": 1578,
+    "reported_all": 8203
+  }
+}

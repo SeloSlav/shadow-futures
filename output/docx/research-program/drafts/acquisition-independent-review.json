@@ -1,0 +1,960 @@
+{
+  "title": "Independent AI review of product continuation after software acquisitions",
+  "review_date": "2026-11-22",
+  "version": 1,
+  "related_ledger": "acquisition-pilot-evidence.json",
+  "original_ledger_date": "2026-11-21",
+  "method": "A separate OpenAI Codex agent used the existing product roster, public source links, anchors, two-year follow-up and shipment rule. It read dated source materials, searched for supplementary primary evidence and recorded its first-pass outcomes for all 29 lines before inspecting the original row-level outcome values or explanations. It then compared the two sets and examined the disputed boundaries. The original overlap codes, case intake and primary-source selection were not independently rebuilt. Source discovery was shared; this was an AI-assisted reconstruction, without blinded independent human raters. The comparison tests classification of this roster, not completeness or empirical truth.",
+  "scope": "All 29 roster lines were assessed for shipment and business-level authority context. The four case histories give detailed timing and conditions for control. The remaining authority notes identify the operating or ownership context at the selected date and are not full governance audits.",
+  "codebook": {
+    "shipment": "Dated primary evidence of a material capability available to intended users, a live trial, or a completed deployment of the named line or a traceable successor.",
+    "activity": "An existing service, maintenance or use without a verified in-window shipment. Actual shipment status remains unknown.",
+    "cessation": "Positive evidence documenting termination of the named service.",
+    "unresolved": "Insufficient dated evidence even to classify activity or cessation.",
+    "authority": "The operating entity, original/substitute owner and documented consent arrangements at the evidence date. A purchaser, public spokesperson or regulator is a release signatory only if a source specifically assigns that decision. An airline, police force or practice may decide to adopt a release without controlling the supplier’s next release."
+  },
+  "comparison_summary": {
+    "rows": 29,
+    "deals": 22,
+    "unassessed": 0,
+    "same_shipment_state": 27,
+    "different_shipment_state": 2,
+    "agreement_fraction": "27/29",
+    "agreement_percent": 93.1,
+    "original": {
+      "confirmed shipment": 20,
+      "active only": 8,
+      "documented cessation": 1,
+      "unresolved": 0
+    },
+    "second_ai": {
+      "confirmed shipment": 20,
+      "active only": 8,
+      "documented cessation": 1,
+      "unresolved": 0
+    },
+    "reconciled": {
+      "confirmed shipment": 21,
+      "active only": 7,
+      "documented cessation": 1,
+      "unresolved": 0
+    },
+    "direct_overlap_closed_original_second_and_reconciled": "8/13",
+    "direct_overlap_abandoned_original_and_reconciled": "9/10",
+    "direct_overlap_abandoned_second": "8/10",
+    "all_lines_original": {
+      "closed": "10/18",
+      "abandoned": "10/11"
+    },
+    "all_lines_second": {
+      "closed": "11/18",
+      "abandoned": "9/11"
+    },
+    "all_lines_reconciled": {
+      "closed": "11/18",
+      "abandoned": "10/11"
+    },
+    "interpretation": "Agreement measures the four-state outcome, irrespective of date or which event establishes shipment. Dates are evidence dates or event months and need not be first releases. Reconciliation applies the published product-boundary rule to both readings. It supplies no independent accuracy estimate, causal estimate or reliability statistic for authority."
+  },
+  "authority_histories": {
+    "gbst": {
+      "unit": "GBST Composer wealth administration",
+      "chronology": [
+        [
+          "2019-11-05",
+          "FNZ acquisition anchor."
+        ],
+        [
+          "2019-11-14",
+          "CMA initial enforcement order, reissued November 22. The order required separate operation, resources for pre-merger development plans and preservation of ordinary-course management responsibilities. Departures specified in the order needed prior written CMA consent."
+        ],
+        [
+          "2020-04-30",
+          "GBST reported customer upgrades to the new cloud Composer version."
+        ],
+        [
+          "2020-05-13",
+          "Interim order continued separate operation and protection of development resources."
+        ],
+        [
+          "2021-07-25",
+          "GBST reported a bank’s completed migration to its latest Composer release. Client identity was withheld."
+        ],
+        [
+          "2021-11-05",
+          "End of window."
+        ],
+        [
+          "2021-12-22",
+          "Sale to Anchorage completed. Composer was in the wealth-management business retained by Anchorage. The capital-markets division followed a different path."
+        ]
+      ],
+      "who_could_act": "GBST management operated the separate business under the order. FNZ held legal title. The CMA could consent to specified departures. The evidence supports that allocation at the business level.",
+      "unknown": "GBST CEO Robert DeDominicis publicly described the client upgrades. His comments and the orders do not identify who approved either release, the payment authorizer, or a release-specific derogation.",
+      "sources": [
+        "https://assets.publishing.service.gov.uk/media/5f2bde6ad3bf7f1b1b53e7ea/Provisional_findings.pdf",
+        "https://assets.publishing.service.gov.uk/media/5ddbffa1ed915d01784dfe89/FNZ_Initial_Enforcement_Order__22.11.19_.pdf",
+        "https://assets.publishing.service.gov.uk/media/5ec2a91b86650c279020b33d/Interim_Order_FNZGBST.pdf",
+        "https://gbst.com/news/gbst-delivers-milestone-first-release-of-new-cloud-based-composer-platform-for-australian-wealth-management-clients/",
+        "https://gbst.com/news/tier-1-global-investment-bank-completes-successful-cloud-deployment-on-gbsts-composer-platform/",
+        "https://www.gov.uk/cma-cases/fnz-gbst-merger-inquiry",
+        "https://gbst.com/news/fnz-completes-the-sale-of-gbst-to-anchorage-capital-partners-with-fnz-to-reacquire-gbsts-capital-markets-division/"
+      ]
+    },
+    "tmgroup": {
+      "unit": "tmConvey",
+      "chronology": [
+        [
+          "2021-07-08",
+          "Dye & Durham acquisition anchor."
+        ],
+        [
+          "2021-08-27",
+          "CMA initial order required separate operation, development resources and ordinary-course management. The CMA varied the order on September 30, 2021."
+        ],
+        [
+          "2022-08-03",
+          "CMA final report required sale."
+        ],
+        [
+          "2022-09-22",
+          "TM Group and CDS reported that additional AP1 filing features were available to users. Final undertakings were still at proposal stage."
+        ],
+        [
+          "2022-10-13",
+          "CMA accepted final undertakings pending disposal."
+        ],
+        [
+          "2023-07-08",
+          "End of window."
+        ],
+        [
+          "2023-08-03",
+          "Aurelius acquisition completed."
+        ]
+      ],
+      "who_could_act": "TM Group remained the separately operated supplier during the release. Its parent was subject to the CMA order. CMA consent was reserved for specified departures.",
+      "unknown": "The trade outlet published the target’s account and named product manager Joanna King. It establishes her product role and live functions. It does not establish unilateral sign-off by King, Dye & Durham, a monitoring trustee, HM Land Registry or the CMA.",
+      "sources": [
+        "https://www.gov.uk/cma-cases/dye-and-durham-uk-limited-slash-tm-group-uk-limited-merger-inquiry",
+        "https://assets.publishing.service.gov.uk/media/612e4d65e90e0705445c3ef8/DD_TMG_-_IEO_310821.pdf",
+        "https://assets.publishing.service.gov.uk/media/62fa212fd3bf7f4c68cead78/Derogation_12-August_2022.pdf",
+        "https://todaysconveyancer.co.uk/tmgroup-cds-enhance-digital-ap1-service-ahead-hmlrs-november-deadline/",
+        "https://assets.publishing.service.gov.uk/media/63482026d3bf7f6188c95a73/Final-Undertakings-D-D.pdf"
+      ]
+    },
+    "farelogix": {
+      "unit": "FLX NDC distribution and FLX Merchandise rules engine",
+      "chronology": [
+        [
+          "2020-05-01",
+          "Sabre–Farelogix abandonment anchor."
+        ],
+        [
+          "2020-07-27",
+          "Accelya announced completion. Farelogix CEO Jim Davidson was appointed chief product officer of the enlarged group and the announcement described management integration."
+        ],
+        [
+          "2021-02-16",
+          "Hawaiian and Accelya identified previously deployed FLX Merchandise and the Open Connect/NDC implementation underway."
+        ],
+        [
+          "2021-03-30",
+          "Air France-KLM announced its agreement for FLX Merchandise. The trial described in this announcement was prospective."
+        ],
+        [
+          "2021-09-16",
+          "Accelya said the teams, brand and product portfolios had been integrated."
+        ],
+        [
+          "2022-02-02",
+          "Accelya confirmed Hawaiian’s HA Connect distribution implementation had launched. Hawaiian’s own presentation identified the Farelogix NDC API."
+        ],
+        [
+          "2022-05-01",
+          "End of window."
+        ]
+      ],
+      "who_could_act": "At the dated product observations Accelya held corporate authority. Davidson had a documented group product remit. Hawaiian could authorize adoption and use in its own distribution channels.",
+      "unknown": "These records do not show whether Davidson, another executive or a committee approved the next vendor release or which commitments came from a customer. Launch of distribution does not demonstrate a new shipment of the rules engine.",
+      "sources": [
+        "https://www.justice.gov/archives/opa/pr/statement-assistant-attorney-general-makan-delrahim-sabre-and-farelogix-decision-abandon",
+        "https://w3.accelya.com/resources/press-releases/accelya-completes-acquisition-of-farelogix/",
+        "https://w3.accelya.com/resources/blogs/a-single-stronger-accelya-for-greater-flexibility-and-choice/",
+        "https://w3.accelya.com/resources/press-releases/accelya-partners-with-hawaiian-airlines-for-ndc-enabled-retailing-capabilities/",
+        "https://w3.accelya.com/resources/press-releases/air-france-klm-partners-with-accelya-to-deliver-personalized-dynamic-and-bundled-offers/",
+        "https://w3.accelya.com/resources/press-releases/accelya-powers-hawaiian-airlines-landmark-ndc-distribution-strategy/",
+        "https://img.s-hawaiianairlines.com/static/ha-connect/ha-announces-changes-to-our-distribution-strategy-for-us-point-of-sale-summary.pdf"
+      ]
+    },
+    "stubhub": {
+      "unit": "UK-facing resale marketplace",
+      "chronology": [
+        [
+          "2020-02-07",
+          "CMA initial order required separate operation and pre-merger development resources, subject to the specified consent route."
+        ],
+        [
+          "2020-02-13",
+          "viagogo acquisition anchor."
+        ],
+        [
+          "2021-02-02",
+          "CMA required sale of StubHub International."
+        ],
+        [
+          "2021-09-03",
+          "CMA records completion of the sale to Digital Fuel."
+        ],
+        [
+          "2021-09-08",
+          "Purchaser identified the UK as part of the carve-out and Wayne Grierson as StubHub International general manager. Its announcement described the live resale marketplace."
+        ],
+        [
+          "2022-02-13",
+          "End of window."
+        ]
+      ],
+      "who_could_act": "The separate StubHub operation was protected during the order. Following divestiture, the UK business operated under StubHub International management and Digital Fuel ownership. US and Canadian operations were excluded.",
+      "unknown": "The announcement gives no product change, release decision or individual approval. A new owner or a continuing marketplace leaves the shipment outcome unknown.",
+      "sources": [
+        "https://www.gov.uk/cma-cases/viagogo-stubhub-merger-inquiry",
+        "https://assets.publishing.service.gov.uk/media/5e4136c3ed915d0956ae52b6/viagogo_-_StubHub_-_IEO_-_Final_for_Publication.pdf",
+        "https://digitalfuelcapital.com/news/stubhub-international-gains-independence",
+        "https://support.stubhub.co.uk/en/support/solutions/articles/80000695369-stubhub-business-separation-site-downtime-updates"
+      ]
+    }
+  },
+  "products": [
+    {
+      "deal": "vmware",
+      "product": "vSphere server virtualisation",
+      "original_deal_route": "closed",
+      "original_overlap": "no direct overlap established",
+      "anchor": "2023-11-22",
+      "window_end": "2025-11-22",
+      "original_code": "confirmed shipment",
+      "original_evidence_date": "2025-06-17",
+      "original_evidence_url": "https://blogs.vmware.com/cloud-foundation/2025/06/17/now-available-vmware-vsphere-foundation-9-0/",
+      "second_ai_code": "confirmed shipment",
+      "second_ai_evidence_date": "2025-06-17",
+      "second_ai_evidence": "VMware announces vSphere Foundation 9.0 general availability. Version and virtualization functionality are identified.",
+      "authority_at_evidence": "Broadcom group",
+      "release_specific_decision": "No identified person or body is documented as approving the specific vendor release in the reviewed material.",
+      "second_ai_sources": [
+        "https://blogs.vmware.com/cloud-foundation/2025/06/17/now-available-vmware-vsphere-foundation-9-0/",
+        "https://www.gov.uk/cma-cases/broadcom-slash-vmware-merger-inquiry"
+      ],
+      "transaction_anchor_source": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-completes-acquisition-vmware",
+      "comparison": "same shipment state",
+      "reconciled_code": "confirmed shipment",
+      "reconciled_evidence_date": "2025-06-17"
+    },
+    {
+      "deal": "vmware",
+      "product": "Carbon Black Cloud Endpoint Standard",
+      "original_deal_route": "closed",
+      "original_overlap": "direct",
+      "anchor": "2023-11-22",
+      "window_end": "2025-11-22",
+      "original_code": "confirmed shipment",
+      "original_evidence_date": "2024-01-31",
+      "original_evidence_url": "https://developer.carbonblack.com/blog",
+      "second_ai_code": "confirmed shipment",
+      "second_ai_evidence_date": "2024-01-31",
+      "second_ai_evidence": "Carbon Black Developer Network announces event reporting and sensor exclusions and identifies the permissions and policy changes available to Endpoint Standard customers.",
+      "authority_at_evidence": "Broadcom group at this release",
+      "release_specific_decision": "No identified person or body is documented as approving the specific vendor release in the reviewed material.",
+      "second_ai_sources": [
+        "https://developer.carbonblack.com/2024/01/announcing-the-event-reporting-and-sensor-operation-exclusions-feature/",
+        "https://www.gov.uk/cma-cases/broadcom-slash-vmware-merger-inquiry"
+      ],
+      "transaction_anchor_source": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-completes-acquisition-vmware",
+      "comparison": "same shipment state",
+      "reconciled_code": "confirmed shipment",
+      "reconciled_evidence_date": "2024-01-31"
+    },
+    {
+      "deal": "avast",
+      "product": "Avast consumer antivirus",
+      "original_deal_route": "closed",
+      "original_overlap": "direct",
+      "anchor": "2022-09-12",
+      "window_end": "2024-09-12",
+      "original_code": "confirmed shipment",
+      "original_evidence_date": "2024-03-05",
+      "original_evidence_url": "https://community.avast.com/t/new-avast-version-24-2/773530",
+      "second_ai_code": "confirmed shipment",
+      "second_ai_evidence_date": "2024-03-05",
+      "second_ai_evidence": "The Avast staff release post dates 24.2 to March 5. New free installations include the firewall by default.",
+      "authority_at_evidence": "NortonLifeLock/Gen group",
+      "release_specific_decision": "No identified person or body is documented as approving the specific vendor release in the reviewed material.",
+      "second_ai_sources": [
+        "https://community.avast.com/t/new-avast-version-24-2/773530",
+        "https://www.gov.uk/cma-cases/nortonlifelock-inc-slash-avast-plc-merger-inquiry"
+      ],
+      "transaction_anchor_source": "https://www.sec.gov/Archives/edgar/data/849399/000110465922099111/tm2225494d3_ex99-01.htm",
+      "comparison": "same shipment state",
+      "reconciled_code": "confirmed shipment",
+      "reconciled_evidence_date": "2024-03-05"
+    },
+    {
+      "deal": "avast",
+      "product": "Avast SecureLine VPN",
+      "original_deal_route": "closed",
+      "original_overlap": "direct",
+      "anchor": "2022-09-12",
+      "window_end": "2024-09-12",
+      "original_code": "active only",
+      "original_evidence_date": "2023-11-15",
+      "original_evidence_url": "https://apps.apple.com/us/app/avast-vpn-secure-fast/id793096595?ls=1",
+      "second_ai_code": "active only",
+      "second_ai_evidence_date": "2023-11-15",
+      "second_ai_evidence": "The App Store version history dates 6.9.1 to November 15. In-window updates describe fixes. Pair Devices was already identified as an earlier feature in the pre-close history. The listing covers Apple platforms.",
+      "authority_at_evidence": "NortonLifeLock/Gen group",
+      "release_specific_decision": "No identified person or body is documented as approving the specific vendor release in the reviewed material.",
+      "second_ai_sources": [
+        "https://apps.apple.com/us/app/avast-vpn-secure-fast/id793096595?platform=vision",
+        "https://www.gov.uk/cma-cases/nortonlifelock-inc-slash-avast-plc-merger-inquiry"
+      ],
+      "transaction_anchor_source": "https://www.sec.gov/Archives/edgar/data/849399/000110465922099111/tm2225494d3_ex99-01.htm",
+      "comparison": "same shipment state",
+      "reconciled_code": "active only",
+      "reconciled_evidence_date": "2023-11-15"
+    },
+    {
+      "deal": "emis",
+      "product": "EMIS Web primary care records",
+      "original_deal_route": "closed",
+      "original_overlap": "no direct overlap established",
+      "anchor": "2023-10-27",
+      "window_end": "2025-10-27",
+      "original_code": "active only",
+      "original_evidence_date": "2025-01-14",
+      "original_evidence_url": "https://www.find-tender.service.gov.uk/Notice/001183-2025",
+      "second_ai_code": "confirmed shipment",
+      "second_ai_evidence_date": "2024-05-14",
+      "second_ai_evidence": "EMIS reports that its companion app with clinical views and messaging was live for 3,745 English GP practices. The app ran alongside EMIS Web and exposed its clinical records. This is an extension of the named workflow, not evidence of full platform replacement.",
+      "authority_at_evidence": "UnitedHealth/Optum group",
+      "release_specific_decision": "No identified person or body is documented as approving the specific vendor release in the reviewed material.",
+      "second_ai_sources": [
+        "https://www.emishealth.com/news-insights/emis-x-now-available-for-all-gp-practices-in-england",
+        "https://www.gov.uk/cma-cases/unitedhealth-group-slash-emis-merger-inquiry"
+      ],
+      "transaction_anchor_source": "https://www.optum.co.uk/content/dam/optumUK/PDFs/Announcement-of-Scheme-becoming-effective.pdf",
+      "comparison": "different shipment state",
+      "reconciled_code": "confirmed shipment",
+      "reconciled_evidence_date": "2024-05-14",
+      "reconciliation": "The original procurement document is evidence of adoption. A separate contemporaneous EMIS report documents a live companion app and new record views within the pre-existing GP workflow. The paper’s traceable-extension rule admits this release. A definition restricted to the core EMIS Web binary would preserve the original call.",
+      "reconciliation_sources": [
+        "https://www.emishealth.com/news-insights/emis-x-now-available-for-all-gp-practices-in-england",
+        "https://www.find-tender.service.gov.uk/Notice/001183-2025"
+      ]
+    },
+    {
+      "deal": "figma",
+      "product": "Figma Design",
+      "original_deal_route": "fell through",
+      "original_overlap": "direct",
+      "anchor": "2023-12-18",
+      "window_end": "2025-12-18",
+      "original_code": "confirmed shipment",
+      "original_evidence_date": "2025-05",
+      "original_evidence_url": "https://help.figma.com/hc/en-us/articles/31351261703063-FD4B-Auto-layout-fundamentals",
+      "second_ai_code": "confirmed shipment",
+      "second_ai_evidence_date": "2025-05-07",
+      "second_ai_evidence": "Figma announced a grid option for responsive layouts. Its Design help page independently identifies introduction in May 2025.",
+      "authority_at_evidence": "Figma",
+      "release_specific_decision": "No identified person or body is documented as approving the specific vendor release in the reviewed material.",
+      "second_ai_sources": [
+        "https://www.figma.com/blog/config-2025-press-release/",
+        "https://help.figma.com/hc/en-us/articles/31351261703063-FD4B-Auto-layout-fundamentals",
+        "https://www.gov.uk/cma-cases/adobe-slash-figma-merger-inquiry"
+      ],
+      "transaction_anchor_source": "https://www.sec.gov/Archives/edgar/data/796343/000079634323000254/adbedecember182023pressrel.htm",
+      "comparison": "same shipment state",
+      "reconciled_code": "confirmed shipment",
+      "reconciled_evidence_date": "2025-05",
+      "comparison_note": "The issuer described a rollout at Config and its help page confirms introduction in May. The independent date is the announcement, not a verified day of general availability; retain month precision for shipment."
+    },
+    {
+      "deal": "figma",
+      "product": "FigJam whiteboarding",
+      "original_deal_route": "fell through",
+      "original_overlap": "no direct overlap established",
+      "anchor": "2023-12-18",
+      "window_end": "2025-12-18",
+      "original_code": "confirmed shipment",
+      "original_evidence_date": "2025-12-10",
+      "original_evidence_url": "https://www.figma.com/blog/introducing-three-new-tools-for-precise-image-editing-in-figma/",
+      "second_ai_code": "confirmed shipment",
+      "second_ai_evidence_date": "2024-12-04",
+      "second_ai_evidence": "Figma reports shipped support for generating a slide-deck outline from a live FigJam session. The dated year review also documents user uptake of whiteboard mind maps. The record date is an upper bound on availability.",
+      "authority_at_evidence": "Figma",
+      "release_specific_decision": "No identified person or body is documented as approving the specific vendor release in the reviewed material.",
+      "second_ai_sources": [
+        "https://www.figma.com/blog/figma-2024-we-shipped-it-you-shaped-it/",
+        "https://www.gov.uk/cma-cases/adobe-slash-figma-merger-inquiry"
+      ],
+      "transaction_anchor_source": "https://www.sec.gov/Archives/edgar/data/796343/000079634323000254/adbedecember182023pressrel.htm",
+      "comparison": "same shipment state",
+      "reconciled_code": "confirmed shipment",
+      "reconciled_evidence_date": "2024-12-04",
+      "comparison_note": "Different feature and source record from the first ledger."
+    },
+    {
+      "deal": "outbrain",
+      "product": "Smartfeed publisher recommendations",
+      "original_deal_route": "fell through",
+      "original_overlap": "direct",
+      "anchor": "2020-09-14",
+      "window_end": "2022-09-14",
+      "original_code": "confirmed shipment",
+      "original_evidence_date": "2022-01",
+      "original_evidence_url": "https://www.outbrain.com/blog/wp-content/uploads/2022/01/78715_OB-Case-Prisma-Media_EN_D1-1.pdf",
+      "second_ai_code": "confirmed shipment",
+      "second_ai_evidence_date": "2022-01",
+      "second_ai_evidence": "Outbrain records an actual Prisma Media Smartlogic trial and outcomes on pre-existing Smartfeeds. January dates the case-study file directory, supported by 2022 copyright. The first day of the trial is unspecified.",
+      "authority_at_evidence": "Outbrain",
+      "release_specific_decision": "No identified person or body is documented as approving the specific vendor release in the reviewed material.",
+      "second_ai_sources": [
+        "https://www.outbrain.com/blog/wp-content/uploads/2022/01/78715_OB-Case-Prisma-Media_EN_D1-1.pdf",
+        "https://www.gov.uk/cma-cases/taboola-outbrain-merger-inquiry"
+      ],
+      "transaction_anchor_source": "https://www.gov.uk/government/news/digital-advertising-merger-to-be-abandoned-during-cma-investigation",
+      "comparison": "same shipment state",
+      "reconciled_code": "confirmed shipment",
+      "reconciled_evidence_date": "2022-01"
+    },
+    {
+      "deal": "outbrain",
+      "product": "Amplify advertiser platform",
+      "original_deal_route": "fell through",
+      "original_overlap": "direct",
+      "anchor": "2020-09-14",
+      "window_end": "2022-09-14",
+      "original_code": "confirmed shipment",
+      "original_evidence_date": "2022-08-23",
+      "original_evidence_url": "https://www.outbrain.com/help/product-releases/?wtime=0s",
+      "second_ai_code": "confirmed shipment",
+      "second_ai_evidence_date": "2022-02-16",
+      "second_ai_evidence": "Outbrain announces the release of automatic campaign bid optimization and describes use by advertisers. Its dashboard guide ties bid strategies to the named campaign tool.",
+      "authority_at_evidence": "Outbrain",
+      "release_specific_decision": "No identified person or body is documented as approving the specific vendor release in the reviewed material.",
+      "second_ai_sources": [
+        "https://www.globenewswire.com/news-release/2022/02/16/2386347/0/en/Outbrain-Releases-Engagement-Bid-Strategy-an-AI-Based-Campaign-Optimization-Tool-Built-for-a-Cookieless-World.html?f=22&fvtc=5&fvtv=37025363",
+        "https://www.outbrain.com/blog/guide-get-to-know-the-amplify-dashboard-for-native-advertising/",
+        "https://www.gov.uk/cma-cases/taboola-outbrain-merger-inquiry"
+      ],
+      "transaction_anchor_source": "https://www.gov.uk/government/news/digital-advertising-merger-to-be-abandoned-during-cma-investigation",
+      "comparison": "same shipment state",
+      "reconciled_code": "confirmed shipment",
+      "reconciled_evidence_date": "2022-02-16",
+      "comparison_note": "Different material release within the same named offering."
+    },
+    {
+      "deal": "farelogix",
+      "product": "FLX Open Connect and NDC distribution",
+      "original_deal_route": "fell through",
+      "original_overlap": "direct",
+      "anchor": "2020-05-01",
+      "window_end": "2022-05-01",
+      "original_code": "confirmed shipment",
+      "original_evidence_date": "2021-09-16",
+      "original_evidence_url": "https://w3.accelya.com/resources/blogs/a-single-stronger-accelya-for-greater-flexibility-and-choice/",
+      "second_ai_code": "confirmed shipment",
+      "second_ai_evidence_date": "2022-02-02",
+      "second_ai_evidence": "Accelya confirms Hawaiian had launched HA Connect using its NDC API. The earlier airline/vendor announcement names both FLX Open Connect and the NDC API in this deployment. This verifies a customer launch by the report date.",
+      "authority_at_evidence": "Accelya group / former Farelogix leadership",
+      "release_specific_decision": "No identified person or body is documented as approving the specific vendor release in the reviewed material.",
+      "second_ai_sources": [
+        "https://w3.accelya.com/resources/press-releases/accelya-powers-hawaiian-airlines-landmark-ndc-distribution-strategy/",
+        "https://w3.accelya.com/resources/press-releases/accelya-partners-with-hawaiian-airlines-for-ndc-enabled-retailing-capabilities/",
+        "https://w3.accelya.com/resources/press-releases/accelya-completes-acquisition-of-farelogix/",
+        "https://www.gov.uk/cma-cases/sabre-farelogix-merger-inquiry"
+      ],
+      "transaction_anchor_source": "https://www.justice.gov/archives/opa/pr/statement-assistant-attorney-general-makan-delrahim-sabre-and-farelogix-decision-abandon",
+      "comparison": "same shipment state",
+      "reconciled_code": "confirmed shipment",
+      "reconciled_evidence_date": "2022-02-02",
+      "comparison_note": "Additional customer-specific evidence establishes deployment of the NDC successor independent of the general platform announcement."
+    },
+    {
+      "deal": "farelogix",
+      "product": "FLX Merchandise rules engine",
+      "original_deal_route": "fell through",
+      "original_overlap": "direct",
+      "anchor": "2020-05-01",
+      "window_end": "2022-05-01",
+      "original_code": "active only",
+      "original_evidence_date": "2021-02-16",
+      "original_evidence_url": "https://w3.accelya.com/resources/press-releases/accelya-partners-with-hawaiian-airlines-for-ndc-enabled-retailing-capabilities/",
+      "second_ai_code": "active only",
+      "second_ai_evidence_date": "2021-02-16",
+      "second_ai_evidence": "Hawaiian was still using FLX Merchandise to sell ancillaries after adopting it in 2014. Air France-KLM signed for a trial described in the future tense in March 2021. Neither record identifies completed new shipment of this rules engine.",
+      "authority_at_evidence": "Accelya group / former Farelogix leadership",
+      "release_specific_decision": "No identified person or body is documented as approving the specific vendor release in the reviewed material.",
+      "second_ai_sources": [
+        "https://w3.accelya.com/resources/press-releases/accelya-partners-with-hawaiian-airlines-for-ndc-enabled-retailing-capabilities/",
+        "https://w3.accelya.com/resources/press-releases/air-france-klm-partners-with-accelya-to-deliver-personalized-dynamic-and-bundled-offers/",
+        "https://w3.accelya.com/resources/press-releases/accelya-completes-acquisition-of-farelogix/",
+        "https://www.gov.uk/cma-cases/sabre-farelogix-merger-inquiry"
+      ],
+      "transaction_anchor_source": "https://www.justice.gov/archives/opa/pr/statement-assistant-attorney-general-makan-delrahim-sabre-and-farelogix-decision-abandon",
+      "comparison": "same shipment state",
+      "reconciled_code": "active only",
+      "reconciled_evidence_date": "2021-02-16"
+    },
+    {
+      "deal": "giphy",
+      "product": "Paid Alignment advertising",
+      "original_deal_route": "closed",
+      "original_overlap": "potential",
+      "anchor": "2020-05-15",
+      "window_end": "2022-05-15",
+      "original_code": "documented cessation",
+      "original_evidence_date": "2020-05-15",
+      "original_evidence_url": "https://www.gov.uk/government/news/cma-directs-facebook-to-sell-giphy",
+      "second_ai_code": "documented cessation",
+      "second_ai_evidence_date": "2020-05-15",
+      "second_ai_evidence": "The CMA attributes termination of the target advertising service to Facebook at the merger. This observation precedes the June separation order. The November 2021 release is the reporting date.",
+      "authority_at_evidence": "Facebook at closing",
+      "release_specific_decision": "CMA attributes the stop at closing to Facebook; individual signatory undisclosed.",
+      "second_ai_sources": [
+        "https://www.gov.uk/government/news/cma-directs-facebook-to-sell-giphy",
+        "https://www.gov.uk/cma-cases/facebook-inc-giphy-inc-merger-inquiry"
+      ],
+      "transaction_anchor_source": "https://assets.publishing.service.gov.uk/media/61a4bfa2e90e07044a559d57/Facebook_GIPHY_-_Summary_of_Final_Report.pdf",
+      "comparison": "same shipment state",
+      "reconciled_code": "documented cessation",
+      "reconciled_evidence_date": "2020-05-15"
+    },
+    {
+      "deal": "giphy",
+      "product": "GIF search and embedding tools",
+      "original_deal_route": "closed",
+      "original_overlap": "no direct overlap established",
+      "anchor": "2020-05-15",
+      "window_end": "2022-05-15",
+      "original_code": "confirmed shipment",
+      "original_evidence_date": "2022-02-01",
+      "original_evidence_url": "https://github.com/Giphy/giphy-react-native-sdk/blob/main/CHANGELOG.md#150-2022-02-01",
+      "second_ai_code": "confirmed shipment",
+      "second_ai_evidence_date": "2022-02-01",
+      "second_ai_evidence": "The GIPHY React Native SDK changelog for 1.5.0 documents deep-press previews and a context menu. The CMA directed the parties to appoint a hold-separate manager in July 2020. The changelog does not identify who approved the feature.",
+      "authority_at_evidence": "GIPHY under CMA separation measures / Meta ownership",
+      "release_specific_decision": "No identified person or body is documented as approving the specific vendor release in the reviewed material.",
+      "second_ai_sources": [
+        "https://github.com/Giphy/giphy-react-native-sdk/blob/main/CHANGELOG.md#150-2022-02-01",
+        "https://www.gov.uk/cma-cases/facebook-inc-giphy-inc-merger-inquiry"
+      ],
+      "transaction_anchor_source": "https://assets.publishing.service.gov.uk/media/61a4bfa2e90e07044a559d57/Facebook_GIPHY_-_Summary_of_Final_Report.pdf",
+      "comparison": "same shipment state",
+      "reconciled_code": "confirmed shipment",
+      "reconciled_evidence_date": "2022-02-01"
+    },
+    {
+      "deal": "epg",
+      "product": "Experian Payments Gateway",
+      "original_deal_route": "closed",
+      "original_overlap": "direct",
+      "anchor": "2019-03-06",
+      "window_end": "2021-03-06",
+      "original_code": "active only",
+      "original_evidence_date": "2020-03-17",
+      "original_evidence_url": "https://assets.publishing.service.gov.uk/media/5e7211cee90e070ac30a9580/Bottomline_Experian_final_report.pdf",
+      "second_ai_code": "active only",
+      "second_ai_evidence_date": "2020-03-17",
+      "second_ai_evidence": "CMA final report paragraph 8.44(a) records active, paying EPG customers. A February consent permitted ordering hardware security modules. It supplies neither a deployment receipt nor a material software release.",
+      "authority_at_evidence": "Bottomline / EPG; clearance at report date",
+      "release_specific_decision": "No identified person or body is documented as approving the specific vendor release in the reviewed material.",
+      "second_ai_sources": [
+        "https://assets.publishing.service.gov.uk/media/5e7211cee90e070ac30a9580/Bottomline_Experian_final_report.pdf",
+        "https://assets.publishing.service.gov.uk/media/5e553a65d3bf7f39392d6b95/Derogation_letter_HSM_supply_final_20200219_redacted.pdf",
+        "https://www.gov.uk/cma-cases/bottomline-technologies-de-inc-experian-limited-merger-inquiry"
+      ],
+      "transaction_anchor_source": "https://assets.publishing.service.gov.uk/media/5dc43a11e5274a4f21cc6402/bottomline_experian_full_text_decision.pdf",
+      "comparison": "same shipment state",
+      "reconciled_code": "active only",
+      "reconciled_evidence_date": "2020-03-17"
+    },
+    {
+      "deal": "capita",
+      "product": "SSS DS3000 control room communications",
+      "original_deal_route": "closed",
+      "original_overlap": "direct",
+      "anchor": "2022-01-03",
+      "window_end": "2024-01-03",
+      "original_code": "active only",
+      "original_evidence_date": "2023-12-14",
+      "original_evidence_url": "https://mycouncil.oxfordshire.gov.uk/documents/g7343/Public%20reports%20pack%20Thursday%2014-Dec-2023%2014.00%20Thames%20Valley%20Fire%20Control%20Joint%20Committee.pdf?T=10",
+      "second_ai_code": "active only",
+      "second_ai_evidence_date": "2023-12-14",
+      "second_ai_evidence": "Thames Valley Fire Control papers, agenda pack p. 21 (PDF p. 23), identify a DS3000 support agreement and future hardware refresh. The delivery and installation were budgeted for 2024/25. The CMA closure note identifies the divested ICCS business as NEC’s pre-merger business.",
+      "authority_at_evidence": "SSS under NEC; buyer-side ICCS business divested",
+      "release_specific_decision": "No identified person or body is documented as approving the specific vendor release in the reviewed material.",
+      "second_ai_sources": [
+        "https://mycouncil.oxfordshire.gov.uk/documents/g7343/Public%20reports%20pack%20Thursday%2014-Dec-2023%2014.00%20Thames%20Valley%20Fire%20Control%20Joint%20Committee.pdf?T=10",
+        "https://assets.publishing.service.gov.uk/media/64d0bcb7e5491a00134b5905/NEC_SSS_Case_closure_summary__.pdf",
+        "https://www.gov.uk/cma-cases/nec-software-solutions-uk-slash-capita-secure-solutions-and-services-merger-inquiry"
+      ],
+      "transaction_anchor_source": "https://assets.publishing.service.gov.uk/media/64d0bcb7e5491a00134b5905/NEC_SSS_Case_closure_summary__.pdf",
+      "comparison": "same shipment state",
+      "reconciled_code": "active only",
+      "reconciled_evidence_date": "2023-12-14"
+    },
+    {
+      "deal": "capita",
+      "product": "SSS Origin duties management",
+      "original_deal_route": "closed",
+      "original_overlap": "direct",
+      "anchor": "2022-01-03",
+      "window_end": "2024-01-03",
+      "original_code": "confirmed shipment",
+      "original_evidence_date": "2023-11",
+      "original_evidence_url": "https://www.staffordshire.police.uk/SysSiteAssets/foi-media/staffordshire/2024-published-foi-requests/june/foi-16579-systems-used-by-the-force.pdf",
+      "second_ai_code": "confirmed shipment",
+      "second_ai_evidence_date": "2023-11",
+      "second_ai_evidence": "Staffordshire Police, FOI 16579 of June 6, 2024, dates the Origin duty-management implementation to November 2023. The Mayor’s Office traces CARM to Zetron. The buyer’s CARM and target’s Origin were competing products.",
+      "authority_at_evidence": "SSS under NEC; buyer-side CARM divested",
+      "release_specific_decision": "No identified person or body is documented as approving the specific vendor release in the reviewed material.",
+      "second_ai_sources": [
+        "https://www.staffordshire.police.uk/SysSiteAssets/foi-media/staffordshire/2024-published-foi-requests/june/foi-16579-systems-used-by-the-force.pdf",
+        "https://www.london.gov.uk/media/104683/download",
+        "https://assets.publishing.service.gov.uk/media/63e66d86d3bf7f05b995c9fc/NEC_SSS_Final_undertakings.pdf",
+        "https://www.gov.uk/cma-cases/nec-software-solutions-uk-slash-capita-secure-solutions-and-services-merger-inquiry"
+      ],
+      "transaction_anchor_source": "https://assets.publishing.service.gov.uk/media/64d0bcb7e5491a00134b5905/NEC_SSS_Case_closure_summary__.pdf",
+      "comparison": "same shipment state",
+      "reconciled_code": "confirmed shipment",
+      "reconciled_evidence_date": "2023-11"
+    },
+    {
+      "deal": "izettle",
+      "product": "iZettle mobile point of sale",
+      "original_deal_route": "closed",
+      "original_overlap": "direct",
+      "anchor": "2018-09-20",
+      "window_end": "2020-09-20",
+      "original_code": "confirmed shipment",
+      "original_evidence_date": "2020-09-03",
+      "original_evidence_url": "https://newsroom.uk.paypal-corp.com/paypal-launches-izettle-food-and-drink",
+      "second_ai_code": "confirmed shipment",
+      "second_ai_evidence_date": "2020-09-03",
+      "second_ai_evidence": "PayPal dates UK Food & Drink POS availability, identifies remote payments, and quotes a restaurant that had tested it. The launch follows CMA clearance.",
+      "authority_at_evidence": "PayPal group",
+      "release_specific_decision": "No identified person or body is documented as approving the specific vendor release in the reviewed material.",
+      "second_ai_sources": [
+        "https://newsroom.uk.paypal-corp.com/paypal-launches-izettle-food-and-drink",
+        "https://www.gov.uk/cma-cases/paypal-holdings-inc-izettle-ab-merger-inquiry"
+      ],
+      "transaction_anchor_source": "https://assets.publishing.service.gov.uk/media/5cc819d0ed915d5dc2b6be16/paypal_izettle_provisional_findings_summary.pdf",
+      "comparison": "same shipment state",
+      "reconciled_code": "confirmed shipment",
+      "reconciled_evidence_date": "2020-09-03"
+    },
+    {
+      "deal": "quidco",
+      "product": "Quidco cashback marketplace",
+      "original_deal_route": "fell through",
+      "original_overlap": "direct",
+      "anchor": "2019-03-21",
+      "window_end": "2021-03-21",
+      "original_code": "confirmed shipment",
+      "original_evidence_date": "2020-03-05",
+      "original_evidence_url": "https://www.sec.gov/Archives/edgar/data/1204413/000106299320001662/exhibit99-1.htm",
+      "second_ai_code": "confirmed shipment",
+      "second_ai_evidence_date": "2020-03-05",
+      "second_ai_evidence": "Points reports the March 5 launch of a Quidco-branded booking site that pays cashback. The partner operated the white-label hotel platform. Contractual allocation of release decisions is undisclosed.",
+      "authority_at_evidence": "Quidco with Points as service partner",
+      "release_specific_decision": "No identified person or body is documented as approving the specific vendor release in the reviewed material.",
+      "second_ai_sources": [
+        "https://www.sec.gov/Archives/edgar/data/1204413/000106299320001662/exhibit99-1.htm",
+        "https://www.gov.uk/cma-cases/topcashback-quidco-merger-inquiry"
+      ],
+      "transaction_anchor_source": "https://www.gov.uk/cma-cases/topcashback-quidco-merger-inquiry",
+      "comparison": "same shipment state",
+      "reconciled_code": "confirmed shipment",
+      "reconciled_evidence_date": "2020-03-05"
+    },
+    {
+      "deal": "clearscore",
+      "product": "ClearScore consumer credit checking",
+      "original_deal_route": "fell through",
+      "original_overlap": "direct",
+      "anchor": "2019-02-27",
+      "window_end": "2021-02-27",
+      "original_code": "confirmed shipment",
+      "original_evidence_date": "2020-05-07",
+      "original_evidence_url": "https://www.clearscore.com/learn/protect/dark-web-monitoring-with-clearscore-protect-for-you-for-free-forever",
+      "second_ai_code": "confirmed shipment",
+      "second_ai_evidence_date": "2020-05-05",
+      "second_ai_evidence": "The company reports launch and customer activations of an identity-protection feature for its credit-service customers. The date is the issuer’s public announcement.",
+      "authority_at_evidence": "ClearScore",
+      "release_specific_decision": "No identified person or body is documented as approving the specific vendor release in the reviewed material.",
+      "second_ai_sources": [
+        "https://www.prnewswire.co.uk/news-releases/clearscore-protect-fights-back-against-dark-web-online-fraud-853804382.html",
+        "https://www.gov.uk/cma-cases/experian-limited-credit-laser-holdings-clearscore"
+      ],
+      "transaction_anchor_source": "https://www.gov.uk/government/news/abandonment-of-credit-score-checking-merger",
+      "comparison": "same shipment state",
+      "reconciled_code": "confirmed shipment",
+      "reconciled_evidence_date": "2020-05-05",
+      "comparison_note": "May 5 is the issuer press release; May 7 is its customer article. Both date availability."
+    },
+    {
+      "deal": "gbst",
+      "product": "GBST Composer wealth administration",
+      "original_deal_route": "closed",
+      "original_overlap": "direct",
+      "anchor": "2019-11-05",
+      "window_end": "2021-11-05",
+      "original_code": "confirmed shipment",
+      "original_evidence_date": "2021-07-25",
+      "original_evidence_url": "https://gbst.com/news/tier-1-global-investment-bank-completes-successful-cloud-deployment-on-gbsts-composer-platform/",
+      "second_ai_code": "confirmed shipment",
+      "second_ai_evidence_date": "2020-04-30",
+      "second_ai_evidence": "GBST reports release of cloud-based Composer and client upgrades. GBST separately documented a completed bank migration on July 25, 2021. Both events precede the Anchorage divestiture.",
+      "authority_at_evidence": "GBST operating separately under FNZ ownership",
+      "release_specific_decision": "No identified person or body is documented as approving the specific vendor release in the reviewed material.",
+      "second_ai_sources": [
+        "https://gbst.com/news/gbst-delivers-milestone-first-release-of-new-cloud-based-composer-platform-for-australian-wealth-management-clients/",
+        "https://gbst.com/news/tier-1-global-investment-bank-completes-successful-cloud-deployment-on-gbsts-composer-platform/",
+        "https://www.gov.uk/cma-cases/fnz-gbst-merger-inquiry"
+      ],
+      "transaction_anchor_source": "https://assets.publishing.service.gov.uk/media/5f2bde6ad3bf7f1b1b53e7ea/Provisional_findings.pdf",
+      "comparison": "same shipment state",
+      "reconciled_code": "confirmed shipment",
+      "reconciled_evidence_date": "2020-04-30",
+      "comparison_note": "Different qualifying deployment/release of the same product; both fell under separation measures."
+    },
+    {
+      "deal": "activision",
+      "product": "Call of Duty PC and console series",
+      "original_deal_route": "closed",
+      "original_overlap": "direct",
+      "anchor": "2023-10-13",
+      "window_end": "2025-10-13",
+      "original_code": "confirmed shipment",
+      "original_evidence_date": "2024-10-25",
+      "original_evidence_url": "https://www.activision.com/games/call-of-duty/call-of-duty-black-ops-6",
+      "second_ai_code": "confirmed shipment",
+      "second_ai_evidence_date": "2024-10-25",
+      "second_ai_evidence": "Activision dates the release of Black Ops 6. The reviewed product is the PC/console series. The restructured transaction excluded specified cloud-streaming rights.",
+      "authority_at_evidence": "Microsoft group for PC/console publishing",
+      "release_specific_decision": "No identified person or body is documented as approving the specific vendor release in the reviewed material.",
+      "second_ai_sources": [
+        "https://www.activision.com/games/call-of-duty/call-of-duty-black-ops-6",
+        "https://www.gov.uk/cma-cases/microsoft-slash-activision-blizzard-ex-cloud-streaming-rights-merger-inquiry",
+        "https://www.gov.uk/cma-cases/microsoft-slash-activision-blizzard-merger-inquiry"
+      ],
+      "transaction_anchor_source": "https://microsoft.gcs-web.com/static-files/c341aabc-d0d9-4608-89e1-906895fd0e45",
+      "comparison": "same shipment state",
+      "reconciled_code": "confirmed shipment",
+      "reconciled_evidence_date": "2024-10-25"
+    },
+    {
+      "deal": "stubhub",
+      "product": "StubHub UK-facing resale marketplace",
+      "original_deal_route": "closed",
+      "original_overlap": "direct",
+      "anchor": "2020-02-13",
+      "window_end": "2022-02-13",
+      "original_code": "active only",
+      "original_evidence_date": "2021-09-08",
+      "original_evidence_url": "https://digitalfuelcapital.com/news/stubhub-international-gains-independence",
+      "second_ai_code": "active only",
+      "second_ai_evidence_date": "2021-09-08",
+      "second_ai_evidence": "The purchaser’s dated announcement identifies an operating ticket marketplace, teams and the UK carve-out. The CMA dates completion to September 3. The ownership transfer and customer support page do not identify a new marketplace release in the window.",
+      "authority_at_evidence": "StubHub International under Digital Fuel",
+      "release_specific_decision": "No identified person or body is documented as approving the specific vendor release in the reviewed material.",
+      "second_ai_sources": [
+        "https://digitalfuelcapital.com/news/stubhub-international-gains-independence",
+        "https://www.gov.uk/cma-cases/viagogo-stubhub-merger-inquiry"
+      ],
+      "transaction_anchor_source": "https://assets.publishing.service.gov.uk/media/61379adfe90e07044435c8d0/Viagogo_StubHub_Case_closure_summary.pdf",
+      "comparison": "same shipment state",
+      "reconciled_code": "active only",
+      "reconciled_evidence_date": "2021-09-08"
+    },
+    {
+      "deal": "tmgroup",
+      "product": "tmConvey property and conveyancing workflow",
+      "original_deal_route": "closed",
+      "original_overlap": "direct",
+      "anchor": "2021-07-08",
+      "window_end": "2023-07-08",
+      "original_code": "confirmed shipment",
+      "original_evidence_date": "2022-09-22",
+      "original_evidence_url": "https://todaysconveyancer.co.uk/tmgroup-cds-enhance-digital-ap1-service-ahead-hmlrs-november-deadline/",
+      "second_ai_code": "confirmed shipment",
+      "second_ai_evidence_date": "2022-09-22",
+      "second_ai_evidence": "A TM Group-authored trade-site article lists added AP1 features available on tmConvey. Product manager Joanna King describes the team’s work. Her account does not assign a formal approval right. The November 2023 corporate follow-up falls outside the window.",
+      "authority_at_evidence": "TM Group operating separately under Dye & Durham ownership",
+      "release_specific_decision": "No identified person or body is documented as approving the specific vendor release in the reviewed material.",
+      "second_ai_sources": [
+        "https://todaysconveyancer.co.uk/tmgroup-cds-enhance-digital-ap1-service-ahead-hmlrs-november-deadline/",
+        "https://www.gov.uk/cma-cases/dye-and-durham-uk-limited-slash-tm-group-uk-limited-merger-inquiry"
+      ],
+      "transaction_anchor_source": "https://www.newswire.ca/news-releases/dye-amp-durham-acquires-tm-group-uk-limited-894880832.html",
+      "comparison": "same shipment state",
+      "reconciled_code": "confirmed shipment",
+      "reconciled_evidence_date": "2022-09-22"
+    },
+    {
+      "deal": "quantile",
+      "product": "Quantile OTC interest-rate compression",
+      "original_deal_route": "closed",
+      "original_overlap": "no direct overlap established",
+      "anchor": "2022-11-30",
+      "window_end": "2024-11-30",
+      "original_code": "active only",
+      "original_evidence_date": "2024-10-01",
+      "original_evidence_url": "https://www.lseg.com/content/dam/lseg/en_us/documents/investor-relations/events/presentation/lseg-post-trade-investor-webinar-01oct2024.pdf",
+      "second_ai_code": "active only",
+      "second_ai_evidence_date": "2024-10-01",
+      "second_ai_evidence": "The investor presentation includes Quantile and compression among existing services. A later issuer account dates the EUR/USD launch only to 2024. That year straddles the November 30 cutoff. The GBP/USD milestone is in 2025.",
+      "authority_at_evidence": "LSEG group",
+      "release_specific_decision": "No identified person or body is documented as approving the specific vendor release in the reviewed material.",
+      "second_ai_sources": [
+        "https://www.lseg.com/content/dam/lseg/en_us/documents/investor-relations/events/presentation/lseg-post-trade-investor-webinar-01oct2024.pdf",
+        "https://www.lseg.com/en/insights/post-trade/post-trade-solutions-now-offers-cross-currency-compression-for-gbp-usd",
+        "https://www.gov.uk/cma-cases/london-stock-exchange-group-plc-slash-quantile-group-limited-merger-inquiry"
+      ],
+      "transaction_anchor_source": "https://www.lseg.com/content/dam/lseg/en_us/documents/investor-relations/financial-results/preliminary-results/rns/lseg-preliminary-results-fy2022-rns-02mar2023.pdf",
+      "comparison": "same shipment state",
+      "reconciled_code": "active only",
+      "reconciled_evidence_date": "2024-10-01"
+    },
+    {
+      "deal": "smartbox",
+      "product": "Grid augmentative communication software",
+      "original_deal_route": "closed",
+      "original_overlap": "direct",
+      "anchor": "2018-10-01",
+      "window_end": "2020-10-01",
+      "original_code": "confirmed shipment",
+      "original_evidence_date": "2020-06-01",
+      "original_evidence_url": "https://www.youtube.com/watch?v=BuJt07yK6Is",
+      "second_ai_code": "confirmed shipment",
+      "second_ai_evidence_date": "2019-02-06",
+      "second_ai_evidence": "Smartbox’s dated v.39 video description reports new Super Core grid sets, Croatian support, a new Grid 3 menu and an iPad change. The CMA records the 2018 order and the sale to CareTech on October 6, 2020, five days beyond the window.",
+      "authority_at_evidence": "Smartbox operating under interim measures / Tobii ownership",
+      "release_specific_decision": "No identified person or body is documented as approving the specific vendor release in the reviewed material.",
+      "second_ai_sources": [
+        "https://www.youtube.com/watch?v=oGLgmeefUmU",
+        "https://www.gov.uk/cma-cases/tobii-ab-smartbox-assistive-technology-limited-and-sensory-software-international-ltd-merger-inquiry"
+      ],
+      "transaction_anchor_source": "https://assets.publishing.service.gov.uk/media/5f8036f1e90e07741264a0f2/Tobii-SB_Case_Closure_Summary__9_Oct_20_.pdf",
+      "comparison": "same shipment state",
+      "reconciled_code": "confirmed shipment",
+      "reconciled_evidence_date": "2019-02-06",
+      "comparison_note": "Different material Grid update, in the same separation period."
+    },
+    {
+      "deal": "awal",
+      "product": "AWAL digital distribution and artist portal",
+      "original_deal_route": "closed",
+      "original_overlap": "direct",
+      "anchor": "2021-05-18",
+      "window_end": "2023-05-18",
+      "original_code": "active only",
+      "original_evidence_date": "2022-03-16",
+      "original_evidence_url": "https://assets.publishing.service.gov.uk/media/6231d78dd3bf7f5a8a6955f4/Sony_AWAL_-_Final_Report.pdf",
+      "second_ai_code": "active only",
+      "second_ai_evidence_date": "2022-03-16",
+      "second_ai_evidence": "CMA final report paragraphs 3.19–3.22 document operating artist and distribution tiers. The named India and South Asia launch was on June 27, 2023, after the May 18 cutoff. Neither source establishes an in-window product release.",
+      "authority_at_evidence": "AWAL / Sony; CMA clearance at report date",
+      "release_specific_decision": "No identified person or body is documented as approving the specific vendor release in the reviewed material.",
+      "second_ai_sources": [
+        "https://assets.publishing.service.gov.uk/media/6231d78dd3bf7f5a8a6955f4/Sony_AWAL_-_Final_Report.pdf",
+        "https://www.sonymusic.com/sonymusic/awal-launches-in-india-and-south-asia/",
+        "https://www.gov.uk/cma-cases/sony-music-entertainment-slash-kobalt-music-group-merger-inquiry"
+      ],
+      "transaction_anchor_source": "https://www.sony.com/en/SonyInfo/IR/news/20210519_E.pdf",
+      "comparison": "same shipment state",
+      "reconciled_code": "active only",
+      "reconciled_evidence_date": "2022-03-16"
+    },
+    {
+      "deal": "cengage",
+      "product": "Cengage Unlimited digital courseware",
+      "original_deal_route": "fell through",
+      "original_overlap": "direct",
+      "anchor": "2020-05-04",
+      "window_end": "2022-05-04",
+      "original_code": "confirmed shipment",
+      "original_evidence_date": "2021-10-14",
+      "original_evidence_url": "https://www.cengagegroup.com/news/press-releases/2021/announcing-cengage-infuse/",
+      "second_ai_code": "confirmed shipment",
+      "second_ai_evidence_date": "2021-10-14",
+      "second_ai_evidence": "Cengage launched Infuse and explicitly included the new digital courseware in the Unlimited subscription. This is a new component available through the enrolled offering.",
+      "authority_at_evidence": "Cengage",
+      "release_specific_decision": "No identified person or body is documented as approving the specific vendor release in the reviewed material.",
+      "second_ai_sources": [
+        "https://www.cengagegroup.com/news/press-releases/2021/announcing-cengage-infuse/",
+        "https://www.gov.uk/cma-cases/mcgraw-hill-education-cengage-learning-holdings-merger-inquiry"
+      ],
+      "transaction_anchor_source": "https://www.justice.gov/archives/opa/pr/cengage-and-mcgraw-hill-terminate-merger-agreement-response-antitrust-concerns",
+      "comparison": "same shipment state",
+      "reconciled_code": "confirmed shipment",
+      "reconciled_evidence_date": "2021-10-14"
+    },
+    {
+      "deal": "euroauctions",
+      "product": "Euro Auctions online equipment marketplace",
+      "original_deal_route": "fell through",
+      "original_overlap": "direct",
+      "anchor": "2022-04-29",
+      "window_end": "2024-04-29",
+      "original_code": "confirmed shipment",
+      "original_evidence_date": "2023-03-03",
+      "original_evidence_url": "https://www.agg-net.com/news/equipment-sales-launch-new-listing-website",
+      "second_ai_code": "active only",
+      "second_ai_evidence_date": "2023-03",
+      "second_ai_evidence": "The target reports operating its marketplace at its March 2023 anniversary. A March 3 launch with first-person management comments is for a group listing site, Equipment Sales. The sources do not establish an upgrade to, or migration from, the timed online auction system.",
+      "authority_at_evidence": "Euro Auctions Group",
+      "release_specific_decision": "No identified person or body is documented as approving the specific vendor release in the reviewed material.",
+      "second_ai_sources": [
+        "https://www.euroauctions.com/en/news/2023/25-years-of-euro-auctions",
+        "https://www.agg-net.com/news/equipment-sales-launch-new-listing-website",
+        "https://www.gov.uk/cma-cases/ritchie-bros-auctioneers-incorporated-slash-euro-auctions-group-merger-inquiry"
+      ],
+      "transaction_anchor_source": "https://mkt.rbauction.com/blog/announcing-the-discontinuation-of-our-euro-auctions-acquisition",
+      "comparison": "different shipment state",
+      "reconciled_code": "confirmed shipment",
+      "reconciled_evidence_date": "2023-03-03",
+      "reconciliation": "The proposed purchase agreement named Equipment Sales Ltd before abandonment. The dated launch record, with named company representatives, documents a new listings channel serving machinery buyers and sellers. The article’s group-marketplace definition includes that route. Restricting the line to the existing auction or Daily Marketplace interface produces the fresh active-only call.",
+      "reconciliation_sources": [
+        "https://www.sec.gov/Archives/edgar/data/1046102/000110465921102920/tm2124606d1_8k.htm",
+        "https://www.agg-net.com/news/equipment-sales-launch-new-listing-website"
+      ]
+    },
+    {
+      "deal": "seedrs",
+      "product": "Seedrs private equity marketplace",
+      "original_deal_route": "fell through",
+      "original_overlap": "direct",
+      "anchor": "2021-03-25",
+      "window_end": "2023-03-25",
+      "original_code": "confirmed shipment",
+      "original_evidence_date": "2022-01-12",
+      "original_evidence_url": "https://milled.com/seedrs/2021-year-in-review-2esVTEL24O0JEouD",
+      "second_ai_code": "confirmed shipment",
+      "second_ai_evidence_date": "2022-01-12",
+      "second_ai_evidence": "The Seedrs year-end customer email names the 2021 Private Deal Room launch, and its product guide describes investments completed through it. January 12 dates the email. Republic announced completion on September 1, 2022.",
+      "authority_at_evidence": "Seedrs before Republic acquired it",
+      "release_specific_decision": "No identified person or body is documented as approving the specific vendor release in the reviewed material.",
+      "second_ai_sources": [
+        "https://milled.com/seedrs/2021-year-in-review-2esVTEL24O0JEouD",
+        "https://europe.republic.com/insights/blog/welcome-to-seedrs-private-deal-room",
+        "https://republic.com/insights/republic/a-letter-from-the-seedrs-ceo-jeff-kelisky",
+        "https://www.gov.uk/cma-cases/crowdcube-seedrs-merger-inquiry"
+      ],
+      "transaction_anchor_source": "https://www.gov.uk/government/news/crowdcube-and-seedrs-abandon-merger-during-cma-investigation",
+      "comparison": "same shipment state",
+      "reconciled_code": "confirmed shipment",
+      "reconciled_evidence_date": "2022-01-12"
+    }
+  ]
+}
