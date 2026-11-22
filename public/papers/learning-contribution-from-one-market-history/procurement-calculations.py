@@ -148,6 +148,40 @@ def verify_badge_comparison():
         print(f"{rule:14} | €{float(standard):.2f} | €{float(fast):.2f} | €{float(gain):+.2f}")
 
 
+def verify_transferable_badge_histories():
+    """Follow both award outcomes under the strictly optimal policy in Table 3."""
+    prior = Fraction(33, 50)
+    # Keep distinct histories, even when they lead to the same badge and belief.
+    # Each entry holds the badge and the history's likelihood under H and under L.
+    histories = [(-1, Fraction(1), Fraction(1))]
+    margins = []
+    for remaining in range(5, 0, -1):
+        next_histories = []
+        for badge, likelihood_h, likelihood_l in histories:
+            evidence = prior * likelihood_h + (1 - prior) * likelihood_l
+            belief = prior * likelihood_h / evidence
+            assert belief == prior
+            standard, fast = [dispatch_value(remaining, belief, badge, True, g) for g in (0, 1)]
+            assert fast != standard
+            grade = int(fast > standard)
+            assert grade == int(badge == -1)
+            margins.append(abs(fast - standard))
+
+            high, low = model_probabilities(grade, badge)
+            assert high == low == (Fraction(3, 5) if badge == -1 else Fraction(4, 5))
+            next_histories.append((1, likelihood_h * high, likelihood_l * low))
+            next_histories.append((-1, likelihood_h * (1 - high), likelihood_l * (1 - low)))
+        histories = next_histories
+
+    assert len(margins) == 31 and min(margins) == Fraction(1, 9)
+    assert len(histories) == 32
+    assert sum(high for _, high, _ in histories) == sum(low for _, _, low in histories) == 1
+    for _, high, low in histories:
+        assert high == low > 0
+        assert prior * high / (prior * high + (1 - prior) * low) == prior
+    print("Transferable badge: verified 31 strict dispatch choices and a 66% posterior on all 32 histories.")
+
+
 def main():
     print("Badge holder | Probability at grade 0 | Probability at grade 1 | Net gain")
     for badge, holder, expected in [(-1, "B", Fraction(2)), (1, "A", Fraction(-16, 7))]:
@@ -167,6 +201,7 @@ def main():
     print("Verified the within-badge exposure identity for 256 cell-weight combinations.")
     verify_dispatch()
     verify_badge_comparison()
+    verify_transferable_badge_histories()
 
 
 if __name__ == "__main__":
