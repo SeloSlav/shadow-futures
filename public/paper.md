@@ -36,7 +36,7 @@ The posted Lean statement has been typechecked. This establishes that the propos
 
 ## Disclosure of AI assistance
 
-My interest in how monopoly shapes the production of economic knowledge dates to at least 2016. After an extensive literature review, I chose to formalize the question of what a market’s allocation history can reveal about the effects of productive inputs on rewards. I used large language models to help develop the mathematical formulation and OpenAI Codex to help draft the revised abstract and the two-seller example in Section 2. I take responsibility for the analysis and any errors.
+I used generative AI tools, including OpenAI Codex, to help develop the formal model and to draft and revise the manuscript. The research question grew out of my review of the literature on monopoly and on competition as a process of discovery. I take responsibility for the mathematical arguments, their economic interpretation, and any errors.
 
 ## Citation
 

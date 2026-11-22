@@ -18,7 +18,7 @@ export const PAPER = {
   abstract:
     "Can a market observe productive inputs perfectly yet fail to learn their effects on reward? I study markets where inputs affect reward odds and past rewards shape future exposure. The comparison budget sums, across allocations, the probabilities that someone other than the current favorite wins. In a conditional logit model with bounded input differences, this budget bounds Fisher information about input effects. If the lifetime budget is almost surely finite under every parameter, a single market history cannot distinguish competing effects with vanishing error. Yet models that disagree about those effects converge in their forecasts of future allocations.",
   aiDisclosure:
-    "My interest in how monopoly shapes the production of economic knowledge dates to at least 2016. After an extensive literature review, I chose to formalize the question of what a market’s allocation history can reveal about the effects of productive inputs on rewards. I used large language models to help develop the mathematical formulation and OpenAI Codex to help draft the revised abstract and the two-seller example in Section 2. I take responsibility for the analysis and any errors.",
+    "I used generative AI tools, including OpenAI Codex, to help develop the formal model and to draft and revise the manuscript. The research question grew out of my review of the literature on monopoly and on competition as a process of discovery. I take responsibility for the mathematical arguments, their economic interpretation, and any errors.",
   keywords: [
     "comparison budget",
     "increasing returns",
