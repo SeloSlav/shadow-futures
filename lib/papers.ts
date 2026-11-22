@@ -133,13 +133,13 @@ export const COMPANION_PAPERS: readonly ResearchPaper[] = [
     title: "Learning Contribution from One Market History",
     focus: "Learning from adaptive allocations",
     description:
-      "When can a vendor learn the return to faster delivery from its awards? Suppose each badge position has one dispatch grade for which two models predict the same awards. For any finite contract length, the paper identifies the priors for which a vendor runs a trial under a fixed badge and learns nothing under a transferable badge. Those priors form an interval that can be empty. In the five-order example, the first dispatch choice reverses between about 26.864% and 66.298%. Transfer eliminates a trial and leaves all five awards uninformative only above 64% and below the upper cutoff, a span of 2.30 percentage points. On the same terms the interval widens to 3.27 percentage points at eight orders and tends to zero in width for long contracts. At the 66% prior a fixed badge induces a trial from five orders onward. With transfer, the first contract to produce any learning has 2,579 orders. The vendor tries fast delivery on order two if it wins the first award.",
+      "When the latest winner takes the procurement badge, a vendor can forgo a delivery trial it would run with its rival permanently featured. The paper characterizes when that decision makes the entire award record uninformative about the return to faster delivery. Four calculations using the order margin, dispatch fee and award probabilities determine whether the profit forgone by avoiding trials stays bounded at every horizon or grows proportionally with contract length. In the benchmark at a 66% prior, transfer suppresses an otherwise profitable trial for contracts of five through 2,578 orders. The paper also shows which recurring comparisons let a buyer consistently estimate the return to quality from one history.",
     pdfPath: "/papers/learning-contribution-from-one-market-history.pdf",
-    pages: 38,
+    pages: 39,
     status: "Research draft",
     publishedDate: "2026-11-22",
     supplements: [
-      { label: "Dispatch decisions, Proposition 4 and Tables 1 and 3 (Python)", path: "/papers/learning-contribution-from-one-market-history/procurement-calculations.py" },
+      { label: "Dispatch decisions, Propositions 4 and 5, and Tables 1 and 3 (Python)", path: "/papers/learning-contribution-from-one-market-history/procurement-calculations.py" },
       { label: "Contract length and trial incentives (Python, NumPy)", path: "/papers/learning-contribution-from-one-market-history/contract-horizons.py" },
       { label: "AI review of the earlier full-memory proof", path: "/papers/learning-contribution-from-one-market-history/mathematical-review.md" },
       {

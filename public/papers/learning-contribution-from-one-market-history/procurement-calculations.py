@@ -385,37 +385,37 @@ def verify_original_horizons():
     print(f"Section 9.5: posterior-range bounds certify horizons 1–8. At eight "
           f"orders strict elimination spans {100*float(upper-q0):.2f} percentage points.")
 
-    # Under a stationary rule with win rates a and b at the two positions,
-    # the stationary probability of holding the badge is b/(1-a+b).
-    for model, expected_rate, pair_chance in [(0, Fraction(500, 7), Fraction(1, 10)),
-                                               (1, Fraction(1250, 17), Fraction(1, 9))]:
-        a = model_probabilities(0, 1)[model]
-        b = model_probabilities(0, -1)[model]
-        usual_b = model_probabilities(1, -1)[model]
-        stationary_a = usual_b / (1 - a + usual_b)
-        assert stationary_a * (100 * a) + (1 - stationary_a) * (100 * usual_b - 8) == 73
-        assert 100 * b / (1 - a + b) == expected_rate
-        assert b * (1 - a) == pair_chance
-    assert Fraction(500, 7) - 73 == -Fraction(11, 7)
-    assert Fraction(1250, 17) - 73 == Fraction(9, 17)
-    # At 66%, check one finite screen with positive long-run gain, and check
-    # its slope independently by iterating the two-state reward recursion.
-    q = Fraction(33, 50)
-    k = 18
-    slope = (1 - q) * Fraction(1, 9)**k * Fraction(9, 17) - q * Fraction(1, 10)**k * Fraction(11, 7)
-    assert slope > 0
-    gain = 0
-    for model, weight in enumerate((q, 1-q)):
-        def last_reward(grade_b):
-            a = model_probabilities(0, 1)[model]
-            b = model_probabilities(grade_b, -1)[model]
-            featured = Fraction(0)
-            for _ in range(80):
-                featured = featured * a + (1 - featured) * b
-            return featured * 100 * a + (1 - featured) * (100 * b - 8 * grade_b)
-        pair = model_probabilities(0, -1)[model] * (1 - model_probabilities(0, 1)[model])
-        gain += weight * pair**k * (last_reward(0) - last_reward(1))
-    assert abs(gain - slope) < slope / 10**12
+def verify_long_contract_test(contract):
+    """Check the four gains against stationary profits and finite-horizon policy trees."""
+    s_a = contract.probabilities(0, 1)[0]
+    s_b = contract.probabilities(1, -1)[0]
+    prize = badge_prize(1, contract) / (1 - s_a + s_b)
+    usual_rate = contract.margin * s_b - contract.fast_cost + s_b * prize
+    gains = {b: deviation_gains(b, prize, contract) for b in (-1, 1)}
+    best_rates = []
+    for model in (0, 1):
+        rates = []
+        for grade_a, grade_b in product((0, 1), repeat=2):
+            a = contract.probabilities(grade_a, 1)[model]
+            b = contract.probabilities(grade_b, -1)[model]
+            share = b / (1 - a + b)
+            rate = (share * (contract.margin * a - contract.fast_cost * grade_a)
+                    + (1 - share) * (contract.margin * b - contract.fast_cost * grade_b))
+            surplus = share * gains[1][model] if grade_a == 1 else 0
+            if grade_b == 0:
+                surplus += (1 - share) * gains[-1][model]
+            assert rate - usual_rate == surplus
+            rates.append(rate)
+        best_rates.append(max(rates))
+        assert (max(rates) > usual_rate) == any(gains[b][model] > 0 for b in (-1, 1))
+    if max(best_rates) == usual_rate:
+        # The best known-model value is an upper bound even for a Bayesian
+        # vendor. Check all contingent plans at short horizons in both models.
+        for m in (1, 2, 3):
+            for b in (-1, 1):
+                plans = policy_gains(m, b, True, contract)
+                assert max(max(h, l) for _, h, l in plans) <= abs(prize)
+    return prize, gains, usual_rate, best_rates
 
 
 def policy_gains(orders, badge, transfer, contract):
@@ -506,6 +506,33 @@ def verify_general_contracts():
     t_h, t_l = example.probabilities(0, -1)
     k_h, k_l = (2 + 98 * p**2 for p in (t_h, t_l))
     assert ((1 - q) * k_l - q * k_h) / 2 == Fraction(38351, 2000000) > 0
+    # Proposition 5 separates the two published contracts using four numbers.
+    prize, gains, rate, best = verify_long_contract_test(TABLE_3)
+    assert prize == 35 and rate == 73 and gains[-1][1] == 2
+    assert gains[-1][0] < 0 and max(gains[1]) < 0
+    assert best == [73, Fraction(1250, 17)]
+    low_standard = TABLE_3.probabilities(0, -1)[1]
+    low_featured = TABLE_3.probabilities(0, 1)[1]
+    share_b = (1 - low_featured) / (1 - low_featured + low_standard)
+    assert share_b == Fraction(9, 34)
+    assert Fraction(17, 50) * share_b * gains[-1][1] == Fraction(9, 50)
+    prize, gains, rate, best = verify_long_contract_test(example)
+    assert prize == Fraction(400, 7) and best == [rate, rate]
+    assert all(max(pair) < 0 for pair in gains.values())
+
+    # Equality is on the bounded side. A terminal trial can nevertheless pay.
+    def boundary_probabilities(grade, badge):
+        if (grade, badge) == (0, -1):
+            return Fraction(1, 2), Fraction(73, 135)
+        return TABLE_3.probabilities(grade, badge)
+
+    boundary = Contract(100, 8, boundary_probabilities)
+    prize, gains, rate, best = verify_long_contract_test(boundary)
+    assert prize == 35 and gains[-1][1] == 0 and best == [rate, rate]
+    assert first_grade_gap(1, Fraction(1, 10), -1, True, boundary) > 0
+    print("Proposition 5: stationary profit differences match the badge-adjusted gains. "
+          "Table 3's pilot earns €0.18 per order in the limit at 66%. The second contract "
+          "and the zero-gain boundary have bounded surplus.")
     # The uniform sufficient condition is stronger than Proposition 4.
     assert deviation_gains(-1, badge_prize(1, TABLE_3), TABLE_3)[1] > 0
 
