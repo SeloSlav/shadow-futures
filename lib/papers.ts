@@ -14,7 +14,7 @@ export type ResearchPaper = {
 };
 
 export const RESEARCH_PUBLISHED_DATE = "2026-10-09";
-export const RESEARCH_UPDATED_DATE = "2026-11-21";
+export const RESEARCH_UPDATED_DATE = "2026-11-22";
 export const RESEARCH_REVISION = "November 2026";
 export const RESEARCH_AUTHOR = AUTHOR.name;
 
@@ -22,6 +22,7 @@ const acquisitionPaperId = "product-continuation-and-independent-experimentation
 const acquisitionPaperPath = `/papers/${acquisitionPaperId}`;
 export const ACQUISITION_PAPER = {
   id: acquisitionPaperId,
+  publishedDate: "2026-11-21",
   pdfPath: `${acquisitionPaperPath}.pdf`,
   evidencePath: `${acquisitionPaperPath}/evidence`,
   ledgerPath: `${acquisitionPaperPath}/acquisition-pilot-evidence.json`,
@@ -112,7 +113,7 @@ export const COMPANION_PAPERS: readonly ResearchPaper[] = [
     evidencePath: ACQUISITION_PAPER.evidencePath,
     pages: 27,
     status: "Research draft",
-    publishedDate: RESEARCH_UPDATED_DATE,
+    publishedDate: ACQUISITION_PAPER.publishedDate,
     supplements: [
       {
         label: "Evidence ledger (JSON)",
@@ -121,6 +122,23 @@ export const COMPANION_PAPERS: readonly ResearchPaper[] = [
       {
         label: "Replication code (Python)",
         path: `${acquisitionPaperPath}/summarize-acquisition-pilot.py`,
+      },
+    ],
+  },
+  {
+    id: "learning-contribution-from-one-market-history",
+    title: "Learning Contribution from One Market History",
+    focus: "Learning from adaptive allocations",
+    description:
+      "When can one platform learn how quality affects the odds of a sale if past wins also influence rank? For a finite set of quality and rank contrasts, the paper characterizes which comparisons identify the quality effect. It applies the result to a badge held by the last winner and to scheduled ranking reviews, then shows what a platform can learn when it discounts past wins.",
+    pdfPath: "/papers/learning-contribution-from-one-market-history.pdf",
+    pages: 20,
+    status: "Research draft",
+    publishedDate: "2026-11-22",
+    supplements: [
+      {
+        label: "Table 1 replication code (Python)",
+        path: "/papers/learning-contribution-from-one-market-history/badge-calculations.py",
       },
     ],
   },

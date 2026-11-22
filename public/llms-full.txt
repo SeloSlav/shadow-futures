@@ -143,7 +143,7 @@ Earlier public essays sometimes refer to the paper as "Shadow Futures: Why Verif
 Collection: https://shadow-futures.vercel.app/papers
 Current titles, descriptions, status, page counts, and PDFs: https://shadow-futures.vercel.app/papers.md
 
-The collection contains the original paper and seven companion research drafts:
+The collection contains the original paper and eight companion research drafts:
 
 - Institutions for Comparative Discovery in Scaling Markets
 - Endogenous Contestability and Technological Scale: Entry, Selection, and the Value of Comparison
@@ -152,6 +152,7 @@ The collection contains the original paper and seven companion research drafts:
 - Competition Policy for Informative Market Access
 - Taxing Lost Comparison: Decision Information, Private Testing, and Costed Corrective Instruments
 - Product Continuation and Independent Experimentation after Software Acquisitions ([PDF](https://shadow-futures.vercel.app/papers/product-continuation-and-independent-experimentation.pdf), [evidence ledger](https://shadow-futures.vercel.app/papers/product-continuation-and-independent-experimentation/acquisition-pilot-evidence.json), [replication code](https://shadow-futures.vercel.app/papers/product-continuation-and-independent-experimentation/summarize-acquisition-pilot.py))
+- Learning Contribution from One Market History ([PDF](https://shadow-futures.vercel.app/papers/learning-contribution-from-one-market-history.pdf), [Table 1 replication code](https://shadow-futures.vercel.app/papers/learning-contribution-from-one-market-history/badge-calculations.py))
 
 Each companion states its own model, evidence requirements, and additional assumptions. Their institutional and policy results are distinct from the original paper's comparison-budget theorem. They are research drafts published on this site for scholarly review.
 

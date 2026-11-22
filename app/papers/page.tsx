@@ -14,7 +14,7 @@ import { SITE_ORIGIN } from "@/lib/site";
 import styles from "@/app/papers/page.module.css";
 
 const description =
-  "Read Shadow Futures and its companion research drafts on contestability, measurement, competition policy, and independent experimentation after software acquisitions.";
+  "Read Shadow Futures and its companion papers on learning from market allocations, measuring comparison opportunities, competition policy, and independent experimentation.";
 
 export const metadata: Metadata = {
   title: "Research papers",

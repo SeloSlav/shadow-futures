@@ -34,7 +34,7 @@ The book and the paper are distinct works. DOI 10.2139/ssrn.6003994 identifies t
 
 - [Full LLM context](https://shadow-futures.vercel.app/llms-full.txt): Detailed definitions, theorem scope, equations, applications, and citation.
 - [Book in Markdown](https://shadow-futures.vercel.app/book.md): Current edition metadata, synopsis, chapter guide, download links, and book citation. This is a guide to the book; the full text is in the PDF.
-- [Research collection in Markdown](https://shadow-futures.vercel.app/papers.md): Current titles, summaries, draft status, page counts, and PDF links for all seven research papers.
+- [Research collection in Markdown](https://shadow-futures.vercel.app/papers.md): Current titles, summaries, draft status, page counts, and PDF links for the original paper and its companions.
 - [Paper in Markdown](https://shadow-futures.vercel.app/paper.md): Paper metadata, abstract, and central result.
 - [Methodology in Markdown](https://shadow-futures.vercel.app/methodology.md): Method and theorem boundaries.
 - [Mathematics in Markdown](https://shadow-futures.vercel.app/math.md): Central model and notation.
