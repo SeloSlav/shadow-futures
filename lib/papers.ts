@@ -133,13 +133,13 @@ export const COMPANION_PAPERS: readonly ResearchPaper[] = [
     title: "Learning Contribution from One Market History",
     focus: "Learning from adaptive allocations",
     description:
-      "Two models fit the same procurement awards and disagree about whether faster delivery pays. With five orders and the rival initially holding the badge, a vendor chooses standard delivery first under a fixed badge and fast delivery first under a transferable badge for priors between about 26.864% and 66.298% on the high-return model. Under transfer, every optimal policy preserves an uncertain vendor’s prior on all 32 award sequences exactly when that prior exceeds 64%. At 64%, the result depends on a last-order tie. The fixed badge strictly favors an informative first trial while transfer eliminates learning on all five orders only between 64% and the upper cutoff, a span of 2.30 percentage points. The paper shows when an award history can identify the return to quality apart from brand.",
+      "When can a vendor learn the return to faster delivery from its awards? Suppose each badge position has one dispatch grade for which two models predict the same awards. For any finite contract length, the paper identifies the priors for which a vendor runs a trial under a fixed badge and learns nothing under a transferable badge. Those priors form an interval that can be empty. In the five-order example, the first dispatch choice reverses between about 26.864% and 66.298%. Transfer eliminates a trial and leaves all five awards uninformative only above 64% and below the upper cutoff, a span of 2.30 percentage points. A separate contract illustrates how the incentive to experiment under the fixed badge grows as more orders remain.",
     pdfPath: "/papers/learning-contribution-from-one-market-history.pdf",
-    pages: 32,
+    pages: 35,
     status: "Research draft",
     publishedDate: "2026-11-22",
     supplements: [
-      { label: "Dispatch decisions and Tables 1 and 3 (Python)", path: "/papers/learning-contribution-from-one-market-history/procurement-calculations.py" },
+      { label: "Dispatch decisions, Proposition 4 and Tables 1 and 3 (Python)", path: "/papers/learning-contribution-from-one-market-history/procurement-calculations.py" },
       { label: "AI review of the earlier full-memory proof", path: "/papers/learning-contribution-from-one-market-history/mathematical-review.md" },
       {
         label: "Badge calculations and Table 2 (Python)",

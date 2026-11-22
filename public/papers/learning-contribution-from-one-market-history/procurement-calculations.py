@@ -1,4 +1,4 @@
-"""Reproduce Tables 1 and 3, the Section 4.3 exposure identity and the Section 9 decisions.
+"""Reproduce Tables 1 and 3, the Section 4.3 exposure identity and the Section 9 contract results.
 
 Run with Python 3. All award probabilities are stipulated. Each exposure weight
 is the accumulated baseline Bernoulli variance in a quality-by-badge cell.
@@ -6,6 +6,7 @@ is the accumulated baseline Bernoulli variance in a quality-by-badge cell.
 from fractions import Fraction
 from functools import lru_cache
 from itertools import product
+from typing import Callable, NamedTuple, Tuple
 
 
 def probability(quality_gap, badge):
@@ -19,6 +20,15 @@ def model_probabilities(grade, badge):
     low_standard_odds = Fraction(4) if badge == 1 else Fraction(5, 4)
     low_odds = low_standard_odds * Fraction(6, 5) ** grade
     return probability(grade, badge), low_odds / (1 + low_odds)
+
+
+class Contract(NamedTuple):
+    margin: int
+    fast_cost: int
+    probabilities: Callable[[int, int], Tuple[Fraction, Fraction]]  # H, L
+
+
+TABLE_3 = Contract(100, 8, model_probabilities)
 
 
 def quality_exposure(weights):
@@ -70,23 +80,23 @@ def sequential_surplus(orders, prior):
     return max(first_order_values(orders, prior))
 
 
-def dispatch_value(orders, prior, badge, transfer, grade):
+def dispatch_value(orders, prior, badge, transfer, grade, contract=TABLE_3):
     """Expected euros over the horizon with the given first grade and optimal continuation."""
-    high, low = model_probabilities(grade, badge)
+    high, low = contract.probabilities(grade, badge)
     win = prior * high + (1 - prior) * low
-    current = 100 * win - 8 * grade
-    after_win = optimal_profit(orders - 1, prior * high / win, 1 if transfer else badge, transfer)
+    current = contract.margin * win - contract.fast_cost * grade
+    after_win = optimal_profit(orders - 1, prior * high / win, 1 if transfer else badge, transfer, contract)
     after_loss = optimal_profit(
-        orders - 1, prior * (1 - high) / (1 - win), -1 if transfer else badge, transfer
+        orders - 1, prior * (1 - high) / (1 - win), -1 if transfer else badge, transfer, contract
     )
     return current + win * after_win + (1 - win) * after_loss
 
 
 @lru_cache(maxsize=None)
-def optimal_profit(orders, prior, badge, transfer):
+def optimal_profit(orders, prior, badge, transfer, contract=TABLE_3):
     if orders == 0:
         return Fraction(0)
-    return max(dispatch_value(orders, prior, badge, transfer, grade) for grade in (0, 1))
+    return max(dispatch_value(orders, prior, badge, transfer, grade, contract) for grade in (0, 1))
 
 
 def verify_dispatch():
@@ -182,25 +192,25 @@ def verify_transferable_badge_histories():
     print("Transferable badge: verified 31 strict dispatch choices and a 66% posterior on all 32 histories.")
 
 
-def first_grade_gap(orders, prior, badge, transfer):
+def first_grade_gap(orders, prior, badge, transfer, contract=TABLE_3):
     """Expected total profit with standard first minus profit with fast first."""
-    standard = dispatch_value(orders, prior, badge, transfer, 0)
-    fast = dispatch_value(orders, prior, badge, transfer, 1)
+    standard = dispatch_value(orders, prior, badge, transfer, 0, contract)
+    fast = dispatch_value(orders, prior, badge, transfer, 1, contract)
     return standard - fast
 
 
 @lru_cache(maxsize=None)
-def prior_partition(orders, badge, transfer):
+def prior_partition(orders, badge, transfer, contract=TABLE_3):
     """Partition [0, 1] where both first-grade values and their maximum are affine."""
     boundaries = {Fraction(0), Fraction(1)}
     if orders == 0:
         return tuple(sorted(boundaries))
 
     for grade in (0, 1):
-        high, low = model_probabilities(grade, badge)
+        high, low = contract.probabilities(grade, badge)
         for prob_h, prob_l, winner in [(high, low, 1), (1 - high, 1 - low, -1)]:
             next_badge = winner if transfer else badge
-            for posterior in prior_partition(orders - 1, next_badge, transfer):
+            for posterior in prior_partition(orders - 1, next_badge, transfer, contract):
                 # Invert Bayes' rule to find the prior that reaches this boundary.
                 prior = posterior * prob_l / ((1 - posterior) * prob_h + posterior * prob_l)
                 boundaries.add(prior)
@@ -208,7 +218,7 @@ def prior_partition(orders, badge, transfer):
     # Between these boundaries each outcome probability times its continuation
     # value is affine. A strict sign change therefore has one exact linear root.
     knots = sorted(boundaries)
-    gaps = [first_grade_gap(orders, q, badge, transfer) for q in knots]
+    gaps = [first_grade_gap(orders, q, badge, transfer, contract) for q in knots]
     for left, right, g_left, g_right in zip(knots, knots[1:], gaps, gaps[1:]):
         if g_left * g_right < 0:
             root = left - (right - left) * g_left / (g_right - g_left)
@@ -317,6 +327,144 @@ def verify_trial_elimination(no_learning_cutoff, fixed_cutoff):
           f"{no_learning_cutoff} < prior < {fixed_cutoff}: {float(width_pp):.2f} percentage points.")
 
 
+def badge_prize(orders, contract):
+    """Value of holding the badge under fast with B featured and standard with A featured."""
+    s_a, _ = contract.probabilities(0, 1)
+    s_b, _ = contract.probabilities(1, -1)
+    reward_gap = contract.margin * (s_a - s_b) + contract.fast_cost
+    return reward_gap * (1 - (s_a - s_b) ** orders) / (1 - s_a + s_b)
+
+
+def deviation_gains(badge, prize, contract):
+    usual = int(badge == -1)
+    s, other = contract.probabilities(usual, badge)
+    assert s == other
+    costs_saved = (2 * usual - 1) * contract.fast_cost
+    return tuple((p - s) * (contract.margin + prize) + costs_saved
+                 for p in contract.probabilities(1 - usual, badge))
+
+
+def policy_gains(orders, badge, transfer, contract):
+    """Enumerate short decision trees. Keep a deviating plan even if its two gains are zero."""
+    if orders == 0:
+        return [(False, Fraction(0), Fraction(0))]
+    wins = policy_gains(orders - 1, 1 if transfer else badge, transfer, contract)
+    losses = policy_gains(orders - 1, -1 if transfer else badge, transfer, contract)
+    prize = badge_prize(orders - 1, contract) if transfer else 0
+    plans = []
+    for grade in (0, 1):
+        deviation = grade != int(badge == -1)
+        gain_h, gain_l = deviation_gains(badge, prize, contract) if deviation else (0, 0)
+        high, low = contract.probabilities(grade, badge)
+        for (dev_w, h_w, l_w), (dev_l, h_l, l_l) in product(wins, losses):
+            plans.append((deviation or dev_w or dev_l,
+                          gain_h + high * h_w + (1 - high) * h_l,
+                          gain_l + low * l_w + (1 - low) * l_l))
+    return plans
+
+
+def elimination_interval(orders, contract):
+    """Apply Proposition 4 by exhaustive enumeration for short contracts (integer number of orders)."""
+    if orders < 1:
+        raise ValueError("The contract must contain at least one order.")
+    d_h, d_l = deviation_gains(-1, 0, contract)
+    if not d_h < 0 < d_l:
+        raise ValueError("Section 9.4 assumes standard with B featured gains in L and loses in H.")
+    fixed = policy_gains(orders, -1, False, contract)
+    lower = Fraction(0)
+    upper = max(low / -high for deviates, high, low in fixed if deviates)
+    for deviates, high, low in policy_gains(orders, -1, True, contract):
+        if not deviates:
+            continue
+        if high < 0:
+            lower = max(lower, -low / high)
+        elif high > 0:
+            upper = min(upper, -low / high)
+        elif low >= 0:
+            return None
+    if lower >= upper:
+        return None
+    return lower / (1 + lower), upper / (1 + upper)
+
+
+def verify_general_contracts():
+    # Values in the second example follow from a grade odds multiplier of
+    # 121/79 in H and 119/81 in L at either badge position.
+    def example_probabilities(grade, badge):
+        if badge == -1:
+            return (Fraction(1, 2),) * 2 if grade else (Fraction(79, 200), Fraction(81, 200))
+        return (Fraction(484, 563), Fraction(476, 557)) if grade else (Fraction(4, 5),) * 2
+
+    example = Contract(100, 10, example_probabilities)
+    assert deviation_gains(-1, 0, example) == (Fraction(-1, 2), Fraction(1, 2))
+    assert max(deviation_gains(1, 0, example)) < 0
+    # For k >= 1, D_k increases from 40 towards 400/7. Gains are affine in D_k.
+    assert badge_prize(1, example) == 40
+    persistence = example.probabilities(0, 1)[0] - example.probabilities(1, -1)[0]
+    assert persistence == Fraction(3, 10)
+    limit = badge_prize(1, example) / (1 - persistence)
+    assert limit == Fraction(400, 7)
+    worst_gain = max(gain for prize in (badge_prize(1, example), limit) for badge in (-1, 1)
+                     for gain in deviation_gains(badge, prize, example))
+    assert worst_gain == -Fraction(350, 563) < -Fraction(1, 2)
+    assert elimination_interval(2, example) == (Fraction(1, 2), Fraction(281, 560))
+    # A separate exact six-order Bellman calculation checks expansion beyond five orders.
+    six_cutoff = Fraction(404121211801, 799666559600)
+    knots = prior_partition(6, -1, False, example)
+    assert six_cutoff in knots and six_cutoff > Fraction(281, 560)
+    for prior in knots:
+        gap = first_grade_gap(6, prior, -1, False, example)
+        if prior == six_cutoff:
+            assert gap == 0
+        else:
+            assert gap * (six_cutoff - prior) > 0
+    for m, b in [(6, -1)] + list(product(range(1, 6), (-1, 1))):
+        lower = Fraction(1, 2)
+        knots = prior_partition(m, b, True, example)
+        for prior in [lower] + [point for point in knots if point > lower]:
+            margin = b * first_grade_gap(m, prior, b, True, example)
+            if (m, b, prior) == (1, -1, lower):
+                assert margin == 0
+            else:
+                assert margin > 0
+    # At 51%, buy two trial observations and continue with standard only after two wins.
+    q = Fraction(51, 100)
+    t_h, t_l = example.probabilities(0, -1)
+    k_h, k_l = (2 + 98 * p**2 for p in (t_h, t_l))
+    assert ((1 - q) * k_l - q * k_h) / 2 == Fraction(38351, 2000000) > 0
+    # The uniform sufficient condition is stronger than Proposition 4.
+    assert deviation_gains(-1, badge_prize(1, TABLE_3), TABLE_3)[1] > 0
+
+    def profitable_fast_when_featured(grade, badge):
+        if grade == 1 and badge == 1:
+            return Fraction(49, 50), Fraction(24, 25)
+        return example_probabilities(grade, badge)
+
+    empty_case = Contract(100, 10, profitable_fast_when_featured)
+    assert elimination_interval(3, empty_case) is None
+    for contract in (example, TABLE_3, empty_case):
+        for n in range(1, 4):
+            bounds = elimination_interval(n, contract)
+            states = [(n, -1)] + list(product(range(1, n), (-1, 1)))
+            points = set(prior_partition(n, -1, False, contract))
+            for m, b in states:
+                points.update(prior_partition(m, b, True, contract))
+            if bounds:
+                points.update(bounds)
+            knots = sorted(points)
+            probes = points | {(a + b) / 2 for a, b in zip(knots, knots[1:])}
+            for q in probes:
+                # Independent Bellman recursion updates the posterior after every
+                # possible deviation. Test all states reached by the uninformative plan.
+                silent = all(b * first_grade_gap(m, q, b, True, contract) > 0 for m, b in states)
+                eliminated = 0 < q < 1 and silent and first_grade_gap(n, q, -1, False, contract) > 0
+                assert eliminated == (bounds is not None and bounds[0] < q < bounds[1])
+    print("Section 9.4: policy trees and Bayesian recursion agree on short contracts, including "
+          "ties and an empty interval. The uniform badge-prize bound holds; with two orders the "
+          "second example gives 1/2 < prior < 281/560. A 100-order fixed-badge trial plan "
+          "earns strictly positive surplus at a 51% prior.")
+
+
 def main():
     print("Badge holder | Probability at grade 0 | Probability at grade 1 | Net gain")
     for badge, holder, expected in [(-1, "B", Fraction(2)), (1, "A", Fraction(-16, 7))]:
@@ -340,6 +488,7 @@ def main():
     fixed_cutoff = verify_prior_range()
     no_learning_cutoff = verify_five_order_no_learning_range()
     verify_trial_elimination(no_learning_cutoff, fixed_cutoff)
+    verify_general_contracts()
 
 
 if __name__ == "__main__":
