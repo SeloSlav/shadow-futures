@@ -240,6 +240,51 @@ def verify_prior_range():
           f"{transfer_cutoff} < prior < {fixed_cutoff}.")
 
 
+def verify_five_order_no_learning_range():
+    """Certify optimal uninformative dispatch at every reachable state and prior."""
+    # At an interior prior an award leaves beliefs unchanged iff the models agree
+    # on its win probability. All outcomes have positive probability in both models.
+    silent_grade = {}
+    for badge in (-1, 1):
+        for grade in (0, 1):
+            high, low = model_probabilities(grade, badge)
+            assert 0 < high < 1 and 0 < low < 1
+            if high == low:
+                assert badge not in silent_grade
+                silent_grade[badge] = grade
+    assert silent_grade == {-1: 1, 1: 0}
+
+    # Four rival wins reach a final B-badged order. Its fast-dispatch gain is
+    # affine, strictly increasing and negative below this exact break-even prior.
+    low_gain, high_gain = fast_gain(Fraction(0)), fast_gain(Fraction(1))
+    assert low_gain < 0 < high_gain
+    cutoff = -low_gain / (high_gain - low_gain)
+    assert cutoff == Fraction(16, 25)
+
+    # While beliefs are unchanged, the same prior applies at every state. Test
+    # all affine pieces of the Bellman action gap, including ties, with optimal
+    # continuation even after an informative deviation.
+    for orders in range(1, 6):
+        badges = (-1,) if orders == 5 else (-1, 1)
+        for badge in badges:
+            knots = prior_partition(orders, badge, True)
+            priors = [cutoff] + [q for q in knots if q > cutoff]
+            for q in priors:
+                gap = first_grade_gap(orders, q, badge, True)
+                advantage = gap if silent_grade[badge] == 0 else -gap
+                if orders == 1 and badge == -1 and q == cutoff:
+                    assert advantage == 0
+                else:
+                    assert advantage > 0
+
+    for q in (Fraction(0), cutoff, Fraction(1)):
+        assert -first_grade_gap(1, q, -1, True) == fast_gain(q)
+    assert all(posterior != cutoff for _, posterior in standard_outcomes(cutoff))
+    print("Transferable badge, initially uncertain vendor: all optimal policies preserve beliefs "
+          f"on all five orders for {cutoff} < prior < 1. At {cutoff}, only the final B-badged "
+          "order ties; fast preserves beliefs, standard updates them. Priors 0 and 1 stay fixed.")
+
+
 def main():
     print("Badge holder | Probability at grade 0 | Probability at grade 1 | Net gain")
     for badge, holder, expected in [(-1, "B", Fraction(2)), (1, "A", Fraction(-16, 7))]:
@@ -261,6 +306,7 @@ def main():
     verify_badge_comparison()
     verify_transferable_badge_histories()
     verify_prior_range()
+    verify_five_order_no_learning_range()
 
 
 if __name__ == "__main__":
