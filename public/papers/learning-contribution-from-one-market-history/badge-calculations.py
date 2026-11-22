@@ -67,7 +67,36 @@ def check_forward():
             assert max(abs(x - y) for x, y in zip(expected, forward(6, gamma, beta, alpha))) < 1e-12
 
 
+def check_opening_badges(horizon=8, premium=1.0):
+    """Verify Proposition 1 by enumerating a fair opening and every continuation."""
+    challenger = 1 / (1 + exp(premium))
+    expected_diagonal = (horizon - 1) * challenger * (1 - challenger)
+    expected_budget = .5 + (horizon - 1) * challenger
+    for transferable in (False, True):
+        masses, diagonals, cross_terms = [], [], []
+        for path in product((0, 1), repeat=horizon):
+            badge = 2 * path[0] - 1
+            mass, budget, diagonal, cross = .5, .5, 0., 0.
+            for winner in path[1:]:
+                p = choice(1, badge, 0, 0, premium)
+                variance = p * (1 - p)
+                budget += min(p, 1 - p)
+                diagonal += variance
+                cross += badge * variance
+                mass *= p if winner else 1 - p
+                if transferable:
+                    badge = 2 * winner - 1
+            assert abs(budget - expected_budget) < 1e-12
+            masses.append(mass)
+            diagonals.append(mass * diagonal)
+            cross_terms.append(mass * cross)
+        assert abs(fsum(masses) - 1) < 1e-12
+        assert abs(fsum(diagonals) - expected_diagonal) < 1e-12
+        assert abs(fsum(cross_terms)) < 1e-12
+
+
 if __name__ == "__main__":
+    check_opening_badges()
     check_forward()
     print("gamma     E[B_10000]     I_known     I_adjusted     risk_T=12")
     for gamma in (0, .5, 1, 2):

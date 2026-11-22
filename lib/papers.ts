@@ -130,15 +130,19 @@ export const COMPANION_PAPERS: readonly ResearchPaper[] = [
     title: "Learning Contribution from One Market History",
     focus: "Learning from adaptive allocations",
     description:
-      "When can one platform learn how quality affects the odds of a sale if past wins also influence rank? For a finite set of quality and rank contrasts, the paper characterizes which comparisons identify the quality effect. It applies the result to a badge held by the last winner and to scheduled ranking reviews, then shows what a platform can learn when it discounts past wins.",
+      "A permanent winner’s badge and a transferable badge can yield identical comparison budgets and expected information. Only transfer lets one market learn both quality and rank. The paper characterizes which comparisons identify quality and proves that, when rankings retain every sale with sublinear reinforcement, fluctuations around the limiting share reveal both effects.",
     pdfPath: "/papers/learning-contribution-from-one-market-history.pdf",
-    pages: 20,
+    pages: 25,
     status: "Research draft",
     publishedDate: "2026-11-22",
     supplements: [
       {
-        label: "Table 1 replication code (Python)",
+        label: "Badge calculations and Table 1 (Python)",
         path: "/papers/learning-contribution-from-one-market-history/badge-calculations.py",
+      },
+      {
+        label: "Full-memory estimator (Python)",
+        path: "/papers/learning-contribution-from-one-market-history/full-memory-estimator.py",
       },
     ],
   },
