@@ -238,6 +238,7 @@ def verify_prior_range():
     assert fast_gain(Fraction(16, 25)) == 0
     print("Strict reversal (standard first with a fixed badge, fast first under transfer): "
           f"{transfer_cutoff} < prior < {fixed_cutoff}.")
+    return fixed_cutoff
 
 
 def verify_five_order_no_learning_range():
@@ -283,6 +284,37 @@ def verify_five_order_no_learning_range():
     print("Transferable badge, initially uncertain vendor: all optimal policies preserve beliefs "
           f"on all five orders for {cutoff} < prior < 1. At {cutoff}, only the final B-badged "
           "order ties; fast preserves beliefs, standard updates them. Priors 0 and 1 stay fixed.")
+    return cutoff
+
+
+def verify_trial_elimination(no_learning_cutoff, fixed_cutoff):
+    """Intersect the strict fixed-badge trial region with five uninformative awards under transfer."""
+    # The transfer check above certifies strict nonlearning for all interior
+    # priors above its cutoff. Standard with B featured is an informative trial.
+    high, low = model_probabilities(0, -1)
+    assert high != low
+    knots = sorted(set(prior_partition(5, -1, False)) | {no_learning_cutoff, fixed_cutoff})
+    # Between consecutive knots the fixed action gap has constant sign.
+    midpoints = [(left + right) / 2 for left, right in zip(knots, knots[1:])]
+    for q in knots + midpoints:
+        trial_required = first_grade_gap(5, q, -1, False) > 0
+        no_learning_required = no_learning_cutoff < q < 1
+        assert (trial_required and no_learning_required) == (no_learning_cutoff < q < fixed_cutoff)
+
+    # Above the upper cutoff fast stays strictly optimal at every remaining
+    # horizon under the fixed badge. Fast leaves the prior unchanged.
+    for orders in range(1, 6):
+        knots = prior_partition(orders, -1, False)
+        for q in [fixed_cutoff] + [k for k in knots if k > fixed_cutoff]:
+            gap = first_grade_gap(orders, q, -1, False)
+            if orders == 5 and q == fixed_cutoff:
+                assert gap == 0
+            else:
+                assert gap < 0
+    width_pp = 100 * (fixed_cutoff - no_learning_cutoff)
+    assert width_pp == Fraction(14089536, 6132251)
+    print(f"Transfer eliminates a strictly preferred fixed-badge trial on every history for "
+          f"{no_learning_cutoff} < prior < {fixed_cutoff}: {float(width_pp):.2f} percentage points.")
 
 
 def main():
@@ -305,8 +337,9 @@ def main():
     verify_dispatch()
     verify_badge_comparison()
     verify_transferable_badge_histories()
-    verify_prior_range()
-    verify_five_order_no_learning_range()
+    fixed_cutoff = verify_prior_range()
+    no_learning_cutoff = verify_five_order_no_learning_range()
+    verify_trial_elimination(no_learning_cutoff, fixed_cutoff)
 
 
 if __name__ == "__main__":
