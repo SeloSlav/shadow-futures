@@ -109,11 +109,5 @@
 }
 
 .reviewNote p {
-  margin: 0 0 1rem;
-}
-
-.reviewNote a {
-  display: inline-block;
-  color: var(--rust-soft);
-  text-underline-offset: 0.25em;
+  margin: 0;
 }

@@ -4,12 +4,11 @@ export function ComparisonBudgetGuide() {
   return (
     <section className="budget-guide" aria-labelledby="budget-guide-title">
       <header>
-        <span className="panel__meta">The comparison budget, without the jargon</span>
+        <span className="panel__meta">The comparison budget</span>
         <h3 id="budget-guide-title">Same 1,000 transactions. Different chances to learn.</h3>
         <p>
-          At each step, take the chance that the next reward goes to anyone except the
-          favorite. Add those chances. That sum is the paper’s comparison budget.
-          Here the favorite means whoever has the highest chance of winning next.
+          At each step, add the chance that someone other than the favorite wins.
+          Here’s how much that adds up to over 1,000 transactions if the odds stay fixed.
         </p>
       </header>
       <div className="budget-guide__examples">
@@ -23,35 +22,33 @@ export function ComparisonBudgetGuide() {
               <span style={{ width: example.width }} />
             </div>
             <div className="budget-guide__key">
-              <span>Favorite: <strong>{example.leader}</strong></span>
-              <span>Everyone else: <strong>{example.other}</strong></span>
+              <span>Favorite <strong>{example.leader}</strong></span>
+              <span>Others <strong>{example.other}</strong></span>
             </div>
-            <p>If these chances stay fixed for 1,000 transactions:</p>
             <div className="budget-guide__calculation">
               <span>{example.formula} =</span>
               <strong>{example.budget}</strong>
             </div>
-            <span className="budget-guide__unit">units of comparison budget</span>
+            <span className="budget-guide__unit">budget units</span>
           </article>
         ))}
       </div>
       <p className="budget-guide__note">
-        The budget counts chances, not actual wins or independent experiments. In the paper’s
-        model it bounds how much information allocations can provide. A larger budget leaves
-        more room to learn; it doesn’t guarantee learning, especially if competitors’ measured
-        inputs are identical.
+        A larger comparison budget leaves more room to learn. The budget counts chances
+        to compare, and a large total alone can’t establish contribution.
       </p>
-      <aside className="budget-guide__boundary">
-        <strong>Tiny chances alone do not prove impossibility.</strong>
+      <details className="story-details budget-guide__boundary">
+        <summary>Why tiny chances can still add up to an infinite budget</summary>
         <p>
           A constant 0.1% chance keeps adding comparison forever. The theorem needs the
           entire future sum to be finite: for example, chances that halve each round add
           up to only 1 (½ + ¼ + ⅛ + …). Under the paper’s other conditions, no method can
           reliably recover contribution across all possible contribution values from one
-          history, even by watching forever.
+          history, even by watching forever. Learning also depends on whether competitors’
+          measured inputs differ.
         </p>
         <Link href="/methodology">See the assumptions and the precise result →</Link>
-      </aside>
+      </details>
     </section>
   );
 }

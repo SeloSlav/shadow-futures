@@ -90,20 +90,21 @@ function NoveltyBridge() {
 
       <div className="novelty-bridge__body">
         <article className="novelty-analogy">
-          <span className="panel__meta">A simple analogy</span>
-          <h3>One product gets moved to the front shelf.</h3>
-          <p>
-            Imagine two products whose quality is measured perfectly. Both start with the
-            same shelf space. A chance early sale gives one a more prominent position; more
-            sales make its position more prominent still. Quality affects what shoppers buy,
-            but so does the placement created by earlier sales.
-          </p>
+          <div className="novelty-analogy__intro">
+            <span className="panel__meta">A simple analogy</span>
+            <h3>One product gets moved to the front shelf.</h3>
+            <p>
+              Imagine two products whose quality we know exactly. They start in equally visible
+              spots. An early sale moves one to a better spot, which brings more sales and then
+              better placement. Shoppers respond to both quality and shelf position.
+            </p>
+          </div>
           <figure className="novelty-analogy__visual" id="shelf-analogy-visual">
             <Image
               src="/illustrations/shelf-shadow-future.webp"
               width={1400}
               height={684}
-              sizes="(max-width: 900px) calc(100vw - 5rem), 40vw"
+              sizes="(max-width: 760px) calc(100vw - 5rem), 40vw"
               alt="One product is repeatedly promoted by sales on the observed shelf, while a faint second shelf shows the unrealized rerun with a different product in front."
             />
             <figcaption>
@@ -113,10 +114,9 @@ function NoveltyBridge() {
           </figure>
           <p className="novelty-analogy__answer">
             <strong>The receipts record sales, not what would have happened otherwise.</strong>{" "}
-            Rerun the same shop from the same starting shelves, with the same products and
-            rule, but a different sequence of early purchases. The other product may end up
-            in front. That unrealized history is a shadow future. Deliberately rotating the
-            shelves is a different exercise: an intervention that creates fresh comparisons.
+            Rerun the shop with the same products, starting shelves and rule, but a different
+            sequence of purchases. The other product might take the lead. That rerun is a
+            shadow future. Rotating the shelves is an intervention that creates fresh comparisons.
           </p>
         </article>
 
@@ -209,7 +209,7 @@ export function CreatorStoryPage() {
   return (
     <>
       <BookHero />
-      <main id="main-content">
+      <main id="main-content" className="landing-story">
         <NoveltyBridge />
         <StorySection
           id="breakout"
@@ -774,9 +774,6 @@ export function CreatorStoryPage() {
               </Link>
               <Link className="button" href="/faq">
                 Questions and answers
-              </Link>
-              <Link className="button" href="/paper#contribute">
-                Contribute on Hunchroom
               </Link>
               <button
                 className="button"

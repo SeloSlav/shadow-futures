@@ -125,9 +125,6 @@ export default function PapersPage() {
               The comparison-budget theorem motivates the program; the institutional and
               policy conclusions depend on additional assumptions developed in each draft.
             </p>
-            <Link href="/paper#contribute">
-              Contribute to the formal proof request on Hunchroom <span aria-hidden="true">→</span>
-            </Link>
           </aside>
         </div>
       </main>

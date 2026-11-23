@@ -22,10 +22,6 @@ The book and the paper are distinct works. DOI 10.2139/ssrn.6003994 identifies t
 - [Methodology](https://shadow-futures.vercel.app/methodology): Assumptions, evidence, theorem scope, and policy boundaries.
 - [Mathematics](https://shadow-futures.vercel.app/math): The central equation and theorem logic.
 
-## Contribute on Hunchroom
-
-- [Formal proof request #44](https://hunchroom.com/p/44): Contribute a Lean proof, an independent meaning review, or a useful partial attempt for the finite-recipient specialization of Theorem 1 and Appendix B, with scalar contribution functionals. The posted statement has been typechecked; proof verification is a separate check.
-
 ## Tools
 
 - [The comparison budget](https://shadow-futures.vercel.app/playground) charts a two-product market and lets readers rotate the shelf to restore comparison.

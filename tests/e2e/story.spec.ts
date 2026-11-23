@@ -1,6 +1,29 @@
 import { expect, test } from "@playwright/test";
 
 test.describe("interactive essay", () => {
+  test("fits each chart, controls and result in one viewport", async ({ page, isMobile }) => {
+    if (isMobile) await page.setViewportSize({ width: 320, height: 568 });
+    await page.emulateMedia({ reducedMotion: "reduce" });
+    await page.goto("/");
+    await page.evaluate(() => document.fonts.ready.then(() => undefined));
+
+    for (const id of ["breakout-graph", "experiment-monopoly-graph", "lorenz-history-graph"]) {
+      const graph = page.getByTestId(id);
+      await graph.getByRole("button").click();
+      await expect(graph).toHaveAttribute("data-animation-state", "complete");
+      const { chartHeight, availableHeight } = await graph.evaluate((element) => {
+        const head = element.querySelector(".creator-graph__head")!;
+        const body = element.querySelector(".creator-graph__body")!;
+        const header = document.querySelector("body > header")!;
+        return {
+          chartHeight: body.getBoundingClientRect().bottom - head.getBoundingClientRect().top,
+          availableHeight: window.innerHeight - header.getBoundingClientRect().height,
+        };
+      });
+      expect(chartHeight, id).toBeLessThanOrEqual(availableHeight);
+    }
+  });
+
   test("plays the creator graphs and reaches every chapter", async ({ page, isMobile }) => {
     test.skip(isMobile, "covered by the desktop narrative journey");
     await page.goto("/");

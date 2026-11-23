@@ -1,7 +1,7 @@
 "use client";
 
 import { motion, useReducedMotion } from "framer-motion";
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState, type ReactNode } from "react";
 
 import { mulberry32 } from "@/lib/model/prng";
 
@@ -161,12 +161,15 @@ function useGraphAnimation(duration = 2_800) {
   };
 }
 
+const CHART_WIDTH = 860;
+const CHART_INSET = { top: 24, right: 42, bottom: 28, left: 108 };
+
 function linePath(
   values: number[],
   width: number,
   height: number,
   maxValue: number,
-  inset = { top: 24, right: 28, bottom: 52, left: 54 },
+  inset = CHART_INSET,
 ) {
   const innerWidth = width - inset.left - inset.right;
   const innerHeight = height - inset.top - inset.bottom;
@@ -178,6 +181,26 @@ function linePath(
       return `${index === 0 ? "M" : "L"}${x.toFixed(2)},${y.toFixed(2)}`;
     })
     .join(" ");
+}
+
+function ChartPlot({
+  verticalLabel,
+  horizontalLabel,
+  children,
+}: {
+  verticalLabel: string;
+  horizontalLabel: string;
+  children: ReactNode;
+}) {
+  return (
+    <div className="creator-graph__plot">
+      <p className="creator-graph__axis" aria-hidden="true">{verticalLabel}</p>
+      {children}
+      <p className="creator-graph__axis creator-graph__axis--horizontal" aria-hidden="true">
+        {horizontalLabel}
+      </p>
+    </div>
+  );
 }
 
 export function BreakoutGraph() {
@@ -214,10 +237,12 @@ export function BreakoutGraph() {
     Math.floor(animation.progress * (world.series[0].length - 1)),
   );
   const leaderShare = world.series[world.winner][sampleIndex] ?? 0;
-  const chartWidth = 860;
-  const chartHeight = 420;
-  const x = 54 + (sampleIndex / Math.max(1, world.series[0].length - 1)) * 778;
-  const y = 24 + (1 - leaderShare) * 344;
+  const chartWidth = CHART_WIDTH;
+  const chartHeight = 360;
+  const plotHeight = chartHeight - CHART_INSET.top - CHART_INSET.bottom;
+  const plotWidth = chartWidth - CHART_INSET.left - CHART_INSET.right;
+  const x = CHART_INSET.left + (sampleIndex / Math.max(1, world.series[0].length - 1)) * plotWidth;
+  const y = CHART_INSET.top + (1 - leaderShare) * plotHeight;
   const miniChartWidth = 300;
   const miniChartHeight = 132;
   const miniChartInset = { top: 12, right: 12, bottom: 18, left: 12 };
@@ -256,72 +281,94 @@ export function BreakoutGraph() {
         </button>
       </div>
 
-      <div className="creator-graph__plot">
-        <svg
-          className="creator-line-chart"
-          viewBox={`0 0 ${chartWidth} ${chartHeight}`}
-          role="img"
-          aria-label="Cumulative recommendation shares for the ten highest-ranked creators out of 24. All start together with fixed modeled appeal. Each past recommendation increases future recommendation odds."
+      <div className="creator-graph__body">
+        <ChartPlot
+          verticalLabel="Share of recommendations so far"
+          horizontalLabel="Recommendation 1 → 1,600"
         >
-          <title>One creator’s early exposure becomes a runaway platform lead</title>
-          <desc>
-            Twenty-four creators have different levels of modeled audience response. Small early
-            differences in exposure are amplified until one creator receives much more of the
-            platform’s attention. The ten leading observed paths are shown.
-          </desc>
-          <text x="54" y="15" className="creator-chart-label comparison-axis-title">
-            share of recommendations received so far
-          </text>
-          {[0, 0.25, 0.5, 0.75, 1].map((tick) => {
-            const tickY = 24 + (1 - tick) * 344;
-            return (
-              <g key={tick}>
-                <line
-                  x1="54"
-                  x2="832"
-                  y1={tickY}
-                  y2={tickY}
-                  className="creator-chart-grid"
-                />
-                <text x="42" y={tickY + 5} textAnchor="end" className="creator-chart-label">
-                  {Math.round(tick * 100)}%
-                </text>
-              </g>
-            );
-          })}
-          {topTen.map((entry, rank) => (
-            <motion.path
-              key={entry.creator}
-              d={linePath(world.series[entry.creator], chartWidth, chartHeight, 1)}
-              fill="none"
-              stroke={TOP_TEN_COLORS[rank]}
-              strokeWidth={rank === 0 ? 5 : rank < 3 ? 3 : 1.7}
-              strokeLinecap="round"
-              initial={false}
-              animate={{ pathLength: animation.progress }}
-              transition={{ duration: 0.08, ease: "linear" }}
-              opacity={rank < 3 ? 1 : 0.78}
-            />
-          ))}
-          {animation.progress > 0 ? (
-            <motion.circle
-              cx={x}
-              cy={y}
-              r="7"
-              fill="var(--rust)"
-              initial={false}
-              animate={{ cx: x, cy: y }}
-              transition={{ duration: 0.08, ease: "linear" }}
-            />
-          ) : null}
-          <text x="54" y="402" className="creator-chart-label">
-            first recommendation
-          </text>
-          <text x="832" y="402" textAnchor="end" className="creator-chart-label">
-            recommendation 1,600
-          </text>
-        </svg>
+          <svg
+            className="creator-line-chart"
+            viewBox={`0 0 ${chartWidth} ${chartHeight}`}
+            role="img"
+            aria-label="Cumulative recommendation shares for the ten highest-ranked creators out of 24. All start together with fixed modeled appeal. Each past recommendation increases future recommendation odds."
+          >
+            <title>One creator’s early exposure becomes a runaway platform lead</title>
+            <desc>
+              Twenty-four creators have different levels of modeled audience response. Small early
+              differences in exposure are amplified until one creator receives much more of the
+              platform’s attention. The ten leading observed paths are shown.
+            </desc>
+            {[0, 0.25, 0.5, 0.75, 1].map((tick) => {
+              const tickY = CHART_INSET.top + (1 - tick) * plotHeight;
+              return (
+                <g key={tick}>
+                  <line
+                    x1={CHART_INSET.left}
+                    x2={chartWidth - CHART_INSET.right}
+                    y1={tickY}
+                    y2={tickY}
+                    className="creator-chart-grid"
+                  />
+                  <text x={CHART_INSET.left - 12} y={tickY} dominantBaseline="central" textAnchor="end" className="creator-chart-label">
+                    {Math.round(tick * 100)}%
+                  </text>
+                </g>
+              );
+            })}
+            {topTen.map((entry, rank) => (
+              <motion.path
+                key={entry.creator}
+                d={linePath(world.series[entry.creator], chartWidth, chartHeight, 1)}
+                fill="none"
+                stroke={TOP_TEN_COLORS[rank]}
+                strokeWidth={rank === 0 ? 5 : rank < 3 ? 3 : 1.7}
+                strokeLinecap="round"
+                initial={false}
+                animate={{ pathLength: animation.progress }}
+                transition={{ duration: 0.08, ease: "linear" }}
+                opacity={rank < 3 ? 1 : 0.78}
+              />
+            ))}
+            {animation.progress > 0 ? (
+              <motion.circle
+                cx={x}
+                cy={y}
+                r="7"
+                fill="var(--rust)"
+                initial={false}
+                animate={{ cx: x, cy: y }}
+                transition={{ duration: 0.08, ease: "linear" }}
+              />
+            ) : null}
+          </svg>
+        </ChartPlot>
 
+        <div className="creator-graph__reading">
+          <p className="chart-key-leader">
+            <span style={{ backgroundColor: TOP_TEN_COLORS[0] }} aria-hidden="true" />
+            {animation.state === "complete"
+              ? `Creator ${world.winner + 1} · leading path`
+              : "Thick line · leading path"}
+          </p>
+          <p className="creator-graph__result" aria-live="polite">
+            {animation.state === "complete" ? (
+              <>
+                Creator {world.winner + 1} received{" "}
+                <strong>{sharePercent(world.finalShare)}% of all recommendations</strong>.
+                Rerun to see how a different draw changes the ranking.
+              </>
+            ) : (
+              <>
+                Run the recommendations, then rerun them. Only the random draws change.
+                The model tracks exposure, with audience appeal held fixed.
+              </>
+            )}
+          </p>
+        </div>
+      </div>
+
+      <details className="story-details">
+        <summary>See all ten creator paths and appeal scores</summary>
         <div className="creator-chart-key" role="list" aria-label="Top ten creator paths">
           {topTen.map((entry, rank) => {
             const counterfactual = runnerUpCounterfactuals.find(
@@ -345,169 +392,150 @@ export function BreakoutGraph() {
             );
           })}
         </div>
+      </details>
 
-        <section className="creator-shadow-comparison" aria-labelledby="shadow-paths-title">
-          <div className="creator-shadow-comparison__intro">
-            <div>
-              <span className="panel__meta">A policy experiment with two of the same creators</span>
-              <h3 id="shadow-paths-title">What changes when the platform reopens discovery?</h3>
-            </div>
-            <p>
-              Same creator, same modeled audience appeal and same random sequence. Only the
-              accumulated ranking score resets after recommendations 400, 800 and 1,200.
-            </p>
+      <section className="creator-shadow-comparison" aria-labelledby="shadow-paths-title">
+        <div className="creator-shadow-comparison__intro">
+          <div>
+            <span className="panel__meta">A policy experiment with two of the same creators</span>
+            <h3 id="shadow-paths-title">What changes when the platform reopens discovery?</h3>
           </div>
-
-          <div className="creator-shadow-comparison__grid">
-            {runnerUpCounterfactuals.map((entry, index) => {
-              const comparisonMax = Math.ceil(100 * Math.max(
-                0.12,
-                Math.max(...world.series[entry.creator], ...entry.resetSeries) * 1.08,
-              )) / 100;
-              const delta = (entry.resetShare - entry.share) * 100;
-              return (
-                <article className="creator-shadow-card" key={entry.creator}>
-                  <header>
-                    <div>
-                      <span>Original #{index + 2}</span>
-                      <strong>Creator {entry.creator + 1}</strong>
-                    </div>
-                    <span className="creator-shadow-card__delta">
-                      {delta >= 0 ? "+" : ""}
-                      {delta.toFixed(1)} points
-                    </span>
-                  </header>
-
-                  <div className="creator-shadow-card__panels">
-                    <div className="creator-shadow-card__panel">
-                      <div className="creator-shadow-card__panel-head">
-                        <span>Observed ranking</span>
-                        <strong>{sharePercent(entry.share)}%</strong>
-                      </div>
-                      <svg
-                        viewBox={`0 0 ${miniChartWidth} ${miniChartHeight}`}
-                        role="img"
-                        aria-label={`Creator ${entry.creator + 1} receives ${sharePercent(entry.share)} percent of recommendations under the observed ranking.`}
-                      >
-                        <line
-                          x1={miniChartInset.left}
-                          x2={miniChartWidth - miniChartInset.right}
-                          y1={miniChartHeight - miniChartInset.bottom}
-                          y2={miniChartHeight - miniChartInset.bottom}
-                          className="creator-shadow-card__axis"
-                        />
-                        <motion.path
-                          d={linePath(
-                            world.series[entry.creator],
-                            miniChartWidth,
-                            miniChartHeight,
-                            comparisonMax,
-                            miniChartInset,
-                          )}
-                          fill="none"
-                          stroke={entry.color}
-                          strokeWidth="5"
-                          strokeLinecap="round"
-                          initial={false}
-                          animate={{ pathLength: animation.progress }}
-                          transition={{ duration: 0.08, ease: "linear" }}
-                        />
-                      </svg>
-                      <small className="creator-mini-scale">
-                        0–{Math.ceil(comparisonMax * 100)}% share · 0–1,600 recommendations
-                      </small>
-                    </div>
-
-                    <div className="creator-shadow-card__panel creator-shadow-card__panel--reset">
-                      <div className="creator-shadow-card__panel-head">
-                        <span>Ranking reset</span>
-                        <strong>{sharePercent(entry.resetShare)}%</strong>
-                      </div>
-                      <svg
-                        viewBox={`0 0 ${miniChartWidth} ${miniChartHeight}`}
-                        role="img"
-                        aria-label={`Creator ${entry.creator + 1} receives ${sharePercent(entry.resetShare)} percent of recommendations when ranking scores reset every 400 recommendations.`}
-                      >
-                        <line
-                          x1={miniChartInset.left}
-                          x2={miniChartWidth - miniChartInset.right}
-                          y1={miniChartHeight - miniChartInset.bottom}
-                          y2={miniChartHeight - miniChartInset.bottom}
-                          className="creator-shadow-card__axis"
-                        />
-                        {interventionSamples.map((interventionSample) => {
-                          const interventionX =
-                            miniChartInset.left +
-                            (interventionSample /
-                              Math.max(1, entry.resetSeries.length - 1)) *
-                              (miniChartWidth -
-                                miniChartInset.left -
-                                miniChartInset.right);
-                          return (
-                            <line
-                              key={interventionSample}
-                              x1={interventionX}
-                              x2={interventionX}
-                              y1={miniChartInset.top}
-                              y2={miniChartHeight - miniChartInset.bottom}
-                              className="creator-shadow-card__reset-marker"
-                            />
-                          );
-                        })}
-                        <motion.path
-                          d={linePath(
-                            entry.resetSeries,
-                            miniChartWidth,
-                            miniChartHeight,
-                            comparisonMax,
-                            miniChartInset,
-                          )}
-                          fill="none"
-                          stroke={entry.color}
-                          strokeWidth="5"
-                          strokeLinecap="round"
-                          initial={false}
-                          animate={{ pathLength: animation.progress }}
-                          transition={{ duration: 0.08, ease: "linear" }}
-                        />
-                      </svg>
-                      <small className="creator-mini-scale">
-                        0–{Math.ceil(comparisonMax * 100)}% share · dashed lines mark resets
-                      </small>
-                    </div>
-                  </div>
-                </article>
-              );
-            })}
-          </div>
-
-          <p className="creator-shadow-comparison__note">
-            The intervention clears accumulated visibility scores, not prior views or modeled
-            audience appeal. Each pair shares a vertical scale; scales differ between creators.
-            These are policy counterfactuals. A shadow future keeps the rule unchanged and
-            changes only the random draws: use “Run new recommendations” to see one.
+          <p>
+            Same creator, same modeled audience appeal and same random sequence. Only the
+            accumulated ranking score resets after recommendations 400, 800 and 1,200.
           </p>
-        </section>
-      </div>
+        </div>
 
-      <p className="creator-graph__result" aria-live="polite">
-        {animation.state === "complete" ? (
-          <>
-            Creator {world.winner + 1} received{" "}
-            <strong>{sharePercent(world.finalShare)}% of all recommendations</strong>.
-            Without intervention, #2 and #3 received{" "}
-            {sharePercent(runnerUpCounterfactuals[0].share)}% and{" "}
-            {sharePercent(runnerUpCounterfactuals[1].share)}%. With ranking resets, their
-            policy reruns reach {sharePercent(runnerUpCounterfactuals[0].resetShare)}% and{" "}
-            {sharePercent(runnerUpCounterfactuals[1].resetShare)}%.
-          </>
-        ) : (
-          <>
-            Run the recommendations, then rerun them. Inputs and rules stay the same;
-            only the random draws change. The model tracks exposure, not earnings or talent growth.
-          </>
-        )}
-      </p>
+        <div className="creator-shadow-comparison__grid">
+          {runnerUpCounterfactuals.map((entry, index) => {
+            const comparisonMax = Math.ceil(100 * Math.max(
+              0.12,
+              Math.max(...world.series[entry.creator], ...entry.resetSeries) * 1.08,
+            )) / 100;
+            const delta = (entry.resetShare - entry.share) * 100;
+            return (
+              <article className="creator-shadow-card" key={entry.creator}>
+                <header>
+                  <div>
+                    <span>Original #{index + 2}</span>
+                    <strong>Creator {entry.creator + 1}</strong>
+                  </div>
+                  <span className="creator-shadow-card__delta">
+                    {delta >= 0 ? "+" : ""}
+                    {delta.toFixed(1)} points
+                  </span>
+                </header>
+
+                <div className="creator-shadow-card__panels">
+                  <div className="creator-shadow-card__panel">
+                    <div className="creator-shadow-card__panel-head">
+                      <span>Observed ranking</span>
+                      <strong>{sharePercent(entry.share)}%</strong>
+                    </div>
+                    <svg
+                      viewBox={`0 0 ${miniChartWidth} ${miniChartHeight}`}
+                      role="img"
+                      aria-label={`Creator ${entry.creator + 1} receives ${sharePercent(entry.share)} percent of recommendations under the observed ranking.`}
+                    >
+                      <line
+                        x1={miniChartInset.left}
+                        x2={miniChartWidth - miniChartInset.right}
+                        y1={miniChartHeight - miniChartInset.bottom}
+                        y2={miniChartHeight - miniChartInset.bottom}
+                        className="creator-shadow-card__axis"
+                      />
+                      <motion.path
+                        d={linePath(
+                          world.series[entry.creator],
+                          miniChartWidth,
+                          miniChartHeight,
+                          comparisonMax,
+                          miniChartInset,
+                        )}
+                        fill="none"
+                        stroke={entry.color}
+                        strokeWidth="5"
+                        strokeLinecap="round"
+                        initial={false}
+                        animate={{ pathLength: animation.progress }}
+                        transition={{ duration: 0.08, ease: "linear" }}
+                      />
+                    </svg>
+                    <small className="creator-mini-scale">
+                      0–{Math.ceil(comparisonMax * 100)}% share · 0–1,600 recommendations
+                    </small>
+                  </div>
+
+                  <div className="creator-shadow-card__panel creator-shadow-card__panel--reset">
+                    <div className="creator-shadow-card__panel-head">
+                      <span>Ranking reset</span>
+                      <strong>{sharePercent(entry.resetShare)}%</strong>
+                    </div>
+                    <svg
+                      viewBox={`0 0 ${miniChartWidth} ${miniChartHeight}`}
+                      role="img"
+                      aria-label={`Creator ${entry.creator + 1} receives ${sharePercent(entry.resetShare)} percent of recommendations when ranking scores reset every 400 recommendations.`}
+                    >
+                      <line
+                        x1={miniChartInset.left}
+                        x2={miniChartWidth - miniChartInset.right}
+                        y1={miniChartHeight - miniChartInset.bottom}
+                        y2={miniChartHeight - miniChartInset.bottom}
+                        className="creator-shadow-card__axis"
+                      />
+                      {interventionSamples.map((interventionSample) => {
+                        const interventionX =
+                          miniChartInset.left +
+                          (interventionSample /
+                            Math.max(1, entry.resetSeries.length - 1)) *
+                            (miniChartWidth -
+                              miniChartInset.left -
+                              miniChartInset.right);
+                        return (
+                          <line
+                            key={interventionSample}
+                            x1={interventionX}
+                            x2={interventionX}
+                            y1={miniChartInset.top}
+                            y2={miniChartHeight - miniChartInset.bottom}
+                            className="creator-shadow-card__reset-marker"
+                          />
+                        );
+                      })}
+                      <motion.path
+                        d={linePath(
+                          entry.resetSeries,
+                          miniChartWidth,
+                          miniChartHeight,
+                          comparisonMax,
+                          miniChartInset,
+                        )}
+                        fill="none"
+                        stroke={entry.color}
+                        strokeWidth="5"
+                        strokeLinecap="round"
+                        initial={false}
+                        animate={{ pathLength: animation.progress }}
+                        transition={{ duration: 0.08, ease: "linear" }}
+                      />
+                    </svg>
+                    <small className="creator-mini-scale">
+                      0–{Math.ceil(comparisonMax * 100)}% share · dashed lines mark resets
+                    </small>
+                  </div>
+                </div>
+              </article>
+            );
+          })}
+        </div>
+
+        <p className="creator-shadow-comparison__note">
+          The intervention clears accumulated visibility scores, not prior views or modeled
+          audience appeal. Each pair shares a vertical scale; scales differ between creators.
+          These are policy counterfactuals. A shadow future keeps the rule unchanged and
+          changes only the random draws: use “Run new recommendations” to see one.
+        </p>
+      </section>
     </div>
   );
 }
@@ -518,8 +546,9 @@ export function ExperimentMonopolyGraph() {
   const clearedScores = useMemo(() => simulateCreatorWorld(31, COMPARISON_RESET_INTERVAL), []);
   const keptScoreTotal = keptScores.comparison.at(-1) ?? 0;
   const clearedScoreTotal = clearedScores.comparison.at(-1) ?? 0;
-  const chartWidth = 860;
-  const chartHeight = 390;
+  const chartWidth = CHART_WIDTH;
+  const chartHeight = 360;
+  const plotHeight = chartHeight - CHART_INSET.top - CHART_INSET.bottom;
 
   return (
     <div
@@ -537,132 +566,113 @@ export function ExperimentMonopolyGraph() {
         </button>
       </div>
 
-      <div className="experiment-metric">
-        <div>
-          <span className="panel__meta">What the vertical axis measures</span>
-          <strong>
-            The comparison budget accumulated so far, rather than the number of transactions.
-          </strong>
-        </div>
-        <p>
-          A 70% chance for the current favorite adds 0.30 to the budget: everyone else has
-          a combined 30% chance. A 99.9% chance adds only 0.001. Both rules make 1,600
-          recommendations, but they accumulate different amounts of comparison.
-        </p>
-      </div>
-
-      <div className="creator-graph__plot">
-        <svg
-          className="creator-line-chart"
-          viewBox={`0 0 ${chartWidth} ${chartHeight}`}
-          role="img"
-          aria-label={`Cumulative comparison budget versus recommendation count. Continuous reinforcement accumulates ${Math.round(keptScoreTotal)} budget units. Clearing ranking scores ${COMPARISON_RESET_COUNT} times accumulates ${Math.round(clearedScoreTotal)}. Both allocate 1,600 recommendations.`}
+      <div className="creator-graph__body">
+        <ChartPlot
+          verticalLabel="Cumulative comparison budget"
+          horizontalLabel="Recommendations 0 → 1,600"
         >
-          <title>Activity and comparison need not grow together</title>
-          <desc>
-            A dashed line counts recommendations. The rust line adds the chance outside
-            the favorite under continuous reinforcement. The blue line clears accumulated
-            ranking scores nine times, retaining the same appeal scores and random draws.
-          </desc>
-          <text x="54" y="15" className="creator-chart-label comparison-axis-title">
-            cumulative comparison budget
-          </text>
-          {[0, 0.25, 0.5, 0.75, 1].map((tick) => {
-            const tickY = 24 + (1 - tick) * 314;
-            return (
-              <g key={tick}>
-                <line
-                  x1="54"
-                  x2="832"
-                  y1={tickY}
-                  y2={tickY}
-                  className="creator-chart-grid"
-                />
-                <text
-                  x="42"
-                  y={tickY + 5}
-                  textAnchor="end"
-                  className="creator-chart-label comparison-y-tick"
-                >
-                  {(tick * RECOMMENDATIONS).toLocaleString("en-US")}
-                </text>
-              </g>
-            );
-          })}
-          <motion.path
-            d={linePath(keptScores.comparison, chartWidth, chartHeight, RECOMMENDATIONS)}
-            fill="none"
-            stroke="var(--rust)"
-            strokeWidth="5"
-            strokeLinecap="round"
-            initial={false}
-            animate={{ pathLength: animation.progress }}
-            transition={{ duration: 0.08, ease: "linear" }}
-          />
-          <motion.path
-            d={linePath(clearedScores.comparison, chartWidth, chartHeight, RECOMMENDATIONS)}
-            fill="none"
-            stroke="var(--blue)"
-            strokeWidth="5"
-            strokeLinecap="round"
-            initial={false}
-            animate={{ pathLength: animation.progress }}
-            transition={{ duration: 0.08, ease: "linear" }}
-          />
-          <path
-            d={linePath([0, RECOMMENDATIONS], chartWidth, chartHeight, RECOMMENDATIONS)}
-            fill="none"
-            stroke="currentColor"
-            strokeOpacity="0.5"
-            strokeWidth="2"
-            strokeDasharray="7 8"
-          />
-          <text x="54" y="370" className="creator-chart-label">
-            0 recommendations
-          </text>
-          <text x="832" y="370" textAnchor="end" className="creator-chart-label">
-            recommendation 1,600
-          </text>
-        </svg>
-      </div>
-
-      <div className="experiment-labels">
-        <div>
-          <span className="experiment-labels__line experiment-labels__line--rust" />
-          <strong>Keep boosting the early leader</strong>
-          <span>{Math.round(keptScoreTotal)} units of comparison budget</span>
+          <svg
+            className="creator-line-chart"
+            viewBox={`0 0 ${chartWidth} ${chartHeight}`}
+            role="img"
+            aria-label={`Cumulative comparison budget versus recommendation count. Continuous reinforcement accumulates ${Math.round(keptScoreTotal)} budget units. Clearing ranking scores ${COMPARISON_RESET_COUNT} times accumulates ${Math.round(clearedScoreTotal)}. Both allocate 1,600 recommendations.`}
+          >
+            <title>Activity and comparison need not grow together</title>
+            <desc>
+              A dashed line counts recommendations. The rust line adds the chance outside
+              the favorite under continuous reinforcement. The blue line clears accumulated
+              ranking scores nine times, retaining the same appeal scores and random draws.
+            </desc>
+            {[0, 0.25, 0.5, 0.75, 1].map((tick) => {
+              const tickY = CHART_INSET.top + (1 - tick) * plotHeight;
+              return (
+                <g key={tick}>
+                  <line
+                    x1={CHART_INSET.left}
+                    x2={chartWidth - CHART_INSET.right}
+                    y1={tickY}
+                    y2={tickY}
+                    className="creator-chart-grid"
+                  />
+                  <text
+                    x={CHART_INSET.left - 12}
+                    y={tickY}
+                    dominantBaseline="central"
+                    textAnchor="end"
+                    className="creator-chart-label"
+                  >
+                    {(tick * RECOMMENDATIONS).toLocaleString("en-US")}
+                  </text>
+                </g>
+              );
+            })}
+            <motion.path
+              d={linePath(keptScores.comparison, chartWidth, chartHeight, RECOMMENDATIONS)}
+              fill="none"
+              stroke="var(--rust)"
+              strokeWidth="5"
+              strokeLinecap="round"
+              initial={false}
+              animate={{ pathLength: animation.progress }}
+              transition={{ duration: 0.08, ease: "linear" }}
+            />
+            <motion.path
+              d={linePath(clearedScores.comparison, chartWidth, chartHeight, RECOMMENDATIONS)}
+              fill="none"
+              stroke="var(--blue)"
+              strokeWidth="5"
+              strokeLinecap="round"
+              initial={false}
+              animate={{ pathLength: animation.progress }}
+              transition={{ duration: 0.08, ease: "linear" }}
+            />
+            <path
+              d={linePath([0, RECOMMENDATIONS], chartWidth, chartHeight, RECOMMENDATIONS)}
+              fill="none"
+              stroke="currentColor"
+              strokeOpacity="0.5"
+              strokeWidth="2"
+              strokeDasharray="7 8"
+            />
+          </svg>
+        </ChartPlot>
+        <div className="creator-graph__reading">
+          <ul className="creator-graph__legend">
+            <li>
+              <span className="creator-graph__swatch creator-graph__swatch--rust" aria-hidden="true" />
+              <span>Boost the leader <strong>· {Math.round(keptScoreTotal)} units</strong></span>
+            </li>
+            <li>
+              <span className="creator-graph__swatch creator-graph__swatch--blue" aria-hidden="true" />
+              <span>Reset scores {COMPARISON_RESET_COUNT} times <strong>· {Math.round(clearedScoreTotal)} units</strong></span>
+            </li>
+            <li>
+              <span className="creator-graph__swatch creator-graph__swatch--dashed" aria-hidden="true" />
+              <span>Recommendation count</span>
+            </li>
+          </ul>
+          <p className="creator-graph__result" aria-live="polite">
+            {animation.state === "complete" ? (
+              <>
+                Across 1,600 recommendations, resets preserved{" "}
+                <strong>{(clearedScoreTotal / keptScoreTotal).toFixed(1)} times as much comparison</strong>.
+              </>
+            ) : (
+              <>The budget adds up the chances that each recommendation goes to someone other than the favorite.</>
+            )}
+          </p>
         </div>
-        <div>
-          <span className="experiment-labels__line experiment-labels__line--blue" />
-          <strong>Clear ranking scores {COMPARISON_RESET_COUNT} times</strong>
-          <span>{Math.round(clearedScoreTotal)} units of comparison budget; appeal stays unchanged</span>
-        </div>
       </div>
-      <p className="chart-reading-note">
-        The dashed line counts transactions, a different quantity shown for reference.
-        Clearing scores creates ten ranking periods, not ten independent markets.
-        A finite animation does not establish what happens over an infinite future.
-      </p>
-
-      <p className="creator-graph__result" aria-live="polite">
-        {animation.state === "complete" ? (
-          <>
-            Across the same 1,600 recommendations, clearing ranking scores {COMPARISON_RESET_COUNT}
-            {" "}times accumulated <strong>{Math.round(clearedScoreTotal)} comparison-budget units</strong>,
-            versus <strong>{Math.round(keptScoreTotal)}</strong> under continuous reinforcement.
-            This run preserved{" "}
-            <strong>
-              {(clearedScoreTotal / keptScoreTotal).toFixed(1)} times as much comparison
-            </strong>
-            . A bigger budget leaves room for more evidence; it does not guarantee identification.
-          </>
-        ) : (
-          <>
-            If social media keeps boosting the early leader, everyone else gets fewer real
-            chances to be seen.
-          </>
-        )}
-      </p>
+      <details className="story-details">
+        <summary>How to read the comparison budget</summary>
+        <p>
+          When the favorite has a 70% chance, the budget grows by 0.30. At 99.9%, it grows
+          by 0.001. Both rules make 1,600 recommendations with the same appeal scores.
+          Clearing scores creates ten ranking periods within one market. A bigger budget
+          leaves room for more evidence. This finite run cannot establish what happens
+          over an infinite future or guarantee that contribution can be identified.
+        </p>
+      </details>
     </div>
   );
 }
@@ -729,12 +739,15 @@ export function LorenzHistoryGraph() {
   const interventionActiveCreators = interventionShares.filter(
     (share) => share >= 0.02,
   ).length;
-  const chartWidth = 860;
-  const chartHeight = 420;
-  const annotationX = 54 + 0.75 * 778;
-  const baselineAnnotationY = 24 + (1 - baselineBottomShare) * 344;
+  const chartWidth = CHART_WIDTH;
+  const chartHeight = 410;
+  const inset = { ...CHART_INSET, bottom: 48 };
+  const plotWidth = chartWidth - inset.left - inset.right;
+  const plotHeight = chartHeight - inset.top - inset.bottom;
+  const annotationX = inset.left + 0.75 * plotWidth;
+  const baselineAnnotationY = inset.top + (1 - baselineBottomShare) * plotHeight;
   const interventionAnnotationY =
-    24 + (1 - interventionBottomShare) * 344;
+    inset.top + (1 - interventionBottomShare) * plotHeight;
 
   return (
     <div
@@ -745,7 +758,7 @@ export function LorenzHistoryGraph() {
       <div className="creator-graph__head">
         <div>
           <div className="panel__meta">A comparison-preserving intervention</div>
-          <strong>In this run, preserving comparison spreads recommendations more widely.</strong>
+          <strong>Preserving comparison spreads exposure in this run.</strong>
         </div>
         <button className="button button--small" type="button" onClick={animation.play}>
           {animation.running
@@ -756,159 +769,134 @@ export function LorenzHistoryGraph() {
         </button>
       </div>
 
-      <div className="creator-graph__plot">
-        <svg
-          className="creator-line-chart"
-          viewBox={`0 0 ${chartWidth} ${chartHeight}`}
-          role="img"
-          aria-label={`Two Lorenz curves of simulated recommendation shares. Under reinforcement, the top three receive ${sharePercent(baselineTopThreeShare)} percent of recommendations. With the comparison floor, they receive ${sharePercent(interventionTopThreeShare)} percent. Each curve sorts creators separately from least to most exposure.`}
+      <div className="creator-graph__body">
+        <ChartPlot
+          verticalLabel="Cumulative share of recommendations"
+          horizontalLabel="Creators, least to most exposure"
         >
-          <title>Recommendation concentration under two allocation rules</title>
-          <desc>
-            A rust curve shows the reinforcing baseline. A blue curve appears when a rule
-            preserves at least half of each next-recommendation chance for creators other
-            than the current favorite.
-          </desc>
-          {[0, 0.25, 0.5, 0.75, 1].map((tick) => {
-            const tickX = 54 + tick * 778;
-            const tickY = 24 + (1 - tick) * 344;
-            return (
-              <g key={tick}>
-                <line
-                  x1="54"
-                  x2="832"
-                  y1={tickY}
-                  y2={tickY}
-                  className="creator-chart-grid"
-                />
-                <text
-                  x="42"
-                  y={tickY + 5}
-                  textAnchor="end"
-                  className="creator-chart-label lorenz-y-tick"
-                  data-extreme={tick === 0 || tick === 1}
-                >
-                  {Math.round(tick * 100)}%
-                </text>
-                <text
-                  x={tickX}
-                  y="402"
-                  textAnchor="middle"
-                  className="creator-chart-label lorenz-x-tick"
-                  data-extreme={tick === 0 || tick === 1}
-                >
-                  {Math.round(tick * 100)}%
-                </text>
-              </g>
-            );
-          })}
-          <path
-            d={linePath([0, 1], chartWidth, chartHeight, 1)}
-            fill="none"
-            stroke="var(--line-strong)"
-            strokeWidth="2"
-            strokeDasharray="7 8"
-          />
-          <text x="610" y="112" className="creator-chart-label">
-            equal distribution
-          </text>
-          <path
-            d={linePath(baselineCumulativeShares, chartWidth, chartHeight, 1)}
-            fill="none"
-            stroke="var(--rust)"
-            strokeWidth="6"
-            strokeLinecap="round"
-          />
-          <motion.path
-            d={linePath(interventionCumulativeShares, chartWidth, chartHeight, 1)}
-            fill="none"
-            stroke="var(--blue)"
-            strokeWidth="6"
-            strokeLinecap="round"
-            initial={false}
-            animate={{ pathLength: animation.progress }}
-            transition={{ duration: 0.08, ease: "linear" }}
-          />
-          <circle
-            cx={annotationX}
-            cy={baselineAnnotationY}
-            r="6"
-            fill="var(--rust)"
-          />
-          <text
-            x={annotationX - 12}
-            y={Math.max(338, baselineAnnotationY - 18)}
-            textAnchor="end"
-            className="creator-chart-label"
+          <svg
+            className="creator-line-chart"
+            viewBox={`0 0 ${chartWidth} ${chartHeight}`}
+            role="img"
+            aria-label={`Two Lorenz curves of simulated recommendation shares. Under reinforcement, the top three receive ${sharePercent(baselineTopThreeShare)} percent of recommendations. With the comparison floor, they receive ${sharePercent(interventionTopThreeShare)} percent. Each curve sorts creators separately from least to most exposure.`}
           >
-            baseline: bottom 75% receive {sharePercent(baselineBottomShare)}%
-          </text>
-          {animation.progress > 0.92 ? (
-            <>
+            <title>Recommendation concentration under two allocation rules</title>
+            <desc>
+              A rust curve shows the reinforcing baseline. A blue curve appears when a rule
+              preserves at least half of each next-recommendation chance for creators other
+              than the current favorite.
+            </desc>
+            {[0, 0.25, 0.5, 0.75, 1].map((tick) => {
+              const tickX = inset.left + tick * plotWidth;
+              const tickY = inset.top + (1 - tick) * plotHeight;
+              return (
+                <g key={tick}>
+                  <line
+                    x1={CHART_INSET.left}
+                    x2={chartWidth - CHART_INSET.right}
+                    y1={tickY}
+                    y2={tickY}
+                    className="creator-chart-grid"
+                  />
+                  <text
+                    x={CHART_INSET.left - 12}
+                    y={tickY}
+                    dominantBaseline="central"
+                    textAnchor="end"
+                    className="creator-chart-label"
+                  >
+                    {Math.round(tick * 100)}%
+                  </text>
+                  <text
+                    x={tickX}
+                    y={chartHeight - 10}
+                    textAnchor="middle"
+                    className="creator-chart-label"
+                  >
+                    {Math.round(tick * 100)}%
+                  </text>
+                </g>
+              );
+            })}
+            <path
+              d={linePath([0, 1], chartWidth, chartHeight, 1, inset)}
+              fill="none"
+              stroke="var(--line-strong)"
+              strokeWidth="2"
+              strokeDasharray="7 8"
+            />
+            <path
+              d={linePath(baselineCumulativeShares, chartWidth, chartHeight, 1, inset)}
+              fill="none"
+              stroke="var(--rust)"
+              strokeWidth="6"
+              strokeLinecap="round"
+            />
+            <motion.path
+              d={linePath(interventionCumulativeShares, chartWidth, chartHeight, 1, inset)}
+              fill="none"
+              stroke="var(--blue)"
+              strokeWidth="6"
+              strokeLinecap="round"
+              initial={false}
+              animate={{ pathLength: animation.progress }}
+              transition={{ duration: 0.08, ease: "linear" }}
+            />
+            <circle
+              cx={annotationX}
+              cy={baselineAnnotationY}
+              r="6"
+              fill="var(--rust)"
+            />
+            {animation.progress > 0.92 ? (
               <circle
                 cx={annotationX}
                 cy={interventionAnnotationY}
                 r="6"
                 fill="var(--blue)"
               />
-              <text
-                x={annotationX - 12}
-                y={interventionAnnotationY - 18}
-                textAnchor="end"
-                className="creator-chart-label"
-              >
-                comparison rule: bottom 75% receive{" "}
-                {sharePercent(interventionBottomShare)}%
-              </text>
-            </>
-          ) : null}
-          <text
-            x="443"
-            y="418"
-            textAnchor="middle"
-            className="creator-chart-label lorenz-axis-title"
-          >
-            creators, least to most exposure
-          </text>
-          <text
-            x="-196"
-            y="15"
-            transform="rotate(-90)"
-            textAnchor="middle"
-            className="creator-chart-label lorenz-axis-title"
-          >
-            cumulative share of recommendations
-          </text>
-        </svg>
+            ) : null}
+          </svg>
+        </ChartPlot>
+
+        <div className="creator-graph__reading">
+          <ul className="creator-graph__legend">
+            <li>
+              <span className="creator-graph__swatch creator-graph__swatch--rust" aria-hidden="true" />
+              <span>Reinforcing baseline</span>
+            </li>
+            <li>
+              <span className="creator-graph__swatch creator-graph__swatch--blue" aria-hidden="true" />
+              <span>Reserve 50% for alternatives</span>
+            </li>
+            <li>
+              <span className="creator-graph__swatch creator-graph__swatch--dashed" aria-hidden="true" />
+              <span>Equal distribution</span>
+            </li>
+          </ul>
+          <p className="creator-graph__result" aria-live="polite">
+            {animation.state === "complete" ? (
+              <>
+                The rule preserved <strong>{(interventionBudget / baselineBudget).toFixed(1)} times as much comparison</strong>.
+                The top three’s share fell from <strong>{sharePercent(baselineTopThreeShare)}% to{" "}
+                {sharePercent(interventionTopThreeShare)}%</strong>.
+              </>
+            ) : (
+              <>Apply the rule to see how reserving chances for alternatives spreads recommendations.</>
+            )}
+          </p>
+        </div>
       </div>
 
-      <div
-        className="lorenz-comparison"
-        aria-label="Comparison budget and recommendation concentration under two rules"
-      >
-        <div className="lorenz-comparison__legend" aria-label="Chart key">
-          <div>
-            <span
-              className="lorenz-comparison__swatch lorenz-comparison__swatch--rust"
-              aria-hidden="true"
-            />
-            <span>
-              <strong>Reinforcing baseline</strong>
-              The ranking can keep spending attention on its current favorite.
-            </span>
-          </div>
-          <div>
-            <span
-              className="lorenz-comparison__swatch lorenz-comparison__swatch--blue"
-              aria-hidden="true"
-            />
-            <span>
-              <strong>Comparison-preserving rule</strong>
-              At least half of the next-recommendation chance stays outside the favorite.
-            </span>
-          </div>
-        </div>
-
+      <details className="story-details">
+        <summary>How to read the curve and compare the results</summary>
+        <p>
+          The dots mark the 18 least-exposed creators. They received {sharePercent(baselineBottomShare)}%
+          of recommendations in the baseline{animation.state === "complete"
+            ? ` and ${sharePercent(interventionBottomShare)}% with the comparison rule`
+            : ""}. Each curve ranks creators afresh, so the two groups can include different people.
+          The animation reveals a second completed simulation.
+        </p>
         <div className="lorenz-comparison__metrics" aria-live="polite">
           <article>
             <span>Comparison budget</span>
@@ -940,74 +928,42 @@ export function LorenzHistoryGraph() {
             <small>An illustrative cutoff, not a test of commercial viability</small>
           </article>
         </div>
+      </details>
 
-        <section className="lorenz-interventions" aria-labelledby="lorenz-interventions-title">
-          <div className="lorenz-interventions__intro">
-            <span className="panel__meta">How shadow futures guide policy</span>
-            <h3 id="lorenz-interventions-title">
-              Treat the comparison budget as something institutions should protect.
-            </h3>
-          </div>
-          <div className="lorenz-interventions__grid">
-            <article>
-              <span className="panel__meta">Modeled in the blue curve</span>
-              <h4>Reserve discovery for alternatives</h4>
-              <p>
-                When the favorite’s lead starts closing the contest, redirect enough exposure
-                to keep challengers genuinely testable.
-              </p>
-            </article>
-            <article>
-              <span className="panel__meta">Real-market counterpart</span>
-              <h4>Make audiences and data portable</h4>
-              <p>
-                Interoperability and portability can make other routes to reputation,
-                customers and distribution possible.
-              </p>
-            </article>
-            <article>
-              <span className="panel__meta">Real-market counterpart</span>
-              <h4>Keep trials independent</h4>
-              <p>
-                Separate rankings, procurement trials and public options can create useful
-                replications when their outcomes are genuinely independent and informative.
-              </p>
-            </article>
-          </div>
-        </section>
-      </div>
-
-      <p className="creator-graph__result" aria-live="polite">
-        {animation.state === "complete" ? (
-          <>
-            In this stylized run, the intervention preserved{" "}
-            <strong>
-              {(interventionBudget / baselineBudget).toFixed(1)} times as much comparison
-            </strong>
-            , expanded the number receiving at least 2% of recommendations from{" "}
-            <strong>
-              {baselineActiveCreators} to {interventionActiveCreators}
-            </strong>
-            , and reduced the top three’s recommendation share from{" "}
-            <strong>
-              {sharePercent(baselineTopThreeShare)}% to{" "}
-              {sharePercent(interventionTopThreeShare)}%
-            </strong>
-            .
-          </>
-        ) : (
-          <>
-            The rust curve is the reinforcing baseline. Apply the blue rule to keep alternatives
-            in the experiment and compare the resulting competition and concentration.
-          </>
-        )}
-      </p>
-      <p className="chart-reading-note">
-        Read 75% on the horizontal axis as the 18 least-exposed creators. The vertical
-        value is their combined share of recommendations. Each curve sorts creators anew,
-        so those 18 need not be the same people. These are two completed model runs;
-        the animation reveals the comparison, not a transition through intermediate policies.
-      </p>
+      <section className="lorenz-interventions" aria-labelledby="lorenz-interventions-title">
+        <div className="lorenz-interventions__intro">
+          <span className="panel__meta">How shadow futures guide policy</span>
+          <h3 id="lorenz-interventions-title">
+            Treat the comparison budget as something institutions should protect.
+          </h3>
+        </div>
+        <div className="lorenz-interventions__grid">
+          <article>
+            <span className="panel__meta">Modeled in the blue curve</span>
+            <h4>Reserve discovery for alternatives</h4>
+            <p>
+              When the favorite’s lead starts closing the contest, redirect enough exposure
+              to keep challengers genuinely testable.
+            </p>
+          </article>
+          <article>
+            <span className="panel__meta">Real-market counterpart</span>
+            <h4>Make audiences and data portable</h4>
+            <p>
+              Interoperability and portability can make other routes to reputation,
+              customers and distribution possible.
+            </p>
+          </article>
+          <article>
+            <span className="panel__meta">Real-market counterpart</span>
+            <h4>Keep trials independent</h4>
+            <p>
+              Separate rankings, procurement trials and public options can create useful
+              replications when their outcomes are genuinely independent and informative.
+            </p>
+          </article>
+        </div>
+      </section>
     </div>
   );
 }

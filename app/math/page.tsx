@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
-import { ResearchInvitation } from "@/components/research-invitation";
 import { Math as EquationMath } from "@/components/ui/math";
 
 export const metadata: Metadata = {
@@ -224,8 +223,6 @@ export default function MathPage() {
           Neither result says that productive inputs have no effect.
         </p>
       </aside>
-
-      <ResearchInvitation />
 
       <div className="button-row math-page__actions">
         <Link className="button button--primary" href="/methodology">

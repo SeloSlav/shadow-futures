@@ -28,12 +28,6 @@ The implication is an identification limit. No estimator based on one realized m
 
 Strong reinforcement is one sharp corollary because it can exhaust the comparison budget and produce eventual allocation monopoly. With latent position, contribution and position can be exactly observationally equivalent.
 
-## Contribute on Hunchroom
-
-[Join the formal proof request on Hunchroom](https://hunchroom.com/p/44) to contribute a Lean proof, an independent meaning review, or a useful partial attempt. Request #44 formalizes a finite-recipient specialization of Theorem 1 and Appendix B, with scalar contribution functionals.
-
-The posted Lean statement has been typechecked. This establishes that the proposition is well formed; proof verification and review of its correspondence to the paper are separate checks.
-
 ## Disclosure of AI assistance
 
 I used generative AI tools, including OpenAI Codex, to help develop the formal model and to draft and revise the manuscript. The research question grew out of my review of the literature on monopoly and on competition as a process of discovery. I take responsibility for the mathematical arguments, their economic interpretation, and any errors.
