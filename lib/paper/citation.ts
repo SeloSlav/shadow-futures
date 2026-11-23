@@ -8,6 +8,13 @@ export const AUTHOR = {
   mediumUrl: "https://medium.com/@SeloSlav",
 } as const;
 
+export const AUTHOR_PROFILES = [
+  { label: "SSRN author page", url: AUTHOR.ssrnUrl },
+  { label: "Medium", url: AUTHOR.mediumUrl },
+  { label: "ORCID", url: "https://orcid.org/0009-0008-5120-6910" },
+  { label: "Stack Overflow", url: "https://stackoverflow.com/users/martin-erlic" },
+] as const;
+
 export const PAPER = {
   title: "Shadow Futures: Contribution Uncertainty and the Self-Reinforcing Market",
   author: AUTHOR.name,

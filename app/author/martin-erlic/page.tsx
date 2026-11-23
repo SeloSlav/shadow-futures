@@ -3,7 +3,7 @@ import Link from "next/link";
 
 import { BOOK, BOOK_DESCRIPTION, BOOK_FULL_TITLE } from "@/lib/book";
 import { BOOK_SCHEMA } from "@/lib/book-schema";
-import { AUTHOR, PAPER } from "@/lib/paper/citation";
+import { AUTHOR, AUTHOR_PROFILES, PAPER } from "@/lib/paper/citation";
 import { SITE_ORIGIN } from "@/lib/site";
 
 const pageUrl = `${SITE_ORIGIN}${AUTHOR.path}`;
@@ -49,7 +49,7 @@ export default function MartinErlicPage() {
         url: pageUrl,
         description:
           "Independent author and researcher writing about systems, economics, self-reinforcing markets, and the future.",
-        sameAs: [AUTHOR.ssrnUrl, AUTHOR.mediumUrl],
+        sameAs: AUTHOR_PROFILES.map(({ url }) => url),
       },
       BOOK_SCHEMA,
       {
@@ -133,12 +133,11 @@ export default function MartinErlicPage() {
             <h2 id="author-profiles">Verified profiles</h2>
           </div>
           <div className="paper-section__content author-links">
-            <a href={AUTHOR.ssrnUrl} target="_blank" rel="noreferrer">
-              SSRN author page <span aria-hidden="true">↗</span>
-            </a>
-            <a href={AUTHOR.mediumUrl} target="_blank" rel="noreferrer">
-              Medium <span aria-hidden="true">↗</span>
-            </a>
+            {AUTHOR_PROFILES.map(({ label, url }) => (
+              <a key={url} href={url} target="_blank" rel="noreferrer">
+                {label} <span aria-hidden="true">↗</span>
+              </a>
+            ))}
           </div>
         </section>
       </main>

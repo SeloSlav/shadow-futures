@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { CreatorStoryPage } from "@/components/story/creator-story-page";
 import { BOOK, BOOK_DESCRIPTION, BOOK_FULL_TITLE } from "@/lib/book";
 import { BOOK_SCHEMA } from "@/lib/book-schema";
-import { AUTHOR, PAPER } from "@/lib/paper/citation";
+import { AUTHOR, AUTHOR_PROFILES, PAPER } from "@/lib/paper/citation";
 import { SITE_ORIGIN } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -41,7 +41,7 @@ export default function HomePage() {
         "@id": `${SITE_ORIGIN}${AUTHOR.path}#person`,
         name: AUTHOR.name,
         url: `${SITE_ORIGIN}${AUTHOR.path}`,
-        sameAs: [AUTHOR.ssrnUrl, AUTHOR.mediumUrl],
+        sameAs: AUTHOR_PROFILES.map(({ url }) => url),
       },
       BOOK_SCHEMA,
       {

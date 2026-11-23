@@ -27,3 +27,5 @@ The book and the original paper have different subtitles and are distinct works.
 
 - SSRN author page: https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=9773012
 - Medium: https://medium.com/@SeloSlav
+- ORCID: https://orcid.org/0009-0008-5120-6910
+- Stack Overflow: https://stackoverflow.com/users/martin-erlic
