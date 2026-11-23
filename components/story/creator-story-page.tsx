@@ -708,13 +708,6 @@ export function CreatorStoryPage() {
               </p>
             </article>
           </div>
-          <p className="data-note">
-            The choices below combine the paper’s measurement argument with judgments about
-            security, power and shared production. The paper does not choose a tax rate,
-            show that all high income is rent, or show that every merger is harmful. Its
-            social-dividend argument is narrower: an unconditional payment does not need
-            to reconstruct an individual merit ranking.
-          </p>
           <div className="policy-grid">
             {[
               [
@@ -740,6 +733,13 @@ export function CreatorStoryPage() {
               </article>
             ))}
           </div>
+          <p className="data-note">
+            These policy proposals combine the paper’s measurement argument with judgments about
+            security, power and shared production. The paper does not choose a tax rate,
+            show that all high income is rent, or show that every merger is harmful. Its
+            social-dividend argument is narrower: an unconditional payment does not need
+            to reconstruct an individual merit ranking.
+          </p>
         </StorySection>
 
         <StorySection
