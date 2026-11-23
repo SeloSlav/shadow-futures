@@ -18,7 +18,7 @@ export function BookHero() {
         </p>
         <p className={styles.description}>
           From parallel music markets to AI, work, and power, a book about
-          the winners we see—and the possibilities their success can leave behind.
+          the winners we see and the possibilities their success can leave behind.
         </p>
         <div className={styles.actions}>
           <Link className={styles.primary} href="/book">Read the book free <span aria-hidden="true">↗</span></Link>
