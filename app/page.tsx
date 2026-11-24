@@ -7,7 +7,7 @@ import { SITE_ORIGIN } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: { absolute: "Shadow Futures by Martin Erlic — Read the Book Free" },
-  description: `${BOOK.subtitle}. Read and download Martin Erlic's complete book free, and explore the interactive story behind the comparison budget.`,
+  description: "When early sales decide who gets the next chance, what can a market tell us about quality? Read Martin Erlic’s book free and explore the comparison budget.",
   openGraph: {
     title: "Shadow Futures by Martin Erlic",
     description: BOOK.subtitle,

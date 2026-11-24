@@ -153,7 +153,7 @@ Each companion states its own model, evidence requirements, and additional assum
 - Creator platforms and recommendation systems
 - Competitive firms, entrepreneurship, and platform markets
 - AI labs, chips, cloud computing, and data centers
-- AI agents, machine-to-machine payments, and the agentic economy
+- AI purchasing agents and supplier rankings shaped by past orders
 - Technical standards, procurement, finance, and distribution
 - Antitrust, merger review, interoperability, and independent experimentation
 - Progressive taxation, universal basic income, and social dividends

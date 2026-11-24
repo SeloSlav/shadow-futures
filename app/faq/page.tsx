@@ -8,13 +8,13 @@ import { SITE_ORIGIN } from "@/lib/site";
 export const metadata: Metadata = {
   title: "FAQ: Shadow Futures, Contribution Uncertainty, AI, Tax and Competition",
   description:
-    "Direct answers about Shadow Futures, contribution uncertainty, AI agents, x402, the agentic economy, antitrust, progressive taxation, UBI, and social dividends.",
+    "What can one market history tell us about productive contribution? Explore the comparison budget, competition and consumer welfare, AI agents, antitrust, and taxation.",
   alternates: { canonical: "/faq" },
   openGraph: {
     type: "article",
     title: "Shadow Futures FAQ",
     description:
-      "What self-reinforcing markets erase and what the result means for AI agents, x402, competition, progressive taxation, UBI, and redistribution.",
+      "Why early wins can exhaust a market’s chances to compare rivals, and what the evidence can tell us about competition, rewards, and tax policy.",
     url: "/faq",
   },
   twitter: {
@@ -76,15 +76,14 @@ export default function FaqPage() {
           <p className="eyebrow">Questions and direct answers</p>
           <h1>Shadow Futures, explained</h1>
           <p>
-            What self-reinforcing markets erase, why a million transactions may still be one
-            experiment, and what the result means for creators, firms, AI agents, x402,
-            competition, progressive taxation, UBI, and social dividends.
+            When a firm wins business today, it can become the obvious choice tomorrow.
+            What can a long run of orders tell us about the quality of its work?
           </p>
           <div className="faq-lead">
             <span className="panel__meta">The shortest answer</span>
             <strong>
-              Markets don’t just distribute rewards. Their rules decide whether society gets
-              enough independent histories to explain those rewards.
+              Even if we can measure every firm’s work, we may see its rivals win too rarely
+              to learn how much the work itself changed the outcome.
             </strong>
           </div>
           <div className="button-row method-page__actions">

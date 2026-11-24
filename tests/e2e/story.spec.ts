@@ -41,7 +41,12 @@ test.describe("interactive essay", () => {
         name: "A million transactions can still add up to only one experiment.",
       }),
     ).toBeVisible();
-    await expect(firstSectionAfterHero.getByText(/The closest statistical precedent/)).toBeVisible();
+    await expect(
+      firstSectionAfterHero.getByRole("link", { name: "Parameter Estimation of a Two-Colored Urn Model Class" }),
+    ).toHaveAttribute("href", "https://doi.org/10.1515/ijb-2016-0029");
+    await expect(
+      firstSectionAfterHero.getByRole("link", { name: "Competition and causal inference" }),
+    ).toHaveAttribute("href", "https://doi.org/10.1177/1470594X251339588");
     await page.locator("#book").getByRole("link", { name: /Explore the idea/ }).click();
     await expect(page).toHaveURL(/#novelty$/);
     await page.getByTestId("breakout-graph").scrollIntoViewIfNeeded();
@@ -269,14 +274,14 @@ test.describe("interactive essay", () => {
     ).toBeVisible();
     await expect(
       page.getByRole("heading", {
-        name: "How do AI agents, x402, and the agentic economy relate to Shadow Futures and UBI?",
+        name: "What if AI agents make the purchases?",
       }),
     ).toBeVisible();
     await expect(
       page.getByRole("link", {
-        name: "x402 is an open internet payment standard",
+        name: "Competition and causal inference: Economic choice and welfare analysis under potential outcomes",
       }),
-    ).toHaveAttribute("href", "https://docs.x402.org/introduction");
+    ).toHaveAttribute("href", "https://doi.org/10.1177/1470594X251339588");
     await expect(
       page.getByRole("link", {
         name: "complete paper and technical appendix",
@@ -291,5 +296,6 @@ test.describe("interactive essay", () => {
     const schemaText = await faqSchema.textContent();
     expect(schemaText).toContain('"@type":"FAQPage"');
     expect(schemaText).toContain('"@type":"Question"');
+    expect(schemaText).toContain("How does Shadow Futures relate to DeCanio and Jennings on competition?");
   });
 });

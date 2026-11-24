@@ -81,9 +81,9 @@ function NoveltyBridge() {
             />
           </figure>
           <p>
-            Economists already know that early success can compound. Shadow Futures asks a different
-            question: when each win changes who gets the next chance, can one long market history
-            still tell us how much of the final gap came from the winner&apos;s work?
+            Every sale leaves a record. It can also change which product the next customer sees.
+            If early sales give one product a lasting advantage, how much can all those receipts
+            tell us about the difference quality made?
           </p>
         </div>
       </div>
@@ -113,10 +113,10 @@ function NoveltyBridge() {
             </figcaption>
           </figure>
           <p className="novelty-analogy__answer">
-            <strong>The receipts record sales, not what would have happened otherwise.</strong>{" "}
-            Rerun the shop with the same products, starting shelves and rule, but a different
-            sequence of purchases. The other product might take the lead. That rerun is a
-            shadow future. Rotating the shelves is an intervention that creates fresh comparisons.
+            <strong>What if the other product had made the first sale?</strong>{" "}
+            With the same products, starting shelves and placement rule, that first sale
+            might have put a different product in front for years. That possible history
+            is a shadow future. A shop that rotates its shelves gives both products a fresh test.
           </p>
         </article>
 
@@ -133,12 +133,12 @@ function NoveltyBridge() {
             <span className="panel__meta">What this paper adds</span>
             <h3>When that process destroys the evidence needed to explain the winner</h3>
             <p>
-              At every step, Shadow Futures measures the chance that someone other than the current
-              leader gets the next reward. It adds those chances to the comparison budget. If that
-              total stays finite over the entire future, and the theorem’s other conditions
-              hold, no method using only one market history can consistently recover a
-              contribution measure across all possible contribution values. This can happen
-              even when work and quality are observed and transactions keep arriving.
+              Add up the chances, sale by sale, that someone other than the current favorite wins.
+              This is the comparison budget. If the lifetime sum is finite under every candidate
+              input effect and the theorem’s other conditions hold, even an endless sales record
+              cannot settle how much quality mattered. No estimator using that history can
+              consistently recover a measure of contribution that differs across candidate
+              effects, even when quality itself is perfectly observable.
             </p>
           </article>
         </div>
@@ -147,16 +147,15 @@ function NoveltyBridge() {
       <ComparisonBudgetGuide />
 
       <div className="novelty-boundary">
-        <span className="panel__meta">The literature gap, stated carefully</span>
+        <span className="panel__meta">Related research</span>
         <div className="novelty-boundary__copy">
           <p>
-            The paper doesn’t claim that competition’s discovery role, cumulative advantage or
-            lock-in is new. Hayek&apos;s
+            Hayek&apos;s
             {" "}
             <cite>Competition as a Discovery Procedure</cite>
             {" "}
-            (1968 lecture; English translation 2002) gives competition its familiar discovery
-            role. Merton&apos;s <cite>The Matthew Effect in Science</cite>
+            (1968 lecture, 2002 English translation) describes how competition
+            reveals knowledge. Merton&apos;s <cite>The Matthew Effect in Science</cite>
             {" "}
             (1968), David&apos;s <cite>Clio and the Economics of QWERTY</cite>
             {" "}
@@ -165,6 +164,18 @@ function NoveltyBridge() {
             <cite>Competing Technologies, Increasing Returns, and Lock-In by Historical Events</cite>
             {" "}
             (1989) establish the cumulative-advantage and lock-in foundations.
+          </p>
+          <p>
+            Samuel DeCanio and Colin Jennings (2026) ask what shoppers can learn about their
+            own welfare when rival products are available to compare. A monopoly can deprive
+            them of that knowledge even if it keeps prices low. Shadow Futures takes up the
+            broader question of what competition lets us learn. In the shop above, each sale
+            helps decide which product gets shelf space tomorrow. The question is whether the
+            resulting sales history can reveal how strongly quality affected purchases.
+            {" "}
+            <a href="https://doi.org/10.1177/1470594X251339588">
+              <cite>Competition and causal inference</cite>
+            </a>.
           </p>
           <p>
             Pemantle&apos;s <cite>A Survey of Random Processes with Reinforcement</cite>
@@ -186,16 +197,15 @@ function NoveltyBridge() {
             distinguishes abundant records from the information needed to evaluate interventions.
           </p>
           <p>
-            The closest statistical precedent is Le Goff and Soulier&apos;s
+            Le Goff and Soulier (2017) give a statistical precedent. In their reinforced urn,
+            drawing one color makes it more likely to be drawn again. Even an infinite sequence
+            of draws can leave parameters impossible to estimate consistently. The Shadow Futures
+            theorem gives a condition for this kind of learning failure in market allocation
+            and identifies the quantity at stake as the effect of productive inputs on rewards.
             {" "}
-            <cite>Parameter Estimation of a Two-Colored Urn Model Class</cite>
-            {" "}
-            (2017),
-            {" "}
-            which proves an estimation failure in that narrower urn setting. Shadow Futures adds
-            a market-level comparison budget tied to a single-history impossibility theorem for
-            contribution attribution. It also gives competition an additional role: independent
-            market paths are the replications needed to learn why outcomes diverged.
+            <a href="https://doi.org/10.1515/ijb-2016-0029">
+              <cite>Parameter Estimation of a Two-Colored Urn Model Class</cite>
+            </a>.
           </p>
         </div>
       </div>
@@ -415,11 +425,11 @@ export function CreatorStoryPage() {
               Transaction count alone doesn’t tell us how much a market can teach us.
             </blockquote>
             <p>
-              Under the paper’s assumptions, a finite total comparison budget means no method
-              based on one history can consistently learn a contribution quantity across all
-              possible contribution values. The record can still favor some explanations;
-              it cannot guarantee that uncertainty disappears as time passes. Different
-              contribution values need not produce identical distributions.
+              Suppose product quality has a strong effect on sales in one model and a weaker
+              effect in another. Under the theorem’s assumptions, if both have a finite lifetime
+              comparison budget, no test using one sales history can distinguish them with
+              vanishing error under both models. The receipts can favor one explanation and
+              still leave room for the other, however long the shop stays open.
             </p>
             <p>
               The fading branches are a metaphor for comparisons the market did not generate.
@@ -712,11 +722,11 @@ export function CreatorStoryPage() {
             {[
               [
                 "Tax extreme rewards progressively",
-                "Extreme rewards may combine real contribution with advantages that scale and history magnify. Arguments for higher rates also rely on ability to pay, concentrated power and shared infrastructure; these are additional policy grounds, not a rate derived by the theorem.",
+                "A large payout alone can leave its recipient’s contribution uncertain. A case for higher rates also needs a social goal, such as income security, and evidence about how the tax would affect investment and entry.",
               ],
               [
                 "Use antitrust to keep alternative paths open",
-                "Merger enforcement, interoperability, structural separation and public options can prevent one platform, standard or distribution channel from becoming the only experiment society gets to observe.",
+                "An independent distributor might give an overlooked product its first trial. Preserving that route can be worthwhile if what buyers learn is worth more than the cost of keeping it open.",
               ],
               [
                 "UBI takes survival out of the merit contest",
@@ -747,7 +757,7 @@ export function CreatorStoryPage() {
           number={6}
           eyebrow="The distinct contribution"
           title="The market doesn’t just choose a winner. It chooses what can still be known."
-          intro="Increasing returns explain compounding. Scaling laws relate size to performance. Preferential attachment explains why success attracts more success. Lorenz curves describe inequality. Shadow Futures identifies the missing step: self-reinforcing markets can destroy the comparison paths needed to measure contribution from the one history we observe."
+          intro="The shop can count every sale. It can even measure the quality of both products. But when it keeps giving the best shelf to yesterday’s winner, it can run out of chances to see how much quality matters. A large gap in sales can outlast the evidence needed to explain it."
           illustration={{
             src: "/illustrations/chapters/recorded-path.png",
             alt: "Several possible paths approach a selector, but only one continues into the market record.",

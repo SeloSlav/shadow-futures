@@ -17,8 +17,9 @@ export function BookHero() {
           The recording is the same. What changed?
         </p>
         <p className={styles.description}>
-          From parallel music markets to AI, work, and power, a book about
-          the winners we see and the possibilities their success can leave behind.
+          When early listeners make a song easier for the next listener to find,
+          its play count tells only part of the story. How much can we learn
+          about its appeal if the other songs barely get heard?
         </p>
         <div className={styles.actions}>
           <Link className={styles.primary} href="/book">Read the book free <span aria-hidden="true">↗</span></Link>

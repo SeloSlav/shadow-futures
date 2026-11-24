@@ -32,6 +32,12 @@ No. Those describe mechanisms by which leads compound. Shadow Futures studies wh
 
 No. A Lorenz curve or final market-share distribution is like a scoreboard: it describes how rewards ended up divided. It does not by itself identify what caused them or establish the theorem's conditions.
 
+## How does Shadow Futures relate to DeCanio and Jennings on competition?
+
+DeCanio and Jennings ask what shoppers can infer about their own welfare when competing products are available. Even at the same price, losing a rival can cost buyers the chance to learn which product suits them better. Their article appeared online in May 2025 and in the May 2026 issue of *Politics, Philosophy & Economics*, 25(2), 187–207. [Competition and causal inference: Economic choice and welfare analysis under potential outcomes](https://doi.org/10.1177/1470594X251339588).
+
+Shadow Futures studies how past sales change each seller’s chances of winning the next order. Under the theorem’s assumptions, if the lifetime comparison budget is finite under every candidate input effect, no estimator can consistently recover any nonconstant measure of productive contribution across those effects from one growing history. This can happen even when product quality is observable.
+
 ## Is hidden starting advantage the same problem?
 
 No. The paper also gives a latent-position model in which changing the input effect and offsetting hidden starting advantage leaves every observable probability identical. That is a separate identification problem. More copies of the same unidentified design do not automatically resolve it.
@@ -48,11 +54,11 @@ No. The paper asks whether a merger removes independent routes through which riv
 
 The separate tax theorem says that, when two economies produce identical observable laws but assign different contributions to a reward, one rule using that record cannot tax exactly the residual rent in both. It does not calculate an individual's luck percentage or prove all high income is rent.
 
-The paper discusses taxing observable compounding and an unconditional social dividend that does not reconstruct an exact merit ranking. Progressive taxation or UBI also require policy goals, funding choices, and evidence about incentives and costs. The theorem determines no tax rate or uniquely correct transfer policy.
+Progressive taxation or a social dividend can serve goals such as income security. Restoring opportunities to compare firms takes a further step. Tax revenue could fund comparable trial orders from a second supplier. Whether that is worthwhile depends on the value of the evidence, the cost of the trial, and the tax’s effect on incentives.
 
-## Does this apply to AI agents and automated payments?
+## What if AI agents make the purchases?
 
-Potentially, as an application beyond the paper. Automated payments may extend a reinforced purchasing path rather than provide independent tests of competing firms. The relevant questions are whether informative alternative allocations remain possible and whether the theorem's conditions hold. Payment volume or a protocol alone establishes neither.
+Suppose each agent orders from the highest-ranked supplier, and each order improves that supplier’s ranking. Buyers could end up with a million orders and little evidence about a rival’s delivery times. Applying the theorem to such a market would require knowing the agents’ selection rules and the other evidence available to buyers.
 
 ## Where is the proof?
 

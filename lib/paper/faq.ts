@@ -25,7 +25,7 @@ export const FAQ_GROUPS: FaqGroup[] = [
     label: "01 / Core idea",
     title: "What Shadow Futures means",
     intro:
-      "The central claim is about missing evidence, not merely unequal rewards or the fact that success compounds.",
+      "An early win can change who gets the next chance to compete. These questions explain what we can learn from the history that follows.",
     entries: [
       {
         id: "what-are-shadow-futures",
@@ -58,7 +58,7 @@ export const FAQ_GROUPS: FaqGroup[] = [
         question: "Is Shadow Futures simply an argument about inequality?",
         answer: [
           "No. Inequality describes how rewards are distributed. Shadow Futures studies whether one realized market history contains enough evidence to estimate what productive inputs caused. A concentrated outcome alone does not prove the paper’s learning impossibility.",
-          "The problem can exist whether society considers the resulting inequality fair or unfair. It concerns what the market record can actually prove.",
+          "Suppose one supplier earns ten times as much as another. Its work may genuinely be better. If early contracts also determined who got a chance to bid, the earnings gap alone cannot tell us how much the better work contributed. Calling that gap deserved takes a judgment about fairness as well as evidence about what caused it.",
         ],
       },
       {
@@ -111,19 +111,12 @@ export const FAQ_GROUPS: FaqGroup[] = [
         ],
       },
       {
-        id: "ai-agents-x402-agentic-economy",
-        question:
-          "How do AI agents, x402, and the agentic economy relate to Shadow Futures and UBI?",
+        id: "ai-agent-purchases",
+        question: "What if AI agents make the purchases?",
         answer: [
-          "This is an application beyond the paper. AI agents can make software-mediated purchasing decisions. x402 is an open internet payment standard that lets software pay for APIs and content over HTTP using the 402 Payment Required status code.",
-          "Imagine agents repeatedly buying from a seller because earlier purchases boosted its ranking or reputation. A million automated purchases may mostly continue that lead rather than provide a million independent tests. Whether this reaches the theorem’s impossibility depends on the comparison budget and its other assumptions, not on the payment protocol itself.",
-          "A UBI or social dividend could share gains without reconstructing an exact merit ranking. Choosing it also requires judgments about income security, ownership, financing, and incentives. The theorem neither predicts where automation income will go nor selects UBI as the uniquely correct response.",
+          "Suppose each agent orders from the highest-ranked supplier and every order raises that supplier’s ranking. The order book can grow quickly while telling buyers very little about how a rival would perform. An agent that occasionally tries a rival and measures delivery times could give buyers a new basis for comparison.",
+          "This is an example of feedback in automated purchasing. Applying the theorem would require knowing how the agents choose suppliers and what other evidence buyers can observe.",
         ],
-        inlineLink: {
-          paragraphIndex: 0,
-          text: "x402 is an open internet payment standard",
-          href: "https://docs.x402.org/introduction",
-        },
       },
       {
         id: "lorenz-curve",
@@ -142,6 +135,20 @@ export const FAQ_GROUPS: FaqGroup[] = [
     intro:
       "Competition can preserve paths that produce evidence, provided those paths are sufficiently independent and informative.",
     entries: [
+      {
+        id: "decanio-and-jennings",
+        question: "How does Shadow Futures relate to DeCanio and Jennings on competition?",
+        answer: [
+          "Samuel DeCanio and Colin Jennings ask how shoppers judge which product would serve them better. When competing products are available, buyers can compare their features and draw on others’ experience. Losing a rival can deprive consumers of useful information even if the price stays the same.",
+          "Shadow Futures follows what happens when each sale changes who is likely to win the next one. Strong enough feedback can give rivals so few chances that the lifetime comparison budget is finite. Under the theorem’s other assumptions, even a researcher who observes product quality and every sale has no way to estimate the effect of quality consistently across all candidate values from that history.",
+          "Their article appeared online in May 2025 and in the May 2026 issue of Politics, Philosophy & Economics, volume 25, pages 187–207. Competition and causal inference: Economic choice and welfare analysis under potential outcomes.",
+        ],
+        inlineLink: {
+          paragraphIndex: 2,
+          text: "Competition and causal inference: Economic choice and welfare analysis under potential outcomes",
+          href: "https://doi.org/10.1177/1470594X251339588",
+        },
+      },
       {
         id: "epistemic-monopoly",
         question: "What’s an epistemic monopoly?",
@@ -189,7 +196,7 @@ export const FAQ_GROUPS: FaqGroup[] = [
         answer: [
           "The paper’s tax theorem asks whether a rule using the observed record can tax exactly the part of a reward left after assigned contribution. If two structural economies produce the same observable law but assign different contributions to the same reward, that rule must choose the same tax even though the target taxes differ. It cannot be exact in both.",
           "This is a separate result from the finite-comparison theorem. It requires observationally identical economies with different contribution assignments; it does not follow merely from a high income or a concentrated market. Nor does it establish that all high income is rent, that risk is fictitious, or that taxation is impossible.",
-          "The paper suggests targeting observable compounding, using ranges of contribution compatible with the evidence, and considering an unconditional social dividend. Progressive taxation, public services, or UBI can also be argued for using goals such as ability to pay, security, and sharing common gains. Those are additional policy judgments; the theorem supplies no exact tax rate or deserved share.",
+          "A policy aimed at restoring competition needs a way to create new comparisons. A tax could, for example, fund a trial in which a second supplier fills comparable orders. The case for that use of revenue depends on what buyers could learn, what the trial would cost, and how suppliers would respond to the tax.",
         ],
       },
       {
