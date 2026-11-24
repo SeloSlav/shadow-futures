@@ -21,7 +21,7 @@ export const PAPER = {
   firstPosted: "December 2025",
   revised: "November 2026",
   publishedDate: "2025-12",
-  modifiedDate: "2026-11-22",
+  modifiedDate: "2026-11-24",
   abstract:
     "Can a market observe productive inputs perfectly yet fail to learn their effects on reward? I study markets where inputs affect reward odds and past rewards shape future exposure. The comparison budget sums, across allocations, the probabilities that someone other than the current favorite wins. In a conditional logit model with bounded input differences, this budget bounds Fisher information about input effects. If the lifetime budget is almost surely finite under every parameter, a single market history cannot distinguish competing effects with vanishing error. Yet models that disagree about those effects converge in their forecasts of future allocations.",
   aiDisclosure:
